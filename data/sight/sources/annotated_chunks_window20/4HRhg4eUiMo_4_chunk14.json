@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Yeah, it's a measurable function of the data that does not depend on the parameter."
+    },
+    {
+        "text": "Is this guy a statistic?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "Yes, he is."
+    },
+    {
+        "text": "PROFESSOR PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Let's think again."
+    },
+    {
+        "text": "When I implemented the test, what did I do?"
+    },
+    {
+        "text": "I was able to compute my test."
+    },
+    {
+        "text": "My test did not depend on some unknown parameter."
+    },
+    {
+        "text": "How did we do it?"
+    },
+    {
+        "text": "We just plugged in 0.5 here."
+    },
+    {
+        "text": "Remember?"
+    },
+    {
+        "text": "That was the value for which we computed it, because under h0, that was the value we're seeing."
+    },
+    {
+        "text": "And if theta 0 is actually an entire set, I'm just going to take the value that's the closest to h1."
+    },
+    {
+        "text": "We'll see that in a second."
+    },
+    {
+        "text": "I mean, I did not guarantee that to you."
+    },
+    {
+        "text": "But just taking the worst type 1 error and bounding it by alpha is equivalent to taking p and taking the value of p that's the closest to theta 1, which is completely intuitive."
+    },
+    {
+        "text": "The worst type 1 error is going to be attained for the p that's the closest to the alternative."
+    },
+    {
+        "text": "So even if the null is actually just an entire set, it's as if it was just the point that's the closest to the alternative."
+    },
+    {
+        "text": "So now we can compute this, because there's no unknown parameters that shows up."
+    }
+]

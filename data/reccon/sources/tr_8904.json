@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Pratt . How was your interview yesterday ?",
+        "emotion": "neutral",
+        "text": "Hello , Pratt . How was your interview yesterday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , Finn . I did a wonderful job and I was employed . How about you ?",
+        "emotion": "neutral",
+        "text": "Hello , Finn . I did a wonderful job and I was employed . How about you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I am sorry to tell you that I have lost the opportunity .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am sorry to tell you that I have lost the opportunity ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am sorry to tell you that I have lost the opportunity .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Why ? You are so excellent . I think you are the most suitable person for the job .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I am sorry to tell you that I have lost the opportunity .",
+            "You are so excellent . I think you are the most suitable person for the job ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Why ? You are so excellent . I think you are the most suitable person for the job .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , I know I am excellent , but I pay no attention to the etiquette you ' Ve told me .",
+        "emotion": "neutral",
+        "text": "Yes , I know I am excellent , but I pay no attention to the etiquette you ' Ve told me .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What ? Then what did you do ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I pay no attention to the etiquette you ' Ve told me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Then what did you do ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "When I entered the room , I forgot to close the door . Later , I couldn ' t help smoking , you know I am a heavy-smoker . What ' s more , I forgot to polish my shoes . There is some dirt on it .",
+        "emotion": "neutral",
+        "text": "When I entered the room , I forgot to close the door . Later , I couldn ' t help smoking , you know I am a heavy-smoker . What ' s more , I forgot to polish my shoes . There is some dirt on it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You are so careless . You know they are the basic rules you should follow before you attend an interview . Do remember not to smoke any more , otherwise , you can ' t find a job .",
+        "emotion": "neutral",
+        "text": "You are so careless . You know they are the basic rules you should follow before you attend an interview . Do remember not to smoke any more , otherwise , you can ' t find a job .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , I know . And next time I must make good preparations .",
+        "emotion": "neutral",
+        "text": "Yes , I know . And next time I must make good preparations .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good luck next time .",
+        "emotion": "neutral",
+        "text": "Good luck next time .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "neutral",
+        "text": "Thank you .",
+        "id": 11
+    }
+]

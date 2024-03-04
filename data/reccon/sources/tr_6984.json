@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Brooke , I have bad news .",
+        "emotion": "neutral",
+        "text": "Brooke , I have bad news .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have bad news ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I called the airlines to reconfirm the reservations today .",
+        "emotion": "neutral",
+        "text": "I called the airlines to reconfirm the reservations today .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Don't you dare tell me that ...",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I have bad news .",
+            "I called the airlines to reconfirm the reservations today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't you dare tell me that ...",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm sorry . I didn't reconfirm in time and they gave away half of the seats .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm sorry . I didn't reconfirm in time and they gave away half of the seats ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry . I didn't reconfirm in time and they gave away half of the seats .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , they should have called you !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I didn't reconfirm in time and they gave away half of the seats ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , they should have called you !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "They said that they did . I've been so busy ...",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "They said that they did ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They said that they did . I've been so busy ...",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "And you didn't think to leave them my cell phone ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "you didn't think to leave them my cell phone ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And you didn't think to leave them my cell phone ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I didn't think there would be a problem .",
+        "emotion": "neutral",
+        "text": "I didn't think there would be a problem .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's the holidays ! Everybody knows how hard it is to get tickets !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's the holidays ! Everybody knows how hard it is to get tickets !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's the holidays ! Everybody knows how hard it is to get tickets !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I'm sorry . We're still going . I got reservations for all of us on the 31st . It will be OK . Trust me .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'm sorry ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry . We're still going . I got reservations for all of us on the 31st . It will be OK . Trust me .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Trust you ! You can't even handle simple plane reservations !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "You can't even handle simple plane reservations !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Trust you ! You can't even handle simple plane reservations !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Brooke !",
+        "emotion": "neutral",
+        "text": "Brooke !",
+        "id": 13
+    }
+]

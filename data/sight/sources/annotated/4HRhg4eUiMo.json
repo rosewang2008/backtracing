@@ -1,0 +1,2639 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Talking about tests, and to be fair, we spend most of our time talking about new jargon that we're using."
+    },
+    {
+        "text": "But the main goal is to take a binary decision, yes and no."
+    },
+    {
+        "text": "So just so that we're clear and we make sure that we all speak the same language, let me just remind you what the key words are for tests."
+    },
+    {
+        "text": "So the first thing is that we split theta in theta 0 and theta 1."
+    },
+    {
+        "text": "Both are included in theta, and they're disjoint."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So I have my set of possible parameters."
+    },
+    {
+        "text": "And then I have theta 0 is here, theta 1 is here, and there might be something that I leave out."
+    },
+    {
+        "text": "And so what we're doing is we have two hypotheses."
+    },
+    {
+        "text": "So here's our hypothesis testing problem."
+    },
+    {
+        "text": "And it's h0 theta belongs to theta 0 versus h1 theta belongs to theta 1."
+    },
+    {
+        "text": "This guy was called the null, and this guy was called the alternative."
+    },
+    {
+        "text": "And why we give them special names is because we saw that they have an asymmetric role."
+    },
+    {
+        "text": "The null represents the status quo, and data is here to bring evidence against this guy."
+    },
+    {
+        "text": "And we can really never conclude that h0 is true because all we could conclude is that h1 is not true or may not be true."
+    },
+    {
+        "text": "So that was the first thing."
+    },
+    {
+        "text": "The second thing was the hypothesis."
+    },
+    {
+        "text": "The third thing is what is a test?"
+    },
+    {
+        "text": "Well, psi, it's a statistic."
+    },
+    {
+        "text": "And it takes the data, and it maps it into 0 or 1."
+    },
+    {
+        "text": "And I didn't really mention it, but there's something such as called randomized tests, which is, well, if it cannot really make a decision, they might as well flip a coin."
+    },
+    {
+        "text": "That tends to be biased, but that's really, I mean, think about it in practice."
+    },
+    {
+        "text": "You probably don't want to make decisions based on flipping a coin."
+    },
+    {
+        "text": "And so what people typically do, this is happening typically at one specific value."
+    },
+    {
+        "text": "So rather than flipping a coin for this very specific value, what people typically do is they say, OK, I'm going to side with h0 because that's the most conservative choice I can make."
+    },
+    {
+        "text": "So in a way, they think of flipping this coin, but always falling on heads."
+    },
+    {
+        "text": "So associated to this test was something called, well, the rejection region."
+    },
+    {
+        "text": "And r psi, which is just the set of data, x1, xn, such that psi of x1, xn is equal to 1."
+    },
+    {
+        "text": "So that means we rejected 0 when the test is 1, and those are the set of data points that actually are going to lead me to reject the test."
+    },
+    {
+        "text": "OK. Then the things that were actually slightly a little more important and really peculiar to test, specific to test, were the type 1 and type 2 error."
+    },
+    {
+        "text": "So the type 1 error arises when, so type 1 error is when you reject whereas h0 is correct."
+    },
+    {
+        "text": "And the type 2 error is the opposite."
+    },
+    {
+        "text": "So it's failed to reject whereas h1 is correct."
+    },
+    {
+        "text": "h is correct."
+    },
+    {
+        "text": "So those are the two types of errors you can make, and we quantify their probability of type 1 error."
+    },
+    {
+        "text": "So alpha psi is the probability."
+    },
+    {
+        "text": "So that's the probability of type 1 error."
+    },
+    {
+        "text": "So psi is just the probability for theta that psi rejects, and that's defined for theta and theta 0."
+    },
+    {
+        "text": "So for different values of theta 0, so h0 being correct means there exists a theta in theta 0 for which that actually is the right distribution."
+    },
+    {
+        "text": "So for different values of theta, I might make different errors."
+    },
+    {
+        "text": "So if you think, for example, about the coin example, if I'm testing if the coin is biased towards heads or biased towards tails, so if I'm testing whether p is larger than 1 half or less than 1 half, then when the true p, let's say h0 is larger than 1 half, when p is equal to 1, it's actually very difficult for me to make a mistake, because I only see heads."
+    },
+    {
+        "text": "So when p is getting closer to 1 half, I'm going to start making more and more probability there."
+    },
+    {
+        "text": "And so the type 2 error, so that's the probability of type 2, is denoted by beta psi."
+    },
+    {
+        "text": "And it's the function that does the opposite, and this time is defined for theta and theta 0 and theta 1."
+    },
+    {
+        "text": "And finally, we define something called the power pi of psi."
+    },
+    {
+        "text": "And this time, this is actually a number."
+    },
+    {
+        "text": "And so this number is equal to the maximum over theta and theta 0."
+    },
+    {
+        "text": "I mean, that could be a supremum, but think of it as being a maximum of p theta of psi is equal, sorry, that's in 0."
+    },
+    {
+        "text": "Give me one sec."
+    },
+    {
+        "text": "No, that's the min."
+    },
+    {
+        "text": "So this is not making a mistake."
+    },
+    {
+        "text": "Theta 0 is in theta 1."
+    },
+    {
+        "text": "So theta is in theta 1, and I conclude 1."
+    },
+    {
+        "text": "So this is a good thing."
+    },
+    {
+        "text": "I want this number to be large, and I'm looking at the worst house, what is the smallest value this number can be."
+    },
+    {
+        "text": "So what I want to show you a little bit is a picture."
+    },
+    {
+        "text": "So now I'm going to take theta, and think of it as being p. So I'm going to take p for some Bernoulli experiment."
+    },
+    {
+        "text": "So p can range between 0 and 1, that's for sure."
+    },
+    {
+        "text": "And what I'm going to try to test is whether p is less than 1 half or larger than 1 half."
+    },
+    {
+        "text": "So this is going to be, let's say, theta 0, and this guy here is theta 1."
+    },
+    {
+        "text": "Just trying to give you a picture of what those guys are."
+    },
+    {
+        "text": "So I have my y-axis."
+    },
+    {
+        "text": "Now I'm going to start drawing numbers, all these things, this function, this function, and this number are all numbers between 0 and 1."
+    },
+    {
+        "text": "So now I'm claiming that when I move from left to right, what is my probability of rejecting going to do?"
+    },
+    {
+        "text": "So what I'm going to plot is the probability under theta."
+    },
+    {
+        "text": "The first thing I want to plot is the probability under theta that psi is equal to 1."
+    },
+    {
+        "text": "And let's say psi, think of psi as being just this indicator that square root of n xn bar minus p over square root xn bar, 1 minus xn bar, is larger than some constant c for a properly chosen c. So what we choose is that c is in such a way that at 1 half, when we're testing for 1 half, what we wanted was this number to be equal to alpha, basically."
+    },
+    {
+        "text": "So we fix this alpha number so that this guy, so if I want alpha of psi of theta less than alpha, given in advance, so think of it as being equal to, say, 5%."
+    },
+    {
+        "text": "So I'm fixing this number, and I want this to be controlled for all theta and theta 0."
+    },
+    {
+        "text": "So if you're going to give me this budget, well, I'm actually going to make it equal where I can."
+    },
+    {
+        "text": "If you're telling me you can make it equal to alpha, we know that if I increase my type 1 error, I'm going to decrease my type 2 error."
+    },
+    {
+        "text": "If I start putting everyone in jail, or if I start letting everyone go free, that's what we're discussing last time."
+    },
+    {
+        "text": "So since we have this trade-off, and you're giving me a budget for one guy, I'm just going to max it out."
+    },
+    {
+        "text": "And where am I going to max it out?"
+    },
+    {
+        "text": "Exactly at 1 half at the boundary."
+    },
+    {
+        "text": "So this is going to be 5%."
+    },
+    {
+        "text": "So what I know is that since alpha of theta is less than alpha for all theta and theta 0, sorry, that's for theta 0, that's where alpha is defined."
+    },
+    {
+        "text": "So for theta and theta 0, I know that my function is going to look like this."
+    },
+    {
+        "text": "It's going to be somewhere in this rectangle."
+    },
+    {
+        "text": "Everybody agrees?"
+    },
+    {
+        "text": "So this function for this guy is going to look like this."
+    },
+    {
+        "text": "When I'm at 0, when p is equal to 0, which means I only observe 0's, then I know that p is going to be 0."
+    },
+    {
+        "text": "And I will certainly not conclude that p is equal to 1."
+    },
+    {
+        "text": "This test will never conclude that p is equal to 1."
+    },
+    {
+        "text": "Sorry, that was, yeah."
+    },
+    {
+        "text": "That p is equal to, that p is lower than 1 half, just because xn bar is going to be equal to 0."
+    },
+    {
+        "text": "OK, well, this is actually not well-defined."
+    },
+    {
+        "text": "So maybe I need to do something, put it equal to 0 if xn bar is equal to 0."
+    },
+    {
+        "text": "So I guess basically I get something which is negative."
+    },
+    {
+        "text": "And so it's never going to be larger than what I want."
+    },
+    {
+        "text": "And so here I'm actually starting at 0."
+    },
+    {
+        "text": "So now this is this function here that increases."
+    },
+    {
+        "text": "I mean, it should increase smoothly."
+    },
+    {
+        "text": "This function here is alpha psi of theta, or alpha psi of p, let's say, because we're talking about p. Then it reaches alpha here."
+    },
+    {
+        "text": "Now when I go on the other side, I'm actually looking at beta."
+    },
+    {
+        "text": "When I'm on theta 1, the function that matters is the probability of type 2 error, which is beta psi."
+    },
+    {
+        "text": "And this beta psi is actually going to increase."
+    },
+    {
+        "text": "So beta psi is what?"
+    },
+    {
+        "text": "Well, beta psi should also, sorry, that's the probability of being equal to alpha."
+    },
+    {
+        "text": "So what I'm going to do is I'm going to look at the probability of rejecting."
+    },
+    {
+        "text": "So let me draw this function all the way."
+    },
+    {
+        "text": "It's going to look like this."
+    },
+    {
+        "text": "Now here, if I look at this function here or here, this is the probability under theta that psi is equal to 1."
+    },
+    {
+        "text": "And we just said that in this region, this function is called alpha psi."
+    },
+    {
+        "text": "In that region, it's not called alpha psi."
+    },
+    {
+        "text": "It's not called anything."
+    },
+    {
+        "text": "It's just the probability of rejection."
+    },
+    {
+        "text": "So it's not an error."
+    },
+    {
+        "text": "It's actually what you should be doing."
+    },
+    {
+        "text": "What we're looking at in this region is 1 minus this guy."
+    },
+    {
+        "text": "We're looking at the probability of not rejecting."
+    },
+    {
+        "text": "So I need to actually basically look at 1 minus this thing, which here is going to be 95%."
+    },
+    {
+        "text": "So I'm going to do 95%."
+    },
+    {
+        "text": "And this is my probability."
+    },
+    {
+        "text": "And I'm just basically drawing the symmetric of this guy."
+    },
+    {
+        "text": "So this here is the probability under theta that psi is equal to 0, which is 1 minus p theta that psi is equal to 1."
+    },
+    {
+        "text": "So it's just 1 minus the white curve."
+    },
+    {
+        "text": "And it's actually, by definition, equal to beta psi of theta."
+    },
+    {
+        "text": "Now, where do I read pi psi?"
+    },
+    {
+        "text": "What is pi psi on this picture?"
+    },
+    {
+        "text": "Is pi psi a number or a function?"
+    },
+    {
+        "text": "It's a number, right?"
+    },
+    {
+        "text": "It's the minimum of a function."
+    },
+    {
+        "text": "What is this function?"
+    },
+    {
+        "text": "It's the probability under theta that theta is equal to 1."
+    },
+    {
+        "text": "I drew this entire function between theta 0 and theta 1."
+    },
+    {
+        "text": "I drew this entire white curve."
+    },
+    {
+        "text": "This is this probability."
+    },
+    {
+        "text": "Now, I'm saying, look at the smallest value this probability can take on the set theta 1."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "This guy."
+    },
+    {
+        "text": "This is where my pi, this thing here, is pi psi."
+    },
+    {
+        "text": "And so it's equal to 5%."
+    },
+    {
+        "text": "So that's for this particular test, because this test is sort of a continuous curve for this psi."
+    },
+    {
+        "text": "And so if I want to make sure that I'm at 5% when I come to the right of theta 0, if it touches theta 1, then I better have 5% on the other side if the function is continuous."
+    },
+    {
+        "text": "So basically, if this function is increasing, which will be the case for most tests, then what's going to happen is that, and continuous, then what's going to happen is that the level of the test, which is alpha, is actually going to be equal to the power of the test."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, there's something I didn't mention, and I'm just mentioning it, pass it by."
+    },
+    {
+        "text": "Here, I define the power itself."
+    },
+    {
+        "text": "This function, this entire white curve here, is actually called the power function."
+    },
+    {
+        "text": "This thing, that's the entire white curve."
+    },
+    {
+        "text": "And what you could have is tests that have the entire curve, which is dominated by another test."
+    },
+    {
+        "text": "So here, if I look at this test, and let's assume I can build another test that has this curve."
+    },
+    {
+        "text": "Let's say it's the same here."
+    },
+    {
+        "text": "But then here, it looks like this."
+    },
+    {
+        "text": "What is the power of this test?"
+    },
+    {
+        "text": "It's the same."
+    },
+    {
+        "text": "It's 5%, because this point touches here exactly at the same point."
+    },
+    {
+        "text": "However, for any other value than the worst possible, this guy is doing better than this guy."
+    },
+    {
+        "text": "Can you see that?"
+    },
+    {
+        "text": "Having a curve higher on the right-hand side is a good thing, because it means that you tend to reject more when you're actually in H1."
+    },
+    {
+        "text": "So this guy is definitely better than this guy."
+    },
+    {
+        "text": "And so what we say in this case is that the test with the dashed line is uniformly more powerful than the other test."
+    },
+    {
+        "text": "But we're not going to go into those details, because basically, all the tests that we will describe are already the most powerful ones."
+    },
+    {
+        "text": "In particular, this guy is, there's no such thing."
+    },
+    {
+        "text": "All the other guys you can come up with are going to actually be below."
+    },
+    {
+        "text": "So we saw a couple tests, and we saw how to pick this threshold, and we defined those two things."
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 2 But in that case, the down one, if it were also higher in the region of 2 to 0, do you still consider it better?"
+    },
+    {
+        "text": "PHILIPPE RIGOLLETTIS Because you're given this budget of 5%, right?"
+    },
+    {
+        "text": "So in this paradigm, where you're given the, actually, if the dashed line was this dashed line, I would still be happy."
+    },
+    {
+        "text": "I mean, I don't care what this thing does here, as long as it's below 5%."
+    },
+    {
+        "text": "But here, I'm going to try to discover it, right?"
+    },
+    {
+        "text": "Think about, again, the drug discovery example."
+    },
+    {
+        "text": "You're trying to find, let's say you're a scientist, and you're trying to prove that your drug works."
+    },
+    {
+        "text": "What do you want to see?"
+    },
+    {
+        "text": "Well, FDA puts on you this constraint that your probability of type 1 error should never exceed 5%."
+    },
+    {
+        "text": "You're going to work under this assumption."
+    },
+    {
+        "text": "But what you're going to do is going to try to find a test that will make you find something as often as possible."
+    },
+    {
+        "text": "And so you're going to max this constraint of 5%, and then you're going to try to make this curve, this curve that means that this is basically, this number here, for any point here, is the probability that you publish your paper."
+    },
+    {
+        "text": "That's the probability that you can release to market your drug."
+    },
+    {
+        "text": "That's the probability that it works, right?"
+    },
+    {
+        "text": "And so you want this curve to be as high as possible."
+    },
+    {
+        "text": "You want to make sure that if there's evidence in the data that H1 is the truth, you want to squeeze as much of this evidence as possible."
+    },
+    {
+        "text": "And the test that has the highest possible curve is the most powerful one."
+    },
+    {
+        "text": "Now, you have to also understand that having two curves that are on top of each other, completely, everywhere, is a rare phenomenon."
+    },
+    {
+        "text": "It's not always the case that there is a test that's uniformly more powerful than any other test."
+    },
+    {
+        "text": "It might be that you have some trade-off, that it might be better here, but then you're losing power here."
+    },
+    {
+        "text": "Things like this."
+    },
+    {
+        "text": "Well, actually, maybe it should not go down."
+    },
+    {
+        "text": "But let's say it goes like this, and then maybe this guy goes like this."
+    },
+    {
+        "text": "Then you have to basically make an educated guess whether you think that the theta you're going to find is here or it's here."
+    },
+    {
+        "text": "And then you pick a test."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any other question?"
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 2."
+    },
+    {
+        "text": "What is the derivative of the type 2 error?"
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "So the green curve is exactly right."
+    },
+    {
+        "text": "So that's beta psi of theta."
+    },
+    {
+        "text": "So it's really the type 2 error, and it's defined only here."
+    },
+    {
+        "text": "So here, it's not a definition."
+    },
+    {
+        "text": "It's really just I'm just mapping it to this point."
+    },
+    {
+        "text": "So it's defined only here, and it's the probability of type 2 error."
+    },
+    {
+        "text": "So here, it's pretty large, right?"
+    },
+    {
+        "text": "I'm making it basically as large as I could, because I'm at the boundary."
+    },
+    {
+        "text": "And that means at the boundary, since the status quo is h0, I'm always going to go for h0 if I don't have any evidence, which means that what's going to pay is the type 2 error that's going to basically pay this."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any other question?"
+    },
+    {
+        "text": "All right, so let's move on."
+    },
+    {
+        "text": "So did we do this?"
+    },
+    {
+        "text": "No, I think we stopped here, right?"
+    },
+    {
+        "text": "I didn't cover that part."
+    },
+    {
+        "text": "So as I said, in this paradigm, we're going to actually fix this guy to be something."
+    },
+    {
+        "text": "And this thing is actually called the level of the test."
+    },
+    {
+        "text": "I'm sorry, this is again more words."
+    },
+    {
+        "text": "Actually, good news is that we split it into two lectures."
+    },
+    {
+        "text": "So we have, what is a test?"
+    },
+    {
+        "text": "What is a hypothesis?"
+    },
+    {
+        "text": "What is the null?"
+    },
+    {
+        "text": "What is the alternative?"
+    },
+    {
+        "text": "What is the type 1 error?"
+    },
+    {
+        "text": "What is the type 2 error?"
+    },
+    {
+        "text": "And now, I'm telling you there's another thing."
+    },
+    {
+        "text": "So we defined the power, which was some sort of a lower bound on the, or it's 1 minus the upper bound on the type 2 error, basically."
+    },
+    {
+        "text": "And so it's alternative."
+    },
+    {
+        "text": "So the power is the smallest probability of rejecting when you're in the null."
+    },
+    {
+        "text": "And it's alternative when you're in theta 1, right?"
+    },
+    {
+        "text": "So that's my power."
+    },
+    {
+        "text": "I looked here, and I looked at the smallest value."
+    },
+    {
+        "text": "And I can look at this side and say, well, what is the largest probability that I make a type 1 error?"
+    },
+    {
+        "text": "Again, this largest probability is the level of the test."
+    },
+    {
+        "text": "OK, so this is alpha equal, by definition, to the maximum for theta and theta 0 of alpha psi of theta."
+    },
+    {
+        "text": "So here, I just put the level itself."
+    },
+    {
+        "text": "As you can see here, it essentially says that if I'm of level 5%, I'm also of level 10%."
+    },
+    {
+        "text": "I'm also of level 15%."
+    },
+    {
+        "text": "So here, it's really an upper bound."
+    },
+    {
+        "text": "Whatever you guys want to take, this is what it is."
+    },
+    {
+        "text": "But as we said, if this number is 4.5%, you're losing in your type 2 error."
+    },
+    {
+        "text": "So if you're allowed to have, if this maximum here is 4.5%, and FDA told you you can go to 5%, you're losing in your type 2 error."
+    },
+    {
+        "text": "So you actually want to make sure that this is the 5% that's given to you."
+    },
+    {
+        "text": "So the way it works is that you give me the alpha."
+    },
+    {
+        "text": "Then I'm going to go back, pick c that depends on alpha here, so that this thing is actually equal to 5%."
+    },
+    {
+        "text": "And so, of course, in many instances, we do not know the probability."
+    },
+    {
+        "text": "We do not know how to compute the probability of type 1 error."
+    },
+    {
+        "text": "This is a maximum value for the probability of type 1 error."
+    },
+    {
+        "text": "We don't know how to compute it."
+    },
+    {
+        "text": "I mean, it might be a very complicated random variable."
+    },
+    {
+        "text": "Maybe it's a weird binomial."
+    },
+    {
+        "text": "We could compute it, but it would be painful."
+    },
+    {
+        "text": "But what we know how to compute is its asymptotic value, which is because of the central limit theorem, convergence and distribution tells me that the probability of type 1 error is basically going towards the probability that some Gaussian is in some region."
+    },
+    {
+        "text": "And so we're going to compute not the level itself, but the asymptotic level."
+    },
+    {
+        "text": "So again, that's basically the limit as n goes to infinity of alpha psi of theta."
+    },
+    {
+        "text": "And then I'm going to make the max here."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So how am I going to compute this?"
+    },
+    {
+        "text": "Well, if I take a test that has rejection region of the form Tn, because it depends on the data, right?"
+    },
+    {
+        "text": "That's Tn of x1, xn, my observations, larger than some number c. OK?"
+    },
+    {
+        "text": "Of course, I can almost always write tests like that, except that sometimes there's going to be an absolute value, which essentially means I'm going away from some value."
+    },
+    {
+        "text": "Maybe actually I'm less than something, but I can always put a negative sign in front of everything."
+    },
+    {
+        "text": "So this is not without much of generality, right?"
+    },
+    {
+        "text": "So this includes something that looks like something is larger than the constant, right?"
+    },
+    {
+        "text": "So that means, which is equivalent to, well, let me write it as Tq."
+    },
+    {
+        "text": "OK, because then that means that, so that's Tn."
+    },
+    {
+        "text": "But this actually encompasses the fact that Qn is larger than c, or Qn is less than c, then minus c. So that includes this guy."
+    },
+    {
+        "text": "That also includes Qn less than c, because this is equivalent to Qn is larger than minus c. Minus Qn is, and so that's going to be my Tn."
+    },
+    {
+        "text": "So I can actually encode several type of things, OK?"
+    },
+    {
+        "text": "Rejection regions that, so here in this case, I have a rejection region that looks like this, or a rejection region that looks like this, or a rejection region that looks like this."
+    },
+    {
+        "text": "OK, and here I don't really represent it for the whole data, but maybe for the average, for example, or the normalized average."
+    },
+    {
+        "text": "OK, so if I write this, then, yeah."
+    },
+    {
+        "text": "And in this case, this Tn that shows up is called test statistic."
+    },
+    {
+        "text": "I mean, this is sort of a, I mean, this is not like set in stone."
+    },
+    {
+        "text": "Here, for example, Q could be the test statistics."
+    },
+    {
+        "text": "It doesn't have to be minus Q itself that's the test statistic, right?"
+    },
+    {
+        "text": "So what is the test statistic?"
+    },
+    {
+        "text": "Well, it's what you're going to build from your data and then compare to some fixed value, right?"
+    },
+    {
+        "text": "So in the example we had here, what is our test statistic?"
+    },
+    {
+        "text": "Well, it's this guy, right?"
+    },
+    {
+        "text": "This was our test statistic."
+    },
+    {
+        "text": "And is this thing a statistic?"
+    },
+    {
+        "text": "What are the criteria for a statistic?"
+    },
+    {
+        "text": "What is a statistic?"
+    },
+    {
+        "text": "I know you know the answer."
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Is it a measurable function?"
+    },
+    {
+        "text": "PROFESSOR PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Yeah, it's a measurable function of the data that does not depend on the parameter."
+    },
+    {
+        "text": "Is this guy a statistic?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "Yes, he is."
+    },
+    {
+        "text": "PROFESSOR PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Let's think again."
+    },
+    {
+        "text": "When I implemented the test, what did I do?"
+    },
+    {
+        "text": "I was able to compute my test."
+    },
+    {
+        "text": "My test did not depend on some unknown parameter."
+    },
+    {
+        "text": "How did we do it?"
+    },
+    {
+        "text": "We just plugged in 0.5 here."
+    },
+    {
+        "text": "Remember?"
+    },
+    {
+        "text": "That was the value for which we computed it, because under h0, that was the value we're seeing."
+    },
+    {
+        "text": "And if theta 0 is actually an entire set, I'm just going to take the value that's the closest to h1."
+    },
+    {
+        "text": "We'll see that in a second."
+    },
+    {
+        "text": "I mean, I did not guarantee that to you."
+    },
+    {
+        "text": "But just taking the worst type 1 error and bounding it by alpha is equivalent to taking p and taking the value of p that's the closest to theta 1, which is completely intuitive."
+    },
+    {
+        "text": "The worst type 1 error is going to be attained for the p that's the closest to the alternative."
+    },
+    {
+        "text": "So even if the null is actually just an entire set, it's as if it was just the point that's the closest to the alternative."
+    },
+    {
+        "text": "So now we can compute this, because there's no unknown parameters that shows up."
+    },
+    {
+        "text": "We replaced p by 0.5."
+    },
+    {
+        "text": "And so that was our test statistic."
+    },
+    {
+        "text": "So when you're building a test, you want to first build a test statistic and then see what threshold you should be getting."
+    },
+    {
+        "text": "So now let's go back to our example where we have x1, xn."
+    },
+    {
+        "text": "They're iid Bernoulli p. And I want to test if p is 1 half versus p not equal to 1 half, which as I said is what you want to do if you want to test if a coin is fair."
+    },
+    {
+        "text": "And so here I'm going to build a test statistic."
+    },
+    {
+        "text": "And we concluded last time that what do we want for this statistic?"
+    },
+    {
+        "text": "We want it to have a distribution which under the null does not depend on the parameters, a distribution that I can actually compute quintiles of."
+    },
+    {
+        "text": "So what we did is we said, well, if I look at the central limit theorem tells me that square root of n xn bar minus p divided by."
+    },
+    {
+        "text": "So if I do central limit theorem plus Slutsky, for example, I'm going to have square root."
+    },
+    {
+        "text": "And we've had this discussion whether we want to use Slutsky or not here."
+    },
+    {
+        "text": "But let's assume we're taking Slutsky wherever we can."
+    },
+    {
+        "text": "So this thing tells me that by the central limit theorem as n goes to infinity, this thing converges in distribution to some n 0, 1."
+    },
+    {
+        "text": "Now as we said, this guy is not something we know."
+    },
+    {
+        "text": "But under the null, we actually know it."
+    },
+    {
+        "text": "And we can actually replace it by 1 half."
+    },
+    {
+        "text": "So this thing holds under h0."
+    },
+    {
+        "text": "When I write under h0, it means when this is the truth."
+    },
+    {
+        "text": "So now I have something that converges to something that has no dependence on anything I don't know."
+    },
+    {
+        "text": "And in particular, if you have any statistics textbook, which you don't because I didn't require one, you should be thankful because this thing costs $250."
+    },
+    {
+        "text": "This thing's actually, if you look at the back, you actually have a table for a standard Gaussian."
+    },
+    {
+        "text": "I could have anything else here."
+    },
+    {
+        "text": "I could have an exponential distribution."
+    },
+    {
+        "text": "I could have a, I don't know, a, well, we'll see the chi-square distribution in a minute."
+    },
+    {
+        "text": "Any distribution from which you can actually see a table that somebody actually computed this thing for which you can actually draw the PDF and start computing whatever probability you want on them, then this is what you want to see at the right-hand side."
+    },
+    {
+        "text": "This is any distribution."
+    },
+    {
+        "text": "It's called pivotal."
+    },
+    {
+        "text": "I think we've mentioned that before."
+    },
+    {
+        "text": "Pivotal means it does not depend on anything that you don't know."
+    },
+    {
+        "text": "And maybe it's easy to compute those things."
+    },
+    {
+        "text": "Probably, typically, you need a computer to simulate them for you because computing probabilities for Gaussians is not an easy thing."
+    },
+    {
+        "text": "We don't know how to solve those integrals exactly."
+    },
+    {
+        "text": "We have to do it numerically."
+    },
+    {
+        "text": "OK, so now I want to do this test."
+    },
+    {
+        "text": "My test statistic will be declared to be what?"
+    },
+    {
+        "text": "Well, I'm going to reject if what is larger than some number?"
+    },
+    {
+        "text": "The absolute value of this guy."
+    },
+    {
+        "text": "So my test statistic is going to be square root of n minus 0.5 divided by square root of xn bar 1 minus xn bar."
+    },
+    {
+        "text": "That's my test statistic, absolute value of this guy, because I want to reject either when this guy is too large or when this guy is too small."
+    },
+    {
+        "text": "I don't know ahead whether I'm going to see p larger than 1 half or less than 1 half."
+    },
+    {
+        "text": "So now I need to compute c such that the probability that tn is lower than c. So that's what?"
+    },
+    {
+        "text": "That's the probability under p, which is unknown."
+    },
+    {
+        "text": "I want this probability to be less than some level alpha asymptotically."
+    },
+    {
+        "text": "So I want the limit of this guy to be less than alpha, and that's the level of my test."
+    },
+    {
+        "text": "So that's the given level."
+    },
+    {
+        "text": "So I want this thing to happen."
+    },
+    {
+        "text": "Now what I know is that this limit, actually, I should say given asymptotic level."
+    },
+    {
+        "text": "So what is this thing?"
+    },
+    {
+        "text": "Well, OK, that's the probability that something that looks like under p. So under p, this guy, so what I know is that tn is square root of n minus xn bar minus 0.5 divided by square root of xn bar 1 minus xn bar exceeds."
+    },
+    {
+        "text": "Is this true that as n goes to infinity, this probability is the same as the probability that the absolute value of a Gaussian exceeds c of a standard Gaussian?"
+    },
+    {
+        "text": "Is this true?"
+    },
+    {
+        "text": "Yeah, so you're saying that this, as n becomes large enough, this should be the probability that some absolute value of n0,1 exceeds c, right?"
+    },
+    {
+        "text": "So I claim that this is not correct."
+    },
+    {
+        "text": "Somebody tell me why."
+    },
+    {
+        "text": "Even in the limit, it's not correct?"
+    },
+    {
+        "text": "Even in the limit, it's not correct."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what do you see?"
+    },
+    {
+        "text": "It's because at the beginning, we picked the worst possible true parameter, 0.5, right?"
+    },
+    {
+        "text": "So we don't actually know that this 0.5 is the least."
+    },
+    {
+        "text": "Exactly, right?"
+    },
+    {
+        "text": "So we picked this 0.5 here, but this is for any p, right?"
+    },
+    {
+        "text": "But what is the only p I can get?"
+    },
+    {
+        "text": "So what I want is that this is true for all p in theta 0."
+    },
+    {
+        "text": "But the only p that's in theta 0 is actually p is equal to 0.5."
+    },
+    {
+        "text": "So yes, what you said was true, but it required to specify p to be equal to 0.5."
+    },
+    {
+        "text": "So this, in general, is not true."
+    },
+    {
+        "text": "But it happens to be true if p belongs to theta 0, which is strictly equivalent to p is equal to 0.5, right?"
+    },
+    {
+        "text": "Theta 0 is really just this one point, 0.5."
+    },
+    {
+        "text": "OK, so now this becomes true."
+    },
+    {
+        "text": "And so what I need to do is to find c such that this guy is equal to what?"
+    },
+    {
+        "text": "I mean, let's just follow, right?"
+    },
+    {
+        "text": "So I want this to be less than alpha."
+    },
+    {
+        "text": "But then we see that this was equal to this, which is equal to this."
+    },
+    {
+        "text": "So all I want is that this guy is less than alpha."
+    },
+    {
+        "text": "But we said we might as well just make it equal to alpha if you allow me to make it as big as I want, as long as it's less than alpha."
+    },
+    {
+        "text": "So this is a true statement."
+    },
+    {
+        "text": "But it's if under this condition, right?"
+    },
+    {
+        "text": "So I'm going to set it equal to alpha."
+    },
+    {
+        "text": "And then I'm going to try to solve for c. OK, so what I'm looking for is a c such that if I draw a standard Gaussian, so that's PDF of some n0,1, I want the probability that the absolute value of my Gaussian exceeding this guy."
+    },
+    {
+        "text": "So that means being either here or here."
+    },
+    {
+        "text": "So that's minus c and c. I want the sum of those two things to be equal to alpha."
+    },
+    {
+        "text": "So I want the sum of these areas to equal alpha."
+    },
+    {
+        "text": "So by symmetry, each of them should be equal to alpha over 2."
+    },
+    {
+        "text": "And so what I'm looking for is c such that the probability that my n0,1 exceeds c, which is just this area to the right now, equals alpha, which is equivalent to taking c, which is q equals alpha over 2."
+    },
+    {
+        "text": "And that's q alpha over 2 by definition of q alpha over 2."
+    },
+    {
+        "text": "That's just what q alpha over 2 is."
+    },
+    {
+        "text": "And that's what the tables at the back of the book give you."
+    },
+    {
+        "text": "Who has already seen a table for Gaussian probabilities?"
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "What it does is just a table."
+    },
+    {
+        "text": "I mean, it's pretty ancient, right?"
+    },
+    {
+        "text": "I mean, of course, you can actually ask Google to do it for you now."
+    },
+    {
+        "text": "It's basically standard issue."
+    },
+    {
+        "text": "But back in the day, they actually had to look at tables."
+    },
+    {
+        "text": "And since the values alphas were pretty standard, the values alpha that people were requesting were typically 1%, 5%, 10%."
+    },
+    {
+        "text": "All you could do is to compute these different values for different values of alpha."
+    },
+    {
+        "text": "That was it."
+    },
+    {
+        "text": "So that's really not much to give you."
+    },
+    {
+        "text": "So for the Gaussian, I can tell you that alpha is equal to, if alpha is equal to 5%, then q alpha over 2, q 2.5% is equal to 1.96%."
+    },
+    {
+        "text": "So those are just fixed numbers that are functions of the Gaussian."
+    },
+    {
+        "text": "All right, so everybody agrees?"
+    },
+    {
+        "text": "We've done that before for our confidence intervals."
+    },
+    {
+        "text": "And so now we know that if I actually plug in this guy to be q alpha over 2, then this limit is actually equal to alpha."
+    },
+    {
+        "text": "And so now I've actually constrained this."
+    },
+    {
+        "text": "So q alpha over 2 here is, for alpha equals 5%, as I said, is 1.96."
+    },
+    {
+        "text": "So in the example 1, the number that we found was 3.54, I think, or something like that, 3.55 for t. So if we scroll back very quickly, 3.45."
+    },
+    {
+        "text": "That was example 1."
+    },
+    {
+        "text": "Example 2, negative 0.77."
+    },
+    {
+        "text": "So if I look at t, n, in example 1, tn was just the absolute value of 3.45, which don't pull out your calculators, is equal to 3.45."
+    },
+    {
+        "text": "Example 2, absolute value of negative 0.77 was equal to 0.77."
+    },
+    {
+        "text": "And so all I need to check is, is this number larger or smaller than 1.96?"
+    },
+    {
+        "text": "That's what my test ends up being."
+    },
+    {
+        "text": "So in example 1, 3.45 being larger than 1.96, that means that I reject."
+    },
+    {
+        "text": "Fairness of my coins in example 2, 0.77 being smaller than 1.96, what do I do?"
+    },
+    {
+        "text": "I fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So here's a question."
+    },
+    {
+        "text": "In example 1, for what level alpha would psi alpha, what is the?"
+    },
+    {
+        "text": "So here, what's going to happen if I start decreasing my level?"
+    },
+    {
+        "text": "When I decrease my level, I'm actually making this area smaller and smaller, which means that I push the c to the right."
+    },
+    {
+        "text": "So now I'm asking, what is the smallest c I should pick so that now I actually do not reject h0?"
+    },
+    {
+        "text": "What is the smallest c I should be taking?"
+    },
+    {
+        "text": "Here."
+    },
+    {
+        "text": "What is the smallest c?"
+    },
+    {
+        "text": "So c here in the example I gave you for 5% was 1.96."
+    },
+    {
+        "text": "What is the smallest c I should be taking so that now this inequality is reversed?"
+    },
+    {
+        "text": "3.45."
+    },
+    {
+        "text": "I ask only trivial questions."
+    },
+    {
+        "text": "Don't be worried."
+    },
+    {
+        "text": "So 3.45 is the smallest c that I'm actually willing to tolerate."
+    },
+    {
+        "text": "So let's say this was my 5%."
+    },
+    {
+        "text": "If this was 2.5, if alpha here, let's say in this picture, alpha is 5%, that means maybe I need to push here."
+    },
+    {
+        "text": "And this number should be what?"
+    },
+    {
+        "text": "So this is going to be 1.96."
+    },
+    {
+        "text": "And this number here is going to be 3.45, clearly to scale."
+    },
+    {
+        "text": "And so now what I want to ask you is, well, there's two ways I can understand this number 3.45."
+    },
+    {
+        "text": "It is the number 3.45."
+    },
+    {
+        "text": "But I can also try to understand, what is the area to the right of this guy?"
+    },
+    {
+        "text": "And if I understand what the area to the right of this guy is, this is actually some alpha prime over 2."
+    },
+    {
+        "text": "And that means that if I actually fix this level, alpha prime, that would be exactly the tipping point at which I would go from accepting to rejecting."
+    },
+    {
+        "text": "So I know in terms of absolute thresholds, 3.45 is the trivial answer to the question."
+    },
+    {
+        "text": "That's the tipping point, because I'm comparing a number to 3.45."
+    },
+    {
+        "text": "But now if I try to map this back and understand what level would have been given me this particular tipping point, that's a number between 0 and 1."
+    },
+    {
+        "text": "The smaller the number, the larger this number here, which means that the more evidence I have in my data against h0."
+    },
+    {
+        "text": "And so this number is actually something called the p-value."
+    },
+    {
+        "text": "And so same for example 2."
+    },
+    {
+        "text": "There's the tipping point, alpha, at which I go from feeling to reject to rejecting."
+    },
+    {
+        "text": "And that's exactly the number, the area under the curve, such that here I see 0.77."
+    },
+    {
+        "text": "And this is this alpha prime prime over 2."
+    },
+    {
+        "text": "And this number is clearly, alpha prime prime is clearly larger than 5%."
+    },
+    {
+        "text": "So what's the advantage of thinking and mapping back these numbers?"
+    },
+    {
+        "text": "Well, now I'm actually going to spit out some number which is between 0 and 1."
+    },
+    {
+        "text": "And that should be the only scale you should have in mind."
+    },
+    {
+        "text": "Remember we discussed that last time."
+    },
+    {
+        "text": "Well, if I actually spit out a number which is 3.45, maybe you can try to think, is 3.45 a large number for a Gaussian?"
+    },
+    {
+        "text": "That's a number."
+    },
+    {
+        "text": "But if I had another random variable that was not Gaussian, maybe it was a double exponential, you would have to have another scale in your mind."
+    },
+    {
+        "text": "Is 3.45 a large number for the large, so large that it's unlikely to come from a double exponential?"
+    },
+    {
+        "text": "If I had a gamma distribution, I can think of any distribution."
+    },
+    {
+        "text": "And then that means for each distribution, you would have to have a scale in mind."
+    },
+    {
+        "text": "So of course, you can have the Gaussian scale in mind."
+    },
+    {
+        "text": "I mean, I have the Gaussian scale in mind."
+    },
+    {
+        "text": "But then if I map it back into this number between 0 and 1, all the distributions play the same role."
+    },
+    {
+        "text": "So whether I'm talking about if my limiting distribution is normal or exponential or gamma or whatever you want, for all these guys, I'm just going to map it into one number between 0 and 1."
+    },
+    {
+        "text": "Small number means lots of evidence against h1."
+    },
+    {
+        "text": "Large number means lots of evidence against h0."
+    },
+    {
+        "text": "Small number means very few evidence against h0."
+    },
+    {
+        "text": "And this is the only number you need to keep in mind."
+    },
+    {
+        "text": "And the question is, am I willing to tolerate this number between 5%, 6% or maybe 10%, 12%?"
+    },
+    {
+        "text": "And this is the only scale you have to have in mind."
+    },
+    {
+        "text": "And this scale is the scale of p-values."
+    },
+    {
+        "text": "So the p-value is the tipping point in terms of alpha."
+    },
+    {
+        "text": "In words, I can make it formal, because tipping point, as far as I know, is not a mathematical term."
+    },
+    {
+        "text": "So a p-value of a test is the smallest, potentially asymptotic level, if I talk about an asymptotic p-value."
+    },
+    {
+        "text": "And that's what we do when we talk about central limit theorem, at which the test rejects h0."
+    },
+    {
+        "text": "If I were to go any smaller, I would fail to reject."
+    },
+    {
+        "text": "The smaller the level, the less likely it is for me to reject."
+    },
+    {
+        "text": "And if I were to go any smaller, I would start failing to reject."
+    },
+    {
+        "text": "And so it is a random number."
+    },
+    {
+        "text": "It depends on what I actually observe."
+    },
+    {
+        "text": "So here, of course, I instantiated those two numbers, 3.45 and 0.77, as realizations of random variables."
+    },
+    {
+        "text": "But if you think of those as being the random numbers before I see my data, this was a random number."
+    },
+    {
+        "text": "And therefore, the area under the curve to the right of it is also a random area."
+    },
+    {
+        "text": "If this thing fluctuates, then the area under the curve fluctuates."
+    },
+    {
+        "text": "And that's what the p-value is."
+    },
+    {
+        "text": "That's what John Oliver talks about when he talks about p-hacking."
+    },
+    {
+        "text": "And so we talked about this in the first lecture."
+    },
+    {
+        "text": "So p-hacking is, how do I do?"
+    },
+    {
+        "text": "Oh, if I'm a scientist, do I want to see a small p-value or a large p-value?"
+    },
+    {
+        "text": "Small, right?"
+    },
+    {
+        "text": "Scientists want to see small p-values, because small p-values equals rejecting, which equals discovery, which equals publication, which equals promotion."
+    },
+    {
+        "text": "So that's what people want to see."
+    },
+    {
+        "text": "So people are tempted to see small p-values."
+    },
+    {
+        "text": "And what's called p-hacking is, well, find a way to cheat."
+    },
+    {
+        "text": "Maybe look at your data, formulate your hypothesis in such a way that you will actually have a smaller p-value than you should have."
+    },
+    {
+        "text": "So here, for example, there's one thing I did not insist on, because again, this is not a particular course in statistical thinking."
+    },
+    {
+        "text": "But one thing that we implicitly did was set those theta 0 and theta 1 ahead of time."
+    },
+    {
+        "text": "I fixed them, and I'm trying to test this."
+    },
+    {
+        "text": "This is to be contrasted with the following approach."
+    },
+    {
+        "text": "I draw my data."
+    },
+    {
+        "text": "So I draw."
+    },
+    {
+        "text": "I run this experiment, which is probably going to get me a publication in Nature."
+    },
+    {
+        "text": "I'm trying to test if a coin is fair."
+    },
+    {
+        "text": "And I draw my data, and I see that there's 13 out of 30 of my observations that are heads."
+    },
+    {
+        "text": "That means that from this data, it looks like p is less than 1 half."
+    },
+    {
+        "text": "So if I look at this data and then decide that my alternative is not p not equal to 1 half, but rather p less than 1 half, that's p-hacking."
+    },
+    {
+        "text": "I'm actually making my p-value strictly smaller by first looking at the data and then deciding what my alternative is going to be."
+    },
+    {
+        "text": "And that's cheating, because all the things we did were assuming that this 0.5 or d alternative was actually a fix."
+    },
+    {
+        "text": "Everything was deterministic."
+    },
+    {
+        "text": "The only randomness came from the data."
+    },
+    {
+        "text": "But if I start looking at the data and designing my experiment or my alternatives and null hypothesis based on the data, it's as if I started putting randomness all over the place."
+    },
+    {
+        "text": "And then I cannot control it, because I don't know how it just intermingles with each other."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So that was for the John Oliver moment."
+    },
+    {
+        "text": "So the p-value is nice."
+    },
+    {
+        "text": "So maybe I mentioned that before."
+    },
+    {
+        "text": "My wife works in market research."
+    },
+    {
+        "text": "And maybe every two years, she seems to run into a statistician in the hallway."
+    },
+    {
+        "text": "And she comes home and says, what is a p-value again?"
+    },
+    {
+        "text": "And for her, a p-value is just the number is in an Excel spreadsheet."
+    },
+    {
+        "text": "And actually, small equals good and large equals bad."
+    },
+    {
+        "text": "And that's all she needs to know at this point."
+    },
+    {
+        "text": "Actually, they do the job for her."
+    },
+    {
+        "text": "Small is green."
+    },
+    {
+        "text": "Large is red."
+    },
+    {
+        "text": "And so for her, a p-value is just green or red."
+    },
+    {
+        "text": "But so what she's really implicitly doing with this color code is just applying the golden rule."
+    },
+    {
+        "text": "What the statisticians do for her in the Excel spreadsheet is that they take the numbers for the p-values that are less than some fixed level."
+    },
+    {
+        "text": "So depending on the field in which she works, so she works for pharmaceutical companies, so the p-values are typically compared."
+    },
+    {
+        "text": "The tests are usually performed at level 1% rather than 5%."
+    },
+    {
+        "text": "So 5% is maybe your gold standard if you're doing sociology or trying to, I don't know, release a new blueberry flavor for your toothpaste, like something that's not going to change the life of people."
+    },
+    {
+        "text": "Maybe you're going to run at 5%."
+    },
+    {
+        "text": "It's OK to make a mistake."
+    },
+    {
+        "text": "People are just going to feel gross, but that's about it."
+    },
+    {
+        "text": "Whereas here, if you have this p-value which is less than 1%, it might be more important for some drug discovery, for example."
+    },
+    {
+        "text": "And so let's say you run at 1%."
+    },
+    {
+        "text": "And so what they do in this Excel spreadsheet is that all the numbers that are below 1% show up in green, and all the numbers that are above 1% show up in red."
+    },
+    {
+        "text": "And that's it."
+    },
+    {
+        "text": "That's just applying the golden rule."
+    },
+    {
+        "text": "If the number is green, reject."
+    },
+    {
+        "text": "If the number is red, fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "So going back to the example of the previous prior example where you can achieve by looking at your data and then formulating, say, a theta 1 to be p less than 1%."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So how would you achieve your goal by changing the theta 1?"
+    },
+    {
+        "text": "You mean by achieving my goal?"
+    },
+    {
+        "text": "You mean letting ethics aside, right?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "You want to be published."
+    },
+    {
+        "text": "So OK."
+    },
+    {
+        "text": "So let me teach you how."
+    },
+    {
+        "text": "Well, here, what do you do?"
+    },
+    {
+        "text": "You want to, at the end of the day, a test is only telling you whether you found evidence in your data that H1 was more likely than H0, basically."
+    },
+    {
+        "text": "How do you make H1 more likely?"
+    },
+    {
+        "text": "Well, you just basically target H1 to be what the data is going to make it more likely to be."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So if, for example, I say H1 can be on both sides, then my data is going to have to take into account fluctuations on both sides."
+    },
+    {
+        "text": "And I'm going to lose a factor of 2 somewhere because things are not symmetric."
+    },
+    {
+        "text": "Here is the ultimate way of making this work."
+    },
+    {
+        "text": "I'm going back to my example of flipping coins."
+    },
+    {
+        "text": "And now, so here, what I did is I said, oh, this number 0.43 is actually smaller than 0.5."
+    },
+    {
+        "text": "So I'm just going to test whether I'm 0.5 or I'm less than 0.5."
+    },
+    {
+        "text": "But here is something that I can promise you I did not make the computation will reject."
+    },
+    {
+        "text": "OK, so here, this one actually, yeah, this one fails to reject, right?"
+    },
+    {
+        "text": "So here is one that will certainly reject."
+    },
+    {
+        "text": "H0 is 0.5. p is 0.5."
+    },
+    {
+        "text": "H1, p is 0.43."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, you can try."
+    },
+    {
+        "text": "But I can promise you that your data will tell you that H1 is the right one."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "I mean, you can check very quickly that this is really extremely likely to happen, right?"
+    },
+    {
+        "text": "And so actually, what am I?"
+    },
+    {
+        "text": "No, actually, that's not true."
+    },
+    {
+        "text": "OK. Because here, the test that I derive that's based on this kind of stuff, right?"
+    },
+    {
+        "text": "Here, at some point, somewhere, under some layers, I assume that all our tests are going to have this form."
+    },
+    {
+        "text": "But here, this is only when you're trying to test one region versus another region next to it, or one point versus a region around it, or something like this."
+    },
+    {
+        "text": "Whereas for this guy, there's another test I could come up with, which is, what is the probability that I get 0.43?"
+    },
+    {
+        "text": "And what is the probability that I get 0.5?"
+    },
+    {
+        "text": "Now, what I'm going to do is I'm going to just conclude it's whichever has the largest probability."
+    },
+    {
+        "text": "Then maybe I'm going to have to make some adjustments so that the level is actually 5%."
+    },
+    {
+        "text": "But I can make this happen."
+    },
+    {
+        "text": "I can make the level be 5% and always conclude this guy, but I would have to use a different test."
+    },
+    {
+        "text": "Now, the test that I described, again, those t and larger than c are built in to be tests that are sort of resilient to this kind of manipulations, because they're sort of oblivious towards what the alternative looks like."
+    },
+    {
+        "text": "I mean, they're just saying it's either to the left or to the right, but whether it's a point or an entire half line doesn't matter."
+    },
+    {
+        "text": "So if you try to look at your data and just put the data itself into your hypothesis testing problem, then you're failing the statistical principle."
+    },
+    {
+        "text": "And that's what people are doing, right?"
+    },
+    {
+        "text": "I mean, how can I check?"
+    },
+    {
+        "text": "I mean, of course, here it's going to be pretty blatant if you publish a paper that looks like this."
+    },
+    {
+        "text": "But there's ways to do it differently, right?"
+    },
+    {
+        "text": "For example, one way to do it is to just do more."
+    },
+    {
+        "text": "So typically, what people do is they do multiple hypothesis testing."
+    },
+    {
+        "text": "They're doing 100 tests at a time."
+    },
+    {
+        "text": "Then you have random fluctuations every time."
+    },
+    {
+        "text": "And so they just pick the one that has the random fluctuations that go their way."
+    },
+    {
+        "text": "I mean, sometimes it's going in your way, and sometimes it's going the opposite way."
+    },
+    {
+        "text": "So you just pick the one that works for you."
+    },
+    {
+        "text": "We'll talk about multiple hypothesis testing soon if you want to increase your publication counts."
+    },
+    {
+        "text": "There's actually papers."
+    },
+    {
+        "text": "I think it was big news, there's some papers, I think it's psychology or psychometrics papers, that actually refuse to publish p-values now."
+    },
+    {
+        "text": "All right, where were we?"
+    },
+    {
+        "text": "OK, here's the golden rule."
+    },
+    {
+        "text": "So one thing that I'd like to show is this thing, just so you know how you apply the golden rule and how you apply the standard test."
+    },
+    {
+        "text": "So the standard paradigm is the following."
+    },
+    {
+        "text": "You have a black box, which is your test."
+    },
+    {
+        "text": "For my wife, this is the fourth floor of the building."
+    },
+    {
+        "text": "That's where the statisticians sit."
+    },
+    {
+        "text": "What she sends there is data, let's say x1, xn."
+    },
+    {
+        "text": "And she says, well, this one is about toothpaste, so here's a level."
+    },
+    {
+        "text": "Let's say 5%."
+    },
+    {
+        "text": "What the fourth floor brings back is an answer, yes, no."
+    },
+    {
+        "text": "Green, red, just an answer."
+    },
+    {
+        "text": "So that's the standard testing."
+    },
+    {
+        "text": "You just feed it the data and the level at which you want to perform the test, maybe asymptotic, and it spits out a yes, no answer."
+    },
+    {
+        "text": "What p-value does, you just feed it the data itself."
+    },
+    {
+        "text": "And what it spits out is the p-value."
+    },
+    {
+        "text": "And now, it's just up to you."
+    },
+    {
+        "text": "I mean, hopefully, your brain has the computational power of deciding whether a number is larger or smaller than 5% without having to call the statisticians for this."
+    },
+    {
+        "text": "And that's what it does."
+    },
+    {
+        "text": "So now, we're all on one scale."
+    },
+    {
+        "text": "Now, if you actually, I see some of you nodding when I talk about p-hacking."
+    },
+    {
+        "text": "So that means you've seen p-values."
+    },
+    {
+        "text": "If you've seen more than 100 p-values in your life, you have an entire scale."
+    },
+    {
+        "text": "A good p-value is less than 10 to the minus 4."
+    },
+    {
+        "text": "That's the ultimate sweet spot."
+    },
+    {
+        "text": "Actually, statistical software spit out an output which says less than 10 to the minus 4."
+    },
+    {
+        "text": "But then, maybe you want a p-value."
+    },
+    {
+        "text": "If I tell you my p-value was 4.65, then I will say you've been doing some p-hacking until you found a number that was below 5%."
+    },
+    {
+        "text": "That's typically what people will do."
+    },
+    {
+        "text": "But if you're doing the test, if you're saying, I published my result."
+    },
+    {
+        "text": "My test at 5% said yes, that means that maybe your p-value was 4.99, or your p-value was 10 to the minus 4."
+    },
+    {
+        "text": "I will never know."
+    },
+    {
+        "text": "I will never know how much evidence you had against the null."
+    },
+    {
+        "text": "But if you tell me what the p-value is, I can make my own decision."
+    },
+    {
+        "text": "I don't have to tell me whether it's a yes."
+    },
+    {
+        "text": "No, you tell me it's 4.99."
+    },
+    {
+        "text": "I'm going to say, well, maybe yes, but I'm going to take it with a grain of salt."
+    },
+    {
+        "text": "And so that's why p-values are good numbers to have in mind."
+    },
+    {
+        "text": "Now, I show it as if it was an old trick that you start mastering when you're 45 years old."
+    },
+    {
+        "text": "No, it's just how small is the number between 0 and 1."
+    },
+    {
+        "text": "That's really what you need to know."
+    },
+    {
+        "text": "Maybe on the log scale, if it's 10 to the minus 1, 10 to the minus 2, 10 to the minus 3, et cetera, that's probably the extent of the mastery here."
+    },
+    {
+        "text": "So this traditional standard paradigm that I showed is actually commonly referred to as the Neyman-Pearson paradigm."
+    },
+    {
+        "text": "So here it says Neyman-Pearson's theory."
+    },
+    {
+        "text": "So there's an entire theory that comes with it, but it's really a paradigm."
+    },
+    {
+        "text": "It's a way of thinking about hypothesis testing that says, well, if I'm not going to be able to optimize both my type 1 and type 2 error, I'm actually going to lock in my type 1 error below some level and just minimize the type 2 error under this constraint."
+    },
+    {
+        "text": "That's what the Neyman-Pearson paradigm is."
+    },
+    {
+        "text": "And it sort of makes sense for hypothesis testing problems."
+    },
+    {
+        "text": "If you were doing some other applications with multi-objective optimization, you would maybe come up with something different."
+    },
+    {
+        "text": "For example, machine learning is not performing typically under Neyman-Pearson paradigm."
+    },
+    {
+        "text": "So if you do spam filtering, you could say, well, I want to constrain the probability as much as I can of taking somebody's important emails and throwing them out as spam and, under this constraint, not send too much spam to that person."
+    },
+    {
+        "text": "That sort of makes sense for spams."
+    },
+    {
+        "text": "Now, if you're labeling cats versus dogs, it's probably not like you want to make sure that no more than 5% of the dogs are labeled cat."
+    },
+    {
+        "text": "Because it doesn't matter."
+    },
+    {
+        "text": "So what you typically do is you just sum up the two types of error you can make, and you minimize the sum without putting any more weight on one or the other."
+    },
+    {
+        "text": "So here's an example where doing a binary decision, one or two of the errors you can make, you don't have to actually be like that."
+    },
+    {
+        "text": "So this example here, I did not."
+    },
+    {
+        "text": "The trivial test, psi is equal to 0."
+    },
+    {
+        "text": "What was it in the US trial court example?"
+    },
+    {
+        "text": "What is psi equal to 0?"
+    },
+    {
+        "text": "I was concluding all ways to the null."
+    },
+    {
+        "text": "What was the null?"
+    },
+    {
+        "text": "Innocent, right?"
+    },
+    {
+        "text": "That's the status quo."
+    },
+    {
+        "text": "So that means that this guy never rejects a 0."
+    },
+    {
+        "text": "Everybody's going away free."
+    },
+    {
+        "text": "So you're sure you're not actually going against the Constitution because alpha is 0%, which is certainly less than 5%."
+    },
+    {
+        "text": "But the power, the fact that a lot of criminals go back outside in the free world is actually formulated in terms of low power, which in this case is actually 0."
+    },
+    {
+        "text": "Again, the power is a number between 0 and 1."
+    },
+    {
+        "text": "Close to 0, good."
+    },
+    {
+        "text": "Close to 1, bad."
+    },
+    {
+        "text": "Now, what is the definition of the p-value?"
+    },
+    {
+        "text": "That's going to be something."
+    },
+    {
+        "text": "Mouthful, right?"
+    },
+    {
+        "text": "The definition of the p-value is a mouthful."
+    },
+    {
+        "text": "It's really the tipping point."
+    },
+    {
+        "text": "It is the smallest level at which blah, blah, blah, blah."
+    },
+    {
+        "text": "It's complicated to remember it."
+    },
+    {
+        "text": "Now, I think that by my sixth explanation, my wife, after saying, oh, so it's the probability of making an error, I said, yeah, that's the probability of making an error."
+    },
+    {
+        "text": "Because of course, she can think probability of making an error, small, good, large, bad."
+    },
+    {
+        "text": "So that's actually a good way to remember."
+    },
+    {
+        "text": "I'm pretty sure that at least 50% of people using p-values out there think that the p-value is the probability of making an error."
+    },
+    {
+        "text": "Now, for all matters of purposes, if your goal is to just threshold the p-value, this is OK to have this in mind."
+    },
+    {
+        "text": "But when it comes, at least until December 22, I would recommend trying to actually memorize the right definition for the p-value."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the idea, again, is fix the level and try to optimize the power."
+    },
+    {
+        "text": "So we're going to try to compute some p-values from now on."
+    },
+    {
+        "text": "How do you compute the p-value?"
+    },
+    {
+        "text": "Well, you can actually see it from this picture over there."
+    },
+    {
+        "text": "One thing I didn't show on this picture, here was my q alpha over 2 that had alpha here, alpha over 2 here, right?"
+    },
+    {
+        "text": "That was my q alpha over 2."
+    },
+    {
+        "text": "And I said, if tn is to the right of this guy, I'm going to reject."
+    },
+    {
+        "text": "If tn is to the left of this guy, I'm going to fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Pictorially, you can actually represent the p-value."
+    },
+    {
+        "text": "It's when I replace this guy by tn itself."
+    },
+    {
+        "text": "Sorry, that's p-value over 2."
+    },
+    {
+        "text": "No, actually, that's p-value."
+    },
+    {
+        "text": "So let me just keep it like that and put the absolute value here."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if you replace the role of q alpha over 2 by your test statistic, this is what the area under the curve is actually the p-value itself up to scaling, because of the symmetric thing."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So there's a good way to see pictorially what the p-value is."
+    },
+    {
+        "text": "It's just the probability that some Gaussians, which is the probability that some absolute value of n0,1 exceeds tn."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "That's what the p-value is."
+    },
+    {
+        "text": "Now, this guy has nothing to do with this guy."
+    },
+    {
+        "text": "So this is really just 1 minus the Gaussian CDF of tn."
+    },
+    {
+        "text": "And that's it."
+    },
+    {
+        "text": "So that's how I would compute p-values."
+    },
+    {
+        "text": "Now, as I said, the p-value is a beauty, because you don't have to understand the fact that your limiting distribution is a Gaussian."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "It's already factored in this construction."
+    },
+    {
+        "text": "The fact that I'm actually looking at this cumulative distribution function of a standard Gaussian makes my p-value automatically adjust to what the limiting distribution is."
+    },
+    {
+        "text": "And if this was the cumulative distribution function of a exponential, I would just have a different function here denoted by f, for example."
+    },
+    {
+        "text": "And I would just compute a different value."
+    },
+    {
+        "text": "But in the end, regardless of what the limiting value is, my p-value would still be a number between 0 and 1."
+    },
+    {
+        "text": "And so to illustrate that, let's look at other weird distributions that we could get in place of the standard Gaussian."
+    },
+    {
+        "text": "And we're not going to see many, but we'll see one."
+    },
+    {
+        "text": "And it's not called the chi-squared distribution."
+    },
+    {
+        "text": "It's actually called the student's distribution, but it involves the chi-squared distribution as a building block."
+    },
+    {
+        "text": "So I don't know if my phonetics are not really right there, so I try to say, well, it's chi-squared."
+    },
+    {
+        "text": "Maybe it's chi-squared in Canada."
+    },
+    {
+        "text": "Who knows?"
+    },
+    {
+        "text": "So for a positive integer, so there's only one parameter."
+    },
+    {
+        "text": "So for the Gaussian, you have two parameters, which are mu and sigma squared."
+    },
+    {
+        "text": "Those are real numbers."
+    },
+    {
+        "text": "Sigma squared is positive."
+    },
+    {
+        "text": "Here, I have one integer parameter."
+    },
+    {
+        "text": "Then the distribution, the chi-squared distribution with d degrees of freedom."
+    },
+    {
+        "text": "So the parameter is called a degree of freedom, just like mu is called the expected value, and sigma squared is called the variance."
+    },
+    {
+        "text": "So it's called degrees of freedom."
+    },
+    {
+        "text": "You don't have to really understand why."
+    },
+    {
+        "text": "So that's the law that you would get."
+    },
+    {
+        "text": "That's the random variable you would get if you were to sum d squares of independent standard Gaussians."
+    },
+    {
+        "text": "So I take the square of an independent random Gaussian."
+    },
+    {
+        "text": "I take another one."
+    },
+    {
+        "text": "I sum them, and that's a chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "That's how you get it."
+    },
+    {
+        "text": "Now, I could define it using its probability density function."
+    },
+    {
+        "text": "After all, this is the sum of positive random variables."
+    },
+    {
+        "text": "It is a positive random variable."
+    },
+    {
+        "text": "It has a density on the positive real line."
+    },
+    {
+        "text": "And the PDF of chi-squared, PDF of chi-squared with d degrees of freedom is what?"
+    },
+    {
+        "text": "Well, it's fd of x is x to the d over 2 minus 1, e to the minus x over 2."
+    },
+    {
+        "text": "And then here, I have a gamma of d over 2, and the other one is, I think, 2 to the d over 2 minus 1."
+    },
+    {
+        "text": "No, 2 to the d over 2."
+    },
+    {
+        "text": "That's what it is."
+    },
+    {
+        "text": "That's the density."
+    },
+    {
+        "text": "If you are very good at probability, you can make the change of variable and write your Jacobian and do all this stuff and actually check that this is true."
+    },
+    {
+        "text": "I do not recommend doing that."
+    },
+    {
+        "text": "So this is the density, but it's better understood like that, at thinking of just something that you built from standard Gaussian."
+    },
+    {
+        "text": "So for example, an example of a chi-squared with two degrees of freedom is actually the following thing."
+    },
+    {
+        "text": "Let's assume I have a target like this."
+    },
+    {
+        "text": "And I don't aim very well, and I'm trying to hit the center."
+    },
+    {
+        "text": "And I'm going to have maybe a deviation, which is standard Gaussian left-right and standard Gaussian north-south."
+    },
+    {
+        "text": "So I'm throwing, and then I'm here."
+    },
+    {
+        "text": "And I'm claiming that this number here, by Pythagoras' theorem, the squared distance here is the sum of this squared distance here, which is the square of a Gaussian by assumption, plus the square of this distance, which is the square of another independent Gaussian."
+    },
+    {
+        "text": "I assume those are independent."
+    },
+    {
+        "text": "And so the squared distance from this point to this point is the chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "So this guy here is n01 squared."
+    },
+    {
+        "text": "This is n01 squared."
+    },
+    {
+        "text": "And so this guy here, this distance here, is chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "I mean, the squared distance."
+    },
+    {
+        "text": "I'm talking about squared distances here."
+    },
+    {
+        "text": "So now you can see that actually Pythagoras is basically why chi-squared arise."
+    },
+    {
+        "text": "That's why it has its own name."
+    },
+    {
+        "text": "I mean, I could define this random variable."
+    },
+    {
+        "text": "I mean, it's actually a gamma distribution."
+    },
+    {
+        "text": "It's a special case of something called the gamma distribution."
+    },
+    {
+        "text": "The fact that the special case has its own name is because there's many times where we're going to take sum of squares of independent Gaussians, because Gaussians, the sum of squares is really the norm, the Euclidean norm squared, just by Pythagoras theorem."
+    },
+    {
+        "text": "If I'm in higher dimension, I can start to sum more squared coordinates, and I'm going to measure the norm squared."
+    },
+    {
+        "text": "So if you want to draw this picture, it looks like this."
+    },
+    {
+        "text": "Again, it's the sum of positive numbers."
+    },
+    {
+        "text": "So it's going to be on 0 plus infinity."
+    },
+    {
+        "text": "That's fd."
+    },
+    {
+        "text": "And so for f1 looks like this."
+    },
+    {
+        "text": "f2 looks like this."
+    },
+    {
+        "text": "So the tails becomes heavier and heavier as d increases."
+    },
+    {
+        "text": "And then at start to 3, it starts to have a different shape."
+    },
+    {
+        "text": "It starts from 0, and it looks like this."
+    },
+    {
+        "text": "And then as d increases, it's basically as if you were to push this thing to the right."
+    },
+    {
+        "text": "It's just like, pfft."
+    },
+    {
+        "text": "It's just falling like a big ball."
+    },
+    {
+        "text": "Everybody sees what's going on?"
+    },
+    {
+        "text": "So there's just this fat thing that's just going there."
+    },
+    {
+        "text": "What is the expected value of a k squared?"
+    },
+    {
+        "text": "So it's the expected value of the sum of Gaussian random variables squared."
+    },
+    {
+        "text": "I don't know why I said that."
+    },
+    {
+        "text": "AUDIENCE 2 It's the sum of their second norm, right?"
+    },
+    {
+        "text": "Which is?"
+    },
+    {
+        "text": "Those are n0, 1."
+    },
+    {
+        "text": "It's like, oh, I see, 1."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So n times 1, or d times 1."
+    },
+    {
+        "text": "Yeah, which is d. So one thing you can check quickly is that the expected value of a k squared is d. And so you see, that's why the mass is shifting to the right as d increases."
+    },
+    {
+        "text": "It's just going there."
+    },
+    {
+        "text": "Actually, the variance is also increasing."
+    },
+    {
+        "text": "The variance is 2d."
+    },
+    {
+        "text": "So this is one thing."
+    },
+    {
+        "text": "And so why do we care about this in basic statistics?"
+    },
+    {
+        "text": "It's not like we actually have statistics much about throwing darts at high dimensional boards."
+    },
+    {
+        "text": "So what's happening is that if I look at the sample variance, the average of the sum of squared centered by their mean, then I can actually expend this as the sum of the squares minus the average squared."
+    },
+    {
+        "text": "It's just the same trick that we have for the variance."
+    },
+    {
+        "text": "Second moment minus first moment squared."
+    },
+    {
+        "text": "And then I claim that Cochran's theorem, I will tell you in a second what Cochran's theorem tells me, is that this sample variance is actually, so if I had only this, so now, OK, look at those guys."
+    },
+    {
+        "text": "Those guys are Gaussian with mean mu and variance sigma squared."
+    },
+    {
+        "text": "Think for one second, mu being 0 and sigma squared being 1."
+    },
+    {
+        "text": "Now, this part would be a chi-square with n degrees of freedom divided by n. Now, I get another thing here, which is the square of something that looks like a Gaussian as well."
+    },
+    {
+        "text": "So it looks like I have something else here, which looks also like a chi-square."
+    },
+    {
+        "text": "Now, Cochran's theorem is essentially telling you that those things are independent."
+    },
+    {
+        "text": "And so that in a way, you can think of those guys as being here n degrees of freedom minus 1 degree of freedom."
+    },
+    {
+        "text": "Now, here, as I said, this is not mean 0 and variance 1."
+    },
+    {
+        "text": "The fact that it's not mean 0 is not a problem, because I can remove the mean here and remove the mean here."
+    },
+    {
+        "text": "And so this thing has the same distribution, regardless of what the actual mean is."
+    },
+    {
+        "text": "So without loss of generality, I can assume that mu is equal 0."
+    },
+    {
+        "text": "Now, the variance I'm going to have to pay, because if I multiply all these numbers by 10, then this Sn is going to be multiplied by 100."
+    },
+    {
+        "text": "So this thing is going to scale with the variance."
+    },
+    {
+        "text": "And not surprisingly, it's scaling like the square of the variance."
+    },
+    {
+        "text": "So if I look at Sn, it's distributed as sigma-square times the chi-square with n minus 1 degrees of freedom divided by n. And we don't really write that, because a chi-square times sigma-square divided by n is not a distribution."
+    },
+    {
+        "text": "So we put everything to the left."
+    },
+    {
+        "text": "And we say that this is actually a chi-square with n minus 1 degrees of freedom."
+    },
+    {
+        "text": "So here, I'm actually dropping a fact on you."
+    },
+    {
+        "text": "But you can sort of see the building block."
+    },
+    {
+        "text": "What is the thing that's sort of fussy at this point, but the rest should be crystal clear to you?"
+    },
+    {
+        "text": "The thing that's fussy is that removing this square guy here is actually removing 1 degree of freedom."
+    },
+    {
+        "text": "That should be weird."
+    },
+    {
+        "text": "But that's what Cochran's theorem tells me."
+    },
+    {
+        "text": "It's essentially stating something about orthogonality of subspaces with the span of the constant vector, something like that."
+    },
+    {
+        "text": "So you don't have to think about it too much."
+    },
+    {
+        "text": "But that's what it's telling me."
+    },
+    {
+        "text": "But the rest, if you plug in, so the scaling in sigma-squared and in n, that should be completely clear to you."
+    },
+    {
+        "text": "So in particular, if I remove that part, it should be clear to you that this thing, if mean is 0, this thing is actually distributed."
+    },
+    {
+        "text": "Well, if mu is 0, what is the distribution of this guy?"
+    },
+    {
+        "text": "So I remove that part, just this part."
+    },
+    {
+        "text": "So I have xi, which are n0 sigma-squared."
+    },
+    {
+        "text": "And I'm asking, what is the distribution of 1 over n sum from i equal 1 to n of xi-squared?"
+    },
+    {
+        "text": "So it is the sum of their iid."
+    },
+    {
+        "text": "So it's the sum of independent Gaussians, but not standard."
+    },
+    {
+        "text": "So the first thing to make them standard is that I divide all of them by sigma-squared."
+    },
+    {
+        "text": "Now, this guy is of the form zi-squared, where zi is n0, 1."
+    },
+    {
+        "text": "So now this thing here has what distribution?"
+    },
+    {
+        "text": "Chi-squared n. And now sigma-squared over n times chi-squared n. So if I have sigma-squared divided by n times chi-squared, sorry, so n times n divided by sigma-squared."
+    },
+    {
+        "text": "So if I take this thing and I multiply it by n divided by sigma-squared, it means I remove this term."
+    },
+    {
+        "text": "And now I am left with a chi-squared with n degrees of freedom."
+    },
+    {
+        "text": "Now, the effect of centering with the sample mean here is only to lose 1 degree of freedom."
+    },
+    {
+        "text": "That's it."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if I want to do a test about variance, since this is supposedly a good estimator of variance, this could be my pivotal distribution."
+    },
+    {
+        "text": "This could play the role of a Gaussian."
+    },
+    {
+        "text": "If I want to know if my variance is equal to 1 or larger than 1, I could actually build a test based on this only statement and test if the variance is larger than 1 or not."
+    },
+    {
+        "text": "Now, this is not asymptotic because I started with the very assumption that my data was Gaussian itself."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, just a side remark, you can check that this chi-squared 2, 2 is an exponential with half degrees of freedom, which is certainly not clear from the fact that z1 squared plus z2 squared is a chi-squared with 2 degrees of freedom."
+    },
+    {
+        "text": "If I give you the sum of the square of two independent Gaussians, this is actually an exponential."
+    },
+    {
+        "text": "That's not super clear, right?"
+    },
+    {
+        "text": "But if you look at what was here, I don't know if you took notes, but let me rewrite it for you."
+    },
+    {
+        "text": "So it was x to the d over 2 minus 1 e to the minus x over 2 divided by 2 to the d over 2 gamma of d over 2."
+    },
+    {
+        "text": "So if I plug in d is equal to 2, gamma of 2 over 2 is gamma of 1, which is 1, right?"
+    },
+    {
+        "text": "It's factorial of 0."
+    },
+    {
+        "text": "So it's 1."
+    },
+    {
+        "text": "So this guy goes away."
+    },
+    {
+        "text": "2 to the d over 2 is 2 to the 1."
+    },
+    {
+        "text": "So that's just 1."
+    },
+    {
+        "text": "No, that's just 2."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Then x to the d over 2 minus 1 is x to the 0, goes away."
+    },
+    {
+        "text": "And so I have x minus x over 2, 1 half, which is really, indeed, of the form lambda e to the minus lambda x for lambda is equal to 1 half, which was our exponential distribution."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So well, next week is Columbus Day."
+    },
+    {
+        "text": "So that's next Monday."
+    },
+    {
+        "text": "So next week, we'll talk about students' distribution."
+    },
+    {
+        "text": "And so that was discovered by a guy who pretended his name was student but was not student."
+    },
+    {
+        "text": "And I challenge you to find why in the meantime."
+    },
+    {
+        "text": "All right, so I'll see you next week."
+    },
+    {
+        "text": "Your homework is going to be outside, so we can release the room."
+    }
+]

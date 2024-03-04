@@ -1,0 +1,266 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "it's getting cold .",
+        "emotion": "neutral",
+        "text": "it's getting cold .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "yes . I bought a scarf yesterday . It's really nice and warm . Have a look .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I bought a scarf yesterday . It's really nice and warm ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "yes . I bought a scarf yesterday . It's really nice and warm . Have a look .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , it's made of wool . I like the striped pattern .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I like the striped pattern ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , it's made of wool . I like the striped pattern .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "yes , I adore simple fashions . How does it look on me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like the striped pattern .",
+            "I adore simple fashions"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "yes , I adore simple fashions . How does it look on me ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "it looks great , but you need something to go with it . It's too plain on its own .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it looks great"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "it looks great , but you need something to go with it . It's too plain on its own .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "how about this blue sweater ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "it looks great",
+            "you need something to go with it . It's too plain on its own .",
+            "blue sweater ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "how about this blue sweater ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "that's a good idea . When did you buy it ? Is it a name brand ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "that's a good idea"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "that's a good idea . When did you buy it ? Is it a name brand ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "yes , but I bought it when it was on sale , 50 % off the original price . OK , what do you think ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "that's a good idea",
+            "name brand ?",
+            "yes , but I bought it when it was on sale , 50 % off the original price ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "yes , but I bought it when it was on sale , 50 % off the original price . OK , what do you think ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "that looks lovely . Just one more thing---you need a pair of earrings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "that looks lovely"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "that looks lovely . Just one more thing---you need a pair of earrings .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I've got a pair of pearl earrings . Here it is .",
+        "emotion": "happiness",
+        "explanation": "the speaker is getting help and appreciation from the listener on getting dressed",
+        "expanded emotion cause evidence": [
+            9,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "that looks lovely",
+            "you need a pair of earrings .",
+            "I've got a pair of pearl earrings ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I've got a pair of pearl earrings . Here it is .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "perfect !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "that looks lovely",
+            "you need a pair of earrings .",
+            "I've got a pair of pearl earrings .",
+            "perfect !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "perfect !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "you have good fashion sense , Karen .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "perfect !",
+            "you have good fashion sense"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "you have good fashion sense , Karen .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "thanks . We should be ourselves . There are so many fashion victims out there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "you have good fashion sense"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thanks . We should be ourselves . There are so many fashion victims out there .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "yes , but with our sense we'll always look good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "with our sense we'll always look good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "yes , but with our sense we'll always look good .",
+        "id": 14
+    }
+]

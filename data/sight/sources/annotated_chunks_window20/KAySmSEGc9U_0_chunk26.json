@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So you might want to just think about that."
+    },
+    {
+        "text": "But if you let y be the string 0, 0, then if you have the string x, y, x, any number of y's, it's still just going to be a bunch of 0's."
+    },
+    {
+        "text": "And you're going to be able to see that that string is still in the language."
+    },
+    {
+        "text": "So you haven't learned anything."
+    },
+    {
+        "text": "If the pumping lemma works and you're satisfying the pumping lemma, you haven't learned anything."
+    },
+    {
+        "text": "So what you need to find is some other string."
+    },
+    {
+        "text": "That was a bad choice for s. Find a different string."
+    },
+    {
+        "text": "So here's a different choice."
+    },
+    {
+        "text": "0 to the p1, 0 to the p1."
+    },
+    {
+        "text": "So that's two copies of the same string."
+    },
+    {
+        "text": "And we're going to show it can't be pumped."
+    },
+    {
+        "text": "So here's a picture of that string here."
+    },
+    {
+        "text": "So 0's followed by 1, 0's followed by 1."
+    },
+    {
+        "text": "And now it's very similar to the first argument."
+    },
+    {
+        "text": "If you cut it into three pieces in such a way that it satisfies the conditions, the first two pieces are going to be residing only among the 0's."
+    },
+    {
+        "text": "And so therefore, when you repeat a y, you're no longer going to have two copies of the same string and so won't be in the language."
+    },
+    {
+        "text": "So therefore, you've got a contradiction and f is not regular."
+    },
+    {
+        "text": "So you have to play with the pumping lemma a little bit."
+    },
+    {
+        "text": "If you haven't seen that before, it's going to be, it takes a little getting used to."
+    },
+    {
+        "text": "But you have a few homework questions that need to be solved using the pumping lemma."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 25,
+        "timestamp": 1684727944948.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "https://www.youtube.com/watch?v=13r9QY6cmjc#t=29m29s how does one know that u0 can be expressed in terms of eigenvectors, i.e. how do we know what u0 is in the span of eigenvectors?"
+    }
+]

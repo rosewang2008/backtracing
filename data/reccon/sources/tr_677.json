@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Could you tell me what university you want to go to , John ?",
+        "emotion": "neutral",
+        "text": "Could you tell me what university you want to go to , John ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Pardon ?",
+        "emotion": "surprise",
+        "explanation": "The speaker is confused by the question",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Pardon ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What university would you enter ?",
+        "emotion": "neutral",
+        "text": "What university would you enter ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "University ? Why ? You asked me last year .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "What university would you enter ?",
+            "You asked me last year ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "University ? Why ? You asked me last year .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I forget . Sorry .",
+        "emotion": "neutral",
+        "text": "Oh , I forget . Sorry .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I went to Harvard University .",
+        "emotion": "neutral",
+        "text": "I went to Harvard University .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Did you ? And what course did you take there ?",
+        "emotion": "neutral",
+        "text": "Did you ? And what course did you take there ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "God save me ! Is there anything wrong with you ? Didn't I tell you ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "what course did you take there ?",
+            "Didn't I tell you ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "God save me ! Is there anything wrong with you ? Didn't I tell you ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I've not known . Perhaps , I've got a bad memory .",
+        "emotion": "neutral",
+        "text": "I've not known . Perhaps , I've got a bad memory .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I did a B . A . in economics . Remember ?",
+        "emotion": "neutral",
+        "text": "I did a B . A . in economics . Remember ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Terrific ! B . A . , again and again-B . A .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "B . A . in economics"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Terrific ! B . A . , again and again-B . A .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

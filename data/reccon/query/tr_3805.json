@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I can't wait ! It sounds like we're going to have a great time . How much money should I bring ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            15,
+            16,
+            16
+        ],
+        "expanded emotion cause span": [
+            "I can teach you",
+            "It'll be fun !",
+            "I can't wait !",
+            "we're going to have a great time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can't wait ! It sounds like we're going to have a great time . How much money should I bring ?",
+        "id": 16,
+        "source_sentences": [
+            14,
+            14,
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

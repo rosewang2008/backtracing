@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , look out !",
+        "emotion": "neutral",
+        "text": "Hey , look out !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What happened ?",
+        "emotion": "neutral",
+        "text": "What happened ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You've just scratched my car . Oh , God , a paint was scratched off .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You've just scratched my car .",
+            "a paint was scratched off ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You've just scratched my car . Oh , God , a paint was scratched off .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Where ? my car ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "a paint was scratched off ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Where ? my car ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No , mine !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "You've just scratched my car .",
+            "a paint was scratched off .",
+            "No , mine !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "No , mine !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank goodness !",
+        "emotion": "neutral",
+        "text": "Thank goodness !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I've just had it repainted .",
+        "emotion": "neutral",
+        "text": "I've just had it repainted .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's terrible .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "You've just scratched my car .",
+            "a paint was scratched off .",
+            "I've just had it repainted ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's terrible .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I am sorry to say this , sir , but you should've been more careful .",
+        "emotion": "neutral",
+        "text": "I am sorry to say this , sir , but you should've been more careful .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I apologize for that . But the space is too small .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            7,
+            10
+        ],
+        "expanded emotion cause span": [
+            "You've just scratched my car .",
+            "a paint was scratched off .",
+            "I've just had it repainted .",
+            "I apologize for that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I apologize for that . But the space is too small .",
+        "id": 10,
+        "source_sentences": [
+            2,
+            2,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What about the damage to my car ? What are you gonna do about that ?",
+        "emotion": "neutral",
+        "text": "What about the damage to my car ? What are you gonna do about that ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Can we solve this later ? I am calling the insurance company .",
+        "emotion": "neutral",
+        "text": "Can we solve this later ? I am calling the insurance company .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "OK . I gotta call mine too .",
+        "emotion": "neutral",
+        "text": "OK . I gotta call mine too .",
+        "id": 13
+    }
+]

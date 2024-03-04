@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yup , that ' s him . He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "he sell worthless stocks to people",
+            "If I remember , he got off with a light sentence .",
+            "He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yup , that ' s him . He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless .",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

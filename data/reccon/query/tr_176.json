@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It is the symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You have a perfect taste !",
+            "symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is the symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

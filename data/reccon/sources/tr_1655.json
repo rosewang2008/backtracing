@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Tom , I want to learn how to play golf .",
+        "emotion": "happiness",
+        "explanation": "Excited about playing golf",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Hey , Tom , I want to learn how to play golf .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You're really sporty !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I want to learn how to play golf ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're really sporty !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to do everything I can .",
+        "emotion": "neutral",
+        "text": "I want to do everything I can .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Do you have clubs ?",
+        "emotion": "neutral",
+        "text": "Do you have clubs ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No . Can I rent clubs ?",
+        "emotion": "neutral",
+        "text": "No . Can I rent clubs ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "There are clubs for beginners . It's cheaper to buy those rather than rent them a few times .",
+        "emotion": "neutral",
+        "text": "There are clubs for beginners . It's cheaper to buy those rather than rent them a few times .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What kinds of clubs ?",
+        "emotion": "neutral",
+        "text": "What kinds of clubs ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Like the seven-piece set . It's only $ 120 .",
+        "emotion": "neutral",
+        "text": "Like the seven-piece set . It's only $ 120 .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll buy a set . But you have to teach me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "It's only $ 120 ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll buy a set . But you have to teach me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Okay .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "But you have to teach me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Okay .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

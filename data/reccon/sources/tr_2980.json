@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We'd like to invite you over for dinner this Friday evening . Can you come ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We'd like to invite you over for dinner this Friday evening . Can you come ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "This Friday evening ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "This Friday evening ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes . We hope you'll be able to join us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes . We hope you'll be able to join us .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you for the invitation . I'll be very happy to go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you for the invitation . I'll be very happy to go .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'll be very happy to go ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What time should I arrive ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What time should I arrive ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about 6:00 ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'll be very happy to go ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How about 6:00 ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Fine . See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "invite you over for dinner"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine . See you then .",
+        "id": 8,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

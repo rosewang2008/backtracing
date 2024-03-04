@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You are married to a foreigner , aren't you ? So what's it like ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "You are married to a foreigner , aren't you ? So what's it like ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , in the first year of our marriage , we had great difficulties in getting along . The things that are important to me are not important to him . We had a lot of conflicts .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Well , in the first year of our marriage , we had great difficulties in getting along . The things that are important to me are not important to him . We had a lot of conflicts .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , I know what you mean . The first year of any marriage is difficult for all couples , not to mention two people from different cultures .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Yeah , I know what you mean . The first year of any marriage is difficult for all couples , not to mention two people from different cultures .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Now we have a two-year-old boy . We're very happy that he's healthy and smart .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Now we have a two-year-old boy . We're very happy that he's healthy and smart .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , so he's half Chinese and half American . That's unusual . What languages does he speak , then ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , so he's half Chinese and half American . That's unusual . What languages does he speak , then ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Right now he speaks mostly English , and he can say a few Chinese words . But he will learn in the future .",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy to discuss attributes of the speaker's son",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Right now he speaks mostly English , and he can say a few Chinese words . But he will learn in the future .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What does he look like ? Can people tell ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What does he look like ? Can people tell ?",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , people surely can . He's whiter than the Chinese kids , and his hair is a little blonde . My husband says his eyes are very Chinese though .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , people surely can . He's whiter than the Chinese kids , and his hair is a little blonde . My husband says his eyes are very Chinese though .",
+        "id": 8
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Sis , why did you ask me to come to this bargain market ? It's so crowded , and you can't find anything that you really want .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "why did you ask me to come to this bargain market ? It's so crowded , and you can't find anything that you really want ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sis , why did you ask me to come to this bargain market ? It's so crowded , and you can't find anything that you really want .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You just don't get it . Looking for bargains can be really interesting .",
+        "emotion": "neutral",
+        "text": "You just don't get it . Looking for bargains can be really interesting .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you serious ? How can that be ?",
+        "emotion": "neutral",
+        "text": "Are you serious ? How can that be ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Bargaining is a game , or even a battle . You feel like a winner when you get a good price .",
+        "emotion": "neutral",
+        "text": "Bargaining is a game , or even a battle . You feel like a winner when you get a good price .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Come on . You know , you can never really win . The salesperson never loses . They make their living out of it .",
+        "emotion": "neutral",
+        "text": "Come on . You know , you can never really win . The salesperson never loses . They make their living out of it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's true . But I just love it . Come here !",
+        "emotion": "neutral",
+        "text": "That's true . But I just love it . Come here !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , this silk carpet is really beautiful . Look at the pattern , and how delicate it is !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "this silk carpet is really beautiful . Look at the pattern , and how delicate it is !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , this silk carpet is really beautiful . Look at the pattern , and how delicate it is !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You do have great taste . That's the most expensive stuff here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "this silk carpet is really beautiful . Look at the pattern , and how delicate it is !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You do have great taste . That's the most expensive stuff here .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? Oh , this one . I like the cloisonn vase .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You do have great taste . That's the most expensive stuff here .",
+            "cloisonn vase ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Oh , this one . I like the cloisonn vase .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Are you kidding me ? I bought a same one last week . It's surprising that there is something we both like . Well , what do you think of these ceramic cups ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "cloisonn vase .",
+            "I bought a same one last week . It's surprising that there is something we both like ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you kidding me ? I bought a same one last week . It's surprising that there is something we both like . Well , what do you think of these ceramic cups ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Come on . They look so cheap . Something else , please .",
+        "emotion": "neutral",
+        "text": "Come on . They look so cheap . Something else , please .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What about this picture ? I think Benjamin would like it .",
+        "emotion": "neutral",
+        "text": "What about this picture ? I think Benjamin would like it .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Don't underestimate his taste . I don't think he'd like it .",
+        "emotion": "neutral",
+        "text": "Don't underestimate his taste . I don't think he'd like it .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Don't be so sure . He loves the vase I bought here last week .",
+        "emotion": "neutral",
+        "text": "Don't be so sure . He loves the vase I bought here last week .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Yeah . Well , anyway , it's up to you . But I can tell that you come here often .",
+        "emotion": "neutral",
+        "text": "Yeah . Well , anyway , it's up to you . But I can tell that you come here often .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Absolutely . That's why I can always get a good price .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "But I can tell that you come here often .",
+            "I can always get a good price ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Absolutely . That's why I can always get a good price .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

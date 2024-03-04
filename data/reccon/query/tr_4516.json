@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Oh , my God , you're kidding me ! He carried him back ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "he didn't have far to carry him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , my God , you're kidding me ! He carried him back ?",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

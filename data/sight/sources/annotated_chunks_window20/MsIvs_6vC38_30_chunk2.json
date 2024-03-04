@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Because the next lecture has got a lot to do, it involves transposes."
+    },
+    {
+        "text": "So how do I, if I transpose a matrix, I'm talking about square invertible matrices right now, if I transpose one, what's its inverse?"
+    },
+    {
+        "text": "Well, the nice formula is, let's see, let me start from A A inverse equal the identity."
+    },
+    {
+        "text": "And let me transpose both sides."
+    },
+    {
+        "text": "That will bring a transpose into the picture."
+    },
+    {
+        "text": "So if I transpose the identity matrix, what do I have?"
+    },
+    {
+        "text": "The identity, right?"
+    },
+    {
+        "text": "If I exchange rows and columns, the identity is a symmetric matrix that doesn't know the difference."
+    },
+    {
+        "text": "If I transpose these guys, that product, then again, it turns out that I have to reverse the order."
+    },
+    {
+        "text": "I can transpose them separately, but when I multiply, those transposes come in the opposite order."
+    },
+    {
+        "text": "So it's A inverse transpose times A transpose, giving the identity."
+    },
+    {
+        "text": "So that's this equation, it just comes directly from that one."
+    },
+    {
+        "text": "But this equation tells me what I wanted to know."
+    },
+    {
+        "text": "Namely, what is the inverse of this guy A transpose?"
+    },
+    {
+        "text": "What's the inverse of that, if I transpose a matrix, what's the inverse of the result?"
+    },
+    {
+        "text": "And this equation tells me that here it is."
+    },
+    {
+        "text": "This is."
+    },
+    {
+        "text": "This is the inverse, this is the inverse of A transpose."
+    },
+    {
+        "text": "Inverse of A transpose."
+    },
+    {
+        "text": "Of A transpose."
+    }
+]

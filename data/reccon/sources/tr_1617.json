@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Thank you for coming to see me off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "coming to see me off ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for coming to see me off .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Not at all .",
+        "emotion": "happiness",
+        "explanation": "seeing off friend",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Not at all .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "If have time , I'll come again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "coming to see me off .",
+            "I'll come again ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "If have time , I'll come again .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You're welcome at any time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "If have time , I'll come again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome at any time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you for your hospitality . I hope I didn't cause you too much trouble during my stay .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "your hospitality ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for your hospitality . I hope I didn't cause you too much trouble during my stay .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You're most welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Thank you for your hospitality . I hope I didn't cause you too much trouble during my stay ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're most welcome .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm afraid I have to go now . The plane will take off soon .",
+        "emotion": "neutral",
+        "text": "I'm afraid I have to go now . The plane will take off soon .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Call us as soon as you get home .",
+        "emotion": "neutral",
+        "text": "Call us as soon as you get home .",
+        "id": 8
+    }
+]

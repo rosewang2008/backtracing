@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening . Would you like to come with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Thank you very much .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What's the left side?"
+    },
+    {
+        "text": "It's the length squared of this, of Qx."
+    },
+    {
+        "text": "So it must be the same as Qx, transpose Qx."
+    },
+    {
+        "text": "And the claim is that that equation holds."
+    },
+    {
+        "text": "And do you see it?"
+    },
+    {
+        "text": "Where is it?"
+    },
+    {
+        "text": "So any property from Q has to just come out directly from that."
+    },
+    {
+        "text": "Where is it here?"
+    },
+    {
+        "text": "Do I just push away a little bit at that left-hand side and see it?"
+    },
+    {
+        "text": "Qx transpose is the same as x transpose Q transpose."
+    },
+    {
+        "text": "And Qx is Qx."
+    },
+    {
+        "text": "And now I'm seeing, well, you might say, wait a minute."
+    },
+    {
+        "text": "The parentheses were there and there."
+    },
+    {
+        "text": "But I say the most important law for matrix multiplication is you can move parentheses or throw them away."
+    },
+    {
+        "text": "Let's throw them away."
+    },
+    {
+        "text": "So in here, I'm seeing Q transpose Q, which is the identity."
+    },
+    {
+        "text": "So it's true."
+    },
+    {
+        "text": "So that means that you never underflow or overflow when you're multiplying by Q."
+    },
+    {
+        "text": "Every numerical algorithm is written to use orthogonal matrices wherever it can."
+    },
+    {
+        "text": "And here's the first example."
+    }
+]

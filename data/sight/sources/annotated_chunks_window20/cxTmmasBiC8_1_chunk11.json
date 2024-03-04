@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is called x2 is the next eigenvector, is the eigenvector for the smallest positive eigenvalue for lambda min excluding 0."
+    },
+    {
+        "text": "So the smallest eigenvalue of L, the smallest eigenvalue and its eigenvector, this is called the Fiedler vector, named after the Czech mathematician, a great man in linear algebra."
+    },
+    {
+        "text": "And he studied this vector, this situation."
+    },
+    {
+        "text": "So everybody who knows about the graph Laplacian is aware that its first eigenvalue is 0, and that the next eigenvalue is important."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "AUDIENCE 2 Is the graph Laplacian named the Laplacian because it has connections?"
+    },
+    {
+        "text": "GILBERT STRANGSKI-WEISBAUMGESEN To Laplace's equation, yes."
+    },
+    {
+        "text": "So yeah, that's a good question."
+    },
+    {
+        "text": "So why the word, the name Laplacian?"
+    },
+    {
+        "text": "So yeah, that's a good question."
+    },
+    {
+        "text": "So the familiar thing, so it connects to Laplace's finite difference equation, because we're talking about matrices here and not derivatives, not functions."
+    },
+    {
+        "text": "So why the word Laplacian?"
+    },
+    {
+        "text": "Well, so if I have a regular, if my graph is composed of a, so there is a graph with 25 nodes and 4 times 5, 20, about 40."
+    },
+    {
+        "text": "This probably has about 40 edges and 25 nodes."
+    },
+    {
+        "text": "And of course, I can construct its graph, all those four matrices for it."
+    },
+    {
+        "text": "Its incidence matrix, its degree matrix."
+    },
+    {
+        "text": "So the degree will be 4 at all these inside points."
+    },
+    {
+        "text": "The degree will be 3 at these boundary points."
+    },
+    {
+        "text": "The degree will be 2 at these corner points."
+    },
+    {
+        "text": "But what will the matrix L look like?"
+    }
+]

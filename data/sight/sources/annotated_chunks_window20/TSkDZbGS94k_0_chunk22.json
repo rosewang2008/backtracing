@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Oh, like 5 prime?"
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And we can come up with other examples, right?"
+    },
+    {
+        "text": "So for example, here's another one."
+    },
+    {
+        "text": "OK, so the names don't really matter, right?"
+    },
+    {
+        "text": "I mean, I called it the siblings model, but you won't find the siblings model in a textbook, right?"
+    },
+    {
+        "text": "So I wouldn't worry too much."
+    },
+    {
+        "text": "But for example, let's say you have something, so let's call it 6."
+    },
+    {
+        "text": "You have, I don't know, truncated."
+    },
+    {
+        "text": "And that's the name I just came up with, but it's actually not exactly describing what I want."
+    },
+    {
+        "text": "But let's say I observe y, which is the indicator of x larger than, say, 5 when x follows some exponential with parameter lambda."
+    },
+    {
+        "text": "OK, this is what I get to observe."
+    },
+    {
+        "text": "I only observe if my waiting time was more than 5 minutes because I see somebody coming out of the candle station being really upset, and that's all I record."
+    },
+    {
+        "text": "And it's, ah, he's been waiting for more than 5 minutes."
+    },
+    {
+        "text": "And that's all I get to record."
+    },
+    {
+        "text": "OK, that happens a lot."
+    },
+    {
+        "text": "These are called censored data."
+    },
+    {
+        "text": "I should probably not call it truncated, but this should be censored."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "You see a lot of censored data when you ask for people how much they make."
+    }
+]

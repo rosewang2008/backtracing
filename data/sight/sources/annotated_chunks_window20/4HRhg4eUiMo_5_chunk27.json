@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If the number is green, reject."
+    },
+    {
+        "text": "If the number is red, fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "So going back to the example of the previous prior example where you can achieve by looking at your data and then formulating, say, a theta 1 to be p less than 1%."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So how would you achieve your goal by changing the theta 1?"
+    },
+    {
+        "text": "You mean by achieving my goal?"
+    },
+    {
+        "text": "You mean letting ethics aside, right?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "You want to be published."
+    },
+    {
+        "text": "So OK."
+    },
+    {
+        "text": "So let me teach you how."
+    },
+    {
+        "text": "Well, here, what do you do?"
+    },
+    {
+        "text": "You want to, at the end of the day, a test is only telling you whether you found evidence in your data that H1 was more likely than H0, basically."
+    },
+    {
+        "text": "How do you make H1 more likely?"
+    },
+    {
+        "text": "Well, you just basically target H1 to be what the data is going to make it more likely to be."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So if, for example, I say H1 can be on both sides, then my data is going to have to take into account fluctuations on both sides."
+    },
+    {
+        "text": "And I'm going to lose a factor of 2 somewhere because things are not symmetric."
+    }
+]

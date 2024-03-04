@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "May I come in ?",
+        "emotion": "neutral",
+        "text": "May I come in ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Come in , please .",
+        "emotion": "neutral",
+        "text": "Come in , please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm sorry to trouble you , but I'd like to ask when I will get a raise .",
+        "emotion": "neutral",
+        "text": "I'm sorry to trouble you , but I'd like to ask when I will get a raise .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "In 3 months or so .",
+        "emotion": "neutral",
+        "text": "In 3 months or so .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You said the same thing three months ago .",
+        "emotion": "neutral",
+        "text": "You said the same thing three months ago .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Did I ? Well , anyway , you will get your raise when the economy starts picking up .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You said the same thing three months ago ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Did I ? Well , anyway , you will get your raise when the economy starts picking up .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You mean that I won't get a raise until the recession ends ?",
+        "emotion": "neutral",
+        "text": "You mean that I won't get a raise until the recession ends ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I got the message . I'm quiting .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "You mean that I won't get a raise until the recession ends ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I got the message . I'm quiting .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Nah , don't be so fast . We like your work here , but this company is on hard times . and I can't be handing out raises for anyone .",
+        "emotion": "neutral",
+        "text": "Nah , don't be so fast . We like your work here , but this company is on hard times . and I can't be handing out raises for anyone .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I've been here for 3 years , and I haven't had a raise in all that time . If you like my work , it should be reflected in my pay , and I feel it isn't .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I've been here for 3 years , and I haven't had a raise in all that time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've been here for 3 years , and I haven't had a raise in all that time . If you like my work , it should be reflected in my pay , and I feel it isn't .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I hear what you're saying , and I wish there were something I could do .",
+        "emotion": "neutral",
+        "text": "I hear what you're saying , and I wish there were something I could do .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Very well , consider me gone .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've been here for 3 years , and I haven't had a raise in all that time .",
+            "I wish there were something I could do ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Very well , consider me gone .",
+        "id": 13
+    }
+]

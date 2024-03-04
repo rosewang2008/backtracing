@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why don ' t we go the cinema tonight ?",
+        "emotion": "happiness",
+        "explanation": "There might be some underlying cause for the happiness too.",
+        "expanded emotion cause evidence": [
+            1,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "we go the cinema tonight",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Why don ' t we go the cinema tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That sounds good but I don ' t know what ' s on .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Why don ' t we go the cinema tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good but I don ' t know what ' s on .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I think there ' s a very romantic new film starring Hugh Grant . Let ' s go and see that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            "b",
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "we go the cinema tonight",
+            "b",
+            "That sounds good",
+            "there ' s a very romantic new film"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I think there ' s a very romantic new film starring Hugh Grant . Let ' s go and see that .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ok , that ' s a good idea . Where shall we meet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "there ' s a very romantic new film starring Hugh Grant . Let ' s go and see that ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok , that ' s a good idea . Where shall we meet ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well how about meeting at my place ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            "b",
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "we go the cinema tonight",
+            "b",
+            "That sounds good",
+            "there ' s a very romantic new film",
+            "that ' s a good idea"
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Well how about meeting at my place ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That sounds good . I ' ll call you once I arrive .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "there ' s a very romantic new film starring Hugh Grant . Let ' s go and see that ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good . I ' ll call you once I arrive .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

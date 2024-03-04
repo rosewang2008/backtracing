@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That ' s too bad . I ' m sorry to hear that .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I went to the library and lost my bag .",
+            "That ' s too bad . I ' m sorry to hear that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s too bad . I ' m sorry to hear that .",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

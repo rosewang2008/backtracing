@@ -1,0 +1,206 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Tony . Haven ' t seen you for a long time . How have you been ?",
+        "emotion": "neutral",
+        "text": "Hi , Tony . Haven ' t seen you for a long time . How have you been ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "OK , I ' Ve been looking for a job for days , and I haven ' t found one yet . It's so hard finding work these days . Have you had any luck ?",
+        "emotion": "neutral",
+        "text": "OK , I ' Ve been looking for a job for days , and I haven ' t found one yet . It's so hard finding work these days . Have you had any luck ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , I've got a job , a waiter's job in a restaurant .",
+        "emotion": "neutral",
+        "text": "Yes , I've got a job , a waiter's job in a restaurant .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Are you well paid ?",
+        "emotion": "neutral",
+        "text": "Are you well paid ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , $ 10 per hour , but I can keep the tips . That comes to roughly $ 80 every evening",
+        "emotion": "neutral",
+        "text": "Well , $ 10 per hour , but I can keep the tips . That comes to roughly $ 80 every evening",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Not bad .",
+        "emotion": "neutral",
+        "text": "Not bad .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Actually , there's still another opening . If you are interested , you ' ll surely get it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "there's still another opening ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Actually , there's still another opening . If you are interested , you ' ll surely get it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That ' s great ! I ' ll go there right now and speak with the boss .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "there's still another opening .",
+            "there's still another opening . If you are interested , you ' ll surely get it .",
+            "That ' s great !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s great ! I ' ll go there right now and speak with the boss .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "There ' s no rush . You can see him tomorrow . I ' Ve told him about you . He promised to give you the job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "there's still another opening .",
+            "He promised to give you the job ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "There ' s no rush . You can see him tomorrow . I ' Ve told him about you . He promised to give you the job .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That was nice of you , Susan . Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "there's still another opening .",
+            "there's still another opening . If you are interested , you ' ll surely get it .",
+            "That ' s great !",
+            "I ' Ve told him about you . He promised to give you the job ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That was nice of you , Susan . Thanks a lot .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Think nothing of it , Tony . I ' m sure you ' d do the same for me .",
+        "emotion": "neutral",
+        "text": "Think nothing of it , Tony . I ' m sure you ' d do the same for me .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Could you tell me a bit more about the work there ? I mean , those dos and don'ts . I am a green hand , you know .",
+        "emotion": "neutral",
+        "text": "Could you tell me a bit more about the work there ? I mean , those dos and don'ts . I am a green hand , you know .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "First of all , you must be punctual . You should be there before 6 p . m . so that you will have half an hour for preparation changing clothes and things like that . Then , remember you should smile . Smile to your customers all the time . Never pull a long face even If you feel awful that day . Anything else ? Oh , yes . Never argue with your boss . Learn to say ' Yes , sir . '",
+        "emotion": "neutral",
+        "text": "First of all , you must be punctual . You should be there before 6 p . m . so that you will have half an hour for preparation changing clothes and things like that . Then , remember you should smile . Smile to your customers all the time . Never pull a long face even If you feel awful that day . Anything else ? Oh , yes . Never argue with your boss . Learn to say ' Yes , sir . '",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Be a yes-man , you mean ?",
+        "emotion": "neutral",
+        "text": "Be a yes-man , you mean ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "You may put it that way if you like . Don ' t worry . You ' ll have no problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Be a yes-man",
+            "Don ' t worry . You ' ll have no problem ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You may put it that way if you like . Don ' t worry . You ' ll have no problem .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I hope not .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Don ' t worry . You ' ll have no problem ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope not .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

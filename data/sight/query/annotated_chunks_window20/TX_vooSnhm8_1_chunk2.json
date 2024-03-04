@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 1,
+        "timestamp": 1684512167597.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "@ 26:04 I have to admit, that took me a second to figure it out. \nProf Strang didn't actually have anything wrong, he just couldn't see while in the middle of it why that was the case. He actually had it at 26:44 but let it slip through his hands.\nFor that you have to go back to when he was computing matrix \"V\".  The evec associated with eval of 18 was [1;-1] but it also can be written as [-1;1]\n\nHe chose the [1;-1] which had the effect once we made it to the final calculation of U * Diag^2 * V^t that it SWAPPED THE COLUMNS of A\nHis original A was [4,4;-3,3] and the calc'd one was [4,4;3,-3]\nHad he chosen the 'other version' of the evec associated with Lambda = 18 when figuring out \"V\", he would have gotten back the same \"A\" he started with instead of the column-swapped version.\nBut what could go wrong? :-)"
+    }
+]

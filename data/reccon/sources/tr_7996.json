@@ -1,0 +1,177 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you know how late it is ?",
+        "emotion": "anger",
+        "explanation": "Person B is late which made Person 1 angry.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you know how late it is ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My fault . I didn't realize what time it was .",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Do you know how late it is ?",
+            "I didn't realize what time it was ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My fault . I didn't realize what time it was .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I hope you don't think that excuse lets you off the hook .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I hope you don't think that excuse lets you off the hook .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not really . I'm telling the truth .",
+        "emotion": "neutral",
+        "text": "Not really . I'm telling the truth .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Haven't I asked you to call if you're going to be home late ?",
+        "emotion": "anger",
+        "explanation": "Person A is angry because person B is late and have not give a prior call to person A as agreed upon.",
+        "expanded emotion cause evidence": [
+            "b",
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I asked you to call if you're going to be home late"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Haven't I asked you to call if you're going to be home late ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This is true , but it must've slipped my mind .",
+        "emotion": "neutral",
+        "text": "This is true , but it must've slipped my mind .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Regardless , all you had to do was give a call .",
+        "emotion": "neutral",
+        "text": "Regardless , all you had to do was give a call .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I know . I should've called .",
+        "emotion": "neutral",
+        "text": "I know . I should've called .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Come home late one more time , and you'll find your stuff outside .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            "b",
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I asked you to call if you're going to be home late"
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Come home late one more time , and you'll find your stuff outside .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You want to throw me out over this ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Come home late one more time , and you'll find your stuff outside ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You want to throw me out over this ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's right , maybe then you'll respect my rules .",
+        "emotion": "neutral",
+        "text": "That's right , maybe then you'll respect my rules .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's fine , because if I leave , then your rules won't matter .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "That's right , maybe then you'll respect my rules ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's fine , because if I leave , then your rules won't matter .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Aren ' t you interested in watching the Olympics ? There have been some excellent performances by athletes from all over the world .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "There have been some excellent performances by athletes from all over the world ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Aren ' t you interested in watching the Olympics ? There have been some excellent performances by athletes from all over the world .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I just don ' t find it very interesting .",
+        "emotion": "neutral",
+        "text": "I just don ' t find it very interesting .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I think it ' s wonderful to see people from all over the world taking part in such a great event .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I think it ' s wonderful to see people from all over the world taking part in such a great event ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it ' s wonderful to see people from all over the world taking part in such a great event .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think that for a lot of people , it ' s just a way to try and show their country is better than other countries .",
+        "emotion": "neutral",
+        "text": "I think that for a lot of people , it ' s just a way to try and show their country is better than other countries .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I think the Olympics help to promote world peace .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I think the Olympics help to promote world peace ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think the Olympics help to promote world peace .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' m not sure about that . We still have many wars in the world . I think that the idea behind the Olympics is a good one , but the reality is that during the Olympics countries compete . There ' s no real spirit of cooperation and people are usually not very friendly to each other .",
+        "emotion": "neutral",
+        "text": "I ' m not sure about that . We still have many wars in the world . I think that the idea behind the Olympics is a good one , but the reality is that during the Olympics countries compete . There ' s no real spirit of cooperation and people are usually not very friendly to each other .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are so pessimistic ! The Olympics is a great opportunity for athletes to demonstrate their speed , skill , agility and strength . Most people hope to see someone from their country win , but I think that they are just happy to see good performances by any athlete .",
+        "emotion": "neutral",
+        "text": "You are so pessimistic ! The Olympics is a great opportunity for athletes to demonstrate their speed , skill , agility and strength . Most people hope to see someone from their country win , but I think that they are just happy to see good performances by any athlete .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well . I think that the most amazing performances are by athletes who participate in the Paralympics .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I think that the most amazing performances are by athletes who participate in the Paralympics ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well . I think that the most amazing performances are by athletes who participate in the Paralympics .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Now there we are in agreement !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I think that the most amazing performances are by athletes who participate in the Paralympics .",
+            "Now there we are in agreement !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Now there we are in agreement !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

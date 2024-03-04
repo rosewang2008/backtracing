@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "d32WV1rKoVk",
+        "query_id": 2,
+        "timestamp": 1684519128837.0,
+        "annotatedSourceSentencesIndices": [
+            5
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Should we not use A0 = QR ,  A1=RQ => A0 = QRQ^-1 since we know Q is orthogonal and hence invertible? Where as R is not invertible unless A is?"
+    }
+]

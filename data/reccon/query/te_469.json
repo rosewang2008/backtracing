@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . I'm sure I will have a wonderful time here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's our pleasure to have you here . I hope you will have a pleasant stay here .",
+            "I'm sure I will have a wonderful time here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . I'm sure I will have a wonderful time here .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

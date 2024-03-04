@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 44,
+        "timestamp": 1684722640153.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "The complexity of matrix multiplication is of the order O(n^3), that's fine. But in every step in the we are changing just one row...therefore, shouldn't the cost be n+ (n-1)+ (n-2) + ........+1, ie O(n^2), if we have a suitable algorithm?"
+    }
+]

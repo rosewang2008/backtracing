@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's not any p. The p is the probability that an exponential lambda is larger than 5."
+    },
+    {
+        "text": "And maybe I want to have lambda as a parameter."
+    },
+    {
+        "text": "OK, so what I need to actually compute is what is the probability that y is larger than 5 when y is this exponential lambda, which means that what I need to compute is the integral between 5 and infinity of 1 over lambda."
+    },
+    {
+        "text": "Huh?"
+    },
+    {
+        "text": "How did I define it in this class?"
+    },
+    {
+        "text": "I changed everything."
+    },
+    {
+        "text": "What?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Lambda e to the minus lambda x. PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Oh, yeah, right, right, right."
+    },
+    {
+        "text": "You're right."
+    },
+    {
+        "text": "Lambda e to the minus lambda x dx, right?"
+    },
+    {
+        "text": "So that's what I need to compute."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "So what is the value of this integral?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "You take appropriate measures."
+    }
+]

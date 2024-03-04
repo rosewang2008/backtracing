@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So the power is the smallest probability of rejecting when you're in the null."
+    },
+    {
+        "text": "And it's alternative when you're in theta 1, right?"
+    },
+    {
+        "text": "So that's my power."
+    },
+    {
+        "text": "I looked here, and I looked at the smallest value."
+    },
+    {
+        "text": "And I can look at this side and say, well, what is the largest probability that I make a type 1 error?"
+    },
+    {
+        "text": "Again, this largest probability is the level of the test."
+    },
+    {
+        "text": "OK, so this is alpha equal, by definition, to the maximum for theta and theta 0 of alpha psi of theta."
+    },
+    {
+        "text": "So here, I just put the level itself."
+    },
+    {
+        "text": "As you can see here, it essentially says that if I'm of level 5%, I'm also of level 10%."
+    },
+    {
+        "text": "I'm also of level 15%."
+    },
+    {
+        "text": "So here, it's really an upper bound."
+    },
+    {
+        "text": "Whatever you guys want to take, this is what it is."
+    },
+    {
+        "text": "But as we said, if this number is 4.5%, you're losing in your type 2 error."
+    },
+    {
+        "text": "So if you're allowed to have, if this maximum here is 4.5%, and FDA told you you can go to 5%, you're losing in your type 2 error."
+    },
+    {
+        "text": "So you actually want to make sure that this is the 5% that's given to you."
+    },
+    {
+        "text": "So the way it works is that you give me the alpha."
+    },
+    {
+        "text": "Then I'm going to go back, pick c that depends on alpha here, so that this thing is actually equal to 5%."
+    },
+    {
+        "text": "And so, of course, in many instances, we do not know the probability."
+    },
+    {
+        "text": "We do not know how to compute the probability of type 1 error."
+    },
+    {
+        "text": "This is a maximum value for the probability of type 1 error."
+    }
+]

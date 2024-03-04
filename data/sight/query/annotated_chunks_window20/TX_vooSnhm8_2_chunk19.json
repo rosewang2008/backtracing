@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 2,
+        "timestamp": 1684512339083.0,
+        "annotatedSourceSentencesIndices": [
+            1
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Professor Strang mentions that U and V form bases for the four fundamental subspaces of A, but it's not clear to me how C(A) = C(Ur) and C(A') = C (Vr'). I know that U and V were determined by the eigenvectors of AA' and A'A, respectively, but how are these related to the column and row spaces of A?"
+    }
+]

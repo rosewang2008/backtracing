@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "you ' re kidding ! How did that happen ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I got sacked today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "you ' re kidding ! How did that happen ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

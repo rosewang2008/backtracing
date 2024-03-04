@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Linda , this is Todd calling .",
+        "emotion": "neutral",
+        "text": "Linda , this is Todd calling .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Todd , I am so happy you called !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "this is Todd calling ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Todd , I am so happy you called !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Linda , I wanted to tell you how much I enjoyed our time together last Friday night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am so happy you called !",
+            "I wanted to tell you how much I enjoyed our time together last Friday night ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Linda , I wanted to tell you how much I enjoyed our time together last Friday night .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Boy , Todd , that was one great movie you picked out ! Thanks for asking me to go with you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I am so happy you called !",
+            "I wanted to tell you how much I enjoyed our time together last Friday night .",
+            "that was one great movie you picked out ! Thanks for asking me to go with you !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Boy , Todd , that was one great movie you picked out ! Thanks for asking me to go with you !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I had a great time too and was thinking that maybe you might want to join me for a hike to the waterfalls on Saturday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "that was one great movie you picked out ! Thanks for asking me to go with you !",
+            "I had a great time too and was thinking that maybe you might want to join me for a hike to the waterfalls on Saturday ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I had a great time too and was thinking that maybe you might want to join me for a hike to the waterfalls on Saturday .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "A hike would be great ! Let me pack us a nice picnic lunch , OK ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "that was one great movie you picked out ! Thanks for asking me to go with you !",
+            "I had a great time too and was thinking that maybe you might want to join me for a hike to the waterfalls on Saturday ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "A hike would be great ! Let me pack us a nice picnic lunch , OK ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Linda , that would be a perfect addition .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "hike would be great ! Let me pack us a nice picnic lunch ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Linda , that would be a perfect addition .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'll take care of the lunch then , and you can take care of the other plans . What time would you like to pick me up ?",
+        "emotion": "happiness",
+        "explanation": "speaker is happy about the trip",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "a hike to the waterfalls on Saturday .",
+            "that would be a perfect addition ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll take care of the lunch then , and you can take care of the other plans . What time would you like to pick me up ?",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I was hoping to leave by 9 o'clock so that it won \\ ' t be too hot for the hike .",
+        "emotion": "neutral",
+        "text": "I was hoping to leave by 9 o'clock so that it won \\ ' t be too hot for the hike .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Nine is a great time to get started . I'll see you on Saturday !",
+        "emotion": "neutral",
+        "text": "Nine is a great time to get started . I'll see you on Saturday !",
+        "id": 10
+    }
+]

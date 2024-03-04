@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How is your job search 1 going , Janet ?",
+        "emotion": "neutral",
+        "text": "How is your job search 1 going , Janet ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I found the ideal position . I ' m working for a plumbing company .",
+        "emotion": "neutral",
+        "text": "I found the ideal position . I ' m working for a plumbing company .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you serious ? You studied mathematics at college for four years , and now you have a job working with your hands !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' m working for a plumbing company .",
+            "You studied mathematics at college for four years , and now you have a job working with your hands !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you serious ? You studied mathematics at college for four years , and now you have a job working with your hands !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Plumbing work requires mathematics knowledge , and creativity . I love this job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Plumbing work requires mathematics knowledge , and creativity . I love this job ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Plumbing work requires mathematics knowledge , and creativity . I love this job .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I can see that . But I didn ' t know you had experience in that line of work .",
+        "emotion": "neutral",
+        "text": "I can see that . But I didn ' t know you had experience in that line of work .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I didn ' t , but I applied for an apprenticeship , and since I studied math , AND I have a good attitude 4 , my application was accepted .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn ' t , but I applied for an apprenticeship , and since I studied math , AND I have a good attitude 4 , my application was accepted ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I didn ' t , but I applied for an apprenticeship , and since I studied math , AND I have a good attitude 4 , my application was accepted .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Congratulations ! You do have the right attitude .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "my application was accepted ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations ! You do have the right attitude .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

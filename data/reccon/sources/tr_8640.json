@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow ! They've got everything here . All the world's famous brands . Aunt Cindy , what is your favorite brand ?",
+        "emotion": "neutral",
+        "text": "Wow ! They've got everything here . All the world's famous brands . Aunt Cindy , what is your favorite brand ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I love all the fashionable things . But my favorite brand is Chanel .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I love all the fashionable things . But my favorite brand is Chanel ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love all the fashionable things . But my favorite brand is Chanel .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , that's a very expensive brand , but with good reason .",
+        "emotion": "neutral",
+        "text": "Oh , that's a very expensive brand , but with good reason .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah . Each style is specially designed by world's top designers . So they can always make you look amazing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I love all the fashionable things . But my favorite brand is Chanel .",
+            "Each style is specially designed by world's top designers . So they can always make you look amazing ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yeah . Each style is specially designed by world's top designers . So they can always make you look amazing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I see . Come here . The high heels here look really attractive . But I wonder whether it's comfortable to wear any of them ?",
+        "emotion": "neutral",
+        "text": "I see . Come here . The high heels here look really attractive . But I wonder whether it's comfortable to wear any of them ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Not really , especially at the beginning , if you wear high heels all day long , your feet would hurt . But , no big deal . Women can always get used to that .",
+        "emotion": "neutral",
+        "text": "Not really , especially at the beginning , if you wear high heels all day long , your feet would hurt . But , no big deal . Women can always get used to that .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's not a simple thing to be beautiful .",
+        "emotion": "neutral",
+        "text": "It's not a simple thing to be beautiful .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure . But everyone loves to be beautiful . Hey , do you think this pair of sunglasses matches the handbag well ?",
+        "emotion": "neutral",
+        "text": "Sure . But everyone loves to be beautiful . Hey , do you think this pair of sunglasses matches the handbag well ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , very tasteful . And with them , you look even more fashionable . Oh , there are so many French perfumers . Oops , perfumes for guys ? So strange !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "perfumes for guys ? So strange !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , very tasteful . And with them , you look even more fashionable . Oh , there are so many French perfumers . Oops , perfumes for guys ? So strange !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Come on . Fashion is not only for women . Men also share the equal right to chase fashion . It's the new fashion for men to wear perfumes , which is called cologne .",
+        "emotion": "neutral",
+        "text": "Come on . Fashion is not only for women . Men also share the equal right to chase fashion . It's the new fashion for men to wear perfumes , which is called cologne .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , really , that's really something new . I'm afraid not everyone can accept it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's the new fashion for men to wear perfumes , which is called cologne ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really , that's really something new . I'm afraid not everyone can accept it .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It takes time for that . But people's consuming attitudes are changing quickly .",
+        "emotion": "neutral",
+        "text": "It takes time for that . But people's consuming attitudes are changing quickly .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That's true . Well , it's obvious that fashion is not a cheap thing . So , do you spend all your money on it ?",
+        "emotion": "neutral",
+        "text": "That's true . Well , it's obvious that fashion is not a cheap thing . So , do you spend all your money on it ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No . Fashion is just part of my life , which improves its quality . But also , I'm good at financing . I have a credit card , but I never overdraft .",
+        "emotion": "neutral",
+        "text": "No . Fashion is just part of my life , which improves its quality . But also , I'm good at financing . I have a credit card , but I never overdraft .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "How is it that you are my mom's sis ? You two are so different . She always picks up bargains and spends more than she earns . You do so much better than her .",
+        "emotion": "neutral",
+        "text": "How is it that you are my mom's sis ? You two are so different . She always picks up bargains and spends more than she earns . You do so much better than her .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I have to say that's just the result of difference of our consumptive habits .",
+        "emotion": "neutral",
+        "text": "I have to say that's just the result of difference of our consumptive habits .",
+        "id": 16
+    }
+]

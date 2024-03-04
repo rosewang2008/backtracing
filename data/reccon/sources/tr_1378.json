@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "David , what have you been up to lately ?",
+        "emotion": "neutral",
+        "text": "David , what have you been up to lately ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I went on a trip with my family last week .",
+        "emotion": "neutral",
+        "text": "I went on a trip with my family last week .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? Where did you go ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Really ? Where did you go ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Really ? Where did you go ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We went to Europe .",
+        "emotion": "neutral",
+        "text": "We went to Europe .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What cities did you go to ?",
+        "emotion": "neutral",
+        "text": "What cities did you go to ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "London , Paris and a few other cities .",
+        "emotion": "neutral",
+        "text": "London , Paris and a few other cities .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Did you go to Berlin ?",
+        "emotion": "neutral",
+        "text": "Did you go to Berlin ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , We didn't go there . I'd like to go there next time .",
+        "emotion": "neutral",
+        "text": "No , We didn't go there . I'd like to go there next time .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think this summer is a good time to visit Berlin . It's a beautiful place and the people there are very nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "this summer is a good time to visit Berlin . It's a beautiful place and the people there are very nice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think this summer is a good time to visit Berlin . It's a beautiful place and the people there are very nice .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's what I've heard .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "this summer is a good time to visit Berlin . It's a beautiful place and the people there are very nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's what I've heard .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I went there last year . If you want , I can give you some information I have about the city .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that B has affirmed his/her opinion",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "this summer is a good time to visit Berlin . It's a beautiful place and the people there are very nice .",
+            "That's what I've heard ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I went there last year . If you want , I can give you some information I have about the city .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "If you want , I can give you some information I have about the city ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

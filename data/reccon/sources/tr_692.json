@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Jim , I heard you ' Ve bought a new computer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I heard you ' Ve bought a new computer ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Jim , I heard you ' Ve bought a new computer .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Look , it is on my desk .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "bought a new computer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . Look , it is on my desk .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Your office looks different with a computer . By the way , is it difficult to use a computer ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Your office looks different with a computer ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Your office looks different with a computer . By the way , is it difficult to use a computer ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not at all . It ' s a piece of cake .",
+        "emotion": "neutral",
+        "text": "Not at all . It ' s a piece of cake .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "A piece of cake ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "A piece of cake ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "A piece of cake ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . It ' s easy and convenient to use a computer . But it takes a long time to really master it .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "bought a new computer .",
+            "It ' s easy and convenient to use a computer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . It ' s easy and convenient to use a computer . But it takes a long time to really master it .",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,11 @@
+Using CUDA? True
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/gpt2_single-sentence.csv
+Output fname: results/reccon/test/gpt2_single-sentence.csv
+Total: 8282
+Num errors: 0
+Num large context: 0
+Method: single-sentence, top_k: 1, accuracy: 0.03, distance: 1.5
+Method: single-sentence, top_k: 3, accuracy: 0.46, distance: 0.63
+

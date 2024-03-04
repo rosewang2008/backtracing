@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 51,
+        "speaker": "A",
+        "utterance": "Don't- you, you can't think like that! Don't think like that!",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            50,
+            51
+        ],
+        "expanded emotion cause span": [
+            "It doesn't inspire me?",
+            "you can't think like that! Don't think like that!"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Don't- you, you can't think like that! Don't think like that!",
+        "id": 51,
+        "source_sentences": [
+            49
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "God ! Even talking about it makes me feel like l'm gaining weight !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "God ! Even talking about it makes me feel like l'm gaining weight !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

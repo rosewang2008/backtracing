@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "RD9AWDdj-Yk",
+        "query_id": 0,
+        "timestamp": 1684192371630.0,
+        "annotatedSourceSentencesIndices": [
+            3,
+            15
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "Proof of TRL neglects edges inside clusters?"
+    }
+]

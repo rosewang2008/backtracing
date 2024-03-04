@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We finally get a chance to meet .",
+        "emotion": "neutral",
+        "text": "We finally get a chance to meet .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you for meeting me here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "get a chance to meet .",
+            "Thank you for meeting me here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you for meeting me here .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's no problem .",
+        "emotion": "neutral",
+        "text": "It's no problem .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I need to speak with you about your daughter .",
+        "emotion": "neutral",
+        "text": "I need to speak with you about your daughter .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is there something wrong ?",
+        "emotion": "neutral",
+        "text": "Is there something wrong ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I enjoy having your daughter in my class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I enjoy having your daughter in my class .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm glad to hear it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad to hear it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "She is a great addition to my class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class .",
+            "She is a great addition to my class ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "She is a great addition to my class .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You don't have anything bad to say about her ?",
+        "emotion": "neutral",
+        "text": "You don't have anything bad to say about her ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "She is always behaving herself , and she's so smart .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class .",
+            "She is a great addition to my class .",
+            "She is always behaving herself , and she's so smart ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "She is always behaving herself , and she's so smart .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I am so happy that she's doing okay .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class .",
+            "She is a great addition to my class .",
+            "She is always behaving herself , and she's so smart .",
+            "she's doing okay ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am so happy that she's doing okay .",
+        "id": 11,
+        "source_sentences": [
+            5,
+            7,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm more than happy having her in my class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class .",
+            "She is a great addition to my class .",
+            "She is always behaving herself , and she's so smart ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'm more than happy having her in my class .",
+        "id": 12
+    }
+]

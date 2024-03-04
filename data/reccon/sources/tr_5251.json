@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello everyone , and welcome to our CPR for beginners course . First of all , does anyone know what CPR stands for ?",
+        "emotion": "neutral",
+        "text": "Hello everyone , and welcome to our CPR for beginners course . First of all , does anyone know what CPR stands for ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Cardiopulmonary resuscitation !",
+        "emotion": "happiness",
+        "explanation": "knowing the answer to the question",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Cardiopulmonary resuscitation !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s right ! We apply CPR in the case of cardiac arrest or pulmonary arrest .",
+        "emotion": "neutral",
+        "text": "That ' s right ! We apply CPR in the case of cardiac arrest or pulmonary arrest .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What does that mean ?",
+        "emotion": "neutral",
+        "text": "What does that mean ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , basically if your heart stops pumping blood , or your lungs stop pumping air , then we need to get them going again ! That ' s when we have to apply this procedure . Let ' s begin ! I need a volunteer .",
+        "emotion": "neutral",
+        "text": "Well , basically if your heart stops pumping blood , or your lungs stop pumping air , then we need to get them going again ! That ' s when we have to apply this procedure . Let ' s begin ! I need a volunteer .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Me ! Me !",
+        "emotion": "excited",
+        "explanation": "The person is excited to become a volunteer",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I need a volunteer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me ! Me !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Alright , come here and lay flat on your back . Let ' s suppose this young woman has stopped breathing . We must lift the person ' s chin so that we clear a pathway for air to get into the lungs . Then we place our mouth over the other person ' s mouth and blow air two or three times , like this .",
+        "emotion": "neutral",
+        "text": "Alright , come here and lay flat on your back . Let ' s suppose this young woman has stopped breathing . We must lift the person ' s chin so that we clear a pathway for air to get into the lungs . Then we place our mouth over the other person ' s mouth and blow air two or three times , like this .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wait , what are you doing ? I ' m a married woman ! You can ' t just try to kiss me like this !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "You can ' t just try to kiss me like this !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wait , what are you doing ? I ' m a married woman ! You can ' t just try to kiss me like this !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Madam I ' m not trying to kiss you ! I am trying to demonstrate how to apply CPR in the case of an emergency .",
+        "emotion": "neutral",
+        "text": "Madam I ' m not trying to kiss you ! I am trying to demonstrate how to apply CPR in the case of an emergency .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , OK . But no French kissing !",
+        "emotion": "neutral",
+        "text": "Well , OK . But no French kissing !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "As I was saying , we blow air through the mouth in this manner . Once this is done , we must try to get the heart going again . To do this , we place our hands over the person ' s chest , and press down firmly two or three times .",
+        "emotion": "neutral",
+        "text": "As I was saying , we blow air through the mouth in this manner . Once this is done , we must try to get the heart going again . To do this , we place our hands over the person ' s chest , and press down firmly two or three times .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Wait , what are you doing ! You can ' t just kiss me then go for second base !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "You can ' t just kiss me then go for second base !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wait , what are you doing ! You can ' t just kiss me then go for second base !",
+        "id": 12
+    }
+]

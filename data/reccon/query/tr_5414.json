@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't need your help , jerk .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "That may be , but you're still under arrest . And you'd better stop talking ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't need your help , jerk .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

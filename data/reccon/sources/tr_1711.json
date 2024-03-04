@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you ready to go the concert ?",
+        "emotion": "neutral",
+        "text": "Are you ready to go the concert ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Should we go there by bus so we aren't late ?",
+        "emotion": "neutral",
+        "text": "Yes . Should we go there by bus so we aren't late ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Actually , why don't we go there by bike ? We could get stuck in traffic if we travel by bus in rush hour .",
+        "emotion": "happiness",
+        "explanation": "Speaker is happy to travel by bike",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Actually , why don't we go there by bike ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Actually , why don't we go there by bike ? We could get stuck in traffic if we travel by bus in rush hour .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's true . Cycling is good for our environment , too . Let me just get my helmet then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Actually , why don't we go there by bike ?",
+            "Cycling is good for our environment , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's true . Cycling is good for our environment , too . Let me just get my helmet then .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is your helmet comfortable ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Actually , why don't we go there by bike ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Is your helmet comfortable ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Not really , but I liked the design , so I got it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I liked the design ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not really , but I liked the design , so I got it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Maybe you should think about getting a round helmet ; they're better .",
+        "emotion": "happiness",
+        "explanation": "speaker feels comfortable in round helmet",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "you should think about getting a round helmet ; they're better ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Maybe you should think about getting a round helmet ; they're better .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'll think about it .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "you should think about getting a round helmet ; they're better ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll think about it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Is that your new bicycle ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Is that your new bicycle ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Is that your new bicycle ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , my father gave it to me for my birthday . Do you like it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Is that your new bicycle ?",
+            "my father gave it to me for my birthday ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , my father gave it to me for my birthday . Do you like it ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's the newest 10 speed cycling mountain bike . These are really expensive !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "It's the newest 10 speed cycling mountain bike ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's the newest 10 speed cycling mountain bike . These are really expensive !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Nothing but the best from my dad . I like everything about it except for the brakes . They are a bit sticky .",
+        "emotion": "neutral",
+        "text": "Nothing but the best from my dad . I like everything about it except for the brakes . They are a bit sticky .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I can fix those for you . Is there anything else wrong with it ?",
+        "emotion": "neutral",
+        "text": "I can fix those for you . Is there anything else wrong with it ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well , my saddle is too low for me . Do you know how to change the height ?",
+        "emotion": "neutral",
+        "text": "Well , my saddle is too low for me . Do you know how to change the height ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's easy . It's important to have the saddle high enough so that your legs can extend fully when you are on your bicycle .",
+        "emotion": "neutral",
+        "text": "That's easy . It's important to have the saddle high enough so that your legs can extend fully when you are on your bicycle .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Is that why my knees have felt sore after every time I've ridden my bike ?",
+        "emotion": "neutral",
+        "text": "Is that why my knees have felt sore after every time I've ridden my bike ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "It's possible . Give me a minute and I can fix these for you and then we can go .",
+        "emotion": "neutral",
+        "text": "It's possible . Give me a minute and I can fix these for you and then we can go .",
+        "id": 17
+    }
+]

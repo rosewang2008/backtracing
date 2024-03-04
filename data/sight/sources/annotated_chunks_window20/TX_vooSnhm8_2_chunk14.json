@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And the beauty of, these sliding boards is, I can make that go away."
+    },
+    {
+        "text": "Can I, let me not do it, though."
+    },
+    {
+        "text": "Yes, let me take a second example."
+    },
+    {
+        "text": "Let me take a second example where the matrix is singular."
+    },
+    {
+        "text": "So rank one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So let me take as an example two, where my matrix A is going to be rectangular again."
+    },
+    {
+        "text": "Let me just make it four three eight six."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's a rank one matrix."
+    },
+    {
+        "text": "So that has a null space and only a one-dimensional row space and column space."
+    },
+    {
+        "text": "So actually, my picture becomes easy for this matrix, because what's my columns, my row space for this one?"
+    },
+    {
+        "text": "So this is two by two, so my pictures are both two dimensional."
+    },
+    {
+        "text": "My row space is all multiples of vector four three."
+    },
+    {
+        "text": "So the whole, the row space is just a line, right?"
+    },
+    {
+        "text": "That's the row space."
+    },
+    {
+        "text": "And the null space, of course, is the perpendicular line."
+    },
+    {
+        "text": "So the row space for this matrix is multiples of four three."
+    },
+    {
+        "text": "Typical row."
+    }
+]

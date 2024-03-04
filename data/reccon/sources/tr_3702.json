@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "what do you think about this store ? I heard it ' s a posh store that ' s only got branches in big cities .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "it ' s a posh store that ' s only got branches in big cities ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "what do you think about this store ? I heard it ' s a posh store that ' s only got branches in big cities .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I love this store . The only problem is that it ' s extremely expensive .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I love this store ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love this store . The only problem is that it ' s extremely expensive .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "don ' t worry . I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I love this store . The only problem is that it ' s extremely expensive .",
+            "don ' t worry . I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "don ' t worry . I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "really ? I thought you hated shopping ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "really ? I thought you hated shopping ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I do , that ' s why you should appreciate this gift !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I thought you hated shopping ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I do , that ' s why you should appreciate this gift !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "sure . That ' s really nice of you . Let ' s go in and try some things on .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I thought you hated shopping ?",
+            "you should appreciate this gift !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "sure . That ' s really nice of you . Let ' s go in and try some things on .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "how about this red dress ? I think it would really suit you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it would really suit you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "how about this red dress ? I think it would really suit you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "that ' s gorgeous ! Do they have it in a size 8 ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it would really suit you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that ' s gorgeous ! Do they have it in a size 8 ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "here you go . On any other day , it would cost me a fortune , but it ' s on special offer today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "it ' s on special offer today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "here you go . On any other day , it would cost me a fortune , but it ' s on special offer today .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I think this color isn ' t quite right for me . Do they have the same dress in white ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it would really suit you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I think this color isn ' t quite right for me . Do they have the same dress in white ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "let me look . Let ' s see ... they ' Ve got one in blue , green , pink , black ... and white . Here you are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "they ' Ve got one in blue , green , pink , black ... and white ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "let me look . Let ' s see ... they ' Ve got one in blue , green , pink , black ... and white . Here you are .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "this is perfect ! What do you think ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "this is perfect !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "this is perfect ! What do you think ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I think you look fantastic . Happy Birthday !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "this is perfect !",
+            "you look fantastic"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think you look fantastic . Happy Birthday !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "this is perfect !",
+            "you look fantastic",
+            "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "id": 14
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 31,
+        "timestamp": 1684728216400.0,
+        "annotatedSourceSentencesIndices": [
+            18
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Could someone explain why vector, lambda and 1 is a solution to the nullspace at 48:43? First component, (1-lambda)*lambda+1 is not 0 or different from lambda^2 - lambda -1."
+    }
+]

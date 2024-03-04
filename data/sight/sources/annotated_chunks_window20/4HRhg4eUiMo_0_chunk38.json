@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I'm claiming that this number here, by Pythagoras' theorem, the squared distance here is the sum of this squared distance here, which is the square of a Gaussian by assumption, plus the square of this distance, which is the square of another independent Gaussian."
+    },
+    {
+        "text": "I assume those are independent."
+    },
+    {
+        "text": "And so the squared distance from this point to this point is the chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "So this guy here is n01 squared."
+    },
+    {
+        "text": "This is n01 squared."
+    },
+    {
+        "text": "And so this guy here, this distance here, is chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "I mean, the squared distance."
+    },
+    {
+        "text": "I'm talking about squared distances here."
+    },
+    {
+        "text": "So now you can see that actually Pythagoras is basically why chi-squared arise."
+    },
+    {
+        "text": "That's why it has its own name."
+    },
+    {
+        "text": "I mean, I could define this random variable."
+    },
+    {
+        "text": "I mean, it's actually a gamma distribution."
+    },
+    {
+        "text": "It's a special case of something called the gamma distribution."
+    },
+    {
+        "text": "The fact that the special case has its own name is because there's many times where we're going to take sum of squares of independent Gaussians, because Gaussians, the sum of squares is really the norm, the Euclidean norm squared, just by Pythagoras theorem."
+    },
+    {
+        "text": "If I'm in higher dimension, I can start to sum more squared coordinates, and I'm going to measure the norm squared."
+    },
+    {
+        "text": "So if you want to draw this picture, it looks like this."
+    },
+    {
+        "text": "Again, it's the sum of positive numbers."
+    },
+    {
+        "text": "So it's going to be on 0 plus infinity."
+    },
+    {
+        "text": "That's fd."
+    },
+    {
+        "text": "And so for f1 looks like this."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it's nothing special about DFAs there."
+    },
+    {
+        "text": "Anyway, I think you need to chew on that."
+    },
+    {
+        "text": "And hopefully, you'll be following going forward."
+    },
+    {
+        "text": "Anyway, let us look now at proving non-regularity."
+    },
+    {
+        "text": "So we're finished with our goal of showing that regular languages can either come from DFAs or from regular expressions."
+    },
+    {
+        "text": "Those are the same in terms of, from the perspective of our course, they're interchangeable."
+    },
+    {
+        "text": "So now, as we mentioned, there are going to be some languages which are not regular, which can't be done by DFAs."
+    },
+    {
+        "text": "They're actually, DFAs are actually pretty weak as a computational model."
+    },
+    {
+        "text": "And so there's all sorts of very simple things that they cannot do."
+    },
+    {
+        "text": "There are some fairly complicated things that they can do, surprisingly enough."
+    },
+    {
+        "text": "But anyway, there are some simple things they can't do."
+    },
+    {
+        "text": "And so we have to develop a method for showing that a language is not regular."
+    },
+    {
+        "text": "And that's going to be useful for your homework and, in general, for just understanding the power of DFAs."
+    },
+    {
+        "text": "So how do we show a language is not regular?"
+    },
+    {
+        "text": "So remember, if you want to show a language is regular, basically, what you need to do is give a DFA."
+    },
+    {
+        "text": "Or you can use the closure properties."
+    },
+    {
+        "text": "That's another way of showing a language is regular."
+    },
+    {
+        "text": "But underneath that, it's basically constructing DFAs."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "To show a language is not regular, you have to give a proof."
+    }
+]

@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Sam , would you like to come for a curry with us next Friday ?",
+        "emotion": "neutral",
+        "text": "Hi Sam , would you like to come for a curry with us next Friday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , I love curry . Who else is coming ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "come for a curry with us next Friday ?",
+            "I love curry ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure , I love curry . Who else is coming ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Jane , Susan , Pete and two colleagues of mine from work .",
+        "emotion": "neutral",
+        "text": "Jane , Susan , Pete and two colleagues of mine from work .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I have no plans for Friday , so curry would be great . Which restaurant do you have in mind ?",
+        "emotion": "neutral",
+        "text": "I have no plans for Friday , so curry would be great . Which restaurant do you have in mind ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Susan suggested the one on Main Street . She says it is very good .",
+        "emotion": "neutral",
+        "text": "Susan suggested the one on Main Street . She says it is very good .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Which one is that ?",
+        "emotion": "neutral",
+        "text": "Which one is that ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know , the one just on the corner with Oxford Street . There is a large pharmacy next door .",
+        "emotion": "neutral",
+        "text": "You know , the one just on the corner with Oxford Street . There is a large pharmacy next door .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh yes , I know which one you mean . I have never been there , but I looked at their menu once and it did look good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh yes , I know which one you mean . I have never been there , but I looked at their menu once and it did look good .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Okay then . I think we will all meet outside ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Okay then . I think we will all meet outside ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What time ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What time ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "At 8 o'clock . I will make the reservation .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "At 8 o'clock . I will make the reservation .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's good . See you on Friday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's good . See you on Friday .",
+        "id": 12
+    }
+]

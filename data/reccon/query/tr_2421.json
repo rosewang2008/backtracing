@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Why not ? I'd love to !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I've got some photos of our holiday in Ireland . Would you like to see them ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why not ? I'd love to !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

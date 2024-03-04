@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Obviously you did enjoy the concert .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "That caused a sensation . The audience were stunned by his pure tone ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Obviously you did enjoy the concert .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

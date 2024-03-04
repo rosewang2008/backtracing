@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We're going to run out of time today, because we only have a few minutes left."
+    },
+    {
+        "text": "I suggest we bring that question back up, because it's pretty important to a lot of people."
+    },
+    {
+        "text": "I had lunch with Professor Edelman, and he said, you know, deep learning and neural nets have had a record amount of publicity and hype for a sort of computational algorithm."
+    },
+    {
+        "text": "And I've had people now tell me that typical, first, if you create a network using Alex's design, for example, the chances are that it won't be successful."
+    },
+    {
+        "text": "That the successful networks have been worked on and experimented with, and a good structure has emerged, but wasn't there at the start."
+    },
+    {
+        "text": "So I think that's a topic for Monday."
+    },
+    {
+        "text": "And I'm really just realizing from talking to people in the field that it's by no means automatic that the structure, even if you put in a whole bunch of layers, it may not be what you want."
+    },
+    {
+        "text": "OK, so let me finish this argument today."
+    },
+    {
+        "text": "Let me give you the answer."
+    },
+    {
+        "text": "So what's the good Q?"
+    },
+    {
+        "text": "I have matrices Y and X."
+    },
+    {
+        "text": "And the idea is that I take its, I look at Y transpose X, so that'll be all the dot products of one set of vectors with the other set of vectors."
+    },
+    {
+        "text": "That's a matrix."
+    },
+    {
+        "text": "And I do its SVD, U sigma V transpose."
+    },
+    {
+        "text": "So multiply this, multiply the two bases that you're given."
+    },
+    {
+        "text": "Of course, if Y was the same as X, if it was an orthogonal basis, you'd have the identity."
+    },
+    {
+        "text": "No questions."
+    },
+    {
+        "text": "But generally, it has an SVD."
+    },
+    {
+        "text": "And we're looking for a orthogonal matrix."
+    },
+    {
+        "text": "So the best Q is, da-da-da-da, I mean, it's the right time for expressions of amazement."
+    }
+]

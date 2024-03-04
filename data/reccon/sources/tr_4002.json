@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Isabel ! You wanted to see me ?",
+        "emotion": "neutral",
+        "text": "Hi Isabel ! You wanted to see me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes Anthony , come on in . Have a seat .",
+        "emotion": "neutral",
+        "text": "Yes Anthony , come on in . Have a seat .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is everything okay ? You seem a bit preoccupied .",
+        "emotion": "neutral",
+        "text": "Is everything okay ? You seem a bit preoccupied .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , Anthony , this is not going to be an easy conversation . The company has made some decisions which will have a direct impact on your employment .",
+        "emotion": "neutral",
+        "text": "Well , Anthony , this is not going to be an easy conversation . The company has made some decisions which will have a direct impact on your employment .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Okay ...",
+        "emotion": "neutral",
+        "text": "Okay ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don ' t want to beat around the bush so I ' m just gonna come out with it . We are going to have to let you go .",
+        "emotion": "neutral",
+        "text": "I don ' t want to beat around the bush so I ' m just gonna come out with it . We are going to have to let you go .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What ? Why ? I mean ... just like that ? I ' m fired ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "We are going to have to let you go ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Why ? I mean ... just like that ? I ' m fired ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' m sorry but , to be honest , you are a terrible employee !",
+        "emotion": "neutral",
+        "text": "I ' m sorry but , to be honest , you are a terrible employee !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What ! I resent that !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "We are going to have to let you go .",
+            "you are a terrible employee !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ! I resent that !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Anthony , you were caught making international calls from the office phone , you called in sick in eight times this month and you smell like alcohol !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "you were caught making international calls from the office phone , you called in sick in eight times this month and you smell like alcohol !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Anthony , you were caught making international calls from the office phone , you called in sick in eight times this month and you smell like alcohol !",
+        "id": 10
+    }
+]

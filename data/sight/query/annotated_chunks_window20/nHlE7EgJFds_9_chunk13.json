@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 9,
+        "timestamp": 1684702633715.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "00:00 Error from last lecture, row dependent.\n04:28 4 Fundamental subspaces.\n08:30 Where are those spaces?\n11:45 Dimension of those spaces.\n21:20 Basis for those space.\n30:00 N(A^T) \"Left nullspace\"?\n42:10 New \"matrix\" space?"
+    }
+]

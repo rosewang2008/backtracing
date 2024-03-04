@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it's partly rotated from this picture."
+    },
+    {
+        "text": "But also, it's partly got round off errors and error in it between the two."
+    },
+    {
+        "text": "So the question is, what's the best orthogonal transformation?"
+    },
+    {
+        "text": "So this is a bunch of vectors, x1, x2, to xn, let's say."
+    },
+    {
+        "text": "And I want to multiply them by an orthogonal matrix."
+    },
+    {
+        "text": "No, maybe I'd do it on the other side."
+    },
+    {
+        "text": "I think I do."
+    },
+    {
+        "text": "Yeah, q to be as close as possible to this other set, y1, y2, up to yn."
+    },
+    {
+        "text": "So let me just say it again."
+    },
+    {
+        "text": "I have two sets of vectors."
+    },
+    {
+        "text": "And I'm looking, and they're different, like those two sets."
+    },
+    {
+        "text": "And I'm looking for the orthogonal matrix that, as well as possible, takes this set into this one."
+    },
+    {
+        "text": "Of course, if this was an orthogonal basis and this was an orthogonal basis, then we would be home free."
+    },
+    {
+        "text": "Q, we could get equality."
+    },
+    {
+        "text": "We could take an orthogonal basis directly into an orthogonal basis with a orthogonal matrix Q."
+    },
+    {
+        "text": "In other words, if x was an orthogonal matrix and y was an orthogonal matrix, we would get the exact correct Q."
+    },
+    {
+        "text": "But that's not the case."
+    },
+    {
+        "text": "So we're looking for the best possible."
+    },
+    {
+        "text": "So that's the problem then."
+    },
+    {
+        "text": "Minimize over orthogonal matrices Q."
+    }
+]

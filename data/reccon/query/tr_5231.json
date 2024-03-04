@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Of course . I will try to buy some things at the Asian grocery down the block too . Then I can do a little cooking in my apartment .",
+        "emotion": "happiness",
+        "explanation": "The speaker is passionate about Chinese food.",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "So when you Chinese think of Chinatown , you mostly think of food ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course . I will try to buy some things at the Asian grocery down the block too . Then I can do a little cooking in my apartment .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

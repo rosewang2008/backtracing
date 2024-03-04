@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you do in your free time , Nancy ?",
+        "emotion": "neutral",
+        "text": "What do you do in your free time , Nancy ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , I like playing the violin .",
+        "emotion": "neutral",
+        "text": "Well , I like playing the violin .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? How long have you been playing the violin ?",
+        "emotion": "neutral",
+        "text": "Really ? How long have you been playing the violin ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "About ten years so far . I started learning when I was in middle school .",
+        "emotion": "neutral",
+        "text": "About ten years so far . I started learning when I was in middle school .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's really interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "About ten years so far . I started learning when I was in middle school ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's really interesting .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . So what about you ? Do you have any hobbies ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "That's really interesting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . So what about you ? Do you have any hobbies ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , I like collecting matchbox ! I'm not sure if that counts , though .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I like collecting matchbox !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I like collecting matchbox ! I'm not sure if that counts , though .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Of course it does . Everybody has his own hobby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "That's really interesting .",
+            "I like collecting matchbox"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course it does . Everybody has his own hobby .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

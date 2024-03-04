@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The master suite is the best . Let ' s go look at that next .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I love the bamboo flooring and granite countertops .",
+            "The master suite is the best ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "The master suite is the best . Let ' s go look at that next .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "lZrIPRnoGQQ",
+        "query_id": 0,
+        "timestamp": 1684707834591.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "but if the input nodes count in NN is lower than num. of  outputs then the forward mode changes to backprop from the other side, I mean if you compute Jacobians and use them in successive computations in the right order, is that so?"
+    }
+]

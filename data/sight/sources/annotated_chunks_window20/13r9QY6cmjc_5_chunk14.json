@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So a u0 is what?"
+    },
+    {
+        "text": "So a times that."
+    },
+    {
+        "text": "A times, so what's, I can separate it out into n separate pieces and that's the whole point."
+    },
+    {
+        "text": "That each of those pieces is going in its own merry way."
+    },
+    {
+        "text": "Each of those pieces is an eigenvector, and when I multiply by a, what does this piece become?"
+    },
+    {
+        "text": "So that's some amount of the first, let's suppose the eigenvectors are normalized to be unit vectors."
+    },
+    {
+        "text": "So that says what the eigenvector is."
+    },
+    {
+        "text": "It's, and I need some multiple of it to produce u0."
+    },
+    {
+        "text": "OK. Now when I multiply by a, what do I get?"
+    },
+    {
+        "text": "I get c1, which is just a factor, times a x1, but a x1 is lambda one x1."
+    },
+    {
+        "text": "When I multiply this by a, I get c2 lambda two x2."
+    },
+    {
+        "text": "And here I get cn lambda n xn."
+    },
+    {
+        "text": "And suppose I multiply by a to the hundredth power now."
+    },
+    {
+        "text": "Can we, can we, having done it, multiplied by a, let's multiply by a to the hundredth."
+    },
+    {
+        "text": "What happens to this first term when I multiply by a to the one hundredth?"
+    },
+    {
+        "text": "It's got that factor lambda to the hundredth."
+    },
+    {
+        "text": "That's the key."
+    },
+    {
+        "text": "That, that's what I mean by going its own merry way."
+    },
+    {
+        "text": "It, it is pure eigenvector, it's exactly in a direction where multiplication by a just brings in a scalar factor lambda one."
+    },
+    {
+        "text": "So a hundred times brings in this a hundred times."
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That sounds good . I ' ll call you once I arrive .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "there ' s a very romantic new film starring Hugh Grant . Let ' s go and see that ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good . I ' ll call you once I arrive .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

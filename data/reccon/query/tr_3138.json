@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Naughty ? I'm naughty ? I'm just clever . So I only do the things I am interested in .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "you are always a naughty boy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Naughty ? I'm naughty ? I'm just clever . So I only do the things I am interested in .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

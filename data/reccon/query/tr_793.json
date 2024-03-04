@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Sounds perfect . I can't wait !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It was hot and sunny , but there was no humidity ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds perfect . I can't wait !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The big interval is composed of many little intervals."
+    },
+    {
+        "text": "Each little interval is independent from any other little interval, so is it is as if we have a sequence of Bernoulli trials."
+    },
+    {
+        "text": "Each Bernoulli trial is associated with a little interval and has a small probability of obtaining a success or an arrival during that mini-slot."
+    },
+    {
+        "text": "On the other hand, when delta is small, and you take a big interval and chop it up, you get a large number of little intervals."
+    },
+    {
+        "text": "So what we essentially have here is a Bernoulli process, in which is the number of trials is huge but the probability of success during any given trial is tiny."
+    },
+    {
+        "text": "The average number of trials ends up being proportional to the length of the interval."
+    },
+    {
+        "text": "If you have twice as large an interval, it's as if you're having twice as many over these mini-trials, so the expected number of arrivals will increase proportionately."
+    },
+    {
+        "text": "There's also this parameter lambda, which we interpret as expected number of arrivals per unit time."
+    },
+    {
+        "text": "And it comes in those probabilities here."
+    },
+    {
+        "text": "When you double lambda, this means that a little interval is twice as likely to get an arrival."
+    },
+    {
+        "text": "So you would expect to get twice as many arrivals as well."
+    },
+    {
+        "text": "That's why the expected number of arrivals during an interval of length tau also scales proportional to this parameter lambda."
+    },
+    {
+        "text": "Somewhat unexpectedly, it turns out that the variance of the number of arrivals is also the same as the mean."
+    },
+    {
+        "text": "This is a peculiarity that happens in the Poisson process."
+    },
+    {
+        "text": "So this is one way of thinking about Poisson process, in terms of little intervals, each one of which has a tiny probability of success."
+    },
+    {
+        "text": "And we think of the distribution associated with that process as being described by this particular PMF."
+    },
+    {
+        "text": "So this is the PMF for the number of arrivals during an interval of a fixed duration, tau."
+    },
+    {
+        "text": "It's a PMF that extends all over the entire range of non-negative integers."
+    },
+    {
+        "text": "So the number of arrivals you can get during an interval for certain length can be anything."
+    },
+    {
+        "text": "You can get as many arrivals as you want."
+    }
+]

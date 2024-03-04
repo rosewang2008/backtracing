@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good evening , sir . What can I do for you ?",
+        "emotion": "neutral",
+        "text": "Good evening , sir . What can I do for you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Bourbon , please .",
+        "emotion": "neutral",
+        "text": "Bourbon , please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How would you like your Bourbon , straight or on the rock ?",
+        "emotion": "neutral",
+        "text": "How would you like your Bourbon , straight or on the rock ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "With iced water , please .",
+        "emotion": "neutral",
+        "text": "With iced water , please .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Here you are , sir . Bourbon with iced water .",
+        "emotion": "neutral",
+        "text": "Here you are , sir . Bourbon with iced water .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you . Now how much do I owe you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Here you are , sir . Bourbon with iced water ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Now how much do I owe you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "The bourbon is 15 dollars plus 10 % service charge . So the total is 16 . 5 dollars .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "how much do I owe you ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The bourbon is 15 dollars plus 10 % service charge . So the total is 16 . 5 dollars .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That is OK . Here is 20 dollars and you can keep the change .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "The bourbon is 15 dollars plus 10 % service charge . So the total is 16 . 5 dollars .",
+            "That is OK ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That is OK . Here is 20 dollars and you can keep the change .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "That is OK . Here is 20 dollars and you can keep the change ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

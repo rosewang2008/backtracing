@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow . That sounds really good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "keep doing that until most of the egg is cooked so you should have a nice thick omelet and then flip it over , you'll only have to cook that side lightly . Put your fillings on the top and fold it over and let it sit just long enough to melt the cheese .",
+            "sounds really good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow . That sounds really good .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "You had some really great ideas in there !",
+            "we'll go to the diner around the corner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

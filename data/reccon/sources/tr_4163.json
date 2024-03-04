@@ -1,0 +1,105 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you doing this weekend ?",
+        "emotion": "neutral",
+        "text": "What are you doing this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Nothing much . I ' m going to the cinema on Friday night but that ' s all I have planned .",
+        "emotion": "neutral",
+        "text": "Nothing much . I ' m going to the cinema on Friday night but that ' s all I have planned .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So you ' re free on Saturday night ?",
+        "emotion": "neutral",
+        "text": "So you ' re free on Saturday night ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That ' s right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "you ' re free on Saturday night ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s right .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you like to have dinner with me ?",
+        "emotion": "happiness",
+        "explanation": "The person inviting person B in dinner and thus happy",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have dinner with me ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Would you like to have dinner with me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , that would be lovely . Shall we say seven o ' clock ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have dinner with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that would be lovely . Shall we say seven o ' clock ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Perfect . I ' ll pick you up then .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have dinner with me ?",
+            "that would be lovely ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Perfect . I ' ll pick you up then .",
+        "id": 7
+    }
+]

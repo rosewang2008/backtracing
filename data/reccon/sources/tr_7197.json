@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I've enjoyed conversing with you .",
+        "emotion": "neutral",
+        "text": "I've enjoyed conversing with you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is there a reason why you're trying to get off the phone so fast ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you're trying to get off the phone so fast"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Is there a reason why you're trying to get off the phone so fast ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I've got to go .",
+        "emotion": "neutral",
+        "text": "I've got to go .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I wasn't done talking to you .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "you're trying to get off the phone so fast",
+            "I wasn't done talking to you ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I wasn't done talking to you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I have to do some things , and besides , it's not polite to be nosey .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I wasn't done talking to you .",
+            "it's not polite to be nosey ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I have to do some things , and besides , it's not polite to be nosey .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm not being nosey . I'm just asking .",
+        "emotion": "neutral",
+        "text": "I'm not being nosey . I'm just asking .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really don't think it's any of your business .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you're trying to get off the phone so fast"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I really don't think it's any of your business .",
+        "id": 7,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's not nice .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "you're trying to get off the phone so fast",
+            "I really don't think it's any of your business .",
+            "That's not nice ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's not nice .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I apologize , but I'm getting off the phone now .",
+        "emotion": "neutral",
+        "text": "I apologize , but I'm getting off the phone now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Okay .",
+        "emotion": "neutral",
+        "text": "Okay .",
+        "id": 10
+    }
+]

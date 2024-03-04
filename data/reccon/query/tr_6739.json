@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Goodbye .",
+        "emotion": "happiness",
+        "explanation": "F",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

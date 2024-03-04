@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yes . This has been fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "would you like to play again Wednesday ?",
+            "This has been fun ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . This has been fun .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

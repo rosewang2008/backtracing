@@ -1,0 +1,175 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "oh , the clothes here are so expensive ! No wonder there are few people .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the clothes here are so expensive !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "oh , the clothes here are so expensive ! No wonder there are few people .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Beauty costs , dear ! What do you think of this dress ? Do you think it suits me ?",
+        "emotion": "neutral",
+        "text": "Beauty costs , dear ! What do you think of this dress ? Do you think it suits me ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "yeah , it's lovely , but to be frank , it's not the most practical . You don't have many formal events in your calendar , do you ?",
+        "emotion": "neutral",
+        "text": "yeah , it's lovely , but to be frank , it's not the most practical . You don't have many formal events in your calendar , do you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "come on , you sound like my Mom . Look at that , it's beautiful !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Look at that , it's beautiful !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "come on , you sound like my Mom . Look at that , it's beautiful !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "when you buy clothes , you must think about the material , quality and price .",
+        "emotion": "neutral",
+        "text": "when you buy clothes , you must think about the material , quality and price .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "maybe you have a point .",
+        "emotion": "neutral",
+        "text": "maybe you have a point .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "make sure you buy what you need and your clothes can be worn for various occasions .",
+        "emotion": "neutral",
+        "text": "make sure you buy what you need and your clothes can be worn for various occasions .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "all right . How about this black shirt ? It can be worn for anything---a party , a job interview and even a funeral !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "this black shirt ? It can be worn for anything---a party , a job interview and even a funeral !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "all right . How about this black shirt ? It can be worn for anything---a party , a job interview and even a funeral !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "that's true , but you already have two back coats and one black sweater .",
+        "emotion": "neutral",
+        "text": "that's true , but you already have two back coats and one black sweater .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "oh ! Hey , look , that's the same shirt Britney wore in her concert .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Hey , look , that's the same shirt Britney wore in her concert ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "oh ! Hey , look , that's the same shirt Britney wore in her concert .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "exactly ! Oh , my god ! I love Britney ! I'm going to get it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Hey , look , that's the same shirt Britney wore in her concert .",
+            "Oh , my god ! I love Britney ! I'm going to get it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "exactly ! Oh , my god ! I love Britney ! I'm going to get it .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "why not try it on ?",
+        "emotion": "neutral",
+        "text": "why not try it on ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "it's just the right size--a perfect fit ! I'll take it . Oh , no , I'm a little short . Did you bring your credit card ?",
+        "emotion": "neutral",
+        "text": "it's just the right size--a perfect fit ! I'll take it . Oh , no , I'm a little short . Did you bring your credit card ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "yes .",
+        "emotion": "neutral",
+        "text": "yes .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I promise I'll pay you back as soon as we get home .",
+        "emotion": "neutral",
+        "text": "I promise I'll pay you back as soon as we get home .",
+        "id": 15
+    }
+]

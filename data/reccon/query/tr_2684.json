@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Okay . Hey , is that a dark cloud over there ? Do you think it will rain after all ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "The sky is clear , the sun is shining",
+            "is that a dark cloud over there ? Do you think it will rain after all ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Okay . Hey , is that a dark cloud over there ? Do you think it will rain after all ?",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

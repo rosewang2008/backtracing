@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'm sorry."
+    },
+    {
+        "text": "This actually takes value 0 quite a lot."
+    },
+    {
+        "text": "That's typically in many instances actually the mode."
+    },
+    {
+        "text": "So it's n, and then I'm going to write it as Poisson with parameter, well, here it's again lambda as a parameter."
+    },
+    {
+        "text": "And lambda can take any positive value."
+    },
+    {
+        "text": "And that's where you can actually see that the model that we had for the siblings, right?"
+    },
+    {
+        "text": "So let me actually just squeeze in the siblings model here."
+    },
+    {
+        "text": "All right, so that was the bad model that I had in the first place."
+    },
+    {
+        "text": "When I actually capped this, let's say we just capped it at 7."
+    },
+    {
+        "text": "Forget about large than or equal to 7."
+    },
+    {
+        "text": "We just assumed it was 7."
+    },
+    {
+        "text": "What was our sample space?"
+    },
+    {
+        "text": "We said 7."
+    },
+    {
+        "text": "So it's 1, 2, to 7, right?"
+    },
+    {
+        "text": "Those were the possible values that this thing would take."
+    },
+    {
+        "text": "And then what's my parameter space?"
+    },
+    {
+        "text": "So that's going to be a nightmare to write, but I'm going to write it."
+    },
+    {
+        "text": "So I'm going to write it as something like probability that x is equal to k is equal to p sub k. And that's going to be for p. OK, so that's for all k's, right?"
+    },
+    {
+        "text": "For k equal 1 to 7."
+    },
+    {
+        "text": "And here, the index is the set of parameters p1 to pk."
+    }
+]

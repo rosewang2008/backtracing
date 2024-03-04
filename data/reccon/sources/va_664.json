@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Won't you have some of this ?",
+        "emotion": "neutral",
+        "text": "Won't you have some of this ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Won't you have some of this ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , thanks .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's my grandmother's favorite recipe for barbecue .",
+        "emotion": "neutral",
+        "text": "It's my grandmother's favorite recipe for barbecue .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's very good . How do you make it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's very good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's very good . How do you make it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I use a special dressing and homemade catsup .",
+        "emotion": "neutral",
+        "text": "I use a special dressing and homemade catsup .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This salad looks so nice-just right for a hot day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's very good .",
+            "This salad looks so nice-just right for a hot day ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "This salad looks so nice-just right for a hot day .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm glad you like it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "This salad looks so nice-just right for a hot day .",
+            "I'm glad you like it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad you like it .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You Americans usually have nutritious food .",
+        "emotion": "neutral",
+        "text": "You Americans usually have nutritious food .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , but Chinese food is so delicious . I wish I knew how to cook Chinese food . Do you follow recipes ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Chinese food is so delicious . I wish I knew how to cook Chinese food ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , but Chinese food is so delicious . I wish I knew how to cook Chinese food . Do you follow recipes ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We use different spices but few people use recipes . They learn to cook by experience .",
+        "emotion": "neutral",
+        "text": "We use different spices but few people use recipes . They learn to cook by experience .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I always use a recipe but my grandmother never did . She was a great cook . She would make clam chowder and cornbread every Sunday night .",
+        "emotion": "neutral",
+        "text": "I always use a recipe but my grandmother never did . She was a great cook . She would make clam chowder and cornbread every Sunday night .",
+        "id": 11
+    }
+]

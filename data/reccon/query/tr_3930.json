@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "a date ?",
+            "Let's go to the coffee shop then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right .",
+        "id": 11,
+        "source_sentences": [
+            3,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

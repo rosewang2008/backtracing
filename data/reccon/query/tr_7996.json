@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's fine , because if I leave , then your rules won't matter .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "That's right , maybe then you'll respect my rules ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's fine , because if I leave , then your rules won't matter .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

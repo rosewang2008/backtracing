@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 2 But in that case, the down one, if it were also higher in the region of 2 to 0, do you still consider it better?"
+    },
+    {
+        "text": "PHILIPPE RIGOLLETTIS Because you're given this budget of 5%, right?"
+    },
+    {
+        "text": "So in this paradigm, where you're given the, actually, if the dashed line was this dashed line, I would still be happy."
+    },
+    {
+        "text": "I mean, I don't care what this thing does here, as long as it's below 5%."
+    },
+    {
+        "text": "But here, I'm going to try to discover it, right?"
+    },
+    {
+        "text": "Think about, again, the drug discovery example."
+    },
+    {
+        "text": "You're trying to find, let's say you're a scientist, and you're trying to prove that your drug works."
+    },
+    {
+        "text": "What do you want to see?"
+    },
+    {
+        "text": "Well, FDA puts on you this constraint that your probability of type 1 error should never exceed 5%."
+    },
+    {
+        "text": "You're going to work under this assumption."
+    },
+    {
+        "text": "But what you're going to do is going to try to find a test that will make you find something as often as possible."
+    },
+    {
+        "text": "And so you're going to max this constraint of 5%, and then you're going to try to make this curve, this curve that means that this is basically, this number here, for any point here, is the probability that you publish your paper."
+    },
+    {
+        "text": "That's the probability that you can release to market your drug."
+    },
+    {
+        "text": "That's the probability that it works, right?"
+    },
+    {
+        "text": "And so you want this curve to be as high as possible."
+    },
+    {
+        "text": "You want to make sure that if there's evidence in the data that H1 is the truth, you want to squeeze as much of this evidence as possible."
+    },
+    {
+        "text": "And the test that has the highest possible curve is the most powerful one."
+    },
+    {
+        "text": "Now, you have to also understand that having two curves that are on top of each other, completely, everywhere, is a rare phenomenon."
+    },
+    {
+        "text": "It's not always the case that there is a test that's uniformly more powerful than any other test."
+    }
+]

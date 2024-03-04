@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            21,
+            22
+        ],
+        "expanded emotion cause span": [
+            "I think I want to order the new Accord then . It looks like an excellent car .",
+            "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable .",
+        "id": 22,
+        "source_sentences": [
+            20
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

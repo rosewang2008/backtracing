@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "Come over to my house tonight . Let's get drunk ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 20,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

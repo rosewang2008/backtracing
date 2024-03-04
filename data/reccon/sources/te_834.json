@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I am so busy today .",
+        "emotion": "neutral",
+        "text": "I am so busy today .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Can I help you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I am so busy today .",
+            "Can I help you ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Can I help you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m not sure . Perhaps you could do the shopping .",
+        "emotion": "neutral",
+        "text": "I ' m not sure . Perhaps you could do the shopping .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I ' ll be glad to help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "you could do the shopping .",
+            "I ' ll be glad to help ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' ll be glad to help .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Or maybe make the beds .",
+        "emotion": "neutral",
+        "text": "Or maybe make the beds .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "All you have to do is ask for help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' ll be glad to help .",
+            "make the beds ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "All you have to do is ask for help .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks . That ' s terrific !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "All you have to do is ask for help ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . That ' s terrific !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' m ready and willing to help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I ' ll be glad to help .",
+            "Thanks . That ' s terrific !",
+            "I ' m ready and willing to help ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I ' m ready and willing to help .",
+        "id": 8
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Tomorrow we will see how to decide which one it is in general using second derivatives."
+    },
+    {
+        "text": "For this time let's just try to do it by hand."
+    },
+    {
+        "text": "I just want to observe."
+    },
+    {
+        "text": "In fact, I can try to, you know, these examples that I have here, they are x2 y2 y2-x2."
+    },
+    {
+        "text": "They are sums or differences of squares."
+    },
+    {
+        "text": "And, if we know that we can put things as a sum of squares, for example, we will be done."
+    },
+    {
+        "text": "Let's try to express this maybe in terms of a square."
+    },
+    {
+        "text": "Well, the main problem is this 2xy."
+    },
+    {
+        "text": "But, observe, we know something that starts with x2 minus 2xy that is actually the square of something else."
+    },
+    {
+        "text": "It would be x2 minus 2xy, well, plus y2, not plus 3y2."
+    },
+    {
+        "text": "Let's try to do that."
+    },
+    {
+        "text": "We are going to complete the square."
+    },
+    {
+        "text": "I am going to say it is x minus y squared."
+    },
+    {
+        "text": "That gives me the first two terms and also y squared."
+    },
+    {
+        "text": "Well, I still need to add two more y squares."
+    },
+    {
+        "text": "And I also need to add, of course, the 2x minus 2y."
+    },
+    {
+        "text": "It is simpler."
+    },
+    {
+        "text": "It is still not simple enough for my taste."
+    },
+    {
+        "text": "I can actually do better."
+    },
+    {
+        "text": "See, I mean now what is, so these guys look like a sum of squares."
+    }
+]

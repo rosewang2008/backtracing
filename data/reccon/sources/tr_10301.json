@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mary , could you please come in for a short while ?",
+        "emotion": "neutral",
+        "text": "Mary , could you please come in for a short while ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No problem .",
+        "emotion": "neutral",
+        "text": "No problem .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Mary , I'd like you to meet Richard , Our new executive in the marketing .",
+        "emotion": "neutral",
+        "text": "Mary , I'd like you to meet Richard , Our new executive in the marketing .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Nice to meet you , Austin .",
+        "emotion": "neutral",
+        "text": "Nice to meet you , Austin .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Welcome to our department . I hope you'll like it here .",
+        "emotion": "neutral",
+        "text": "Welcome to our department . I hope you'll like it here .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "By the way , Richard will assist me in the planning work . I hope you can work well together .",
+        "emotion": "neutral",
+        "text": "By the way , Richard will assist me in the planning work . I hope you can work well together .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure , if you've got any problem you can ask me .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy to help Richard",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "if you've got any problem you can ask me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure , if you've got any problem you can ask me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . It ' s very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "if you've got any problem you can ask me .",
+            "It ' s very kind of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . It ' s very kind of you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Richard , Mary is a very helpful and experienced secretary indeed , and I'm sure you will find out .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Mary is a very helpful and experienced secretary indeed , and I'm sure you will find out ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Richard , Mary is a very helpful and experienced secretary indeed , and I'm sure you will find out .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you , sir . I'll try my best to assist Richard in his work .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Mary is a very helpful and experienced secretary indeed , and I'm sure you will find out ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , sir . I'll try my best to assist Richard in his work .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

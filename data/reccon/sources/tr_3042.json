@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you have any hobbies ?",
+        "emotion": "neutral",
+        "text": "Do you have any hobbies ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I like gardening .",
+        "emotion": "neutral",
+        "text": "Yes . I like gardening .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , that's interesting . Do you have a garden ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I like gardening ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's interesting . Do you have a garden ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , follow me . Here it is .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you have a garden ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , follow me . Here it is .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Your garden is really lovely .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like gardening .",
+            "Your garden is really lovely ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Your garden is really lovely .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Do you have a garden ?",
+            "Your garden is really lovely ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Do you take care of them everyday ?",
+        "emotion": "neutral",
+        "text": "Do you take care of them everyday ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , I do .",
+        "emotion": "neutral",
+        "text": "Yes , I do .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Don't you feel dull ?",
+        "emotion": "neutral",
+        "text": "Don't you feel dull ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't . I like the work .",
+        "emotion": "neutral",
+        "text": "I don't . I like the work .",
+        "id": 10
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sorry I couldn't help you .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I am afraid I am not interested"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sorry I couldn't help you .",
+        "id": 13,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

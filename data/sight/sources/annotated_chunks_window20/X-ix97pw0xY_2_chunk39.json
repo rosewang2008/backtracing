@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But the other ones may not be part of this."
+    },
+    {
+        "text": "In particular, think about the gamma distribution."
+    },
+    {
+        "text": "We had this log x was one of those things that showed up."
+    },
+    {
+        "text": "I mean, I cannot get rid of this log x. I mean, that's part of it, except if a is equal to 1."
+    },
+    {
+        "text": "And I know it for sure."
+    },
+    {
+        "text": "So if a is equal to 1, then I'm going to have a minus 1, which is equal to 0."
+    },
+    {
+        "text": "So I'm going to have a minus 1 times log x, which is going to be just 0."
+    },
+    {
+        "text": "So log x is going to vanish from here."
+    },
+    {
+        "text": "If a is equal to 1, then this distribution is actually much nicer."
+    },
+    {
+        "text": "And it actually does not even deserve the name gamma."
+    },
+    {
+        "text": "What is it if a is equal to 1?"
+    },
+    {
+        "text": "It's an exponential, right?"
+    },
+    {
+        "text": "Gamma of 1 is equal to 1. x to the a minus 1 is equal to 1. b, so I have exponential x over b divided by b."
+    },
+    {
+        "text": "So 1 over b, call it lambda."
+    },
+    {
+        "text": "And this is just an exponential distribution."
+    },
+    {
+        "text": "And so every time you're going to see something, so all these guys that don't make it to this table, they could be part of those guys."
+    },
+    {
+        "text": "But they're just to have another name in this thing."
+    },
+    {
+        "text": "So you can compute the value of theta for different values."
+    },
+    {
+        "text": "So again, you still have some continuous or discrete ones."
+    },
+    {
+        "text": "This is my b of theta."
+    }
+]

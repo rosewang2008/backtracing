@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How about this floor lamp ?",
+        "emotion": "neutral",
+        "text": "How about this floor lamp ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Fine , just get it ! We have been shopping for furniture for five hours ! I ' m so tired !",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "We have been shopping for furniture for five hours ! I ' m so tired !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Fine , just get it ! We have been shopping for furniture for five hours ! I ' m so tired !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We still need to find an armoire and a dresser .",
+        "emotion": "neutral",
+        "text": "We still need to find an armoire and a dresser .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fine ! I am going to go home and drop off this nightstand , coffee table and love seat while you look for the rest of the things .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I am going to go home"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Fine ! I am going to go home and drop off this nightstand , coffee table and love seat while you look for the rest of the things .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Great ! Pick me up in about an hour because I think I ' ll also get a bean bag and a dining set .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Fine ! I am going to go home and drop off this nightstand , coffee table and love seat while you look for the rest of the things ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Pick me up in about an hour because I think I ' ll also get a bean bag and a dining set .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "While you are at it can you pick out a nice recliner ? I really want one so I can watch TV .",
+        "emotion": "neutral",
+        "text": "While you are at it can you pick out a nice recliner ? I really want one so I can watch TV .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Recliner ? In my beautifully decorated living room ? I don ' t think so !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "can you pick out a nice recliner ?",
+            "In my beautifully decorated living room ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Recliner ? In my beautifully decorated living room ? I don ' t think so !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

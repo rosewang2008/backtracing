@@ -1,0 +1,445 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 0,
+        "timestamp": 1684707989274.0,
+        "annotatedSourceSentencesIndices": [
+            39,
+            428
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How did transpose suddenly come into the picture?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 2,
+        "timestamp": 1684708398925.0,
+        "annotatedSourceSentencesIndices": [
+            189,
+            279
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone explain why A=LU is better than EA=U?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 3,
+        "timestamp": 1684708441242.0,
+        "annotatedSourceSentencesIndices": [
+            10
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In A=LU part, what do L and U stand for? (Like \"E\" for elimination )"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 4,
+        "timestamp": 1684708849693.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            342,
+            343,
+            344,
+            353
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "at 32:35 => Should not the first cost be 99*2 instead of 100^2 because there are 99 rows below first one. For pivoting each row below, you need to multiply the first row by some constant then subtract from the row you are pivoting. So, essentially are we not ending up having 2 operations per row for those 99 rows, hence, 99*2 instead of 100^2 ???"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 5,
+        "timestamp": 1684708888995.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            342,
+            343,
+            344
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "sorry i'm confused at 32:22, it is 100 ^2, but i think it is 100, why it isn't 100? could anyone explain that to me? thx alot"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 6,
+        "timestamp": 1684709130696.0,
+        "annotatedSourceSentencesIndices": [
+            515,
+            516
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How come 4x4 Matrix has 24 P's ?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 7,
+        "timestamp": 1684709988672.0,
+        "annotatedSourceSentencesIndices": [
+            48
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "4:57 if i transpose these guys, that product, then again, ... : why did he jump suddenly to this theorem without any definition of transpose nor the logical derivation? Did I miss something?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 8,
+        "timestamp": 1684710001490.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            342,
+            343,
+            344
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "33\uff1a06 why it's 100^2?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 9,
+        "timestamp": 1684710020923.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            342,
+            343,
+            344,
+            353
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone explain why the computatinal expense is roughly 100^2 for the first step? I thought it would be roughly proportional to n = 100"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 10,
+        "timestamp": 1684710094057.0,
+        "annotatedSourceSentencesIndices": [
+            185
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why is L always inverse of E? Like how can we see that geometrically?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 12,
+        "timestamp": 1684710326625.0,
+        "annotatedSourceSentencesIndices": [
+            281,
+            282
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "My doubt is what were we trying to prove while calculating the cost of operation during elimination. And how EA is costlier than LU?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 13,
+        "timestamp": 1684719774461.0,
+        "annotatedSourceSentencesIndices": [
+            419
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone explain to me why the answer for cost of B is $n^2$ around 40:00?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 14,
+        "timestamp": 1684719853045.0,
+        "annotatedSourceSentencesIndices": [
+            9
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Hi.  Is U the b in Ax = b?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 15,
+        "timestamp": 1684719893863.0,
+        "annotatedSourceSentencesIndices": [
+            271
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "At 24:20 when he says that the multiplier goes directly into L, he means the negative right? If you keep a track of the operation on the left side, it inverts while bringing it to the right side."
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 16,
+        "timestamp": 1684719946478.0,
+        "annotatedSourceSentencesIndices": [
+            162
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "It is the best linear algebra lecture ever!!! But I do not get where the Identity matrix E31 comes from (at 16:47) ? Could anyone pls help me with this?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 17,
+        "timestamp": 1684719965960.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            342,
+            343,
+            344
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone please explain how did he get 100^2 and not 100 x 2 (multiply+substract) operations at 33:22?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 18,
+        "timestamp": 1684720220360.0,
+        "annotatedSourceSentencesIndices": [
+            341,
+            353,
+            355,
+            356,
+            360,
+            419
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "26:10\n\nI have a question about the cost of elimination.\nAx=b\n\nFor an nxn matrix A\nFor the 1st pivot, instead of 100^2, shouldn\u2019t it cost 100*99?\n2nd pivot, instead of 99^2, shouldn\u2019t it cost 99*98?\n3rd pivot, instead of 98^2, shouldn\u2019t it cost 98*87?\n\nSo, instead of n^2+(n-1)^2+(n-2)^2+...., shouldn\u2019t it be n(n-1)+(n-1)(n-2)+(n-2)(n-3)+.... instead?\n\n\nAlso, how did he get n^2 for the matrix b?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 20,
+        "timestamp": 1684720264277.0,
+        "annotatedSourceSentencesIndices": [
+            91
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "8:55 Min why does he want to avoid A to be singular? don\u00b4t quite understand...the only reason i see (in hindsight), is that the step, he does at 12:30 Min (rewriting LU with a diagonal matrix in the middle) wouldn\u00b4t be unique. But i assume, there must be another reason."
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 21,
+        "timestamp": 1684720310343.0,
+        "annotatedSourceSentencesIndices": [
+            102
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "At 10:27 how are we calculating E21( elimination matrix)?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 22,
+        "timestamp": 1684720431225.0,
+        "annotatedSourceSentencesIndices": [
+            381,
+            386
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Great video! I love this series. In this lecture, Dr. Strang briefly mentions that the cost of operations for the det(A) will be (n!) He also shows us how the cost of getting A into upper triangular form U will be (1/3)n^3. But from Lecture 2 we know that one way of finding det(A) is to get A into U and then simply find the product of all n pivots. So it seems like the cost for finding det(A) would just be a bit more than (1/3)n^3, perhaps (1/3)n^3 + n. I must be missing something here; any thoughts?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 23,
+        "timestamp": 1684720563078.0,
+        "annotatedSourceSentencesIndices": [
+            31,
+            94,
+            132
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "hmm is  there a complementary book we must follow? I'm puzzled as I don't think we've introduced the elementary matrices in previous lectures, or Upper/lower matrices. I feel this is not beginner friendly."
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 24,
+        "timestamp": 1684720668792.0,
+        "annotatedSourceSentencesIndices": [
+            220,
+            221,
+            222,
+            223
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I'm a bit unsure as to why he doesn't like the 10 in the matrix E around 19:00? Are we assuming we already have A and U defined, and just need to find a matrix that relates them? Is it because the L parts, like the E parts (E21, E31, E32) can simply be stated, but to calculate the final L and E, final L can be stated (just like it's parts), where as E has to be calculated?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 28,
+        "timestamp": 1684720790293.0,
+        "annotatedSourceSentencesIndices": [
+            185
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone tell me why can't we obtain the Lower triangular matrix L directly from the combined E which could just be derived from using gaussian elimination? Thanksss"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 30,
+        "timestamp": 1684721031176.0,
+        "annotatedSourceSentencesIndices": [
+            235,
+            236,
+            237,
+            240
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "On 21 minute I don't understand where these matrices come from and why we need them. Anyone care to elaborate?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 31,
+        "timestamp": 1684721039024.0,
+        "annotatedSourceSentencesIndices": [
+            516
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "can someone explain how he got 24P's at the end?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 32,
+        "timestamp": 1684721377675.0,
+        "annotatedSourceSentencesIndices": [
+            142,
+            143
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How did he work out at 12:50?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 34,
+        "timestamp": 1684721404907.0,
+        "annotatedSourceSentencesIndices": [
+            417,
+            419
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why the number of operation is equal to n^2 ? Can anyone ?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 36,
+        "timestamp": 1684722009555.0,
+        "annotatedSourceSentencesIndices": [
+            10,
+            69,
+            111,
+            261,
+            270
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I don't get the point of A = LU.  You need to know U to solve for x in Ax=b.  You need E to find U, you can't get U from L.  Once you have U, you're basically done.  What do you need L for?\n\nI understand the point that L is less costly than E -- but what use is L if you don't know U yet?    What am I missing?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 39,
+        "timestamp": 1684722160238.0,
+        "annotatedSourceSentencesIndices": [
+            236,
+            240
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "At 26:00 how did he find the inverses of E21 & E32 so easily? is he using some formula? I'm watching the videos in the MITs required order, but looks like I missed somewhere something"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 40,
+        "timestamp": 1684722350405.0,
+        "annotatedSourceSentencesIndices": [
+            491,
+            516
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why does a 4x4 matrix have 24 Permutationmatrices when a 3x3 Matrix has 6? I don't get how they calculated it so quickly."
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 42,
+        "timestamp": 1684722535272.0,
+        "annotatedSourceSentencesIndices": [
+            170,
+            171,
+            185
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "how do we know that E-1 will be a lower triangular matrix?"
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 43,
+        "timestamp": 1684722576236.0,
+        "annotatedSourceSentencesIndices": [
+            318
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "can someone pls explain how n,n^2 , n^3....n! come ? ??  at 29:46 ."
+    },
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 44,
+        "timestamp": 1684722640153.0,
+        "annotatedSourceSentencesIndices": [
+            384,
+            386,
+            389
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "The complexity of matrix multiplication is of the order O(n^3), that's fine. But in every step in the we are changing just one row...therefore, shouldn't the cost be n+ (n-1)+ (n-2) + ........+1, ie O(n^2), if we have a suitable algorithm?"
+    }
+]

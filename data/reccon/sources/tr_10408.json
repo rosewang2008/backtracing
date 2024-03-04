@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello . I am calling about the apartment you advertised .",
+        "emotion": "neutral",
+        "text": "Hello . I am calling about the apartment you advertised .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , what kind of apartment are you interested in ?",
+        "emotion": "neutral",
+        "text": "Yes , what kind of apartment are you interested in ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I am interested in one-bedroom . Do you have any available ?",
+        "emotion": "neutral",
+        "text": "I am interested in one-bedroom . Do you have any available ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I have one . When you need it ?",
+        "emotion": "neutral",
+        "text": "Yes , I have one . When you need it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sometime around next week . What can you tell me about this apartment ?",
+        "emotion": "neutral",
+        "text": "Sometime around next week . What can you tell me about this apartment ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , It's a one-bedroom apartment . The monthly rent at 650 dollars and a 300 dollars security deposit . You pay electricity only . Gas and water is included . Both the heat and stove are gas . Let me see , what else ... Oh , you'll be assigned a sheltered parking space at no extra charge . And that's probably it .",
+        "emotion": "neutral",
+        "text": "Well , It's a one-bedroom apartment . The monthly rent at 650 dollars and a 300 dollars security deposit . You pay electricity only . Gas and water is included . Both the heat and stove are gas . Let me see , what else ... Oh , you'll be assigned a sheltered parking space at no extra charge . And that's probably it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sounds good . May I come over tomorrow to take a look ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "a sheltered parking space at no extra charge ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds good . May I come over tomorrow to take a look ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure . What time would you like to come ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Sounds good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . What time would you like to come ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How about 10 am ?",
+        "emotion": "neutral",
+        "text": "How about 10 am ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good , May I have your name , please ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "a sheltered parking space at no extra charge ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Good , May I have your name , please ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "My name is Blanca .",
+        "emotion": "neutral",
+        "text": "My name is Blanca .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks for calling , Blanca . I'll see you tomorrow .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "a sheltered parking space at no extra charge ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Thanks for calling , Blanca . I'll see you tomorrow .",
+        "id": 12
+    }
+]

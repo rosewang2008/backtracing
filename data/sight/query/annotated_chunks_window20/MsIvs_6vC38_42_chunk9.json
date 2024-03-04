@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 42,
+        "timestamp": 1684722535272.0,
+        "annotatedSourceSentencesIndices": [
+            5
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "how do we know that E-1 will be a lower triangular matrix?"
+    }
+]

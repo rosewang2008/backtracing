@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? That's fantastic ! Will you get a chance to do any writing ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "asked me if I was interested in becoming an assistant editor for him .",
+            "That's fantastic !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? That's fantastic ! Will you get a chance to do any writing ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

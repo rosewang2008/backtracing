@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And then I go down and down, and the next one will be ninety-eight squared, the next ninety-seven squared, and finally I'm down around one squared, or where?"
+    },
+    {
+        "text": "It's just like, just little numbers."
+    },
+    {
+        "text": "The big numbers are here."
+    },
+    {
+        "text": "So the number of operations is about n squared plus that was n, right?"
+    },
+    {
+        "text": "n was a hundred."
+    },
+    {
+        "text": "It n squared for the first step, then n minus one squared, then n minus two squared, finally down to three squared and two squared and even one squared."
+    },
+    {
+        "text": "No way I should have written that, squeezed that in."
+    },
+    {
+        "text": "Let me try it."
+    },
+    {
+        "text": "So the count is n squared plus n minus one squared plus all the way down to one squared."
+    },
+    {
+        "text": "That's a pretty decent count."
+    },
+    {
+        "text": "Admittedly, we didn't catch every single tiny operation, but we got the right leading term here."
+    },
+    {
+        "text": "And what do those add up to?"
+    },
+    {
+        "text": "Okay, so now we're at, we're coming to the punch of this question, this operation count."
+    },
+    {
+        "text": "So this is the operations on the left side, on the matrix A, to finally get to U."
+    },
+    {
+        "text": "And anybody, so which of, which of these quantities is the right ballpark for that count?"
+    },
+    {
+        "text": "If I add a hundred squared to ninety-nine squared to ninety-eight squared, ninety-seven squared, all the way down to two squared and one squared, what, what, what am I, what have I got about?"
+    },
+    {
+        "text": "It's one of these, so count, let's identify it first."
+    },
+    {
+        "text": "Is it n?"
+    },
+    {
+        "text": "Certainly not."
+    },
+    {
+        "text": "Is it n factorial?"
+    }
+]

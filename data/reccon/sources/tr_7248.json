@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Next is a ballet performance , but who is the dancer ?",
+        "emotion": "neutral",
+        "text": "Next is a ballet performance , but who is the dancer ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd swear that's Eddy from circulation .",
+        "emotion": "neutral",
+        "text": "I'd swear that's Eddy from circulation .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Since when did Eddy start doing ballet ? !",
+        "emotion": "neutral",
+        "text": "Since when did Eddy start doing ballet ? !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not very long from the looks of it !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Not very long from the looks of it !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not very long from the looks of it !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Look ! He has a partner !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "He has a partner !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look ! He has a partner !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He's dancing with Jack !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "He has a partner !",
+            "He's dancing with Jack !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He's dancing with Jack !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Gross !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He's dancing with Jack !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Gross !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The wei-ya is the one time a year you can make fun of the boss .",
+        "emotion": "neutral",
+        "text": "The wei-ya is the one time a year you can make fun of the boss .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "But I think Eddy is going too far !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He's dancing with Jack !",
+            "Eddy is going too far !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But I think Eddy is going too far !",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're right . They are spinning pretty fast . Aren't they getting dizzy ? What if they fall ...",
+        "emotion": "neutral",
+        "text": "You're right . They are spinning pretty fast . Aren't they getting dizzy ? What if they fall ...",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh ! Ouch ! That must've hurt !",
+        "emotion": "neutral",
+        "text": "Oh ! Ouch ! That must've hurt !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "How embarrassing !",
+        "emotion": "neutral",
+        "text": "How embarrassing !",
+        "id": 12
+    }
+]

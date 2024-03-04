@@ -1,0 +1,31 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "good luck !",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to see B getting the courage to make a move",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            14
+        ],
+        "expanded emotion cause span": [
+            "the blond with the red dress ?",
+            "She could do anything she wants to me !",
+            "here I go !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "good luck !",
+        "id": 15,
+        "source_sentences": [
+            3,
+            5,
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

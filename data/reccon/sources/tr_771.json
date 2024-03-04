@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , John , how was your vacation ?",
+        "emotion": "neutral",
+        "text": "Hi , John , how was your vacation ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Awesome , we went to Australia and New Zealand .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "we went to Australia and New Zealand"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Awesome , we went to Australia and New Zealand .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That must have been wonderful . Do anything interesting ?",
+        "emotion": "neutral",
+        "text": "That must have been wonderful . Do anything interesting ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , we went bungee jumping when we were in Australia .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Well , we went bungee jumping when we were in Australia ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , we went bungee jumping when we were in Australia .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow ! Isn ' t that dangerous ?",
+        "emotion": "neutral",
+        "text": "Wow ! Isn ' t that dangerous ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "A little , but the rush was worth it .",
+        "emotion": "neutral",
+        "text": "A little , but the rush was worth it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Tell me about it .",
+        "emotion": "neutral",
+        "text": "Tell me about it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "We jumped off a bridge and fell 500 feet before the bungee cord caught us .",
+        "emotion": "neutral",
+        "text": "We jumped off a bridge and fell 500 feet before the bungee cord caught us .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "500 feet ! I would never be able to do that .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We jumped off a bridge and fell 500 feet before the bungee cord caught us .",
+            "500 feet !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "500 feet ! I would never be able to do that .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , It was scary , but exhilarating .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It was scary , but exhilarating ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , It was scary , but exhilarating .",
+        "id": 10
+    }
+]

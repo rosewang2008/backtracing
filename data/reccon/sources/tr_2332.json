@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Where did you get your mobile ? It's really cute .",
+        "emotion": "neutral",
+        "text": "Where did you get your mobile ? It's really cute .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , this ? I got it in Singapore . Here , do you want to take a look ?",
+        "emotion": "neutral",
+        "text": "Oh , this ? I got it in Singapore . Here , do you want to take a look ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thanks . Gee , it's really light !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "it's really light !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thanks . Gee , it's really light !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , it is , isn't it ? A bit too light , really . What make have you got ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "it's really light !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , it is , isn't it ? A bit too light , really . What make have you got ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've got an old Ericsson . Here . Take a look .",
+        "emotion": "neutral",
+        "text": "I've got an old Ericsson . Here . Take a look .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wow , that's really old .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "that's really old ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , that's really old .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , I like collecting antiques .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "that's really old .",
+            "I like collecting antiques ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I like collecting antiques .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Why don't you get a new one ?",
+        "emotion": "neutral",
+        "text": "Why don't you get a new one ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't know . I like this one , and I don't have any need for all the bells and whistles you get on the new ones .",
+        "emotion": "neutral",
+        "text": "I don't know . I like this one , and I don't have any need for all the bells and whistles you get on the new ones .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Really , what makes you say that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I don't have any need for all the bells and whistles you get on the new ones ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really , what makes you say that ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , I just need to make and receive calls , and it's quite reliable . I find that the more fancy stuff they put into these things , the more likely they are to break bown or go wrong , you know ? I mean , this camera function , for instance-how often do you use it ?",
+        "emotion": "neutral",
+        "text": "Well , I just need to make and receive calls , and it's quite reliable . I find that the more fancy stuff they put into these things , the more likely they are to break bown or go wrong , you know ? I mean , this camera function , for instance-how often do you use it ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sometimes , but I guess not very often . It's more for fun . Sometimes when I'm on a trip , for example , I can take a picture and send it to my kids . Or I can send a picture of a sample back to my office and get it costed up immediately .",
+        "emotion": "neutral",
+        "text": "Sometimes , but I guess not very often . It's more for fun . Sometimes when I'm on a trip , for example , I can take a picture and send it to my kids . Or I can send a picture of a sample back to my office and get it costed up immediately .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well , that's nice I guess . So how many kids do you have ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "It's more for fun . Sometimes when I'm on a trip , for example , I can take a picture and send it to my kids . Or I can send a picture of a sample back to my office and get it costed up immediately ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , that's nice I guess . So how many kids do you have ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Three . Two boys and a girl .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "how many kids do you have ?",
+            "Three . Two boys and a girl ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Three . Two boys and a girl .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

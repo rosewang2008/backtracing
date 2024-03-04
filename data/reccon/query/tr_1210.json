@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok . I can't wait to see it . Let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "this could be a nice opportunity to enjoy it together . I bet you'd love it .",
+            "I can't wait to see it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ok . I can't wait to see it . Let's go !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

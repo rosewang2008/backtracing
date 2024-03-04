@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Maybe rather than saying left of A, left of U, let me write down again what I mean."
+    },
+    {
+        "text": "EA is U, whereas A is LU."
+    },
+    {
+        "text": "OK. Let me make the point now in words."
+    },
+    {
+        "text": "The order that the matrices come for L is the right order."
+    },
+    {
+        "text": "The two and the five don't sort of interfere to produce this ten."
+    },
+    {
+        "text": "In the right order, the multipliers just sit in the matrix L. That's the point."
+    },
+    {
+        "text": "That the, so that if I want to know L, I've no work to do."
+    },
+    {
+        "text": "I just keep a record of what those multipliers were."
+    },
+    {
+        "text": "And that gives me L. So I'll draw the, so what's the order?"
+    },
+    {
+        "text": "So let me state it."
+    },
+    {
+        "text": "So this is the A equal LU."
+    },
+    {
+        "text": "So if no row exchanges, the multipliers, those numbers that we multiplied rows by and subtracted when we did an elimination step, the multipliers go directly into L. OK."
+    },
+    {
+        "text": "So L is, this is the way to look at elimination."
+    },
+    {
+        "text": "That the, you go through the elimination steps, and actually, if you do it right, you can throw away A as you create L and U."
+    },
+    {
+        "text": "If you think about it, those steps of elimination, as you, when you've done, when you've finished with row two of A, you've created a new row two of U, which you have to save, and you've created the multipliers that you used, which you have to save, and then you can forget A."
+    },
+    {
+        "text": "So the, because it's all there in L and U."
+    },
+    {
+        "text": "So that's, that's like, I mean, this may, this moment is maybe the, the new insight in elimination that comes from matrix, doing it in matrix form."
+    },
+    {
+        "text": "So it was, the product of, of Es is, we can't see what that product of Es is."
+    },
+    {
+        "text": "The matrix E is not particularly attractive."
+    },
+    {
+        "text": "What's great is when we put them on the other side, they're inverses in the opposite order, there the L comes out just fine."
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Am I ever hungry ? When will supper be ready ?",
+        "emotion": "neutral",
+        "text": "Am I ever hungry ? When will supper be ready ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's almost ready . Can you set the table ?",
+        "emotion": "neutral",
+        "text": "It's almost ready . Can you set the table ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "neutral",
+        "text": "All right .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Want to taste this dish ?",
+        "emotion": "neutral",
+        "text": "Want to taste this dish ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah . Oh , it's delicious !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's delicious !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah . Oh , it's delicious !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's delicious !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Definitely . It's a wonderful meal . Thank you , Honey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's delicious !",
+            "It's a wonderful meal ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Definitely . It's a wonderful meal . Thank you , Honey .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "If you like to help me do the dishes , I'll be more dreadful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's delicious !",
+            "It's a wonderful meal . Thank you ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "If you like to help me do the dishes , I'll be more dreadful .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I wish I could , but I won't .",
+        "emotion": "neutral",
+        "text": "I wish I could , but I won't .",
+        "id": 9
+    }
+]

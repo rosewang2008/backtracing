@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 17,
+        "timestamp": 1684727650779.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Notes for future ref.)\n(7:16) there are _some_ matrices that do _NOT_ have n-independent eigenvectors, but _most_ of the matrices we deal with do have n-independent eigenvectors.\n(17:14) If all evalues are different, there _must_ be n-indep evectors. But if there are same evalues, it's possible _no_ n-indep evectors. (Identity matrix is an example of having the same evalues but still having n-indep evectors)\n* Also, the position of Lambda and S should be changed(32:36). You'll see why by just thinking matrix multiplication, and it can also be viewed by knowing A^100=S*Lambda^100*S^-1 and u_0=S*c.\n Thus, it should be S*Lambda^100*c, and this also can be thought of as 'transformation' between the two different bases - one of the two is the set of the egenvectors of A.\n* Also, (43:34) How prof. Strang could calculate that?? Actually that number _1.618033988749894..._ is called the 'golden ratio'.\n* (8:15) Note that A and Lambda are 'similar'. (And, S and S_-1(S inverse) transforms the coordinates.. you know what I mean.. both A and Lambda can be though of as some \"transformation\" based on different basis.. and S(or S_-1) transforms the coord between those two world.)"
+    }
+]

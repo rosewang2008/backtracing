@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . Nice to meet you , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you !",
+            "Nice to meet you , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . Nice to meet you , too .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

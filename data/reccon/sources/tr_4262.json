@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's weekend again , I'm glad I can arrange for my personal matters .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's weekend again , I'm glad I can arrange for my personal matters ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's weekend again , I'm glad I can arrange for my personal matters .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What do you mean by that ?",
+        "emotion": "neutral",
+        "text": "What do you mean by that ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , that means I can do whatever I like without few interruptions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I can do whatever I like without few interruptions ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , that means I can do whatever I like without few interruptions .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You've been always active and versatile . It seems that you are interested in everything .",
+        "emotion": "neutral",
+        "text": "You've been always active and versatile . It seems that you are interested in everything .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , really ? I just have lots of hobbies in my spare time ; such as going to the concert , painting , handwriting , reading novels and reading fashion magazines . What about yours ?",
+        "emotion": "neutral",
+        "text": "Oh , really ? I just have lots of hobbies in my spare time ; such as going to the concert , painting , handwriting , reading novels and reading fashion magazines . What about yours ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I have fewer hobbies than yours . That's why I find campus life a bit dull and uninteresting .",
+        "emotion": "neutral",
+        "text": "I have fewer hobbies than yours . That's why I find campus life a bit dull and uninteresting .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , you can't think like that . We young people should try our best to learn new things and accept new ideas . You like taking photos and going to photography shows , why not practise the technique and catch something unforgeable ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "You like taking photos and going to photography shows , why not practise the technique and catch something unforgeable ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , you can't think like that . We young people should try our best to learn new things and accept new ideas . You like taking photos and going to photography shows , why not practise the technique and catch something unforgeable ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's a good suggestion . It's fine today . Maybe I can take photos on the scenery of the lake at sunset . It must be fantastic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "You like taking photos and going to photography shows , why not practise the technique and catch something unforgeable ?",
+            "That's a good suggestion . It's fine today . Maybe I can take photos on the scenery of the lake at sunset . It must be fantastic ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a good suggestion . It's fine today . Maybe I can take photos on the scenery of the lake at sunset . It must be fantastic .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I quite agree with you . With our hobbies , our life can be more colorful and exciting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "That's a good suggestion . It's fine today . Maybe I can take photos on the scenery of the lake at sunset . It must be fantastic .",
+            "I quite agree with you . With our hobbies , our life can be more colorful and exciting ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I quite agree with you . With our hobbies , our life can be more colorful and exciting .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And I can concentrate on my study after the relaxation over the weekend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I quite agree with you . With our hobbies , our life can be more colorful and exciting .",
+            "And I can concentrate on my study after the relaxation over the weekend ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And I can concentrate on my study after the relaxation over the weekend .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "And I can concentrate on my study after the relaxation over the weekend .",
+            "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

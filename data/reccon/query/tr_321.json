@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "it sounds like any job will be better than the one you have now !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "but frankly , it's not much of an incentive . They give us a bonus of ten dollars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "it sounds like any job will be better than the one you have now !",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'd like to offer you my congratulations on your birthday and best wishes for your future happiness , good health and continued success . I've asked the Fairy Flowers to send you a bunch of flowers . I hope you'll like them .",
+            "Now let me sing \" Happy birthday \" for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much .",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

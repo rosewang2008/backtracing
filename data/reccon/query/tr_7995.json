@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good idea . I will think it over .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "You can also seek job information on the Internet .",
+            "Good idea ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good idea . I will think it over .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The rectangle is infinitely thin."
+    },
+    {
+        "text": "And there's nothing there."
+    },
+    {
+        "text": "So this is the case."
+    },
+    {
+        "text": "You can also interpret it as f of a minus f of a."
+    },
+    {
+        "text": "So that's also consistent with our interpretation, in terms of the fundamental theorem of calculus."
+    },
+    {
+        "text": "And it's perfectly reasonable that this is the case."
+    },
+    {
+        "text": "Now, the fifth property is a definition."
+    },
+    {
+        "text": "It's not really a property."
+    },
+    {
+        "text": "But it's very important."
+    },
+    {
+        "text": "The integral from a to b of f of x dx is equal to minus the integral from b to a of f of x dx."
+    },
+    {
+        "text": "Now, really, the right-hand side here is an undefined quantity so far."
+    },
+    {
+        "text": "We never said that you could ever do this where the a is less than the b."
+    },
+    {
+        "text": "Because this is working backwards here."
+    },
+    {
+        "text": "But we just have a convention that that's the definition."
+    },
+    {
+        "text": "Whenever we write down this number, it's the same as minus what that number is."
+    },
+    {
+        "text": "And the reason for all of these is, again, that we want them to be consistent with the fundamental theorem of calculus."
+    },
+    {
+        "text": "Which is the thing that makes all of this work."
+    },
+    {
+        "text": "So if you notice, the left-hand side here is f of b minus f of a, capital F. The antiderivative of little f. On the other hand, the other side is minus, and if we just ignore that we say these are letters, if we were a machine we didn't know which one was bigger than which."
+    },
+    {
+        "text": "We just plugged them in."
+    },
+    {
+        "text": "We would get here f of a minus f of b over here."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's a lucky fruit called hong zat ! People say that if you eat them , you will have your first son very soon !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "This little red fruit looks good .",
+            "That's a lucky fruit"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a lucky fruit called hong zat ! People say that if you eat them , you will have your first son very soon !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

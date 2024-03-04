@@ -1,0 +1,43 @@
+[
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 2,
+        "timestamp": 1684511180783.0,
+        "annotatedSourceSentencesIndices": [
+            697,
+            697
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "Thanks for your presentation. Please in the case we use ordinal logit , should we report pearson correlation and omnibus test value? if it is the case, how to interpret them (for exemple, under or above p value, what it is the meaning). Also shoud we consider the sig level from the table 'Test of model effect' or 'Parameter Estimates' table to say that a relationship between the predictor and outcome variable is significant. I am really looking for ways to interpret, your answer will really help me. thanks."
+    },
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 3,
+        "timestamp": 1684511272691.0,
+        "annotatedSourceSentencesIndices": [
+            62,
+            63,
+            64
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "It is mentioned that \"phi is known positive value\" (Lecture 23: 16.28 min). I am wondering,  if exponential dist. comes under canonical exponential family (or not), where theta = lambda, b(theta) = ln(theta) and phi = -1?"
+    },
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 0,
+        "timestamp": 1684191675943.0,
+        "annotatedSourceSentencesIndices": [
+            188,
+            252
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Sorry I'm having trouble keeping up, but for the Poisson example, where does that expression for mu(x) come from?\n\n\nThis is terrific by the way- thank you MIT for helping me stay even a little afloat in one of my classes."
+    }
+]

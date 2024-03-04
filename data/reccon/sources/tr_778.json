@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Bill , Happy Halloween !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy Halloween !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Bill , Happy Halloween !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Happy Halloween ! What creature are you going to dress up as ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Happy Halloween !",
+            "What creature are you going to dress up as ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Happy Halloween ! What creature are you going to dress up as ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I will dress up as a vampire with big fangs .",
+        "emotion": "neutral",
+        "text": "I will dress up as a vampire with big fangs .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "May I have a look at your costume ?",
+        "emotion": "neutral",
+        "text": "May I have a look at your costume ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sure . Wait a moment . ( Several minutes later ) Here you are .",
+        "emotion": "neutral",
+        "text": "Sure . Wait a moment . ( Several minutes later ) Here you are .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I like your black clothes and your fangs are cool .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I like your black clothes and your fangs are cool ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like your black clothes and your fangs are cool .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I will bite many beautiful girls on the neck tonight . Maybe I will suck their blood .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I like your black clothes and your fangs are cool .",
+            "I will bite many beautiful girls on the neck tonight . Maybe I will suck their blood ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I will bite many beautiful girls on the neck tonight . Maybe I will suck their blood .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Haha . Wish you good luck .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I will bite many beautiful girls on the neck tonight . Maybe I will suck their blood ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Haha . Wish you good luck .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

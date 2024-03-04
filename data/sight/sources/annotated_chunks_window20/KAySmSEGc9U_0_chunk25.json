@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's the same pattern."
+    },
+    {
+        "text": "You prove by contradiction."
+    },
+    {
+        "text": "So you assume for contradiction that D, that's bad."
+    },
+    {
+        "text": "That was copied from my other slide."
+    },
+    {
+        "text": "That's wrong."
+    },
+    {
+        "text": "Let's see if I can actually make this work here."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Assume for contradiction that F is regular."
+    },
+    {
+        "text": "The pumping lemma gives F is above."
+    },
+    {
+        "text": "And so now we need to choose a string S that's in F to do the pumping and show that the pumping lemma is going to fail."
+    },
+    {
+        "text": "You're going to pump, and you're going to get something which is not in language, which shows that something has gone wrong."
+    },
+    {
+        "text": "But which S to choose?"
+    },
+    {
+        "text": "And sometimes, that's where the creativity in applying the pumping lemma comes in, because you have to figure out which is the right string you're going to pump on."
+    },
+    {
+        "text": "So you might try the string, well, 0 to the p, 0 to the p. That's certainly in F. It's two copies of the same string."
+    },
+    {
+        "text": "Here it is I've written."
+    },
+    {
+        "text": "Lots of 0's followed by the same number of 0's."
+    },
+    {
+        "text": "The problem is, if you use that string, it actually is a string that you can pump."
+    },
+    {
+        "text": "You can break that string up into three pieces."
+    },
+    {
+        "text": "And then if you let y be the string 0, 0, actually, you have to be a little careful."
+    },
+    {
+        "text": "The string just 0 doesn't work, because there's an evenness-oddness phenomenon going here."
+    }
+]

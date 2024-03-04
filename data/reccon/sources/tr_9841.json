@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow ! It's hot today ! Do you want to get an ice cream cone ?",
+        "emotion": "neutral",
+        "text": "Wow ! It's hot today ! Do you want to get an ice cream cone ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No Let's go to an ice cream parlor ! They have way more flavors to choose from there . I feel like having something special like Neapolitan ice cream .",
+        "emotion": "neutral",
+        "text": "No Let's go to an ice cream parlor ! They have way more flavors to choose from there . I feel like having something special like Neapolitan ice cream .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's that ?",
+        "emotion": "neutral",
+        "text": "What's that ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's three different flavors mixed together . Chocolate , strawberry and something green with candied fruit .",
+        "emotion": "neutral",
+        "text": "It's three different flavors mixed together . Chocolate , strawberry and something green with candied fruit .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do they have ice cream bars . frozen yogurt or frozen chocolate mousse ?",
+        "emotion": "neutral",
+        "text": "Do they have ice cream bars . frozen yogurt or frozen chocolate mousse ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Absolutely ! They also have real Italian Galatian and French sorbets . They do a great baked Alaska .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A can have his ice cream wishes fulfilled",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Do they have ice cream bars . frozen yogurt or frozen chocolate mousse ?",
+            "Absolutely ! They also have real Italian Galatian and French sorbets . They do a great baked Alaska ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Absolutely ! They also have real Italian Galatian and French sorbets . They do a great baked Alaska .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Maybe a vanilla ice cream milkshake would be good . What's your favorite flavor ?",
+        "emotion": "neutral",
+        "text": "Maybe a vanilla ice cream milkshake would be good . What's your favorite flavor ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well ... l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "favorite flavor ?",
+            "l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well ... l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "God ! Even talking about it makes me feel like l'm gaining weight !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "God ! Even talking about it makes me feel like l'm gaining weight !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's OK . We can go jogging , after we eat !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "l like the traditional flavors like rum raisin , butter pecan . maple walnut , strawberry , chocolate and vanilla . But now there are some new flavors from Asia like green tea and durian ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That's OK . We can go jogging , after we eat !",
+        "id": 10
+    }
+]

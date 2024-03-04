@@ -1,0 +1,111 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "There's a double feature at the cinema this Saturday . Do you want to go with me ?",
+        "emotion": "neutral",
+        "text": "There's a double feature at the cinema this Saturday . Do you want to go with me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What are the movies that are playing ?",
+        "emotion": "neutral",
+        "text": "What are the movies that are playing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "There's an action movie with Harrison Ford and a chick flick with Susan Abandon .",
+        "emotion": "neutral",
+        "text": "There's an action movie with Harrison Ford and a chick flick with Susan Abandon .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I've never seen a movie I don't like that had Harrison Ford in it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "There's an action movie with Harrison Ford"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've never seen a movie I don't like that had Harrison Ford in it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So , is that a yes ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I've never seen a movie I don't like that had Harrison Ford in it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So , is that a yes ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . What time does it start and do you want to meet me there ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "There's an action movie with Harrison Ford"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . What time does it start and do you want to meet me there ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It starts at one and yea , let's meet there . It's the cinema on the corner of Lincoln and Main .",
+        "emotion": "neutral",
+        "text": "It starts at one and yea , let's meet there . It's the cinema on the corner of Lincoln and Main .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great ! I have a coupon for free popcorn at that theater !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            8
+        ],
+        "expanded emotion cause span": [
+            "There's an action movie with Harrison Ford",
+            "I have a coupon for free popcorn"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great ! I have a coupon for free popcorn at that theater !",
+        "id": 8,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

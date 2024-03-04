@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I think that show biz stars have a really easy life . They have lots of money , so they can buy almost anything they want . They ' re famous , so everyone loves them .",
+        "emotion": "neutral",
+        "text": "I think that show biz stars have a really easy life . They have lots of money , so they can buy almost anything they want . They ' re famous , so everyone loves them .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I think they must have horrible lives . All the paparazzi take photos of them wherever they go and whatever they do . They must get sick of it .",
+        "emotion": "neutral",
+        "text": "I think they must have horrible lives . All the paparazzi take photos of them wherever they go and whatever they do . They must get sick of it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I bet they love it really . Sure , they complain about it , but that just gets them more publicity , doesn ' t it ?",
+        "emotion": "neutral",
+        "text": "I bet they love it really . Sure , they complain about it , but that just gets them more publicity , doesn ' t it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think that few of the show biz stars want any publicity for themselves . They only want it for their films .",
+        "emotion": "neutral",
+        "text": "I think that few of the show biz stars want any publicity for themselves . They only want it for their films .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No way ! They want publicity for themselves , so that they get invited to make more films , go to lots of cocktail parties , and even make albums ! They have such an easy life . They don ' t even pay for Drin",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I think that few of the show biz stars want any publicity for themselves . They only want it for their films .",
+            "No way ! They want publicity for themselves , so that they get invited to make more films , go to lots of cocktail parties , and even make albums ! They have such an easy life . They don ' t even pay for Drin"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No way ! They want publicity for themselves , so that they get invited to make more films , go to lots of cocktail parties , and even make albums ! They have such an easy life . They don ' t even pay for Drin",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Show biz stars have plenty of expenses . That ' s why they need so much money . They need million of dollars to buy big , seclude houses and wonderful dresses . I bet most show biz stars would prefer to Wea",
+        "emotion": "neutral",
+        "text": "Show biz stars have plenty of expenses . That ' s why they need so much money . They need million of dollars to buy big , seclude houses and wonderful dresses . I bet most show biz stars would prefer to Wea",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I don ' t understand how you can have any sympathy for show biz stars . They ' re overpaid , over-ambitious , and over-adored .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "you can have any sympathy for show biz stars . They ' re overpaid , over-ambitious , and over-adored ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don ' t understand how you can have any sympathy for show biz stars . They ' re overpaid , over-ambitious , and over-adored .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I think you should give them some credit . They ' re very talented people and they deserve all the money they earn . They even donate money to charity to help people who are less fortunate than themselves",
+        "emotion": "neutral",
+        "text": "I think you should give them some credit . They ' re very talented people and they deserve all the money they earn . They even donate money to charity to help people who are less fortunate than themselves",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Come on ! They only do that to get even more publicity for their films and themselves .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I think you should give them some credit .",
+            "They only do that to get even more publicity for their films and themselves ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Come on ! They only do that to get even more publicity for their films and themselves .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

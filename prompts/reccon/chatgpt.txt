@@ -1,0 +1,7 @@
+Consider the following conversation:
+{transcript}
+
+Now consider the following line from the conversation:
+{query}
+
+The speaker felt {emotion} in this line. Which of the conversation turns (lines) most likely caused this emotion? If there are multiple possible answers, list them out. Format your answer as: [{{"line number": integer, "reason": "reason for why this line most likely caused this emotion"}}, ...]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is going to become y given x follows some distribution."
+    },
+    {
+        "text": "And I'm not going to allow any distribution."
+    },
+    {
+        "text": "I want something that comes from the exponential family."
+    },
+    {
+        "text": "Who knows what the exponential family of distribution is?"
+    },
+    {
+        "text": "This is not the same thing as the exponential distribution."
+    },
+    {
+        "text": "It's a family of distribution."
+    },
+    {
+        "text": "All right, so we'll see that."
+    },
+    {
+        "text": "What can that be?"
+    },
+    {
+        "text": "Oh, yeah, that's actually my."
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "You can mute your laptop."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'm in presentation mode."
+    },
+    {
+        "text": "That should not happen."
+    },
+    {
+        "text": "OK, so hopefully this is muted."
+    },
+    {
+        "text": "So essentially, this is going to be a family of distributions."
+    },
+    {
+        "text": "And what makes them exponential typically is that there's an exponential that shows up in the definition of the density."
+    },
+    {
+        "text": "We'll see that the Gaussian belongs to the exponential family."
+    },
+    {
+        "text": "But there are slightly less expected ones, because there's this crazy thing that a to the x is exponential x log a, which makes the exponential show up without being there."
+    },
+    {
+        "text": "So if there's an exponential of some power, it's going to show up."
+    }
+]

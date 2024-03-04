@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I hope so , too . Bye ! Ben .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I hope we can get together again soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope so , too . Bye ! Ben .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you going to vote this Tuesday ?",
+        "emotion": "neutral",
+        "text": "Are you going to vote this Tuesday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I am , and I am so excited .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I am , and I am so excited .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Have you figured out who you ' re going to vote for ?",
+        "emotion": "neutral",
+        "text": "Have you figured out who you ' re going to vote for ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I love my candidate .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I love my candidate .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Why is that ?",
+        "emotion": "neutral",
+        "text": "Why is that ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "My candidate is probably the most intelligent .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate .",
+            "My candidate is probably the most intelligent ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "My candidate is probably the most intelligent .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Is that right ?",
+        "emotion": "neutral",
+        "text": "Is that right ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I also agree with all his policies .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate .",
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I also agree with all his policies .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s great !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s great !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know he ' s going to be the next President .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate .",
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies .",
+            "he ' s going to be the next President ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I know he ' s going to be the next President .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Hopefully , he will be .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            1,
+            2,
+            2,
+            4,
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies .",
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate .",
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies .",
+            "he ' s going to be the next President ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Hopefully , he will be .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I can ' t wait to vote .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Are you going to vote",
+            "Yes ,",
+            "I am so excited .",
+            "I love my candidate .",
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies .",
+            "he ' s going to be the next President .",
+            "I can ' t wait"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I can ' t wait to vote .",
+        "id": 12
+    }
+]

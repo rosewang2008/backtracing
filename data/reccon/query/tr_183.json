@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , that's OK . Let's just meet at the theater before the show , around 7:30 .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have tickets",
+            "Would you like to go ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's OK . Let's just meet at the theater before the show , around 7:30 .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

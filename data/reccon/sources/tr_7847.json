@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Guess what , Gilly ? I won both bids .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I won both bids ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Guess what , Gilly ? I won both bids .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good for you . Did you use Paypal ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I won both bids ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good for you . Did you use Paypal ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah . It was so easy and super-fast , once I figured it out .",
+        "emotion": "neutral",
+        "text": "Yeah . It was so easy and super-fast , once I figured it out .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's the beauty of it , and the danger .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It was so easy and super-fast , once I figured it out ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's the beauty of it , and the danger .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I should get the items within a week . But in the meantime I'm bidding on a digital video camera .",
+        "emotion": "neutral",
+        "text": "I should get the items within a week . But in the meantime I'm bidding on a digital video camera .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How much ?",
+        "emotion": "neutral",
+        "text": "How much ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thirty U . S . dollars ... and it's only been used for six months .",
+        "emotion": "neutral",
+        "text": "Thirty U . S . dollars ... and it's only been used for six months .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Mmmm , sounds like risky business . Good luck .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm bidding on a digital video camera .",
+            "Thirty U . S . dollars ... and it's only been used for six months ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Mmmm , sounds like risky business . Good luck .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's wrong , Dave ? You look down today .",
+        "emotion": "neutral",
+        "text": "What's wrong , Dave ? You look down today .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I didn't pass the English exam . How to learn English well ? Can you give me some suggestions ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I didn't pass the English exam ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I didn't pass the English exam . How to learn English well ? Can you give me some suggestions ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , English is a \" paper tiger \" . Its natural enemy is adequate practice .",
+        "emotion": "neutral",
+        "text": "Well , English is a \" paper tiger \" . Its natural enemy is adequate practice .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I have done a lot of reading comprehension exercises , and I also spend much time in memorizing English words .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "English is a \" paper tiger \" . Its natural enemy is adequate practice .",
+            "I have done a lot of reading comprehension exercises , and I also spend much time in memorizing English words ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I have done a lot of reading comprehension exercises , and I also spend much time in memorizing English words .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I suggest you read English texts aloud every day , and try to speak more . That will be beneficial to cultivate your sense of the language .",
+        "emotion": "neutral",
+        "text": "I suggest you read English texts aloud every day , and try to speak more . That will be beneficial to cultivate your sense of the language .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? I'll have a try . Maybe I will get high marks next time .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I suggest you read English texts aloud every day , and try to speak more . That will be beneficial to cultivate your sense of the language ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I'll have a try . Maybe I will get high marks next time .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you for inviting me . See you then . Bye , Tom .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "dine out together and go to the movies ?",
+            "I'll pick you up at 6:00 .",
+            "Thank you for inviting me . See you then ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you for inviting me . See you then . Bye , Tom .",
+        "id": 10,
+        "source_sentences": [
+            6,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

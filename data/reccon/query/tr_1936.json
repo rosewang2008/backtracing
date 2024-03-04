@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "I will . Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "call me if you need anything"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I will . Thanks a lot .",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,203 @@
+############################################
+dataset:  inquisitive
+method:  edit_distance
+############################################
+[2023-06-19 09:51:31,713] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Output fname: results/inquisitive/test/edit_distance.csv
+Output fname: results/inquisitive/test/edit_distance.csv
+Size of df: 25746
+Accuracy top 1: 0.07
+Accuracy top 3: 0.18
+Accuracy top 5: 0.33
+Size of df: 25746
+############################################
+dataset:  inquisitive
+method:  semantic_similarity
+############################################
+[2023-06-19 09:51:46,408] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Output fname: results/inquisitive/test/semantic_similarity.csv
+Output fname: results/inquisitive/test/semantic_similarity.csv
+Size of df: 25746
+Accuracy top 1: 0.48
+Accuracy top 3: 0.71
+Accuracy top 5: 0.81
+Size of df: 25746
+############################################
+dataset:  inquisitive
+method:  minilm
+############################################
+[2023-06-19 09:51:59,941] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Output fname: results/inquisitive/test/minilm.csv
+Output fname: results/inquisitive/test/minilm.csv
+Size of df: 25746
+Accuracy top 1: 0.49
+Accuracy top 3: 0.75
+Accuracy top 5: 0.84
+Size of df: 25746
+############################################
+dataset:  inquisitive
+method:  cross_encoder
+############################################
+[2023-06-19 09:52:12,542] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Output fname: results/inquisitive/test/cross_encoder.csv
+Output fname: results/inquisitive/test/cross_encoder.csv
+Size of df: 25746
+Accuracy top 1: 0.66
+Accuracy top 3: 0.85
+Accuracy top 5: 0.9
+Size of df: 25746
+############################################
+dataset:  inquisitive
+method:  gpt2
+score_method:  single-sentence
+############################################
+[2023-06-19 09:52:27,081] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt2_single-sentence.csv
+Output fname: results/inquisitive/test/gpt2_single-sentence.csv
+Size of df: 25887
+Num errors: 0
+Total: 25887
+Method: single-sentence, top_k: 1, accuracy: 0.42753095411507647
+Method: single-sentence, top_k: 3, accuracy: 0.6394756008739986
+Method: single-sentence, top_k: 5, accuracy: 0.7407137654770576
+
+############################################
+dataset:  inquisitive
+method:  gpt2
+score_method:  auto-regressive
+############################################
+[2023-06-19 09:53:34,682] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt2_auto-regressive.csv
+Output fname: results/inquisitive/test/gpt2_auto-regressive.csv
+Size of df: 25887
+Num errors: 0
+Total: 25887
+Method: auto-regressive, top_k: 1, accuracy: 0.08885651857246904
+Method: auto-regressive, top_k: 3, accuracy: 0.17844136926438456
+Method: auto-regressive, top_k: 5, accuracy: 0.2520029133284778
+
+############################################
+dataset:  inquisitive
+method:  gpt2
+score_method:  causal-full
+############################################
+[2023-06-19 09:54:39,248] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt2_causal-full.csv
+Output fname: results/inquisitive/test/gpt2_causal-full.csv
+############################################
+dataset:  inquisitive
+method:  gpt_j
+score_method:  single-sentence
+############################################
+[2023-06-19 09:54:49,530] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt_j_single-sentence.csv
+Output fname: results/inquisitive/test/gpt_j_single-sentence.csv
+Size of df: 25887
+Num errors: 0
+Total: 25887
+Method: single-sentence, top_k: 1, accuracy: 0.6693372177713037
+Method: single-sentence, top_k: 3, accuracy: 0.8492352512745812
+Method: single-sentence, top_k: 5, accuracy: 0.9024034959941734
+
+############################################
+dataset:  inquisitive
+method:  gpt_j
+score_method:  auto-regressive
+############################################
+[2023-06-19 09:55:54,220] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt_j_auto-regressive.csv
+Output fname: results/inquisitive/test/gpt_j_auto-regressive.csv
+Size of df: 25887
+Num errors: 0
+Total: 25887
+Method: auto-regressive, top_k: 1, accuracy: 0.551347414420976
+Method: auto-regressive, top_k: 3, accuracy: 0.7603787327021122
+Method: auto-regressive, top_k: 5, accuracy: 0.8448652585579024
+
+############################################
+dataset:  inquisitive
+method:  gpt_j
+score_method:  causal-full
+############################################
+[2023-06-19 09:57:12,618] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt_j_causal-full.csv
+Output fname: results/inquisitive/test/gpt_j_causal-full.csv
+Size of df: 51774
+Num errors: 0
+Total: 51774
+Method: causal-full, top_k: 1, accuracy: 0.6678805535324108
+Method: causal-full, top_k: 3, accuracy: 0.7851420247632921
+Method: causal-full, top_k: 5, accuracy: 0.8353969410050983
+
+############################################
+dataset:  inquisitive
+method:  opt_6b
+score_method:  single-sentence
+############################################
+[2023-06-19 09:58:44,101] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/opt_6b_single-sentence.csv
+Output fname: results/inquisitive/test/opt_6b_single-sentence.csv
+Size of df: 25887
+Num errors: 0
+Total: 25887
+Method: single-sentence, top_k: 1, accuracy: 0.6584122359796067
+Method: single-sentence, top_k: 3, accuracy: 0.8164603058994901
+Method: single-sentence, top_k: 5, accuracy: 0.8900218499635834
+
+############################################
+dataset:  inquisitive
+method:  opt_6b
+score_method:  auto-regressive
+############################################
+[2023-06-19 09:59:55,799] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/opt_6b_auto-regressive.csv
+Output fname: results/inquisitive/test/opt_6b_auto-regressive.csv
+Size of df: 25746
+Num errors: 0
+Total: 25746
+Method: auto-regressive, top_k: 1, accuracy: 0.515659140568099
+Method: auto-regressive, top_k: 3, accuracy: 0.7254187909686817
+Method: auto-regressive, top_k: 5, accuracy: 0.8164603058994901
+
+############################################
+dataset:  inquisitive
+method:  opt_6b
+score_method:  causal-full
+############################################
+[2023-06-19 10:01:12,593] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Using CUDA? False
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/opt_6b_causal-full.csv
+Output fname: results/inquisitive/test/opt_6b_causal-full.csv
+Size of df: 51774
+Num errors: 0
+Total: 51774
+Method: causal-full, top_k: 1, accuracy: 0.6358339402767662
+Method: causal-full, top_k: 3, accuracy: 0.7589220684632192
+Method: causal-full, top_k: 5, accuracy: 0.8026219956300072
+

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's good for me , but do you think you'll be back by then ? I'd really like to see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I should have some free time next week . Say , next Wednesday evening ?",
+            "I'd really like to see you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's good for me , but do you think you'll be back by then ? I'd really like to see you .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

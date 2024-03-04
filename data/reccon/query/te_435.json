@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow ! That's interesting ! It must be tough !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I don't eat or use any animal based products . I don't wear leather , eat eggs , drink milk or anything that comes from an animal ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow ! That's interesting ! It must be tough !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

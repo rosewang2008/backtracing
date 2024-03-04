@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No kidding ! I can't believe this . You devil !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm already working for WebTracker ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No kidding ! I can't believe this . You devil !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

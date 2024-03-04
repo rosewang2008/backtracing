@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you , Sue ?",
+        "emotion": "neutral",
+        "text": "How are you , Sue ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Pretty good . I ' Ve just had my new poems published .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Pretty good . I ' Ve just had my new poems published .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Congratulations on your success .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations on your success .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published .",
+            "Congratulations"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And how ' s your brother ?",
+        "emotion": "neutral",
+        "text": "And how ' s your brother ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He is fine .",
+        "emotion": "neutral",
+        "text": "He is fine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "He ' s going to be sent to Britain to study , really ?",
+        "emotion": "neutral",
+        "text": "He ' s going to be sent to Britain to study , really ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . He ' s already got the passport and visa .",
+        "emotion": "neutral",
+        "text": "Yes . He ' s already got the passport and visa .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Fantastic ! Please send him my congratulations .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "He ' s going to be sent to Britain to study , really ?",
+            "Yes . He ' s already got the passport and visa ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Fantastic ! Please send him my congratulations .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . He ' s very lucky indeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "send him my congratulations .",
+            "He ' s very lucky"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . He ' s very lucky indeed .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

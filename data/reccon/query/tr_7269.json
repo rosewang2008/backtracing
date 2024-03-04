@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good for you . No problem , I'll listen to the car radio",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I finally have an inspiration ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good for you . No problem , I'll listen to the car radio",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

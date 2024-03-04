@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what about the inverses?"
+    },
+    {
+        "text": "What's the inverse of this guy, for example?"
+    },
+    {
+        "text": "What's the inverse, if I exchange rows one and two, what's the inverse matrix?"
+    },
+    {
+        "text": "Just tell me fast."
+    },
+    {
+        "text": "The inverse of that matrix is, if I exchange rows one and two, then what I should do to get back to where I started is?"
+    },
+    {
+        "text": "The same thing."
+    },
+    {
+        "text": "So this thing is its own inverse."
+    },
+    {
+        "text": "This is, that's probably its own inverse."
+    },
+    {
+        "text": "This is probably not, actually, I think these are inverses of each other."
+    },
+    {
+        "text": "Oh yeah, actually, the inverse is the transpose."
+    },
+    {
+        "text": "There's a curious fact about permutation matrices, that the inverses are the transpose."
+    },
+    {
+        "text": "And final moment, how many are there if I, how many four by four permutations?"
+    },
+    {
+        "text": "So let me take four by four, how many P's?"
+    },
+    {
+        "text": "Well, okay."
+    },
+    {
+        "text": "Make a good guess."
+    },
+    {
+        "text": "Twenty-four, right."
+    },
+    {
+        "text": "Twenty-four P's."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So we've got these permutation matrices, and in the next lecture we use them."
+    },
+    {
+        "text": "So the next lecture finishes Chapter Two and moves to Chapter Three."
+    }
+]

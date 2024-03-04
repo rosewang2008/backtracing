@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what's the matrix that did it?"
+    },
+    {
+        "text": "Quick review, then."
+    },
+    {
+        "text": "What's the elimination elementary matrix E two one?"
+    },
+    {
+        "text": "It's one zero, thanks, and negative four one."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's, I, I, you see the difference between this and what I'm shooting for."
+    },
+    {
+        "text": "I'm shooting for A on one side and the other matrices on the other side of the equation."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So I can do that right away."
+    },
+    {
+        "text": "Now I'm, now here's going to be my A equal LU."
+    },
+    {
+        "text": "And you won't have any trouble telling me what, so A is still two one eight seven."
+    },
+    {
+        "text": "L is what you're going to tell me."
+    },
+    {
+        "text": "And U is still two one zero three."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what's L in this case?"
+    },
+    {
+        "text": "Well, first, so how is L related to this E guy?"
+    },
+    {
+        "text": "It's the inverse."
+    },
+    {
+        "text": "Because I want to multiply through by the inverse of this, which will put the identity here, and the inverse will show up there and I'll call it L. So what is the inverse of this?"
+    }
+]

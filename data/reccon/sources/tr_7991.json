@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I just discovered that I owe $ 10 for a movie that I never ordered .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I owe $ 10 for a movie that I never ordered ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I just discovered that I owe $ 10 for a movie that I never ordered .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Let me check , sir . You were charged for watching ' Titanic ' Monday night .",
+        "emotion": "neutral",
+        "text": "Let me check , sir . You were charged for watching ' Titanic ' Monday night .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That is absolutely incorrect ! I was out on the town Monday night .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You were charged for watching ' Titanic ' Monday night .",
+            "I was out on the town Monday night ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That is absolutely incorrect ! I was out on the town Monday night .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Okay , sir , bear with me a moment .",
+        "emotion": "neutral",
+        "text": "Okay , sir , bear with me a moment .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you for taking my word over the computer's word .",
+        "emotion": "neutral",
+        "text": "Thank you for taking my word over the computer's word .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "One slight problem , sir . I need to charge you $ 2 to remove this error from your file .",
+        "emotion": "neutral",
+        "text": "One slight problem , sir . I need to charge you $ 2 to remove this error from your file .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You can",
+        "emotion": "neutral",
+        "text": "You can",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I feel your pain , sir .",
+        "emotion": "neutral",
+        "text": "I feel your pain , sir .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Absolutely unbelievable ! You people should be ashamed of yourselves .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I need to charge you $ 2 to remove this error from your file ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Absolutely unbelievable ! You people should be ashamed of yourselves .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I agree with you , sir , but all I do is work here .",
+        "emotion": "neutral",
+        "text": "I agree with you , sir , but all I do is work here .",
+        "id": 10
+    }
+]

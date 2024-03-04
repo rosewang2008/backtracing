@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Now that's a good idea . Thanks a lot , Brian . I'm feeling better already .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Come with me to class , and after class we can go out for dinner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now that's a good idea . Thanks a lot , Brian . I'm feeling better already .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But that's an awkward expression to write down."
+    },
+    {
+        "text": "So what other ways do we have to find the Frobenius norm of a matrix?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "I can look at this as A transpose A."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "A transpose A."
+    },
+    {
+        "text": "So what's happening there?"
+    },
+    {
+        "text": "Remind me what."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I would get all that."
+    },
+    {
+        "text": "I would get all these by taking the matrix A transpose times A."
+    },
+    {
+        "text": "But what?"
+    },
+    {
+        "text": "Sorry, I'm not."
+    },
+    {
+        "text": "I've lost my thread of talk here."
+    },
+    {
+        "text": "So here's."
+    },
+    {
+        "text": "Oh, and then I take the trace, of course."
+    },
+    {
+        "text": "So that first row, first column of A times that one will give me the one set of squares."
+    },
+    {
+        "text": "And then that one times the other one, the next one, will give me the next set of squares."
+    },
+    {
+        "text": "So this is going to, if I look at the trace."
+    },
+    {
+        "text": "So I just want to look at the diagonal here."
+    }
+]

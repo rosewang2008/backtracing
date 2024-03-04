@@ -1,0 +1,136 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh . Henry . I haven't seen you in ages . Come in . Let me take your coat . How are you getting along ?",
+        "emotion": "neutral",
+        "text": "Oh . Henry . I haven't seen you in ages . Come in . Let me take your coat . How are you getting along ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Very well , thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you in ages .",
+            "How are you getting along ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Very well , thank you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Please take a seat . Everything will be ready in a minute .",
+        "emotion": "neutral",
+        "text": "Please take a seat . Everything will be ready in a minute .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Here you go . We have your cocktail and there're salad . fried chicken , French fries and vanilla ice cream for dessert . Eat the chicken while it's hot . It tastes better .",
+        "emotion": "neutral",
+        "text": "Here you go . We have your cocktail and there're salad . fried chicken , French fries and vanilla ice cream for dessert . Eat the chicken while it's hot . It tastes better .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow ! You're right . Everything is absolutely delicious . Please pass the pepper .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "We have your cocktail and there're salad . fried chicken , French fries and vanilla ice cream for dessert . Eat the chicken while it's hot . It tastes better .",
+            "Everything is absolutely delicious ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow ! You're right . Everything is absolutely delicious . Please pass the pepper .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Here you are . Taste the French fries .",
+        "emotion": "neutral",
+        "text": "Here you are . Taste the French fries .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "They're soft .",
+        "emotion": "neutral",
+        "text": "They're soft .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Would you like some more ?",
+        "emotion": "neutral",
+        "text": "Would you like some more ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No more . Thank you .",
+        "emotion": "neutral",
+        "text": "No more . Thank you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Here's to our friendship and health !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Here's to our friendship and health !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Here's to our friendship and health !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Bottoms up !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Here's to our friendship and health !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bottoms up !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

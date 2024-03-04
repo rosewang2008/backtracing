@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 8,
+        "timestamp": 1684512455481.0,
+        "annotatedSourceSentencesIndices": [
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Hi, can anyone explain why 10:20 sigma_1 and sigma_2 greater than 0? Thanks!"
+    }
+]

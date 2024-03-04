@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 40,
+        "timestamp": 1684722350405.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why does a 4x4 matrix have 24 Permutationmatrices when a 3x3 Matrix has 6? I don't get how they calculated it so quickly."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What about its row space?"
+    },
+    {
+        "text": "What happened to its row space?"
+    },
+    {
+        "text": "Well, what happened, let me first ask, just because this is, sometimes something does happen."
+    },
+    {
+        "text": "Its column space changed."
+    },
+    {
+        "text": "The column space of R is not the column space of A, right?"
+    },
+    {
+        "text": "Because one one one is certainly in the column space of A and certainly not in the column space of R. I did row operations."
+    },
+    {
+        "text": "Those row operations preserved the row space, so the row so the column spaces are different."
+    },
+    {
+        "text": "Different column spaces."
+    },
+    {
+        "text": "Different column spaces."
+    },
+    {
+        "text": "But I believe that they have the same row space."
+    },
+    {
+        "text": "Same row space."
+    },
+    {
+        "text": "I believe that the row space of that matrix and the row space of this matrix are identical."
+    },
+    {
+        "text": "They have exactly the same vectors in them."
+    },
+    {
+        "text": "Those vectors are vectors with four components, right?"
+    },
+    {
+        "text": "They're all combinations of those rows."
+    },
+    {
+        "text": "Or I believe you get the same thing by taking all combinations of these rows."
+    },
+    {
+        "text": "And if true, what's a basis?"
+    },
+    {
+        "text": "What's a basis for the row space of R?"
+    }
+]

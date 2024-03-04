@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , you ' re up early today ! What ' s for breakfast ?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you ' re up early today"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , you ' re up early today ! What ' s for breakfast ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , I felt like baking , so I made some muffins .",
+        "emotion": "neutral",
+        "text": "Well , I felt like baking , so I made some muffins .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Smells good ! I ' ll make some coffee . Do you want me to make you some eggs ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I made some muffins .",
+            "Smells good !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Smells good ! I ' ll make some coffee . Do you want me to make you some eggs ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , I'll take mine , sunny side up .",
+        "emotion": "neutral",
+        "text": "Sure , I'll take mine , sunny side up .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Www , I don ' t know how you can eat your eggs like that ! Ever since I was small , I ' Ve had eggs and soldiers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I made some muffins .",
+            "Smells good !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Www , I don ' t know how you can eat your eggs like that ! Ever since I was small , I ' Ve had eggs and soldiers .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You know , my dad had scrambled eggs every morning for twenty years . It drove my mom crazy !",
+        "emotion": "neutral",
+        "text": "You know , my dad had scrambled eggs every morning for twenty years . It drove my mom crazy !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know what really drives me crazy ? When I ask for soft boiled eggs , and they overcook them , so they come out hard boiled ! How can you dipyour toast into a hard boiled egg ?",
+        "emotion": "neutral",
+        "text": "You know what really drives me crazy ? When I ask for soft boiled eggs , and they overcook them , so they come out hard boiled ! How can you dipyour toast into a hard boiled egg ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ' re so picky sometimes .",
+        "emotion": "neutral",
+        "text": "You ' re so picky sometimes .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Here you go , honey , fried eggs .",
+        "emotion": "neutral",
+        "text": "Here you go , honey , fried eggs .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Dammit ! I asked for sunny side up ! How many times do I have to tell you .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Here you go , honey , fried eggs .",
+            "I asked for sunny side up ! How many times do I have to tell you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Dammit ! I asked for sunny side up ! How many times do I have to tell you .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

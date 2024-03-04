@@ -1,0 +1,187 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello ! I'm Penny , I moved here just now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I moved here just now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello ! I'm Penny , I moved here just now .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , Penny , I'm Leonard , glad to meet you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "glad to meet you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , Penny , I'm Leonard , glad to meet you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Nice to meet you , too . I thought I should come and say hello to you . I haven't known anybody .",
+        "emotion": "neutral",
+        "text": "Nice to meet you , too . I thought I should come and say hello to you . I haven't known anybody .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It is hard to get used to a new place , isn't it ?",
+        "emotion": "neutral",
+        "text": "It is hard to get used to a new place , isn't it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . Would you like to come here later to have a coffee ? Bring all your family .",
+        "emotion": "happiness",
+        "explanation": "Eagerness to meet",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "come here later to have a coffee"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . Would you like to come here later to have a coffee ? Bring all your family .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "We'd like to . Can you tell me when we go ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you like to come here later to have a coffee ?",
+            "We'd like to ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "We'd like to . Can you tell me when we go ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "About 4 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "come here later to have a coffee"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "About 4 .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK . Do you want us to bring something ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you like to come here later to have a coffee ?",
+            "We'd like to ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK . Do you want us to bring something ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , just come here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "come here later to have a coffee"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , just come here .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK , see you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Would you like to come here later to have a coffee ?",
+            "We'd like to .",
+            "just come here"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK , see you later .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "explanation": "Speaker is invited by the listener for coffee",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "see you later ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "to frighten away evil spirits ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

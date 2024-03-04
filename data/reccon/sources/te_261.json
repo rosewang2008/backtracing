@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you finished ?",
+        "emotion": "neutral",
+        "text": "Are you finished ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . May I have some more beer ?",
+        "emotion": "neutral",
+        "text": "Yes . May I have some more beer ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , sure . I'll be back in a minute . Thank you for waiting . Here it is . Did you enjoy your meal ?",
+        "emotion": "happiness",
+        "explanation": "Assuming A is serving food or beverage to B. A feels happy because B is giving positive feedback to the service.",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Oh , sure . I'll be back in a minute . Thank you for waiting . Here it is . Did you enjoy your meal ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , sure . I'll be back in a minute . Thank you for waiting . Here it is . Did you enjoy your meal ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , the meal was very delicious and I enjoyed very much . I'm full .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , the meal was very delicious and I enjoyed very much . I'm full ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , the meal was very delicious and I enjoyed very much . I'm full .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is that so ? I'm glad you enjoyed it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , the meal was very delicious and I enjoyed very much . I'm full ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is that so ? I'm glad you enjoyed it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "By the way , Miss . Where is the toilet ?",
+        "emotion": "neutral",
+        "text": "By the way , Miss . Where is the toilet ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Toilets are in the rear . I'm afraid all the toilets are fully occupied at the moment .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid all the toilets are fully occupied at the moment ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Toilets are in the rear . I'm afraid all the toilets are fully occupied at the moment .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid all the toilets are fully occupied at the moment ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

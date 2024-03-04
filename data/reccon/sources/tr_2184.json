@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Mary , it was wrong of you to be so late . Mother ' s very worried .",
+        "emotion": "neutral",
+        "text": "Mary , it was wrong of you to be so late . Mother ' s very worried .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "I ' m so sorry I ' m late . But Henry ' s car broke down .",
+        "emotion": "neutral",
+        "text": "I ' m so sorry I ' m late . But Henry ' s car broke down .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "I don ' t really like Henry . I like my Rose .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I don ' t really like Henry ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don ' t really like Henry . I like my Rose .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "I don ' t like your Rose . And I do love Henry . And I ' m going to marry him .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I don ' t really like Henry .",
+            "I don ' t like your Rose ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don ' t like your Rose . And I do love Henry . And I ' m going to marry him .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "But my Rose is great .",
+        "emotion": "neutral",
+        "text": "But my Rose is great .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Your Rose is a fool .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Your Rose is a fool ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Your Rose is a fool .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Really , Mary , you ' re horrible .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Your Rose is a fool .",
+            "Really , Mary , you ' re horrible ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really , Mary , you ' re horrible .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Why don ' t you marry Rose , then ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I don ' t really like Henry . I like my Rose .",
+            "I don ' t like your Rose . And I do love Henry . And I ' m going to marry him .",
+            "Really , Mary , you ' re horrible ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Why don ' t you marry Rose , then ?",
+        "id": 8
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I don't know about that , but my door is always open . Stop by anytime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks . It helps to get it off my chest . You're always so easy to talk to ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't know about that , but my door is always open . Stop by anytime .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

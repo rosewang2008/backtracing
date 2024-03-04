@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Can you carry through the steps?"
+    },
+    {
+        "text": "Let's, let's do them together, because we can do it in one minute."
+    },
+    {
+        "text": "So we've chosen this perfect basis."
+    },
+    {
+        "text": "And actually, with signal image processing, they might look for the eigenvectors, but that would take more calculation time than just saying, OK, we'll use the wavelet basis, or OK, we'll use the Fourier basis."
+    },
+    {
+        "text": "But the very best basis is the eigenvector basis."
+    },
+    {
+        "text": "OK, what's the matrix?"
+    },
+    {
+        "text": "So, what's the first column of the matrix?"
+    },
+    {
+        "text": "How do I get the first column?"
+    },
+    {
+        "text": "I take the first basis vector v1."
+    },
+    {
+        "text": "I op- I look to see what does the transformation do to it."
+    },
+    {
+        "text": "The output is lambda one v1."
+    },
+    {
+        "text": "I express that output as a combination, so the first input is v1."
+    },
+    {
+        "text": "Its output is lambda one v1."
+    },
+    {
+        "text": "Now write lambda one v1 as a combination of the basis vectors."
+    },
+    {
+        "text": "Well, it's already done."
+    },
+    {
+        "text": "It's just lambda one times the first basis vector and zero times the others."
+    },
+    {
+        "text": "So this first column will have lambda one and zeros."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Second input is v2."
+    },
+    {
+        "text": "Output is lambda two v2."
+    }
+]

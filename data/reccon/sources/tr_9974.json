@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mike ! Look at the floor !",
+        "emotion": "neutral",
+        "text": "Mike ! Look at the floor !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's wrong with it ?",
+        "emotion": "neutral",
+        "text": "What's wrong with it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's wrong with it ? It's filthy !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It's filthy !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What's wrong with it ? It's filthy !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh ...",
+        "emotion": "neutral",
+        "text": "Oh ...",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's filthy because you never wipe your shoes .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's filthy !",
+            "It's filthy because you never wipe your shoes ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's filthy because you never wipe your shoes .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sorry , love .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's filthy !",
+            "It's filthy because you never wipe your shoes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sorry , love .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What are you looking for now ?",
+        "emotion": "neutral",
+        "text": "What are you looking for now ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "My cigarettes .",
+        "emotion": "neutral",
+        "text": "My cigarettes .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , they ' re not here . They are in the dustbin .",
+        "emotion": "neutral",
+        "text": "Well , they ' re not here . They are in the dustbin .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "In the dustbin ! Why didn't you tell me before ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "They are in the dustbin .",
+            "Why didn't you tell me before ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "In the dustbin ! Why didn't you tell me before ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

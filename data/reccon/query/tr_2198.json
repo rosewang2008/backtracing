@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's not bad . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "Let's enjoy the plum blossoms ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's not bad . Let's go .",
+        "id": 11,
+        "source_sentences": [
+            1,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

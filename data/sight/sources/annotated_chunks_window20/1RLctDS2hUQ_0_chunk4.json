@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let me just draw a picture of that."
+    },
+    {
+        "text": "The curve goes like this."
+    },
+    {
+        "text": "And we're talking about this area here."
+    },
+    {
+        "text": "It starts out at 0, it goes to pi."
+    },
+    {
+        "text": "That's one hump."
+    },
+    {
+        "text": "And so the answer is, it's the integral from 0 to pi of sin x, dx."
+    },
+    {
+        "text": "And so I need to take the antiderivative of that."
+    },
+    {
+        "text": "And that's minus cos x."
+    },
+    {
+        "text": "That's the thing whose derivative is sin x."
+    },
+    {
+        "text": "Evaluating it at 0 and pi."
+    },
+    {
+        "text": "Now, let's do this one carefully."
+    },
+    {
+        "text": "Because this is where I see a lot of arithmetic mistakes."
+    },
+    {
+        "text": "Even though this is the easy part of the problem."
+    },
+    {
+        "text": "It's hard to pay attention and plug in the right numbers."
+    },
+    {
+        "text": "And so let's just pay very close attention."
+    },
+    {
+        "text": "I'm plugging in pi."
+    },
+    {
+        "text": "That's minus cos pi."
+    },
+    {
+        "text": "That's the first term."
+    },
+    {
+        "text": "And then I'm subtracting the value at the bottom."
+    },
+    {
+        "text": "Which is minus cos 0."
+    }
+]

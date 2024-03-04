@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That would be wonderful . Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Well , if you want we can go together sometime . Actually I was thinking of going this afternoon , if you like , you can join me and I can show you the neighborhood along the way ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be wonderful . Thanks !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

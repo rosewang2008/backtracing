@@ -1,0 +1,217 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Jason , there is going to be a screening of Final Destination 3 at our campus cinema tomorrow . I plan to go to see it .",
+        "emotion": "neutral",
+        "text": "Hello , Jason , there is going to be a screening of Final Destination 3 at our campus cinema tomorrow . I plan to go to see it .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is it a horror movie ?",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "screening of Final Destination 3",
+            "Is it a horror movie ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Is it a horror movie ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , I love horror movies . Would you like to go with me tomorrow ?",
+        "emotion": "neutral",
+        "text": "Yeah , I love horror movies . Would you like to go with me tomorrow ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No way . I will be scared out of my wits .",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I will be scared out of my wits ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No way . I will be scared out of my wits .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's funny , I didn't know a big fellow like you could be so soft and timid on the inside .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I didn't know a big fellow like you could be so soft and timid on the inside ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's funny , I didn't know a big fellow like you could be so soft and timid on the inside .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey , how would you like to taste my fist ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "how would you like to taste my fist ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , how would you like to taste my fist ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Alright , all joking aside , what kinds of moves do you like ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "all joking aside"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Alright , all joking aside , what kinds of moves do you like ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Um , let me see , romance , comedy . documentary , action , science fiction , animated and so on .",
+        "emotion": "neutral",
+        "text": "Um , let me see , romance , comedy . documentary , action , science fiction , animated and so on .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That is to say , you like all genres except for horror movies .",
+        "emotion": "neutral",
+        "text": "That is to say , you like all genres except for horror movies .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah . It seems like we don't speak the same language as far as movies are concerned .",
+        "emotion": "neutral",
+        "text": "Yeah . It seems like we don't speak the same language as far as movies are concerned .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Not quite . I also greatly enjoy romance and comedy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I also greatly enjoy romance and comedy ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not quite . I also greatly enjoy romance and comedy .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "The Notebook is this type of movie .",
+        "emotion": "neutral",
+        "text": "The Notebook is this type of movie .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Really ? I haven't heard of it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "The Notebook is this type of movie .",
+            "I haven't heard of it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? I haven't heard of it .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well then , this could be a nice opportunity to enjoy it together . I bet you'd love it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "this could be a nice opportunity to enjoy it together . I bet you'd love it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well then , this could be a nice opportunity to enjoy it together . I bet you'd love it .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok . I can't wait to see it . Let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "this could be a nice opportunity to enjoy it together . I bet you'd love it .",
+            "I can't wait to see it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ok . I can't wait to see it . Let's go !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

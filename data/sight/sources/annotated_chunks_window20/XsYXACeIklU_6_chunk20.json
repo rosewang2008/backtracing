@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So in particular, the expected value of T1 is going to be 15 by itself."
+    },
+    {
+        "text": "How about the random variable T1 prime."
+    },
+    {
+        "text": "What kind of random variable is it?"
+    },
+    {
+        "text": "This is like the first arrival in a Poisson process that runs backwards in time."
+    },
+    {
+        "text": "What kind of process is a Poisson process running backwards in time?"
+    },
+    {
+        "text": "Let's think of coin flips."
+    },
+    {
+        "text": "Suppose you have a movie of coin flips."
+    },
+    {
+        "text": "And for some accident, that fascinating movie, you happen to watch it backwards."
+    },
+    {
+        "text": "Will it look any different statistically?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "It's going to be just the sequence of random coin flips."
+    },
+    {
+        "text": "So a Bernoulli process that's runs in reverse time is statistically identical to a Bernoulli process in forward time."
+    },
+    {
+        "text": "The Poisson process is a limit of the Bernoulli."
+    },
+    {
+        "text": "So, same story with the Poisson process."
+    },
+    {
+        "text": "If you run it backwards in time it looks the same."
+    },
+    {
+        "text": "So looking backwards in time, this is a Poisson process."
+    },
+    {
+        "text": "And T1 prime is the time until the first arrival in this backward process."
+    },
+    {
+        "text": "So T1 prime is also going to be an exponential random variable with the same parameter, lambda."
+    },
+    {
+        "text": "And the expected value of T1 prime is 15."
+    },
+    {
+        "text": "Conclusion is that the expected length of this interval is going to be 30 minutes."
+    }
+]

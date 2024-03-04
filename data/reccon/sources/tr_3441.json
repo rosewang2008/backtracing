@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello . May I speak to Mary , please ?",
+        "emotion": "neutral",
+        "text": "Hello . May I speak to Mary , please ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Speaking . Who's calling , please ?",
+        "emotion": "neutral",
+        "text": "Speaking . Who's calling , please ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hi , Mary . This is Tom .",
+        "emotion": "neutral",
+        "text": "Hi , Mary . This is Tom .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , hi , Tom . How've you been ?",
+        "emotion": "neutral",
+        "text": "Oh , hi , Tom . How've you been ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Just fine . I say . Aren't you busy tomorrow evening ?",
+        "emotion": "neutral",
+        "text": "Just fine . I say . Aren't you busy tomorrow evening ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Let me see . Uh-huh ... no , I guess I'll be free .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I guess I'll be free ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let me see . Uh-huh ... no , I guess I'll be free .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , uh ... why not dine out together and go to the movies ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I guess I'll be free .",
+            "dine out together and go to the movies ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , uh ... why not dine out together and go to the movies ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sounds like a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "dine out together and go to the movies ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds like a good idea .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Okay . I'll pick you up at 6:00 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "dine out together and go to the movies ?",
+            "Sounds like a good idea ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Okay . I'll pick you up at 6:00 .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you for inviting me . See you then . Bye , Tom .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "dine out together and go to the movies ?",
+            "I'll pick you up at 6:00 .",
+            "Thank you for inviting me . See you then ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you for inviting me . See you then . Bye , Tom .",
+        "id": 10,
+        "source_sentences": [
+            6,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

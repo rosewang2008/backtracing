@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "you're right . That might seem a bit rude . It's a good thing I've got you with me !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I think we should wait until she comes round .",
+            "It's a good thing I've got you with me !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "you're right . That might seem a bit rude . It's a good thing I've got you with me !",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

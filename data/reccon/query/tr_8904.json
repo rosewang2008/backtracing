@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What ? Then what did you do ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I pay no attention to the etiquette you ' Ve told me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Then what did you do ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

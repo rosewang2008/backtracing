@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 33,
+        "timestamp": 1684516837318.0,
+        "annotatedSourceSentencesIndices": [
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "wait, why did delta F when finding the derivative of \u00a0f(1/x) become the inverse of the previous delta f?\u00a0"
+    }
+]

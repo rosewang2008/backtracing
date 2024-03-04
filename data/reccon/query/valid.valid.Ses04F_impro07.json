@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 110,
+        "speaker": "A",
+        "utterance": "me.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            107
+        ],
+        "expanded emotion cause span": [
+            "You're right though."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "me.",
+        "id": 110,
+        "source_sentences": [
+            106
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

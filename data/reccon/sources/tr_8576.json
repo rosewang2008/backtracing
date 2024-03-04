@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did your meal meet with your approval ?",
+        "emotion": "neutral",
+        "text": "Did your meal meet with your approval ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Our meal was absolutely perfect !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "meal was absolutely perfect !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Our meal was absolutely perfect !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about a dessert to top off that wonderful meal ?",
+        "emotion": "neutral",
+        "text": "How about a dessert to top off that wonderful meal ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Dessert sounds perfect , but I would like to split something with my friends .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "meal was absolutely perfect !",
+            "How about a dessert"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Dessert sounds perfect , but I would like to split something with my friends .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "On this evening's dessert list , we have chocolate mousse cake , homemade fresh strawberry shortcake , and a spicy rum apple crisp .",
+        "emotion": "neutral",
+        "text": "On this evening's dessert list , we have chocolate mousse cake , homemade fresh strawberry shortcake , and a spicy rum apple crisp .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think that the apple crisp would be wonderful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "meal was absolutely perfect !",
+            "How about a dessert",
+            "spicy rum apple crisp ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I think that the apple crisp would be wonderful .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "One dessert will serve two , so would you like to split a second one ?",
+        "emotion": "neutral",
+        "text": "One dessert will serve two , so would you like to split a second one ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "We would also like a piece of chocolate mousse cake . Could you bring us four dessert forks , please ?",
+        "emotion": "neutral",
+        "text": "We would also like a piece of chocolate mousse cake . Could you bring us four dessert forks , please ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How about some coffee and tea as well ?",
+        "emotion": "neutral",
+        "text": "How about some coffee and tea as well ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We are all tea drinkers . Please bring us four teas .",
+        "emotion": "neutral",
+        "text": "We are all tea drinkers . Please bring us four teas .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I will prepare your desserts and have someone bring you your drinks right away .",
+        "emotion": "neutral",
+        "text": "I will prepare your desserts and have someone bring you your drinks right away .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "The hot drinks first would be great . Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I will prepare your desserts and have someone bring you your drinks right away ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The hot drinks first would be great . Thanks !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

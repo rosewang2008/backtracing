@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , there isn ' t a bad seat in the place .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "really great place to watch a baseball game .",
+            "Yeah , there isn ' t a bad seat in the place ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , there isn ' t a bad seat in the place .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

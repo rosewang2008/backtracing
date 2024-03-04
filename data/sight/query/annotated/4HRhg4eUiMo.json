@@ -1,0 +1,77 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 0,
+        "timestamp": 1684518259177.0,
+        "annotatedSourceSentencesIndices": [
+            805
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At 1:11:30 why does he use the biased sample variance and not the unbiased one? Conceptually it doesn't matter?"
+    },
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 1,
+        "timestamp": 1684518329514.0,
+        "annotatedSourceSentencesIndices": [
+            444
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "at 43:20 isn\u2019t the case smaller the alpha, the larger the constant c, the more evidence against h1 instead of h0? Cuz like in the coin example, if you push the threshold wider to like 3.5 something, you go from originally rejecting h0 to accepting h0."
+    },
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 2,
+        "timestamp": 1684518443888.0,
+        "annotatedSourceSentencesIndices": [
+            614
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "What about non parameric testing ?"
+    },
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 3,
+        "timestamp": 1684518521013.0,
+        "annotatedSourceSentencesIndices": [
+            148,
+            150
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "the power of the test shouldn't it be 95% ? 1-alpha ?"
+    },
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 4,
+        "timestamp": 1684518589095.0,
+        "annotatedSourceSentencesIndices": [
+            399,
+            400
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "at 38:00 , we take a non-linear transformation of Xn bar as the statistic. How can it still be Gaussian? He said in a previous lecture it is not Gaussian."
+    },
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 5,
+        "timestamp": 1684518647036.0,
+        "annotatedSourceSentencesIndices": [
+            810,
+            835
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "why can we treat the mean of x equal to 0?"
+    }
+]

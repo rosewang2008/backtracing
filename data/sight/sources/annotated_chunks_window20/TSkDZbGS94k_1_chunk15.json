@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so for example, histograms is the prime tool of nonparametric estimation."
+    },
+    {
+        "text": "Because when you fit a histogram to data, you're trying to estimate the density of your data, but you're not trying to represent it as a finite number of points, even though that's really, I mean, effectively, you have to represent it."
+    },
+    {
+        "text": "So you actually truncate somewhere and just say, those things are not going to matter."
+    },
+    {
+        "text": "But really, the key thing is that this is nonparametric where you have an infinite, potentially infinite number of parameters, whereas we're going to only talk about finites."
+    },
+    {
+        "text": "And actually, finite in most overwhelming majority of cases is going to be 1."
+    },
+    {
+        "text": "So theta is going to be a subset of R1."
+    },
+    {
+        "text": "We're going to be interested in estimating one parameter, just like the parameter of a poisson or the parameter of an exponential, the parameter of Bernoulli."
+    },
+    {
+        "text": "But for example, rarely we're going to be interested in estimating mu and sigma square for the normal."
+    },
+    {
+        "text": "So here are some statistical models."
+    },
+    {
+        "text": "So I'm going to go through them with you."
+    },
+    {
+        "text": "So we start, right, so if I tell you, I observe, I'm interested in understanding the, I'm still that shallow, and I'm interested in understanding the proportion of people who kiss by bending their head to the right."
+    },
+    {
+        "text": "And for that, I collected n observations and I'm interested in making some inference in this statistical model."
+    },
+    {
+        "text": "My question to you is, what is the statistical model?"
+    },
+    {
+        "text": "Well, if you want to write the statistical model, you're going to have to write this e. Oh, sorry, I never told you what e was."
+    },
+    {
+        "text": "OK, well, actually, just go to the examples and then you'll know what e is."
+    },
+    {
+        "text": "So you're going to have to write to me an e and a p theta."
+    },
+    {
+        "text": "OK, so let's start with the Bernoulli trials."
+    },
+    {
+        "text": "So this e here is called the sample space."
+    },
+    {
+        "text": "And in normal people's words, it just means the space or the set in which x, and back to your question, x is just a generic observation, lives."
+    },
+    {
+        "text": "OK, and hopefully, this is the smallest you can think of."
+    }
+]

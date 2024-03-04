@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , it is a birch tree . It is not as old as you think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "You are kind ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , it is a birch tree . It is not as old as you think .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

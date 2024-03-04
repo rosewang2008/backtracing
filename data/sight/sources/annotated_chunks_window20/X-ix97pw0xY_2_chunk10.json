@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I have two parameters."
+    },
+    {
+        "text": "So what I do here is that I say, well, first, let me transform mu in such a way that I can hope to see something that's linear."
+    },
+    {
+        "text": "So if I transform mu, I'm going to have log of mu, which is log of this thing."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So log of mu of x is equal to log of gamma plus log of exponential delta x, which is delta x. OK?"
+    },
+    {
+        "text": "And now, this thing is actually linear in x."
+    },
+    {
+        "text": "So I have that this guy is my first beta 1."
+    },
+    {
+        "text": "And so that's beta 1 times 1."
+    },
+    {
+        "text": "And this guy is beta 2 times, sorry, let's say beta 0 times 1."
+    },
+    {
+        "text": "And this guy is beta 1 times x. OK?"
+    },
+    {
+        "text": "So that looks like a linear model."
+    },
+    {
+        "text": "I just have to change my parameters."
+    },
+    {
+        "text": "My parameters, beta 1 becomes the log of gamma, and beta 2 becomes delta itself."
+    },
+    {
+        "text": "And the reason why we do this is because, well, the way we put those gamma and those delta was just so that we have some parametrization."
+    },
+    {
+        "text": "It just so happens that if we want this to be linear, we need to just change the parametrization itself."
+    },
+    {
+        "text": "This is going to have some effects."
+    },
+    {
+        "text": "We know that it's going to have some effect in the Fisher information."
+    },
+    {
+        "text": "It's going to have a bunch of effect to change those things."
+    },
+    {
+        "text": "But that's what needs to be done to have a generalized linear model."
+    }
+]

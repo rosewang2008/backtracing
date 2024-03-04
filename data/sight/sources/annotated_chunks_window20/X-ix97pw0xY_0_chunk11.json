@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, here, the function that I took to turn it into something that's linear is simple."
+    },
+    {
+        "text": "It came directly from some natural thing it would do here, which is taking the log."
+    },
+    {
+        "text": "And so the function g, the link that I take, is called the log link, very creatively."
+    },
+    {
+        "text": "And it's just the function that I apply to mu so that I see something that's linear and that looks like this."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So now, this only tells me how to deal with the link function."
+    },
+    {
+        "text": "But I still have to deal with 0.1."
+    },
+    {
+        "text": "And this, again, is just some modeling."
+    },
+    {
+        "text": "Given some data, some random data, what distribution do you choose to explain the randomness?"
+    },
+    {
+        "text": "And this, I mean, unless there's no choice, it's just a matter of practice."
+    },
+    {
+        "text": "I mean, why would it be Gaussian and not doubly exponential?"
+    },
+    {
+        "text": "There's matters of convenience that come into this."
+    },
+    {
+        "text": "And there's just matter of experience that come into this."
+    },
+    {
+        "text": "I remember when you chat with engineers, they have a very good notion of what the distribution should be."
+    },
+    {
+        "text": "They have Weibull distributions."
+    },
+    {
+        "text": "They do optics and things like this."
+    },
+    {
+        "text": "So there's some distributions that just come up."
+    },
+    {
+        "text": "But sometimes, you just have to work."
+    },
+    {
+        "text": "Now, here, what do we have?"
+    },
+    {
+        "text": "The thing we're trying to measure y, as we said, so mu is the conditional expectation of y given x."
+    }
+]

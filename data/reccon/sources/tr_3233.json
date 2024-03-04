@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "( Before Christmas Party ) Are you ready for the Christmas party tonight",
+        "emotion": "happiness",
+        "explanation": "There might be some additional underlying cause for happiness.",
+        "expanded emotion cause evidence": [
+            1,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "Christmas party tonight",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "( Before Christmas Party ) Are you ready for the Christmas party tonight",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Almost . I have to get dressed . It's a formal party and I have special party make up !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I have special party make up !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Almost . I have to get dressed . It's a formal party and I have special party make up !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Use this lipstick and it will make your lips shine !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "Christmas party tonight",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Use this lipstick and it will make your lips shine !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great ! Uh , remember that there's a gift exchange , too . We all have to bring a gift .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I have special party make up !",
+            "it will make your lips shine"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great ! Uh , remember that there's a gift exchange , too . We all have to bring a gift .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've already got mine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I've already got mine ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've already got mine .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "( At the Party ) It's Christmas Eve ! Time to open presents !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "( At the Party ) It's Christmas Eve ! Time to open presents !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "( At the Party ) It's Christmas Eve ! Time to open presents !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Here ! Open mine first .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "( At the Party ) It's Christmas Eve ! Time to open presents !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Here ! Open mine first .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wow ! It's just what I wanted !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "( At the Party ) It's Christmas Eve ! Time to open presents !",
+            "It's just what I wanted !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Wow ! It's just what I wanted !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Hey ! Why don't I have any presents !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Why don't I have any presents !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey ! Why don't I have any presents !",
+        "id": 9
+    }
+]

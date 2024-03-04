@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Kevin . I hate to do this , but I have to cancel our appointment .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I hate to do this , but I have to cancel our appointment ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello , Kevin . I hate to do this , but I have to cancel our appointment .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , no ! Why ? I was looking forward to seeing you at my new place .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have to cancel our appointment ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , no ! Why ? I was looking forward to seeing you at my new place .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , I really wanted to come , too . But something unexpected in Shanghai have come up . I have to fly out for a few days , but I'll be back soon .",
+        "emotion": "neutral",
+        "text": "Yeah , I really wanted to come , too . But something unexpected in Shanghai have come up . I have to fly out for a few days , but I'll be back soon .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No problem . Call me when you get back .",
+        "emotion": "neutral",
+        "text": "No problem . Call me when you get back .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I should have some free time next week . Say , next Wednesday evening ?",
+        "emotion": "neutral",
+        "text": "I should have some free time next week . Say , next Wednesday evening ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's good for me , but do you think you'll be back by then ? I'd really like to see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I should have some free time next week . Say , next Wednesday evening ?",
+            "I'd really like to see you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's good for me , but do you think you'll be back by then ? I'd really like to see you .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , I'm expecting to come back on Tuesday .",
+        "emotion": "neutral",
+        "text": "Yeah , I'm expecting to come back on Tuesday .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great ! That's settled then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I should have some free time next week . Say , next Wednesday evening ?",
+            "I'd really like to see you .",
+            "Great ! That's settled then ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Great ! That's settled then .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "OK .",
+        "emotion": "neutral",
+        "text": "OK .",
+        "id": 9
+    }
+]

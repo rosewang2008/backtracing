@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !",
+        "emotion": "surprised",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Remember when we were in Beijing ? Well , then we were in China Standard Time , and that ' s eight time zones east of Greenwich !",
+            "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

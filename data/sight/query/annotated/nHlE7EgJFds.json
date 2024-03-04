@@ -1,0 +1,231 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 0,
+        "timestamp": 1684702121808.0,
+        "annotatedSourceSentencesIndices": [
+            206,
+            207,
+            208
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "May I say that the vectors in R span the same space as vectors in A after row operation because you can do a reverse ROW operation and construct the same vectors in A from R? It can't be true for column space because after row operations you most likely can't reverse and reconstruct the original column vectors from R through COLUMN combinations."
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 2,
+        "timestamp": 1684702165910.0,
+        "annotatedSourceSentencesIndices": [
+            20
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "\"But, after class - TO MY SORROW - a student tells me, 'Wait a minute that [third vector] is not independent...'\"\nI love it. \u00a0What other professor brings this kind of passion to linear algebra? \u00a0This is what makes real in the flesh lectures worthwhile. \u00a0"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 3,
+        "timestamp": 1684702398013.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "40:41 why empty again?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 5,
+        "timestamp": 1684702466780.0,
+        "annotatedSourceSentencesIndices": [
+            300
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "35:55 Size of identity matrix should be be nxn so that its conformable, shouldn't it?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 9,
+        "timestamp": 1684702633715.0,
+        "annotatedSourceSentencesIndices": [
+            2
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "00:00 Error from last lecture, row dependent.\n04:28 4 Fundamental subspaces.\n08:30 Where are those spaces?\n11:45 Dimension of those spaces.\n21:20 Basis for those space.\n30:00 N(A^T) \"Left nullspace\"?\n42:10 New \"matrix\" space?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 11,
+        "timestamp": 1684702962651.0,
+        "annotatedSourceSentencesIndices": [
+            14,
+            439,
+            440
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone explain how \"length of the linearly independent list \u2264 length of spanning list\"?\nTY in advance."
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 13,
+        "timestamp": 1684703194452.0,
+        "annotatedSourceSentencesIndices": [
+            351
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In the 3X4 matrix example, shouldn't the dim Null(A transpose) be 4-2= 2 instead of 3-2=1?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 14,
+        "timestamp": 1684703307354.0,
+        "annotatedSourceSentencesIndices": [
+            15,
+            79
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "how do we define vector?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 16,
+        "timestamp": 1684703606756.0,
+        "annotatedSourceSentencesIndices": [
+            144
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "*Question:* what is the relationship between rank(A) and rank(A^T)? Does rank(A) = rank(A^T) in general?\n\nThe professor seems to be hinting at this, but rref(A) only preserves the column space, so it doesn\u2019t seem so trivial to me. Any insight is highly appreciated.\n\nEdit: I found the answer. rank(A) = rank(A^T) by virtue of the fact that linear independence of the columns implies linear independence of the rows, even for non-square matrices. I proved this for myself this evening. The main idea for the proof (at least how I did it) is that if you have two linearly dependent rows, one above the other say, row reduction kills the lower one (reduces number of possibly independent rows). Killing off the row (making the row all zeros) also makes it so that the given row can\u2019t have a pivot. Thus, we\u2019ve reduced the number of potential pivot columns by one. That\u2019s the relationship in a nutshell. The math is only slightly more involved"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 17,
+        "timestamp": 1684703913122.0,
+        "annotatedSourceSentencesIndices": [
+            84,
+            86
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "m is a number of rows, and the column space is in R^m?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 20,
+        "timestamp": 1684703963640.0,
+        "annotatedSourceSentencesIndices": [
+            312,
+            315
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "What's the chapter 2 he's referring at #37:30?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 21,
+        "timestamp": 1684704008241.0,
+        "annotatedSourceSentencesIndices": [
+            397
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "What are 8 rule for vector space.. which he never wrote. Any answer ???"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 22,
+        "timestamp": 1684704082641.0,
+        "annotatedSourceSentencesIndices": [
+            208
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "@ 24:30 why is row operation able to preserve row space and not column space? as Prof Strang mentioned that 111 can longer be found in C(R) so column space is not preserved. However, I don't see any row in A being found in R as well?. To put my question simply, how do I know if certain space is preserved after certain operation?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 24,
+        "timestamp": 1684704215642.0,
+        "annotatedSourceSentencesIndices": [
+            208
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "25:06 So performing row eliminations doesn't change the row space but changes the column space?\n\nSo to get the basis for the column space, would you have to do column elimination for matrix [A]? Or could you take the transpose, do row elimination, and just use that row basis for [A] transpose as the column basis for [A]?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 26,
+        "timestamp": 1684704349825.0,
+        "annotatedSourceSentencesIndices": [
+            81
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I don't understand how vectors of N(A) can be in R^m ! If A is a m*n matrix, we need a R^n vector to have the 0 matrix, no ?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 27,
+        "timestamp": 1684704442760.0,
+        "annotatedSourceSentencesIndices": [
+            91,
+            106,
+            110,
+            431
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "What did he mean by the Dimensions?"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 28,
+        "timestamp": 1684705683645.0,
+        "annotatedSourceSentencesIndices": [
+            81,
+            159
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "suppose I'm in 3D if nullspace is a plane can we not simply write nullspace as an equation of that plane and every x,y,z be the possible values that give b of zeroes similarly if column space is plane and vice versa for row space and null space of A^t?\np.s I do understand we can't write any of four subspace as a line in 3D because there is no equation of a line in 3D it's just the equation of the plane"
+    },
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 32,
+        "timestamp": 1684705846181.0,
+        "annotatedSourceSentencesIndices": [
+            129,
+            130,
+            132
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How to prove the dimension of A and A transpose are the same?or Why they are the same value?can any one explan to me ?thanks"
+    }
+]

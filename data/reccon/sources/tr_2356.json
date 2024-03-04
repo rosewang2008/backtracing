@@ -1,0 +1,229 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Who's that tall guy over there ?",
+        "emotion": "neutral",
+        "text": "Who's that tall guy over there ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , that's George . He looks very drunk .",
+        "emotion": "neutral",
+        "text": "Oh , that's George . He looks very drunk .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's he like normally ?",
+        "emotion": "neutral",
+        "text": "What's he like normally ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , he's really reserved , normally . But , from what I hear , he's got lots of problems .",
+        "emotion": "neutral",
+        "text": "Oh , he's really reserved , normally . But , from what I hear , he's got lots of problems .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? What kind of problems ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "he's got lots of problems ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What kind of problems ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , off the record , of course , but I hear that he's got terrible debts . He has his own company , and it's not going very well .",
+        "emotion": "neutral",
+        "text": "Well , off the record , of course , but I hear that he's got terrible debts . He has his own company , and it's not going very well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? Well , I hate to say this , but I'm not surprised .",
+        "emotion": "neutral",
+        "text": "Really ? Well , I hate to say this , but I'm not surprised .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? What makes you say that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm not surprised ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What makes you say that ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , he doesn't look very honest .",
+        "emotion": "neutral",
+        "text": "Well , he doesn't look very honest .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know , that's the problem . He can't find any customers . It's a pity , really , because his products are very good . Oh , that reminds me . Did I tell you about my new laptop ?",
+        "emotion": "neutral",
+        "text": "I know , that's the problem . He can't find any customers . It's a pity , really , because his products are very good . Oh , that reminds me . Did I tell you about my new laptop ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , don't talk to me about laptops . Mine crashed on Friday and I lost everything . I hate them .",
+        "emotion": "neutral",
+        "text": "Oh , don't talk to me about laptops . Mine crashed on Friday and I lost everything . I hate them .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , really ?",
+        "emotion": "neutral",
+        "text": "Oh , really ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Look , I need another drink . Do you want one ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I need another drink . Do you want one ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look , I need another drink . Do you want one ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , I'll have another cocktail .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I need another drink . Do you want one ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , I'll have another cocktail .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Vodka martini ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Yes , I'll have another cocktail ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Vodka martini ?",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Absolutely .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Yes , I'll have another cocktail .",
+            "Vodka martini ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Absolutely .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I'll be back in a sec .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Vodka martini ?",
+            "Absolutely ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'll be back in a sec .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "OK . I'll wait here for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Vodka martini ?",
+            "Absolutely ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK . I'll wait here for you .",
+        "id": 18
+    }
+]

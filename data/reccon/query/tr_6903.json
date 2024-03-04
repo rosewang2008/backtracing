@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Great ! Let ' s do it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Very affordable sir . You can take it out of this lot today with 0 % down payment and no interest for the first year ! You can test drive it now and we can sign the papers when we get back ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Let ' s do it !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

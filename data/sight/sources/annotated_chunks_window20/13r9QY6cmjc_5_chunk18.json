@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You see that that gives me the right-hand side."
+    },
+    {
+        "text": "So there's the matrix A, and this is our friend U k. So we've got, so that simple trick changed the second order scalar problem to a first order system, two, with two unknowns."
+    },
+    {
+        "text": "With a matrix and now what do I do?"
+    },
+    {
+        "text": "Well, before I even think, I find its eigenvalues and eigenvectors."
+    },
+    {
+        "text": "So what are the eigenvalues and eigenvectors of that matrix?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "I was, first let me just, like, think for a minute."
+    },
+    {
+        "text": "It's two by two, so this shouldn't be impossible to do."
+    },
+    {
+        "text": "Let's do it."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So my matrix again is one one one zero."
+    },
+    {
+        "text": "It's symmetric, by the way."
+    },
+    {
+        "text": "So what I will eventually know about symmetric matrices is that the eigenvalues will come out real, I won't get any complex numbers here, and the eigenvectors, once I get those, actually will be orthogonal."
+    },
+    {
+        "text": "But two by two, I'm more interested in what the actual numbers are."
+    },
+    {
+        "text": "What do I know about the two numbers?"
+    },
+    {
+        "text": "Well, should, do you want me to find this determinant of A minus lambda I?"
+    },
+    {
+        "text": "Sure."
+    },
+    {
+        "text": "So it's the determinant of one minus lambda one one zero, right?"
+    },
+    {
+        "text": "Minus lambda, yes, got it."
+    },
+    {
+        "text": "OK. OK."
+    }
+]

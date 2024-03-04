@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 30,
+        "timestamp": 1684721031176.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "On 21 minute I don't understand where these matrices come from and why we need them. Anyone care to elaborate?"
+    }
+]

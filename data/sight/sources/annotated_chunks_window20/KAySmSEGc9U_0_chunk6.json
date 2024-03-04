@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So as I mentioned, we can easily modify GNFA to have the special form that we're assuming here."
+    },
+    {
+        "text": "All right, so now we're going to jump in and start doing the conversion."
+    },
+    {
+        "text": "So we're going to have a lemma, which is like a theorem that really is just a local interest here."
+    },
+    {
+        "text": "It's not a general interest theorem."
+    },
+    {
+        "text": "It's going to be relevant just to GNFA, which are really just defined to help us do this conversion."
+    },
+    {
+        "text": "They really don't have any other independent value."
+    },
+    {
+        "text": "So I want to show that every GNFA has an equivalent regular expression R. That's really my goal."
+    },
+    {
+        "text": "And the way we're going to prove that is by induction."
+    },
+    {
+        "text": "It's going to be by induction on the number of states of the GNFA."
+    },
+    {
+        "text": "Now, you really should be familiar with induction as one of the expectations for being in this course."
+    },
+    {
+        "text": "But in case you're a little shaky on it, don't worry."
+    },
+    {
+        "text": "I'm going to unpack it as a procedure."
+    },
+    {
+        "text": "It's really just recursion."
+    },
+    {
+        "text": "And a proof that uses induction is really just a proof that calls itself."
+    },
+    {
+        "text": "It's just a proof that it's a recursive proof."
+    },
+    {
+        "text": "That's all it is."
+    },
+    {
+        "text": "So if you're comfortable with recursion, you'll be comfortable with induction."
+    },
+    {
+        "text": "But anyway, I'm going to describe this as a procedure."
+    },
+    {
+        "text": "So if you're a little shaky on induction, don't worry."
+    },
+    {
+        "text": "So the basis is, so first, I'm going to handle the case where the GNFA has just two states."
+    }
+]

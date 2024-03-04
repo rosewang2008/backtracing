@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Oh, no."
+    },
+    {
+        "text": "n factors out."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "n factors out times n plus p. And this way was all these things."
+    },
+    {
+        "text": "Both the m and the p factor out."
+    },
+    {
+        "text": "Both the m and the p factor out."
+    },
+    {
+        "text": "Thanks."
+    },
+    {
+        "text": "Times n plus q. n plus q was 1."
+    },
+    {
+        "text": "The whole point is we've got this horrible multiplication of three big numbers."
+    },
+    {
+        "text": "And this only had two big numbers."
+    },
+    {
+        "text": "So this is orders of magnitude faster than that."
+    },
+    {
+        "text": "And of course, you would have done the calculation that way."
+    },
+    {
+        "text": "You would have multiplied the column vector by a matrix to get another column vector."
+    },
+    {
+        "text": "And you would have multiplied that by a matrix to get another column vector."
+    },
+    {
+        "text": "Where here, you crazily multiplied two big matrices together and then got a column vector."
+    },
+    {
+        "text": "So there's the bad move."
+    },
+    {
+        "text": "OK, thanks."
+    },
+    {
+        "text": "So we're past the time on this ABC."
+    },
+    {
+        "text": "It's just to show that on a very familiar calculation, you have to do it in the right order."
+    },
+    {
+        "text": "And back propagation is the right order for partial derivatives."
+    }
+]

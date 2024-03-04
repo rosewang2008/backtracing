@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 38,
+        "timestamp": 1684516879122.0,
+        "annotatedSourceSentencesIndices": [
+            16
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At around 33:35 he defines the x-int as (2x0,0), following the same logic and using the original point slope form, I got y-int as (0,2/x0). I don't think I am wrong, but can any confirm?"
+    }
+]

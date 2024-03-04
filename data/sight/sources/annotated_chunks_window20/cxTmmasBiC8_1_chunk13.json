@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. Now, to finish, I have to tell you what clusters, how do you decide the clusters from L?"
+    },
+    {
+        "text": "How does L propose two clusters, the A's and the B's?"
+    },
+    {
+        "text": "And here's the answer."
+    },
+    {
+        "text": "They come from this eigenvector, the Fiedler eigenvector."
+    },
+    {
+        "text": "You look at that eigenvector."
+    },
+    {
+        "text": "It's got some positive and some negative components."
+    },
+    {
+        "text": "The components with positive numbers of this eigenvector, so the positive components of x, of this eigenvector."
+    },
+    {
+        "text": "And there are negative components of this eigenvector."
+    },
+    {
+        "text": "And those are the two clusters."
+    },
+    {
+        "text": "So the two clusters are decided by the eigenvector, by the signs, plus or minus signs, of the components."
+    },
+    {
+        "text": "The plus signs go in one, and the minus signs go in another."
+    },
+    {
+        "text": "And you have to experiment to see that that would succeed."
+    },
+    {
+        "text": "I don't know what it would do on this, actually, because that's hardly splits up into two."
+    },
+    {
+        "text": "I suppose maybe the split is along a line like that or something to get."
+    },
+    {
+        "text": "I don't know what clustering."
+    },
+    {
+        "text": "This is not a graph that is naturally clustered."
+    },
+    {
+        "text": "But you could still do k-means on it."
+    },
+    {
+        "text": "You could still do spectral clustering."
+    },
+    {
+        "text": "And you would find this eigenvector."
+    },
+    {
+        "text": "Now, what's the point about this eigenvector?"
+    }
+]

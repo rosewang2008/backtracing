@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Ted . What are you up to this Friday ?",
+        "emotion": "neutral",
+        "text": "Hey , Ted . What are you up to this Friday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , I have the day off from work .",
+        "emotion": "neutral",
+        "text": "Well , I have the day off from work .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s great ! Do you have any plans ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I have the day off from work ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s great ! Do you have any plans ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I ' Ve been working so hard lately , so I ' ll probably just take it easy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "That ' s great !",
+            "I ' Ve been working so hard lately , so I ' ll probably just take it easy ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I ' Ve been working so hard lately , so I ' ll probably just take it easy .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sounds nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' ll probably just take it easy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds nice .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , I ' ll probably just stay in and relax . Maybe watch a few movies .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "That ' s great !",
+            "I ' Ve been working so hard lately , so I ' ll probably just take it easy .",
+            "I ' ll probably just stay in and relax . Maybe watch a few movies ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yeah , I ' ll probably just stay in and relax . Maybe watch a few movies .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Can I stop by ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Maybe watch a few movies ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Can I stop by ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure . Any time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "That ' s great !",
+            "I ' Ve been working so hard lately , so I ' ll probably just take it easy .",
+            "I ' ll probably just stay in and relax . Maybe watch a few movies .",
+            "Can I stop by ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure . Any time .",
+        "id": 8
+    }
+]

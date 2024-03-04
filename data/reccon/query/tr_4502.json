@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure , we call it doubt .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You ' re great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , we call it doubt .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

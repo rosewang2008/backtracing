@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "All-right guy ? All right . Let's talk about something else instead .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I told you that he's an all-right guy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All-right guy ? All right . Let's talk about something else instead .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

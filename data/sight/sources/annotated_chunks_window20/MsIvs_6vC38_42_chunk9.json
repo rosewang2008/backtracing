@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We know how to invert, we should take the separate inverses, but they go in the opposite order."
+    },
+    {
+        "text": "So what goes here?"
+    },
+    {
+        "text": "E three two inverse, right, because I multiply from the left by E three two inverse, that'll pop it up next to U."
+    },
+    {
+        "text": "And then will come E three one inverse."
+    },
+    {
+        "text": "And then this'll be the only guy left standing, and that's gone when I do an E two one inverse."
+    },
+    {
+        "text": "So there is L. That's L U. L is this product of inverses."
+    },
+    {
+        "text": "Now you still can ask why is this guy preferring inverses?"
+    },
+    {
+        "text": "And let me explain why."
+    },
+    {
+        "text": "Let me explain why is this product nicer than this one?"
+    },
+    {
+        "text": "This product turns out to be better than this one."
+    },
+    {
+        "text": "Let me take a typical case here."
+    },
+    {
+        "text": "Let me take a typical case."
+    },
+    {
+        "text": "So let me, I have to do three by three for you to see the improvement."
+    },
+    {
+        "text": "Two by two, there was just one E, no problem."
+    },
+    {
+        "text": "But let me go up to this case."
+    },
+    {
+        "text": "Suppose my matrices E two one, suppose E two one has a minus two in there."
+    },
+    {
+        "text": "Suppose that, and now suppose, oh, I'll even suppose E three one is the identity."
+    },
+    {
+        "text": "So I'll just, I'm just going to, I'm going to make the point with just a couple of these."
+    },
+    {
+        "text": "OK, now this guy will have do something, now let's suppose minus five."
+    },
+    {
+        "text": "What?"
+    }
+]

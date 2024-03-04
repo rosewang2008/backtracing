@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "When the lower branches are removed , you ' ll be able to sit under the tree .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Thank you ! That would be very kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "When the lower branches are removed , you ' ll be able to sit under the tree .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

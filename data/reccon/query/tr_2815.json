@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ha-ha ! You got me there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm not a great dancer , and you said you failed calculus ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ha-ha ! You got me there !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

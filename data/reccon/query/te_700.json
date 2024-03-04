@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You can't be serious . How dare you not tell me you were going to marry her ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I didn't think you'd be interested .",
+            "How dare you not tell me you were going to marry her ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You can't be serious . How dare you not tell me you were going to marry her ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

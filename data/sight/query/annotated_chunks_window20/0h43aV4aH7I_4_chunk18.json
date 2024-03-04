@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 4,
+        "timestamp": 1684701306384.0,
+        "annotatedSourceSentencesIndices": [
+            5,
+            6
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Got extremely confused when he brought transformations in at the end. Why did the original basis vector \"x\" change to \"v\", then why does he compute a T(x) from \"knowing\" T(v1), ... T(v8) BEFORE writing what the actual values of T(v1) .. T(v8) are, and what is this T(x) even used for? and then where does the \"a\" come from?"
+    }
+]

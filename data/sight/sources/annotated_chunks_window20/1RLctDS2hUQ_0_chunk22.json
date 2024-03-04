@@ -1,0 +1,62 @@
+[
+    {
+        "text": "8 plus 2 is 10."
+    },
+    {
+        "text": "So this is the integral from 3 to 10 of u5 1 3rd du."
+    },
+    {
+        "text": "And now I can finish the problem."
+    },
+    {
+        "text": "This is 1 18th u6, from 3 to 10."
+    },
+    {
+        "text": "And this is where the most common mistake occurs in substitutions of this type."
+    },
+    {
+        "text": "Which is that if you ignore this, and you plug in these 1 and 2 here, you think, oh, I should just be putting it at 1 and 2."
+    },
+    {
+        "text": "But actually, it should be the u value that we're interested in, and the lower limit is u equals 3, and u equals 10 is the upper limit."
+    },
+    {
+        "text": "So those are suppressed here."
+    },
+    {
+        "text": "But those are the ones that we want."
+    },
+    {
+        "text": "And so here we go."
+    },
+    {
+        "text": "It's 1 18th times some ridiculous number, which I won't calculate, 10 to the 6th minus 3 to the 6th."
+    },
+    {
+        "text": "Yes, question."
+    },
+    {
+        "text": "STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 So if you want to do things where you're worrying about the sign change, the right strategy is what you suggested works, and in fact I'm going to do an example right now on this subject."
+    },
+    {
+        "text": "But the right strategy is to break it up into pieces where u' has one sign or the other."
+    },
+    {
+        "text": "Let me show you an example."
+    },
+    {
+        "text": "But where things go wrong."
+    },
+    {
+        "text": "And I'll tell you how to handle it, roughly."
+    },
+    {
+        "text": "So here's our warning."
+    },
+    {
+        "text": "Suppose you're integrating from minus 1 to 1 x squared dx."
+    },
+    {
+        "text": "Here's an example."
+    }
+]

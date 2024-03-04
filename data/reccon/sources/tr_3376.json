@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can we have dinner together sometime this weekend ?",
+        "emotion": "happiness",
+        "explanation": "they want to have dinner together",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Can we have dinner together sometime this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ok , you name the day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok , you name the day .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about the second of March ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How about the second of March ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What day is that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What day is that ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's Friday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "It's Friday .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good . Where shall we meet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . Where shall we meet ?",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like flowers ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "flowers"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you like flowers ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Of course , I like .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "flowers",
+            "Of course , I like ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Of course , I like .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's your favorite flower ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "flowers",
+            "Of course , I like ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What's your favorite flower ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Forsythia . It's also called winter jasmine which is the symbol of the spring's arrival .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "favorite flower ?",
+            "Forsythia .",
+            "symbol of the spring's arrival ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Forsythia . It's also called winter jasmine which is the symbol of the spring's arrival .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Spring is a lively season .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "symbol of the spring's arrival .",
+            "Spring is a lively season ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Spring is a lively season .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . How about you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "symbol of the spring's arrival .",
+            "Spring is a lively season ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes . How about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I admire plum blossoms very much . It seems that only it can blossom in the cold winter .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "How about you ?",
+            "I admire plum blossoms very much .",
+            "only it can blossom in the cold winter ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I admire plum blossoms very much . It seems that only it can blossom in the cold winter .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You have a perfect taste !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I admire plum blossoms very much .",
+            "only it can blossom in the cold winter .",
+            "perfect taste !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You have a perfect taste !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It is the symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You have a perfect taste !",
+            "symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is the symbol of laughing at hoar frost and fighting with snow . I admire the bravery of plum blossoms .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "But it used to be ignored by many people .",
+        "emotion": "neutral",
+        "text": "But it used to be ignored by many people .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "The bright people will remember it forever .",
+        "emotion": "neutral",
+        "text": "The bright people will remember it forever .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , it's snowing . Let's enjoy the plum blossoms when snowing .",
+        "emotion": "neutral",
+        "text": "Well , it's snowing . Let's enjoy the plum blossoms when snowing .",
+        "id": 12
+    }
+]

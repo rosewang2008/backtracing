@@ -1,0 +1,203 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you think of this one ?",
+        "emotion": "neutral",
+        "text": "What do you think of this one ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Eh , so so .",
+        "emotion": "neutral",
+        "text": "Eh , so so .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "And this one ? Too flashy ?",
+        "emotion": "neutral",
+        "text": "And this one ? Too flashy ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Nah , not too flashy .",
+        "emotion": "neutral",
+        "text": "Nah , not too flashy .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hug ! And this sweater from my aunt ? Isn ' t it hideous ?",
+        "emotion": "neutral",
+        "text": "Hug ! And this sweater from my aunt ? Isn ' t it hideous ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I guess .",
+        "emotion": "neutral",
+        "text": "I guess .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Are you even listening ? I ' m trying to have a conversation with you .",
+        "emotion": "neutral",
+        "text": "Are you even listening ? I ' m trying to have a conversation with you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "And I ' m trying to watch the game , but you ' re yapping on about your new clothes !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Are you even listening ?",
+            "I ' m trying to watch the game ,",
+            "you ' re yapping on about your new clothes !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And I ' m trying to watch the game , but you ' re yapping on about your new clothes !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well I have to decide which gifts to keep and which to exchange for better ones when I go to the Boxing Day sales this afternoon !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you ' re yapping on about your new clothes !",
+            "I have to decide"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well I have to decide which gifts to keep and which to exchange for better ones when I go to the Boxing Day sales this afternoon !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well could you do me the favor of making this quick ? It ' s the third quarter and you ' Ve been blabbering on since the first !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Are you even listening ?",
+            "I ' m trying to watch the game ,",
+            "you ' re yapping on about your new clothes !",
+            "It ' s the third quarter and you ' Ve been blabbering on since the first !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well could you do me the favor of making this quick ? It ' s the third quarter and you ' Ve been blabbering on since the first !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , your precious game . You watch the same game every year , and each year your beloved hometown team loses by at least three goals !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "you ' re yapping on about your new clothes !",
+            "I have to decide",
+            "You watch the same game every year , and each year your beloved hometown team loses"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , your precious game . You watch the same game every year , and each year your beloved hometown team loses by at least three goals !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh no you didn ' t . You didn ' t just insult the Sals-bury Seals , did you ? Why don ' t you just . just go and return all of those stupid clothes and not come back until the sales are over ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Are you even listening ?",
+            "I ' m trying to watch the game ,",
+            "you ' re yapping on about your new clothes !",
+            "It ' s the third quarter and you ' Ve been blabbering on since the first !",
+            "You didn ' t just insult the Sals-bury Seals , did you ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh no you didn ' t . You didn ' t just insult the Sals-bury Seals , did you ? Why don ' t you just . just go and return all of those stupid clothes and not come back until the sales are over ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I might just ! Enjoy your stupid game !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            11,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "you ' re yapping on about your new clothes !",
+            "I have to decide",
+            "You watch the same game every year , and each year your beloved hometown team loses",
+            "go and return all of those stupid clothes and not come back until the sales are over ?",
+            "your stupid game !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I might just ! Enjoy your stupid game !",
+        "id": 13
+    }
+]

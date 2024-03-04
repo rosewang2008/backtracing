@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , dear , I've got your voice at last .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "dear , I've got your voice at last ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi , dear , I've got your voice at last .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , darling , I am thinking it is the time of your calling .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "dear , I've got your voice at last .",
+            "darling , I am thinking it is the time of your calling ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hi , darling , I am thinking it is the time of your calling .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you OK today ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "darling , I am thinking it is the time of your calling ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you OK today ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Quite good except thinking of you so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Are you OK today ?",
+            "thinking of you so much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Quite good except thinking of you so much .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So do I . You are a beautiful flower in my mind .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Quite good except thinking of you so much .",
+            "You are a beautiful flower in my mind ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So do I . You are a beautiful flower in my mind .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's called love is blind , I think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "So do I . You are a beautiful flower in my mind ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's called love is blind , I think .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

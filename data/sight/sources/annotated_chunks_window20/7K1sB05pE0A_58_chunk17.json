@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I need to get this one up here."
+    },
+    {
+        "text": "Now, I'm going to use a very big shortcut to do that."
+    },
+    {
+        "text": "So the shortcut to the y-intercept is to use symmetry."
+    },
+    {
+        "text": "I claim I can stare at this, and I can look at that, and I know the formula for the y-intercept."
+    },
+    {
+        "text": "It's equal to 2y0."
+    },
+    {
+        "text": "That's what that one is."
+    },
+    {
+        "text": "So this one is 2y0."
+    },
+    {
+        "text": "And the reason I know this is the following."
+    },
+    {
+        "text": "So here's the symmetry of the situation, which is not completely direct."
+    },
+    {
+        "text": "It's a kind of mirror symmetry around the diagonal."
+    },
+    {
+        "text": "It involves the exchange of x, y with y, x."
+    },
+    {
+        "text": "So it's trading the roles of x and y."
+    },
+    {
+        "text": "So the symmetry that I'm using is that any formula I get that involves x's and y's, if I trade all the x's and replace them by y's, and trade all the y's and replace them by x's, then I'll have a correct formula on the other way."
+    },
+    {
+        "text": "So everywhere I see a y, I make it an x."
+    },
+    {
+        "text": "And everywhere I see an x, I make it a y."
+    },
+    {
+        "text": "The switch will take place."
+    },
+    {
+        "text": "So why is that?"
+    },
+    {
+        "text": "That's because the, that's just an accident of this equation."
+    },
+    {
+        "text": "That's because, so the symmetry explained is that the equation is y equals 1 over x."
+    },
+    {
+        "text": "But that's the same thing as xy equals 1, if I multiply through by x."
+    }
+]

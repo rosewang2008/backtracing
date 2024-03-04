@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "great . I ' m looking forward to it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "maybe you can come to the bar one day and I ' ll show you around ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "great . I ' m looking forward to it .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

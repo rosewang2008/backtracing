@@ -1,0 +1,7 @@
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/chatgpt.csv
+Output fname: results/reccon/test/chatgpt.csv
+Accuracy: 0.47
+Distance: 0.9642324888226528
+Number of max context errors: 0

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll be expecting you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I should be there some time next spring ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll be expecting you then .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

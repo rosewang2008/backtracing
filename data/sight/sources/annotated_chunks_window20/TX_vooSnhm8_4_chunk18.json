@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It was the key ones are the ones in the column space and the row space."
+    },
+    {
+        "text": "Do you see how I'm getting columns here, diagonal here, rows here, coming together to produce A?"
+    },
+    {
+        "text": "OK. That's the singular value decomposition."
+    },
+    {
+        "text": "So, let, let me think what I want to add to, to complete this topic."
+    },
+    {
+        "text": "Sort of what we're really doing."
+    },
+    {
+        "text": "So that's two examples."
+    },
+    {
+        "text": "And now let's think what we're really doing."
+    },
+    {
+        "text": "We're, we're choosing the right basis for the four subspaces of linear algebra."
+    },
+    {
+        "text": "Let me, let me, let me write this down."
+    },
+    {
+        "text": "So V1 up to Vr is an orthonormal basis for the row space."
+    },
+    {
+        "text": "U1 up to Ur is an orthonormal basis for the column space."
+    },
+    {
+        "text": "And then I just finish those out by Vr plus one, the rest up to Vn is an orthonormal basis for the null space."
+    },
+    {
+        "text": "And finally, Ur plus one up to Um is an orthonormal basis for the null space of A transpose."
+    },
+    {
+        "text": "Do you see that we finally got the bases right?"
+    },
+    {
+        "text": "They're right because they're orthonormal and also, I mean, the, again, Graham-Schmidt would have done this in chapter four."
+    },
+    {
+        "text": "Here we needed eigenvalues because these bases make the matrix diagonal."
+    },
+    {
+        "text": "A times Vi is a multiple of Ui."
+    },
+    {
+        "text": "So I'll put and."
+    },
+    {
+        "text": "The matrix has been made diagonal."
+    },
+    {
+        "text": "When we choose these bases, there's no coupling between Vs and no coupling between Us."
+    }
+]

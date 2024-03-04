@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Charles . What's the matter ?",
+        "emotion": "neutral",
+        "text": "Hi , Charles . What's the matter ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh ! ! My car isn't working . I'm waiting for a tow-truck .",
+        "emotion": "neutral",
+        "text": "Oh ! ! My car isn't working . I'm waiting for a tow-truck .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you have a ride home ?",
+        "emotion": "neutral",
+        "text": "Do you have a ride home ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , my wife is coming to get me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "my wife is coming to get me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , my wife is coming to get me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's good . Do you live near here ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "my wife is coming to get me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's good . Do you live near here ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , we live in the suburbs . What about you ?",
+        "emotion": "neutral",
+        "text": "No , we live in the suburbs . What about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I live downtown , with my parents .",
+        "emotion": "neutral",
+        "text": "I live downtown , with my parents .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you have a car ?",
+        "emotion": "neutral",
+        "text": "Do you have a car ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't need a car . I walk to work .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I don't need a car . I walk to work ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't need a car . I walk to work .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're lucky !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I don't need a car . I walk to work .",
+            "You're lucky !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're lucky !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "For the NFAs, we're only allowing just single symbols or the empty string to appear on the labels."
+    },
+    {
+        "text": "Now I'm actually allowing you to put full regular expressions on the labels for the automaton."
+    },
+    {
+        "text": "Now, we have to understand how a GNFA processes its input."
+    },
+    {
+        "text": "And the way it works is not complicated to understand."
+    },
+    {
+        "text": "When you're getting an input string, feeling when a GNFA is processing an input string, it starts at the start state, just like you would imagine."
+    },
+    {
+        "text": "But now, to go along a transition, instead of reading just a single symbol or the empty string, as in the case for the nondeterministic machine, it actually gets to read a whole string at one step, kind of at one byte."
+    },
+    {
+        "text": "It can read an entire string and go along that transition arrow, provided that chunk of the input that it read is in the regular expression that that transition has as its label."
+    },
+    {
+        "text": "So for example, you can go from Q1 to Q2 in one step in this GNFA by reading AABB off the input."
+    },
+    {
+        "text": "So it reads all of those four symbols all at once, just swoops them up, and then moves from Q1 to Q2 in one step."
+    },
+    {
+        "text": "And then when it's in Q2, it can read AAB and move to Q3."
+    },
+    {
+        "text": "And Q3 happens, there's nowhere to go."
+    },
+    {
+        "text": "So this is going to be a nondeterministic machine."
+    },
+    {
+        "text": "There might be several different ways of processing the input."
+    },
+    {
+        "text": "And if any one of them gets to an accepting state at the end of the input, we say the GNFA accepts."
+    },
+    {
+        "text": "So it's similar to nondeterministic to NFAs in the way the acceptance criterion works."
+    },
+    {
+        "text": "So you could do an example, but hopefully, the concept of how this works is reasonably, you can at least buy it, that it processes the input in chunks at a time."
+    },
+    {
+        "text": "And those chunks have to be described by the regular expressions on the transition arrows as it moves along those transitions."
+    },
+    {
+        "text": "So what we're going to do now is to convert not DFAs to regular expressions."
+    },
+    {
+        "text": "We're going to convert GNFAs to regular expression."
+    },
+    {
+        "text": "That's even harder because GNFAs allow you to do all sorts of other things besides just ordinary DFAs."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 51,
+        "speaker": "A",
+        "utterance": "Okay, fine. So we're in the wrong spot, but we're with the right person.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            50,
+            51
+        ],
+        "expanded emotion cause span": [
+            "Actually, now that you mention it, no. I don't.",
+            "we're with the right person."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Okay, fine. So we're in the wrong spot, but we're with the right person.",
+        "id": 51,
+        "source_sentences": [
+            49
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

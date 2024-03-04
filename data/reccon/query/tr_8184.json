@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "I'm sorry , sir .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry , sir .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "so , how should we go to the theatre ?",
+        "emotion": "neutral",
+        "text": "so , how should we go to the theatre ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "let's take the bus .",
+        "emotion": "neutral",
+        "text": "let's take the bus .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I hate the bus system in London ! The bus drivers are rude , the buses are never on time , and there are few people around who can help you .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "The bus drivers are rude , the buses are never on time , and there are few people around who can help you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I hate the bus system in London ! The bus drivers are rude , the buses are never on time , and there are few people around who can help you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "it's not that bad . You probably just had a bad experience once .",
+        "emotion": "neutral",
+        "text": "it's not that bad . You probably just had a bad experience once .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "it wasn't just once . Every single time I take the bus , something bad happens to me or to someone else on the bus .",
+        "emotion": "neutral",
+        "text": "it wasn't just once . Every single time I take the bus , something bad happens to me or to someone else on the bus .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "we could take the subway , but we'd have to go three stops along one line and then change trains twice .",
+        "emotion": "neutral",
+        "text": "we could take the subway , but we'd have to go three stops along one line and then change trains twice .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "train fares are twice as expensive as the bus fare , too .",
+        "emotion": "neutral",
+        "text": "train fares are twice as expensive as the bus fare , too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "if we don't hurry up , we'll miss the show . Should we take the bus ?",
+        "emotion": "neutral",
+        "text": "if we don't hurry up , we'll miss the show . Should we take the bus ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "we're already late , so I think we had better take a taxi .",
+        "emotion": "neutral",
+        "text": "we're already late , so I think we had better take a taxi .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't think we'll be able to find a taxi very easily during hush hours . Let's just take the bus .",
+        "emotion": "neutral",
+        "text": "I don't think we'll be able to find a taxi very easily during hush hours . Let's just take the bus .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "fine . Have a look at the timetable to find out when the next one arrives .",
+        "emotion": "neutral",
+        "text": "fine . Have a look at the timetable to find out when the next one arrives .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "it looks like it should be here in just a few minutes .",
+        "emotion": "neutral",
+        "text": "it looks like it should be here in just a few minutes .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "don't worry . Nothing bad will happen . I'll even buy your ticket for you .",
+        "emotion": "happiness",
+        "explanation": "Assuring, Eager to help",
+        "expanded emotion cause evidence": [
+            "b",
+            13
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nothing bad will happen . I'll even buy your ticket for you ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "don't worry . Nothing bad will happen . I'll even buy your ticket for you .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "thanks , that was nice of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "don't worry . Nothing bad will happen . I'll even buy your ticket for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thanks , that was nice of you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "see , now something good has happened to you on a bus trip !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nothing bad will happen . I'll even buy your ticket for you .",
+            "thanks , that was nice of you ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "see , now something good has happened to you on a bus trip !",
+        "id": 15
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "A lot of people were searching for it."
+    },
+    {
+        "text": "And Ingrid Dovashy, so I'll just put her name, became famous for finding them."
+    },
+    {
+        "text": "So in about 1988, she found a whole lot of families of wavelets."
+    },
+    {
+        "text": "And when I say wavelets, she found a whole lot of orthogonal matrices that had good properties."
+    },
+    {
+        "text": "So that's the wavelet picture."
+    },
+    {
+        "text": "Now, to close today and to connect with the next lecture on eigenvalues, eigenvectors, positive definite matrices, we're really getting to the heart of things here."
+    },
+    {
+        "text": "Let me follow through on that idea."
+    },
+    {
+        "text": "Idea, so the eigenvectors of a symmetric matrix, but also of an orthogonal matrix are orthogonal."
+    },
+    {
+        "text": "And that is really where people, where you can invent, because you don't have to work hard."
+    },
+    {
+        "text": "You just find a symmetric matrix."
+    },
+    {
+        "text": "Its eigenvectors are automatically orthogonal."
+    },
+    {
+        "text": "That doesn't mean they're great for use, but some of them are really important."
+    },
+    {
+        "text": "And maybe the most important of all is the Fourier."
+    },
+    {
+        "text": "So you probably have seen Fourier series, sines and cosines."
+    },
+    {
+        "text": "Those guys are orthogonal functions."
+    },
+    {
+        "text": "But the discrete Fourier series is what everybody computes, and those are orthogonal vectors."
+    },
+    {
+        "text": "So the orthogonal vectors that go into the discrete Fourier transform, and then they're done at high speed by the fast Fourier transform, those are eigenvectors of Q, eigenvectors of the right Q."
+    },
+    {
+        "text": "So let me just tell you the right Q, whose eigenvectors."
+    },
+    {
+        "text": "So here we go."
+    },
+    {
+        "text": "Eigenvectors of Q."
+    }
+]

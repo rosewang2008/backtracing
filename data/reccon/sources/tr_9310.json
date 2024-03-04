@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Thank you for coming tonight , Mrs . Webber . As a teacher , it's great seeing the kid's parents assist our parent-teacher conference night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "it's great seeing the kid's parents assist our parent-teacher conference night ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for coming tonight , Mrs . Webber . As a teacher , it's great seeing the kid's parents assist our parent-teacher conference night .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Of course ! I am very interested to know how my child is doing and also get some insight from you as to how he can improve .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I am very interested to know how my child is doing and also get some insight from you as to how he can improve ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Of course ! I am very interested to know how my child is doing and also get some insight from you as to how he can improve .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well Allen is a great student . He is a hard worker and very well behaved , however he does struggle a bit with math .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Allen is a great student . He is a hard worker and very well behaved ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well Allen is a great student . He is a hard worker and very well behaved , however he does struggle a bit with math .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I guess he gets that from me , I never did well in math when I was a kid . What can I do at home to compliment what he is learning in the classroom .",
+        "emotion": "neutral",
+        "text": "I guess he gets that from me , I never did well in math when I was a kid . What can I do at home to compliment what he is learning in the classroom .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , it's important that you sit with him and review his homework assignments and help him with math . I would also recommend he stay after school twice a week for tutoring sessions . It will really help a lot .",
+        "emotion": "neutral",
+        "text": "Well , it's important that you sit with him and review his homework assignments and help him with math . I would also recommend he stay after school twice a week for tutoring sessions . It will really help a lot .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks a lot ! I will definitely do that . Is there anything else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's important that you sit with him and review his homework assignments and help him with math . I would also recommend he stay after school twice a week for tutoring sessions . It will really help a lot ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot ! I will definitely do that . Is there anything else ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Um ... yes . Here is a notice from our financial department , seems your child's Tumion is overdue .",
+        "emotion": "neutral",
+        "text": "Um ... yes . Here is a notice from our financial department , seems your child's Tumion is overdue .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh yes , I ...",
+        "emotion": "neutral",
+        "text": "Oh yes , I ...",
+        "id": 8
+    }
+]

@@ -1,0 +1,8 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/minilm.csv
+Output fname: results/sight/annotated/minilm.csv
+Accuracy top 1: 0.26
+Min distance top 1: 84.71
+Accuracy top 3: 0.4
+Min distance top 3: 38.62

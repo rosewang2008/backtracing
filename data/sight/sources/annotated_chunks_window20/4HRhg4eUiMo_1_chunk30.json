@@ -1,0 +1,62 @@
+[
+    {
+        "text": "There's actually papers."
+    },
+    {
+        "text": "I think it was big news, there's some papers, I think it's psychology or psychometrics papers, that actually refuse to publish p-values now."
+    },
+    {
+        "text": "All right, where were we?"
+    },
+    {
+        "text": "OK, here's the golden rule."
+    },
+    {
+        "text": "So one thing that I'd like to show is this thing, just so you know how you apply the golden rule and how you apply the standard test."
+    },
+    {
+        "text": "So the standard paradigm is the following."
+    },
+    {
+        "text": "You have a black box, which is your test."
+    },
+    {
+        "text": "For my wife, this is the fourth floor of the building."
+    },
+    {
+        "text": "That's where the statisticians sit."
+    },
+    {
+        "text": "What she sends there is data, let's say x1, xn."
+    },
+    {
+        "text": "And she says, well, this one is about toothpaste, so here's a level."
+    },
+    {
+        "text": "Let's say 5%."
+    },
+    {
+        "text": "What the fourth floor brings back is an answer, yes, no."
+    },
+    {
+        "text": "Green, red, just an answer."
+    },
+    {
+        "text": "So that's the standard testing."
+    },
+    {
+        "text": "You just feed it the data and the level at which you want to perform the test, maybe asymptotic, and it spits out a yes, no answer."
+    },
+    {
+        "text": "What p-value does, you just feed it the data itself."
+    },
+    {
+        "text": "And what it spits out is the p-value."
+    },
+    {
+        "text": "And now, it's just up to you."
+    },
+    {
+        "text": "I mean, hopefully, your brain has the computational power of deciding whether a number is larger or smaller than 5% without having to call the statisticians for this."
+    }
+]

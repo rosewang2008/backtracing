@@ -1,0 +1,266 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I don't know what to do about the people who live in the flat above me !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the people who live in the flat above me"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't know what to do about the people who live in the flat above me !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Why ? What are they like ?",
+        "emotion": "neutral",
+        "text": "Why ? What are they like ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Have you ever talked to them about it ?",
+        "emotion": "neutral",
+        "text": "Have you ever talked to them about it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I tried to introduce myself to them when they moved in , but they were so arrogant that I didin't want to ever talk to them again !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I tried to introduce myself to them when they moved in , but they were so arrogant that I didin't want to ever talk to them again !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What did they say ?",
+        "emotion": "neutral",
+        "text": "What did they say ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "They both just talk about how great they are all the time .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !",
+            "They both just talk about how great they are all the time ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "They both just talk about how great they are all the time .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "They soud like the neighbours from hell !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !",
+            "They both just talk about how great they are all the time .",
+            "They both just talk about how great they are all the time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "They soud like the neighbours from hell !",
+        "id": 8,
+        "source_sentences": [
+            2,
+            4,
+            6,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "They are ! Besides being loud and arrogant , they're also terrible gossips . They're always talking about everybody else in the apartment .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !",
+            "They both just talk about how great they are all the time .",
+            "Besides being loud and arrogant , they're also terrible gossips . They're always talking about everybody else in the apartment ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "They are ! Besides being loud and arrogant , they're also terrible gossips . They're always talking about everybody else in the apartment .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I thought you didn't talk to them much .",
+        "emotion": "neutral",
+        "text": "I thought you didn't talk to them much .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I don't , but they talk so loudly that I can hear what they're talking about from my bedroom - and it's not very nice .",
+        "emotion": "neutral",
+        "text": "I don't , but they talk so loudly that I can hear what they're talking about from my bedroom - and it's not very nice .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What do the other people in your apartment think about them ?",
+        "emotion": "neutral",
+        "text": "What do the other people in your apartment think about them ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Most of my other neighbours are scared of them .",
+        "emotion": "neutral",
+        "text": "Most of my other neighbours are scared of them .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Maybe you should think about moving .",
+        "emotion": "neutral",
+        "text": "Maybe you should think about moving .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I can't afford to move right now .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7,
+            9,
+            15
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !",
+            "They both just talk about how great they are all the time .",
+            "Besides being loud and arrogant , they're also terrible gossips . They're always talking about everybody else in the apartment .",
+            "I can't afford to move right now ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I can't afford to move right now .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Well , perhaps you should have a party and try to get to know them better . Maybe once you get to know them , they'll turn out to be more sensitive .",
+        "emotion": "neutral",
+        "text": "Well , perhaps you should have a party and try to get to know them better . Maybe once you get to know them , they'll turn out to be more sensitive .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I think you're being a bit optimistic . If you met them , you'd understand .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7,
+            9,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "They're incredibly selfish . They ' re always up until the wee hours of the night playing their music so loudly that I have to wear earplugs in order to fall asleep !",
+            "they were so arrogant that I didin't want to ever talk to them again !",
+            "They both just talk about how great they are all the time .",
+            "Besides being loud and arrogant , they're also terrible gossips . They're always talking about everybody else in the apartment .",
+            "I can't afford to move right now .",
+            "perhaps you should have a party and try to get to know them better ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I think you're being a bit optimistic . If you met them , you'd understand .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Well , I don't know what else you could do then . Do you think bribing them with chocolate would work ?",
+        "emotion": "neutral",
+        "text": "Well , I don't know what else you could do then . Do you think bribing them with chocolate would work ?",
+        "id": 18
+    }
+]

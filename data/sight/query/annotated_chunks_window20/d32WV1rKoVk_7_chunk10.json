@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "d32WV1rKoVk",
+        "query_id": 7,
+        "timestamp": 1684519933908.0,
+        "annotatedSourceSentencesIndices": [
+            11,
+            14
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "What happens when the eigenvalues are complex?  It doesn't seem like the QR method would converge as all the numbers resulting from this method would be real."
+    }
+]

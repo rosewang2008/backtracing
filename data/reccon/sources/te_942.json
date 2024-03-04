@@ -1,0 +1,147 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You look so happy , Anna . Any good news ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You look so happy"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You look so happy , Anna . Any good news ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I ' Ve won the first prize in the math contest .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve won the first prize in the math contest ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . I ' Ve won the first prize in the math contest .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? Congratulations !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve won the first prize in the math contest ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Congratulations !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you , Paul .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve won the first prize in the math contest .",
+            "Congratulations !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you , Paul .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "By the way , would you like to have dinner with me tomorrow evening ? Tomorrow is my birthday .",
+        "emotion": "neutral",
+        "text": "By the way , would you like to have dinner with me tomorrow evening ? Tomorrow is my birthday .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good , happy birthday to you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Tomorrow is my birthday ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good , happy birthday to you !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Not so soon . It ' s not my birthday today . Well , you ' ll come , won ' t you ?",
+        "emotion": "neutral",
+        "text": "Not so soon . It ' s not my birthday today . Well , you ' ll come , won ' t you ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure , I will . Thank you for inviting me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "you ' ll come ,",
+            "Thank you for inviting me ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure , I will . Thank you for inviting me .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "My pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Sure , I will . Thank you for inviting me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

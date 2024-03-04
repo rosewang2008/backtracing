@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi ! How are you going ?",
+        "emotion": "neutral",
+        "text": "Hi ! How are you going ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Fine , thank you . How are you doing this morning ?",
+        "emotion": "neutral",
+        "text": "Fine , thank you . How are you doing this morning ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Not bad . How about you ? Haven't seen you for a long time .",
+        "emotion": "neutral",
+        "text": "Not bad . How about you ? Haven't seen you for a long time .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . I've been to New York . I got back only yesterday .",
+        "emotion": "neutral",
+        "text": "Yes . I've been to New York . I got back only yesterday .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did you enjoy yourself ?",
+        "emotion": "neutral",
+        "text": "Did you enjoy yourself ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Very much . New York is such a nice place . Shall I show you some photographs ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've been to New York .",
+            "Did you enjoy yourself ?",
+            "Very much . New York is such a nice place ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Very much . New York is such a nice place . Shall I show you some photographs ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks , I like looking at photographs . How nice ! Oh , I'm afraid I must be going now . I've got an appointment . Have a good day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've been to New York .",
+            "Did you enjoy yourself ?",
+            "Very much . New York is such a nice place .",
+            "Shall I show you some photographs ?",
+            "Thanks , I like looking at photographs . How nice !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thanks , I like looking at photographs . How nice ! Oh , I'm afraid I must be going now . I've got an appointment . Have a good day .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You too . I hope to see you soon . Goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            6,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've been to New York .",
+            "Did you enjoy yourself ?",
+            "Very much . New York is such a nice place .",
+            "Shall I show you some photographs ?",
+            "Thanks , I like looking at photographs . How nice !",
+            "Have a good day ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You too . I hope to see you soon . Goodbye .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "You too . I hope to see you soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

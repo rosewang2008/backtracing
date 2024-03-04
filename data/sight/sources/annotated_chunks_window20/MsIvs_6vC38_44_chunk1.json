@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you see why, so that the right thing to put here is B inverse A inverse."
+    },
+    {
+        "text": "That's the inverse I'm after."
+    },
+    {
+        "text": "We can just check that AB times that matrix gives the identity."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So why?"
+    },
+    {
+        "text": "Once again, it's this fact that I can move parentheses around."
+    },
+    {
+        "text": "I can, actually, I can just erase them all and do the multiplications any way I want to."
+    },
+    {
+        "text": "So what's the right multiplication to do first?"
+    },
+    {
+        "text": "B times B inverse."
+    },
+    {
+        "text": "This product here is the identity."
+    },
+    {
+        "text": "Then A times the identity is the identity, and then finally A times A inverse gives the identity."
+    },
+    {
+        "text": "So forgive the dumb example in the book, it's just why do you do the inverse things in reverse order, it's just like taking, you take off your shoes, you take off your socks, then the good way to invert that process is socks back on first, then shoes."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'm sorry that's on tape, but all right."
+    },
+    {
+        "text": "And of course, on the other side, we should really just check on the other side, I have B inverse A inverse, that does multiply AB, and this time it's these guys that give the identity, squeeze down, they give the identity, we're in shape."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So there's the inverse."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "While we're at it, let me do a transpose."
+    }
+]

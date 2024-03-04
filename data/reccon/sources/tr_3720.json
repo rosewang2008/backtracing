@@ -1,0 +1,165 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you doing this weekend ?",
+        "emotion": "neutral",
+        "text": "What are you doing this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I am not sure . What are you doing ?",
+        "emotion": "neutral",
+        "text": "I am not sure . What are you doing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I was thinking of maybe taking a drive to the beach .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "taking a drive to the beach ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I was thinking of maybe taking a drive to the beach .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds like a great idea !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "taking a drive to the beach ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a great idea !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you be interested in joining me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "That sounds like a great idea !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Would you be interested in joining me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure , I would love to go with you . When would you be leaving ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you be interested in joining me ?",
+            "Sure , I would love to go with you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure , I would love to go with you . When would you be leaving ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I thought that we could leave around 8",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Sure , I would love to go with you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I thought that we could leave around 8",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That would give us plenty of time to explore . Did you know that there is a music festival on the beach in Santa Barbara ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "That would give us plenty of time to explore . Did you know that there is a music festival on the beach in Santa Barbara ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That would give us plenty of time to explore . Did you know that there is a music festival on the beach in Santa Barbara ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That was part of my plan .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "music festival on the beach in Santa Barbara ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That was part of my plan .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well then , I'll see you on Saturday . Thanks for asking me to go with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "That was part of my plan .",
+            "I'll see you on Saturday . Thanks for asking me to go with you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well then , I'll see you on Saturday . Thanks for asking me to go with you .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

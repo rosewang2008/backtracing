@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what is the probability that I get 0.5?"
+    },
+    {
+        "text": "Now, what I'm going to do is I'm going to just conclude it's whichever has the largest probability."
+    },
+    {
+        "text": "Then maybe I'm going to have to make some adjustments so that the level is actually 5%."
+    },
+    {
+        "text": "But I can make this happen."
+    },
+    {
+        "text": "I can make the level be 5% and always conclude this guy, but I would have to use a different test."
+    },
+    {
+        "text": "Now, the test that I described, again, those t and larger than c are built in to be tests that are sort of resilient to this kind of manipulations, because they're sort of oblivious towards what the alternative looks like."
+    },
+    {
+        "text": "I mean, they're just saying it's either to the left or to the right, but whether it's a point or an entire half line doesn't matter."
+    },
+    {
+        "text": "So if you try to look at your data and just put the data itself into your hypothesis testing problem, then you're failing the statistical principle."
+    },
+    {
+        "text": "And that's what people are doing, right?"
+    },
+    {
+        "text": "I mean, how can I check?"
+    },
+    {
+        "text": "I mean, of course, here it's going to be pretty blatant if you publish a paper that looks like this."
+    },
+    {
+        "text": "But there's ways to do it differently, right?"
+    },
+    {
+        "text": "For example, one way to do it is to just do more."
+    },
+    {
+        "text": "So typically, what people do is they do multiple hypothesis testing."
+    },
+    {
+        "text": "They're doing 100 tests at a time."
+    },
+    {
+        "text": "Then you have random fluctuations every time."
+    },
+    {
+        "text": "And so they just pick the one that has the random fluctuations that go their way."
+    },
+    {
+        "text": "I mean, sometimes it's going in your way, and sometimes it's going the opposite way."
+    },
+    {
+        "text": "So you just pick the one that works for you."
+    },
+    {
+        "text": "We'll talk about multiple hypothesis testing soon if you want to increase your publication counts."
+    }
+]

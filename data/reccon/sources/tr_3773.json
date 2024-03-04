@@ -1,0 +1,99 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I just love your hair that way .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I just love your hair that way ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I just love your hair that way .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I just love your hair that way ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where did you have it done ?",
+        "emotion": "neutral",
+        "text": "Where did you have it done ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "My sister did it . When did you get yours cut ?",
+        "emotion": "neutral",
+        "text": "My sister did it . When did you get yours cut ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Just yesterday . I'm still getting used to it .",
+        "emotion": "neutral",
+        "text": "Just yesterday . I'm still getting used to it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , it looks very nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it looks very nice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , it looks very nice .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it looks very nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": " Okay."
+    },
+    {
+        "text": "This is the lecture on the singular value decomposition."
+    },
+    {
+        "text": "But everybody calls it the SVD."
+    },
+    {
+        "text": "So this is the final and best factorization of a matrix."
+    },
+    {
+        "text": "Let me tell you what's coming."
+    },
+    {
+        "text": "The factors will be orthogonal matrix, diagonal matrix, orthogonal matrix."
+    },
+    {
+        "text": "So it's things that we've seen before, these special good matrices, orthogonal, diagonal."
+    },
+    {
+        "text": "The new point is that we need two orthogonal matrices."
+    },
+    {
+        "text": "A can be any matrix whatsoever."
+    },
+    {
+        "text": "Any matrix whatsoever has this singular value decomposition."
+    },
+    {
+        "text": "So a diagonal one in the middle, but I need two different, probably different, orthogonal matrices to be able to do this."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And this factorization has jumped into importance and is properly, I think, maybe the bringing together of everything in this course."
+    },
+    {
+        "text": "One thing we'll bring together is, like, the very good family of matrices that we just studied."
+    },
+    {
+        "text": "Symmetric positive definite."
+    },
+    {
+        "text": "Do you remember the story with those guys?"
+    },
+    {
+        "text": "Because they were symmetric, their eigenvectors were orthogonal, so I could produce an orthogonal matrix."
+    },
+    {
+        "text": "This is my usual one."
+    },
+    {
+        "text": "My usual one is the eigenvectors and eigenvalues."
+    },
+    {
+        "text": "In the symmetric case, the eigenvectors are orthogonal, so I've got the good, my ordinary S has become a especially good Q, and positive definite, my ordinary lambda has become a positive lambda."
+    }
+]

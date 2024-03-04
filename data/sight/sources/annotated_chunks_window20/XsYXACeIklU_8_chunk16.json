@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that extra time is going to take-- the expected value is going to be 1 over the (rate of that Poisson process)."
+    },
+    {
+        "text": "So 1 over (2 lambda) is the expected value of this random variable."
+    },
+    {
+        "text": "So at this point, this bulb now is also burned."
+    },
+    {
+        "text": "So we start looking from this time on."
+    },
+    {
+        "text": "That part of the picture disappears."
+    },
+    {
+        "text": "Starting from this time, what's the expected value until that remaining light-bulb burns out?"
+    },
+    {
+        "text": "Well, as we said before, in a Poisson process or with exponential random variables, we have memorylessness."
+    },
+    {
+        "text": "A used bulb is as good as a new one."
+    },
+    {
+        "text": "So it's as if we're starting from scratch here."
+    },
+    {
+        "text": "So this is going to be an exponential random variable with parameter lambda."
+    },
+    {
+        "text": "And the expected value of it is going to be 1 over lambda."
+    },
+    {
+        "text": "So the beauty of approaching this problem in this particular way is, of course, that we manage to do everything without any calculus at all, without striking an integral, without trying to calculate expectations in any form."
+    },
+    {
+        "text": "Most of the non-trivial problems that you encounter in the Poisson world basically involve tricks of these kind."
+    },
+    {
+        "text": "You have a question and you try to rephrase it, trying to think in terms of what might happen in the Poisson setting, use memorylessness, use merging, et cetera, et cetera."
+    },
+    {
+        "text": "Now we talked about merging."
+    },
+    {
+        "text": "It turns out that the splitting of Poisson processes also works in a nice way."
+    },
+    {
+        "text": "The story here is exactly the same as for the Bernoulli process."
+    },
+    {
+        "text": "So I'm having a Poisson process."
+    },
+    {
+        "text": "And each time, with some rate lambda, and each time that an arrival comes, I'm going to send it to that stream and the record an arrival here with some probability P. And I'm going to send it to the other stream with some probability 1 minus P. So either of this will happen or that will happen, depending on the outcome of the coin flip that I do."
+    },
+    {
+        "text": "Each time that then arrival occurs, I flip a coin and I decide whether to record it here or there."
+    }
+]

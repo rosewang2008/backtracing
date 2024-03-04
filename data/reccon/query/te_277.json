@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Are you on the level ? You're the one who called me , remember ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Why did you drag me into this ?",
+            "You're the one who called me"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you on the level ? You're the one who called me , remember ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

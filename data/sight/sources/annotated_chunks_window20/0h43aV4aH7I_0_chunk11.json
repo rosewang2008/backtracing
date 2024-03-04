@@ -1,0 +1,62 @@
+[
+    {
+        "text": "A good basis has a nice, fast inverse."
+    },
+    {
+        "text": "So good means, good basis means what?"
+    },
+    {
+        "text": "So this is like the billion dollar competition, and it's not over yet."
+    },
+    {
+        "text": "People are going to come up with better bases than these."
+    },
+    {
+        "text": "So a good basis will be, first good thing would be fast."
+    },
+    {
+        "text": "I have to be able to multiply by W fast and multiply by W, by its inverse fast."
+    },
+    {
+        "text": "That's, if a basis doesn't allow you to do that fast, then it's going to take so much time that you can't afford it."
+    },
+    {
+        "text": "So these bases, the Fourier basis, everybody said, OK, I know how to deal quickly with the Fourier basis, because we have something called the fast Fourier transform."
+    },
+    {
+        "text": "So there's a FFT that came in my earlier lecture and comes in the last chapter of the book."
+    },
+    {
+        "text": "So change of basis is done, if for the Fourier basis, is done fast by the FFT and there's a fast wavelet transform."
+    },
+    {
+        "text": "I can change, for this wavelet example, this matrix is easy to invert."
+    },
+    {
+        "text": "It's just somebody had a smart idea in choosing that wavelet basis and inverting it, it has a nice inverse."
+    },
+    {
+        "text": "Actually, you can see why it has a nice inverse."
+    },
+    {
+        "text": "Do you see any property of these eight basis vectors?"
+    },
+    {
+        "text": "Well, I've only written five of them, but if you see that property for those five, you'll see it for the three remaining."
+    },
+    {
+        "text": "What, if I give you those eight vectors and ask, what's a nice property?"
+    },
+    {
+        "text": "Well, you would say, first, they're all ones and minus ones and zeros, so every multiplication is very fast using just, in binary."
+    },
+    {
+        "text": "But what's the other great property of those vectors?"
+    },
+    {
+        "text": "Anybody see it?"
+    },
+    {
+        "text": "So, of course, when I think about a basis, one nice property, I don't have to have it, but I'm happy if it's there, is that they're orthogonal."
+    }
+]

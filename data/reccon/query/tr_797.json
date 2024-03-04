@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh yes , I know which one you mean . I have never been there , but I looked at their menu once and it did look good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She says it is very good .",
+            "I looked at their menu once and it did look good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh yes , I know which one you mean . I have never been there , but I looked at their menu once and it did look good .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

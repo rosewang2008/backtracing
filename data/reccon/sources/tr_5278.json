@@ -1,0 +1,179 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What did you cook ?",
+        "emotion": "neutral",
+        "text": "What did you cook ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , as you know I was in Thailand last month , and I took a cooking class ! So I prepared some of my favorite dishes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I prepared some of my favorite dishes ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , as you know I was in Thailand last month , and I took a cooking class ! So I prepared some of my favorite dishes .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Great idea ! As long as I don't get food poisoning ! So what is on the menu tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "So I prepared some of my favorite dishes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great idea ! As long as I don't get food poisoning ! So what is on the menu tonight ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ok , for starters we have Tom Yam soup . It's a bit spicy , but really good !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I prepared some of my favorite dishes .",
+            "It's a bit spicy , but really good !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Ok , for starters we have Tom Yam soup . It's a bit spicy , but really good !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "This is delicious ! The ginger and lemongrass really gives it a nice taste !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "This is delicious ! The ginger and lemongrass really gives it a nice taste !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is delicious ! The ginger and lemongrass really gives it a nice taste !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Now this next dish is one of the most famous . Foreigners call it papaya salad but the proper name is Tom Sam . It is a spicy salad made from a mix of fresh vegetables including shredded unripened papaya and tomato .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I prepared some of my favorite dishes .",
+            "Now this next dish is one of the most famous ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Now this next dish is one of the most famous . Foreigners call it papaya salad but the proper name is Tom Sam . It is a spicy salad made from a mix of fresh vegetables including shredded unripened papaya and tomato .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "This is delicious ! The combination of sour and spicy is really interesting ! I could have this everyday !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "This is delicious ! The combination of sour and spicy is really interesting !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is delicious ! The combination of sour and spicy is really interesting ! I could have this everyday !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Ok , now for the last and best dish in my opinion . This is called Pad Thai . It's stir-fried noodles with eggs , fish sauce , tamarind juice , red chili pepper plus bean sprouts , shrimp and tofu and garnished with crushed peanuts and coriander . It's practically Thailand's national dish !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I prepared some of my favorite dishes ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Ok , now for the last and best dish in my opinion . This is called Pad Thai . It's stir-fried noodles with eggs , fish sauce , tamarind juice , red chili pepper plus bean sprouts , shrimp and tofu and garnished with crushed peanuts and coriander . It's practically Thailand's national dish !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow , this is great ! I never knew Thai food was so creative and delicious !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Ok , now for the last and best dish in my opinion . This is called Pad Thai . It's stir-fried noodles with eggs , fish sauce , tamarind juice , red chili pepper plus bean sprouts , shrimp and tofu and garnished with crushed peanuts and coriander . It's practically Thailand's national dish !",
+            "this is great !",
+            "Thai food was so creative and delicious !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , this is great ! I never knew Thai food was so creative and delicious !",
+        "id": 9,
+        "source_sentences": [
+            7,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Want some more ?",
+        "emotion": "neutral",
+        "text": "Want some more ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I'm stuffed !",
+        "emotion": "neutral",
+        "text": "I'm stuffed !",
+        "id": 11
+    }
+]

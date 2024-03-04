@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you know how happy I am ? The Ant Kingdom is a perfect world with colorful fairy tales . It seems like the air is fresh here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "a perfect world",
+            "the air is fresh here ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you know how happy I am ? The Ant Kingdom is a perfect world with colorful fairy tales . It seems like the air is fresh here .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Just kids like that .",
+        "emotion": "neutral",
+        "text": "Just kids like that .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Come on baby , stop trying to pretend like a man . If you go there , you are sure to like them .",
+        "emotion": "neutral",
+        "text": "Come on baby , stop trying to pretend like a man . If you go there , you are sure to like them .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hurry up ! Hurry up ! What lovely caterpillars are over there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "lovely caterpillars are over there !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hurry up ! Hurry up ! What lovely caterpillars are over there !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I said you are sure to like them . There is the Grand Parade Of Ants Carnival in a few minutes in the square . You will experience a dream of fantasy .",
+        "emotion": "neutral",
+        "text": "I said you are sure to like them . There is the Grand Parade Of Ants Carnival in a few minutes in the square . You will experience a dream of fantasy .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What's that ?",
+        "emotion": "neutral",
+        "text": "What's that ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "All kinds of insects dress themselves up . They drive straight their own Flower Cars along the Parade Avenue of Ants Kingdom .",
+        "emotion": "neutral",
+        "text": "All kinds of insects dress themselves up . They drive straight their own Flower Cars along the Parade Avenue of Ants Kingdom .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's splendid . Can you take three pictures of me with them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "All kinds of insects dress themselves up . They drive straight their own Flower Cars along the Parade Avenue of Ants Kingdom .",
+            "Can you take three pictures of me with them ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's splendid . Can you take three pictures of me with them ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I thought you had grown out of such child practices .",
+        "emotion": "neutral",
+        "text": "I thought you had grown out of such child practices .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Cut it out . Look at my smile , and it seems like the flowers in the spring . Right ?",
+        "emotion": "neutral",
+        "text": "Cut it out . Look at my smile , and it seems like the flowers in the spring . Right ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Gross !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Look at my smile"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Gross !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Hurry up ! The smile is frozen on my face .",
+        "emotion": "neutral",
+        "text": "Hurry up ! The smile is frozen on my face .",
+        "id": 12
+    }
+]

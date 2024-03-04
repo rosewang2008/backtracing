@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, so it keeps going."
+    },
+    {
+        "text": "This compression step produces some coefficients c hat."
+    },
+    {
+        "text": "And with lots of, with many zeros."
+    },
+    {
+        "text": "So that's where the compression came."
+    },
+    {
+        "text": "Probably there's enough of this vector of all ones, we very seldom throw that away."
+    },
+    {
+        "text": "Usually its coefficient will be large."
+    },
+    {
+        "text": "But the coefficient of something like this, that quickly alternating vector, there's probably very little of that in any smooth signal."
+    },
+    {
+        "text": "I mean, that's high frequent- this is, this is low frequency, zero frequency."
+    },
+    {
+        "text": "This stuff is the highest frequency we could have, and there's a, if the noise, the, the jitter is producing that sort of output, but a smooth lecture like this one is, has very little of that highest frequency."
+    },
+    {
+        "text": "Very little noise in this lecture."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, so we throw away whatever there is, and we, we're left with just a few coefficients, and then we reconstruct a signal using those coefficients."
+    },
+    {
+        "text": "We take the, those coefficients times their basis vectors, but this sum doesn't have sixty-four terms anymore."
+    },
+    {
+        "text": "Probably it has about two or three terms."
+    },
+    {
+        "text": "So that, if we say it has three terms."
+    },
+    {
+        "text": "From sixty-four down to three, that's compression of twenty-one to one."
+    },
+    {
+        "text": "That's the kind of compression you're looking for."
+    },
+    {
+        "text": "And everybody is looking for that sort of compression."
+    },
+    {
+        "text": "Let's see, I guess I met the problem with the FBI and fingerprints."
+    },
+    {
+        "text": "So there's a whole lot of still images."
+    }
+]

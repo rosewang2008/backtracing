@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 0,
+        "timestamp": 1684520869368.0,
+        "annotatedSourceSentencesIndices": [
+            10
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Isnt there a mistake @ 46:24 ? Shouldn\u2019t the position 8,1 of matrix A contain a8,1 and not a1,8? Same for position 8,2, shouldn\u2019t it contain a8,2 instead of a2,8? And same for position 1,2? Great lecture thanks!"
+    }
+]

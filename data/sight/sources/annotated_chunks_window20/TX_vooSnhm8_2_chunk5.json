@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I complete this to an orthonormal basis for the whole space, Rn, and I complete that with zeros."
+    },
+    {
+        "text": "Null spaces are no problem here."
+    },
+    {
+        "text": "So really, the true problem is in a matrix like that, which isn't symmetric, so I can't use its eigenvectors, they're not orthogonal, but somehow I have to get these orthogonal, in fact, orthonormal guys that make it work."
+    },
+    {
+        "text": "I have to find this, these orthonormal guys, these orthonormal guys, and I want A v1 to be sigma 1 u1, and A v2 to be sigma 2 u2."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's my goal."
+    },
+    {
+        "text": "Here's, here's the, matrices that are going to get me there."
+    },
+    {
+        "text": "Now, these are orthogonal matrices."
+    },
+    {
+        "text": "I can put that, if I multiply on both sides by v inverse, I have A equals u sigma v inverse, and of course, you know the other way I can write v inverse."
+    },
+    {
+        "text": "This is one of those square orthogonal matrices, so it's the same as u sigma v transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Here's my problem."
+    },
+    {
+        "text": "I've got two orthogonal matrices here, and I don't want to find them both at once."
+    },
+    {
+        "text": "So I want to cook up some expression that will make the u's disappear."
+    },
+    {
+        "text": "I would like to make the u's disappear and leave me only with the v's."
+    },
+    {
+        "text": "And here's how to do it."
+    },
+    {
+        "text": "It's, it's the same combination that keeps showing up whenever we have a general rectangular matrix, then it's A transpose A, that's the great matrix."
+    },
+    {
+        "text": "That's the great matrix."
+    },
+    {
+        "text": "That's the matrix that's symmetric."
+    },
+    {
+        "text": "And, in fact, positive definite or at least positive semidefinite."
+    }
+]

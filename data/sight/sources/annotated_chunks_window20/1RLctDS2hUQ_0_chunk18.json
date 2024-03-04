@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that's a good thing, because this inequality is suspect."
+    },
+    {
+        "text": "Actually, it turns out to be true when b is negative."
+    },
+    {
+        "text": "We certainly didn't prove it."
+    },
+    {
+        "text": "I'm going to just repeat this process."
+    },
+    {
+        "text": "So let's repeat it."
+    },
+    {
+        "text": "Starting from the inequality, the conclusion."
+    },
+    {
+        "text": "Which is sitting right here."
+    },
+    {
+        "text": "But I'll write it in the form e to the x greater than or equal to 1 plus x, for x greater than or equal to 0."
+    },
+    {
+        "text": "And now if I integrate this one, I get the integral from 0 to b, e to the x dx is greater than or equal to the integral from 0 to b, 1 plus x dx."
+    },
+    {
+        "text": "And I remind you that we've already calculated this one."
+    },
+    {
+        "text": "This is e to the b-1."
+    },
+    {
+        "text": "And the other one is not hard to calculate."
+    },
+    {
+        "text": "The antiderivative is x plus x squared over 2."
+    },
+    {
+        "text": "We're evaluating that at 0 and b."
+    },
+    {
+        "text": "So that comes out to be b plus b squared over 2."
+    },
+    {
+        "text": "And so our conclusion is that the left side, which is e to the b-1, is greater than or equal to b plus b squared over 2, and this is for b greater than or equal to 0."
+    },
+    {
+        "text": "And that's the same thing as e to the b greater than or equal to 1 plus b plus b squared over 2."
+    },
+    {
+        "text": "This one actually is false for b negative."
+    },
+    {
+        "text": "So that's something that you have to be careful with the b positives here."
+    },
+    {
+        "text": "All right, so you can keep on going with this."
+    }
+]

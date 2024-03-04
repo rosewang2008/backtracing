@@ -1,0 +1,62 @@
+[
+    {
+        "text": " OK, shall we start?"
+    },
+    {
+        "text": "This is the second lecture on eigenvalues."
+    },
+    {
+        "text": "So the first lecture was set -- reached the key equation, Ax equal lambda x. x is the eigenvector and lambda is the eigenvalue."
+    },
+    {
+        "text": "Now, to use that."
+    },
+    {
+        "text": "And the good way to, after we've found, so job one is to find the eigenvalues and find the eigenvectors."
+    },
+    {
+        "text": "Now after we found them, what do we do with them?"
+    },
+    {
+        "text": "Well, the good way to see that is diagonalize the matrix."
+    },
+    {
+        "text": "So the matrix is A, and I want to show, first of all, this is like the basic fact."
+    },
+    {
+        "text": "This, this formula."
+    },
+    {
+        "text": "That's, that's the key to today's lecture."
+    },
+    {
+        "text": "This matrix A, I put its eigenvectors in the columns of a matrix S. So S will be the eigenvector matrix, and I want to look at this magic combination S inverse A S. So can I show you how that, how that, what happens there?"
+    },
+    {
+        "text": "And notice, notice, there's an S inverse."
+    },
+    {
+        "text": "We have to be able to invert this eigenvector matrix S. So for that we need n independent eigenvectors."
+    },
+    {
+        "text": "So that's the, that's the case."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So suppose we have n linearly independent eigenvectors of A."
+    },
+    {
+        "text": "Put them in the columns of this matrix S. So I'm naturally going to call that the eigenvector matrix, because it's got the eigenvectors in its columns."
+    },
+    {
+        "text": "And all I want to do is show you what happens when you multiply A times S. So A times S. So this is A times the matrix with the first eigenvector in its first column, the second eigenvector in its second column, the nth eigenvector in its nth column."
+    },
+    {
+        "text": "And how am I going to do this matrix multiplication?"
+    },
+    {
+        "text": "Well, certainly I'll do it a column at a time."
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good afternoon , sir , is there anything I can help you with today ?",
+        "emotion": "neutral",
+        "text": "Good afternoon , sir , is there anything I can help you with today ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "umm ... yeah ! I ' m looking for a nice gift to give my girlfriend . Our fifth anniversary ' s next Friday .",
+        "emotion": "neutral",
+        "text": "umm ... yeah ! I ' m looking for a nice gift to give my girlfriend . Our fifth anniversary ' s next Friday .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , I would be happy to assist you in choosing the perfect gift for her . Is there anything particular that you have in mind ?",
+        "emotion": "neutral",
+        "text": "Well , I would be happy to assist you in choosing the perfect gift for her . Is there anything particular that you have in mind ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , not really ... I ' m completely at a loss .",
+        "emotion": "neutral",
+        "text": "No , not really ... I ' m completely at a loss .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , you can give her a set of pearl earrings , or this beautiful heart-shaped pendant . What is her favorite gemstone ?",
+        "emotion": "neutral",
+        "text": "Well , you can give her a set of pearl earrings , or this beautiful heart-shaped pendant . What is her favorite gemstone ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That purple one . I ' m sorry ... I ' Ve never bought jewellery for anyone and I ' m kind of nervous .",
+        "emotion": "neutral",
+        "text": "That purple one . I ' m sorry ... I ' Ve never bought jewellery for anyone and I ' m kind of nervous .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Don ' t worry , we specialize in providing our customers a relaxed , pressure-free shopping environment . That stone is an amethyst . We have a range of beautiful amethyst pieces . Take a look at this bracelet . It ' s 18K rose-gold , studded with amethyst and blue topaz . It ' s a great statement piece .",
+        "emotion": "neutral",
+        "text": "Don ' t worry , we specialize in providing our customers a relaxed , pressure-free shopping environment . That stone is an amethyst . We have a range of beautiful amethyst pieces . Take a look at this bracelet . It ' s 18K rose-gold , studded with amethyst and blue topaz . It ' s a great statement piece .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh ... wow . That ' s really pretty . Jess would love that . But ... I was thinking of something a little more delicate , perhaps a necklace ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Take a look at this bracelet . It ' s 18K rose-gold , studded with amethyst and blue topaz . It ' s a great statement piece .",
+            "That ' s really pretty . Jess would love that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh ... wow . That ' s really pretty . Jess would love that . But ... I was thinking of something a little more delicate , perhaps a necklace ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "We have this beautiful platinum pendant , or you could also get her a locket . You could also get her a timepiece -- it ' s both glamorous yet functional . If you tell me a little more about your girlfriend , maybe I can help you find something for her .",
+        "emotion": "neutral",
+        "text": "We have this beautiful platinum pendant , or you could also get her a locket . You could also get her a timepiece -- it ' s both glamorous yet functional . If you tell me a little more about your girlfriend , maybe I can help you find something for her .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Jess ? Well , she ' s very smart , and has a great sense of humor . She ' s very feminine ...",
+        "emotion": "neutral",
+        "text": "Jess ? Well , she ' s very smart , and has a great sense of humor . She ' s very feminine ...",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Perhaps you could give her a ring ?",
+        "emotion": "neutral",
+        "text": "Perhaps you could give her a ring ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well ... actually ... I was thinking about asking Jess to marry me ... I ' Ve just been so nervous .",
+        "emotion": "neutral",
+        "text": "Well ... actually ... I was thinking about asking Jess to marry me ... I ' Ve just been so nervous .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well sir , I believe your fifth anniversary is a great time to propose !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I was thinking about asking Jess to marry me"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well sir , I believe your fifth anniversary is a great time to propose !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Okay , I ' Ve decided . I ' m going to pop the question !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I believe your fifth anniversary is a great time to propose !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Okay , I ' Ve decided . I ' m going to pop the question !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Fabulous ! We should look at engagement rings then ! Now that ' s a whole other section .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to pop the question !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fabulous ! We should look at engagement rings then ! Now that ' s a whole other section .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

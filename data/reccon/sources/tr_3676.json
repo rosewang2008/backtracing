@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh , God . It ' s late . I ' m afraid I have to leave .",
+        "emotion": "neutral",
+        "text": "Oh , God . It ' s late . I ' m afraid I have to leave .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "But you just got here . Can ' t you stay a little longer and have some tea ?",
+        "emotion": "neutral",
+        "text": "But you just got here . Can ' t you stay a little longer and have some tea ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s very kind of you . But if I don ' t go now I ' ll miss the last bus .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "have some tea ?",
+            "That ' s very kind of you"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s very kind of you . But if I don ' t go now I ' ll miss the last bus .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That ' s too bad .",
+        "emotion": "neutral",
+        "text": "That ' s too bad .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you for your hospitality .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "have some tea ?",
+            "That ' s very kind of you",
+            "Thank you for your hospitality ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thank you for your hospitality .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks for coming .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Thanks for coming ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thanks for coming .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about next time we meet at my place ? And I ' ll treat you to Chinese food . I know how much you like it . We can order in and watch video too . Anything you like , I promise .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "have some tea ?",
+            "That ' s very kind of you",
+            "Thank you for your hospitality .",
+            "How about next time we meet at my place ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "How about next time we meet at my place ? And I ' ll treat you to Chinese food . I know how much you like it . We can order in and watch video too . Anything you like , I promise .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great idea . I ' m looking forward to it . See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Thanks for coming .",
+            "How about next time we meet at my place ?",
+            "Anything you like , I promise ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great idea . I ' m looking forward to it . See you then .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well . I really do have to go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I ' m looking forward to it"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well . I really do have to go .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good night then .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Good night then .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "See you tomorrow .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "See you tomorrow .",
+        "id": 11
+    }
+]

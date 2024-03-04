@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "0Qws8BuK3RQ",
+        "query_id": 0,
+        "timestamp": 1684701645936.0,
+        "annotatedSourceSentencesIndices": [
+            4
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Is the distance matrix right?"
+    }
+]

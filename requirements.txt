@@ -1,0 +1,15 @@
+editdistance==0.6.2
+matplotlib==3.7.1
+nltk==3.8.1
+numpy==1.24.3
+openai==0.27.6
+pandas==2.0.1
+scikit_learn==1.2.2
+seaborn==0.12.2
+sentence_transformers==2.2.2
+tiktoken==0.4.0
+torch==2.0.1
+tqdm==4.65.0
+transformers==4.25.1
+wandb==0.15.3
+rank-bm25

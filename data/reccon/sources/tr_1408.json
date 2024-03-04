@@ -1,0 +1,133 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I heard that you went to the concert the day before ? How did you like it ?",
+        "emotion": "neutral",
+        "text": "I heard that you went to the concert the day before ? How did you like it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was terrific . The concert was really a hit . The symphony orchestra was so good that I was completely absorbed in their performance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "The symphony orchestra was so good that I was completely absorbed in their performance ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It was terrific . The concert was really a hit . The symphony orchestra was so good that I was completely absorbed in their performance .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Who was the conductor ?",
+        "emotion": "neutral",
+        "text": "Who was the conductor ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , speaking of the conductor , he is indeed a genius . He did a perfect job . His name is Menuhin , a descendent of Russian American immigrants .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "he is indeed a genius . He did a perfect job ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , speaking of the conductor , he is indeed a genius . He did a perfect job . His name is Menuhin , a descendent of Russian American immigrants .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I learned that he is also a legendary violinist .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "he is indeed a genius . He did a perfect job .",
+            "I learned that he is also a legendary violinist ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I learned that he is also a legendary violinist .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Absolutely right . He gave a performance of Felix Mendelssohn's violin concerto . That caused a sensation . The audience were stunned by his pure tone .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I learned that he is also a legendary violinist .",
+            "That caused a sensation . The audience were stunned by his pure tone ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Absolutely right . He gave a performance of Felix Mendelssohn's violin concerto . That caused a sensation . The audience were stunned by his pure tone .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Obviously you did enjoy the concert .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "That caused a sensation . The audience were stunned by his pure tone ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Obviously you did enjoy the concert .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , I did .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I learned that he is also a legendary violinist .",
+            "That caused a sensation . The audience were stunned by his pure tone ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , I did .",
+        "id": 8
+    }
+]

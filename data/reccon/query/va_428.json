@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Anytime you like ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

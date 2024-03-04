@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You can say that again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you're going to have a really nice vacation ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can say that again .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

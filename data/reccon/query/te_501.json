@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I didn ' t know it would be so big !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "there are 5000 seats",
+            "I didn ' t know it would be so big !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I didn ' t know it would be so big !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

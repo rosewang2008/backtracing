@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is called splitting a Poisson process into two pieces."
+    },
+    {
+        "text": "What kind of process do we get here?"
+    },
+    {
+        "text": "If you look at the little interval for length delta, what's the probability that this little interval gets an arrival?"
+    },
+    {
+        "text": "It's the probability that this one gets an arrival, which is lambda delta times the probability that after I get an arrival my coin flip came out to be that way, so that it sends me there."
+    },
+    {
+        "text": "So this means that this little interval is going to have probability lambda delta P. Or maybe more suggestively, I should write it as lambda P times delta."
+    },
+    {
+        "text": "So every little interval has a probability of an arrival proportional to delta."
+    },
+    {
+        "text": "The proportionality factor is lambda P. So lambda P is the rate of that process."
+    },
+    {
+        "text": "And then you go through the mental exercise that you went through for the Bernoulli process to argue that a different intervals here are independent and so on."
+    },
+    {
+        "text": "And that completes checking that this process is going to be a Poisson process."
+    },
+    {
+        "text": "So when you split a Poisson process by doing independent coin flips each time that something happens, the processes that you get is again a Poisson process, but of course with a reduced rate."
+    },
+    {
+        "text": "So instead of the word splitting, sometimes people also use the words thinning-out."
+    },
+    {
+        "text": "That is, out of the arrivals that came, you keep a few but throw away a few."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So now the last topic over this lecture is a quite curious phenomenon that goes under the name of random incidents."
+    },
+    {
+        "text": "So here's the story."
+    },
+    {
+        "text": "Buses have been running on Mass Ave. from time immemorial."
+    },
+    {
+        "text": "And the bus company that runs the buses claims that they come as a Poisson process with some rate, let's say, of 4 buses per hour."
+    },
+    {
+        "text": "So that the expected time between bus arrivals is going to be 15 minutes."
+    },
+    {
+        "text": "OK. Alright."
+    },
+    {
+        "text": "So people have been complaining that they have been showing up there."
+    }
+]

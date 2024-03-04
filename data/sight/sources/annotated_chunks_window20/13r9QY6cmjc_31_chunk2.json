@@ -1,0 +1,62 @@
+[
+    {
+        "text": "On the right, it's multiplied by, if I want, if I want lambda n xn in the last column, how do I do it?"
+    },
+    {
+        "text": "Well, the last column here will be, I'll, I'll take the last column, use these coefficients, put the lambda n down there, and it will multiply that nth column and give me lambda n xn."
+    },
+    {
+        "text": "There, there you see matrix multiplication just working for us."
+    },
+    {
+        "text": "So I started with A s. I wrote down what it meant."
+    },
+    {
+        "text": "A times each eigenvector."
+    },
+    {
+        "text": "That gave me lambda times the eigenvector."
+    },
+    {
+        "text": "And then when I peeled off the lambdas, they were on the right-hand side, so I've got s, my matrix back again, and this matrix, this diagonal matrix, the eigenvalue matrix, and I call it capital lambda, using capital letters for matrices, and lambda to prompt me that it's, that it's eigenvalues that are in there."
+    },
+    {
+        "text": "So you see that the eigenvalues are just sitting down that diagonal?"
+    },
+    {
+        "text": "If I had a column x2 here, I would want the lambda two in the two two position, in the diagonal position, to multiply that x2 and give me the lambda two x2."
+    },
+    {
+        "text": "That's my formula."
+    },
+    {
+        "text": "A s is s lambda."
+    },
+    {
+        "text": "OK. That's, that's the, you see, it's just a calculation."
+    },
+    {
+        "text": "Now, I, I mentioned, and I have to mention again, this business about n independent eigenvectors."
+    },
+    {
+        "text": "As it stands, this is all fine whether, I mean, I could be repeating the same eigenvector, but I, I'm no interested in that."
+    },
+    {
+        "text": "I want to be able to invert s, and that's where this comes in."
+    },
+    {
+        "text": "This n independent eigenvectors business comes in to tell me that that matrix is invertible."
+    },
+    {
+        "text": "So let me, on the next board, write down what I've got."
+    },
+    {
+        "text": "A s equals s lambda."
+    },
+    {
+        "text": "And now I'm, I can multiply on the left by s inverse."
+    },
+    {
+        "text": "So this is really, I can do that provided s is invertible, provided my assumption of n independent eigenvectors is satisfied."
+    }
+]

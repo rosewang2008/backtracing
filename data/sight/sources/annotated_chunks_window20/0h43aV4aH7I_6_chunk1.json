@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, some compression can be done with no loss."
+    },
+    {
+        "text": "Lossless compression is possible just using, sort of, the fact that, there's, there are redundancies."
+    },
+    {
+        "text": "But I'm talking here about lossy compression."
+    },
+    {
+        "text": "So I'm talking about, here's an image."
+    },
+    {
+        "text": "And what does an image consist of?"
+    },
+    {
+        "text": "It consists of a lot of little pixels, right?"
+    },
+    {
+        "text": "Maybe five hundred and twelve by five hundred and twelve."
+    },
+    {
+        "text": "Two to the ninth by two to the ninth pixels, and each, so this is pixel number one one, so that's a pixel, and if we're in black and white, the typical pixel would tell us a grayscale from zero to two fifty five."
+    },
+    {
+        "text": "So a pixel is usually a, a value of a, a, one of the x i, so this would be the i-th pixel, it, it's usually a real number on a scale from zero to two fifty five."
+    },
+    {
+        "text": "In other words, two to the eighth possibilities."
+    },
+    {
+        "text": "So usually, that's the, that's the standard, so, so that, that's eight, eight bits."
+    },
+    {
+        "text": "But then we have that for every, every pixel, so we have five hundred and twelve squared pixels."
+    },
+    {
+        "text": "We're, we're really operating, x is a vector in Rn, but what is n?"
+    },
+    {
+        "text": "n is five hundred and twelve squared."
+    },
+    {
+        "text": "That's, that's our problem right there."
+    },
+    {
+        "text": "We're, a pixel is a vector that gives us the information about the image, I'm sorry, the image that comes through is a vector of, of that length, that, that's the information we have about the image."
+    },
+    {
+        "text": "If it's a color image, we would have three times that length, because we'd have, we'd need three coordinates to get color."
+    },
+    {
+        "text": "So it would be three times five hundred and twelve squared."
+    },
+    {
+        "text": "It's an enormous amount of information, and we couldn't send out the image for these lectures without compressing it."
+    },
+    {
+        "text": "We, we, it, it would be, it would overload the system."
+    }
+]

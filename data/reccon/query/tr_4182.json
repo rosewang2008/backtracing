@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "He will enjoy himself this weekend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Daniel loves the beach very much !",
+            "He will enjoy himself this weekend ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He will enjoy himself this weekend .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

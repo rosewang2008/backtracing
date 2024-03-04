@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I have tickets to The Phantom of the Opera on Friday night . Would you like to go ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have tickets"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have tickets to The Phantom of the Opera on Friday night . Would you like to go ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks . I'd love to . What time is the show ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have tickets",
+            "Would you like to go ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I'd love to . What time is the show ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's at 8: 00 .",
+        "emotion": "neutral",
+        "text": "It's at 8: 00 .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds great . So , do you want to have dinner at 6:00 ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have tickets",
+            "Would you like to go ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds great . So , do you want to have dinner at 6:00 ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Uh , I'd like to , but I have to work late .",
+        "emotion": "neutral",
+        "text": "Uh , I'd like to , but I have to work late .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , that's OK . Let's just meet at the theater before the show , around 7:30 .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have tickets",
+            "Would you like to go ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's OK . Let's just meet at the theater before the show , around 7:30 .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That sounds fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I have tickets",
+            "I'd love to .",
+            "meet at the theater",
+            "sounds fine ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That sounds fine .",
+        "id": 7
+    }
+]

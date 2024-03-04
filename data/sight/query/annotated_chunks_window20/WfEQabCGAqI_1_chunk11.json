@@ -1,0 +1,13 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 1,
+        "timestamp": 1684192120438.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "I did not understand the last step replacing dA by dxdy. The proof contained slanted plane with an angle alpha to only one axis and not a general slant in both directions. Does this proof apply when we are considering a general slant to both x and y ? Will dA=dS Cos theta still be applicable?"
+    }
+]

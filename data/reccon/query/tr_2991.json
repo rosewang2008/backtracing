@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Full of energy and hope .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I also like the rhythms .",
+            "Full of energy and hope ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Full of energy and hope .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

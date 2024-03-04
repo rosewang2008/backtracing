@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm glad you enjoyed it . It's had long run , but the house has always been full .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's an excellent musical . The acting was very expressive and the songs and dancing were superb .",
+            "you enjoyed it",
+            "house has always been full ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad you enjoyed it . It's had long run , but the house has always been full .",
+        "id": 6,
+        "source_sentences": [
+            4,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

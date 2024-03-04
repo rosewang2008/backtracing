@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , that's the worst .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I also hate having to stand at a bus stop"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's the worst .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

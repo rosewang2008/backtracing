@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mike , come and look at this painting of shrimp ! It is so simple yet so vivid !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "this painting of shrimp ! It is so simple yet so vivid !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Mike , come and look at this painting of shrimp ! It is so simple yet so vivid !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah . It is incredible ! Is it the work of Qi Bakshi ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "this painting of shrimp ! It is so simple yet so vivid !",
+            "It is incredible ! Is it the work of Qi Bakshi ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah . It is incredible ! Is it the work of Qi Bakshi ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , it is . How do you know that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Is it the work of Qi Bakshi ?",
+            "Yes , it is . How do you know that ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , it is . How do you know that ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , Qi is famous all over the world , isn ' t he ? Besides I am quite interested in Chinese painting .",
+        "emotion": "neutral",
+        "text": "Well , Qi is famous all over the world , isn ' t he ? Besides I am quite interested in Chinese painting .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Cool ! What kind of Chinese painting do you prefer , free sketch or claborate-style painting ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I am quite interested in Chinese painting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Cool ! What kind of Chinese painting do you prefer , free sketch or claborate-style painting ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I prefer free sketch , especially the landscape paintings . I can always feel peace and harmony from those landscape paintings .",
+        "emotion": "neutral",
+        "text": "I prefer free sketch , especially the landscape paintings . I can always feel peace and harmony from those landscape paintings .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's true . Chinese art stresses the harmony between man and nature , which is an important part of China's traditional culture .",
+        "emotion": "neutral",
+        "text": "That's true . Chinese art stresses the harmony between man and nature , which is an important part of China's traditional culture .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I love this art exhibition !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            8
+        ],
+        "expanded emotion cause span": [
+            "this painting of shrimp ! It is so simple yet so vivid !",
+            "It is incredible ! Is it the work of Qi Bakshi ?",
+            "I love this art exhibition !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I love this art exhibition !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So do I . Let ' s go to other areas to see what they have got , shall we ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I love this art exhibition !",
+            "So do I ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So do I . Let ' s go to other areas to see what they have got , shall we ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            8,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "this painting of shrimp ! It is so simple yet so vivid !",
+            "It is incredible ! Is it the work of Qi Bakshi ?",
+            "I love this art exhibition !",
+            "So do I .",
+            "Let ' s go to other areas to see what they have got"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK .",
+        "id": 10
+    }
+]

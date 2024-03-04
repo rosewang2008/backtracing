@@ -1,0 +1,1172 @@
+[
+    {
+        "text": " Okay."
+    },
+    {
+        "text": "This is the lecture on the singular value decomposition."
+    },
+    {
+        "text": "But everybody calls it the SVD."
+    },
+    {
+        "text": "So this is the final and best factorization of a matrix."
+    },
+    {
+        "text": "Let me tell you what's coming."
+    },
+    {
+        "text": "The factors will be orthogonal matrix, diagonal matrix, orthogonal matrix."
+    },
+    {
+        "text": "So it's things that we've seen before, these special good matrices, orthogonal, diagonal."
+    },
+    {
+        "text": "The new point is that we need two orthogonal matrices."
+    },
+    {
+        "text": "A can be any matrix whatsoever."
+    },
+    {
+        "text": "Any matrix whatsoever has this singular value decomposition."
+    },
+    {
+        "text": "So a diagonal one in the middle, but I need two different, probably different, orthogonal matrices to be able to do this."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And this factorization has jumped into importance and is properly, I think, maybe the bringing together of everything in this course."
+    },
+    {
+        "text": "One thing we'll bring together is, like, the very good family of matrices that we just studied."
+    },
+    {
+        "text": "Symmetric positive definite."
+    },
+    {
+        "text": "Do you remember the story with those guys?"
+    },
+    {
+        "text": "Because they were symmetric, their eigenvectors were orthogonal, so I could produce an orthogonal matrix."
+    },
+    {
+        "text": "This is my usual one."
+    },
+    {
+        "text": "My usual one is the eigenvectors and eigenvalues."
+    },
+    {
+        "text": "In the symmetric case, the eigenvectors are orthogonal, so I've got the good, my ordinary S has become a especially good Q, and positive definite, my ordinary lambda has become a positive lambda."
+    },
+    {
+        "text": "So this is, that's the singular value decomposition."
+    },
+    {
+        "text": "In case our matrix is symmetric positive definite, in that case, I don't need two, u and a v, one orthogonal matrix will do for both sides."
+    },
+    {
+        "text": "But, so this would be no good in general, because usually the eigenvector matrix isn't orthogonal."
+    },
+    {
+        "text": "So this is not what I'm, that's not what I'm after."
+    },
+    {
+        "text": "I'm looking for orthogonal times diagonal times orthogonal."
+    },
+    {
+        "text": "And let me show you what that means and where it comes from."
+    },
+    {
+        "text": "OK. What does it mean?"
+    },
+    {
+        "text": "You remember the picture of any linear transformation."
+    },
+    {
+        "text": "This was, like, the most important figure in 1806."
+    },
+    {
+        "text": "And what am I looking for now?"
+    },
+    {
+        "text": "A typical vector in the row space, typical vector, let me call it v1, gets taken over to some vector in the column space, say u1."
+    },
+    {
+        "text": "So u1 is a v1."
+    },
+    {
+        "text": "OK. Now, another vector gets taken over here somewhere."
+    },
+    {
+        "text": "What am I looking for?"
+    },
+    {
+        "text": "In this SVD, this singular value decomposition, what I'm looking for is an orthogonal basis here that gets knocked over into an orthogonal basis over there."
+    },
+    {
+        "text": "See, that's pretty special, to have an orthogonal basis in the row space that goes over into an orthogonal basis, so this is like a right angle and this is a right angle, into an orthogonal basis in the column space."
+    },
+    {
+        "text": "So that's our goal, is to find -- you see how things are coming together."
+    },
+    {
+        "text": "First of all, can I find an orthogonal basis for this row space?"
+    },
+    {
+        "text": "Of course."
+    },
+    {
+        "text": "No big deal to find an orthogonal basis."
+    },
+    {
+        "text": "Graham-Schmidt tells me how to do it."
+    },
+    {
+        "text": "Start with any old basis and use- grind through Graham-Schmidt, out comes an orthogonal basis."
+    },
+    {
+        "text": "But then, if I just take any old orthogonal basis, then when I multiply by A, there's no reason why it should be orthogonal over here."
+    },
+    {
+        "text": "So I'm looking for this special setup where A takes these basis vectors into orthogonal vectors over there."
+    },
+    {
+        "text": "Now, you might have noticed that the null space I didn't include."
+    },
+    {
+        "text": "Why don't I stick that in?"
+    },
+    {
+        "text": "You remember our usual figure had a little null space and a little null space."
+    },
+    {
+        "text": "And, those are no problems."
+    },
+    {
+        "text": "Those are- null spaces are going to show up as zeros on the diagonal of sigma, so that's not what we're- that doesn't present any difficulty."
+    },
+    {
+        "text": "Our difficulty is to find the- so do you see what this will mean?"
+    },
+    {
+        "text": "This will mean that A times this- these v's, v1, v2, up to- what's the dimension of this row space?"
+    },
+    {
+        "text": "vr."
+    },
+    {
+        "text": "Sorry, that v a little smaller."
+    },
+    {
+        "text": "Up to vr."
+    },
+    {
+        "text": "So that's A v1 is going to be the first column, so let me- here's what I'm- here's what I'm achieving."
+    },
+    {
+        "text": "Oh, I would like- I'm not only going to make these orthogonal, but why not make them orthonormal?"
+    },
+    {
+        "text": "Make them unit vectors."
+    },
+    {
+        "text": "So this- maybe the unit vector is here, is the u1, and this might be a multiple of it."
+    },
+    {
+        "text": "So really what's happening is A v1 is some multiple of u1, right?"
+    },
+    {
+        "text": "I'm going to- these guys will be unit vectors, and they'll go over into multiples of unit vectors, and the multiple I'm not going to call lambda anymore, I'm calling it sigma."
+    },
+    {
+        "text": "So that's the number- the stretching number."
+    },
+    {
+        "text": "And similarly, A v2 is sigma 2 u2."
+    },
+    {
+        "text": "This is what- this is my goal."
+    },
+    {
+        "text": "And now I want to express that goal in matrix language."
+    },
+    {
+        "text": "That's the usual step."
+    },
+    {
+        "text": "Think of what you want and then express it as a matrix multiplication."
+    },
+    {
+        "text": "So A v1 is sigma 1 u1."
+    },
+    {
+        "text": "Actually, here we go."
+    },
+    {
+        "text": "Let me pull out these u1, u2 to ur, and then a matrix with the sigmas."
+    },
+    {
+        "text": "It's- everything now is going to be in this- in that, in that, little part of the blackboard."
+    },
+    {
+        "text": "Do you see that this equation says what I'm trying to do with my figure?"
+    },
+    {
+        "text": "A times the first basis vector should be sigma 1 times the other basis- the other first basis vector."
+    },
+    {
+        "text": "These are the basis vectors in the row space, these are the basis vectors in the column space, and these are the multiplying factors."
+    },
+    {
+        "text": "So A v2 is sigma 2 times u2, A vr is sigma r times ur."
+    },
+    {
+        "text": "And then we've got a whole lot of zeros and maybe some zeros at the end, but this is- that's the heart of it."
+    },
+    {
+        "text": "And now if I express that in- as matrices, because you knew that was coming, that's what I have."
+    },
+    {
+        "text": "So this is my goal."
+    },
+    {
+        "text": "To find an orthogonal basis in the rows- orthonormal, even, basis in the row space, and an orthonormal basis in the column space, so that I'm sort of diagonalized the matrix."
+    },
+    {
+        "text": "The matrix A is like getting converted to this diagonal matrix sigma."
+    },
+    {
+        "text": "And you notice that usually I have to do- I have to allow myself two different bases."
+    },
+    {
+        "text": "My little comment about symmetric positive definite was the one case where it's A q equal q sigma, where v and u are the same q."
+    },
+    {
+        "text": "But mostly, I'm going to take a matrix like, oh, let me take a matrix like four four minus three three."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "There's a two by two matrix."
+    },
+    {
+        "text": "It's invertible, so it has rank two."
+    },
+    {
+        "text": "So I'm going to look for two vectors, v1 and v2, in the row space, and u- so I'm going to look for v1 v2 in the row space, which of course is R2."
+    },
+    {
+        "text": "And I'm going to look for u1 u2 in the column space, which of course is also R2."
+    },
+    {
+        "text": "And I'm going to look for numbers sigma 1 and sigma 2, so that it all comes out right."
+    },
+    {
+        "text": "So these guys are orthonormal."
+    },
+    {
+        "text": "These guys are orthonormal, and these are the scaling factors."
+    },
+    {
+        "text": "So I'll do that example as soon as I get the matrix picture straight."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Do you see that this expresses what I want?"
+    },
+    {
+        "text": "Can I just say two words about null spaces?"
+    },
+    {
+        "text": "If we have -- if there's some null space, then we've got- we want to stick in a basis for those, for that."
+    },
+    {
+        "text": "So here comes a basis for the null space, v R plus one down to vn."
+    },
+    {
+        "text": "So if we only had an R-dimensional row space and the other n minus R dimensions were in the null space, okay, we'll take an orthogonal- orthonormal basis there, no problem."
+    },
+    {
+        "text": "And then we'll just get zeros."
+    },
+    {
+        "text": "So actually, those zeros will come out from the- on the diagonal matrix."
+    },
+    {
+        "text": "So I'll complete that to, to, orthonormal basis for the whole space, Rn."
+    },
+    {
+        "text": "I complete this to an orthonormal basis for the whole space, Rn, and I complete that with zeros."
+    },
+    {
+        "text": "Null spaces are no problem here."
+    },
+    {
+        "text": "So really, the true problem is in a matrix like that, which isn't symmetric, so I can't use its eigenvectors, they're not orthogonal, but somehow I have to get these orthogonal, in fact, orthonormal guys that make it work."
+    },
+    {
+        "text": "I have to find this, these orthonormal guys, these orthonormal guys, and I want A v1 to be sigma 1 u1, and A v2 to be sigma 2 u2."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's my goal."
+    },
+    {
+        "text": "Here's, here's the, matrices that are going to get me there."
+    },
+    {
+        "text": "Now, these are orthogonal matrices."
+    },
+    {
+        "text": "I can put that, if I multiply on both sides by v inverse, I have A equals u sigma v inverse, and of course, you know the other way I can write v inverse."
+    },
+    {
+        "text": "This is one of those square orthogonal matrices, so it's the same as u sigma v transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Here's my problem."
+    },
+    {
+        "text": "I've got two orthogonal matrices here, and I don't want to find them both at once."
+    },
+    {
+        "text": "So I want to cook up some expression that will make the u's disappear."
+    },
+    {
+        "text": "I would like to make the u's disappear and leave me only with the v's."
+    },
+    {
+        "text": "And here's how to do it."
+    },
+    {
+        "text": "It's, it's the same combination that keeps showing up whenever we have a general rectangular matrix, then it's A transpose A, that's the great matrix."
+    },
+    {
+        "text": "That's the great matrix."
+    },
+    {
+        "text": "That's the matrix that's symmetric."
+    },
+    {
+        "text": "And, in fact, positive definite or at least positive semidefinite."
+    },
+    {
+        "text": "This is the matrix with nice properties."
+    },
+    {
+        "text": "So let's see what will it be."
+    },
+    {
+        "text": "So if I took the transpose, then, I would have A transpose A will be what?"
+    },
+    {
+        "text": "What do I have?"
+    },
+    {
+        "text": "If I transpose that, I have v sigma transpose u transpose, that's, that's the A transpose."
+    },
+    {
+        "text": "Now the A."
+    },
+    {
+        "text": "And what have I got?"
+    },
+    {
+        "text": "Looks like worse, because it's got six things now together, but it's going to collapse into something good."
+    },
+    {
+        "text": "What does u transpose u collapse into?"
+    },
+    {
+        "text": "I."
+    },
+    {
+        "text": "The identity."
+    },
+    {
+        "text": "So that's the key point."
+    },
+    {
+        "text": "This is the identity and we don't have u anymore."
+    },
+    {
+        "text": "And sigma transpose times sigma, those are diagonal matrices."
+    },
+    {
+        "text": "So their product is just going to have sigma squareds on the diagonal."
+    },
+    {
+        "text": "So do you see what we've got here?"
+    },
+    {
+        "text": "This is v times this easy matrix, sigma one squared, sigma two squared, times v transpose."
+    },
+    {
+        "text": "This is the A transpose A."
+    },
+    {
+        "text": "This is, let me copy down, A transpose A is that."
+    },
+    {
+        "text": "U's are out of the picture now."
+    },
+    {
+        "text": "I'm only having to choose the v's."
+    },
+    {
+        "text": "And what are these v's?"
+    },
+    {
+        "text": "And what are these sigmas?"
+    },
+    {
+        "text": "Do you know what the v's are?"
+    },
+    {
+        "text": "They're the eigenvectors."
+    },
+    {
+        "text": "See, this is a perfect eigenvector, eigenvalue, Q lambda Q transpose for the matrix A transpose A."
+    },
+    {
+        "text": "A itself is like nothing special."
+    },
+    {
+        "text": "But A transpose A will be special."
+    },
+    {
+        "text": "It'll be symmetric, positive, definite."
+    },
+    {
+        "text": "So this'll be its eigenvectors and this'll be its eigenvalues."
+    },
+    {
+        "text": "And the eigenvalues will be positive because this thing's positive definite."
+    },
+    {
+        "text": "Can I just now so this is my method."
+    },
+    {
+        "text": "This tells me what the v's are and how am I going to find the u's?"
+    },
+    {
+        "text": "Well, one way would be to look at A A transpose."
+    },
+    {
+        "text": "Put, multiply A by A transpose in the opposite order."
+    },
+    {
+        "text": "That will stick the v's in the middle, knock them out, and leave me with the u's."
+    },
+    {
+        "text": "So here's the overall picture, then."
+    },
+    {
+        "text": "The v's are the eigenvectors of A transpose A."
+    },
+    {
+        "text": "The u's are the eigenvectors of A A transpose, which are different."
+    },
+    {
+        "text": "And the sigmas are the square roots of these and the positive square roots, so we have positive sigmas."
+    },
+    {
+        "text": "Let me do that for that example."
+    },
+    {
+        "text": "This is really what you should know and be able to do for, the SVD."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Let me take that matrix."
+    },
+    {
+        "text": "So what's my first step?"
+    },
+    {
+        "text": "Compute A transpose A, because I want its eigenvectors."
+    },
+    {
+        "text": "Okay, so I have to compute A transpose A."
+    },
+    {
+        "text": "So A transpose is four four minus three three, and A is four four minus three three."
+    },
+    {
+        "text": "And I do that multiplication and I get sixteen, I get twenty-five, I get sixteen minus nine, is that seven?"
+    },
+    {
+        "text": "And it better come out symmetric and, oh, okay, and then it comes out twenty-five."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I want its eigenvectors and its eigenvalues."
+    },
+    {
+        "text": "Its eigenvectors will be the v's, its eigenvalues will be the squares of the sigmas."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What are the eigenvalues and eigenvectors of this guy?"
+    },
+    {
+        "text": "Have you seen that two by two example enough to recognize that the eigenvectors are, that one one is an eigenvector?"
+    },
+    {
+        "text": "So this is, here is A transpose A. I'm looking for its eigenvectors."
+    },
+    {
+        "text": "So its eigenvectors, I think, are one one and one minus one."
+    },
+    {
+        "text": "Because if I multiply that matrix by one one, what do I get?"
+    },
+    {
+        "text": "If I multiply that matrix by one one, I get thirty-two thirty-two."
+    },
+    {
+        "text": "So which is thirty-two of one one."
+    },
+    {
+        "text": "So there's the first eigenvector."
+    },
+    {
+        "text": "And there's the eigenvalue for A transpose A, so I'm going to take its square root in the, for sigma."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What's the eigenvector that goes, eigenvalue that goes with this one?"
+    },
+    {
+        "text": "If I do that multiplication, what do I get?"
+    },
+    {
+        "text": "I get some multiple of one minus one."
+    },
+    {
+        "text": "And what is that multiple?"
+    },
+    {
+        "text": "Looks like eighteen."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So those are the two eigenvectors."
+    },
+    {
+        "text": "But, oh, just a moment, I didn't normalize them."
+    },
+    {
+        "text": "To, to make everything absolutely right, I ought to normalize these eigenvectors, divide by their length, square root of two."
+    },
+    {
+        "text": "So all these guys should be true unit vectors, and, of course, that normalization didn't change the thirty-two and the eighteen."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I'm happy with the Vs, here are the Vs, so now let me put together the, the, the pieces here."
+    },
+    {
+        "text": "Here's my A."
+    },
+    {
+        "text": "Here's my A."
+    },
+    {
+        "text": "Let me, let me write down A again."
+    },
+    {
+        "text": "This should, if, if life is right, we should get U, which I don't yet know, U I don't yet know, sigma, I do now know."
+    },
+    {
+        "text": "What's sigma?"
+    },
+    {
+        "text": "So I'm looking for U sigma V transpose."
+    },
+    {
+        "text": "U, the diagonal guy, and V transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Let's just see that come out right."
+    },
+    {
+        "text": "So what's, what are the, what are the sigmas?"
+    },
+    {
+        "text": "They're the square roots of these things."
+    },
+    {
+        "text": "So square root of thirty-two and square root of eighteen."
+    },
+    {
+        "text": "Zero, zero."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What are the Vs?"
+    },
+    {
+        "text": "They're these two."
+    },
+    {
+        "text": "And I have to transpose, maybe that, maybe that just leaves me with one, with one over square root of two in that row, and the other one is one over square root of two minus one over square root of two."
+    },
+    {
+        "text": "Now, finally, I've got to know the Us."
+    },
+    {
+        "text": "Well, actually, one way to do, since I now know all the other pieces, I could put those together and figure out what the Us are."
+    },
+    {
+        "text": "But let me do it the A A transpose way."
+    },
+    {
+        "text": "Okay, find the Us now."
+    },
+    {
+        "text": "U1 and U2."
+    },
+    {
+        "text": "And what are they?"
+    },
+    {
+        "text": "I look at A A transpose, so A is supposed to be U sigma V transpose, and then when I transpose that, I get V sigma transpose U transpose."
+    },
+    {
+        "text": "So I'm just doing it in the opposite order, A times A transpose, and what's the good part here?"
+    },
+    {
+        "text": "That in the middle, V transpose V is going to be the identity."
+    },
+    {
+        "text": "So this is just U sigma sigma transpose, that's some diagonal matrix with sigma squareds and U transpose."
+    },
+    {
+        "text": "So what am I seeing here?"
+    },
+    {
+        "text": "I'm seeing here, again, a symmetric positive definite or at least semi-definite matrix, and I'm seeing its eigenvectors and its eigenvalues."
+    },
+    {
+        "text": "So if I compute A A transpose, its eigenvectors will be the things that go into U."
+    },
+    {
+        "text": "Okay, so I need to compute A A transpose."
+    },
+    {
+        "text": "I guess I'm going to have to go -."
+    },
+    {
+        "text": "Let me, can I move that up just a little, maybe a little more, and do A A transpose."
+    },
+    {
+        "text": "So what's A?"
+    },
+    {
+        "text": "Four, four, minus three and three."
+    },
+    {
+        "text": "And what's A transpose?"
+    },
+    {
+        "text": "Four, four, minus three and three."
+    },
+    {
+        "text": "And when I do that multiplication, I get, what do I get?"
+    },
+    {
+        "text": "Sixteen and sixteen, thirty-two."
+    },
+    {
+        "text": "That one comes out zero."
+    },
+    {
+        "text": "Oh, so this is a lucky case, and that one comes out eighteen."
+    },
+    {
+        "text": "So this is, like, an accident, that A A transpose happens to come out diagonal, so we know easily its eigenvectors and eigenvalues."
+    },
+    {
+        "text": "So its eigenvectors are, what's the first eigenvector for this A A transpose matrix?"
+    },
+    {
+        "text": "It's just one zero, and when I do that multiplication, I get thirty-two times one zero."
+    },
+    {
+        "text": "And the other eigenvector is just zero one, and when I multiply by that, I get eighteen."
+    },
+    {
+        "text": "So this is A A transpose, multiplying that gives me the thirty-two A A transpose, multiplying this guy gives me eighteen."
+    },
+    {
+        "text": "First of all, I got thirty-two and eighteen again."
+    },
+    {
+        "text": "Am I surprised?"
+    },
+    {
+        "text": "Yeah, it's clearly not an accident."
+    },
+    {
+        "text": "The eigenvalues of A A transpose were exactly the same as the eigenvalues of this one was A transpose A."
+    },
+    {
+        "text": "That's no surprise at all."
+    },
+    {
+        "text": "The eigenvalues of A B are same as the eigenvalues of B A."
+    },
+    {
+        "text": "The order, that's a very nice fact, that eigenvalues stay the same if I switch the order of multiplication."
+    },
+    {
+        "text": "So no surprise to see thirty-two and eighteen."
+    },
+    {
+        "text": "What I learned, first I checked that things were numerically correct, but now I've learned these eigenvectors, and actually they're about as nice as can be."
+    },
+    {
+        "text": "They're the best orthogonal matrix, just the identity."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So my claim is that it ought to all fit together."
+    },
+    {
+        "text": "That this numeri- this, these numbers should come out right."
+    },
+    {
+        "text": "The numbers should come out right because the, the, matrix multiplications use the properties that we want."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So we just check that."
+    },
+    {
+        "text": "Here's the identity, so not doing anything."
+    },
+    {
+        "text": "Square root of thirty-two is multiplying that row, so that's square root of thirty-two divided by square root of two means square root of sixteen, four."
+    },
+    {
+        "text": "Correct?"
+    },
+    {
+        "text": "And square root of eighteen is divided by square root of two, so that leaves me square root of nine, which is three, but no, Professor Strang, you see the problem."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Why am I getting minus three three here, and here I'm getting three minus three?"
+    },
+    {
+        "text": "Phooey."
+    },
+    {
+        "text": "I don't know why."
+    },
+    {
+        "text": "It shouldn't have happened, but it did."
+    },
+    {
+        "text": "Now, okay, you could say, well, just, the eigenvector there could have, I could have had the minus sign here for that eigenvector, but I'm not happy about that."
+    },
+    {
+        "text": "Hm."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I realize there's a little catch here somewhere, and I may not see it until Wednesday, which then gives you a very important reason to come back on Wednesday, to catch that sign difference."
+    },
+    {
+        "text": "So what did I do illegally?"
+    },
+    {
+        "text": "I think I put the eigenvectors in that matrix V transpose."
+    },
+    {
+        "text": "Okay, I'm going to have to think, why did that come out, with the opposite sign?"
+    },
+    {
+        "text": "So you see, I mean, if I had a minus there, I would be all right, but I don't want that."
+    },
+    {
+        "text": "I want positive entries down the diagonal of sigma squared."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "It'll come to me, but I'm going to leave this example to finish."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And the beauty of, these sliding boards is, I can make that go away."
+    },
+    {
+        "text": "Can I, let me not do it, though."
+    },
+    {
+        "text": "Yes, let me take a second example."
+    },
+    {
+        "text": "Let me take a second example where the matrix is singular."
+    },
+    {
+        "text": "So rank one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So let me take as an example two, where my matrix A is going to be rectangular again."
+    },
+    {
+        "text": "Let me just make it four three eight six."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's a rank one matrix."
+    },
+    {
+        "text": "So that has a null space and only a one-dimensional row space and column space."
+    },
+    {
+        "text": "So actually, my picture becomes easy for this matrix, because what's my columns, my row space for this one?"
+    },
+    {
+        "text": "So this is two by two, so my pictures are both two dimensional."
+    },
+    {
+        "text": "My row space is all multiples of vector four three."
+    },
+    {
+        "text": "So the whole, the row space is just a line, right?"
+    },
+    {
+        "text": "That's the row space."
+    },
+    {
+        "text": "And the null space, of course, is the perpendicular line."
+    },
+    {
+        "text": "So the row space for this matrix is multiples of four three."
+    },
+    {
+        "text": "Typical row."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What's the column space?"
+    },
+    {
+        "text": "The columns are all multiples of four eight, three six, one two."
+    },
+    {
+        "text": "The column space, then, goes in, like, this direction."
+    },
+    {
+        "text": "So the column space, when I look at those columns, the column space, it was only one dimensional, because the rank is one."
+    },
+    {
+        "text": "It's multiples of four eight."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And what's the null space of A transpose?"
+    },
+    {
+        "text": "It's the perpendicular guy."
+    },
+    {
+        "text": "There's the, so this was the null space of A, and this is the null space of A transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What I want to say here is that the, that choosing these orthogonal bases for the row space and the column space is, like, no problem."
+    },
+    {
+        "text": "They're only one dimensional."
+    },
+    {
+        "text": "So what should v be?"
+    },
+    {
+        "text": "v should be v1, but, yeah, v1, rather."
+    },
+    {
+        "text": "v1 is supposed to be a unit vector."
+    },
+    {
+        "text": "There's only one v1 to choose here, only one dimension in the row space."
+    },
+    {
+        "text": "I just want to make it a unit vector."
+    },
+    {
+        "text": "So v1 will be, it'll be this vector, but made into a unit vector, so four, point eight, point six."
+    },
+    {
+        "text": "Four fifths, three fifths."
+    },
+    {
+        "text": "And what will be u1?"
+    },
+    {
+        "text": "u1 will be the unit vector there, so I want to turn four eight or one two into a unit vector, so u1 will be, let's see, if it's one two, then what multiple of one two do I want?"
+    },
+    {
+        "text": "That has length square root of five, so I have to divide by square root of five."
+    },
+    {
+        "text": "Let me complete the singular value decomposition for this matrix."
+    },
+    {
+        "text": "So this matrix, four three eight six, is, so I know what u1, here's A, and I want to get u, the basis in the column space, and it has to start with this guy."
+    },
+    {
+        "text": "One over square root of five, two over square root of five."
+    },
+    {
+        "text": "Then I want the sigma."
+    },
+    {
+        "text": "OK. What are we expecting now for sigma?"
+    },
+    {
+        "text": "Where is, this is only a rank one matrix, we're only expecting a sigma one, which I have to find, but zero's here."
+    },
+    {
+        "text": "OK, so what's sigma one?"
+    },
+    {
+        "text": "We should see it, it should be the, where did these sigmas come from?"
+    },
+    {
+        "text": "They came from A transpose A, so I, can I do that little calculation over here?"
+    },
+    {
+        "text": "A transpose A is four three, four three eight six times four three eight six."
+    },
+    {
+        "text": "This had better, this is a rank one matrix, this is going to be, the whole thing will have rank one, that's sixteen and sixty four is eighty, twelve and forty eight is sixty, twelve and forty eight is sixty, nine and thirty six is forty five."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "It's a rank one matrix."
+    },
+    {
+        "text": "Of course."
+    },
+    {
+        "text": "Every row is a multiple of four three."
+    },
+    {
+        "text": "And what's the eigen, what are the eigenvalues of that matrix?"
+    },
+    {
+        "text": "So this is like, the calculation is like practicing now."
+    },
+    {
+        "text": "What are the eigenvalues of this rank one matrix?"
+    },
+    {
+        "text": "Well, tell me one eigenvalue, since the rank is only one, one eigenvalue is going to be zero."
+    },
+    {
+        "text": "And then you know that the other eigenvalue is going to be a hundred and twenty five."
+    },
+    {
+        "text": "So that's sigma squared, right, in A transpose A."
+    },
+    {
+        "text": "So this will be the square root of a hundred and twenty five."
+    },
+    {
+        "text": "And then finally, the V transpose, the Vs will be, there's V1, and what's V2?"
+    },
+    {
+        "text": "What's V2 in the, what's, how do I make this into a orthonormal basis?"
+    },
+    {
+        "text": "Well, V2 is in the null space direction."
+    },
+    {
+        "text": "It's perpendicular to that, so point six and minus point eight."
+    },
+    {
+        "text": "So those are the Vs that go in here."
+    },
+    {
+        "text": "Point eight, point six, and point six minus point eight."
+    },
+    {
+        "text": "OK. And I guess I better finish this guy."
+    },
+    {
+        "text": "So this guy, all I want is to complete the orthonormal basis."
+    },
+    {
+        "text": "It'll be coming from there, it'll be a two over square root of five and a minus one over square root of five."
+    },
+    {
+        "text": "I could have take, let me take square root of five out of that matrix to make it look better."
+    },
+    {
+        "text": "So one over square root of five times one, one, two, two, minus one."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So there I have, including the square root of five, that's an orthogonal matrix, that's an orthogonal matrix, that's a diagonal matrix, and its rank is only one."
+    },
+    {
+        "text": "And now if I do that multiplication, I pray that it comes out right."
+    },
+    {
+        "text": "The square root of five will cancel into that square root of one twenty-five and leave me with the square root of twenty-five, which is five, and five will multiply these numbers and I'll get whole numbers and out will come A. OK. That's a second, like, a second example showing how the null space guy, so this, this vector and the, and this one were multiplied by this zero, so they, they were easy to deal with."
+    },
+    {
+        "text": "It was the key ones are the ones in the column space and the row space."
+    },
+    {
+        "text": "Do you see how I'm getting columns here, diagonal here, rows here, coming together to produce A?"
+    },
+    {
+        "text": "OK. That's the singular value decomposition."
+    },
+    {
+        "text": "So, let, let me think what I want to add to, to complete this topic."
+    },
+    {
+        "text": "Sort of what we're really doing."
+    },
+    {
+        "text": "So that's two examples."
+    },
+    {
+        "text": "And now let's think what we're really doing."
+    },
+    {
+        "text": "We're, we're choosing the right basis for the four subspaces of linear algebra."
+    },
+    {
+        "text": "Let me, let me, let me write this down."
+    },
+    {
+        "text": "So V1 up to Vr is an orthonormal basis for the row space."
+    },
+    {
+        "text": "U1 up to Ur is an orthonormal basis for the column space."
+    },
+    {
+        "text": "And then I just finish those out by Vr plus one, the rest up to Vn is an orthonormal basis for the null space."
+    },
+    {
+        "text": "And finally, Ur plus one up to Um is an orthonormal basis for the null space of A transpose."
+    },
+    {
+        "text": "Do you see that we finally got the bases right?"
+    },
+    {
+        "text": "They're right because they're orthonormal and also, I mean, the, again, Graham-Schmidt would have done this in chapter four."
+    },
+    {
+        "text": "Here we needed eigenvalues because these bases make the matrix diagonal."
+    },
+    {
+        "text": "A times Vi is a multiple of Ui."
+    },
+    {
+        "text": "So I'll put and."
+    },
+    {
+        "text": "The matrix has been made diagonal."
+    },
+    {
+        "text": "When we choose these bases, there's no coupling between Vs and no coupling between Us."
+    },
+    {
+        "text": "Each A, A times each V is in the direction of the corresponding U."
+    },
+    {
+        "text": "So it's exactly the right basis for the four fundamental subspaces."
+    },
+    {
+        "text": "And of course, their dimensions are what we know."
+    },
+    {
+        "text": "The dimension of the row space is the rank r, and so is the dimension of the column space."
+    },
+    {
+        "text": "The dimension of the null space is n minus r, that's how many vectors we need, and m minus r basis vectors for the left null space, the null space of A transpose."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'm going to stop there."
+    },
+    {
+        "text": "I could develop further from the SVD, but we'll see it again in the very last lectures of the course."
+    },
+    {
+        "text": "There's the SVD."
+    },
+    {
+        "text": "Thanks."
+    }
+]

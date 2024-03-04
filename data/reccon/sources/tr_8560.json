@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Steven , we are preparing a martial arts show for the New Year's party . Would you like to join us ?",
+        "emotion": "neutral",
+        "text": "Steven , we are preparing a martial arts show for the New Year's party . Would you like to join us ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd love to ! But I have never learned martial arts , and there is only a month left before the New Year .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "we are preparing a martial arts show for the New Year's party . Would you like to join us ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'd love to ! But I have never learned martial arts , and there is only a month left before the New Year .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That's OK . A month is enough for you to learn the basic movements . It would be great to have you with us on the show .",
+        "emotion": "neutral",
+        "text": "That's OK . A month is enough for you to learn the basic movements . It would be great to have you with us on the show .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sounds great ! Shall I learn the actions that Jet Li did in the movies ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "A month is enough for you to learn the basic movements . It would be great to have you with us on the show ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds great ! Shall I learn the actions that Jet Li did in the movies ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No . You know , there are many schools and styles of kung fu . What we will perform is a set of Chinese shadow boxing .",
+        "emotion": "neutral",
+        "text": "No . You know , there are many schools and styles of kung fu . What we will perform is a set of Chinese shadow boxing .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Whatever ! I'm glad to learn something of Chinese kung fu . Thanks for asking me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm glad to learn something of Chinese kung fu ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Whatever ! I'm glad to learn something of Chinese kung fu . Thanks for asking me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you for joining us ! Now let's see some pictures and know more about kung fu .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Thank you for joining us !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for joining us ! Now let's see some pictures and know more about kung fu .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Good !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "let's see some pictures and know more about kung fu ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

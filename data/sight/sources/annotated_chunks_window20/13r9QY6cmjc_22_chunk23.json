@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Do you see why it does?"
+    },
+    {
+        "text": "This is the minus lambda squared plus lambda plus one."
+    },
+    {
+        "text": "It's the thing that's zero, because these lambdas are special."
+    },
+    {
+        "text": "There's the eigenvector."
+    },
+    {
+        "text": "X1 is lambda one, one, and x2 is lambda two, one."
+    },
+    {
+        "text": "I did that as a little trick that was available in the two by two case."
+    },
+    {
+        "text": "So now I finally have to, oh, I have to take the initial, u0."
+    },
+    {
+        "text": "So to complete this example entirely, I have to say, OK, what was u0?"
+    },
+    {
+        "text": "u0 was f1 f0."
+    },
+    {
+        "text": "So u0, the starting vector, is f1 f0, and those were one and zero."
+    },
+    {
+        "text": "So I have to use that vector, so I have to look for, from multiple of the first eigenvector and the second, to produce u0, the one zero vector."
+    },
+    {
+        "text": "This is what will find c1 and c2, and then I'm done."
+    },
+    {
+        "text": "So let me, instead of in the last five seconds grinding out a formula, let me repeat the idea."
+    },
+    {
+        "text": "That really, it's the idea that's central."
+    },
+    {
+        "text": "When things are evolving in time, let me come back to this board, because the ideas are here."
+    },
+    {
+        "text": "When things are evolving in time by a first-order system, starting from an original u0, the key is, find the eigenvalues and eigenvectors of A."
+    },
+    {
+        "text": "That will tell, those eigenvectors, the eigenvalues will already tell you what's happening."
+    },
+    {
+        "text": "Is the solution blowing up?"
+    },
+    {
+        "text": "Is it going to zero?"
+    },
+    {
+        "text": "What's it doing?"
+    }
+]

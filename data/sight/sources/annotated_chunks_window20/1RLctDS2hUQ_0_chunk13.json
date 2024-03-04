@@ -1,0 +1,62 @@
+[
+    {
+        "text": "In other words, c has to be a constant."
+    },
+    {
+        "text": "Doesn't depend on x."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "The third property."
+    },
+    {
+        "text": "What do I want to call the third property here?"
+    },
+    {
+        "text": "I have a sort of a preliminary property, yes."
+    },
+    {
+        "text": "Here."
+    },
+    {
+        "text": "Which is the following."
+    },
+    {
+        "text": "And I'll draw a picture of it."
+    },
+    {
+        "text": "Suppose you have three points along the line."
+    },
+    {
+        "text": "So then I'm going to draw a picture of that."
+    },
+    {
+        "text": "And I'm going to use the interpretation above the curve."
+    },
+    {
+        "text": "Even though that's not the whole thing."
+    },
+    {
+        "text": "So here's a, here's b, and here's c. And you can see that the area of this piece, of the first two pieces here, is, when added together, gives you the area of the whole."
+    },
+    {
+        "text": "And that's the rule that I'd like to tell you."
+    },
+    {
+        "text": "So if you integrate from a to b, and you add to that the integral from b to c, you'll get the integral from a to c. This is going to be just a little preliminary, because the rule is a little better than this."
+    },
+    {
+        "text": "But I will explain that in a minute."
+    },
+    {
+        "text": "The fourth rule is a very simple one."
+    },
+    {
+        "text": "Which is that the integral from a to a of f x dx is equal to 0."
+    },
+    {
+        "text": "That you can see very obviously, because there's no area, no horizontal movement there."
+    }
+]

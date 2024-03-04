@@ -1,0 +1,185 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I hate to go outside .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I hate to go outside ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I hate to go outside .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Me too .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I hate to go outside ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me too .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why do you hate to go outside ?",
+        "emotion": "neutral",
+        "text": "Why do you hate to go outside ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I meet too many jerks .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I meet too many jerks ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I meet too many jerks .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I agree .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I meet too many jerks ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I agree .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This city is full of jerks .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "This city is full of jerks ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This city is full of jerks .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Rude people are everywhere .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "This city is full of jerks .",
+            "Rude people are everywhere ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Rude people are everywhere .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But what can you do ?",
+        "emotion": "neutral",
+        "text": "But what can you do ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You can yell at them .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "This city is full of jerks .",
+            "Rude people are everywhere ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You can yell at them .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And they will yell back at you .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            10,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "And they will yell back at you .",
+            "This city is full of jerks .",
+            "Rude people are everywhere ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "And they will yell back at you .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yelling doesn't do any good .",
+        "emotion": "neutral",
+        "text": "Yelling doesn't do any good .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No . The best thing to do is just stay home .",
+        "emotion": "neutral",
+        "text": "No . The best thing to do is just stay home .",
+        "id": 12
+    }
+]

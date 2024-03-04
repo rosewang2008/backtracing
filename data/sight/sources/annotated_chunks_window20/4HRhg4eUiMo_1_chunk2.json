@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So psi is just the probability for theta that psi rejects, and that's defined for theta and theta 0."
+    },
+    {
+        "text": "So for different values of theta 0, so h0 being correct means there exists a theta in theta 0 for which that actually is the right distribution."
+    },
+    {
+        "text": "So for different values of theta, I might make different errors."
+    },
+    {
+        "text": "So if you think, for example, about the coin example, if I'm testing if the coin is biased towards heads or biased towards tails, so if I'm testing whether p is larger than 1 half or less than 1 half, then when the true p, let's say h0 is larger than 1 half, when p is equal to 1, it's actually very difficult for me to make a mistake, because I only see heads."
+    },
+    {
+        "text": "So when p is getting closer to 1 half, I'm going to start making more and more probability there."
+    },
+    {
+        "text": "And so the type 2 error, so that's the probability of type 2, is denoted by beta psi."
+    },
+    {
+        "text": "And it's the function that does the opposite, and this time is defined for theta and theta 0 and theta 1."
+    },
+    {
+        "text": "And finally, we define something called the power pi of psi."
+    },
+    {
+        "text": "And this time, this is actually a number."
+    },
+    {
+        "text": "And so this number is equal to the maximum over theta and theta 0."
+    },
+    {
+        "text": "I mean, that could be a supremum, but think of it as being a maximum of p theta of psi is equal, sorry, that's in 0."
+    },
+    {
+        "text": "Give me one sec."
+    },
+    {
+        "text": "No, that's the min."
+    },
+    {
+        "text": "So this is not making a mistake."
+    },
+    {
+        "text": "Theta 0 is in theta 1."
+    },
+    {
+        "text": "So theta is in theta 1, and I conclude 1."
+    },
+    {
+        "text": "So this is a good thing."
+    },
+    {
+        "text": "I want this number to be large, and I'm looking at the worst house, what is the smallest value this number can be."
+    },
+    {
+        "text": "So what I want to show you a little bit is a picture."
+    },
+    {
+        "text": "So now I'm going to take theta, and think of it as being p. So I'm going to take p for some Bernoulli experiment."
+    }
+]

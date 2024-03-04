@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this is a pretty good approximation to how far you traveled."
+    },
+    {
+        "text": "And so the sum is a very realistic approximation to the entire integral, which is denoted this way."
+    },
+    {
+        "text": "Which, by the fundamental theorem, is exactly how far you traveled."
+    },
+    {
+        "text": "So this is x sub b minus x sub a."
+    },
+    {
+        "text": "Exactly."
+    },
+    {
+        "text": "The other one is approximate."
+    },
+    {
+        "text": "Again, this is called a Riemann sum."
+    },
+    {
+        "text": "Alright, so that's the intro to the fundamental theorem."
+    },
+    {
+        "text": "And now what I need to do is extend it just a bit."
+    },
+    {
+        "text": "And the way I'm going to extend it is the following."
+    },
+    {
+        "text": "I'm going to do it on this example first."
+    },
+    {
+        "text": "And then we'll do it more formally."
+    },
+    {
+        "text": "So here's this example where we went someplace."
+    },
+    {
+        "text": "But now I just want to draw you an additional picture here."
+    },
+    {
+        "text": "Imagine I start here, and I go over to there, and then I come back."
+    },
+    {
+        "text": "And maybe even I do a round trip."
+    },
+    {
+        "text": "I come back to the same place."
+    },
+    {
+        "text": "Well, if I come back to the same place, then the position is unchanged from the beginning to the end."
+    },
+    {
+        "text": "In other words, the difference is 0."
+    },
+    {
+        "text": "And the velocity, technically rather than the speed, it's the speed to the right and the speed to the left maybe are the same."
+    }
+]

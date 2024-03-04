@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK . I'll be happy to join you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Shall we have dinner together ?",
+            "I know a place that has excellent food .",
+            "I'll be happy to join you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "OK . I'll be happy to join you .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

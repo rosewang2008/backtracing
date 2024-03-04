@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It solves difference equations."
+    },
+    {
+        "text": "I would call that a difference equation."
+    },
+    {
+        "text": "It's conne- a first order."
+    },
+    {
+        "text": "I would call that a first order system, because it connects only, it only goes up one level."
+    },
+    {
+        "text": "And it's a system because these are vectors and that's a matrix."
+    },
+    {
+        "text": "And the solution is just that."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "But, that's a nice formula."
+    },
+    {
+        "text": "That's the, like, the most compact formula I could ever get."
+    },
+    {
+        "text": "U one hundred would be a to the one hundredth u0."
+    },
+    {
+        "text": "But how would I actually find u one hundred?"
+    },
+    {
+        "text": "How would I find, how would I discover what u one hundred is?"
+    },
+    {
+        "text": "Let me, let me show you how."
+    },
+    {
+        "text": "Here, here's the idea."
+    },
+    {
+        "text": "If, so, to solve, to really solve, shall I say, to really solve."
+    },
+    {
+        "text": "To really solve it, I would take this initial vector, u0, and I would write it as a combination of eigenvectors."
+    },
+    {
+        "text": "To really solve, write, write u0 as a combination, say, certain amount of the first eigenvector plus a certain amount of the second eigenvector plus a certain amount of the last eigenvector."
+    },
+    {
+        "text": "Now multiply by a."
+    },
+    {
+        "text": "You want to, you got to see the magic of eigenvectors work."
+    },
+    {
+        "text": "Multiply by a."
+    }
+]

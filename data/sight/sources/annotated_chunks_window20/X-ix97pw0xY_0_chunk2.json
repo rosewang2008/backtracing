@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the link was exactly mu of x was equal to x transpose beta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, we are talking about generalized linear models."
+    },
+    {
+        "text": "So this part here, where mu of x is of the form, the way I want my beta, my x, to show up is linear."
+    },
+    {
+        "text": "This will never be questioned."
+    },
+    {
+        "text": "In principle, I could add a third point, which is just question this part, the fact that mu of x is x transpose beta."
+    },
+    {
+        "text": "I could have some more complicated nonlinear function of x."
+    },
+    {
+        "text": "And I will never do that, because we're talking about generalized linear model."
+    },
+    {
+        "text": "The only thing with generalized are the random component, the conditional distribution of y given x, and the link that just says, well, once you actually tell me that the only thing I need to figure out is the mean, I'm just going to slap it exactly this x transpose beta thing without any transformation of x transpose beta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So those are the two things."
+    },
+    {
+        "text": "It will become clearer what I mean."
+    },
+    {
+        "text": "This sounds like a tautology, but let's just see how we could extend that."
+    },
+    {
+        "text": "So what we're going to do in generalized linear models, so when I talk about GLMs, the first thing I'm going to do with my x is turn it into some x transpose beta."
+    },
+    {
+        "text": "And that's just the L part."
+    },
+    {
+        "text": "This I'm not going to be able to change."
+    },
+    {
+        "text": "That's the way it works."
+    },
+    {
+        "text": "I'm not going to do anything nonlinear."
+    },
+    {
+        "text": "But the two things I'm going to change is this random component, which is that y, which used to be some Gaussian with mean mu of x variance sigma squared."
+    },
+    {
+        "text": "So y given x, sorry."
+    }
+]

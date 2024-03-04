@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'm really looking forward to reading your column .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I think I could manage to bring a free copy home for you .",
+            "I'm really looking forward to reading your column ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm really looking forward to reading your column .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you been ever been to Disneyworld ?",
+        "emotion": "neutral",
+        "text": "Have you been ever been to Disneyworld ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "When I was young , my parents took me to the one in California . I always forget which -- is that one Disneyland or Disneyworld ?",
+        "emotion": "neutral",
+        "text": "When I was young , my parents took me to the one in California . I always forget which -- is that one Disneyland or Disneyworld ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The one in Florida is Disneyworld and the one in California is Disneyland , so you must have been to Disneyland .",
+        "emotion": "neutral",
+        "text": "The one in Florida is Disneyworld and the one in California is Disneyland , so you must have been to Disneyland .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's right . Why do you ask ?",
+        "emotion": "neutral",
+        "text": "That's right . Why do you ask ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , I've never been to either so I was thinking of going to Disneyworld for my honeymoon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I was thinking of going to Disneyworld for my honeymoon ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I've never been to either so I was thinking of going to Disneyworld for my honeymoon .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "When are getting married ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "my honeymoon .",
+            "getting married"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "When are getting married ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Some time next year . We haven't set the date yet .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "getting married",
+            "Some time next year ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Some time next year . We haven't set the date yet .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Congratulations ! I had no idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "getting married",
+            "Some time next year ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Congratulations ! I had no idea .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you . So what do you think ? Would we have a good time ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I was thinking of going to Disneyworld for my honeymoon .",
+            "Congratulations !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you . So what do you think ? Would we have a good time ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Do you like amusement parks ?",
+        "emotion": "neutral",
+        "text": "Do you like amusement parks ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "For the most part , yes . Some of the rides are bit too scary for me , though .",
+        "emotion": "neutral",
+        "text": "For the most part , yes . Some of the rides are bit too scary for me , though .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "If you don't think twice about the rides and go on every ride that you can , you'll have a good time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "If you don't think twice about the rides and go on every ride that you can , you'll have a good time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "If you don't think twice about the rides and go on every ride that you can , you'll have a good time .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Even the roller coasters that go through tunnels in the dark ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "If you don't think twice about the rides and go on every ride that you can , you'll have a good time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Even the roller coasters that go through tunnels in the dark ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Even those . It'll be very romantic , I think . You'll have loads of fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It'll be very romantic , I think . You'll have loads of fun ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Even those . It'll be very romantic , I think . You'll have loads of fun .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks for the advice . I'll talk to my fiance about it tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It'll be very romantic , I think . You'll have loads of fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for the advice . I'll talk to my fiance about it tonight .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I'm sure he'll love the idea . Just throw yourself into it and you'll enjoy it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I'm sure he'll love the idea . Just throw yourself into it and you'll enjoy it !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sure he'll love the idea . Just throw yourself into it and you'll enjoy it !",
+        "id": 16
+    }
+]

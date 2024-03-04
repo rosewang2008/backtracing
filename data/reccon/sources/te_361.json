@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I have my check , please .",
+        "emotion": "neutral",
+        "text": "Can I have my check , please .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Here it is . 350 Yuan all together .",
+        "emotion": "neutral",
+        "text": "Here it is . 350 Yuan all together .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "May son adores my new hairstyle so I suppose it is worth it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "May son adores my new hairstyle"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "May son adores my new hairstyle so I suppose it is worth it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hearing you say that is a big reward for us . And here is the receipt .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "May son adores my new hairstyle so I suppose it is worth it .",
+            "Hearing you say that is a big reward for us ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hearing you say that is a big reward for us . And here is the receipt .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Hearing you say that is a big reward for us . And here is the receipt ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wait ! Congratulations ! You are the lucky customer of our anniversary celebration .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "You are the lucky customer of our anniversary celebration ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wait ! Congratulations ! You are the lucky customer of our anniversary celebration .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , it's surprising . So what do I get ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Congratulations ! You are the lucky customer of our anniversary celebration ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , it's surprising . So what do I get ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You can have a free facial and then make up free for you . Do you want it now ?",
+        "emotion": "neutral",
+        "text": "You can have a free facial and then make up free for you . Do you want it now ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Probably not . Doing that will probably take another three hours which I can't afford now .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Probably not . Doing that will probably take another three hours which I can't afford now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Probably not . Doing that will probably take another three hours which I can't afford now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Here is our number . Call us when you are ready to come .",
+        "emotion": "neutral",
+        "text": "Here is our number . Call us when you are ready to come .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You mean I should make an appointment ahead of time ?",
+        "emotion": "neutral",
+        "text": "You mean I should make an appointment ahead of time ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Got it . Bye for now .",
+        "emotion": "neutral",
+        "text": "Got it . Bye for now .",
+        "id": 13
+    }
+]

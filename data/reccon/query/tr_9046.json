@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "exactly ! Oh , my god ! I love Britney ! I'm going to get it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Hey , look , that's the same shirt Britney wore in her concert .",
+            "Oh , my god ! I love Britney ! I'm going to get it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "exactly ! Oh , my god ! I love Britney ! I'm going to get it .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

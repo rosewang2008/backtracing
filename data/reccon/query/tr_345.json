@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Come on , don ' t flatter me anymore . I took the job because I love being challenged . But I can ' t get this turned around without the support from you people .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "the effort pays off . You have accomplished something .",
+            "I took the job because I love being challenged . But I can ' t get this turned around without the support from you people ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Come on , don ' t flatter me anymore . I took the job because I love being challenged . But I can ' t get this turned around without the support from you people .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

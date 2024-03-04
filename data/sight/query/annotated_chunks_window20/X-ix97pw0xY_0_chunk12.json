@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 0,
+        "timestamp": 1684191675943.0,
+        "annotatedSourceSentencesIndices": [
+            12
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Sorry I'm having trouble keeping up, but for the Poisson example, where does that expression for mu(x) come from?\n\n\nThis is terrific by the way- thank you MIT for helping me stay even a little afloat in one of my classes."
+    }
+]

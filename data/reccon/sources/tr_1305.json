@@ -1,0 +1,115 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Please come in !",
+        "emotion": "neutral",
+        "text": "Please come in !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi . Steven . I just drop in and want to have a chat with you .",
+        "emotion": "neutral",
+        "text": "Hi . Steven . I just drop in and want to have a chat with you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , so nice of you to come here . Have a seat . Please make yourself at home .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "want to have a chat with you .",
+            "so nice of you to come here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , so nice of you to come here . Have a seat . Please make yourself at home .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK . ( Sit on the sofa ) Wow ! Your house was decorated so beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Your house was decorated so beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "OK . ( Sit on the sofa ) Wow ! Your house was decorated so beautiful .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you . My wife would be very happy to hear this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Your house was decorated so beautiful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . My wife would be very happy to hear this .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "She must have done a lot of work on it .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Your house was decorated so beautiful ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "She must have done a lot of work on it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You bet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Your house was decorated so beautiful .",
+            "She must have done a lot of work"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You bet .",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

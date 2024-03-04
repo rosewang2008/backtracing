@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Then it's minus 1 over 3 plus delta x times 3."
+    },
+    {
+        "text": "That's the situation that we've got."
+    },
+    {
+        "text": "And now the question is, what happens as this number gets smaller and smaller and smaller and gets to be practically 0?"
+    },
+    {
+        "text": "Well, literally what we can do is just plug in 0 there."
+    },
+    {
+        "text": "Then you get 3 plus 0 times 3 in the denominator."
+    },
+    {
+        "text": "Minus 1 in the numerator."
+    },
+    {
+        "text": "So this tends to minus 1 over 9, over 3 squared."
+    },
+    {
+        "text": "And that's what I'm saying in general with this extra number here."
+    },
+    {
+        "text": "Other questions?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 2 How do you simplify from delta f over delta x?"
+    },
+    {
+        "text": "How do you simplify from your equation to 1 over delta x factor of?"
+    },
+    {
+        "text": "So the question is, what happened between this step and this step?"
+    },
+    {
+        "text": "Explain this step here."
+    },
+    {
+        "text": "So there were two parts to that."
+    },
+    {
+        "text": "The first is, this delta x which was sitting in the denominator, I factored all the way out front."
+    },
+    {
+        "text": "And so what's in the parentheses is supposed to be the same as what's in the numerator of this other expression."
+    },
+    {
+        "text": "And then, at the same time as doing that, I put that expression, which is the difference of two fractions, I expressed it with a common denominator."
+    },
+    {
+        "text": "So in the denominator here, you see the product of the denominators of the two fractions."
+    },
+    {
+        "text": "And then I just figured out what the numerator had to be."
+    }
+]

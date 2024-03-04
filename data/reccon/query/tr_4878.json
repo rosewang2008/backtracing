@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thank you . Do you need something else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I will take two bottles ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Do you need something else ?",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

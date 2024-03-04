@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this is a Bernoulli random variable, right?"
+    },
+    {
+        "text": "And it has some parameter p. But p now is going to depend, sorry, in here, y is n mu sigma squared."
+    },
+    {
+        "text": "So the p, the probability that this thing is positive, is actually, I don't think I put the 0."
+    },
+    {
+        "text": "Oh yeah, because I have mu."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this distribution, this p, the probability that it's positive, is just the probability that some Gaussian is positive."
+    },
+    {
+        "text": "And it will depend on mu and sigma, right?"
+    },
+    {
+        "text": "Because if I draw, if I have 0, and I draw my Gaussian around mu, then the probability of this Bernoulli being 1 is really the area under the curve here."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "And this thing, well, if mu is very large, it's going to become very large."
+    },
+    {
+        "text": "If mu is very small, it's going to become very small."
+    },
+    {
+        "text": "And if sigma changes, it's also going to affect it."
+    },
+    {
+        "text": "Is that clear to everyone?"
+    },
+    {
+        "text": "But we can actually compute this, right?"
+    },
+    {
+        "text": "So the parameter p that I'm looking for here as a function of mu and sigma is simply the probability that some y is non-negative, which is the probability that y minus mu divided by sigma is larger than minus mu divided by sigma."
+    },
+    {
+        "text": "By the way, when you studied probability, is that some operation you were used to making, removing the mean and dividing by the standard deviation?"
+    },
+    {
+        "text": "What is the effect of doing that on the Gaussian random variable?"
+    },
+    {
+        "text": "Yeah, so you normalize it, right?"
+    },
+    {
+        "text": "You standardize it."
+    },
+    {
+        "text": "You actually make it a standard Gaussian."
+    }
+]

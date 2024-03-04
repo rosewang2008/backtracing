@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, good, good, good."
+    },
+    {
+        "text": "Now it's the derivatives, two derivatives to find, dF dx and dF dy."
+    },
+    {
+        "text": "Suppose we go forward first."
+    },
+    {
+        "text": "My point is going to be, or the great point is that backward is better."
+    },
+    {
+        "text": "Reverse mode is better."
+    },
+    {
+        "text": "But we don't know what that means until we've gone forward."
+    },
+    {
+        "text": "So let me go forward."
+    },
+    {
+        "text": "So now I'm going to go forward."
+    },
+    {
+        "text": "Forward."
+    },
+    {
+        "text": "So what do we?"
+    },
+    {
+        "text": "Let's do dF dx, OK?"
+    },
+    {
+        "text": "Everybody's up for dF dx, the partial derivative with respect to x."
+    },
+    {
+        "text": "So here we have x equal 2 and y equal 3."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And then I've got to take the derivative of that step."
+    },
+    {
+        "text": "The first step was x to x cubed."
+    },
+    {
+        "text": "So I need the derivative."
+    },
+    {
+        "text": "The whole point of AD is that the computation, every computation of a derivative breaks down like this into very simple pieces."
+    },
+    {
+        "text": "And the derivatives of those simple pieces are also simple pieces."
+    },
+    {
+        "text": "So the whole point is to replace appropriately those intermediate steps with derivatives, so as to compute the x derivative."
+    }
+]

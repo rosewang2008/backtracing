@@ -1,0 +1,903 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "I wonder.",
+        "emotion": "excited",
+        "explanation": "the speaker is excited to be alone in a space with A without anyone else knowing",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I wonder.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "what, Nobody knows we are here except Freda and she wouldn't ring up.",
+        "emotion": "excited",
+        "explanation": "the speaker is excited to be alone in a space with B without anyone else knowing",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "what, Nobody knows we are here except Freda and she wouldn't ring up.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do we do?",
+        "emotion": "excited",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "What do we do?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We're all right, aren't we, darling, whatever happens?",
+        "emotion": "neutral",
+        "text": "We're all right, aren't we, darling, whatever happens?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Now and always, my sweet.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "We're all right, aren't we, darling, whatever happens?",
+            "Now and always, my sweet."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Now and always, my sweet.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't care then.",
+        "emotion": "excited",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "We're all right, aren't we, darling, whatever happens?",
+            "Now and always, my sweet."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "I don't care then.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It was bound to happen sooner or later.",
+        "emotion": "excited",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "It was bound to happen sooner or later."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It was bound to happen sooner or later.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Oh, it sent shivers up my spine.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "It was bound to happen sooner or later.",
+            "it sent shivers up my spine."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh, it sent shivers up my spine.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "Oh, what shall we do if they suddenly walk in on us.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, what shall we do if they suddenly walk in on us.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "With the worst- with the most perfect poise?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "With the worst- with the most perfect poise?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "B",
+        "utterance": "Uhh, It's amazing how once you feel--",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?",
+            "It's amazing how once you feel--"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Uhh, It's amazing how once you feel--",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "things that ought to matter most dreadfully don't matter at all when one's happy, do they?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?",
+            "It's amazing how once you feel--",
+            "things that ought to matter most dreadfully don't matter at all when one's happy,"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "things that ought to matter most dreadfully don't matter at all when one's happy, do they?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "Uhh, You mustn't say that, my darling.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?",
+            "It's amazing how once you feel--",
+            "things that ought to matter most dreadfully don't matter at all when one's happy,"
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Uhh, You mustn't say that, my darling.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Being that sacred and wonderful thing, love.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10,
+            11,
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?",
+            "It's amazing how once you feel--",
+            "things that ought to matter most dreadfully don't matter at all when one's happy,",
+            "Being that sacred and wonderful thing, love."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Being that sacred and wonderful thing, love.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Um What does it all mean? That's what I ask myself in my endless quest for ultimate truth. Dear God, what does it all mean?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody knows we are here except Freda and she wouldn't ring up.",
+            "they suddenly walk in on us.",
+            "with the most perfect poise?",
+            "It's amazing how once you feel--",
+            "things that ought to matter most dreadfully don't matter at all when one's happy,",
+            "Being that sacred and wonderful thing, love.",
+            "What does it all mean? That's what I ask myself in my endless quest for ultimate truth. Dear God, what does it all mean?"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Um What does it all mean? That's what I ask myself in my endless quest for ultimate truth. Dear God, what does it all mean?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "Don't laugh at me. I'm serious.",
+        "emotion": "neutral",
+        "text": "Don't laugh at me. I'm serious.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "You mustn't be serious, darling. That's just what they want.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "You mustn't be serious, darling. That's just what they want."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You mustn't be serious, darling. That's just what they want.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "Who's they?",
+        "emotion": "neutral",
+        "text": "Who's they?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "All the futile mortals who try to make life unbearable. Laugh at them, Be flippant. Laugh at everything, all their sacred shibboleths.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            17,
+            19
+        ],
+        "expanded emotion cause span": [
+            "You mustn't be serious, darling. That's just what they want.",
+            "All the futile mortals who try to make life unbearable. Laugh at them, Be flippant. Laugh at everything, all their sacred shibboleths."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "All the futile mortals who try to make life unbearable. Laugh at them, Be flippant. Laugh at everything, all their sacred shibboleths.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "uh- the- Being flippant brings out the acid in their damned beauty and light.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            17,
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "You mustn't be serious, darling. That's just what they want.",
+            "All the futile mortals who try to make life unbearable. Laugh at them, Be flippant. Laugh at everything, all their sacred shibboleths.",
+            "Being flippant brings out the acid in their damned beauty and light."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "uh- the- Being flippant brings out the acid in their damned beauty and light.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "If I laugh at everything, then I must laugh at us too.",
+        "emotion": "neutral",
+        "text": "If I laugh at everything, then I must laugh at us too.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Certainly you must. We are figures of fun all right.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Certainly you must. We are figures of fun all right.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Well, will we always bicker and fight?",
+        "emotion": "neutral",
+        "text": "Well, will we always bicker and fight?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "No. That fire will fade along with our passion.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No. That fire will fade along with our passion.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "What if one of us dies, does the other one laugh then?",
+        "emotion": "neutral",
+        "text": "What if one of us dies, does the other one laugh then?",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Yes, yes, with all his might.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22,
+            25,
+            26
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right.",
+            "What if one of us dies, does the other one laugh then?",
+            "Yes, yes, with all his might."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes, yes, with all his might.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "No, no that is quit laughable. The cutting little mystery all done with mirrors.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22,
+            25,
+            26,
+            27
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right.",
+            "What if one of us dies, does the other one laugh then?",
+            "Yes, yes, with all his might.",
+            "The cutting little mystery all done with mirrors."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No, no that is quit laughable. The cutting little mystery all done with mirrors.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "So is everyone else in the long run. Let's be superficial and pity the poor philosophers. Let's blow trumpets and squeakers and enjoy the party as long as we can, like little quiet idiotic school children.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22,
+            25,
+            26,
+            27,
+            28
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right.",
+            "What if one of us dies, does the other one laugh then?",
+            "Yes, yes, with all his might.",
+            "The cutting little mystery all done with mirrors.",
+            "So is everyone else in the long run. Let's be superficial and pity the poor philosophers. Let's blow trumpets and squeakers and enjoy the party as long as we can, like little quiet idiotic school children."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "So is everyone else in the long run. Let's be superficial and pity the poor philosophers. Let's blow trumpets and squeakers and enjoy the party as long as we can, like little quiet idiotic school children.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "[garbage] Darling, kiss me before your body rots and worms start popping in and out of your eye sockets.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            21,
+            22,
+            25,
+            26,
+            27,
+            28,
+            29
+        ],
+        "expanded emotion cause span": [
+            "If I laugh at everything, then I must laugh at us too.",
+            "Certainly you must. We are figures of fun all right.",
+            "What if one of us dies, does the other one laugh then?",
+            "Yes, yes, with all his might.",
+            "The cutting little mystery all done with mirrors.",
+            "So is everyone else in the long run. Let's be superficial and pity the poor philosophers. Let's blow trumpets and squeakers and enjoy the party as long as we can, like little quiet idiotic school children.",
+            "Darling, kiss me before your body rots and worms start popping in and out of your eye sockets."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "[garbage] Darling, kiss me before your body rots and worms start popping in and out of your eye sockets.",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "Elliott, worms don't pop.",
+        "emotion": "neutral",
+        "text": "Elliott, worms don't pop.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "B",
+        "utterance": "I don't care what you do. See, you could paint your body bright green and and run naked through the Place Vendome and run with every man in the world and I shan't say a word. As long as I know that you love me best.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            31
+        ],
+        "expanded emotion cause span": [
+            "you love me best."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't care what you do. See, you could paint your body bright green and and run naked through the Place Vendome and run with every man in the world and I shan't say a word. As long as I know that you love me best.",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "B",
+        "utterance": "Do you remember that awful scene we had in Venice?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you remember that awful scene we had in Venice?",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "The one where you bought that little painted wooden stake and you put it on my bed.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32,
+            33
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?",
+            "you bought that little painted wooden stake and you put it on my bed."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "The one where you bought that little painted wooden stake and you put it on my bed.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "Horrible thing. I hated it.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32,
+            33,
+            34
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?",
+            "you bought that little painted wooden stake and you put it on my bed.",
+            "Horrible thing. I hated it."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Horrible thing. I hated it.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "A",
+        "utterance": "I know you did. You threw it out the window into the Canal below. I don't think I'll ever forgive you for that.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32,
+            33,
+            34,
+            35
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?",
+            "you bought that little painted wooden stake and you put it on my bed.",
+            "Horrible thing. I hated it.",
+            "You threw it out the window into the Canal below."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I know you did. You threw it out the window into the Canal below. I don't think I'll ever forgive you for that.",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "B",
+        "utterance": "How long did that roue last?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32,
+            33,
+            34,
+            35
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?",
+            "you bought that little painted wooden stake and you put it on my bed.",
+            "Horrible thing. I hated it.",
+            "You threw it out the window into the Canal below."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "How long did that roue last?",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "B",
+        "utterance": "Oh, The worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32,
+            33,
+            34,
+            35,
+            37
+        ],
+        "expanded emotion cause span": [
+            "that awful scene we had in Venice?",
+            "you bought that little painted wooden stake and you put it on my bed.",
+            "Horrible thing. I hated it.",
+            "You threw it out the window into the Canal below.",
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh, The worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "A",
+        "utterance": "Oh, It burnt my comb and all the towels in the bathroom.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, It burnt my comb and all the towels in the bathroom.",
+        "id": 38,
+        "source_sentences": [
+            36
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 39,
+        "speaker": "B",
+        "utterance": "[LAUGHTER] That was quit a rouser, wasn't it?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            37,
+            38,
+            39
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom.",
+            "That was quit a rouser"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "[LAUGHTER] That was quit a rouser, wasn't it?",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "B",
+        "utterance": "Oh, I didn't hit you very hard.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            37,
+            38,
+            39,
+            40
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom.",
+            "That was quit a rouser",
+            "I didn't hit you very hard."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh, I didn't hit you very hard.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "B",
+        "utterance": "I should never forget his face. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom.",
+            "That was quit a rouser",
+            "I didn't hit you very hard.",
+            "I should never forget his face."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I should never forget his face. [LAUGHTER]",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "B",
+        "utterance": "We were very much younger then.",
+        "emotion": "excited",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom.",
+            "That was quit a rouser",
+            "I didn't hit you very hard.",
+            "I should never forget his face.",
+            "We were very much younger then."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "We were very much younger then.",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "A",
+        "utterance": "You knew there was nothing in that.",
+        "emotion": "neutral",
+        "text": "You knew there was nothing in that.",
+        "id": 43
+    }
+]

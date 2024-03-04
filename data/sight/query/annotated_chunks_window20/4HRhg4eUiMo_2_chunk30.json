@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 2,
+        "timestamp": 1684518443888.0,
+        "annotatedSourceSentencesIndices": [
+            14
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "What about non parameric testing ?"
+    }
+]

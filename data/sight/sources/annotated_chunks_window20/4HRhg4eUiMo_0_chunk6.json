@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And it's actually, by definition, equal to beta psi of theta."
+    },
+    {
+        "text": "Now, where do I read pi psi?"
+    },
+    {
+        "text": "What is pi psi on this picture?"
+    },
+    {
+        "text": "Is pi psi a number or a function?"
+    },
+    {
+        "text": "It's a number, right?"
+    },
+    {
+        "text": "It's the minimum of a function."
+    },
+    {
+        "text": "What is this function?"
+    },
+    {
+        "text": "It's the probability under theta that theta is equal to 1."
+    },
+    {
+        "text": "I drew this entire function between theta 0 and theta 1."
+    },
+    {
+        "text": "I drew this entire white curve."
+    },
+    {
+        "text": "This is this probability."
+    },
+    {
+        "text": "Now, I'm saying, look at the smallest value this probability can take on the set theta 1."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "This guy."
+    },
+    {
+        "text": "This is where my pi, this thing here, is pi psi."
+    },
+    {
+        "text": "And so it's equal to 5%."
+    },
+    {
+        "text": "So that's for this particular test, because this test is sort of a continuous curve for this psi."
+    },
+    {
+        "text": "And so if I want to make sure that I'm at 5% when I come to the right of theta 0, if it touches theta 1, then I better have 5% on the other side if the function is continuous."
+    },
+    {
+        "text": "So basically, if this function is increasing, which will be the case for most tests, then what's going to happen is that, and continuous, then what's going to happen is that the level of the test, which is alpha, is actually going to be equal to the power of the test."
+    },
+    {
+        "text": "OK?"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "My goodness . She is thirty seconds faster than the world records in five thousand meters race .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "She is thirty seconds faster than the world records in five thousand meters race ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My goodness . She is thirty seconds faster than the world records in five thousand meters race .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Excuse me . What did you say ?",
+        "emotion": "neutral",
+        "text": "Excuse me . What did you say ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "A chinese girl have broken the world record in the Olympic Games",
+        "emotion": "neutral",
+        "text": "A chinese girl have broken the world record in the Olympic Games",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's incredible . I cann't believe it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "A chinese girl have broken the world record in the Olympic Games"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's incredible . I cann't believe it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You have to . It's sure .",
+        "emotion": "neutral",
+        "text": "You have to . It's sure .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How amazing !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "A chinese girl have broken the world record in the Olympic Games"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How amazing !",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

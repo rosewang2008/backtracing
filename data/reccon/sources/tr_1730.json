@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's your favorite book ?",
+        "emotion": "neutral",
+        "text": "What's your favorite book ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's Gone With the Wind .",
+        "emotion": "neutral",
+        "text": "It's Gone With the Wind .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why do you like it best ?",
+        "emotion": "neutral",
+        "text": "Why do you like it best ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I enjoy the various characters and the plot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I enjoy the various characters and the plot ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I enjoy the various characters and the plot .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well . I like the Thom Birds best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like the Thom Birds best ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well . I like the Thom Birds best .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Is it very interesting ?",
+        "emotion": "neutral",
+        "text": "Is it very interesting ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . I like the writer's language , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I like the Thom Birds best .",
+            "like the writer's language , too ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Sure . I like the writer's language , too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "If I have a chance , I'll enjoy the book .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like the writer's language",
+            "I'll enjoy the book ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "If I have a chance , I'll enjoy the book .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Would you like to go to the bookshop with me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Would you like to go to the bookshop with me ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Would you like to go to the bookshop with me ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's a good idea . Let ' s go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Would you like to go to the bookshop with me ?",
+            "That's a good idea ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a good idea . Let ' s go !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

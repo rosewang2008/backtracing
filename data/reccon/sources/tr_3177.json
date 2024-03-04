@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , what's your name ?",
+        "emotion": "neutral",
+        "text": "Excuse me , what's your name ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My name is Jessica . What's yours ?",
+        "emotion": "neutral",
+        "text": "My name is Jessica . What's yours ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "John .",
+        "emotion": "neutral",
+        "text": "John .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You speak English very well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "You speak English very well ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You speak English very well .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "You speak English very well ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Do you know what time it is ?",
+        "emotion": "neutral",
+        "text": "Do you know what time it is ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . It's 5:10 PM .",
+        "emotion": "neutral",
+        "text": "Sure . It's 5:10 PM .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What did you say ?",
+        "emotion": "neutral",
+        "text": "What did you say ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I said it's 5:10 PM .",
+        "emotion": "neutral",
+        "text": "I said it's 5:10 PM .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "it's 5:10 PM ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You're welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Thanks ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

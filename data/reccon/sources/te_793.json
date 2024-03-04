@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you arrange this summer vacation ?",
+        "emotion": "neutral",
+        "text": "How do you arrange this summer vacation ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I want to travel .",
+        "emotion": "neutral",
+        "text": "I want to travel .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where would you like to go ?",
+        "emotion": "neutral",
+        "text": "Where would you like to go ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The seaside .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Where would you like to go ?",
+            "The seaside ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "The seaside .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's really a good idea . Taking a walk on the beach and lying in the sun are pretty good . I recommend you Qingdao or Dalian .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "The seaside .",
+            "Taking a walk on the beach and lying in the sun are pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's really a good idea . Taking a walk on the beach and lying in the sun are pretty good . I recommend you Qingdao or Dalian .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' Ve been to Qingdao before , so I ' ll choose Dalian . I've heard that the environment there is very good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've heard that the environment there is very good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' Ve been to Qingdao before , so I ' ll choose Dalian . I've heard that the environment there is very good .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , that's a good place to spend a holiday . Last year I went there . It's really .",
+        "emotion": "happiness",
+        "explanation": "Assuming A is happy for B",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've heard that the environment there is very good .",
+            "Yes , that's a good place to spend a holiday . Last year I went there . It's really ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , that's a good place to spend a holiday . Last year I went there . It's really .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've heard that the environment there is very good .",
+            "Yes , that's a good place to spend a holiday . Last year I went there . It's really ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you !",
+        "id": 8
+    }
+]

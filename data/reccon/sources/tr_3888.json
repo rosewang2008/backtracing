@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I really should be on my way .",
+        "emotion": "neutral",
+        "text": "I really should be on my way .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , don ' t go yet . Let ' s at least have one more .",
+        "emotion": "neutral",
+        "text": "Oh , don ' t go yet . Let ' s at least have one more .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , thank you . I can ' t .",
+        "emotion": "neutral",
+        "text": "No , thank you . I can ' t .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s too bad that you have to leave so early .",
+        "emotion": "neutral",
+        "text": "It ' s too bad that you have to leave so early .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you very much . I had a really good time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "too bad that you have to leave so early .",
+            "I had a really good time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you very much . I had a really good time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks for coming ! We should meet again sometime soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I had a really good time .",
+            "Thanks for coming !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks for coming ! We should meet again sometime soon .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That would be great ! Actually , can I get your phone number , Ella ? That ' s assuming you don ' t mind if I call you sometime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "We should meet again sometime soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be great ! Actually , can I get your phone number , Ella ? That ' s assuming you don ' t mind if I call you sometime .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Anytime . You can reach me 5558929 .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "We should meet again sometime soon ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Anytime . You can reach me 5558929 .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "ok , got it . I ' ll call you sometime next week .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I ' ll call you sometime next week ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "ok , got it . I ' ll call you sometime next week .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Fine .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I ' ll call you sometime next week ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It ' s time to go and I hope we can get together again soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I hope we can get together again soon ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s time to go and I hope we can get together again soon .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I hope so , too . Bye ! Ben .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I hope we can get together again soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope so , too . Bye ! Ben .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,3 +1,11 @@
+# Files too big, only git-traacking the zips
+results/sight/annotated
+results/sight/annotated_chunks_window20
+results/reccon/test
+results/inquisitive/test
+
+*.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,165 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you have any idea what time it is ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "any idea what time it is ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you have any idea what time it is ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My bad . I didn't realize that it was so late .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I didn't realize that it was so late ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My bad . I didn't realize that it was so late .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you really think that that excuses your tardiness ?",
+        "emotion": "neutral",
+        "text": "Do you really think that that excuses your tardiness ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course not . I really did lose track of time .",
+        "emotion": "neutral",
+        "text": "Of course not . I really did lose track of time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Didn't I tell you to call when you're running late ?",
+        "emotion": "neutral",
+        "text": "Didn't I tell you to call when you're running late ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , you did . I just forgot to call .",
+        "emotion": "neutral",
+        "text": "Yeah , you did . I just forgot to call .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It doesn't matter , you should have called and let me know .",
+        "emotion": "neutral",
+        "text": "It doesn't matter , you should have called and let me know .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's true . My bad for not calling .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I didn't realize that it was so late .",
+            "My bad for not calling ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "That's true . My bad for not calling .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "If you do this again , don't even bother coming home .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "you should have called and let me know .",
+            "My bad for not calling ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "If you do this again , don't even bother coming home .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're going to kick me out over this ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "don't even bother coming home .",
+            "You're going to kick me out over this ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're going to kick me out over this ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Exactly , maybe that'll teach you to respect my rules .",
+        "emotion": "neutral",
+        "text": "Exactly , maybe that'll teach you to respect my rules .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , if I'm not living here anymore , then I won't have to listen to your rules .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "maybe that'll teach you to respect my rules ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , if I'm not living here anymore , then I won't have to listen to your rules .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

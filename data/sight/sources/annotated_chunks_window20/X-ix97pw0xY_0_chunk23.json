@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You want to be able to have x and theta interact, and you just say, I want the interaction to be of the form exponential x times theta."
+    },
+    {
+        "text": "And if they're higher dimensions, I'm going to take the exponential of the function of x inner product for the function of theta."
+    },
+    {
+        "text": "So I claimed since the beginning that the Gaussian was such an example, so let's just do it."
+    },
+    {
+        "text": "Is the interaction between theta and x in a Gaussian of the form inner product?"
+    },
+    {
+        "text": "And the answer is yes."
+    },
+    {
+        "text": "Actually, whether I know or not what the variance is."
+    },
+    {
+        "text": "So let's start for the case where I actually do not know what the variance is."
+    },
+    {
+        "text": "So here I have x is n mu sigma squared."
+    },
+    {
+        "text": "This is all one dimensional."
+    },
+    {
+        "text": "And here I'm going to assume that my parameter is both mu and sigma squared."
+    },
+    {
+        "text": "So what I need to do is to have some function of mu, some function of sigma squared, and take the inner product of some function of x and some other function of x."
+    },
+    {
+        "text": "So I want to show that p theta of x is what?"
+    },
+    {
+        "text": "Well, it's 1 over square root sigma 2 pi exponential minus x minus mu squared over 2 sigma squared."
+    },
+    {
+        "text": "That's just my Gaussian density."
+    },
+    {
+        "text": "And I want to say that this thing here, so clearly the exponential shows up already."
+    },
+    {
+        "text": "I want to show that this is something that looks like eta 1 of mu sigma squared."
+    },
+    {
+        "text": "So I have only two of those guys, so I'm going to need only two etas."
+    },
+    {
+        "text": "So I want it to be eta 1 of mu and sigma times t1 of x plus eta 2 mu sigma squared times t2 of x."
+    },
+    {
+        "text": "So I want to have something like that that shows up, and the only things that are left, I want them to depend either only on theta or only on x."
+    },
+    {
+        "text": "So to find that out, we just need to expand."
+    }
+]

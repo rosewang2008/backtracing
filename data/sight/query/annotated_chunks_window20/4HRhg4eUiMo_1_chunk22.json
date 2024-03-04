@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 1,
+        "timestamp": 1684518329514.0,
+        "annotatedSourceSentencesIndices": [
+            4
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "at 43:20 isn\u2019t the case smaller the alpha, the larger the constant c, the more evidence against h1 instead of h0? Cuz like in the coin example, if you push the threshold wider to like 3.5 something, you go from originally rejecting h0 to accepting h0."
+    }
+]

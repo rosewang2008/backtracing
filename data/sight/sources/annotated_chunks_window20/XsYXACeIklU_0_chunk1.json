@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And k is the parameter."
+    },
+    {
+        "text": "So when we add over all k's, the sum of these probabilities has to be equal to 1."
+    },
+    {
+        "text": "There's a time homogeneity assumption, which is hidden in this, namely, the only thing that matters is the duration of the time interval, not where the time interval sits on the real axis."
+    },
+    {
+        "text": "Then we have an independence assumption."
+    },
+    {
+        "text": "Intervals that are disjoint are statistically independent from each other."
+    },
+    {
+        "text": "So any information you give me about arrivals during this time interval doesn't change my beliefs about what's going to happen during another time interval."
+    },
+    {
+        "text": "So this is a generalization of the idea that we had in Bernoulli processes that different time slots are independent of each other."
+    },
+    {
+        "text": "And then to specify this function, the distribution of the number of arrivals, we sort of go in stages."
+    },
+    {
+        "text": "We first specify this function for the case where the time interval is very small."
+    },
+    {
+        "text": "And I'm telling you what those probabilities will be."
+    },
+    {
+        "text": "And based on these then, we do some calculations and to find the formula for the distribution of the number of arrivals for intervals of a general duration."
+    },
+    {
+        "text": "So for a small duration, delta, the probability of obtaining 1 arrival is lambda delta."
+    },
+    {
+        "text": "The remaining probability is assigned to the event that we get to no arrivals during that interval."
+    },
+    {
+        "text": "The probability of obtaining more than 1 arrival in a tiny interval is essentially 0."
+    },
+    {
+        "text": "And when we say essentially, it's means modular, terms that of order delta squared."
+    },
+    {
+        "text": "And when delta is very small, anything which is delta squared can be ignored."
+    },
+    {
+        "text": "So up to delta squared terms, that's what happened during a little interval."
+    },
+    {
+        "text": "Now if we know the probability distribution for the number of arrivals in a little interval."
+    },
+    {
+        "text": "We can use this to get the distribution for the number of arrivals over several intervals."
+    },
+    {
+        "text": "How do we do that?"
+    }
+]

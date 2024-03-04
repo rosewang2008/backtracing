@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Recently , there prevails ' Net Love ' !",
+        "emotion": "neutral",
+        "text": "Recently , there prevails ' Net Love ' !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's Net Love ?",
+        "emotion": "neutral",
+        "text": "What's Net Love ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Two people chat on the Net and step by step fall into love ! It's Net Love .",
+        "emotion": "neutral",
+        "text": "Two people chat on the Net and step by step fall into love ! It's Net Love .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ridiculous ! They haven't met ! Maybe they're the same sex !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Two people chat on the Net and step by step fall into love !",
+            "They haven't met ! Maybe they're the same sex !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ridiculous ! They haven't met ! Maybe they're the same sex !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Maybe yesterday you've received a man's woos . He's called ' Beast ' ?",
+        "emotion": "neutral",
+        "text": "Maybe yesterday you've received a man's woos . He's called ' Beast ' ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How could you know ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Maybe yesterday you've received a man's woos . He's called ' Beast ' ?",
+            "How could you know ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "How could you know ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I watched the screen display !",
+        "emotion": "neutral",
+        "text": "I watched the screen display !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you know ' He ' is Ms . Rebecca !",
+        "emotion": "neutral",
+        "text": "Do you know ' He ' is Ms . Rebecca !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's typical Net Love , and a typical lesbians ' homosex ! HA !",
+        "emotion": "neutral",
+        "text": "It's typical Net Love , and a typical lesbians ' homosex ! HA !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Impossible !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's typical Net Love , and a typical lesbians ' homosex !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Impossible !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

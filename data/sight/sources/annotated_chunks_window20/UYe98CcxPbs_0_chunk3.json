@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If we were moving on the tangent plane, this would be an actual equality."
+    },
+    {
+        "text": "Delta z would be a linear function of delta x and delta y."
+    },
+    {
+        "text": "And the graph of a function is near the tangent plane, but it is not quite the same."
+    },
+    {
+        "text": "It is only an approximation for small delta x and small delta y."
+    },
+    {
+        "text": "The approximation formula says the graph of f is close to its tangent plane."
+    },
+    {
+        "text": "And we can use that formula over here now to estimate how the value of f changes if I change x and y at the same time."
+    },
+    {
+        "text": "Questions about that?"
+    },
+    {
+        "text": "Now that we have caught up with what we were supposed to see on Tuesday, I can tell you now about max and min problems."
+    },
+    {
+        "text": "Min problems."
+    },
+    {
+        "text": "That is going to be an application of partial derivatives to look at optimization problems."
+    },
+    {
+        "text": "Maybe ten years from now when you have a real job, your job might be to actually minimize the cost of something or maximize the profit of something or whatever."
+    },
+    {
+        "text": "But typically, the function that you will have to strive to minimize or maximize will depend on several variables."
+    },
+    {
+        "text": "If you have a function of one variable, you know that to find its minimum or its maximum you look at the derivative and you set that equal to zero."
+    },
+    {
+        "text": "And you try to then look at what happens to the function."
+    },
+    {
+        "text": "Here it is going to be kind of similar, except, of course, we have several variables."
+    },
+    {
+        "text": "For today, we will think about a function of two variables."
+    },
+    {
+        "text": "But it works exactly the same if you have three variables, ten variables, a million variables."
+    },
+    {
+        "text": "The first observation is that if we have a local minimum or a local maximum, then both partial derivative, partial f, partial x and partial f, partial y are both zero at the same time."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, let's say that f sub x is zero."
+    }
+]

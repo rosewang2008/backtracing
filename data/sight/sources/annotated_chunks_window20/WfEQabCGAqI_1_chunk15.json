@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, I claim that the surface element is related to the area in the plane by delta a equals delta s times the cosine of alpha."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, let's look at this small rectangle with one horizontal side and one slanted side."
+    },
+    {
+        "text": "Well, when you project, this side doesn't change."
+    },
+    {
+        "text": "But, this side gets shortened by a factor of cosine alpha."
+    },
+    {
+        "text": "Whatever this length was, this length here is that one times cosine alpha."
+    },
+    {
+        "text": "So, that's why the area gets shrunk by cosine alpha."
+    },
+    {
+        "text": "In one direction, nothing happens."
+    },
+    {
+        "text": "In the other direction, you squish by cosine alpha."
+    },
+    {
+        "text": "So, what that means is that, well, OK, so we'll have to deal with this."
+    },
+    {
+        "text": "And, of course, the one we'll care about actually is delta s expressed in terms of delta a."
+    },
+    {
+        "text": "But, what are we going to do with this cosine?"
+    },
+    {
+        "text": "It's not very convenient to have a cosine left in here."
+    },
+    {
+        "text": "So, remember, the angle between two planes, it's the same thing as the angle between the normal vectors."
+    },
+    {
+        "text": "So, if you want to see this angle alpha elsewhere, what you can do is you can just take the vertical direction."
+    },
+    {
+        "text": "Let's take k. Then, here we have our angle alpha again."
+    },
+    {
+        "text": "So, in particular, cosine of alpha, I can get, well, we know how to find the angle between two vectors."
+    },
+    {
+        "text": "So, if we have our normal vector n, we'll do n dot k, and we'll divide by length n length k. Well, length k is one."
+    },
+    {
+        "text": "That's one easy."
+    },
+    {
+        "text": "OK, so that's how we find the angle."
+    }
+]

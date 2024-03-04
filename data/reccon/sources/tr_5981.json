@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Taxi .",
+        "emotion": "neutral",
+        "text": "Taxi .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Get on , PLS . Where do you wanna go ?",
+        "emotion": "neutral",
+        "text": "Get on , PLS . Where do you wanna go ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thank you . Pls hurry , I am late . Can I get to the Battery Park before 4 ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Get on , PLS ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Pls hurry , I am late . Can I get to the Battery Park before 4 ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "All right , Miss . I think we will get there if there are no delays on the way .",
+        "emotion": "neutral",
+        "text": "All right , Miss . I think we will get there if there are no delays on the way .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How exactly do you figure out the car fare ?",
+        "emotion": "neutral",
+        "text": "How exactly do you figure out the car fare ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "According to the kilometer rate , the first five kilometers are 4 dollars and every kilometer extra costs 50 cents .",
+        "emotion": "neutral",
+        "text": "According to the kilometer rate , the first five kilometers are 4 dollars and every kilometer extra costs 50 cents .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , I see .",
+        "emotion": "neutral",
+        "text": "Oh , I see .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Here we are , Miss .",
+        "emotion": "neutral",
+        "text": "Here we are , Miss .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you . How much do I owe you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Here we are"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . How much do I owe you ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You owe me 19 dollars .",
+        "emotion": "neutral",
+        "text": "You owe me 19 dollars .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's 20 dollars . Keep the change !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Here we are"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's 20 dollars . Keep the change !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "That's 20 dollars . Keep the change !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

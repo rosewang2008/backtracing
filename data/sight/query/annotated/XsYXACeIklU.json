@@ -1,0 +1,112 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 0,
+        "timestamp": 1684520066474.0,
+        "annotatedSourceSentencesIndices": [
+            185,
+            186,
+            187
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "For the Expected number of fish ( ~ 19:00 ), shouldn't he include the possibility of catching N fish during the first two hours? Is the probability of 3 or more fish in 0 < t < 2 insignificant?"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 2,
+        "timestamp": 1684520098328.0,
+        "annotatedSourceSentencesIndices": [
+            155
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Shouldn't the answer to the fish question at 15:46 be equal to p(0,2)*p(1,3) instead of p(0,2)*(1-p(0,3))\nI say this because the fisherman should fish for no longer than 1 fish. In the case of 1-p(0,3), he's considering all the possibilities that he could fish 1,2,3,4,5,6,7..... any number of fishes during that interval? from hour 2....5"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 3,
+        "timestamp": 1684520173396.0,
+        "annotatedSourceSentencesIndices": [
+            194,
+            196,
+            197,
+            198
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "The first terms in part d and f of the examples should be weighted with the probability that scenario 1 occurs, right?"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 5,
+        "timestamp": 1684520219876.0,
+        "annotatedSourceSentencesIndices": [
+            99
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "But is the life of a light bulb actually modeled by the memoryless Poisson process?  I would think the past takes it's toll on the filament."
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 6,
+        "timestamp": 1684520305601.0,
+        "annotatedSourceSentencesIndices": [
+            193,
+            194,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Thank you very much \nI think that there is a missing factor (1-P(0,2)) in the response to the questions d and f. Is this true?"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 7,
+        "timestamp": 1684520381503.0,
+        "annotatedSourceSentencesIndices": [
+            375,
+            388
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "The bus inter-arrival time example is a bad/counteractive example. If buses are running at the rate of 4 per hour, You go at a random time for many days and your average waiting time should be  7.5 minutes. Why would the bus company foll people by saying we are running buses whose time is determined by poisson process and not a uniform/predetermined time?"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 8,
+        "timestamp": 1684520433574.0,
+        "annotatedSourceSentencesIndices": [
+            200
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "what does 1 over lambda represent in the fishing example?"
+    },
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 9,
+        "timestamp": 1684520498170.0,
+        "annotatedSourceSentencesIndices": [
+            465,
+            466
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "45:57 we assume equally likely, bu prof. wrote 1/3 and 2/3 ? why"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Really ? That ' s great ! Do you speak some Spanish ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I am 40 years old and was born and raised here in the good old U . S of A , although I have some Colombian heritage ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? That ' s great ! Do you speak some Spanish ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

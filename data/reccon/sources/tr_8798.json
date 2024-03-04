@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "See how many people are here !",
+        "emotion": "neutral",
+        "text": "See how many people are here !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah ! Do all these people work in the company ? Everyone and their dog is here !",
+        "emotion": "neutral",
+        "text": "Yeah ! Do all these people work in the company ? Everyone and their dog is here !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Other than the employees , our boss Jack invited some friends of the company .",
+        "emotion": "neutral",
+        "text": "Other than the employees , our boss Jack invited some friends of the company .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Can we just sit wherever we want ?",
+        "emotion": "neutral",
+        "text": "Can we just sit wherever we want ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Of course not ! We have to sit at our assigned seats . I think our table is over there in the back .",
+        "emotion": "neutral",
+        "text": "Of course not ! We have to sit at our assigned seats . I think our table is over there in the back .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hmm . We don't exactly have the best seats in the house , do we ?",
+        "emotion": "neutral",
+        "text": "Hmm . We don't exactly have the best seats in the house , do we ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Look who you get to sit next to--Tim from purchasing !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Look who you get to sit next to--Tim from purchasing !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look who you get to sit next to--Tim from purchasing !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Www ! That weirdo ? ! He really gives me the creeps !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Look who you get to sit next to--Tim from purchasing !",
+            "That weirdo ? ! He really gives me the creeps !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Www ! That weirdo ? ! He really gives me the creeps !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Don't worry . I'm also sitting next to you .",
+        "emotion": "neutral",
+        "text": "Don't worry . I'm also sitting next to you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I just hope he doesn't start bragging again !",
+        "emotion": "neutral",
+        "text": "I just hope he doesn't start bragging again !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I can't wait until we get our year-end bonus !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "we get our year-end bonus !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I can't wait until we get our year-end bonus !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Me , either ! Who decides how much money we get ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "we get our year-end bonus !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me , either ! Who decides how much money we get ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

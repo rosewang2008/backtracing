@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'm not getting orthogonality there."
+    },
+    {
+        "text": "And that's because I forgot that I should take the complex conjugate."
+    },
+    {
+        "text": "Well, of these guys, 1."
+    },
+    {
+        "text": "I should take minus i."
+    },
+    {
+        "text": "Minus i squared."
+    },
+    {
+        "text": "Well, that's real, so it's OK."
+    },
+    {
+        "text": "Minus there."
+    },
+    {
+        "text": "So minus i squared is still minus 1."
+    },
+    {
+        "text": "So now if I do it, it comes out 0."
+    },
+    {
+        "text": "So let me repeat again."
+    },
+    {
+        "text": "Let me just make this statement."
+    },
+    {
+        "text": "If Q transpose Q is i, and Qx is lambda x, and Qy is a different eigenvalue y. OK."
+    },
+    {
+        "text": "So I'm setting up the main fact that in the last minute, I'm just going to write down."
+    },
+    {
+        "text": "So I have an orthogonal matrix."
+    },
+    {
+        "text": "I have an eigenvector with eigenvalue lambda."
+    },
+    {
+        "text": "I have another eigenvector with a different eigenvalue mu."
+    },
+    {
+        "text": "Then the claim is that, what is the claim about the eigenvectors?"
+    },
+    {
+        "text": "So here has one eigen."
+    },
+    {
+        "text": "This has an eigenvalue."
+    },
+    {
+        "text": "This has a different eigenvalue."
+    }
+]

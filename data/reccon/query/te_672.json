@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You said it . Ok , let's go in , Sandy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "you should start seeing someone else ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You said it . Ok , let's go in , Sandy .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like music ?",
+        "emotion": "neutral",
+        "text": "Do you like music ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , it depends .",
+        "emotion": "neutral",
+        "text": "Well , it depends .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you think the music is well-matched ?",
+        "emotion": "neutral",
+        "text": "Do you think the music is well-matched ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , I think the music is too fast .",
+        "emotion": "neutral",
+        "text": "No , I think the music is too fast .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How about the words of the song ?",
+        "emotion": "neutral",
+        "text": "How about the words of the song ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It sounds nice .",
+        "emotion": "neutral",
+        "text": "It sounds nice .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I like it . Naturally it can arouse your feelings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It sounds nice .",
+            "I like it . Naturally it can arouse your feelings ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I like it . Naturally it can arouse your feelings .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , I think so . It's very emotional .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Naturally it can arouse your feelings .",
+            "It's very emotional ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I think so . It's very emotional .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Of course , and I also like the rhythms .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Naturally it can arouse your feelings .",
+            "It's very emotional .",
+            "I also like the rhythms ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Of course , and I also like the rhythms .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Full of energy and hope .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I also like the rhythms .",
+            "Full of energy and hope ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Full of energy and hope .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Really . It's worth listening to and enjoying .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Naturally it can arouse your feelings .",
+            "It's very emotional .",
+            "I also like the rhythms .",
+            "Full of energy and hope .",
+            "Really . It's worth listening to and enjoying ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Really . It's worth listening to and enjoying .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Certainly it is . It's worth an Academy Award .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Naturally it can arouse your feelings .",
+            "It's very emotional .",
+            "Naturally it can arouse your feelings .",
+            "It's very emotional .",
+            "I also like the rhythms .",
+            "Full of energy and hope .",
+            "Really . It's worth listening to and enjoying ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Certainly it is . It's worth an Academy Award .",
+        "id": 12
+    }
+]

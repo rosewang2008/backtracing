@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Right . The city life has made us tired and out of energy , while the natural world can bring us quite new feelings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "We should walk into the nature and enjoy its beauty whenever we have time .",
+            "the natural world can bring us quite new feelings ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Right . The city life has made us tired and out of energy , while the natural world can bring us quite new feelings .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

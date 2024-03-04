@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 12,
+        "timestamp": 1684510931819.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "6:34, how is that z=z0 + dz/dx(x-x0) a equation of straight line. y=mx+c is a eqaution of straight line in 2D space. and x = x0 + st is vector form of equaiton in higher dimension. how is  the above euqation realted to this? Thanks in advance"
+    }
+]

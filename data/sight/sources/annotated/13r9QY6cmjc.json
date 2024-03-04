@@ -1,0 +1,1460 @@
+[
+    {
+        "text": " OK, shall we start?"
+    },
+    {
+        "text": "This is the second lecture on eigenvalues."
+    },
+    {
+        "text": "So the first lecture was set -- reached the key equation, Ax equal lambda x. x is the eigenvector and lambda is the eigenvalue."
+    },
+    {
+        "text": "Now, to use that."
+    },
+    {
+        "text": "And the good way to, after we've found, so job one is to find the eigenvalues and find the eigenvectors."
+    },
+    {
+        "text": "Now after we found them, what do we do with them?"
+    },
+    {
+        "text": "Well, the good way to see that is diagonalize the matrix."
+    },
+    {
+        "text": "So the matrix is A, and I want to show, first of all, this is like the basic fact."
+    },
+    {
+        "text": "This, this formula."
+    },
+    {
+        "text": "That's, that's the key to today's lecture."
+    },
+    {
+        "text": "This matrix A, I put its eigenvectors in the columns of a matrix S. So S will be the eigenvector matrix, and I want to look at this magic combination S inverse A S. So can I show you how that, how that, what happens there?"
+    },
+    {
+        "text": "And notice, notice, there's an S inverse."
+    },
+    {
+        "text": "We have to be able to invert this eigenvector matrix S. So for that we need n independent eigenvectors."
+    },
+    {
+        "text": "So that's the, that's the case."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So suppose we have n linearly independent eigenvectors of A."
+    },
+    {
+        "text": "Put them in the columns of this matrix S. So I'm naturally going to call that the eigenvector matrix, because it's got the eigenvectors in its columns."
+    },
+    {
+        "text": "And all I want to do is show you what happens when you multiply A times S. So A times S. So this is A times the matrix with the first eigenvector in its first column, the second eigenvector in its second column, the nth eigenvector in its nth column."
+    },
+    {
+        "text": "And how am I going to do this matrix multiplication?"
+    },
+    {
+        "text": "Well, certainly I'll do it a column at a time."
+    },
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "A times the first column gives me the first column of the answer, but what is it?"
+    },
+    {
+        "text": "That's an eigenvector."
+    },
+    {
+        "text": "A times x1 is equal to the lambda times the x1."
+    },
+    {
+        "text": "And that lambda's we'll call lambda one, of course."
+    },
+    {
+        "text": "So that's the first column, A x1 is the same as lambda one x1."
+    },
+    {
+        "text": "A x2 is lambda two x2, so on, along to, in the nth column, we now have lambda n xn."
+    },
+    {
+        "text": "Looking good, but the next step is even better."
+    },
+    {
+        "text": "So for the next step, I want to separate out those eigenvalues, those multiplying numbers, from the x's."
+    },
+    {
+        "text": "So then I'll have just what I want."
+    },
+    {
+        "text": "OK, so how, how am I going to separate out?"
+    },
+    {
+        "text": "So that, that number lambda one is multiplying the first column."
+    },
+    {
+        "text": "So if I want to factor it out of the first column, I better put, here is going to be x1, and that's going to multiply this matrix lambda one in the first entry in all zeros."
+    },
+    {
+        "text": "You see that that, that's going to come out right for the first column?"
+    },
+    {
+        "text": "Because we remember how, how we're going back to that original punchline, that if I want a number to multiply x1, then I can do it by putting x1 in that column, in the first column, and putting that number there."
+    },
+    {
+        "text": "What am I going to have here?"
+    },
+    {
+        "text": "I'm going to have lambda one, I'm going to have x1, x2, xn."
+    },
+    {
+        "text": "These are going to be my columns again."
+    },
+    {
+        "text": "I'm getting s back again."
+    },
+    {
+        "text": "I'm getting s back again, but now what's it multiplied by?"
+    },
+    {
+        "text": "On the right, it's multiplied by, if I want, if I want lambda n xn in the last column, how do I do it?"
+    },
+    {
+        "text": "Well, the last column here will be, I'll, I'll take the last column, use these coefficients, put the lambda n down there, and it will multiply that nth column and give me lambda n xn."
+    },
+    {
+        "text": "There, there you see matrix multiplication just working for us."
+    },
+    {
+        "text": "So I started with A s. I wrote down what it meant."
+    },
+    {
+        "text": "A times each eigenvector."
+    },
+    {
+        "text": "That gave me lambda times the eigenvector."
+    },
+    {
+        "text": "And then when I peeled off the lambdas, they were on the right-hand side, so I've got s, my matrix back again, and this matrix, this diagonal matrix, the eigenvalue matrix, and I call it capital lambda, using capital letters for matrices, and lambda to prompt me that it's, that it's eigenvalues that are in there."
+    },
+    {
+        "text": "So you see that the eigenvalues are just sitting down that diagonal?"
+    },
+    {
+        "text": "If I had a column x2 here, I would want the lambda two in the two two position, in the diagonal position, to multiply that x2 and give me the lambda two x2."
+    },
+    {
+        "text": "That's my formula."
+    },
+    {
+        "text": "A s is s lambda."
+    },
+    {
+        "text": "OK. That's, that's the, you see, it's just a calculation."
+    },
+    {
+        "text": "Now, I, I mentioned, and I have to mention again, this business about n independent eigenvectors."
+    },
+    {
+        "text": "As it stands, this is all fine whether, I mean, I could be repeating the same eigenvector, but I, I'm no interested in that."
+    },
+    {
+        "text": "I want to be able to invert s, and that's where this comes in."
+    },
+    {
+        "text": "This n independent eigenvectors business comes in to tell me that that matrix is invertible."
+    },
+    {
+        "text": "So let me, on the next board, write down what I've got."
+    },
+    {
+        "text": "A s equals s lambda."
+    },
+    {
+        "text": "And now I'm, I can multiply on the left by s inverse."
+    },
+    {
+        "text": "So this is really, I can do that provided s is invertible, provided my assumption of n independent eigenvectors is satisfied."
+    },
+    {
+        "text": "And I mentioned at the end of last time, and I'll say again, that there's a small number of matrices for, that don't have n independent eigenvectors."
+    },
+    {
+        "text": "So I've got to discuss that, that technical point."
+    },
+    {
+        "text": "But the great, the most matrices that we see have n, n independent eigenvectors and we can diagonalize."
+    },
+    {
+        "text": "This is diagonalization."
+    },
+    {
+        "text": "I could also write it, and I often will, the other way round."
+    },
+    {
+        "text": "If I multiply on the right by s inverse, if I took this equation at the top and multiplied on the right by s inverse, I could, I would have A left here."
+    },
+    {
+        "text": "Now s inverse is coming from the right."
+    },
+    {
+        "text": "So can you keep those two straight?"
+    },
+    {
+        "text": "A multiplies its eigenvectors."
+    },
+    {
+        "text": "That's how I keep them straight."
+    },
+    {
+        "text": "So A multiplies s. A multiplies s. And then this s inverse makes the whole thing diagonal."
+    },
+    {
+        "text": "And this is another way of saying the same thing, putting the s's on the other side of the equation, A is s lambda s inverse."
+    },
+    {
+        "text": "So that's the, that's the new factorization."
+    },
+    {
+        "text": "That's the replacement for L U from elimination or Q R from Gram-Schmidt."
+    },
+    {
+        "text": "And notice that the matrix, so it's, it's a matrix times a diagonal matrix times the inverse of the first one."
+    },
+    {
+        "text": "It's, that's the combination that we'll see throughout this chapter."
+    },
+    {
+        "text": "This, this, combination with an s and an s inverse."
+    },
+    {
+        "text": "OK. Can I just begin to use that?"
+    },
+    {
+        "text": "For example, what about A squared?"
+    },
+    {
+        "text": "What are the eigenvalues and eigenvectors of A squared?"
+    },
+    {
+        "text": "That's a straightforward question with a, with a absolutely clean answer."
+    },
+    {
+        "text": "So let me, let me consider A squared."
+    },
+    {
+        "text": "So I look, I start with Ax equal lambda x."
+    },
+    {
+        "text": "And I'm headed for A squared."
+    },
+    {
+        "text": "So let me multiply both sides by A."
+    },
+    {
+        "text": "That's one way to get A squared on the left."
+    },
+    {
+        "text": "So if, I should write these ifs in here."
+    },
+    {
+        "text": "If Ax equals lambda x, then I multiply by A."
+    },
+    {
+        "text": "So I get A squared x equals, well, I'm multiplying by A, so that's lambda Ax."
+    },
+    {
+        "text": "That lambda was a number, so I just put it on the left."
+    },
+    {
+        "text": "And what do I, tell me how to make that look better."
+    },
+    {
+        "text": "What have I got here?"
+    },
+    {
+        "text": "For, if, if A has the eigenvalue lambda and eigenvector x, what's up with A squared?"
+    },
+    {
+        "text": "A squared x, I just multiply by A, but now for Ax, I'm going to substitute lambda x, so I've got lambda squared x."
+    },
+    {
+        "text": "So from that simple calculation, I, my conclusion is that the eigenvalues of A squared are lambda squared."
+    },
+    {
+        "text": "And the eigenvectors, I always think about both of those."
+    },
+    {
+        "text": "What can I say about the eigenvalues?"
+    },
+    {
+        "text": "They're squared."
+    },
+    {
+        "text": "What can I say about the eigenvectors?"
+    },
+    {
+        "text": "They're the same."
+    },
+    {
+        "text": "The same x as in, as for A."
+    },
+    {
+        "text": "Now, let me see that also from this formula."
+    },
+    {
+        "text": "How can I see what A squared is looking like from this formula?"
+    },
+    {
+        "text": "So let me, that, that was one way to do it."
+    },
+    {
+        "text": "Let me do it by just taking A squared from that."
+    },
+    {
+        "text": "A squared is S lambda S inverse, that's A, times S lambda S inverse, that's A, which is?"
+    },
+    {
+        "text": "This is the beauty of eigenvalues, eigenvectors, having that S inverse and S is the identity, so I've got S lambda squared S inverse."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "You see what that's telling me?"
+    },
+    {
+        "text": "It's, it's telling me the same thing that I just learned here, but in the, in, in a matrix form."
+    },
+    {
+        "text": "It's telling me that the S is the same, the eigenvectors are the same, but the eigenvalues are squared, because this is, what's lambda squared, that's still diagonal, it's got little lambda one squared, lambda two squared, down to lambda n squared, on that diagonal, those are the eigenvalues, as we just learned, of A squared."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, somehow those eigenvalues and eigenvectors are really giving you a way to, to, to, to see what's going on inside a matrix."
+    },
+    {
+        "text": "Now, of course, I can continue that for, to the k-th power."
+    },
+    {
+        "text": "A to the k-th power."
+    },
+    {
+        "text": "If I multiply, if I have k of these together, do you see how S inverse S will keep cancelling?"
+    },
+    {
+        "text": "In the, in the inside, I'll have the S outside, at the far left, and lambda will be in there k times and S inverse."
+    },
+    {
+        "text": "So what's that telling me?"
+    },
+    {
+        "text": "That's telling me that the eigenvalues of A, of A to the k-th power are the k-th powers."
+    },
+    {
+        "text": "The eigenvalues of A cubed are the cubes of the eigenvalues of A, and the eigenvectors are the same."
+    },
+    {
+        "text": "The same."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "In other words, eigenvalues and eigenvectors give a great way to understand the powers of a matrix."
+    },
+    {
+        "text": "If I take the square of a matrix or the hundredth power of a matrix, the pivots are all over the place."
+    },
+    {
+        "text": "L U, if I multiply L U times L U times L U times L U a hundred times, I've got a hundred L U's."
+    },
+    {
+        "text": "I can't do anything with them."
+    },
+    {
+        "text": "But when I multiply S lambda S inverse by itself, when I look at the eigenvector picture a hundred times, I get a hundred or ninety-nine of these guys cancelling out inside, and I get A to the hundredth is S lambda to the hundredth S inverse."
+    },
+    {
+        "text": "I mean, eigenvalues tell you about powers of a matrix in a way that we had no, no way to approach previously."
+    },
+    {
+        "text": "For example, when does, when do the powers of a matrix go to zero?"
+    },
+    {
+        "text": "I would call that matrix stable, maybe."
+    },
+    {
+        "text": "So, so, so I could write down a, a theorem."
+    },
+    {
+        "text": "I'll, I'll write it as a theorem, just to use that word to emphasize that here I'm getting this great fact from this eigenvalue picture."
+    },
+    {
+        "text": "OK. A to the k approaches zero as k goes, as k gets bigger."
+    },
+    {
+        "text": "If what?"
+    },
+    {
+        "text": "What's the, how can I tell for a matrix A if its powers go to zero?"
+    },
+    {
+        "text": "What, what's somewhere inside that matrix is that information."
+    },
+    {
+        "text": "That information is not present in the pivots."
+    },
+    {
+        "text": "It's present in the eigenvalues."
+    },
+    {
+        "text": "What do I need for the, to know that if I take higher and higher powers of A that this matrix gets smaller and smaller?"
+    },
+    {
+        "text": "Well, S and S inverse are not moving."
+    },
+    {
+        "text": "So it's this guy that has to get small, and that's easy to, easy to understand."
+    },
+    {
+        "text": "The requirement is all eigenvalues, so what is the requirement?"
+    },
+    {
+        "text": "The eigenvalues have to be less than one."
+    },
+    {
+        "text": "Now, I have to write that absolute value, because those eigenvalues could be negative, they could be complex numbers."
+    },
+    {
+        "text": "So I'm taking the absolute value if all of those are below one."
+    },
+    {
+        "text": "That's, in fact, we practically see why."
+    },
+    {
+        "text": "Let me just say that I, that I, I'm operating on one assumption here, and I got to keep remembering that that assumption is still present."
+    },
+    {
+        "text": "That assumption was that I had a full set of, of n independent eigenvectors."
+    },
+    {
+        "text": "If I don't have that, then I, I, then this approach is not working."
+    },
+    {
+        "text": "So, so again, a pure eigenvalue approach, eigenvector approach, needs n independent eigenvectors."
+    },
+    {
+        "text": "If we don't have n independent eigenvectors, we can't diagonalize the matrix."
+    },
+    {
+        "text": "We can't get to a diagonal matrix."
+    },
+    {
+        "text": "This, this, this diagonalization is only possible if S inverse makes sense."
+    },
+    {
+        "text": "OK. Can I, can I follow up on that point now?"
+    },
+    {
+        "text": "So, so you see why, what we get and, and why we want it, because we get information about the powers of a matrix just immediately from the eigenvalues."
+    },
+    {
+        "text": "OK, now let me follow up on this, business of which matrices are diagonalizable."
+    },
+    {
+        "text": "Sorry about that long word."
+    },
+    {
+        "text": "So a matrix is, is sure to, so here's, here's the main point."
+    },
+    {
+        "text": "A is sure to be, to have n independent eigenvectors and, and B, now here comes that word, diagonalizable, if, if, so we, we, we might as well get the, the nice case out in the open."
+    },
+    {
+        "text": "The nice case is when, if all the lambdas are different."
+    },
+    {
+        "text": "That means, that means no repeated eigenvalues."
+    },
+    {
+        "text": "OK. That's the nice case."
+    },
+    {
+        "text": "If, if my matrix and most matrix, if I do a random matrix in MATLAB and compute its eigenvalues, so if I computed, if I took I of rand of ten ten, gave, gave that MATLAB command, the, we'd get a random ten by ten matrix, we would get a list of its ten eigenvalues and they would be different."
+    },
+    {
+        "text": "They would be distinct, is the best word."
+    },
+    {
+        "text": "I would have a random matrix will have ten distinct, a ten by ten matrix will have ten distinct eigenvalues, and if it does, the eigenvectors are automatically independent."
+    },
+    {
+        "text": "So that's a nice fact."
+    },
+    {
+        "text": "I can, I'll refer you to the text for the proof."
+    },
+    {
+        "text": "That, that A is sure to have n independent eigenvectors if the eigenvalues are different."
+    },
+    {
+        "text": "If, if all the, if all eigenvalues are different."
+    },
+    {
+        "text": "It's just, if some lambdas are repeated, then I have to look more closely."
+    },
+    {
+        "text": "If an eigenvalue is repeated, I have to look, I have to count, I have to check."
+    },
+    {
+        "text": "Has it got, say it's repeated three times."
+    },
+    {
+        "text": "So what's a possibility for, so, so here's, here's the repeated possibility."
+    },
+    {
+        "text": "And, and let me emphasize the conclusion."
+    },
+    {
+        "text": "That if I have repeated eigenvalues, I may or may not, I may or may not have, have n independent eigenvectors."
+    },
+    {
+        "text": "I might."
+    },
+    {
+        "text": "I, I, you know, this isn't a completely negative case."
+    },
+    {
+        "text": "The identity matrix."
+    },
+    {
+        "text": "Well, suppose I take the ten by ten identity matrix."
+    },
+    {
+        "text": "What are the eigenvalues of that matrix?"
+    },
+    {
+        "text": "So just, just take the easiest matrix, the identity."
+    },
+    {
+        "text": "If I look for its eigenvalues, they're all ones."
+    },
+    {
+        "text": "So that eigenvalue one is repeated ten times."
+    },
+    {
+        "text": "But there's no shortage of eigenvectors for the identity matrix."
+    },
+    {
+        "text": "In fact, every vector is an eigenvector."
+    },
+    {
+        "text": "So I can take ten independent vectors."
+    },
+    {
+        "text": "Oh, well, what happens to everything if, if, if A is the identity matrix, let's just think that one through in our head."
+    },
+    {
+        "text": "If A is the identity matrix, then it's got plenty of eigenvectors."
+    },
+    {
+        "text": "I choose ten independent vectors, they're the columns of S, and, and what do I get from S inverse A S?"
+    },
+    {
+        "text": "I get I again, right?"
+    },
+    {
+        "text": "If A is the identity, and of course, that's the correct lambda."
+    },
+    {
+        "text": "The, the matrix was already diagonal."
+    },
+    {
+        "text": "So if the matrix is already diagonal, then the, the lambda is the same as the matrix."
+    },
+    {
+        "text": "A diagonal matrix has got its eigenvalues sitting right there in front of you."
+    },
+    {
+        "text": "Now if it's triangular, the eigenvalues are still sitting there, but so let's, let's take a case where, it's triangular."
+    },
+    {
+        "text": "Suppose A is like, two, one, two, zero."
+    },
+    {
+        "text": "So there's a case that's going to be trouble."
+    },
+    {
+        "text": "There's a case that's going to be trouble."
+    },
+    {
+        "text": "First of all, what are the eigen- I mean, we just, like now you, if we start with a matrix, the first thing we do practically without thinking is compute the eigenvalues and eigenvectors."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what are the eigenvalues?"
+    },
+    {
+        "text": "You can tell me right away what they are."
+    },
+    {
+        "text": "They're two and two, right."
+    },
+    {
+        "text": "It's a triangular matrix, so when I do this determinant, shall I do this determinant of A minus lambda I?"
+    },
+    {
+        "text": "I'll get this two minus lambda, one, zero, two minus lambda, right?"
+    },
+    {
+        "text": "I take that determinant, so I make those into vertical bars to mean determinant, and what's the determinant?"
+    },
+    {
+        "text": "Two minus lambda squared."
+    },
+    {
+        "text": "What are the roots?"
+    },
+    {
+        "text": "Lambda equal two twice."
+    },
+    {
+        "text": "So the eigenvalues are lambda equals two and two."
+    },
+    {
+        "text": "OK, fine."
+    },
+    {
+        "text": "Now the next step, find the eigenvectors."
+    },
+    {
+        "text": "So I look for eigenvectors and what do I find for this guy?"
+    },
+    {
+        "text": "Eigenvectors for this guy, when I subtract two minus the identity, so A minus two I has zeros here, and I'm looking for the null space."
+    },
+    {
+        "text": "What's, what are the eigenvectors?"
+    },
+    {
+        "text": "They're the, they're, they're the null space of A minus lambda I."
+    },
+    {
+        "text": "The null space is only one dimension."
+    },
+    {
+        "text": "This is a case where I don't have enough eigenvectors."
+    },
+    {
+        "text": "My algebraic multiplicity is two."
+    },
+    {
+        "text": "I, I would say when I see, when I count how often the eigenvalue is repeated, that's the algebraic multiplicity."
+    },
+    {
+        "text": "That's the multiplicity."
+    },
+    {
+        "text": "How many times is it the root of the polynomial?"
+    },
+    {
+        "text": "My polynomial is two minus lambda squared."
+    },
+    {
+        "text": "It's a double root."
+    },
+    {
+        "text": "So my algebraic multiplicity is two."
+    },
+    {
+        "text": "But the geometric multiplicity, which looks for vectors, looks for eigenvectors and which means the null space of this thing."
+    },
+    {
+        "text": "And the only eigenvector is one zero."
+    },
+    {
+        "text": "That's in the null space."
+    },
+    {
+        "text": "Zero one is not in the null space."
+    },
+    {
+        "text": "The null space is only one dimensional."
+    },
+    {
+        "text": "So there's a matrix, my, this A or the original A, that are not diagonalizable."
+    },
+    {
+        "text": "I can't, I can't find two independent eigenvectors, there's only one."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the case that I'm, that's a case that I, I'm not really handling."
+    },
+    {
+        "text": "For example, when I wrote down up here that the powers went to zero if the eigenvalues were below one, I didn't really handle that case of repeated eigenvalues because my reasoning was based on this formula."
+    },
+    {
+        "text": "And this formula is based on n independent eigenvectors."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So just to say that."
+    },
+    {
+        "text": "There are some matrices that we don't cover through diagonalization, but the great majority we do."
+    },
+    {
+        "text": "OK. And we're always OK if we have different distinct eigenvalues."
+    },
+    {
+        "text": "OK. That's the, like, the typical case."
+    },
+    {
+        "text": "Because for each eigenvalue there's at least one eigenvector, the algebraic multiplicity here is one for every eigenvalue, and the geometric multiplicity is one."
+    },
+    {
+        "text": "There's one eigenvector and they are independent."
+    },
+    {
+        "text": "OK. OK. Now let me come back to the important case when we're OK."
+    },
+    {
+        "text": "The important case when we are diagonalizing."
+    },
+    {
+        "text": "Let me look at, so let me solve this equation."
+    },
+    {
+        "text": "The equation will be each, I start with some, start with a given vector u0."
+    },
+    {
+        "text": "And then my equation is that every step I multiply what I have by a."
+    },
+    {
+        "text": "That equation ought to be simple to handle."
+    },
+    {
+        "text": "OK. And I'd like to be able to solve it."
+    },
+    {
+        "text": "How would I find, if I start with a vector u0, and I multiply by a a hundred times, what have I got?"
+    },
+    {
+        "text": "Well, I can certainly write down a formula for the answer."
+    },
+    {
+        "text": "So what, what, so u1 is a u0."
+    },
+    {
+        "text": "And u2 is, what's u2 then?"
+    },
+    {
+        "text": "U2 I multiply it, u2 I get from u1 by another, multiplying by a, so I've got a twice."
+    },
+    {
+        "text": "And my formula is uk, after k steps, I've multiplied by a k times the original u0."
+    },
+    {
+        "text": "You see what I'm doing?"
+    },
+    {
+        "text": "The next section is going to solve systems of differential equations."
+    },
+    {
+        "text": "I'm going to have derivatives."
+    },
+    {
+        "text": "This, this section is the nice one."
+    },
+    {
+        "text": "It solves difference equations."
+    },
+    {
+        "text": "I would call that a difference equation."
+    },
+    {
+        "text": "It's conne- a first order."
+    },
+    {
+        "text": "I would call that a first order system, because it connects only, it only goes up one level."
+    },
+    {
+        "text": "And it's a system because these are vectors and that's a matrix."
+    },
+    {
+        "text": "And the solution is just that."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "But, that's a nice formula."
+    },
+    {
+        "text": "That's the, like, the most compact formula I could ever get."
+    },
+    {
+        "text": "U one hundred would be a to the one hundredth u0."
+    },
+    {
+        "text": "But how would I actually find u one hundred?"
+    },
+    {
+        "text": "How would I find, how would I discover what u one hundred is?"
+    },
+    {
+        "text": "Let me, let me show you how."
+    },
+    {
+        "text": "Here, here's the idea."
+    },
+    {
+        "text": "If, so, to solve, to really solve, shall I say, to really solve."
+    },
+    {
+        "text": "To really solve it, I would take this initial vector, u0, and I would write it as a combination of eigenvectors."
+    },
+    {
+        "text": "To really solve, write, write u0 as a combination, say, certain amount of the first eigenvector plus a certain amount of the second eigenvector plus a certain amount of the last eigenvector."
+    },
+    {
+        "text": "Now multiply by a."
+    },
+    {
+        "text": "You want to, you got to see the magic of eigenvectors work."
+    },
+    {
+        "text": "Multiply by a."
+    },
+    {
+        "text": "So a u0 is what?"
+    },
+    {
+        "text": "So a times that."
+    },
+    {
+        "text": "A times, so what's, I can separate it out into n separate pieces and that's the whole point."
+    },
+    {
+        "text": "That each of those pieces is going in its own merry way."
+    },
+    {
+        "text": "Each of those pieces is an eigenvector, and when I multiply by a, what does this piece become?"
+    },
+    {
+        "text": "So that's some amount of the first, let's suppose the eigenvectors are normalized to be unit vectors."
+    },
+    {
+        "text": "So that says what the eigenvector is."
+    },
+    {
+        "text": "It's, and I need some multiple of it to produce u0."
+    },
+    {
+        "text": "OK. Now when I multiply by a, what do I get?"
+    },
+    {
+        "text": "I get c1, which is just a factor, times a x1, but a x1 is lambda one x1."
+    },
+    {
+        "text": "When I multiply this by a, I get c2 lambda two x2."
+    },
+    {
+        "text": "And here I get cn lambda n xn."
+    },
+    {
+        "text": "And suppose I multiply by a to the hundredth power now."
+    },
+    {
+        "text": "Can we, can we, having done it, multiplied by a, let's multiply by a to the hundredth."
+    },
+    {
+        "text": "What happens to this first term when I multiply by a to the one hundredth?"
+    },
+    {
+        "text": "It's got that factor lambda to the hundredth."
+    },
+    {
+        "text": "That's the key."
+    },
+    {
+        "text": "That, that's what I mean by going its own merry way."
+    },
+    {
+        "text": "It, it is pure eigenvector, it's exactly in a direction where multiplication by a just brings in a scalar factor lambda one."
+    },
+    {
+        "text": "So a hundred times brings in this a hundred times."
+    },
+    {
+        "text": "Hundred times lambda two, hundred times lambda n. Actually, we're, what are we seeing here?"
+    },
+    {
+        "text": "We're seeing, this same, lambda, capital lambda to the hundredth, as in the, as in the diagonalization, and we're seeing the S matrix, the matrix S of eigenvectors."
+    },
+    {
+        "text": "That's what this has got to, this has got to amount to, a lambda to the hundredth power times an S times this vector C that's telling us how much of each one is in the original thing."
+    },
+    {
+        "text": "So if, if I had to really find the hundredth power, I would take u0, I would expand it as a combination of eigenvectors, this is really S, the eigenvector matrix times C, the, the coefficient vector."
+    },
+    {
+        "text": "And then I would immediately, then, by inserting these hundredth powers of eigenvalues, I'd have the answer."
+    },
+    {
+        "text": "So the, the, huh, there must be, well, let's see."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "It's, so, yeah."
+    },
+    {
+        "text": "So if u100 is a to the hundredth times u0, and u0 is Sc, then you see this formula is just this formula, which is the way I would actually get hold of this, of this u100, which is, let me put it here, u100."
+    },
+    {
+        "text": "The way I would actually get hold of that, see what, what the solution is after a hundred steps, would be expand the initial vector into eigenvectors and, and let each eigenvector go its own way, multiplying by a hundred at, by lambda at every step, and therefore by lambda to the hundredth power after a hundredth step."
+    },
+    {
+        "text": "Can I do an example?"
+    },
+    {
+        "text": "So that's, that's the, the formulas."
+    },
+    {
+        "text": "Now let me take an example."
+    },
+    {
+        "text": "I'll use the Fibonacci sequence as an example."
+    },
+    {
+        "text": "So, so Fibonacci example."
+    },
+    {
+        "text": "You remember the Fibonacci numbers?"
+    },
+    {
+        "text": "If we start with one and one as F0, oh, I think I start with zero, maybe."
+    },
+    {
+        "text": "Let zero and one be the first ones."
+    },
+    {
+        "text": "So there's F0 and F1, the first two Fibonacci numbers."
+    },
+    {
+        "text": "Then what's the rule for Fibonacci numbers?"
+    },
+    {
+        "text": "They're the sum."
+    },
+    {
+        "text": "The next one is the sum of those, so it's one."
+    },
+    {
+        "text": "The next one is the sum of those, so it's two."
+    },
+    {
+        "text": "The next one is the sum of those, so it's three."
+    },
+    {
+        "text": "Well, it looks like one, two, three, four, five, but somehow it's not going to do that way."
+    },
+    {
+        "text": "The next one is five, right."
+    },
+    {
+        "text": "Two and three makes five."
+    },
+    {
+        "text": "The next one is eight."
+    },
+    {
+        "text": "The next one is thirteen."
+    },
+    {
+        "text": "And the one hundredth Fibonacci number is what?"
+    },
+    {
+        "text": "That's my question."
+    },
+    {
+        "text": "How could I get a formula for the hundredth number and for example how could I answer the question how fast are they growing?"
+    },
+    {
+        "text": "How fast are those Fibonacci numbers growing?"
+    },
+    {
+        "text": "They're certainly growing."
+    },
+    {
+        "text": "It's not a stable case, whatever the eigenvalues of whatever matrix it is, they're not smaller than one."
+    },
+    {
+        "text": "These numbers are growing."
+    },
+    {
+        "text": "But how fast are they growing?"
+    },
+    {
+        "text": "The answer is lies in the eigenvalue."
+    },
+    {
+        "text": "So I've got to find the matrix, so let me write down the Fibonacci rule, F k plus two is F k plus one plus F k, right?"
+    },
+    {
+        "text": "Now that's not in my -- I want to write that as U k plus one and A U k. But right now what I've got is a single equation, not a system."
+    },
+    {
+        "text": "And it's second order."
+    },
+    {
+        "text": "It's like having a second order differential equation with second derivatives."
+    },
+    {
+        "text": "I want to get first derivatives."
+    },
+    {
+        "text": "Here I want to get first difference."
+    },
+    {
+        "text": "So the way to do it is to introduce U k will be a vector."
+    },
+    {
+        "text": "See, a small trick."
+    },
+    {
+        "text": "Let U k be a vector, F k plus one and F k. So I'm going to get a two by two system, first order, instead of a one, instead of a scalar system, second order, by a simple trick."
+    },
+    {
+        "text": "I'm just going to add in an equation F k plus one equals F k plus one."
+    },
+    {
+        "text": "That will be my second equation."
+    },
+    {
+        "text": "Then this is my system, this is my unknown, and what's my one-step equation?"
+    },
+    {
+        "text": "So now U k plus one."
+    },
+    {
+        "text": "That's so U k plus one is the left side, and what have I got here on the right side?"
+    },
+    {
+        "text": "I've got some matrix multiplying U k. Can you see that all right?"
+    },
+    {
+        "text": "If you can see it, then you can tell me what the matrix is."
+    },
+    {
+        "text": "You see that I'm taking my system here, I artificially made it into a system."
+    },
+    {
+        "text": "I artificially made the unknown into a vector, and now I'm ready to look at and see what the matrix is."
+    },
+    {
+        "text": "So do you see the left side, U k plus one is F k plus two F k plus one, that's just what I want."
+    },
+    {
+        "text": "On the right side, this, remember, this U k here, let me for the moment put it as F k plus one F k. So what's the matrix?"
+    },
+    {
+        "text": "Well, that has a one and a one, and that has a one and a zero."
+    },
+    {
+        "text": "There's the matrix."
+    },
+    {
+        "text": "You see that that gives me the right-hand side."
+    },
+    {
+        "text": "So there's the matrix A, and this is our friend U k. So we've got, so that simple trick changed the second order scalar problem to a first order system, two, with two unknowns."
+    },
+    {
+        "text": "With a matrix and now what do I do?"
+    },
+    {
+        "text": "Well, before I even think, I find its eigenvalues and eigenvectors."
+    },
+    {
+        "text": "So what are the eigenvalues and eigenvectors of that matrix?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "I was, first let me just, like, think for a minute."
+    },
+    {
+        "text": "It's two by two, so this shouldn't be impossible to do."
+    },
+    {
+        "text": "Let's do it."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So my matrix again is one one one zero."
+    },
+    {
+        "text": "It's symmetric, by the way."
+    },
+    {
+        "text": "So what I will eventually know about symmetric matrices is that the eigenvalues will come out real, I won't get any complex numbers here, and the eigenvectors, once I get those, actually will be orthogonal."
+    },
+    {
+        "text": "But two by two, I'm more interested in what the actual numbers are."
+    },
+    {
+        "text": "What do I know about the two numbers?"
+    },
+    {
+        "text": "Well, should, do you want me to find this determinant of A minus lambda I?"
+    },
+    {
+        "text": "Sure."
+    },
+    {
+        "text": "So it's the determinant of one minus lambda one one zero, right?"
+    },
+    {
+        "text": "Minus lambda, yes, got it."
+    },
+    {
+        "text": "OK. OK."
+    },
+    {
+        "text": "There'll be two eigenvalues."
+    },
+    {
+        "text": "Well, tell me again what I know about the two eigenvalues before I go any further."
+    },
+    {
+        "text": "Tell me something about these two eigenvalues, what do they add up to?"
+    },
+    {
+        "text": "Lambda one plus lambda two is the same as the trace down the diagonal of the matrix, one and zero is one."
+    },
+    {
+        "text": "So lambda one plus lambda two should come out to be one, and lambda one times lambda two should come out to be the determinant, which is minus one."
+    },
+    {
+        "text": "So I'm expecting the eigenvalues to add to one and to multiply to minus one."
+    },
+    {
+        "text": "But let's just see it happen here."
+    },
+    {
+        "text": "If I multiply this out, I get that times that'll be a lambda squared minus lambda minus one."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Lambda squared minus lambda minus one."
+    },
+    {
+        "text": "Actually, you see the, compare that with the original equation that I started with."
+    },
+    {
+        "text": "Fk plus two minus Fk plus one minus Fk is zero."
+    },
+    {
+        "text": "The recurrent, the recursion that the Fibonacci number satisfy is somehow showing up directly here for the eigenvalues when we set that to zero."
+    },
+    {
+        "text": "OK. Let's solve."
+    },
+    {
+        "text": "Well, I would like to be able to factor that, that quadratic, but I'm better off to use the quadratic formula."
+    },
+    {
+        "text": "Lambda is, let's see, minus b is one, plus or minus the square root of b squared, which is one, minus four, times that, times that, which is plus four, over two."
+    },
+    {
+        "text": "So that's the square root of five."
+    },
+    {
+        "text": "So the eigenvalues are lambda one is one half of one plus square root of five, and lambda two is one half of one minus square root of five."
+    },
+    {
+        "text": "And sure enough, they, those add up to one, and they multiply to give minus one."
+    },
+    {
+        "text": "OK. Those are the two eigenvalues."
+    },
+    {
+        "text": "How, how, what are those numbers approximately?"
+    },
+    {
+        "text": "Square root of five, well, it's more than two, but less than three."
+    },
+    {
+        "text": "It, it'd be nice to know these numbers."
+    },
+    {
+        "text": "I think, I think that that, so that number comes out bigger than one, right?"
+    },
+    {
+        "text": "Yeah, that's right."
+    },
+    {
+        "text": "This number comes out bigger than one."
+    },
+    {
+        "text": "It's about one point six one eight or something."
+    },
+    {
+        "text": "Not exactly."
+    },
+    {
+        "text": "It's supposed to be one point six."
+    },
+    {
+        "text": "Just, like, I think so."
+    },
+    {
+        "text": "Then what's lambda two?"
+    },
+    {
+        "text": "Is, is lambda two positive or negative?"
+    },
+    {
+        "text": "Negative, right?"
+    },
+    {
+        "text": "Because I'm, it's obviously negative, and I knew that the, so it's minus, and they add up to one, so minus point six one eight, I guess."
+    },
+    {
+        "text": "OK. And some order."
+    },
+    {
+        "text": "Those are the two eigenvalues."
+    },
+    {
+        "text": "One eigenvalue bigger than one, one eigenvalue smaller than one."
+    },
+    {
+        "text": "Actually, that's a great situation to be in."
+    },
+    {
+        "text": "Of course, the eigenvalues are different, so there's no doubt whatever, is this matrix diagonalizable?"
+    },
+    {
+        "text": "Is this matrix diagonalizable, that original matrix A?"
+    },
+    {
+        "text": "Sure."
+    },
+    {
+        "text": "We've got two distinct eigenvalues and we can find the eigenvectors in a moment."
+    },
+    {
+        "text": "But they'll be independent, will be diagonalizable, and now you can already answer my very first question."
+    },
+    {
+        "text": "How fast are those Fibonacci numbers increasing?"
+    },
+    {
+        "text": "How, those, they're increasing, right?"
+    },
+    {
+        "text": "They're not doubling at every step."
+    },
+    {
+        "text": "Let's look again at these numbers."
+    },
+    {
+        "text": "Five eight thirteen, it's not obvious."
+    },
+    {
+        "text": "The next one would be twenty one thirty four."
+    },
+    {
+        "text": "So to get some idea of what F one hundred is, can you give me any, I mean the crucial number of, so it, these, it's approximately, what's controlling the growth of these Fibonacci numbers?"
+    },
+    {
+        "text": "It's the eigenvalues."
+    },
+    {
+        "text": "And which eigenvalues controlling that growth?"
+    },
+    {
+        "text": "The big ones."
+    },
+    {
+        "text": "So F one hundred will it be approximately some constant, c one, I guess, times this lambda one, this one plus square root of five over two, to the hundredth power."
+    },
+    {
+        "text": "And the two hundredth have, in other words, the eigenvalue, the Fibonacci numbers are growing by about that factor."
+    },
+    {
+        "text": "You see that we've got precise information about the, about the Fibonacci numbers out of the eigenvalue."
+    },
+    {
+        "text": "OK. And again, why is that true?"
+    },
+    {
+        "text": "Let me go over to this board and show what I'm doing here."
+    },
+    {
+        "text": "The, the original eigen, the original initial value is some combination of eigenvectors, and then when we start multiple, when we start going out the theory of Fibonacci numbers, when we start multiplying by a hundred times, it's this lambda one to the hundredth, this term is, is the one that's taken over."
+    },
+    {
+        "text": "It's, I mean, that's big, like, one point six to the hundredth power."
+    },
+    {
+        "text": "The second term is practically nothing, right?"
+    },
+    {
+        "text": "The point six, or minus point six to the hundredth power, is an extremely small, extremely small number."
+    },
+    {
+        "text": "So this is, this, this, there are only two terms, because we're two by two."
+    },
+    {
+        "text": "This number is, this piece of it is there, but it's, it's disappearing."
+    },
+    {
+        "text": "Where this piece is there and it's growing and controlling everything."
+    },
+    {
+        "text": "So, so really the, we're doing, like, problems that are evolving."
+    },
+    {
+        "text": "We're doing dynamics."
+    },
+    {
+        "text": "Instead of Ax equal b, that's a static problem."
+    },
+    {
+        "text": "We're now, we're doing dynamics."
+    },
+    {
+        "text": "A, a squared, a cubed, things are evolving in time, and the eigenvalues are the crucial, numbers."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I guess to complete this, I better write down the eigenvectors."
+    },
+    {
+        "text": "So we should complete the, the whole process by finding the eigenvectors."
+    },
+    {
+        "text": "OK. Well, I have to, up in the corner, then I have to look at A minus lambda I."
+    },
+    {
+        "text": "So A minus lambda I is this one minus lambda, one, one, and minus lambda."
+    },
+    {
+        "text": "And now, can we spot an eigenvector out of that?"
+    },
+    {
+        "text": "That's, for these two lambdas, this matrix is singular."
+    },
+    {
+        "text": "I guess the eigenvector, two by two ought to be easy."
+    },
+    {
+        "text": "So if I know that this matrix is singular, then it seems to me the eigenvector has to be lambda and one, because that multiplication will give me the zero."
+    },
+    {
+        "text": "And this multiplication gives me, better give me also zero."
+    },
+    {
+        "text": "Do you see why it does?"
+    },
+    {
+        "text": "This is the minus lambda squared plus lambda plus one."
+    },
+    {
+        "text": "It's the thing that's zero, because these lambdas are special."
+    },
+    {
+        "text": "There's the eigenvector."
+    },
+    {
+        "text": "X1 is lambda one, one, and x2 is lambda two, one."
+    },
+    {
+        "text": "I did that as a little trick that was available in the two by two case."
+    },
+    {
+        "text": "So now I finally have to, oh, I have to take the initial, u0."
+    },
+    {
+        "text": "So to complete this example entirely, I have to say, OK, what was u0?"
+    },
+    {
+        "text": "u0 was f1 f0."
+    },
+    {
+        "text": "So u0, the starting vector, is f1 f0, and those were one and zero."
+    },
+    {
+        "text": "So I have to use that vector, so I have to look for, from multiple of the first eigenvector and the second, to produce u0, the one zero vector."
+    },
+    {
+        "text": "This is what will find c1 and c2, and then I'm done."
+    },
+    {
+        "text": "So let me, instead of in the last five seconds grinding out a formula, let me repeat the idea."
+    },
+    {
+        "text": "That really, it's the idea that's central."
+    },
+    {
+        "text": "When things are evolving in time, let me come back to this board, because the ideas are here."
+    },
+    {
+        "text": "When things are evolving in time by a first-order system, starting from an original u0, the key is, find the eigenvalues and eigenvectors of A."
+    },
+    {
+        "text": "That will tell, those eigenvectors, the eigenvalues will already tell you what's happening."
+    },
+    {
+        "text": "Is the solution blowing up?"
+    },
+    {
+        "text": "Is it going to zero?"
+    },
+    {
+        "text": "What's it doing?"
+    },
+    {
+        "text": "And then, to find out exactly a formula, you have to take your u0 and write it as a combination of eigenvectors and then follow each eigenvector separately."
+    },
+    {
+        "text": "And that's really what this formula, the formula for, that's what the formula for A to the k is doing."
+    },
+    {
+        "text": "So remember that formula for A to the k is S, lambda to the k S inverse."
+    },
+    {
+        "text": "OK. That's, that's difference equations, and you just have to, so the homework will give some examples different from Fibonacci to follow through."
+    },
+    {
+        "text": "And next time will be differential equations."
+    },
+    {
+        "text": "Thanks."
+    }
+]

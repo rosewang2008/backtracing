@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "School has added several new courses to our grade this semester . I have more homework to do now .",
+        "emotion": "neutral",
+        "text": "School has added several new courses to our grade this semester . I have more homework to do now .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's your favorite course , Daniel ?",
+        "emotion": "neutral",
+        "text": "What's your favorite course , Daniel ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I like science most .",
+        "emotion": "neutral",
+        "text": "I like science most .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Science ? That's a surprise .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I like science most ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Science ? That's a surprise .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Surprise ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "That's a surprise ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Surprise ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I thought you would like PE .",
+        "emotion": "neutral",
+        "text": "I thought you would like PE .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I do like PE , but I am interested in science .",
+        "emotion": "neutral",
+        "text": "I do like PE , but I am interested in science .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Are you interested in science ? I can't believe it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I am interested in science ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you interested in science ? I can't believe it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Through this course , I can learn more about the world around us clearly .",
+        "emotion": "neutral",
+        "text": "Through this course , I can learn more about the world around us clearly .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Your parents would be happy if they knew that . Because you are always a naughty boy .",
+        "emotion": "neutral",
+        "text": "Your parents would be happy if they knew that . Because you are always a naughty boy .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Naughty ? I'm naughty ? I'm just clever . So I only do the things I am interested in .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "you are always a naughty boy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Naughty ? I'm naughty ? I'm just clever . So I only do the things I am interested in .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Hope so .",
+        "emotion": "neutral",
+        "text": "Hope so .",
+        "id": 12
+    }
+]

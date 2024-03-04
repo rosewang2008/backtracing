@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 10,
+        "timestamp": 1684512534435.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Regarding the problem at 26:28\nIt would be solved if the matrix U was [1 0; 0 -1]. (Replace the 1 at the bottom right of the 2x2 identity with -1).\nThis can be found by following the argument that Prof Strang makes in this video: https://youtu.be/rYz83XPxiZo?t=1177 (Skip to 19:37).  \nThe problem is that here the eigenvectors of U that we found are [1, 0]' and [0, 1]', but they should be [1, 0]' and [0, -1]'.\nThe negative in the 2nd eigenvector allows the scaling term (sigma) to be strictly positive.  \n\nLet S = Sigma (for ease of typing).\nI think the main problem is that the general form A = U*S*V' does not mathematically enforce that S should be a strictly positive matrix.\nSo even though A'A and AA' will output the squares of the eigenvalues, simply choosing the positive roots is not enough.\nWe would need to choose the right sign for the eigenvector that corresponds to the positive root. E.g. [1,0] and [-1,0] can both have the same eigenvalue, so we have to decide which to use.\nHence, we need to check the cases and manually negate the vectors in U or V so that S can be positive.\nHowever, if we follow what Prof Strang does in the video whose URL ive included in the earlier part of this comment, then this is accounted for by the computation."
+    }
+]

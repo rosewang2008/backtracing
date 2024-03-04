@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I'm going to integrate the inequality to get this conclusion and see what conclusion it is."
+    },
+    {
+        "text": "The inequality that I want to take is that e to the x is greater than or equal to 1 for x greater than or equal to 0."
+    },
+    {
+        "text": "That's going to be our starting place."
+    },
+    {
+        "text": "And now I'm going to integrate it, that is, I'm going to use estimation to see what that gives."
+    },
+    {
+        "text": "Well, I'm going to integrate, say, from 0 to b. I can't integrate below 0 because it's only true above 0."
+    },
+    {
+        "text": "This is e to the x dx greater than or equal to the integral from 0 to b of 1 dx."
+    },
+    {
+        "text": "Let's work out what each of these is."
+    },
+    {
+        "text": "The first one, e to the x dx, is the antiderivative is e to the x evaluated at 0 and b."
+    },
+    {
+        "text": "So that's e to the b minus e to the 0, which is e to the b minus 1."
+    },
+    {
+        "text": "The other one, you're supposed to be able to get by the rectangle law."
+    },
+    {
+        "text": "This is one rectangle of base b and height 1."
+    },
+    {
+        "text": "So the answer is b."
+    },
+    {
+        "text": "Or you can do it by antiderivatives, but it's b."
+    },
+    {
+        "text": "That means that our inequality says, if I just combine these two things together, that e to the b minus 1 is greater than or equal to b."
+    },
+    {
+        "text": "And that's the same thing as e to the b is greater than or equal to 1 plus b."
+    },
+    {
+        "text": "Again, this only works for b greater than or equal to 0."
+    },
+    {
+        "text": "Notice that if b were negative, this would be a well-defined quantity."
+    },
+    {
+        "text": "But this estimation would be false."
+    },
+    {
+        "text": "We need that the b be bigger than 0 in order for this to make sense."
+    },
+    {
+        "text": "So this was used."
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok . I'll call you Saturday morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'll give it a try . Give me a call and let's go down together ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . I'll call you Saturday morning .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

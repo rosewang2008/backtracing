@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No problem !",
+        "emotion": "happiness",
+        "explanation": "A is happy as B asks for help",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can you use the thinning shears"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

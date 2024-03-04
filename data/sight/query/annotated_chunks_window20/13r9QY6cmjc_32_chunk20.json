@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 32,
+        "timestamp": 1684728378616.0,
+        "annotatedSourceSentencesIndices": [
+            13
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "@ 44:00 why summation of both eigen values are 1?? have i missed any concept behind this?? : ("
+    }
+]

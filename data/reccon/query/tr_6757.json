@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Wonderful ! I'll start packing our suitcases .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "It will be great .",
+            "I'll make the arrangements . It will be great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful ! I'll start packing our suitcases .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

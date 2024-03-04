@@ -1,0 +1,253 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I think I'm going to go home .",
+        "emotion": "neutral",
+        "text": "I think I'm going to go home .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Why ? We just got here .",
+        "emotion": "neutral",
+        "text": "Why ? We just got here .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I know , but it's 12",
+        "emotion": "neutral",
+        "text": "I know , but it's 12",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "12",
+        "emotion": "neutral",
+        "text": "12",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Three or four o'clock ?",
+        "emotion": "neutral",
+        "text": "Three or four o'clock ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I never stay out that late . That's too late .",
+        "emotion": "neutral",
+        "text": "I never stay out that late . That's too late .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But why is it too late ? It's Saturday night . You have nothing to do tomorrow . Why not stay out and drink with us ?",
+        "emotion": "neutral",
+        "text": "But why is it too late ? It's Saturday night . You have nothing to do tomorrow . Why not stay out and drink with us ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Were you so wild when you were still in Taipei , Sharon ?",
+        "emotion": "neutral",
+        "text": "Were you so wild when you were still in Taipei , Sharon ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , I was . And I like living here . People know how to party here . In Taipei , some people know how to party . But here , everyone does .",
+        "emotion": "neutral",
+        "text": "Yes , I was . And I like living here . People know how to party here . In Taipei , some people know how to party . But here , everyone does .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What is that they're doing on the couch ?",
+        "emotion": "neutral",
+        "text": "What is that they're doing on the couch ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "They're smoking pot . Don't worry about it .",
+        "emotion": "neutral",
+        "text": "They're smoking pot . Don't worry about it .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Pot ? Isn't that marijuana ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "They're smoking pot ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Pot ? Isn't that marijuana ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , it is .",
+        "emotion": "neutral",
+        "text": "Yes , it is .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "But , Sharon , that's illegal ! The police could come , and we could go to jail .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            15
+        ],
+        "expanded emotion cause span": [
+            "They're smoking pot .",
+            "that's illegal !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But , Sharon , that's illegal ! The police could come , and we could go to jail .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Don't worry about it . It is true that pot is illegal in America . But the laws aren't as strict as in Taiwan . If people are arrested , and they have a little pot in their possession , they don't go to jail . They just have to pay a fine .",
+        "emotion": "neutral",
+        "text": "Don't worry about it . It is true that pot is illegal in America . But the laws aren't as strict as in Taiwan . If people are arrested , and they have a little pot in their possession , they don't go to jail . They just have to pay a fine .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "the laws aren't as strict as in Taiwan . If people are arrested , and they have a little pot in their possession , they don't go to jail . They just have to pay a fine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "I didn't know you had such wild friends . Do you smoke marijuana too ?",
+        "emotion": "neutral",
+        "text": "I didn't know you had such wild friends . Do you smoke marijuana too ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "I tried it a couple times . But I don't like it . I like alcohol better . Don ' t worry about them , though . If you don't want to smoke pot , you don't have to .",
+        "emotion": "neutral",
+        "text": "I tried it a couple times . But I don't like it . I like alcohol better . Don ' t worry about them , though . If you don't want to smoke pot , you don't have to .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "I don't want to .",
+        "emotion": "neutral",
+        "text": "I don't want to .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "That's alright . But you really should have another drink . People will probably start dancing soon .",
+        "emotion": "neutral",
+        "text": "That's alright . But you really should have another drink . People will probably start dancing soon .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "I don't know if I can drink more . I already had two drinks .",
+        "emotion": "neutral",
+        "text": "I don't know if I can drink more . I already had two drinks .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "You had two drinks at nine o'clock . C'mon , Ann , you are in an American university now ! You have to learn how to drink .",
+        "emotion": "neutral",
+        "text": "You had two drinks at nine o'clock . C'mon , Ann , you are in an American university now ! You have to learn how to drink .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "I thought a university was for studying .",
+        "emotion": "neutral",
+        "text": "I thought a university was for studying .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "It is . We study hard all week . And then , on the weekend , we party hard . That's the best way to live .",
+        "emotion": "neutral",
+        "text": "It is . We study hard all week . And then , on the weekend , we party hard . That's the best way to live .",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Alright . I'll have another drink .",
+        "emotion": "neutral",
+        "text": "Alright . I'll have another drink .",
+        "id": 27
+    }
+]

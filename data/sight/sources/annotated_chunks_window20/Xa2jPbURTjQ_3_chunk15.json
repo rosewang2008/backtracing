@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What do I do to make that an orthogonal matrix?"
+    },
+    {
+        "text": "Divide by square root of 2."
+    },
+    {
+        "text": "I need unit vectors there."
+    },
+    {
+        "text": "And here, those lengths are 1 squared, 1 squared, 4."
+    },
+    {
+        "text": "Square root of 4 is 2."
+    },
+    {
+        "text": "So I better divide by the 2 there."
+    },
+    {
+        "text": "And now here, I'm up to, yeah, so that was that one."
+    },
+    {
+        "text": "Tell me the next one up."
+    },
+    {
+        "text": "What's that going to be?"
+    },
+    {
+        "text": "8 by 8?"
+    },
+    {
+        "text": "So this is H4 here."
+    },
+    {
+        "text": "Oops, 4."
+    },
+    {
+        "text": "So tell me what I should do for 8 by 8."
+    },
+    {
+        "text": "You'll think this is simple."
+    },
+    {
+        "text": "But that's a good thing to say about it."
+    },
+    {
+        "text": "In coding theory, all sorts of places, you want matrices of 1's and minus 1's."
+    },
+    {
+        "text": "OK, what's H8?"
+    },
+    {
+        "text": "I'm going to build it out of H4."
+    },
+    {
+        "text": "So what's it going to be?"
+    },
+    {
+        "text": "I'm going to put an H4 there."
+    }
+]

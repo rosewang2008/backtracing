@@ -1,0 +1,175 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Taxi . Over here !",
+        "emotion": "neutral",
+        "text": "Hey , Taxi . Over here !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Did you call for a car service",
+        "emotion": "neutral",
+        "text": "Did you call for a car service",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , are you engaged",
+        "emotion": "neutral",
+        "text": "Yes , are you engaged",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not at the moment . Where would you like me to take you",
+        "emotion": "neutral",
+        "text": "Not at the moment . Where would you like me to take you",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I am going to the airport , and I have to catch the 930 flight to New York .",
+        "emotion": "neutral",
+        "text": "I am going to the airport , and I have to catch the 930 flight to New York .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , it's a long way and there is roadwork near Broadway . I am not sure I can snake it in half an hour .",
+        "emotion": "neutral",
+        "text": "Well , it's a long way and there is roadwork near Broadway . I am not sure I can snake it in half an hour .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But I can't miss the flight . It's an important meeting and it ' s waiting for me .",
+        "emotion": "neutral",
+        "text": "But I can't miss the flight . It's an important meeting and it ' s waiting for me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "All right , I will try my best . If there aren ' t any holdups , I think we can get there in time .",
+        "emotion": "neutral",
+        "text": "All right , I will try my best . If there aren ' t any holdups , I think we can get there in time .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's great . How much is it to the airport",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I will try my best .",
+            "I think we can get there in time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's great . How much is it to the airport",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "About $ 25 , tips not included .",
+        "emotion": "neutral",
+        "text": "About $ 25 , tips not included .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Fine . Will you please help me with the luggage",
+        "emotion": "neutral",
+        "text": "Fine . Will you please help me with the luggage",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , yes , sure . Let me put it in the boot .",
+        "emotion": "neutral",
+        "text": "Oh , yes , sure . Let me put it in the boot .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thanks very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Will you please help me with the luggage",
+            "yes , sure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks very much .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Not at all . Bang the door , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Not at all . Bang the door , please .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok , let's hurry .",
+        "emotion": "neutral",
+        "text": "Ok , let's hurry .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You are in luck . The traffic is not heavy today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "You are in luck . The traffic is not heavy today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You are in luck . The traffic is not heavy today .",
+        "id": 16
+    }
+]

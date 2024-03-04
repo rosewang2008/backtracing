@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 4,
+        "timestamp": 1684518589095.0,
+        "annotatedSourceSentencesIndices": [
+            19
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "at 38:00 , we take a non-linear transformation of Xn bar as the statistic. How can it still be Gaussian? He said in a previous lecture it is not Gaussian."
+    }
+]

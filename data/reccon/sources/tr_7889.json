@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , are you being helped ?",
+        "emotion": "neutral",
+        "text": "Hi , are you being helped ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , I'm not . I am interested in some scarves .",
+        "emotion": "neutral",
+        "text": "No , I'm not . I am interested in some scarves .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "All our scarves are in this section . What do you think of this one here ? It's made of silk .",
+        "emotion": "neutral",
+        "text": "All our scarves are in this section . What do you think of this one here ? It's made of silk .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hm , It looks nice , but I ' d like to have something warm for the winter .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's made of silk .",
+            "looks nice ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hm , It looks nice , but I ' d like to have something warm for the winter .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Maybe you would like a heavy wool scarves . How about this one ?",
+        "emotion": "neutral",
+        "text": "Maybe you would like a heavy wool scarves . How about this one ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think that's what I want . How much is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "a heavy wool scarves .",
+            "that's what I want ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that's what I want . How much is it ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's 75 dollars plus tax .",
+        "emotion": "neutral",
+        "text": "It's 75 dollars plus tax .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's a little expensive . Do you think it's possible to get a discount ?",
+        "emotion": "neutral",
+        "text": "It's a little expensive . Do you think it's possible to get a discount ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Since you like it so much , how about a 10 % discount ? That's the best I can offer .",
+        "emotion": "neutral",
+        "text": "Since you like it so much , how about a 10 % discount ? That's the best I can offer .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's good . Could you wrap it for me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "a heavy wool scarves .",
+            "that's what I want .",
+            "a 10 % discount ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's good . Could you wrap it for me ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sure . Is there anything else I can get for you ?",
+        "emotion": "neutral",
+        "text": "Sure . Is there anything else I can get for you ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No , that should be it . Thank you !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "a heavy wool scarves .",
+            "that's what I want .",
+            "a 10 % discount ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , that should be it . Thank you !",
+        "id": 12
+    }
+]

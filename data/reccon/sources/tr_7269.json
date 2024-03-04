@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "My Goodness ! What a busy line so early in the morning ! Hello .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a busy line so early in the morning !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My Goodness ! What a busy line so early in the morning ! Hello .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ruth ? Basil .",
+        "emotion": "neutral",
+        "text": "Ruth ? Basil .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hi , Basil .",
+        "emotion": "neutral",
+        "text": "Hi , Basil .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Want a ride to the office ?",
+        "emotion": "neutral",
+        "text": "Want a ride to the office ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , by all means . I was just about to leave .",
+        "emotion": "neutral",
+        "text": "Yes , by all means . I was just about to leave .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hold on . Just 5 minutes .",
+        "emotion": "neutral",
+        "text": "Hold on . Just 5 minutes .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'll wait on the sidewalk . It's very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Hold on . Just 5 minutes .",
+            "It's very kind of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll wait on the sidewalk . It's very kind of you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's my pleasure . See you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "It's very kind of you .",
+            "It's my pleasure ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's my pleasure . See you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Hi , Basil .",
+        "emotion": "neutral",
+        "text": "Hi , Basil .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Hi , Ruth . Hop in .",
+        "emotion": "neutral",
+        "text": "Hi , Ruth . Hop in .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Do you mind if I take some notes while we drive ?",
+        "emotion": "neutral",
+        "text": "Do you mind if I take some notes while we drive ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Of course I don't mind . For your report ?",
+        "emotion": "neutral",
+        "text": "Of course I don't mind . For your report ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , I finally have an inspiration .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I finally have an inspiration ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , I finally have an inspiration .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good for you . No problem , I'll listen to the car radio",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I finally have an inspiration ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good for you . No problem , I'll listen to the car radio",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm glad .",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm most grateful . Everyone in our class enjoyed it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

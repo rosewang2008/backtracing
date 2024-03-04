@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Which is a good thing."
+    },
+    {
+        "text": "You see that slope there is negative."
+    },
+    {
+        "text": "That's the simplest check that you could make."
+    },
+    {
+        "text": "And the second thing that I would just like to point out is that as x goes to infinity, that is, as we go farther to the right, it gets less and less steep."
+    },
+    {
+        "text": "So less."
+    },
+    {
+        "text": "And whoops, as x0 goes to infinity, not 0."
+    },
+    {
+        "text": "As x0 goes to infinity, less and less steep."
+    },
+    {
+        "text": "So that's also consistent here."
+    },
+    {
+        "text": "When x0 is very large, this is a smaller and smaller number in magnitude."
+    },
+    {
+        "text": "Although it's always negative."
+    },
+    {
+        "text": "It's always sloping down."
+    },
+    {
+        "text": "So I've managed to fill the boards, so maybe I should stop for a question or two."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 1."
+    },
+    {
+        "text": "Can you explain why it's 2, 2, and 0, and why it's 2, 1, 1, and 0?"
+    },
+    {
+        "text": "PROFESSOR CELESTE GRAYSON So the question is to explain again this limiting process."
+    },
+    {
+        "text": "So the formula here is, we have basically two numbers."
+    },
+    {
+        "text": "So in other words, why is it that this expression, when delta x tends to 0, is equal to minus 1 over x0 squared?"
+    },
+    {
+        "text": "Let me illustrate it by sticking in a number for x0 to make it more explicit."
+    },
+    {
+        "text": "So for instance, let me stick in here for x0 the number 3."
+    }
+]

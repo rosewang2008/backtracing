@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If there's at least 1 arrival between times 2 and 5, then I would have gone home by time 5."
+    },
+    {
+        "text": "So both of these, if you plug-in numbers and all that, of course, are going to give you the same answer."
+    },
+    {
+        "text": "Now next, what's the probability that I catch at least 2 fish?"
+    },
+    {
+        "text": "In which scenario are we?"
+    },
+    {
+        "text": "Under this scenario, I go home when I catch my first fish."
+    },
+    {
+        "text": "So in order to catch at least 2 fish, it must be in this case."
+    },
+    {
+        "text": "So this is the same as the event that I catch at least 2 fish during the first 2 time steps."
+    },
+    {
+        "text": "So it's going to be the probability from 2 to infinity, the probability that I catch 2 fish, or that I catch 3 fish, or I catch more than that."
+    },
+    {
+        "text": "So it's this quantity."
+    },
+    {
+        "text": "k is the number of fish that I catch."
+    },
+    {
+        "text": "At least 2, so k goes from 2 to infinity."
+    },
+    {
+        "text": "These are the probabilities of catching a number k of fish during this interval."
+    },
+    {
+        "text": "And if you want a simpler form without an infinite sum, this would be 1 minus the probability of catching 0 fish, minus the probability of catching 1 fish, during a time interval of length 2."
+    },
+    {
+        "text": "Another way to think of it."
+    },
+    {
+        "text": "I'm going to catch 2 fish, at least 2 fish, if and only if the second fish caught in this process happens before time 2."
+    },
+    {
+        "text": "So that's another way of thinking about the same event."
+    },
+    {
+        "text": "So it's going to be the probability that the random variable Y2, the arrival time over the second fish, is less than or equal to 2."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "The next one is a little trickier."
+    },
+    {
+        "text": "Here we need to do a little bit of divide and conquer."
+    }
+]

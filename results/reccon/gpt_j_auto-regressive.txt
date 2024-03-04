@@ -1,0 +1,11 @@
+Using CUDA? True
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/gpt_j_auto-regressive.csv
+Output fname: results/reccon/test/gpt_j_auto-regressive.csv
+Total: 8263
+Num errors: 0
+Num large context: 0
+Method: auto-regressive, top_k: 1, accuracy: 0.08, distance: 2.0
+Method: auto-regressive, top_k: 3, accuracy: 0.6, distance: 0.8
+

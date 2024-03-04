@@ -1,0 +1,193 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi . Bob ! We've been working hard at our lessons for a fortnight . So why don't we take it easy this weekend ?",
+        "emotion": "neutral",
+        "text": "Hi . Bob ! We've been working hard at our lessons for a fortnight . So why don't we take it easy this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Okay ! What do you suggest ?",
+        "emotion": "neutral",
+        "text": "Okay ! What do you suggest ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about seeing a play ? I hear Hamlet is on at the National Theater .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "seeing a play ? I hear Hamlet is on at the National Theater ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How about seeing a play ? I hear Hamlet is on at the National Theater .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is that so ? Why not ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "seeing a play ? I hear Hamlet is on at the National Theater ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is that so ? Why not ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "( looking at a newspaper ) Oh , dear me ! There's no performance at the National theater this weekend . So we have to go to cinema instead .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "There's no performance at the National theater this weekend ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "( looking at a newspaper ) Oh , dear me ! There's no performance at the National theater this weekend . So we have to go to cinema instead .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What's on ?",
+        "emotion": "neutral",
+        "text": "What's on ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let me see .. um . Gone With the Wind . It is on at six cinemas on Saturday night .",
+        "emotion": "neutral",
+        "text": "Let me see .. um . Gone With the Wind . It is on at six cinemas on Saturday night .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That sounds interesting . Which is the nearest ?",
+        "emotion": "neutral",
+        "text": "That sounds interesting . Which is the nearest ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ah . The Royal , I think .",
+        "emotion": "neutral",
+        "text": "Ah . The Royal , I think .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What time does it start ?",
+        "emotion": "neutral",
+        "text": "What time does it start ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Why don't we go to the 7:30 show ? It is convenient to us , I think .",
+        "emotion": "neutral",
+        "text": "Why don't we go to the 7:30 show ? It is convenient to us , I think .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "But we won't have enough time for dinner .",
+        "emotion": "neutral",
+        "text": "But we won't have enough time for dinner .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Do you want to go to the earlier or the later show ?",
+        "emotion": "neutral",
+        "text": "Do you want to go to the earlier or the later show ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Ah ... I fancy going to the later show .",
+        "emotion": "neutral",
+        "text": "Ah ... I fancy going to the later show .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Then , there's a 9:30 show .",
+        "emotion": "neutral",
+        "text": "Then , there's a 9:30 show .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "That's Okay , I think .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "I fancy going to the later show .",
+            "there's a 9:30 show ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's Okay , I think .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "That's Okay ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,8 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/edit_distance.csv
+Output fname: results/sight/annotated/edit_distance.csv
+Accuracy top 1: 0.04
+Min distance top 1: 157.86
+Accuracy top 3: 0.08
+Min distance top 3: 70.68

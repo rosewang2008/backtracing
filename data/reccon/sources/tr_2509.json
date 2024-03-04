@@ -1,0 +1,188 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Ann . I was wondering if you are free tomorrow night ?",
+        "emotion": "neutral",
+        "text": "Hi , Ann . I was wondering if you are free tomorrow night ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , George . I guess I am . Why do you ask ?",
+        "emotion": "neutral",
+        "text": "Well , George . I guess I am . Why do you ask ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I've just gotten a pair of pre-sale Star Wars movie tickets from a friend and was thinking of inviting you along for the opening premiere . Are you interested ?",
+        "emotion": "neutral",
+        "text": "I've just gotten a pair of pre-sale Star Wars movie tickets from a friend and was thinking of inviting you along for the opening premiere . Are you interested ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah , definitely ! Thanks for inviting me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I've just gotten a pair of pre-sale Star Wars movie tickets from a friend and was thinking of inviting you along for the opening premiere . Are you interested ?",
+            "for inviting me ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , definitely ! Thanks for inviting me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "My pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Thanks for inviting me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I really wanted to watch the Star Wars on the opening day , but the pre-sale tickets were sold out . How did you manage to get hold of them ?",
+        "emotion": "neutral",
+        "text": "I really wanted to watch the Star Wars on the opening day , but the pre-sale tickets were sold out . How did you manage to get hold of them ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "A friend of mine works at the corporate headquarters of Pepsi , which is a major sponsor of the movie . He was able to get the tickets for free , and then he sold two more for me for 50 dollars a piece .",
+        "emotion": "neutral",
+        "text": "A friend of mine works at the corporate headquarters of Pepsi , which is a major sponsor of the movie . He was able to get the tickets for free , and then he sold two more for me for 50 dollars a piece .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You paid 50 dollars for each ticket ? That's a huge premium over the regular price .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "he sold two more for me for 50 dollars a piece .",
+            "That's a huge premium over the regular price ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You paid 50 dollars for each ticket ? That's a huge premium over the regular price .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Not really . Considering the fact that other people were willing to pay as much as 200 dollars each on the black market . Besides , I knew you were really looking forward to watching Star Wars on the opening day .",
+        "emotion": "neutral",
+        "text": "Not really . Considering the fact that other people were willing to pay as much as 200 dollars each on the black market . Besides , I knew you were really looking forward to watching Star Wars on the opening day .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow ! I am really honored you went through all this trouble just for my sake . I really appreciate that . So , what time are we going ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I knew you were really looking forward to watching Star Wars on the opening day .",
+            "I am really honored you went through all this trouble just for my sake ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow ! I am really honored you went through all this trouble just for my sake . I really appreciate that . So , what time are we going ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , let's see . The movie stars at 10 . We should be there at least 1 hour earlier , because there is a big line . I could pick you up at your house at 8 , if that's ok with you .",
+        "emotion": "neutral",
+        "text": "Well , let's see . The movie stars at 10 . We should be there at least 1 hour earlier , because there is a big line . I could pick you up at your house at 8 , if that's ok with you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "8 pm , that's fine with me .",
+        "emotion": "neutral",
+        "text": "8 pm , that's fine with me .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Okay .",
+        "emotion": "neutral",
+        "text": "Okay .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "So I'll see you tomorrow then at 8 .",
+        "emotion": "neutral",
+        "text": "So I'll see you tomorrow then at 8 .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Yeah , that's great . I'll see you tomorrow night .",
+        "emotion": "neutral",
+        "text": "Yeah , that's great . I'll see you tomorrow night .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Ok , George . Bye !",
+        "emotion": "neutral",
+        "text": "Ok , George . Bye !",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Bye , Ann !",
+        "emotion": "neutral",
+        "text": "Bye , Ann !",
+        "id": 17
+    }
+]

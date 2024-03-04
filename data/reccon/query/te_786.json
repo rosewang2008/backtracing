@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So you must have had a busy and enjoyable day yesterday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We went for a swim in the sea .",
+            "my nice tan .",
+            "So you must have had a busy and enjoyable day yesterday ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So you must have had a busy and enjoyable day yesterday .",
+        "id": 9,
+        "source_sentences": [
+            7,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sound like everything is great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends .",
+            "In the evening , we just sit and talk over dinner . But on the weekend , we try to go out to the beach or hit a nice restaurant , or go to a nice cafe ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sound like everything is great .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

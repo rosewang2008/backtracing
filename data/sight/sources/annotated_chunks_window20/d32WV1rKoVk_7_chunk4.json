@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you keep going."
+    },
+    {
+        "text": "And for most matrices, the result is that I don't know how many steps we want to think of taking, but we get quite small numbers here."
+    },
+    {
+        "text": "So once we get small numbers here, little epsilons, that's everybody's shorthand for small numbers, what would you expect to see on the diagonal?"
+    },
+    {
+        "text": "The eigenvalues."
+    },
+    {
+        "text": "Because this has the same eigenvalues as this, as this, as this."
+    },
+    {
+        "text": "And these little epsilons are not going to change the eigenvalues too much."
+    },
+    {
+        "text": "So these will be, on the diagonal, will be close to the eigenvalues."
+    },
+    {
+        "text": "And actually, what happens is this one comes first."
+    },
+    {
+        "text": "That one is quite accurate first."
+    },
+    {
+        "text": "I guess we should probably do a simple example to see this happen."
+    },
+    {
+        "text": "Actually, I do an example in the notes."
+    },
+    {
+        "text": "And let me say what happens."
+    },
+    {
+        "text": "So I do a 2 by 2 example, which has something like cos theta, sine theta."
+    },
+    {
+        "text": "I don't know what."
+    },
+    {
+        "text": "I've forgotten what I took."
+    },
+    {
+        "text": "And I don't have that page of notes here."
+    },
+    {
+        "text": "Something here."
+    },
+    {
+        "text": "Something here."
+    },
+    {
+        "text": "Something here as a 0."
+    },
+    {
+        "text": "And then a 1, after just one step, has sine cubed theta there."
+    }
+]

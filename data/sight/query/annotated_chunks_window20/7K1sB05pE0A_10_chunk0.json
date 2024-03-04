@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 10,
+        "timestamp": 1684515014648.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "May I ask you guys a question, do Single Variable Calculus and Multivariable Calculus cover all the content of calculus and real analysis?"
+    }
+]

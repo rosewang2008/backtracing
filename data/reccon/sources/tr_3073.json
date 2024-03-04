@@ -1,0 +1,127 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "When do you want to have the open house party ?",
+        "emotion": "neutral",
+        "text": "When do you want to have the open house party ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "How about next Friday ?",
+        "emotion": "neutral",
+        "text": "How about next Friday ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Friday sounds good .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy about the house party and that B has confirmed attendance",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "have the open house party ?",
+            "How about next Friday ?",
+            "Friday sounds good ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Friday sounds good .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How do you feel about hiring that clown to come and entertain the kids ?",
+        "emotion": "neutral",
+        "text": "How do you feel about hiring that clown to come and entertain the kids ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I like that . Then the adults will be more free to mingle and relax .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "hiring that clown to come and entertain the kids",
+            "the adults will be more free to mingle and relax ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I like that . Then the adults will be more free to mingle and relax .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's what I was thinking .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "hiring that clown to come and entertain the kids",
+            "the adults will be more free to mingle and relax ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's what I was thinking .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm so excited . Finally , a yard of my own .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm so excited . Finally , a yard of my own ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm so excited . Finally , a yard of my own .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you feel like a king in your castle ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm so excited . Finally , a yard of my own ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you feel like a king in your castle ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

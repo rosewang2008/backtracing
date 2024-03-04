@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Charlie ! What are you reading ?",
+        "emotion": "neutral",
+        "text": "Hi , Charlie ! What are you reading ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , bob . I ' m reading a biography ?",
+        "emotion": "neutral",
+        "text": "Hi , bob . I ' m reading a biography ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Who ' s it about ?",
+        "emotion": "neutral",
+        "text": "Who ' s it about ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s about Bob Dylan .",
+        "emotion": "neutral",
+        "text": "It ' s about Bob Dylan .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Who is he ?",
+        "emotion": "neutral",
+        "text": "Who is he ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He ' s a famous American musician .",
+        "emotion": "neutral",
+        "text": "He ' s a famous American musician .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Who ' s the author ?",
+        "emotion": "neutral",
+        "text": "Who ' s the author ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It was written by Howard Sounds .",
+        "emotion": "neutral",
+        "text": "It was written by Howard Sounds .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What do you think about it ?",
+        "emotion": "neutral",
+        "text": "What do you think about it ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It ' s great ! I ' Ve learned a lot from reading it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It ' s great ! I ' Ve learned a lot from reading it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s great ! I ' Ve learned a lot from reading it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Can I read it when you ' re done ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It ' s great ! I ' Ve learned a lot from reading it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Can I read it when you ' re done ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sure , bob ! I ' m on chapter 12 now , so I ' m almost finished .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "It ' s great ! I ' Ve learned a lot from reading it .",
+            "Can I read it when you ' re done ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure , bob ! I ' m on chapter 12 now , so I ' m almost finished .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How many chapters does the book have ?",
+        "emotion": "neutral",
+        "text": "How many chapters does the book have ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "There are 15 chapters in total .",
+        "emotion": "neutral",
+        "text": "There are 15 chapters in total .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "When do you think you ' ll have finished reading it ?",
+        "emotion": "neutral",
+        "text": "When do you think you ' ll have finished reading it ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I should be done by Friday . I ' ll give it to you in class then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            16
+        ],
+        "expanded emotion cause span": [
+            "It ' s great ! I ' Ve learned a lot from reading it .",
+            "I should be done by Friday ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I should be done by Friday . I ' ll give it to you in class then .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Thanks . Charlie !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I should be done by Friday . I ' ll give it to you in class then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . Charlie !",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "No problem . Bob .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "Thanks . Charlie !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem . Bob .",
+        "id": 18,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

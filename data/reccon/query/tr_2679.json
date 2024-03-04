@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Hah ! OK . Let ' s go together !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s a piano solo . I'm fond of piano",
+            "Let ' s go together !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hah ! OK . Let ' s go together !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

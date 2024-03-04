@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Sarah . You look terrible . What's wrong ?",
+        "emotion": "neutral",
+        "text": "Sarah . You look terrible . What's wrong ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My grandmother just passed away .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My grandmother just passed away ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My grandmother just passed away .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm so sorry to hear that . When did this happen ?",
+        "emotion": "neutral",
+        "text": "I'm so sorry to hear that . When did this happen ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "A couple of days ago . I just go back from the funeral .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My grandmother just passed away ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "A couple of days ago . I just go back from the funeral .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is there anything I can do ?",
+        "emotion": "neutral",
+        "text": "Is there anything I can do ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No ... not really . The sad thing is that I wasn't there when she died . I really wanted to be there one last time .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "My grandmother just passed away .",
+            "The sad thing is that I wasn't there when she died . I really wanted to be there one last time ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "No ... not really . The sad thing is that I wasn't there when she died . I really wanted to be there one last time .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm sure she knew you loved her . Did she pass away in the hospital ?",
+        "emotion": "neutral",
+        "text": "I'm sure she knew you loved her . Did she pass away in the hospital ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah . She died in her sleep .",
+        "emotion": "neutral",
+        "text": "Yeah . She died in her sleep .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm sorry she's gone .",
+        "emotion": "neutral",
+        "text": "I'm sorry she's gone .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "At least she didn't suffer .",
+        "emotion": "neutral",
+        "text": "At least she didn't suffer .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I think your grandmother would want you to think of all the good times you spent together .",
+        "emotion": "neutral",
+        "text": "I think your grandmother would want you to think of all the good times you spent together .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I know . But I miss her .",
+        "emotion": "neutral",
+        "text": "I know . But I miss her .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "When my grandmother passed away , I frequently visited her in the cemetery . I always talked to her . Even though she wasn't there , I somehow knew she heard what I said .",
+        "emotion": "neutral",
+        "text": "When my grandmother passed away , I frequently visited her in the cemetery . I always talked to her . Even though she wasn't there , I somehow knew she heard what I said .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yeah ? That's what I was thinking too . Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "When my grandmother passed away , I frequently visited her in the cemetery . I always talked to her . Even though she wasn't there , I somehow knew she heard what I said ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah ? That's what I was thinking too . Thanks .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "It looks like you haven't eaten anything all day . We should get you something to eat .",
+        "emotion": "neutral",
+        "text": "It looks like you haven't eaten anything all day . We should get you something to eat .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You're right ... I should eat something . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            15
+        ],
+        "expanded emotion cause span": [
+            "When my grandmother passed away , I frequently visited her in the cemetery . I always talked to her . Even though she wasn't there , I somehow knew she heard what I said .",
+            "We should get you something to eat ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're right ... I should eat something . Let's go .",
+        "id": 16,
+        "source_sentences": [
+            12,
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

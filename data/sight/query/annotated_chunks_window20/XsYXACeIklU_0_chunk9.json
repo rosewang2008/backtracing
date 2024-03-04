@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 0,
+        "timestamp": 1684520066474.0,
+        "annotatedSourceSentencesIndices": [
+            5,
+            6,
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "For the Expected number of fish ( ~ 19:00 ), shouldn't he include the possibility of catching N fish during the first two hours? Is the probability of 3 or more fish in 0 < t < 2 insignificant?"
+    }
+]

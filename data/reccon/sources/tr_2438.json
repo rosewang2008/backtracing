@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , Jeff , that was a very productive meeting , I thought . You had some really great ideas in there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "that was a very productive meeting ,",
+            "You had some really great ideas in there !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , Jeff , that was a very productive meeting , I thought . You had some really great ideas in there !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ? Well , thanks for saying so .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You had some really great ideas in there !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Well , thanks for saying so .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , I mean it . Look , are you hungry ? Shall we go get something to eat ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "that was a very productive meeting ,",
+            "thanks for saying so ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , I mean it . Look , are you hungry ? Shall we go get something to eat ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . Why not ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You had some really great ideas in there !",
+            "No , I mean it . Look , are you hungry ? Shall we go get something to eat ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Why not ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK , well , let me just get my coat and we'll go to the diner around the corner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Sure . Why not ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , well , let me just get my coat and we'll go to the diner around the corner .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "You had some really great ideas in there !",
+            "we'll go to the diner around the corner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

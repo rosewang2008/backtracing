@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why is the long face ?",
+        "emotion": "neutral",
+        "text": "Why is the long face ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm getting sick of work man . I can't take the political bull in the company any more .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm getting sick of work man . I can't take the political bull in the company any more ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm getting sick of work man . I can't take the political bull in the company any more .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did you just get your review or something ?",
+        "emotion": "neutral",
+        "text": "Did you just get your review or something ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah , but that's not why I am upset . I just found out another guy got a promotion . He doesn't know how to do anything . He sits there and kisses the managers butt all day long .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I just found out another guy got a promotion . He doesn't know how to do anything . He sits there and kisses the managers butt all day long ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , but that's not why I am upset . I just found out another guy got a promotion . He doesn't know how to do anything . He sits there and kisses the managers butt all day long .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That sucks .",
+        "emotion": "neutral",
+        "text": "That sucks .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm just pissed that management can't see behind his smooth talking lies .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm getting sick of work man . I can't take the political bull in the company any more .",
+            "I just found out another guy got a promotion . He doesn't know how to do anything . He sits there and kisses the managers butt all day long .",
+            "management can't see behind his smooth talking lies ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm just pissed that management can't see behind his smooth talking lies .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Look on the bright side . At least you have a job .",
+        "emotion": "neutral",
+        "text": "Look on the bright side . At least you have a job .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah . I shouldn't stress about this anymore . It's not like I can do anything about it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "At least you have a job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah . I shouldn't stress about this anymore . It's not like I can do anything about it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Exactly . Instead , we should have some drinks tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I shouldn't stress about this anymore ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Exactly . Instead , we should have some drinks tonight .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How about a cold bottle of beer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "we should have some drinks tonight .",
+            "cold bottle of beer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "How about a cold bottle of beer .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Now you're talking .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "cold bottle of beer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now you're talking .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

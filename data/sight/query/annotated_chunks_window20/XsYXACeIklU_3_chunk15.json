@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 3,
+        "timestamp": 1684520173396.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "The first terms in part d and f of the examples should be weighted with the probability that scenario 1 occurs, right?"
+    }
+]

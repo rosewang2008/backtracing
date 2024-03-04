@@ -1,0 +1,193 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , this is amazing . I'm glad we've come here . So cool .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "this is amazing . I'm glad we've come here . So cool ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , this is amazing . I'm glad we've come here . So cool .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I always love skiing . You know , it's a cool game for cool people . Stay with me and you will be cool , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is amazing . I'm glad we've come here . So cool .",
+            "I always love skiing .",
+            "it's a cool game for cool people ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I always love skiing . You know , it's a cool game for cool people . Stay with me and you will be cool , too .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hey , look over there . It seems that there is something interesting going on . Let's go and have a look .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "this is amazing . I'm glad we've come here . So cool .",
+            "there is something interesting going on ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Hey , look over there . It seems that there is something interesting going on . Let's go and have a look .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . It's probably the skiing show . Adam told me there were many skiing clubs whose members put on shows to attract more visitors .",
+        "emotion": "neutral",
+        "text": "Sure . It's probably the skiing show . Adam told me there were many skiing clubs whose members put on shows to attract more visitors .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "See that . It's so dangerous . My mom would never allow me to do that .",
+        "emotion": "neutral",
+        "text": "See that . It's so dangerous . My mom would never allow me to do that .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey , don't be so pathetic . It's a maximal sports show . What else can they do to attract more visitors ? Stop all this fuss and enjoy the show .",
+        "emotion": "neutral",
+        "text": "Hey , don't be so pathetic . It's a maximal sports show . What else can they do to attract more visitors ? Stop all this fuss and enjoy the show .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are right . But what if the avalanche happened ?",
+        "emotion": "neutral",
+        "text": "You are right . But what if the avalanche happened ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "They are all very experienced and great skiers . So I suppose the chance for them to be buried by an avalanche is slim .",
+        "emotion": "neutral",
+        "text": "They are all very experienced and great skiers . So I suppose the chance for them to be buried by an avalanche is slim .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Anyway , the show is breathtaking . By the way , where did they get so much snow in here ?",
+        "emotion": "neutral",
+        "text": "Anyway , the show is breathtaking . By the way , where did they get so much snow in here ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Don't you know that ? Are you kidding me ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "where did they get so much snow in here ?",
+            "Don't you know that ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Don't you know that ? Are you kidding me ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Hey , not everyone is as lucky as you to have a father who is a scientist .",
+        "emotion": "neutral",
+        "text": "Hey , not everyone is as lucky as you to have a father who is a scientist .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sorry . Well , they have the most advanced snowmaking machine .",
+        "emotion": "neutral",
+        "text": "Sorry . Well , they have the most advanced snowmaking machine .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Do you think the snowmaking may cause pollution ?",
+        "emotion": "neutral",
+        "text": "Do you think the snowmaking may cause pollution ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It's possible . But the boss here said they were doing whatever they can .",
+        "emotion": "neutral",
+        "text": "It's possible . But the boss here said they were doing whatever they can .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "It's a good thing . OK , let's go skiing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "snowmaking may cause pollution ?",
+            "the boss here said they were doing whatever they can ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It's a good thing . OK , let's go skiing .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Here we go .",
+        "emotion": "neutral",
+        "text": "Here we go .",
+        "id": 16
+    }
+]

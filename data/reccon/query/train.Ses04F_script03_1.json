@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "Oh, Charles. That was his name. Charles he did wriggle so beautifully.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15,
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "Do you remember that awful scene in Venice?",
+            "The one where you bought that little painted wooden snake and put it on my bed.",
+            "Charles he did wriggle so beautifully."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, Charles. That was his name. Charles he did wriggle so beautifully.",
+        "id": 18,
+        "source_sentences": [
+            14,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

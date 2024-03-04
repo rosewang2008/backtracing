@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "Absolutely right."
+    },
+    {
+        "text": "Absolutely."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what are the eigenvectors of a permutation?"
+    },
+    {
+        "text": "This is going to be nice to see."
+    },
+    {
+        "text": "And I'll use the matrix F for the eigenvector matrix of that Q up there."
+    },
+    {
+        "text": "And F is for Fourier."
+    },
+    {
+        "text": "And it'd be the 4 by 4 Fourier matrix."
+    },
+    {
+        "text": "OK. What are the eigenvectors of Q?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So Q is a permutation."
+    },
+    {
+        "text": "So I'm going to ask you for one eigenvector of every permutation matrix."
+    },
+    {
+        "text": "What vector can you tell me that actually the eigenvalue will be 1?"
+    },
+    {
+        "text": "What vector can you tell me where if I permute it, I don't change it?"
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "It's like it's everywhere here."
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "So that's the zero frequency Fourier vector, the constant vector, all 1's."
+    }
+]

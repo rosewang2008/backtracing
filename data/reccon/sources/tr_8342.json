@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , it's nice to meet you .",
+        "emotion": "neutral",
+        "text": "Hello , it's nice to meet you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm glad we're meeting today . Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "it's nice to meet you .",
+            "we're meeting today ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad we're meeting today . Thank you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm glad we're meeting today . Thank you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I would like to talk to you about your daughter .",
+        "emotion": "neutral",
+        "text": "I would like to talk to you about your daughter .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is there a problem ?",
+        "emotion": "neutral",
+        "text": "Is there a problem ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , your daughter is great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "your daughter is great ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , your daughter is great .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's great news .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "your daughter is great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's great news .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Your daughter is a wonderful student .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "your daughter is great .",
+            "Your daughter is a wonderful student ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Your daughter is a wonderful student .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "She isn't messing up in class ?",
+        "emotion": "neutral",
+        "text": "She isn't messing up in class ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Of course not . Your daughter is smart and very well behaved .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10,
+            10
+        ],
+        "expanded emotion cause span": [
+            "your daughter is great .",
+            "Your daughter is a wonderful student .",
+            "Of course not .",
+            "Your daughter is smart and very well behaved ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Of course not . Your daughter is smart and very well behaved .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , I'm so glad to hear that she's doing well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Your daughter is smart and very well behaved .",
+            "she's doing well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I'm so glad to hear that she's doing well .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It is my pleasure to have her in my class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "your daughter is great .",
+            "Your daughter is a wonderful student .",
+            "Of course not .",
+            "Your daughter is smart and very well behaved .",
+            "my pleasure to have her in my class ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It is my pleasure to have her in my class .",
+        "id": 12
+    }
+]

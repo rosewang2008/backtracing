@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What was the last movie you saw ?",
+        "emotion": "neutral",
+        "text": "What was the last movie you saw ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "A Korean film called Friends , starring Sang Dong-gun .",
+        "emotion": "neutral",
+        "text": "A Korean film called Friends , starring Sang Dong-gun .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? I've seen that movie , too .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "A Korean film called Friends , starring Sang Dong-gun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I've seen that movie , too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How did you like the movie ?",
+        "emotion": "neutral",
+        "text": "How did you like the movie ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I thought it was pretty good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it was pretty good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I thought it was pretty good .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? I can't say I agree .",
+        "emotion": "surprise",
+        "explanation": "disagreement",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I thought it was pretty good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I can't say I agree .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You're kidding . The story and acting were outstanding .",
+        "emotion": "surprise",
+        "explanation": "disagreement",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I can't say I agree ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're kidding . The story and acting were outstanding .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I guess I expected too much from the movie , so I was a bit disappointed .",
+        "emotion": "neutral",
+        "text": "I guess I expected too much from the movie , so I was a bit disappointed .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I guess it could happen .",
+        "emotion": "neutral",
+        "text": "I guess it could happen .",
+        "id": 9
+    }
+]

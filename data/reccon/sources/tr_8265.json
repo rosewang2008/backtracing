@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , don ' t walk on the lawn .",
+        "emotion": "neutral",
+        "text": "Hey , don ' t walk on the lawn .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sorry , I ' m looking for my wallet .",
+        "emotion": "sadness",
+        "explanation": "B is said as their wallet is lost",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Sorry , I ' m looking for my wallet .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You lost your wallet ? Anything important in it ?",
+        "emotion": "neutral",
+        "text": "You lost your wallet ? Anything important in it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . A lot of cash . Almost forty thousand pounds .",
+        "emotion": "neutral",
+        "text": "Yes . A lot of cash . Almost forty thousand pounds .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I ' m sorry to hear that . I think you ' d better talk to the police officer walking there .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Anything important in it ?",
+            "Yes . A lot of cash .",
+            "forty thousand pounds ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh , I ' m sorry to hear that . I think you ' d better talk to the police officer walking there .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It seems that is a better way . Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "talk to the police officer",
+            "It seems that is a better way ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It seems that is a better way . Thank you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It seems that is a better way . Thank you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are welcome .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Don't mention it . Oh , This is a small gift for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You've done a lot for us . Thank you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . Oh , This is a small gift for you .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

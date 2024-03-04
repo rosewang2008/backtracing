@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I think you look fantastic . Happy Birthday !",
+            "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

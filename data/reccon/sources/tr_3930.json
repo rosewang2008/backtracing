@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Julia , are you free tonight ?",
+        "emotion": "neutral",
+        "text": "Julia , are you free tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's up ?",
+        "emotion": "neutral",
+        "text": "What's up ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to invite you to go to the movies .",
+        "emotion": "neutral",
+        "text": "I want to invite you to go to the movies .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Are you asking me for a date ?",
+        "emotion": "neutral",
+        "text": "Are you asking me for a date ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don ' t like to go to the movies on a date . It's noisy there .",
+        "emotion": "neutral",
+        "text": "I don ' t like to go to the movies on a date . It's noisy there .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Where do you want to meet ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Where do you want to meet ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Where do you want to meet ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let's go to the coffee shop then . It's quiet there .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "a date ?",
+            "Let's go to the coffee shop then ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Let's go to the coffee shop then . It's quiet there .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What time should we meet ?",
+        "emotion": "happiness",
+        "explanation": "speaker is happy because listener agrred on the date",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "a date ?",
+            "Let's go to the coffee shop then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What time should we meet ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How about seven ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "a date ?",
+            "Let's go to the coffee shop then ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How about seven ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "a date ?",
+            "Let's go to the coffee shop then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right .",
+        "id": 11,
+        "source_sentences": [
+            3,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I don't care."
+    },
+    {
+        "text": "For the moment, I'm only thinking of these matrices as forming a vector space, so I am only doing A plus B and C times A. I'm not interested in A, B for now."
+    },
+    {
+        "text": "The fact that I can multiply is not relevant to a vector space."
+    },
+    {
+        "text": "OK, so I have three by three matrices."
+    },
+    {
+        "text": "And how about subspaces?"
+    },
+    {
+        "text": "What's, tell me a subspace of this matrix space."
+    },
+    {
+        "text": "Let me call this matrix space M. That's my matrix space, my space of all three by three matrices."
+    },
+    {
+        "text": "Tell me a subspace of it."
+    },
+    {
+        "text": "OK, what about the upper triangular matrices?"
+    },
+    {
+        "text": "So subspaces, subspaces of M. All upper triangular matrices."
+    },
+    {
+        "text": "Another subspace."
+    },
+    {
+        "text": "All symmetric matrices."
+    },
+    {
+        "text": "The intersection of two subspaces is supposed to be a subspace."
+    },
+    {
+        "text": "We gave a little effort to the proof of that fact."
+    },
+    {
+        "text": "If I look at the matrices that are in this subspace, they're symmetric, and they're also in this subspace, they're upper triangular."
+    },
+    {
+        "text": "What do they look like?"
+    },
+    {
+        "text": "Well, if they're symmetric, but they have zeros below the diagonal, they better have zeros above the diagonal."
+    },
+    {
+        "text": "So the intersection would be diagonal matrices."
+    },
+    {
+        "text": "That's another subspace, smaller than those."
+    },
+    {
+        "text": "How can I use the word smaller?"
+    }
+]

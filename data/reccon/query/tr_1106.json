@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , that's unbelievable ! You play so well , but you've never been to a real teacher . You will definitely be famous in the near future .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I taught myself by listening to some records of top players .",
+            "You play so well , but you've never been to a real teacher ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , that's unbelievable ! You play so well , but you've never been to a real teacher . You will definitely be famous in the near future .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

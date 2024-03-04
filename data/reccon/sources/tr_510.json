@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Who was the best teacher that you ever had ?",
+        "emotion": "neutral",
+        "text": "Who was the best teacher that you ever had ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That would have to be Miss Baymler , my fourth grade teacher .",
+        "emotion": "neutral",
+        "text": "That would have to be Miss Baymler , my fourth grade teacher .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What was she like ?",
+        "emotion": "neutral",
+        "text": "What was she like ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "She was patient , kind , fun , smart , caring , and yet strict , too . I really learned a lot from her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "best teacher that you ever had ?",
+            "She was patient , kind , fun , smart , caring , and yet strict , too . I really learned a lot from her ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "She was patient , kind , fun , smart , caring , and yet strict , too . I really learned a lot from her .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What kind of things did you learn ?",
+        "emotion": "neutral",
+        "text": "What kind of things did you learn ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "She taught us that you can do anything that you want to do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "She taught us that you can do anything that you want to do ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She taught us that you can do anything that you want to do .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Anything ? Do you really believe that we can do anything ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "She taught us that you can do anything that you want to do ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Anything ? Do you really believe that we can do anything ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "If you really want to do something and you work hard at it , I believe you can do it .",
+        "emotion": "neutral",
+        "text": "If you really want to do something and you work hard at it , I believe you can do it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You said she was strict . Did she have a lot of rules ?",
+        "emotion": "neutral",
+        "text": "You said she was strict . Did she have a lot of rules ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "She had some rules that helped us to feel comfortable . For example , the students had to treat each other with respect , or they would be disciplined .",
+        "emotion": "neutral",
+        "text": "She had some rules that helped us to feel comfortable . For example , the students had to treat each other with respect , or they would be disciplined .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I see . She sounds like she really cared about her students .",
+        "emotion": "neutral",
+        "text": "I see . She sounds like she really cared about her students .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes . She treated us all fairly . She don ' t have any teacher ' s pets .",
+        "emotion": "neutral",
+        "text": "Yes . She treated us all fairly . She don ' t have any teacher ' s pets .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Really ? Doesn ' t every teacher have a teacher ' s pet ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "She treated us all fairly . She don ' t have any teacher ' s pets .",
+            "Doesn ' t every teacher have a teacher ' s pet ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Doesn ' t every teacher have a teacher ' s pet ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well . To be honest , I usually sucked up to teachers because I wanted them to give me good grades . However , Miss Baymler didn ' t treat me any differently . She really didn ' t have any teacher ' s pets .",
+        "emotion": "neutral",
+        "text": "Well . To be honest , I usually sucked up to teachers because I wanted them to give me good grades . However , Miss Baymler didn ' t treat me any differently . She really didn ' t have any teacher ' s pets .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Do you know what she is doing now ?",
+        "emotion": "neutral",
+        "text": "Do you know what she is doing now ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "As a matter of fact , I do . After she taught our class , she got married and moved to another city . Then , she started writing children ' s book .",
+        "emotion": "neutral",
+        "text": "As a matter of fact , I do . After she taught our class , she got married and moved to another city . Then , she started writing children ' s book .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Have you ever read one of the books ?",
+        "emotion": "neutral",
+        "text": "Have you ever read one of the books ?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Of course ! Both children and adults enjoy her books .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            18
+        ],
+        "expanded emotion cause span": [
+            "best teacher that you ever had ?",
+            "She was patient , kind , fun , smart , caring , and yet strict , too . I really learned a lot from her .",
+            "Both children and adults enjoy her books ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Of course ! Both children and adults enjoy her books .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Why don ' t you recommend one to me ?",
+        "emotion": "neutral",
+        "text": "Why don ' t you recommend one to me ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "ok ! I ' ll bring one to you next time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "recommend one to me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "ok ! I ' ll bring one to you next time .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

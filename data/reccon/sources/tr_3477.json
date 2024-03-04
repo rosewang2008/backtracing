@@ -1,0 +1,177 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a beautiful view .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a beautiful view ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a beautiful view .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It sure is . The Grand Canyon is truly a masterpiece . No man could ever make anything like this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a beautiful view .",
+            "The Grand Canyon is truly a masterpiece . No man could ever make anything like this ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It sure is . The Grand Canyon is truly a masterpiece . No man could ever make anything like this .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What is that below ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a beautiful view .",
+            "The Grand Canyon is truly a masterpiece . No man could ever make anything like this ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What is that below ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It is the Colorado River . You can go down the river in a boat if you wish .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a beautiful view .",
+            "The Grand Canyon is truly a masterpiece . No man could ever make anything like this ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It is the Colorado River . You can go down the river in a boat if you wish .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No . Thank you . It looks a bit too dangerous for me .",
+        "emotion": "neutral",
+        "text": "No . Thank you . It looks a bit too dangerous for me .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "There is a beautiful state park here . I can see why so many people come out here to camp .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "There is a beautiful state park here .",
+            "so many people come out here to camp ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "There is a beautiful state park here . I can see why so many people come out here to camp .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "There is a beautiful state park here .",
+            "so many people come out here to camp .",
+            "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air .",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It definitely is a nice change from the polluted and crowded city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "There is a beautiful state park here .",
+            "so many people come out here to camp .",
+            "It definitely is a nice change from the polluted and crowded city ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It definitely is a nice change from the polluted and crowded city .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's true .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "There is a beautiful state park here .",
+            "so many people come out here to camp .",
+            "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air .",
+            "It definitely is a nice change from the polluted and crowded city ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's true .",
+        "id": 9
+    }
+]

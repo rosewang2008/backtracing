@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good luck !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            10
+        ],
+        "expanded emotion cause span": [
+            "she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+            "I'll call her now and see if she is available tonight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good luck !",
+        "id": 11,
+        "source_sentences": [
+            3,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

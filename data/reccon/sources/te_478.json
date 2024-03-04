@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , sir , what can I do for you today ?",
+        "emotion": "neutral",
+        "text": "Hello , sir , what can I do for you today ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , I need a new suit . I have an important interview next week , so I really need to look sharp .",
+        "emotion": "neutral",
+        "text": "Hello , I need a new suit . I have an important interview next week , so I really need to look sharp .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No problem ! We have a broad selection of suits , all tailored made so that it will fit perfectly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I need a new suit"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem ! We have a broad selection of suits , all tailored made so that it will fit perfectly .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great ! I want a three piece suit , preferably made from Italian cashmere or wool .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "a broad selection of suits , all tailored made so that it will fit perfectly ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! I want a three piece suit , preferably made from Italian cashmere or wool .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Very well sir . Would you like to have some shirts made also ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I need a new suit"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Very well sir . Would you like to have some shirts made also ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . I ' ll also take some silver cuff link and a pair of silk ties .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have some shirts made also ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . I ' ll also take some silver cuff link and a pair of silk ties .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Very good . Now , if you will accompany me , we can take your measurements and choose the patterns for your suit and shirts .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I need a new suit",
+            "Sure . I ' ll also take some silver cuff link and a pair of silk ties ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Very good . Now , if you will accompany me , we can take your measurements and choose the patterns for your suit and shirts .",
+        "id": 7,
+        "source_sentences": [
+            1,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

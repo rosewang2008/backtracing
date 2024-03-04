@@ -1,0 +1,259 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Happy Birthday , Mary !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy Birthday , Mary !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Happy Birthday , Mary !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy Birthday , Mary !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Here is a gift for you . I hope you like it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Happy Birthday , Mary !",
+            "Here is a gift for you ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Here is a gift for you . I hope you like it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What a lovely dog ! How did you know I love things like this ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "What a lovely dog ! How did you know I love things like this ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a lovely dog ! How did you know I love things like this ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I had my own ways of finding out . It ' s a secret . You look so beautiful today . Your new shirt goes well with your skirt .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "What a lovely dog ! How did you know I love things like this ?",
+            "I had my own ways of finding out . It ' s a secret . You look so beautiful today . Your new shirt goes well with your skirt ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I had my own ways of finding out . It ' s a secret . You look so beautiful today . Your new shirt goes well with your skirt .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Maybe you won't believe this , but it was made by my grandmother .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Your new shirt goes well with your skirt .",
+            "it was made by my grandmother ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Maybe you won't believe this , but it was made by my grandmother .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? It looks so nice .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it was made by my grandmother ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? It looks so nice .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you , Please have a cup of tea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "It looks so nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , Please have a cup of tea .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Please have a cup of tea ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How about some fish ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy Birthday , Mary !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How about some fish ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No , thanks . I've had enough . Now , Mary , before you blow out the birthday candles , you have to make a wish . After that , you may cut the cake .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy Birthday , Mary !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , thanks . I've had enough . Now , Mary , before you blow out the birthday candles , you have to make a wish . After that , you may cut the cake .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK . Let me make a wish ... Do you want a big piece of cake ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "you have to make a wish ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Let me make a wish ... Do you want a big piece of cake ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "No , just a small one . Next Let's sing \" Happy Birthday \" to Mary .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Let's sing \" Happy Birthday \" to Mary ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , just a small one . Next Let's sing \" Happy Birthday \" to Mary .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It is so very kind of you . I'm so moved by you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Let's sing \" Happy Birthday \" to Mary .",
+            "It is so very kind of you . I'm so moved by you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is so very kind of you . I'm so moved by you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

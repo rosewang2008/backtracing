@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Thanks for lunch . It was delicious .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "lunch . It was delicious ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thanks for lunch . It was delicious .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Thanks for lunch . It was delicious ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's OK .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Next time lunch is on me .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "lunch . It was delicious ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Next time lunch is on me .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Don't be silly .",
+        "emotion": "surprise",
+        "explanation": "The speaker appreciates person A's gesture but happily replies that speaker A is not required organize a payback lunch.",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Next time lunch is on me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't be silly .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm serious .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "lunch . It was delicious ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'm serious .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "All right . Next time you will treat .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Next time lunch is on me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right . Next time you will treat .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's a deal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "lunch . It was delicious .",
+            "Next time you will treat ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It's a deal .",
+        "id": 7
+    }
+]

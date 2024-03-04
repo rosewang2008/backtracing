@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what is L?"
+    },
+    {
+        "text": "And that will tell you why it has this name Laplacian."
+    },
+    {
+        "text": "So the matrix L will have the degree 4, right, will be on the diagonal."
+    },
+    {
+        "text": "That's coming from D. The other, the minus 1's that come from B, the adjacency matrix will be associated with those nodes and otherwise all 0's."
+    },
+    {
+        "text": "So this is a typical row of L. This is a typical row of L centered at that node."
+    },
+    {
+        "text": "So maybe that's node number 5, 10, 13."
+    },
+    {
+        "text": "That's 13 out of 25 that would show you this."
+    },
+    {
+        "text": "And sorry, those are minus 1's."
+    },
+    {
+        "text": "Minus 1's."
+    },
+    {
+        "text": "So a 4 on the diagonal and 4 minus 1's."
+    },
+    {
+        "text": "That's the model problem for when the graph is a grid, square grid."
+    },
+    {
+        "text": "And you associate that with Laplace's equation."
+    },
+    {
+        "text": "So this is the reason that Laplace, why Laplace gets in it."
+    },
+    {
+        "text": "Because Laplace's equation, the differential equation, is second derivative with respect to x squared."
+    },
+    {
+        "text": "And the second derivative with respect to y squared is 0."
+    },
+    {
+        "text": "And what we have here is Lu equals 0."
+    },
+    {
+        "text": "It's the discrete Laplacian, the vector Laplacian, the graph Laplacian, where the second x derivative is replaced by minus 1, 2, minus 1."
+    },
+    {
+        "text": "And the second y derivative is replaced by minus 1, 2, minus 1, second differences in the x and the y directions."
+    },
+    {
+        "text": "So that's the explanation for Laplace."
+    },
+    {
+        "text": "It's the discrete Laplace, discrete, or the finite difference Laplace."
+    }
+]

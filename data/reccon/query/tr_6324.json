@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks for your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "That will be fine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for your help .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

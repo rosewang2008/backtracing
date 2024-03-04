@@ -1,0 +1,105 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Everything is now . I'm kind of sick of it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Everything is now . I'm kind of sick of it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Everything is now . I'm kind of sick of it .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Each ring has 3 small diamonds inside the band .",
+        "emotion": "neutral",
+        "text": "Each ring has 3 small diamonds inside the band .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oooh ! One for each of the zeros in 2000 ! Wow !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Each ring has 3 small diamonds inside the band ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oooh ! One for each of the zeros in 2000 ! Wow !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Stop making fun of me .",
+        "emotion": "neutral",
+        "text": "Stop making fun of me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So find a guy to marry and you can get one !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Stop making fun of me .",
+            "So find a guy to marry and you can get one !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So find a guy to marry and you can get one !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't need a guy to buy a wedding ring !",
+        "emotion": "neutral",
+        "text": "I don't need a guy to buy a wedding ring !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , I see . You're going to wear one and pretend you're married to try to attract guys .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I don't need a guy to buy a wedding ring !",
+            "You're going to wear one and pretend you're married to try to attract guys"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I see . You're going to wear one and pretend you're married to try to attract guys .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

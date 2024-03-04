@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/gpt2_single-sentence.csv
+Total: 100928
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/gpt2_single-sentence.csv
+>> Score key: single-sentence
+Top 1 accuracy: 0.20625
+Top 1 min distance: 5.43125
+Top 3 accuracy: 0.34375
+Top 3 min distance: 2.08125
+

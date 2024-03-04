@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'd like to stay with column vectors."
+    },
+    {
+        "text": "How can I get to column vectors out of these rows?"
+    },
+    {
+        "text": "I transpose the matrix."
+    },
+    {
+        "text": "So if that's OK with you, I'm going to transpose the matrix, I'm going to say all combinations of the columns of A transpose."
+    },
+    {
+        "text": "And that allows me to use the convenient notation, the column space of A transpose."
+    },
+    {
+        "text": "Nothing, no mathematics went on there, we just got some vectors that were lying down to stand up."
+    },
+    {
+        "text": "But it means that we can use this column space of A transpose, that's telling me in a nice matrix notation what the row space is."
+    },
+    {
+        "text": "OK. And finally is another null space."
+    },
+    {
+        "text": "The fourth fundamental space will be the null space of A transpose."
+    },
+    {
+        "text": "The fourth guy is the null space of A transpose."
+    },
+    {
+        "text": "And of course, my notation is N of A transpose."
+    },
+    {
+        "text": "That's the null space of A transpose."
+    },
+    {
+        "text": "Now, we don't have a perfect name for this space as a, as a, connecting with A, but our usual name is the left null space, and I'll show you why in a moment."
+    },
+    {
+        "text": "So often I call this the, just to write that word, the left null space of A."
+    },
+    {
+        "text": "So just the way we have the row space of A and we switch it to the column space of A transpose, so we have this space of guys that I call the left null space of A, but the good notation is it's the null space of A transpose."
+    },
+    {
+        "text": "OK. Those are four spaces."
+    },
+    {
+        "text": "Where are those spaces?"
+    },
+    {
+        "text": "What big space are they in for when A is m by n?"
+    },
+    {
+        "text": "In that case, the null space of A, what's in the null space of A?"
+    },
+    {
+        "text": "Vectors with n components."
+    }
+]

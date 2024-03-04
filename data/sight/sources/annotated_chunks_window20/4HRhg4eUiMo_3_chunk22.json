@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that means that if I actually fix this level, alpha prime, that would be exactly the tipping point at which I would go from accepting to rejecting."
+    },
+    {
+        "text": "So I know in terms of absolute thresholds, 3.45 is the trivial answer to the question."
+    },
+    {
+        "text": "That's the tipping point, because I'm comparing a number to 3.45."
+    },
+    {
+        "text": "But now if I try to map this back and understand what level would have been given me this particular tipping point, that's a number between 0 and 1."
+    },
+    {
+        "text": "The smaller the number, the larger this number here, which means that the more evidence I have in my data against h0."
+    },
+    {
+        "text": "And so this number is actually something called the p-value."
+    },
+    {
+        "text": "And so same for example 2."
+    },
+    {
+        "text": "There's the tipping point, alpha, at which I go from feeling to reject to rejecting."
+    },
+    {
+        "text": "And that's exactly the number, the area under the curve, such that here I see 0.77."
+    },
+    {
+        "text": "And this is this alpha prime prime over 2."
+    },
+    {
+        "text": "And this number is clearly, alpha prime prime is clearly larger than 5%."
+    },
+    {
+        "text": "So what's the advantage of thinking and mapping back these numbers?"
+    },
+    {
+        "text": "Well, now I'm actually going to spit out some number which is between 0 and 1."
+    },
+    {
+        "text": "And that should be the only scale you should have in mind."
+    },
+    {
+        "text": "Remember we discussed that last time."
+    },
+    {
+        "text": "Well, if I actually spit out a number which is 3.45, maybe you can try to think, is 3.45 a large number for a Gaussian?"
+    },
+    {
+        "text": "That's a number."
+    },
+    {
+        "text": "But if I had another random variable that was not Gaussian, maybe it was a double exponential, you would have to have another scale in your mind."
+    },
+    {
+        "text": "Is 3.45 a large number for the large, so large that it's unlikely to come from a double exponential?"
+    },
+    {
+        "text": "If I had a gamma distribution, I can think of any distribution."
+    }
+]

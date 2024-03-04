@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So those are the eight things we need."
+    },
+    {
+        "text": "Now, but we need these answers in this basis."
+    },
+    {
+        "text": "So T- so this first output is some combination of the eight basis vectors."
+    },
+    {
+        "text": "So write T times the first- acting on the first input, in other words, write the first output as a combination of the basis vectors."
+    },
+    {
+        "text": "Say a11 v1 plus a21 v2 and so on, a81 v8."
+    },
+    {
+        "text": "Write T of v2 as some combination, a12 of v1, a22 of v2 and so on."
+    },
+    {
+        "text": "I'm creating the matrix A, column by column."
+    },
+    {
+        "text": "Those numbers go in the first column, these numbers go in the second column."
+    },
+    {
+        "text": "The matrix A that this is our matrix that represents T in this basis is these numbers."
+    },
+    {
+        "text": "a11 down to a18, a21 down to a28 and so on."
+    },
+    {
+        "text": "OK. That's the recipe."
+    },
+    {
+        "text": "In other words, if I give you a transformation and a basis, that's what I have to give you."
+    },
+    {
+        "text": "The inputs are the basis and to tell you what the transformation is."
+    },
+    {
+        "text": "And then you tell me, you compute T for each basis, expand that result in the basis, and that gives you the sixty-four numbers that go into the matrix A."
+    },
+    {
+        "text": "Let me suppose, let's close with the best example of all."
+    },
+    {
+        "text": "Suppose v1 to v8, this basis, is the eigenvectors."
+    },
+    {
+        "text": "Suppose we have an eigenvector basis."
+    },
+    {
+        "text": "So that T of vi is just, is in the same direction as vi."
+    },
+    {
+        "text": "Now my question is, what is A?"
+    }
+]

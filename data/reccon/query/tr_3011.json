@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think that would be horrible !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "garlic ice cream on the menu",
+            "I think that would be horrible !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that would be horrible !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So just, just take the easiest matrix, the identity."
+    },
+    {
+        "text": "If I look for its eigenvalues, they're all ones."
+    },
+    {
+        "text": "So that eigenvalue one is repeated ten times."
+    },
+    {
+        "text": "But there's no shortage of eigenvectors for the identity matrix."
+    },
+    {
+        "text": "In fact, every vector is an eigenvector."
+    },
+    {
+        "text": "So I can take ten independent vectors."
+    },
+    {
+        "text": "Oh, well, what happens to everything if, if, if A is the identity matrix, let's just think that one through in our head."
+    },
+    {
+        "text": "If A is the identity matrix, then it's got plenty of eigenvectors."
+    },
+    {
+        "text": "I choose ten independent vectors, they're the columns of S, and, and what do I get from S inverse A S?"
+    },
+    {
+        "text": "I get I again, right?"
+    },
+    {
+        "text": "If A is the identity, and of course, that's the correct lambda."
+    },
+    {
+        "text": "The, the matrix was already diagonal."
+    },
+    {
+        "text": "So if the matrix is already diagonal, then the, the lambda is the same as the matrix."
+    },
+    {
+        "text": "A diagonal matrix has got its eigenvalues sitting right there in front of you."
+    },
+    {
+        "text": "Now if it's triangular, the eigenvalues are still sitting there, but so let's, let's take a case where, it's triangular."
+    },
+    {
+        "text": "Suppose A is like, two, one, two, zero."
+    },
+    {
+        "text": "So there's a case that's going to be trouble."
+    },
+    {
+        "text": "There's a case that's going to be trouble."
+    },
+    {
+        "text": "First of all, what are the eigen- I mean, we just, like now you, if we start with a matrix, the first thing we do practically without thinking is compute the eigenvalues and eigenvectors."
+    },
+    {
+        "text": "OK."
+    }
+]

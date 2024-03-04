@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So all I need to model is this expected value."
+    },
+    {
+        "text": "So this mu, I'm going to actually say, so I look at some parameters, and it says, well, it increases exponentially."
+    },
+    {
+        "text": "So I want to have some sort of exponential trend."
+    },
+    {
+        "text": "I can parameterize that in several ways."
+    },
+    {
+        "text": "And the two parameters I want to slap in is some sort of gamma, which is just the coefficient."
+    },
+    {
+        "text": "And then there's some rate delta that's in the exponential."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if I tell you it's exponential, that's a nice family of functions you might want to think about."
+    },
+    {
+        "text": "OK, so here, mu of x, if I want to keep the notation x, is gamma exponential delta x, right?"
+    },
+    {
+        "text": "Except that here, my x are t1, t2, t3, et cetera."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And I want to find what the parameters gamma and delta are because I want to be able to maybe compare different epidemics and see if they have the same parameter or maybe just do some prediction based on the data that I have to extrapolate in the future."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So here, clearly, mu of x is not of the form x transpose beta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "That's not x transpose beta at all."
+    },
+    {
+        "text": "And it's actually not even a function of x transpose beta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "There's two parameters, gamma and delta, and it's not of the form."
+    },
+    {
+        "text": "So here, I have x, which is 1 and x."
+    }
+]

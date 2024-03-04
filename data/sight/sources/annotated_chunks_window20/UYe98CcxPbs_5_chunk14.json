@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That is because we will measure, actually, the sum of the squares of the errors."
+    },
+    {
+        "text": "And why do we do that?"
+    },
+    {
+        "text": "Well, part of it is because actually it looks good."
+    },
+    {
+        "text": "I mean, when you see these plots in scientific papers, they really look like the line is indeed the ideal line."
+    },
+    {
+        "text": "And the second reason is because actually the minimization problem that we will get is particularly simple, well-proposed and it is easy to solve."
+    },
+    {
+        "text": "We will have a nice formula for the best a and the best b."
+    },
+    {
+        "text": "If you have a method that is simple and gives you a good answer then that is probably the good one."
+    },
+    {
+        "text": "We have to define best."
+    },
+    {
+        "text": "And here it is in the sense of defining a total square error."
+    },
+    {
+        "text": "Maybe I should say total square deviation."
+    },
+    {
+        "text": "What do I mean by that?"
+    },
+    {
+        "text": "The deviation for each data point is the difference between what you have measured and what you are predicting by your model."
+    },
+    {
+        "text": "That is the difference between the two."
+    },
+    {
+        "text": "Now what we will do is try to minimize the function capital D, which is just the sum for all the data points of the square of the deviation."
+    },
+    {
+        "text": "Let me emphasize again this is a function of a and b. I mean, of course, there are a lot of letters in here."
+    },
+    {
+        "text": "But xi and yi in real life will be numbers given to you."
+    },
+    {
+        "text": "They will be the numbers that you have measured."
+    },
+    {
+        "text": "You have measured all of this data."
+    },
+    {
+        "text": "They are just going to be numbers."
+    },
+    {
+        "text": "You put them in there and you get the answer."
+    }
+]

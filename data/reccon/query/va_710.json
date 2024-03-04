@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Great ! This is our secret ! If you see my wife , say nothing to her about this !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I can have it ready tomorrow afternoon ,",
+            "Certainly ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! This is our secret ! If you see my wife , say nothing to her about this !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "When is your vacation going to start ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "When is your vacation going to start ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'll be leaving on the fifth of August for the vacation",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'll be leaving on the fifth of August for the vacation"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'll be leaving on the fifth of August for the vacation",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , that's only a few days from now ! How many weeks are you going to be taking ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'll be leaving on the fifth of August for the vacation"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's only a few days from now ! How many weeks are you going to be taking ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm taking two weeks now . but I want to save the other week and take it sometime during the winter .",
+        "emotion": "neutral",
+        "text": "I'm taking two weeks now . but I want to save the other week and take it sometime during the winter .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Where are you going now .",
+        "emotion": "neutral",
+        "text": "Where are you going now .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "To the beach",
+        "emotion": "neutral",
+        "text": "To the beach",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Have you made your hotel reservation yet ?",
+        "emotion": "neutral",
+        "text": "Have you made your hotel reservation yet ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , I don't need to do that . I'll be staying with friends",
+        "emotion": "neutral",
+        "text": "Oh , I don't need to do that . I'll be staying with friends",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You're lucky . It's hard to find a place to stay at the beach in August",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Oh , I don't need to do that . I'll be staying with friends",
+            "You're lucky"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're lucky . It's hard to find a place to stay at the beach in August",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Just think , in a few days , I'll be swimming and lying in the sun and just taking it easy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "in a few days , I'll be swimming and lying in the sun and just taking it easy ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Just think , in a few days , I'll be swimming and lying in the sun and just taking it easy .",
+        "id": 10
+    }
+]

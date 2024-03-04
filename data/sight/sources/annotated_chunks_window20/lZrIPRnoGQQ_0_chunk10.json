@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I have to use the fact that the derivative of x cubed with respect to x. Oh, I better do partial derivative."
+    },
+    {
+        "text": "Partial derivatives of x cubed with respect to x is 3x squared."
+    },
+    {
+        "text": "So now I'll put maybe a formula and then a number, so that gives 3 times 4, 12."
+    },
+    {
+        "text": "And the derivative of x cubed with respect to y gives 0."
+    },
+    {
+        "text": "Clearly, that's 0."
+    },
+    {
+        "text": "And then the derivative."
+    },
+    {
+        "text": "So I'm doing the x derivative."
+    },
+    {
+        "text": "So the derivative of y with respect to x is, you get to tell me, if I'm computing partial derivatives, is 0."
+    },
+    {
+        "text": "Is 0. y and x are independent."
+    },
+    {
+        "text": "And this is the reason, in my view, that the forward method is wasteful, because I'm going to have to do another whole graph for the y derivative."
+    },
+    {
+        "text": "In other words, tracking the x derivatives, a whole lot of stuff never got off the ground."
+    },
+    {
+        "text": "So we never should have looked at it."
+    },
+    {
+        "text": "So anyway."
+    },
+    {
+        "text": "But I do need, I have this x plus 3y."
+    },
+    {
+        "text": "Maybe, I don't know whether to erase that."
+    },
+    {
+        "text": "I think I will, just because I don't know what to do with it there."
+    },
+    {
+        "text": "So now let me take the ones that I really need."
+    },
+    {
+        "text": "So this is the derivative with respect to x of x plus 3y, which is 1."
+    },
+    {
+        "text": "And so that gives me the answer 1 for any x, actually."
+    },
+    {
+        "text": "And now what?"
+    }
+]

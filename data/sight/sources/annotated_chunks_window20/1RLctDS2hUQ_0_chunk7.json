@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you're driving your car from time a to time b."
+    },
+    {
+        "text": "Place q to place r, whatever."
+    },
+    {
+        "text": "And you check your speedometer every second."
+    },
+    {
+        "text": "So you've read your speedometer in the i-th second."
+    },
+    {
+        "text": "And you've read that you're going at this speed."
+    },
+    {
+        "text": "Now, how far do you go in that second?"
+    },
+    {
+        "text": "Well, the answer is, you go this speed times the time interval, which in this case we're imagining is 1 second."
+    },
+    {
+        "text": "So this is how far you went."
+    },
+    {
+        "text": "This is the time interval."
+    },
+    {
+        "text": "And this is the distance traveled in second number i, in the i-th second."
+    },
+    {
+        "text": "The distance traveled in the i-th second."
+    },
+    {
+        "text": "That's the total distance you traveled."
+    },
+    {
+        "text": "Now, what happens if you go the whole distance?"
+    },
+    {
+        "text": "Well, you travel the sum of all these distances."
+    },
+    {
+        "text": "So it's some massive sum where n is some ridiculous number of seconds."
+    },
+    {
+        "text": "3600 seconds or something like that, whatever it is."
+    },
+    {
+        "text": "And that's going to turn out to be very similar to what you would read on your odometer."
+    },
+    {
+        "text": "Because during that second, you didn't change velocity very much."
+    },
+    {
+        "text": "So the approximation, the speed at one time that you spotted it, is very similar to the speed during the whole second."
+    },
+    {
+        "text": "It doesn't change that much."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow , this is great ! I never knew Thai food was so creative and delicious !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Ok , now for the last and best dish in my opinion . This is called Pad Thai . It's stir-fried noodles with eggs , fish sauce , tamarind juice , red chili pepper plus bean sprouts , shrimp and tofu and garnished with crushed peanuts and coriander . It's practically Thailand's national dish !",
+            "this is great !",
+            "Thai food was so creative and delicious !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , this is great ! I never knew Thai food was so creative and delicious !",
+        "id": 9,
+        "source_sentences": [
+            7,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

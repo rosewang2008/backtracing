@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thanks , Jeanine , you are a real pal . Let's go in .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've got you covered ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , Jeanine , you are a real pal . Let's go in .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

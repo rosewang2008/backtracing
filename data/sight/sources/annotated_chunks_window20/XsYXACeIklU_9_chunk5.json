@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Back to this picture."
+    },
+    {
+        "text": "The time until the second arrival is the sum of two independent exponential random variables."
+    },
+    {
+        "text": "So, in principle, you can use the convolution formula to find the distribution of T1 plus T2, and that would be what we call Y2, the time until the second arrival."
+    },
+    {
+        "text": "But there's also a direct way of obtaining to the distribution of Y2, and this is the calculation that we did last time on the blackboard."
+    },
+    {
+        "text": "And actually, we did it more generally."
+    },
+    {
+        "text": "We found the time until the case arrival occurs."
+    },
+    {
+        "text": "It has a closed form formula, which is called the Erlang distribution with k degrees of freedom."
+    },
+    {
+        "text": "So let's see what's going on here."
+    },
+    {
+        "text": "It's a distribution Of what kind?"
+    },
+    {
+        "text": "It's a continuous distribution."
+    },
+    {
+        "text": "It's a probability density function."
+    },
+    {
+        "text": "This is because the time is a continuous random variable."
+    },
+    {
+        "text": "Time is continuous."
+    },
+    {
+        "text": "Arrivals can happen at any time."
+    },
+    {
+        "text": "So we're talking about the PDF."
+    },
+    {
+        "text": "This k is just the parameter of the distribution."
+    },
+    {
+        "text": "We're talking about the k-th arrival, so k is a fixed number."
+    },
+    {
+        "text": "Lambda is another parameter of the distribution, which is the arrival rate So it's a PDF over the Y's, whereas lambda and k are parameters of the distribution."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this was what we knew from last time."
+    }
+]

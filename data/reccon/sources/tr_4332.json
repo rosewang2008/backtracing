@@ -1,0 +1,195 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , come on in . Can I take your coat ?",
+        "emotion": "neutral",
+        "text": "Hi , come on in . Can I take your coat ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , thanks . I brought you a bottle of wine as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Sure , thanks . I brought you a bottle of wine as well .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're the first guest to arrive . I'll just put your coat away and then I'll get you something to drink .",
+        "emotion": "neutral",
+        "text": "You're the first guest to arrive . I'll just put your coat away and then I'll get you something to drink .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Should I take my shoes off ?",
+        "emotion": "neutral",
+        "text": "Should I take my shoes off ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Whatever you prefer .",
+        "emotion": "neutral",
+        "text": "Whatever you prefer .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This is a very nice place . How long have you been living here now ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "This is a very nice place ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is a very nice place . How long have you been living here now ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Just over three weeks . Would you like a drink ?",
+        "emotion": "neutral",
+        "text": "Just over three weeks . Would you like a drink ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure , what do you have ?",
+        "emotion": "neutral",
+        "text": "Sure , what do you have ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I've got white wine , red wine , gin and tonics , ginger ale , lemonade , orange juice , and sprite .",
+        "emotion": "neutral",
+        "text": "I've got white wine , red wine , gin and tonics , ginger ale , lemonade , orange juice , and sprite .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'll have a glass of red wine please .",
+        "emotion": "neutral",
+        "text": "I'll have a glass of red wine please .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "One glass of red wine coming up !",
+        "emotion": "happiness",
+        "explanation": "Hapy because of the aura",
+        "expanded emotion cause evidence": [
+            "b",
+            11
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "One glass of red wine coming up !"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "One glass of red wine coming up !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "So how many people are coming for the dinner tonight ?",
+        "emotion": "neutral",
+        "text": "So how many people are coming for the dinner tonight ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "There's just going to be 6 of us tonight .",
+        "emotion": "neutral",
+        "text": "There's just going to be 6 of us tonight .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , I thought there were going to be eight . who isn't coming ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "There's just going to be 6 of us tonight .",
+            "I thought there were going to be eight ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I thought there were going to be eight . who isn't coming ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Marcia and Paul called to cancel at the last moment . Paul was running late and Marcia wasn't feeling well .",
+        "emotion": "neutral",
+        "text": "Marcia and Paul called to cancel at the last moment . Paul was running late and Marcia wasn't feeling well .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "That's too bad . They ' re such good company .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Marcia and Paul called to cancel at the last moment ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's too bad . They ' re such good company .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I think there's someone at the door . Excuse me while I go and get that .",
+        "emotion": "neutral",
+        "text": "I think there's someone at the door . Excuse me while I go and get that .",
+        "id": 17
+    }
+]

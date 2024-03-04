@@ -1,0 +1,62 @@
+[
+    {
+        "text": "For example, here we can certainly simplify things by summing them together."
+    },
+    {
+        "text": "See, if we add them together, well, the x's cancel and the constants cancel."
+    },
+    {
+        "text": "In fact, we are just left with 4y equals zero."
+    },
+    {
+        "text": "That is pretty good."
+    },
+    {
+        "text": "That tells us y should be zero."
+    },
+    {
+        "text": "But then we should, of course, go back to these and see what else we know."
+    },
+    {
+        "text": "Well, now it tells us, if you put y equals zero, that tells you 2x plus 2 equals zero."
+    },
+    {
+        "text": "That tells you x equals minus one."
+    },
+    {
+        "text": "We have one critical point."
+    },
+    {
+        "text": "That is x, y equals minus one over two."
+    },
+    {
+        "text": "Any questions so far?"
+    },
+    {
+        "text": "Well, you should have a question."
+    },
+    {
+        "text": "The question should be how do we know if it is a maximum or a minimum?"
+    },
+    {
+        "text": "Well, if we had a function of one variable, we would decide things based on the second derivative."
+    },
+    {
+        "text": "And, in fact, we will see tomorrow how to do things based on the second derivative."
+    },
+    {
+        "text": "But that is kind of tricky because there are a lot of second derivatives."
+    },
+    {
+        "text": "I mean, we already have two first derivatives."
+    },
+    {
+        "text": "You can imagine that if you keep taking partials, you may end up with more and more."
+    },
+    {
+        "text": "We will have to figure out carefully what the condition should be."
+    },
+    {
+        "text": "We will do that tomorrow."
+    }
+]

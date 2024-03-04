@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The proportion of the population of households that have four children or more is definitely more than 0."
+    },
+    {
+        "text": "So it means that my data set is not representative."
+    },
+    {
+        "text": "And what I'm going to try to do is to find a model that tries to use the data that I have for the smaller values that I can observe and just pull shit out for the other ones."
+    },
+    {
+        "text": "And so what we can do is to just reduce those parameters into something that's understood."
+    },
+    {
+        "text": "And this is part of the modeling that I talked about in the first place."
+    },
+    {
+        "text": "Now, how do you succinctly describe a number of something?"
+    },
+    {
+        "text": "Well, one thing that you do is the Poisson distribution."
+    },
+    {
+        "text": "Why the Poisson?"
+    },
+    {
+        "text": "I mean, there's many reasons."
+    },
+    {
+        "text": "I mean, again, that's part of statistical modeling."
+    },
+    {
+        "text": "But once you know that you have number of something that can be modeled by a Poisson, why not try a Poisson?"
+    },
+    {
+        "text": "You could just fit a Poisson."
+    },
+    {
+        "text": "And the Poisson is something that looks like this."
+    },
+    {
+        "text": "And I guess you've all seen it."
+    },
+    {
+        "text": "But if x follows a Poisson distribution with parameter lambda, then the probability that x is equal to little x is equal to lambda to the x over factorial x e to the minus lambda."
+    },
+    {
+        "text": "And if you did the sheet that I gave you on the first day, you can check that those numbers."
+    },
+    {
+        "text": "So this is, of course, for x equals 0, 1, et cetera."
+    },
+    {
+        "text": "So x is in natural integers."
+    },
+    {
+        "text": "And if you sum from x equals 0 to infinity, this thing, you get e to the lambda."
+    },
+    {
+        "text": "And so they cancel."
+    }
+]

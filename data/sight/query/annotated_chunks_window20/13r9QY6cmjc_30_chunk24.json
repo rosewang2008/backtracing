@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 30,
+        "timestamp": 1684728116666.0,
+        "annotatedSourceSentencesIndices": [
+            5
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why the skew-symmetric matrix have zero or imaginary eigenvalue?"
+    }
+]

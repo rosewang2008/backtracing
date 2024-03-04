@@ -1,0 +1,8 @@
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/minilm.csv
+Output fname: results/inquisitive/test/minilm.csv
+Accuracy top 1: 0.659
+Distance: 2.664
+Accuracy top 3: 0.848
+Distance: 0.641

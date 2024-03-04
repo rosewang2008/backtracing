@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "It's a deal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "275 dollars is the lowest price I can offer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's a deal .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

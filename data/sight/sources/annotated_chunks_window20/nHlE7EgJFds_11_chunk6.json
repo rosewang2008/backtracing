@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What's a basis for the column space?"
+    },
+    {
+        "text": "We've done all the work of row reduction, identifying the pivot columns, the ones that have pivots, the ones that end up with pivots, but now I the pivot columns I'm interested in are columns of A, the original A."
+    },
+    {
+        "text": "And those pivot columns, there are R of them, the rank R counts those, those are a basis."
+    },
+    {
+        "text": "So if I answer this question for the column space, the answer will be a basis is the pivot columns, and the dimension is the rank R. And there are pivot columns and everything great."
+    },
+    {
+        "text": "OK, so that space we pretty well understand."
+    },
+    {
+        "text": "I probably have a little going back to see that, to prove that this is a right answer, but you know it's the right answer."
+    },
+    {
+        "text": "Now let me look at the row space."
+    },
+    {
+        "text": "OK. Shall I tell you the dimension of the row space?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "Before we do even an example, let me tell you the dimension of the row space."
+    },
+    {
+        "text": "Its dimension is also R. The row space and the column space have the same dimension."
+    },
+    {
+        "text": "That's a wonderful fact."
+    },
+    {
+        "text": "The dimension of the column space of A transpose, that's the row space, is R. That space is R-dimensional."
+    },
+    {
+        "text": "And so is this one."
+    },
+    {
+        "text": "OK. That's the, that's the sort of insight that got used in this example."
+    },
+    {
+        "text": "If those, if those, if those, are the three columns of a matrix, let me make them the three columns of a matrix by just erasing some brackets, OK, those are the three columns of a matrix, the rank of that matrix, if I look at the columns, it wasn't obvious to me anyway."
+    },
+    {
+        "text": "But if I look at the rows, it's, now it's obvious."
+    },
+    {
+        "text": "The row space of that matrix obviously is two-dimensional, because I can, I see a basis for the row space, this row and that row."
+    },
+    {
+        "text": "And of course, strictly speaking, I'm supposed to transpose those guys, make them stand up."
+    },
+    {
+        "text": "But the rank is two, and therefore the column space is two-dimensional by this wonderful fact that the row space and column space have the same dimension, and therefore there are only two pivot columns, not three, and, those, the three columns are dependent."
+    }
+]

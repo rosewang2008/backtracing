@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this thing is going to scale with the variance."
+    },
+    {
+        "text": "And not surprisingly, it's scaling like the square of the variance."
+    },
+    {
+        "text": "So if I look at Sn, it's distributed as sigma-square times the chi-square with n minus 1 degrees of freedom divided by n. And we don't really write that, because a chi-square times sigma-square divided by n is not a distribution."
+    },
+    {
+        "text": "So we put everything to the left."
+    },
+    {
+        "text": "And we say that this is actually a chi-square with n minus 1 degrees of freedom."
+    },
+    {
+        "text": "So here, I'm actually dropping a fact on you."
+    },
+    {
+        "text": "But you can sort of see the building block."
+    },
+    {
+        "text": "What is the thing that's sort of fussy at this point, but the rest should be crystal clear to you?"
+    },
+    {
+        "text": "The thing that's fussy is that removing this square guy here is actually removing 1 degree of freedom."
+    },
+    {
+        "text": "That should be weird."
+    },
+    {
+        "text": "But that's what Cochran's theorem tells me."
+    },
+    {
+        "text": "It's essentially stating something about orthogonality of subspaces with the span of the constant vector, something like that."
+    },
+    {
+        "text": "So you don't have to think about it too much."
+    },
+    {
+        "text": "But that's what it's telling me."
+    },
+    {
+        "text": "But the rest, if you plug in, so the scaling in sigma-squared and in n, that should be completely clear to you."
+    },
+    {
+        "text": "So in particular, if I remove that part, it should be clear to you that this thing, if mean is 0, this thing is actually distributed."
+    },
+    {
+        "text": "Well, if mu is 0, what is the distribution of this guy?"
+    },
+    {
+        "text": "So I remove that part, just this part."
+    },
+    {
+        "text": "So I have xi, which are n0 sigma-squared."
+    },
+    {
+        "text": "And I'm asking, what is the distribution of 1 over n sum from i equal 1 to n of xi-squared?"
+    }
+]

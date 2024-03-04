@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you going to the movie theater with me tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "movie theater with me tonight ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Are you going to the movie theater with me tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is there anything good playing ?",
+        "emotion": "neutral",
+        "text": "Is there anything good playing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Titanic is playing tonight . It's a blockbuster .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Titanic is playing tonight . It's a blockbuster ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Titanic is playing tonight . It's a blockbuster .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? I want to go , too .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Titanic is playing tonight . It's a blockbuster ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I want to go , too .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK , let's meet at the movie theater entrance tonight . Don ' t be late .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I want to go , too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , let's meet at the movie theater entrance tonight . Don ' t be late .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Titanic is playing tonight . It's a blockbuster .",
+            "let's meet at the movie theater entrance tonight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "( After watching the movie . ) Are you crying ?",
+        "emotion": "neutral",
+        "text": "( After watching the movie . ) Are you crying ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I get a lump in my throat whenever I see a tragic movie .",
+        "emotion": "neutral",
+        "text": "I get a lump in my throat whenever I see a tragic movie .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Tragic movie ? I think it's a love story .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I get a lump in my throat whenever I see a tragic movie .",
+            "I think it's a love story ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Tragic movie ? I think it's a love story .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "But their love is touching !",
+        "emotion": "neutral",
+        "text": "But their love is touching !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Ah , you're just too emotional .",
+        "emotion": "neutral",
+        "text": "Ah , you're just too emotional .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I am not !",
+        "emotion": "neutral",
+        "text": "I am not !",
+        "id": 12
+    }
+]

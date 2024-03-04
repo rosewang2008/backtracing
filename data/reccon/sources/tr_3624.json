@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's the matter with you ? You look so upset and tired .",
+        "emotion": "neutral",
+        "text": "What's the matter with you ? You look so upset and tired .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My father failed in business .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My father failed in business ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My father failed in business .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , that's really tough .",
+        "emotion": "neutral",
+        "text": "Oh , that's really tough .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Maybe it is the most difficult period of my family have experienced .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "it is the most difficult period of my family have experienced ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Maybe it is the most difficult period of my family have experienced .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I can understand . By the way , is there anyway I can help ?",
+        "emotion": "neutral",
+        "text": "I can understand . By the way , is there anyway I can help ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , not now . I have found a part-time job . So perhaps I can help my family to come over the difficulties .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "it is the most difficult period of my family have experienced ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , not now . I have found a part-time job . So perhaps I can help my family to come over the difficulties .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , that's so great , bless you ! if you need me , I'll always be there .",
+        "emotion": "neutral",
+        "text": "Oh , that's so great , bless you ! if you need me , I'll always be there .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "if you need me , I'll always be there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

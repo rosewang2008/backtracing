@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I knew some day I would be able to profit from your love of fun !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm a professional party planner here in the city . I do catering and all that .",
+            "I would be able to profit from your love of fun !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I knew some day I would be able to profit from your love of fun !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

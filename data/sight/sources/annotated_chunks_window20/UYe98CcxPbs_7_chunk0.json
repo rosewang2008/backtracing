@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Today we are going to see how to use what we saw last time about partial derivatives to handle minimization or maximization problems involving functions of several variables."
+    },
+    {
+        "text": "Remember last time we said that when we have a function, say, of two variables, x and y, then we have actually two different derivatives."
+    },
+    {
+        "text": "Partial f, partial x, also called f sub x, is the derivative with respect to x keeping y constant."
+    },
+    {
+        "text": "And we have partial f, partial y, also called f sub y, where we vary y and we treat x as a constant."
+    },
+    {
+        "text": "And now, one thing I didn't have time to tell you about, but hopefully you heard about in recitation yesterday, is the approximation formula that tells you what happens if you vary both x and y. F sub x tells us what happens if we change x a little bit by some small amount delta x. F sub y tells us how f changes if we change y by a small amount delta y."
+    },
+    {
+        "text": "If we do both at the same time, then the two effects will add up with each other."
+    },
+    {
+        "text": "Because you can imagine that first you will change x and then you will change y or the other way around."
+    },
+    {
+        "text": "It doesn't really matter."
+    },
+    {
+        "text": "If we change x by a certain amount delta x, and if we change y by the amount delta y, and let's say that we have z equals f of x, y, then that changes by an amount which is approximately f sub x times delta x plus f sub y times delta y."
+    },
+    {
+        "text": "And that is one of the most important formulas about partial derivatives."
+    },
+    {
+        "text": "The intuition for this, again, is just the two effects add up."
+    },
+    {
+        "text": "If I change x by a small amount and then I change y, well, first changing x will modify f. How much does it modify f?"
+    },
+    {
+        "text": "The answer is the rate of change."
+    },
+    {
+        "text": "The rate of change is f sub x."
+    },
+    {
+        "text": "And, if I change y, then the rate of change of f when I change y is f sub y."
+    },
+    {
+        "text": "All together, I get this change in the value of f. And, of course, that is only an approximation formula."
+    },
+    {
+        "text": "Actually, there would be higher order terms involving second and third derivatives and so on."
+    }
+]

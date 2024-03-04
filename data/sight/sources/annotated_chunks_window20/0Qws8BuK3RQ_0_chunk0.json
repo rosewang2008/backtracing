@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high-quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, just as we're getting started, I thought I'd add a few words about a question that came up after class."
+    },
+    {
+        "text": "Suppose in that discussion last time, where you were given three, you were given a distance matrix, you were given the distance between x1 and x2, between x2 and x3, and between x1 and x3, and you wanted to find points that satisfied that."
+    },
+    {
+        "text": "Well, we're going to fail on this example, because if the distance here is 1, the distance here is 1, then by the triangle inequality, the distance from x1 to x3 could not be more than 2."
+    },
+    {
+        "text": "And when we square it, it could not be more than 4."
+    },
+    {
+        "text": "And here it's 6."
+    },
+    {
+        "text": "So what's going to happen?"
+    },
+    {
+        "text": "What goes wrong in that case?"
+    },
+    {
+        "text": "Yeah, I hadn't commented on that, and I'm not sure that the paper that I referenced does so."
+    },
+    {
+        "text": "So I had to do a little search back in the literature, because people couldn't overlook this problem."
+    },
+    {
+        "text": "So this is the triangle inequality fails."
+    },
+    {
+        "text": "And it's not going to help to go into 10 dimensions, because the triangle inequalities doesn't change."
+    },
+    {
+        "text": "And it's still there in 10 dimensions, and we're still failing."
+    },
+    {
+        "text": "So what happens?"
+    },
+    {
+        "text": "Well, what could happen?"
+    },
+    {
+        "text": "Do you remember, and you'll have to remind me, the key equation."
+    },
+    {
+        "text": "You remember we had an equation connecting the matrix."
+    },
+    {
+        "text": "So what is the matrix D for this problem?"
+    }
+]

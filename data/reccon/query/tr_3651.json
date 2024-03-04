@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Sure . Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'm an engineer , I work for Boeing . Say , would you like a drink ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Thanks .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

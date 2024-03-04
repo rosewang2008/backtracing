@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, my normal vector would be maybe somewhere here."
+    },
+    {
+        "text": "And, let's say that I'm going to try, you know, I need, of course, some handle on how to set up my integral."
+    },
+    {
+        "text": "So, maybe I'm going to express this in terms of x and y. OK, so I have my coordinates, and I'll try to use x and y."
+    },
+    {
+        "text": "So, then I would like to relate delta s, ds, to the area in the xy plane."
+    },
+    {
+        "text": "So, that means, you know, I want maybe to look at the projection of this guy onto a horizontal plane."
+    },
+    {
+        "text": "Let's squish it horizontally."
+    },
+    {
+        "text": "So, then you have here another area."
+    },
+    {
+        "text": "OK, so the guy on the slanted plane, let's call that delta s, and let's call this guy down here delta a."
+    },
+    {
+        "text": "So, the question, and, you know, delta a would become ultimately maybe delta x, delta y, or something like that."
+    },
+    {
+        "text": "The question is, how do we find the conversion rate between these two areas?"
+    },
+    {
+        "text": "See, I mean, they're not the same."
+    },
+    {
+        "text": "Visually, I hope it's clear to you that if my plane is actually horizontal, then, of course, they're the same."
+    },
+    {
+        "text": "But, the more slanted it becomes, the more delta a becomes smaller than delta s, right?"
+    },
+    {
+        "text": "I mean, if you buy, you know, if you buy land, and it's on the side of a cliff, well, whether you look at it on a map, or whether you look at it on the actual cliff, the area is going to be very different."
+    },
+    {
+        "text": "I'm not sure if that's a wise thing to do if you want to build a house there, but I've been told you can get really cheap land."
+    },
+    {
+        "text": "OK, so anyway, OK, so delta s versus delta a depends on how slanted things are."
+    },
+    {
+        "text": "And, let's try to make that more precise by looking at the angle that our plane makes with the horizontal direction."
+    },
+    {
+        "text": "OK, so let's call this angle alpha, the angle that our plane makes with the horizontal direction."
+    },
+    {
+        "text": "See, it's all coming together now."
+    },
+    {
+        "text": "The first unit about cross products, normal vectors, and so on is actually useful now."
+    }
+]

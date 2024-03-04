@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We still have one more day to go before we return home . What will we see tomorrow ?",
+        "emotion": "neutral",
+        "text": "We still have one more day to go before we return home . What will we see tomorrow ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No idea . We've enjoyed both the natural scenery and the city sights . What else is there to see ?",
+        "emotion": "neutral",
+        "text": "No idea . We've enjoyed both the natural scenery and the city sights . What else is there to see ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What about a factory tour ?",
+        "emotion": "neutral",
+        "text": "What about a factory tour ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You mean visit a factory ?",
+        "emotion": "neutral",
+        "text": "You mean visit a factory ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . I heard there's a lager motor company nearby which is open to the public every weekend . We can go to see how a car is manufactured and learn more about the automobile industry .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I heard there's a lager motor company nearby which is open to the public every weekend . We can go to see how a car is manufactured and learn more about the automobile industry ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . I heard there's a lager motor company nearby which is open to the public every weekend . We can go to see how a car is manufactured and learn more about the automobile industry .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good idea ! I've always been interested in that . How much is the entrance fee ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I heard there's a lager motor company nearby which is open to the public every weekend . We can go to see how a car is manufactured and learn more about the automobile industry .",
+            "I've always been interested in that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good idea ! I've always been interested in that . How much is the entrance fee ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm not sure , but as far as I know , most factory tours are free . They are sponsored by the company providing the tour .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've always been interested in that .",
+            "most factory tours are free . They are sponsored by the company providing the tour ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm not sure , but as far as I know , most factory tours are free . They are sponsored by the company providing the tour .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? What do the companies do that for ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "most factory tours are free . They are sponsored by the company providing the tour ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What do the companies do that for ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I believe most of them think it as good public relations . They can promote their product and make their company better-known .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "most factory tours are free . They are sponsored by the company providing the tour ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I believe most of them think it as good public relations . They can promote their product and make their company better-known .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , ISEE . So factory tours are good for companies as well as visitors .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "So factory tours are good for companies as well as visitors ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , ISEE . So factory tours are good for companies as well as visitors .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Exactly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "So factory tours are good for companies as well as visitors ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Exactly .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Do we need an appointment beforehand ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've always been interested in that .",
+            "most factory tours are free . They are sponsored by the company providing the tour ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Do we need an appointment beforehand ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I'll call the tourist information centre to check .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've always been interested in that .",
+            "most factory tours are free . They are sponsored by the company providing the tour ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'll call the tourist information centre to check .",
+        "id": 13
+    }
+]

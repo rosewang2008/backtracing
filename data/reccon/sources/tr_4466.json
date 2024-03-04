@@ -1,0 +1,128 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , you wanna see a movie tomorrow ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "see a movie tomorrow ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , you wanna see a movie tomorrow ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sounds like a good plan . What do you want to see ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "see a movie tomorrow ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds like a good plan . What do you want to see ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about Legally Blonde .",
+        "emotion": "neutral",
+        "text": "How about Legally Blonde .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ah , my girlfriend wanted to see that movie . I have to take her later so I don't want to watch it ahead of time . How about The Cube ?",
+        "emotion": "neutral",
+        "text": "Ah , my girlfriend wanted to see that movie . I have to take her later so I don't want to watch it ahead of time . How about The Cube ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Isn't that a scary movie ?",
+        "emotion": "neutral",
+        "text": "Isn't that a scary movie ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How scary can it be ? Come on , it'll be fun .",
+        "emotion": "neutral",
+        "text": "How scary can it be ? Come on , it'll be fun .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Ok . I'll give it a try .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it'll be fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . I'll give it a try .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's the spirit . I'll see you tomorrow after class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "it'll be fun .",
+            "Ok . I'll give it a try ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's the spirit . I'll see you tomorrow after class .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ok . See you tomorrow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "see a movie tomorrow ?",
+            "it'll be fun ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Ok . See you tomorrow .",
+        "id": 9
+    }
+]

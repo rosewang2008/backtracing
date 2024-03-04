@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So am I .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "he is our new President !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So am I .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

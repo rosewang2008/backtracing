@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You ' re right . This year should be much more exciting than usual . What ' s you favourite award category ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "this year there are several contenders .",
+            "This year should be much more exciting"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You ' re right . This year should be much more exciting than usual . What ' s you favourite award category ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

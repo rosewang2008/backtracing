@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, why don't I start?"
+    },
+    {
+        "text": "So I was hoping that we would have the next online assignment ready, but Julia 6, the new version, is slowing us down."
+    },
+    {
+        "text": "And it'd probably be next time."
+    },
+    {
+        "text": "But my lectures, of course, are, well, what I want to say perhaps is this isn't intended to be a course in numerical linear algebra."
+    },
+    {
+        "text": "But I thought I couldn't let the whole semester go by without saying something about how to compute eigenvalues and singular values."
+    },
+    {
+        "text": "Of course, you're going to call I or SVD or the equivalent in Python or Julia."
+    },
+    {
+        "text": "But actually, the QR factorization that we spoke about, that we spoke entirely about last time is the key, unexpectedly, unexpectedly."
+    },
+    {
+        "text": "You have a matrix A whose eigenvalues you want."
+    },
+    {
+        "text": "So let's start with eigenvalues."
+    },
+    {
+        "text": "And it might be a symmetric matrix."
+    },
+    {
+        "text": "I'll stay with A rather than S because it doesn't have to be."
+    },
+    {
+        "text": "But you get special always."
+    },
+    {
+        "text": "You get something special if the matrix is symmetric."
+    },
+    {
+        "text": "OK, so this method of computing eigenvalues, to me at least, and I think to many people, came like out of the blue a while ago, but not that long ago."
+    },
+    {
+        "text": "And it worked very well."
+    },
+    {
+        "text": "So here's the idea."
+    },
+    {
+        "text": "It's called the QR method because you start by factoring your matrix into QR."
+    }
+]

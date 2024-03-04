@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Instead of a0, I take a0 minus a shift."
+    },
+    {
+        "text": "So a shift is some multiple of the identity."
+    },
+    {
+        "text": "If I just move a matrix by a multiple of the identity, what happens to its eigenvectors?"
+    },
+    {
+        "text": "What happens to its eigenvalues?"
+    },
+    {
+        "text": "Something pretty simple, right?"
+    },
+    {
+        "text": "Because I'm just shifting by si."
+    },
+    {
+        "text": "What happens to its eigenvectors?"
+    },
+    {
+        "text": "They're the same."
+    },
+    {
+        "text": "And what happens to the eigenvalues?"
+    },
+    {
+        "text": "They change by s. If a0v equals lambda v, then when I multiply this by v, there will be an extra."
+    },
+    {
+        "text": "It'll be lambda minus s. Because the identity times the v is just v. So it just shifts all the eigenvalues by s. And you try to shift."
+    },
+    {
+        "text": "You look for a shift."
+    },
+    {
+        "text": "This would be great."
+    },
+    {
+        "text": "If you knew lambda n, a shift there, you would be looking for 0 then, if you shifted them all by that lambda."
+    },
+    {
+        "text": "And it turns out that would speed things up."
+    },
+    {
+        "text": "So you work instead with this matrix as now, again, I'm factoring in a q0, r0."
+    },
+    {
+        "text": "So that's the work of the method, is in doing Gram-Schmidt at every step."
+    },
+    {
+        "text": "And then there's a little work in reversing the order."
+    },
+    {
+        "text": "And then I want to undo the shift."
+    },
+    {
+        "text": "So I do that factorization."
+    }
+]

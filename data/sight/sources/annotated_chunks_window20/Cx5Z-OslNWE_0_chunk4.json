@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I think."
+    },
+    {
+        "text": "Actually, I was just quickly reviewing this morning."
+    },
+    {
+        "text": "So I'm not totally on top of this centroid."
+    },
+    {
+        "text": "What I'm going to talk, the algorithm that I'm going to talk about is the k, well, k means, it's always called."
+    },
+    {
+        "text": "And here, it will be the k will be 2."
+    },
+    {
+        "text": "I just have two partitioning into two sets, a's and b's."
+    },
+    {
+        "text": "So I just k is just 2."
+    },
+    {
+        "text": "OK, what's the algorithm?"
+    },
+    {
+        "text": "Well, if I've chosen a partition, the a's and the b's have separated them, then that tells me what the x and the y should be."
+    },
+    {
+        "text": "But now, what do I do next?"
+    },
+    {
+        "text": "So this is going to be a sort of an alternating partition."
+    },
+    {
+        "text": "Now, I take those two centroids."
+    },
+    {
+        "text": "So step one is, for a given a's and b's, find the centroids x and y."
+    },
+    {
+        "text": "And that's elementary."
+    },
+    {
+        "text": "Then the second step is, given the centroids x and y, given those positions, given x and y, they won't be centroids when you see what happens."
+    },
+    {
+        "text": "Given x and y, reform the best partition, best clusters."
+    },
+    {
+        "text": "OK, so step one, we had a guess at what the best clusters were."
+    },
+    {
+        "text": "And we found their centroids."
+    },
+    {
+        "text": "Now, we start with the centroids, and we form new clusters again."
+    },
+    {
+        "text": "And if these clusters are the same as the ones we started with, then the algorithm has converged."
+    }
+]

@@ -1,0 +1,8 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/random.csv
+Output fname: results/sight/annotated/random.csv
+Random baseline accuracy: 0.01
+Random baseline min distance: 167.54
+Random baseline accuracy top 3: 0.03
+Random baseline min distance top 3: 67.78

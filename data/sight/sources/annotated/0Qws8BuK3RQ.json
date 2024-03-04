@@ -1,0 +1,821 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high-quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, just as we're getting started, I thought I'd add a few words about a question that came up after class."
+    },
+    {
+        "text": "Suppose in that discussion last time, where you were given three, you were given a distance matrix, you were given the distance between x1 and x2, between x2 and x3, and between x1 and x3, and you wanted to find points that satisfied that."
+    },
+    {
+        "text": "Well, we're going to fail on this example, because if the distance here is 1, the distance here is 1, then by the triangle inequality, the distance from x1 to x3 could not be more than 2."
+    },
+    {
+        "text": "And when we square it, it could not be more than 4."
+    },
+    {
+        "text": "And here it's 6."
+    },
+    {
+        "text": "So what's going to happen?"
+    },
+    {
+        "text": "What goes wrong in that case?"
+    },
+    {
+        "text": "Yeah, I hadn't commented on that, and I'm not sure that the paper that I referenced does so."
+    },
+    {
+        "text": "So I had to do a little search back in the literature, because people couldn't overlook this problem."
+    },
+    {
+        "text": "So this is the triangle inequality fails."
+    },
+    {
+        "text": "And it's not going to help to go into 10 dimensions, because the triangle inequalities doesn't change."
+    },
+    {
+        "text": "And it's still there in 10 dimensions, and we're still failing."
+    },
+    {
+        "text": "So what happens?"
+    },
+    {
+        "text": "Well, what could happen?"
+    },
+    {
+        "text": "Do you remember, and you'll have to remind me, the key equation."
+    },
+    {
+        "text": "You remember we had an equation connecting the matrix."
+    },
+    {
+        "text": "So what is the matrix D for this problem?"
+    },
+    {
+        "text": "So D is a 3 by 3 matrix with these distances squared."
+    },
+    {
+        "text": "And it was convenient to use distances squared, because that's what comes into the next steps."
+    },
+    {
+        "text": "So of course, the distance from each x to itself is 0."
+    },
+    {
+        "text": "The distance from x distance squared was that."
+    },
+    {
+        "text": "This one was that, but this one is 6."
+    },
+    {
+        "text": "So that's the distance matrix."
+    },
+    {
+        "text": "And we would like to find, the job was to find, and I'm just going to write down, we cannot find x1, x2, and x3 to match those distances."
+    },
+    {
+        "text": "So what goes wrong?"
+    },
+    {
+        "text": "Well, there's only one thing that could go wrong."
+    },
+    {
+        "text": "When you connect this distance matrix D to the matrix x transpose x, you remember the position matrix, maybe I called it G. This is giving, so Gij is the dot product of xi with xj."
+    },
+    {
+        "text": "Oops, let's make that into a j."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "So Gij is the matrix of dot products."
+    },
+    {
+        "text": "And the great thing was that we can discover what that matrix, that matrix G comes directly from D, comes directly from D. And of course, what do we know about this matrix of cross products?"
+    },
+    {
+        "text": "We know that it is positive semidefinite."
+    },
+    {
+        "text": "So what goes wrong?"
+    },
+    {
+        "text": "Well, just in a word, when we write out that equation and discover what G is, if the triangle inequality fails, we learn that G doesn't come out positive definite."
+    },
+    {
+        "text": "That's really all I want to say."
+    },
+    {
+        "text": "And I could push through the example."
+    },
+    {
+        "text": "G will not come out positive definite if D, if that's D, because it can't."
+    },
+    {
+        "text": "If it came out positive definite, then we could find an x."
+    },
+    {
+        "text": "So if we had the G, then the final step, you remember, is to find an x."
+    },
+    {
+        "text": "Well, we know that if G is positive semidefinite, there are multiple ways to find an x."
+    },
+    {
+        "text": "This is positive semidefinite matrices is what you get out of x transpose x's."
+    },
+    {
+        "text": "And we can find an x given a G. We can find G given an x."
+    },
+    {
+        "text": "So it has to be that this won't be true, that the matrix G that comes out of that equation will turn out not to be positive definite."
+    },
+    {
+        "text": "So it's really quite nice."
+    },
+    {
+        "text": "It's a beautiful little bit of mathematics that if and only if the triangle inequality is satisfied by these numbers, if and only if, then the matrix in the D matrix, then the G matrix that comes out of this equation, which I haven't written, is positive semidefinite."
+    },
+    {
+        "text": "If the triangle inequality is OK, we can find the points."
+    },
+    {
+        "text": "If the triangle inequality is violated, like here, then the matrix G is not positive semidefinite, has negative eigenvalues, and we cannot find the point."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I could recall the G matrix, the G equation, but it's coming to you in the two-page section that does distance matrices."
+    },
+    {
+        "text": "OK. That's just a, I should have made a point."
+    },
+    {
+        "text": "It's nice to have specific numbers."
+    },
+    {
+        "text": "And I could get the specific numbers for G, and we would see no way it's not positive definite."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's just tidying up last time."
+    },
+    {
+        "text": "I have another small problem to talk about, and then a big question of whether deep learning actually works."
+    },
+    {
+        "text": "I had an email from an expert last night, which changed my view of the world about that question, as you can imagine."
+    },
+    {
+        "text": "The change in my world was I had thought the answer was yes, and I now think the answer is no."
+    },
+    {
+        "text": "So that's like rather a big issue for 18.065."
+    },
+    {
+        "text": "But we'll see about that later."
+    },
+    {
+        "text": "OK. Now, Procrustes problem."
+    },
+    {
+        "text": "So Procrustes, and it's included in the notes, that name comes from a Greek myth."
+    },
+    {
+        "text": "Are you guys into Greek myths?"
+    },
+    {
+        "text": "So what was the story of Procrustes?"
+    },
+    {
+        "text": "He was at Procrustes who adjusted the length of his."
+    },
+    {
+        "text": "So he had a special bed, Procrustes' bed, certain length."
+    },
+    {
+        "text": "And then he had visitors coming."
+    },
+    {
+        "text": "And instead of adjusting the length of the bed to fit the visitor, Procrustes adjusted the length of the visitor to fit the bed."
+    },
+    {
+        "text": "So either stretched the visitor or chopped off part of the visitor."
+    },
+    {
+        "text": "So anyway, the Greeks liked this sort of thing."
+    },
+    {
+        "text": "So anyway, that's a Greek myth for 18.065."
+    },
+    {
+        "text": "So the whole idea of the Procrustes problem is to make something fit something else."
+    },
+    {
+        "text": "So the two things are, so suppose I'm just in three dimensions."
+    },
+    {
+        "text": "I have two vectors here."
+    },
+    {
+        "text": "So I have a basis for a two-dimensional space."
+    },
+    {
+        "text": "And over here, I have people, space scientists might have one computation of the positions of satellites."
+    },
+    {
+        "text": "Then, of course, they wouldn't be off by as much as this figure shows."
+    },
+    {
+        "text": "But then they have another computation using different coordinates."
+    },
+    {
+        "text": "So it's partly rotated from this picture."
+    },
+    {
+        "text": "But also, it's partly got round off errors and error in it between the two."
+    },
+    {
+        "text": "So the question is, what's the best orthogonal transformation?"
+    },
+    {
+        "text": "So this is a bunch of vectors, x1, x2, to xn, let's say."
+    },
+    {
+        "text": "And I want to multiply them by an orthogonal matrix."
+    },
+    {
+        "text": "No, maybe I'd do it on the other side."
+    },
+    {
+        "text": "I think I do."
+    },
+    {
+        "text": "Yeah, q to be as close as possible to this other set, y1, y2, up to yn."
+    },
+    {
+        "text": "So let me just say it again."
+    },
+    {
+        "text": "I have two sets of vectors."
+    },
+    {
+        "text": "And I'm looking, and they're different, like those two sets."
+    },
+    {
+        "text": "And I'm looking for the orthogonal matrix that, as well as possible, takes this set into this one."
+    },
+    {
+        "text": "Of course, if this was an orthogonal basis and this was an orthogonal basis, then we would be home free."
+    },
+    {
+        "text": "Q, we could get equality."
+    },
+    {
+        "text": "We could take an orthogonal basis directly into an orthogonal basis with a orthogonal matrix Q."
+    },
+    {
+        "text": "In other words, if x was an orthogonal matrix and y was an orthogonal matrix, we would get the exact correct Q."
+    },
+    {
+        "text": "But that's not the case."
+    },
+    {
+        "text": "So we're looking for the best possible."
+    },
+    {
+        "text": "So that's the problem then."
+    },
+    {
+        "text": "Minimize over orthogonal matrices Q."
+    },
+    {
+        "text": "And I just want to get my notation to be consistent here."
+    },
+    {
+        "text": "OK. OK."
+    },
+    {
+        "text": "So I see that I'm starting with the y's and mapping them to x's."
+    },
+    {
+        "text": "So let me ask the question."
+    },
+    {
+        "text": "What orthogonal matrix Q multiplies the y's to come as close as possible to the x's?"
+    },
+    {
+        "text": "So over all orthogonal Q's, I want to minimize yq minus x in the Frobenius norm."
+    },
+    {
+        "text": "And I might as well square it."
+    },
+    {
+        "text": "So Frobenius, we're into the Frobenius norm."
+    },
+    {
+        "text": "Remember the matrix."
+    },
+    {
+        "text": "Matrix, this is a very convenient norm in data science to measure the size of a matrix."
+    },
+    {
+        "text": "And we have several possible formulas for it."
+    },
+    {
+        "text": "So let me call the matrix A."
+    },
+    {
+        "text": "And the Frobenius norm squared."
+    },
+    {
+        "text": "OK, so what's one expression in terms of the entries of the matrix, the numbers Aij in the matrix?"
+    },
+    {
+        "text": "The Frobenius norm just treats it like a long vector."
+    },
+    {
+        "text": "So it's A11 squared plus A12 squared, all the way along the first plus second row."
+    },
+    {
+        "text": "Just I'll say NN squared."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Sum of all the squares, just treating it like a long vector."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "But that's an awkward expression to write down."
+    },
+    {
+        "text": "So what other ways do we have to find the Frobenius norm of a matrix?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "I can look at this as A transpose A."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "A transpose A."
+    },
+    {
+        "text": "So what's happening there?"
+    },
+    {
+        "text": "Remind me what."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I would get all that."
+    },
+    {
+        "text": "I would get all these by taking the matrix A transpose times A."
+    },
+    {
+        "text": "But what?"
+    },
+    {
+        "text": "Sorry, I'm not."
+    },
+    {
+        "text": "I've lost my thread of talk here."
+    },
+    {
+        "text": "So here's."
+    },
+    {
+        "text": "Oh, and then I take the trace, of course."
+    },
+    {
+        "text": "So that first row, first column of A times that one will give me the one set of squares."
+    },
+    {
+        "text": "And then that one times the other one, the next one, will give me the next set of squares."
+    },
+    {
+        "text": "So this is going to, if I look at the trace."
+    },
+    {
+        "text": "So I just want to look at the diagonal here."
+    },
+    {
+        "text": "So it's the trace."
+    },
+    {
+        "text": "Remember, the trace of a matrix M is the sum down the diagonal, M11, M22, down to MNN."
+    },
+    {
+        "text": "It's the diagonal sum."
+    },
+    {
+        "text": "And everybody with me here?"
+    },
+    {
+        "text": "So that term on the diagonal of A transpose A gives me all of that."
+    },
+    {
+        "text": "Or maybe I should be doing AA transpose."
+    },
+    {
+        "text": "And the point is, it doesn't matter."
+    },
+    {
+        "text": "Or the trace of AA transpose."
+    },
+    {
+        "text": "Those would both give the correct Frobenius norm squared."
+    },
+    {
+        "text": "So traces are going to come into this little problem."
+    },
+    {
+        "text": "Now, there's another formula for the Frobenius norm, even shorter, well, certainly shorter than this one, involving a sum of squares."
+    },
+    {
+        "text": "And what's that one?"
+    },
+    {
+        "text": "What's the other way to get this same answer?"
+    },
+    {
+        "text": "If I look at the SVD, look at singular values, I think that this is also equal to sigma 1, the sum square of all the singular values."
+    },
+    {
+        "text": "So it's three nice expressions for the Frobenius norm."
+    },
+    {
+        "text": "The nice ones involve A transpose A or AA transpose."
+    },
+    {
+        "text": "And of course, that connects to the singular values."
+    },
+    {
+        "text": "Because what's the connection between singular values and these guys, A transpose A or AA transpose?"
+    },
+    {
+        "text": "The singular values are the, or the singular values squared, are the eigenvalues of A transpose A."
+    },
+    {
+        "text": "And then when I add up the trace, I'm adding up the eigenvalues."
+    },
+    {
+        "text": "And that gives me the Frobenius norm squared."
+    },
+    {
+        "text": "So that tells us something important, which we can see in different ways."
+    },
+    {
+        "text": "So to solve this problem, we're going to need various facts."
+    },
+    {
+        "text": "Like the QA in the Frobenius norm is the same as A in the Frobenius norm."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "So here I'm multiplying every column by the matrix Q."
+    },
+    {
+        "text": "What happens to the length of the column when I multiply it by Q?"
+    },
+    {
+        "text": "Doesn't change."
+    },
+    {
+        "text": "So I could add up the lengths of the columns all squared."
+    },
+    {
+        "text": "Here I wrote it in terms of rows, but I could have reordered that and got it in terms of columns."
+    },
+    {
+        "text": "That's because the length of Q times any vector squared is the same as the vector squared."
+    },
+    {
+        "text": "And take these to be the columns of A."
+    },
+    {
+        "text": "So for column by column, the multiplication by Q doesn't change the length."
+    },
+    {
+        "text": "And then when I add up all the columns squared, I get the Frobenius norm squared."
+    },
+    {
+        "text": "And another way to say it, let's make the connection between this fact that Q didn't change the Frobenius norm and this fact that the Frobenius norm is expressed in terms of the sigmas."
+    },
+    {
+        "text": "So what does Q do to the sigmas?"
+    },
+    {
+        "text": "I want to see in another way the answer to why."
+    },
+    {
+        "text": "So if I have a matrix A with singular values, I multiply by Q, what happens to the singular values?"
+    },
+    {
+        "text": "Don't change."
+    },
+    {
+        "text": "Don't change."
+    },
+    {
+        "text": "That's the key point about singular values."
+    },
+    {
+        "text": "If I multiply, so A has an SVD U sigma V transpose."
+    },
+    {
+        "text": "And QA will have the SVD QU sigma V transpose."
+    },
+    {
+        "text": "So all I've changed when I multiply by Q, all I changed was the first factor, the first orthogonal factor in the SVD."
+    },
+    {
+        "text": "I didn't change the sigmas."
+    },
+    {
+        "text": "They're still sitting there."
+    },
+    {
+        "text": "And of course, I could do also Q on the other side."
+    },
+    {
+        "text": "Different Q, same Q or a different Q on the other side would show up here."
+    },
+    {
+        "text": "And would not change the sigmas, and therefore would not change the Frobenius norm."
+    },
+    {
+        "text": "So these are important properties of this Frobenius norm."
+    },
+    {
+        "text": "It looks messy to write down in that form, but it's much nicer in these forms and in that form."
+    },
+    {
+        "text": "So now if I can just, then we saw that it involves traces."
+    },
+    {
+        "text": "So let me make a few observations about traces."
+    },
+    {
+        "text": "So I'll just, we want to be able to play with traces, and that's something we really haven't done."
+    },
+    {
+        "text": "Here's a fact, that the trace of A transpose B is equal to the trace of B transpose A."
+    },
+    {
+        "text": "Of course, if B is A, it's clear."
+    },
+    {
+        "text": "And it's equal to the trace of B A transpose."
+    },
+    {
+        "text": "So you can do little changes in your matrix without changing the trace."
+    },
+    {
+        "text": "Let's see why one of these is true."
+    },
+    {
+        "text": "Why is that first statement true?"
+    },
+    {
+        "text": "Huh."
+    },
+    {
+        "text": "Huh."
+    },
+    {
+        "text": "How is that matrix related to this matrix?"
+    },
+    {
+        "text": "It's just a transpose."
+    },
+    {
+        "text": "If I take the transpose of that matrix, I get that."
+    },
+    {
+        "text": "So what happens to the trace?"
+    },
+    {
+        "text": "I'm adding down the diagonal."
+    },
+    {
+        "text": "The transpose has no effect."
+    },
+    {
+        "text": "Clearly, this is just the fact that the trace doesn't change, is not changed when you transpose a matrix, because the diagonal is not changed."
+    },
+    {
+        "text": "Now, what about this guy?"
+    },
+    {
+        "text": "I guess we're getting back to old fashioned 18.065, remembering facts about linear algebra, because this is pure linear algebra."
+    },
+    {
+        "text": "So what's this one about?"
+    },
+    {
+        "text": "This says that I can reverse the order of two matrices."
+    },
+    {
+        "text": "I'm now looking at the connection between those two."
+    },
+    {
+        "text": "And so let me just use different letters."
+    },
+    {
+        "text": "CD equals the trace of DC."
+    },
+    {
+        "text": "I can flip the order."
+    },
+    {
+        "text": "That's all I've done here is I've reversed B with A transpose."
+    },
+    {
+        "text": "I reversed C with D. OK, so why is that true?"
+    },
+    {
+        "text": "Why is that true?"
+    },
+    {
+        "text": "Oh, well, how shall we see the truth of that fact?"
+    },
+    {
+        "text": "So these are really convenient facts that make a lot of people use the trace more often than we have in 18.065."
+    },
+    {
+        "text": "I'm not a big user of arguments based on trace, but these are identities that go a long way with many problems."
+    },
+    {
+        "text": "So let's see why that's true."
+    },
+    {
+        "text": "Anytime you think about trace, you've got two languages to use."
+    },
+    {
+        "text": "You can use the eigenvalues."
+    },
+    {
+        "text": "It's the sum of the eigenvalues."
+    },
+    {
+        "text": "Or you can use the diagonal entries, because it's the sum of the diagonal entries."
+    },
+    {
+        "text": "Let's use eigenvalues."
+    },
+    {
+        "text": "How are the eigenvalues of CD related to the eigenvalues of DC?"
+    },
+    {
+        "text": "They're the same."
+    },
+    {
+        "text": "If these matrices are rectangular, then there might be some extra 0 eigenvalues, because they would have different shapes."
+    },
+    {
+        "text": "But 0's are not going to affect the trace."
+    },
+    {
+        "text": "So this is the same non-zero eigenvalues."
+    },
+    {
+        "text": "And so on."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "OK. Let me just try to tell you the steps now to get the correct cue."
+    },
+    {
+        "text": "Or let me tell you the answer first."
+    },
+    {
+        "text": "And I'm realizing that all-important question four, does deep learning actually work?"
+    },
+    {
+        "text": "We're going to run out of time today, because we only have a few minutes left."
+    },
+    {
+        "text": "I suggest we bring that question back up, because it's pretty important to a lot of people."
+    },
+    {
+        "text": "I had lunch with Professor Edelman, and he said, you know, deep learning and neural nets have had a record amount of publicity and hype for a sort of computational algorithm."
+    },
+    {
+        "text": "And I've had people now tell me that typical, first, if you create a network using Alex's design, for example, the chances are that it won't be successful."
+    },
+    {
+        "text": "That the successful networks have been worked on and experimented with, and a good structure has emerged, but wasn't there at the start."
+    },
+    {
+        "text": "So I think that's a topic for Monday."
+    },
+    {
+        "text": "And I'm really just realizing from talking to people in the field that it's by no means automatic that the structure, even if you put in a whole bunch of layers, it may not be what you want."
+    },
+    {
+        "text": "OK, so let me finish this argument today."
+    },
+    {
+        "text": "Let me give you the answer."
+    },
+    {
+        "text": "So what's the good Q?"
+    },
+    {
+        "text": "I have matrices Y and X."
+    },
+    {
+        "text": "And the idea is that I take its, I look at Y transpose X, so that'll be all the dot products of one set of vectors with the other set of vectors."
+    },
+    {
+        "text": "That's a matrix."
+    },
+    {
+        "text": "And I do its SVD, U sigma V transpose."
+    },
+    {
+        "text": "So multiply this, multiply the two bases that you're given."
+    },
+    {
+        "text": "Of course, if Y was the same as X, if it was an orthogonal basis, you'd have the identity."
+    },
+    {
+        "text": "No questions."
+    },
+    {
+        "text": "But generally, it has an SVD."
+    },
+    {
+        "text": "And we're looking for a orthogonal matrix."
+    },
+    {
+        "text": "So the best Q is, da-da-da-da, I mean, it's the right time for expressions of amazement."
+    },
+    {
+        "text": "It is UV transpose."
+    },
+    {
+        "text": "OK, so that gives us the answer."
+    },
+    {
+        "text": "We're given X and Y."
+    },
+    {
+        "text": "We're looking for the best Q."
+    },
+    {
+        "text": "And the answer comes in the simplest possible way."
+    },
+    {
+        "text": "Compute Y transpose X, compute its SVD, and use the orthogonal matrices from the SVD."
+    },
+    {
+        "text": "Yeah, and I'm out of time."
+    },
+    {
+        "text": "So proof, it's three line later, either to just send you the section online or to discuss it in class Monday."
+    },
+    {
+        "text": "But I'm really planning Monday to start with question four."
+    },
+    {
+        "text": "And meanwhile, to ask a whole lot of people, everybody I can find, about that important question is, does deep learning usually work?"
+    },
+    {
+        "text": "What can you do to make sure it works or give yourself a better chance to have it work?"
+    },
+    {
+        "text": "So that's up for Monday then."
+    },
+    {
+        "text": "Good."
+    }
+]

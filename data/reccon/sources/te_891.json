@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why didn't you tell me you had a girlfriend ?",
+        "emotion": "neutral",
+        "text": "Why didn't you tell me you had a girlfriend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sorry , I thought you knew .",
+        "emotion": "neutral",
+        "text": "Sorry , I thought you knew .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "But you should tell me you were in love with her .",
+        "emotion": "neutral",
+        "text": "But you should tell me you were in love with her .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Didn't I ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "But you should tell me you were in love with her ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "Didn't I ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You know you didn't .",
+        "emotion": "neutral",
+        "text": "You know you didn't .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , I am telling you now .",
+        "emotion": "neutral",
+        "text": "Well , I am telling you now .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , but you might have told me before .",
+        "emotion": "neutral",
+        "text": "Yes , but you might have told me before .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I didn't think you would be interested .",
+        "emotion": "neutral",
+        "text": "I didn't think you would be interested .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You can't be serious . How dare you not tell me you are going to marry her ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "How dare you not tell me you are going to marry her ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You can't be serious . How dare you not tell me you are going to marry her ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sorry , I didn't think it mattered .",
+        "emotion": "neutral",
+        "text": "Sorry , I didn't think it mattered .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , you men ! You are all the same .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Sorry , I didn't think it mattered ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , you men ! You are all the same .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "No, actually, that's p-value."
+    },
+    {
+        "text": "So let me just keep it like that and put the absolute value here."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if you replace the role of q alpha over 2 by your test statistic, this is what the area under the curve is actually the p-value itself up to scaling, because of the symmetric thing."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So there's a good way to see pictorially what the p-value is."
+    },
+    {
+        "text": "It's just the probability that some Gaussians, which is the probability that some absolute value of n0,1 exceeds tn."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "That's what the p-value is."
+    },
+    {
+        "text": "Now, this guy has nothing to do with this guy."
+    },
+    {
+        "text": "So this is really just 1 minus the Gaussian CDF of tn."
+    },
+    {
+        "text": "And that's it."
+    },
+    {
+        "text": "So that's how I would compute p-values."
+    },
+    {
+        "text": "Now, as I said, the p-value is a beauty, because you don't have to understand the fact that your limiting distribution is a Gaussian."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "It's already factored in this construction."
+    },
+    {
+        "text": "The fact that I'm actually looking at this cumulative distribution function of a standard Gaussian makes my p-value automatically adjust to what the limiting distribution is."
+    },
+    {
+        "text": "And if this was the cumulative distribution function of a exponential, I would just have a different function here denoted by f, for example."
+    },
+    {
+        "text": "And I would just compute a different value."
+    },
+    {
+        "text": "But in the end, regardless of what the limiting value is, my p-value would still be a number between 0 and 1."
+    }
+]

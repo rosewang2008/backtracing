@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I will .",
+        "emotion": "happiness",
+        "explanation": "B is happy that A is asking for help",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "keep an eye for me !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I will .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

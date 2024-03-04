@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Betty , would you please read this letter of application I've just written ? I'd like to have your opinion .",
+        "emotion": "neutral",
+        "text": "Betty , would you please read this letter of application I've just written ? I'd like to have your opinion .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd be glad to tell you what I think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'd like to have your opinion .",
+            "I'd be glad to tell you"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'd be glad to tell you what I think .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Good ! I'm interested in your advice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'd be glad to tell you",
+            "I'm interested in your advice ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good ! I'm interested in your advice .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "If I were you , I would change the beginning . You should write about your education first because we like to judge a man by his abilities .",
+        "emotion": "neutral",
+        "text": "If I were you , I would change the beginning . You should write about your education first because we like to judge a man by his abilities .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good idea , Betty . What would you think about the second part ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'd be glad to tell you",
+            "I'm interested in your advice .",
+            "I would change the beginning .",
+            "Good idea"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Good idea , Betty . What would you think about the second part ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think it's too short . You'd better say something about your work experience .",
+        "emotion": "neutral",
+        "text": "I think it's too short . You'd better say something about your work experience .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You're right , I'll change it . How about the last part ?",
+        "emotion": "neutral",
+        "text": "You're right , I'll change it . How about the last part ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Very good . But you should talk about your family , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "How about the last part ?",
+            "Very good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very good . But you should talk about your family , too .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I agree . I appreciate your helping me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I appreciate your helping me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I agree . I appreciate your helping me .",
+        "id": 9
+    }
+]

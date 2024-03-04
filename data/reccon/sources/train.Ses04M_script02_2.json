@@ -1,0 +1,1009 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Look at this, goose bumps.",
+        "emotion": "neutral",
+        "text": "Look at this, goose bumps.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well so what'd you think?",
+        "emotion": "neutral",
+        "text": "Well so what'd you think?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "What I said.",
+        "emotion": "neutral",
+        "text": "What I said.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Certainly is not. It's slightly exaggerated scientific fact.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Look at this, goose bumps.",
+            "It's slightly exaggerated scientific fact."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Certainly is not. It's slightly exaggerated scientific fact.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Carla, can I ask you something? Don't take this the wrong way, but are you having your period?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Look at this, goose bumps.",
+            "It's slightly exaggerated scientific fact."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Carla, can I ask you something? Don't take this the wrong way, but are you having your period?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Goddamn it, Augie, don't ask me that. I hate it when you ask me that. You always ask me that. It's insulting.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Goddamn it, Augie, don't ask me that. I hate it when you ask me that. You always ask me that. It's insulting.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Well what's bugging you?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Look at this, goose bumps.",
+            "Look at this, goose bumps.",
+            "It's slightly exaggerated scientific fact."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Well what's bugging you?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "We just have different ideas about what this evening is supposed to look like.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "We just have different ideas about what this evening is supposed to look like.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Look at this, goose bumps.",
+            "It's slightly exaggerated scientific fact.",
+            "We just have different ideas about what this evening is supposed to look like.",
+            "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "We never do, do we? Have we ever?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "We never do, do we? Have we ever?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Twice is every time we've tried. That's ever.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home.",
+            "We never do, do we? Have we ever?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Twice is every time we've tried. That's ever.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "We'll see them this year.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Twice is every time we've tried. That's ever."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We'll see them this year.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You don't have any idea what I'm saying.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home.",
+            "We never do, do we? Have we ever?",
+            "We'll see them this year."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You don't have any idea what I'm saying.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No, of course, not.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            13
+        ],
+        "expanded emotion cause span": [
+            "There's nothing to it. We come down here. The grunions arrive. They do their little fish business. We go ooh, ah, look at the fish. They go home. We go home.",
+            "We never do, do we? Have we ever?",
+            "You don't have any idea what I'm saying."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No, of course, not.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8,
+            14
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like.",
+            "No, of course, not."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "It's just fish; nothing to get traumatized over.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's just fish; nothing to get traumatized over.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "I've been trying to work this backwards, but I can't seem to pinpoint the moment when we took a turn for the worse.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish",
+            "I can't seem to pinpoint the moment when we took a turn for the worse."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I've been trying to work this backwards, but I can't seem to pinpoint the moment when we took a turn for the worse.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "You were fine during the phone call from Marge. Dinner was okay. Doing the dishes was no problem. Let's see, I took a shower. Uh, you watched the news. You said the grunions are running tonight. I said great, let's go. I feel lucky tonight.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish",
+            "I can't seem to pinpoint the moment when we took a turn for the worse."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You were fine during the phone call from Marge. Dinner was okay. Doing the dishes was no problem. Let's see, I took a shower. Uh, you watched the news. You said the grunions are running tonight. I said great, let's go. I feel lucky tonight.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "Uh,okay. So I'm putting on my jacket; putting out the animals;",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish",
+            "I can't seem to pinpoint the moment when we took a turn for the worse."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Uh,okay. So I'm putting on my jacket; putting out the animals;",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "uh, taking the car out of the gara- out of the garage.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish",
+            "I can't seem to pinpoint the moment when we took a turn for the worse."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "uh, taking the car out of the gara- out of the garage.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "Uh.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I did want to see it. I always do. I keep thinking this time will be the time, but it never is.",
+            "It's just fish",
+            "I can't seem to pinpoint the moment when we took a turn for the worse."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Uh.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "It was about four years ago, right after we got married. We thought I was pregnant and we had a bottle of champagne but no glasses. You asked me to dance. So we took off our shoes and you popped the cork.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "It was about four years ago, right after we got married. We thought I was pregnant and we had a bottle of champagne but no glasses. You asked me to dance. So we took off our shoes and you popped the cork.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "B",
+        "utterance": "Wait a minute, I've got it.",
+        "emotion": "neutral",
+        "text": "Wait a minute, I've got it.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "Dancing barefoot in the sand; drinking champagne from the bottle.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Dancing barefoot in the sand; drinking champagne from the bottle.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "It was in the car, right? Driving past the Knickerbocker Liquor Locker? You said let's get some champagne and I said times a wasting or something like that. Right? That's it, right? You want this to be like the other time. That's it. Of course.",
+        "emotion": "neutral",
+        "text": "It was in the car, right? Driving past the Knickerbocker Liquor Locker? You said let's get some champagne and I said times a wasting or something like that. Right? That's it, right? You want this to be like the other time. That's it. Of course.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "I'd rather not remember some things. I'd rather not hope for some things.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I'd rather not remember some things. I'd rather not hope for some things.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b",
+            24
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Dancing barefoot in the sand; drinking champagne from the bottle."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "No.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "No.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "What, you want me to breathe in your ear?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'd rather not remember some things. I'd rather not hope for some things."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What, you want me to breathe in your ear?",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            29
+        ],
+        "expanded emotion cause span": [
+            "What, you want me to breathe in your ear?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "B",
+        "utterance": "You want to get married again?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'd rather not remember some things. I'd rather not hope for some things."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You want to get married again?",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            31
+        ],
+        "expanded emotion cause span": [
+            "You want to get married again?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "What, you want a divorce?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'd rather not remember some things. I'd rather not hope for some things."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What, you want a divorce?",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            33
+        ],
+        "expanded emotion cause span": [
+            "What, you want a divorce?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "B",
+        "utterance": "A vacation?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'd rather not remember some things. I'd rather not hope for some things."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "A vacation?",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "A",
+        "utterance": "No.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            29,
+            31,
+            33,
+            35
+        ],
+        "expanded emotion cause span": [
+            "What, you want me to breathe in your ear?",
+            "You want to get married again?",
+            "What, you want a divorce?",
+            "A vacation?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No.",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "A",
+        "utterance": "I want something to turn out the way it's supposed to.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            29,
+            31,
+            33,
+            35
+        ],
+        "expanded emotion cause span": [
+            "What, you want me to breathe in your ear?",
+            "You want to get married again?",
+            "What, you want a divorce?",
+            "A vacation?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I want something to turn out the way it's supposed to.",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "B",
+        "utterance": "Well welcome to the human race. You think this is what I had in mind? You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish? No.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "I want something to turn out the way it's supposed to.",
+            "You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well welcome to the human race. You think this is what I had in mind? You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish? No.",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "B",
+        "utterance": "And we'll have three fat rosy kids and ha, ha, ha, baby, the joke's on us, 'cause you know what you get, Carla? You know what you get? This.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "I want something to turn out the way it's supposed to.",
+            "You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "And we'll have three fat rosy kids and ha, ha, ha, baby, the joke's on us, 'cause you know what you get, Carla? You know what you get? This.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "A",
+        "utterance": "This what? What is this? This isn't even anything.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            "b",
+            39
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "And we'll have three fat rosy kids and ha, ha, ha, baby, the joke's on us, 'cause you know what you get, Carla? You know what you get? This."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "This what? What is this? This isn't even anything.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "B",
+        "utterance": "Yes, it is.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "I want something to turn out the way it's supposed to.",
+            "You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes, it is.",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "A",
+        "utterance": "Oh, right, sure. This is standing on the beach. This is waiting. This is fighting.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            "b",
+            41,
+            42
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Yes, it is.",
+            "This is fighting"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, right, sure. This is standing on the beach. This is waiting. This is fighting.",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "B",
+        "utterance": "Right.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            37,
+            38,
+            42
+        ],
+        "expanded emotion cause span": [
+            "I want something to turn out the way it's supposed to.",
+            "You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish?",
+            "This is fighting"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Right.",
+        "id": 43
+    },
+    {
+        "turn": 44,
+        "speaker": "A",
+        "utterance": "But this isn't anything like I thought anything would be like.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            "b",
+            5,
+            6,
+            8,
+            44
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like.",
+            "But this isn't anything like I thought anything would be like."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "But this isn't anything like I thought anything would be like.",
+        "id": 44
+    },
+    {
+        "turn": 45,
+        "speaker": "B",
+        "utterance": "No, I know, me neither.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No, I know, me neither.",
+        "id": 45
+    },
+    {
+        "turn": 46,
+        "speaker": "B",
+        "utterance": "I'm doing the best I can.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "but are you having your period?",
+            "I hate it when you ask me that. You always ask me that. It's insulting.",
+            "We just have different ideas about what this evening is supposed to look like."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'm doing the best I can.",
+        "id": 46
+    },
+    {
+        "turn": 47,
+        "speaker": "A",
+        "utterance": "I know you are, Augie. Really, I do. I know you meant for this to be special and nice and it's the full moon and the sand and everything. But I just couldn't help thinking about being somewhere else.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            47
+        ],
+        "expanded emotion cause span": [
+            "But I just couldn't help thinking about being somewhere else."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know you are, Augie. Really, I do. I know you meant for this to be special and nice and it's the full moon and the sand and everything. But I just couldn't help thinking about being somewhere else.",
+        "id": 47
+    },
+    {
+        "turn": 48,
+        "speaker": "A",
+        "utterance": "I didn't say that.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            47
+        ],
+        "expanded emotion cause span": [
+            "But I just couldn't help thinking about being somewhere else."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I didn't say that.",
+        "id": 48
+    },
+    {
+        "turn": 49,
+        "speaker": "B",
+        "utterance": "No, I know. But still. I know I don't make you happy.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            49
+        ],
+        "expanded emotion cause span": [
+            "I know I don't make you happy."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No, I know. But still. I know I don't make you happy.",
+        "id": 49
+    },
+    {
+        "turn": 50,
+        "speaker": "B",
+        "utterance": "Actually, now that you mention it, no. I don't.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            49
+        ],
+        "expanded emotion cause span": [
+            "I know I don't make you happy."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Actually, now that you mention it, no. I don't.",
+        "id": 50
+    },
+    {
+        "turn": 51,
+        "speaker": "A",
+        "utterance": "Okay, fine. So we're in the wrong spot, but we're with the right person.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            50,
+            51
+        ],
+        "expanded emotion cause span": [
+            "Actually, now that you mention it, no. I don't.",
+            "we're with the right person."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Okay, fine. So we're in the wrong spot, but we're with the right person.",
+        "id": 51,
+        "source_sentences": [
+            49
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 52,
+        "speaker": "B",
+        "utterance": "I don't know. It seemed like a good spot to me. I mean, look at the view you've got of the moon from here.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            52
+        ],
+        "expanded emotion cause span": [
+            "It seemed like a good spot to me. I mean, look at the view you've got of the moon from here."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't know. It seemed like a good spot to me. I mean, look at the view you've got of the moon from here.",
+        "id": 52
+    },
+    {
+        "turn": 53,
+        "speaker": "A",
+        "utterance": "Yeah, I noticed that. Looks pretty on the water, doesn't it? Big ol' white moon. I'm sorry, Augie.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            53
+        ],
+        "expanded emotion cause span": [
+            "Looks pretty on the water, doesn't it? Big ol' white moon."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah, I noticed that. Looks pretty on the water, doesn't it? Big ol' white moon. I'm sorry, Augie.",
+        "id": 53
+    },
+    {
+        "turn": 54,
+        "speaker": "B",
+        "utterance": "Shh. If we're very quiet, the fish might come.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            51,
+            52,
+            54
+        ],
+        "expanded emotion cause span": [
+            "we're with the right person.",
+            "It seemed like a good spot to me. I mean, look at the view you've got of the moon from here.",
+            "the fish might come."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Shh. If we're very quiet, the fish might come.",
+        "id": 54
+    }
+]

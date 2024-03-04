@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And accuracy is something that sort of makes sense."
+    },
+    {
+        "text": "It says, well, I want theta hat to be close to theta."
+    },
+    {
+        "text": "But theta hat is a random variable, so I'm going to have to understand what it means for a random variable to be close to a deterministic number."
+    },
+    {
+        "text": "And so what is the parameter, an estimator, right?"
+    },
+    {
+        "text": "So I have an estimator."
+    },
+    {
+        "text": "And I said it's a random variable."
+    },
+    {
+        "text": "And the formal definition to an estimator is a measurable function of the data."
+    },
+    {
+        "text": "So when I write theta hat, and that will typically be my notation for an estimator, I should really write theta hat of x1, xn."
+    },
+    {
+        "text": "That's what an estimator is."
+    },
+    {
+        "text": "So if you want to know what an estimator is, this is a measurable function of data."
+    },
+    {
+        "text": "And it's actually also known as a statistic."
+    },
+    {
+        "text": "And if you're interested in, I see every day, I think, when I have a dinner with normal people, and they say I'm a statistician."
+    },
+    {
+        "text": "Oh, yeah, really?"
+    },
+    {
+        "text": "Like, yeah, baseball."
+    },
+    {
+        "text": "And they talk to me about batting averages."
+    },
+    {
+        "text": "That's not what I do."
+    },
+    {
+        "text": "But for them, that's what it is."
+    },
+    {
+        "text": "And that's because, in a way, that's what a statistic is."
+    },
+    {
+        "text": "A batting average is a statistic."
+    },
+    {
+        "text": "And so here are some examples."
+    }
+]

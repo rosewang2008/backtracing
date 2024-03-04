@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the conclusion would be how fast it converges, stochastic gradient descent."
+    },
+    {
+        "text": "So there's some expected things, because it's stochastic."
+    },
+    {
+        "text": "We expect some assumptions about the mean and the variance to go into the proof."
+    },
+    {
+        "text": "So you'll see that, but maybe it's too much for today."
+    },
+    {
+        "text": "So for today, I'll just come back to that."
+    },
+    {
+        "text": "I might even put it on Stellar and just close with this."
+    },
+    {
+        "text": "So suppose A is m by n, B is n by p, and C is p by q."
+    },
+    {
+        "text": "How many steps does it take to find A times B times C, the product of those three matrices?"
+    },
+    {
+        "text": "Well, if I go this way, I have to multiply A. I have to do BC first, so BC costs."
+    },
+    {
+        "text": "How many operations to multiply that times that?"
+    },
+    {
+        "text": "npq."
+    },
+    {
+        "text": "Nice formula, npq."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, I could say that the answer is n by q, and every number in there was an inner product of a row and column of length p. So I have nq inner product, and each one costs p multiply add."
+    },
+    {
+        "text": "And then, so now I have BC, which will be now."
+    },
+    {
+        "text": "So now I have m by n. And then I have m by n, which is the A, times B by C, which is now n by q."
+    },
+    {
+        "text": "That's BC."
+    },
+    {
+        "text": "This is ABC."
+    },
+    {
+        "text": "So this one costs, what's the cost here?"
+    },
+    {
+        "text": "m by n, n by q."
+    }
+]

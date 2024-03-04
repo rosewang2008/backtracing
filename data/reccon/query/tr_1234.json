@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You're welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Thanks ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

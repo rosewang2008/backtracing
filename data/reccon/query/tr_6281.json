@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "This isn't like you ... Well , I hope you will have a nice flight and a successful start in business",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Thank you for being a friend of mine .",
+            "I hope you will have a nice flight and a successful start in business"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "This isn't like you ... Well , I hope you will have a nice flight and a successful start in business",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Do you mean it ? I'd love to !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "why don't you come with us ? We have plenty of room ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you mean it ? I'd love to !",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Right."
+    },
+    {
+        "text": "So that's great as long as n isn't too big."
+    },
+    {
+        "text": "And then when n is too big, which of course happens, you have to think again."
+    },
+    {
+        "text": "So this method is a giant success up to large matrices."
+    },
+    {
+        "text": "But then you have to think again."
+    },
+    {
+        "text": "And what is involved in thinking again?"
+    },
+    {
+        "text": "Well, I guess more thinking."
+    },
+    {
+        "text": "So what do you do if the matrix is bigger?"
+    },
+    {
+        "text": "I guess that Krylov would say, use my method."
+    },
+    {
+        "text": "So Krylov would say, especially if your matrix is sparse."
+    },
+    {
+        "text": "Can we just remember what Krylov was?"
+    },
+    {
+        "text": "Krylov started with a vector b, multiplied it by a, multiplied that by a, and got up to, let's say, a to the 999b."
+    },
+    {
+        "text": "So now Krylov has got 1,000 dimensional space."
+    },
+    {
+        "text": "He's got a basis for it, 1,000 vectors that span 1,000 dimensional space."
+    },
+    {
+        "text": "And he'll look at the matrix A only on that space."
+    },
+    {
+        "text": "In other words, I won't go into detail about that."
+    },
+    {
+        "text": "He restricts the matrix to this 1,000 dimensional space."
+    },
+    {
+        "text": "And he hopes that it's captured."
+    },
+    {
+        "text": "We hope that the eigenvector is virtually in that space."
+    },
+    {
+        "text": "And actually, I wouldn't go up to, let me take a 9 out of that."
+    }
+]

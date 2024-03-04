@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you OK ?",
+        "emotion": "neutral",
+        "text": "Are you OK ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm fine . I'm just so touched by the sad story .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "so touched by the sad story ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm fine . I'm just so touched by the sad story .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So I can say now that you must have enjoyed the opera . Which scene is your favorite ?",
+        "emotion": "neutral",
+        "text": "So I can say now that you must have enjoyed the opera . Which scene is your favorite ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I love them all . But if I had to name one as the best , I would say it's the ending .",
+        "emotion": "neutral",
+        "text": "I love them all . But if I had to name one as the best , I would say it's the ending .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What's it about ? You know , I couldn't help falling asleep .",
+        "emotion": "neutral",
+        "text": "What's it about ? You know , I couldn't help falling asleep .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Did you ? I didn't notice that . But still you should know it , for you have seen it with Laura before .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I couldn't help falling asleep ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Did you ? I didn't notice that . But still you should know it , for you have seen it with Laura before .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I guess I've done the same thing last time I was here with her , too . I mean falling asleep . For me , this one is not that attractive .",
+        "emotion": "neutral",
+        "text": "I guess I've done the same thing last time I was here with her , too . I mean falling asleep . For me , this one is not that attractive .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Then I doubt if you like operas at all .",
+        "emotion": "neutral",
+        "text": "Then I doubt if you like operas at all .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . I like Carmen very much . But I don't mind if you want to tell me about this one .",
+        "emotion": "neutral",
+        "text": "Yes . I like Carmen very much . But I don't mind if you want to tell me about this one .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK , then . The man was old and he was visiting his wife's grave , with a rose in his hand . When he got there , he saw someone already put a rose on her grave .",
+        "emotion": "neutral",
+        "text": "OK , then . The man was old and he was visiting his wife's grave , with a rose in his hand . When he got there , he saw someone already put a rose on her grave .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Very impressive . And I do like the leading actress who has an amazing voice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "The man was old and he was visiting his wife's grave , with a rose in his hand . When he got there , he saw someone already put a rose on her grave .",
+            "Very impressive .",
+            "the leading actress who has an amazing voice ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very impressive . And I do like the leading actress who has an amazing voice .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Me , too . There was always a good round of applause every time she sings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "the leading actress who has an amazing voice .",
+            "There was always a good round of applause every time she sings ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me , too . There was always a good round of applause every time she sings .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , the applause ! That was what kept waking me up during the show .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "the applause !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , the applause ! That was what kept waking me up during the show .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "And it's been such a faultless performance with the perfect lighting , and music . Just amazing !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "it's been such a faultless performance with the perfect lighting , and music . Just amazing !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And it's been such a faultless performance with the perfect lighting , and music . Just amazing !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "No doubt , it's not a simple thing to put on a ' phantom show ' .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy because he thinks the show is amazing and he enjoyed the show",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            11,
+            14
+        ],
+        "expanded emotion cause span": [
+            "The man was old and he was visiting his wife's grave , with a rose in his hand . When he got there , he saw someone already put a rose on her grave .",
+            "Very impressive .",
+            "the leading actress who has an amazing voice .",
+            "it's been such a faultless performance with the perfect lighting , and music . Just amazing !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No doubt , it's not a simple thing to put on a ' phantom show ' .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Exactly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "it's been such a faultless performance with the perfect lighting , and music . Just amazing !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Exactly .",
+        "id": 16
+    }
+]

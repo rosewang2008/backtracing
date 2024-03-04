@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "So again, welcome to 18.01."
+    },
+    {
+        "text": "We're getting started today with what we're calling Unit 1, highly imaginative topic, highly imaginative title."
+    },
+    {
+        "text": "And it's differentiation."
+    },
+    {
+        "text": "So let me first tell you briefly what's in store in the next couple of weeks."
+    },
+    {
+        "text": "The main topic today is what is a derivative."
+    },
+    {
+        "text": "And we're going to look at this from several different points of view."
+    },
+    {
+        "text": "And the first one is the geometric interpretation."
+    },
+    {
+        "text": "And that's what we'll spend most of today on."
+    },
+    {
+        "text": "And then we'll also talk about a physical interpretation of what a derivative is."
+    },
+    {
+        "text": "And then there's going to be something else, which I guess is maybe the reason why calculus is so fundamental and why we always start with it in most science and engineering schools, which is the importance of derivatives, of this, to all measurements."
+    },
+    {
+        "text": "So that means pretty much every place."
+    },
+    {
+        "text": "That means in science, in engineering, in economics, in political science, etc."
+    },
+    {
+        "text": "Polling, lots of commercial applications."
+    },
+    {
+        "text": "Just about everything."
+    },
+    {
+        "text": "Now, so that's what we'll be getting started with."
+    },
+    {
+        "text": "And then there's another thing that we're going to do in this unit."
+    },
+    {
+        "text": "Which is, we're going to explain how to differentiate anything."
+    }
+]

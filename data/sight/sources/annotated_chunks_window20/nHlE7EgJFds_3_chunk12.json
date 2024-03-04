@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That gave me something that's still in the row space."
+    },
+    {
+        "text": "That's the point."
+    },
+    {
+        "text": "When I took a row minus a multiple of another row, I'm staying in the row space."
+    },
+    {
+        "text": "The row space is not changing."
+    },
+    {
+        "text": "My little basis for it is changing, and I've ended up with, sort of, the best basis."
+    },
+    {
+        "text": "If the columns of the identity matrix are the best basis for R3 or Rn, the rows of this matrix are the best basis for the row space."
+    },
+    {
+        "text": "Best in the sense of being as clean as I can make it."
+    },
+    {
+        "text": "Starting off with the identity and then finishing up with whatever has to be in there."
+    },
+    {
+        "text": "OK. Do you see, then, that the dimension is R?"
+    },
+    {
+        "text": "For sure."
+    },
+    {
+        "text": "Because we've got R pivots, R nonzero rows, we've got the right number of vectors, R. They're in the row space, they're independent, that's it."
+    },
+    {
+        "text": "They are a basis for the row space."
+    },
+    {
+        "text": "And we can even pin that down further."
+    },
+    {
+        "text": "How do I know that every row of A is a combination?"
+    },
+    {
+        "text": "How do I know they span the row space?"
+    },
+    {
+        "text": "Oh, well, somebody says I've got the right number of them, so they must, but that's true."
+    },
+    {
+        "text": "But let me just say, how do I know that this row is a combination of these?"
+    },
+    {
+        "text": "By just reversing the steps of row reduction."
+    },
+    {
+        "text": "If I just reverse the steps and go from A, from R back to A, then what do I, what am I doing?"
+    },
+    {
+        "text": "I'm starting with these rows, I'm taking combinations of them, after a couple of steps, undoing the subtractions that I did before, I'm back to these rows."
+    }
+]

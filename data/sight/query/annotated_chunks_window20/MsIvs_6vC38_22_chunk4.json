@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 22,
+        "timestamp": 1684720431225.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Great video! I love this series. In this lecture, Dr. Strang briefly mentions that the cost of operations for the det(A) will be (n!) He also shows us how the cost of getting A into upper triangular form U will be (1/3)n^3. But from Lecture 2 we know that one way of finding det(A) is to get A into U and then simply find the product of all n pivots. So it seems like the cost for finding det(A) would just be a bit more than (1/3)n^3, perhaps (1/3)n^3 + n. I must be missing something here; any thoughts?"
+    }
+]

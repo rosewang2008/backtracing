@@ -1,0 +1,62 @@
+[
+    {
+        "text": "They say, well, more than 5 figures."
+    },
+    {
+        "text": "And that's all they want to tell you."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so you see a lot of censored data in survival analysis."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "You're trying to understand how long your patients are going to live after some surgery."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And maybe you're not going to keep people alive, and you're not going to actually have them being touched in their family every day and ask them, is the guy still alive?"
+    },
+    {
+        "text": "And so what you can do is just to ask people maybe five years after your study and say, please come in."
+    },
+    {
+        "text": "And you will just happen to have some people who say, well, the person is deceased."
+    },
+    {
+        "text": "And you will only be able to know that the person deceased less than five years ago."
+    },
+    {
+        "text": "I mean, but you only see what happens after that."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so this truncated and censored data happens all the time just because you don't have the availability to do better than that."
+    },
+    {
+        "text": "So this could happen here."
+    },
+    {
+        "text": "So now what is my statistical experiment?"
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So here I should probably write this like that, because I just told you that my observations are going to be x."
+    },
+    {
+        "text": "So there's some unknown y. I will never get to see this y. I only get to see the x."
+    },
+    {
+        "text": "What is my statistical experiment?"
+    }
+]

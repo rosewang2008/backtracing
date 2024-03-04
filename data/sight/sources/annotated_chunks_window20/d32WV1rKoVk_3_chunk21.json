@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That gives us more freedom."
+    },
+    {
+        "text": "Before, when we had to do similarity transformations with the same guy, we got it to be tridiagonal."
+    },
+    {
+        "text": "But now we're allowed to do more stuff."
+    },
+    {
+        "text": "We're allowed to use different orthogonal matrices on the left and right."
+    },
+    {
+        "text": "And we can reduce it even further from tridiagonal to bidiagonal."
+    },
+    {
+        "text": "So the first step is getting 0."
+    },
+    {
+        "text": "The step of getting 0s reduces it all the way to that with all 0s there."
+    },
+    {
+        "text": "So it's easier."
+    },
+    {
+        "text": "Then I work on this."
+    },
+    {
+        "text": "I work on using a QR type idea, some method like that."
+    },
+    {
+        "text": "So everybody's seeing that our algorithm has got two stages."
+    },
+    {
+        "text": "One is get a lot of 0s and get them in places that will stay 0 as part 2 of the algorithm gets going."
+    },
+    {
+        "text": "And then run part 2 of the algorithm."
+    },
+    {
+        "text": "You're staying with each step is very fast now because doing a QR factorization is fast."
+    },
+    {
+        "text": "Was there a question?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I would call this bidiagonal, of course."
+    },
+    {
+        "text": "And everybody recognizes that if I have a bidiagonal matrix, call it A or A0 or whatever."
+    },
+    {
+        "text": "Then what do you think about A transpose A?"
+    },
+    {
+        "text": "What would A transpose A?"
+    }
+]

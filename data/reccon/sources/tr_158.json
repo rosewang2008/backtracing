@@ -1,0 +1,308 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Han Maimed , What's your plan for the weekend ?",
+        "emotion": "neutral",
+        "text": "Han Maimed , What's your plan for the weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I plan to travel around Harvard University and know more about it . To tell you the truth , I plan to apply for Harvard after graduation from high school . It ' s better to get to know it . What about you ?",
+        "emotion": "neutral",
+        "text": "I plan to travel around Harvard University and know more about it . To tell you the truth , I plan to apply for Harvard after graduation from high school . It ' s better to get to know it . What about you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I get together with my Christian brothers on Saturdays .",
+        "emotion": "neutral",
+        "text": "I get together with my Christian brothers on Saturdays .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , my God ! John , I didn ' t know you are religious . You just look like a scientific kook , like Leonard in the Big Bang Theory .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I get together with my Christian brothers on Saturdays .",
+            "I didn ' t know you are religious . You just look like a scientific kook ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , my God ! John , I didn ' t know you are religious . You just look like a scientific kook , like Leonard in the Big Bang Theory .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Come on , Han Maimed , don ' t make a fuss . A lot of Americans , including many scientists , believe in religion .",
+        "emotion": "neutral",
+        "text": "Come on , Han Maimed , don ' t make a fuss . A lot of Americans , including many scientists , believe in religion .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "But I ' m really surprised . I thought science and religion are not compatible , are they ?",
+        "emotion": "neutral",
+        "text": "But I ' m really surprised . I thought science and religion are not compatible , are they ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , they are compatible . Actually , the U . S . is both the most developed and the most religious country in the world .",
+        "emotion": "neutral",
+        "text": "Yes , they are compatible . Actually , the U . S . is both the most developed and the most religious country in the world .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I've heard about it a little bit before , but I don ' t understand . How can people believe in God since they know God doesn't exist ?",
+        "emotion": "neutral",
+        "text": "I've heard about it a little bit before , but I don ' t understand . How can people believe in God since they know God doesn't exist ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s a little complicated . You ' ll get to know it when you are acquainted with the U . S . history later on . Religion was and is a part of American people ' s life . Guess what ? Even Harvard University , which is a highly academic institution , is in a sense the product of religion .",
+        "emotion": "neutral",
+        "text": "That ' s a little complicated . You ' ll get to know it when you are acquainted with the U . S . history later on . Religion was and is a part of American people ' s life . Guess what ? Even Harvard University , which is a highly academic institution , is in a sense the product of religion .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Even Harvard University , which is a highly academic institution , is in a sense the product of religion ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Absolutely ! It was founded by a group of Puritan immigrants from England .",
+        "emotion": "neutral",
+        "text": "Absolutely ! It was founded by a group of Puritan immigrants from England .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Why was it founded by the Puritans ? Where were the atheistic educators ?",
+        "emotion": "neutral",
+        "text": "Why was it founded by the Puritans ? Where were the atheistic educators ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Because most of the first English immigrants who came to the United States were Puritans .",
+        "emotion": "neutral",
+        "text": "Because most of the first English immigrants who came to the United States were Puritans .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "How come ? I mean why most of them were religious people ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Because most of the first English immigrants who came to the United States were Puritans ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How come ? I mean why most of them were religious people ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That ' s because in the 16th and 17th century , there was a series of religious reforms in England . Many religious separatists were persecuted and fled to other countries .",
+        "emotion": "neutral",
+        "text": "That ' s because in the 16th and 17th century , there was a series of religious reforms in England . Many religious separatists were persecuted and fled to other countries .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "So , you mean people didn't enjoy religious freedom in England ?",
+        "emotion": "neutral",
+        "text": "So , you mean people didn't enjoy religious freedom in England ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yes , that's why Puritans moved to the New World , where they believed they could establish a heaven for Puritans . Later on , it was these Puritans who founded Harvard College .",
+        "emotion": "neutral",
+        "text": "Yes , that's why Puritans moved to the New World , where they believed they could establish a heaven for Puritans . Later on , it was these Puritans who founded Harvard College .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Why did they want to found a college ?",
+        "emotion": "neutral",
+        "text": "Why did they want to found a college ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Many Puritans had received classic style of higher education in Oxford University and Cambridge University back in England . They hoped that their descendants could receive this kind of education as well .",
+        "emotion": "neutral",
+        "text": "Many Puritans had received classic style of higher education in Oxford University and Cambridge University back in England . They hoped that their descendants could receive this kind of education as well .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Oh , I see .",
+        "emotion": "neutral",
+        "text": "Oh , I see .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Actually Harvard was first named ' New College ' , without a formal name .",
+        "emotion": "neutral",
+        "text": "Actually Harvard was first named ' New College ' , without a formal name .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "When did it begin to be called Harvard University ?",
+        "emotion": "neutral",
+        "text": "When did it begin to be called Harvard University ?",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "In 1639 , it was renamed after its major benefactor John Harvard . Interestingly , JohnHarvard himself was a clergyman .",
+        "emotion": "neutral",
+        "text": "In 1639 , it was renamed after its major benefactor John Harvard . Interestingly , JohnHarvard himself was a clergyman .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "It seems that Harvard was predestined to be influenced by religion .",
+        "emotion": "neutral",
+        "text": "It seems that Harvard was predestined to be influenced by religion .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "Therefore , it ' s not exaggerate to claim that had there not been religion , there would note Harvard .",
+        "emotion": "neutral",
+        "text": "Therefore , it ' s not exaggerate to claim that had there not been religion , there would note Harvard .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Wow , I didn ' t know that religion had played such an important role in Harvard history .",
+        "emotion": "neutral",
+        "text": "Wow , I didn ' t know that religion had played such an important role in Harvard history .",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Religion has been playing an indispensible part in Harvard history as well as the U . S .",
+        "emotion": "neutral",
+        "text": "Religion has been playing an indispensible part in Harvard history as well as the U . S .",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "I finally begin to get to know Harvard . It seems that my knowledge of Harvard is rather poor . I have a lot work to do before applying for Harvard .",
+        "emotion": "neutral",
+        "text": "I finally begin to get to know Harvard . It seems that my knowledge of Harvard is rather poor . I have a lot work to do before applying for Harvard .",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "A",
+        "utterance": "Remember that Harvard is a part of the United States . So you have to know the U . S . history and culture if you want to have in-depth knowledge of Harvard . The two are closely related .",
+        "emotion": "neutral",
+        "text": "Remember that Harvard is a part of the United States . So you have to know the U . S . history and culture if you want to have in-depth knowledge of Harvard . The two are closely related .",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "That ' s right . I have a lot to learn from you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            29,
+            30
+        ],
+        "expanded emotion cause span": [
+            "I plan to travel around Harvard University and know more about it . To tell you the truth , I plan to apply for Harvard after graduation from high school .",
+            "you have to know the U . S . history and culture if you want to have in-depth knowledge of Harvard .",
+            "I have a lot to learn from you ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That ' s right . I have a lot to learn from you .",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "You can ask me any question at any time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            30
+        ],
+        "expanded emotion cause span": [
+            "I have a lot to learn from you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can ask me any question at any time .",
+        "id": 31,
+        "source_sentences": [
+            29
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

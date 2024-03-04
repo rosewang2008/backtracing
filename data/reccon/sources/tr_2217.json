@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Will you be joining Billy and I at the Bar ?",
+        "emotion": "neutral",
+        "text": "Will you be joining Billy and I at the Bar ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Which one will you be going to ?",
+        "emotion": "neutral",
+        "text": "Which one will you be going to ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We are going to try the new one that opened up on 17th Street .",
+        "emotion": "neutral",
+        "text": "We are going to try the new one that opened up on 17th Street .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , I've been meaning to visit that place myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "We are going to try the new one that opened up on 17th Street .",
+            "I've been meaning to visit that place myself ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure , I've been meaning to visit that place myself .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I want to stop off at my apartment to get changed so I should be there by 9 pm .",
+        "emotion": "neutral",
+        "text": "I want to stop off at my apartment to get changed so I should be there by 9 pm .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK , can I bring a date with me ?",
+        "emotion": "neutral",
+        "text": "OK , can I bring a date with me ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Certainly . But if there are going to be four of us , I had better make reservations .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "can I bring a date with me ?",
+            "if there are going to be four of us , I had better make reservations ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Certainly . But if there are going to be four of us , I had better make reservations .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . that is a very good idea . It would be a shame if we could not find a place to sit .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "But if there are going to be four of us , I had better make reservations .",
+            "that is a very good idea"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . that is a very good idea . It would be a shame if we could not find a place to sit .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Then I'II make reservations for 9 pm for a party of four .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "can I bring a date with me ?",
+            "if there are going to be four of us , I had better make reservations ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Then I'II make reservations for 9 pm for a party of four .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'll be there . Oh , is there a cover charge at the bar ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Then I'II make reservations for 9 pm for a party of four .",
+            "I'll be there ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll be there . Oh , is there a cover charge at the bar ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Not that I know of . Why do you ask ?",
+        "emotion": "neutral",
+        "text": "Not that I know of . Why do you ask ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I want to make sure I bring enough money for my date and I .",
+        "emotion": "neutral",
+        "text": "I want to make sure I bring enough money for my date and I .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I hear the drinks and food there are moderately priced . You should be fine .",
+        "emotion": "neutral",
+        "text": "I hear the drinks and food there are moderately priced . You should be fine .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "One last question . Is there a dress code there ?",
+        "emotion": "neutral",
+        "text": "One last question . Is there a dress code there ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "No , its very casual there . Leave your jacket and tie at home .",
+        "emotion": "neutral",
+        "text": "No , its very casual there . Leave your jacket and tie at home .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Perfect . I wanted to have a casual evening tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "No , its very casual there . Leave your jacket and tie at home .",
+            "Perfect . I wanted to have a casual evening tonight ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Perfect . I wanted to have a casual evening tonight .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I'll see you there at 9pm .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I'll see you there at 9pm ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'll see you there at 9pm .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Okay . See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I'll see you there at 9pm ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Okay . See you then .",
+        "id": 18,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

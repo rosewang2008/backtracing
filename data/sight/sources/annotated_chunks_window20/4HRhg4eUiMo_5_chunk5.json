@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So beta psi is what?"
+    },
+    {
+        "text": "Well, beta psi should also, sorry, that's the probability of being equal to alpha."
+    },
+    {
+        "text": "So what I'm going to do is I'm going to look at the probability of rejecting."
+    },
+    {
+        "text": "So let me draw this function all the way."
+    },
+    {
+        "text": "It's going to look like this."
+    },
+    {
+        "text": "Now here, if I look at this function here or here, this is the probability under theta that psi is equal to 1."
+    },
+    {
+        "text": "And we just said that in this region, this function is called alpha psi."
+    },
+    {
+        "text": "In that region, it's not called alpha psi."
+    },
+    {
+        "text": "It's not called anything."
+    },
+    {
+        "text": "It's just the probability of rejection."
+    },
+    {
+        "text": "So it's not an error."
+    },
+    {
+        "text": "It's actually what you should be doing."
+    },
+    {
+        "text": "What we're looking at in this region is 1 minus this guy."
+    },
+    {
+        "text": "We're looking at the probability of not rejecting."
+    },
+    {
+        "text": "So I need to actually basically look at 1 minus this thing, which here is going to be 95%."
+    },
+    {
+        "text": "So I'm going to do 95%."
+    },
+    {
+        "text": "And this is my probability."
+    },
+    {
+        "text": "And I'm just basically drawing the symmetric of this guy."
+    },
+    {
+        "text": "So this here is the probability under theta that psi is equal to 0, which is 1 minus p theta that psi is equal to 1."
+    },
+    {
+        "text": "So it's just 1 minus the white curve."
+    }
+]

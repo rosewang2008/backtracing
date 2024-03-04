@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So we have -- not exactly -- In the long run, we have as many 5 minute intervals as we have 10 minute intervals."
+    },
+    {
+        "text": "So the average interarrival time is 7 and 1/2."
+    },
+    {
+        "text": "But if a person shows up at a random time, what are they going to see?"
+    },
+    {
+        "text": "Do we have as many 5s as 10s?"
+    },
+    {
+        "text": "But every 10 covers twice as much space."
+    },
+    {
+        "text": "So if I show up at a random time, I have probability 2/3 falling inside an interval of duration 10."
+    },
+    {
+        "text": "And I have one 1/3 probability of falling inside an interval of duration 5."
+    },
+    {
+        "text": "That's because, out of the whole real line, 2/3 of it is covered by intervals of length 10, just because they're longer."
+    },
+    {
+        "text": "1/3 is covered by the smaller intervals."
+    },
+    {
+        "text": "Now if I fall inside an interval of length 10 and I measure the length of the interval that I fell into, that's going to be 10."
+    },
+    {
+        "text": "But if I fall inside an interval of length 5 and I measure how long it is, I'm going to get a 5."
+    },
+    {
+        "text": "And that, of course, is going to be different than 7.5."
+    },
+    {
+        "text": "OK. And which number should be bigger?"
+    },
+    {
+        "text": "It's the second number that's bigger because this one is biased in favor of the longer intervals."
+    },
+    {
+        "text": "So that's, again, another illustration of the different results that you get when you have this random incidence phenomenon."
+    },
+    {
+        "text": "So the bottom line, again, is that if you talk about a typical interarrival time, one must be very precise in specifying what we mean typical."
+    },
+    {
+        "text": "So typical means sort of random."
+    },
+    {
+        "text": "But to use the word random, you must specify very precisely what is the random experiment that you are using."
+    },
+    {
+        "text": "And if you're not careful, you can get into apparent puzzles, such as the following."
+    },
+    {
+        "text": "Suppose somebody tells you the average family size is 4, but the average person lives in a family of size 6."
+    }
+]

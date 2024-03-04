@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "All right ! Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Sure , I'd love to !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right ! Thanks !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

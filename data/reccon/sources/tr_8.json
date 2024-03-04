@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hi , Becky , what's up ?",
+        "emotion": "neutral",
+        "text": "Hi , Becky , what's up ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Not much , except that my mother-in-law is driving me up the wall .",
+        "emotion": "neutral",
+        "text": "Not much , except that my mother-in-law is driving me up the wall .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "What's the problem ?",
+        "emotion": "neutral",
+        "text": "What's the problem ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "She loves to nit-pick and criticizes everything that I do . I can never do anything right when she's around .",
+        "emotion": "neutral",
+        "text": "She loves to nit-pick and criticizes everything that I do . I can never do anything right when she's around .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "For example ?",
+        "emotion": "neutral",
+        "text": "For example ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Well , last week I invited her over to dinner . My husband and I had no problem with the food , but if you listened to her , then it would seem like I fed her old meat and rotten vegetables . There's just nothing can please her .",
+        "emotion": "neutral",
+        "text": "Well , last week I invited her over to dinner . My husband and I had no problem with the food , but if you listened to her , then it would seem like I fed her old meat and rotten vegetables . There's just nothing can please her .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "No , I can't see that happening . I know you're a good cook and nothing like that would ever happen .",
+        "emotion": "neutral",
+        "text": "No , I can't see that happening . I know you're a good cook and nothing like that would ever happen .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "It's not just that . She also criticizes how we raise the kids .",
+        "emotion": "neutral",
+        "text": "It's not just that . She also criticizes how we raise the kids .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "My mother-in-law used to do the same thing to us . If it wasn't disciplining them enough , then we were disciplining them too much . She also complained about the food we fed them , the schools we sent them too , and everything else under the sun .",
+        "emotion": "neutral",
+        "text": "My mother-in-law used to do the same thing to us . If it wasn't disciplining them enough , then we were disciplining them too much . She also complained about the food we fed them , the schools we sent them too , and everything else under the sun .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "You said she used to ? How did you stop her ?",
+        "emotion": "neutral",
+        "text": "You said she used to ? How did you stop her ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "B",
+        "utterance": "We basically sat her down and told her how we felt about her constant criticizing , and how we welcomed her advice but hoped she'd let us do our things . She understood , and now everything is a lot more peaceful .",
+        "emotion": "neutral",
+        "text": "We basically sat her down and told her how we felt about her constant criticizing , and how we welcomed her advice but hoped she'd let us do our things . She understood , and now everything is a lot more peaceful .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "That sounds like a good idea . I'll have to try that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "We basically sat her down and told her how we felt about her constant criticizing , and how we welcomed her advice but hoped she'd let us do our things . She understood , and now everything is a lot more peaceful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a good idea . I'll have to try that .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

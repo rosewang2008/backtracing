@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you , Steven . I accept your advice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope you will have an amicable split ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , Steven . I accept your advice .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let me see . Yes , that's it . Where did you find it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Oh , what's this ? Is this your dissertation ?",
+            "Yes , that's it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me see . Yes , that's it . Where did you find it ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

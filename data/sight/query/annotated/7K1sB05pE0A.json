@@ -1,0 +1,666 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 2,
+        "timestamp": 1684514464480.0,
+        "annotatedSourceSentencesIndices": [
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I have just one question: How 1/2 (2Xo)(2Yo)= 2XoYo=2? If we do 1/2 *2 (XoYo) we are left with XoYo which i don't think is equal to 2 :X\u00a0"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 3,
+        "timestamp": 1684514482386.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Is this entire course a combination of calc 1 and 2? Or just calc 1. I see the next course is multi-variable which is often known as calc 3."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 5,
+        "timestamp": 1684514746641.0,
+        "annotatedSourceSentencesIndices": [
+            414,
+            415
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Where do x(sub naught) and y(sub naught) go at 40:59? It may be a rudimentary question, but I've been out of math classes for a number of years now. I am able to follow along with all of this except that one piece, and it's bugging me. What did I forget?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 6,
+        "timestamp": 1684514906495.0,
+        "annotatedSourceSentencesIndices": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            23,
+            28
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why aren't they giving a meaningful description of what a derivative is in plain English? E.g. The derivative of a function is the function that evaluates to the rate of change for a given input."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 8,
+        "timestamp": 1684514986976.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Today I have statrted this course. This is really awesome. I just want to know which book I should follow for this course?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 10,
+        "timestamp": 1684515014648.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "May I ask you guys a question, do Single Variable Calculus and Multivariable Calculus cover all the content of calculus and real analysis?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 11,
+        "timestamp": 1684515253951.0,
+        "annotatedSourceSentencesIndices": [
+            489,
+            490
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I am confused with the Binomial part, especially about how to get the nX\u02c6n-1\u25b3x from formula X\u02c6n+ nX\u02c6n-1\u25b3x+ Junk?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 14,
+        "timestamp": 1684515267034.0,
+        "annotatedSourceSentencesIndices": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Is this intro calc? Like if you've taken advanced algebra and trig, is this the best place to start? I have a textbook and a fair bit of free time at the moment. Is this video the right way to begin? Thanks :)"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 15,
+        "timestamp": 1684515294082.0,
+        "annotatedSourceSentencesIndices": [
+            106
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Lecture 1 of calculus he uses Limit, but he doesn't define it anywhere ... was that done in a previous course? otherwise I believe the course is incomplete..."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 16,
+        "timestamp": 1684515383068.0,
+        "annotatedSourceSentencesIndices": [
+            175
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "how did you factored that 19:53 diference equation?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 17,
+        "timestamp": 1684515562316.0,
+        "annotatedSourceSentencesIndices": [
+            147,
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "why is x_0y_0 = 1  ?\nmiddle schooler here, please don't mock..."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 20,
+        "timestamp": 1684516142439.0,
+        "annotatedSourceSentencesIndices": [
+            239
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "24:56 how did he figure out what the numerator had to be at 25:17? I am sure this is some simple algebra, but it's been a while :)"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 21,
+        "timestamp": 1684516169620.0,
+        "annotatedSourceSentencesIndices": [
+            3,
+            524
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Which math course is better to do after this?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 22,
+        "timestamp": 1684516183458.0,
+        "annotatedSourceSentencesIndices": [
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "why do you start with derivatives without going through  limits and continuity first ?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 24,
+        "timestamp": 1684516213076.0,
+        "annotatedSourceSentencesIndices": [
+            464,
+            465,
+            466,
+            467
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why use binomial theorem instead of Taylor expansion?\n\nAnd professor said it is single variable calculus, but there may have many variables like x0,y0 to confuse peoples. But I think there is only one variable x, x0 is just one value of x."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 26,
+        "timestamp": 1684516220556.0,
+        "annotatedSourceSentencesIndices": [
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "why is 2xo(yo) = 2?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 27,
+        "timestamp": 1684516284253.0,
+        "annotatedSourceSentencesIndices": [
+            415
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "When he solves for the area of the triangle, why does he say it doesn't matter what X0 and Y0 are? Does he just mean that all values of f(x) = 1/x will result in the area of the triangle of the tangent line to be 2?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 28,
+        "timestamp": 1684516405044.0,
+        "annotatedSourceSentencesIndices": [
+            402,
+            403
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Can someone explain how to calculate the y-intercept? If you replace y0 with 1/x and plug x = 0, wouldn't you get a division by zero error?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 29,
+        "timestamp": 1684516519367.0,
+        "annotatedSourceSentencesIndices": [
+            334
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I have a question. At 33 minutes, where did the negative of the x/Xo^2 go when he added the 1/Xo to the other side?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 30,
+        "timestamp": 1684516528894.0,
+        "annotatedSourceSentencesIndices": [
+            524
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I'm looking to learn calculus and coming to the end of this video, it seems I'm missing lots of information.\nWhat previous math categories should I learn to continue on with calculus?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 31,
+        "timestamp": 1684516539061.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "It seems that this course is a combination of what is usually separated into two courses typically named \"Calculus 1\" and \"Calculus 2\". Is that correct?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 32,
+        "timestamp": 1684516614873.0,
+        "annotatedSourceSentencesIndices": [
+            342,
+            343
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Does anyone understand the symmetry thing he was talking about? Which equation did he stare at XD"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 33,
+        "timestamp": 1684516837318.0,
+        "annotatedSourceSentencesIndices": [
+            187
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "wait, why did delta F when finding the derivative of \u00a0f(1/x) become the inverse of the previous delta f?\u00a0"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 36,
+        "timestamp": 1684516848252.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Does this class include what is generally Calc 2 as well? I see the next class up is multivariable which is often known as calc 3 at some uni's."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 38,
+        "timestamp": 1684516879122.0,
+        "annotatedSourceSentencesIndices": [
+            336
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At around 33:35 he defines the x-int as (2x0,0), following the same logic and using the original point slope form, I got y-int as (0,2/x0). I don't think I am wrong, but can any confirm?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 42,
+        "timestamp": 1684516889278.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "2+ 2 = 4?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 43,
+        "timestamp": 1684516900629.0,
+        "annotatedSourceSentencesIndices": [
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why always 2?? is there a prove?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 47,
+        "timestamp": 1684516942994.0,
+        "annotatedSourceSentencesIndices": [
+            166
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "How does he get 1 / \u03b4 x at 19:40?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 48,
+        "timestamp": 1684517008407.0,
+        "annotatedSourceSentencesIndices": [
+            196,
+            203
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I have a question in 22:00 if x0 go to infinitive then the value would be bigger and bigger isn\u2019t it? for example -1/1 < -1/1000"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 49,
+        "timestamp": 1684517025478.0,
+        "annotatedSourceSentencesIndices": [
+            342
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Can someone kindly compute y-intercept for me? Where x = 0 into the asterisk eqn. I would just like to prove that y = 2y0. Thanks!"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 52,
+        "timestamp": 1684517036117.0,
+        "annotatedSourceSentencesIndices": [
+            3,
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Is this equivalent to calculus 1 and 2? Derivatives, integrals, and sequences and series?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 55,
+        "timestamp": 1684517099986.0,
+        "annotatedSourceSentencesIndices": [
+            183
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At 20:29, why does x0-(x0+deltaX) simplify to -deltaX? Shouldn't x0 - x0 equal 0, and adding 0 to deltaX = deltaX?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 58,
+        "timestamp": 1684517285810.0,
+        "annotatedSourceSentencesIndices": [
+            452,
+            453,
+            454,
+            475
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Hi friends,\n\nCan someone please clarify below 2 doubts, please \n\n1. What does those junk terms exactly look like? One example string would be good\n\n2. Why did prof didn\u2019t substitute with x0 in last calculation \n\nThank You very much in advance \ud83d\ude4f\ud83c\udffb"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 60,
+        "timestamp": 1684517399324.0,
+        "annotatedSourceSentencesIndices": [
+            122,
+            127
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Hey in defining slope why we should take delta x tends to zero because for the point Q to be P it is both delta x and y both should be zero right??"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 63,
+        "timestamp": 1684517523119.0,
+        "annotatedSourceSentencesIndices": [
+            124,
+            309,
+            310,
+            311,
+            312
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "This professor is not the best I've seen on youtube. Not that he doesnt understand what he explains but his methodology is not essentialising the obscure concepts. First, he should have discribed the slope as delta x on delta y....( why f(x))?...or the obscure equation y-yo= m (x-xo)... could have been easyer as m= delta x/delta y...."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 64,
+        "timestamp": 1684517528984.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Is there any prerequisite required?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 65,
+        "timestamp": 1684517557050.0,
+        "annotatedSourceSentencesIndices": [
+            124,
+            132
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why is it Delta F instead of Delta Q?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 66,
+        "timestamp": 1684517573504.0,
+        "annotatedSourceSentencesIndices": [
+            106
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Did he ever define what a limit is ? where ?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 67,
+        "timestamp": 1684517591721.0,
+        "annotatedSourceSentencesIndices": [
+            487
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I didn't quite understand how (x+\u2206x).....(x+\u2206x) got us the term nx^n-1\u2206x. Won't \u2206x be multiplied n-1 times instead of n?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 70,
+        "timestamp": 1684517599157.0,
+        "annotatedSourceSentencesIndices": [
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "How is it 2 40:50?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 72,
+        "timestamp": 1684517721236.0,
+        "annotatedSourceSentencesIndices": [
+            139,
+            140,
+            141,
+            142,
+            143
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "guys i have a question \nif we have something like this one -->\nf(x)>x^2 +e and this is true for every real x\nCan i differentate this and say\nFirst derivative of f (x)   >=   2*x  ?\nPlease i need help on this one"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 73,
+        "timestamp": 1684517826734.0,
+        "annotatedSourceSentencesIndices": [
+            235,
+            237,
+            238
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "24:51 seriously? Basic LCM is a doubt in an MIT class?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 74,
+        "timestamp": 1684517837500.0,
+        "annotatedSourceSentencesIndices": [
+            127
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I have a question. Why does he let the limit be delta x to zero? Can it be done with the limit being delta y to zero?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 75,
+        "timestamp": 1684517841432.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Are there any pre-requisites for taking this course?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 76,
+        "timestamp": 1684517855869.0,
+        "annotatedSourceSentencesIndices": [
+            3,
+            468
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Can anyone tell me which book should i prefer with these lectures.??"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 77,
+        "timestamp": 1684518035758.0,
+        "annotatedSourceSentencesIndices": [
+            194
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At 21:20, he says \"I set this delta x to zero.\" So just like that? You can just set it to zero randomly? I'm so confused as to why/how it is zero, then magically disappears."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 78,
+        "timestamp": 1684518045810.0,
+        "annotatedSourceSentencesIndices": [
+            414
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "thank you\nwas following till 40'57\"\nhow does 2x0y0 = 2    ?\n\nrealise this lecture is 13 yo but anyone out there\nappreciate any advice\nmark"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 79,
+        "timestamp": 1684518138072.0,
+        "annotatedSourceSentencesIndices": [
+            378,
+            379,
+            380,
+            381
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I didn't really understand what he said around 37:42. Can someone please clarify a little bit? Thank you!"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 80,
+        "timestamp": 1684518147548.0,
+        "annotatedSourceSentencesIndices": [
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why do they teach derivatives before limits in MIT? Aren't limits the basis for both differential and integral calculus?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 82,
+        "timestamp": 1684518162850.0,
+        "annotatedSourceSentencesIndices": [
+            478
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "48:37 A little confusion here. Don't you have to use a lower bound for that junk terms? Big O is an upper bound. And (delta x)^2 cannot be an upperbound for, say, (delta x)^3."
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 83,
+        "timestamp": 1684518178554.0,
+        "annotatedSourceSentencesIndices": [
+            106
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why don't he tell definition of limit and also refer about epsilon-delta staff?"
+    },
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 84,
+        "timestamp": 1684518187429.0,
+        "annotatedSourceSentencesIndices": [
+            468
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Which book does they follow?"
+    }
+]

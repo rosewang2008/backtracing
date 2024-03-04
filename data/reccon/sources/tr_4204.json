@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mr . Martin , we're on arrival .",
+        "emotion": "happiness",
+        "explanation": "A is happy to see B off at the airport",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "we're on arrival ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Mr . Martin , we're on arrival .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's nice of you to see my off at the airport . Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's nice of you to see my off at the airport ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's nice of you to see my off at the airport . Thank you very much .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We'll miss you . I hope we'll keep in touch .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's nice of you to see my off at the airport . Thank you very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We'll miss you . I hope we'll keep in touch .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . You've given a great help to me in the past days .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We'll miss you . I hope we'll keep in touch ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . You've given a great help to me in the past days .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's my pleasure . We hope you'll visit Beijing again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Sure . You've given a great help to me in the past days ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's my pleasure . We hope you'll visit Beijing again .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Certainly . I'll be glad to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's my pleasure . We hope you'll visit Beijing again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Certainly . I'll be glad to .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's almost time to get aboard .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Certainly . I'll be glad to ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's almost time to get aboard .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , we should go . Thank you very much . Goodbye !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Certainly . I'll be glad to .",
+            "It's almost time to get aboard ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , we should go . Thank you very much . Goodbye !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Bye bye ! Have a pleasant journey !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye bye ! Have a pleasant journey !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

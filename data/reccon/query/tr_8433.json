@@ -1,0 +1,29 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'll take care of the lunch then , and you can take care of the other plans . What time would you like to pick me up ?",
+        "emotion": "happiness",
+        "explanation": "speaker is happy about the trip",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "a hike to the waterfalls on Saturday .",
+            "that would be a perfect addition ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll take care of the lunch then , and you can take care of the other plans . What time would you like to pick me up ?",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

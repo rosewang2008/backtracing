@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'm so glad we decided to go on a cruise for our vacation .",
+        "emotion": "neutral",
+        "text": "I'm so glad we decided to go on a cruise for our vacation .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Are you even glad that we get to buy new clothes too ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "cruise for our vacation .",
+            "we get to buy new clothes too ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you even glad that we get to buy new clothes too ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Ah , that's all part of the fun . What do you think of these shorts ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "cruise for our vacation .",
+            "we get to buy new clothes too ?",
+            "these shorts ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Ah , that's all part of the fun . What do you think of these shorts ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "They look really good on you . They look comfortable too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "cruise for our vacation .",
+            "we get to buy new clothes too ?",
+            "these shorts ?",
+            "They look really good on you . They look comfortable too ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "They look really good on you . They look comfortable too .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "They are . I think I'm going to get a hat too .",
+        "emotion": "neutral",
+        "text": "They are . I think I'm going to get a hat too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Okay . I chose this swimming suit . Do you like it ?",
+        "emotion": "neutral",
+        "text": "Okay . I chose this swimming suit . Do you like it ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow . You look great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I chose this swimming suit . Do you like it ?",
+            "You look great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow . You look great .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great and white ! Which reminds me , let's pick up some heavy duty sunscreen !",
+        "emotion": "neutral",
+        "text": "Great and white ! Which reminds me , let's pick up some heavy duty sunscreen !",
+        "id": 8
+    }
+]

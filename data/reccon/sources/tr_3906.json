@@ -1,0 +1,85 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you set your clock forward for daylight savings time ?",
+        "emotion": "neutral",
+        "text": "Did you set your clock forward for daylight savings time ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What ? Why do we have to do that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Did you set your clock forward for daylight savings time ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Why do we have to do that ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , at the start of the spring we usually have more daylight in the mornings and less in the afternoon . This is basically due to our position on the planet and the rotation of the earth . In any case , to take better advantage of the daylight available , we compensate by moving our clocks forward one hour .",
+        "emotion": "neutral",
+        "text": "Well , at the start of the spring we usually have more daylight in the mornings and less in the afternoon . This is basically due to our position on the planet and the rotation of the earth . In any case , to take better advantage of the daylight available , we compensate by moving our clocks forward one hour .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I see . That ' s convenient ! I never understood things like this , such as GMT . I never know what time zone we are in or when to change my clock !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I never understood things like this , such as GMT . I never know what time zone we are in or when to change my clock !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I see . That ' s convenient ! I never understood things like this , such as GMT . I never know what time zone we are in or when to change my clock !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That just stands for Greenwich Mean Time . Here in California , we are in Pacific Standard Time , that is eight time zones west of Greenwich . Remember when we were in Beijing ? Well , then we were in China Standard Time , and that ' s eight time zones east of Greenwich !",
+        "emotion": "neutral",
+        "text": "That just stands for Greenwich Mean Time . Here in California , we are in Pacific Standard Time , that is eight time zones west of Greenwich . Remember when we were in Beijing ? Well , then we were in China Standard Time , and that ' s eight time zones east of Greenwich !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !",
+        "emotion": "surprised",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Remember when we were in Beijing ? Well , then we were in China Standard Time , and that ' s eight time zones east of Greenwich !",
+            "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s why it was so weird traveling from Beijing to LA ! Because of the huge time difference , even though we left Beijing at noon and flew for more than eight hours , we still arrived in LA the same day at noon ! It ' s like we went back in time !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You ' re all set now ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "You ' re all set now ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , thank you so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You ' re all set now ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , thank you so much .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really , it was nothing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "You ' re all set now ?",
+            "Oh , thank you so much ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really , it was nothing .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I really appreciated it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You ' re all set now ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I really appreciated it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I was happy to help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I really appreciated it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I was happy to help .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It was so kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "You ' re all set now ?",
+            "I was happy to help ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It was so kind of you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Don ' t mention it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It was so kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don ' t mention it .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ' re a real friend in need .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "You ' re a real friend in need ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You ' re a real friend in need .",
+        "id": 8
+    }
+]

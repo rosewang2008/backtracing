@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And we have to find the other factor, x plus 2y."
+    },
+    {
+        "text": "So then I'm going to, that uses y and x."
+    },
+    {
+        "text": "So it's a directed graph going forward with this computation."
+    },
+    {
+        "text": "So x plus 2y equals whatever it is, 2 and 6."
+    },
+    {
+        "text": "Oh, 8 again, not brilliant."
+    },
+    {
+        "text": "What shall I change here?"
+    },
+    {
+        "text": "Make it 3y, 3y, just to get a different number here."
+    },
+    {
+        "text": "So now x is 2, y is 3."
+    },
+    {
+        "text": "I get 11."
+    },
+    {
+        "text": "That's a good number, 11."
+    },
+    {
+        "text": "OK, so far so good?"
+    },
+    {
+        "text": "And now the next step on this graph will be to, I have a product of those."
+    },
+    {
+        "text": "So that will go to the product."
+    },
+    {
+        "text": "Product F equals 8 times 11, 88."
+    },
+    {
+        "text": "OK, so we got the answer, 88."
+    },
+    {
+        "text": "Which math, normally I wouldn't take that much of a book to compute F. I would have said 2 cubed times 2 plus 3 times 3."
+    },
+    {
+        "text": "And I'd have simplified that to 8 times 11."
+    },
+    {
+        "text": "And I would have got 88."
+    },
+    {
+        "text": "So if we were just writing normally, that would do it."
+    },
+    {
+        "text": "But this is the picture of the computational graph."
+    }
+]

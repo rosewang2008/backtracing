@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Generally, not a construction."
+    },
+    {
+        "text": "It's a proof that there is no DFA or that it's just going to be impossible to make a DFA."
+    },
+    {
+        "text": "And we have to develop a method."
+    },
+    {
+        "text": "What is that proof method?"
+    },
+    {
+        "text": "Now, there is a tempting, I've taught this course many times, and there's a kind of a tempting approach that many people have."
+    },
+    {
+        "text": "It's not only going to apply for finite automata, but for other things too."
+    },
+    {
+        "text": "And believe me, it's not only people in this class."
+    },
+    {
+        "text": "It's for people out there who are trying to think about computation in general, which is to say, well, I have some language of trying to figure out if it's regular or not."
+    },
+    {
+        "text": "And so I thought really hard how to make a DFA, and I couldn't find one."
+    },
+    {
+        "text": "Therefore, it's not regular."
+    },
+    {
+        "text": "That's not a proof."
+    },
+    {
+        "text": "Just because you couldn't find a DFA doesn't mean there is no DFA."
+    },
+    {
+        "text": "You need to prove that the language is not regular using some method."
+    },
+    {
+        "text": "So I'm going to give you an example where that kind of approach can lead you wrong."
+    },
+    {
+        "text": "And that is, I'll give two examples of languages where you might try to prove they're regular or not, and you could be in trouble if you just follow that kind of informal approach."
+    },
+    {
+        "text": "So if you take the language B, where these are straight, but let's assume our alphabet is 0's and 1's."
+    },
+    {
+        "text": "B is the language of all strings that have an equal number of 0's and 1's."
+    },
+    {
+        "text": "So you want to know, if I have 1,000 0's, I need to have 1,000 1's."
+    },
+    {
+        "text": "So basically, the way you test that, you'd have to count up the number of 0's, count up the number of 1's, and see if those two counts are the same."
+    },
+    {
+        "text": "And that's going to be really tough to make a DFA do, because how are you going to remember that really big number of 0's that the DFA might have 50 states, but you might need to count up to 100 or a million to figure out, to count up how many 0's you've seen."
+    }
+]

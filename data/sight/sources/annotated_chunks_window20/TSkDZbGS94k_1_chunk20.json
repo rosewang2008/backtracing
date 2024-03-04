@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so again here, that's the way you're supposed to write it if you really want to identify what theta is."
+    },
+    {
+        "text": "Well, theta formally is the set of mu sigma squared such that in R times 0 infinity."
+    },
+    {
+        "text": "That's just to be formal, but this does the job just fine."
+    },
+    {
+        "text": "You don't have to be super formal."
+    },
+    {
+        "text": "OK, so that's not 3."
+    },
+    {
+        "text": "That's like 5."
+    },
+    {
+        "text": "Actually, I just want to write another one."
+    },
+    {
+        "text": "Let's call it 5-bit."
+    },
+    {
+        "text": "And 5-bit is just Gaussian with known variance."
+    },
+    {
+        "text": "And this arises a lot in labs when you have measurement error, when you actually receive your measurement device."
+    },
+    {
+        "text": "This thing has been tested by the manufacturer so much that it actually comes in on the side of the box."
+    },
+    {
+        "text": "It says that the standard deviation of your measurements is going to be 0.23."
+    },
+    {
+        "text": "OK, and actually, why do you do this is because they can brag about accuracy, right?"
+    },
+    {
+        "text": "I mean, that's how they sell you this particular device."
+    },
+    {
+        "text": "And so you actually know exactly what sigma square is."
+    },
+    {
+        "text": "So once you actually get your data in the lab, you actually only have to estimate mu because sigma comes on the label."
+    },
+    {
+        "text": "And so now, what is your statistical model?"
+    },
+    {
+        "text": "Well, the numbers you're going to be collecting still are positive in r. But now, the models that I have is n mu sigma squared."
+    },
+    {
+        "text": "But the parameter space is not mu in r and sigma positive."
+    },
+    {
+        "text": "It's just mu in r. And to be a little more emphatic about this, this is enough to describe it, right?"
+    }
+]

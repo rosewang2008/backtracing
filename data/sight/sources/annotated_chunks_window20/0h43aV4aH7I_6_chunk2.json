@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it has to be compressed."
+    },
+    {
+        "text": "The standard compression, and still used in, in the, with these lectures, is, called JPEG."
+    },
+    {
+        "text": "I think that stands for a Joint Photographic Experts Group."
+    },
+    {
+        "text": "They established a system of compression."
+    },
+    {
+        "text": "And I just want to tell you what it's about."
+    },
+    {
+        "text": "It's a change of basis."
+    },
+    {
+        "text": "What, what's, what basis do we have?"
+    },
+    {
+        "text": "The, the current basis we have is, you could say, the standard basis is every pixel give a value."
+    },
+    {
+        "text": "So that's like, we have a vector x, which is five hundred and twelve squared long, and in the i-th position, we get a number like one twenty one or something, the next, the pixel next to it might be one twenty four, maybe where, maybe where the, where my tie, begins to end."
+    },
+    {
+        "text": "So if it was mostly blue shirt, this would be a slight difference in shading, but pretty close."
+    },
+    {
+        "text": "Then the tie would be a different color."
+    },
+    {
+        "text": "So, so we might have quite a few pixels for the blue shirt and a whole lot more for the blackboard that are very close."
+    },
+    {
+        "text": "And that's what, are very correlated."
+    },
+    {
+        "text": "And that's what gives us the possibility of compression."
+    },
+    {
+        "text": "For example, before the lecture starts, if we had a blank blackboard, then there's an image, but it would make no sense to take that image and tell you what it is pixel by pixel."
+    },
+    {
+        "text": "I mean, there's a case in which all pixel values, all gray levels are the same, or practically the same, depending on the erasing of the board, but extremely close."
+    },
+    {
+        "text": "And so that's an image where the standard basis is lousy."
+    },
+    {
+        "text": "That's, that's the basic fact."
+    },
+    {
+        "text": "That, that the standard basis which gives the value of every pixel makes no use of the fact that we're getting a whole lot of pixels whose gray levels, the neighboring pixels tend to have the same gray level as the, as their, as their neighbors."
+    },
+    {
+        "text": "So to take, how do we take advantage of that fact?"
+    }
+]

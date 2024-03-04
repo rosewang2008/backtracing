@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good . Where shall we meet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Can we have dinner together sometime this weekend ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . Where shall we meet ?",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

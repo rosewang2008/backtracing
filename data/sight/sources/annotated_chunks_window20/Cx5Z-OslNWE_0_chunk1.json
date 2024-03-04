@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this is the problem, then."
+    },
+    {
+        "text": "So we look for find positions x and y, let's say, two which will be the centers, so to speak, of the."
+    },
+    {
+        "text": "And really, it's just these points."
+    },
+    {
+        "text": "Points."
+    },
+    {
+        "text": "So the data is the points and the edges, as always, the nodes and the edges."
+    },
+    {
+        "text": "So the problem is to find x and y so that to minimize."
+    },
+    {
+        "text": "So it's a distance of points ai from x."
+    },
+    {
+        "text": "Maybe I should emphasize we're in high dimensions."
+    },
+    {
+        "text": "Plus the distance of other points."
+    },
+    {
+        "text": "So the ai will be these points, these nodes."
+    },
+    {
+        "text": "And the bi will be these nodes plus the sum of bi minus y squared."
+    },
+    {
+        "text": "And you understand the rule here."
+    },
+    {
+        "text": "That together, the a's union the b's give me all nodes."
+    },
+    {
+        "text": "And I guess to be complete, the a's intersect the b's is empty."
+    },
+    {
+        "text": "Just what you expect."
+    },
+    {
+        "text": "I'm dividing the a's and the b's into two groups."
+    },
+    {
+        "text": "And I'm picking an x and a y sort of at the center of those groups."
+    },
+    {
+        "text": "So that is a minimum."
+    },
+    {
+        "text": "So I want to minimize."
+    },
+    {
+        "text": "And also, I probably want to impose some condition that the number of a's is reasonably close to the number of b's."
+    }
+]

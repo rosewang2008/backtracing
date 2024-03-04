@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "So cool . I want to be a back-packer when I grow up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "actually almost half of all the countries over the world ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So cool . I want to be a back-packer when I grow up .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

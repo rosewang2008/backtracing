@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I just check."
+    },
+    {
+        "text": "I'm trying to minimize the distance of each of my f of xi to my yi."
+    },
+    {
+        "text": "And now I want to find the smallest of them."
+    },
+    {
+        "text": "So if I look at the infimum here, then the question is, so that could be, well, that's not really an estimator for f, but it's an estimator for the smallest possible value."
+    },
+    {
+        "text": "And so for example, this is actually an estimator for the variance of sigma square."
+    },
+    {
+        "text": "This might not be attained, and this might not be measurable if f is massive."
+    },
+    {
+        "text": "So that's the inf of some class f of x."
+    },
+    {
+        "text": "So those are always things that are defined implicitly."
+    },
+    {
+        "text": "If it's an average, for example, it's completely measurable."
+    },
+    {
+        "text": "Any other questions?"
+    },
+    {
+        "text": "OK, so we know that the first thing we might want to check, and that's definitely something we want about an estimator, is that it's consistent, because all consistency tells us is that as I collect more and more data, my estimator is going to get closer and closer to the parameters."
+    },
+    {
+        "text": "There's other things we can look at."
+    },
+    {
+        "text": "For each possible value of n, now I have a finite number of observations, 25."
+    },
+    {
+        "text": "And I want to know something about my estimator."
+    },
+    {
+        "text": "The first thing I want to check is maybe if, in average, so this is a random variable."
+    },
+    {
+        "text": "Is this random variable, in average, going to be close to theta or not?"
+    },
+    {
+        "text": "And so the difference, how far I am from theta, is actually called the bias."
+    },
+    {
+        "text": "So the bias of an estimator is the expectation of theta hat minus the value that I hope it gets, which is theta."
+    },
+    {
+        "text": "If this thing is equal to 0, we say that theta hat is unbiased."
+    },
+    {
+        "text": "And unbiased estimators are things that people are looking for in general."
+    }
+]

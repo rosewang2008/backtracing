@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So he started with a unit vector."
+    },
+    {
+        "text": "Start with a unit vector, u transpose u equal 1."
+    },
+    {
+        "text": "So the length of the vector is 1."
+    },
+    {
+        "text": "And then he created, let's name it after him, H. He created this matrix, the identity minus 2 uu transpose."
+    },
+    {
+        "text": "And I believe that that's a really useful matrix."
+    },
+    {
+        "text": "So it's just like, I think this review is like going beyond 18.06 into what ones are really worth knowing individually."
+    },
+    {
+        "text": "Could we just check what are the properties of Householder's reflection of that I minus 2?"
+    },
+    {
+        "text": "You recognize here a column times a row."
+    },
+    {
+        "text": "So that's a matrix."
+    },
+    {
+        "text": "And what could you tell me about that matrix uu transpose?"
+    },
+    {
+        "text": "It's, yeah."
+    },
+    {
+        "text": "Or what can we say about H?"
+    },
+    {
+        "text": "So I guess I'm believing that H is a orthogonal matrix."
+    },
+    {
+        "text": "Otherwise, it wouldn't be here today."
+    },
+    {
+        "text": "So I believe that."
+    },
+    {
+        "text": "And not only is it orthogonal, it is also, have a look at it, symmetric."
+    },
+    {
+        "text": "It's also symmetric."
+    },
+    {
+        "text": "The identity is symmetric."
+    },
+    {
+        "text": "Uu transpose is symmetric."
+    },
+    {
+        "text": "So this is a family of symmetric orthogonal matrices."
+    }
+]

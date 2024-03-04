@@ -1,0 +1,41 @@
+[
+    {
+        "text": "It is UV transpose."
+    },
+    {
+        "text": "OK, so that gives us the answer."
+    },
+    {
+        "text": "We're given X and Y."
+    },
+    {
+        "text": "We're looking for the best Q."
+    },
+    {
+        "text": "And the answer comes in the simplest possible way."
+    },
+    {
+        "text": "Compute Y transpose X, compute its SVD, and use the orthogonal matrices from the SVD."
+    },
+    {
+        "text": "Yeah, and I'm out of time."
+    },
+    {
+        "text": "So proof, it's three line later, either to just send you the section online or to discuss it in class Monday."
+    },
+    {
+        "text": "But I'm really planning Monday to start with question four."
+    },
+    {
+        "text": "And meanwhile, to ask a whole lot of people, everybody I can find, about that important question is, does deep learning usually work?"
+    },
+    {
+        "text": "What can you do to make sure it works or give yourself a better chance to have it work?"
+    },
+    {
+        "text": "So that's up for Monday then."
+    },
+    {
+        "text": "Good."
+    }
+]

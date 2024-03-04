@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you like this dress ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "do you like this dress ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How do you like this dress ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's nice . But what kind of dress are you looking for ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "do you like this dress ?",
+            "It's nice ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's nice . But what kind of dress are you looking for ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Something attractive and dressy . Maybe a little sexy too . New Year's Eve is a special occasion and it only happens once a year , right ?",
+        "emotion": "neutral",
+        "text": "Something attractive and dressy . Maybe a little sexy too . New Year's Eve is a special occasion and it only happens once a year , right ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course . It's common too that we wear something special for our Chinese New Year .",
+        "emotion": "neutral",
+        "text": "Of course . It's common too that we wear something special for our Chinese New Year .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "People here always wear the best clothes they have . Many people go out and buy clothes especially for New Year's Eve .",
+        "emotion": "neutral",
+        "text": "People here always wear the best clothes they have . Many people go out and buy clothes especially for New Year's Eve .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Any other common customs of your New Year ?",
+        "emotion": "neutral",
+        "text": "Any other common customs of your New Year ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Before the New Year , we always send greeting cards to our relatives and friends to wish them a happy year . On the street and in stores people usually greet others with a ' Happy New Year ' . It's also common for people to make a New Year's resolution .",
+        "emotion": "neutral",
+        "text": "Before the New Year , we always send greeting cards to our relatives and friends to wish them a happy year . On the street and in stores people usually greet others with a ' Happy New Year ' . It's also common for people to make a New Year's resolution .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What's that ?",
+        "emotion": "neutral",
+        "text": "What's that ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's when people quit a bad habit or do something they find hard to do . Many people resolve to quit smoking , lose weight , or stop nagging their wife , etc . However , it usually lasts only for a few days !",
+        "emotion": "neutral",
+        "text": "It's when people quit a bad habit or do something they find hard to do . Many people resolve to quit smoking , lose weight , or stop nagging their wife , etc . However , it usually lasts only for a few days !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "By the way , where are you going on New Year's Eve ?",
+        "emotion": "neutral",
+        "text": "By the way , where are you going on New Year's Eve ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "We're going to a night club for dinner and dancing , then we'll go down to the city square for the big celebration . There's always a fireworks display put on by the local government . We all want you to come too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "We're going to a night club for dinner and dancing , then we'll go down to the city square for the big celebration . There's always a fireworks display put on by the local government . We all want you to come too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We're going to a night club for dinner and dancing , then we'll go down to the city square for the big celebration . There's always a fireworks display put on by the local government . We all want you to come too .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "We all want you to come too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

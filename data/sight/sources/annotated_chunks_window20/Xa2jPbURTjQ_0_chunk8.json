@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so what do I mean by a reflection matrix?"
+    },
+    {
+        "text": "Let me draw the plane."
+    },
+    {
+        "text": "And I think, so 1, 0."
+    },
+    {
+        "text": "Let's follow it again."
+    },
+    {
+        "text": "1, 0, where does that go?"
+    },
+    {
+        "text": "That gives me the first column."
+    },
+    {
+        "text": "So as before, it goes to cos theta sine theta."
+    },
+    {
+        "text": "And when I say reflection, let me put the mirror into the picture."
+    },
+    {
+        "text": "So you see what reflection it is."
+    },
+    {
+        "text": "The mirror is along here at angle theta over 2, theta over 2 line."
+    },
+    {
+        "text": "So sure enough, 1, 0 at angle 0 got reflected into a unit vector at angle theta."
+    },
+    {
+        "text": "And halfway between was the theta over 2 line."
+    },
+    {
+        "text": "That's OK. Now, what about the other guy, 0, 1?"
+    },
+    {
+        "text": "Here's 0, 1."
+    },
+    {
+        "text": "OK, I multiply that."
+    },
+    {
+        "text": "Can I put the 0, 1 up here so your eye does the multiplication?"
+    },
+    {
+        "text": "Where is the result of 0, 1?"
+    },
+    {
+        "text": "What's the output from Q applied to 0, 1?"
+    },
+    {
+        "text": "Sine theta minus cos theta, right?"
+    },
+    {
+        "text": "It's the second column."
+    }
+]

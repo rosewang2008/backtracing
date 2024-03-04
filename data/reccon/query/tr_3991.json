@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here it is , and here we are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "help me find the remote control for my garage door ?",
+            "Here it is , and here we are ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here it is , and here we are .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

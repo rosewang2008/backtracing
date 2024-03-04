@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Me ! Me !",
+        "emotion": "excited",
+        "explanation": "The person is excited to become a volunteer",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I need a volunteer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me ! Me !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "By the way, are you guys OK with Poisson exponential Bernoulli's, I don't know, binomial, normal, all these things?"
+    },
+    {
+        "text": "I'm not going to go back to it, but I'm going to use them heavily."
+    },
+    {
+        "text": "So just spend five minutes on Wikipedia if you forgot about what those things are."
+    },
+    {
+        "text": "Usually, you must have seen them in your probability class, so that should not be crazy name."
+    },
+    {
+        "text": "And again, I'm not expecting you."
+    },
+    {
+        "text": "I mean, I don't remember what the density of an exponential is, so it would be pretty unfair of me to actually ask you to remember what it is."
+    },
+    {
+        "text": "Even for the Gaussian, you're not expected to remember what it is."
+    },
+    {
+        "text": "But I want you to remember that if I add 5 to a Gaussian, then I have a Gaussian with mean mu plus 5."
+    },
+    {
+        "text": "If I multiply it by something, right?"
+    },
+    {
+        "text": "You need to know how to operate those things."
+    },
+    {
+        "text": "But knowing complicated densities is definitely not part of the game."
+    },
+    {
+        "text": "So let's do a final one."
+    },
+    {
+        "text": "I don't know what number I have now."
+    },
+    {
+        "text": "I'm going to just do uniform."
+    },
+    {
+        "text": "That's another one."
+    },
+    {
+        "text": "Everybody knows what uniform is?"
+    },
+    {
+        "text": "So uniform, right?"
+    },
+    {
+        "text": "So I'm going to have x, which my observations are going to be uniform on the interval 0 theta, right?"
+    },
+    {
+        "text": "So if I want to define a uniform distribution for a random variable, I have to tell you which interval or which set I want it to be uniform on."
+    },
+    {
+        "text": "And so here, I'm telling you it's the interval 0 theta."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And it's called the dispersion parameter from a clear analogy with the Gaussian."
+    },
+    {
+        "text": "That's the variance, and that's measuring dispersion."
+    },
+    {
+        "text": "So here, what I want is I'm going to think throughout this class."
+    },
+    {
+        "text": "So phi may be known or not."
+    },
+    {
+        "text": "And when it's not known, this actually might turn into some exponential family, or it might not."
+    },
+    {
+        "text": "And the main reason is because this b of theta over phi is not necessarily a function of theta over phi."
+    },
+    {
+        "text": "If I actually have phi unknown, then y theta over phi has to be, this guy has to be my new parameter."
+    },
+    {
+        "text": "And b might not be a function of this new parameter."
+    },
+    {
+        "text": "So in a way, it may or may not, but this is not really a concern that we're going to have, because throughout this class, we're going to assume that phi is known."
+    },
+    {
+        "text": "Phi is going to be known all the time, which means that this is always an exponential family."
+    },
+    {
+        "text": "And it's just the simplest one you could think of."
+    },
+    {
+        "text": "One dimensional parameter, one dimensional response, and I just have the product is just y times, or we used to call it x."
+    },
+    {
+        "text": "Now I've switched to y."
+    },
+    {
+        "text": "But y times theta divided by phi."
+    },
+    {
+        "text": "Should I write this, or is this clear to everyone what this is?"
+    },
+    {
+        "text": "Let me write it somewhere so we actually keep track of it for the 10 minutes."
+    },
+    {
+        "text": "OK, so this is, we have, remember we had all the distributions."
+    },
+    {
+        "text": "And then here we had the exponential family."
+    },
+    {
+        "text": "And now we have the canonical exponential family."
+    },
+    {
+        "text": "It's actually much, much smaller."
+    }
+]

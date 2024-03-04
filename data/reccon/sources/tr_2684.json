@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's a lovely day , isn't it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's a lovely day , isn't it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , the weather sure is nice today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day",
+            "Yes , the weather sure is nice today ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , the weather sure is nice today .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I love it when the weather is like this . Why don't we sit down outside and have our lunch ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day",
+            "Yes , the weather sure is nice today .",
+            "I love it when the weather is like this ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I love it when the weather is like this . Why don't we sit down outside and have our lunch ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds like a good idea . The sky is clear , the sun is shining and there's a nice cool breeze , so it is not too hot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day",
+            "Yes , the weather sure is nice today .",
+            "I love it when the weather is like this .",
+            "Why don't we sit down outside and have our lunch ?",
+            "That sounds like a good idea . The sky is clear , the sun is shining and there's a nice cool breeze , so it is not too hot ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That sounds like a good idea . The sky is clear , the sun is shining and there's a nice cool breeze , so it is not too hot .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I really miss the change of seasons like we have in Colorado ; but I must admit , this sure is a nice spring day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day",
+            "Yes , the weather sure is nice today .",
+            "I love it when the weather is like this .",
+            "Why don't we sit down outside and have our lunch ?",
+            "That sounds like a good idea . The sky is clear , the sun is shining and there's a nice cool breeze , so it is not too hot .",
+            "this sure is a nice spring day ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I really miss the change of seasons like we have in Colorado ; but I must admit , this sure is a nice spring day .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey , this spot in the shade looks really comfortable .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's a lovely day",
+            "Yes , the weather sure is nice today .",
+            "I love it when the weather is like this .",
+            "Why don't we sit down outside and have our lunch ?",
+            "That sounds like a good idea . The sky is clear , the sun is shining and there's a nice cool breeze , so it is not too hot .",
+            "this sure is a nice spring day .",
+            "this spot in the shade looks really comfortable ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Hey , this spot in the shade looks really comfortable .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Okay . Hey , is that a dark cloud over there ? Do you think it will rain after all ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "The sky is clear , the sun is shining",
+            "is that a dark cloud over there ? Do you think it will rain after all ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Okay . Hey , is that a dark cloud over there ? Do you think it will rain after all ?",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I don't think so . I say the weather report last night , and it said the weather should be fine all day .",
+        "emotion": "neutral",
+        "text": "I don't think so . I say the weather report last night , and it said the weather should be fine all day .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "If the weather stays nice perhaps we can go to the beach this weekend . It ' s been a while since I've not really gotten some sun .",
+        "emotion": "neutral",
+        "text": "If the weather stays nice perhaps we can go to the beach this weekend . It ' s been a while since I've not really gotten some sun .",
+        "id": 9
+    }
+]

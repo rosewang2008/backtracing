@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks , goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It suits us fine . We ' ll see you then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , goodbye .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

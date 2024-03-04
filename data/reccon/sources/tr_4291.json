@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are your weekend arrangements ?",
+        "emotion": "neutral",
+        "text": "What are your weekend arrangements ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "There're many things I can do on weekends .",
+        "emotion": "neutral",
+        "text": "There're many things I can do on weekends .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What sort of things are you interested in ?",
+        "emotion": "neutral",
+        "text": "What sort of things are you interested in ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm keen on talking short trips to nearby scenic spots . More often than not , I go with some of my friends . By the way , what are your favorites ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm keen on talking short trips to nearby scenic spots .",
+            "I go with some of my friends ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm keen on talking short trips to nearby scenic spots . More often than not , I go with some of my friends . By the way , what are your favorites ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I love swimming and cycling . On Sunday morning I have swimming practice for an hour . In the afternoon , I just ride my bike around the city or along the country roads for almost two hours .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I love swimming and cycling . On Sunday morning I have swimming practice for an hour . In the afternoon , I just ride my bike around the city or along the country roads for almost two hours ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love swimming and cycling . On Sunday morning I have swimming practice for an hour . In the afternoon , I just ride my bike around the city or along the country roads for almost two hours .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's great ! I think they do you a lot of good . Where do you swim ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm keen on talking short trips to nearby scenic spots .",
+            "I go with some of my friends .",
+            "I love swimming and cycling . On Sunday morning I have swimming practice for an hour . In the afternoon , I just ride my bike around the city or along the country roads for almost two hours ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's great ! I think they do you a lot of good . Where do you swim ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Mostly in the city's swimming pool . But on occasion , I go to the beach with friends . Well , what do you do at leisure ?",
+        "emotion": "neutral",
+        "text": "Mostly in the city's swimming pool . But on occasion , I go to the beach with friends . Well , what do you do at leisure ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'm fond of dancing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'm fond of dancing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm fond of dancing .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Good . You really know how to enjoy yourself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'm fond of dancing ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . You really know how to enjoy yourself .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

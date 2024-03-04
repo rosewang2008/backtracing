@@ -1,0 +1,7 @@
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/chatgpt.csv
+Output fname: results/inquisitive/test/chatgpt.csv
+Accuracy: 0.67
+Distance: 1.47178002894356
+Number of max context errors: 0

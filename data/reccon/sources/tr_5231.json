@@ -1,0 +1,270 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'm glad we came here . This is really delicious !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'm glad we came here . This is really delicious !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm glad we came here . This is really delicious !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I was worried you would think it was too far to drive .",
+        "emotion": "neutral",
+        "text": "I was worried you would think it was too far to drive .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , it's true I've never driven two hours just to get lunch . But really , I think it's worth it .",
+        "emotion": "neutral",
+        "text": "Well , it's true I've never driven two hours just to get lunch . But really , I think it's worth it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think if you try some more authentic Chinese food , you might understand how we students from Taiwan suffer .",
+        "emotion": "neutral",
+        "text": "I think if you try some more authentic Chinese food , you might understand how we students from Taiwan suffer .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How do you mean \" suffer \" ?",
+        "emotion": "neutral",
+        "text": "How do you mean \" suffer \" ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I mean , in Milwaukee there is no good Chinese food . So we miss the food in Taiwan too much . Sometimes we just have to drive down here to Chicago to find something better .",
+        "emotion": "neutral",
+        "text": "I mean , in Milwaukee there is no good Chinese food . So we miss the food in Taiwan too much . Sometimes we just have to drive down here to Chicago to find something better .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Even in the winter ?",
+        "emotion": "neutral",
+        "text": "Even in the winter ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , even in the winter .",
+        "emotion": "neutral",
+        "text": "Yes , even in the winter .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "And even if it takes two hours , huh ?",
+        "emotion": "neutral",
+        "text": "And even if it takes two hours , huh ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Why not ? I've been craving good food for three weeks now . I'm too sick of hamburgers and pizza !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I've been craving good food for three weeks now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why not ? I've been craving good food for three weeks now . I'm too sick of hamburgers and pizza !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , this really is delicious , I have to admit . I can understand better now why you and your friends are always whining .",
+        "emotion": "neutral",
+        "text": "Well , this really is delicious , I have to admit . I can understand better now why you and your friends are always whining .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Don't tease me ! Good food is really important to Chinese !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "this really is delicious , I have to admit ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't tease me ! Good food is really important to Chinese !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I know . I can see that . This is what is called \" dim sum , \" right ?",
+        "emotion": "neutral",
+        "text": "I know . I can see that . This is what is called \" dim sum , \" right ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , all these dishes are different \" dim sum \" dishes . You can't find this kind of thing except for in a few cities in America .",
+        "emotion": "neutral",
+        "text": "Yes , all these dishes are different \" dim sum \" dishes . You can't find this kind of thing except for in a few cities in America .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "So when you Chinese think of Chinatown , you mostly think of food . Is that right ?",
+        "emotion": "neutral",
+        "text": "So when you Chinese think of Chinatown , you mostly think of food . Is that right ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Of course . I will try to buy some things at the Asian grocery down the block too . Then I can do a little cooking in my apartment .",
+        "emotion": "happiness",
+        "explanation": "The speaker is passionate about Chinese food.",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "So when you Chinese think of Chinatown , you mostly think of food ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course . I will try to buy some things at the Asian grocery down the block too . Then I can do a little cooking in my apartment .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "And maybe we can go to a good Italian restaurant for dinner , after the museum . Chicago has some great Italian restaurants .",
+        "emotion": "neutral",
+        "text": "And maybe we can go to a good Italian restaurant for dinner , after the museum . Chicago has some great Italian restaurants .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "No way !",
+        "emotion": "neutral",
+        "text": "No way !",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "What do you mean ?",
+        "emotion": "neutral",
+        "text": "What do you mean ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "We're going up to the \" new \" Chinatown for dinner . I already know where we're going to go .",
+        "emotion": "neutral",
+        "text": "We're going up to the \" new \" Chinatown for dinner . I already know where we're going to go .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Alright , alright . I am happy to try more Chinese food . Will it be dim sum again ?",
+        "emotion": "neutral",
+        "text": "Alright , alright . I am happy to try more Chinese food . Will it be dim sum again ?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "No , dim sum is usually eaten around lunch time , or sometimes closer to breakfast . We ' ll try more Taiwanese style up at the \" new \" Chinatown .",
+        "emotion": "neutral",
+        "text": "No , dim sum is usually eaten around lunch time , or sometimes closer to breakfast . We ' ll try more Taiwanese style up at the \" new \" Chinatown .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Taiwanese style ? Isn't dim sum Taiwanese style ?",
+        "emotion": "neutral",
+        "text": "Taiwanese style ? Isn't dim sum Taiwanese style ?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "No , dim sum is more Cantonese style . But of course you can buy it in Taiwan .",
+        "emotion": "neutral",
+        "text": "No , dim sum is more Cantonese style . But of course you can buy it in Taiwan .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "I wonder if you can cook things this good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            25
+        ],
+        "expanded emotion cause span": [
+            "if you can cook things this good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I wonder if you can cook things this good .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "I'm a great cook actually . You will see .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'm a great cook"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm a great cook actually . You will see .",
+        "id": 26
+    }
+]

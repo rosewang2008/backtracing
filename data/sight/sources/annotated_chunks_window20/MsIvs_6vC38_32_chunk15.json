@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Because of course if the, if the matrix has got a lot of zeros in good places, we don't have to do those operations, and it'll be much faster."
+    },
+    {
+        "text": "But, so just think for a moment about the first step."
+    },
+    {
+        "text": "So here's our matrix A, hundred by a hundred, and the first step will be that column has got zeros down here."
+    },
+    {
+        "text": "So it's, it's down to ninety-nine by ninety-nine."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "That, that, that's really like the first, stage of elimination."
+    },
+    {
+        "text": "To get from this hundred by hundred non-zero matrix to this stage where the first pivot is sitting up here and the first row's okay and the first column is okay."
+    },
+    {
+        "text": "So, essentially, I, what the, how many steps did that take?"
+    },
+    {
+        "text": "You see, I'm, I'm trying to get an idea."
+    },
+    {
+        "text": "Is the answer proportional to n?"
+    },
+    {
+        "text": "Is the, is the total number of steps in elimination, the total number, is it proportional to n?"
+    },
+    {
+        "text": "In which case if I double n from a hundred to two hundred, does it take me twice as long?"
+    },
+    {
+        "text": "Does it square, so it would take me four times as long?"
+    },
+    {
+        "text": "Does it cube, so it would take me eight times as long?"
+    },
+    {
+        "text": "Or is it n factorial, so it would take me a hundred times as long?"
+    },
+    {
+        "text": "I, I think, you know, from a practical point of view, we have to have some idea of the cost here."
+    },
+    {
+        "text": "So, so these are the questions."
+    },
+    {
+        "text": "So let me ask those questions again."
+    },
+    {
+        "text": "Is it proportional, does it go like n, like n squared, like n cubed, like some higher power of n, like n factorial, where, where every step up multiplies by a hundred and then by a hundred and one and then by a hundred and two, which is it?"
+    },
+    {
+        "text": "Okay, so that's the only way I know to answer that is to, is to think through what we actually had to do."
+    }
+]

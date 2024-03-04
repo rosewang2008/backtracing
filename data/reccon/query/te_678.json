@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well I have to decide which gifts to keep and which to exchange for better ones when I go to the Boxing Day sales this afternoon !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you ' re yapping on about your new clothes !",
+            "I have to decide"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well I have to decide which gifts to keep and which to exchange for better ones when I go to the Boxing Day sales this afternoon !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

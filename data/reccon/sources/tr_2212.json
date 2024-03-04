@@ -1,0 +1,99 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mr . Bellow , have you anything in mind as to what to drink or may I make a few suggestions ?",
+        "emotion": "neutral",
+        "text": "Mr . Bellow , have you anything in mind as to what to drink or may I make a few suggestions ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I have had enough gin fizz and bloody mary . But I have no idea about Chinese cocktails .",
+        "emotion": "neutral",
+        "text": "I have had enough gin fizz and bloody mary . But I have no idea about Chinese cocktails .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Would you prefer our cocktail -- Shanghai cocktail ? It's a mixture of real Chinese ingredients .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "But I have no idea about Chinese cocktails .",
+            "our cocktail -- Shanghai cocktail ? It's a mixture of real Chinese ingredients ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Would you prefer our cocktail -- Shanghai cocktail ? It's a mixture of real Chinese ingredients .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That ' s good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "But I have no idea about Chinese cocktails .",
+            "our cocktail -- Shanghai cocktail ? It's a mixture of real Chinese ingredients ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That ' s good .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "( The waiter makes the cocktail for Mr . Bellow and hands into him . ) Here is your Shanghai cocktail , Mr . Bellow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "That ' s good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "( The waiter makes the cocktail for Mr . Bellow and hands into him . ) Here is your Shanghai cocktail , Mr . Bellow .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you . Oh , it tastes excellent .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "( The waiter makes the cocktail for Mr . Bellow and hands into him . ) Here is your Shanghai cocktail , Mr . Bellow .",
+            "Oh , it tastes excellent ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . Oh , it tastes excellent .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

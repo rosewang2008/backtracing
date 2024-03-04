@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 36,
+        "timestamp": 1684516848252.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Does this class include what is generally Calc 2 as well? I see the next class up is multivariable which is often known as calc 3 at some uni's."
+    }
+]

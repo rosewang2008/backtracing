@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And when I take the derivative of this guy with respect to theta, then I have something that looks like the derivative divided by f theta."
+    },
+    {
+        "text": "And if I start taking the integral against f theta of this thing, so the expectation of this thing, those things would cancel."
+    },
+    {
+        "text": "And then I had just the integral of a derivative, which I would make a leap of faith and say that it's actually the derivative of the integral."
+    },
+    {
+        "text": "But this was equal to 1."
+    },
+    {
+        "text": "So this derivative was actually equal to 0."
+    },
+    {
+        "text": "And so that's how you got that the expectation of the derivative of the log likelihood is equal to 0."
+    },
+    {
+        "text": "And you do it once again, and you get this guy."
+    },
+    {
+        "text": "There's just some nice things that happen with taking the derivative of the log."
+    },
+    {
+        "text": "We've done that."
+    },
+    {
+        "text": "We'll do that again."
+    },
+    {
+        "text": "But once you do this, you can actually apply it."
+    },
+    {
+        "text": "And missing a parenthesis over there."
+    },
+    {
+        "text": "So when you write the log likelihood, it's just log of an exponential."
+    },
+    {
+        "text": "That's actually pretty nice."
+    },
+    {
+        "text": "Just like the least squares came naturally, the least squares criterion came naturally when we took the log likelihood of the Gaussians."
+    },
+    {
+        "text": "We're going to have the same thing that happens."
+    },
+    {
+        "text": "When I take the log of the density, the exponential is going to go away."
+    },
+    {
+        "text": "And then I'm going to use this formula."
+    },
+    {
+        "text": "But this formula is going to actually give me an equation directly."
+    },
+    {
+        "text": "Oh, that's where it was."
+    }
+]

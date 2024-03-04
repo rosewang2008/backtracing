@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Veronica ! Veronica ! Veronica ! Are you OK ?",
+        "emotion": "neutral",
+        "text": "Veronica ! Veronica ! Veronica ! Are you OK ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Steven ! What ' s going on ! Who were those guys ? I didn ' t know you have a gun ! What ' s going on !",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "What ' s going on ! Who were those guys ? I didn ' t know you have a gun ! What ' s going on !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Steven ! What ' s going on ! Who were those guys ? I didn ' t know you have a gun ! What ' s going on !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I will come clean as soon as we get to safety , OK ? For now , you have to trust me , please ! I would never do anything to hurt you .",
+        "emotion": "neutral",
+        "text": "I will come clean as soon as we get to safety , OK ? For now , you have to trust me , please ! I would never do anything to hurt you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Steven , I ...",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "What ' s going on ! Who were those guys ? I didn ' t know you have a gun ! What ' s going on !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Steven , I ...",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I haven ' t been completely honest with you Veronica , I ' m sorry . I ' m not a fireman . I ' m not even from the United States . I ' m a spy for the Indian government .",
+        "emotion": "neutral",
+        "text": "I haven ' t been completely honest with you Veronica , I ' m sorry . I ' m not a fireman . I ' m not even from the United States . I ' m a spy for the Indian government .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What ? Why didn ' t you tell me before ? What are you doing here ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' m a spy for the Indian government ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Why didn ' t you tell me before ? What are you doing here ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "When I was a young boy , I used to play cricket my father back in my hometown of Hyderabad . It was a peaceful town , and my father was a renowned chemist . One day , he was approached by members of the CIA , claiming that my father had made the discovery of the millennium in his small lab back at the university where he taught bio-chemistry . I never saw him again . I vowed to discover the whereabouts of my father and consequently joined the Indian Intelligence Bureau .",
+        "emotion": "neutral",
+        "text": "When I was a young boy , I used to play cricket my father back in my hometown of Hyderabad . It was a peaceful town , and my father was a renowned chemist . One day , he was approached by members of the CIA , claiming that my father had made the discovery of the millennium in his small lab back at the university where he taught bio-chemistry . I never saw him again . I vowed to discover the whereabouts of my father and consequently joined the Indian Intelligence Bureau .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What does that have to do with those men shooting at us ? Most importantly , why did you lie to me !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "why did you lie to me !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What does that have to do with those men shooting at us ? Most importantly , why did you lie to me !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I ' m sorry , I wasn ' t supposed to meet you . I wasn ' t supposed to fall in love with you , but you have to believe me when I tell you that what I feel for you is real .",
+        "emotion": "neutral",
+        "text": "I ' m sorry , I wasn ' t supposed to meet you . I wasn ' t supposed to fall in love with you , but you have to believe me when I tell you that what I feel for you is real .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I can ' t believe this ! Why are all these things happening to me ! I can ' t take it anymore ! Let me out of the car !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "why did you lie to me !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I can ' t believe this ! Why are all these things happening to me ! I can ' t take it anymore ! Let me out of the car !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Veronica , wait !",
+        "emotion": "neutral",
+        "text": "Veronica , wait !",
+        "id": 11
+    }
+]

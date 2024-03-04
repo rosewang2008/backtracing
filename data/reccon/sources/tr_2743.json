@@ -1,0 +1,99 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How was the movie last night ?",
+        "emotion": "neutral",
+        "text": "How was the movie last night ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I didn't really like it .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "movie last night ?",
+            "I didn't really like it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I didn't really like it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Mary said that she was really pleased with the photography .",
+        "emotion": "neutral",
+        "text": "Mary said that she was really pleased with the photography .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I found it very disappointing .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "photography .",
+            "I found it very disappointing ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I found it very disappointing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "She liked the acting , too , because that's what she wanted to see .",
+        "emotion": "neutral",
+        "text": "She liked the acting , too , because that's what she wanted to see .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I wasn't happy with it .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "the acting",
+            "I wasn't happy with it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I wasn't happy with it .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Nothing is to your satisfaction .",
+        "emotion": "neutral",
+        "text": "Nothing is to your satisfaction .",
+        "id": 7
+    }
+]

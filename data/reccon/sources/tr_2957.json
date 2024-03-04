@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are your plans for this weekend ?",
+        "emotion": "neutral",
+        "text": "What are your plans for this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd like to hire a bike . I think it would be a good idea to do some cycling on Sunday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'd like to hire a bike . I think it would be a good idea to do some cycling on Sunday ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'd like to hire a bike . I think it would be a good idea to do some cycling on Sunday .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "If the weather's fine .",
+        "emotion": "neutral",
+        "text": "If the weather's fine .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I am sure it will be . It's been good so far this weekend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'd like to hire a bike . I think it would be a good idea to do some cycling on Sunday .",
+            "It's been good so far this weekend ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I am sure it will be . It's been good so far this weekend .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I know a good place to hire bikes if you want .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I know a good place to hire bikes if you want ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know a good place to hire bikes if you want .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks . That would be really helpful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I know a good place to hire bikes if you want ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . That would be really helpful .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But remember , be careful when you ride a bike . The traffic in Beijing can be dangerous .",
+        "emotion": "neutral",
+        "text": "But remember , be careful when you ride a bike . The traffic in Beijing can be dangerous .",
+        "id": 7
+    }
+]

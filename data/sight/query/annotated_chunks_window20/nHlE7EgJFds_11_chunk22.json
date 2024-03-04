@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 11,
+        "timestamp": 1684702962651.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone explain how \"length of the linearly independent list \u2264 length of spanning list\"?\nTY in advance."
+    }
+]

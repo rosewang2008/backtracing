@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's so disappointing . I don't know why top athletes would feel the need to take drugs .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He was taking steroids to make him stronger and faster .",
+            "I don't know why top athletes would feel the need to take drugs ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's so disappointing . I don't know why top athletes would feel the need to take drugs .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

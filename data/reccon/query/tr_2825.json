@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Excellent . You can borrow my Janet Jackson's CD . It's her new one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Yes , l have two of her Cds , l'II lend them to you if you like ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Excellent . You can borrow my Janet Jackson's CD . It's her new one .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

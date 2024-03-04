@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi .",
+        "emotion": "neutral",
+        "text": "Hi .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Mary , Hi , Ken I hate to bring this up , but that new stereo , system you got ...",
+        "emotion": "neutral",
+        "text": "Hi , Mary , Hi , Ken I hate to bring this up , but that new stereo , system you got ...",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah ?",
+        "emotion": "neutral",
+        "text": "Yeah ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You were playing it very late last night .",
+        "emotion": "neutral",
+        "text": "You were playing it very late last night .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah ?",
+        "emotion": "neutral",
+        "text": "Yeah ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It kept me awake .",
+        "emotion": "neutral",
+        "text": "It kept me awake .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , I'm sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It kept me awake ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , I'm sorry .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It kept me awake a couple of hours .",
+        "emotion": "neutral",
+        "text": "It kept me awake a couple of hours .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm so sorry , I .. I didn't realize it was that loud .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "It kept me awake a couple of hours .",
+            "I didn't realize it was that loud ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm so sorry , I .. I didn't realize it was that loud .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It was that loud , and it was pretty late , and check with Mary if you don't believe me .",
+        "emotion": "neutral",
+        "text": "It was that loud , and it was pretty late , and check with Mary if you don't believe me .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's true . It was a bit loud .",
+        "emotion": "neutral",
+        "text": "It's true . It was a bit loud .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm very sorry . I didn't realize it . I promise I'll keep it down in the future .",
+        "emotion": "neutral",
+        "text": "I'm very sorry . I didn't realize it . I promise I'll keep it down in the future .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , it's no problem . It ' s OK . You know , it only happened once .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I promise I'll keep it down in the future ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , it's no problem . It ' s OK . You know , it only happened once .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I am glad we've straightened everything out .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I am glad we've straightened everything out ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am glad we've straightened everything out .",
+        "id": 14
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I wasn't aware of that !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Sleeping after 12 is hurtful to our body , and I think this is your problem ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I wasn't aware of that !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

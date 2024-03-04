@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "So you don't think you are fat and need to lose weight ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's good for her but not for me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So you don't think you are fat and need to lose weight ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

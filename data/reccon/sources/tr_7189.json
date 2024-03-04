@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You look really nice today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You look really nice today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You look really nice today .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . I just got this outfit the other day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You look really nice today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I just got this outfit the other day .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really , where did you get it ?",
+        "emotion": "neutral",
+        "text": "Really , where did you get it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I got it from Macy's .",
+        "emotion": "neutral",
+        "text": "I got it from Macy's .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's really nice .",
+        "emotion": "neutral",
+        "text": "It's really nice .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks again . You look nice today , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's really nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks again . You look nice today , too .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you . I just got these shoes today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "You look nice today , too .",
+            "I just got these shoes today ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . I just got these shoes today .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? What kind of shoes are they ?",
+        "emotion": "neutral",
+        "text": "Really ? What kind of shoes are they ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "These are called All Star Chuck Taylors .",
+        "emotion": "neutral",
+        "text": "These are called All Star Chuck Taylors .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I really like those . How much did they cost ?",
+        "emotion": "neutral",
+        "text": "I really like those . How much did they cost ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "They were about forty dollars .",
+        "emotion": "neutral",
+        "text": "They were about forty dollars .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I think I'm going to go buy myself a pair .",
+        "emotion": "neutral",
+        "text": "I think I'm going to go buy myself a pair .",
+        "id": 12
+    }
+]

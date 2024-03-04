@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you think about this store ? I heard it ' s a posh store that ' s only got branches in big cities .",
+        "emotion": "neutral",
+        "text": "What do you think about this store ? I heard it ' s a posh store that ' s only got branches in big cities .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I love this store . The only problem is that it ' s extremely expensive .",
+        "emotion": "neutral",
+        "text": "I love this store . The only problem is that it ' s extremely expensive .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Don ' t worry . I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress .",
+        "emotion": "neutral",
+        "text": "Don ' t worry . I ' Ve decided that for your birthday I ' m going to take you shopping for a new dress .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? I thought you hated shopping ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "for your birthday I ' m going to take you shopping for a new dress .",
+            "you hated shopping ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? I thought you hated shopping ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I do , that ' s why you should appreciate this gift !",
+        "emotion": "neutral",
+        "text": "I do , that ' s why you should appreciate this gift !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . That ' s really nice of you . Let ' s go in and try some things on .",
+        "emotion": "neutral",
+        "text": "Sure . That ' s really nice of you . Let ' s go in and try some things on .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about this red dress ? I think it would really suit you .",
+        "emotion": "neutral",
+        "text": "How about this red dress ? I think it would really suit you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That ' s gorgeous ! Do they have it in a size 8 ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "That ' s gorgeous !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That ' s gorgeous ! Do they have it in a size 8 ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Here you go . On any other day , it would cost me a fortune , but it ' s on special offer today .",
+        "emotion": "neutral",
+        "text": "Here you go . On any other day , it would cost me a fortune , but it ' s on special offer today .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I think this color isn ' t quite right for me . Do they have the same dress in white ?",
+        "emotion": "neutral",
+        "text": "I think this color isn ' t quite right for me . Do they have the same dress in white ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Let me look . Let ' s see ... they ' Ve got one in blue , green , pink , black ... and white . Here you are .",
+        "emotion": "neutral",
+        "text": "Let me look . Let ' s see ... they ' Ve got one in blue , green , pink , black ... and white . Here you are .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "This is perfect ! What do you think ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "This is perfect"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is perfect ! What do you think ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I think you look fantastic . Happy Birthday !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I think you look fantastic . Happy Birthday !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think you look fantastic . Happy Birthday !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I think you look fantastic . Happy Birthday !",
+            "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m so lucky . You only get a chance like this once in a blue moon ! Thanks honey !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The summers are so great here ! Not hot at all . I love the cooling breezes , the clear air , all the greenery .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The summers are so great here ! Not hot at all . I love the cooling breezes , the clear air , all the greenery ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The summers are so great here ! Not hot at all . I love the cooling breezes , the clear air , all the greenery .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "This really has been a wonderful holiday for us . Shall we take a walk around the pond or into those woods for a while ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "This really has been a wonderful holiday for us ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This really has been a wonderful holiday for us . Shall we take a walk around the pond or into those woods for a while ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Let's do both ! Are we in a rush or anything",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "The summers are so great here ! Not hot at all . I love the cooling breezes , the clear air , all the greenery .",
+            "we take a walk around the pond or into those woods",
+            "Let's do both !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Let's do both ! Are we in a rush or anything",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , not really . I had thought we'd stay in Hamburg tonight , but we can't unless we rush it . Let's stay in Bremen instead . Tomorrow we can have lunch in Hamburg , then check into a hostel in Copenhagen and have dinner there .",
+        "emotion": "neutral",
+        "text": "No , not really . I had thought we'd stay in Hamburg tonight , but we can't unless we rush it . Let's stay in Bremen instead . Tomorrow we can have lunch in Hamburg , then check into a hostel in Copenhagen and have dinner there .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sounds fine to me . Whatever , let's enjoy this pond first .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "let's enjoy this pond first ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sounds fine to me . Whatever , let's enjoy this pond first .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . We can walk around to that path that leads into the woods there . Hey , look ! There are some wild ducks over there in the reeds .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "look ! There are some wild ducks over there in the reeds ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure . We can walk around to that path that leads into the woods there . Hey , look ! There are some wild ducks over there in the reeds .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I see them ! Wow ! How do you know they're wild ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "look ! There are some wild ducks over there in the reeds ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I see them ! Wow ! How do you know they're wild ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I used to go hunting with my uncle , that's how .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "look ! There are some wild ducks over there in the reeds ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I used to go hunting with my uncle , that's how .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "They're neat . Now Let's take that path into the woods and see what we can see ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "look ! There are some wild ducks over there in the reeds .",
+            "They're neat ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They're neat . Now Let's take that path into the woods and see what we can see ...",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Oh, no, certainly not, right?"
+    },
+    {
+        "text": "I mean, if I force you to work with x1 plus x2, you cannot work with any function of x1 plus any function of x2, right?"
+    },
+    {
+        "text": "So yeah, this is different."
+    },
+    {
+        "text": "So yeah, the transformation would be just the simple part of your linear regression problem, where you would take your x's, transform them, and then just apply another linear regression."
+    },
+    {
+        "text": "This is genuinely new."
+    },
+    {
+        "text": "Any other question?"
+    },
+    {
+        "text": "All right, so this function g, and the reason why I sort of have to stick to this slightly less natural way of defining it is because that's g that gets a name, not g inverse that gets a name."
+    },
+    {
+        "text": "And the name of g is the link function."
+    },
+    {
+        "text": "So if I want to give you a generalized linear model, I need to give you two ingredients."
+    },
+    {
+        "text": "The first one is the random component, which is the distribution of y given x."
+    },
+    {
+        "text": "And it can be anything in what's called the exponential family of distributions."
+    },
+    {
+        "text": "So for example, I could say y given x is Gaussian with mean ux sigma squared identity."
+    },
+    {
+        "text": "But I could also tell you y given x is gamma with shape parameter equal to alpha of x. I could do some weird things like this."
+    },
+    {
+        "text": "And the second thing is I need to give you a link function."
+    },
+    {
+        "text": "And the link function is going to become very clear how you pick a link function."
+    },
+    {
+        "text": "And the only reason that you actually pick a link function is because of compatibility."
+    },
+    {
+        "text": "This mu of x, I call it mu because mu of x is always the conditional expectation of y given x, always, which means that let's think of y as being a Bernoulli random variable."
+    },
+    {
+        "text": "Where does mu of x live?"
+    },
+    {
+        "text": "AUDIENCE 2."
+    },
+    {
+        "text": "0, 1."
+    }
+]

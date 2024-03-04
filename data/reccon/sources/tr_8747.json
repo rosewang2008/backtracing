@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , three-five .",
+        "emotion": "neutral",
+        "text": "Hello , three-five .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is that Anne ?",
+        "emotion": "neutral",
+        "text": "Is that Anne ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm sorry , I'm very tired . I'm going to bed early . I didn't have good time , and I don't really want to see you again .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'm very tired .",
+            "I didn't have good time ,",
+            "I don't really want to see you again ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry , I'm very tired . I'm going to bed early . I didn't have good time , and I don't really want to see you again .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What are you talking about ? We had a great time . We laughed and talked all night last time .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "What are you talking about ? We had a great time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What are you talking about ? We had a great time . We laughed and talked all night last time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It was hardly all night . And I recall it was you doing all the laughing at your own jokes .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm very tired .",
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "it was you doing all the laughing at your own jokes ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It was hardly all night . And I recall it was you doing all the laughing at your own jokes .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's not fair . We had fun . Give me a second chance . Can we meet tomorrow night for drinks at the pub ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "it was you doing all the laughing at your own jokes .",
+            "That's not fair ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's not fair . We had fun . Give me a second chance . Can we meet tomorrow night for drinks at the pub ?",
+        "id": 6,
+        "source_sentences": [
+            2,
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , I ' m sorry . I'm going to meet some friends tomorrow evening . And I ' m too tired now . I have to go to sleep . Goodbye .",
+        "emotion": "disgust",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm very tired .",
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "it was you doing all the laughing at your own jokes ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , I ' m sorry . I'm going to meet some friends tomorrow evening . And I ' m too tired now . I have to go to sleep . Goodbye .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But Anne ...",
+        "emotion": "sadness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "it was you doing all the laughing at your own jokes .",
+            "That's not fair ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "But Anne ...",
+        "id": 8
+    }
+]

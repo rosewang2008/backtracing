@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , John . How are you ?",
+        "emotion": "neutral",
+        "text": "Hello , John . How are you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm fine , thanks . And you ?",
+        "emotion": "neutral",
+        "text": "I'm fine , thanks . And you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Very well , thanks . Nice to see you again . I haven't seen you for a long time . What have you been doing lately ?",
+        "emotion": "neutral",
+        "text": "Very well , thanks . Nice to see you again . I haven't seen you for a long time . What have you been doing lately ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , nothing much really . And how is everything with you ?",
+        "emotion": "neutral",
+        "text": "Oh , nothing much really . And how is everything with you ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Fine , thanks . I've been busy lately .",
+        "emotion": "neutral",
+        "text": "Fine , thanks . I've been busy lately .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What have you been doing ?",
+        "emotion": "neutral",
+        "text": "What have you been doing ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I've been studying for my exams . My school exams will begin next month .",
+        "emotion": "neutral",
+        "text": "I've been studying for my exams . My school exams will begin next month .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? Good luck for them .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "My school exams will begin next month ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Good luck for them .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thanks . And how are your parents ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Good luck for them ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . And how are your parents ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "They're both very well , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "And how are your parents ?",
+            "They're both very well , thanks ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They're both very well , thanks .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Where are you going now ?",
+        "emotion": "neutral",
+        "text": "Where are you going now ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm going to do some shopping . Why don't you come with me ?",
+        "emotion": "happiness",
+        "explanation": "Assuming asking somone to come along is a cause of happiness from socialization.",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to do some shopping . Why don't you come with me ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm going to do some shopping . Why don't you come with me ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I can't . I have to meet someone .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to do some shopping . Why don't you come with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I can't . I have to meet someone .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It's been nice talking to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It's been nice talking to you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's been nice talking to you .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Good-bye . See you again sometime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It's been nice talking to you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good-bye . See you again sometime .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

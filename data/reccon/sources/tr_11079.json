@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's nice of you to see me off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "see me off ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's nice of you to see me off .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's my pleasure . Hope you ' ll visit Beijing more often .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's nice of you to see me off ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's my pleasure . Hope you ' ll visit Beijing more often .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thanks . Stop here now .",
+        "emotion": "neutral",
+        "text": "Thanks . Stop here now .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK . I hope you have a good trip . Thanks ever so much for your cooperation , Mr . Simpson . Give my best wishes to Mr . Green .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "your cooperation"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "OK . I hope you have a good trip . Thanks ever so much for your cooperation , Mr . Simpson . Give my best wishes to Mr . Green .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK , I will . Goodbye and remember to look me up if ever you're in Paris .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I hope you have a good trip . Thanks ever so much for your cooperation , Mr . Simpson . Give my best wishes to Mr . Green ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , I will . Goodbye and remember to look me up if ever you're in Paris .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Goodbye and all the best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Give my best wishes to Mr . Green .",
+            "OK , I will .",
+            "remember to look me up if ever you're in Paris ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Goodbye and all the best .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK , bye for now !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I hope you have a good trip . Thanks ever so much for your cooperation , Mr . Simpson . Give my best wishes to Mr . Green .",
+            "all the best ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , bye for now !",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Give my best wishes to Mr . Green .",
+            "OK , I will .",
+            "remember to look me up if ever you're in Paris ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Bye .",
+        "id": 8
+    }
+]

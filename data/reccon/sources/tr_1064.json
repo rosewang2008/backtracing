@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Want to join me for a midnight snack ? I need to grab something to eat .",
+        "emotion": "neutral",
+        "text": "Want to join me for a midnight snack ? I need to grab something to eat .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Fine with me , but no more chafing dish .",
+        "emotion": "neutral",
+        "text": "Fine with me , but no more chafing dish .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Let's go to the food stall . There's a good one just around the corner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Let's go to the food stall . There's a good one just around the corner ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's go to the food stall . There's a good one just around the corner .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd love to try some snacks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Let's go to the food stall",
+            "I'd love to try some snacks ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'd love to try some snacks .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "( Later .. ) Everything looks tempting . What do you want to have ?",
+        "emotion": "neutral",
+        "text": "( Later .. ) Everything looks tempting . What do you want to have ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Kebabs and roast squid .",
+        "emotion": "neutral",
+        "text": "Kebabs and roast squid .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Can I have a bite ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Kebabs and roast squid ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Can I have a bite ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Help yourself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Can I have a bite ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Help yourself .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Super !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Kebabs and roast squid .",
+            "Can I have a bite ?",
+            "Help yourself ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Super !",
+        "id": 9
+    }
+]

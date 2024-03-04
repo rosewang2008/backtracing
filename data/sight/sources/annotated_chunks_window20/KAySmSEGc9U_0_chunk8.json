@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So in other words, we already know how to do it for two states."
+    },
+    {
+        "text": "I'm going to use that fact to show how to do it for three states, and then use the fact that I can do it for three states to show how to do it for four states, and so on and so on."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "And the idea for how to do that is actually pretty easy to grasp."
+    },
+    {
+        "text": "What we're going to do is if we have a k-state GNFA that we want to convert, we're going to change that k-state GNFA to a k minus 1-state GNFA, and then use our assumption that we already know how to do the k minus 1-state GNFA."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So in terms of a picture, I'm going to take a k-state to prove that I can always convert k-state GNFAs to regular expressions."
+    },
+    {
+        "text": "I'm going to show how to convert the k-state one into an equivalent k minus 1-state GNFA."
+    },
+    {
+        "text": "And then if you just like to think of it this procedurally, the k minus 1 gets converted to a k minus 2, gets converted to a k minus 3, and so on and so on, until I get down to 2, which then I know how to do directly."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So the whole name of the game here is figuring out how to convert a GNFA that has k states into another one that has one fewer state that does the same language."
+    },
+    {
+        "text": "OK, so you have to hold that in your head."
+    },
+    {
+        "text": "I mean, I wish I had more blackboard space here, but it's very limited here."
+    },
+    {
+        "text": "So you have to remember what we're going to be doing on the next slide, because that's going to finish the job for us."
+    },
+    {
+        "text": "As long as I can show in general how to convert a k-state GNFA to a GNFA that has one fewer state, but it still does the same language, I'm good."
+    },
+    {
+        "text": "Because then I can keep iterating that until I get down to 2."
+    },
+    {
+        "text": "All right, so this is the guts of the argument."
+    },
+    {
+        "text": "So I have my k-state machine."
+    },
+    {
+        "text": "Here's my start state."
+    },
+    {
+        "text": "Here's my accept state."
+    }
+]

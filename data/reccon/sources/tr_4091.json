@@ -1,0 +1,163 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good evening , Mr . Wu .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Good evening ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Good evening , Mr . Wu .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good evening , Mr . Smith .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Good evening ,",
+            "Good evening ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good evening , Mr . Smith .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Have you met my wife , Mary ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Good evening ,",
+            "Good evening ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Have you met my wife , Mary ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No . I haven ' t had the pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Have you met my wife , Mary ?",
+            "No . I haven ' t had the pleasure ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No . I haven ' t had the pleasure .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Mary , this is Mr . Wu , my new Chinese friend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Have you met my wife , Mary ?",
+            "No . I haven ' t had the pleasure .",
+            "my new Chinese friend ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Mary , this is Mr . Wu , my new Chinese friend .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How do you do , Mr . Wu ? Welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "my new Chinese friend .",
+            "How do you do , Mr . Wu ? Welcome ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "How do you do , Mr . Wu ? Welcome .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How do you do ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "How do you do , Mr . Wu ? Welcome .",
+            "How do you do ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "How do you do ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Have a glass of wine , Mr . Wu ? And let me introduce you to some of my guests .",
+        "emotion": "happiness",
+        "explanation": "Assuming offering someone help/food/drinks, and introducing someone as happiness inducing behavior",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Have a glass of wine , Mr . Wu ? And let me introduce you to some of my guests ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Have a glass of wine , Mr . Wu ? And let me introduce you to some of my guests .",
+        "id": 8
+    }
+]

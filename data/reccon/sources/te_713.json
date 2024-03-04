@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Morning , Peter . Nice suit ! A new one ?",
+        "emotion": "happiness",
+        "explanation": "Appreciation",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nice suit"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Morning , Peter . Nice suit ! A new one ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , yes . My wife bought it for me yesterday . Hmm , you look nice in that yellow dress . Yellow suits you really well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Nice suit",
+            "My wife bought it for me yesterday .",
+            "Oh , yes . My wife bought it for me yesterday . Hmm , you look nice in that yellow dress . Yellow suits you really well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , yes . My wife bought it for me yesterday . Hmm , you look nice in that yellow dress . Yellow suits you really well .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Maybe . Several people have suggested that I get more yellow clothes . They say the color suits me because I have a fair complexion .",
+        "emotion": "neutral",
+        "text": "Maybe . Several people have suggested that I get more yellow clothes . They say the color suits me because I have a fair complexion .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's right . You know , pink , green and black could also be good for you . Actually , I think that all colors are okay for a person with your complexion . It's just that different colors can give people different impressions . For example , black could make you look mature , while pink could make you look young and energetic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , yes . My wife bought it for me yesterday . Hmm , you look nice in that yellow dress . Yellow suits you really well .",
+            "Several people have suggested that I get more yellow clothes . They say the color suits me because I have a fair complexion .",
+            "You know , pink , green and black could also be good for you . Actually , I think that all colors are okay for a person with your complexion ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's right . You know , pink , green and black could also be good for you . Actually , I think that all colors are okay for a person with your complexion . It's just that different colors can give people different impressions . For example , black could make you look mature , while pink could make you look young and energetic .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you for your compliments . It sounds like you're a clothing expert .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "You know , pink , green and black could also be good for you . Actually , I think that all colors are okay for a person with your complexion .",
+            "Thank you for your compliments . It sounds like you're a clothing expert ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you for your compliments . It sounds like you're a clothing expert .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , compared with my wife , I'm just a beginner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It sounds like you're a clothing expert ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , compared with my wife , I'm just a beginner .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , you have been promoted to president of the department .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you have been promoted to president of the department ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , you have been promoted to president of the department .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "All this is thanks to the efforts of my superiors and colleagues .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you have been promoted to president of the department ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All this is thanks to the efforts of my superiors and colleagues .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You are so smart . Your efforts in the success of the plan were outstanding .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "You are so smart . Your efforts in the success of the plan were outstanding ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You are so smart . Your efforts in the success of the plan were outstanding .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I just did what I should have done .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "You are so smart . Your efforts in the success of the plan were outstanding ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I just did what I should have done .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You ' Ve got a great personality .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I just did what I should have done ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' Ve got a great personality .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you for your compliments . I will try even harder to repay the company and your support .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "You are so smart . Your efforts in the success of the plan were outstanding .",
+            "I just did what I should have done ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you for your compliments . I will try even harder to repay the company and your support .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I believe you will . I ' m very pleased with your work . Your promotion will contribute to the development of the company .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I will try even harder to repay the company and your support .",
+            "I ' m very pleased with your work . Your promotion will contribute to the development of the company ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I believe you will . I ' m very pleased with your work . Your promotion will contribute to the development of the company .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thanks for saying so .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I ' m very pleased with your work . Your promotion will contribute to the development of the company ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for saying so .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The probability of catching 2 fish in-- of catching 0 fish in the next 2 hours, and according to the formula that we have, this is going to be e to the minus lambda times how much time we have."
+    },
+    {
+        "text": "There's another way of thinking about this."
+    },
+    {
+        "text": "The probability that I fish for more than 2 hours is the probability that the first catch happens after time 2, which would be the integral from 2 to infinity of the density of the first arrival time."
+    },
+    {
+        "text": "And that density is an exponential."
+    },
+    {
+        "text": "So you do the integral of an exponential, and, of course, you would get the same answer."
+    },
+    {
+        "text": "OK. That's easy."
+    },
+    {
+        "text": "So what's the probability of fishing for more than 2 but less than 5 hours?"
+    },
+    {
+        "text": "What does it take for this to happen?"
+    },
+    {
+        "text": "For this to happen, we need to catch 0 fish from time 0 to 2 and catch the first fish sometime between 2 and 5."
+    },
+    {
+        "text": "So if you-- one way of thinking about what's happening here might be to say that there's a Poisson process that keeps going on forever."
+    },
+    {
+        "text": "But as soon as I catch the first fish, instead of continuing fishing and obtaining those other fish I just go home right now."
+    },
+    {
+        "text": "Now the fact that I go home before time 5 means that, if I were to stay until time 5, I would have caught at least 1 fish."
+    },
+    {
+        "text": "I might have caught more than 1."
+    },
+    {
+        "text": "So the event of interest here is that the first catch happens between times 2 and 5."
+    },
+    {
+        "text": "So one way of calculating this quantity would be-- Its the probability that the first catch happens between times 2 and 5."
+    },
+    {
+        "text": "Another way to deal with it is to say, this is the probability that I caught 0 fish in the first 2 hours and then the probability that I catch at least 1 fish during the next 3 hours."
+    },
+    {
+        "text": "This."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "The probability of 0 fish in the next 3 hours is the probability of 0 fish during this time."
+    },
+    {
+        "text": "1 minus this is the probability of catching at least 1 fish, of having at least 1 arrival, between times 2 and 5."
+    }
+]

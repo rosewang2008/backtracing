@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "That's very unbelievable . Is it fake ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "It's $ 60 here .",
+            "That's very unbelievable . Is it fake ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's very unbelievable . Is it fake ?",
+        "id": 18,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

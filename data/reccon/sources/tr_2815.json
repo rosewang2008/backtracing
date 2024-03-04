@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It sounds cool . The rhythms look really difficult .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing .",
+            "It sounds cool ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It sounds cool . The rhythms look really difficult .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "They basically turn their bodies into drums . There's a national step competition every year .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing .",
+            "It sounds cool .",
+            "national step competition every year ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "They basically turn their bodies into drums . There's a national step competition every year .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , black people are supposed to be great dancers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Here's some dancing . See those guys stomping , clapping and shouting ? They're practicing step-dancing .",
+            "It sounds cool .",
+            "national step competition every year .",
+            "turn their bodies into drums ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Well , black people are supposed to be great dancers .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wen ! That's only a stereotype . Like all Asians are supposed to be math geniuses . I'm not a great dancer , and you said you failed calculus .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "black people are supposed to be great dancers .",
+            "That's only a stereotype . Like all Asians are supposed to be math geniuses . I'm not a great dancer , and you said you failed calculus ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wen ! That's only a stereotype . Like all Asians are supposed to be math geniuses . I'm not a great dancer , and you said you failed calculus .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ha-ha ! You got me there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm not a great dancer , and you said you failed calculus ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ha-ha ! You got me there !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

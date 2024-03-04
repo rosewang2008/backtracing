@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's snowing outside .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "snowing outside"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's snowing outside .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , how could it be ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "snowing outside"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , how could it be ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Let's go out and have a look .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "snowing outside"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Let's go out and have a look .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK . Wait a minute .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "snowing outside"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Wait a minute .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Look at the snow , it's so beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "snowing outside",
+            "it's so beautiful"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Look at the snow , it's so beautiful .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . It's really snowing .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "snowing outside"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . It's really snowing .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I love winter , I love snow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "snowing outside",
+            "it's so beautiful",
+            "I love winter , I love snow ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I love winter , I love snow .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But don't you think it's a little too cold ?",
+        "emotion": "neutral",
+        "text": "But don't you think it's a little too cold ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "But I like cold more than hot .",
+        "emotion": "neutral",
+        "text": "But I like cold more than hot .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You are so interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "But I like cold more than hot .",
+            "You are so interesting ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You are so interesting .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

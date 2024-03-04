@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it looks very nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

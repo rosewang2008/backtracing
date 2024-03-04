@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that's typically going to be written as the top left symbol."
+    },
+    {
+        "text": "So this symbol s here is going to be the starting symbol."
+    },
+    {
+        "text": "And grammars can be used to define languages and to gen, well, to generate strings and to define languages."
+    },
+    {
+        "text": "So first of all, let's see how a grammar using this as an illustration can generate strings."
+    },
+    {
+        "text": "Actually, just to emphasize this terminology here, in this particular example, we had three rules."
+    },
+    {
+        "text": "The two variables were r and s. The two terminals were 0 and 1."
+    },
+    {
+        "text": "And the start variable was this top left-hand symbol, as I mentioned, the s. So grammars generate strings."
+    },
+    {
+        "text": "The way they do is you follow a certain procedure, which is really pretty simple."
+    },
+    {
+        "text": "You write down, first of all, the start variable."
+    },
+    {
+        "text": "And I'll do an example in a second."
+    },
+    {
+        "text": "You write down the start variable."
+    },
+    {
+        "text": "And then you take a look at what you've written down."
+    },
+    {
+        "text": "And if it has any variables in it, you can apply one of the corresponding right-hand sides of a rule as a substitution for that variable."
+    },
+    {
+        "text": "And so, for example, if you have an s in the thing you've written down, you can substitute for that s a 0, s, 1."
+    },
+    {
+        "text": "Or you can substitute for that s an r. Or if you have an r, you can substitute for that s an empty string."
+    },
+    {
+        "text": "So you're just going to keep on doing that substitutions over and over again until there are no variables left."
+    },
+    {
+        "text": "So there's nothing left to substitute."
+    },
+    {
+        "text": "Only terminals remain."
+    },
+    {
+        "text": "At that point, you have generated a string in the language."
+    },
+    {
+        "text": "So the language, then, is the collection of all generated strings."
+    }
+]

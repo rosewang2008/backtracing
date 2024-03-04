@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so let's look at the special case just to see how this fits with stuff we've seen before."
+    },
+    {
+        "text": "Let's do a special example where our surface is given by the equation z minus f of x, y equals zero."
+    },
+    {
+        "text": "OK, that's a strange way to write the equation z equals f of x, y that we saw before."
+    },
+    {
+        "text": "But now, it looks like, well, some function of x, y, z equals zero."
+    },
+    {
+        "text": "So, let's try to use this new method."
+    },
+    {
+        "text": "So, let's call this guy g of x, y, z."
+    },
+    {
+        "text": "Well, so now let's look at the normal vector."
+    },
+    {
+        "text": "The normal vector would be the gradient of g, we said."
+    },
+    {
+        "text": "What's the gradient of this function?"
+    },
+    {
+        "text": "So, gradient of g, well, partial g, partial x, that's just negative partial f, partial x. Gradient g, sorry, the y component, partial g, partial y is going to be negative f sub y."
+    },
+    {
+        "text": "And, g sub z is just one."
+    },
+    {
+        "text": "So now, if you take n over n dot k dx dy, well, it looks like that's going to be negative f sub x, negative f sub y, one divided by, well, what's n dot k?"
+    },
+    {
+        "text": "If you do that with k, you'll get just one."
+    },
+    {
+        "text": "So, I'm not going to write it, dx dy."
+    },
+    {
+        "text": "See, that's, again, our favorite formula."
+    },
+    {
+        "text": "So, this one is actually more general because you don't need to solve for z."
+    },
+    {
+        "text": "But, if you can solve for z, then it's the same as before."
+    },
+    {
+        "text": "OK, I think that's enough formulas for n dS."
+    },
+    {
+        "text": "So, after spending a lot of time telling you how to compute surface integrals, now I'm going to try to tell you how to avoid computing them."
+    },
+    {
+        "text": "And, that is called the divergence theorem."
+    }
+]

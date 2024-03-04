@@ -1,0 +1,1133 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's he going to say? Maybe we should tell him before he sees it.",
+        "emotion": "sad",
+        "explanation": "the speaker is sad that dad would see the crack",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What's he going to say? Maybe we should tell him before he sees it.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "He saw it.",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "He saw it.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "He was out here when it broke.",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it.",
+            "He was out here when it broke."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "He was out here when it broke.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Around Four this morning, and there was a crack and I looked out. We're standing right there when I cracked.",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it.",
+            "He was out here when it broke.",
+            "We're standing right there when I cracked."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Around Four this morning, and there was a crack and I looked out. We're standing right there when I cracked.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "I don't know. but When it cracked he ran back into the house and start to cry in the kitchen.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it.",
+            "He was out here when it broke.",
+            "We're standing right there when I cracked.",
+            "When it cracked he ran back into the house and start to cry in the kitchen."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't know. but When it cracked he ran back into the house and start to cry in the kitchen.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Did you talk to him?",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it.",
+            "He was out here when it broke.",
+            "We're standing right there when I cracked.",
+            "When it cracked he ran back into the house and start to cry in the kitchen."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "Did you talk to him?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "No. I figured it was best to leave him alone.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "He saw it.",
+            "He was out here when it broke.",
+            "We're standing right there when I cracked.",
+            "When it cracked he ran back into the house and start to cry in the kitchen."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "No. I figured it was best to leave him alone.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "He cried hard.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "He cried hard."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He cried hard.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "I could hear him right through the floor of my room.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He cried hard.",
+            "I could hear him right through the floor of my room."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I could hear him right through the floor of my room.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "He is thinking about him again.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "He cried hard.",
+            "I could hear him right through the floor of my room.",
+            "He is thinking about him again."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He is thinking about him again.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's getting just like after Larry died, he's having dreams, he's walking around at night.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "He cried hard.",
+            "I could hear him right through the floor of my room.",
+            "He is thinking about him again.",
+            "after Larry died, he's having dreams, he's walking around at night"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It's getting just like after Larry died, he's having dreams, he's walking around at night.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I guess, he is.",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "He cried hard.",
+            "I could hear him right through the floor of my room.",
+            "He is thinking about him again.",
+            "after Larry died, he's having dreams, he's walking around at night"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I guess, he is.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "What's the meaning of that?",
+        "emotion": "sad",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I guess, he is."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What's the meaning of that?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I don't know the meaning of it. But I know one thing mom did. We made a terrible mistake with dad.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't know the meaning of it. But I know one thing mom did. We made a terrible mistake with dad.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "No um, I don't want to argue with him, but it's time we realized that nobody else believes that Larry is alive.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "No um, I don't want to argue with him, but it's time we realized that nobody else believes that Larry is alive.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Why shouldn't he dream about him, walk around during the night, looking for him um. Do we contradict him? Do we say outright that we don't have any hope anymore, that we haven't had any for years now?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "Why shouldn't he dream about him, walk around during the night, looking for him um. Do we contradict him? Do we say outright that we don't have any hope anymore, that we haven't had any for years now?"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Why shouldn't he dream about him, walk around during the night, looking for him um. Do we contradict him? Do we say outright that we don't have any hope anymore, that we haven't had any for years now?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "We have to say it to him!",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "Why shouldn't he dream about him, walk around during the night, looking for him um. Do we contradict him? Do we say outright that we don't have any hope anymore, that we haven't had any for years now?",
+            "We have to say it to him!"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "We have to say it to him!",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "For God's sake, mom, three years. Nobody comes back after three years! It's insane!",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "Why shouldn't he dream about him, walk around during the night, looking for him um. Do we contradict him? Do we say outright that we don't have any hope anymore, that we haven't had any for years now?",
+            "We have to say it to him!",
+            "Nobody comes back after three years! It's insane!"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "For God's sake, mom, three years. Nobody comes back after three years! It's insane!",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "To you it is, and to me, but not to your father. Now look, you can talk yourself blue in the face, but there's no body, and there's no grave, so where are you?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "To you it is, and to me, but not to your father. Now look, you can talk yourself blue in the face, but there's no body, and there's no grave, so where are you?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Sit down, mom. I want to talk to you.",
+        "emotion": "frustrated",
+        "explanation": "the speaker wants to tell mom that he intends to marry Larry's girlfriend, but is frustrated by mom's unwillingness to make dad accept that Larry is dead",
+        "expanded emotion cause evidence": [
+            "b",
+            20
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Nobody comes back after three years! It's insane!"
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Sit down, mom. I want to talk to you.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "B",
+        "utterance": "All right, All right mom. Listen!",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "All right, All right mom. Listen!",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "You know why I asked Annie here, don't you?",
+        "emotion": "sad",
+        "explanation": "the speaker wants to tell mom that he intends to marry Larry's girlfriend, but is sad because he is anticipating that mom will not accept it",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "You know why I asked Annie here, don't you?",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "You know.",
+        "emotion": "frustrated",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "You know.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "Well I got an idea. But what's the story?",
+        "emotion": "neutral",
+        "text": "Well I got an idea. But what's the story?",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "I'm going to ask her to marry me.",
+        "emotion": "neutral",
+        "text": "I'm going to ask her to marry me.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "You know that's not just my business.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know that's not just my business.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "So it's all right. I can go ahead with it then?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            28
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "You know that's not just my business."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "So it's all right. I can go ahead with it then?",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "I ignore what I got to ignore. The girl is Larry's girl.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            29
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "I can go ahead with it then?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ignore what I got to ignore. The girl is Larry's girl.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "Now Chris you can go on from there, but I don't know what to do. I mean do you know what to do, because I don't.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            29,
+            31
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "I can go ahead with it then?",
+            "I don't know what to do. I mean do you know what to do, because I don't."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Now Chris you can go on from there, but I don't know what to do. I mean do you know what to do, because I don't.",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "B",
+        "utterance": "I don't know why it is. But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            31,
+            32
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I don't know why it is. But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "A",
+        "utterance": "Well you're a considerate fellow, there's nothing wrong with that.",
+        "emotion": "neutral",
+        "text": "Well you're a considerate fellow, there's nothing wrong with that.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "To hell with that!",
+        "emotion": "angry",
+        "explanation": "the speaker is angry that A is trying to convince him to pull back because of dad's issues",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            31,
+            32,
+            33
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+            "Well you're a considerate fellow"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "To hell with that!",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "A",
+        "utterance": "Have you asked Annie yet to marry you?",
+        "emotion": "neutral",
+        "text": "Have you asked Annie yet to marry you?",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "A",
+        "utterance": "Well how did you know that she will go along with it, I mean maybe she feels the same way as your father?",
+        "emotion": "neutral",
+        "text": "Well how did you know that she will go along with it, I mean maybe she feels the same way as your father?",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "A",
+        "utterance": "The trouble is you don't see enough women, you never have",
+        "emotion": "neutral",
+        "text": "The trouble is you don't see enough women, you never have",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "B",
+        "utterance": "So what, I'm not fast with women.",
+        "emotion": "frustrated",
+        "explanation": "the speaker is frustrated that A is trying to convince him to pull back because of dad's issues",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            31,
+            32,
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+            "The trouble is you don't see enough women, you never have",
+            "I'm not fast with women."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "So what, I'm not fast with women.",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "A",
+        "utterance": "Well I just don't see why it has to be Annie.",
+        "emotion": "neutral",
+        "text": "Well I just don't see why it has to be Annie.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "B",
+        "utterance": "Because it is.",
+        "emotion": "frustrated",
+        "explanation": "the speaker is frustrated that A is trying to convince him to pull back because of dad's issues",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            31,
+            32,
+            39
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+            "I just don't see why it has to be Annie."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Because it is.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "B",
+        "utterance": "I can't help it. I know her best. I was brought up next door to here, the easiest, when I think of somebody for my wife, I think of Annie. Do you want a diagram?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16,
+            17,
+            31,
+            32,
+            39
+        ],
+        "expanded emotion cause span": [
+            "We made a terrible mistake with dad.",
+            "Being dishonest with him. It's the kind of thing that pays off and now it's paying off.",
+            "You know that Larry's not coming back, and I know it. So why do we go on letting him think that we believe with him?",
+            "argue with him, but it's time we realized that nobody else believes that Larry is alive",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time.",
+            "I just don't see why it has to be Annie."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I can't help it. I know her best. I was brought up next door to here, the easiest, when I think of somebody for my wife, I think of Annie. Do you want a diagram?",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "A",
+        "utterance": "No, I don't want a diagram, but, Chris, your father thinks Larry's coming back.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            30,
+            31,
+            42
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "The girl is Larry's girl.",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "your father thinks Larry's coming back."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No, I don't want a diagram, but, Chris, your father thinks Larry's coming back.",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "A",
+        "utterance": "You marry his girl, and you're pronouncing him dead. Now what's going to happen to your father, do you know? I don't.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            30,
+            31,
+            42,
+            43
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "The girl is Larry's girl.",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "your father thinks Larry's coming back.",
+            "you're pronouncing him dead. Now what's going to happen to your father"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You marry his girl, and you're pronouncing him dead. Now what's going to happen to your father, do you know? I don't.",
+        "id": 43
+    },
+    {
+        "turn": 44,
+        "speaker": "B",
+        "utterance": "All right, then, Mom.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            30,
+            31,
+            42,
+            43
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "The girl is Larry's girl.",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "your father thinks Larry's coming back.",
+            "you're pronouncing him dead. Now what's going to happen to your father"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "All right, then, Mom.",
+        "id": 44
+    },
+    {
+        "turn": 45,
+        "speaker": "B",
+        "utterance": "I've given it three years of thought. And hope by now that he wouldn't. Can you forget about Larry an-- and we can have a regular wedding and have everybody be happy. But that can't happen here, I'm set to get out.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            30,
+            31,
+            42,
+            43,
+            45
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "The girl is Larry's girl.",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "your father thinks Larry's coming back.",
+            "you're pronouncing him dead. Now what's going to happen to your father",
+            "I've given it three years of thought. And hope by now that he wouldn't. Can you forget about Larry an-- and we can have a regular wedding and have everybody be happy. But that can't happen here,"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I've given it three years of thought. And hope by now that he wouldn't. Can you forget about Larry an-- and we can have a regular wedding and have everybody be happy. But that can't happen here, I'm set to get out.",
+        "id": 45
+    },
+    {
+        "turn": 46,
+        "speaker": "A",
+        "utterance": "What the hell is this?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            45
+        ],
+        "expanded emotion cause span": [
+            "I'm set to get out."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What the hell is this?",
+        "id": 46
+    },
+    {
+        "turn": 47,
+        "speaker": "B",
+        "utterance": "I'll get out. I'll get married and live some place else. Maybe, maybe New York?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20,
+            27,
+            30,
+            31,
+            42,
+            43,
+            45
+        ],
+        "expanded emotion cause span": [
+            "Nobody comes back after three years! It's insane!",
+            "I'm going to ask her to marry me.",
+            "The girl is Larry's girl.",
+            "I don't know what to do. I mean do you know what to do, because I don't.",
+            "your father thinks Larry's coming back.",
+            "you're pronouncing him dead. Now what's going to happen to your father",
+            "I've given it three years of thought. And hope by now that he wouldn't. Can you forget about Larry an-- and we can have a regular wedding and have everybody be happy. But that can't happen here,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'll get out. I'll get married and live some place else. Maybe, maybe New York?",
+        "id": 47
+    },
+    {
+        "turn": 48,
+        "speaker": "A",
+        "utterance": "Are you crazy?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            45,
+            47
+        ],
+        "expanded emotion cause span": [
+            "I'm set to get out.",
+            "I'll get out. I'll get married and live some place else."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you crazy?",
+        "id": 48
+    },
+    {
+        "turn": 49,
+        "speaker": "A",
+        "utterance": "Wait a minute. Tell me this. Do you mean to say that you would leave the business?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            45,
+            47,
+            49
+        ],
+        "expanded emotion cause span": [
+            "I'm set to get out.",
+            "I'll get out. I'll get married and live some place else.",
+            "you would leave the business?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wait a minute. Tell me this. Do you mean to say that you would leave the business?",
+        "id": 49
+    },
+    {
+        "turn": 50,
+        "speaker": "B",
+        "utterance": "The business? The business? It doesn't inspire me?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            49,
+            50
+        ],
+        "expanded emotion cause span": [
+            "Do you mean to say that you would leave the business?",
+            "It doesn't inspire me?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "The business? The business? It doesn't inspire me?",
+        "id": 50
+    },
+    {
+        "turn": 51,
+        "speaker": "A",
+        "utterance": "Don't- you, you can't think like that! Don't think like that!",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            50,
+            51
+        ],
+        "expanded emotion cause span": [
+            "It doesn't inspire me?",
+            "you can't think like that! Don't think like that!"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Don't- you, you can't think like that! Don't think like that!",
+        "id": 51,
+        "source_sentences": [
+            49
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 52,
+        "speaker": "A",
+        "utterance": "All right! But don't think like that, because I mean, what the hell did we do all this for, Chris? The whole business it's all for you! The whole shooting match is for you!",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            50,
+            51,
+            52
+        ],
+        "expanded emotion cause span": [
+            "It doesn't inspire me?",
+            "you can't think like that! Don't think like that!",
+            "what the hell did we do all this for, Chris? The whole business it's all for you! The whole shooting match is for you!"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "All right! But don't think like that, because I mean, what the hell did we do all this for, Chris? The whole business it's all for you! The whole shooting match is for you!",
+        "id": 52
+    },
+    {
+        "turn": 53,
+        "speaker": "A",
+        "utterance": "I don't understand you, do I?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            50,
+            51,
+            52,
+            32
+        ],
+        "expanded emotion cause span": [
+            "It doesn't inspire me?",
+            "you can't think like that! Don't think like that!",
+            "what the hell did we do all this for, Chris? The whole business it's all for you! The whole shooting match is for you!",
+            "I don't know why it is. But every time I reach out for something I want, I have to pull back because other people will suffer. My whole bloody life, time after time, after time."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I don't understand you, do I?",
+        "id": 53
+    }
+]

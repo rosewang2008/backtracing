@@ -1,0 +1,187 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Daisy !",
+        "emotion": "neutral",
+        "text": "Hi , Daisy !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi Simon . Nice to meet you again",
+        "emotion": "neutral",
+        "text": "Hi Simon . Nice to meet you again",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I hope you are Settling in at school !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Hi Simon . Nice to meet you again"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope you are Settling in at school !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I am ! I've made lots of friends and I really enjoy my courses .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I hope you are Settling in at school !",
+            "I am ! I've made lots of friends and I really enjoy my courses ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am ! I've made lots of friends and I really enjoy my courses .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good ! Me too ! By the way . you didn't tell me what you are studying here .",
+        "emotion": "neutral",
+        "text": "Good ! Me too ! By the way . you didn't tell me what you are studying here .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Didn't I ? I'm doing business studies .",
+        "emotion": "neutral",
+        "text": "Didn't I ? I'm doing business studies .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? That's great . You hope to join a company after graduating ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm doing business studies ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? That's great . You hope to join a company after graduating ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Maybe . My parents moved to Canada the year when I was born . We are living in Toronto . Suppose I might get a job in Toronto when I graduate . It's too soon to say really .",
+        "emotion": "neutral",
+        "text": "Maybe . My parents moved to Canada the year when I was born . We are living in Toronto . Suppose I might get a job in Toronto when I graduate . It's too soon to say really .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What about your friend Zoe",
+        "emotion": "neutral",
+        "text": "What about your friend Zoe",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "She's from Australia . She lives in Sydney . Her father runs a hotel business there and she is doing a degree in accountancy .",
+        "emotion": "neutral",
+        "text": "She's from Australia . She lives in Sydney . Her father runs a hotel business there and she is doing a degree in accountancy .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Accountancy ? Really ? She must be very good at figures .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "she is doing a degree in accountancy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Accountancy ? Really ? She must be very good at figures .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I guess so . What about you , Simon ?",
+        "emotion": "neutral",
+        "text": "I guess so . What about you , Simon ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I'm studying law .",
+        "emotion": "neutral",
+        "text": "I'm studying law .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Great ! So I'll know who to call if I ever need a lawyer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'm studying law .",
+            "I'll know who to call if I ever need a lawyer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great ! So I'll know who to call if I ever need a lawyer .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Sure , welcome anytime",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Great ! So I'll know who to call if I ever need a lawyer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , welcome anytime",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

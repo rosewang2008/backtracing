@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She is a pretty good teacher ! With her help I think I can make great progress in English .",
+            "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

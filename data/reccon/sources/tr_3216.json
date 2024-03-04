@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Would you talk to me about taking one of Dr . Miller's classes ?",
+        "emotion": "neutral",
+        "text": "Would you talk to me about taking one of Dr . Miller's classes ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Have you ever been in one of his classes ?",
+        "emotion": "neutral",
+        "text": "Yes . Have you ever been in one of his classes ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm thinking about taking his class next semester .",
+        "emotion": "neutral",
+        "text": "I'm thinking about taking his class next semester .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He was a very easy teacher . Are you thinking of taking a class with him ?",
+        "emotion": "neutral",
+        "text": "He was a very easy teacher . Are you thinking of taking a class with him ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm not sure because I really need to learn something , but I also worry about grades .",
+        "emotion": "neutral",
+        "text": "I'm not sure because I really need to learn something , but I also worry about grades .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Grades are important , but don't you think that gaining the knowledge is important , too ?",
+        "emotion": "neutral",
+        "text": "Grades are important , but don't you think that gaining the knowledge is important , too ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really need to learn this stuff .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really need to learn this stuff ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really need to learn this stuff .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He made everything so interesting that the time just flew by . Do you know what I mean ?",
+        "emotion": "neutral",
+        "text": "He made everything so interesting that the time just flew by . Do you know what I mean ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , that sounds right for me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He made everything so interesting that the time just flew by .",
+            "that sounds right for me ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , that sounds right for me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Did you know that he came here last year after 10 years in the military ?",
+        "emotion": "neutral",
+        "text": "Did you know that he came here last year after 10 years in the military ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yeah , I already knew that . That could be a good thing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "he came here last year after 10 years in the military"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I already knew that . That could be a good thing .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I think you know that you have to make the best decision for you . Enjoy your year !",
+        "emotion": "happiness",
+        "explanation": "Wishing/appreciation",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I think you know that you have to make the best decision for you . Enjoy your year !",
+        "id": 12
+    }
+]

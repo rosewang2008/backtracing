@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're welcome . Good luck , bye !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I am having an exam at nine ,",
+            "It's only eight forty .",
+            "Thanks so much !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome . Good luck , bye !",
+        "id": 10,
+        "source_sentences": [
+            2,
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

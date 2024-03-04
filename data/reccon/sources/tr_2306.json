@@ -1,0 +1,227 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like climbing ?",
+        "emotion": "happiness",
+        "explanation": "It is not clear if A is happy about climbing sport.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you like climbing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I like it very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Do you like climbing ?",
+            "Yes , I like it very much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I like it very much .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about climbing up the Fragrant Mountain tomorrow ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "How about climbing up the Fragrant Mountain tomorrow ?"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "How about climbing up the Fragrant Mountain tomorrow ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Where is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "climbing up the Fragrant Mountain tomorrow ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Where is it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It is located at the east foot of Western Mountain of Beijing , in a park with the same name . There are some huge stones within the mountain which look like the censer , so it is called ' Fragrant Mountain ' .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "How about climbing up the Fragrant Mountain tomorrow ?"
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "It is located at the east foot of Western Mountain of Beijing , in a park with the same name . There are some huge stones within the mountain which look like the censer , so it is called ' Fragrant Mountain ' .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Have you visited it before ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "climbing up the Fragrant Mountain tomorrow ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Have you visited it before ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Many times . Except climbing , there are many attractions worth visiting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "How about climbing up the Fragrant Mountain tomorrow ?",
+            "there are many attractions worth visiting ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Many times . Except climbing , there are many attractions worth visiting .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Like what ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "there are many attractions worth visiting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Like what ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It is the best season to view red leaves from the Mid-October to the first ten days of November . During the period , thousands of hectares of maples on the sloping field are so red that you would recognize them as fallen petals by mistake if looking from a further area . The bright red , pink , scarlet , and peach-puff leaves are distributed in different layout , with some green pines and cypresses dotted in between .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It is the best season to view red leaves from the Mid-October to the first ten days of November . During the period , thousands of hectares of maples on the sloping field are so red that you would recognize them as fallen petals by mistake if looking from a further area . The bright red , pink , scarlet , and peach-puff leaves are distributed in different layout , with some green pines and cypresses dotted in between ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It is the best season to view red leaves from the Mid-October to the first ten days of November . During the period , thousands of hectares of maples on the sloping field are so red that you would recognize them as fallen petals by mistake if looking from a further area . The bright red , pink , scarlet , and peach-puff leaves are distributed in different layout , with some green pines and cypresses dotted in between .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sounds marvelous .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It is the best season to view red leaves from the Mid-October to the first ten days of November . During the period , thousands of hectares of maples on the sloping field are so red that you would recognize them as fallen petals by mistake if looking from a further area . The bright red , pink , scarlet , and peach-puff leaves are distributed in different layout , with some green pines and cypresses dotted in between ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds marvelous .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You can take a bird-eye view at the glorious picture when you arrive at the top of the mountain .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "You can take a bird-eye view at the glorious picture when you arrive at the top of the mountain ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You can take a bird-eye view at the glorious picture when you arrive at the top of the mountain .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Great . I will prepare some clothes and food for the climbing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "You can take a bird-eye view at the glorious picture when you arrive at the top of the mountain ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . I will prepare some clothes and food for the climbing .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

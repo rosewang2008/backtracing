@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's quiet everywhere in winter .",
+        "emotion": "neutral",
+        "text": "It's quiet everywhere in winter .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I like winter .",
+        "emotion": "neutral",
+        "text": "Yes . I like winter .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Me too .",
+        "emotion": "neutral",
+        "text": "Me too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's snowing heavily . What about taking a walk ?",
+        "emotion": "happiness",
+        "explanation": "2 adds supporting evidence and close to the target utterance.",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes . I like winter .",
+            "It's snowing heavily ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's snowing heavily . What about taking a walk ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's a good idea . Let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "What about taking a walk ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's a good idea . Let's go !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What a heavy snow ! Look ! The water is frozen .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I like winter .",
+            "What a heavy snow ! Look ! The water is frozen ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "What a heavy snow ! Look ! The water is frozen .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Take care ! Don't slip on the ground .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "What a heavy snow ! Look ! The water is frozen ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Take care ! Don't slip on the ground .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I've got it . I like the feeling of stepping on the ice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like the feeling of stepping on the ice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've got it . I like the feeling of stepping on the ice .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . Very wonderful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like the feeling of stepping on the ice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . Very wonderful .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "There is a snowman over there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "There is a snowman over there ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "There is a snowman over there .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "How lovely it is !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "There is a snowman over there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How lovely it is !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

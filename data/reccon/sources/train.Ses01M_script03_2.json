@@ -1,0 +1,717 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well, what of it?",
+        "emotion": "neutral",
+        "text": "Well, what of it?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "No, thank you.",
+        "emotion": "neutral",
+        "text": "No, thank you.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "I'll have a little, I think.",
+        "emotion": "neutral",
+        "text": "I'll have a little, I think.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "I don't see why you want any you already had two glasses.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'll have a little, I think.",
+            "I don't see why you want any you already had two glasses."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't see why you want any you already had two glasses.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Oh, you know no particular reason besides they are very small glasses.",
+        "emotion": "neutral",
+        "text": "Oh, you know no particular reason besides they are very small glasses.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really, Amanda.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "they are very small glasses"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Really, Amanda.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Don't be stupid, what?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            5,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "they are very small glasses",
+            "I'll have a little, I think.",
+            "I don't see why you want any you already had two glasses."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Don't be stupid, what?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Nothing.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Don't be stupid, what?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Nothing.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "Are you going out somewhere dear?",
+        "emotion": "neutral",
+        "text": "Are you going out somewhere dear?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "Well it's a woman's duty to allure the man. Watch me a minute will you?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'll have a little, I think."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well it's a woman's duty to allure the man. Watch me a minute will you?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "B",
+        "utterance": "You know, it's a pity you didn't have any more brandy. It would have made you just a little less disagreeable.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Well it's a woman's duty to allure the man"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know, it's a pity you didn't have any more brandy. It would have made you just a little less disagreeable.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You know what? You snap, you snap, you snap you're like a little adder.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Well it's a woman's duty to allure the man"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know what? You snap, you snap, you snap you're like a little adder.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "Nonsense. They have a bag of venom behind of fangs and they snap.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Well it's a woman's duty to allure the man"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Nonsense. They have a bag of venom behind of fangs and they snap.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "They sting.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'll have a little, I think.",
+            "I don't see why you want any you already had two glasses.",
+            "You snap, you snap, you snap you're like a little adder"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "They sting.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I don't care. I don't care, do you understand? I don't mind if they bark and they roll about like hoops.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'll have a little, I think.",
+            "I don't see why you want any you already had two glasses.",
+            "You snap, you snap, you snap you're like a little adder"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I don't care. I don't care, do you understand? I don't mind if they bark and they roll about like hoops.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Did you see much of Peter Burden after our divorce?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "Did you see much of Peter Burden after our divorce?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Did you see much of Peter Burden after our divorce?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yes, I did quite a lot.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'll have a little, I think.",
+            "I don't see why you want any you already had two glasses.",
+            "You snap, you snap, you snap you're like a little adder"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes, I did quite a lot.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I suppose you let him just kiss you or good deal more than too.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "Yes, I did quite a lot.",
+            "I suppose you let him just kiss you or good deal more than too."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I suppose you let him just kiss you or good deal more than too.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Oh, mind you own business.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh, mind you own business.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "I suppose you two had a riotous time, huh"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "You're quite insufferable, I expect it's because you're drunk.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're quite insufferable, I expect it's because you're drunk.",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "I am not in the least bit drunk.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I am not in the least bit drunk.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "You always had a weak head.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You always had a weak head.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "I think I told you once before that I had three minute liquor glasses the whole evening long. A Child of two cannot get drunk on that.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I think I told you once before that I had three minute liquor glasses the whole evening long. A Child of two cannot get drunk on that.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "On the contrary, a child two could get violently drunk on only one glass of brandy.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "On the contrary, a child two could get violently drunk on only one glass of brandy.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Oh very, very interesting Amanda. How about the child of uh... four, six or maybe nine---you know, we could work up a splendid little debate about it, you know? Intemperate tots.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh very, very interesting Amanda. How about the child of uh... four, six or maybe nine---you know, we could work up a splendid little debate about it, you know? Intemperate tots.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Shut up.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            26,
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "Oh very, very interesting Amanda. How about the child of uh... four, six or maybe nine---you know, we could work up a splendid little debate about it, you know? Intemperate tots.",
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Shut up.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "Not very funny darling. Why don't you have some more brandy?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            26,
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "Oh very, very interesting Amanda. How about the child of uh... four, six or maybe nine---you know, we could work up a splendid little debate about it, you know? Intemperate tots.",
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Not very funny darling. Why don't you have some more brandy?",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "That's a very good idea I think I will.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's a very good idea I think I will.",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "Would you uh...turn that off please? You're going to wake the people upstairs.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Would you uh...turn that off please? You're going to wake the people upstairs.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "Why?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            30,
+            18,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "Would you uh...turn that off please? You're going to wake the people upstairs.",
+            "I suppose you let him just kiss you or good deal more than too.",
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how.",
+            "You're quite insufferable, I expect it's because you're drunk."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Why?",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "B",
+        "utterance": "Well then you'll wake the people downstairs.",
+        "emotion": "angry",
+        "text": "Well then you'll wake the people downstairs.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "A",
+        "utterance": "They are away in Tunis.",
+        "emotion": "angry",
+        "text": "They are away in Tunis.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "This is no time a year for Tunis.",
+        "emotion": "angry",
+        "text": "This is no time a year for Tunis.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "A",
+        "utterance": "Turn it on again, please.",
+        "emotion": "angry",
+        "text": "Turn it on again, please.",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "B",
+        "utterance": "I will do no such thing.",
+        "emotion": "angry",
+        "text": "I will do no such thing.",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "A",
+        "utterance": "Very well if you insist on being boorish and idiotic.",
+        "emotion": "angry",
+        "text": "Very well if you insist on being boorish and idiotic.",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "B",
+        "utterance": "Turn it off. It's driving me mad.",
+        "emotion": "angry",
+        "text": "Turn it off. It's driving me mad.",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "A",
+        "utterance": "I won't.",
+        "emotion": "angry",
+        "text": "I won't.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "B",
+        "utterance": "Turn it off.",
+        "emotion": "angry",
+        "text": "Turn it off.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "A",
+        "utterance": "Stop it. No. Go away.",
+        "emotion": "angry",
+        "text": "Stop it. No. Go away.",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "B",
+        "utterance": "Amanda listen. Listen.",
+        "emotion": "angry",
+        "text": "Amanda listen. Listen.",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "A",
+        "utterance": "listen Oh I'm sick and tired of listening to you, you damn sadistic bully.",
+        "emotion": "angry",
+        "text": "listen Oh I'm sick and tired of listening to you, you damn sadistic bully.",
+        "id": 43
+    },
+    {
+        "turn": 44,
+        "speaker": "B",
+        "utterance": "That's very amusing indeed.",
+        "emotion": "angry",
+        "text": "That's very amusing indeed.",
+        "id": 44
+    },
+    {
+        "turn": 45,
+        "speaker": "A",
+        "utterance": "Oh you're cruel you're...you're...I hate you, I hate you. Go away. You're conceited. You're overbearing. You're utterly impossible.",
+        "emotion": "angry",
+        "text": "Oh you're cruel you're...you're...I hate you, I hate you. Go away. You're conceited. You're overbearing. You're utterly impossible.",
+        "id": 45
+    },
+    {
+        "turn": 46,
+        "speaker": "B",
+        "utterance": "You...You're an evil minded, self-centered little wench and I never want to see you again.",
+        "emotion": "angry",
+        "text": "You...You're an evil minded, self-centered little wench and I never want to see you again.",
+        "id": 46
+    },
+    {
+        "turn": 47,
+        "speaker": "A",
+        "utterance": "This is the end do you hear me? Finally and forever.",
+        "emotion": "angry",
+        "text": "This is the end do you hear me? Finally and forever.",
+        "id": 47
+    },
+    {
+        "turn": 48,
+        "speaker": "B",
+        "utterance": "You're not going like this.",
+        "emotion": "angry",
+        "text": "You're not going like this.",
+        "id": 48
+    },
+    {
+        "turn": 49,
+        "speaker": "A",
+        "utterance": "Oh yes I am...Oh yes I am. Let go of me. You let go. You...urgh...You're a cruel friend. I loathe and I hate you. Marry you again...Ha...Never, never, never, never. I hope you die in torment. You beast.",
+        "emotion": "angry",
+        "text": "Oh yes I am...Oh yes I am. Let go of me. You let go. You...urgh...You're a cruel friend. I loathe and I hate you. Marry you again...Ha...Never, never, never, never. I hope you die in torment. You beast.",
+        "id": 49
+    },
+    {
+        "turn": 50,
+        "speaker": "B",
+        "utterance": "No you're not.",
+        "emotion": "angry",
+        "text": "No you're not.",
+        "id": 50
+    },
+    {
+        "turn": 51,
+        "speaker": "B",
+        "utterance": "Shut up. Shut up. I wouldn't marry you again if you came crawling back to me on a bended knee. You are an evil tempered little vampire and I never want to see you again as long as I live.",
+        "emotion": "angry",
+        "text": "Shut up. Shut up. I wouldn't marry you again if you came crawling back to me on a bended knee. You are an evil tempered little vampire and I never want to see you again as long as I live.",
+        "id": 51
+    }
+]

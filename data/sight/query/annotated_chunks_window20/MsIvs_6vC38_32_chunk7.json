@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 32,
+        "timestamp": 1684721377675.0,
+        "annotatedSourceSentencesIndices": [
+            2,
+            3
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How did he work out at 12:50?"
+    }
+]

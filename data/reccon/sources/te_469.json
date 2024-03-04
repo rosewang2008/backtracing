@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , are you Mrs . Green from England ?",
+        "emotion": "neutral",
+        "text": "Excuse me , are you Mrs . Green from England ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I am .",
+        "emotion": "neutral",
+        "text": "Yes , I am .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm pleased to meet you , Mrs . Green . My name is Myra . I work in Beijing Institute of Technology . I came here to meet you .",
+        "emotion": "neutral",
+        "text": "I'm pleased to meet you , Mrs . Green . My name is Myra . I work in Beijing Institute of Technology . I came here to meet you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How do you do ?",
+        "emotion": "neutral",
+        "text": "How do you do ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How do you do ?",
+        "emotion": "neutral",
+        "text": "How do you do ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's kind of you to meet me at the airport .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "meet me at the airport ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's kind of you to meet me at the airport .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Welcome to Beijing . Is this your first time in China ?",
+        "emotion": "neutral",
+        "text": "Welcome to Beijing . Is this your first time in China ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , I have visited China several times , but it's my first visit to Beijing and I think it's a great honor to be invited to your beautiful city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "a great honor to be invited to your beautiful city ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , I have visited China several times , but it's my first visit to Beijing and I think it's a great honor to be invited to your beautiful city .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's our pleasure to have you here . I hope you will have a pleasant stay here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "a great honor to be invited to your beautiful city .",
+            "It's our pleasure to have you here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's our pleasure to have you here . I hope you will have a pleasant stay here .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . I'm sure I will have a wonderful time here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's our pleasure to have you here . I hope you will have a pleasant stay here .",
+            "I'm sure I will have a wonderful time here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . I'm sure I will have a wonderful time here .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

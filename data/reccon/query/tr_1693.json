@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No problem , girl friend . I'll see you next time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great .",
+            "Thanks for doing such a good job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem , girl friend . I'll see you next time .",
+        "id": 12,
+        "source_sentences": [
+            4,
+            6,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what I really mean is that if theta is different from theta prime, then P of theta is different from P of theta prime."
+    },
+    {
+        "text": "Or if you prefer to think about the contrapositive of this, this is the same as saying that if P theta gives me the same distribution as theta prime, then that implies that theta must be equal to theta prime."
+    },
+    {
+        "text": "So in logic, those two things are equivalent."
+    },
+    {
+        "text": "So this means that we say that the parameter is identifiable or identified, doesn't really matter, in this model."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And this is something we're going to want."
+    },
+    {
+        "text": "So in all the examples that I gave you, those parameters are completely identified."
+    },
+    {
+        "text": "If I tell you, I mean, if those things are in probability books, it means that they were probably thought through."
+    },
+    {
+        "text": "So when I say exponential lambda, I'm really talking about one specific distribution."
+    },
+    {
+        "text": "And there's not another lambda that's going to give me exactly the same distribution."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So that was the case."
+    },
+    {
+        "text": "And you can check that."
+    },
+    {
+        "text": "But it's a little annoying."
+    },
+    {
+        "text": "So I probably would not do it."
+    },
+    {
+        "text": "But rather than doing this, let me just give you some examples where it would not be the case."
+    },
+    {
+        "text": "And here's an example."
+    },
+    {
+        "text": "If I take xi, so now I'm back to just using this indicator function, but now for a Gaussian."
+    },
+    {
+        "text": "So what I observe is x is the indicator that y is, what did we say, positive?"
+    },
+    {
+        "text": "OK?"
+    }
+]

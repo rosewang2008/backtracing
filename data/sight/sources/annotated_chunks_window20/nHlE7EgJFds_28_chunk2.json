@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So here are the four fundamental subspaces."
+    },
+    {
+        "text": "This is really the heart of this approach to linear algebra, to see these four subspaces, how they're related."
+    },
+    {
+        "text": "So what are they?"
+    },
+    {
+        "text": "The column space, C of A."
+    },
+    {
+        "text": "The null space, N of A."
+    },
+    {
+        "text": "And now comes the row space, something new."
+    },
+    {
+        "text": "The row space, what's in that?"
+    },
+    {
+        "text": "It's all combinations of the rows."
+    },
+    {
+        "text": "That's natural."
+    },
+    {
+        "text": "We want a space, so we have to take all combinations and we start with the rows."
+    },
+    {
+        "text": "So the rows span the row space."
+    },
+    {
+        "text": "Are the rows a basis for the row space?"
+    },
+    {
+        "text": "Maybe so, maybe no."
+    },
+    {
+        "text": "The rows are a basis for the row space when they're independent."
+    },
+    {
+        "text": "But if they're dependent, as in this example, my error from last time, they're not, those three rows are not a basis, the row space would only be two-dimensional, I only need two rows for a basis."
+    },
+    {
+        "text": "So the row space, now what's in it?"
+    },
+    {
+        "text": "It's all combinations of the rows of A."
+    },
+    {
+        "text": "All combinations of the rows of A."
+    },
+    {
+        "text": "But I don't like working with row vectors."
+    },
+    {
+        "text": "All my vectors have been column vectors."
+    }
+]

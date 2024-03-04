@@ -1,0 +1,62 @@
+[
+    {
+        "text": "By the same rule, it'll be mnq."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "That's the first way, A times BC."
+    },
+    {
+        "text": "Now, the second way is AB times C. And let me write in again, m by n, n by p, p by q."
+    },
+    {
+        "text": "So now I'm doing this first."
+    },
+    {
+        "text": "So AB costs."
+    },
+    {
+        "text": "Tell me again now, what's the rule for the cost of a matrix multiplication?"
+    },
+    {
+        "text": "Mnp, mnp."
+    },
+    {
+        "text": "And then I'm multiplying m by p. That's AB times p by q."
+    },
+    {
+        "text": "That's C. So I have mpq."
+    },
+    {
+        "text": "So I have that together with that, or that together with that."
+    },
+    {
+        "text": "That sum, those two, or these two."
+    },
+    {
+        "text": "And they're different."
+    },
+    {
+        "text": "And let's just recognize the most important example."
+    },
+    {
+        "text": "Suppose C is a column vector."
+    },
+    {
+        "text": "C for a column vector."
+    },
+    {
+        "text": "So q is 1."
+    },
+    {
+        "text": "There's only one column."
+    },
+    {
+        "text": "So if q is 1, this way did np."
+    },
+    {
+        "text": "Let's just specialize to that."
+    }
+]

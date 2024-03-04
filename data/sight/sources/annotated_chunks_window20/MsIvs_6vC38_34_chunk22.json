@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let me do three by threes."
+    },
+    {
+        "text": "Actually, why don't I just plain list all the three by three permutation matrices?"
+    },
+    {
+        "text": "They're a nice little group of them."
+    },
+    {
+        "text": "What are all the matrices that exchange no rows at all?"
+    },
+    {
+        "text": "Well, I'll include the identity."
+    },
+    {
+        "text": "So that's a permutation matrix that doesn't do anything."
+    },
+    {
+        "text": "Now what's the permutation matrix that exchanges, what is P one two?"
+    },
+    {
+        "text": "The permutation matrix that exchanges rows one and two would be zero one zero one zero zero, right?"
+    },
+    {
+        "text": "I just exchanged those rows of the identity and I've got it."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Actually, I'll, yeah."
+    },
+    {
+        "text": "Let me not clutter this up."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Give me a complete list of all the row exchange matrices."
+    },
+    {
+        "text": "So what are they?"
+    },
+    {
+        "text": "They're all the ways I can take the identity matrix and rearrange its rows."
+    },
+    {
+        "text": "How many will there be?"
+    },
+    {
+        "text": "How many three by three permutation matrices?"
+    },
+    {
+        "text": "Shall we keep going and get the answer?"
+    },
+    {
+        "text": "So tell me some more."
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks again .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I will try to get a taxi for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks again .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

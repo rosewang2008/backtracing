@@ -1,0 +1,169 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Dai Ling .",
+        "emotion": "neutral",
+        "text": "Dai Ling .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , Henry , I haven't seen you for ages . Come in . Let me take your coat . How are you getting along ?",
+        "emotion": "neutral",
+        "text": "Oh , Henry , I haven't seen you for ages . Come in . Let me take your coat . How are you getting along ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Very well , thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages .",
+            "Let me take your coat .",
+            "Very well ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very well , thank you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Please take a seat . Everything would be ready in a minute .",
+        "emotion": "neutral",
+        "text": "Please take a seat . Everything would be ready in a minute .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Can you bring me a glass of orange juice , please ? I am quite thirsty .",
+        "emotion": "neutral",
+        "text": "Can you bring me a glass of orange juice , please ? I am quite thirsty .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Here you are . Here you go . We have cocktail and salad , fried chicken , French fries and icecream for dessert . Eating chicken while it's hot . it tastes better .",
+        "emotion": "neutral",
+        "text": "Here you are . Here you go . We have cocktail and salad , fried chicken , French fries and icecream for dessert . Eating chicken while it's hot . it tastes better .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , you're right . Everything is absolutely delicious . Please pass the pepper .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Here you are .",
+            "it tastes better .",
+            "absolutely delicious ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , you're right . Everything is absolutely delicious . Please pass the pepper .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Here you are . Taste the French fries .",
+        "emotion": "neutral",
+        "text": "Here you are . Taste the French fries .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "They're soft .",
+        "emotion": "neutral",
+        "text": "They're soft .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Would you like some more ?",
+        "emotion": "neutral",
+        "text": "Would you like some more ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No more , thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Would you like some more ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No more , thank you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here is to our friendship and health !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "our friendship and health !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Here is to our friendship and health !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Bottom is up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Would you like some more ?",
+            "our friendship and health !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bottom is up .",
+        "id": 13,
+        "source_sentences": [
+            9,
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . He ' s very lucky indeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Fantastic ! Please send him my congratulations .",
+            "He ' s very lucky indeed ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . He ' s very lucky indeed .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

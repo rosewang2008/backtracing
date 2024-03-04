@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, you'll see it's not much of a difference."
+    },
+    {
+        "text": "In the 2D case, what you do is just, so, say that your vector field has components P, Q, and R. Then, you will take P sub x plus Q sub y plus R sub z. OK, so that's the definition."
+    },
+    {
+        "text": "It's pretty easy to remember."
+    },
+    {
+        "text": "You take the x component partial respect to x plus partial respect to y of the y component plus partial respect to z of the z component."
+    },
+    {
+        "text": "OK, so, for example, last time we saw that the flux of the vector field zk for a sphere of radius a was four-thirds pi a cubed by computing the surface integral."
+    },
+    {
+        "text": "Well, if we do it more efficiently now by Green's theorem, so we're going to use Green's theorem for this sphere."
+    },
+    {
+        "text": "Because we're doing the whole sphere, it's fine."
+    },
+    {
+        "text": "It's a closed surface."
+    },
+    {
+        "text": "We couldn't do it for, say, a hemisphere or something like that."
+    },
+    {
+        "text": "We need to, well, I mean, for the hemisphere, we'd need to add maybe the flat face at the bottom or something like that."
+    },
+    {
+        "text": "So, Green's theorem says that our flux integral can be actually replaced by the triple integral of a solid ball of radius a of the divergence of zk dv."
+    },
+    {
+        "text": "But now, what's the divergence of this field?"
+    },
+    {
+        "text": "Well, so you have zero, zero, z."
+    },
+    {
+        "text": "So, you get zero plus zero plus one."
+    },
+    {
+        "text": "It looks like it will be one."
+    },
+    {
+        "text": "So, if you do the triple integral of one dv, you will get just the volume of the region inside, which is four-thirds pi a cubed."
+    },
+    {
+        "text": "And, so it was no accident."
+    },
+    {
+        "text": "In fact, before that, we looked at also xi yj zk, and we found three times the volume."
+    },
+    {
+        "text": "That's because the divergence of that field was actually three."
+    },
+    {
+        "text": "So, very quickly, let me just say what this means physically."
+    }
+]

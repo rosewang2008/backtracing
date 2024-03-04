@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Here you go , and here ' s your receipt . Have a nice day .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy for the sale",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "buy this dress ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Here you go , and here ' s your receipt . Have a nice day .",
+        "id": 13,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

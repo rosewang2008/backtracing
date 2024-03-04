@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Crazy !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "her fans were all screaming , trying to give her flowers and to get her autographs ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Crazy !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

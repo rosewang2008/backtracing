@@ -1,0 +1,30 @@
+[
+    {
+        "file_id": "0Qws8BuK3RQ",
+        "query_id": 0,
+        "timestamp": 1684701645936.0,
+        "annotatedSourceSentencesIndices": [
+            4,
+            25,
+            29
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Is the distance matrix right?"
+    },
+    {
+        "file_id": "0Qws8BuK3RQ",
+        "query_id": 1,
+        "timestamp": 1684701685821.0,
+        "annotatedSourceSentencesIndices": [
+            62,
+            63,
+            73
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "where can i find the proof of procrustes problem?"
+    }
+]

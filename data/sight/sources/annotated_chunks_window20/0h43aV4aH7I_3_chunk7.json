@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You know, you, with your thumb, you make these inky marks, which, go somewhere."
+    },
+    {
+        "text": "You used to go to Washington and get stored in a big file."
+    },
+    {
+        "text": "So Washington had a file of thirty million murderers, cheaters on quizzes, other stuff, and, and actually, there was no way to retrieve them in time."
+    },
+    {
+        "text": "Like, so, so suppose you're at the police station, they say, OK, this person may have done this, check with Washington, have they got his or her fingerprints on file."
+    },
+    {
+        "text": "Well, Washington won't know the answer within a week, if it's got filing cabinets full of fingerprints."
+    },
+    {
+        "text": "So of course the natural step is digitize them."
+    },
+    {
+        "text": "So all fingerprints are now digitized, so now it's at least electronic, but still there's too much information in each, each one."
+    },
+    {
+        "text": "I mean, you can't search through that many, uh, fingerprints if you, if, if the digital image is five twelve squared by five twelve squared, if it's that many pixels."
+    },
+    {
+        "text": "So you get compressed."
+    },
+    {
+        "text": "So the FBI had to decide what basis to choose for compression of fingerprints, and then they built a big new facility in West Virginia and that's where fingerprints now are sent."
+    },
+    {
+        "text": "So if you, I think if you get your fingerprints done now at the police station, if it's an up-to-date police station, it's, it happens digitally and the signal is sent digitally, and then in West Virginia it's compressed and indexed."
+    },
+    {
+        "text": "And then, if they want to find you, they can do it within minutes, instead of within a week."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this compression is, comes up for signals, for images."
+    },
+    {
+        "text": "For video, which is like these lectures, uh, there's another aspect."
+    },
+    {
+        "text": "You could treat the video as one still image after another one, and compress each one and then run them and make a video."
+    },
+    {
+        "text": "But that misses, well, you can see why that's not optimal."
+    },
+    {
+        "text": "In video, so for in a video thing, you have a sequence of images, so video is really a sequence of images, but what about one image to the next image?"
+    },
+    {
+        "text": "They're extremely correlated."
+    },
+    {
+        "text": "I mean, that, I'm getting an image every split second, and although I'm moving slightly, that's what's producing the, jumpy motion on the video."
+    }
+]

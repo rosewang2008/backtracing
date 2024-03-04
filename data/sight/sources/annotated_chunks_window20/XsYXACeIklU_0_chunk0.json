@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "JOHN TSITSIKLIS: Today we're going to finish our discussion of the Poisson process."
+    },
+    {
+        "text": "We're going to see a few of its properties, do a few interesting problems, some more interesting than others."
+    },
+    {
+        "text": "So go through a few examples and then we're going to talk about some quite strange things that happen with the Poisson process."
+    },
+    {
+        "text": "So the first thing is to remember what the Poisson processes is."
+    },
+    {
+        "text": "It's a model, let's say, of arrivals of customers that are, in some sense, quote unquote, completely random, that is a customer can arrive at any point in time."
+    },
+    {
+        "text": "All points in time are equally likely."
+    },
+    {
+        "text": "And different points in time are sort of independent of other points in time."
+    },
+    {
+        "text": "So the fact that I got an arrival now doesn't tell me anything about whether there's going to be an arrival at some other time."
+    },
+    {
+        "text": "In some sense, it's a continuous time version of the Bernoulli process."
+    },
+    {
+        "text": "So the best way to think about the Poisson process is that we divide time into extremely tiny slots."
+    },
+    {
+        "text": "And in each time slot, there's an independent possibility of having an arrival."
+    },
+    {
+        "text": "Different time slots are independent of each other."
+    },
+    {
+        "text": "On the other hand, when the slot is tiny, the probability for obtaining an arrival during that tiny slot is itself going to be tiny."
+    },
+    {
+        "text": "So we capture these properties into a formal definition what the Poisson process is."
+    },
+    {
+        "text": "We have a probability mass function for the number of arrivals, k, during an interval of a given length."
+    },
+    {
+        "text": "So this is the sort of basic description of the distribution of the number of arrivals."
+    },
+    {
+        "text": "So tau is fixed."
+    }
+]

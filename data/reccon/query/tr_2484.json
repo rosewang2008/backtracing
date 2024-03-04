@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I think so too . Let ' s go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "This is going to be a great night !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I think so too . Let ' s go !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

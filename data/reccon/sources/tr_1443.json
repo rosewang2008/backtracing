@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Joanne , let ' s not make this divorce any more acrimonious than it already is , okay ? Let ' s just get down to business and start dividing this stuff up fairly , so we can go our separate ways , alright ?",
+        "emotion": "neutral",
+        "text": "Joanne , let ' s not make this divorce any more acrimonious than it already is , okay ? Let ' s just get down to business and start dividing this stuff up fairly , so we can go our separate ways , alright ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Fine with me . I just want to get this over with . It ' s important we make a clean break . I should have signed a pre-nup .",
+        "emotion": "neutral",
+        "text": "Fine with me . I just want to get this over with . It ' s important we make a clean break . I should have signed a pre-nup .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What was that ?",
+        "emotion": "neutral",
+        "text": "What was that ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Nothing ! Anyway , you ' re right , there ' s no reason this has to be nasty . My lawyer tells me you ' Ve accepted our alimony proposal and the division of property , as well as the custody agreement-I keep the cat and you get the dog . So that ' s done ... finally .",
+        "emotion": "neutral",
+        "text": "Nothing ! Anyway , you ' re right , there ' s no reason this has to be nasty . My lawyer tells me you ' Ve accepted our alimony proposal and the division of property , as well as the custody agreement-I keep the cat and you get the dog . So that ' s done ... finally .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Let ' s not go there , Joanne ! Ok , so let ' s start with the record collection , I ' ll take the albums I contributed and you can have your cheesy disco albums back .",
+        "emotion": "neutral",
+        "text": "Let ' s not go there , Joanne ! Ok , so let ' s start with the record collection , I ' ll take the albums I contributed and you can have your cheesy disco albums back .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Fine , but I ' m keeping the antique gramophone as my grandfather gave it to me .",
+        "emotion": "neutral",
+        "text": "Fine , but I ' m keeping the antique gramophone as my grandfather gave it to me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I believe that was a wedding present to both of us , Joanne . And you hardly ever use it !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I ' m keeping the antique gramophone as my grandfather gave it to me .",
+            "you hardly ever use it !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I believe that was a wedding present to both of us , Joanne . And you hardly ever use it !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He ' s my grandfather , and he never really liked you anyway !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I believe that was a wedding present to both of us , Joanne . And you hardly ever use it !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "He ' s my grandfather , and he never really liked you anyway !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Whatever ! Alright , I ' ll concede the silly gramophone , if you ' ll agree that I get the silver tea set .",
+        "emotion": "neutral",
+        "text": "Whatever ! Alright , I ' ll concede the silly gramophone , if you ' ll agree that I get the silver tea set .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How typical , when are you ever going to use a silver tea set ? Fine ! I don ' t want to drag this out any longer than necessary . What ' s next ? What about these old photographs ?",
+        "emotion": "neutral",
+        "text": "How typical , when are you ever going to use a silver tea set ? Fine ! I don ' t want to drag this out any longer than necessary . What ' s next ? What about these old photographs ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Which ones ? Let me have a look . Wow , look at that ! That brings back memories ... That ?",
+        "emotion": "neutral",
+        "text": "Which ones ? Let me have a look . Wow , look at that ! That brings back memories ... That ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+        "emotion": "neutral",
+        "text": "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+            "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , we really did have fun back then , didn ' t we ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+            "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+            "Oh , we really did have fun back then , didn ' t we ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , we really did have fun back then , didn ' t we ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Oh , Joanne , are we making a big mistake ? I know our relationship has been on the rocks for sometime but are you sure we can ' t reconcile and try again ? I still love you .",
+        "emotion": "happiness",
+        "explanation": "The speaker is remembering the past memories and is questioning himself if their decision to divorce is the right one. He wants to give a try to their marraige again.",
+        "expanded emotion cause evidence": [
+            "b",
+            12,
+            13,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+            "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+            "Oh , we really did have fun back then , didn ' t we ?",
+            "I still love you ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , Joanne , are we making a big mistake ? I know our relationship has been on the rocks for sometime but are you sure we can ' t reconcile and try again ? I still love you .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Oh Jeff ! I love you too ! I ' m so glad we didn ' t have to decide who keeps the motorcycle .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            12,
+            13,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+            "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+            "Oh , we really did have fun back then , didn ' t we ?",
+            "I still love you ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Oh Jeff ! I love you too ! I ' m so glad we didn ' t have to decide who keeps the motorcycle .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "The motorcycle ? But that ' s mine !",
+        "emotion": "neutral",
+        "text": "The motorcycle ? But that ' s mine !",
+        "id": 17
+    }
+]

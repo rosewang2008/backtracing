@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Craig , what do you do for work ?",
+        "emotion": "neutral",
+        "text": "Craig , what do you do for work ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm still a student .",
+        "emotion": "neutral",
+        "text": "I'm still a student .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What school do you go to ?",
+        "emotion": "neutral",
+        "text": "What school do you go to ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Boston University .",
+        "emotion": "neutral",
+        "text": "Boston University .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's a good school . What do you study ?",
+        "emotion": "neutral",
+        "text": "That's a good school . What do you study ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm studying English , math , and history . My major is English .",
+        "emotion": "neutral",
+        "text": "I'm studying English , math , and history . My major is English .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How long have you been studying English ?",
+        "emotion": "neutral",
+        "text": "How long have you been studying English ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "More than six years .",
+        "emotion": "neutral",
+        "text": "More than six years .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's a long time .",
+        "emotion": "neutral",
+        "text": "That's a long time .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , I started to learn English when I was in high school .",
+        "emotion": "neutral",
+        "text": "Yeah , I started to learn English when I was in high school .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No wonder your English is so good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I started to learn English when I was in high school .",
+            "your English is so good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No wonder your English is so good .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Actually , it's not that good . I can read but I can't speak very well . I haven't had a lot of chance to practice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "your English is so good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Actually , it's not that good . I can read but I can't speak very well . I haven't had a lot of chance to practice .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I see . Talking with other people is very important .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I started to learn English when I was in high school .",
+            "your English is so good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I see . Talking with other people is very important .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , but I still don't have many friends here yet .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "your English is so good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , but I still don't have many friends here yet .",
+        "id": 14,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm having a party tonight at my apartment . You should come .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "I'm having a party tonight at my apartment ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm having a party tonight at my apartment . You should come .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Oh thanks for inviting me . I'd love to come .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "thanks for inviting me . I'd love to come ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh thanks for inviting me . I'd love to come .",
+        "id": 16
+    }
+]

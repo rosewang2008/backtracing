@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "This is going to surprise you , but I'm happy . I think you're making the right move .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I think you're making the right move ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is going to surprise you , but I'm happy . I think you're making the right move .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You do ?",
+        "emotion": "neutral",
+        "text": "You do ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Look , maybe I shouldn't tell you this , but I'v going over to WebTracker , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "but I'v going over to WebTracker , too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look , maybe I shouldn't tell you this , but I'v going over to WebTracker , too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No way ! That's great ! Then we'll still be together !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "but I'v going over to WebTracker , too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No way ! That's great ! Then we'll still be together !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Actually , I'm already working for WebTracker . Vince never wanted to give me what I was worth , so I figured , what the heck .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "but I'v going over to WebTracker , too .",
+            "I'm already working for WebTracker ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Actually , I'm already working for WebTracker . Vince never wanted to give me what I was worth , so I figured , what the heck .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No kidding ! I can't believe this . You devil !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm already working for WebTracker ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No kidding ! I can't believe this . You devil !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's kind of cool , isn't it ? I'm sort of like a secret agent .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "but I'v going over to WebTracker , too .",
+            "I'm already working for WebTracker ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "It's kind of cool , isn't it ? I'm sort of like a secret agent .",
+        "id": 7
+    }
+]

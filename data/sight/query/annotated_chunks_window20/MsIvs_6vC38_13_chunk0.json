@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 13,
+        "timestamp": 1684719774461.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone explain to me why the answer for cost of B is $n^2$ around 40:00?"
+    }
+]

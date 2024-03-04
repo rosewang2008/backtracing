@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Dammit ! I asked for sunny side up ! How many times do I have to tell you .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Here you go , honey , fried eggs .",
+            "I asked for sunny side up ! How many times do I have to tell you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Dammit ! I asked for sunny side up ! How many times do I have to tell you .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

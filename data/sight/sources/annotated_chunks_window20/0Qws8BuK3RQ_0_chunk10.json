@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Why is that first statement true?"
+    },
+    {
+        "text": "Huh."
+    },
+    {
+        "text": "Huh."
+    },
+    {
+        "text": "How is that matrix related to this matrix?"
+    },
+    {
+        "text": "It's just a transpose."
+    },
+    {
+        "text": "If I take the transpose of that matrix, I get that."
+    },
+    {
+        "text": "So what happens to the trace?"
+    },
+    {
+        "text": "I'm adding down the diagonal."
+    },
+    {
+        "text": "The transpose has no effect."
+    },
+    {
+        "text": "Clearly, this is just the fact that the trace doesn't change, is not changed when you transpose a matrix, because the diagonal is not changed."
+    },
+    {
+        "text": "Now, what about this guy?"
+    },
+    {
+        "text": "I guess we're getting back to old fashioned 18.065, remembering facts about linear algebra, because this is pure linear algebra."
+    },
+    {
+        "text": "So what's this one about?"
+    },
+    {
+        "text": "This says that I can reverse the order of two matrices."
+    },
+    {
+        "text": "I'm now looking at the connection between those two."
+    },
+    {
+        "text": "And so let me just use different letters."
+    },
+    {
+        "text": "CD equals the trace of DC."
+    },
+    {
+        "text": "I can flip the order."
+    },
+    {
+        "text": "That's all I've done here is I've reversed B with A transpose."
+    },
+    {
+        "text": "I reversed C with D. OK, so why is that true?"
+    }
+]

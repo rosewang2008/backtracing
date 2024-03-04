@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What could I do to that matrix A?"
+    },
+    {
+        "text": "Could I multiply by Q?"
+    },
+    {
+        "text": "Could I throw in a Q?"
+    },
+    {
+        "text": "Maybe not even on the other end."
+    },
+    {
+        "text": "If I throw in an orthogonal Q, do I change the singular values or do I not change them?"
+    },
+    {
+        "text": "Fundamental question."
+    },
+    {
+        "text": "The answer is no, I don't change them."
+    },
+    {
+        "text": "I'm allowed to do that, because here's an orthogonal matrix, a Q times U."
+    },
+    {
+        "text": "If both of those are orthogonal, then the product is."
+    },
+    {
+        "text": "Everybody knows that a product of two orthogonal matrix is still orthogonal."
+    },
+    {
+        "text": "Better know that."
+    },
+    {
+        "text": "Better know that."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So if I have an orthogonal matrix Q and an orthogonal matrix U, I claim that this is still orthogonal."
+    },
+    {
+        "text": "And how do I check it?"
+    },
+    {
+        "text": "Well, I use some test for orthogonality."
+    },
+    {
+        "text": "What would be the test you like to use?"
+    },
+    {
+        "text": "The inverse is the same as the transpose."
+    },
+    {
+        "text": "You like that test?"
+    },
+    {
+        "text": "So I'll invert it."
+    }
+]

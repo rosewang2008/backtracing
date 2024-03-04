@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It seems that you get antsy when you hear I praise another guy .",
+        "emotion": "neutral",
+        "text": "It seems that you get antsy when you hear I praise another guy .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I get antsy not because you praise a guy , but because you may be taken for a ride by a guy like him .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you may be taken for a ride by a guy like him ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I get antsy not because you praise a guy , but because you may be taken for a ride by a guy like him .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How come you think of him that way ?",
+        "emotion": "neutral",
+        "text": "How come you think of him that way ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Because you seem to have lost your vigilance . You should be on the watch out .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "you seem to have lost your vigilance ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Because you seem to have lost your vigilance . You should be on the watch out .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I have no reason to distrust him . He's never caused any harm .",
+        "emotion": "neutral",
+        "text": "I have no reason to distrust him . He's never caused any harm .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Isn't there anything that sounds fishy ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I have no reason to distrust him . He's never caused any harm .",
+            "sounds fishy ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Isn't there anything that sounds fishy ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Nothing smells a rat . I told you that he's an all-right guy .",
+        "emotion": "neutral",
+        "text": "Nothing smells a rat . I told you that he's an all-right guy .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "All-right guy ? All right . Let's talk about something else instead .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I told you that he's an all-right guy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All-right guy ? All right . Let's talk about something else instead .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's a lovely day , isn't it ?",
+        "emotion": "neutral",
+        "text": "It's a lovely day , isn't it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , and most excitingly , I met the girl living under me today . She's really nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "most excitingly , I met the girl living under me today . She's really nice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , and most excitingly , I met the girl living under me today . She's really nice .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is she American ?",
+        "emotion": "neutral",
+        "text": "Is she American ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah , and most importantly , she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , and most importantly , she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So I take it you two are hitting it off ? I know it's very convenient to be in a relationship with your neighbor , but what if you break up ?",
+        "emotion": "neutral",
+        "text": "So I take it you two are hitting it off ? I know it's very convenient to be in a relationship with your neighbor , but what if you break up ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't know . I am not really worried about that . I don't wanna lose before even starting . Besides I think the other two American guys have also fallen for her .",
+        "emotion": "neutral",
+        "text": "I don't know . I am not really worried about that . I don't wanna lose before even starting . Besides I think the other two American guys have also fallen for her .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sounds like you've got some competition . You made a move already ?",
+        "emotion": "neutral",
+        "text": "Sounds like you've got some competition . You made a move already ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Not yet . But I am thinking of inviting her to dinner sometime . I know some good restaurants nearby .",
+        "emotion": "neutral",
+        "text": "Not yet . But I am thinking of inviting her to dinner sometime . I know some good restaurants nearby .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's nice . Having been here a little while surely gives you the advantage , eh ?",
+        "emotion": "neutral",
+        "text": "That's nice . Having been here a little while surely gives you the advantage , eh ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You bet . Now that you mentioned it , I think I'll call her now and see if she is available tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            10
+        ],
+        "expanded emotion cause span": [
+            "she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+            "I'll call her now and see if she is available tonight ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You bet . Now that you mentioned it , I think I'll call her now and see if she is available tonight .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good luck !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            10
+        ],
+        "expanded emotion cause span": [
+            "she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+            "I'll call her now and see if she is available tonight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good luck !",
+        "id": 11,
+        "source_sentences": [
+            3,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "she's single ! Man , I could tell from the moment I saw her , she's the girl of my dreams !",
+            "I'll call her now and see if she is available tonight .",
+            "Good luck !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks !",
+        "id": 12
+    }
+]

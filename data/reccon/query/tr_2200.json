@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great ! I have a coupon for free popcorn at that theater !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            8
+        ],
+        "expanded emotion cause span": [
+            "There's an action movie with Harrison Ford",
+            "I have a coupon for free popcorn"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great ! I have a coupon for free popcorn at that theater !",
+        "id": 8,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

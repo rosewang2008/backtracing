@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The problem is that there's lots of unbiased estimators, and so it might be misleading to look for unbiasedness when that's not really the only thing you should be looking for."
+    },
+    {
+        "text": "So what does it mean to be unbiased?"
+    },
+    {
+        "text": "Maybe for this particular round of data you collected, you're actually pretty far from the true estimator."
+    },
+    {
+        "text": "But one thing that actually, what it means is that if I redid this experiment over and over and over again, and I averaged all the values of my estimators that I got, then this would actually be the true parameter."
+    },
+    {
+        "text": "That's what it means."
+    },
+    {
+        "text": "If I were to repeat this experiment, in average I would actually get the right thing."
+    },
+    {
+        "text": "But you don't get to repeat an experiment."
+    },
+    {
+        "text": "Just a remark about estimators."
+    },
+    {
+        "text": "Look at this estimator, xn bar."
+    },
+    {
+        "text": "Think of the kiss example."
+    },
+    {
+        "text": "I'm looking at the average of my observations."
+    },
+    {
+        "text": "And I want to know what the expectation of this thing is."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, this guy is my linearity of the expectation."
+    },
+    {
+        "text": "Is this, right?"
+    },
+    {
+        "text": "But my data is identically distributed."
+    },
+    {
+        "text": "So in particular, all the xi's have the same expectation, right?"
+    },
+    {
+        "text": "Everybody agrees with this?"
+    },
+    {
+        "text": "When it's identically distributed, they all get the same expectation?"
+    },
+    {
+        "text": "So what it means is that this guy's here, they're all equal to the expectation of x1, right?"
+    }
+]

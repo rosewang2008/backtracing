@@ -1,0 +1,1961 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "So we're really moving along this review of the highlights of linear algebra."
+    },
+    {
+        "text": "And today it's matrices Q."
+    },
+    {
+        "text": "They get that name."
+    },
+    {
+        "text": "They have orthonormal columns."
+    },
+    {
+        "text": "So that's what one looks like."
+    },
+    {
+        "text": "And then the key fact, orthonormal columns translates directly into that simple fact that you just keep remembering."
+    },
+    {
+        "text": "Every time you see Q transpose Q, you've got the identity matrix."
+    },
+    {
+        "text": "Let's just see why."
+    },
+    {
+        "text": "So Q transpose would be, I'll take those columns and make them into rows."
+    },
+    {
+        "text": "And then I multiply by Q with the columns."
+    },
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "Well, hopefully I get the identity matrix."
+    },
+    {
+        "text": "OK, why?"
+    },
+    {
+        "text": "Because, oh, yeah, the normal part tells me that the length of each vector, that's the length squared Q transpose Q."
+    },
+    {
+        "text": "The length squared is 1."
+    },
+    {
+        "text": "So that gives me the 1 in the identity matrix all along the diagonal."
+    },
+    {
+        "text": "And then Q transpose times a different Q is 0."
+    },
+    {
+        "text": "That's the ortho part."
+    },
+    {
+        "text": "So that gives me the 0s."
+    },
+    {
+        "text": "So that's a simple identity."
+    },
+    {
+        "text": "But it translates from a lot of words into a simple expression."
+    },
+    {
+        "text": "Now, does that mean that in the other order, Q Q transpose, is that the identity?"
+    },
+    {
+        "text": "So that's a question to think about."
+    },
+    {
+        "text": "Is Q Q transpose equal the identity?"
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "Sometimes yes, sometimes no."
+    },
+    {
+        "text": "Easy to tell which."
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "Yes, when Q is square."
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "If Q is a square matrix, a square matrix, this is saying that the square matrix Q has that inverse on its left."
+    },
+    {
+        "text": "But for square matrices, a left inverse, Q transpose, is also a right inverse."
+    },
+    {
+        "text": "And for a square matrix, if you have an inverse that works on one side, it will work on the other side."
+    },
+    {
+        "text": "So the answer is yes in that case."
+    },
+    {
+        "text": "And then in that case, that's the case when we call Q is, well, we really, I don't know what the right name would be."
+    },
+    {
+        "text": "But here's the name everybody uses, an orthogonal matrix."
+    },
+    {
+        "text": "And that's only in the square case, square."
+    },
+    {
+        "text": "Q is an orthogonal matrix."
+    },
+    {
+        "text": "Right, right."
+    },
+    {
+        "text": "Do you want to just see an example of how that works?"
+    },
+    {
+        "text": "And it will not."
+    },
+    {
+        "text": "So if Q is rectangular, let me do a rectangular Q and a square Q."
+    },
+    {
+        "text": "So I think there must be a board up there somewhere."
+    },
+    {
+        "text": "Here."
+    },
+    {
+        "text": "OK, square."
+    },
+    {
+        "text": "All right, good to see some orthogonal matrices, because my message is that they're really important in all kinds of applications."
+    },
+    {
+        "text": "Let's start two by two."
+    },
+    {
+        "text": "I can think of two different ways to get an orthogonal matrix that's a two by two matrix."
+    },
+    {
+        "text": "And one of them you will know immediately, cos theta, sine theta."
+    },
+    {
+        "text": "So that's a unit vector."
+    },
+    {
+        "text": "It's normalized."
+    },
+    {
+        "text": "Cos squared plus sine squared is 1."
+    },
+    {
+        "text": "And this guy has to be orthogonal to it."
+    },
+    {
+        "text": "So I'll make that minus sine theta and cos theta."
+    },
+    {
+        "text": "OK. Those are both length 1."
+    },
+    {
+        "text": "They're orthogonal."
+    },
+    {
+        "text": "Then this is my Q."
+    },
+    {
+        "text": "And the inverse of Q will be the transpose."
+    },
+    {
+        "text": "The transpose would put the minus sign down here and would produce the inverse matrix."
+    },
+    {
+        "text": "And what does that particular matrix represent?"
+    },
+    {
+        "text": "Geometrically, where do we see that matrix?"
+    },
+    {
+        "text": "It's a rotation."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "It's a rotation of the whole plane by theta."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So if I apply that to 1, 0, for example, I get the first column, which is cos theta, sine theta."
+    },
+    {
+        "text": "And that's just a row."
+    },
+    {
+        "text": "Let me draw a picture."
+    },
+    {
+        "text": "That vector 1, 0 has got rotated up to."
+    },
+    {
+        "text": "So there is the 1, 0."
+    },
+    {
+        "text": "And there it got rotated through an angle theta."
+    },
+    {
+        "text": "And similarly, 0, 1 will get rotated through an angle theta to there."
+    },
+    {
+        "text": "So the whole plane rotates."
+    },
+    {
+        "text": "Oh, that makes me remember a highly important, very important property of Q."
+    },
+    {
+        "text": "It doesn't change length."
+    },
+    {
+        "text": "The length of any vector is the same after you rotate it."
+    },
+    {
+        "text": "The length of any vector is the same after you multiply by Q."
+    },
+    {
+        "text": "Can I just do that?"
+    },
+    {
+        "text": "I claim any x, any vector x, I want to look at the length of Qx."
+    },
+    {
+        "text": "And I claim that it has the same length as x."
+    },
+    {
+        "text": "Actually, that's the reason in computations that orthogonal matrix are so much loved, because no overflow can happen with orthogonal matrices."
+    },
+    {
+        "text": "Lengths don't change."
+    },
+    {
+        "text": "I can multiply by any number of orthogonal matrices, and the lengths don't change."
+    },
+    {
+        "text": "Can we just see why that's true?"
+    },
+    {
+        "text": "How would you show?"
+    },
+    {
+        "text": "So what do we have to go on?"
+    },
+    {
+        "text": "What we have to go on is Q transpose Q equal I."
+    },
+    {
+        "text": "Whatever we're going to prove, it's got to come out of that, because that's all we know."
+    },
+    {
+        "text": "So how do I use that to get that one?"
+    },
+    {
+        "text": "Well, we haven't said a whole lot about lengths, but you'll see it all now."
+    },
+    {
+        "text": "It'll be easier to prove that the squares are the same."
+    },
+    {
+        "text": "So what's the matrix expression for the length squared?"
+    },
+    {
+        "text": "What's the right-hand side of that equation?"
+    },
+    {
+        "text": "X transpose x, right?"
+    },
+    {
+        "text": "X transpose x gives me the sum of the squares."
+    },
+    {
+        "text": "Pythagoras says that's the length squared."
+    },
+    {
+        "text": "So that right-hand side is x transpose x."
+    },
+    {
+        "text": "What's the left side?"
+    },
+    {
+        "text": "It's the length squared of this, of Qx."
+    },
+    {
+        "text": "So it must be the same as Qx, transpose Qx."
+    },
+    {
+        "text": "And the claim is that that equation holds."
+    },
+    {
+        "text": "And do you see it?"
+    },
+    {
+        "text": "Where is it?"
+    },
+    {
+        "text": "So any property from Q has to just come out directly from that."
+    },
+    {
+        "text": "Where is it here?"
+    },
+    {
+        "text": "Do I just push away a little bit at that left-hand side and see it?"
+    },
+    {
+        "text": "Qx transpose is the same as x transpose Q transpose."
+    },
+    {
+        "text": "And Qx is Qx."
+    },
+    {
+        "text": "And now I'm seeing, well, you might say, wait a minute."
+    },
+    {
+        "text": "The parentheses were there and there."
+    },
+    {
+        "text": "But I say the most important law for matrix multiplication is you can move parentheses or throw them away."
+    },
+    {
+        "text": "Let's throw them away."
+    },
+    {
+        "text": "So in here, I'm seeing Q transpose Q, which is the identity."
+    },
+    {
+        "text": "So it's true."
+    },
+    {
+        "text": "So that means that you never underflow or overflow when you're multiplying by Q."
+    },
+    {
+        "text": "Every numerical algorithm is written to use orthogonal matrices wherever it can."
+    },
+    {
+        "text": "And here's the first example."
+    },
+    {
+        "text": "So I think it may be good for me to think of other examples or for us to think of other examples of orthogonal matrices."
+    },
+    {
+        "text": "So I'm using that word orthogonal matrix."
+    },
+    {
+        "text": "We should really be saying orthonormal."
+    },
+    {
+        "text": "And I'm really thinking mostly of square ones."
+    },
+    {
+        "text": "So in the square case, when Q transpose is Q inverse."
+    },
+    {
+        "text": "Of course, that fact makes it easy to solve all equations that have Q as a coefficient matrix, because you want the inverse and you just use the transpose."
+    },
+    {
+        "text": "OK, let's just take some minutes to think of examples of Qs, if they're so important there have to be interesting examples."
+    },
+    {
+        "text": "And that was a first one."
+    },
+    {
+        "text": "Now, there's one more 2 by 2 example that you should know."
+    },
+    {
+        "text": "Do you know what that would be?"
+    },
+    {
+        "text": "So this will be example 2."
+    },
+    {
+        "text": "And it's also going to be only 2 by 2 and real."
+    },
+    {
+        "text": "And what possibility have I got left here?"
+    },
+    {
+        "text": "I'll use the same first column, cos theta, sine theta, because that's more or less any unit vector in two dimensions."
+    },
+    {
+        "text": "This has got that form."
+    },
+    {
+        "text": "So what do you propose for the second column?"
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "Yeah, put the minus sign down here."
+    },
+    {
+        "text": "So you think, does that make any difference?"
+    },
+    {
+        "text": "So sine theta and minus cos theta."
+    },
+    {
+        "text": "I don't know if you've ever looked at that matrix."
+    },
+    {
+        "text": "We're trying to collect together a few matrices that are worth knowing, are worth looking at."
+    },
+    {
+        "text": "OK, now what's happened here?"
+    },
+    {
+        "text": "You may say that was a trivial change, which it kind of was."
+    },
+    {
+        "text": "But it's a different matrix now."
+    },
+    {
+        "text": "It's not a rotation anymore."
+    },
+    {
+        "text": "That's not a rotation."
+    },
+    {
+        "text": "And yeah, somehow, now it's symmetric."
+    },
+    {
+        "text": "And yeah, its eigenvectors must be something or other."
+    },
+    {
+        "text": "We'll get to those."
+    },
+    {
+        "text": "But what does that matrix do?"
+    },
+    {
+        "text": "I don't know if you've seen it."
+    },
+    {
+        "text": "If you haven't, it doesn't jump out."
+    },
+    {
+        "text": "But it's an important case."
+    },
+    {
+        "text": "This is a reflection matrix."
+    },
+    {
+        "text": "Notice that it's determined it is minus 1."
+    },
+    {
+        "text": "You have minus cos squared theta minus sine squared theta."
+    },
+    {
+        "text": "It's determined it is minus 1."
+    },
+    {
+        "text": "There's some eigenvalue coming up that's got a minus."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "OK, so what do I mean by a reflection matrix?"
+    },
+    {
+        "text": "Let me draw the plane."
+    },
+    {
+        "text": "And I think, so 1, 0."
+    },
+    {
+        "text": "Let's follow it again."
+    },
+    {
+        "text": "1, 0, where does that go?"
+    },
+    {
+        "text": "That gives me the first column."
+    },
+    {
+        "text": "So as before, it goes to cos theta sine theta."
+    },
+    {
+        "text": "And when I say reflection, let me put the mirror into the picture."
+    },
+    {
+        "text": "So you see what reflection it is."
+    },
+    {
+        "text": "The mirror is along here at angle theta over 2, theta over 2 line."
+    },
+    {
+        "text": "So sure enough, 1, 0 at angle 0 got reflected into a unit vector at angle theta."
+    },
+    {
+        "text": "And halfway between was the theta over 2 line."
+    },
+    {
+        "text": "That's OK. Now, what about the other guy, 0, 1?"
+    },
+    {
+        "text": "Here's 0, 1."
+    },
+    {
+        "text": "OK, I multiply that."
+    },
+    {
+        "text": "Can I put the 0, 1 up here so your eye does the multiplication?"
+    },
+    {
+        "text": "Where is the result of 0, 1?"
+    },
+    {
+        "text": "What's the output from Q applied to 0, 1?"
+    },
+    {
+        "text": "Sine theta minus cos theta, right?"
+    },
+    {
+        "text": "It's the second column."
+    },
+    {
+        "text": "And so where is that?"
+    },
+    {
+        "text": "Well, it's perpendicular to that guy."
+    },
+    {
+        "text": "That's what I know, right?"
+    },
+    {
+        "text": "That was the point, that the two columns are perpendicular."
+    },
+    {
+        "text": "So it must go down this way, right?"
+    },
+    {
+        "text": "Sine theta, cos theta."
+    },
+    {
+        "text": "And it doesn't change length."
+    },
+    {
+        "text": "All these facts that we just learned are key."
+    },
+    {
+        "text": "So there's 0, 1, and it goes to this guy, which is whatever that second column is, sine theta minus cos theta."
+    },
+    {
+        "text": "And if you check that, actually, gosh, this is like plain geometry."
+    },
+    {
+        "text": "I believe, it's never occurred to me before, but I believe it, that this angle going down to there, that that goes straight through, and that the halfway one is that line."
+    },
+    {
+        "text": "Yeah, I think that picture has got it, and I think it's in the notes."
+    },
+    {
+        "text": "So that's a reflection matrix."
+    },
+    {
+        "text": "Well, that's a 2 by 2 reflection matrix."
+    },
+    {
+        "text": "Would you like to see some other matrices like this one, but larger?"
+    },
+    {
+        "text": "They're named after a guy named Householder."
+    },
+    {
+        "text": "So these are Householder reflections."
+    },
+    {
+        "text": "What am I doing here?"
+    },
+    {
+        "text": "I'm collecting together some orthogonal matrices that are useful and important."
+    },
+    {
+        "text": "And Householder found a whole bunch of them, and his algorithm is a much used part of numerical linear algebra."
+    },
+    {
+        "text": "So he started with a unit vector."
+    },
+    {
+        "text": "Start with a unit vector, u transpose u equal 1."
+    },
+    {
+        "text": "So the length of the vector is 1."
+    },
+    {
+        "text": "And then he created, let's name it after him, H. He created this matrix, the identity minus 2 uu transpose."
+    },
+    {
+        "text": "And I believe that that's a really useful matrix."
+    },
+    {
+        "text": "So it's just like, I think this review is like going beyond 18.06 into what ones are really worth knowing individually."
+    },
+    {
+        "text": "Could we just check what are the properties of Householder's reflection of that I minus 2?"
+    },
+    {
+        "text": "You recognize here a column times a row."
+    },
+    {
+        "text": "So that's a matrix."
+    },
+    {
+        "text": "And what could you tell me about that matrix uu transpose?"
+    },
+    {
+        "text": "It's, yeah."
+    },
+    {
+        "text": "Or what can we say about H?"
+    },
+    {
+        "text": "So I guess I'm believing that H is a orthogonal matrix."
+    },
+    {
+        "text": "Otherwise, it wouldn't be here today."
+    },
+    {
+        "text": "So I believe that."
+    },
+    {
+        "text": "And not only is it orthogonal, it is also, have a look at it, symmetric."
+    },
+    {
+        "text": "It's also symmetric."
+    },
+    {
+        "text": "The identity is symmetric."
+    },
+    {
+        "text": "Uu transpose is symmetric."
+    },
+    {
+        "text": "So this is a family of symmetric orthogonal matrices."
+    },
+    {
+        "text": "And that was one of them."
+    },
+    {
+        "text": "That's a symmetric orthogonal matrix."
+    },
+    {
+        "text": "These matrices are really great to have."
+    },
+    {
+        "text": "You just, like in using linear algebra, you just get a collection of useful matrices that you can call on."
+    },
+    {
+        "text": "And these are definitely one family."
+    },
+    {
+        "text": "Well, it's obviously symmetric."
+    },
+    {
+        "text": "Shall we check that it's orthogonal?"
+    },
+    {
+        "text": "So to check that it's orthogonal, I just, so I'm going to check that H transpose H is the identity."
+    },
+    {
+        "text": "Can I just check that?"
+    },
+    {
+        "text": "Well, H transpose is the same as H, because it was symmetric."
+    },
+    {
+        "text": "So I'm going to square this guy."
+    },
+    {
+        "text": "This is really H times H. I'm squaring it."
+    },
+    {
+        "text": "And what do I get if I square?"
+    },
+    {
+        "text": "So I get, I hope I get the identity, but let's see it."
+    },
+    {
+        "text": "What do I get when I square this?"
+    },
+    {
+        "text": "Get little, multiply it out."
+    },
+    {
+        "text": "So I times I is I."
+    },
+    {
+        "text": "And then I get some number of Uu transposes."
+    },
+    {
+        "text": "How many do I get from that?"
+    },
+    {
+        "text": "So I'm squaring this thing, because H transpose H is the same as H times H. So I'm squaring it."
+    },
+    {
+        "text": "So how many, what do I put here?"
+    },
+    {
+        "text": "Four, thanks."
+    },
+    {
+        "text": "And now I've got this guy squared with a plus."
+    },
+    {
+        "text": "So that's four Uu transpose Uu transpose."
+    },
+    {
+        "text": "Yeah, I'm totally realizing I've practiced for a lifetime doing these dinky little calculations."
+    },
+    {
+        "text": "But they are dinky."
+    },
+    {
+        "text": "And you'll get the hang of it quickly."
+    },
+    {
+        "text": "Now, what am I hoping out of that bottom line?"
+    },
+    {
+        "text": "That it is?"
+    },
+    {
+        "text": "I."
+    },
+    {
+        "text": "We're hoping to get I."
+    },
+    {
+        "text": "Do we get I?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "Who sees how to get I out of that thing?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "U transpose U in here is a number."
+    },
+    {
+        "text": "That was U."
+    },
+    {
+        "text": "That was column times row times column times row."
+    },
+    {
+        "text": "And I look at the in the middle here is row times column."
+    },
+    {
+        "text": "And that's the number 1, right?"
+    },
+    {
+        "text": "Because it's there."
+    },
+    {
+        "text": "So that's 1."
+    },
+    {
+        "text": "And then I have minus 4 of that, plus 4 of that."
+    },
+    {
+        "text": "They cancel each other."
+    },
+    {
+        "text": "And I get I."
+    },
+    {
+        "text": "So those are good matrices."
+    },
+    {
+        "text": "We'll use them."
+    },
+    {
+        "text": "We'll use them."
+    },
+    {
+        "text": "Actually, they're better than Graham-Schmidt."
+    },
+    {
+        "text": "So we'll use them in making things orthogonal."
+    },
+    {
+        "text": "So what other orthogonal matrices?"
+    },
+    {
+        "text": "Let's create some."
+    },
+    {
+        "text": "Creating good orthogonal matrices, it pays off."
+    },
+    {
+        "text": "Let's think."
+    },
+    {
+        "text": "So there's a family named after this French guy who lived to 100."
+    },
+    {
+        "text": "He was a real old timer."
+    },
+    {
+        "text": "Well, MIT had a faculty member in math when I came, Professor Struik, who lived to 106."
+    },
+    {
+        "text": "And I heard him give a lecture at Brown University at age 100."
+    },
+    {
+        "text": "And it was like perfect."
+    },
+    {
+        "text": "You could not have done it better."
+    },
+    {
+        "text": "So he's my inspiration."
+    },
+    {
+        "text": "I keep going."
+    },
+    {
+        "text": "I only have like n more years to get there."
+    },
+    {
+        "text": "And n is, well, it's too many anyway."
+    },
+    {
+        "text": "OK, Adamard."
+    },
+    {
+        "text": "All right, Adamard."
+    },
+    {
+        "text": "So Adamard, he created, well, that's the simplest, the smallest."
+    },
+    {
+        "text": "Now, the next guy is going to be 4 by 4."
+    },
+    {
+        "text": "I'm going to put that."
+    },
+    {
+        "text": "So where I see a 1, I'm going to put Adamard in."
+    },
+    {
+        "text": "1, 1, 1 minus 1, 1, 1, 1 minus 1."
+    },
+    {
+        "text": "And then when I see a minus, I'm going to put it in with a minus."
+    },
+    {
+        "text": "You saw that picture?"
+    },
+    {
+        "text": "It was a picture of H2, H2, H2, and minus H2."
+    },
+    {
+        "text": "That's what I've got there."
+    },
+    {
+        "text": "And I believe those columns are orthogonal."
+    },
+    {
+        "text": "Now, what could I do?"
+    },
+    {
+        "text": "Well, it's not quite an orthogonal matrix."
+    },
+    {
+        "text": "What do I have to do to make it?"
+    },
+    {
+        "text": "This isn't quite an orthogonal matrix either."
+    },
+    {
+        "text": "What do I do to make that an orthogonal matrix?"
+    },
+    {
+        "text": "Divide by square root of 2."
+    },
+    {
+        "text": "I need unit vectors there."
+    },
+    {
+        "text": "And here, those lengths are 1 squared, 1 squared, 4."
+    },
+    {
+        "text": "Square root of 4 is 2."
+    },
+    {
+        "text": "So I better divide by the 2 there."
+    },
+    {
+        "text": "And now here, I'm up to, yeah, so that was that one."
+    },
+    {
+        "text": "Tell me the next one up."
+    },
+    {
+        "text": "What's that going to be?"
+    },
+    {
+        "text": "8 by 8?"
+    },
+    {
+        "text": "So this is H4 here."
+    },
+    {
+        "text": "Oops, 4."
+    },
+    {
+        "text": "So tell me what I should do for 8 by 8."
+    },
+    {
+        "text": "You'll think this is simple."
+    },
+    {
+        "text": "But that's a good thing to say about it."
+    },
+    {
+        "text": "In coding theory, all sorts of places, you want matrices of 1's and minus 1's."
+    },
+    {
+        "text": "OK, what's H8?"
+    },
+    {
+        "text": "I'm going to build it out of H4."
+    },
+    {
+        "text": "So what's it going to be?"
+    },
+    {
+        "text": "I'm going to put an H4 there."
+    },
+    {
+        "text": "What am I going to put here?"
+    },
+    {
+        "text": "Another H4."
+    },
+    {
+        "text": "And up here, another H4."
+    },
+    {
+        "text": "And finally here, minus H4."
+    },
+    {
+        "text": "Minus H4, and I think I've got orthogonal columns again."
+    },
+    {
+        "text": "Because the columns within these, dot products with themselves, give 0 and 0."
+    },
+    {
+        "text": "The dot products from these columns and these columns obviously have the minus."
+    },
+    {
+        "text": "And the dot products in here are 0 from that and 0 from that."
+    },
+    {
+        "text": "Yeah, it works."
+    },
+    {
+        "text": "And we could keep going to 16 and 32 and 64."
+    },
+    {
+        "text": "But then up comes a question."
+    },
+    {
+        "text": "What about H12?"
+    },
+    {
+        "text": "Is there a 1's and minus 1's matrix of size 12, 12 by 12?"
+    },
+    {
+        "text": "It doesn't come directly from our little pattern, which is doubling size every time."
+    },
+    {
+        "text": "But you could still hope."
+    },
+    {
+        "text": "And it works."
+    },
+    {
+        "text": "I don't know what it is, but there's a matrix of 1's and minus 1's, 12 orthogonal columns."
+    },
+    {
+        "text": "So the answer is yes."
+    },
+    {
+        "text": "OK, so we make an 18.065 conjecture."
+    },
+    {
+        "text": "Every matrix size, well, not every matrix size, because 3 by 3 is not going to work."
+    },
+    {
+        "text": "1 by 1 is not going to work either."
+    },
+    {
+        "text": "But H12 works, H8, H16."
+    },
+    {
+        "text": "What's our conjecture?"
+    },
+    {
+        "text": "We won't be the first to conjecture it."
+    },
+    {
+        "text": "There is a 1's and minus 1's orthogonal matrix with orthogonal columns of every size n. So always, so I'll start the conjecture."
+    },
+    {
+        "text": "Always possible if n, which is the size of the matrix, let's say, what would you guess?"
+    },
+    {
+        "text": "Just take a shot."
+    },
+    {
+        "text": "You won't be asked for a proof, because nobody has the proof."
+    },
+    {
+        "text": "Even?"
+    },
+    {
+        "text": "Well, you could hope for even."
+    },
+    {
+        "text": "You could look for try 6, I guess, would be the first guy there."
+    },
+    {
+        "text": "And I don't think it's possible."
+    },
+    {
+        "text": "I think 6 is not possible."
+    },
+    {
+        "text": "So every even size is, I think, not going to work."
+    },
+    {
+        "text": "But it's a natural idea to try."
+    },
+    {
+        "text": "What's the next thought?"
+    },
+    {
+        "text": "Every multiple of 4."
+    },
+    {
+        "text": "If n over 4 is a whole number."
+    },
+    {
+        "text": "But nobody has a systematic way to create these things."
+    },
+    {
+        "text": "So like some of them, at this point, we're down to doing it one at a time."
+    },
+    {
+        "text": "And we're up to 668."
+    },
+    {
+        "text": "But we haven't got that one yet."
+    },
+    {
+        "text": "Isn't that crazy?"
+    },
+    {
+        "text": "So all this is coming from Wikipedia, my source of all that's good in mathematics is there on Wikipedia."
+    },
+    {
+        "text": "Anyway, this is the conjecture."
+    },
+    {
+        "text": "Conjecture means you don't have any damn idea of whether it's true or not."
+    },
+    {
+        "text": "Is that divisible by 4?"
+    },
+    {
+        "text": "Yeah, I guess it would be."
+    },
+    {
+        "text": "600 certainly is, and 68 certainly is."
+    },
+    {
+        "text": "So I think that's the first one."
+    },
+    {
+        "text": "So anybody, if you find one of size 668, just skip the homework and tell us about that one."
+    },
+    {
+        "text": "But I don't think I'll assign that."
+    },
+    {
+        "text": "I guess, well, I must have searched for it online."
+    },
+    {
+        "text": "But yeah, anyway, so those are the Adamard matrices."
+    },
+    {
+        "text": "Now, where else do I remember orthogonal matrices coming from?"
+    },
+    {
+        "text": "Well, yeah, really, the biggest source of."
+    },
+    {
+        "text": "So when I'm looking for orthogonal matrices, I'm looking for a basis of orthogonal vectors."
+    },
+    {
+        "text": "And where in math am I going to find vectors that come out to be orthogonal?"
+    },
+    {
+        "text": "We haven't seen that."
+    },
+    {
+        "text": "It's the next section of the notes, but maybe you're remembering."
+    },
+    {
+        "text": "Where will we sort of like automatically show up with orthogonal vectors?"
+    },
+    {
+        "text": "They could be the eigenvectors of a symmetric matrix."
+    },
+    {
+        "text": "And that's where the most important ones come from."
+    },
+    {
+        "text": "Oh, I could tell you about wavelets, though."
+    },
+    {
+        "text": "Wavelets are more like this picture."
+    },
+    {
+        "text": "They're 1's and minus 1's."
+    },
+    {
+        "text": "Or the simplest wavelets are 1's and minus 1's."
+    },
+    {
+        "text": "Before I go on to the eigenvector business, can I mention the wavelets matrices?"
+    },
+    {
+        "text": "Yeah, these are really important, simple and important constructions."
+    },
+    {
+        "text": "So wavelets, let me draw a picture."
+    },
+    {
+        "text": "So I'm going to come up with four."
+    },
+    {
+        "text": "I'll do the 4 by 4 case."
+    },
+    {
+        "text": "And these are the orthogonal guys."
+    },
+    {
+        "text": "And then the next one is up and down and 0."
+    },
+    {
+        "text": "And the last one is 0 and up and down."
+    },
+    {
+        "text": "So that's four things, but let me show you the matrix."
+    },
+    {
+        "text": "So I'll call it W for wavelets."
+    },
+    {
+        "text": "So that guy I'm thinking of as 1, 1, 1, 1."
+    },
+    {
+        "text": "This guy I'm thinking of as 1, 1, minus 1, minus 1."
+    },
+    {
+        "text": "It's looking sort of Adhemard way, but there's a difference here."
+    },
+    {
+        "text": "This guy is 1, minus 1, 0, 0."
+    },
+    {
+        "text": "So the wavelets rescale."
+    },
+    {
+        "text": "That's the difference between Adhemard and wavelets."
+    },
+    {
+        "text": "Wavelets are self-scaling."
+    },
+    {
+        "text": "And what's the last guy here?"
+    },
+    {
+        "text": "What's the fourth column from that fourth wavelet?"
+    },
+    {
+        "text": "0, 0, 1, minus 1."
+    },
+    {
+        "text": "So Haar came up with that."
+    },
+    {
+        "text": "This is the Haar wavelet, which was many years before the word wavelets was invented."
+    },
+    {
+        "text": "He came up with this construction, the Haar matrix, the Haar functions."
+    },
+    {
+        "text": "So they're very simple functions, but that makes them usable, the fact that they're so simple."
+    },
+    {
+        "text": "Now, I don't know if you want to see the pattern in 8 by 8, but let me start the 8 by 8 so you'll know what wavelets are about."
+    },
+    {
+        "text": "You'll know what these Haar wavelets are about anyway."
+    },
+    {
+        "text": "They're the ones that were kind of easy to visualize."
+    },
+    {
+        "text": "So if that's W4, let's just take a minute."
+    },
+    {
+        "text": "It won't take long for W8."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the first column is going to be 8 1's."
+    },
+    {
+        "text": "And what's the next column going to be?"
+    },
+    {
+        "text": "4 1's and 4 minus 1's, like so."
+    },
+    {
+        "text": "So 4 1's and 4 minus 1's."
+    },
+    {
+        "text": "OK, and now the next column."
+    },
+    {
+        "text": "2 1's, 2 minus 1's, and 0's."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "1, 1, minus 1, minus 1, and 0."
+    },
+    {
+        "text": "And the fourth will be 0's and 2 1's and 2 minus 1's."
+    },
+    {
+        "text": "We've got half a matrix now."
+    },
+    {
+        "text": "Now, if we just tell me the fifth, what do you think?"
+    },
+    {
+        "text": "What do I put in the fifth one?"
+    },
+    {
+        "text": "So again, it's going to squeeze down and rescale."
+    },
+    {
+        "text": "And what's the fifth column up here that's going to be 1's and minus 1's and 0's now?"
+    },
+    {
+        "text": "So it's not Adamard."
+    },
+    {
+        "text": "It's Haar."
+    },
+    {
+        "text": "And what shall I put?"
+    },
+    {
+        "text": "1, 1."
+    },
+    {
+        "text": "Shall I start with 1, 1?"
+    },
+    {
+        "text": "Oh, 1 minus?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "And then all 0's?"
+    },
+    {
+        "text": "Oh, yeah, thanks."
+    },
+    {
+        "text": "Perfect."
+    },
+    {
+        "text": "1 minus 1, and then all 0's."
+    },
+    {
+        "text": "And then the next three columns will have the 1 minus 1 here, and the 1 minus 1 here, and the 1 minus 1 here."
+    },
+    {
+        "text": "And otherwise, all 0's."
+    },
+    {
+        "text": "So you see the pattern."
+    },
+    {
+        "text": "It's scaling at every step."
+    },
+    {
+        "text": "So that matrix has the advantage of being quite sparse."
+    },
+    {
+        "text": "This, in my mind, is a 4, 1's."
+    },
+    {
+        "text": "That's involved with taking the average."
+    },
+    {
+        "text": "Then this guy is like taking the differences, differences between those and those."
+    },
+    {
+        "text": "And then this is like taking the difference at a smaller scale, and that also at a smaller scale."
+    },
+    {
+        "text": "So that's what we keep doing."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So that's wavelets."
+    },
+    {
+        "text": "It looks so simple, right?"
+    },
+    {
+        "text": "But just a one-minute history of wavelets, so Haar invented this in like 1910."
+    },
+    {
+        "text": "I mean, along, forever."
+    },
+    {
+        "text": "But then you wanted wavelets that were a little better, and not just 1's and minus 1's and 0's."
+    },
+    {
+        "text": "And that took a lot of thinking."
+    },
+    {
+        "text": "A lot of people were searching for it."
+    },
+    {
+        "text": "And Ingrid Dovashy, so I'll just put her name, became famous for finding them."
+    },
+    {
+        "text": "So in about 1988, she found a whole lot of families of wavelets."
+    },
+    {
+        "text": "And when I say wavelets, she found a whole lot of orthogonal matrices that had good properties."
+    },
+    {
+        "text": "So that's the wavelet picture."
+    },
+    {
+        "text": "Now, to close today and to connect with the next lecture on eigenvalues, eigenvectors, positive definite matrices, we're really getting to the heart of things here."
+    },
+    {
+        "text": "Let me follow through on that idea."
+    },
+    {
+        "text": "Idea, so the eigenvectors of a symmetric matrix, but also of an orthogonal matrix are orthogonal."
+    },
+    {
+        "text": "And that is really where people, where you can invent, because you don't have to work hard."
+    },
+    {
+        "text": "You just find a symmetric matrix."
+    },
+    {
+        "text": "Its eigenvectors are automatically orthogonal."
+    },
+    {
+        "text": "That doesn't mean they're great for use, but some of them are really important."
+    },
+    {
+        "text": "And maybe the most important of all is the Fourier."
+    },
+    {
+        "text": "So you probably have seen Fourier series, sines and cosines."
+    },
+    {
+        "text": "Those guys are orthogonal functions."
+    },
+    {
+        "text": "But the discrete Fourier series is what everybody computes, and those are orthogonal vectors."
+    },
+    {
+        "text": "So the orthogonal vectors that go into the discrete Fourier transform, and then they're done at high speed by the fast Fourier transform, those are eigenvectors of Q, eigenvectors of the right Q."
+    },
+    {
+        "text": "So let me just tell you the right Q, whose eigenvectors."
+    },
+    {
+        "text": "So here we go."
+    },
+    {
+        "text": "Eigenvectors of Q."
+    },
+    {
+        "text": "You will just be amazed by how simple this matrix is."
+    },
+    {
+        "text": "It's just that matrix."
+    },
+    {
+        "text": "It's called a permutation matrix."
+    },
+    {
+        "text": "Those are the four Fourier discrete."
+    },
+    {
+        "text": "Let me put the word discrete up here, transform."
+    },
+    {
+        "text": "So I really meant to put discrete Fourier transform."
+    },
+    {
+        "text": "The eigenvectors of that matrix, first of all, they are orthogonal."
+    },
+    {
+        "text": "And then second and more important, they're tremendously useful."
+    },
+    {
+        "text": "They're the heart of signal processing."
+    },
+    {
+        "text": "In signal processing, they just take the discrete Fourier transform of a vector before they even look at it."
+    },
+    {
+        "text": "I mean, that's the way to see it, is split it into its frequencies."
+    },
+    {
+        "text": "And that's what the eigenvectors of this will do."
+    },
+    {
+        "text": "So we're going to see the discrete Fourier transform."
+    },
+    {
+        "text": "But my point here is to know that they're orthogonal just comes out of this fact that the eigenvectors are orthogonal for any Q."
+    },
+    {
+        "text": "And that is certainly a Q."
+    },
+    {
+        "text": "Everybody can see that those columns are orthogonal."
+    },
+    {
+        "text": "The columns of a permutation matrix, right?"
+    },
+    {
+        "text": "You've taken the columns of the identity, which are totally orthogonal, and you just put them in a different order."
+    },
+    {
+        "text": "So a permutation matrix is a reordering of the identity matrix."
+    },
+    {
+        "text": "It's got to be a Q."
+    },
+    {
+        "text": "And therefore, its eigenvectors are orthogonal."
+    },
+    {
+        "text": "And they're just the winners."
+    },
+    {
+        "text": "I mean, the matrix of the Fourier matrix with those four eigenvectors in it, I'll show you now."
+    },
+    {
+        "text": "So this is really we're finishing today by leading into Wednesday, eigenvectors and eigenvalues."
+    },
+    {
+        "text": "And we happen to be doing eigenvectors and eigenvalues of a Q, not today of an S. Most of the time, it's a symmetric matrix whose eigenvectors we take."
+    },
+    {
+        "text": "But here, that happens to be a Q."
+    },
+    {
+        "text": "Can I show you the eigenvectors, the four eigenvectors of that?"
+    },
+    {
+        "text": "Now, oh, the complex number I is going to come in."
+    },
+    {
+        "text": "You have to let it in here."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "If S is a real symmetric matrix, its eigenvectors are real."
+    },
+    {
+        "text": "But if Q is a orthogonal matrix, its eigenvectors, even though you couldn't ask for a more real matrix than that, but its eigenvectors are at least, yeah, the good way are complex numbers."
+    },
+    {
+        "text": "So can I show you the eigenvectors of?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So again, overall, the point today is to see orthogonal matrices."
+    },
+    {
+        "text": "So I'll just repeat now while I can."
+    },
+    {
+        "text": "Rotations here, reflections, wavelets, the householder idea of reflections of large matrices that have this form I minus 2 UU transpose are orthogonal."
+    },
+    {
+        "text": "And now we're going to see the big guys, the eigenvectors of Q."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 2."
+    },
+    {
+        "text": "The wavelets, do you want to rescale the column?"
+    },
+    {
+        "text": "GILBERT STRANG, M.D."
+    },
+    {
+        "text": "Oh, yeah."
+    },
+    {
+        "text": "We don't have orthonormal."
+    },
+    {
+        "text": "That's right."
+    },
+    {
+        "text": "We don't have orthonormal."
+    },
+    {
+        "text": "I better divide by square root of 8."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "AUDIENCE 3."
+    },
+    {
+        "text": "There's different forms for different."
+    },
+    {
+        "text": "GILBERT STRANG, M.D."
+    },
+    {
+        "text": "Oh, yes."
+    },
+    {
+        "text": "Oh, you're right."
+    },
+    {
+        "text": "Sorry, I thought I'd get away with that, but I didn't."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So these guys are square roots of 8."
+    },
+    {
+        "text": "So are these."
+    },
+    {
+        "text": "But these guys are square roots of 4."
+    },
+    {
+        "text": "And these guys are square roots of 2."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "Absolutely right."
+    },
+    {
+        "text": "Absolutely."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what are the eigenvectors of a permutation?"
+    },
+    {
+        "text": "This is going to be nice to see."
+    },
+    {
+        "text": "And I'll use the matrix F for the eigenvector matrix of that Q up there."
+    },
+    {
+        "text": "And F is for Fourier."
+    },
+    {
+        "text": "And it'd be the 4 by 4 Fourier matrix."
+    },
+    {
+        "text": "OK. What are the eigenvectors of Q?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So Q is a permutation."
+    },
+    {
+        "text": "So I'm going to ask you for one eigenvector of every permutation matrix."
+    },
+    {
+        "text": "What vector can you tell me that actually the eigenvalue will be 1?"
+    },
+    {
+        "text": "What vector can you tell me where if I permute it, I don't change it?"
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "It's like it's everywhere here."
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "So that's the zero frequency Fourier vector, the constant vector, all 1's."
+    },
+    {
+        "text": "Everybody sees that if I multiply by Q, it doesn't change."
+    },
+    {
+        "text": "OK. Now the next one, I'll show you the 4 now."
+    },
+    {
+        "text": "The next one will be 1, i, i squared, and i cubed."
+    },
+    {
+        "text": "Of course, i squared, I don't know how many course 6j people are in this audience."
+    },
+    {
+        "text": "But this is a math building, we paid for it."
+    },
+    {
+        "text": "It's 2, 190, and it's i in this room."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So yeah."
+    },
+    {
+        "text": "Anyway, i is the first letter in what?"
+    },
+    {
+        "text": "Imaginary, thank you."
+    },
+    {
+        "text": "The first letter in imaginary."
+    },
+    {
+        "text": "You can't say jimaginary."
+    },
+    {
+        "text": "So that's it."
+    },
+    {
+        "text": "OK. And then the next one is 1, i squared, i fourth, i sixth."
+    },
+    {
+        "text": "And the next one is 1, i cubed, i sixth, and i ninth."
+    },
+    {
+        "text": "Isn't that just beautiful?"
+    },
+    {
+        "text": "And you could show that every one of those four columns, if you multiply them by Q, you would get the eigenvalues."
+    },
+    {
+        "text": "And you would see that it's an eigenvector."
+    },
+    {
+        "text": "And this is just sort of like a discrete Fourier stuff."
+    },
+    {
+        "text": "And instead of e to the ix, e to the 2ix, e to the 3ix, and so on, we just have vectors."
+    },
+    {
+        "text": "So those are the four eigenvectors of that permutation."
+    },
+    {
+        "text": "And those are orthogonal."
+    },
+    {
+        "text": "Could I just check that?"
+    },
+    {
+        "text": "How do you know that this first column and the second?"
+    },
+    {
+        "text": "Well, I should really say zeroth column and first column if I'm talking frequencies."
+    },
+    {
+        "text": "Do you see that that's orthogonal to that?"
+    },
+    {
+        "text": "Well, y is 1 plus i plus i squared plus i cubed equals 0."
+    },
+    {
+        "text": "That's the dot product."
+    },
+    {
+        "text": "This is column 1 dot column 2."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "You're right."
+    },
+    {
+        "text": "This happens to come out 0."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "Yes, that will come out 0."
+    },
+    {
+        "text": "That'll come out 0."
+    },
+    {
+        "text": "But somebody mentioned that this isn't right."
+    },
+    {
+        "text": "It's true that that came out 0."
+    },
+    {
+        "text": "But when I have imaginary numbers anywhere around, this isn't the correct dot product to test orthogonal."
+    },
+    {
+        "text": "If I have complex vectors, if I have complex numbers, complex vectors, I should test column 1 conjugate dotted with column 2."
+    },
+    {
+        "text": "Column i conjugate."
+    },
+    {
+        "text": "Well, let me take column."
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "Which one shall I take?"
+    },
+    {
+        "text": "Maybe that guy and that guy."
+    },
+    {
+        "text": "Many of them you luck out here."
+    },
+    {
+        "text": "But really, I should be taking the conjugate."
+    },
+    {
+        "text": "So these 1's."
+    },
+    {
+        "text": "But the thing is the complex conjugate of 1 is 1."
+    },
+    {
+        "text": "So that was OK."
+    },
+    {
+        "text": "But in general, if I wanted to take column 2 dotted with column, I don't know, maybe 4 would be a little dodgy."
+    },
+    {
+        "text": "Yeah, look what happens."
+    },
+    {
+        "text": "Take that column and that column."
+    },
+    {
+        "text": "Take their dot product."
+    },
+    {
+        "text": "Do it the wrong way."
+    },
+    {
+        "text": "So what's the wrong way?"
+    },
+    {
+        "text": "Forget about the complex conjugate and just do it the usual way."
+    },
+    {
+        "text": "So 1 times 1 is 1. i times i cube is?"
+    },
+    {
+        "text": "1. i squared times i6 is?"
+    },
+    {
+        "text": "1."
+    },
+    {
+        "text": "I'm getting all 1's."
+    },
+    {
+        "text": "I'm not getting orthogonality there."
+    },
+    {
+        "text": "And that's because I forgot that I should take the complex conjugate."
+    },
+    {
+        "text": "Well, of these guys, 1."
+    },
+    {
+        "text": "I should take minus i."
+    },
+    {
+        "text": "Minus i squared."
+    },
+    {
+        "text": "Well, that's real, so it's OK."
+    },
+    {
+        "text": "Minus there."
+    },
+    {
+        "text": "So minus i squared is still minus 1."
+    },
+    {
+        "text": "So now if I do it, it comes out 0."
+    },
+    {
+        "text": "So let me repeat again."
+    },
+    {
+        "text": "Let me just make this statement."
+    },
+    {
+        "text": "If Q transpose Q is i, and Qx is lambda x, and Qy is a different eigenvalue y. OK."
+    },
+    {
+        "text": "So I'm setting up the main fact that in the last minute, I'm just going to write down."
+    },
+    {
+        "text": "So I have an orthogonal matrix."
+    },
+    {
+        "text": "I have an eigenvector with eigenvalue lambda."
+    },
+    {
+        "text": "I have another eigenvector with a different eigenvalue mu."
+    },
+    {
+        "text": "Then the claim is that, what is the claim about the eigenvectors?"
+    },
+    {
+        "text": "So here has one eigen."
+    },
+    {
+        "text": "This has an eigenvalue."
+    },
+    {
+        "text": "This has a different eigenvalue."
+    },
+    {
+        "text": "I need them to be different to really know that the x's and the y's can't be the same."
+    },
+    {
+        "text": "So what is it that I want to show?"
+    },
+    {
+        "text": "AUDIENCE 1."
+    },
+    {
+        "text": "Conjugated x of y minus 1."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "That x, and I have to remember to do that, x transpose y is 0."
+    },
+    {
+        "text": "That's orthogonality."
+    },
+    {
+        "text": "That's orthogonality for complex vectors."
+    },
+    {
+        "text": "I have to remember to change every i to a minus i in one of the vectors."
+    },
+    {
+        "text": "And I can prove that fact by playing with these, by playing with starting from here, I can get to that."
+    },
+    {
+        "text": "OK, that's it."
+    },
+    {
+        "text": "We've done a lot today, a lot of stuff about orthogonal matrices, important ones and the sources of important ones, eigenvectors."
+    },
+    {
+        "text": "And so it'll be eigenvectors on Wednesday."
+    }
+]

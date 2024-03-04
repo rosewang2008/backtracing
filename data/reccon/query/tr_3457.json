@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "You know , Tom is my best friend and he asked me to be his best man .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Nobody is OK , but you !",
+            "Tom is my best friend and he asked me to be his best man ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You know , Tom is my best friend and he asked me to be his best man .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

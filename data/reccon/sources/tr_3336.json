@@ -1,0 +1,197 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'll always remember my college days .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "my college days"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'll always remember my college days .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh yeah ?",
+        "emotion": "neutral",
+        "text": "Oh yeah ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It was one of the best times in my life . It was tough , but I made it . I became a college graduate .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "my college days",
+            "It was one of the best times in my life . It was tough , but I made it . I became a college graduate ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It was one of the best times in my life . It was tough , but I made it . I became a college graduate .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How did you feel when you graduated ?",
+        "emotion": "neutral",
+        "text": "How did you feel when you graduated ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It was a round day for me . My family attend the graduation ceremony . I was so nervous . I couldn't find my cap and gown , but all worked out in the end .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It was tough , but I made it . I became a college graduate .",
+            "My family attend the graduation ceremony .",
+            "all worked out in the end ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It was a round day for me . My family attend the graduation ceremony . I was so nervous . I couldn't find my cap and gown , but all worked out in the end .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What did you do after graduation ?",
+        "emotion": "neutral",
+        "text": "What did you do after graduation ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I was planning to attend gradate school , but then I was offered a good job doing marketing , so I changed my mind .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I was offered a good job doing marketing"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I was planning to attend gradate school , but then I was offered a good job doing marketing , so I changed my mind .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sounds like you're happy with your decision .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I was offered a good job doing marketing",
+            "you're happy with your decision ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sounds like you're happy with your decision .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I sure am . So what about you ? How did you feel when you graduated ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I was offered a good job doing marketing",
+            "you're happy with your decision .",
+            "I sure am ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I sure am . So what about you ? How did you feel when you graduated ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It was also a proud day for me , but I also felt like a kind of loss that day .",
+        "emotion": "neutral",
+        "text": "It was also a proud day for me , but I also felt like a kind of loss that day .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "How could it be ?",
+        "emotion": "neutral",
+        "text": "How could it be ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "While seeing others going to work or continue their study , I didn't know what I would do .",
+        "emotion": "neutral",
+        "text": "While seeing others going to work or continue their study , I didn't know what I would do .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You didn't have an offer ?",
+        "emotion": "neutral",
+        "text": "You didn't have an offer ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I had one , but I didn't like the job very much . I wanted to attend graduate school , but I was afraid it would be too tough .",
+        "emotion": "neutral",
+        "text": "I had one , but I didn't like the job very much . I wanted to attend graduate school , but I was afraid it would be too tough .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I think you lack in the power of decision . Once you make your decision , don't be overtaken by misgivings and fear . Just go full steam ahead !",
+        "emotion": "neutral",
+        "text": "I think you lack in the power of decision . Once you make your decision , don't be overtaken by misgivings and fear . Just go full steam ahead !",
+        "id": 15
+    }
+]

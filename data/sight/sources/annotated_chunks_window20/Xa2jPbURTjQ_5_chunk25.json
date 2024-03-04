@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And therefore, its eigenvectors are orthogonal."
+    },
+    {
+        "text": "And they're just the winners."
+    },
+    {
+        "text": "I mean, the matrix of the Fourier matrix with those four eigenvectors in it, I'll show you now."
+    },
+    {
+        "text": "So this is really we're finishing today by leading into Wednesday, eigenvectors and eigenvalues."
+    },
+    {
+        "text": "And we happen to be doing eigenvectors and eigenvalues of a Q, not today of an S. Most of the time, it's a symmetric matrix whose eigenvectors we take."
+    },
+    {
+        "text": "But here, that happens to be a Q."
+    },
+    {
+        "text": "Can I show you the eigenvectors, the four eigenvectors of that?"
+    },
+    {
+        "text": "Now, oh, the complex number I is going to come in."
+    },
+    {
+        "text": "You have to let it in here."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "If S is a real symmetric matrix, its eigenvectors are real."
+    },
+    {
+        "text": "But if Q is a orthogonal matrix, its eigenvectors, even though you couldn't ask for a more real matrix than that, but its eigenvectors are at least, yeah, the good way are complex numbers."
+    },
+    {
+        "text": "So can I show you the eigenvectors of?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So again, overall, the point today is to see orthogonal matrices."
+    },
+    {
+        "text": "So I'll just repeat now while I can."
+    },
+    {
+        "text": "Rotations here, reflections, wavelets, the householder idea of reflections of large matrices that have this form I minus 2 UU transpose are orthogonal."
+    },
+    {
+        "text": "And now we're going to see the big guys, the eigenvectors of Q."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "Yes?"
+    }
+]

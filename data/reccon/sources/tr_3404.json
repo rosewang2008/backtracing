@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning Mike !",
+        "emotion": "neutral",
+        "text": "Good morning Mike !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Morning Sally ! What's up ? you seem in a hurry !",
+        "emotion": "neutral",
+        "text": "Morning Sally ! What's up ? you seem in a hurry !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I am having an exam at nine , It's already eight thirty .",
+        "emotion": "neutral",
+        "text": "I am having an exam at nine , It's already eight thirty .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Don't worry , I'll drive you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Don't worry , I'll drive you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Don't worry , I'll drive you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you very much !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Don't worry , I'll drive you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How are your cases coming along ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Don't worry , I'll drive you ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How are your cases coming along ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Very well , thanks , I will probably finish next week , but this is still a lot of work , I have been worked on in for six months , and i ' m so closed to end . I can feel it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Very well , thanks , I will probably finish next week"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Very well , thanks , I will probably finish next week , but this is still a lot of work , I have been worked on in for six months , and i ' m so closed to end . I can feel it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wow , Good for you . It sounds like a lot of work . I'm proud of you ! Is this the right building ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Very well , thanks , I will probably finish next week",
+            "Wow , Good for you .",
+            "I'm proud of you !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , Good for you . It sounds like a lot of work . I'm proud of you ! Is this the right building ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , It's only eight forty . Thanks so much !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I am having an exam at nine ,",
+            "It's only eight forty ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , It's only eight forty . Thanks so much !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're welcome . Good luck , bye !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I am having an exam at nine ,",
+            "It's only eight forty .",
+            "Thanks so much !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome . Good luck , bye !",
+        "id": 10,
+        "source_sentences": [
+            2,
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Have a nice day , bye !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I am having an exam at nine ,",
+            "It's only eight forty .",
+            "Good luck ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Have a nice day , bye !",
+        "id": 11
+    }
+]

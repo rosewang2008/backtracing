@@ -1,0 +1,62 @@
+[
+    {
+        "text": "In other words, I don't want just that to be the a and all the rest to be the b's."
+    },
+    {
+        "text": "That would be not a satisfactory clustering."
+    },
+    {
+        "text": "I'm looking for clusters that are good sized clusters."
+    },
+    {
+        "text": "So minimize that."
+    },
+    {
+        "text": "So there are a lot of different algorithms to do it."
+    },
+    {
+        "text": "But some are more directly attacking this problem."
+    },
+    {
+        "text": "Others use matrices that we associate with the graph."
+    },
+    {
+        "text": "So let me tell you about two or three of those algorithms."
+    },
+    {
+        "text": "And if you've studied, had a course in graph theory, you may already have seen this problem."
+    },
+    {
+        "text": "First question would be, suppose I decide these are the a's and those are the b's, or some other decision."
+    },
+    {
+        "text": "Yeah, probably some other decision."
+    },
+    {
+        "text": "God, I want to solve the problem before I even start."
+    },
+    {
+        "text": "So some a's and some b's."
+    },
+    {
+        "text": "What would be the best choice of the x once you've decided on the a's?"
+    },
+    {
+        "text": "And what would be the best choice of the y once you've decided on the b's?"
+    },
+    {
+        "text": "So we can answer that question."
+    },
+    {
+        "text": "Just if we knew the two groups, we could see where they should be centered, where the first group centered at x, the second group centered at y."
+    },
+    {
+        "text": "And what does centering mean?"
+    },
+    {
+        "text": "So let's just say."
+    },
+    {
+        "text": "So I think what I'm saying here is, let me bring that down a little."
+    }
+]

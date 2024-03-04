@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Great idea !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "go to a concert",
+            "Great idea !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great idea !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I am really sorry too , maybe I can give you a call sometime .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Sorry to hear that , I was really looking forward to spending some more time with you , I really enjoyed our last chat .",
+            "I am really sorry too"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am really sorry too , maybe I can give you a call sometime .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

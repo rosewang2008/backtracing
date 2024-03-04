@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "And I've never heard such good sound in a game .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've never seen such good graphics .",
+            "And I've never heard such good sound in a game ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And I've never heard such good sound in a game .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

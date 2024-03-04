@@ -1,0 +1,167 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you help me pick out a gift for my daughter ?",
+        "emotion": "neutral",
+        "text": "Can you help me pick out a gift for my daughter ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "She might like a laptop computer .",
+        "emotion": "neutral",
+        "text": "She might like a laptop computer .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , that sounds like a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "laptop computer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , that sounds like a good idea .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Might I suggest a Mac ?",
+        "emotion": "neutral",
+        "text": "Might I suggest a Mac ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Okay . How much ?",
+        "emotion": "neutral",
+        "text": "Okay . How much ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , a 15 - inch Pro is $ 2,100 .",
+        "emotion": "neutral",
+        "text": "Well , a 15 - inch Pro is $ 2,100 .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , that sounds great . I'll take it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "a 15 - inch Pro is $ 2,100 ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that sounds great . I'll take it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great . How would you like to pay for it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'll take it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . How would you like to pay for it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Here's my VISA .",
+        "emotion": "neutral",
+        "text": "Here's my VISA .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Let me ring you up . Okay , sign here , please .",
+        "emotion": "neutral",
+        "text": "Let me ring you up . Okay , sign here , please .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Everything I need is in this box ?",
+        "emotion": "neutral",
+        "text": "Everything I need is in this box ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It'll take her only a few minutes to get online .",
+        "emotion": "neutral",
+        "text": "It'll take her only a few minutes to get online .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you for your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "It'll take her only a few minutes to get online ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you for your help .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "So long . Thank you for shopping here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Thank you for your help .",
+            "So long . Thank you for shopping here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So long . Thank you for shopping here .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

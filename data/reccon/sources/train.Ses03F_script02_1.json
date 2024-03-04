@@ -1,0 +1,650 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hey, what time is it? They're supposed to run around midnight, right? God, this is great, isn't it?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey, what time is it? They're supposed to run around midnight, right? God, this is great, isn't it?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Look at the night we got; couldn't be better.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Look at the night we got; couldn't be better.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "You know actually, I wanted to go a little further up the coast to get away from all the, the people and the lights, and uh- but I thought we'd miss it. Hey, how you doing?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "You know actually, I wanted to go a little further up the coast to get away from all the, the people and the lights, and uh- but I thought we'd miss it. Hey, how you doing?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "Fine.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Fine.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Oh, is that-is that-now, is that just foam, uhh, I can't even tell.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            5
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better.",
+            "Oh, is that-is that-now, is that just foam"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh, is that-is that-now, is that just foam, uhh, I can't even tell.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh, though if I can't tell it probably isn't them, right? It probably would be unmistakable, wouldn't you think? Hey, how you doing?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Oh, though if I can't tell it probably isn't them, right? It probably would be unmistakable, wouldn't you think? Hey, how you doing?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Oh, do you know what I forgot? I forgot my flashlight. How could I be so stupid. Oh, I-I should have brought my flashlight.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better.",
+            "I forgot my flashlight. How could I be so stupid."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh, do you know what I forgot? I forgot my flashlight. How could I be so stupid. Oh, I-I should have brought my flashlight.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Uh- you know, the flashlight. The silver one. There's only one, isn't there?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better.",
+            "I forgot my flashlight. How could I be so stupid."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Uh- you know, the flashlight. The silver one. There's only one, isn't there?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't understand why you're always saying oh, it's mine, it's mine. It's not like it's just your flashlight. I mean, how do you think that makes me feel?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I forgot my flashlight",
+            "don't understand why you're always saying oh, it's mine, it's mine. It's not like it's just your flashlight."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't understand why you're always saying oh, it's mine, it's mine. It's not like it's just your flashlight. I mean, how do you think that makes me feel?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We should have brought our flashlight. I can't believe we forgot to bring it.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "We should have brought our flashlight. I can't believe we forgot to bring it."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We should have brought our flashlight. I can't believe we forgot to bring it.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "B",
+        "utterance": "I hope the moon stays out.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "We should have brought our flashlight. I can't believe we forgot to bring it."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I hope the moon stays out.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Hey, do they always run during a full moon? I can't remember if it was full last year. Do you remember?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better.",
+            "I forgot my flashlight. How could I be so stupid."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Hey, do they always run during a full moon? I can't remember if it was full last year. Do you remember?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "We should have brought the blanket. Oh, why didn't we bring the blanket? Our blanket.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "We should have brought the blanket."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We should have brought the blanket. Oh, why didn't we bring the blanket? Our blanket.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "You know what would be good right now? A six-pack. Ah, I can't believe I forgot a six-pack. A six-pack would be just the ticket right about now.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Ah, I can't believe I forgot a six-pack. A six-pack would be just the ticket right about now."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You know what would be good right now? A six-pack. Ah, I can't believe I forgot a six-pack. A six-pack would be just the ticket right about now.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "I'm so stupid. I'm like a little kid. I-it's amazing I get out of the house with my fly zipped. Oh- [LAUGHTER].",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "I-it's amazing I get out of the house with my fly zipped"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm so stupid. I'm like a little kid. I-it's amazing I get out of the house with my fly zipped. Oh- [LAUGHTER].",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "Do you want my jacket?",
+        "emotion": "neutral",
+        "text": "Do you want my jacket?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Right.",
+        "emotion": "neutral",
+        "text": "Right.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "Yeah, that's my point too.",
+        "emotion": "neutral",
+        "text": "Yeah, that's my point too.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "No. No, no, no, that's not my point. My point is there's no point in coming down here if we just turn around and leave.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No. No, no, no, that's not my point. My point is there's no point in coming down here if we just turn around and leave.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "I mean, don't you want to see it?",
+        "emotion": "neutral",
+        "text": "I mean, don't you want to see it?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "Not particularly.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Not particularly.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "B",
+        "utterance": "Why not?",
+        "emotion": "neutral",
+        "text": "Why not?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "I don't know. I just don't.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I don't know. I just don't.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "Pass up what? A bunch of fish. They swim up to the beach and they flop around and they swim away and then they die.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            16,
+            20,
+            23
+        ],
+        "expanded emotion cause span": [
+            "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move.",
+            "No. No, no, no, that's not my point. My point is there's no point in coming down here if we just turn around and leave.",
+            "Why not?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Pass up what? A bunch of fish. They swim up to the beach and they flop around and they swim away and then they die.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "I don't know why you're getting so excited. I mean, it's not like the landing of the moon or something. It's just fish. Fish that nobody eats.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            16,
+            20,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move.",
+            "No. No, no, no, that's not my point. My point is there's no point in coming down here if we just turn around and leave.",
+            "I don't know why you're getting so excited."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't know why you're getting so excited. I mean, it's not like the landing of the moon or something. It's just fish. Fish that nobody eats.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Oh, God, Augie.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            16,
+            20,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I wonder if they can hear us talk. Or hear the vibrations in the sand when we move.",
+            "No. No, no, no, that's not my point. My point is there's no point in coming down here if we just turn around and leave.",
+            "I don't know why you're getting so excited."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh, God, Augie.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "Yes, and if you also remember, I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            28
+        ],
+        "expanded emotion cause span": [
+            "I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes, and if you also remember, I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "A",
+        "utterance": "No, for God's sakes, we've never seen the grunions. We're not going to see them.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            28,
+            29
+        ],
+        "expanded emotion cause span": [
+            "I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions.",
+            "we've never seen the grunions. We're not going to see them."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "No, for God's sakes, we've never seen the grunions. We're not going to see them.",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "We just weren't in a good spot, all right? This is a much better spot. I have a good instinct for these things. Look, is that-",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            28,
+            29
+        ],
+        "expanded emotion cause span": [
+            "I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions.",
+            "we've never seen the grunions. We're not going to see them."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We just weren't in a good spot, all right? This is a much better spot. I have a good instinct for these things. Look, is that-",
+        "id": 30,
+        "source_sentences": [
+            27,
+            28
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 31,
+        "speaker": "B",
+        "utterance": "I wouldn't miss this for anything. I mean, think about this. Okay, I know you're not interested, but just think about this for a minute.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            31
+        ],
+        "expanded emotion cause span": [
+            "They're supposed to run around midnight",
+            "this is great",
+            "Look at the night we got; couldn't be better.",
+            "I wouldn't miss this for anything."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I wouldn't miss this for anything. I mean, think about this. Okay, I know you're not interested, but just think about this for a minute.",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "B",
+        "utterance": "And they all, all as one, turned as one and formed this line as big as the California coast and started swimming this way. Swimming as if that's the only thing that matters.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            32
+        ],
+        "expanded emotion cause span": [
+            "And they all, all as one, turned as one and formed this line as big as the California coast and started swimming this way. Swimming as if that's the only thing that matters."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And they all, all as one, turned as one and formed this line as big as the California coast and started swimming this way. Swimming as if that's the only thing that matters.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "You know, they didn't ask it a question. They didn't, they didn't take a vote. They didn't have an invitation or a map; they just started swimming as one.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            33
+        ],
+        "expanded emotion cause span": [
+            "You know, they didn't ask it a question. They didn't, they didn't take a vote. They didn't have an invitation or a map; they just started swimming as one."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You know, they didn't ask it a question. They didn't, they didn't take a vote. They didn't have an invitation or a map; they just started swimming as one.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "its single-mindedness with one mind. Urgency that's pure urge. You know, they don't give it a name.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            34
+        ],
+        "expanded emotion cause span": [
+            "its single-mindedness with one mind. Urgency that's pure urge. You know, they don't give it a name."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "its single-mindedness with one mind. Urgency that's pure urge. You know, they don't give it a name.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "B",
+        "utterance": "They don't ask it a question. They just, they just, they don't know what drives them. They just turn as one and start the swim that brings them to here",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            35
+        ],
+        "expanded emotion cause span": [
+            "They don't ask it a question. They just, they just, they don't know what drives them. They just turn as one and start the swim that brings them to here"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They don't ask it a question. They just, they just, they don't know what drives them. They just turn as one and start the swim that brings them to here",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "B",
+        "utterance": "where we stand for a massive celebration of sex and death. Oh, God, I'm giving myself goosebumps. Look, I'm all-all my hairs on my arms is sticking up.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            36
+        ],
+        "expanded emotion cause span": [
+            "where we stand for a massive celebration of sex and death. Oh, God, I'm giving myself goosebumps."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "where we stand for a massive celebration of sex and death. Oh, God, I'm giving myself goosebumps. Look, I'm all-all my hairs on my arms is sticking up.",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "B",
+        "utterance": "About what I just said.",
+        "emotion": "neutral",
+        "text": "About what I just said.",
+        "id": 37
+    }
+]

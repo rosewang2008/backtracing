@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I ' Ve had it ! I ' m done working for a company that is taking me nowhere !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I ' m done working for a company that is taking me nowhere !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' Ve had it ! I ' m done working for a company that is taking me nowhere !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "So what are you gonna do ? Just quit ?",
+        "emotion": "neutral",
+        "text": "So what are you gonna do ? Just quit ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s exactly what I am going to do ! I ' Ve decided to create my own company ! I ' m going to write up a business plan , get some investors and start working for myself !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I ' m done working for a company that is taking me nowhere !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That ' s exactly what I am going to do ! I ' Ve decided to create my own company ! I ' m going to write up a business plan , get some investors and start working for myself !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Have you ever written up a business plan before ?",
+        "emotion": "neutral",
+        "text": "Have you ever written up a business plan before ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , no . it can ' t be that hard ! I mean , all you have to do is explain your business , how you are going to do things and that ' s it , right ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' m done working for a company that is taking me nowhere !",
+            "Have you ever written up a business plan before ?",
+            "it can ' t be that hard !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , no . it can ' t be that hard ! I mean , all you have to do is explain your business , how you are going to do things and that ' s it , right ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You couldn ' t be more wrong ! A well written business plan will include an executive summary which highlights the idea of the business in two pages or less . Then you need to describe your company with information such as what type of legal structure it has , history , etc .",
+        "emotion": "neutral",
+        "text": "You couldn ' t be more wrong ! A well written business plan will include an executive summary which highlights the idea of the business in two pages or less . Then you need to describe your company with information such as what type of legal structure it has , history , etc .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , that seems easy enough .",
+        "emotion": "neutral",
+        "text": "Well , that seems easy enough .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wait , there ' s more ! Then you need to introduce and describe your goods or services . What they are and how they are different from competitors ' ? Then comes the hard part , a market analysis . You need to investigate and analyze hundreds of variables ! You need to take into consideration socioeconomic factors from GDP per capita to how many children on average the population has ! All this information is useful so that you can move on to your strategy and implementation stage , where you will describe in detail how you will actually execute your idea .",
+        "emotion": "neutral",
+        "text": "Wait , there ' s more ! Then you need to introduce and describe your goods or services . What they are and how they are different from competitors ' ? Then comes the hard part , a market analysis . You need to investigate and analyze hundreds of variables ! You need to take into consideration socioeconomic factors from GDP per capita to how many children on average the population has ! All this information is useful so that you can move on to your strategy and implementation stage , where you will describe in detail how you will actually execute your idea .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Geez . Is that all ?",
+        "emotion": "neutral",
+        "text": "Geez . Is that all ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Almost , the most important piece of information for your investors will be the financial analysis . Here you will calculate and estimate sales , cash flow and profits . After all , people will want to know when they will begin to see a return on their investment !",
+        "emotion": "neutral",
+        "text": "Almost , the most important piece of information for your investors will be the financial analysis . Here you will calculate and estimate sales , cash flow and profits . After all , people will want to know when they will begin to see a return on their investment !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Umm . I think I ' ll just stick to my old job and save myself all the hassle of trying to start up a business !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "You couldn ' t be more wrong ! A well written business plan will include an executive summary which highlights the idea of the business in two pages or less . Then you need to describe your company with information such as what type of legal structure it has , history , etc .",
+            "Wait , there ' s more ! Then you need to introduce and describe your goods or services . What they are and how they are different from competitors ' ? Then comes the hard part , a market analysis . You need to investigate and analyze hundreds of variables ! You need to take into consideration socioeconomic factors from GDP per capita to how many children on average the population has ! All this information is useful so that you can move on to your strategy and implementation stage , where you will describe in detail how you will actually execute your idea .",
+            "Almost , the most important piece of information for your investors will be the financial analysis . Here you will calculate and estimate sales , cash flow and profits . After all , people will want to know when they will begin to see a return on their investment !",
+            "I think I ' ll just stick to my old job and save myself all the hassle of trying to start up a business !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Umm . I think I ' ll just stick to my old job and save myself all the hassle of trying to start up a business !",
+        "id": 11,
+        "source_sentences": [
+            5,
+            7,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

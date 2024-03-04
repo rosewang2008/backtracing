@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Julia , why have you prepared a candlelight dinner ? Anything special to celebrate ? Did you get a promotion ?",
+        "emotion": "neutral",
+        "text": "Julia , why have you prepared a candlelight dinner ? Anything special to celebrate ? Did you get a promotion ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Honey , don't tell me that you forgot our anniversary , did you ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Julia , why have you prepared a candlelight dinner ? Anything special to celebrate ? Did you get a promotion ?",
+            "you forgot our anniversary"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Honey , don't tell me that you forgot our anniversary , did you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , my dear , how can I forget such an important day ? I was just kidding . Look at this box .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "anniversary",
+            "such an important day",
+            "I was just kidding ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , my dear , how can I forget such an important day ? I was just kidding . Look at this box .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What's in it ?",
+        "emotion": "neutral",
+        "text": "What's in it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Have a guess .",
+        "emotion": "neutral",
+        "text": "Have a guess .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "A necklace ?",
+        "emotion": "neutral",
+        "text": "A necklace ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No .",
+        "emotion": "neutral",
+        "text": "No .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I have no idea .",
+        "emotion": "neutral",
+        "text": "I have no idea .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Open it now .",
+        "emotion": "neutral",
+        "text": "Open it now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , my god . A diamond brooch . It's so beautiful . You're so kind to me , A . Thank you !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "A diamond brooch . It's so beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , my god . A diamond brooch . It's so beautiful . You're so kind to me , A . Thank you !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You're welcome , honey . I hope we will celebrate our golden wedding anniversary in future .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's so beautiful . You're so kind to me , A . Thank you !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome , honey . I hope we will celebrate our golden wedding anniversary in future .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 0,
+        "timestamp": 1684518259177.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At 1:11:30 why does he use the biased sample variance and not the unbiased one? Conceptually it doesn't matter?"
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like traveling ?",
+        "emotion": "neutral",
+        "text": "Do you like traveling ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I've just come back from Scotland .",
+        "emotion": "neutral",
+        "text": "Yes , I've just come back from Scotland .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where did you visit ?",
+        "emotion": "neutral",
+        "text": "Where did you visit ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I only had time to visit Edinburgh .",
+        "emotion": "neutral",
+        "text": "I only had time to visit Edinburgh .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How did you like it ?",
+        "emotion": "neutral",
+        "text": "How did you like it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's fantastic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's fantastic ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's fantastic .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Why did you go there ?",
+        "emotion": "neutral",
+        "text": "Why did you go there ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I went there on business .",
+        "emotion": "neutral",
+        "text": "I went there on business .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "And do you have friends there ?",
+        "emotion": "neutral",
+        "text": "And do you have friends there ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , a lot of friends .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Yes , a lot of friends ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , a lot of friends .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You must have enjoyed yourself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Yes , a lot of friends ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You must have enjoyed yourself .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , and I took many pictures .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Yes , a lot of friends ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , and I took many pictures .",
+        "id": 12
+    }
+]

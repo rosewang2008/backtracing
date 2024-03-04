@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Who are those guys ?",
+        "emotion": "neutral",
+        "text": "Who are those guys ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Kobe Bryant and Shaquille O ' Neal , they are the Los Angeles Lakers ' star players .",
+        "emotion": "neutral",
+        "text": "Kobe Bryant and Shaquille O ' Neal , they are the Los Angeles Lakers ' star players .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh .",
+        "emotion": "neutral",
+        "text": "Oh .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Wait a second . He shoots , he scores !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "He shoots , he scores !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wait a second . He shoots , he scores !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "All right !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "He shoots , he scores !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Here comes Jordan , though .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Here comes Jordan , though ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Here comes Jordan , though .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , Michael Jordan ' s slam-dunks are beautiful things to watch .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Here comes Jordan , though .",
+            "Wow , Michael Jordan ' s slam-dunks are beautiful things to watch ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , Michael Jordan ' s slam-dunks are beautiful things to watch .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah . He ' s older , so he doesn ' t slam as much as he did when he was younger , but when he does , it ' s still amazing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Here comes Jordan , though .",
+            "Wow , Michael Jordan ' s slam-dunks are beautiful things to watch .",
+            "but when he does , it ' s still amazing ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yeah . He ' s older , so he doesn ' t slam as much as he did when he was younger , but when he does , it ' s still amazing .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Which team do you think will win ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Here comes Jordan , though .",
+            "Wow , Michael Jordan ' s slam-dunks are beautiful things to watch ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Which team do you think will win ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The Lakers . Jordan is the only good player Washington has .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Here comes Jordan , though ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "The Lakers . Jordan is the only good player Washington has .",
+        "id": 10
+    }
+]

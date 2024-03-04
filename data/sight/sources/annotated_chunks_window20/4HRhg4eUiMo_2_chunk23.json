@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And then that means for each distribution, you would have to have a scale in mind."
+    },
+    {
+        "text": "So of course, you can have the Gaussian scale in mind."
+    },
+    {
+        "text": "I mean, I have the Gaussian scale in mind."
+    },
+    {
+        "text": "But then if I map it back into this number between 0 and 1, all the distributions play the same role."
+    },
+    {
+        "text": "So whether I'm talking about if my limiting distribution is normal or exponential or gamma or whatever you want, for all these guys, I'm just going to map it into one number between 0 and 1."
+    },
+    {
+        "text": "Small number means lots of evidence against h1."
+    },
+    {
+        "text": "Large number means lots of evidence against h0."
+    },
+    {
+        "text": "Small number means very few evidence against h0."
+    },
+    {
+        "text": "And this is the only number you need to keep in mind."
+    },
+    {
+        "text": "And the question is, am I willing to tolerate this number between 5%, 6% or maybe 10%, 12%?"
+    },
+    {
+        "text": "And this is the only scale you have to have in mind."
+    },
+    {
+        "text": "And this scale is the scale of p-values."
+    },
+    {
+        "text": "So the p-value is the tipping point in terms of alpha."
+    },
+    {
+        "text": "In words, I can make it formal, because tipping point, as far as I know, is not a mathematical term."
+    },
+    {
+        "text": "So a p-value of a test is the smallest, potentially asymptotic level, if I talk about an asymptotic p-value."
+    },
+    {
+        "text": "And that's what we do when we talk about central limit theorem, at which the test rejects h0."
+    },
+    {
+        "text": "If I were to go any smaller, I would fail to reject."
+    },
+    {
+        "text": "The smaller the level, the less likely it is for me to reject."
+    },
+    {
+        "text": "And if I were to go any smaller, I would start failing to reject."
+    },
+    {
+        "text": "And so it is a random number."
+    }
+]

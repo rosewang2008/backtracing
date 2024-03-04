@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , What time does the next bus for Boston leave ?",
+        "emotion": "neutral",
+        "text": "Excuse me , What time does the next bus for Boston leave ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It leaves at 8",
+        "emotion": "neutral",
+        "text": "It leaves at 8",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I see . Are there any seat available ?",
+        "emotion": "neutral",
+        "text": "I see . Are there any seat available ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Just a moment please . Yes . You can have a seat .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "any seat available ?",
+            "Yes . You can have a seat ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Just a moment please . Yes . You can have a seat .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good . How much is it when we take it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "any seat available ?",
+            "Yes . You can have a seat ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Good . How much is it when we take it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It thirty-eight dollars .",
+        "emotion": "neutral",
+        "text": "It thirty-eight dollars .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "All right . Here ' s forty dollars .",
+        "emotion": "neutral",
+        "text": "All right . Here ' s forty dollars .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Here ' s your ticket and change .",
+        "emotion": "neutral",
+        "text": "Here ' s your ticket and change .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you . Which gate should I go to for the bus ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Here ' s your ticket"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Which gate should I go to for the bus ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Go to gate No . 2 please .",
+        "emotion": "neutral",
+        "text": "Go to gate No . 2 please .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Which gate should I go to for the bus ?",
+            "Go to gate No . 2 please ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you very much .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Don ' t mention it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don ' t mention it .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

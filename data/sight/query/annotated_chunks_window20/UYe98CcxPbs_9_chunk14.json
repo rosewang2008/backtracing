@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 9,
+        "timestamp": 1684510838484.0,
+        "annotatedSourceSentencesIndices": [
+            4,
+            5
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "34:58 would using perpendicular distance (instead of vertical distance) make better sense? \n"
+    }
+]

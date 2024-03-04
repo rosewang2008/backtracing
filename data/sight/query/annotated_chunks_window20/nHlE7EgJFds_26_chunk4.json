@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 26,
+        "timestamp": 1684704349825.0,
+        "annotatedSourceSentencesIndices": [
+            1
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I don't understand how vectors of N(A) can be in R^m ! If A is a m*n matrix, we need a R^n vector to have the 0 matrix, no ?"
+    }
+]

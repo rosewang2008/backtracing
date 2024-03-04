@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , there ' s no need . Thank you all the same .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Are you hungry ? Do you want me to buy something for you to eat ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , there ' s no need . Thank you all the same .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

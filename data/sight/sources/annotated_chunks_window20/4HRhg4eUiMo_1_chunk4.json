@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So for theta and theta 0, I know that my function is going to look like this."
+    },
+    {
+        "text": "It's going to be somewhere in this rectangle."
+    },
+    {
+        "text": "Everybody agrees?"
+    },
+    {
+        "text": "So this function for this guy is going to look like this."
+    },
+    {
+        "text": "When I'm at 0, when p is equal to 0, which means I only observe 0's, then I know that p is going to be 0."
+    },
+    {
+        "text": "And I will certainly not conclude that p is equal to 1."
+    },
+    {
+        "text": "This test will never conclude that p is equal to 1."
+    },
+    {
+        "text": "Sorry, that was, yeah."
+    },
+    {
+        "text": "That p is equal to, that p is lower than 1 half, just because xn bar is going to be equal to 0."
+    },
+    {
+        "text": "OK, well, this is actually not well-defined."
+    },
+    {
+        "text": "So maybe I need to do something, put it equal to 0 if xn bar is equal to 0."
+    },
+    {
+        "text": "So I guess basically I get something which is negative."
+    },
+    {
+        "text": "And so it's never going to be larger than what I want."
+    },
+    {
+        "text": "And so here I'm actually starting at 0."
+    },
+    {
+        "text": "So now this is this function here that increases."
+    },
+    {
+        "text": "I mean, it should increase smoothly."
+    },
+    {
+        "text": "This function here is alpha psi of theta, or alpha psi of p, let's say, because we're talking about p. Then it reaches alpha here."
+    },
+    {
+        "text": "Now when I go on the other side, I'm actually looking at beta."
+    },
+    {
+        "text": "When I'm on theta 1, the function that matters is the probability of type 2 error, which is beta psi."
+    },
+    {
+        "text": "And this beta psi is actually going to increase."
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Joe , how are you doing ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy to meet B",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "how are you doing ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Joe , how are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Pretty good . Mary , I was wondering if you would like to come to a party on Friday night ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "how are you doing ?",
+            "party on Friday night ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Pretty good . Mary , I was wondering if you would like to come to a party on Friday night ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I am free that night , and a party sounds good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I was wondering if you would like to come to a party on Friday night ?",
+            "I am free that night , and a party sounds good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am free that night , and a party sounds good .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fine . It will be at my house . Do you know how to get there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "party on Friday night ?",
+            "I am free that night , and a party sounds good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Fine . It will be at my house . Do you know how to get there ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I kind of know where you live , but could you e-mail me your address ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I was wondering if you would like to come to a party on Friday night ?",
+            "I am free that night , and a party sounds good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I kind of know where you live , but could you e-mail me your address ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I can do that . Do you have anyone that you would like to bring with you to the party ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "party on Friday night ?",
+            "I am free that night , and a party sounds good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I can do that . Do you have anyone that you would like to bring with you to the party ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I would really like to bring my friend Jake , if that would be OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Do you have anyone that you would like to bring with you to the party ?",
+            "I would really like to bring my friend Jake ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I would really like to bring my friend Jake , if that would be OK .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh yeah , I remember Jake . That would be fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I would really like to bring my friend Jake ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh yeah , I remember Jake . That would be fine .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Would you like some help with the food ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Do you have anyone that you would like to bring with you to the party ?",
+            "I would really like to bring my friend Jake ,",
+            "I remember Jake . That would be fine ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Would you like some help with the food ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Just bring along whatever it is that you and Jake would like to drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Would you like some help with the food ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Just bring along whatever it is that you and Jake would like to drink .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's sort of the same principle as trying to reduce."
+    },
+    {
+        "text": "What you're trying to do as a statistician is to inject as much knowledge about the question and about the problem that you can so that the data has to do a minimal job."
+    },
+    {
+        "text": "And henceforth, you actually need less data."
+    },
+    {
+        "text": "So for now on, we will always assume, and this is because this is an intro stats class, you will always assume that theta, the subset of parameters, is a subset of r to the d. That means that theta is a vector with, at most, a finite number of coordinates."
+    },
+    {
+        "text": "Why do I say this?"
+    },
+    {
+        "text": "Well, this is called a parametric model."
+    },
+    {
+        "text": "So it's called a parametric model, or sometimes parametric statistics."
+    },
+    {
+        "text": "Actually, we don't really talk about parametric statistics, but we talk a lot about nonparametric statistics or a nonparametric model."
+    },
+    {
+        "text": "Can somebody think of a model which is nonparametric?"
+    },
+    {
+        "text": "For example, in the siblings example, if I did not cap the number of siblings to 7, but I let this list go to infinity, I would have an infinite number of parameters to estimate."
+    },
+    {
+        "text": "Very likely, the last one would be 0, but still, I would have an infinite number of parameters to estimate."
+    },
+    {
+        "text": "So this would not be a parametric model if I just let this list of things to be estimated to be infinite."
+    },
+    {
+        "text": "But there's other classes that are actually infinite and cannot be represented by vectors."
+    },
+    {
+        "text": "For example, function."
+    },
+    {
+        "text": "If I tell you my model, pf is just the distribution of x's, the probability distributions that have density f. So what I know is that the density is non-negative and that it integrates to 1."
+    },
+    {
+        "text": "That's all I know about density."
+    },
+    {
+        "text": "Well, f is not something you're going to be able to describe with a finite number of values."
+    },
+    {
+        "text": "All possible functions, this is a huge set."
+    },
+    {
+        "text": "It's certainly not representable by 10 numbers."
+    },
+    {
+        "text": "And so nonparametric estimation is typically when you actually want to parameterize this by a large class of functions."
+    }
+]

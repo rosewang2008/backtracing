@@ -1,0 +1,195 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Jenny , you look terrible . What's eating you ?",
+        "emotion": "neutral",
+        "text": "Jenny , you look terrible . What's eating you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Don't brother me !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you look terrible . What's eating you ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't brother me !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hey , chill out , I'm just trying to help .",
+        "emotion": "neutral",
+        "text": "Hey , chill out , I'm just trying to help .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sorry , Sally , it's not your fault .",
+        "emotion": "sadness",
+        "explanation": "Self realization of agrressive behavior",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "I'm just trying to help .",
+            "Sorry , Sally",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sorry , Sally , it's not your fault .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So , what's the problem ?",
+        "emotion": "neutral",
+        "text": "So , what's the problem ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I drew a blank on the algebra test .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I drew a blank on the algebra test ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I drew a blank on the algebra test .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No kidding ! Didn't you study for it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I drew a blank on the algebra test ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No kidding ! Didn't you study for it ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , but nothing was clear during the test .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I drew a blank on the algebra test ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah , but nothing was clear during the test .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's too bad , anyway , I'm sure things will turn around next semester .",
+        "emotion": "neutral",
+        "text": "That's too bad , anyway , I'm sure things will turn around next semester .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm thinking of dropping out .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I drew a blank on the algebra test .",
+            "I'm thinking of dropping out ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm thinking of dropping out .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You can't do that , Jenny !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I'm thinking of dropping out ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can't do that , Jenny !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm dead serious about this , Sally .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I drew a blank on the algebra test .",
+            "I'm thinking of dropping out ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'm dead serious about this , Sally .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Come on , let's talk about it .",
+        "emotion": "neutral",
+        "text": "Come on , let's talk about it .",
+        "id": 13
+    }
+]

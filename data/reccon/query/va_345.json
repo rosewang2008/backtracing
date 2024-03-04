@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think that's a bad idea . I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Just take them for your good friends",
+            "I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that's a bad idea . I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

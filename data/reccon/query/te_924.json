@@ -1,0 +1,31 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yeah . I would rather get one nice watch instead of 20 mediocre ones .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A has approved her decision to pay more for a nice watch",
+        "expanded emotion cause evidence": [
+            15,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "it looks so nice .",
+            "You always get what you pay for .",
+            "rather get one nice watch instead of 20 mediocre ones ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah . I would rather get one nice watch instead of 20 mediocre ones .",
+        "id": 16,
+        "source_sentences": [
+            14,
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

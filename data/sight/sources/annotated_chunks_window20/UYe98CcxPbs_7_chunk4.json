@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That means when I vary x, well, to first order the function doesn't change."
+    },
+    {
+        "text": "Maybe that is because it is going through."
+    },
+    {
+        "text": "If I look only at the slice parallel to the x-axis, then maybe I am going through the minimum."
+    },
+    {
+        "text": "But then, if partial f, partial y is not zero, then actually by changing y I could still make the value larger or smaller."
+    },
+    {
+        "text": "That wouldn't be an actual maximum or minimum."
+    },
+    {
+        "text": "It would only be maximum or minimum if I stay in the slice."
+    },
+    {
+        "text": "But if I allow myself to change y, that doesn't work."
+    },
+    {
+        "text": "I need actually to know that if I change y the value will not change either to first order."
+    },
+    {
+        "text": "That is why I also need partial f, partial y to be zero."
+    },
+    {
+        "text": "Now, let's say that they are both zero."
+    },
+    {
+        "text": "Well, why is that enough?"
+    },
+    {
+        "text": "It is essentially enough because of this formula telling me that if both of these guys are zero then to first order the function doesn't change."
+    },
+    {
+        "text": "And then, of course, there will be maybe quadratic terms that will actually turn that."
+    },
+    {
+        "text": "This won't really say that your function is actually constant."
+    },
+    {
+        "text": "It will just tell you that maybe it will be actually quadratic or higher order in delta x and delta y."
+    },
+    {
+        "text": "That is what you expect to have at a maximum or a minimum."
+    },
+    {
+        "text": "That condition is the same thing as saying that the tangent plane to the graph is actually going to be horizontal."
+    },
+    {
+        "text": "And that is what you want to have."
+    },
+    {
+        "text": "Say you have a minimum."
+    },
+    {
+        "text": "Well, see that the tangent plane at this point, at the bottom of the graph, is going to be horizontal."
+    }
+]

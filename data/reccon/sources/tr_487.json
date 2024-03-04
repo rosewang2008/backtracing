@@ -1,0 +1,153 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Jane . How are you doing these days ?",
+        "emotion": "neutral",
+        "text": "Hey Jane . How are you doing these days ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi Martha . Everything is perfect .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Everything is perfect ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi Martha . Everything is perfect .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you enjoying married life ?",
+        "emotion": "neutral",
+        "text": "Are you enjoying married life ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It couldn't be better . My husband is so supportive with my work and he helps around the house so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It couldn't be better . My husband is so supportive with my work and he helps around the house so much ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It couldn't be better . My husband is so supportive with my work and he helps around the house so much .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You're so lucky . I hope to get married to a guy like that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It couldn't be better . My husband is so supportive with my work and he helps around the house so much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're so lucky . I hope to get married to a guy like that .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm so happy . Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It couldn't be better . My husband is so supportive with my work and he helps around the house so much .",
+            "Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm so happy . Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Do you guys do anything special ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy . Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you guys do anything special ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "In the evening , we just sit and talk over dinner . But on the weekend , we try to go out to the beach or hit a nice restaurant , or go to a nice cafe .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "It couldn't be better . My husband is so supportive with my work and he helps around the house so much .",
+            "Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends .",
+            "In the evening , we just sit and talk over dinner . But on the weekend , we try to go out to the beach or hit a nice restaurant , or go to a nice cafe ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "In the evening , we just sit and talk over dinner . But on the weekend , we try to go out to the beach or hit a nice restaurant , or go to a nice cafe .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sound like everything is great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Even though we are both working , we get to spend a lot of time with each other in the evening and on the weekends .",
+            "In the evening , we just sit and talk over dinner . But on the weekend , we try to go out to the beach or hit a nice restaurant , or go to a nice cafe ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sound like everything is great .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

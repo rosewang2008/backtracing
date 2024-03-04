@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/opt_6b_auto-regressive.csv
+Total: 122045
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/opt_6b_auto-regressive.csv
+>> Score key: auto-regressive
+Top 1 accuracy: 0.15625
+Top 1 min distance: 5.10625
+Top 3 accuracy: 0.2625
+Top 3 min distance: 3.50625
+

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Fifth degree, yeah."
+    },
+    {
+        "text": "So 5 by 5 and up would be, this is impossible."
+    },
+    {
+        "text": "Impossible."
+    },
+    {
+        "text": "There's no formula to find a simple formula for the lambdas."
+    },
+    {
+        "text": "And similarly for the sigmas, the singular values."
+    },
+    {
+        "text": "So the eigenvalues is definitely a level of difficulty beyond Ax equal b, the inverse matrix or something, the pivots."
+    },
+    {
+        "text": "All that you can do exactly if you do exact arithmetic."
+    },
+    {
+        "text": "We cannot find the lambdas exactly."
+    },
+    {
+        "text": "But we can get as close as we like by continuing with the QR method."
+    },
+    {
+        "text": "So yeah, in other words, we have to settle for, if we want to, at the beginning, improve our matrix before we start doing that stuff."
+    },
+    {
+        "text": "We can get it with one extra diagonal."
+    },
+    {
+        "text": "And do you know what kind of a matrix, whose name?"
+    },
+    {
+        "text": "And I don't know why."
+    },
+    {
+        "text": "Yeah, say it again."
+    },
+    {
+        "text": "Upper Hessenberg."
+    },
+    {
+        "text": "So upper is just like upper triangular."
+    },
+    {
+        "text": "It's up there."
+    },
+    {
+        "text": "But the key person's name is Hessenberg."
+    },
+    {
+        "text": "As I say, that's a Hessenberg matrix."
+    },
+    {
+        "text": "So Hessenberg matrix is a matrix with one triangular plus one more diagonal."
+    }
+]

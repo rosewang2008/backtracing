@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "did you get my email ?",
+        "emotion": "neutral",
+        "text": "did you get my email ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I certainly did . Do you want to come in and give me some feedback about your weekend ?",
+        "emotion": "neutral",
+        "text": "I certainly did . Do you want to come in and give me some feedback about your weekend ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "sure .",
+        "emotion": "neutral",
+        "text": "sure .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "how did the business trip go ?",
+        "emotion": "neutral",
+        "text": "how did the business trip go ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "well , to be honest , nothing is more stressful than going on a business trip with our boss .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "nothing is more stressful than going on a business trip with our boss ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "well , to be honest , nothing is more stressful than going on a business trip with our boss .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I understand . The last time I went on a business trip with the boss , I didn't even have enough to eat !",
+        "emotion": "neutral",
+        "text": "I understand . The last time I went on a business trip with the boss , I didn't even have enough to eat !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I also think the company is pretty cheap with travel expenses . I spent half of the weekend on a train ! Surely they could have afforded to buy a few plane tickets !",
+        "emotion": "neutral",
+        "text": "I also think the company is pretty cheap with travel expenses . I spent half of the weekend on a train ! Surely they could have afforded to buy a few plane tickets !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "our company is quite conscious of the environmental problems that frequent flying causes .",
+        "emotion": "neutral",
+        "text": "our company is quite conscious of the environmental problems that frequent flying causes .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I see . Well , then perhaps they could give me a few days off after a business trip . It was really tiring for me .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It was really tiring for me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I see . Well , then perhaps they could give me a few days off after a business trip . It was really tiring for me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I can ask the boss about giving you the day off today .",
+        "emotion": "happiness",
+        "explanation": "willingness to help",
+        "expanded emotion cause evidence": [
+            "b",
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "then perhaps they could give me a few days off after a business trip . It was really tiring for me .",
+            "I can ask the boss about giving you the day off today ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can ask the boss about giving you the day off today .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "thank you . I can't imagine getting much done today . I'm just too exhausted !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I can ask the boss about giving you the day off today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thank you . I can't imagine getting much done today . I'm just too exhausted !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "no problem . Did you bring any gifts back for your department ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "then perhaps they could give me a few days off after a business trip . It was really tiring for me .",
+            "I can ask the boss about giving you the day off today ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "no problem . Did you bring any gifts back for your department ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "no , should I have ?",
+        "emotion": "neutral",
+        "text": "no , should I have ?",
+        "id": 13
+    }
+]

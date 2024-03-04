@@ -1,0 +1,62 @@
+[
+    {
+        "text": "How do we see that?"
+    },
+    {
+        "text": "If you had to show that two matrices had the same eigenvalues, would you compute all the eigenvalues and compare them?"
+    },
+    {
+        "text": "Certainly not."
+    },
+    {
+        "text": "What would you do?"
+    },
+    {
+        "text": "What's the best test, the usual test, the usual thing you would want to show?"
+    },
+    {
+        "text": "They're similar."
+    },
+    {
+        "text": "That's right."
+    },
+    {
+        "text": "So the claim would be that these two matrices are similar."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "So maybe we should show that."
+    },
+    {
+        "text": "So we want to write A1 in a different way."
+    },
+    {
+        "text": "So the claim is A1 is similar to A."
+    },
+    {
+        "text": "So we just have to figure out."
+    },
+    {
+        "text": "We have to get A1 to A0."
+    },
+    {
+        "text": "So here's A1."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So A1, I want to show that that's right."
+    },
+    {
+        "text": "So that's R0, Q0."
+    },
+    {
+        "text": "But what is Q0?"
+    },
+    {
+        "text": "From here, Q0 is what we is R. Q0 is, what do I want?"
+    }
+]

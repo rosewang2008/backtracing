@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 7,
+        "timestamp": 1684510713476.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "For z = z0 + a(x-x0) + b(y-y0),\nwouldn't that mean:\n-1(z-z0) + a(x-x0) + b(y-y0) = 0\nso from lecture 4 the normal vector for any f(x,y) tangent plane is <-1, a, b> ?\nI'm missing something about the -1 I'm sure"
+    }
+]

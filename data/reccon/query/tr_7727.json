@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "My pleasure , and have a good time !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Thank you !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure , and have a good time !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

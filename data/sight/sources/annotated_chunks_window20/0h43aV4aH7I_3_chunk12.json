@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If the basis vectors are orthogonal, then I'm in good shape."
+    },
+    {
+        "text": "And these are, do you see, take the dot product of that with that, you get four plus ones and four minus ones, you get zero."
+    },
+    {
+        "text": "Take the dot product of that with that, you get two plus ones and two minus ones."
+    },
+    {
+        "text": "Or the dot product of that with that, two plus ones and two minus ones."
+    },
+    {
+        "text": "You can easily check that that's an orthogonal basis."
+    },
+    {
+        "text": "It's not orthonormal."
+    },
+    {
+        "text": "I could, to fix it up, I should divide by the length to make them unit vectors."
+    },
+    {
+        "text": "Let's suppose I do that."
+    },
+    {
+        "text": "So somewhere in here I've got to account for the fact that this has length square root of eight, that has length square root of four, that has length square root of two."
+    },
+    {
+        "text": "But that's just a constant factor that's easy to --."
+    },
+    {
+        "text": "So suppose we've done that."
+    },
+    {
+        "text": "Then tell me what's W inverse."
+    },
+    {
+        "text": "That's what chapter four, section four point four was about."
+    },
+    {
+        "text": "If we have orthonormal columns, what- then the inverse is the same as the transpose."
+    },
+    {
+        "text": "So if we have a fast way to multiply by W, which we do, the inverse is going to look just the same and we'll have a fast way to do W inverse."
+    },
+    {
+        "text": "So that's, the wavelet basis passes this requirement for fast."
+    },
+    {
+        "text": "We can use it fast."
+    },
+    {
+        "text": "But there's a second requirement, is it any good?"
+    },
+    {
+        "text": "Because the very fastest thing we could do would be not to change basis at all."
+    },
+    {
+        "text": "Right?"
+    }
+]

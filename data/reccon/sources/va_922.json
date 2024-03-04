@@ -1,0 +1,127 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I ' m hungry , let ' s go grab a bite to eat .",
+        "emotion": "neutral",
+        "text": "I ' m hungry , let ' s go grab a bite to eat .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah me too . Oh ! Can we stop at the shop really fast ? I lost my makeup bag at the airport and I want to pick up a few things .",
+        "emotion": "neutral",
+        "text": "Yeah me too . Oh ! Can we stop at the shop really fast ? I lost my makeup bag at the airport and I want to pick up a few things .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Will you take long ?",
+        "emotion": "neutral",
+        "text": "Will you take long ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No ! Five minutes I promise !",
+        "emotion": "neutral",
+        "text": "No ! Five minutes I promise !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Come on ! We have been here for almost an hour ! I thought you said you were only going to get a few things ! How long does it take you to pick out a lipstick and some nail polish !",
+        "emotion": "neutral",
+        "text": "Come on ! We have been here for almost an hour ! I thought you said you were only going to get a few things ! How long does it take you to pick out a lipstick and some nail polish !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Are you crazy ? You have no idea what you are talking about ! Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I thought you said you were only going to get a few things ! How long does it take you to pick out a lipstick and some nail polish !",
+            "You have no idea what you are talking about ! Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you crazy ? You have no idea what you are talking about ! Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Whoa whoa whoa ! Are you nuts ? How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous ! This is basically a crayon !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Just for my eyes I have to get eye-liner , an eyelash curler , eye shadow , an eyebrow pencil and mascara . Then I need to get foundation , liq",
+            "How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous ! This is basically a crayon !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Whoa whoa whoa ! Are you nuts ? How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous ! This is basically a crayon !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What about you ? You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ...",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Are you nuts ? How much is all this going to cost ? I ' m looking at the price at each one of these little things and it ' s outrageous !",
+            "You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What about you ? You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ...",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Fine ! Get the stupid thirty dollar crayon !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ...",
+            "Get the stupid thirty dollar crayon !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Fine ! Get the stupid thirty dollar crayon !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

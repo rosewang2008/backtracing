@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 16,
+        "timestamp": 1684703606756.0,
+        "annotatedSourceSentencesIndices": [
+            4
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "*Question:* what is the relationship between rank(A) and rank(A^T)? Does rank(A) = rank(A^T) in general?\n\nThe professor seems to be hinting at this, but rref(A) only preserves the column space, so it doesn\u2019t seem so trivial to me. Any insight is highly appreciated.\n\nEdit: I found the answer. rank(A) = rank(A^T) by virtue of the fact that linear independence of the columns implies linear independence of the rows, even for non-square matrices. I proved this for myself this evening. The main idea for the proof (at least how I did it) is that if you have two linearly dependent rows, one above the other say, row reduction kills the lower one (reduces number of possibly independent rows). Killing off the row (making the row all zeros) also makes it so that the given row can\u2019t have a pivot. Thus, we\u2019ve reduced the number of potential pivot columns by one. That\u2019s the relationship in a nutshell. The math is only slightly more involved"
+    }
+]

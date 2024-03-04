@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you type , Jane ?",
+        "emotion": "neutral",
+        "text": "Can you type , Jane ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I can .",
+        "emotion": "neutral",
+        "text": "Yes , I can .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How many words a minute ?",
+        "emotion": "neutral",
+        "text": "How many words a minute ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "About 100 words a minute .",
+        "emotion": "neutral",
+        "text": "About 100 words a minute .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "En ... and can you speak any foreign languages ?",
+        "emotion": "neutral",
+        "text": "En ... and can you speak any foreign languages ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , I can speak Spanish , and I can also speak Chinese .",
+        "emotion": "neutral",
+        "text": "Yes , I can speak Spanish , and I can also speak Chinese .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? that ' s very good . What about French ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I can speak Spanish , and I can also speak Chinese ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? that ' s very good . What about French ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , I can ' t speak French . But I can speak Italian , not very well though .",
+        "emotion": "neutral",
+        "text": "No , I can ' t speak French . But I can speak Italian , not very well though .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "... Can you start next week ?",
+        "emotion": "neutral",
+        "text": "... Can you start next week ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Next week ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Can you start next week ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Next week ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , on Monday .",
+        "emotion": "neutral",
+        "text": "Yes , on Monday .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You mean I have the job ?",
+        "emotion": "surprise",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Can you start next week ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You mean I have the job ?",
+        "id": 12,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , that ' s right , you have the job now .",
+        "emotion": "neutral",
+        "text": "Yes , that ' s right , you have the job now .",
+        "id": 13
+    }
+]

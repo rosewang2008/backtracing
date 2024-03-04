@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Mark , long time no see .",
+        "emotion": "happiness",
+        "explanation": "Meeting friend after a long time",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Hey , Mark , long time no see .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Julie ! It's good to see you again . How have you been ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's good to see you again ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Julie ! It's good to see you again . How have you been ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Great . I just got back from a week's vacation in Thailand .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I just got back from a week's vacation in Thailand ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Great . I just got back from a week's vacation in Thailand .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? How was it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Great . I just got back from a week's vacation in Thailand ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? How was it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Fantastic ! I didn't want to come back .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Great . I just got back from a week's vacation in Thailand .",
+            "Fantastic ! I didn't want to come back ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Fantastic ! I didn't want to come back .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I hear the beaches in Thailand are beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I hear the beaches in Thailand are beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I hear the beaches in Thailand are beautiful .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "They are . And not only that the people are friendly , but also the food is delicious , not to mention cheap .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hear the beaches in Thailand are beautiful .",
+            "They are . And not only that the people are friendly , but also the food is delicious , not to mention cheap ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They are . And not only that the people are friendly , but also the food is delicious , not to mention cheap .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I do like Thai food . Did you see much of Bangkok ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I do like Thai food"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I do like Thai food . Did you see much of Bangkok ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Not much . I've got enough city life in Beijing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I've got enough city life in Beijing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not much . I've got enough city life in Beijing .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know what you mean . I could use a vacation myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I could use a vacation myself ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know what you mean . I could use a vacation myself .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Hey , wouldn't it be great if we could go to Thailand together sometime ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "wouldn't it be great if we could go to Thailand together sometime"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , wouldn't it be great if we could go to Thailand together sometime ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yeah , it sure would .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "wouldn't it be great if we could go to Thailand together sometime"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , it sure would .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

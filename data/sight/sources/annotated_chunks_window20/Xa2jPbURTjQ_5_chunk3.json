@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the inverse of Q will be the transpose."
+    },
+    {
+        "text": "The transpose would put the minus sign down here and would produce the inverse matrix."
+    },
+    {
+        "text": "And what does that particular matrix represent?"
+    },
+    {
+        "text": "Geometrically, where do we see that matrix?"
+    },
+    {
+        "text": "It's a rotation."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "It's a rotation of the whole plane by theta."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So if I apply that to 1, 0, for example, I get the first column, which is cos theta, sine theta."
+    },
+    {
+        "text": "And that's just a row."
+    },
+    {
+        "text": "Let me draw a picture."
+    },
+    {
+        "text": "That vector 1, 0 has got rotated up to."
+    },
+    {
+        "text": "So there is the 1, 0."
+    },
+    {
+        "text": "And there it got rotated through an angle theta."
+    },
+    {
+        "text": "And similarly, 0, 1 will get rotated through an angle theta to there."
+    },
+    {
+        "text": "So the whole plane rotates."
+    },
+    {
+        "text": "Oh, that makes me remember a highly important, very important property of Q."
+    },
+    {
+        "text": "It doesn't change length."
+    },
+    {
+        "text": "The length of any vector is the same after you rotate it."
+    },
+    {
+        "text": "The length of any vector is the same after you multiply by Q."
+    }
+]

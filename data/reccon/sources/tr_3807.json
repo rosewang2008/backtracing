@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Could you help me prepare for my presentation on Friday ?",
+        "emotion": "neutral",
+        "text": "Could you help me prepare for my presentation on Friday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I would love to help you prepare for your presentation .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I would love to help you prepare for your presentation .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I hate to ask you to do something like that .",
+        "emotion": "neutral",
+        "text": "I hate to ask you to do something like that .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "This will not interfere with my work . I promise you that .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "This will not interfere with my work . I promise you that .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "When could we get together ?",
+        "emotion": "neutral",
+        "text": "When could we get together ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I could easily give you some time tomorrow night .",
+        "emotion": "neutral",
+        "text": "I could easily give you some time tomorrow night .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Would you like to meet me at the coffee house next door ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation .",
+            "easily give you some time tomorrow night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Would you like to meet me at the coffee house next door ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , and could you write down anything you might be having trouble with ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation .",
+            "easily give you some time tomorrow night ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , and could you write down anything you might be having trouble with ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll come prepared .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation .",
+            "easily give you some time tomorrow night .",
+            "write down anything you might be having trouble with ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll come prepared .",
+        "id": 9,
+        "source_sentences": [
+            1,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Goodbye until then . I promise you that you'll do well after we meet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I promise you that you'll do well after we meet ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Goodbye until then . I promise you that you'll do well after we meet .",
+        "id": 10
+    }
+]

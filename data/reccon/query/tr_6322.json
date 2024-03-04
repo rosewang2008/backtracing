@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Did I ? Well , anyway , you will get your raise when the economy starts picking up .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You said the same thing three months ago ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Did I ? Well , anyway , you will get your raise when the economy starts picking up .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

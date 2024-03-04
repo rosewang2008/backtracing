@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It deserves it . The film gave us a lot of inspiration .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed that film !",
+            "It has got this year's Oscar Award .",
+            "The film gave us a lot of inspiration ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It deserves it . The film gave us a lot of inspiration .",
+        "id": 8,
+        "source_sentences": [
+            0,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

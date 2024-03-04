@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Dalian is a beautiful city . Do you agree ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Dalian is a beautiful city ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Dalian is a beautiful city . Do you agree ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I suppose I do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Dalian is a beautiful city ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I suppose I do .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The climate here is pleasant .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "The climate here is pleasant ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The climate here is pleasant .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You said it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "The climate here is pleasant ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You said it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "This city is really comfortable to live in .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "This city is really comfortable to live in ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This city is really comfortable to live in .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It sure is .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "This city is really comfortable to live in ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It sure is .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No other city can match it . It's heaven .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "No other city can match it . It's heaven ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No other city can match it . It's heaven .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , if you live in other cities as long as enough , you will love them just as much .",
+        "emotion": "neutral",
+        "text": "Well , if you live in other cities as long as enough , you will love them just as much .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Maybe .",
+        "emotion": "neutral",
+        "text": "Maybe .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's for sure .",
+        "emotion": "neutral",
+        "text": "That's for sure .",
+        "id": 10
+    }
+]

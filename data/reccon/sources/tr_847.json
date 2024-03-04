@@ -1,0 +1,113 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you take part in our picnic this Saturday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "take part in our picnic"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Can you take part in our picnic this Saturday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That would be fine . Where are you going ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "take part in our picnic"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be fine . Where are you going ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And don't forget your fishing tackle .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy for the picnic",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "And don't forget your fishing tackle .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ok . I like fishing very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "We plan to go to a forest in the suburb . There is a beautiful river there . We can do some fishing .",
+            "I like fishing very much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ok . I like fishing very much .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

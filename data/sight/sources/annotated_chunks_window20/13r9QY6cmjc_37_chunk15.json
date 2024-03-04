@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Hundred times lambda two, hundred times lambda n. Actually, we're, what are we seeing here?"
+    },
+    {
+        "text": "We're seeing, this same, lambda, capital lambda to the hundredth, as in the, as in the diagonalization, and we're seeing the S matrix, the matrix S of eigenvectors."
+    },
+    {
+        "text": "That's what this has got to, this has got to amount to, a lambda to the hundredth power times an S times this vector C that's telling us how much of each one is in the original thing."
+    },
+    {
+        "text": "So if, if I had to really find the hundredth power, I would take u0, I would expand it as a combination of eigenvectors, this is really S, the eigenvector matrix times C, the, the coefficient vector."
+    },
+    {
+        "text": "And then I would immediately, then, by inserting these hundredth powers of eigenvalues, I'd have the answer."
+    },
+    {
+        "text": "So the, the, huh, there must be, well, let's see."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "It's, so, yeah."
+    },
+    {
+        "text": "So if u100 is a to the hundredth times u0, and u0 is Sc, then you see this formula is just this formula, which is the way I would actually get hold of this, of this u100, which is, let me put it here, u100."
+    },
+    {
+        "text": "The way I would actually get hold of that, see what, what the solution is after a hundred steps, would be expand the initial vector into eigenvectors and, and let each eigenvector go its own way, multiplying by a hundred at, by lambda at every step, and therefore by lambda to the hundredth power after a hundredth step."
+    },
+    {
+        "text": "Can I do an example?"
+    },
+    {
+        "text": "So that's, that's the, the formulas."
+    },
+    {
+        "text": "Now let me take an example."
+    },
+    {
+        "text": "I'll use the Fibonacci sequence as an example."
+    },
+    {
+        "text": "So, so Fibonacci example."
+    },
+    {
+        "text": "You remember the Fibonacci numbers?"
+    },
+    {
+        "text": "If we start with one and one as F0, oh, I think I start with zero, maybe."
+    },
+    {
+        "text": "Let zero and one be the first ones."
+    },
+    {
+        "text": "So there's F0 and F1, the first two Fibonacci numbers."
+    },
+    {
+        "text": "Then what's the rule for Fibonacci numbers?"
+    }
+]

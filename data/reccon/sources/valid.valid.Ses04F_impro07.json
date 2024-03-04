@@ -1,0 +1,1615 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hey, what's up?",
+        "emotion": "neutral",
+        "text": "Hey, what's up?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Guess what came today?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Guess what came today?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "What?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "My acceptance letter.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "My acceptance letter."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My acceptance letter.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "From U.S.C..",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "My acceptance letter."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "From U.S.C..",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Yes, I am.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "My acceptance letter."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes, I am.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well yeah, that's the general idea. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "My acceptance letter."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Well yeah, that's the general idea. [LAUGHTER]",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's awesome. Congratulations.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's awesome. Congratulations.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Big bad acceptance packet with all the information. I'm going to U.S.C..",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C.."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Big bad acceptance packet with all the information. I'm going to U.S.C..",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's amazing. Wow.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C..",
+            "That's amazing. Wow."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's amazing. Wow.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I know. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C.."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I know. [LAUGHTER]",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "[LAUGHTER] Yeah, uh. No.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C.."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "[LAUGHTER] Yeah, uh. No.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "[LAUGHTER] It's safe around there.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "It's safe around there."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "[LAUGHTER] It's safe around there.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "The campus is beautiful. I'm so excited.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "The campus is beautiful"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The campus is beautiful. I'm so excited.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "I know but you should get like a taser or something. I mean walking around the campus at night-",
+        "emotion": "neutral",
+        "text": "I know but you should get like a taser or something. I mean walking around the campus at night-",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "Do you want to buy me some mace for my, you know, going away present?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C..",
+            "I know but you should get like a taser or something. I mean walking around the campus at night-"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Do you want to buy me some mace for my, you know, going away present?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "There we go. Perfect.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            9,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "'m going to U.S.C..",
+            "I know but you should get like a taser or something. I mean walking around the campus at night-"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "There we go. Perfect.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "And a taser. Excellent. Just make sure it's a big knife.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "Do you want to buy me some mace for my, you know, going away present?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "And a taser. Excellent. Just make sure it's a big knife.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "I don't want any of those little puny ones.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "Do you want to buy me some mace for my, you know, going away present?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I don't want any of those little puny ones.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "So, um- so what are you going to- what are you going to major in?",
+        "emotion": "neutral",
+        "text": "So, um- so what are you going to- what are you going to major in?",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Well I was thinking maybe underwater basket weaving.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            21
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I was thinking maybe underwater basket weaving."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well I was thinking maybe underwater basket weaving.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "U.S.C. has a major in that, right.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            21
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I was thinking maybe underwater basket weaving."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "U.S.C. has a major in that, right.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "They have - U.S.C. has everything because U.S.C. is the best school ever.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            21,
+            23
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I was thinking maybe underwater basket weaving.",
+            "U.S.C. is the best school ever."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "They have - U.S.C. has everything because U.S.C. is the best school ever.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "they have that as a major?",
+        "emotion": "neutral",
+        "text": "they have that as a major?",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "That's ridiculous. I don't believe that.",
+        "emotion": "neutral",
+        "text": "That's ridiculous. I don't believe that.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "Okay. Well I'm lying but-",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            21,
+            23
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I was thinking maybe underwater basket weaving.",
+            "U.S.C. is the best school ever."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Okay. Well I'm lying but-",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "Seriously, what's your major?",
+        "emotion": "neutral",
+        "text": "Seriously, what's your major?",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "Well, I haven't decided yet. I want to try some things out.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            28
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I want to try some things out."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well, I haven't decided yet. I want to try some things out.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "So you're undecided?",
+        "emotion": "neutral",
+        "text": "So you're undecided?",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "Hey, that's cool.",
+        "emotion": "neutral",
+        "text": "Hey, that's cool.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "B",
+        "utterance": "No, no. It's totally cool. I mean, like, this friend of mine he was- he's been undecided now for, like, the past like eleven years of his life.",
+        "emotion": "neutral",
+        "text": "No, no. It's totally cool. I mean, like, this friend of mine he was- he's been undecided now for, like, the past like eleven years of his life.",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "A",
+        "utterance": "okay. Well I'm not going to be undecided forever. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            28
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "I want to try some things out."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "okay. Well I'm not going to be undecided forever. [LAUGHTER]",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "Uh, well-",
+        "emotion": "neutral",
+        "text": "Uh, well-",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "A",
+        "utterance": "And it's so close so you can come visit me all the time.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            34
+        ],
+        "expanded emotion cause span": [
+            "it's so close so you can come visit me all the time."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And it's so close so you can come visit me all the time.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "B",
+        "utterance": "You- you- you'll find.",
+        "emotion": "neutral",
+        "text": "You- you- you'll find.",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "A",
+        "utterance": "So this works out perfectly. Because I was worried if I didn't get in to U.S.C., then I would have to go somewhere far away and then-",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            36
+        ],
+        "expanded emotion cause span": [
+            "So this works out perfectly."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "So this works out perfectly. Because I was worried if I didn't get in to U.S.C., then I would have to go somewhere far away and then-",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "B",
+        "utterance": "You'd have to, like go somewhere else, and, you know, we would be apart, and that would suck.",
+        "emotion": "neutral",
+        "text": "You'd have to, like go somewhere else, and, you know, we would be apart, and that would suck.",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "A",
+        "utterance": "Everything worked out perfectly.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            38
+        ],
+        "expanded emotion cause span": [
+            "Everything worked out perfectly."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Everything worked out perfectly.",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "B",
+        "utterance": "That's awesome.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            38
+        ],
+        "expanded emotion cause span": [
+            "Everything worked out perfectly."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's awesome.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "A",
+        "utterance": "I know. We should have a party.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            38,
+            40
+        ],
+        "expanded emotion cause span": [
+            "Everything worked out perfectly.",
+            "We should have a party."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I know. We should have a party.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "A",
+        "utterance": "An I got accepted to U.S.C. party.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            38,
+            40
+        ],
+        "expanded emotion cause span": [
+            "Everything worked out perfectly.",
+            "We should have a party."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "An I got accepted to U.S.C. party.",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "A",
+        "utterance": "No. An I got accepted to U.S.C. party. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            40
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "We should have a party."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No. An I got accepted to U.S.C. party. [LAUGHTER]",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "B",
+        "utterance": "Oh, that's right. Okay, I see. Right, right, right.",
+        "emotion": "neutral",
+        "text": "Oh, that's right. Okay, I see. Right, right, right.",
+        "id": 43
+    },
+    {
+        "turn": 44,
+        "speaker": "B",
+        "utterance": "A party celebrating your acceptance.",
+        "emotion": "neutral",
+        "text": "A party celebrating your acceptance.",
+        "id": 44
+    },
+    {
+        "turn": 45,
+        "speaker": "A",
+        "utterance": "Right. Now you're with me.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            44,
+            45
+        ],
+        "expanded emotion cause span": [
+            "A party celebrating your acceptance.",
+            "Right. Now you're with me."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Right. Now you're with me.",
+        "id": 45
+    },
+    {
+        "turn": 46,
+        "speaker": "B",
+        "utterance": "That's cool.",
+        "emotion": "neutral",
+        "text": "That's cool.",
+        "id": 46
+    },
+    {
+        "turn": 47,
+        "speaker": "A",
+        "utterance": "That is why I got accepted.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            47
+        ],
+        "expanded emotion cause span": [
+            "I got accepted."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That is why I got accepted.",
+        "id": 47
+    },
+    {
+        "turn": 48,
+        "speaker": "B",
+        "utterance": "Well, that's really cool that you're going to be staying in the same city and everything. so umm",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            48
+        ],
+        "expanded emotion cause span": [
+            "that's really cool that you're going to be staying in the same city"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well, that's really cool that you're going to be staying in the same city and everything. so umm",
+        "id": 48
+    },
+    {
+        "turn": 49,
+        "speaker": "A",
+        "utterance": "I know.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            48
+        ],
+        "expanded emotion cause span": [
+            "Well, that's really cool that you're going to be staying in the same city and everything. so umm"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I know.",
+        "id": 49
+    },
+    {
+        "turn": 50,
+        "speaker": "B",
+        "utterance": "I don't know are you, like, I don't know. Are you, like, available or anything?",
+        "emotion": "neutral",
+        "text": "I don't know are you, like, I don't know. Are you, like, available or anything?",
+        "id": 50
+    },
+    {
+        "turn": 51,
+        "speaker": "B",
+        "utterance": "Well I mean I don't know. It's like you know I kind of had a crush on you throughout high school and, like",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well I mean I don't know. It's like you know I kind of had a crush on you throughout high school and, like",
+        "id": 51
+    },
+    {
+        "turn": 52,
+        "speaker": "B",
+        "utterance": "I don't know I just thought that, you know, maybe we could, you know, I don't know. It's like, you know, just test the waters anyway. I don't see what the problem is.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I don't know I just thought that, you know, maybe we could, you know, I don't know. It's like, you know, just test the waters anyway. I don't see what the problem is.",
+        "id": 52
+    },
+    {
+        "turn": 53,
+        "speaker": "A",
+        "utterance": "What- what did you have in mind?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What- what did you have in mind?",
+        "id": 53
+    },
+    {
+        "turn": 54,
+        "speaker": "B",
+        "utterance": "Movies- movie, we'll go to a movie and a dinner and- and",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Movies- movie, we'll go to a movie and a dinner and- and",
+        "id": 54
+    },
+    {
+        "turn": 55,
+        "speaker": "B",
+        "utterance": "actually, you know, there's this- there's this really cool restaurant, um, I don't know if you- it's Red Lobster. It's like down on",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "actually, you know, there's this- there's this really cool restaurant, um, I don't know if you- it's Red Lobster. It's like down on",
+        "id": 55
+    },
+    {
+        "turn": 56,
+        "speaker": "A",
+        "utterance": "[LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER]",
+        "id": 56
+    },
+    {
+        "turn": 57,
+        "speaker": "B",
+        "utterance": "Vermont.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Vermont.",
+        "id": 57
+    },
+    {
+        "turn": 58,
+        "speaker": "B",
+        "utterance": "Wait, you've been there before?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Wait, you've been there before?",
+        "id": 58
+    },
+    {
+        "turn": 59,
+        "speaker": "A",
+        "utterance": "On occasion I've heard of it.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "On occasion I've heard of it.",
+        "id": 59
+    },
+    {
+        "turn": 60,
+        "speaker": "B",
+        "utterance": "Oh, so well then you know that it's awesome.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51,
+            60
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school",
+            "it's awesome."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh, so well then you know that it's awesome.",
+        "id": 60
+    },
+    {
+        "turn": 61,
+        "speaker": "A",
+        "utterance": "Yeah. Totally.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            51,
+            60
+        ],
+        "expanded emotion cause span": [
+            "It's like you know I kind of had a crush on you throughout high school",
+            "it's awesome."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah. Totally.",
+        "id": 61
+    },
+    {
+        "turn": 62,
+        "speaker": "B",
+        "utterance": "Right, so we'll go there and then- and then we'll get some ice cream and maybe we'll go putt-putt golfing.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            62
+        ],
+        "expanded emotion cause span": [
+            "Right, so we'll go there and then- and then we'll get some ice cream and maybe we'll go putt-putt golfing."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Right, so we'll go there and then- and then we'll get some ice cream and maybe we'll go putt-putt golfing.",
+        "id": 62
+    },
+    {
+        "turn": 63,
+        "speaker": "A",
+        "utterance": "I am totally down with the ice cream.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            63
+        ],
+        "expanded emotion cause span": [
+            "I am totally down with the ice cream."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am totally down with the ice cream.",
+        "id": 63
+    },
+    {
+        "turn": 64,
+        "speaker": "B",
+        "utterance": "Okay. Putt-putt golfing?",
+        "emotion": "neutral",
+        "text": "Okay. Putt-putt golfing?",
+        "id": 64
+    },
+    {
+        "turn": 65,
+        "speaker": "A",
+        "utterance": "Eh, we can work that part out.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            63
+        ],
+        "expanded emotion cause span": [
+            "I am totally down with the ice cream."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Eh, we can work that part out.",
+        "id": 65
+    },
+    {
+        "turn": 66,
+        "speaker": "B",
+        "utterance": "Yeah, you want to go. No, you want to go. You want to go.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            62
+        ],
+        "expanded emotion cause span": [
+            "Right, so we'll go there and then- and then we'll get some ice cream and maybe we'll go putt-putt golfing."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah, you want to go. No, you want to go. You want to go.",
+        "id": 66
+    },
+    {
+        "turn": 67,
+        "speaker": "A",
+        "utterance": "Alright.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            63
+        ],
+        "expanded emotion cause span": [
+            "I am totally down with the ice cream."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Alright.",
+        "id": 67
+    },
+    {
+        "turn": 68,
+        "speaker": "B",
+        "utterance": "I can see it in your eyes. You want to go.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            68
+        ],
+        "expanded emotion cause span": [
+            "I can see it in your eyes. You want to go."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I can see it in your eyes. You want to go.",
+        "id": 68
+    },
+    {
+        "turn": 69,
+        "speaker": "A",
+        "utterance": "party.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "party.",
+        "id": 69
+    },
+    {
+        "turn": 70,
+        "speaker": "B",
+        "utterance": "Good. Alright we're so happy.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            63,
+            70
+        ],
+        "expanded emotion cause span": [
+            "I am totally down with the ice cream.",
+            "we're so happy."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good. Alright we're so happy.",
+        "id": 70
+    },
+    {
+        "turn": 71,
+        "speaker": "B",
+        "utterance": "That's right. Um, so U.S.C. is a really nice school.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            71
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "U.S.C. is a really nice school."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's right. Um, so U.S.C. is a really nice school.",
+        "id": 71
+    },
+    {
+        "turn": 72,
+        "speaker": "A",
+        "utterance": "I know.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            71
+        ],
+        "expanded emotion cause span": [
+            "Guess what came today?",
+            "U.S.C. is a really nice school."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I know.",
+        "id": 72
+    },
+    {
+        "turn": 73,
+        "speaker": "B",
+        "utterance": "Are you going to take out loans or-",
+        "emotion": "neutral",
+        "text": "Are you going to take out loans or-",
+        "id": 73
+    },
+    {
+        "turn": 74,
+        "speaker": "A",
+        "utterance": "Okay well that's not a happy part. We don't want to talk about that.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            74
+        ],
+        "expanded emotion cause span": [
+            "Okay well that's not a happy part. We don't want to talk about that."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Okay well that's not a happy part. We don't want to talk about that.",
+        "id": 74
+    },
+    {
+        "turn": 75,
+        "speaker": "A",
+        "utterance": "Well no. I mean I have some scholarships and some financial aid and stuff but I'll have to, you know, I'll get a job",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            75
+        ],
+        "expanded emotion cause span": [
+            "I mean I have some scholarships and some financial aid and stuff but I'll have to, you know, I'll get a job"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well no. I mean I have some scholarships and some financial aid and stuff but I'll have to, you know, I'll get a job",
+        "id": 75
+    },
+    {
+        "turn": 76,
+        "speaker": "A",
+        "utterance": "while I'm in school. It'll be good.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            76
+        ],
+        "expanded emotion cause span": [
+            "while I'm in school. It'll be good."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "while I'm in school. It'll be good.",
+        "id": 76
+    },
+    {
+        "turn": 77,
+        "speaker": "A",
+        "utterance": "Yeah. It will work out. Maybe I could work at Red Lobster.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            77
+        ],
+        "expanded emotion cause span": [
+            "It will work out."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah. It will work out. Maybe I could work at Red Lobster.",
+        "id": 77
+    },
+    {
+        "turn": 78,
+        "speaker": "A",
+        "utterance": "I know. Right down the street.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            77
+        ],
+        "expanded emotion cause span": [
+            "It will work out."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I know. Right down the street.",
+        "id": 78
+    },
+    {
+        "turn": 79,
+        "speaker": "B",
+        "utterance": "But, um-",
+        "emotion": "neutral",
+        "text": "But, um-",
+        "id": 79
+    },
+    {
+        "turn": 80,
+        "speaker": "B",
+        "utterance": "I mean, like, I don't know. I'm just saying if you need to make some extra cash. You can, you know",
+        "emotion": "neutral",
+        "text": "I mean, like, I don't know. I'm just saying if you need to make some extra cash. You can, you know",
+        "id": 80
+    },
+    {
+        "turn": 81,
+        "speaker": "B",
+        "utterance": "Or library.",
+        "emotion": "neutral",
+        "text": "Or library.",
+        "id": 81
+    },
+    {
+        "turn": 82,
+        "speaker": "B",
+        "utterance": "I just said the library",
+        "emotion": "neutral",
+        "text": "I just said the library",
+        "id": 82
+    },
+    {
+        "turn": 83,
+        "speaker": "B",
+        "utterance": "or, um, campus cruiser. You can drive people around.",
+        "emotion": "neutral",
+        "text": "or, um, campus cruiser. You can drive people around.",
+        "id": 83
+    },
+    {
+        "turn": 84,
+        "speaker": "A",
+        "utterance": "Excellent. Drive drunk people around because you know that's all campus cruisers for.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            84
+        ],
+        "expanded emotion cause span": [
+            "Drive drunk people around because you know that's all campus cruisers for."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Excellent. Drive drunk people around because you know that's all campus cruisers for.",
+        "id": 84
+    },
+    {
+        "turn": 85,
+        "speaker": "B",
+        "utterance": "Right or you can run for student counsel.",
+        "emotion": "neutral",
+        "text": "Right or you can run for student counsel.",
+        "id": 85
+    },
+    {
+        "turn": 86,
+        "speaker": "A",
+        "utterance": "Okay. No, that's dorky.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            84
+        ],
+        "expanded emotion cause span": [
+            "Drive drunk people around because you know that's all campus cruisers for."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Okay. No, that's dorky.",
+        "id": 86
+    },
+    {
+        "turn": 87,
+        "speaker": "B",
+        "utterance": "Dorky?",
+        "emotion": "neutral",
+        "text": "Dorky?",
+        "id": 87
+    },
+    {
+        "turn": 88,
+        "speaker": "A",
+        "utterance": "Yeah.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            84
+        ],
+        "expanded emotion cause span": [
+            "Drive drunk people around because you know that's all campus cruisers for."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah.",
+        "id": 88
+    },
+    {
+        "turn": 89,
+        "speaker": "B",
+        "utterance": "It's important.",
+        "emotion": "neutral",
+        "text": "It's important.",
+        "id": 89
+    },
+    {
+        "turn": 90,
+        "speaker": "A",
+        "utterance": "Student counsel?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            84
+        ],
+        "expanded emotion cause span": [
+            "Drive drunk people around because you know that's all campus cruisers for."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Student counsel?",
+        "id": 90
+    },
+    {
+        "turn": 91,
+        "speaker": "A",
+        "utterance": "No, it's dorky.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            84
+        ],
+        "expanded emotion cause span": [
+            "Drive drunk people around because you know that's all campus cruisers for."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No, it's dorky.",
+        "id": 91
+    },
+    {
+        "turn": 92,
+        "speaker": "B",
+        "utterance": "Fine. It's dorky.",
+        "emotion": "neutral",
+        "text": "Fine. It's dorky.",
+        "id": 92
+    },
+    {
+        "turn": 93,
+        "speaker": "A",
+        "utterance": "Social life. Hello.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            93
+        ],
+        "expanded emotion cause span": [
+            "Social life"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Social life. Hello.",
+        "id": 93
+    },
+    {
+        "turn": 94,
+        "speaker": "B",
+        "utterance": "But that'll fit you because you're a dork.",
+        "emotion": "neutral",
+        "text": "But that'll fit you because you're a dork.",
+        "id": 94
+    },
+    {
+        "turn": 95,
+        "speaker": "A",
+        "utterance": "[LAUGHTER].",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            93
+        ],
+        "expanded emotion cause span": [
+            "Social life"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "[LAUGHTER].",
+        "id": 95
+    },
+    {
+        "turn": 96,
+        "speaker": "A",
+        "utterance": "[LAUGHTER].",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            93
+        ],
+        "expanded emotion cause span": [
+            "Social life"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "[LAUGHTER].",
+        "id": 96
+    },
+    {
+        "turn": 97,
+        "speaker": "B",
+        "utterance": "I dork.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            93
+        ],
+        "expanded emotion cause span": [
+            "Social life"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I dork.",
+        "id": 97
+    },
+    {
+        "turn": 98,
+        "speaker": "A",
+        "utterance": "No. But I'm thinking I might, you know, like audition for a play or something. I don't really want to do the sorority thing. I'm not really feeling that vibe with the",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            98
+        ],
+        "expanded emotion cause span": [
+            "I don't really want to do the sorority thing. I'm not really feeling that vibe with the"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No. But I'm thinking I might, you know, like audition for a play or something. I don't really want to do the sorority thing. I'm not really feeling that vibe with the",
+        "id": 98
+    },
+    {
+        "turn": 99,
+        "speaker": "B",
+        "utterance": "Yeah, you don't want to do the sorority thing because you'll probably get used and abused by",
+        "emotion": "neutral",
+        "text": "Yeah, you don't want to do the sorority thing because you'll probably get used and abused by",
+        "id": 99
+    },
+    {
+        "turn": 100,
+        "speaker": "B",
+        "utterance": "lots of drunk frat boys",
+        "emotion": "neutral",
+        "text": "lots of drunk frat boys",
+        "id": 100
+    },
+    {
+        "turn": 101,
+        "speaker": "B",
+        "utterance": "Yeah.",
+        "emotion": "neutral",
+        "text": "Yeah.",
+        "id": 101
+    },
+    {
+        "turn": 102,
+        "speaker": "A",
+        "utterance": "What have you heard about the Greek system?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            102
+        ],
+        "expanded emotion cause span": [
+            "What have you heard about the Greek system?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What have you heard about the Greek system?",
+        "id": 102
+    },
+    {
+        "turn": 103,
+        "speaker": "B",
+        "utterance": "I mean it's not really free because you have to pay for it, but yeah.",
+        "emotion": "neutral",
+        "text": "I mean it's not really free because you have to pay for it, but yeah.",
+        "id": 103
+    },
+    {
+        "turn": 104,
+        "speaker": "B",
+        "utterance": "Well do you think you're going to live on campus or off campus your first year?",
+        "emotion": "neutral",
+        "text": "Well do you think you're going to live on campus or off campus your first year?",
+        "id": 104
+    },
+    {
+        "turn": 105,
+        "speaker": "B",
+        "utterance": "I hate to break this to you but you meet people by being cool, so-",
+        "emotion": "neutral",
+        "text": "I hate to break this to you but you meet people by being cool, so-",
+        "id": 105
+    },
+    {
+        "turn": 106,
+        "speaker": "A",
+        "utterance": "Oh, oh, I'm sorry, my bad. I'll have to, like, sign up for summer lessons from you before I go. You can teach me how to be cool before I go to college.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            106
+        ],
+        "expanded emotion cause span": [
+            "sign up for summer lessons from you before I go"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh, oh, I'm sorry, my bad. I'll have to, like, sign up for summer lessons from you before I go. You can teach me how to be cool before I go to college.",
+        "id": 106
+    },
+    {
+        "turn": 107,
+        "speaker": "B",
+        "utterance": "No, no, no. You're right though. I mean, you know, dorms are definitely the way to meet people. I know that I was in an apartment off campus",
+        "emotion": "neutral",
+        "text": "No, no, no. You're right though. I mean, you know, dorms are definitely the way to meet people. I know that I was in an apartment off campus",
+        "id": 107
+    },
+    {
+        "turn": 108,
+        "speaker": "B",
+        "utterance": "that happened, you know, that was going on.",
+        "emotion": "neutral",
+        "text": "that happened, you know, that was going on.",
+        "id": 108
+    },
+    {
+        "turn": 109,
+        "speaker": "A",
+        "utterance": "That's what you're saying. I'm right. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            107
+        ],
+        "expanded emotion cause span": [
+            "You're right though."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's what you're saying. I'm right. [LAUGHTER]",
+        "id": 109
+    },
+    {
+        "turn": 110,
+        "speaker": "A",
+        "utterance": "me.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            107
+        ],
+        "expanded emotion cause span": [
+            "You're right though."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "me.",
+        "id": 110,
+        "source_sentences": [
+            106
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

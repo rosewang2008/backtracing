@@ -1,0 +1,157 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Please help yourself to whatever you like , don't be shy .",
+        "emotion": "happiness",
+        "explanation": "From the context, assuming A is treating B in a restaurant.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Please help yourself to whatever you like , don't be shy .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , thank you . I've already been helping myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Please help yourself to whatever you like",
+            "I've already been helping myself ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , thank you . I've already been helping myself .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "This dish taste terrific . Would you like to try a little ? It is a little hot , but very good .",
+        "emotion": "happiness",
+        "explanation": "Did not include \"It is a little hot\" here",
+        "expanded emotion cause evidence": [
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "This dish taste terrific .",
+            "very good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This dish taste terrific . Would you like to try a little ? It is a little hot , but very good .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like hot food , especially Sichuan cuisine .",
+        "emotion": "happiness",
+        "explanation": "Including \"It is a little hot\" as I find evidence of B  liking hot food.",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "This dish taste terrific .",
+            "It is a little hot , but very good .",
+            "I like hot food"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I like hot food , especially Sichuan cuisine .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you like another beer ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "This dish taste terrific .",
+            "very good .",
+            "I like hot food"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Would you like another beer ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'll have another cup of beer insist . I know I don't like to drink alone , especially there are someone sitting there next to me .",
+        "emotion": "neutral",
+        "text": "I'll have another cup of beer insist . I know I don't like to drink alone , especially there are someone sitting there next to me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Come on , it's the weekend . Let's taste and enjoy this meal . Cheers !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's the weekend . Let's taste and enjoy this meal ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Come on , it's the weekend . Let's taste and enjoy this meal . Cheers !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Bottom's up , and you're right . This meal is incredible . I wish I had known this restaurant before . Thanks for bringing me here . I know I'll be back agile soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "it's the weekend . Let's taste and enjoy this meal .",
+            "This meal is incredible .",
+            "Thanks for bringing me here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Bottom's up , and you're right . This meal is incredible . I wish I had known this restaurant before . Thanks for bringing me here . I know I'll be back agile soon .",
+        "id": 8,
+        "source_sentences": [
+            6,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

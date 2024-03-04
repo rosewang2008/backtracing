@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Mmmm , sounds like risky business . Good luck .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm bidding on a digital video camera .",
+            "Thirty U . S . dollars ... and it's only been used for six months ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Mmmm , sounds like risky business . Good luck .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

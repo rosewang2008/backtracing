@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Tom ! How are you ? We missed you at the party last night . Are you OK ?",
+        "emotion": "neutral",
+        "text": "Tom ! How are you ? We missed you at the party last night . Are you OK ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I don ' t know . I didn ' t really feel like going out . I guess I ' m feeling a little homesick .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' m feeling a little homesick ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don ' t know . I didn ' t really feel like going out . I guess I ' m feeling a little homesick .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Come on . We ' Ve been through this already ! Look , I know the adjustment was hard when you first got here , but we agreed that you were gonna try and deal with it .",
+        "emotion": "neutral",
+        "text": "Come on . We ' Ve been through this already ! Look , I know the adjustment was hard when you first got here , but we agreed that you were gonna try and deal with it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I was . It ' s just that the holidays are coming up and I won ' t be able to home because I can ' t afford the airfare . I ' m just longing for some of the comforts of home , like my mom ' s cooking and being around my family .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It ' s just that the holidays are coming up and I won ' t be able to home because I can ' t afford the airfare . I ' m just longing for some of the comforts of home , like my mom ' s cooking and being around my family ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I was . It ' s just that the holidays are coming up and I won ' t be able to home because I can ' t afford the airfare . I ' m just longing for some of the comforts of home , like my mom ' s cooking and being around my family .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah , it can get pretty lonely over the holidays . When I first got here , I ' d get depressed and nostalgic for anything that reminded me of home . I almost let it get to me , but then I started going out , keeping myself busy and before I knew it , I was used to to it .",
+        "emotion": "neutral",
+        "text": "Yeah , it can get pretty lonely over the holidays . When I first got here , I ' d get depressed and nostalgic for anything that reminded me of home . I almost let it get to me , but then I started going out , keeping myself busy and before I knew it , I was used to to it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I see what you mean , but I ' m still bummed out .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It ' s just that the holidays are coming up and I won ' t be able to home because I can ' t afford the airfare . I ' m just longing for some of the comforts of home , like my mom ' s cooking and being around my family ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I see what you mean , but I ' m still bummed out .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK . how does this sound . let ' s get you suited up and hit the dance club tonight . I hear that an awesome DJ is playing and there will be a lot of pretty single girls there !",
+        "emotion": "neutral",
+        "text": "OK . how does this sound . let ' s get you suited up and hit the dance club tonight . I hear that an awesome DJ is playing and there will be a lot of pretty single girls there !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You know , I could really go for that . You don ' t mind being my wingman for tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "let ' s get you suited up and hit the dance club tonight . I hear that an awesome DJ is playing and there will be a lot of pretty single girls there !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know , I could really go for that . You don ' t mind being my wingman for tonight ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Not at all ! It be fun ! It will be like a boys ' night out ... well kinda ...",
+        "emotion": "neutral",
+        "text": "Not at all ! It be fun ! It will be like a boys ' night out ... well kinda ...",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Great ! I must warn you though , whatever happens , don ' t let me go on a drinking binge . Trust me , it ' s not a pretty picture !",
+        "emotion": "neutral",
+        "text": "Great ! I must warn you though , whatever happens , don ' t let me go on a drinking binge . Trust me , it ' s not a pretty picture !",
+        "id": 10
+    }
+]

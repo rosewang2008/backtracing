@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This one is called estimation."
+    },
+    {
+        "text": "And it says the following."
+    },
+    {
+        "text": "If f of x is less than or equal to g of x, then the integral from a to b of f of x dx is less than or equal to the integral from a to b of g of x dx."
+    },
+    {
+        "text": "Now, this one says that if I'm going more slowly than you, then you go farther than I do."
+    },
+    {
+        "text": "That's all it's saying."
+    },
+    {
+        "text": "For this one, you'd better have a is less than b."
+    },
+    {
+        "text": "You need it."
+    },
+    {
+        "text": "Because we flip the signs when we flip the order of a and b."
+    },
+    {
+        "text": "So this one, it's essential that the lower limit be smaller than the upper limit."
+    },
+    {
+        "text": "But let me just emphasize, because we're dealing with the generalities of this, actually if one of these is negative and the other one is negative, then it also works."
+    },
+    {
+        "text": "This one ends up being, if f is more negative than g, then this added up thing is more negative than that one."
+    },
+    {
+        "text": "Again, under the assumption that a is less than b."
+    },
+    {
+        "text": "So as I wrote it, it's in full generality."
+    },
+    {
+        "text": "All right, let's illustrate this one."
+    },
+    {
+        "text": "And then we have one more property to learn after that."
+    },
+    {
+        "text": "So let me give you an example of estimation."
+    },
+    {
+        "text": "The example is the same as one that I already gave you."
+    },
+    {
+        "text": "But this time, because we have the tool of integration, we can just follow our noses and it works."
+    },
+    {
+        "text": "I'll start with the inequality."
+    },
+    {
+        "text": "So I'm trying to illustrate estimation, so I want to start with an inequality which is what the hypothesis is here."
+    }
+]

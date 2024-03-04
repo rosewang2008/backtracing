@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And it's second order."
+    },
+    {
+        "text": "It's like having a second order differential equation with second derivatives."
+    },
+    {
+        "text": "I want to get first derivatives."
+    },
+    {
+        "text": "Here I want to get first difference."
+    },
+    {
+        "text": "So the way to do it is to introduce U k will be a vector."
+    },
+    {
+        "text": "See, a small trick."
+    },
+    {
+        "text": "Let U k be a vector, F k plus one and F k. So I'm going to get a two by two system, first order, instead of a one, instead of a scalar system, second order, by a simple trick."
+    },
+    {
+        "text": "I'm just going to add in an equation F k plus one equals F k plus one."
+    },
+    {
+        "text": "That will be my second equation."
+    },
+    {
+        "text": "Then this is my system, this is my unknown, and what's my one-step equation?"
+    },
+    {
+        "text": "So now U k plus one."
+    },
+    {
+        "text": "That's so U k plus one is the left side, and what have I got here on the right side?"
+    },
+    {
+        "text": "I've got some matrix multiplying U k. Can you see that all right?"
+    },
+    {
+        "text": "If you can see it, then you can tell me what the matrix is."
+    },
+    {
+        "text": "You see that I'm taking my system here, I artificially made it into a system."
+    },
+    {
+        "text": "I artificially made the unknown into a vector, and now I'm ready to look at and see what the matrix is."
+    },
+    {
+        "text": "So do you see the left side, U k plus one is F k plus two F k plus one, that's just what I want."
+    },
+    {
+        "text": "On the right side, this, remember, this U k here, let me for the moment put it as F k plus one F k. So what's the matrix?"
+    },
+    {
+        "text": "Well, that has a one and a one, and that has a one and a zero."
+    },
+    {
+        "text": "There's the matrix."
+    }
+]

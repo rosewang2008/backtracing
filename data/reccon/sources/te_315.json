@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "John , I was looking through some magazines for ideas about where we might go on vacation this year .",
+        "emotion": "neutral",
+        "text": "John , I was looking through some magazines for ideas about where we might go on vacation this year .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I've already told my buddy , Mark , that I am going hunting with him in Alaska .",
+        "emotion": "neutral",
+        "text": "I've already told my buddy , Mark , that I am going hunting with him in Alaska .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You can't be serious !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I've already told my buddy , Mark , that I am going hunting with him in Alaska ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can't be serious !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hey , I've always gone hunting or fishing on vacation . I am sorry that bothers you .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "You can't be serious !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Hey , I've always gone hunting or fishing on vacation . I am sorry that bothers you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "After a year together , I thought it pretty safe to assume that we would automatically spend our vacation together .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I've already told my buddy , Mark , that I am going hunting with him in Alaska ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "After a year together , I thought it pretty safe to assume that we would automatically spend our vacation together .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Says who ? I don't think that is necessarily the case .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "You can't be serious !",
+            "After a year together , I thought it pretty safe to assume that we would automatically spend our vacation together .",
+            "I don't think that is necessarily the case"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Says who ? I don't think that is necessarily the case .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know , now that I think about it , I really don't have much more to say to you at all !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've already told my buddy , Mark , that I am going hunting with him in Alaska .",
+            "Says who ? I don't think that is necessarily the case ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know , now that I think about it , I really don't have much more to say to you at all !",
+        "id": 7,
+        "source_sentences": [
+            1,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Whatever you say !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "You can't be serious !",
+            "After a year together , I thought it pretty safe to assume that we would automatically spend our vacation together .",
+            "I don't think that is necessarily the case"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Whatever you say !",
+        "id": 8
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 22,
+        "timestamp": 1684704082641.0,
+        "annotatedSourceSentencesIndices": [
+            8
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "@ 24:30 why is row operation able to preserve row space and not column space? as Prof Strang mentioned that 111 can longer be found in C(R) so column space is not preserved. However, I don't see any row in A being found in R as well?. To put my question simply, how do I know if certain space is preserved after certain operation?"
+    }
+]

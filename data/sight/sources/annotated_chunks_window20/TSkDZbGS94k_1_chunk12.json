@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I can pick whichever I want."
+    },
+    {
+        "text": "I'm not going to write x1."
+    },
+    {
+        "text": "It's going to be weird."
+    },
+    {
+        "text": "OK. Is that clear?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this particular theta is called the true parameter."
+    },
+    {
+        "text": "Sometimes, since we're going to want some variable theta, we might denote it by theta star as opposed to theta hat, which is always our estimator."
+    },
+    {
+        "text": "But I'll keep it to be theta for now."
+    },
+    {
+        "text": "And so the aim of the statistical experiment is to estimate theta so that once I actually plug in theta in the form of my distribution, for example, I could plug in theta here."
+    },
+    {
+        "text": "So theta here was actually lambda."
+    },
+    {
+        "text": "So once I estimate this guy, I would plug it in."
+    },
+    {
+        "text": "And I would know the probability that my random variable takes any value by just putting a lambda hat and lambda hat here."
+    },
+    {
+        "text": "So my goal is going to be to estimate this guy so that I can actually compute those distributions."
+    },
+    {
+        "text": "But actually, we'll see, for example, when we talk about regression, that this parameter actually has a meaning in many instances."
+    },
+    {
+        "text": "And so just knowing the parameter itself intuitively or, let's say, more so than just computing probabilities will actually tell us something about the process."
+    },
+    {
+        "text": "So for example, we're going to run linear regression."
+    },
+    {
+        "text": "And when we do linear regression, there's going to be some coefficients in the linear regression."
+    },
+    {
+        "text": "And the value of this coefficient is actually telling me what is the sensitivity of the response that I'm looking at to this particular input."
+    },
+    {
+        "text": "So just knowing if this number is large or if this number is small is actually going to be useful for us to just look at this guy."
+    },
+    {
+        "text": "So there's going to be some instances where it's going to be important."
+    }
+]

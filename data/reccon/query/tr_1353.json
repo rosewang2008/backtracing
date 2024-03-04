@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Talking about a barbecue , didn't you say you are organizing one next week ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "This is perfect for having a barbecue in summer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Talking about a barbecue , didn't you say you are organizing one next week ?",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

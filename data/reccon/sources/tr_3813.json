@@ -1,0 +1,201 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We came too early . There're still three hours before the performance starts .",
+        "emotion": "neutral",
+        "text": "We came too early . There're still three hours before the performance starts .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I know . Sorry , I shouldn't have rushed you , but I just couldn't stay at home and wait .",
+        "emotion": "neutral",
+        "text": "I know . Sorry , I shouldn't have rushed you , but I just couldn't stay at home and wait .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Never mind . What about taking a look around the theater ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "What about taking a look around the theater ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Never mind . What about taking a look around the theater ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Why not ? I'd love to do that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "What about taking a look around the theater ?",
+            "I'd love to do that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Why not ? I'd love to do that .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Here we go . There is a museum of the Beijing Opera art .",
+        "emotion": "neutral",
+        "text": "Here we go . There is a museum of the Beijing Opera art .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wow . Look at this . So delicate and beautiful . Did ancient Chinese people really wear them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Wow . Look at this . So delicate and beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow . Look at this . So delicate and beautiful . Did ancient Chinese people really wear them ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Not really . They are just opera costumes . Do you like the embroidery ?",
+        "emotion": "neutral",
+        "text": "Not really . They are just opera costumes . Do you like the embroidery ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I surely do . They must have had advanced machines in ancient China to do that .",
+        "emotion": "neutral",
+        "text": "I surely do . They must have had advanced machines in ancient China to do that .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , no , no . They are all handmade , girl . You know , the ancient Chinese women were supposed to be good at needlework .",
+        "emotion": "neutral",
+        "text": "No , no , no . They are all handmade , girl . You know , the ancient Chinese women were supposed to be good at needlework .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Unbelievable ! I could never do that .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "They are all handmade , girl ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Unbelievable ! I could never do that .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Very few can . That's why these clothes only appear in the museum .",
+        "emotion": "neutral",
+        "text": "Very few can . That's why these clothes only appear in the museum .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Listen ! Some people are singing outside . Is it the opera ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Listen ! Some people are singing outside ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Listen ! Some people are singing outside . Is it the opera ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , yes . I heard there was an opera fans club . They are probably practicing now . Wanna have a look ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Listen ! Some people are singing outside ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , yes . I heard there was an opera fans club . They are probably practicing now . Wanna have a look ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , let's do it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Wanna have a look ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , let's do it .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Follow me . Make sure not to interrupt them .",
+        "emotion": "neutral",
+        "text": "Follow me . Make sure not to interrupt them .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Of course not . We don't do that .",
+        "emotion": "neutral",
+        "text": "Of course not . We don't do that .",
+        "id": 16
+    }
+]

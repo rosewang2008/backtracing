@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Looks like anything fun makes you excited .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I always get excited the day before .",
+            "that makes me excited too !",
+            "Looks like anything fun makes you excited ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Looks like anything fun makes you excited .",
+        "id": 10,
+        "source_sentences": [
+            2,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

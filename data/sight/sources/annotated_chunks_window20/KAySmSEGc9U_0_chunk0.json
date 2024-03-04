@@ -1,0 +1,62 @@
+[
+    {
+        "text": " Okay, folks."
+    },
+    {
+        "text": "Here we are again."
+    },
+    {
+        "text": "Welcome back for another episode of Theory of Computation."
+    },
+    {
+        "text": "This is lecture number three."
+    },
+    {
+        "text": "I am going to review what we've been doing."
+    },
+    {
+        "text": "We've been looking at finite automata and regular languages."
+    },
+    {
+        "text": "Those are the languages that the finite automata can recognize."
+    },
+    {
+        "text": "And we talked about non-determinism."
+    },
+    {
+        "text": "So we had non-deterministic finite automata and deterministic finite automata."
+    },
+    {
+        "text": "We showed that they're equivalent."
+    },
+    {
+        "text": "We looked at the closure properties over the regular operations, union, concatenation, and star, and showed that the regular languages, really the class of regular languages, is closed under those regular operations."
+    },
+    {
+        "text": "And we used the constructions that we developed in the proof of those closure properties to show that we can give a way to convert regular expressions to finite automata."
+    },
+    {
+        "text": "So that was partway toward our goal of showing that these regular expressions and finite automata are equivalent with respect to the class of languages they describe, namely the regular languages."
+    },
+    {
+        "text": "So regular expressions of finite automata are interchangeable from the perspective of what kinds of languages you can do with them."
+    },
+    {
+        "text": "So we're going to finish that off today."
+    },
+    {
+        "text": "So let's take a look at what our next topics we're going to be covering."
+    },
+    {
+        "text": "We're going to reverse the construction we gave last time, which allowed us to convert regular expressions to finite automata."
+    },
+    {
+        "text": "Now we're going to go backwards."
+    },
+    {
+        "text": "We're going to show how to convert finite automata back to regular expressions."
+    },
+    {
+        "text": "And those two constructions together show us that the regular expressions and finite automata can be interconverted from one another."
+    }
+]

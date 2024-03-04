@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I ' m going to the beauty parlor . Do you want to come too ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to the beauty parlor ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m going to the beauty parlor . Do you want to come too ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . Let ' s go . What are you going to have done ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to the beauty parlor . Do you want to come too ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Let ' s go . What are you going to have done ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to have a foot massage and haircut .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Sure . Let ' s go .",
+            "I want to have a foot massage and haircut ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I want to have a foot massage and haircut .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "A foot massage sounds like a great idea . They are very relaxing . I ' d also like to have a mudpack on my face . It ' s supposed to help with your complexion .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "A foot massage sounds like a great idea . They are very relaxing . I ' d also like to have a mudpack on my face . It ' s supposed to help with your complexion ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "A foot massage sounds like a great idea . They are very relaxing . I ' d also like to have a mudpack on my face . It ' s supposed to help with your complexion .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good idea . We should also pedicures and manicures .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "A foot massage sounds like a great idea . They are very relaxing . I ' d also like to have a mudpack on my face . It ' s supposed to help with your complexion .",
+            "We should also pedicures and manicures ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good idea . We should also pedicures and manicures .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This could become a very expensive trip to be beauty parlour !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Good idea . We should also pedicures and manicures ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "This could become a very expensive trip to be beauty parlour !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think it ' s a good idea to pamper yourself occasionally . Don ' t you agree ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it ' s a good idea to pamper yourself occasionally"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it ' s a good idea to pamper yourself occasionally . Don ' t you agree ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , I agree . We both work hard and a little beauty treatment can relieve stress .",
+        "emotion": "neutral",
+        "text": "Oh , I agree . We both work hard and a little beauty treatment can relieve stress .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Maybe we should try a thai massage too .",
+        "emotion": "neutral",
+        "text": "Maybe we should try a thai massage too .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What ' s special about a thai massage ?",
+        "emotion": "neutral",
+        "text": "What ' s special about a thai massage ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That ' s when the masseuse walk on your back and massage you with her feet .",
+        "emotion": "neutral",
+        "text": "That ' s when the masseuse walk on your back and massage you with her feet .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sounds painful !",
+        "emotion": "neutral",
+        "text": "Sounds painful !",
+        "id": 12
+    }
+]

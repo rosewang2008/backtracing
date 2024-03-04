@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Sure."
+    },
+    {
+        "text": "We've got two distinct eigenvalues and we can find the eigenvectors in a moment."
+    },
+    {
+        "text": "But they'll be independent, will be diagonalizable, and now you can already answer my very first question."
+    },
+    {
+        "text": "How fast are those Fibonacci numbers increasing?"
+    },
+    {
+        "text": "How, those, they're increasing, right?"
+    },
+    {
+        "text": "They're not doubling at every step."
+    },
+    {
+        "text": "Let's look again at these numbers."
+    },
+    {
+        "text": "Five eight thirteen, it's not obvious."
+    },
+    {
+        "text": "The next one would be twenty one thirty four."
+    },
+    {
+        "text": "So to get some idea of what F one hundred is, can you give me any, I mean the crucial number of, so it, these, it's approximately, what's controlling the growth of these Fibonacci numbers?"
+    },
+    {
+        "text": "It's the eigenvalues."
+    },
+    {
+        "text": "And which eigenvalues controlling that growth?"
+    },
+    {
+        "text": "The big ones."
+    },
+    {
+        "text": "So F one hundred will it be approximately some constant, c one, I guess, times this lambda one, this one plus square root of five over two, to the hundredth power."
+    },
+    {
+        "text": "And the two hundredth have, in other words, the eigenvalue, the Fibonacci numbers are growing by about that factor."
+    },
+    {
+        "text": "You see that we've got precise information about the, about the Fibonacci numbers out of the eigenvalue."
+    },
+    {
+        "text": "OK. And again, why is that true?"
+    },
+    {
+        "text": "Let me go over to this board and show what I'm doing here."
+    },
+    {
+        "text": "The, the original eigen, the original initial value is some combination of eigenvectors, and then when we start multiple, when we start going out the theory of Fibonacci numbers, when we start multiplying by a hundred times, it's this lambda one to the hundredth, this term is, is the one that's taken over."
+    },
+    {
+        "text": "It's, I mean, that's big, like, one point six to the hundredth power."
+    }
+]

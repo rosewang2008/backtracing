@@ -1,0 +1,231 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you doing ?",
+        "emotion": "neutral",
+        "text": "How are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm doing great .",
+        "emotion": "neutral",
+        "text": "I'm doing great .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What movies have you seen lately ?",
+        "emotion": "neutral",
+        "text": "What movies have you seen lately ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I saw Forrest Gump the other day .",
+        "emotion": "neutral",
+        "text": "I saw Forrest Gump the other day .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What type of movie is that ?",
+        "emotion": "neutral",
+        "text": "What type of movie is that ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The movie type is drama .",
+        "emotion": "neutral",
+        "text": "The movie type is drama .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I can't believe you are watching movies . The weather is great . You should be outside .",
+        "emotion": "neutral",
+        "text": "I can't believe you are watching movies . The weather is great . You should be outside .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I hate the hot weather . I'd rather stay indoors with the air conditioner .",
+        "emotion": "neutral",
+        "text": "I hate the hot weather . I'd rather stay indoors with the air conditioner .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What else do you like to do besides watching movies ?",
+        "emotion": "neutral",
+        "text": "What else do you like to do besides watching movies ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I like to play computer games , read books , go shopping , and play pool .",
+        "emotion": "neutral",
+        "text": "I like to play computer games , read books , go shopping , and play pool .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Out of those what is your favorite ?",
+        "emotion": "neutral",
+        "text": "Out of those what is your favorite ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "My favorite is to play computer games .",
+        "emotion": "neutral",
+        "text": "My favorite is to play computer games .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "What is your favorite computer game ?",
+        "emotion": "neutral",
+        "text": "What is your favorite computer game ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "My favorite is Diablo . It used to be Star Craft , but it is getting a little old .",
+        "emotion": "neutral",
+        "text": "My favorite is Diablo . It used to be Star Craft , but it is getting a little old .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "If you like to play so much , when do you ever exercise ?",
+        "emotion": "neutral",
+        "text": "If you like to play so much , when do you ever exercise ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Although I hate to exercise , I go jogging at least twice a week .",
+        "emotion": "neutral",
+        "text": "Although I hate to exercise , I go jogging at least twice a week .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "That's pretty good . By the way , what are you doing next Saturday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I go jogging at least twice a week .",
+            "That's pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's pretty good . By the way , what are you doing next Saturday ?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I am going to go to the bookstore .",
+        "emotion": "neutral",
+        "text": "I am going to go to the bookstore .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "I am having a party Saturday night at my house . If you have time , you should come .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "I am having a party Saturday night at my house ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am having a party Saturday night at my house . If you have time , you should come .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "That sounds like fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "I am having a party Saturday night at my house . If you have time , you should come ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like fun .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Great . I'll see you on Saturday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "That sounds like fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . I'll see you on Saturday .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Ok . See you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            21
+        ],
+        "expanded emotion cause span": [
+            "I'll see you on Saturday ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . See you later .",
+        "id": 22,
+        "source_sentences": [
+            20
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Goodbye .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries.",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Goodbye ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

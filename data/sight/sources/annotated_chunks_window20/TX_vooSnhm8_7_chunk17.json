@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What are the eigenvalues of this rank one matrix?"
+    },
+    {
+        "text": "Well, tell me one eigenvalue, since the rank is only one, one eigenvalue is going to be zero."
+    },
+    {
+        "text": "And then you know that the other eigenvalue is going to be a hundred and twenty five."
+    },
+    {
+        "text": "So that's sigma squared, right, in A transpose A."
+    },
+    {
+        "text": "So this will be the square root of a hundred and twenty five."
+    },
+    {
+        "text": "And then finally, the V transpose, the Vs will be, there's V1, and what's V2?"
+    },
+    {
+        "text": "What's V2 in the, what's, how do I make this into a orthonormal basis?"
+    },
+    {
+        "text": "Well, V2 is in the null space direction."
+    },
+    {
+        "text": "It's perpendicular to that, so point six and minus point eight."
+    },
+    {
+        "text": "So those are the Vs that go in here."
+    },
+    {
+        "text": "Point eight, point six, and point six minus point eight."
+    },
+    {
+        "text": "OK. And I guess I better finish this guy."
+    },
+    {
+        "text": "So this guy, all I want is to complete the orthonormal basis."
+    },
+    {
+        "text": "It'll be coming from there, it'll be a two over square root of five and a minus one over square root of five."
+    },
+    {
+        "text": "I could have take, let me take square root of five out of that matrix to make it look better."
+    },
+    {
+        "text": "So one over square root of five times one, one, two, two, minus one."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So there I have, including the square root of five, that's an orthogonal matrix, that's an orthogonal matrix, that's a diagonal matrix, and its rank is only one."
+    },
+    {
+        "text": "And now if I do that multiplication, I pray that it comes out right."
+    },
+    {
+        "text": "The square root of five will cancel into that square root of one twenty-five and leave me with the square root of twenty-five, which is five, and five will multiply these numbers and I'll get whole numbers and out will come A. OK. That's a second, like, a second example showing how the null space guy, so this, this vector and the, and this one were multiplied by this zero, so they, they were easy to deal with."
+    }
+]

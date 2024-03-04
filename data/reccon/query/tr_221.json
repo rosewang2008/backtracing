@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , I don ' t mean to boast but all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "such a nice place .",
+            "all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I don ' t mean to boast but all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

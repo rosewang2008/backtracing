@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh , hi , Jessica , are you going to see this movie too ?",
+        "emotion": "neutral",
+        "text": "Oh , hi , Jessica , are you going to see this movie too ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd love to , the movies are smash hit .",
+        "emotion": "neutral",
+        "text": "I'd love to , the movies are smash hit .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Then let's go in .",
+        "emotion": "neutral",
+        "text": "Then let's go in .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I can't . I'm waiting for Paul , but he's late .",
+        "emotion": "neutral",
+        "text": "I can't . I'm waiting for Paul , but he's late .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'll say the movie's starting in the minute .",
+        "emotion": "neutral",
+        "text": "I'll say the movie's starting in the minute .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I know . I wonder what's keeping him .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm waiting for Paul , but he's late"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I know . I wonder what's keeping him .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Looks like he won't show up . He's done this before , hasn't he ?",
+        "emotion": "neutral",
+        "text": "Looks like he won't show up . He's done this before , hasn't he ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , a number of times .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm waiting for Paul , but he's late",
+            "Looks like he won't show up . He's done this before , hasn't he ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , a number of times .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What's he trying to pull anyway .",
+        "emotion": "neutral",
+        "text": "What's he trying to pull anyway .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't know . But this is definitely the last straw .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm waiting for Paul , but he's late",
+            "Looks like he won't show up . He's done this before , hasn't he ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I don't know . But this is definitely the last straw .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Maybe you should start seeing someone else .",
+        "emotion": "neutral",
+        "text": "Maybe you should start seeing someone else .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You said it . Ok , let's go in , Sandy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "you should start seeing someone else ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You said it . Ok , let's go in , Sandy .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

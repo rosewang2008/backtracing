@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I couldn't look at you , and say you aren't beautiful !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I couldn't look at you , and say you aren't beautiful !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I couldn't look at you , and say you aren't beautiful !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You are pretending !",
+        "emotion": "happiness",
+        "explanation": "Flirtery",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I couldn't look at you , and say you aren't beautiful !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are pretending !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , Miss Anna , you must let me say how lovely you are ! What's wrong with that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I couldn't look at you , and say you aren't beautiful !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , Miss Anna , you must let me say how lovely you are ! What's wrong with that ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's wrong because---it isn't true .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I couldn't look at you , and say you aren't beautiful !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's wrong because---it isn't true .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You know that everybody notices how beautiful you are , don't you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I couldn't look at you , and say you aren't beautiful !",
+            "how beautiful you are"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You know that everybody notices how beautiful you are , don't you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , no-that is , I've heard Linda say they do , but ... Thank you . But please don't speak to me again .",
+        "emotion": "disgust",
+        "explanation": "Tired of constant flirting by the other speaker.",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "please don't speak to me again ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , no-that is , I've heard Linda say they do , but ... Thank you . But please don't speak to me again .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , Miss Anna ! That's too hard ! I won't be here long .",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "But please don't speak to me again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , Miss Anna ! That's too hard ! I won't be here long .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

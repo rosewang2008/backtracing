@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No hurry ! I'II tell you now , The collections include ancient cases and caskets , tea sets , abacuses , precious sea shells and conches , drama costumes , agates , ancient coins , fans , mini-musical instruments , root-carving , rare stones and rocks , model ships , model cars ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "They must have excellent collections . I'II go and see each of them .",
+            "don't keep me in suspense !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No hurry ! I'II tell you now , The collections include ancient cases and caskets , tea sets , abacuses , precious sea shells and conches , drama costumes , agates , ancient coins , fans , mini-musical instruments , root-carving , rare stones and rocks , model ships , model cars ...",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

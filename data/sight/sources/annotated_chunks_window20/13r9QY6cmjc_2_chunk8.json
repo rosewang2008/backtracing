@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That means, that means no repeated eigenvalues."
+    },
+    {
+        "text": "OK. That's the nice case."
+    },
+    {
+        "text": "If, if my matrix and most matrix, if I do a random matrix in MATLAB and compute its eigenvalues, so if I computed, if I took I of rand of ten ten, gave, gave that MATLAB command, the, we'd get a random ten by ten matrix, we would get a list of its ten eigenvalues and they would be different."
+    },
+    {
+        "text": "They would be distinct, is the best word."
+    },
+    {
+        "text": "I would have a random matrix will have ten distinct, a ten by ten matrix will have ten distinct eigenvalues, and if it does, the eigenvectors are automatically independent."
+    },
+    {
+        "text": "So that's a nice fact."
+    },
+    {
+        "text": "I can, I'll refer you to the text for the proof."
+    },
+    {
+        "text": "That, that A is sure to have n independent eigenvectors if the eigenvalues are different."
+    },
+    {
+        "text": "If, if all the, if all eigenvalues are different."
+    },
+    {
+        "text": "It's just, if some lambdas are repeated, then I have to look more closely."
+    },
+    {
+        "text": "If an eigenvalue is repeated, I have to look, I have to count, I have to check."
+    },
+    {
+        "text": "Has it got, say it's repeated three times."
+    },
+    {
+        "text": "So what's a possibility for, so, so here's, here's the repeated possibility."
+    },
+    {
+        "text": "And, and let me emphasize the conclusion."
+    },
+    {
+        "text": "That if I have repeated eigenvalues, I may or may not, I may or may not have, have n independent eigenvectors."
+    },
+    {
+        "text": "I might."
+    },
+    {
+        "text": "I, I, you know, this isn't a completely negative case."
+    },
+    {
+        "text": "The identity matrix."
+    },
+    {
+        "text": "Well, suppose I take the ten by ten identity matrix."
+    },
+    {
+        "text": "What are the eigenvalues of that matrix?"
+    }
+]

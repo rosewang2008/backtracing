@@ -1,0 +1,53 @@
+[
+    {
+        "text": "And that is a linear best fit."
+    },
+    {
+        "text": "What you do is you just look for the best straight line fit for the log of y."
+    },
+    {
+        "text": "That is something we already know."
+    },
+    {
+        "text": "But you can also do other examples."
+    },
+    {
+        "text": "For example, let's say that we have something more complicated."
+    },
+    {
+        "text": "Let's say that we have actually a quadratic law."
+    },
+    {
+        "text": "For example, y is of the form ax2 bx c. And, of course, you are trying to find somehow the best."
+    },
+    {
+        "text": "That would mean here fitting the best parabola for your data points."
+    },
+    {
+        "text": "Well, to do that you would need to find a, b and c. And now you would have actually a function of a, b and c, which would be the sum of all data points of the quadratic equation."
+    },
+    {
+        "text": "And if you try to solve for critical points, now you will have three equations involving a, b and c. And, in fact, you will find a three by three linear system."
+    },
+    {
+        "text": "And it works just the same way."
+    },
+    {
+        "text": "Just you have a little bit more data."
+    },
+    {
+        "text": "Basically, you see that these best fit problems are an example of minimization problem."
+    },
+    {
+        "text": "But maybe you didn't expect to see minimization problems come in."
+    },
+    {
+        "text": "But that is really the way to handle these questions."
+    },
+    {
+        "text": "OK, so tomorrow we will go back to the question of how do we decide whether it is a minimum or a maximum?"
+    },
+    {
+        "text": "And we will continue exploring functions of several variables."
+    }
+]

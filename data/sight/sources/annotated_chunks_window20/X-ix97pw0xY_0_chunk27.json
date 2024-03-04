@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So if you complete this computation, what you're going to get is that your new one parameter thing is that p theta p theta x is not equal to exponential x times mu over sigma squared minus, well, it's still the same thing, and then you have your h of x that comes out, x squared over 2 sigma squared."
+    },
+    {
+        "text": "So that's my h of x."
+    },
+    {
+        "text": "That's still my b of theta."
+    },
+    {
+        "text": "And this is my t1 of x, and this is my eta 1 of theta."
+    },
+    {
+        "text": "And remember, theta is just equal to mu in this case."
+    },
+    {
+        "text": "So if I ask you, prove that this distribution belonged to an exponential family, you just have to work it out."
+    },
+    {
+        "text": "Typically, it's expanding what's in the exponential and just write it in this term and identify all the components, right?"
+    },
+    {
+        "text": "So here, notice those guys don't even get an index anymore because there's just one of them."
+    },
+    {
+        "text": "So I wrote theta 1 and t1, but it's really just eta and t. Oh, sorry."
+    },
+    {
+        "text": "This guy also goes."
+    },
+    {
+        "text": "This is also a constant, right?"
+    },
+    {
+        "text": "So it can actually just put sigma divided by sigma squared over 2 pi."
+    },
+    {
+        "text": "So h of x is what, actually?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "It's the density of?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "It's centered."
+    },
+    {
+        "text": "It's not standard."
+    },
+    {
+        "text": "It's centered."
+    },
+    {
+        "text": "It has mean 0, but it has variance sigma squared, right?"
+    }
+]

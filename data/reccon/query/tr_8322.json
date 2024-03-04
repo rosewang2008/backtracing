@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Thanks for saying that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "you're very eloquent ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for saying that .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

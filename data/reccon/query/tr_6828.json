@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I don't care about that , Allen ! What did he steal ? That's the question !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "the robber broke in . Then , when he left , he left through the door . So it wasn't locked ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't care about that , Allen ! What did he steal ? That's the question !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "One way to justify this, sorry, I was distracted by a microphone problem."
+    },
+    {
+        "text": "OK, so how do we justify this formula?"
+    },
+    {
+        "text": "Well, one way to think about it is in terms of tangent plane approximation."
+    },
+    {
+        "text": "Let's think about the tangent plane to the graph of a function f. I have some pictures to show you."
+    },
+    {
+        "text": "It will be easier if I show the pictures."
+    },
+    {
+        "text": "Remember, partial f over partial x was obtained by looking at the situation where y is held constant."
+    },
+    {
+        "text": "That means I am slicing the graph of f by a plane that is parallel to the xz plane."
+    },
+    {
+        "text": "And then, when I change x, z changes."
+    },
+    {
+        "text": "And the slope of that is going to be the derivative with respect to x."
+    },
+    {
+        "text": "Now, if I do the same in the other direction, then I will have similarly the slope in a slice now parallel to the yz plane that will be partial f over partial y."
+    },
+    {
+        "text": "In fact, in each case I have a line."
+    },
+    {
+        "text": "And that line is tangent to the surface."
+    },
+    {
+        "text": "Now, if I have two lines tangent to the surface, well, then together they determine for me the tangent plane to the surface."
+    },
+    {
+        "text": "Let's try to see how that works."
+    },
+    {
+        "text": "We know that f sub x and f sub y are the slopes of two tangent lines to this plane, sorry, two tangent lines to the graph."
+    },
+    {
+        "text": "And let's write down the equations of these lines."
+    },
+    {
+        "text": "I am not going to write parametric equations."
+    },
+    {
+        "text": "I am going to write them in terms of x, y, z coordinates."
+    },
+    {
+        "text": "Let's say that partial f over partial x at a given point is equal to a."
+    },
+    {
+        "text": "Then that means that we have a line given by the following conditions."
+    }
+]

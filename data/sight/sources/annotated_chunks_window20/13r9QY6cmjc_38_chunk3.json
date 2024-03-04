@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I mentioned at the end of last time, and I'll say again, that there's a small number of matrices for, that don't have n independent eigenvectors."
+    },
+    {
+        "text": "So I've got to discuss that, that technical point."
+    },
+    {
+        "text": "But the great, the most matrices that we see have n, n independent eigenvectors and we can diagonalize."
+    },
+    {
+        "text": "This is diagonalization."
+    },
+    {
+        "text": "I could also write it, and I often will, the other way round."
+    },
+    {
+        "text": "If I multiply on the right by s inverse, if I took this equation at the top and multiplied on the right by s inverse, I could, I would have A left here."
+    },
+    {
+        "text": "Now s inverse is coming from the right."
+    },
+    {
+        "text": "So can you keep those two straight?"
+    },
+    {
+        "text": "A multiplies its eigenvectors."
+    },
+    {
+        "text": "That's how I keep them straight."
+    },
+    {
+        "text": "So A multiplies s. A multiplies s. And then this s inverse makes the whole thing diagonal."
+    },
+    {
+        "text": "And this is another way of saying the same thing, putting the s's on the other side of the equation, A is s lambda s inverse."
+    },
+    {
+        "text": "So that's the, that's the new factorization."
+    },
+    {
+        "text": "That's the replacement for L U from elimination or Q R from Gram-Schmidt."
+    },
+    {
+        "text": "And notice that the matrix, so it's, it's a matrix times a diagonal matrix times the inverse of the first one."
+    },
+    {
+        "text": "It's, that's the combination that we'll see throughout this chapter."
+    },
+    {
+        "text": "This, this, combination with an s and an s inverse."
+    },
+    {
+        "text": "OK. Can I just begin to use that?"
+    },
+    {
+        "text": "For example, what about A squared?"
+    },
+    {
+        "text": "What are the eigenvalues and eigenvectors of A squared?"
+    }
+]

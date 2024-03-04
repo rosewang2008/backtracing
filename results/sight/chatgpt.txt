@@ -1,0 +1,7 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/chatgpt.csv
+Output fname: results/sight/annotated/chatgpt.csv
+Accuracy: 0.15
+Distance: 73.90860215053763
+Number of max context errors: 11

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "That would - I would appreciate that. Yeah.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            25
+        ],
+        "expanded emotion cause span": [
+            "Yeah. Do you want to see my supervisor? Huh? Yeah. Do you want to see my supervisor? Fine. I'll be right back."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would - I would appreciate that. Yeah.",
+        "id": 26,
+        "source_sentences": [
+            24
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

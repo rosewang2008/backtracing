@@ -1,0 +1,117 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Victor . How are you ?",
+        "emotion": "neutral",
+        "text": "Hi , Victor . How are you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , I'm fine .",
+        "emotion": "neutral",
+        "text": "Oh , I'm fine .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So , are you going to go to class tonight ?",
+        "emotion": "neutral",
+        "text": "So , are you going to go to class tonight ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Maybe ... but I don't think so .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Maybe ... but I don't think so .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? What's the matter ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Maybe ... but I don't think so ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What's the matter ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't know . I'm just feeling a little sad .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I don't know . I'm just feeling a little sad ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't know . I'm just feeling a little sad .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Listen . Come with me to class , and after class we can go out for dinner .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Come with me to class , and after class we can go out for dinner ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Listen . Come with me to class , and after class we can go out for dinner .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Now that's a good idea . Thanks a lot , Brian . I'm feeling better already .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Come with me to class , and after class we can go out for dinner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now that's a good idea . Thanks a lot , Brian . I'm feeling better already .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

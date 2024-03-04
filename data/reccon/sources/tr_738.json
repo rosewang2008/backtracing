@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello ?",
+        "emotion": "neutral",
+        "text": "Hello ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi Steve . This is Mike . What are you doing ?",
+        "emotion": "neutral",
+        "text": "Hi Steve . This is Mike . What are you doing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , hi . I was just watching TV .",
+        "emotion": "neutral",
+        "text": "Oh , hi . I was just watching TV .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "There's nothing to watch right now .",
+        "emotion": "neutral",
+        "text": "There's nothing to watch right now .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I know . I was watching a re-run . I have nothing to do and I was bored .",
+        "emotion": "neutral",
+        "text": "I know . I was watching a re-run . I have nothing to do and I was bored .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Me too . Let's get together and do something .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Let's get together and do something ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Me too . Let's get together and do something .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'd like to , but I have to meet my parents in an hour for dinner . How about tomorrow ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Let's get together and do something ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'd like to , but I have to meet my parents in an hour for dinner . How about tomorrow ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah . Let's plan something tomorrow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'd like to ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah . Let's plan something tomorrow .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Did you hear the weather forecast for tomorrow ?",
+        "emotion": "neutral",
+        "text": "Did you hear the weather forecast for tomorrow ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I think it is going to be the same as today . Clear and sunny .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Clear and sunny ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it is going to be the same as today . Clear and sunny .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's great . We can do something outdoors then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Clear and sunny .",
+            "We can do something outdoors"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's great . We can do something outdoors then .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Are there any special events going on tomorrow ?",
+        "emotion": "neutral",
+        "text": "Are there any special events going on tomorrow ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yeah . I think there's a live outdoor concert by the river tomorrow .",
+        "emotion": "neutral",
+        "text": "Yeah . I think there's a live outdoor concert by the river tomorrow .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh yeah . I heard about that too . Let's go check it out .",
+        "emotion": "neutral",
+        "text": "Oh yeah . I heard about that too . Let's go check it out .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Do you know what time it starts ?",
+        "emotion": "neutral",
+        "text": "Do you know what time it starts ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "It starts at one PM .",
+        "emotion": "neutral",
+        "text": "It starts at one PM .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Let's meet for lunch at eleven thirty and afterwards , we can head over there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "there's a live outdoor concert"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Let's meet for lunch at eleven thirty and afterwards , we can head over there .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Perfect . I'll see you in front of the apartment at eleven thirty .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            17
+        ],
+        "expanded emotion cause span": [
+            "there's a live outdoor concert",
+            "Let's meet for lunch"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Perfect . I'll see you in front of the apartment at eleven thirty .",
+        "id": 18,
+        "source_sentences": [
+            12,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

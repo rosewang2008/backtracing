@@ -1,0 +1,109 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It smells like an ashtray in here !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It smells like an ashtray in here !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It smells like an ashtray in here !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi honey ! What ' s wrong ? Why do you have that look on your face ?",
+        "emotion": "neutral",
+        "text": "Hi honey ! What ' s wrong ? Why do you have that look on your face ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What ' s wrong ? I thought we agreed that you were gonna quit smoking .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "It smells like an ashtray in here !",
+            "I thought we agreed that you were gonna quit smoking ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "What ' s wrong ? I thought we agreed that you were gonna quit smoking .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No ! I said I was going to cut down which is very different . You can ' t just expect me to go cold turkey overnight !",
+        "emotion": "neutral",
+        "text": "No ! I said I was going to cut down which is very different . You can ' t just expect me to go cold turkey overnight !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Look , there are other ways to quit . You can try the nicotine patch , or nicotine chewing gum . We spend a fortune on cigarettes every month and now laws are cracking down and not allowing smoking in any public place . It ' s not like you can just light up like before .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It smells like an ashtray in here !",
+            "I thought we agreed that you were gonna quit smoking .",
+            "I said I was going to cut down which is very different . You can ' t just expect me to go cold turkey overnight !",
+            "there are other ways to quit . You can try the nicotine patch , or nicotine chewing gum . We spend a fortune on cigarettes every month"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Look , there are other ways to quit . You can try the nicotine patch , or nicotine chewing gum . We spend a fortune on cigarettes every month and now laws are cracking down and not allowing smoking in any public place . It ' s not like you can just light up like before .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I know , I know . I am trying but , I don ' t have the willpower to just quit . I can ' t fight with the urge to reach for my pack of smokes in the morning with coffee or after lunch ! Please understand ?",
+        "emotion": "neutral",
+        "text": "I know , I know . I am trying but , I don ' t have the willpower to just quit . I can ' t fight with the urge to reach for my pack of smokes in the morning with coffee or after lunch ! Please understand ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Fine ! I want a divorce !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I am trying but , I don ' t have the willpower to just quit ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine ! I want a divorce !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

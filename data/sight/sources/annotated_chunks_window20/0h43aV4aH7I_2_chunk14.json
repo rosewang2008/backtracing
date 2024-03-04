@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now let me come to my, the, the math, the linear algebra part of the lecture."
+    },
+    {
+        "text": "Well, we've actually seen a change of basis."
+    },
+    {
+        "text": "So let, let me just review that change of basis idea, and then the, and then the transformation to a matrix."
+    },
+    {
+        "text": "OK, so, so this, I hope you see that these applications are really big."
+    },
+    {
+        "text": "Now I have to talk a little about change of basis and little about that, the, the matrix."
+    },
+    {
+        "text": "OK. OK. OK."
+    },
+    {
+        "text": "So change of basis."
+    },
+    {
+        "text": "Basically, forgive that pun, OK, I have, I have, I have my vector in one basis, and I want to change to a different one."
+    },
+    {
+        "text": "Actually, you saw it for the wavelet case."
+    },
+    {
+        "text": "So I need the, the, let the matrix W, the columns of W, be the new basis vectors."
+    },
+    {
+        "text": "Then the change of basis involves, just as it did there, W inverse."
+    },
+    {
+        "text": "So we have the vector, vector, say, x in the old basis, and we, that converts to a vector, let's say, c in the new basis, and the relation is exactly what we had there, that x is Wc."
+    },
+    {
+        "text": "That's the, that's the, that's the, that's the step we have to take."
+    },
+    {
+        "text": "There's a matrix W that gives us a change of basis."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I, I, what I want to do is think about mat- transformations and matrices."
+    },
+    {
+        "text": "So here's, here's the question, that, that, to complete this lecture."
+    },
+    {
+        "text": "Suppose I have a linear transformation T. So it's, it's a, it's a, we, we would think of it as an A, as a n by n matrix."
+    },
+    {
+        "text": "And it's computed with respect to a certain basis."
+    },
+    {
+        "text": "So T, so, no, I'm sorry."
+    }
+]

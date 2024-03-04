@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'm so excited ! We have two weeks off ! What are you going to do ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm so excited ! We have two weeks off ! What are you going to do ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm not sure . I guess I'll just stay at home . Maybe I'll catch up on my reading . What about you ? Any plans ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "I'll catch up on my reading ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm not sure . I guess I'll just stay at home . Maybe I'll catch up on my reading . What about you ? Any plans ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , my parents have rented a condominium in Florida . I'm going to take long walks along the beach every day and do lots of swimming .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "I'm going to take long walks along the beach every day and do lots of swimming ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well , my parents have rented a condominium in Florida . I'm going to take long walks along the beach every day and do lots of swimming .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sounds great !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "I'm going to take long walks along the beach every day and do lots of swimming ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds great !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Say , why don't you come with us ? We have plenty of room .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "why don't you come with us ? We have plenty of room ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Say , why don't you come with us ? We have plenty of room .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Do you mean it ? I'd love to !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "We have two weeks off !",
+            "why don't you come with us ? We have plenty of room ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you mean it ? I'd love to !",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

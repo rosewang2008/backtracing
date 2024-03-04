@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so what I've shown you is that d by dx of x to the n minus, sorry, n, is equal to n x to the n-1."
+    },
+    {
+        "text": "So now this is going to be super important to you, right on your problem set in every possible way."
+    },
+    {
+        "text": "And I want to tell you one thing, one way in which it's very important."
+    },
+    {
+        "text": "And one way that extends it immediately."
+    },
+    {
+        "text": "So this thing extends to polynomials."
+    },
+    {
+        "text": "We get quite a lot out of this one calculation."
+    },
+    {
+        "text": "Namely, if I take d by dx of something like x cubed plus 5x to the 10th power, that's going to be equal to 3x squared."
+    },
+    {
+        "text": "That's applying this rule to x cubed."
+    },
+    {
+        "text": "And then here I'll get 5 times 10."
+    },
+    {
+        "text": "So 50 x to the 9th."
+    },
+    {
+        "text": "So this is the type of thing that we get out of it."
+    },
+    {
+        "text": "And we're going to make more hay with that next time."
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "I turned myself off."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 1."
+    },
+    {
+        "text": "The binomial theorem only works when delta x goes to 0."
+    },
+    {
+        "text": "PROFESSOR ERIK DEMAINER The question was, the binomial theorem only works when delta x goes to 0."
+    },
+    {
+        "text": "No, the binomial theorem is a general formula which also specifies exactly what the junk is."
+    },
+    {
+        "text": "It's very much more detailed."
+    }
+]

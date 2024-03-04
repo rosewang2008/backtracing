@@ -1,0 +1,36 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I appreciate it very much . You've been doing great . I expect to see you be promoted pretty soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            8,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you really did great and outperformed",
+            "You deserved it !",
+            "you always have unique ideas",
+            "you're such a team leader .",
+            "You've been doing great . I expect to see you be promoted"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I appreciate it very much . You've been doing great . I expect to see you be promoted pretty soon .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            5,
+            7,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

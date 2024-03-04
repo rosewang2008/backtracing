@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Take a seat inside and see what you think . So you will take the Porsche then , sir ?",
+        "emotion": "neutral",
+        "text": "Take a seat inside and see what you think . So you will take the Porsche then , sir ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , and I want to buy the insurance too . I think it's necessary .",
+        "emotion": "neutral",
+        "text": "Yes , and I want to buy the insurance too . I think it's necessary .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're smart to buy it . At 45 dollars for three days , it is a good deal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "will take the Porsche",
+            "and I want to buy the insurance too . I think it's necessary",
+            "You're smart to buy it . At 45 dollars for three days , it is a good deal ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You're smart to buy it . At 45 dollars for three days , it is a good deal .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Can I return the car in San Francisco ?",
+        "emotion": "neutral",
+        "text": "Can I return the car in San Francisco ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "San Francisco ? No , sir . We only have this office here . You will have to return it here .",
+        "emotion": "neutral",
+        "text": "San Francisco ? No , sir . We only have this office here . You will have to return it here .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? I heard in America you can return rental cars in different cities .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "No , sir . We only have this office here . You will have to return it here .",
+            "I heard in America you can return rental cars in different cities ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? I heard in America you can return rental cars in different cities .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , sir . That's only with the very big companies . I'm sorry , but this car must be returned to this lot .",
+        "emotion": "neutral",
+        "text": "No , sir . That's only with the very big companies . I'm sorry , but this car must be returned to this lot .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , I guess I will have to drive back down then . Hmm . I didn't think of that .",
+        "emotion": "neutral",
+        "text": "Well , I guess I will have to drive back down then . Hmm . I didn't think of that .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Do you still want the car , sir ?",
+        "emotion": "neutral",
+        "text": "Do you still want the car , sir ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes . It will be fun . Driving back down the coast . My girlfriend will like it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It will be fun . Driving back down the coast . My girlfriend will like it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . It will be fun . Driving back down the coast . My girlfriend will like it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's a beautiful drive .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Do you still want the car ,",
+            "Yes . It will be fun . Driving back down the coast . My girlfriend will like it .",
+            "It's a beautiful drive ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It's a beautiful drive .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Where are the keys ?",
+        "emotion": "neutral",
+        "text": "Where are the keys ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Just a moment , sir . We have to finish filling out the forms .",
+        "emotion": "neutral",
+        "text": "Just a moment , sir . We have to finish filling out the forms .",
+        "id": 13
+    }
+]

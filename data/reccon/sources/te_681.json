@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Monica , how is everything going ?",
+        "emotion": "neutral",
+        "text": "Hi , Monica , how is everything going ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Everything goes well , but I am thinking about quitting my current job .",
+        "emotion": "neutral",
+        "text": "Everything goes well , but I am thinking about quitting my current job .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ? You ' re not satisfied anymore ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I am thinking about quitting my current job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why ? You ' re not satisfied anymore ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I just sense . But I cannot grow anymore . My boss is not really supporting me . I am interested in some positions in other JV companies , but I need to do some more in-depth research before I send my application letters out .",
+        "emotion": "neutral",
+        "text": "I just sense . But I cannot grow anymore . My boss is not really supporting me . I am interested in some positions in other JV companies , but I need to do some more in-depth research before I send my application letters out .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That is important . Doing research on a company you are interested in will definitely help your application .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "That is important . Doing research on a company you are interested in will definitely help your application ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That is important . Doing research on a company you are interested in will definitely help your application .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Certainly , it is very nice talking with you . But I really have to go now . Catch you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "That is important . Doing research on a company you are interested in will definitely help your application .",
+            "it is very nice talking with you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Certainly , it is very nice talking with you . But I really have to go now . Catch you later .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Ok , good luck to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it is very nice talking with you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok , good luck to you .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

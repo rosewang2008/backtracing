@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I enjoy the folk song and dance show very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I enjoy the folk song and dance show very much ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I enjoy the folk song and dance show very much .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm glad you appreciate our folk music . But a live performance is much more interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I enjoy the folk song and dance show very much .",
+            "you appreciate our folk music ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad you appreciate our folk music . But a live performance is much more interesting .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I can't wait anymore . When does the performance start ?",
+        "emotion": "neutral",
+        "text": "I can't wait anymore . When does the performance start ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The show starts at 7 and is over at around 10 o'clock p . m .",
+        "emotion": "neutral",
+        "text": "The show starts at 7 and is over at around 10 o'clock p . m .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "( After the show ) It's an excellent musical . The acting was very expressive and the songs and dancing were superb .",
+        "emotion": "neutral",
+        "text": "( After the show ) It's an excellent musical . The acting was very expressive and the songs and dancing were superb .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm glad you enjoyed it . It's had long run , but the house has always been full .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's an excellent musical . The acting was very expressive and the songs and dancing were superb .",
+            "you enjoyed it",
+            "house has always been full ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad you enjoyed it . It's had long run , but the house has always been full .",
+        "id": 6,
+        "source_sentences": [
+            4,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What do you think of the leading actors ?",
+        "emotion": "neutral",
+        "text": "What do you think of the leading actors ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Personally I liked the main character . He was true to type .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "It's an excellent musical . The acting was very expressive and the songs and dancing were superb .",
+            "you enjoyed it",
+            "house has always been full .",
+            "I liked the main character ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Personally I liked the main character . He was true to type .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You are a better judge . I don't know the play well enough .",
+        "emotion": "neutral",
+        "text": "You are a better judge . I don't know the play well enough .",
+        "id": 9
+    }
+]

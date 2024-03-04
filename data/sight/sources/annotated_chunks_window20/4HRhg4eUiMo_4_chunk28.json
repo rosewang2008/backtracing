@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Here is the ultimate way of making this work."
+    },
+    {
+        "text": "I'm going back to my example of flipping coins."
+    },
+    {
+        "text": "And now, so here, what I did is I said, oh, this number 0.43 is actually smaller than 0.5."
+    },
+    {
+        "text": "So I'm just going to test whether I'm 0.5 or I'm less than 0.5."
+    },
+    {
+        "text": "But here is something that I can promise you I did not make the computation will reject."
+    },
+    {
+        "text": "OK, so here, this one actually, yeah, this one fails to reject, right?"
+    },
+    {
+        "text": "So here is one that will certainly reject."
+    },
+    {
+        "text": "H0 is 0.5. p is 0.5."
+    },
+    {
+        "text": "H1, p is 0.43."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, you can try."
+    },
+    {
+        "text": "But I can promise you that your data will tell you that H1 is the right one."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "I mean, you can check very quickly that this is really extremely likely to happen, right?"
+    },
+    {
+        "text": "And so actually, what am I?"
+    },
+    {
+        "text": "No, actually, that's not true."
+    },
+    {
+        "text": "OK. Because here, the test that I derive that's based on this kind of stuff, right?"
+    },
+    {
+        "text": "Here, at some point, somewhere, under some layers, I assume that all our tests are going to have this form."
+    },
+    {
+        "text": "But here, this is only when you're trying to test one region versus another region next to it, or one point versus a region around it, or something like this."
+    },
+    {
+        "text": "Whereas for this guy, there's another test I could come up with, which is, what is the probability that I get 0.43?"
+    }
+]

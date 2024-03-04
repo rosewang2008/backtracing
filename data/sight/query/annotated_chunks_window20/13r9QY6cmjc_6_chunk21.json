@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 6,
+        "timestamp": 1684723821969.0,
+        "annotatedSourceSentencesIndices": [
+            9,
+            13
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Excuse me, why doesn't the calculation of F_100 at \"46:08\"  time the eigenvector X_1? Am i missing something?"
+    }
+]

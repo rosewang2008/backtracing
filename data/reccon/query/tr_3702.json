@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I think you look fantastic . Happy Birthday !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "this is perfect !",
+            "you look fantastic"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think you look fantastic . Happy Birthday !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

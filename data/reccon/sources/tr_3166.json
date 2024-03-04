@@ -1,0 +1,197 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I can't wait to go skiing tomorrow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I can't wait to go skiing tomorrow ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I can't wait to go skiing tomorrow .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I know . It's going to be so much fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's going to be so much fun .",
+            "I know . It's going to be so much fun ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know . It's going to be so much fun .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I always get excited the day before .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I can't wait to go skiing tomorrow ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I always get excited the day before .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I used to be like that . But I go skiing so often that I don't get excited anymore .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's going to be so much fun .",
+            "I know . It's going to be so much fun ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I used to be like that . But I go skiing so often that I don't get excited anymore .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I only go skiing twice a year , so it's a real treat for me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I can't wait to go skiing tomorrow .",
+            "it's a real treat for me ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I only go skiing twice a year , so it's a real treat for me .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That makes sense .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's going to be so much fun .",
+            "I know . It's going to be so much fun ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That makes sense .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What things make you excited ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I can't wait to go skiing tomorrow ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "What things make you excited ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Whenever I go to Vegas , I get really excited .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Whenever I go to Vegas , I get really excited ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Whenever I go to Vegas , I get really excited .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh ... that makes me excited too !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Whenever I go to Vegas , I get really excited .",
+            "Whenever I go to Vegas , I get really excited ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh ... that makes me excited too !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Looks like anything fun makes you excited .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I always get excited the day before .",
+            "that makes me excited too !",
+            "Looks like anything fun makes you excited ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Looks like anything fun makes you excited .",
+        "id": 10,
+        "source_sentences": [
+            2,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

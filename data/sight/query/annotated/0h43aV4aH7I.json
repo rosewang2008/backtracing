@@ -1,0 +1,105 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 0,
+        "timestamp": 1684520869368.0,
+        "annotatedSourceSentencesIndices": [
+            370
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Isnt there a mistake @ 46:24 ? Shouldn\u2019t the position 8,1 of matrix A contain a8,1 and not a1,8? Same for position 8,2, shouldn\u2019t it contain a8,2 instead of a2,8? And same for position 1,2? Great lecture thanks!"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 1,
+        "timestamp": 1684700727042.0,
+        "annotatedSourceSentencesIndices": [
+            81
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How the imaginary parts are taken care of in Fourier Basis for JPEG?"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 2,
+        "timestamp": 1684700837277.0,
+        "annotatedSourceSentencesIndices": [
+            27,
+            28
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I'm fairly certain x includes 255 in the domain. [4:15]\nCan anyone confirm or clarify? \n(should be x is less than or equal to 255, rather than strictly less than)"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 3,
+        "timestamp": 1684700983228.0,
+        "annotatedSourceSentencesIndices": [
+            365,
+            366
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Excuse me, does it mean that the basis of the input space and that of the output space is the same {v1, v2, ..., v8} at 45:25?\nThen, if this is true, when does change of basis happen?\nI get confused here, please help me, thanks a lot!"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 4,
+        "timestamp": 1684701306384.0,
+        "annotatedSourceSentencesIndices": [
+            345,
+            357,
+            358,
+            365,
+            366
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Got extremely confused when he brought transformations in at the end. Why did the original basis vector \"x\" change to \"v\", then why does he compute a T(x) from \"knowing\" T(v1), ... T(v8) BEFORE writing what the actual values of T(v1) .. T(v8) are, and what is this T(x) even used for? and then where does the \"a\" come from?"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 5,
+        "timestamp": 1684701331681.0,
+        "annotatedSourceSentencesIndices": [
+            27,
+            28
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "4:17,   x[i] <256 , right?"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 6,
+        "timestamp": 1684701411849.0,
+        "annotatedSourceSentencesIndices": [
+            291
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Is it just me? Is that a mistake? He writes x=Wc at 37:11, where x represents vector in the old basis, and c the vector in the new basis, and W the columns of new basis vectors. Should it be c=Wx instead?"
+    },
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 7,
+        "timestamp": 1684701455485.0,
+        "annotatedSourceSentencesIndices": [
+            121
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "He never taught the compression step right? ie., c -> c(hat)"
+    }
+]

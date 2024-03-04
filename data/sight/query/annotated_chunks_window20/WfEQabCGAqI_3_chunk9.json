@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 3,
+        "timestamp": 1684511496045.0,
+        "annotatedSourceSentencesIndices": [
+            16,
+            17
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Do maths/science/engineering students take this class or some other multivariable calculus course like 18.024?"
+    }
+]

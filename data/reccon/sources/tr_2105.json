@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you doing , Andrew ?",
+        "emotion": "neutral",
+        "text": "How are you doing , Andrew ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Not well . I ' Ve been feeling pretty lonely lately .",
+        "emotion": "neutral",
+        "text": "Not well . I ' Ve been feeling pretty lonely lately .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "But you have so many friends ! How could you be lonely ?",
+        "emotion": "neutral",
+        "text": "But you have so many friends ! How could you be lonely ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You know what they say'a friend to all is a friend to none ' . I don ' t feel like I really know any of my friends . In fact , I should probably call them acquaintances , not friends .",
+        "emotion": "neutral",
+        "text": "You know what they say'a friend to all is a friend to none ' . I don ' t feel like I really know any of my friends . In fact , I should probably call them acquaintances , not friends .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What about me ? I ' m your friend .",
+        "emotion": "neutral",
+        "text": "What about me ? I ' m your friend .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I know you are , you are my girlfriend . I wish I had a guy friend to hang out with sometimes .",
+        "emotion": "neutral",
+        "text": "I know you are , you are my girlfriend . I wish I had a guy friend to hang out with sometimes .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I know what you mean . I find it difficult to make new friends , too . It ' s not as easy as it was when we were young , is it ?",
+        "emotion": "neutral",
+        "text": "I know what you mean . I find it difficult to make new friends , too . It ' s not as easy as it was when we were young , is it ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Not at all .",
+        "emotion": "neutral",
+        "text": "Not at all .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I ' Ve made a lot of new friends since I started learning English . Maybe you could join a club or take a class to make some new friends .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve made a lot of new friends since I started learning English ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' Ve made a lot of new friends since I started learning English . Maybe you could join a club or take a class to make some new friends .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That ' s a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Maybe you could join a club or take a class to make some new friends ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s a good idea .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What kind of qualities do you look for in a friend ?",
+        "emotion": "neutral",
+        "text": "What kind of qualities do you look for in a friend ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I ' m not sure . I guess I ' d like to meet some people who have a positive attitude and want to have a good time .",
+        "emotion": "neutral",
+        "text": "I ' m not sure . I guess I ' d like to meet some people who have a positive attitude and want to have a good time .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "People who play ultimate Frisbee have a positive attitude ; maybe you should join the ultimate Frisbee club .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "People who play ultimate Frisbee have a positive attitude ; maybe you should join the ultimate Frisbee club ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "People who play ultimate Frisbee have a positive attitude ; maybe you should join the ultimate Frisbee club .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That ' s a possibility . Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "People who play ultimate Frisbee have a positive attitude ; maybe you should join the ultimate Frisbee club ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s a possibility . Thanks !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

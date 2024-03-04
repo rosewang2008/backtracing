@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so for example, for Bernoulli trials, I'm going to observe a sequence of 0's and 1's."
+    },
+    {
+        "text": "So my experiment is going to be, as written on the board, is going to be 1, 0, 1, and then the probability distributions are going to be, well, it's just going to be the Bernoulli distributions indexed by p. So rather than writing p sub p, I'm going to write it as Bernoulli p, because it's clear what I mean when I write that."
+    },
+    {
+        "text": "Is everybody happy?"
+    },
+    {
+        "text": "Actually, I need to tell you something more."
+    },
+    {
+        "text": "This is a family of distributions, so I need p. And maybe I don't want to have p that takes value 0 or 1."
+    },
+    {
+        "text": "I mean, it doesn't make sense."
+    },
+    {
+        "text": "I would probably not look at this problem if I anticipated that everybody would kiss to the right and everybody would kiss to the left."
+    },
+    {
+        "text": "So I'm going to assume that p is in 0, 1, but does not have 0 and 1."
+    },
+    {
+        "text": "So that's a statistical model for Bernoulli trials."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, now the next one, what do we have?"
+    },
+    {
+        "text": "Exponential."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so when I have exponential distributions, what is the support of the exponential distribution?"
+    },
+    {
+        "text": "What value is it going to take?"
+    },
+    {
+        "text": "0 to infinity, right?"
+    },
+    {
+        "text": "So what I have is that my first space is the value that my random variables can take."
+    },
+    {
+        "text": "So it's, well, actually, I can remove the 0 again."
+    },
+    {
+        "text": "0 to plus infinity."
+    },
+    {
+        "text": "And then the family of distributions that I have are exponential with parameter lambda."
+    }
+]

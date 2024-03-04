@@ -1,0 +1,17 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 17,
+        "timestamp": 1684719965960.0,
+        "annotatedSourceSentencesIndices": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone please explain how did he get 100^2 and not 100 x 2 (multiply+substract) operations at 33:22?"
+    }
+]

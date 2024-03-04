@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's the problem , Nada ? You look down in the dumps .",
+        "emotion": "neutral",
+        "text": "What's the problem , Nada ? You look down in the dumps .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I don't know . My life is a big mess . Everything is so complicated .",
+        "emotion": "neutral",
+        "text": "I don't know . My life is a big mess . Everything is so complicated .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Come on , nothing can be that bad .",
+        "emotion": "neutral",
+        "text": "Come on , nothing can be that bad .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "But promise me , you'll keep it a secret .",
+        "emotion": "neutral",
+        "text": "But promise me , you'll keep it a secret .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ok , I promise . So what's troubling you so much ?",
+        "emotion": "neutral",
+        "text": "Ok , I promise . So what's troubling you so much ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I've fallen in love with my boss .",
+        "emotion": "neutral",
+        "text": "I've fallen in love with my boss .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? Is he married ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've fallen in love with my boss ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Is he married ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Bo , of course not . He is still single .",
+        "emotion": "neutral",
+        "text": "Bo , of course not . He is still single .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Then what's your problem ?",
+        "emotion": "neutral",
+        "text": "Then what's your problem ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I try to keep it to myself . But there is a lot of gossip about us .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I try to keep it to myself . But there is a lot of gossip about us ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I try to keep it to myself . But there is a lot of gossip about us .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , I see . Office romance tends to be the subject of gossip .",
+        "emotion": "neutral",
+        "text": "Oh , I see . Office romance tends to be the subject of gossip .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Worse still , he is trying to avoid me these days .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I try to keep it to myself . But there is a lot of gossip about us .",
+            "he is trying to avoid me these days ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Worse still , he is trying to avoid me these days .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Office romance is very tricky .",
+        "emotion": "neutral",
+        "text": "Office romance is very tricky .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It gives me a lot of pressure and I feel depressed .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10,
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I try to keep it to myself . But there is a lot of gossip about us .",
+            "he is trying to avoid me these days .",
+            "It gives me a lot of pressure"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It gives me a lot of pressure and I feel depressed .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Cheer up , Nada . You'll be fine .",
+        "emotion": "neutral",
+        "text": "Cheer up , Nada . You'll be fine .",
+        "id": 15
+    }
+]

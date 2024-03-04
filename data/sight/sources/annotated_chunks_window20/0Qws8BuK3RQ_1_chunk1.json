@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So D is a 3 by 3 matrix with these distances squared."
+    },
+    {
+        "text": "And it was convenient to use distances squared, because that's what comes into the next steps."
+    },
+    {
+        "text": "So of course, the distance from each x to itself is 0."
+    },
+    {
+        "text": "The distance from x distance squared was that."
+    },
+    {
+        "text": "This one was that, but this one is 6."
+    },
+    {
+        "text": "So that's the distance matrix."
+    },
+    {
+        "text": "And we would like to find, the job was to find, and I'm just going to write down, we cannot find x1, x2, and x3 to match those distances."
+    },
+    {
+        "text": "So what goes wrong?"
+    },
+    {
+        "text": "Well, there's only one thing that could go wrong."
+    },
+    {
+        "text": "When you connect this distance matrix D to the matrix x transpose x, you remember the position matrix, maybe I called it G. This is giving, so Gij is the dot product of xi with xj."
+    },
+    {
+        "text": "Oops, let's make that into a j."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "So Gij is the matrix of dot products."
+    },
+    {
+        "text": "And the great thing was that we can discover what that matrix, that matrix G comes directly from D, comes directly from D. And of course, what do we know about this matrix of cross products?"
+    },
+    {
+        "text": "We know that it is positive semidefinite."
+    },
+    {
+        "text": "So what goes wrong?"
+    },
+    {
+        "text": "Well, just in a word, when we write out that equation and discover what G is, if the triangle inequality fails, we learn that G doesn't come out positive definite."
+    },
+    {
+        "text": "That's really all I want to say."
+    },
+    {
+        "text": "And I could push through the example."
+    },
+    {
+        "text": "G will not come out positive definite if D, if that's D, because it can't."
+    }
+]

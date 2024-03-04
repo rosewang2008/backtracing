@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Physically, see, this guy on the left is the total amount of stuff that goes out of the region per unit time."
+    },
+    {
+        "text": "So, I want to figure out how much stuff comes out of there."
+    },
+    {
+        "text": "What does the divergence mean?"
+    },
+    {
+        "text": "The divergence means, well, it measures how much the flow is expanding things."
+    },
+    {
+        "text": "It measures how much, I say probably when we understood 2D divergence, it measures the amount of sources or sinks that you have inside your fluid."
+    },
+    {
+        "text": "So, now it becomes common sense."
+    },
+    {
+        "text": "If you take a region of space, the total amount of water that flows out of it is the total amount of sources that you have in there minus the sinks."
+    },
+    {
+        "text": "In spite of this common sense explanation, we are going to see actually how to prove this, and we'll see how it works and the hypothesis."
+    }
+]

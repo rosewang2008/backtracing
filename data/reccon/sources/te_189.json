@@ -1,0 +1,220 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , ma ' am , can I help you find something ?",
+        "emotion": "neutral",
+        "text": "Hello , ma ' am , can I help you find something ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , actually I ' m looking to buy a camera .",
+        "emotion": "neutral",
+        "text": "Yes , actually I ' m looking to buy a camera .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We ' Ve got a wide selection do you know if you ' d like a point-and-shoot , or something a little fancier ? Are you shopping for yourself or for someone else ?",
+        "emotion": "neutral",
+        "text": "We ' Ve got a wide selection do you know if you ' d like a point-and-shoot , or something a little fancier ? Are you shopping for yourself or for someone else ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Actually I ' m buying a camera for my husband .",
+        "emotion": "neutral",
+        "text": "Actually I ' m buying a camera for my husband .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ah , well then I ' d recommend a nice entry-level digital SLR .",
+        "emotion": "neutral",
+        "text": "Ah , well then I ' d recommend a nice entry-level digital SLR .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah ? Can I take a look at the Sirs you carry ?",
+        "emotion": "neutral",
+        "text": "Yeah ? Can I take a look at the Sirs you carry ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure thing , follow me . This here is the .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can I take a look at the Sirs you carry ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure thing , follow me . This here is the .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The Canon Eos . Yeah it ' s ok , but I ' m looking for something that performs better in low light , has a better display panel , and longer battery life .",
+        "emotion": "neutral",
+        "text": "The Canon Eos . Yeah it ' s ok , but I ' m looking for something that performs better in low light , has a better display panel , and longer battery life .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , ah , um the Nikon D60 is a nice option .",
+        "emotion": "neutral",
+        "text": "Oh , ah , um the Nikon D60 is a nice option .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , but what kit lens does this camera come with ? I don ' t want some bulky telephoto lens .",
+        "emotion": "neutral",
+        "text": "Yeah , but what kit lens does this camera come with ? I don ' t want some bulky telephoto lens .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , well this one has the , uh .",
+        "emotion": "neutral",
+        "text": "Oh , well this one has the , uh .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Looks to me like an 18-55 mm lens . pretty standard , that will do . Not like my husband will be stalking celebrities or anything !",
+        "emotion": "neutral",
+        "text": "Looks to me like an 18-55 mm lens . pretty standard , that will do . Not like my husband will be stalking celebrities or anything !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "So , ahem , can I interest you in any acc ...",
+        "emotion": "neutral",
+        "text": "So , ahem , can I interest you in any acc ...",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Accessories ? Do you carry polarizing filters ?",
+        "emotion": "neutral",
+        "text": "Accessories ? Do you carry polarizing filters ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Polarizing filter um we should ! I ' m sorry , ma ' am . It looks like we ' re sold out .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "we ' re sold out ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Polarizing filter um we should ! I ' m sorry , ma ' am . It looks like we ' re sold out .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No you ' re not ! There are some right here !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "There are some right here !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No you ' re not ! There are some right here !",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Oh , well , would you look at that ! Polarizing filters .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "There are some right here !",
+            "would you look at that !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , well , would you look at that ! Polarizing filters .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Thanks for your help , Ralph !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "There are some right here !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Thanks for your help , Ralph !",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "No problem , ma ' am .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "There are some right here !",
+            "would you look at that !",
+            "Thanks for your help"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No problem , ma ' am .",
+        "id": 19
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "she sued her former boss for sexual harassment .",
+            "he was her lover and he wanted to leave her , so she got revenge . I heard him say she was a dangerous woman ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

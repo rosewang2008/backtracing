@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And h represents the prey density at which the capture rate is."
+    },
+    {
+        "text": "So that's the half time."
+    },
+    {
+        "text": "So there's actual values for this."
+    },
+    {
+        "text": "So now I have this function."
+    },
+    {
+        "text": "It's certainly not a function."
+    },
+    {
+        "text": "I don't see it as a function of x."
+    },
+    {
+        "text": "So I need to find something that looks like a function of x. OK?"
+    },
+    {
+        "text": "So now here, there's no log."
+    },
+    {
+        "text": "There's no, well, I could actually take a log here."
+    },
+    {
+        "text": "But I would have log of x and log of x plus h. So that would be weird."
+    },
+    {
+        "text": "So what we propose to do here is to look, rather than looking at mu i, we look at 1 over mu i."
+    },
+    {
+        "text": "And so since your function was mu i, when you take 1 over mu i, you get h plus xi divided by alpha xi, which is h over alpha times 1 over xi plus 1 over alpha."
+    },
+    {
+        "text": "And now if I am willing to make this transformation of variables and say, actually, my x, whether it's the density of prey or the inverse density of prey, it really doesn't matter."
+    },
+    {
+        "text": "I can always make the transformation when the data comes."
+    },
+    {
+        "text": "Then I'm actually just going to think of this as being some linear function, beta 0 plus beta 1, which is this guy, times 1 over xi."
+    },
+    {
+        "text": "And now my new variable becomes 1 over xi."
+    },
+    {
+        "text": "And now it's linear."
+    },
+    {
+        "text": "And the transformation I had to take was this 1 over x, which is called the reciprocal link."
+    },
+    {
+        "text": "You can probably guess what the exponential link is going to be and things like this."
+    },
+    {
+        "text": "So we'll talk about other links that have slightly less obvious names."
+    }
+]

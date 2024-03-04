@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, let's say I want to find the flux of the vector field z times k. So, it's a vertical vector point of the paraboloid z equals x squared plus y squared that lives above the unit disk."
+    },
+    {
+        "text": "OK, so what does that mean?"
+    },
+    {
+        "text": "z equals x squared plus y squared, well, we've seen it many times."
+    },
+    {
+        "text": "OK, it's this paraboloid above the unit disk means I only care about, I don't care about this infinite surface."
+    },
+    {
+        "text": "I will actually stop when I hit a radius of one away from the z axis."
+    },
+    {
+        "text": "And, so now I have my vector field, which is going to point overall up because, in fact, I'm at z times k. So, the more z is positive, the more your vector field goes up."
+    },
+    {
+        "text": "Of course, if z were negative, then it would point down, but we live above."
+    },
+    {
+        "text": "So, actually, a quick opinion poll."
+    },
+    {
+        "text": "What do you think the flux should be?"
+    },
+    {
+        "text": "Should it be positive, zero, negative?"
+    },
+    {
+        "text": "We don't know."
+    },
+    {
+        "text": "OK, so I see some I don't know."
+    },
+    {
+        "text": "I see some negative, and I see some positive."
+    },
+    {
+        "text": "So, of course, I didn't tell you which way I'm orienting my paraboloid."
+    },
+    {
+        "text": "So, so far, both answers are correct."
+    },
+    {
+        "text": "The only one that's probably not correct is zero because no matter which way you choose to orient it, you should get something."
+    },
+    {
+        "text": "It's not looking like it will be zero."
+    },
+    {
+        "text": "So, let's say that I'm going to do it with a normal pointing upwards."
+    },
+    {
+        "text": "Second chance."
+    },
+    {
+        "text": "OK, I see some people changing back and forth between one and two."
+    }
+]

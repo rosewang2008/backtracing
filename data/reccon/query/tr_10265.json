@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thanks . You ' d be ok on your own . There are loads of fashion victims out there , and you are not one of them . Have you tried it on yet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You have a lot of good fashion sense ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . You ' d be ok on your own . There are loads of fashion victims out there , and you are not one of them . Have you tried it on yet ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

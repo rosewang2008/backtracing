@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Chapter is a natural capstone chapter for this entire course."
+    },
+    {
+        "text": "We'll see some of the things we've seen during maximum likelihood and some of the things we've seen during linear regression, some of the things we've seen in terms of the basic modeling that we've had before."
+    },
+    {
+        "text": "We're not going to go back to much inference questions."
+    },
+    {
+        "text": "It's really going to be about modeling."
+    },
+    {
+        "text": "And in a way, generalized linear models, as the word says, are just a generalization of linear models."
+    },
+    {
+        "text": "And they're actually extremely useful."
+    },
+    {
+        "text": "They're often forgotten about, and people just jump onto machine learning and sophisticated techniques."
+    },
+    {
+        "text": "But those things do the job quite well."
+    },
+    {
+        "text": "So let's see in what sense they are a generalization of the linear model."
+    },
+    {
+        "text": "So remember, the linear model looked like this."
+    },
+    {
+        "text": "We said that y was equal to x transpose beta plus epsilon."
+    },
+    {
+        "text": "That was our linear regression model."
+    },
+    {
+        "text": "And another way to say this is that if I, let's assume that those were, say, Gaussian with mean 0 and identity covariance matrix, then another way to say this is that the conditional distribution of y given x is a Gaussian with mean x transpose beta and variance, well, we had a sigma square, which I will forget as usual, x transpose beta and then sigma square."
+    },
+    {
+        "text": "So here, we just assumed that, so what is regression?"
+    },
+    {
+        "text": "It's just saying I'm trying to explain y as a function of x given x. I'm assuming a distribution for the y."
+    },
+    {
+        "text": "And this x is just going to be here to help me model what the mean of this Gaussian is."
+    },
+    {
+        "text": "I mean, I could have something crazy."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So now let's look at, lastly, there is another method that can come in, which is combining closure properties with the pumping lemma."
+    },
+    {
+        "text": "So closure properties sometimes help you."
+    },
+    {
+        "text": "So let's look at the language B, which is actually we saw earlier in the lecture, where we have an equal number of 0's and 1's."
+    },
+    {
+        "text": "Now, we could prove that directly using the pumping lemma as not being regular."
+    },
+    {
+        "text": "But it's actually even easier."
+    },
+    {
+        "text": "What we're going to prove that it is, we're going to prove that it's not regular in a different way."
+    },
+    {
+        "text": "First, we're going to assume for contradiction, as we often do, that it is regular."
+    },
+    {
+        "text": "And now we're going to use something, we're going to use some other knowledge."
+    },
+    {
+        "text": "We're not going to use the pumping lemma here because we're going to take advantage of an earlier case where we use the pumping lemma."
+    },
+    {
+        "text": "And so now we know that the string, the language 0 star 1 star is a regular language because it's described by a regular expression."
+    },
+    {
+        "text": "If you take the B, which is the equal numbers of 0's and 1's, and you intersect it with 0 star 1 star, that's going to be a regular language if B was regular using closure under intersection."
+    },
+    {
+        "text": "But this language B intersects 0 star 1 star is the language of equal numbers of 0's and 1's where the 0's come first."
+    },
+    {
+        "text": "And that's the language D that we showed two slides back that we already know can't be regular."
+    },
+    {
+        "text": "So that intersection cannot be regular, and so it violates the closure property."
+    },
+    {
+        "text": "And again, we get a contradiction."
+    },
+    {
+        "text": "So that's a different way of sometimes making a shortcut to prove a language is not regular."
+    },
+    {
+        "text": "So we have in our last 10 minutes or so, we're going to shift gears totally in an entirely different way and consider a new model of computation, which is more powerful, that can actually do things that we can't do with finite automata."
+    },
+    {
+        "text": "And these are called context-free grammars."
+    },
+    {
+        "text": "So this is really just a kind of an introduction."
+    }
+]

@@ -1,0 +1,699 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Oh, my God, look at that. Huh-oh, how many carats is that?",
+        "emotion": "excited",
+        "explanation": "Seeing a diamond ring",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "how many carats is that?"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Oh, my God, look at that. Huh-oh, how many carats is that?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "I know. [LAUGHTER]. Dude, I don't know. It's- Probably. It's huge. I don't even know how to like wear it. My hand is like going down like really low. I can't believe it.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's huge.",
+            "My hand is like going down like really low. I can't believe it."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know. [LAUGHTER]. Dude, I don't know. It's- Probably. It's huge. I don't even know how to like wear it. My hand is like going down like really low. I can't believe it.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "Like eighteen? [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My hand is like going down like really low. I can't believe it."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Like eighteen? [LAUGHTER]",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh, Jesus.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My hand is like going down like really low. I can't believe it."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh, Jesus.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Is it-",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My hand is like going down like really low. I can't believe it."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is it-",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "yeah [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My hand is like going down like really low. I can't believe it."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "yeah [LAUGHTER]",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Yeah, The Lousy Chaperone. [LAUGHTER] Uh huh.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "My hand is like going down like really low. I can't believe it.",
+            "The Lousy Chaperone"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah, The Lousy Chaperone. [LAUGHTER] Uh huh.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Right. Right. Right. So, and there's like a whole like wedding scene in it. All right, not the--Drowsy, Drowsy [LAUGHTER] --not the Lousy. [LAUGHTER]. Um - So Drowsy. So I go to see this Drowsy Chaperone. And uh-",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Yeah, The Lousy Chaperone. [LAUGHTER] Uh huh.",
+            "here's like a whole like wedding scene in it",
+            "So Drowsy. So I go to see this Drowsy Chaperone"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Right. Right. Right. So, and there's like a whole like wedding scene in it. All right, not the--Drowsy, Drowsy [LAUGHTER] --not the Lousy. [LAUGHTER]. Um - So Drowsy. So I go to see this Drowsy Chaperone. And uh-",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "[LAUGHTER] Uh- Drowsy.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "So Drowsy. So I go to see this Drowsy Chaperone"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER] Uh- Drowsy.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "at the end of the performance, you know, like we're all clapping and stuff. And all of a sudden I look over and",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "at the end of the performance, you know, like we're all clapping and stuff. And all of a sudden I look over and",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Joe's gone. -where did he go, you know?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Joe's gone. -where did he go, you know?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Uh huh. Oh-",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Uh huh. Oh-",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "And I'm like oh, he went to the- -the bathroom, but he didn't tell me, I didn't even notice him leaving. And all of a sudden, I swear to God, I'm sitting there and-",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "And I'm like oh, he went to the- -the bathroom, but he didn't tell me, I didn't even notice him leaving. And all of a sudden, I swear to God, I'm sitting there and-",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "he comes up onstage-- And the entire cast everyone just like",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone",
+            "he comes up onstage"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "he comes up onstage-- And the entire cast everyone just like",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "goes up there and everyone's clapping and he's standing there and they put a spotlight on him.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone",
+            "he comes up onstage",
+            "goes up there and everyone's clapping and he's standing there and they put a spotlight on him."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "goes up there and everyone's clapping and he's standing there and they put a spotlight on him.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Oh, my God.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "goes up there and everyone's clapping and he's standing there and they put a spotlight on him."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh, my God.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "And I'm like freaking out. I'm like what the hell's going on, you know. I don't know what's going on. And so he's like standing there and then all of a sudden they give him a microphone-",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11,
+            14,
+            15,
+            17
+        ],
+        "expanded emotion cause span": [
+            "Joe's gone",
+            "he comes up onstage",
+            "goes up there and everyone's clapping and he's standing there and they put a spotlight on him.",
+            "so he's like standing there and then all of a sudden they give him a microphone-"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "And I'm like freaking out. I'm like what the hell's going on, you know. I don't know what's going on. And so he's like standing there and then all of a sudden they give him a microphone-",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "and he just starts doing like this little spiel about me and like",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "and he just starts doing like this little spiel about me and like"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "and he just starts doing like this little spiel about me and like",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "he asked me to marry him, like- onstage. I was like, I couldn't believe--and I had to walk up there and I was, like I think I tripped or something.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "he asked me to marry him, like- onstage. I was like, I couldn't believe"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "he asked me to marry him, like- onstage. I was like, I couldn't believe--and I had to walk up there and I was, like I think I tripped or something.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "A",
+        "utterance": "Yeah, I said yes, but I, yeah, I mean,",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "he asked me to marry him, like- onstage. I was like, I couldn't believe",
+            "I said yes"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yeah, I said yes, but I, yeah, I mean,",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "I don't know- it just like took me, took me by surprise.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            19,
+            21
+        ],
+        "expanded emotion cause span": [
+            "he asked me to marry him, like- onstage. I was like, I couldn't believe",
+            "it just like took me, took me by surprise"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't know- it just like took me, took me by surprise.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "He scored points.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "he asked me to marry him, like- onstage. I was like, I couldn't believe",
+            "I said yes"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "He scored points.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "B",
+        "utterance": "Did you get a standing ovation?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "he asked me to marry him, like- onstage. I was like, I couldn't believe--and I had to walk up there and I was, like I think I tripped or something.",
+            "Yeah, I said yes, but I, yeah, I mean,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Did you get a standing ovation?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            24
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "Yeah. It was great.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yeah. It was great.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "It was--I cried,",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It was--I cried,",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "No, you deserve to cry. I mean, tears of happiness.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            24,
+            25,
+            24
+        ],
+        "expanded emotion cause span": [
+            "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "Yeah. It was great.",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No, you deserve to cry. I mean, tears of happiness.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "like a loser, I cried.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "like a loser, I cried.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "A",
+        "utterance": "But, I don't know, I--it's so weird to think I'm marrying somebody 'cause I feel so young, you know?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "But, I don't know, I--it's so weird to think I'm marrying somebody 'cause I feel so young, you know?",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "So where- where- where is this--have you talked about where it's going to be?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            24,
+            25,
+            24
+        ],
+        "expanded emotion cause span": [
+            "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "Yeah. It was great.",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So where- where- where is this--have you talked about where it's going to be?",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "No. No plans. or any- and probably",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No. No plans. or any- and probably",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "A",
+        "utterance": "like I think I want to get married--I want to have two weddings. One here, then one in Europe.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25,
+            32
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great.",
+            "like I think I want to get married--I want to have two weddings. One here, then one in Europe."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "like I think I want to get married--I want to have two weddings. One here, then one in Europe.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "He's rich enough. Maybe you can rent out the Eiffel Tower for your--",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            24,
+            25,
+            24,
+            32
+        ],
+        "expanded emotion cause span": [
+            "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "Yeah. It was great.",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "like I think I want to get married--I want to have two weddings. One here, then one in Europe."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "He's rich enough. Maybe you can rent out the Eiffel Tower for your--",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "That's awesome. [LAUGHTER] Marriage.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            24,
+            25,
+            24,
+            32
+        ],
+        "expanded emotion cause span": [
+            "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "Yeah. It was great.",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "like I think I want to get married--I want to have two weddings. One here, then one in Europe."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's awesome. [LAUGHTER] Marriage.",
+        "id": 34,
+        "source_sentences": [
+            23,
+            24,
+            23,
+            31
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 35,
+        "speaker": "A",
+        "utterance": "Yeah. I'm so excited. [LAUGHTER].",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "standing ovation",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "It was great."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah. I'm so excited. [LAUGHTER].",
+        "id": 35
+    }
+]

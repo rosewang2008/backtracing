@@ -1,0 +1,353 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you want to go out for dinner tonight ?",
+        "emotion": "happiness",
+        "explanation": "A might be generally happy out of courtesy or genuinely happy about dinner. The actual cause is latent.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you want to go out for dinner tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . Have you got anywhere in mind ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Have you got anywhere in mind ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm starving , so maybe we could go somewhere with large portions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "I'm starving , so maybe we could go somewhere with large portions .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That Italian restaurant in the city centre always has large portions . Do you want to go there ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That Italian restaurant in the city centre always has large portions . Do you want to go there ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm not really in the mood for Italian , actually . I was thinking of something a bit spicy .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "I'm not really in the mood for Italian , actually . I was thinking of something a bit spicy .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "If you want spicy food , then I'd recommend going to a Thai , Indian or Chinese restaurant . How about that Chinese buffet on Cowley Road ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "If you want spicy food , then I'd recommend going to a Thai , Indian or Chinese restaurant . How about that Chinese buffet on Cowley Road ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really like that restaurant ; you get a lot for your money there . But , they've westernized their food , so it's not actually that spicy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions .",
+            "I really like that restaurant ; you get a lot for your money there ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I really like that restaurant ; you get a lot for your money there . But , they've westernized their food , so it's not actually that spicy .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You're right . Most of their dishes have sweet sauces . We could try that Indian restaurant just down the road from us .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're right . Most of their dishes have sweet sauces . We could try that Indian restaurant just down the road from us .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "The Taj ? They're a bit expensive , but they do serve large portions of very hot food .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions .",
+            "they do serve large portions of very hot food ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "The Taj ? They're a bit expensive , but they do serve large portions of very hot food .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The Taj it is then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?",
+            "they do serve large portions of very hot food ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The Taj it is then .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Shall we bring our own bottle of wine to save some money ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions .",
+            "they do serve large portions of very hot food ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Shall we bring our own bottle of wine to save some money ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "They'll still charge us a corkage fee .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?",
+            "they do serve large portions of very hot food ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "They'll still charge us a corkage fee .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That's right . It'll probably work out to be about the same then anyway .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions .",
+            "they do serve large portions of very hot food ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "That's right . It'll probably work out to be about the same then anyway .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Don't worry about money . I'll treat you tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            9,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?",
+            "they do serve large portions of very hot food .",
+            "I'll treat you"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Don't worry about money . I'll treat you tonight .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Are you sure ? We could go Dutch .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'll treat you tonight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you sure ? We could go Dutch .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No , I'll pay . It's my turn anyway . You paid last time .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            9,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go out for dinner tonight ?",
+            "they do serve large portions of very hot food .",
+            "I'll treat you"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , I'll pay . It's my turn anyway . You paid last time .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I won't argue with that ! Let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            9,
+            14
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go somewhere with large portions .",
+            "they do serve large portions of very hot food .",
+            "Don't worry about money . I'll treat you tonight ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "I won't argue with that ! Let's go !",
+        "id": 17
+    }
+]

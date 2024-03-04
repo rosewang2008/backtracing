@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the task that we have now is to figure out how to do it analytically."
+    },
+    {
+        "text": "To do it in a way that a machine could do just as well as I did."
+    },
+    {
+        "text": "In drawing this tangent line."
+    },
+    {
+        "text": "So what did we learn in high school about what a tangent line is?"
+    },
+    {
+        "text": "Well, a tangent line has an equation."
+    },
+    {
+        "text": "And any line through a point has the equation y minus y0 is equal to m, the slope, times x minus x0."
+    },
+    {
+        "text": "So here's the equation for that line."
+    },
+    {
+        "text": "And now there are two pieces of information that we're going to need to work out what the line is."
+    },
+    {
+        "text": "The first one is the point."
+    },
+    {
+        "text": "That's that point P there."
+    },
+    {
+        "text": "And to specify P, given x, we need to know the level of y, which is of course just f of x0."
+    },
+    {
+        "text": "Now, that's not a calculus problem, but anyway that's a very important part of the process."
+    },
+    {
+        "text": "So that's the first thing we need to know."
+    },
+    {
+        "text": "And the second thing we need to know is the slope."
+    },
+    {
+        "text": "And that's this number m. And in calculus, we have another name for it."
+    },
+    {
+        "text": "We call it f' of x0."
+    },
+    {
+        "text": "Namely, the derivative of f. So that's the calculus part."
+    },
+    {
+        "text": "That's the tricky part."
+    },
+    {
+        "text": "And that's the part that we have to discuss now."
+    },
+    {
+        "text": "So just to make that explicit here, I'm going to make a definition."
+    }
+]

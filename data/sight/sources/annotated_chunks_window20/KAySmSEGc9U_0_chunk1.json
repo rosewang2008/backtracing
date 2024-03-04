@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And they're therefore equivalent with respect to the kinds of things they can do in language recognition or generation."
+    },
+    {
+        "text": "Then we're going to prove that we're going to look at how you prove certain languages are not regular."
+    },
+    {
+        "text": "They're beyond the capabilities of finite automata."
+    },
+    {
+        "text": "And finally, at the end, we're going to introduce a new model of computation, which is more powerful than the finite automata and regular expressions, namely the context-free grammars."
+    },
+    {
+        "text": "Those can do other kinds of languages that the simpler finite automata regular expressions models can't do."
+    },
+    {
+        "text": "And I would also just like to note that a lot of what we're doing is a warm-up toward the more powerful models of computation that we're going to be looking at later, well, in a week or so, which are more general purpose computation."
+    },
+    {
+        "text": "But along the way, introducing these models of finite automata and context-free languages is interesting and helpful because many of those, a number of those models turn out to be useful in a number of applications, whether it's from linguistics to programming languages."
+    },
+    {
+        "text": "And a variety of different parts of computer science and other fields as well use those notions."
+    },
+    {
+        "text": "So they're useful notions beyond just in this course."
+    },
+    {
+        "text": "So I just want a couple of administrative things to touch on."
+    },
+    {
+        "text": "We are going to have additional check-ins today."
+    },
+    {
+        "text": "As I mentioned to you, we're going to start counting participation, not correctness, just participation in the live check-ins."
+    },
+    {
+        "text": "So with that, let us move on to today's material."
+    },
+    {
+        "text": "As I mentioned, we're going to be showing how to convert finite automata to regular expressions."
+    },
+    {
+        "text": "And that's going to complete our equivalence of finite automata and regular expressions."
+    },
+    {
+        "text": "So just to recap what we did last time, we showed that if you have a regular expression and it describes some language, then that language is regular."
+    },
+    {
+        "text": "So in other words, we have a way of, we gave a way of converting regular expressions to finite automata, as kind of shown in this diagram."
+    },
+    {
+        "text": "That's what we did last time."
+    },
+    {
+        "text": "Now we're going to go the other way."
+    },
+    {
+        "text": "We're going to show how to convert."
+    }
+]

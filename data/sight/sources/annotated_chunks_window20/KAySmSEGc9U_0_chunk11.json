@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And then I would have read a string that was described by R3."
+    },
+    {
+        "text": "And now I'm at qj."
+    },
+    {
+        "text": "OK, so the new label that I'm going to place over here is going to be the strings that I get from reading R1, reading a string that's described by R1, then multiple copies of a string, multiple strings that are possibly described by R2, which is the same as R2 star, and then a string that could be described by R3."
+    },
+    {
+        "text": "So that is a new addition to the transition that takes me from qi to qj."
+    },
+    {
+        "text": "Of course, I need to include the things that would have taken me from qi to qj in the first place."
+    },
+    {
+        "text": "So I'm also unioning in R4, which was the direct route from qi to qj that did not transit through x."
+    },
+    {
+        "text": "So by making that new regular expression on the qi to qj transition, I have compensated for the loss of x for paths that go from qi to x and then out to qj."
+    },
+    {
+        "text": "Now, what I need to do is to do that same thing for every pair qi and qj that are in the original machine."
+    },
+    {
+        "text": "And so if I do that for every possible pair, I'll be modifying all of the transitions in the new machine in a way that compensates for the loss of x."
+    },
+    {
+        "text": "And now the new machine has been repaired from the damage that I caused by removing x, and it does the same language."
+    },
+    {
+        "text": "It's the kind of thing you need to think a little bit about, I understand."
+    },
+    {
+        "text": "But at least hopefully, the spirit of what I just described to you comes through, that we're going to convert this machine with k states to one with k minus 1 states by removing a state and repairing the damage."
+    },
+    {
+        "text": "And now it does the same language, and then I can remove another state and do the same thing over and over again until I get down to two states."
+    },
+    {
+        "text": "So that's the idea."
+    },
+    {
+        "text": "And that really completes the proof."
+    },
+    {
+        "text": "That shows that I can convert every GNFA to a regular expression."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And that really is the end of the story for this."
+    },
+    {
+        "text": "And thus, I claim that DFAs now and regular expressions are equivalent."
+    },
+    {
+        "text": "So I'm going to give you a little check-in here on this, really just to see, high level, if you're following what's going on."
+    }
+]

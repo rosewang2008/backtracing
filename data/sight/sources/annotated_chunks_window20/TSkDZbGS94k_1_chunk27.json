@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. And again, this is just a basic calculus, right?"
+    },
+    {
+        "text": "So when I'm going to integrate this guy, those guys are going to cancel."
+    },
+    {
+        "text": "I'm going to get 0 for infinity."
+    },
+    {
+        "text": "I'm going to get a 5 for this guy."
+    },
+    {
+        "text": "And well, I know it's going to be a positive number, so I'm not really going to bother with the sign, because I know that's what it should be."
+    },
+    {
+        "text": "So I get e to the minus 5 lambda."
+    },
+    {
+        "text": "And so that means that I can actually write this like that."
+    },
+    {
+        "text": "Now, parameterize this thing by lambda positive."
+    },
+    {
+        "text": "So what I did here is I changed the parameterization from p to lambda."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Well, because maybe if this, I know this is happening, maybe I'm actually interested in reporting lambda to MBTA, for example."
+    },
+    {
+        "text": "Maybe I'm actually trying to estimate 1 over lambda, so that I know what is the, well, lambda is actually the intensity of arrival of my Poisson process, right?"
+    },
+    {
+        "text": "If I have a Poisson process, that's where how my trains are coming in."
+    },
+    {
+        "text": "And so I'm interested in lambda, so I will parameterize things by lambda, so that the thing I get is lambda."
+    },
+    {
+        "text": "You can play with this, right?"
+    },
+    {
+        "text": "I mean, I could parameterize this by 1 over lambda or 1 over lambda here if I wanted."
+    },
+    {
+        "text": "But the context of your problem will tell you exactly how to parameterize this thing."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So what else do I want to tell you?"
+    },
+    {
+        "text": "OK, let's do a final one."
+    }
+]

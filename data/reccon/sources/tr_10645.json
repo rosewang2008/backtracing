@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I like this apartment . Do you think we can afford the mortgage ?",
+        "emotion": "neutral",
+        "text": "I like this apartment . Do you think we can afford the mortgage ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I think so . It ' s not a very expensive apartment . It ' s in the right area and it has everything that we are looking for . The rooms are quite large too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s not a very expensive apartment . It ' s in the right area and it has everything that we are looking for . The rooms are quite large too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . I think so . It ' s not a very expensive apartment . It ' s in the right area and it has everything that we are looking for . The rooms are quite large too .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I love the balcony . We can sit outside and enjoy the sun in summer . We are on the 12th floor , so there ' s very nice view from the balcony .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I love the balcony . We can sit outside and enjoy the sun in summer . We are on the 12th floor , so there ' s very nice view from the balcony ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love the balcony . We can sit outside and enjoy the sun in summer . We are on the 12th floor , so there ' s very nice view from the balcony .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The neighbourhood is nice too . There is a park nearby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It ' s not a very expensive apartment . It ' s in the right area and it has everything that we are looking for . The rooms are quite large too .",
+            "The neighbourhood is nice too . There is a park nearby ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "The neighbourhood is nice too . There is a park nearby .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , and there are many houses nearby . I like it that the neighbourhood isn ' t full of apartment blocks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "the neighbourhood isn ' t full of apartment blocks ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , and there are many houses nearby . I like it that the neighbourhood isn ' t full of apartment blocks .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It ' s a pity we can ' t afford a house . A garden would be so nice .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It ' s a pity we can ' t afford a house ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s a pity we can ' t afford a house . A garden would be so nice .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , it would . Don ' t worry . There ' s a lawn outside the building and there ' s the park nearby . This place will be fine .",
+        "emotion": "neutral",
+        "text": "Yes , it would . Don ' t worry . There ' s a lawn outside the building and there ' s the park nearby . This place will be fine .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The building is quite new and well constructed . I ' m happy with the fittings too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "The building is quite new and well constructed . I ' m happy with the fittings too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The building is quite new and well constructed . I ' m happy with the fittings too .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , everything has been well designed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "The building is quite new and well constructed . I ' m happy with the fittings too .",
+            "Yes , everything has been well designed ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , everything has been well designed .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If it came out positive definite, then we could find an x."
+    },
+    {
+        "text": "So if we had the G, then the final step, you remember, is to find an x."
+    },
+    {
+        "text": "Well, we know that if G is positive semidefinite, there are multiple ways to find an x."
+    },
+    {
+        "text": "This is positive semidefinite matrices is what you get out of x transpose x's."
+    },
+    {
+        "text": "And we can find an x given a G. We can find G given an x."
+    },
+    {
+        "text": "So it has to be that this won't be true, that the matrix G that comes out of that equation will turn out not to be positive definite."
+    },
+    {
+        "text": "So it's really quite nice."
+    },
+    {
+        "text": "It's a beautiful little bit of mathematics that if and only if the triangle inequality is satisfied by these numbers, if and only if, then the matrix in the D matrix, then the G matrix that comes out of this equation, which I haven't written, is positive semidefinite."
+    },
+    {
+        "text": "If the triangle inequality is OK, we can find the points."
+    },
+    {
+        "text": "If the triangle inequality is violated, like here, then the matrix G is not positive semidefinite, has negative eigenvalues, and we cannot find the point."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I could recall the G matrix, the G equation, but it's coming to you in the two-page section that does distance matrices."
+    },
+    {
+        "text": "OK. That's just a, I should have made a point."
+    },
+    {
+        "text": "It's nice to have specific numbers."
+    },
+    {
+        "text": "And I could get the specific numbers for G, and we would see no way it's not positive definite."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's just tidying up last time."
+    },
+    {
+        "text": "I have another small problem to talk about, and then a big question of whether deep learning actually works."
+    },
+    {
+        "text": "I had an email from an expert last night, which changed my view of the world about that question, as you can imagine."
+    },
+    {
+        "text": "The change in my world was I had thought the answer was yes, and I now think the answer is no."
+    }
+]

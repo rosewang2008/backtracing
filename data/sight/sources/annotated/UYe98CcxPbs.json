@@ -1,0 +1,1193 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Today we are going to see how to use what we saw last time about partial derivatives to handle minimization or maximization problems involving functions of several variables."
+    },
+    {
+        "text": "Remember last time we said that when we have a function, say, of two variables, x and y, then we have actually two different derivatives."
+    },
+    {
+        "text": "Partial f, partial x, also called f sub x, is the derivative with respect to x keeping y constant."
+    },
+    {
+        "text": "And we have partial f, partial y, also called f sub y, where we vary y and we treat x as a constant."
+    },
+    {
+        "text": "And now, one thing I didn't have time to tell you about, but hopefully you heard about in recitation yesterday, is the approximation formula that tells you what happens if you vary both x and y. F sub x tells us what happens if we change x a little bit by some small amount delta x. F sub y tells us how f changes if we change y by a small amount delta y."
+    },
+    {
+        "text": "If we do both at the same time, then the two effects will add up with each other."
+    },
+    {
+        "text": "Because you can imagine that first you will change x and then you will change y or the other way around."
+    },
+    {
+        "text": "It doesn't really matter."
+    },
+    {
+        "text": "If we change x by a certain amount delta x, and if we change y by the amount delta y, and let's say that we have z equals f of x, y, then that changes by an amount which is approximately f sub x times delta x plus f sub y times delta y."
+    },
+    {
+        "text": "And that is one of the most important formulas about partial derivatives."
+    },
+    {
+        "text": "The intuition for this, again, is just the two effects add up."
+    },
+    {
+        "text": "If I change x by a small amount and then I change y, well, first changing x will modify f. How much does it modify f?"
+    },
+    {
+        "text": "The answer is the rate of change."
+    },
+    {
+        "text": "The rate of change is f sub x."
+    },
+    {
+        "text": "And, if I change y, then the rate of change of f when I change y is f sub y."
+    },
+    {
+        "text": "All together, I get this change in the value of f. And, of course, that is only an approximation formula."
+    },
+    {
+        "text": "Actually, there would be higher order terms involving second and third derivatives and so on."
+    },
+    {
+        "text": "One way to justify this, sorry, I was distracted by a microphone problem."
+    },
+    {
+        "text": "OK, so how do we justify this formula?"
+    },
+    {
+        "text": "Well, one way to think about it is in terms of tangent plane approximation."
+    },
+    {
+        "text": "Let's think about the tangent plane to the graph of a function f. I have some pictures to show you."
+    },
+    {
+        "text": "It will be easier if I show the pictures."
+    },
+    {
+        "text": "Remember, partial f over partial x was obtained by looking at the situation where y is held constant."
+    },
+    {
+        "text": "That means I am slicing the graph of f by a plane that is parallel to the xz plane."
+    },
+    {
+        "text": "And then, when I change x, z changes."
+    },
+    {
+        "text": "And the slope of that is going to be the derivative with respect to x."
+    },
+    {
+        "text": "Now, if I do the same in the other direction, then I will have similarly the slope in a slice now parallel to the yz plane that will be partial f over partial y."
+    },
+    {
+        "text": "In fact, in each case I have a line."
+    },
+    {
+        "text": "And that line is tangent to the surface."
+    },
+    {
+        "text": "Now, if I have two lines tangent to the surface, well, then together they determine for me the tangent plane to the surface."
+    },
+    {
+        "text": "Let's try to see how that works."
+    },
+    {
+        "text": "We know that f sub x and f sub y are the slopes of two tangent lines to this plane, sorry, two tangent lines to the graph."
+    },
+    {
+        "text": "And let's write down the equations of these lines."
+    },
+    {
+        "text": "I am not going to write parametric equations."
+    },
+    {
+        "text": "I am going to write them in terms of x, y, z coordinates."
+    },
+    {
+        "text": "Let's say that partial f over partial x at a given point is equal to a."
+    },
+    {
+        "text": "Then that means that we have a line given by the following conditions."
+    },
+    {
+        "text": "I am going to keep y constant equal to y0."
+    },
+    {
+        "text": "And I am going to change x."
+    },
+    {
+        "text": "And, as I change x, z will change at a rate that is equal to a."
+    },
+    {
+        "text": "That would be z equals z0 plus a times the change in x, x minus x0."
+    },
+    {
+        "text": "That is how you would describe the line that is, I guess, the one that is plotted in green here."
+    },
+    {
+        "text": "That is the intersection with the slice parallel to the xz plane."
+    },
+    {
+        "text": "I hold y constant equal to y0."
+    },
+    {
+        "text": "And z is a function of x that varies with a rate of a."
+    },
+    {
+        "text": "And now, if I look similarly at the other slice, let's say that the partial with respect to y is equal to b, then I get another line which is obtained by the fact that z depends on y and the rate of change with respect to y will be b while x is held constant equal to x0."
+    },
+    {
+        "text": "These two lines are both going to be in the tangent plane to the surface."
+    },
+    {
+        "text": "They are both tangent to the surface, f of f. And, well, together they determine a plane."
+    },
+    {
+        "text": "And that plane is just given by the formula z equals z0 plus a times x minus x0 plus b times y plus b."
+    },
+    {
+        "text": "If you look at what happens, this is the equation of a plane, z equals constant times x plus constant times y plus constant."
+    },
+    {
+        "text": "And if you look at what happens if I hold y constant and vary x, I recover the first line."
+    },
+    {
+        "text": "If I hold x constant and vary y, I get the second line."
+    },
+    {
+        "text": "Another way to do it, of course, would be to write actually parametric equations of these lines, get vectors along them and then take the cross-product to get the normal vector to the plane, and then get this equation for the plane using the normal vector."
+    },
+    {
+        "text": "That also works and it gives you the same formula."
+    },
+    {
+        "text": "If you are curious, exercise, do it again using parametrics and using cross-product to get the plane equation."
+    },
+    {
+        "text": "OK, so that is how we get the tangent plane."
+    },
+    {
+        "text": "And now, what this approximation formula here says is that, in fact, the graph of a function is close to the tangent plane."
+    },
+    {
+        "text": "If we were moving on the tangent plane, this would be an actual equality."
+    },
+    {
+        "text": "Delta z would be a linear function of delta x and delta y."
+    },
+    {
+        "text": "And the graph of a function is near the tangent plane, but it is not quite the same."
+    },
+    {
+        "text": "It is only an approximation for small delta x and small delta y."
+    },
+    {
+        "text": "The approximation formula says the graph of f is close to its tangent plane."
+    },
+    {
+        "text": "And we can use that formula over here now to estimate how the value of f changes if I change x and y at the same time."
+    },
+    {
+        "text": "Questions about that?"
+    },
+    {
+        "text": "Now that we have caught up with what we were supposed to see on Tuesday, I can tell you now about max and min problems."
+    },
+    {
+        "text": "Min problems."
+    },
+    {
+        "text": "That is going to be an application of partial derivatives to look at optimization problems."
+    },
+    {
+        "text": "Maybe ten years from now when you have a real job, your job might be to actually minimize the cost of something or maximize the profit of something or whatever."
+    },
+    {
+        "text": "But typically, the function that you will have to strive to minimize or maximize will depend on several variables."
+    },
+    {
+        "text": "If you have a function of one variable, you know that to find its minimum or its maximum you look at the derivative and you set that equal to zero."
+    },
+    {
+        "text": "And you try to then look at what happens to the function."
+    },
+    {
+        "text": "Here it is going to be kind of similar, except, of course, we have several variables."
+    },
+    {
+        "text": "For today, we will think about a function of two variables."
+    },
+    {
+        "text": "But it works exactly the same if you have three variables, ten variables, a million variables."
+    },
+    {
+        "text": "The first observation is that if we have a local minimum or a local maximum, then both partial derivative, partial f, partial x and partial f, partial y are both zero at the same time."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, let's say that f sub x is zero."
+    },
+    {
+        "text": "That means when I vary x, well, to first order the function doesn't change."
+    },
+    {
+        "text": "Maybe that is because it is going through."
+    },
+    {
+        "text": "If I look only at the slice parallel to the x-axis, then maybe I am going through the minimum."
+    },
+    {
+        "text": "But then, if partial f, partial y is not zero, then actually by changing y I could still make the value larger or smaller."
+    },
+    {
+        "text": "That wouldn't be an actual maximum or minimum."
+    },
+    {
+        "text": "It would only be maximum or minimum if I stay in the slice."
+    },
+    {
+        "text": "But if I allow myself to change y, that doesn't work."
+    },
+    {
+        "text": "I need actually to know that if I change y the value will not change either to first order."
+    },
+    {
+        "text": "That is why I also need partial f, partial y to be zero."
+    },
+    {
+        "text": "Now, let's say that they are both zero."
+    },
+    {
+        "text": "Well, why is that enough?"
+    },
+    {
+        "text": "It is essentially enough because of this formula telling me that if both of these guys are zero then to first order the function doesn't change."
+    },
+    {
+        "text": "And then, of course, there will be maybe quadratic terms that will actually turn that."
+    },
+    {
+        "text": "This won't really say that your function is actually constant."
+    },
+    {
+        "text": "It will just tell you that maybe it will be actually quadratic or higher order in delta x and delta y."
+    },
+    {
+        "text": "That is what you expect to have at a maximum or a minimum."
+    },
+    {
+        "text": "That condition is the same thing as saying that the tangent plane to the graph is actually going to be horizontal."
+    },
+    {
+        "text": "And that is what you want to have."
+    },
+    {
+        "text": "Say you have a minimum."
+    },
+    {
+        "text": "Well, see that the tangent plane at this point, at the bottom of the graph, is going to be horizontal."
+    },
+    {
+        "text": "And you can see that on this equation of a tangent plane, when both these coefficients are zero, that is when the equation becomes z equals constant, the horizontal plane."
+    },
+    {
+        "text": "Does that make sense?"
+    },
+    {
+        "text": "We will have a name for this kind of point because actually what we will see very soon is that these conditions are necessary but they are not sufficient."
+    },
+    {
+        "text": "There are actually other kinds of points where the partial derivatives are zero."
+    },
+    {
+        "text": "Let's give a name to this."
+    },
+    {
+        "text": "We say that x0, y0 is a critical point of F if the partial derivative with respect to x and the partial derivative with respect to y are both zero."
+    },
+    {
+        "text": "More generally, you would want all the partial derivatives, no matter how many variables you have, you want all the partials to be zero."
+    },
+    {
+        "text": "Let's see an example."
+    },
+    {
+        "text": "Let's say I give you the function f of x, y equals x squared minus 2xy plus py squared plus 2x minus 2y."
+    },
+    {
+        "text": "And let's try to figure out whether we can minimize or maximize this."
+    },
+    {
+        "text": "What we start doing immediately is taking the partial derivatives."
+    },
+    {
+        "text": "What is f sub x?"
+    },
+    {
+        "text": "It starts with 2x minus 2y plus zero plus two."
+    },
+    {
+        "text": "Remember that y is a constant so this differentiates to zero."
+    },
+    {
+        "text": "Now, if we do f sub y, that is going to be zero minus 2x plus 6y minus two."
+    },
+    {
+        "text": "And what we want to do is set these things equal to zero."
+    },
+    {
+        "text": "And we want to solve these two equations at the same time."
+    },
+    {
+        "text": "An important thing to remember, maybe I should have told you a couple of weeks ago already, if you have two equations to solve, well, it is very good to try to simplify them by adding them together or whatever."
+    },
+    {
+        "text": "But you must keep two equations."
+    },
+    {
+        "text": "If you have two equations, you should not end up with just one equation out of nowhere."
+    },
+    {
+        "text": "For example, here we can certainly simplify things by summing them together."
+    },
+    {
+        "text": "See, if we add them together, well, the x's cancel and the constants cancel."
+    },
+    {
+        "text": "In fact, we are just left with 4y equals zero."
+    },
+    {
+        "text": "That is pretty good."
+    },
+    {
+        "text": "That tells us y should be zero."
+    },
+    {
+        "text": "But then we should, of course, go back to these and see what else we know."
+    },
+    {
+        "text": "Well, now it tells us, if you put y equals zero, that tells you 2x plus 2 equals zero."
+    },
+    {
+        "text": "That tells you x equals minus one."
+    },
+    {
+        "text": "We have one critical point."
+    },
+    {
+        "text": "That is x, y equals minus one over two."
+    },
+    {
+        "text": "Any questions so far?"
+    },
+    {
+        "text": "Well, you should have a question."
+    },
+    {
+        "text": "The question should be how do we know if it is a maximum or a minimum?"
+    },
+    {
+        "text": "Well, if we had a function of one variable, we would decide things based on the second derivative."
+    },
+    {
+        "text": "And, in fact, we will see tomorrow how to do things based on the second derivative."
+    },
+    {
+        "text": "But that is kind of tricky because there are a lot of second derivatives."
+    },
+    {
+        "text": "I mean, we already have two first derivatives."
+    },
+    {
+        "text": "You can imagine that if you keep taking partials, you may end up with more and more."
+    },
+    {
+        "text": "We will have to figure out carefully what the condition should be."
+    },
+    {
+        "text": "We will do that tomorrow."
+    },
+    {
+        "text": "For now, let's just try to look at how do we understand these things by hand."
+    },
+    {
+        "text": "In fact, let me point out to you immediately that there is more than maxima and minima."
+    },
+    {
+        "text": "Remember, we saw the example of x squared plus y squared that has a critical point."
+    },
+    {
+        "text": "The critical point is obviously a minimum."
+    },
+    {
+        "text": "And, of course, it could be a local minimum because it could be that if you have a more complicated function there is indeed a minimum here."
+    },
+    {
+        "text": "But then elsewhere the function drops to a lower value."
+    },
+    {
+        "text": "We call that just a local minimum to say that it is a minimum if you stick to values that are close enough to that point."
+    },
+    {
+        "text": "Of course, you also have a local maximum."
+    },
+    {
+        "text": "Well, I did not plot it, but it is easy to plot."
+    },
+    {
+        "text": "That is a local maximum."
+    },
+    {
+        "text": "But there is a third example of critical point, and that is a saddle point."
+    },
+    {
+        "text": "The saddle point is a new phenomenon that you do not really see in a single variable calculus."
+    },
+    {
+        "text": "It is a critical point that is neither a minimum nor a maximum because, depending on which direction you look in, it is either one or the other."
+    },
+    {
+        "text": "The point in the middle at the origin is a saddle point."
+    },
+    {
+        "text": "If you look at the tangent plane to this graph you will see that it is actually horizontal at the origin."
+    },
+    {
+        "text": "You have this mountain pass."
+    },
+    {
+        "text": "At the mountain pass the ground is horizontal."
+    },
+    {
+        "text": "But, depending on which direction you go, you go up or down."
+    },
+    {
+        "text": "We say that the point is a saddle point if it is neither a minimum nor a maximum."
+    },
+    {
+        "text": "OK, so the possibilities could be a local min, a local max, or a saddle."
+    },
+    {
+        "text": "Tomorrow we will see how to decide which one it is in general using second derivatives."
+    },
+    {
+        "text": "For this time let's just try to do it by hand."
+    },
+    {
+        "text": "I just want to observe."
+    },
+    {
+        "text": "In fact, I can try to, you know, these examples that I have here, they are x2 y2 y2-x2."
+    },
+    {
+        "text": "They are sums or differences of squares."
+    },
+    {
+        "text": "And, if we know that we can put things as a sum of squares, for example, we will be done."
+    },
+    {
+        "text": "Let's try to express this maybe in terms of a square."
+    },
+    {
+        "text": "Well, the main problem is this 2xy."
+    },
+    {
+        "text": "But, observe, we know something that starts with x2 minus 2xy that is actually the square of something else."
+    },
+    {
+        "text": "It would be x2 minus 2xy, well, plus y2, not plus 3y2."
+    },
+    {
+        "text": "Let's try to do that."
+    },
+    {
+        "text": "We are going to complete the square."
+    },
+    {
+        "text": "I am going to say it is x minus y squared."
+    },
+    {
+        "text": "That gives me the first two terms and also y squared."
+    },
+    {
+        "text": "Well, I still need to add two more y squares."
+    },
+    {
+        "text": "And I also need to add, of course, the 2x minus 2y."
+    },
+    {
+        "text": "It is simpler."
+    },
+    {
+        "text": "It is still not simple enough for my taste."
+    },
+    {
+        "text": "I can actually do better."
+    },
+    {
+        "text": "See, I mean now what is, so these guys look like a sum of squares."
+    },
+    {
+        "text": "But here I have this extra stuff."
+    },
+    {
+        "text": "But, 2x minus 2y, well, that is twice x minus y."
+    },
+    {
+        "text": "It looks like maybe we can simplify this and make this into another square."
+    },
+    {
+        "text": "In fact, I can simplify this further to x minus y plus one squared."
+    },
+    {
+        "text": "See, that would start like, maybe I should put parentheses here, that would be x minus y squared plus twice x minus y."
+    },
+    {
+        "text": "And then there is a plus one."
+    },
+    {
+        "text": "Well, we don't have that plus one, so let's remove it by subtracting one."
+    },
+    {
+        "text": "Oh, let me find that minus one here."
+    },
+    {
+        "text": "And I still have my 2y squared."
+    },
+    {
+        "text": "Do you see why this is the same function as that one?"
+    },
+    {
+        "text": "Again, if I expand x minus y plus one squared, I get x minus y squared plus twice x minus y, that is those guys, plus one."
+    },
+    {
+        "text": "But I will have a minus one and that will cancel out."
+    },
+    {
+        "text": "And then I have a plus 2y squared."
+    },
+    {
+        "text": "Now what I know, see, this is a sum of two squares minus one."
+    },
+    {
+        "text": "And this critical point, x, y equals minus one, zero, that is exactly when this is zero and that is zero."
+    },
+    {
+        "text": "That is the smallest value."
+    },
+    {
+        "text": "This is always greater or equal to zero, same with that one."
+    },
+    {
+        "text": "That is always at least minus one."
+    },
+    {
+        "text": "And minus one happens to be the value at the critical point."
+    },
+    {
+        "text": "It is a minimum."
+    },
+    {
+        "text": "Now, of course, here I was very lucky."
+    },
+    {
+        "text": "In general, I could not expect things to simplify that much."
+    },
+    {
+        "text": "In fact, I cheated."
+    },
+    {
+        "text": "I started from that."
+    },
+    {
+        "text": "I expanded."
+    },
+    {
+        "text": "And then that is how I got my example."
+    },
+    {
+        "text": "The general method will be a bit different, but you will see it will actually also involve completing squares."
+    },
+    {
+        "text": "Just there is more to it than what we have seen."
+    },
+    {
+        "text": "We will come back to this tomorrow."
+    },
+    {
+        "text": "How do I know that this equals?"
+    },
+    {
+        "text": "y is what negative one?"
+    },
+    {
+        "text": "How do I know that that whole function is greater or equal to negative one?"
+    },
+    {
+        "text": "Well, I wrote f of x, y as something squared plus 2y2 minus one."
+    },
+    {
+        "text": "This squared is always a positive number, non-negative."
+    },
+    {
+        "text": "It is a square."
+    },
+    {
+        "text": "The square of something is always non-negative."
+    },
+    {
+        "text": "Similarly, y2 is also always non-negative."
+    },
+    {
+        "text": "If you add something that is at least zero plus something that is at least zero and you subtract one, you get always at least minus one."
+    },
+    {
+        "text": "And, in fact, the only way that you can get minus one is if both of these guys are zero at the same time."
+    },
+    {
+        "text": "That is how I get my minimum."
+    },
+    {
+        "text": "More about this tomorrow."
+    },
+    {
+        "text": "In fact, what I would like to tell you about now instead is a nice application of min-max problems that maybe you don't think of as a min-max problem."
+    },
+    {
+        "text": "But you will see, I mean, you don't think of it that way because probably your calculator can do it for you."
+    },
+    {
+        "text": "Or, if not, your computer can do it for you."
+    },
+    {
+        "text": "But it is actually something where the theory is based on minimization in two variables."
+    },
+    {
+        "text": "Very often in experimental sequences you have to do something called least squares interpolation."
+    },
+    {
+        "text": "And what is that about?"
+    },
+    {
+        "text": "Well, it is the idea that maybe you do some experiments and you record some data."
+    },
+    {
+        "text": "You have some data x and some data y."
+    },
+    {
+        "text": "And I don't know, maybe, for example, maybe you are measuring frogs and you are trying to measure how big the frog leg is compared to the eyes of a frog or whatever, or trying to measure something."
+    },
+    {
+        "text": "And if you are doing chemistry then it could be how much you put of some reactant and how much of the output product that you wanted to synthesize is going to be the same."
+    },
+    {
+        "text": "All sorts of things."
+    },
+    {
+        "text": "Make up your own example."
+    },
+    {
+        "text": "You measure, basically, for various values of x what the value of y ends up being."
+    },
+    {
+        "text": "And then you would like to claim, oh, well, these points are kind of aligned."
+    },
+    {
+        "text": "I mean, of course, to a mathematician they are not aligned, but to an experimental scientist that is evidence that there is a relation between the two."
+    },
+    {
+        "text": "And so you want to claim, and in your paper you will actually draw a nice little line that says, C, these two functions depend linearly on each other."
+    },
+    {
+        "text": "The question is how do we come up with that nice line that passes smack in the middle of the points?"
+    },
+    {
+        "text": "The question is, given experimental data, xiyi, so maybe I should actually be more precise."
+    },
+    {
+        "text": "You are given some experimental data."
+    },
+    {
+        "text": "You have data points x1, y1, x2, y2, and so on, xn, yn."
+    },
+    {
+        "text": "The question would be find the best fit line of the form y equals ax plus b that somehow approximates very well this data."
+    },
+    {
+        "text": "You can also use that, by the way, to predict various things."
+    },
+    {
+        "text": "For example, if you look at your new homework, actually the first problem asks you to predict how many iPods will be on this planet in ten years, looking at past sales and how they behave."
+    },
+    {
+        "text": "One thing, by the way, before you lose all the money you don't have yet, you cannot use that to predict the stock market."
+    },
+    {
+        "text": "Don't try to use that to make money."
+    },
+    {
+        "text": "It doesn't work."
+    },
+    {
+        "text": "One tricky thing here that I want to draw your attention to is what are the unknowns here?"
+    },
+    {
+        "text": "The natural answer would be to say the unknowns are x and y."
+    },
+    {
+        "text": "That is not actually the case."
+    },
+    {
+        "text": "We are not trying to solve for some x and y. I mean we have some values given to us."
+    },
+    {
+        "text": "And when we are looking for that line we don't really care about a particular value of x."
+    },
+    {
+        "text": "What we care about is actually these coefficients a and b that will tell us what the relation between x and y is."
+    },
+    {
+        "text": "In fact, we are trying to solve for a and b that will give us the nicest possible line for these points."
+    },
+    {
+        "text": "The unknowns in our equations will have to be a and b, not x and y."
+    },
+    {
+        "text": "The question really is find the best a and b."
+    },
+    {
+        "text": "And, of course, we have to decide what we mean by best."
+    },
+    {
+        "text": "Best will mean that we minimize some function of a and b that measures the total error that we are making when we are choosing this line compared to the experimental data."
+    },
+    {
+        "text": "Maybe, roughly speaking, it should measure how far these points are from the line."
+    },
+    {
+        "text": "But now there are various ways to do it."
+    },
+    {
+        "text": "And some of them are, I mean a lot of them are valid to give you different answers."
+    },
+    {
+        "text": "You have to decide what it is that you prefer."
+    },
+    {
+        "text": "For example, you could measure the distance to the line by projecting perpendicularly."
+    },
+    {
+        "text": "Or, you could measure instead the difference between, for a given value of x, the difference between the experimental value of y and the predicted one."
+    },
+    {
+        "text": "And that is often more relevant because these guys are actually maybe expressed in different units."
+    },
+    {
+        "text": "They are not the same type of quantity."
+    },
+    {
+        "text": "You cannot actually combine them arbitrarily."
+    },
+    {
+        "text": "Anyway, the convention is usually we measure distance in this way."
+    },
+    {
+        "text": "Next, you could try to minimize the largest distance."
+    },
+    {
+        "text": "Say we look at where is the largest error and we make that the smallest possible."
+    },
+    {
+        "text": "The drawback of doing that is experimentally very often you have one data point that is not good because maybe you fell asleep in front of the experiment."
+    },
+    {
+        "text": "And so you did not measure the right thing."
+    },
+    {
+        "text": "You tend to want to not give too much importance to some data point that is far away from the others."
+    },
+    {
+        "text": "Maybe instead you want to measure the average distance."
+    },
+    {
+        "text": "Or maybe you want to actually give more weight to things that are further away."
+    },
+    {
+        "text": "And then you do not want to do the distance but the square of the distance."
+    },
+    {
+        "text": "There are various possible answers."
+    },
+    {
+        "text": "But one of them gives us a particularly nice formula for a and b."
+    },
+    {
+        "text": "And so that is why it is the universally used one."
+    },
+    {
+        "text": "Here it says least squares."
+    },
+    {
+        "text": "That is because we will measure, actually, the sum of the squares of the errors."
+    },
+    {
+        "text": "And why do we do that?"
+    },
+    {
+        "text": "Well, part of it is because actually it looks good."
+    },
+    {
+        "text": "I mean, when you see these plots in scientific papers, they really look like the line is indeed the ideal line."
+    },
+    {
+        "text": "And the second reason is because actually the minimization problem that we will get is particularly simple, well-proposed and it is easy to solve."
+    },
+    {
+        "text": "We will have a nice formula for the best a and the best b."
+    },
+    {
+        "text": "If you have a method that is simple and gives you a good answer then that is probably the good one."
+    },
+    {
+        "text": "We have to define best."
+    },
+    {
+        "text": "And here it is in the sense of defining a total square error."
+    },
+    {
+        "text": "Maybe I should say total square deviation."
+    },
+    {
+        "text": "What do I mean by that?"
+    },
+    {
+        "text": "The deviation for each data point is the difference between what you have measured and what you are predicting by your model."
+    },
+    {
+        "text": "That is the difference between the two."
+    },
+    {
+        "text": "Now what we will do is try to minimize the function capital D, which is just the sum for all the data points of the square of the deviation."
+    },
+    {
+        "text": "Let me emphasize again this is a function of a and b. I mean, of course, there are a lot of letters in here."
+    },
+    {
+        "text": "But xi and yi in real life will be numbers given to you."
+    },
+    {
+        "text": "They will be the numbers that you have measured."
+    },
+    {
+        "text": "You have measured all of this data."
+    },
+    {
+        "text": "They are just going to be numbers."
+    },
+    {
+        "text": "You put them in there and you get the answer."
+    },
+    {
+        "text": "Any questions?"
+    },
+    {
+        "text": "How do we minimize this function of a and b?"
+    },
+    {
+        "text": "Let's use our new knowledge."
+    },
+    {
+        "text": "Let's actually look for a critical point."
+    },
+    {
+        "text": "We want to solve for partial d over partial a equals zero and partial d over partial b equals zero."
+    },
+    {
+        "text": "That is how we look for critical points."
+    },
+    {
+        "text": "Let's take the derivative of a."
+    },
+    {
+        "text": "Well, the derivative of a sum is the sum of the derivatives."
+    },
+    {
+        "text": "And now we have to take the derivative of this quantity squared."
+    },
+    {
+        "text": "Remember how we take the derivative of a square."
+    },
+    {
+        "text": "We take twice this quantity times the derivative of what we are squaring."
+    },
+    {
+        "text": "We will get two times minus y i, sorry, y i minus a xi plus b times the derivative of this with respect to a."
+    },
+    {
+        "text": "What is the derivative of this with respect to a?"
+    },
+    {
+        "text": "Negative xi, exactly."
+    },
+    {
+        "text": "And so we will want this to be zero."
+    },
+    {
+        "text": "And partial d over partial b, we do the same thing but differentiating with respect to b instead of with respect to a."
+    },
+    {
+        "text": "Again, sum of squares twice y i minus a xi plus b times the derivative of this with respect to b is, I think, negative one."
+    },
+    {
+        "text": "That is the equations we have to solve."
+    },
+    {
+        "text": "Well, let's reorganize this a little bit."
+    },
+    {
+        "text": "The first equation, see, there are a's and there are b's in these equations."
+    },
+    {
+        "text": "I am going to just look at the coefficients of a and b."
+    },
+    {
+        "text": "If you have good eyes, you can see probably that these are actually linear equations in a and b."
+    },
+    {
+        "text": "There is a lot of clutter with all these x's and y's all over the place."
+    },
+    {
+        "text": "Let's actually try to expand things and make that more apparent."
+    },
+    {
+        "text": "The first thing I will do is I will actually get rid of these factors of two that are just not very important."
+    },
+    {
+        "text": "I can simplify things by two."
+    },
+    {
+        "text": "And next I am going to look at the coefficient of a. I will get basically a times xi squared."
+    },
+    {
+        "text": "Well, let me just do it and it should be clear."
+    },
+    {
+        "text": "I claim when we simplify this we get a times xi squared plus xi times b minus xi yi."
+    },
+    {
+        "text": "And we set this equal to zero."
+    },
+    {
+        "text": "Do you agree that this is what we get when we expand that product?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's do the other one."
+    },
+    {
+        "text": "We just multiply by minus one."
+    },
+    {
+        "text": "We take the opposite of that."
+    },
+    {
+        "text": "It will be axi plus b. I will write that as xia plus b minus yi."
+    },
+    {
+        "text": "And let me just reorganize that by actually putting all the a's together."
+    },
+    {
+        "text": "That means actually I will have sum of all the xi squared times xi times b minus sum of xi yi equals zero."
+    },
+    {
+        "text": "If I rewrite this it becomes sum of xi squared times a plus sum of the xi's times b minus, let me move the other guys to the other side, equals sum of xi yi."
+    },
+    {
+        "text": "And that one becomes sum of xi times a plus how many b's do I get from this one?"
+    },
+    {
+        "text": "Well, I get one for each data point."
+    },
+    {
+        "text": "When I sum them together I will get n. Very good."
+    },
+    {
+        "text": "So, n times b equals sum of yi."
+    },
+    {
+        "text": "Now, these quantities may look scary, but they are actually just numbers."
+    },
+    {
+        "text": "For example, for this one you look at all your data points."
+    },
+    {
+        "text": "For each of them you take the value of x and you just sum all these numbers together."
+    },
+    {
+        "text": "What you get, actually, is a linear system in a two-by-two linear system."
+    },
+    {
+        "text": "And so now we can solve this for a and b."
+    },
+    {
+        "text": "In practice, of course, first you plug in the numbers for xi and yi and then you solve the system that you get."
+    },
+    {
+        "text": "And we know how to solve two-by-two linear systems, I hope."
+    },
+    {
+        "text": "That is how we find the best fit line."
+    },
+    {
+        "text": "Now, why is that going to be the best one instead of the worst one?"
+    },
+    {
+        "text": "We just solved for a critical point."
+    },
+    {
+        "text": "That could actually be a maximum of this error function d. We will have the answer to that next time."
+    },
+    {
+        "text": "But trust me, if you really want to go for the second derivative test that we will do tomorrow and apply it in this case, it is quite hard to check."
+    },
+    {
+        "text": "But you can see it is actually a minimum."
+    },
+    {
+        "text": "I will just say we can show that it is a minimum."
+    },
+    {
+        "text": "Now, even for the linear case, it is the one that we are the most familiar with."
+    },
+    {
+        "text": "Least squares interpolation actually works in much more general settings."
+    },
+    {
+        "text": "Instead of fitting for the best line, if you think that there is a different kind of relation, then maybe you can fit in using a different kind of formula."
+    },
+    {
+        "text": "Let me actually illustrate that for you."
+    },
+    {
+        "text": "I don't know if you are familiar with Moore's law."
+    },
+    {
+        "text": "It is something that is supposed to tell you how quickly, basically, computer chips become smarter, faster and faster over time."
+    },
+    {
+        "text": "It is a law that says things about the number of transistors that you can fit onto a computer chip."
+    },
+    {
+        "text": "Here I have some data about the number of transistors on a standard PC processor as a function of time."
+    },
+    {
+        "text": "And, well, if you try to do the best line fit, you will see quickly that it doesn't seem to follow a linear trend."
+    },
+    {
+        "text": "On the other hand, if you plot the diagram in a log scale, the log of the number of transistors as a function of time, then you get a much better line."
+    },
+    {
+        "text": "And so, in fact, that means that you had an exponential relation between the number of transistors and time."
+    },
+    {
+        "text": "And so, actually, that is what Moore's law says."
+    },
+    {
+        "text": "It says that the number of transistors on a chip doubles, depending on the version, every 18 months or every two years."
+    },
+    {
+        "text": "They keep changing the statement."
+    },
+    {
+        "text": "How do we find that best exponential fit?"
+    },
+    {
+        "text": "Well, an exponential fit would be something of the form y equals a constant times exponential of a times x."
+    },
+    {
+        "text": "That is what we want to look at."
+    },
+    {
+        "text": "Well, we could try to minimize a square error like we did earlier, but that doesn't work well at all."
+    },
+    {
+        "text": "The equations that you get are very complicated."
+    },
+    {
+        "text": "You cannot solve them."
+    },
+    {
+        "text": "But remember what I showed you on this log plot."
+    },
+    {
+        "text": "If you plot the log of y as a function of x, then suddenly it becomes a linear relation."
+    },
+    {
+        "text": "Observe this is the same as ln of x equals ln of c plus ax."
+    },
+    {
+        "text": "And that is a linear best fit."
+    },
+    {
+        "text": "What you do is you just look for the best straight line fit for the log of y."
+    },
+    {
+        "text": "That is something we already know."
+    },
+    {
+        "text": "But you can also do other examples."
+    },
+    {
+        "text": "For example, let's say that we have something more complicated."
+    },
+    {
+        "text": "Let's say that we have actually a quadratic law."
+    },
+    {
+        "text": "For example, y is of the form ax2 bx c. And, of course, you are trying to find somehow the best."
+    },
+    {
+        "text": "That would mean here fitting the best parabola for your data points."
+    },
+    {
+        "text": "Well, to do that you would need to find a, b and c. And now you would have actually a function of a, b and c, which would be the sum of all data points of the quadratic equation."
+    },
+    {
+        "text": "And if you try to solve for critical points, now you will have three equations involving a, b and c. And, in fact, you will find a three by three linear system."
+    },
+    {
+        "text": "And it works just the same way."
+    },
+    {
+        "text": "Just you have a little bit more data."
+    },
+    {
+        "text": "Basically, you see that these best fit problems are an example of minimization problem."
+    },
+    {
+        "text": "But maybe you didn't expect to see minimization problems come in."
+    },
+    {
+        "text": "But that is really the way to handle these questions."
+    },
+    {
+        "text": "OK, so tomorrow we will go back to the question of how do we decide whether it is a minimum or a maximum?"
+    },
+    {
+        "text": "And we will continue exploring functions of several variables."
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , there are so many lanterns to appreciate . Now , I can see why it's called the Lantern Festival . It deserves its name .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "there are so many lanterns to appreciate . Now , I can see why it's called the Lantern Festival ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , there are so many lanterns to appreciate . Now , I can see why it's called the Lantern Festival . It deserves its name .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah . People always enjoy the lighted lanterns and the gala performances .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "there are so many lanterns to appreciate . Now , I can see why it's called the Lantern Festival .",
+            "People always enjoy the lighted lanterns and the gala performances ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah . People always enjoy the lighted lanterns and the gala performances .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What are they doing over there ? People keep on gathering there .",
+        "emotion": "neutral",
+        "text": "What are they doing over there ? People keep on gathering there .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Did you notice the characters on the lanterns ?",
+        "emotion": "neutral",
+        "text": "Did you notice the characters on the lanterns ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sure . But you know that I can't read any Chinese characters . What do they say ?",
+        "emotion": "neutral",
+        "text": "Sure . But you know that I can't read any Chinese characters . What do they say ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "They are puzzles . It's a tradition to solve the puzzles on the lanterns during the Lantern Festival .",
+        "emotion": "neutral",
+        "text": "They are puzzles . It's a tradition to solve the puzzles on the lanterns during the Lantern Festival .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Very interesting . But I'm afraid we'd better do something else . Hey , look ! There is a huge lantern there . Let's get close to it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "People always enjoy the lighted lanterns and the gala performances .",
+            "Hey , look ! There is a huge lantern there . Let's get close to it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very interesting . But I'm afraid we'd better do something else . Hey , look ! There is a huge lantern there . Let's get close to it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's really eye-catching . It's the biggest dragon lantern I've ever seen in all my life .",
+        "emotion": "neutral",
+        "text": "It's really eye-catching . It's the biggest dragon lantern I've ever seen in all my life .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? Then I'm really lucky . Oh , it's spewing fireworks from its huge mouth .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's really eye-catching . It's the biggest dragon lantern I've ever seen in all my life .",
+            "Oh , it's spewing fireworks from its huge mouth ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Then I'm really lucky . Oh , it's spewing fireworks from its huge mouth .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Very impressive . It's made of glass which makes it even brighter .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Oh , it's spewing fireworks from its huge mouth .",
+            "It's made of glass which makes it even brighter ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very impressive . It's made of glass which makes it even brighter .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "There are many Chinese characters on its body , too . What are they about ? Puzzles ?",
+        "emotion": "neutral",
+        "text": "There are many Chinese characters on its body , too . What are they about ? Puzzles ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let me have a look . Oh , no . They are Chinese poems which describe this happy scene .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "There are many Chinese characters on its body , too .",
+            "Oh , no . They are Chinese poems which describe this happy scene ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me have a look . Oh , no . They are Chinese poems which describe this happy scene .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

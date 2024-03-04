@@ -1,0 +1,17 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 4,
+        "timestamp": 1684192467807.0,
+        "annotatedSourceSentencesIndices": [
+            0,
+            8,
+            13
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "how did we get 32 and 18 as squares of sigma1 and sigma2 ?"
+    }
+]

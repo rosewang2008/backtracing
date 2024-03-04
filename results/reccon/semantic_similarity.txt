@@ -1,0 +1,8 @@
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/semantic_similarity.csv
+Output fname: results/reccon/test/semantic_similarity.csv
+Accuracy top 1: 0.01
+Min distance top 1: 1.32
+Accuracy top 3: 0.32
+Min distance top 3: 0.77

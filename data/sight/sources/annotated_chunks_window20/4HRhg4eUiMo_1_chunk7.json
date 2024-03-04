@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, there's something I didn't mention, and I'm just mentioning it, pass it by."
+    },
+    {
+        "text": "Here, I define the power itself."
+    },
+    {
+        "text": "This function, this entire white curve here, is actually called the power function."
+    },
+    {
+        "text": "This thing, that's the entire white curve."
+    },
+    {
+        "text": "And what you could have is tests that have the entire curve, which is dominated by another test."
+    },
+    {
+        "text": "So here, if I look at this test, and let's assume I can build another test that has this curve."
+    },
+    {
+        "text": "Let's say it's the same here."
+    },
+    {
+        "text": "But then here, it looks like this."
+    },
+    {
+        "text": "What is the power of this test?"
+    },
+    {
+        "text": "It's the same."
+    },
+    {
+        "text": "It's 5%, because this point touches here exactly at the same point."
+    },
+    {
+        "text": "However, for any other value than the worst possible, this guy is doing better than this guy."
+    },
+    {
+        "text": "Can you see that?"
+    },
+    {
+        "text": "Having a curve higher on the right-hand side is a good thing, because it means that you tend to reject more when you're actually in H1."
+    },
+    {
+        "text": "So this guy is definitely better than this guy."
+    },
+    {
+        "text": "And so what we say in this case is that the test with the dashed line is uniformly more powerful than the other test."
+    },
+    {
+        "text": "But we're not going to go into those details, because basically, all the tests that we will describe are already the most powerful ones."
+    },
+    {
+        "text": "In particular, this guy is, there's no such thing."
+    },
+    {
+        "text": "All the other guys you can come up with are going to actually be below."
+    },
+    {
+        "text": "So we saw a couple tests, and we saw how to pick this threshold, and we defined those two things."
+    }
+]

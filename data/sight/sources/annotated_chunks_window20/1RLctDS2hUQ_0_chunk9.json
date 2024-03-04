@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But one of them is going in the positive direction, one of them is going in the negative direction, and they cancel each other."
+    },
+    {
+        "text": "So if you have this kind of situation, we want that to be reflected."
+    },
+    {
+        "text": "We like that interpretation."
+    },
+    {
+        "text": "And we want to preserve it even in the case when the function v is negative."
+    },
+    {
+        "text": "And so I'm going to now extend our notion of integration."
+    },
+    {
+        "text": "So we'll extend integration to the case f negative."
+    },
+    {
+        "text": "Or positive."
+    },
+    {
+        "text": "In other words, it could be any sign."
+    },
+    {
+        "text": "Actually, there's no change."
+    },
+    {
+        "text": "The formulas are all the same."
+    },
+    {
+        "text": "We just, if this v is going to be positive, we write in a positive number."
+    },
+    {
+        "text": "If it's going to be negative, we write in a negative number."
+    },
+    {
+        "text": "And we just leave it alone."
+    },
+    {
+        "text": "And the real, so here's, let me carry out an example."
+    },
+    {
+        "text": "And show you how it works."
+    },
+    {
+        "text": "I'll carry out the example on this blackboard up here of the sine function."
+    },
+    {
+        "text": "But we're going to try two humps."
+    },
+    {
+        "text": "We're going to try the first hump and the one that goes underneath there."
+    },
+    {
+        "text": "So our example here is going to be the integral from 0 to 2pi."
+    },
+    {
+        "text": "Of sin x dx."
+    }
+]

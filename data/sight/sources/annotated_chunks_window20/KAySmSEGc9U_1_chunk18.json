@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so to show a language is not regular, you simply show the language doesn't have that property."
+    },
+    {
+        "text": "Because all regular languages have to have that property."
+    },
+    {
+        "text": "And so by showing a language fails to have the property, it could not be regular."
+    },
+    {
+        "text": "OK, that's the plan."
+    },
+    {
+        "text": "OK, now the property itself is a little complicated to describe, but not too bad."
+    },
+    {
+        "text": "I'll try to unpack it for you."
+    },
+    {
+        "text": "But first, let's look at the statement of the lemma, which says that whenever you have a regular language, let's call it A."
+    },
+    {
+        "text": "So for every regular language A, there's always a special value called the pump, a number, P we'll call it, called the pumping length."
+    },
+    {
+        "text": "It's a special number."
+    },
+    {
+        "text": "And that length tells you that whenever a string is in that language and it's longer than that length, then something special happens."
+    },
+    {
+        "text": "You can take that string, and you can modify it, and you still stay in the language."
+    },
+    {
+        "text": "So anything that's longer than that special length can be modified in a certain way, and you still stay in the language."
+    },
+    {
+        "text": "So let's look at the actual statement of the lemma."
+    },
+    {
+        "text": "So there is a number P such that if S is a string in the language and it's longer than P, or at least of length P, then you can take S, and you can cut it up into three pieces, x, y, and z."
+    },
+    {
+        "text": "So that's just breaking S into three pieces, where you can take that middle piece, repeat it as many times as you like, and you still stay in the language."
+    },
+    {
+        "text": "That's what the pumping lemma is saying."
+    },
+    {
+        "text": "And there's a bunch of other conditions here too."
+    },
+    {
+        "text": "But the spirit of the pumping lemma says whenever you have a regular language, there's some cutoff such that all strings longer than that cutoff can be what we call pumped."
+    },
+    {
+        "text": "You can take that string, you can find a section somewhere in the middle of that string, or somewhere you cut it up into three pieces, you take that center piece, and you can repeat it."
+    },
+    {
+        "text": "You can pump it up."
+    }
+]

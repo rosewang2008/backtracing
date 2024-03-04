@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "My love will grow , like a river to flow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'll never hurt you ; I'll never lie .",
+            "My love will grow , like a river to flow ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My love will grow , like a river to flow .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

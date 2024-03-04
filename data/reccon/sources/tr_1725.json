@@ -1,0 +1,199 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What date is it today ?",
+        "emotion": "neutral",
+        "text": "What date is it today ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Look at the girls in the street . They all have a bunch of flowers . Is it Valentine's Day ?",
+        "emotion": "neutral",
+        "text": "Look at the girls in the street . They all have a bunch of flowers . Is it Valentine's Day ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , yes ! I completely forgot about it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Valentine's Day ?",
+            "I completely forgot about it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , yes ! I completely forgot about it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did you have a fight with Jack ?",
+        "emotion": "neutral",
+        "text": "Did you have a fight with Jack ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , but now he'll be in trouble . What's a boyfriend for ? To forget about Valentine's Day ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "What's a boyfriend for ? To forget about Valentine's Day ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , but now he'll be in trouble . What's a boyfriend for ? To forget about Valentine's Day ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Come on , dear ! You forgot it , too .",
+        "emotion": "neutral",
+        "text": "Come on , dear ! You forgot it , too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You know , it's OK for a girl to forget these \" big days \" , but for a guy , to do that is unforgivable .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "What's a boyfriend for ? To forget about Valentine's Day ?",
+            "but for a guy , to do that is unforgivable ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You know , it's OK for a girl to forget these \" big days \" , but for a guy , to do that is unforgivable .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Is that your phone ?",
+        "emotion": "neutral",
+        "text": "Is that your phone ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , it's Jack . Excuse me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Valentine's Day ?",
+            "What's a boyfriend for ? To forget about Valentine's Day ?",
+            "but for a guy , to do that is unforgivable .",
+            "it's Jack ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , it's Jack . Excuse me .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Wow ! Good timing .",
+        "emotion": "neutral",
+        "text": "Wow ! Good timing .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "He asked me out to a dinner tonight . How about joining us ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Valentine's Day ?",
+            "He asked me out to a dinner tonight ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He asked me out to a dinner tonight . How about joining us ?",
+        "id": 12,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Come on ! Three's a crowd !",
+        "emotion": "neutral",
+        "text": "Come on ! Three's a crowd !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "So what ?",
+        "emotion": "neutral",
+        "text": "So what ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Just go ! It's Valentine's Day !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Valentine's Day ?",
+            "He asked me out to a dinner tonight . How about joining us ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Just go ! It's Valentine's Day !",
+        "id": 15
+    }
+]

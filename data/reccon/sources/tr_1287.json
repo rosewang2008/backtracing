@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How's your business ?",
+        "emotion": "neutral",
+        "text": "How's your business ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Everything seems to be getting worse . I don't know what to do with it .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Everything seems to be getting worse ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Everything seems to be getting worse . I don't know what to do with it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Things are tough all over . You should never give up !",
+        "emotion": "neutral",
+        "text": "Things are tough all over . You should never give up !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "But how can I prevent a deficit ?",
+        "emotion": "neutral",
+        "text": "But how can I prevent a deficit ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I think you should make a thorough market investigation now .",
+        "emotion": "happiness",
+        "explanation": "The market investigation would help in preventing the deficit.",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "you should make a thorough market investigation now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think you should make a thorough market investigation now .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK , OK . I ' ll do my best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "you should make a thorough market investigation now ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , OK . I ' ll do my best .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I always consider you are such a guy who never gives up .",
+        "emotion": "happiness",
+        "explanation": "The speaker is providing encouragement to the other participant.",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "OK , OK . I ' ll do my best .",
+            "I always consider you are such a guy who never gives up ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I always consider you are such a guy who never gives up .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I know life is not all roses , and I believe I will pull this through .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I always consider you are such a guy who never gives up .",
+            "I believe I will pull this through ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I know life is not all roses , and I believe I will pull this through .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , you can make it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "OK , OK . I ' ll do my best .",
+            "I always consider you are such a guy who never gives up .",
+            "I believe I will pull this through ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , you can make it .",
+        "id": 9
+    }
+]

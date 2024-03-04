@@ -1,0 +1,260 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a beautiful watch . It goes very well with your ring .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "beautiful watch . It goes very well with your ring ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a beautiful watch . It goes very well with your ring .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "beautiful watch . It goes very well with your ring ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is that your wedding ring ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "wedding ring ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Is that your wedding ring ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm not married yet . It's my engagement ring .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "engagement ring"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm not married yet . It's my engagement ring .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , congratulations . When is the big date ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "engagement",
+            "big date"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , congratulations . When is the big date ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "In June .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "congratulations",
+            "big date"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "In June .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Did you have the watch before getting the ring ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            1
+        ],
+        "expanded emotion cause span": [
+            "big date",
+            "beautiful watch . It goes very well with your ring ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Did you have the watch before getting the ring ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Actually , we bought the ring together after I got the watch .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "big date",
+            "we bought the ring together after I got the watch ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Actually , we bought the ring together after I got the watch .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You did a fabulous job with the selection . It's gorgeous .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's gorgeous ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You did a fabulous job with the selection . It's gorgeous .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You did a fabulous job with the selection . It's gorgeous ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you so much .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What kind of watch is it ?",
+        "emotion": "neutral",
+        "text": "What kind of watch is it ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It's a Tag Heer .",
+        "emotion": "neutral",
+        "text": "It's a Tag Heer .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "If you don't mind me asking , how much do they cost ?",
+        "emotion": "neutral",
+        "text": "If you don't mind me asking , how much do they cost ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "This one is $ 1500 . But they range from $ 600 to $ 3000 .",
+        "emotion": "neutral",
+        "text": "This one is $ 1500 . But they range from $ 600 to $ 3000 .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's why it looks so nice . I should have figured . You always get what you pay for .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "it looks so nice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's why it looks so nice . I should have figured . You always get what you pay for .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yeah . I would rather get one nice watch instead of 20 mediocre ones .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A has approved her decision to pay more for a nice watch",
+        "expanded emotion cause evidence": [
+            15,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "it looks so nice .",
+            "You always get what you pay for .",
+            "rather get one nice watch instead of 20 mediocre ones ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah . I would rather get one nice watch instead of 20 mediocre ones .",
+        "id": 16,
+        "source_sentences": [
+            14,
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "oh , I didn't know you can play the violin . Do you still play .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I started to learn violin when I was eight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "oh , I didn't know you can play the violin . Do you still play .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

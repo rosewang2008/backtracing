@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Don't worry about it , but thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'll make sure he doesn't do that again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't worry about it , but thank you very much .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

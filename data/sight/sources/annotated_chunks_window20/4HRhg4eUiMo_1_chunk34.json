@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, I think that by my sixth explanation, my wife, after saying, oh, so it's the probability of making an error, I said, yeah, that's the probability of making an error."
+    },
+    {
+        "text": "Because of course, she can think probability of making an error, small, good, large, bad."
+    },
+    {
+        "text": "So that's actually a good way to remember."
+    },
+    {
+        "text": "I'm pretty sure that at least 50% of people using p-values out there think that the p-value is the probability of making an error."
+    },
+    {
+        "text": "Now, for all matters of purposes, if your goal is to just threshold the p-value, this is OK to have this in mind."
+    },
+    {
+        "text": "But when it comes, at least until December 22, I would recommend trying to actually memorize the right definition for the p-value."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the idea, again, is fix the level and try to optimize the power."
+    },
+    {
+        "text": "So we're going to try to compute some p-values from now on."
+    },
+    {
+        "text": "How do you compute the p-value?"
+    },
+    {
+        "text": "Well, you can actually see it from this picture over there."
+    },
+    {
+        "text": "One thing I didn't show on this picture, here was my q alpha over 2 that had alpha here, alpha over 2 here, right?"
+    },
+    {
+        "text": "That was my q alpha over 2."
+    },
+    {
+        "text": "And I said, if tn is to the right of this guy, I'm going to reject."
+    },
+    {
+        "text": "If tn is to the left of this guy, I'm going to fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Pictorially, you can actually represent the p-value."
+    },
+    {
+        "text": "It's when I replace this guy by tn itself."
+    },
+    {
+        "text": "Sorry, that's p-value over 2."
+    }
+]

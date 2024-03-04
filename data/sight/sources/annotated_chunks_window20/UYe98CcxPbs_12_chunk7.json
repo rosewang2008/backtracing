@@ -1,0 +1,62 @@
+[
+    {
+        "text": "For now, let's just try to look at how do we understand these things by hand."
+    },
+    {
+        "text": "In fact, let me point out to you immediately that there is more than maxima and minima."
+    },
+    {
+        "text": "Remember, we saw the example of x squared plus y squared that has a critical point."
+    },
+    {
+        "text": "The critical point is obviously a minimum."
+    },
+    {
+        "text": "And, of course, it could be a local minimum because it could be that if you have a more complicated function there is indeed a minimum here."
+    },
+    {
+        "text": "But then elsewhere the function drops to a lower value."
+    },
+    {
+        "text": "We call that just a local minimum to say that it is a minimum if you stick to values that are close enough to that point."
+    },
+    {
+        "text": "Of course, you also have a local maximum."
+    },
+    {
+        "text": "Well, I did not plot it, but it is easy to plot."
+    },
+    {
+        "text": "That is a local maximum."
+    },
+    {
+        "text": "But there is a third example of critical point, and that is a saddle point."
+    },
+    {
+        "text": "The saddle point is a new phenomenon that you do not really see in a single variable calculus."
+    },
+    {
+        "text": "It is a critical point that is neither a minimum nor a maximum because, depending on which direction you look in, it is either one or the other."
+    },
+    {
+        "text": "The point in the middle at the origin is a saddle point."
+    },
+    {
+        "text": "If you look at the tangent plane to this graph you will see that it is actually horizontal at the origin."
+    },
+    {
+        "text": "You have this mountain pass."
+    },
+    {
+        "text": "At the mountain pass the ground is horizontal."
+    },
+    {
+        "text": "But, depending on which direction you go, you go up or down."
+    },
+    {
+        "text": "We say that the point is a saddle point if it is neither a minimum nor a maximum."
+    },
+    {
+        "text": "OK, so the possibilities could be a local min, a local max, or a saddle."
+    }
+]

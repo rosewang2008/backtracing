@@ -1,0 +1,26 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK , I'll talk to you soon .",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy about christmas shopping",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , I'll talk to you soon .",
+        "id": 10,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

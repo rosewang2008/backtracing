@@ -1,0 +1,183 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I've been thinking of taking I've been thinking of taking a Crazy English course . Do you think it's a good idea",
+        "emotion": "neutral",
+        "text": "I've been thinking of taking I've been thinking of taking a Crazy English course . Do you think it's a good idea",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure ! You should do anything you can to improve your English .",
+        "emotion": "neutral",
+        "text": "Sure ! You should do anything you can to improve your English .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? Do you think English is that important ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You should do anything you can to improve your English .",
+            "Do you think English is that important ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Do you think English is that important ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course it is . In fact , I'll even take the course with you if you want .",
+        "emotion": "neutral",
+        "text": "Of course it is . In fact , I'll even take the course with you if you want .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Great ! It's always better to do things with a friend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'll even take the course with you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! It's always better to do things with a friend .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Do you have the phone number ? I need to call for registration .",
+        "emotion": "neutral",
+        "text": "Do you have the phone number ? I need to call for registration .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , I left it at home . Sorry !",
+        "emotion": "neutral",
+        "text": "No , I left it at home . Sorry !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's OK . I can get it from you later .",
+        "emotion": "neutral",
+        "text": "That's OK . I can get it from you later .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So , do you want to go somewhere for dinner and practice our English together tonight ?",
+        "emotion": "neutral",
+        "text": "So , do you want to go somewhere for dinner and practice our English together tonight ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "All right . I know a great restaurant near here . But , it's a little expensive and I don't have much money with me .",
+        "emotion": "neutral",
+        "text": "All right . I know a great restaurant near here . But , it's a little expensive and I don't have much money with me .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No problem . I just got paid . It ' s my treat .",
+        "emotion": "neutral",
+        "text": "No problem . I just got paid . It ' s my treat .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you ! I'll be sure to return the favor after our first class , OK ?",
+        "emotion": "neutral",
+        "text": "Thank you ! I'll be sure to return the favor after our first class , OK ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Forget it ! That's what friends are for ! Besides , I have a VIP card for a discount .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'll be sure to return the favor",
+            "I have a VIP card for a discount ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Forget it ! That's what friends are for ! Besides , I have a VIP card for a discount .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good job ! This is going to be a great night !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Forget it ! That's what friends are for !",
+            "I have a VIP card for a discount .",
+            "This is going to be a great night !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good job ! This is going to be a great night !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I think so too . Let ' s go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "This is going to be a great night !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I think so too . Let ' s go !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

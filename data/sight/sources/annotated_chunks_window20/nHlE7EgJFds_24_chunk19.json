@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Is that all right?"
+    },
+    {
+        "text": "I'm just naming them."
+    },
+    {
+        "text": "You can put quotes around vectors."
+    },
+    {
+        "text": "Every three by three matrix is one of my vectors."
+    },
+    {
+        "text": "Now how am I entitled to call those things vectors?"
+    },
+    {
+        "text": "I mean, they look very much like matrices."
+    },
+    {
+        "text": "But they're vectors in my vector space because they obey the rules."
+    },
+    {
+        "text": "All I'm supposed to be able to do with vectors is add them."
+    },
+    {
+        "text": "I can add matrices."
+    },
+    {
+        "text": "I'm supposed to be able to multiply them by scalar numbers, like seven."
+    },
+    {
+        "text": "Well, I can multiply a matrix by seven."
+    },
+    {
+        "text": "And I can take combinations of matrices."
+    },
+    {
+        "text": "I can take three of one matrix minus five of another matrix."
+    },
+    {
+        "text": "And those combinations, there's a zero matrix, the matrix that has all zeros in it."
+    },
+    {
+        "text": "If I add that to another matrix, it doesn't change it."
+    },
+    {
+        "text": "All the good stuff."
+    },
+    {
+        "text": "If I multiply a matrix by one, it doesn't change it."
+    },
+    {
+        "text": "All those eight rules for a vector space that we never wrote down, all easily satisfied."
+    },
+    {
+        "text": "So now we have a different --."
+    },
+    {
+        "text": "Now, of course, you can say you can multiply those matrices."
+    }
+]

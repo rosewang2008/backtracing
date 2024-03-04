@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So now I need to compute c such that the probability that tn is lower than c. So that's what?"
+    },
+    {
+        "text": "That's the probability under p, which is unknown."
+    },
+    {
+        "text": "I want this probability to be less than some level alpha asymptotically."
+    },
+    {
+        "text": "So I want the limit of this guy to be less than alpha, and that's the level of my test."
+    },
+    {
+        "text": "So that's the given level."
+    },
+    {
+        "text": "So I want this thing to happen."
+    },
+    {
+        "text": "Now what I know is that this limit, actually, I should say given asymptotic level."
+    },
+    {
+        "text": "So what is this thing?"
+    },
+    {
+        "text": "Well, OK, that's the probability that something that looks like under p. So under p, this guy, so what I know is that tn is square root of n minus xn bar minus 0.5 divided by square root of xn bar 1 minus xn bar exceeds."
+    },
+    {
+        "text": "Is this true that as n goes to infinity, this probability is the same as the probability that the absolute value of a Gaussian exceeds c of a standard Gaussian?"
+    },
+    {
+        "text": "Is this true?"
+    },
+    {
+        "text": "Yeah, so you're saying that this, as n becomes large enough, this should be the probability that some absolute value of n0,1 exceeds c, right?"
+    },
+    {
+        "text": "So I claim that this is not correct."
+    },
+    {
+        "text": "Somebody tell me why."
+    },
+    {
+        "text": "Even in the limit, it's not correct?"
+    },
+    {
+        "text": "Even in the limit, it's not correct."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So what do you see?"
+    },
+    {
+        "text": "It's because at the beginning, we picked the worst possible true parameter, 0.5, right?"
+    },
+    {
+        "text": "So we don't actually know that this 0.5 is the least."
+    }
+]

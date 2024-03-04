@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you think ?",
+        "emotion": "neutral",
+        "text": "What do you think ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It looks great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "looks great ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It looks great .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I would like to purchase it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "looks great .",
+            "I would like to purchase it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I would like to purchase it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Will this be cash or charge ?",
+        "emotion": "neutral",
+        "text": "Will this be cash or charge ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Here , take my credit card .",
+        "emotion": "neutral",
+        "text": "Here , take my credit card .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Just sign here , please .",
+        "emotion": "neutral",
+        "text": "Just sign here , please .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . Here you go .",
+        "emotion": "happiness",
+        "explanation": "A is happy for a latent reason",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Sure . Here you go .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Here's your receipt . Have a nice day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Sure . Here you go .",
+            "Have a nice day ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here's your receipt . Have a nice day .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

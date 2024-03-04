@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If that was A, what could you tell me about A transpose A?"
+    },
+    {
+        "text": "Could you multiply matrices, like knowing where the non-zeros are, like in your head, and get an idea of where?"
+    },
+    {
+        "text": "So if I have a bidiagonal matrix A, then sort of implicitly in the SVD, I'm looking at A transpose A."
+    },
+    {
+        "text": "And what would be true about A transpose A?"
+    },
+    {
+        "text": "It would be tridiagonal."
+    },
+    {
+        "text": "So what I've done here and what I've done there just match up."
+    },
+    {
+        "text": "If you don't want to change singular values, you can get all the way to here."
+    },
+    {
+        "text": "But then to find those singular values, that would involve A transpose A."
+    },
+    {
+        "text": "It would be symmetric and tridiagonal."
+    },
+    {
+        "text": "And then you'd be in that game."
+    },
+    {
+        "text": "So those are the basic facts of I and SVD."
+    },
+    {
+        "text": "For matrices of order up to 1,000, say."
+    },
+    {
+        "text": "I'm not enough of an expert to know where."
+    },
+    {
+        "text": "Maybe higher, because in perfect math, it's going to take infinitely many steps."
+    },
+    {
+        "text": "Or Abel would be very surprised."
+    },
+    {
+        "text": "He would see you solving for eigenvalues and then to re-equation by a whole lot of little steps and getting them exactly right."
+    },
+    {
+        "text": "That won't happen."
+    },
+    {
+        "text": "But you get them within epsilon in a number of steps that's like n cubed."
+    },
+    {
+        "text": "So that's pretty impressive."
+    },
+    {
+        "text": "The eigenvalue problem is being solved, in quotes, by a fast method that gets you a good answer within a tolerance in n cubed steps."
+    }
+]

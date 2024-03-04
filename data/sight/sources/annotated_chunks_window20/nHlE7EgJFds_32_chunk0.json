@@ -1,0 +1,62 @@
+[
+    {
+        "text": " Okay, here is lecture ten in linear algebra."
+    },
+    {
+        "text": "Two important things to do in this lecture."
+    },
+    {
+        "text": "One is to correct an error from lecture nine."
+    },
+    {
+        "text": "So the blackboard with that awful error is still with us."
+    },
+    {
+        "text": "And the second, the big thing to do is to tell you about the four subspaces that come with a matrix."
+    },
+    {
+        "text": "We've seen two subspaces, the column space and the null space, there's two to go."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "First of all, and this is a great way to recap and correct the previous lecture."
+    },
+    {
+        "text": "So you remember I was just doing R3."
+    },
+    {
+        "text": "I couldn't have taken a simpler example than R3."
+    },
+    {
+        "text": "And I wrote down the standard basis."
+    },
+    {
+        "text": "That's the standard basis."
+    },
+    {
+        "text": "The basis, the obvious basis for the whole three-dimensional space."
+    },
+    {
+        "text": "And then I wanted to make the point that there was nothing special, nothing about that basis that another basis couldn't have."
+    },
+    {
+        "text": "It could have linear independence, it could span a space, there's lots of other bases."
+    },
+    {
+        "text": "So I started with these vectors one one two and two two five, and those were independent."
+    },
+    {
+        "text": "And then I said three three seven wouldn't do, because three three seven is the sum of those."
+    },
+    {
+        "text": "So in my innocence, I put in three three eight."
+    },
+    {
+        "text": "I figured probably if three three seven is on the plane, is, which I know, it's in the plane with these two, then probably three three eight sticks a little bit out of the plane."
+    },
+    {
+        "text": "And it's independent and it gives a basis."
+    }
+]

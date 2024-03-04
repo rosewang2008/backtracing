@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I think I may rent out this apartment that I found .",
+        "emotion": "neutral",
+        "text": "I think I may rent out this apartment that I found .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , really ? Where ' d you find it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I may rent out this apartment that I found ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ? Where ' d you find it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I was looking through the ads today , and I found it in there .",
+        "emotion": "neutral",
+        "text": "I was looking through the ads today , and I found it in there .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "In the ads ? Are you serious ?",
+        "emotion": "neutral",
+        "text": "In the ads ? Are you serious ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah , and it ' s affordable too .",
+        "emotion": "neutral",
+        "text": "Yeah , and it ' s affordable too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' d like to hear about this apartment .",
+        "emotion": "neutral",
+        "text": "I ' d like to hear about this apartment .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "First of all , it ' s absolutely gorgeous .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it ' s absolutely gorgeous ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "First of all , it ' s absolutely gorgeous .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What is the rent each month ?",
+        "emotion": "neutral",
+        "text": "What is the rent each month ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It ' s only $ 725 a month .",
+        "emotion": "neutral",
+        "text": "It ' s only $ 725 a month .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That ' s amazing . The rent is very cheap .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "It ' s only $ 725 a month .",
+            "The rent is very cheap ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s amazing . The rent is very cheap .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I know it is .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I know it is ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know it is .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It ' s a good thing that you read that ad today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "It ' s a good thing that you read that ad today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s a good thing that you read that ad today .",
+        "id": 12
+    }
+]

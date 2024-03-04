@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 36,
+        "timestamp": 1684722009555.0,
+        "annotatedSourceSentencesIndices": [
+            1,
+            10
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I don't get the point of A = LU.  You need to know U to solve for x in Ax=b.  You need E to find U, you can't get U from L.  Once you have U, you're basically done.  What do you need L for?\n\nI understand the point that L is less costly than E -- but what use is L if you don't know U yet?    What am I missing?"
+    }
+]

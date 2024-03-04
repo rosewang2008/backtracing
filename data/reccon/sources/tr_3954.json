@@ -1,0 +1,203 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a good day !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a good day !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a good day !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . It's really wonderful here The grass is greener and the air is fresher than those in the city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a good day !",
+            "Yes . It's really wonderful here The grass is greener and the air is fresher than those in the city ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . It's really wonderful here The grass is greener and the air is fresher than those in the city .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Right . Let's go out and enjoy the beautiful natural scenery .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Yes . It's really wonderful here The grass is greener and the air is fresher than those in the city .",
+            "Right . Let's go out and enjoy the beautiful natural scenery ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Right . Let's go out and enjoy the beautiful natural scenery .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great , let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Right . Let's go out and enjoy the beautiful natural scenery ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great , let's go .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow , what a beautiful lake ! The green hills and clear water really provide magnificent scenery .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "what a beautiful lake ! The green hills and clear water really provide magnificent scenery ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , what a beautiful lake ! The green hills and clear water really provide magnificent scenery .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "En , it's so beautiful that I don't want to move my eyes from it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it's so beautiful that I don't want to move my eyes from it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "En , it's so beautiful that I don't want to move my eyes from it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I feel as if I'm living in a different world , honey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I feel as if I'm living in a different world , honey ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I feel as if I'm living in a different world , honey .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The same to me . All the things here make me happy , the mountain , the water , the grass , the birds , the sunshine ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "All the things here make me happy , the mountain , the water , the grass , the birds , the sunshine ..."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The same to me . All the things here make me happy , the mountain , the water , the grass , the birds , the sunshine ...",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think we should go out more frequently . The natural scenery can do us good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I think we should go out more frequently . The natural scenery can do us good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think we should go out more frequently . The natural scenery can do us good .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's the point . We should walk into the nature and enjoy its beauty whenever we have time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "We should walk into the nature and enjoy its beauty whenever we have time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's the point . We should walk into the nature and enjoy its beauty whenever we have time .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Right . The city life has made us tired and out of energy , while the natural world can bring us quite new feelings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "We should walk into the nature and enjoy its beauty whenever we have time .",
+            "the natural world can bring us quite new feelings ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Right . The city life has made us tired and out of energy , while the natural world can bring us quite new feelings .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

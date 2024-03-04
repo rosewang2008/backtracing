@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "the laws aren't as strict as in Taiwan . If people are arrested , and they have a little pot in their possession , they don't go to jail . They just have to pay a fine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

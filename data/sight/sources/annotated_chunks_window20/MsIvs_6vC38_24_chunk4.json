@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Pivots all fine, nothing zero in the pivot position, I get to the very end, which is U."
+    },
+    {
+        "text": "So I get from A to U."
+    },
+    {
+        "text": "And I want to know what's the connection."
+    },
+    {
+        "text": "How is A related to U?"
+    },
+    {
+        "text": "And this is going to tell me that there's a matrix L that connects them."
+    },
+    {
+        "text": "OK. Can I do it for a two by two first?"
+    },
+    {
+        "text": "OK. Two by two, elimination."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So I'll do it under D. So let my matrix A be, let's just, we'll keep it simple."
+    },
+    {
+        "text": "Say two and an eight, so we know that the first pivot is a two, and the multiplier is going to be a four, and then let me put a one here, and what number do I not want to put there?"
+    },
+    {
+        "text": "Four."
+    },
+    {
+        "text": "I don't want a four there because in that case, the second pivot would not, we wouldn't have a second pivot, the matrix would be singular, general, screw up."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So let me put some other number here like seven."
+    },
+    {
+        "text": "OK. OK. Now I want to operate on that with my elementary matrix."
+    },
+    {
+        "text": "So what's the elementary matrix?"
+    },
+    {
+        "text": "Strictly speaking, it's E two one, because it's the guy that's going to produce a zero in that position."
+    },
+    {
+        "text": "And it's going to produce U in one shot, because it's just a two by two matrix."
+    },
+    {
+        "text": "So two one, and I'm going to take four of those away from those, produce that zero, and leave a three there."
+    },
+    {
+        "text": "And that's U."
+    }
+]

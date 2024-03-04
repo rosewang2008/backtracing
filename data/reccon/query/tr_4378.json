@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? I'll have a try . Maybe I will get high marks next time .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I suggest you read English texts aloud every day , and try to speak more . That will be beneficial to cultivate your sense of the language ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I'll have a try . Maybe I will get high marks next time .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

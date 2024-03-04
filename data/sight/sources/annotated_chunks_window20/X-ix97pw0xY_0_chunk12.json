@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But y is the number of new cases, right?"
+    },
+    {
+        "text": "Well, it's a number of."
+    },
+    {
+        "text": "And the first thing you should think of when you think about number of, if it were bounded above, you would think binomial, baby."
+    },
+    {
+        "text": "But here, it's just a number."
+    },
+    {
+        "text": "So you think Poisson."
+    },
+    {
+        "text": "That's how insurers think."
+    },
+    {
+        "text": "I have a number of claims per year."
+    },
+    {
+        "text": "This is a Poisson distribution."
+    },
+    {
+        "text": "And hopefully, they can model the conditional distribution of the number of claims given everything that they actually ask you in this survey that I hear you now fill in 15 minutes."
+    },
+    {
+        "text": "All right, so now you have this Poisson distribution."
+    },
+    {
+        "text": "And that's just a modeling assumption."
+    },
+    {
+        "text": "There's no particular reason why you should do this, except that that might be a good idea."
+    },
+    {
+        "text": "And the expected value of your Poisson has to be this mu i at time i."
+    },
+    {
+        "text": "Any question about this slide?"
+    },
+    {
+        "text": "So let's switch to another example."
+    },
+    {
+        "text": "Another example is the so-called prey capture rate."
+    },
+    {
+        "text": "So here, what you're interested in is the rate capture of prey's Yi for a given prey."
+    },
+    {
+        "text": "And you have Xi, which is your explanation."
+    },
+    {
+        "text": "And this is just the density of prey."
+    },
+    {
+        "text": "So you're trying to explain the rate of captures of preys given the density of the prey."
+    }
+]

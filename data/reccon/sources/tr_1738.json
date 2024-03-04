@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's wonderful to be in the mountains after a hustle bustle week .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's wonderful to be in the mountains after a hustle bustle week .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Indeed . I love the smell of the grass and trees . They certainly refresh my mind .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "I love the smell of the grass and trees . They certainly refresh my mind ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Indeed . I love the smell of the grass and trees . They certainly refresh my mind .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Can we stop here for a while ? My backpack is very heavy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Can we stop here for a while ? My backpack is very heavy .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . Did you hear anything ? Look ! An eagle is hovering in the sky .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "I love the smell of the grass and trees . They certainly refresh my mind ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure . Did you hear anything ? Look ! An eagle is hovering in the sky .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Let me see . It's not an eagle . I think it's a vulture .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Let me see . It's not an eagle . I think it's a vulture .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . Will it hurt us ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "I love the smell of the grass and trees . They certainly refresh my mind ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes . Will it hurt us ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I don't think so . Let's walk by the stream . I am sure we can find the waterfall on the map .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "I am sure we can find the waterfall on the map ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't think so . Let's walk by the stream . I am sure we can find the waterfall on the map .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK . I have a good pair of hiking boots . It should not be a big problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I am sure we can find the waterfall on the map .",
+            "OK . I have a good pair of hiking boots . It should not be a big problem ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "OK . I have a good pair of hiking boots . It should not be a big problem .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I also brought a bottle of water and some provisions . If you are hungry , you can let me know .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "It's wonderful to be in the mountains after a hustle bustle week .",
+            "I am sure we can find the waterfall on the map ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I also brought a bottle of water and some provisions . If you are hungry , you can let me know .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You are kind . Look there is a big tree over there , it looks like a thousand-year-old tree .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "If you are hungry , you can let me know .",
+            "it looks like a thousand-year-old tree ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You are kind . Look there is a big tree over there , it looks like a thousand-year-old tree .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , it is a birch tree . It is not as old as you think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "You are kind ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , it is a birch tree . It is not as old as you think .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "How do you know ?",
+        "emotion": "neutral",
+        "text": "How do you know ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Because its trunk is not thick enough to be like a thousand-year-old tree .",
+        "emotion": "happiness",
+        "explanation": "The cause is latent",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Because its trunk is not thick enough to be like a thousand-year-old tree .",
+        "id": 13
+    }
+]

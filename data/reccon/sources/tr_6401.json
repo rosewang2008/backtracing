@@ -1,0 +1,175 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you heard my good news ?",
+        "emotion": "neutral",
+        "text": "Have you heard my good news ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You haven't told me anything yet .",
+        "emotion": "neutral",
+        "text": "You haven't told me anything yet .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I got a promotion at work earlier this week .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I got a promotion at work earlier this week ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I got a promotion at work earlier this week .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is that right ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I got a promotion at work earlier this week ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is that right ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's the truth . I am really happy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I got a promotion at work earlier this week ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "It's the truth . I am really happy .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Congratulations on your promotion .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Congratulations on your promotion ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Congratulations on your promotion .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Congratulations on your promotion ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I am really excited for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I am really excited for you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am really excited for you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Are you really ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I am really excited for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you really ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm serious . You deserved this promotion .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "You deserved this promotion ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm serious . You deserved this promotion .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Is that what you really think ?",
+        "emotion": "neutral",
+        "text": "Is that what you really think ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , I do .",
+        "emotion": "neutral",
+        "text": "Yes , I do .",
+        "id": 12
+    }
+]

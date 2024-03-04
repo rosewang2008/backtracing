@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you have a sum which is equal to 1."
+    },
+    {
+        "text": "So it's indeed a PMF."
+    },
+    {
+        "text": "But what's key about this PMF is that it never takes value 0."
+    },
+    {
+        "text": "This thing is always strictly positive."
+    },
+    {
+        "text": "So whatever value of lambda I find from this data will give me something that's certainly more interesting than just putting the value 0."
+    },
+    {
+        "text": "But more importantly, rather than having to estimate seven parameters, and as a consequence, you actually have to estimate 1, 2, 3, 4 of them, and it equals to 0, I have only one parameter to estimate, which is lambda."
+    },
+    {
+        "text": "The problem with doing this is that now lambda may not be just something as simple as computing the average number."
+    },
+    {
+        "text": "I mean, in this case, it will."
+    },
+    {
+        "text": "But in many instances, it's actually not clear that this parametrization with lambda that I chose, I'm going to be able to estimate lambda just by computing the average number that I see."
+    },
+    {
+        "text": "It will be the case."
+    },
+    {
+        "text": "But if it's not, remember this example of the exponential we did in the last lecture."
+    },
+    {
+        "text": "We could use the delta method and things like that to estimate this."
+    },
+    {
+        "text": "All right, so here's the modeling 101."
+    },
+    {
+        "text": "So the purpose of modeling is to restrict the space of possible distributions to a subspace that's actually plausible, but much simpler for me to estimate."
+    },
+    {
+        "text": "So we went from all distributions on seven parameters, which is a large space that's a lot of things, to something which is just one number to estimate."
+    },
+    {
+        "text": "This number is positive."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any questions about the purpose of doing this?"
+    },
+    {
+        "text": "OK, so we're going to have to do a little bit of formalism now."
+    },
+    {
+        "text": "And so if we want to talk, this is a specific class, so I'm not going to want to talk about the Poisson model specifically every single time."
+    }
+]

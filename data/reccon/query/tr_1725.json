@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "He asked me out to a dinner tonight . How about joining us ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Valentine's Day ?",
+            "He asked me out to a dinner tonight ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He asked me out to a dinner tonight . How about joining us ?",
+        "id": 12,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Thanks . I plan on it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            17
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night .",
+            "Have a great time tomorrow night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I plan on it .",
+        "id": 18,
+        "source_sentences": [
+            12,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

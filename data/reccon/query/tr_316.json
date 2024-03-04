@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You ' re right . I would have to travel to the city at least once a week to go shopping and see friends . I would hate living in the country !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "in that village there ' s nothing to do . There ' s not even a pub or restaurant . There ' s just one small shop with a poor selection of goods .",
+            "I would have to travel to the city at least once a week to go shopping and see friends . I would hate living in the country !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You ' re right . I would have to travel to the city at least once a week to go shopping and see friends . I would hate living in the country !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

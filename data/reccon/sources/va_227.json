@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "My name is Mary , and I will be your waitress tonight .",
+        "emotion": "neutral",
+        "text": "My name is Mary , and I will be your waitress tonight .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you , Mary . We have been looking forward to trying out this restaurant .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I will be your waitress tonight .",
+            "We have been looking forward to trying out this restaurant ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you , Mary . We have been looking forward to trying out this restaurant .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Before your main course , would you like to order an appetizer ?",
+        "emotion": "neutral",
+        "text": "Before your main course , would you like to order an appetizer ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , that sounds great . Where are your appetizers listed ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I will be your waitress tonight .",
+            "We have been looking forward to trying out this restaurant .",
+            "would you like to order an appetizer ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure , that sounds great . Where are your appetizers listed ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "There is a special appetizer menu right here in the center of the table .",
+        "emotion": "neutral",
+        "text": "There is a special appetizer menu right here in the center of the table .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The chicken and cheese quesadilla looks good . Is that pretty good ?",
+        "emotion": "neutral",
+        "text": "The chicken and cheese quesadilla looks good . Is that pretty good ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know , that is one of my favorites !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "that is one of my favorites !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You know , that is one of my favorites !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK , I'll take one order of that .",
+        "emotion": "neutral",
+        "text": "OK , I'll take one order of that .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You could choose another appetizer for half price to share .",
+        "emotion": "neutral",
+        "text": "You could choose another appetizer for half price to share .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Perfect ! Please add on an order of onion rings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "another appetizer for half price"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Perfect ! Please add on an order of onion rings .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

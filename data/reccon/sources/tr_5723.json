@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you bought War Craft 2 yet ?",
+        "emotion": "neutral",
+        "text": "Have you bought War Craft 2 yet ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah ! I bought it the day it was released .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Yeah ! I bought it the day it was released ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah ! I bought it the day it was released .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How do you like it ?",
+        "emotion": "neutral",
+        "text": "How do you like it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's a great game . There are a lot of new characters .",
+        "emotion": "neutral",
+        "text": "It's a great game . There are a lot of new characters .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did it cost very much",
+        "emotion": "neutral",
+        "text": "Did it cost very much",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It cost about thirty . Most games cost about that much .",
+        "emotion": "neutral",
+        "text": "It cost about thirty . Most games cost about that much .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Mechwarrior is such a good game . The graphics are awesome !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Mechwarrior is such a good game . The graphics are awesome !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Mechwarrior is such a good game . The graphics are awesome !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , I know what you mean . I'm addicted to that game .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Mechwarrior is such a good game . The graphics are awesome !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , I know what you mean . I'm addicted to that game .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "My roommate always wants to play it . But I told her to buy her own game .",
+        "emotion": "neutral",
+        "text": "My roommate always wants to play it . But I told her to buy her own game .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , my roommate likes to watch me play . He says it's like watching a movie .",
+        "emotion": "neutral",
+        "text": "Yeah , my roommate likes to watch me play . He says it's like watching a movie .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I've never seen such good graphics .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I've never seen such good graphics ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've never seen such good graphics .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "And I've never heard such good sound in a game .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've never seen such good graphics .",
+            "And I've never heard such good sound in a game ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And I've never heard such good sound in a game .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

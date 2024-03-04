@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You can try some examples to figure it out, but it has a much simpler description."
+    },
+    {
+        "text": "It's not a totally trivial description."
+    },
+    {
+        "text": "I mean, there is some content there, but it is the kind of thing that a finite automaton can do."
+    },
+    {
+        "text": "It wouldn't do the counting this way."
+    },
+    {
+        "text": "So the moral is, the punchline is, that sometimes the intuition works, but it can also be wrong."
+    },
+    {
+        "text": "And so the moral of the story is you need to give a proof when you're doing things like that."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So what we're going to do next in the second half of the lecture is to give a method for proving languages are not regular."
+    },
+    {
+        "text": "And again, you're going to need to use that on your homework, so I hope you get it."
+    },
+    {
+        "text": "But first of all, oh, did I never stop sharing that poll?"
+    },
+    {
+        "text": "Forgive me."
+    },
+    {
+        "text": "And so with that, I think we'll take our little requested break."
+    },
+    {
+        "text": "And for five minutes, and we'll be back in five minutes."
+    },
+    {
+        "text": "So break time."
+    },
+    {
+        "text": "All righty."
+    },
+    {
+        "text": "We are done here."
+    },
+    {
+        "text": "And proving languages not regular."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "The way we're going to prove languages are not regular is by introducing a method called the pumping lemma."
+    },
+    {
+        "text": "And the overarching plan at the pumping lemma, without getting into the specifics of it, is to show that that lemma says all regular languages have a certain property, which we will describe."
+    }
+]

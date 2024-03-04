@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , this is Helen speaking .",
+        "emotion": "neutral",
+        "text": "Hello , this is Helen speaking .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , Helen . This is John . How are you ?",
+        "emotion": "neutral",
+        "text": "Hello , Helen . This is John . How are you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Fine , thank you . And you ?",
+        "emotion": "happiness",
+        "explanation": "Helen is happy to meet John",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "This is John . How are you ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine , thank you . And you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fine , thanks . I ' ll have a party next Sunday at home . I ' m calling to ask whether you can come or not .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Fine , thank you . And you ?",
+            "I ' ll have a party next Sunday at home ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Fine , thanks . I ' ll have a party next Sunday at home . I ' m calling to ask whether you can come or not .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , how wonderful . I ' ll be glad to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' ll have a party next Sunday at home ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , how wonderful . I ' ll be glad to .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Okay , now you are a famous star .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' ll have a party next Sunday at home .",
+            "how wonderful . I ' ll be glad to ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Okay , now you are a famous star .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Hum , don ' t say that . Maybe you can do something useful for me .",
+        "emotion": "neutral",
+        "text": "Hum , don ' t say that . Maybe you can do something useful for me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What ' s wrong with you ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Maybe you can do something useful for me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ' s wrong with you ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I ' ll tell you at the party .",
+        "emotion": "neutral",
+        "text": "I ' ll tell you at the party .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Okay .",
+        "emotion": "neutral",
+        "text": "Okay .",
+        "id": 10
+    }
+]

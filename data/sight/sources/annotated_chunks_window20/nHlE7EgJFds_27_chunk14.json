@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I have a row vector, y transpose, multiplying A and multiplying from the left."
+    },
+    {
+        "text": "That's why I call it the left null space."
+    },
+    {
+        "text": "But by making it, putting it on the left, I had to make it into a row instead of a column vector."
+    },
+    {
+        "text": "And so my convention is I usually don't do that, I usually stay with A transpose y equals zero."
+    },
+    {
+        "text": "OK. And you might ask, how do we get a basis, or I might ask, how do we get a basis for this fourth space, this left null space?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'll do it the example."
+    },
+    {
+        "text": "As always, ah, not that one."
+    },
+    {
+        "text": "The left null space is not jumping out at me here."
+    },
+    {
+        "text": "I know which are the free variables, the special solutions, but those are special solutions to Ax equals zero, and now I'm looking at A transpose and I'm not seeing it here."
+    },
+    {
+        "text": "So, but somehow you feel that the work that you did, which simplified A to R, should have revealed the left null space too."
+    },
+    {
+        "text": "And it's slightly less immediate, but it's there."
+    },
+    {
+        "text": "So from A to R, I took some steps, and I guess I'm interested in what were those steps, or what were all of them together."
+    },
+    {
+        "text": "I don't want to -- I'm not interested in what particular ones they were."
+    },
+    {
+        "text": "I'm interested in what was the whole matrix that took me from A to R. How would you find that?"
+    },
+    {
+        "text": "Do you remember Gauss-Jordan, where you tack on the identity matrix?"
+    },
+    {
+        "text": "Let's do that again."
+    },
+    {
+        "text": "So I'll do it above here."
+    },
+    {
+        "text": "So this is now the idea of I take the matrix A, which is m by n. In Gauss-Jordan, when we saw him before, A was a square invertible matrix and we were finding its inverse."
+    },
+    {
+        "text": "Now the matrix isn't square, it's probably rectangular."
+    }
+]

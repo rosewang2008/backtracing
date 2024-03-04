@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Anna speaking !",
+        "emotion": "neutral",
+        "text": "Hello , Anna speaking !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hey , Anna , this is Jason .",
+        "emotion": "neutral",
+        "text": "Hey , Anna , this is Jason .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Jason , where have you been hiding lately ? You know it's been a long time since your last call . Have you been good ?",
+        "emotion": "neutral",
+        "text": "Jason , where have you been hiding lately ? You know it's been a long time since your last call . Have you been good ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . How are you , Anna ?",
+        "emotion": "neutral",
+        "text": "Yes . How are you , Anna ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I am fine . What have you been doing ?",
+        "emotion": "neutral",
+        "text": "I am fine . What have you been doing ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Working . I've been really busy these days . I got a promotion .",
+        "emotion": "neutral",
+        "text": "Working . I've been really busy these days . I got a promotion .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's great , congratulations !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I got a promotion ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's great , congratulations !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thanks . I am feeling pretty good about myself too . You know , bigger office , a raise and even an assistant .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "That's great , congratulations !",
+            "I am feeling pretty good about myself too . You know , bigger office , a raise and even an assistant ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . I am feeling pretty good about myself too . You know , bigger office , a raise and even an assistant .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's good . So I guess I'll have to make an appointment to see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I am feeling pretty good about myself too . You know , bigger office , a raise and even an assistant ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's good . So I guess I'll have to make an appointment to see you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You are kidding .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I guess I'll have to make an appointment to see you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are kidding .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "How long have you been working there ?",
+        "emotion": "neutral",
+        "text": "How long have you been working there ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "A bit over two years . This is a fast-moving company , and seniority isn ' t the only factor in deciding promotions .",
+        "emotion": "neutral",
+        "text": "A bit over two years . This is a fast-moving company , and seniority isn ' t the only factor in deciding promotions .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How do you like your new boss ?",
+        "emotion": "neutral",
+        "text": "How do you like your new boss ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "She is very nice and open-minded .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I got a promotion .",
+            "She is very nice and open-minded ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "She is very nice and open-minded .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Much better than the last one , huh ?",
+        "emotion": "neutral",
+        "text": "Much better than the last one , huh ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yeah . He was a real slave driver . He probably would have loved it if we were robots .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Much better than the last one"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah . He was a real slave driver . He probably would have loved it if we were robots .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Forget about him . Come over to my house tonight . Let's get drunk .",
+        "emotion": "neutral",
+        "text": "Forget about him . Come over to my house tonight . Let's get drunk .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Good . Tonight 8 o'clock .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "Come over to my house tonight . Let's get drunk ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . Tonight 8 o'clock .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "8 it is . See you then .",
+        "emotion": "neutral",
+        "text": "8 it is . See you then .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "Come over to my house tonight . Let's get drunk ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 20,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

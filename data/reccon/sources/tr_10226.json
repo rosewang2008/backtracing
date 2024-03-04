@@ -1,0 +1,161 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'd appreciate it if you could help me pick out a gift for my daughter .",
+        "emotion": "neutral",
+        "text": "I'd appreciate it if you could help me pick out a gift for my daughter .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Would she be interested in a laptop ?",
+        "emotion": "neutral",
+        "text": "Would she be interested in a laptop ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That's exactly what I was thinking of .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "pick out a gift for my daughter .",
+            "Would she be interested in a laptop ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's exactly what I was thinking of .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "A Mac would be an excellent gift .",
+        "emotion": "neutral",
+        "text": "A Mac would be an excellent gift .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I like Macs . How much for a Mac ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like Macs ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like Macs . How much for a Mac ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You can take a 15 - inch Pro home right now for only $ 2,100 .",
+        "emotion": "neutral",
+        "text": "You can take a 15 - inch Pro home right now for only $ 2,100 .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "A Mac it is . I'll take one home with me .",
+        "emotion": "neutral",
+        "text": "A Mac it is . I'll take one home with me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "She'll be very happy with this . And how do you plan to pay for it ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A will be buying a product",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "A Mac it is . I'll take one home with me .",
+            "She'll be very happy with this ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "She'll be very happy with this . And how do you plan to pay for it ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll use my VISA , if that's okay .",
+        "emotion": "neutral",
+        "text": "I'll use my VISA , if that's okay .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Now , if you'll just sign here , the Mac is all yours .",
+        "emotion": "neutral",
+        "text": "Now , if you'll just sign here , the Mac is all yours .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Will she need anything besides what's in this box ?",
+        "emotion": "neutral",
+        "text": "Will she need anything besides what's in this box ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Everything she needs is right here in the box .",
+        "emotion": "neutral",
+        "text": "Everything she needs is right here in the box .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I appreciate your help . Maybe I'll be back for more computer stuff .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I appreciate your help ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I appreciate your help . Maybe I'll be back for more computer stuff .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Your daughter should get straight A's from now on . Good-bye .",
+        "emotion": "neutral",
+        "text": "Your daughter should get straight A's from now on . Good-bye .",
+        "id": 14
+    }
+]

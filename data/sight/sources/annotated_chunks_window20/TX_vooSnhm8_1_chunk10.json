@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What's sigma?"
+    },
+    {
+        "text": "So I'm looking for U sigma V transpose."
+    },
+    {
+        "text": "U, the diagonal guy, and V transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Let's just see that come out right."
+    },
+    {
+        "text": "So what's, what are the, what are the sigmas?"
+    },
+    {
+        "text": "They're the square roots of these things."
+    },
+    {
+        "text": "So square root of thirty-two and square root of eighteen."
+    },
+    {
+        "text": "Zero, zero."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What are the Vs?"
+    },
+    {
+        "text": "They're these two."
+    },
+    {
+        "text": "And I have to transpose, maybe that, maybe that just leaves me with one, with one over square root of two in that row, and the other one is one over square root of two minus one over square root of two."
+    },
+    {
+        "text": "Now, finally, I've got to know the Us."
+    },
+    {
+        "text": "Well, actually, one way to do, since I now know all the other pieces, I could put those together and figure out what the Us are."
+    },
+    {
+        "text": "But let me do it the A A transpose way."
+    },
+    {
+        "text": "Okay, find the Us now."
+    },
+    {
+        "text": "U1 and U2."
+    },
+    {
+        "text": "And what are they?"
+    },
+    {
+        "text": "I look at A A transpose, so A is supposed to be U sigma V transpose, and then when I transpose that, I get V sigma transpose U transpose."
+    }
+]

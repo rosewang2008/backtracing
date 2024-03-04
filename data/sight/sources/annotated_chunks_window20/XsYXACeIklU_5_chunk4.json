@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This time, T2 is also going to have an exponential distribution with the same parameter, lambda."
+    },
+    {
+        "text": "And these two are going to be independent of each other."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So the Poisson process has all the same memorylessness properties that the Bernoulli process has."
+    },
+    {
+        "text": "What's another way of thinking of this property?"
+    },
+    {
+        "text": "So think of a process where you have a light bulb."
+    },
+    {
+        "text": "The time at the light bulb burns out, you can model it by an exponential random variable."
+    },
+    {
+        "text": "And suppose that they tell you that so far, we're are sitting at some time, T. And I tell you that the light bulb has not yet burned out."
+    },
+    {
+        "text": "What does this tell you about the future of the light bulb?"
+    },
+    {
+        "text": "Is the fact that they didn't burn out, so far, is it good news or is it bad news?"
+    },
+    {
+        "text": "Would you rather keep this light bulb that has worked for t times steps and is still OK?"
+    },
+    {
+        "text": "Or would you rather use a new light bulb that starts new at that point in time?"
+    },
+    {
+        "text": "Because of the memorylessness property, the past of that light bulb doesn't matter."
+    },
+    {
+        "text": "So the future of this light bulb is statistically the same as the future of a new light bulb."
+    },
+    {
+        "text": "For both of them, the time until they burn out is going to be described an exponential distribution."
+    },
+    {
+        "text": "So one way that people described the situation is to say that used is exactly as good as a new."
+    },
+    {
+        "text": "So a used on is no worse than a new one."
+    },
+    {
+        "text": "A used one is no better than a new one."
+    },
+    {
+        "text": "So a used light bulb that hasn't yet burnt out is exactly as good as a new light bulb."
+    },
+    {
+        "text": "So that's another way of thinking about the memorylessness that we have in the Poisson process."
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I wish I knew who had moved our flower pots .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "who had moved our flower pots ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I wish I knew who had moved our flower pots .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was me . I am so sorry .",
+        "emotion": "neutral",
+        "text": "It was me . I am so sorry .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What did you think you were doing ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "who had moved our flower pots .",
+            "who had moved our flower pots .",
+            "It was me ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What did you think you were doing ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I had to move it , so that I can get my bike through .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "What did you think you were doing ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I had to move it , so that I can get my bike through .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How dare you be so inconsiderate ? That's wrong .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2,
+            5
+        ],
+        "expanded emotion cause span": [
+            "who had moved our flower pots .",
+            "who had moved our flower pots .",
+            "It was me .",
+            "How dare you be so inconsiderate ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "How dare you be so inconsiderate ? That's wrong .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I am awfully sorry . I didn't think you would mind so much .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "What did you think you were doing ?",
+            "I am awfully sorry . I didn't think you would mind so much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am awfully sorry . I didn't think you would mind so much .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Never do that again .",
+        "emotion": "neutral",
+        "text": "Never do that again .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I promise .",
+        "emotion": "neutral",
+        "text": "I promise .",
+        "id": 8
+    }
+]

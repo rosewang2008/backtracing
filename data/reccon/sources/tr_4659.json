@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good evening . Welcome to our program .",
+        "emotion": "happiness",
+        "explanation": "Person A is happy because he got a new participant in their program",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Welcome to our program ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Good evening . Welcome to our program .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . Good evening , Mr . Dean .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Welcome to our program ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Good evening , Mr . Dean .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Would you tell us your name , please ?",
+        "emotion": "neutral",
+        "text": "Would you tell us your name , please ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm Helen Baker .",
+        "emotion": "neutral",
+        "text": "I'm Helen Baker .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Glad to meet you , Ms . Baker .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Welcome to our program .",
+            "I'm Helen Baker ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Glad to meet you , Ms . Baker .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Glad to meet you , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Glad to meet you , Ms . Baker ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Glad to meet you , too .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Where are you from , Ms . Baker ?",
+        "emotion": "neutral",
+        "text": "Where are you from , Ms . Baker ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'm from New Zealand .",
+        "emotion": "neutral",
+        "text": "I'm from New Zealand .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What do you do for a living ?",
+        "emotion": "neutral",
+        "text": "What do you do for a living ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm a teacher .",
+        "emotion": "neutral",
+        "text": "I'm a teacher .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you for coming , Ms . baker .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Welcome to our program ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Thank you for coming , Ms . baker .",
+        "id": 11
+    }
+]

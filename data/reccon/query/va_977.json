@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? A foreign parrot !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's interesting that there is also a parrot in my English book . His mane is Polly ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? A foreign parrot !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

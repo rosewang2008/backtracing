@@ -1,0 +1,62 @@
+[
+    {
+        "text": "There'll be two eigenvalues."
+    },
+    {
+        "text": "Well, tell me again what I know about the two eigenvalues before I go any further."
+    },
+    {
+        "text": "Tell me something about these two eigenvalues, what do they add up to?"
+    },
+    {
+        "text": "Lambda one plus lambda two is the same as the trace down the diagonal of the matrix, one and zero is one."
+    },
+    {
+        "text": "So lambda one plus lambda two should come out to be one, and lambda one times lambda two should come out to be the determinant, which is minus one."
+    },
+    {
+        "text": "So I'm expecting the eigenvalues to add to one and to multiply to minus one."
+    },
+    {
+        "text": "But let's just see it happen here."
+    },
+    {
+        "text": "If I multiply this out, I get that times that'll be a lambda squared minus lambda minus one."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Lambda squared minus lambda minus one."
+    },
+    {
+        "text": "Actually, you see the, compare that with the original equation that I started with."
+    },
+    {
+        "text": "Fk plus two minus Fk plus one minus Fk is zero."
+    },
+    {
+        "text": "The recurrent, the recursion that the Fibonacci number satisfy is somehow showing up directly here for the eigenvalues when we set that to zero."
+    },
+    {
+        "text": "OK. Let's solve."
+    },
+    {
+        "text": "Well, I would like to be able to factor that, that quadratic, but I'm better off to use the quadratic formula."
+    },
+    {
+        "text": "Lambda is, let's see, minus b is one, plus or minus the square root of b squared, which is one, minus four, times that, times that, which is plus four, over two."
+    },
+    {
+        "text": "So that's the square root of five."
+    },
+    {
+        "text": "So the eigenvalues are lambda one is one half of one plus square root of five, and lambda two is one half of one minus square root of five."
+    },
+    {
+        "text": "And sure enough, they, those add up to one, and they multiply to give minus one."
+    },
+    {
+        "text": "OK. Those are the two eigenvalues."
+    }
+]

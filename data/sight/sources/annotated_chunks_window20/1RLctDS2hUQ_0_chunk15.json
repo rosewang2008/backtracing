@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And to make these two things equal, what we want is to put that minus sign in."
+    },
+    {
+        "text": "Now it's consistent."
+    },
+    {
+        "text": "So again, these rules are set up so that everything is consistent."
+    },
+    {
+        "text": "And now I want to improve on Rule 3 here."
+    },
+    {
+        "text": "And point out to you, so let me just go back to Rule 3 for a second, that now that we can evaluate integrals regardless of the order, we don't have to have a less than b, b less than c in order to make sense out of this."
+    },
+    {
+        "text": "We actually have the possibility of considering integrals where the a's and the b's and the c's are in any order you want."
+    },
+    {
+        "text": "And in fact, with this definition, with this definition 5, 3 works no matter what the numbers are."
+    },
+    {
+        "text": "So this is much more convenient."
+    },
+    {
+        "text": "We don't, this is not necessary."
+    },
+    {
+        "text": "It just works using Convention 5."
+    },
+    {
+        "text": "OK, with 5."
+    },
+    {
+        "text": "Again, before I go on, let me emphasize, we really want to respect the sign of this velocity."
+    },
+    {
+        "text": "We really want the net change in the position."
+    },
+    {
+        "text": "And we don't want this absolute value here."
+    },
+    {
+        "text": "Because otherwise, all of our formulas are going to mess up."
+    },
+    {
+        "text": "We won't always be able to check."
+    },
+    {
+        "text": "Sometimes you have letters rather than actual numbers here, and you won't know whether a is bigger than b."
+    },
+    {
+        "text": "So you'll want to know that these formulas work and are consistent in all situations."
+    },
+    {
+        "text": "OK, I'm going to trade these again in order to preserve the ordering 1 through 5."
+    },
+    {
+        "text": "And now I have a sixth property that I want to talk about."
+    }
+]

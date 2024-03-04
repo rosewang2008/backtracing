@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK . Here are your robes . You can go shower first .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We'll do the seaweed wrap , the jet bath , and the foot massage ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Here are your robes . You can go shower first .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

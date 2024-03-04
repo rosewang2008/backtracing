@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "There's a new play tonight .",
+        "emotion": "neutral",
+        "text": "There's a new play tonight .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's its name ?",
+        "emotion": "neutral",
+        "text": "What's its name ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "' Romeo and Juliet ' .",
+        "emotion": "neutral",
+        "text": "' Romeo and Juliet ' .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What is it about ?",
+        "emotion": "neutral",
+        "text": "What is it about ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's about their great love .",
+        "emotion": "neutral",
+        "text": "It's about their great love .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sounds interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "their great love ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds interesting .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Of course . Do you want to see it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Sounds interesting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course . Do you want to see it ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , do you have tickets ?",
+        "emotion": "neutral",
+        "text": "Yes , do you have tickets ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I don't .",
+        "emotion": "neutral",
+        "text": "No , I don't .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Let's go to the theater and buy two tickets now , shall we ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "their great love ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's go to the theater and buy two tickets now , shall we ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good idea . Let's goa",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Let's go to the theater and buy two tickets now"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good idea . Let's goa",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            11
+        ],
+        "expanded emotion cause span": [
+            "their great love .",
+            "Good idea ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Let's go .",
+        "id": 12,
+        "source_sentences": [
+            4,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

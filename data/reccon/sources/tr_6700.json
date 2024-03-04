@@ -1,0 +1,109 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Tomorrow is Halloween , I know I'm ready . I bought two pumpkins and a big bags of candy . Do you want to help me a jack-o-lantern ?",
+        "emotion": "neutral",
+        "text": "Tomorrow is Halloween , I know I'm ready . I bought two pumpkins and a big bags of candy . Do you want to help me a jack-o-lantern ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd love to . I heard about Halloween when I was in Beijing . It's kind of a children's day . Small kids get dressed up , then walk around with paper bags or baskets , knocking on the neighbor's",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "Tomorrow is Halloween ,",
+            "Do you want to help me a jack-o-lantern ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'd love to . I heard about Halloween when I was in Beijing . It's kind of a children's day . Small kids get dressed up , then walk around with paper bags or baskets , knocking on the neighbor's",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "They are supposed to say trick or treat ? Then the neighbors are supposed to hand up the candy .",
+        "emotion": "neutral",
+        "text": "They are supposed to say trick or treat ? Then the neighbors are supposed to hand up the candy .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's kind of cool . But what's the trick mean ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "They are supposed to say trick or treat ? Then the neighbors are supposed to hand up the candy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's kind of cool . But what's the trick mean ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Usually it's the older kids going around playing Halloween , like punching the pumpkins left outside people's doors or - - someone's tree . They usually do it late at night after little kids go",
+        "emotion": "neutral",
+        "text": "Usually it's the older kids going around playing Halloween , like punching the pumpkins left outside people's doors or - - someone's tree . They usually do it late at night after little kids go",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That sounds kind of fun , maybe I can get tighter with my friends that night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Usually it's the older kids going around playing Halloween , like punching the pumpkins left outside people's doors or - - someone's tree ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds kind of fun , maybe I can get tighter with my friends that night .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Usually be adults , you don't have kids have a big party in get dressed up too .",
+        "emotion": "neutral",
+        "text": "Usually be adults , you don't have kids have a big party in get dressed up too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That does sound a lot of fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Usually it's the older kids going around playing Halloween , like punching the pumpkins left outside people's doors or - - someone's tree ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That does sound a lot of fun .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

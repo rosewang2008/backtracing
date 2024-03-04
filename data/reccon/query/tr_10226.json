@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "She'll be very happy with this . And how do you plan to pay for it ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A will be buying a product",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "A Mac it is . I'll take one home with me .",
+            "She'll be very happy with this ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "She'll be very happy with this . And how do you plan to pay for it ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 1,
+        "timestamp": 1684700727042.0,
+        "annotatedSourceSentencesIndices": [
+            1
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "How the imaginary parts are taken care of in Fourier Basis for JPEG?"
+    }
+]

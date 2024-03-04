@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "Xa2jPbURTjQ",
+        "query_id": 5,
+        "timestamp": 1684192613269.0,
+        "annotatedSourceSentencesIndices": [
+            19
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "for a square matrix with orthogonal columns will ||Qx||^2 = || x ||^2 hold or the columns have to be orthonormal for this equality to hold ??? a bit confused please help"
+    }
+]

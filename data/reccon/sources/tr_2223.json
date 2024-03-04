@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Rachel , do you like music ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Rachel , do you like music ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Of course . I can't live without it , so I always bring my CD with me no matter where I go .",
+        "emotion": "happiness",
+        "explanation": "Person B sharing her personal belief and choice with happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I can't live without it , so I always bring my CD with me no matter where I go ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Of course . I can't live without it , so I always bring my CD with me no matter where I go .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What kind of music do you like best ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What kind of music do you like best ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Light music and classic music .",
+        "emotion": "happiness",
+        "explanation": "Person B sharing her personal belief and choice with happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I can't live without it , so I always bring my CD with me no matter where I go ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Light music and classic music .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? I can't believe this . I am also keen on classic music . And do you know there is a concert of classic music tomorrow evening ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Light music and classic music ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I can't believe this . I am also keen on classic music . And do you know there is a concert of classic music tomorrow evening ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "But I didn't get the ticket . And it is said that they were sold out yesterday .",
+        "emotion": "neutral",
+        "text": "But I didn't get the ticket . And it is said that they were sold out yesterday .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I got two . We can go there together .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I got two . We can go there together ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I got two . We can go there together .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Amazing ! I can imagine the feeling when I hear the smooth tune around my ears .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I got two . We can go there together .",
+            "I can imagine the feeling when I hear the smooth tune around my ears ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Amazing ! I can imagine the feeling when I hear the smooth tune around my ears .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, let's do an example."
+    },
+    {
+        "text": "Here's an example of G1 generating some string."
+    },
+    {
+        "text": "So as I mentioned, first of all, you're going to write down the start variable."
+    },
+    {
+        "text": "And I'm just going to illustrate this in sort of two parallel tracks here."
+    },
+    {
+        "text": "On the left side, I'm going to show you the tree of substitutions."
+    },
+    {
+        "text": "And on the right side, I'm going to show you the resulting string that you get by applying those substitutions."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So over here, I'm going to substitute for s the string 0, s1."
+    },
+    {
+        "text": "So on the right-hand side, I just have 0, s1 because that's what I substituted for s. But you'll see it's going to look a little different in a second."
+    },
+    {
+        "text": "Here, again, I still have a variable."
+    },
+    {
+        "text": "So I'm going to substitute for s 0, s1."
+    },
+    {
+        "text": "Now I have the resulting string 0, 0, s1, 1 because I've substituted 0, s1 for the previous s. But the 0 and 1 stick around from before."
+    },
+    {
+        "text": "They don't go anywhere."
+    },
+    {
+        "text": "So I have at this point 0, 0, s1, 1."
+    },
+    {
+        "text": "Now I'm going to take a different choice."
+    },
+    {
+        "text": "I'm going to substitute for s. I could have gone either way."
+    },
+    {
+        "text": "There's sort of something almost like nondeterminism here because you have a choice."
+    },
+    {
+        "text": "I'm going to substitute for s. Instead of 0, s1, I'm going to substitute r because that's also legitimate in terms of the rules."
+    },
+    {
+        "text": "And so now I'm going to have 0, 0, r, 1, 1."
+    },
+    {
+        "text": "And now r, there's no choices here."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , what can I get for you ?",
+        "emotion": "neutral",
+        "text": "Hi , what can I get for you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , may I have a double cheeseburger ?",
+        "emotion": "neutral",
+        "text": "Hello , may I have a double cheeseburger ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "With everything on it ?",
+        "emotion": "neutral",
+        "text": "With everything on it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "may I have a double cheeseburger ?",
+            "With everything on it ?",
+            "That sounds great ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That sounds great .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did you want fries with your order ?",
+        "emotion": "neutral",
+        "text": "Did you want fries with your order ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "May I get a large order of curly fries ?",
+        "emotion": "neutral",
+        "text": "May I get a large order of curly fries ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Did you want something to drink ?",
+        "emotion": "neutral",
+        "text": "Did you want something to drink ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Get me a medium Pepsi .",
+        "emotion": "neutral",
+        "text": "Get me a medium Pepsi .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Would you like anything else ?",
+        "emotion": "neutral",
+        "text": "Would you like anything else ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No , thank you . That's it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "may I have a double cheeseburger ?",
+            "With everything on it ?",
+            "That sounds great .",
+            "large order of curly fries ?",
+            "medium Pepsi .",
+            "thank you ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No , thank you . That's it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No problem , that'll be $ 5 . 48 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "thank you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem , that'll be $ 5 . 48 .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks a lot . Keep the change .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            6,
+            8,
+            10,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "may I have a double cheeseburger ?",
+            "With everything on it ?",
+            "That sounds great .",
+            "large order of curly fries ?",
+            "medium Pepsi .",
+            "thank you .",
+            "No problem ,",
+            "Thanks a lot ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thanks a lot . Keep the change .",
+        "id": 12
+    }
+]

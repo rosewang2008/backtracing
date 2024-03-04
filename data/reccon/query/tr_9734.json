@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you , but no . This will do it for now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Our regular price for Digital Barbie is $ 29 . 95 plus tax ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , but no . This will do it for now .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

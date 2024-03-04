@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I help you , Ma'am ?",
+        "emotion": "neutral",
+        "text": "Can I help you , Ma'am ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I need a phone card for this new cell phone .",
+        "emotion": "neutral",
+        "text": "I need a phone card for this new cell phone .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Cool phone . What kind of phone card do you want ?",
+        "emotion": "happiness",
+        "explanation": "A is happy as B wants to get a service from them",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I need a phone card",
+            "Cool phone ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Cool phone . What kind of phone card do you want ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's for my daughter who is still a senior high school student .",
+        "emotion": "neutral",
+        "text": "It's for my daughter who is still a senior high school student .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Then the M-Zone will be suitable .",
+        "emotion": "neutral",
+        "text": "Then the M-Zone will be suitable .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What's special with the service ?",
+        "emotion": "neutral",
+        "text": "What's special with the service ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know students use tested message service . And they provide favorable service for that .",
+        "emotion": "neutral",
+        "text": "You know students use tested message service . And they provide favorable service for that .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's nice . And I need a pre-paid phone card .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "they provide favorable service"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's nice . And I need a pre-paid phone card .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , there is a sales promotion for it now .",
+        "emotion": "neutral",
+        "text": "Oh , there is a sales promotion for it now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , good . Then what is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "there is a sales promotion"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , good . Then what is it ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "If you buy a pre-paid phone card worth 100 yuan today , you will get 50 yuan for free .",
+        "emotion": "neutral",
+        "text": "If you buy a pre-paid phone card worth 100 yuan today , you will get 50 yuan for free .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "May I have two of them ?",
+        "emotion": "neutral",
+        "text": "May I have two of them ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sure . As many as you want .",
+        "emotion": "happiness",
+        "explanation": "A is happy as B wants to get a service from them",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "May I have two"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . As many as you want .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Okay , then a third one for my husband too .",
+        "emotion": "neutral",
+        "text": "Okay , then a third one for my husband too .",
+        "id": 14
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "1 by 1 is not going to work either."
+    },
+    {
+        "text": "But H12 works, H8, H16."
+    },
+    {
+        "text": "What's our conjecture?"
+    },
+    {
+        "text": "We won't be the first to conjecture it."
+    },
+    {
+        "text": "There is a 1's and minus 1's orthogonal matrix with orthogonal columns of every size n. So always, so I'll start the conjecture."
+    },
+    {
+        "text": "Always possible if n, which is the size of the matrix, let's say, what would you guess?"
+    },
+    {
+        "text": "Just take a shot."
+    },
+    {
+        "text": "You won't be asked for a proof, because nobody has the proof."
+    },
+    {
+        "text": "Even?"
+    },
+    {
+        "text": "Well, you could hope for even."
+    },
+    {
+        "text": "You could look for try 6, I guess, would be the first guy there."
+    },
+    {
+        "text": "And I don't think it's possible."
+    },
+    {
+        "text": "I think 6 is not possible."
+    },
+    {
+        "text": "So every even size is, I think, not going to work."
+    },
+    {
+        "text": "But it's a natural idea to try."
+    },
+    {
+        "text": "What's the next thought?"
+    },
+    {
+        "text": "Every multiple of 4."
+    },
+    {
+        "text": "If n over 4 is a whole number."
+    },
+    {
+        "text": "But nobody has a systematic way to create these things."
+    },
+    {
+        "text": "So like some of them, at this point, we're down to doing it one at a time."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I didn't know you liked bird-watching .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too .",
+            "that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I didn't know you liked bird-watching .",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

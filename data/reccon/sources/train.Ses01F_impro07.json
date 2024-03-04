@@ -1,0 +1,497 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Did you get the letter?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Did you get the letter?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Yes. There's a big envelope it says, you're in. I know.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Yes. There's a big envelope it says, you're in. I know.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "Yeah. That is so awesome.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah. That is so awesome.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh my God. What are you going to do? [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh my God. What are you going to do? [LAUGHTER]",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Oh-Yeah, I bet you're really excited. Oh. That's what loans are for? Right? Exactly.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            5,
+            2
+        ],
+        "expanded emotion cause span": [
+            "That's what loans are for",
+            "There's a big envelope it says, you're in."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh-Yeah, I bet you're really excited. Oh. That's what loans are for? Right? Exactly.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "I'm really excited. Yeah. I don't know how I'm going to pay for anything, but... I also- Yeah. Loans, too, yeah. I applied, though, for a bunch of grants and scholarships so I'm still waiting to hear on that.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            5,
+            2
+        ],
+        "expanded emotion cause span": [
+            "That's what loans are for",
+            "There's a big envelope it says, you're in."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'm really excited. Yeah. I don't know how I'm going to pay for anything, but... I also- Yeah. Loans, too, yeah. I applied, though, for a bunch of grants and scholarships so I'm still waiting to hear on that.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Oh. Good, good. That's awesome. Are you going to stay around here? Or are you going to like get a different neighborhood- you going to move to a different neighborhood?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            5,
+            2
+        ],
+        "expanded emotion cause span": [
+            "That's what loans are for",
+            "There's a big envelope it says, you're in."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh. Good, good. That's awesome. Are you going to stay around here? Or are you going to like get a different neighborhood- you going to move to a different neighborhood?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Oh- I know, I know, I know, I know.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            7,
+            5,
+            2
+        ],
+        "expanded emotion cause span": [
+            "move to a different neighborhood",
+            "That's what loans are for",
+            "There's a big envelope it says, you're in."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh- I know, I know, I know, I know.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't know. I spend so much time commuting as it is, I'd rather.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            7,
+            5,
+            2
+        ],
+        "expanded emotion cause span": [
+            "move to a different neighborhood",
+            "That's what loans are for",
+            "There's a big envelope it says, you're in."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I don't know. I spend so much time commuting as it is, I'd rather.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "This is so- I am so happy that you're going to stay. You're not going to...We should totally throw a party.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I spend so much time commuting as it is, I'd rather.",
+            "you're going to stay. You're not going to...We should totally throw a party."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "This is so- I am so happy that you're going to stay. You're not going to...We should totally throw a party.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I know. We should throw a party.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            5,
+            2,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "That's what loans are for",
+            "There's a big envelope it says, you're in.",
+            "This is so- I am so happy that you're going to stay. You're not going to...We should totally throw a party.",
+            "throw a party."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I know. We should throw a party.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "A rapper party ho. Yeah. Okay.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I know. We should throw a party."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "A rapper party ho. Yeah. Okay.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "I am just- Yeah. I'm sticking around, I'm just doing my thing. I'm living here. I'm so glad you're going to stay, I'm so glad you're going to be here. Yeah. Woo.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'm so glad you're going to stay, I'm so glad you're going to be here."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am just- Yeah. I'm sticking around, I'm just doing my thing. I'm living here. I'm so glad you're going to stay, I'm so glad you're going to be here. Yeah. Woo.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "It's a relief too. I mean I was thinking I was going to have to pack up all of my stuff but yeah. Hooray for U.S.C.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It's a relief too. I mean I was thinking I was going to have to pack up all of my stuff but yeah"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's a relief too. I mean I was thinking I was going to have to pack up all of my stuff but yeah. Hooray for U.S.C.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Yeah. Big time.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Hooray for U.S.C."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah. Big time.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Mmhmm. Mmhmm. Yay. So what major? What are you doing?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Yeah. Big time.",
+            "I'm so glad you're going to stay, I'm so glad you're going to be here"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Mmhmm. Mmhmm. Yay. So what major? What are you doing?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yeah. I'm not sure.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah. I'm not sure.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Is this a Masters or a P.h.D.? Or can you...? Nice",
+        "emotion": "neutral",
+        "text": "Is this a Masters or a P.h.D.? Or can you...? Nice",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Umm...P.h.D. [LAUGHTER]",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            19
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in",
+            "P.h.D."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Umm...P.h.D. [LAUGHTER]",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "That's good. Don't you have to like teach a class, too, when you do that?",
+        "emotion": "neutral",
+        "text": "That's good. Don't you have to like teach a class, too, when you do that?",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "Teacher. Mrs. Nash, I have a question.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Don't you have to like teach a class, too,"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Teacher. Mrs. Nash, I have a question.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "So I get to mold young minds. Mrs.? That's my mother.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            22
+        ],
+        "expanded emotion cause span": [
+            "So I get to mold young minds"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "So I get to mold young minds. Mrs.? That's my mother.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "B",
+        "utterance": "You have to get married. Well you are married to Chuck. You're Mrs. Nash. Not to be confused with Mrs. Dash which is the popular seasoning.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You have to get married. Well you are married to Chuck. You're Mrs. Nash. Not to be confused with Mrs. Dash which is the popular seasoning.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "I would be like- Oh. Right, right, right.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I would be like- Oh. Right, right, right.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "Yay...School's fun.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            25
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in",
+            "Yay...School's fun."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yay...School's fun.",
+        "id": 25,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Of course, right. That's where the real money is, being a student.",
+        "emotion": "neutral",
+        "text": "Of course, right. That's where the real money is, being a student.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "That's how you get the big bucks. Are you messing with the chair? Don't ruin it.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            26,
+            27,
+            2
+        ],
+        "expanded emotion cause span": [
+            "That's where the real money is, being a student",
+            "That's how you get the big bucks",
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's how you get the big bucks. Are you messing with the chair? Don't ruin it.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "A",
+        "utterance": "I know. I made such a mess of it, the entire time. The last three things I've done, I've ruined everything, I think. Mm-hmm. Yeah.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I know. I made such a mess of it, the entire time. The last three things I've done, I've ruined everything, I think. Mm-hmm. Yeah.",
+        "id": 28
+    }
+]

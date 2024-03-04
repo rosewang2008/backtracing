@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So let's go back to the generalized linear models."
+    },
+    {
+        "text": "So the generalized linear model said, OK, the random component, y, has to be part of some exponential family distribution."
+    },
+    {
+        "text": "Check."
+    },
+    {
+        "text": "We know what this means."
+    },
+    {
+        "text": "So now I have to understand two things."
+    },
+    {
+        "text": "I have to understand what is the expectation, because that's actually what I model."
+    },
+    {
+        "text": "I take the expectation, the conditional expectation of y given x."
+    },
+    {
+        "text": "So I need to understand, given this guy, it would be nice if it had some simple rules that would tell me exactly what the expectation is, rather than having to do it over and over again."
+    },
+    {
+        "text": "If I told you, here's a Gaussian, compute the expectation."
+    },
+    {
+        "text": "Every time you had to use that, it would be slightly painful."
+    },
+    {
+        "text": "So hopefully, this thing being simple enough, we've actually selected a simple class that's simple enough."
+    },
+    {
+        "text": "So that we can have rules, whereas as soon as I give you those parameters, t1, t2, eta 1, eta 2, b, and h, you can actually have some simple rules to compute the mean and variance and all the things."
+    },
+    {
+        "text": "And so in particular, I'm interested in the mean."
+    },
+    {
+        "text": "And I'm going to have to actually say, well, this mean has to be mapped into the whole real line so I can actually talk about modeling this function of the mean as x transpose beta."
+    },
+    {
+        "text": "And we saw that for the Kefosis data set or whatever other data sets, you can actually do this using the log of the reciprocal."
+    },
+    {
+        "text": "Or for the, actually, we didn't do it for the Bernoulli."
+    },
+    {
+        "text": "We'll come to this."
+    },
+    {
+        "text": "This is the most important one, and that's called the logit or logistic link."
+    },
+    {
+        "text": "But before we go there, this was actually a very broad family."
+    },
+    {
+        "text": "When I wrote this thing on the bottom board, it's gone now."
+    }
+]

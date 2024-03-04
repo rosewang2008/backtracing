@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Congratulations ! What's your normal handicap ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Extremely good . I shot a 78 , including 5 birdies !",
+            "Extremely good . I shot a 78 , including 5 birdies !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations ! What's your normal handicap ?",
+        "id": 8,
+        "source_sentences": [
+            6,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

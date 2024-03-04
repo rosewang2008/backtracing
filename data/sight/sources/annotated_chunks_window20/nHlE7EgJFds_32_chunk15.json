@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But I'll still tack on the identity matrix, and of course, since these have length m, it better be m by m. And now I'll do the reduced row echelon form of this matrix."
+    },
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "The reduced row echelon form starts with these columns, starts with the first columns, works like mad, and produces R. Of course, still the same size, m by n, and we did it before."
+    },
+    {
+        "text": "And then whatever it did to get R, something else is going to show up here."
+    },
+    {
+        "text": "Let me call it E, m by m. It's whatever you see that E is just going to contain a record of what we did."
+    },
+    {
+        "text": "We did whatever it took to get A to become R. And at the same time, we were doing it to the identity matrix."
+    },
+    {
+        "text": "So we started with the identity matrix, we buzzed along."
+    },
+    {
+        "text": "So we took some -- all this row reduction amounted to multiplying on the left by some matrix, some series of elementary matrices that all together gave us one matrix, and that matrix is E. So all this row reduction stuff amounted to multiplying by E. How do I know that?"
+    },
+    {
+        "text": "It certainly amounted to multiplying by something, and that something took I to E, so that something was E. So now look at the first part, E A is R. No big deal."
+    },
+    {
+        "text": "All I've said is that the row reduction steps that we all know well, taking A to R, are in a- in some matrix, and I can find out what that matrix is by just tacking I on and seeing what comes out."
+    },
+    {
+        "text": "What comes out is E. Let's just review the invertible square case."
+    },
+    {
+        "text": "What happened then?"
+    },
+    {
+        "text": "Because I was interested in it in chapter two also."
+    },
+    {
+        "text": "When A was square and invertible, I took A I, I did row elimination, what was the R that came out?"
+    },
+    {
+        "text": "It was I."
+    },
+    {
+        "text": "So in chapter two, in chapter two, R was I."
+    },
+    {
+        "text": "The row- the reduced row echelon form of a nice invertible square matrix is the identity."
+    },
+    {
+        "text": "So if R was I in that case, then E was A inverse, because E A is I."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "That's- that was good and easy."
+    }
+]

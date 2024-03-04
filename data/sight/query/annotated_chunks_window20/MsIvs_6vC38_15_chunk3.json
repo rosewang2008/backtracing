@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 15,
+        "timestamp": 1684719893863.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "At 24:20 when he says that the multiplier goes directly into L, he means the negative right? If you keep a track of the operation on the left side, it inverts while bringing it to the right side."
+    }
+]

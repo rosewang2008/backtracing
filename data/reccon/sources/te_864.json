@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Matthew ? Hi !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Matthew ? Hi !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Steve ! Haven't seen you in ages ! How long's it been ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Haven't seen you in ages !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Steve ! Haven't seen you in ages ! How long's it been ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's got to be almost a year now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Haven't seen you in ages !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's got to be almost a year now .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How have you been ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Haven't seen you in ages !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How have you been ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm pretty good . I've been looking for a place to live recently . My lease runs out next month and I don't want to renew it .",
+        "emotion": "happiness",
+        "explanation": "Considering he is happy because he is seeing his friend after a long time and not because he is pretty good.",
+        "expanded emotion cause evidence": [
+            2,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Haven't seen you in ages !",
+            "I'm pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm pretty good . I've been looking for a place to live recently . My lease runs out next month and I don't want to renew it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , I remember the neighborhood . Have you found a place yet ?",
+        "emotion": "neutral",
+        "text": "Yeah , I remember the neighborhood . Have you found a place yet ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Not yet . But I am still looking through the classifieds . Wish me luck .",
+        "emotion": "neutral",
+        "text": "Not yet . But I am still looking through the classifieds . Wish me luck .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , maybe I can help . Remember my neighbor ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "maybe I can help ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , maybe I can help . Remember my neighbor ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Mrs . Thou ?",
+        "emotion": "neutral",
+        "text": "Mrs . Thou ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , her daughter's having a baby , so she's moving in with her to help out . I think if you are interested , you can come over and have a look .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "maybe I can help .",
+            "she's moving in with her to help out . I think if you are interested , you can come over and have a look ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , her daughter's having a baby , so she's moving in with her to help out . I think if you are interested , you can come over and have a look .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Great . It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "you can come over and have a look .",
+            "It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great . It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'll ask Mrs . Thou when she's available to show the apartment and let you know . Has your number changed ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "maybe I can help .",
+            "she's moving in with her to help out . I think if you are interested , you can come over and have a look .",
+            "It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'll ask Mrs . Thou when she's available to show the apartment and let you know . Has your number changed ?",
+        "id": 12
+    }
+]

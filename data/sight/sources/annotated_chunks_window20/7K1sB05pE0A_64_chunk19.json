@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's what makes things complicated."
+    },
+    {
+        "text": "And that's something that you have to get used to."
+    },
+    {
+        "text": "Now, there's something else which is more subtle in that I think many people who teach the subject, or use the subject, aren't aware because they've already entered into the language."
+    },
+    {
+        "text": "And they're so comfortable with it that they don't even notice this confusion."
+    },
+    {
+        "text": "There's something deliberately sloppy about the way we deal with these variables."
+    },
+    {
+        "text": "The reason is very simple."
+    },
+    {
+        "text": "There are already four variables here."
+    },
+    {
+        "text": "I don't want to create six names for variables, or eight names for variables."
+    },
+    {
+        "text": "But really, in this problem, there were about eight."
+    },
+    {
+        "text": "I just slipped them by you."
+    },
+    {
+        "text": "So why is that?"
+    },
+    {
+        "text": "Well, notice that the first time that I got a formula for y0 here, it was this point."
+    },
+    {
+        "text": "And so the formula for y0, which I plugged in right here, was from the equation of the curve, y0 equals 1 over x0."
+    },
+    {
+        "text": "The second time I did it, I did not use y equals 1 over x. I used this equation here."
+    },
+    {
+        "text": "So this is not y equals 1 over x."
+    },
+    {
+        "text": "That's the wrong thing to do."
+    },
+    {
+        "text": "That's an easy mistake to make if the formulas are all a blur to you, and you're not paying attention to where they are on the diagram."
+    },
+    {
+        "text": "You see, that y-intercept, that x-intercept calculation there, involved where this horizontal line met this diagonal line."
+    },
+    {
+        "text": "And y equals 0 represented this line here."
+    },
+    {
+        "text": "So the sloppiness is that y means two different things."
+    }
+]

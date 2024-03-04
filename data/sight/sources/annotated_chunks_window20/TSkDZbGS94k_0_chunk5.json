@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now admittedly, if I started looking at the fraction of 1's, and the fraction of 2's, and the fraction of 3's, et cetera, I would actually eventually get those numbers."
+    },
+    {
+        "text": "Just like looking at the fraction of 1's gave me a good estimate for p in the Bernoulli case, it would do the same in this case."
+    },
+    {
+        "text": "It's a pretty intuitive idea."
+    },
+    {
+        "text": "It's just the law of large numbers."
+    },
+    {
+        "text": "Everybody agrees with that?"
+    },
+    {
+        "text": "If I look at the proportion of 1's, the proportion of 2's, the proportion of 3's, that should actually give me something that gets closer and closer as my sample size increases to what I want."
+    },
+    {
+        "text": "But the problem is, if my sample size is not huge, here I have seven numbers to estimate."
+    },
+    {
+        "text": "And if I have 20 observations, the ratio is not really in my favor."
+    },
+    {
+        "text": "I mean, 20 observations to estimate seven parameters, some of them are going to be pretty off, typically the ones with the large values."
+    },
+    {
+        "text": "If I have only 20 students, look at the list of numbers."
+    },
+    {
+        "text": "I don't know how many numbers I have, but it probably is close to 20, maybe 15 or something."
+    },
+    {
+        "text": "And so if you look at this list, nobody has four or more siblings in this list."
+    },
+    {
+        "text": "There's no such person."
+    },
+    {
+        "text": "So that means that eventually, from this data set, my estimates, so those numbers I denote by, say, p1, p2, p3, et cetera, those estimates, p4 hat would be equal to what from this data?"
+    },
+    {
+        "text": "0, right?"
+    },
+    {
+        "text": "And p5 hat would be equal to 0, and p6 hat would be equal to 0, and p larger than or equal to 7 hat would be equal to 0."
+    },
+    {
+        "text": "That would be my estimates from this data set."
+    },
+    {
+        "text": "So maybe this is not."
+    },
+    {
+        "text": "Maybe I want to actually pull some information from the people who have less siblings to try to make a guess, which is probably slightly better for the larger values."
+    },
+    {
+        "text": "It's pretty clear that, in average, there's more than 0."
+    }
+]

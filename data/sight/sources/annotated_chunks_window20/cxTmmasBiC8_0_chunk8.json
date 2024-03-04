@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's the adjacency matrix."
+    },
+    {
+        "text": "Really, you should know these four matrices."
+    },
+    {
+        "text": "They're the key four matrices associated with any graph."
+    },
+    {
+        "text": "The incidence matrix, that's m by n edges and nodes."
+    },
+    {
+        "text": "Edges and nodes."
+    },
+    {
+        "text": "So it's rectangular, but I'm forming A transpose A here."
+    },
+    {
+        "text": "So I'm forming a symmetric positive semi-definite matrix."
+    },
+    {
+        "text": "So this Laplacian is symmetric positive semi-definite."
+    },
+    {
+        "text": "Yeah, let me just recall what all these matrices are for a simple graph."
+    },
+    {
+        "text": "OK, so I'll just draw a graph."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "OK, so the incidence matrix, there are 1, 2, 3, 4, 5 edges, so five rows."
+    },
+    {
+        "text": "There are four nodes, 1, 2, 3, and 4, so four columns."
+    },
+    {
+        "text": "And a typical row would be edge 1 going from node 1 to node 2, so it would have a minus 1 and a 1 there."
+    },
+    {
+        "text": "And let me take edge 2 going from 1 to node 3, so it would have a minus 1 and a 1 there."
+    },
+    {
+        "text": "So that's the incidence matrix A. OK, what's the degree matrix?"
+    },
+    {
+        "text": "That's simple."
+    },
+    {
+        "text": "The degree matrix, well, A transpose A, this is m by n. This is n by m, so it's n by n. OK, in this case, 4 by 4."
+    },
+    {
+        "text": "So the degree matrix will be 4 by 4, n by n. And it will tell us the degree of that, which means which we just count the edges."
+    },
+    {
+        "text": "So it's three edges going in, node 2, three edges going in."
+    }
+]

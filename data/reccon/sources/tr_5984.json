@@ -1,0 +1,113 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I help you , Madam ?",
+        "emotion": "neutral",
+        "text": "Can I help you , Madam ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I'd like to buy a sweater for my husband . Which style is the latest ?",
+        "emotion": "neutral",
+        "text": "Yes . I'd like to buy a sweater for my husband . Which style is the latest ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "These are all the latest fashion . How do you like this white turtleneck one ?",
+        "emotion": "neutral",
+        "text": "These are all the latest fashion . How do you like this white turtleneck one ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like this style . But do you have any other colors ? I feel that this color doesn't suit his complexion .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like this style ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like this style . But do you have any other colors ? I feel that this color doesn't suit his complexion .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We also have it in grey .",
+        "emotion": "neutral",
+        "text": "We also have it in grey .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Great ! I will take it . And could you suggest a pair of trousers to match this sweater ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We also have it in grey ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! I will take it . And could you suggest a pair of trousers to match this sweater ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's my pleasure . I think this pair of jeans will suit the sweater well .",
+        "emotion": "happiness",
+        "explanation": "A is happy about B asking suggestion",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I will take it .",
+            "could you suggest"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's my pleasure . I think this pair of jeans will suit the sweater well .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let me see . Yes , they are perfectly matched !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "We also have it in grey .",
+            "they are perfectly matched !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me see . Yes , they are perfectly matched !",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

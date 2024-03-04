@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "This is how a holiday should be . Relaxing on the beach with a nice cool drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is how a holiday should be . Relaxing on the beach with a nice cool drink .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Isn ' t it wonderful here ? The kids are enjoying themselves in the swimming pool . I hope it ' s safe .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "The kids are enjoying themselves in the swimming pool ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Isn ' t it wonderful here ? The kids are enjoying themselves in the swimming pool . I hope it ' s safe .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Don ' t worry about them . They ' re very responsible . Besides , there are many people there and there ' s lifeguard employed by the hotel . Waiter ! Could I have another drink pleas ? Thank you . So , what shall we do this evening ?",
+        "emotion": "happiness",
+        "explanation": "Speaker and listener are happy about relaxing in the beach",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "what shall we do this evening ?"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Don ' t worry about them . They ' re very responsible . Besides , there are many people there and there ' s lifeguard employed by the hotel . Waiter ! Could I have another drink pleas ? Thank you . So , what shall we do this evening ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The kids said that they wanted to go to a party at the hotel . There ' s a special one just for kids .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The kids said that they wanted to go to a party at the hotel . There ' s a special one just for kids .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So , we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "So , we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That ' s a great idea . We can really enjoy ourselves without worrying about the kids .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages .",
+            "We can really enjoy ourselves without worrying about the kids ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s a great idea . We can really enjoy ourselves without worrying about the kids .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Now , how about going for a swim in the sea ? We shouldn ' t sunbathe all day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages .",
+            "We can really enjoy ourselves without worrying about the kids .",
+            "how about going for a swim in the sea ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Now , how about going for a swim in the sea ? We shouldn ' t sunbathe all day .",
+        "id": 7
+    }
+]

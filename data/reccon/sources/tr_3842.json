@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I want to say goodbye to everyone .",
+        "emotion": "neutral",
+        "text": "I want to say goodbye to everyone .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You ' re leaving so soon . When are you off ?",
+        "emotion": "neutral",
+        "text": "You ' re leaving so soon . When are you off ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m catching the nine fifteen train tomorrow morning .",
+        "emotion": "neutral",
+        "text": "I ' m catching the nine fifteen train tomorrow morning .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "how about I come and see you off ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "how about I come and see you off ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You really don ' t need to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You really don ' t need to .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ok . I ' ll miss you . I hope we can see each other again soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "You really don ' t need to .",
+            "I hope we can see each other again soon ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Ok . I ' ll miss you . I hope we can see each other again soon .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I hope so , too . Thank you , Lily . Thank you for everything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "I ' ll miss you . I hope we can see each other again soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope so , too . Thank you , Lily . Thank you for everything .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ' re welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "You really don ' t need to .",
+            "I hope we can see each other again soon .",
+            "Thank you for everything ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You ' re welcome .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Please say goodbye to the rest of the family for me .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "I ' ll miss you . I hope we can see each other again soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Please say goodbye to the rest of the family for me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Ok . Take care . I hope you have a good journey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "You really don ' t need to .",
+            "I hope we can see each other again soon .",
+            "say goodbye to the rest of the family",
+            "have a good journey ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Ok . Take care . I hope you have a good journey .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you . Remember to look me up if you ' re ever in Washington .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            10
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "I ' ll miss you . I hope we can see each other again soon .",
+            "have a good journey ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Remember to look me up if you ' re ever in Washington .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Of course . I will .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "You really don ' t need to .",
+            "I hope we can see each other again soon .",
+            "say goodbye to the rest of the family",
+            "have a good journey .",
+            "look me up if you ' re ever in Washington ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Of course . I will .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Goodbye , then . Thanks again for everything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            13
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "I ' ll miss you . I hope we can see each other again soon .",
+            "Thanks again for everything ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Goodbye , then . Thanks again for everything .",
+        "id": 13,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

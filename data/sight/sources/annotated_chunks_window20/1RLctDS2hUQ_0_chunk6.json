@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We'll talk about a proof of the fundamental theorem a little bit later."
+    },
+    {
+        "text": "It's not actually that hard."
+    },
+    {
+        "text": "But we'll give an intuitive reason, interpretation, if you like, of the fundamental theorem."
+    },
+    {
+        "text": "So this is going to be one which is not related to area, but rather to time and distance."
+    },
+    {
+        "text": "So we'll consider x of t is your position at time t. And then x' of t, which is the rate of change of x with respect to t, is going to be what we know as your speed."
+    },
+    {
+        "text": "And then what the theorem is telling us is the following."
+    },
+    {
+        "text": "It's telling us the integral from a to b of v of t dt, so reading the relationship, is equal to x of b minus x of a."
+    },
+    {
+        "text": "And so this is some kind of cumulative sum of your velocities."
+    },
+    {
+        "text": "So let's interpret the right-hand side first."
+    },
+    {
+        "text": "This is the distance traveled."
+    },
+    {
+        "text": "And it's also what you would read on your odometer."
+    },
+    {
+        "text": "From the beginning to the end of the trip."
+    },
+    {
+        "text": "That's what you would read on your odometer."
+    },
+    {
+        "text": "Whereas this is what you would read on your speedometer."
+    },
+    {
+        "text": "So this is the interpretation."
+    },
+    {
+        "text": "Now, I want to just go one step further into this interpretation to make the connection with the Riemann sums that we had yesterday."
+    },
+    {
+        "text": "Because those are very complicated to understand."
+    },
+    {
+        "text": "And I want you to understand them viscerally on several different levels."
+    },
+    {
+        "text": "Because that's how you'll understand integration better."
+    },
+    {
+        "text": "The first thing that I want to imagine, so we're going to do a thought experiment now, which is that you are extremely obsessive."
+    }
+]

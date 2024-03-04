@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Come here ! I can see the tall camphor trees from here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Come here ! I can see the tall camphor trees from here .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , we can also see some yew trees .",
+        "emotion": "neutral",
+        "text": "Yes , we can also see some yew trees .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "This is a great botanical garden in the city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "This is a great botanical garden in the city ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is a great botanical garden in the city .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Listen to the sound of nature ! It's like music .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Listen to the sound of nature ! It's like music ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Listen to the sound of nature ! It's like music .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah , I agree . It makes you feel really good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Listen to the sound of nature ! It's like music .",
+            "Yeah , I agree . It makes you feel really good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , I agree . It makes you feel really good .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What are those . Miss Liu ?",
+        "emotion": "neutral",
+        "text": "What are those . Miss Liu ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Do you mean the red flowers ? They are peony flowers ?",
+        "emotion": "neutral",
+        "text": "Do you mean the red flowers ? They are peony flowers ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The red and yellow peony flowers are so beautiful .",
+        "emotion": "neutral",
+        "text": "The red and yellow peony flowers are so beautiful .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , you like them very much . right ?",
+        "emotion": "neutral",
+        "text": "Yes , you like them very much . right ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sure . I'm going to take more pictures today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "The red and yellow peony flowers are so beautiful ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Sure . I'm going to take more pictures today .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I can help you with it",
+        "emotion": "neutral",
+        "text": "I can help you with it",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You are so kind . Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I can help you with it"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are so kind . Thanks .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

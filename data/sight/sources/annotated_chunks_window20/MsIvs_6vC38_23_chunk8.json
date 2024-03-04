@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's the, it'll be E two one."
+    },
+    {
+        "text": "Because it's the first step will be to get a zero in that two one position."
+    },
+    {
+        "text": "And then the next step will be to get a zero in the three one position."
+    },
+    {
+        "text": "And the final step will be to get a zero in the three two position."
+    },
+    {
+        "text": "That's what elimination is, and it produces U."
+    },
+    {
+        "text": "And again, no row exchanges."
+    },
+    {
+        "text": "We will, I'm taking the nice case now, the typical case, too, when I don't have to do any row exchange, all I do is these elimination steps."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Now, suppose I want that stuff over on the right-hand side, as I really do."
+    },
+    {
+        "text": "That's, like, my point here."
+    },
+    {
+        "text": "I can multiply these together to get a matrix E, but I want it over on the right."
+    },
+    {
+        "text": "I want its inverse over there."
+    },
+    {
+        "text": "So what's the right expression now?"
+    },
+    {
+        "text": "If I write A and U, what goes there?"
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I've got the inverse of this, I've got three matrices in a row now."
+    },
+    {
+        "text": "And it's their inverses that are going to show up, because each one is easy to invert."
+    },
+    {
+        "text": "Question is, what about the whole bunch?"
+    },
+    {
+        "text": "How easy is it to invert the whole bunch?"
+    },
+    {
+        "text": "So that's what we know how to do."
+    }
+]

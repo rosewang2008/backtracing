@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning , Mary !",
+        "emotion": "happiness",
+        "explanation": "A is happy to greet",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Good morning ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Good morning , Mary !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good morning , John !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Good morning , Mary !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good morning , John !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to have a few friends over for a dinner party to celebrate my birthday . Would you be able to come the next weekend on Saturday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I want to have a few friends over for a dinner party to celebrate my birthday ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I want to have a few friends over for a dinner party to celebrate my birthday . Would you be able to come the next weekend on Saturday ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd be delighted to , John . Saturday did you say ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Would you be able to come the next weekend on Saturday ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'd be delighted to , John . Saturday did you say ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , if that's all right for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I want to have a few friends over for a dinner party to celebrate my birthday .",
+            "I'd be delighted to ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , if that's all right for you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm pretty sure I'll be all right . In fact , I'd be delighted to come over and celebrate your birthday with you . What time are you planning to start ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'd be delighted to come over and celebrate your birthday with you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm pretty sure I'll be all right . In fact , I'd be delighted to come over and celebrate your birthday with you . What time are you planning to start ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , good . If you could come around six thirty or seven o'clock , that would give us some time to chat a whit over a glass of wine before dinner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'd be delighted to come over and celebrate your birthday with you .",
+            "some time to chat a whit over a glass of wine"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , good . If you could come around six thirty or seven o'clock , that would give us some time to chat a whit over a glass of wine before dinner .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That sounds fine . I'll be there around seven .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'd be delighted to come over and celebrate your birthday with you .",
+            "some time to chat a whit over a glass of wine"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That sounds fine . I'll be there around seven .",
+        "id": 8
+    }
+]

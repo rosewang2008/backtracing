@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you want to go to the beach tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you want to go to the beach tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , which beach are we going to ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go to the beach tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , which beach are we going to ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I wanted to go to Malibu beach .",
+        "emotion": "neutral",
+        "text": "I wanted to go to Malibu beach .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like Santa Monica .",
+        "emotion": "neutral",
+        "text": "I like Santa Monica .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "The water there looks so dirty .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "The water there looks so dirty ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The water there looks so dirty .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I just like the pier they have at Santa Monica .",
+        "emotion": "neutral",
+        "text": "I just like the pier they have at Santa Monica .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I like the pier too , because it's beautiful at night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I just like the pier they have at Santa Monica .",
+            "I like the pier too , because it's beautiful at night ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I like the pier too , because it's beautiful at night .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Is Malibu beach nice ?",
+        "emotion": "neutral",
+        "text": "Is Malibu beach nice ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's a lot nicer , and I really like it better .",
+        "emotion": "neutral",
+        "text": "It's a lot nicer , and I really like it better .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "So you want to go to Malibu ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Is Malibu beach nice ?",
+            "It's a lot nicer , and I really like it better ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "So you want to go to Malibu ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "If that's okay with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's a lot nicer , and I really like it better ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "If that's okay with you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sure , let's go to Malibu .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Is Malibu beach nice ?",
+            "It's a lot nicer , and I really like it better ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure , let's go to Malibu .",
+        "id": 12
+    }
+]

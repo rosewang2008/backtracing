@@ -1,0 +1,156 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What time is it ?",
+        "emotion": "neutral",
+        "text": "What time is it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ten to nine .",
+        "emotion": "neutral",
+        "text": "Ten to nine .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Your watch is ten minutes slow . So it's should be nine sharp . I'm gonna be late again . What will be my excuse this time ? It should be set the alarm for seven thirty .",
+        "emotion": "neutral",
+        "text": "Your watch is ten minutes slow . So it's should be nine sharp . I'm gonna be late again . What will be my excuse this time ? It should be set the alarm for seven thirty .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Don't cry over spilled milk , Fred ? Could you stay with me a few minutes ?",
+        "emotion": "neutral",
+        "text": "Don't cry over spilled milk , Fred ? Could you stay with me a few minutes ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What ? Why ? What's wrong with you ?",
+        "emotion": "neutral",
+        "text": "What ? Why ? What's wrong with you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I just hate being alone at home with nothing to do about listen to the clock ticking . It ' s so lonely and boring . My sickness makes it worse . When will I recover ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "being alone at home with nothing to do about listen to the clock ticking . It ' s so lonely and boring . My sickness makes it worse ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I just hate being alone at home with nothing to do about listen to the clock ticking . It ' s so lonely and boring . My sickness makes it worse . When will I recover ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You will be fine in the couple of month , just be patient . I've got to woke now , I'll be late .",
+        "emotion": "neutral",
+        "text": "You will be fine in the couple of month , just be patient . I've got to woke now , I'll be late .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You only care about your work .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "You only care about your work ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You only care about your work .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sorry , baby , you are everything to me . all I do just for our family .",
+        "emotion": "neutral",
+        "text": "Sorry , baby , you are everything to me . all I do just for our family .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Stay just a few minutes longer , OK ?",
+        "emotion": "neutral",
+        "text": "Stay just a few minutes longer , OK ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "OK , I'll leave at 9:15 , Is that all right ?",
+        "emotion": "neutral",
+        "text": "OK , I'll leave at 9:15 , Is that all right ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy that the listener will stay longer",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'll leave at 9:15 ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I'll spent more time with you in the future , Dina .",
+        "emotion": "neutral",
+        "text": "I'll spent more time with you in the future , Dina .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'll spent more time with you in the future ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

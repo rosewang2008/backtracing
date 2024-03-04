@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Then it's divided by sigma square."
+    },
+    {
+        "text": "And then I have this extra stuff, but I really don't care what it is for now."
+    },
+    {
+        "text": "It's just something that depends only on y and known stuff."
+    },
+    {
+        "text": "So it's just a function of y."
+    },
+    {
+        "text": "Just like my h, I stuff everything in there."
+    },
+    {
+        "text": "The b, though, this thing here, this is actually what's important."
+    },
+    {
+        "text": "Because in a canonical family, if you think about it, when you know phi, this is just y times theta scaled by a known constant."
+    },
+    {
+        "text": "Sorry, y times theta scaled by a known constant is the first term."
+    },
+    {
+        "text": "The second term is b of theta scaled by some known constant."
+    },
+    {
+        "text": "But b of theta is what's going to make the difference between Gaussian and Bernoulli's and gammas and betas."
+    },
+    {
+        "text": "This is all in this b of theta."
+    },
+    {
+        "text": "b of theta contains everything that's idiosyncratic to this particular distribution."
+    },
+    {
+        "text": "And so this is going to be important."
+    },
+    {
+        "text": "And we will see that b of theta is going to capture information about the mean, about the variance, about the likelihood, about everything."
+    },
+    {
+        "text": "Should I go through this computation?"
+    },
+    {
+        "text": "I mean, it's the same."
+    },
+    {
+        "text": "We've just done it."
+    },
+    {
+        "text": "So maybe it's probably better if you can redo it on your own."
+    },
+    {
+        "text": "So the canonical exponential family also has other distributions."
+    },
+    {
+        "text": "So there's the Gaussian, and there's the Poisson, and there's the Bernoulli."
+    }
+]

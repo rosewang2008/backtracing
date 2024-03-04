@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a nice day !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a nice day !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . How about going out and enjoying the sunshine on the grass ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !",
+            "going out and enjoying"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . How about going out and enjoying the sunshine on the grass ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Great , let's go !",
+        "emotion": "neutral",
+        "text": "Great , let's go !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hey , darling , I think I might have a little heatstroke from being in the sun all day . I was so relaxed . It felt as if I were in another world .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !",
+            "going out and enjoying",
+            "I was so relaxed . It felt as if I were in another world ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Hey , darling , I think I might have a little heatstroke from being in the sun all day . I was so relaxed . It felt as if I were in another world .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Exactly . You know , the sunshine and wind remind me of our honeymoon . You remember ? The island , the sound of the waves , the salty sea air and the sunshine ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !",
+            "going out and enjoying",
+            "I was so relaxed . It felt as if I were in another world .",
+            "the sunshine and wind remind me of our honeymoon ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Exactly . You know , the sunshine and wind remind me of our honeymoon . You remember ? The island , the sound of the waves , the salty sea air and the sunshine ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , it was wonderful but it's already been a year . How time flies !",
+        "emotion": "neutral",
+        "text": "Yes , it was wonderful but it's already been a year . How time flies !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Why not go again to celebrate our one-year anniversary ? We can go to the same beach , stay in the same hotel and enjoy a dinner in the same restaurant .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !",
+            "going out and enjoying",
+            "I was so relaxed . It felt as if I were in another world .",
+            "the sunshine and wind remind me of our honeymoon .",
+            "go again to celebrate",
+            "enjoy a dinner"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Why not go again to celebrate our one-year anniversary ? We can go to the same beach , stay in the same hotel and enjoy a dinner in the same restaurant .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Are you kidding ? Can you afford it ? Do you think we can get a room on such short voice ?",
+        "emotion": "neutral",
+        "text": "Are you kidding ? Can you afford it ? Do you think we can get a room on such short voice ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Never mind that , I'll take care of it . Are you available next week ?",
+        "emotion": "neutral",
+        "text": "Never mind that , I'll take care of it . Are you available next week ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , I think so .",
+        "emotion": "neutral",
+        "text": "Yeah , I think so .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Ok . I'll make the arrangements . It will be great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            11
+        ],
+        "expanded emotion cause span": [
+            "go again to celebrate",
+            "enjoy a dinner",
+            "It will be great ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Ok . I'll make the arrangements . It will be great .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Wonderful ! I'll start packing our suitcases .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "It will be great .",
+            "I'll make the arrangements . It will be great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful ! I'll start packing our suitcases .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And then there's a third, more direct algorithm to do this optimization problem."
+    },
+    {
+        "text": "Well, actually, there are many."
+    },
+    {
+        "text": "This is an important problem."
+    },
+    {
+        "text": "So there are many proposed algorithms."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "OK, I'm closing up."
+    },
+    {
+        "text": "Final question?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "AUDIENCE 1 Is it possible to do more than one eigenvector?"
+    },
+    {
+        "text": "GILBERT STRANGSBERRY Well, certainly for k-means."
+    },
+    {
+        "text": "Now, if I had to do three clusters with Fiedler, I would look at the first three eigenvectors."
+    },
+    {
+        "text": "And, well, the first one would be nothing."
+    },
+    {
+        "text": "And I would look at the next two."
+    },
+    {
+        "text": "And that would be pretty successful."
+    },
+    {
+        "text": "If I wanted six clusters, it probably would fall off in the quality of the clustering."
+    },
+    {
+        "text": "Yeah, but certainly I would look at the lowest six eigenvectors and get somewhere."
+    },
+    {
+        "text": "Yeah, right."
+    },
+    {
+        "text": "So OK, so that's a topic, an important topic, a sort of standard topic in applied graph theory."
+    },
+    {
+        "text": "OK, so see you Wednesday."
+    },
+    {
+        "text": "I'm hoping on Wednesday."
+    }
+]

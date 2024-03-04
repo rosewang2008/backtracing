@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It is so very kind of you . I'm so moved by you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Let's sing \" Happy Birthday \" to Mary .",
+            "It is so very kind of you . I'm so moved by you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is so very kind of you . I'm so moved by you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

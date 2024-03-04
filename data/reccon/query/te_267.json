@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I can help with the chores while I ' m here ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

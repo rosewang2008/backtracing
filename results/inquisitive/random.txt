@@ -1,0 +1,8 @@
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/random.csv
+Output fname: results/inquisitive/test/random.csv
+Random baseline accuracy: 0.07
+Random baseline min distance: 7.63
+Random baseline accuracy top 3: 0.2
+Random baseline min distance top 3: 3.02

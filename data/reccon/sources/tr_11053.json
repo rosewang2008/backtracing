@@ -1,0 +1,147 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Poor Danny . You are so enfeebled !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You are so enfeebled !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Poor Danny . You are so enfeebled !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Don't worry . No big deal . Just a common cold .",
+        "emotion": "neutral",
+        "text": "Don't worry . No big deal . Just a common cold .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Mom called just now saying that she and Dad will be back later . Do you want to speak to them on phone ?",
+        "emotion": "neutral",
+        "text": "Mom called just now saying that she and Dad will be back later . Do you want to speak to them on phone ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No . You can never count on the grown-ups when there is something .",
+        "emotion": "neutral",
+        "text": "No . You can never count on the grown-ups when there is something .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Whatever . Have a drink of water .",
+        "emotion": "neutral",
+        "text": "Whatever . Have a drink of water .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Come on , sister . This is the seventh glass already .",
+        "emotion": "neutral",
+        "text": "Come on , sister . This is the seventh glass already .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Maybe later . I think we have a medicine-kit .",
+        "emotion": "neutral",
+        "text": "Maybe later . I think we have a medicine-kit .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do we ? Where is it ?",
+        "emotion": "neutral",
+        "text": "Do we ? Where is it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Probably on the of the cabinet . I'll go and get it .",
+        "emotion": "neutral",
+        "text": "Probably on the of the cabinet . I'll go and get it .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Be careful . Now I have no one but you to depend on .",
+        "emotion": "neutral",
+        "text": "Be careful . Now I have no one but you to depend on .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , here it is . Patulin . Oh , no !",
+        "emotion": "surprise",
+        "explanation": "the speaker is surprised that the medicine is expired",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Oh , here it is . Patulin . Oh , no !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What's the new strike ?",
+        "emotion": "neutral",
+        "text": "What's the new strike ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Keep lying down . The matter is that all the medicine here is past expiration .",
+        "emotion": "neutral",
+        "text": "Keep lying down . The matter is that all the medicine here is past expiration .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Poor me !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "all the medicine here is past expiration ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Poor me !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

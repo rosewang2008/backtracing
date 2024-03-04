@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It ought to be possible, if we take a matrix A, let me take the matrix, maybe we had this matrix in the last lecture, one one one, two one two, three two three, one one one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That, that matrix was so easy, we spotted its pivot columns, one and two, without actually doing row reduction."
+    },
+    {
+        "text": "But now let's do the job properly."
+    },
+    {
+        "text": "So I subtract this away from this to produce a zero."
+    },
+    {
+        "text": "So one two three one is fine."
+    },
+    {
+        "text": "Subtracting that away leaves me minus one minus one zero, right?"
+    },
+    {
+        "text": "And subtracting that from the last row, oh, well, that's easy."
+    },
+    {
+        "text": "Okay, I'm doing row reduction."
+    },
+    {
+        "text": "Now I've, the first column is all set."
+    },
+    {
+        "text": "The second column, I now see the pivot, and I can clean up, if I, actually, okay, why don't I make the pivot into a one?"
+    },
+    {
+        "text": "I'll multiply that row through by minus one, and then I have one one."
+    },
+    {
+        "text": "That was an elementary operation, I'm allowed."
+    },
+    {
+        "text": "Multiply a row by a number."
+    },
+    {
+        "text": "And now I'll do elimination."
+    },
+    {
+        "text": "Two of those away from that will knock this guy out and make this into a one."
+    },
+    {
+        "text": "So that's now a zero and that's a one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Done."
+    },
+    {
+        "text": "That's R. I'm seeing the identity matrix here, I'm seeing zeros below, and I'm seeing F there."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Bottom's up , and you're right . This meal is incredible . I wish I had known this restaurant before . Thanks for bringing me here . I know I'll be back agile soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "it's the weekend . Let's taste and enjoy this meal .",
+            "This meal is incredible .",
+            "Thanks for bringing me here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Bottom's up , and you're right . This meal is incredible . I wish I had known this restaurant before . Thanks for bringing me here . I know I'll be back agile soon .",
+        "id": 8,
+        "source_sentences": [
+            6,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

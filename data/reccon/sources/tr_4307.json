@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , I'm Jake . I'm new to the choir . What's your name ?",
+        "emotion": "neutral",
+        "text": "Hi , I'm Jake . I'm new to the choir . What's your name ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , there , my name is Tonia .",
+        "emotion": "neutral",
+        "text": "Hello , there , my name is Tonia .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you sing alto ?",
+        "emotion": "neutral",
+        "text": "Do you sing alto ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Actually , I can do both soprano and alto but the director asked me to sing alto for the next perforate . What about you .",
+        "emotion": "neutral",
+        "text": "Actually , I can do both soprano and alto but the director asked me to sing alto for the next perforate . What about you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Looks like we both float back and forth . I'm baritone .",
+        "emotion": "happiness",
+        "explanation": "The cause for A is latent.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Looks like we both float back and forth . I'm baritone .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Our bass section is really good . You're going to love singing with them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Our bass section is really good . You're going to love singing with them ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Our bass section is really good . You're going to love singing with them .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I heard them warming up earlier . You're right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Our bass section is really good . You're going to love singing with them .",
+            "Our bass section is really good . You're going to love singing with them ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I heard them warming up earlier . You're right .",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's good to have you in the group . We can always use a good baritone !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Our bass section is really good . You're going to love singing with them .",
+            "It's good to have you in the group . We can always use a good baritone !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's good to have you in the group . We can always use a good baritone !",
+        "id": 8
+    }
+]

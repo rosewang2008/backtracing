@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Frightened ? You must be joking .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Are you frightened ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Frightened ? You must be joking .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Honey , the house is such a mess ! I need you to help me tidy up a bit . My boss and her husband are coming over for dinner and the house needs to be spotless !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the house is such a mess !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Honey , the house is such a mess ! I need you to help me tidy up a bit . My boss and her husband are coming over for dinner and the house needs to be spotless !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m in the middle of something right now . I ' ll be there in a second .",
+        "emotion": "neutral",
+        "text": "I ' m in the middle of something right now . I ' ll be there in a second .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "This can ' t wait ! I need your help now !",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "This can ' t wait ! I need your help now !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This can ' t wait ! I need your help now !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Alright , alright . I ' m coming .",
+        "emotion": "neutral",
+        "text": "Alright , alright . I ' m coming .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ok , here ' s a list of chores we need to get done . I'll do the dishes and get all the groceries for tonight . You can sweep and mop the floors . Oh , and the furniture needs to be dusted .",
+        "emotion": "neutral",
+        "text": "Ok , here ' s a list of chores we need to get done . I'll do the dishes and get all the groceries for tonight . You can sweep and mop the floors . Oh , and the furniture needs to be dusted .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You know what , I have to pick something up at the mall , so why don ' t you clean the floors and I'll go to the supermarket and get all the groceries .",
+        "emotion": "neutral",
+        "text": "You know what , I have to pick something up at the mall , so why don ' t you clean the floors and I'll go to the supermarket and get all the groceries .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure that ' s fine . Here is the list of all the things you need to get . Don't forget anything ! And can you pick up a bottle of wine on your way home ?",
+        "emotion": "neutral",
+        "text": "Sure that ' s fine . Here is the list of all the things you need to get . Don't forget anything ! And can you pick up a bottle of wine on your way home ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Hey , honey I ' m back . Wow , the house looks really good !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "the house looks really good !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , honey I ' m back . Wow , the house looks really good !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Great ! Can you set the table ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "the house looks really good !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Can you set the table ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Just a sec I ' m just gonna vacuum this rug real fast .",
+        "emotion": "neutral",
+        "text": "Just a sec I ' m just gonna vacuum this rug real fast .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Wait ! Don ' t turn it on ...",
+        "emotion": "neutral",
+        "text": "Wait ! Don ' t turn it on ...",
+        "id": 11
+    }
+]

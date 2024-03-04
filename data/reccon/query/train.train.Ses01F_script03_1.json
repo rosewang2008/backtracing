@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "[LAUGHTER] We were very much younger then.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER] We were very much younger then.",
+        "id": 25,
+        "source_sentences": [
+            22
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

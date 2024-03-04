@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I have never seen so many flavors of ice cream in one place !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have never seen so many flavors of ice cream in one place !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have never seen so many flavors of ice cream in one place !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "There certainly are a lot . Can you choose a favorite ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have never seen so many flavors of ice cream in one place !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "There certainly are a lot . Can you choose a favorite ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Vanilla with toppings is my favorite .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I have never seen so many flavors of ice cream in one place !",
+            "Can you choose a favorite ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Vanilla with toppings is my favorite .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is there anything as good as a hot fudge sundae ?",
+        "emotion": "neutral",
+        "text": "Is there anything as good as a hot fudge sundae ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No way ! Do you have a flavors you don't like ?",
+        "emotion": "neutral",
+        "text": "No way ! Do you have a flavors you don't like ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't like ice cream with too many different flavors in it .",
+        "emotion": "neutral",
+        "text": "I don't like ice cream with too many different flavors in it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I agree with that , it just doesn't work for me .",
+        "emotion": "neutral",
+        "text": "I agree with that , it just doesn't work for me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I saw garlic ice cream on the menu once .",
+        "emotion": "neutral",
+        "text": "I saw garlic ice cream on the menu once .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think that would be horrible !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "garlic ice cream on the menu",
+            "I think that would be horrible !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that would be horrible !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I think I'll stick with a more traditional choice today !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I think I'll stick with a more traditional choice today !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think I'll stick with a more traditional choice today !",
+        "id": 10
+    }
+]

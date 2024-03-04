@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I want to put R0 inverse over there."
+    },
+    {
+        "text": "So R0."
+    },
+    {
+        "text": "Now for Q0, I'm going to substitute."
+    },
+    {
+        "text": "So what is Q0?"
+    },
+    {
+        "text": "I multiply both sides of that equation by R0 inverse."
+    },
+    {
+        "text": "So Q0 is A0 is, sorry, I said A and wrote Q. A0 R0 inverse."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "For Q0, I've put in what it equals."
+    },
+    {
+        "text": "And that's done it."
+    },
+    {
+        "text": "That's exactly telling me that A1, which is this, equals this."
+    },
+    {
+        "text": "And that's a similarity transformation."
+    },
+    {
+        "text": "I have not changed the eigenvalues."
+    },
+    {
+        "text": "So that's OK."
+    },
+    {
+        "text": "The other thing, which is the, like you could say, the miracle in this thing, is that when I continue to do that for almost every matrix, the matrices begin to lose stuff off the diagonal, especially below the diagonal by the ordering that QR is done."
+    },
+    {
+        "text": "So you tend to start with a matrix A0."
+    },
+    {
+        "text": "You get a matrix A1, which is like a little smaller here."
+    },
+    {
+        "text": "This part being not especially smaller."
+    },
+    {
+        "text": "You do it again."
+    },
+    {
+        "text": "This is even smaller."
+    },
+    {
+        "text": "So I put even smaller A2, even smaller."
+    }
+]

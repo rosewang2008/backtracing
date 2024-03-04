@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Linda ? Is that you ? I haven't seen you in ages !",
+        "emotion": "surprise",
+        "explanation": "Person A is surprised to suddenly see person B after a long time",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "haven't seen you in age"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Linda ? Is that you ? I haven't seen you in ages !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi George ! It's good to see you !",
+        "emotion": "surprise",
+        "explanation": "Person B is surprised to suddenly see person A after a long time",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "haven't seen you in age",
+            "It's good to see you !"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hi George ! It's good to see you !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What have you been up to ?",
+        "emotion": "neutral",
+        "text": "What have you been up to ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I just opened up my own business not long ago .",
+        "emotion": "neutral",
+        "text": "I just opened up my own business not long ago .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good for you ! What are you doing ?",
+        "emotion": "neutral",
+        "text": "Good for you ! What are you doing ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm a professional party planner here in the city . I do catering and all that .",
+        "emotion": "neutral",
+        "text": "I'm a professional party planner here in the city . I do catering and all that .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I knew some day I would be able to profit from your love of fun !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm a professional party planner here in the city . I do catering and all that .",
+            "I would be able to profit from your love of fun !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I knew some day I would be able to profit from your love of fun !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , I don't know about the profit part yet . But I am really having fun !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I am really having fun !",
+            "Well , I don't know about the profit part yet . But I am really having fun !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I don't know about the profit part yet . But I am really having fun !",
+        "id": 8
+    }
+]

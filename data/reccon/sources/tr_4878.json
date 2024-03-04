@@ -1,0 +1,187 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good afternoon , madam . May I help you ?",
+        "emotion": "neutral",
+        "text": "Good afternoon , madam . May I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Do you have some new perfume ?",
+        "emotion": "neutral",
+        "text": "Do you have some new perfume ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I am sorry , madam . I didn't hear you . It's too noisy here . Could you please say it again ?",
+        "emotion": "neutral",
+        "text": "I am sorry , madam . I didn't hear you . It's too noisy here . Could you please say it again ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I wanna buy some new perfume .",
+        "emotion": "neutral",
+        "text": "Well , I wanna buy some new perfume .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you please wait a minute ? I will get one for you at once .",
+        "emotion": "neutral",
+        "text": "Would you please wait a minute ? I will get one for you at once .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's all right .",
+        "emotion": "neutral",
+        "text": "That's all right .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Here you are .",
+        "emotion": "neutral",
+        "text": "Here you are .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Can I open it ?",
+        "emotion": "neutral",
+        "text": "Can I open it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , certainly , madam .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Can I open it ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , certainly , madam .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It smells sweet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Can I open it ?",
+            "Yes , certainly ,",
+            "It smells sweet ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It smells sweet .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , it is . This perfume just arrived yesterday , and it's the latest products of Chanel .",
+        "emotion": "neutral",
+        "text": "Yes , it is . This perfume just arrived yesterday , and it's the latest products of Chanel .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Really ? How much is it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "This perfume just arrived yesterday , and it's the latest products of Chanel ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? How much is it ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "55 dollars , madam .",
+        "emotion": "neutral",
+        "text": "55 dollars , madam .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Ok , I will take two bottles .",
+        "emotion": "neutral",
+        "text": "Ok , I will take two bottles .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thank you . Do you need something else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I will take two bottles ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Do you need something else ?",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "I will take two bottles .",
+            "Thank you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , thanks .",
+        "id": 16
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "They're the sum."
+    },
+    {
+        "text": "The next one is the sum of those, so it's one."
+    },
+    {
+        "text": "The next one is the sum of those, so it's two."
+    },
+    {
+        "text": "The next one is the sum of those, so it's three."
+    },
+    {
+        "text": "Well, it looks like one, two, three, four, five, but somehow it's not going to do that way."
+    },
+    {
+        "text": "The next one is five, right."
+    },
+    {
+        "text": "Two and three makes five."
+    },
+    {
+        "text": "The next one is eight."
+    },
+    {
+        "text": "The next one is thirteen."
+    },
+    {
+        "text": "And the one hundredth Fibonacci number is what?"
+    },
+    {
+        "text": "That's my question."
+    },
+    {
+        "text": "How could I get a formula for the hundredth number and for example how could I answer the question how fast are they growing?"
+    },
+    {
+        "text": "How fast are those Fibonacci numbers growing?"
+    },
+    {
+        "text": "They're certainly growing."
+    },
+    {
+        "text": "It's not a stable case, whatever the eigenvalues of whatever matrix it is, they're not smaller than one."
+    },
+    {
+        "text": "These numbers are growing."
+    },
+    {
+        "text": "But how fast are they growing?"
+    },
+    {
+        "text": "The answer is lies in the eigenvalue."
+    },
+    {
+        "text": "So I've got to find the matrix, so let me write down the Fibonacci rule, F k plus two is F k plus one plus F k, right?"
+    },
+    {
+        "text": "Now that's not in my -- I want to write that as U k plus one and A U k. But right now what I've got is a single equation, not a system."
+    }
+]

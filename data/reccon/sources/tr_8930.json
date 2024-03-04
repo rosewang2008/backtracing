@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , I come to pick up my laundry . This is the invoice .",
+        "emotion": "neutral",
+        "text": "Hi , I come to pick up my laundry . This is the invoice .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Here you are . We've ironed them for you already . Please check and see if there is any damage .",
+        "emotion": "neutral",
+        "text": "Here you are . We've ironed them for you already . Please check and see if there is any damage .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm afraid that a button is missing .",
+        "emotion": "neutral",
+        "text": "I'm afraid that a button is missing .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm terribly sorry . You know we are so busy today and we forget to sew the button back on . Please wait a moment . It will be ready soon .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid that a button is missing .",
+            "we forget to sew the button back on ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm terribly sorry . You know we are so busy today and we forget to sew the button back on . Please wait a moment . It will be ready soon .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK , please .",
+        "emotion": "neutral",
+        "text": "OK , please .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Would you like to have a look ? Is it to your satisfaction ?",
+        "emotion": "neutral",
+        "text": "Would you like to have a look ? Is it to your satisfaction ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , oh my God , there is another problem , I'm afraid . There is still a stain on the shirt .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "There is still a stain on the shirt ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , oh my God , there is another problem , I'm afraid . There is still a stain on the shirt .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It doesn't seem like that . Sorry , sir , we've tried everything , but we're not able to get it off the shirt . It was from the sugar I think .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "There is still a stain on the shirt .",
+            "we've tried everything , but we're not able to get it off the shirt ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It doesn't seem like that . Sorry , sir , we've tried everything , but we're not able to get it off the shirt . It was from the sugar I think .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's been several days now , I am not sure .",
+        "emotion": "neutral",
+        "text": "It's been several days now , I am not sure .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , the sugar was burnt during the dry-cleaning process . And there you go .",
+        "emotion": "neutral",
+        "text": "Yes , the sugar was burnt during the dry-cleaning process . And there you go .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , that's so bad . I know little about that . Is there a remedy for it ?",
+        "emotion": "neutral",
+        "text": "Oh , that's so bad . I know little about that . Is there a remedy for it ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I am awfully sorry . Please tell us about the stains before the dry-cleaning next time .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "the sugar was burnt during the dry-cleaning process ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I am awfully sorry . Please tell us about the stains before the dry-cleaning next time .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "OK , I will .",
+        "emotion": "neutral",
+        "text": "OK , I will .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "This is a membership card . You can get a 20 percent discount next time .",
+        "emotion": "neutral",
+        "text": "This is a membership card . You can get a 20 percent discount next time .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "This is a membership card . You can get a 20 percent discount next time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Hope to see you again . We will provide the best service .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Thanks a lot .",
+            "Hope to see you again . We will provide the best service ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hope to see you again . We will provide the best service .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

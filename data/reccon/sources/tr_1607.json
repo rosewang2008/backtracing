@@ -1,0 +1,241 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Karen , do you have a minute ? I'd like to ask you about something .",
+        "emotion": "neutral",
+        "text": "Karen , do you have a minute ? I'd like to ask you about something .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . What is it ?",
+        "emotion": "neutral",
+        "text": "Sure . What is it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I think you can give me some advice . You have worked here longer , and I just want to know what you think .",
+        "emotion": "neutral",
+        "text": "I think you can give me some advice . You have worked here longer , and I just want to know what you think .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm glad to help you . But what is it you want to ask about ?",
+        "emotion": "neutral",
+        "text": "I'm glad to help you . But what is it you want to ask about ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I am worried about the meeting this morning .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "worried about the meeting this morning ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am worried about the meeting this morning .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why ? I think the meeting went well .",
+        "emotion": "neutral",
+        "text": "Why ? I think the meeting went well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "worried about the meeting this morning .",
+            "I think the meeting went well ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . But what are you worried about ?",
+        "emotion": "neutral",
+        "text": "Yes . But what are you worried about ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm afraid I was too rude .",
+        "emotion": "neutral",
+        "text": "I'm afraid I was too rude .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Rude ? You weren't rude at all , Annie . Why do you think you were rude ?",
+        "emotion": "neutral",
+        "text": "Rude ? You weren't rude at all , Annie . Why do you think you were rude ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , I maybe talked to Mr . Drummond too directly . I thought I maybe said too much . I don't want him to be angry .",
+        "emotion": "neutral",
+        "text": "Well , I maybe talked to Mr . Drummond too directly . I thought I maybe said too much . I don't want him to be angry .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I understand . But really you weren't rude at all . You said what you thought . I think he appreciates that .",
+        "emotion": "neutral",
+        "text": "I understand . But really you weren't rude at all . You said what you thought . I think he appreciates that .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid I was too rude .",
+            "I maybe talked to Mr . Drummond too directly . I thought I maybe said too much .",
+            "But really you weren't rude at all . You said what you thought . I think he appreciates that ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "But I am new here , and I'm not sure he is used to that .",
+        "emotion": "neutral",
+        "text": "But I am new here , and I'm not sure he is used to that .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You mean because you are a woman ?",
+        "emotion": "neutral",
+        "text": "You mean because you are a woman ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yes . And he is the president of the company .",
+        "emotion": "neutral",
+        "text": "Yes . And he is the president of the company .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Listen , Annie . You shouldn't worry about Mr . Drummond . He is a very good man to work for . He is not sexist at all . He appreciates people for their ideas . And he is willing to take suggestions from men or women .",
+        "emotion": "neutral",
+        "text": "Listen , Annie . You shouldn't worry about Mr . Drummond . He is a very good man to work for . He is not sexist at all . He appreciates people for their ideas . And he is willing to take suggestions from men or women .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18,
+            19
+        ],
+        "expanded emotion cause span": [
+            "You shouldn't worry about Mr . Drummond . He is a very good man to work for . He is not sexist at all . He appreciates people for their ideas . And he is willing to take suggestions from men or women .",
+            "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company .",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "I agree with you on that , Annie . I've worked for Derek Drummond for nine years now . I feel he appreciates his employees for their work , not their gender . I would never change jobs .",
+        "emotion": "neutral",
+        "text": "I agree with you on that , Annie . I've worked for Derek Drummond for nine years now . I feel he appreciates his employees for their work , not their gender . I would never change jobs .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Good . Thank you for telling me this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18,
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "You shouldn't worry about Mr . Drummond . He is a very good man to work for . He is not sexist at all . He appreciates people for their ideas . And he is willing to take suggestions from men or women .",
+            "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company .",
+            "I agree with you on that , Annie . I've worked for Derek Drummond for nine years now . I feel he appreciates his employees for their work , not their gender . I would never change jobs ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Good . Thank you for telling me this .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Any time . If you have a good idea , don't be afraid to speak up . This is a company that appreciates initiative .",
+        "emotion": "neutral",
+        "text": "Any time . If you have a good idea , don't be afraid to speak up . This is a company that appreciates initiative .",
+        "id": 22
+    }
+]

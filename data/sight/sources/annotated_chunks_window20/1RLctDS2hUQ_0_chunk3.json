@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, the antiderivative of this is x cubed over 3."
+    },
+    {
+        "text": "I'm going to evaluate it at 0 and at b and subtract."
+    },
+    {
+        "text": "So that's going to be b cubed over 3 minus 0 cubed over 3."
+    },
+    {
+        "text": "Which, of course, is b cubed over 3."
+    },
+    {
+        "text": "And that's the end."
+    },
+    {
+        "text": "That's the answer."
+    },
+    {
+        "text": "So this is a lot faster than yesterday."
+    },
+    {
+        "text": "I hope you'll agree."
+    },
+    {
+        "text": "And we can dispense with those elaborate computations."
+    },
+    {
+        "text": "Although there's a conceptual reason, a very important one, for understanding the procedure that we went through."
+    },
+    {
+        "text": "Because eventually you're going to be using integrals and these quick ways of doing things to solve problems like finding the volumes of pyramids."
+    },
+    {
+        "text": "In other words, we're going to reverse the process."
+    },
+    {
+        "text": "And so we need to understand the connection between the two."
+    },
+    {
+        "text": "I'm going to give a couple more examples."
+    },
+    {
+        "text": "And then we'll go on."
+    },
+    {
+        "text": "So the second example would be one that would be quite difficult to do by this Riemann sum technique that we described yesterday."
+    },
+    {
+        "text": "Although it is possible."
+    },
+    {
+        "text": "It uses much higher mathematics to do it."
+    },
+    {
+        "text": "And that is the area under one hump of the sine curve."
+    },
+    {
+        "text": "Sine x."
+    }
+]

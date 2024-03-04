@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "This is what you were meant for . Say you love me , say yes , say yes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

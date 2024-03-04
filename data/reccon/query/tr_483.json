@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , it's no problem . It ' s OK . You know , it only happened once .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I promise I'll keep it down in the future ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , it's no problem . It ' s OK . You know , it only happened once .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

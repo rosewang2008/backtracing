@@ -1,0 +1,62 @@
+[
+    {
+        "text": " Okay."
+    },
+    {
+        "text": "So coming near the end of the course, this lecture will be a mixture of the linear algebra that comes with a change of basis."
+    },
+    {
+        "text": "And a change of basis from one basis to another basis is something you really do in applications."
+    },
+    {
+        "text": "And I would like to talk about those applications."
+    },
+    {
+        "text": "I got a little bit involved with compression, compressing a signal, compressing an image, and that's exactly change of basis."
+    },
+    {
+        "text": "And then the main theme in this chapter is the connection between a linear transformation, which doesn't have to have coordinates, and the matrix that tells us that transformation with respect to coordinates."
+    },
+    {
+        "text": "So the matrix is the coordinate-based description of the linear transformation."
+    },
+    {
+        "text": "Let me start out with the nice part, which is some, just to tell you something about image compression."
+    },
+    {
+        "text": "Those of you, well, everybody's going to meet compression, because you know that the amount of data that we're getting, well, these lectures are compressed."
+    },
+    {
+        "text": "So that actually, probably you see my motion as jerky, shall I use that word?"
+    },
+    {
+        "text": "Have you looked on the web?"
+    },
+    {
+        "text": "I should like to find a better word."
+    },
+    {
+        "text": "Compressed, let's see."
+    },
+    {
+        "text": "So my, the, the, the complete signal is, of course, in those video cameras and in the videotape, but that goes to the bottom of building nine, and out of that comes a jumpy motion, because it uses a standard system for compressing images."
+    },
+    {
+        "text": "And, you'll notice that the stuff that sits on the board comes very clearly, but it's my motion that, that, that needs a whole lot of bits, right?"
+    },
+    {
+        "text": "So, and if I were to run up and back, up there and back, that would need too many bits and they'd, I'd be compressed even more."
+    },
+    {
+        "text": "So, what does compression mean?"
+    },
+    {
+        "text": "Can I, let me just think of a still image."
+    },
+    {
+        "text": "And, and of course, satellites, oh, there's, and, and computations of the climate, computations of combustion, the, computers and sensors of all kinds are just giving us overwhelming amounts of data."
+    },
+    {
+        "text": "The web is, too."
+    }
+]

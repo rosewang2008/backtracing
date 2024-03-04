@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'll never get over it . Oh , Harry , it was all so unnecessary . That man ! ! How could he do this to us after we'd put him up ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "he simply drove off with everything in my car . That's what hurts me most .",
+            "it was all so unnecessary .",
+            "How could he do this to us"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll never get over it . Oh , Harry , it was all so unnecessary . That man ! ! How could he do this to us after we'd put him up ?",
+        "id": 7,
+        "source_sentences": [
+            3,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

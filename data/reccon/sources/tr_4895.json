@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ten sheets of rice paper , 25 brushes , two boxes of oil color and two boxes of water color . All these come up to $ 35 . 50 , sir .",
+        "emotion": "neutral",
+        "text": "Ten sheets of rice paper , 25 brushes , two boxes of oil color and two boxes of water color . All these come up to $ 35 . 50 , sir .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ok , here is $ 50 . Oh , can you make out an invoice for me ?",
+        "emotion": "neutral",
+        "text": "Ok , here is $ 50 . Oh , can you make out an invoice for me ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sure , just a minute . Are you an artist , sir ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Are you an artist"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure , just a minute . Are you an artist , sir ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , I am a teacher . I teach art .",
+        "emotion": "neutral",
+        "text": "No , I am a teacher . I teach art .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That must be a very interesting job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Are you an artist",
+            "I teach art .",
+            "very interesting job ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That must be a very interesting job .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It is . You must be new here . I do my shopping here regularly , once a week .",
+        "emotion": "neutral",
+        "text": "It is . You must be new here . I do my shopping here regularly , once a week .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Do you ? Nice to meet you ! And here is the invoice and your change .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Are you an artist",
+            "I teach art .",
+            "very interesting job .",
+            "I do my shopping here regularly ,",
+            "Nice to meet you !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Do you ? Nice to meet you ! And here is the invoice and your change .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . Nice to meet you , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you !",
+            "Nice to meet you , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . Nice to meet you , too .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

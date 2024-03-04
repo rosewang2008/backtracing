@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I want to get on the bus already .",
+        "emotion": "neutral",
+        "text": "I want to get on the bus already .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It just isn't on time today .",
+        "emotion": "neutral",
+        "text": "It just isn't on time today .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It was supposed to be here thirty minutes ago .",
+        "emotion": "neutral",
+        "text": "It was supposed to be here thirty minutes ago .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think it'll be here pretty soon .",
+        "emotion": "neutral",
+        "text": "I think it'll be here pretty soon .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I need to get to work , so it better .",
+        "emotion": "neutral",
+        "text": "I need to get to work , so it better .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I really do hate public transportation .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It just isn't on time today .",
+            "I really do hate public transportation ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I really do hate public transportation .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I agree , it's just never on time .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really do hate public transportation .",
+            "I agree , it's just never on time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I agree , it's just never on time .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's right .",
+        "emotion": "neutral",
+        "text": "That's right .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I also hate having to stand at a bus stop in all kinds of weather .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I really do hate public transportation .",
+            "I agree , it's just never on time .",
+            "I also hate having to stand at a bus stop"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I also hate having to stand at a bus stop in all kinds of weather .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , that's the worst .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I also hate having to stand at a bus stop"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's the worst .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "We need to get a car .",
+        "emotion": "neutral",
+        "text": "We need to get a car .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I completely agree with that .",
+        "emotion": "neutral",
+        "text": "I completely agree with that .",
+        "id": 12
+    }
+]

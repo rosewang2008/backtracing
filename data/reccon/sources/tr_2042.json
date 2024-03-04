@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mary , how was your date with John ?",
+        "emotion": "neutral",
+        "text": "Mary , how was your date with John ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It ' s OK . It seems we have a lot in common .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It seems we have a lot in common ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s OK . It seems we have a lot in common .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , really ? That is great news . What does he look like ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It seems we have a lot in common ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ? That is great news . What does he look like ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He is tall and slim , fair-haired .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It seems we have a lot in common .",
+            "He is tall and slim , fair-haired ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "He is tall and slim , fair-haired .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sounds like he is pretty cute . What do you think of him ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "He is tall and slim , fair-haired .",
+            "Sounds like he is pretty cute ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sounds like he is pretty cute . What do you think of him ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He is a nice guy and very considerate . I am impressed with how smart and humorous .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He is a nice guy and very considerate . I am impressed with how smart and humorous ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He is a nice guy and very considerate . I am impressed with how smart and humorous .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , it ' s love at first sight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He is a nice guy and very considerate . I am impressed with how smart and humorous ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , it ' s love at first sight .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,11 @@
+Using CUDA? True
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/gpt2_auto-regressive.csv
+Output fname: results/inquisitive/test/gpt2_auto-regressive.csv
+Total: 25887
+Num errors: 0
+Num large context: 0
+Method: auto-regressive, top_k: 1, accuracy: 0.09, distance: 7.18
+Method: auto-regressive, top_k: 3, accuracy: 0.18, distance: 4.83
+

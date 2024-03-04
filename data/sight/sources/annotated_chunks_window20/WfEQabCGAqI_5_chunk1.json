@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You get zero, zero, one dx dy."
+    },
+    {
+        "text": "That is what you would expect for a horizontal plane just from common sense."
+    },
+    {
+        "text": "This is more interesting, of course, if a function is more interesting."
+    },
+    {
+        "text": "How do we get that?"
+    },
+    {
+        "text": "Where does this come from?"
+    },
+    {
+        "text": "We need to figure out for a small piece of our surface what will be n delta S if you want."
+    },
+    {
+        "text": "Let's say that we take a small rectangle in here corresponding to the sides delta x and delta y."
+    },
+    {
+        "text": "And we look at the piece of surface that is above that."
+    },
+    {
+        "text": "Well, the question we have now is what is the area of this little piece of surface and what is its normal vector?"
+    },
+    {
+        "text": "Observe this little piece up here."
+    },
+    {
+        "text": "If it is small enough it will look like a parallelogram."
+    },
+    {
+        "text": "It might be slightly curvy, but roughly it looks like a parallelogram in space."
+    },
+    {
+        "text": "And so we have seen how to find the area of a parallelogram in space using cross product."
+    },
+    {
+        "text": "If we can figure out what are the vectors for this side and that side, then taking the cross product will give us, and taking the magnitude of the cross product will give us the area."
+    },
+    {
+        "text": "Moreover, the cross product also gives us the normal direction."
+    },
+    {
+        "text": "In fact, the cross product gives us two in one."
+    },
+    {
+        "text": "It gives us the normal direction and the area element."
+    },
+    {
+        "text": "And that is why I said that we will have an easy formula for N dS while N and dS taken separately are more complicated because you would have to actually take the length of a direction of this guy."
+    },
+    {
+        "text": "Let's carry out this problem."
+    },
+    {
+        "text": "Let's say I am going to look at a small piece of the xy plane."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "Yay...School's fun.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            2,
+            25
+        ],
+        "expanded emotion cause span": [
+            "There's a big envelope it says, you're in",
+            "Yay...School's fun."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yay...School's fun.",
+        "id": 25,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

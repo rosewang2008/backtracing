@@ -1,0 +1,157 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's almost Christmas . What are you doing this weekend ?",
+        "emotion": "neutral",
+        "text": "It's almost Christmas . What are you doing this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Nothing special , just working . Why do you ask ?",
+        "emotion": "neutral",
+        "text": "Nothing special , just working . Why do you ask ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , I still haven't finished my Christmas shopping . Do you want to go shopping with me this weekend ?",
+        "emotion": "neutral",
+        "text": "Well , I still haven't finished my Christmas shopping . Do you want to go shopping with me this weekend ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd like to , but I'm not sure if I can . Work has been really busy lately . Why don't we go on Friday instead ?",
+        "emotion": "neutral",
+        "text": "I'd like to , but I'm not sure if I can . Work has been really busy lately . Why don't we go on Friday instead ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Friday's not good . I think the stores will be very crowded and I have to work .",
+        "emotion": "neutral",
+        "text": "Friday's not good . I think the stores will be very crowded and I have to work .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK , then let's try to go this weekend . I should know if I can go by Friday . Is it OK if I call you then ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , then let's try to go this weekend . I should know if I can go by Friday . Is it OK if I call you then ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , that's fine .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend",
+            "I should know if I can go by Friday ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , that's fine .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What's your number ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What's your number ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "233-331-8828 . Let me give you my email address too . It's Tom861@gmail . com",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "233-331-8828 . Let me give you my email address too . It's Tom861@gmail . com",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK , I'll talk to you soon .",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy about christmas shopping",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , I'll talk to you soon .",
+        "id": 10,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "go shopping with me this weekend"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "OK .",
+        "id": 11
+    }
+]

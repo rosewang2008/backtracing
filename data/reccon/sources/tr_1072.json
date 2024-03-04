@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi honey ! You ' ll never guess what ! My friends Julie and Alex are getting married !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "My friends Julie and Alex are getting married !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi honey ! You ' ll never guess what ! My friends Julie and Alex are getting married !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Wow that ' s great news ! They ' re a great couple !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "My friends Julie and Alex are getting married !",
+            "They ' re a great couple !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow that ' s great news ! They ' re a great couple !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I know ! Anyways I just talked to Alex ' s best man and he is organizing the bachelor party It ' s gonna be so much fun ! All the groomsmen are thinking up all the wacky and crazy things we are going to do that night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "My friends Julie and Alex are getting married !",
+            "They ' re a great couple !",
+            "I just talked to Alex ' s best man and he is organizing the bachelor party It ' s gonna be so much fun ! All the groomsmen are thinking up all the wacky and crazy things we are going to do that night ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I know ! Anyways I just talked to Alex ' s best man and he is organizing the bachelor party It ' s gonna be so much fun ! All the groomsmen are thinking up all the wacky and crazy things we are going to do that night .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You aren ' t going to a strip club , are you ? I don ' t want you getting a lap dance from some stripper with the excuse that it ' s your friends party .",
+        "emotion": "neutral",
+        "text": "You aren ' t going to a strip club , are you ? I don ' t want you getting a lap dance from some stripper with the excuse that it ' s your friends party .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Aw come on ! It ' s just some innocent fun ! You know how these things are ! We are gonna play drinking games , get him some gag gifts and just have a good time . Nothing too over the top .",
+        "emotion": "neutral",
+        "text": "Aw come on ! It ' s just some innocent fun ! You know how these things are ! We are gonna play drinking games , get him some gag gifts and just have a good time . Nothing too over the top .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , I don ' t know .",
+        "emotion": "neutral",
+        "text": "Well , I don ' t know .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Come on ! If one of your friends was getting married I wouldn ' t mind you going to her bachelorette party !",
+        "emotion": "neutral",
+        "text": "Come on ! If one of your friends was getting married I wouldn ' t mind you going to her bachelorette party !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Good , because my friend Wendy is getting married and I ' m organizing her party !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "If one of your friends was getting married I wouldn ' t mind you going to her bachelorette party !",
+            "my friend Wendy is getting married and I ' m organizing her party !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good , because my friend Wendy is getting married and I ' m organizing her party !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

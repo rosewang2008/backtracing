@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You guys are charging me $ 10 for a movie that I never ordered or saw .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You guys are charging me $ 10 for a movie that I never ordered or saw ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You guys are charging me $ 10 for a movie that I never ordered or saw .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Let's see , sir . According to your file , you watched ' Titanic ' Monday evening .",
+        "emotion": "neutral",
+        "text": "Let's see , sir . According to your file , you watched ' Titanic ' Monday evening .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , the wrong information is in my file . I was at a concert Monday night .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You guys are charging me $ 10 for a movie that I never ordered or saw .",
+            "wrong information is in my file ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well , the wrong information is in my file . I was at a concert Monday night .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , your word overrules the file , sir . One moment , please .",
+        "emotion": "neutral",
+        "text": "Well , your word overrules the file , sir . One moment , please .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I knew you'd see it my way .",
+        "emotion": "neutral",
+        "text": "I knew you'd see it my way .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sir , I deleted the $ 10 , but I had to add a $ 2 service charge to your bill .",
+        "emotion": "neutral",
+        "text": "Sir , I deleted the $ 10 , but I had to add a $ 2 service charge to your bill .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Am I in the Twilight Zone ? You're charging me for a movie I never saw ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I had to add a $ 2 service charge to your bill .",
+            "You're charging me for a movie I never saw ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Am I in the Twilight Zone ? You're charging me for a movie I never saw ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Please don't blame me , sir . Blame the computer programmer .",
+        "emotion": "neutral",
+        "text": "Please don't blame me , sir . Blame the computer programmer .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "This is highway robbery . I've got a good mind to call the police !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I had to add a $ 2 service charge to your bill .",
+            "You're charging me for a movie I never saw ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "This is highway robbery . I've got a good mind to call the police !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "If it makes you feel any better , other guests feel the same way .",
+        "emotion": "neutral",
+        "text": "If it makes you feel any better , other guests feel the same way .",
+        "id": 10
+    }
+]

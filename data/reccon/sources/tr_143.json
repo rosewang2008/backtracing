@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "hey , Maris , are you a part-timer ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "are you a part-timer"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "hey , Maris , are you a part-timer ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "part-timer ? Is that a new buzzword ?",
+        "emotion": "neutral",
+        "text": "part-timer ? Is that a new buzzword ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "oh , it ' s pretty popular among my classmates these days . So are you ?",
+        "emotion": "neutral",
+        "text": "oh , it ' s pretty popular among my classmates these days . So are you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "sure , I have a part-time job as a bartender .",
+        "emotion": "neutral",
+        "text": "sure , I have a part-time job as a bartender .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "cool ! It must be amazing to work at a bar !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I have a part-time job as a bartender .",
+            "cool ! It must be amazing to work at a bar !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "cool ! It must be amazing to work at a bar !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "yeah , but I ' m not there for fun . I have to remain professional and if I get distracted , the manager would be pretty upset .",
+        "emotion": "neutral",
+        "text": "yeah , but I ' m not there for fun . I have to remain professional and if I get distracted , the manager would be pretty upset .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "that ' s true . I ' m wondering did you learn anything from the job ?",
+        "emotion": "neutral",
+        "text": "that ' s true . I ' m wondering did you learn anything from the job ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "of course . There ' s always much to learn . I got to know more about the real world .",
+        "emotion": "neutral",
+        "text": "of course . There ' s always much to learn . I got to know more about the real world .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "you mean you got working experience , right ?",
+        "emotion": "neutral",
+        "text": "you mean you got working experience , right ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "not just working experience . I would say the biggest lesson I learned is how to deal with people from all walks of life .",
+        "emotion": "neutral",
+        "text": "not just working experience . I would say the biggest lesson I learned is how to deal with people from all walks of life .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "it must be very demanding .",
+        "emotion": "neutral",
+        "text": "it must be very demanding .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "sometimes it is . But after working for a few weeks , it ' s easy to figure out .",
+        "emotion": "neutral",
+        "text": "sometimes it is . But after working for a few weeks , it ' s easy to figure out .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "really ? It sounds interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            10,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "There ' s always much to learn . I got to know more about the real world .",
+            "not just working experience . I would say the biggest lesson I learned is how to deal with people from all walks of life .",
+            "after working for a few weeks , it ' s easy to figure out .",
+            "It sounds interesting ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "really ? It sounds interesting .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "maybe you can come to the bar one day and I ' ll show you around .",
+        "emotion": "neutral",
+        "text": "maybe you can come to the bar one day and I ' ll show you around .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "great . I ' m looking forward to it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "maybe you can come to the bar one day and I ' ll show you around ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "great . I ' m looking forward to it .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

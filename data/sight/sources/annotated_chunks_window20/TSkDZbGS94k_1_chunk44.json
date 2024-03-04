@@ -1,0 +1,62 @@
+[
+    {
+        "text": "X1 is unbiased, but X1 is certainly not consistent, because the more data I collect, I'm not even doing anything with it."
+    },
+    {
+        "text": "I'm just taking the first data point you're giving to me."
+    },
+    {
+        "text": "So they're both unbiased, but this one is not consistent."
+    },
+    {
+        "text": "And this one we'll see is actually consistent."
+    },
+    {
+        "text": "Xn bar is consistent, and actually, we've seen that last time."
+    },
+    {
+        "text": "And that's because of the what guarantees the fact that the Xn bar is consistent?"
+    },
+    {
+        "text": "Law of large numbers, right?"
+    },
+    {
+        "text": "Actually, it's strongly consistent because of the strong law of large numbers."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So just in the last two minutes, I want to tell you a little bit about how this risk is linked to, I said quadratic risk is equal to bias squared plus variance."
+    },
+    {
+        "text": "Let's see what I mean by this."
+    },
+    {
+        "text": "So I'm going to forget about the absolute values."
+    },
+    {
+        "text": "I have a square."
+    },
+    {
+        "text": "I don't really need them."
+    },
+    {
+        "text": "If theta hat was unbiased, this thing would be the expectation of theta hat."
+    },
+    {
+        "text": "It might not be the case."
+    },
+    {
+        "text": "So let me see how I can actually see, put the bias in there."
+    },
+    {
+        "text": "Well, one way to do this is to see that this is equal to the expectation of theta hat minus expectation of theta hat plus expectation of theta hat minus theta squared."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "I just removed the same and added the same thing, so I didn't change anything."
+    }
+]

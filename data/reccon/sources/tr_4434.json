@@ -1,0 +1,167 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I really enjoyed that film ! What about you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed that film !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really enjoyed that film ! What about you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "So did I . At first , I thought it was going to be boring , but then it turned to be good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I thought it was going to be boring , but then it turned to be good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "So did I . At first , I thought it was going to be boring , but then it turned to be good .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What part of the film do you like best ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed that film !",
+            "I thought it was going to be boring , but then it turned to be good ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What part of the film do you like best ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , the scene of the hero's struggle with enemies impressed me the most .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "the scene of the hero's struggle with enemies impressed me the most ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , the scene of the hero's struggle with enemies impressed me the most .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I loved it , too . To tell you the truth , I even dropped tears .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "the scene of the hero's struggle with enemies impressed me the most .",
+            "I loved it , too .",
+            "I even dropped tears ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I loved it , too . To tell you the truth , I even dropped tears .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Actually , tears also came to my eyes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "the scene of the hero's struggle with enemies impressed me the most .",
+            "I loved it , too .",
+            "I even dropped tears .",
+            "tears also came to my eyes ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Actually , tears also came to my eyes .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It has got this year's Oscar Award .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed that film !",
+            "It has got this year's Oscar Award ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It has got this year's Oscar Award .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It deserves it . The film gave us a lot of inspiration .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed that film !",
+            "It has got this year's Oscar Award .",
+            "The film gave us a lot of inspiration ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It deserves it . The film gave us a lot of inspiration .",
+        "id": 8,
+        "source_sentences": [
+            0,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

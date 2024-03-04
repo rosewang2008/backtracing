@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Your garden is looking very beautiful this summer . The flowers are really colorful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "garden is looking very beautiful",
+            "flowers are really colorful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Your garden is looking very beautiful this summer . The flowers are really colorful .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . I have roses , tulips , and daffodils . Do you like the rockery with the smaller flowers ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your garden is looking very beautiful",
+            "flowers are really colorful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I have roses , tulips , and daffodils . Do you like the rockery with the smaller flowers ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , I do . Those are violets , aren ' t they ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "garden is looking very beautiful",
+            "flowers are really colorful ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , I do . Those are violets , aren ' t they ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , they are . This afternoon , I ' m going to prune the hedge .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your garden is looking very beautiful",
+            "flowers are really colorful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , they are . This afternoon , I ' m going to prune the hedge .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "The lower branches on that tree are hanging very low . Would you like me to cut them off for you ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "garden is looking very beautiful",
+            "flowers are really colorful ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "The lower branches on that tree are hanging very low . Would you like me to cut them off for you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you ! That would be very kind of you . I have a saw in the garden shed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you like me to cut them off for you ?",
+            "That would be very kind of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you ! That would be very kind of you . I have a saw in the garden shed .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "When the lower branches are removed , you ' ll be able to sit under the tree .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Thank you ! That would be very kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "When the lower branches are removed , you ' ll be able to sit under the tree .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Tomorrow , I ' ll cut the grass . Then the garden will look perfect .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Would you like me to cut them off for you ?",
+            "That would be very kind of you .",
+            "the garden will look perfect ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Tomorrow , I ' ll cut the grass . Then the garden will look perfect .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Just make sure children don ' t play in the flower beds and destroy the flowers .",
+        "emotion": "neutral",
+        "text": "Just make sure children don ' t play in the flower beds and destroy the flowers .",
+        "id": 9
+    }
+]

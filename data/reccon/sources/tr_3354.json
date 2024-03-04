@@ -1,0 +1,131 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You don't look too well . What's going on ?",
+        "emotion": "neutral",
+        "text": "You don't look too well . What's going on ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I just lost my job . I'm just worried about how I'm going to pay the bills .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I just lost my job . I'm just worried about how I'm going to pay the bills ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I just lost my job . I'm just worried about how I'm going to pay the bills .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm sorry to hear that . Have you been looking for another job ?",
+        "emotion": "neutral",
+        "text": "I'm sorry to hear that . Have you been looking for another job ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I just started , but the job market is very bad right now . I'm not optimistic about it .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I just lost my job . I'm just worried about how I'm going to pay the bills .",
+            "the job market is very bad",
+            "I'm not optimistic about it ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I just started , but the job market is very bad right now . I'm not optimistic about it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's tough . What does your wife think about this ?",
+        "emotion": "neutral",
+        "text": "That's tough . What does your wife think about this ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "She's trying to be supportive , but I can tell she is very worried about our financial situation as well .",
+        "emotion": "neutral",
+        "text": "She's trying to be supportive , but I can tell she is very worried about our financial situation as well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I have some friends who might be able to help you find a job . I'll see what they can do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I have some friends who might be able to help you find a job ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have some friends who might be able to help you find a job . I'll see what they can do .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I really appreciate your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I have some friends who might be able to help you find a job . I'll see what they can do ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I really appreciate your help .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No problem . In the meantime , don't try to worry so much . You'll get through this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I have some friends who might be able to help you find a job .",
+            "I really appreciate your help ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No problem . In the meantime , don't try to worry so much . You'll get through this .",
+        "id": 9
+    }
+]

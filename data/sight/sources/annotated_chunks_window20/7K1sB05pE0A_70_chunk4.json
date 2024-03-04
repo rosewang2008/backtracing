@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Which is that f' of x0, which is known as the derivative of f, at x0, is the slope of the tangent line to y equals f of x at the point, let's just call it P. So that's what it is."
+    },
+    {
+        "text": "But still I haven't made any progress in figuring out any better how I drew that line."
+    },
+    {
+        "text": "So I have to say something that's more concrete."
+    },
+    {
+        "text": "Because I want to be able to cook up what these numbers are."
+    },
+    {
+        "text": "I have to figure out what this number m is."
+    },
+    {
+        "text": "And one way of thinking about that, let me just try it, is, so I certainly am taking for granted the sort of non-calculus part."
+    },
+    {
+        "text": "That I know what a line through a point is."
+    },
+    {
+        "text": "So I know this equation."
+    },
+    {
+        "text": "But another possibility might be this line here."
+    },
+    {
+        "text": "How do I know, well, unfortunately I didn't draw it quite straight, but there it is."
+    },
+    {
+        "text": "How do I know that this orange line is not a tangent line, but this other line is a tangent line?"
+    },
+    {
+        "text": "Well, it's actually not so obvious."
+    },
+    {
+        "text": "But I'm going to describe it a little bit."
+    },
+    {
+        "text": "It's not really the fact, this thing crosses at some other place."
+    },
+    {
+        "text": "Which is this point q."
+    },
+    {
+        "text": "But it's not really the fact that the thing crosses at two places."
+    },
+    {
+        "text": "Because the line could be wiggly, the curve could be wiggly."
+    },
+    {
+        "text": "And it could cross back and forth a number of times."
+    },
+    {
+        "text": "That's not what distinguishes the tangent line."
+    },
+    {
+        "text": "So I'm going to have to somehow grasp this."
+    }
+]

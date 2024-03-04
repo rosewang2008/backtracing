@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow , you are going to be busy this semester ! Okay , here you go . You are registered now . you ' ll have to make your first tuition payment before classes start .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I need to take fundamental linguistics , consumer psychology and neuroanatomy .",
+            "you are going to be busy this semester !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , you are going to be busy this semester ! Okay , here you go . You are registered now . you ' ll have to make your first tuition payment before classes start .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

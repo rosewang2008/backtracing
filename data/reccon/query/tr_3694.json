@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , really ? Do you know why ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "she left him last year ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ? Do you know why ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

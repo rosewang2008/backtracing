@@ -1,0 +1,295 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Shirley . The party has been wonderful . My husband and my children have enjoyed it very much , and me too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The party has been wonderful . My husband and my children have enjoyed it very much"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , Shirley . The party has been wonderful . My husband and my children have enjoyed it very much , and me too .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I've said you will enjoy your life here !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The party has been wonderful . My husband and my children have enjoyed it very much"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've said you will enjoy your life here !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I surely will . By the way , is the party like this held every weekend in our neighborhood ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The party has been wonderful . My husband and my children have enjoyed it very much"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I surely will . By the way , is the party like this held every weekend in our neighborhood ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , I've forgotten to tell you . The party is held every other week . And every family gives their own performance each time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "The party has been wonderful . My husband and my children have enjoyed it very much",
+            "The party is held every other week . And every family gives their own performance each time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I've forgotten to tell you . The party is held every other week . And every family gives their own performance each time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "My children would like that ; they like dancing very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Oh , I've forgotten to tell you . The party is held every other week . And every family gives their own performance each time .",
+            "My children would like that"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My children would like that ; they like dancing very much .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's good !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "My children would like that ; they like dancing very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's good !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Look ! Who is that guy on the stage ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Who is that guy on the stage ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look ! Who is that guy on the stage ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , my God ! That's my husband , Benjamin .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Who is that guy on the stage ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , my God ! That's my husband , Benjamin .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Who is that guy on the stage ?",
+            "That's my husband"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "He likes American Idol very much , and he always imitates the contestant at home . I can't believe he got on the stage himself .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Who is that guy on the stage ?",
+            "I can't believe he got on the stage himself ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He likes American Idol very much , and he always imitates the contestant at home . I can't believe he got on the stage himself .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "He performs very well . He is so funny !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "He performs very well . He is so funny !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He performs very well . He is so funny !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK , just ignore him . I've noticed there are lots of exercise facilities in our community . After dinner you can go there for a walk with your family !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Who is that guy on the stage ?",
+            "I can't believe he got on the stage himself ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK , just ignore him . I've noticed there are lots of exercise facilities in our community . After dinner you can go there for a walk with your family !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "OK , that's perfect ! By the way , is there any playground in our neighborhood ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've noticed there are lots of exercise facilities in our community . After dinner you can go there for a walk with your family !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , that's perfect ! By the way , is there any playground in our neighborhood ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , there is one behind our building . And you can play tennis there . But if you want to play tennis there , they will change you 30 Yuan per hour .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "there is one behind our building"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , there is one behind our building . And you can play tennis there . But if you want to play tennis there , they will change you 30 Yuan per hour .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "OK , got it ! Thank you so much . You have helped me a lot !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "there is one behind our building",
+            "You have helped me a lot !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "OK , got it ! Thank you so much . You have helped me a lot !",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You are welcome ! We are neighbors !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "OK , got it ! Thank you so much . You have helped me a lot !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are welcome ! We are neighbors !",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

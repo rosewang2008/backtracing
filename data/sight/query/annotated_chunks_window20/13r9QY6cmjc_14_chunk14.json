@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 14,
+        "timestamp": 1684726883847.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "why are we representing mu(k) vector as the combination of eigen vectors in the problem of Fibonacci sequence?"
+    }
+]

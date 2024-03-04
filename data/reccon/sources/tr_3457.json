@@ -1,0 +1,317 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I have some good news for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have some good news"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have some good news for you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have some good news"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What's that ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Jenny is getting married .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Jenny is getting married .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great ! Who's the bridegroom ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Who's the bridegroom ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Tom , that lucky guy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Tom , that lucky guy ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Tom , that lucky guy .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The guy always hands the girls in a line . When did he propose ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Tom , that lucky guy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The guy always hands the girls in a line . When did he propose ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Last week , It said that he fell in love with Jenny at Mrs . Whit ' s party last Monday as soon as he saw her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Last week , It said that he fell in love with Jenny at Mrs . Whit ' s party last Monday as soon as he saw her ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Last week , It said that he fell in love with Jenny at Mrs . Whit ' s party last Monday as soon as he saw her .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "My gosh ! How romantic ! When's the big day ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "My gosh ! How romantic ! When's the big day ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My gosh ! How romantic ! When's the big day ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "July 4 , the National Holiday .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "July 4 , the National Holiday .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Will it be a church wedding or a civil ceremony ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Will it be a church wedding or a civil ceremony ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Jenny plans to hold it in church .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Jenny plans to hold it in church .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Who is the best man ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Who is the best man ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Guess !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married .",
+            "Who is the best man ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Guess !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Nobody is OK , but you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Jenny is getting married .",
+            "Nobody is OK , but you !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Nobody is OK , but you !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "You know , Tom is my best friend and he asked me to be his best man .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "Nobody is OK , but you !",
+            "Tom is my best friend and he asked me to be his best man ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You know , Tom is my best friend and he asked me to be his best man .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Did you promise him ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Nobody is OK , but you !",
+            "Tom is my best friend and he asked me to be his best man .",
+            "promise him"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Did you promise him ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yes , I did .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Nobody is OK , but you !",
+            "Tom is my best friend and he asked me to be his best man .",
+            "promise him"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , I did .",
+        "id": 17
+    }
+]

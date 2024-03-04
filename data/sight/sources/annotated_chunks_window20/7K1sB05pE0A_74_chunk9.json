@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And here I put that numerator into this more amenable form."
+    },
+    {
+        "text": "And now there are two basic cancellations."
+    },
+    {
+        "text": "The first one is that x0 and x0 cancel."
+    },
+    {
+        "text": "So we have this."
+    },
+    {
+        "text": "And then the second step is that these two expressions cancel."
+    },
+    {
+        "text": "The numerator and denominator, now we have a cancellation that we can make use of."
+    },
+    {
+        "text": "So we'll write that under here."
+    },
+    {
+        "text": "And this is equals minus 1 over x0 plus delta x times x0."
+    },
+    {
+        "text": "And then the very last step is to take the limit as delta x tends to 0."
+    },
+    {
+        "text": "And now we can do it."
+    },
+    {
+        "text": "Before we couldn't do it."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Because the numerator and the denominator gave us 0 over 0."
+    },
+    {
+        "text": "But now that I've made this cancellation, I can pass to the limit."
+    },
+    {
+        "text": "And all that happens is I set this delta x equal to 0, and I get minus 1 over x0 squared."
+    },
+    {
+        "text": "So that's the answer."
+    },
+    {
+        "text": "So in other words, what I've shown, let me put it up here, is that f' x0 is minus 1 over x0 squared."
+    },
+    {
+        "text": "Now, let's look at the graph just a little bit to check this for plausibility."
+    },
+    {
+        "text": "What's happening here is, first of all, it's negative."
+    },
+    {
+        "text": "It's less than 0."
+    }
+]

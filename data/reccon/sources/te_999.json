@@ -1,0 +1,179 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a nice day !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a nice day !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a nice day !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "yes . How about going out and enjoying the sunshine on the grass ?",
+        "emotion": "neutral",
+        "text": "yes . How about going out and enjoying the sunshine on the grass ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "great , let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "yes . How about going out and enjoying the sunshine on the grass ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "great , let's go !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "hey , darling , I think I might have a little heatstroke from being in the sun all day . I was so relaxed . It felt as if I were in another world .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I was so relaxed . It felt as if I were in another world ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "hey , darling , I think I might have a little heatstroke from being in the sun all day . I was so relaxed . It felt as if I were in another world .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "exactly . You know , the sunshine and wind remind me of our honeymoon . You remember ? The island , the sound of the waves , the salty sea air and the sunshine ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I was so relaxed . It felt as if I were in another world .",
+            "You know , the sunshine and wind remind me of our honeymoon . You remember ? The island , the sound of the waves , the salty sea air and the sunshine ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "exactly . You know , the sunshine and wind remind me of our honeymoon . You remember ? The island , the sound of the waves , the salty sea air and the sunshine ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "yes , it was wonderful but it's already been a year . How time flies !",
+        "emotion": "neutral",
+        "text": "yes , it was wonderful but it's already been a year . How time flies !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "why not go again to celebrate out one-year anniversary ? We can go to the same beach , stay in the same hotel and enjoy a dinner in the same restaurant .",
+        "emotion": "neutral",
+        "text": "why not go again to celebrate out one-year anniversary ? We can go to the same beach , stay in the same hotel and enjoy a dinner in the same restaurant .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "are you kidding ? Can you afford it ? Do you think we can get a room on such short notice ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "why not go again to celebrate out one-year anniversary ? We can go to the same beach , stay in the same hotel and enjoy a dinner in the same restaurant .",
+            "Can you afford it ? Do you think we can get a room on such short notice ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "are you kidding ? Can you afford it ? Do you think we can get a room on such short notice ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "never mind that , I'll take care of it . Are you available next week ?",
+        "emotion": "neutral",
+        "text": "never mind that , I'll take care of it . Are you available next week ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "yeah , I think so .",
+        "emotion": "neutral",
+        "text": "yeah , I think so .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "ok . I'll make the arrangements . It will be great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "celebrate out one-year anniversary ?",
+            "Are you available next week ?",
+            "yeah , I think so .",
+            "It will be great ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "ok . I'll make the arrangements . It will be great .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "wonderful ! I'll start packing our suitcases .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'll make the arrangements . It will be great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "wonderful ! I'll start packing our suitcases .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

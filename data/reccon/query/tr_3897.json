@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , a legend , also . I still remember , his movies , Jurassic Park and Schindler's List got him nine Oscar awards in 1994 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Another superstar .",
+            "a legend"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , a legend , also . I still remember , his movies , Jurassic Park and Schindler's List got him nine Oscar awards in 1994 .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

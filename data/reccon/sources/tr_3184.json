@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Susie , what health club do you belong to ?",
+        "emotion": "neutral",
+        "text": "Hey , Susie , what health club do you belong to ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Total Fitness , why ?",
+        "emotion": "neutral",
+        "text": "Total Fitness , why ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , I ' Ve been going to Athletic Express , but I don ' t like it there .",
+        "emotion": "neutral",
+        "text": "Well , I ' Ve been going to Athletic Express , but I don ' t like it there .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? Why not ? I hear it ' s pretty good .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve been going to Athletic Express , but I don ' t like it there .",
+            "I hear it ' s pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Why not ? I hear it ' s pretty good .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "The people don ' t really work out there . They just stand around and talk all the time .",
+        "emotion": "neutral",
+        "text": "The people don ' t really work out there . They just stand around and talk all the time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , it ' s one of those places .",
+        "emotion": "neutral",
+        "text": "Oh , it ' s one of those places .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , is your club different ?",
+        "emotion": "neutral",
+        "text": "Yeah , is your club different ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , they have different rooms . I lift weights by the pool where there aren ' t so many people .",
+        "emotion": "neutral",
+        "text": "Well , they have different rooms . I lift weights by the pool where there aren ' t so many people .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Do they have a lot of equipment ?",
+        "emotion": "neutral",
+        "text": "Do they have a lot of equipment ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeah , they have all the machines , a pool , and a steam room and sauna .",
+        "emotion": "neutral",
+        "text": "Yeah , they have all the machines , a pool , and a steam room and sauna .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sounds nice . What about classes ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "they have all the machines , a pool , and a steam room and sauna ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds nice . What about classes ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "The usual . Aerobics , kickboxing , yoga . They just started a Tai Chi class too .",
+        "emotion": "neutral",
+        "text": "The usual . Aerobics , kickboxing , yoga . They just started a Tai Chi class too .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Wow , that sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "they have all the machines , a pool , and a steam room and sauna .",
+            "Aerobics , kickboxing , yoga . They just started a Tai Chi class too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , that sounds great .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well , I have a guest pass . Why don ' t you come with me tonight ?",
+        "emotion": "neutral",
+        "text": "Well , I have a guest pass . Why don ' t you come with me tonight ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Really ? Thanks . I ' ll stop by when I get off work .",
+        "emotion": "neutral",
+        "text": "Really ? Thanks . I ' ll stop by when I get off work .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Perfect . See you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Thanks . I ' ll stop by when I get off work ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Perfect . See you later .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "O . K . , see you .",
+        "emotion": "neutral",
+        "text": "O . K . , see you .",
+        "id": 17
+    }
+]

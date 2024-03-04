@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I can push it out of the exponential."
+    },
+    {
+        "text": "And so it's just square root of 2 pi, which is a function of x, technically."
+    },
+    {
+        "text": "I mean, it's a constant function of x, but it's a function of x."
+    },
+    {
+        "text": "So you can see that it's not completely clear how you're going to do the trade-off."
+    },
+    {
+        "text": "So the constant terms can go either in b or in h. But why bother with tracking down b and h when you can actually stuff everything into one and just call h 1 and call it a day?"
+    },
+    {
+        "text": "So you can just forget about h. It's 1, and think about the rest."
+    },
+    {
+        "text": "h won't matter, actually, for estimation purposes or anything like this."
+    },
+    {
+        "text": "All right, so that's basically everything that's written."
+    },
+    {
+        "text": "When sigma square is known, what's happening is that this guy here is no longer a function of theta, right?"
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "This is no longer a parameter."
+    },
+    {
+        "text": "When sigma square is known, then theta is equal to mu only."
+    },
+    {
+        "text": "There's no sigma square going on."
+    },
+    {
+        "text": "So everything that depends on sigma square can be thought as a constant, think 1."
+    },
+    {
+        "text": "So in particular, this term here does not belong in the interaction between x and theta."
+    },
+    {
+        "text": "It belongs to h, right?"
+    },
+    {
+        "text": "So if sigma is known, then this guy is only a function of h of x."
+    },
+    {
+        "text": "So h of x becomes exponential x squared minus x squared over 2 sigma squared, right?"
+    },
+    {
+        "text": "That's just a function of x."
+    },
+    {
+        "text": "Is that clear?"
+    }
+]

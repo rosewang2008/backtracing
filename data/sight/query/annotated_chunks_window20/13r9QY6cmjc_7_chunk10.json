@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 7,
+        "timestamp": 1684725468449.0,
+        "annotatedSourceSentencesIndices": [
+            13
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "-0.618       1\n    1        -1.618\nThe Null Space of the given matrix should be the zero vector because the RREF will become:\n1      0\n0      1\nWhich means the Null Space(and hence the Eigenvector) is the zero vector for the first Eigenvalue?\nCorrect me if I'm wrong?"
+    }
+]

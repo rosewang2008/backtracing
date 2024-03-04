@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you call me ?",
+        "emotion": "neutral",
+        "text": "Did you call me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you for returning my call .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "returning my call ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for returning my call .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What was your call about ?",
+        "emotion": "neutral",
+        "text": "What was your call about ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I wanted to have a talk with you about your son .",
+        "emotion": "neutral",
+        "text": "I wanted to have a talk with you about your son .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What did he do ?",
+        "emotion": "neutral",
+        "text": "What did he do ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He was messing around last week in class .",
+        "emotion": "neutral",
+        "text": "He was messing around last week in class .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Exactly what did he do ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He was messing around"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Exactly what did he do ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Even though I asked him not to , he kept speaking out in class .",
+        "emotion": "neutral",
+        "text": "Even though I asked him not to , he kept speaking out in class .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't know what his problem is .",
+        "emotion": "neutral",
+        "text": "I don't know what his problem is .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I need you to talk to him , if you don't mind .",
+        "emotion": "neutral",
+        "text": "I need you to talk to him , if you don't mind .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That won't happen again , I'm sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "he kept speaking out in class .",
+            "I don't know what his problem is ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That won't happen again , I'm sorry .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you . Hopefully I won't have to call about him again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "That won't happen again ,",
+            "sorry ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Hopefully I won't have to call about him again .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

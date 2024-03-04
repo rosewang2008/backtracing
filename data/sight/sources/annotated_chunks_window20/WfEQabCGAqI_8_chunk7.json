@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, actually, even if we had made a mistake, we somehow wouldn't have had to pay the price, still."
+    },
+    {
+        "text": "OK, so we'll end up with double integral on S of z dx dy."
+    },
+    {
+        "text": "Now, what do we do with that?"
+    },
+    {
+        "text": "Well, we have too many things."
+    },
+    {
+        "text": "We need to get rid of z."
+    },
+    {
+        "text": "So, let's use z equals x squared plus y squared once more."
+    },
+    {
+        "text": "OK, so that becomes double integral of x squared plus y squared dx dy."
+    },
+    {
+        "text": "And here, see, we're using the fact that we're only looking at things that are on the surface."
+    },
+    {
+        "text": "It's not like in a triple integral, you could never do that because z, x, and y are independent."
+    },
+    {
+        "text": "Here, they're related by the equation of a surface."
+    },
+    {
+        "text": "Sorry if I sound like I'm ranting, but I know from experience this is where one of the most sticky and tricky points is, actually."
+    },
+    {
+        "text": "OK, so now, how will we actually integrate that?"
+    },
+    {
+        "text": "Well, now that we have just x and y, we should figure out what's the range for x and y?"
+    },
+    {
+        "text": "Well, the range for x and y is going to be the shadow of our region."
+    },
+    {
+        "text": "It's going to be this unit disk."
+    },
+    {
+        "text": "OK, so let me just do that for now."
+    },
+    {
+        "text": "And see here, this is finally where I've left the world of surface integrals to go back to a usual double integral."
+    },
+    {
+        "text": "And now, I have to set it up."
+    },
+    {
+        "text": "Well, I can do it this way with dx dy, but it looks like there's a smarter thing to do."
+    },
+    {
+        "text": "OK, I'm going to use, actually, polar coordinates."
+    }
+]

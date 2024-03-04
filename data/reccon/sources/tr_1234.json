@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "David , would you like something to eat ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "David , would you like something to eat ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , I'm full .",
+        "emotion": "neutral",
+        "text": "No , I'm full .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you want something to drink ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you want something to drink ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I'd like some coffee .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'd like some coffee ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , I'd like some coffee .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sorry , I don't have any coffee .",
+        "emotion": "neutral",
+        "text": "Sorry , I don't have any coffee .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's OK . I'll have a glass of water .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to see the listener",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'd like some coffee ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That's OK . I'll have a glass of water .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "A small glass , or a big one ?",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to help the listener",
+        "expanded emotion cause evidence": [
+            "b",
+            6
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'll have a glass of water ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "A small glass , or a big one ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Small please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'd like some coffee ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Small please .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Here you are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            6
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'll have a glass of water ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "Here you are .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'd like some coffee .",
+            "Here you are ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You're welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Thanks ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You know , I could really go for that . You don ' t mind being my wingman for tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "let ' s get you suited up and hit the dance club tonight . I hear that an awesome DJ is playing and there will be a lot of pretty single girls there !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know , I could really go for that . You don ' t mind being my wingman for tonight ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

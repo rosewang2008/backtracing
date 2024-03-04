@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you go to your boss and report, \"Well, it took-- I went there and the time from the previous bus to the next one was 23 minutes."
+    },
+    {
+        "text": "It's more than the 15 that they said.\""
+    },
+    {
+        "text": "So go and do that again."
+    },
+    {
+        "text": "You go day after day."
+    },
+    {
+        "text": "You keep these statistics of the length of this interval."
+    },
+    {
+        "text": "And you tell your boss it's a lot more than 15."
+    },
+    {
+        "text": "It tends to be more like 30 or so."
+    },
+    {
+        "text": "So the bus company is cheating us."
+    },
+    {
+        "text": "Does the bus company really run Poisson buses at the rate that they have promised?"
+    },
+    {
+        "text": "Well let's analyze the situation here and figure out what the length of this interval should be, on the average."
+    },
+    {
+        "text": "The naive argument is that this interval is an interarrival time."
+    },
+    {
+        "text": "And interarrival times, on the average, are 15 minutes, if the company runs indeed Poisson processes with these interarrival times."
+    },
+    {
+        "text": "But actually the situation is a little more subtle because this is not a typical interarrival interval."
+    },
+    {
+        "text": "This interarrival interval consists of two pieces."
+    },
+    {
+        "text": "Let's call them T1 and T1 prime."
+    },
+    {
+        "text": "What can you tell me about those two random variables?"
+    },
+    {
+        "text": "What kind of random variable is T1?"
+    },
+    {
+        "text": "Starting from this time, with the Poisson process, the past doesn't matter."
+    },
+    {
+        "text": "It's the time until an arrival happens."
+    },
+    {
+        "text": "So T1 is going to be an exponential random variable with parameter lambda."
+    }
+]

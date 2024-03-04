@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I'm going to mark those off in s. And that gives me the way to cut s up into three pieces."
+    },
+    {
+        "text": "Now, if you're appreciating what's going on inside the machine, you will see why M will also accept the string x, y, y, z."
+    },
+    {
+        "text": "Because every time, once you're at qj, if you go around once, you come back to qj."
+    },
+    {
+        "text": "And then if you go again, you'll come back to qj."
+    },
+    {
+        "text": "And as many times as you keep seeing that y, you're just going to keep coming back to qj."
+    },
+    {
+        "text": "So it doesn't matter how many y's you have."
+    },
+    {
+        "text": "You're going to still, if you follow it by z, which is what you will do, you'll end up accepting the string."
+    },
+    {
+        "text": "And that's really the proof."
+    },
+    {
+        "text": "I mean, you have to do a little bit more here just to understand."
+    },
+    {
+        "text": "I should have mentioned why I want to forbid y being the empty string."
+    },
+    {
+        "text": "Because if y is the empty string, it's not interesting."
+    },
+    {
+        "text": "It doesn't change."
+    },
+    {
+        "text": "Repeating it doesn't actually change anything."
+    },
+    {
+        "text": "So I have to make sure it's not empty."
+    },
+    {
+        "text": "But anyway, that's kind of a detail here."
+    },
+    {
+        "text": "If you look at the string x, y, y, z, that's still going to be accepted."
+    },
+    {
+        "text": "So that's the proof of the pumping lemma."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So let's have a little check-in related to that."
+    },
+    {
+        "text": "This is not going to be, again, not super hard, but more just a curiosity."
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you , Sue ?",
+        "emotion": "happiness",
+        "explanation": "Greeting",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "How are you , Sue ?"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "How are you , Sue ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Pretty good . I ' Ve just had my new poems published .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Pretty good . I ' Ve just had my new poems published .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Congratulations on your success .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published .",
+            "I ' Ve just had my new poems published ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations on your success .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve just had my new poems published .",
+            "Congratulations on your success ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And how ' s your brother ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "And how ' s your brother ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And how ' s your brother ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He is fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He is fine ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He is fine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "He ' s going to be sent to Britain to study , really ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "He ' s going to be sent to Britain to study"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He ' s going to be sent to Britain to study , really ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . He ' s already got the passport and visa .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "He ' s going to be sent to Britain to study"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . He ' s already got the passport and visa .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Fantastic ! Please send him my congratulations .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "He ' s going to be sent to Britain to study"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Fantastic ! Please send him my congratulations .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . He ' s very lucky indeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "He ' s going to be sent to Britain to study"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . He ' s very lucky indeed .",
+        "id": 10,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

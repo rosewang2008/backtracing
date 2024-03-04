@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 8,
+        "timestamp": 1684520433574.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "what does 1 over lambda represent in the fishing example?"
+    }
+]

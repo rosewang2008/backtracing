@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Oh, and just a reminder in case you're just getting yourself your memory to work, maybe it'll help you just to remember that we actually did an example of that conversion."
+    },
+    {
+        "text": "We looked at this regular expression A union AB star."
+    },
+    {
+        "text": "And we actually worked through the process of converting that."
+    },
+    {
+        "text": "Oops, I need to make myself smaller so you can see all that."
+    },
+    {
+        "text": "We went through the process of converting A union AB star as an example of that, of, I mean, OK, well, we went through the process of actually doing that conversion."
+    },
+    {
+        "text": "And now we're going to show how to do it the other way around."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So we're going to invert that and go backwards the other way."
+    },
+    {
+        "text": "So today's theorem is to show that if A is regular, namely, it's the language of some finite automaton, then you can convert it to a regular expression which will describe that same language."
+    },
+    {
+        "text": "So basically, we're going to give a conversion from finite automata to regular expressions."
+    },
+    {
+        "text": "But before we do that, we're going to have to introduce a new concept."
+    },
+    {
+        "text": "So we're not going to be able to dive right into that conversion."
+    },
+    {
+        "text": "We're going to have to introduce a new model first, which is going to facilitate that conversion."
+    },
+    {
+        "text": "And that new model is called, it's yet another kind of finite automaton, called a generalized nondeterministic finite automaton, or a generalized NFA, or just simply a GNFA."
+    },
+    {
+        "text": "So this is yet another variant of the finite automaton model."
+    },
+    {
+        "text": "And conceptually, it's very simple."
+    },
+    {
+        "text": "It's similar to the NFAs."
+    },
+    {
+        "text": "I'll give you, here's a picture of a GNFA named G, G1."
+    },
+    {
+        "text": "Very similar to the NFAs."
+    },
+    {
+        "text": "But if you look at it for a second, you'll see that the transitions have more complicated labels."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's delta x, so-called."
+    },
+    {
+        "text": "And we could also call it the change in x."
+    },
+    {
+        "text": "So that's one thing we want to measure in order to get the slope of this line p, q."
+    },
+    {
+        "text": "And the other thing is this height."
+    },
+    {
+        "text": "So that's this distance here, which we denote delta f, which is the change in f. And then the slope is just the ratio delta f over delta x."
+    },
+    {
+        "text": "So this is the slope of the secant."
+    },
+    {
+        "text": "And the process I just described over here with this limit applies not just to the whole line itself, but also in particular to its slope."
+    },
+    {
+        "text": "And the way we write that is the limit as delta x goes to 0."
+    },
+    {
+        "text": "And that's going to be our slope."
+    },
+    {
+        "text": "So this is the slope of the tangent line."
+    },
+    {
+        "text": "OK, now this is still a little general, and I want to work out a more usable form here."
+    },
+    {
+        "text": "I want to work out a better formula for this."
+    },
+    {
+        "text": "And in order to do that, I'm going to write delta f, the numerator, more explicitly here."
+    },
+    {
+        "text": "The change in f. So remember that the point p is the point x0, f of x0."
+    },
+    {
+        "text": "That's what we got from our formula for the point."
+    },
+    {
+        "text": "And in order to compute these distances, and in particular the vertical distance here, I'm going to have to get a formula for q as well."
+    },
+    {
+        "text": "So if this horizontal distance is delta x, then this location is x0 plus delta x."
+    },
+    {
+        "text": "And so the point above that point has a formula which is x0 plus delta x, f of, and this is a mouthful, x0 plus delta x."
+    },
+    {
+        "text": "So there's the formula for the point q."
+    },
+    {
+        "text": "Here's the formula for the point p. And now I can write a different formula for the derivative."
+    }
+]

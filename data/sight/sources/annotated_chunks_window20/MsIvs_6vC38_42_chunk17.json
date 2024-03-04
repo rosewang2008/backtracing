@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The first row didn't get changed, but all the other rows got changed at this step."
+    },
+    {
+        "text": "So this step, well, I guess maybe, shall I say, it cost about, this cost about a hundred squared."
+    },
+    {
+        "text": "I mean, if I had changed the first row, then it would have been exactly a hundred squared, because that's how many numbers are here."
+    },
+    {
+        "text": "A hundred squared numbers is the total count of the entries, and all but this insignificant first row got changed."
+    },
+    {
+        "text": "So I would say about a hundred squared."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Now what about the next step?"
+    },
+    {
+        "text": "So now the first row is fine."
+    },
+    {
+        "text": "The second row is fine."
+    },
+    {
+        "text": "And I'm changing, and these zeros are all fine."
+    },
+    {
+        "text": "So what's up at the second step?"
+    },
+    {
+        "text": "And then you're with me."
+    },
+    {
+        "text": "Roughly what's the cost?"
+    },
+    {
+        "text": "If this first step cost a hundred squared, about, operations, then this one, which is really working on this guy to produce this, cost about what?"
+    },
+    {
+        "text": "How many operations to fix?"
+    },
+    {
+        "text": "About ninety-nine squared."
+    },
+    {
+        "text": "Or ninety-nine times ninety-eight."
+    },
+    {
+        "text": "But less, right?"
+    },
+    {
+        "text": "Less, because our problem's getting smaller."
+    },
+    {
+        "text": "About ninety-nine squared."
+    }
+]

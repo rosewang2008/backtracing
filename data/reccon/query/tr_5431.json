@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Okay . I'm in . Let's do it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "great idea .",
+            "Going on a diet with a friend to back you up is a great way to succeed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Okay . I'm in . Let's do it .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

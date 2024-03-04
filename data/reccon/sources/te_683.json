@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , is that Cathy speaking ?",
+        "emotion": "neutral",
+        "text": "Hello , is that Cathy speaking ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , is that you , Allen ?",
+        "emotion": "neutral",
+        "text": "Yes , is that you , Allen ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , how are you doing ?",
+        "emotion": "neutral",
+        "text": "Yes , how are you doing ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not bad .",
+        "emotion": "happiness",
+        "explanation": "Assuming B is happy to talk to A",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "is that you , Allen ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Not bad .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Say I've got two tickets for the concert this evening . Would you like to come with me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Say I've got two tickets for the concert this evening . Would you like to come with me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening . Would you like to come with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Thank you very much .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Then I ' ll pick you up at six thirty . OK ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening . Would you like to come with me ?",
+            "Sure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Then I ' ll pick you up at six thirty . OK ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Ok , see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening . Would you like to come with me ?",
+            "Sure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Ok , see you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "See you .",
+        "emotion": "happiness",
+        "explanation": "Assuming they are happy because: 1) They got two concert tickets; and 2) going to attend it together.",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Say I've got two tickets for the concert this evening . Would you like to come with me ?",
+            "Sure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "See you .",
+        "id": 9
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I'm going to want to go into the likelihood."
+    },
+    {
+        "text": "And the likelihood I'm actually going to use to compute the expectations."
+    },
+    {
+        "text": "But since I actually don't have time to do this now, let's just go quickly through this and give you a spoiler alert to make sure that you all wake up on Thursday and really, really want to think about coming here immediately."
+    },
+    {
+        "text": "So the thing I'm going to want to do, as I said, is it would be nice if, at least for this canonical family, when I give you b, you would be able to say, oh, here is a simple computation of b that would actually give me the mean and the variance."
+    },
+    {
+        "text": "The mean and the variance are also known as moments."
+    },
+    {
+        "text": "b is called cumulant generating function."
+    },
+    {
+        "text": "So it sounds like moments being related to cumulants might have a path to finding those."
+    },
+    {
+        "text": "And it might involve taking derivatives of b, as we'll see."
+    },
+    {
+        "text": "The way we're going to prove this is by using this thing that we've used several times."
+    },
+    {
+        "text": "So this property we use when we're computing, remember, the Fisher information."
+    },
+    {
+        "text": "We had two formulas for the Fisher information."
+    },
+    {
+        "text": "One was the expectation of the second derivative of the likelihood."
+    },
+    {
+        "text": "And one was negative expectation of the square."
+    },
+    {
+        "text": "Sorry, expectation of the square."
+    },
+    {
+        "text": "And the other one was negative the expectation of the second derivative."
+    },
+    {
+        "text": "The log likelihood is concave."
+    },
+    {
+        "text": "So this number is negative."
+    },
+    {
+        "text": "This number is positive."
+    },
+    {
+        "text": "And the way we did this is by just permuting some derivative and integral here."
+    },
+    {
+        "text": "And we used the fact that something that looked like this, the log likelihood is log of f theta."
+    }
+]

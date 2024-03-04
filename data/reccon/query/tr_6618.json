@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "And look what we did to him ! Hey ... he left me his business card .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "he was just a shy guy who had a crush on you !",
+            "what we did to him !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And look what we did to him ! Hey ... he left me his business card .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

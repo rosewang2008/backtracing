@@ -1,0 +1,13 @@
+[
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 2,
+        "timestamp": 1684511180783.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "Thanks for your presentation. Please in the case we use ordinal logit , should we report pearson correlation and omnibus test value? if it is the case, how to interpret them (for exemple, under or above p value, what it is the meaning). Also shoud we consider the sig level from the table 'Test of model effect' or 'Parameter Estimates' table to say that a relationship between the predictor and outcome variable is significant. I am really looking for ways to interpret, your answer will really help me. thanks."
+    }
+]

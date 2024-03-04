@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mom , I just finished my paper . Can you proofread it before I hand it in ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I just finished my paper ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Mom , I just finished my paper . Can you proofread it before I hand it in ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , let ' s take a look . Sweetie , this is terrific . Your ideas are so original .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is terrific . Your ideas are so original ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure , let ' s take a look . Sweetie , this is terrific . Your ideas are so original .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is terrific . Your ideas are so original ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I can tell you worked hard on it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is terrific . Your ideas are so original ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I can tell you worked hard on it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I really did ! I started thinking about what I wanted to say three weeks ago .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I can tell you worked hard on it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I really did ! I started thinking about what I wanted to say three weeks ago .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , it was definitely worth all the time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I started thinking about what I wanted to say three weeks ago .",
+            "it was definitely worth all the time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , it was definitely worth all the time .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let ' s just hope my teacher agrees .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it was definitely worth all the time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let ' s just hope my teacher agrees .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

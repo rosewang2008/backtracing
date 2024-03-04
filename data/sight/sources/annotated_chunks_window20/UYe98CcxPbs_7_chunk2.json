@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I am going to keep y constant equal to y0."
+    },
+    {
+        "text": "And I am going to change x."
+    },
+    {
+        "text": "And, as I change x, z will change at a rate that is equal to a."
+    },
+    {
+        "text": "That would be z equals z0 plus a times the change in x, x minus x0."
+    },
+    {
+        "text": "That is how you would describe the line that is, I guess, the one that is plotted in green here."
+    },
+    {
+        "text": "That is the intersection with the slice parallel to the xz plane."
+    },
+    {
+        "text": "I hold y constant equal to y0."
+    },
+    {
+        "text": "And z is a function of x that varies with a rate of a."
+    },
+    {
+        "text": "And now, if I look similarly at the other slice, let's say that the partial with respect to y is equal to b, then I get another line which is obtained by the fact that z depends on y and the rate of change with respect to y will be b while x is held constant equal to x0."
+    },
+    {
+        "text": "These two lines are both going to be in the tangent plane to the surface."
+    },
+    {
+        "text": "They are both tangent to the surface, f of f. And, well, together they determine a plane."
+    },
+    {
+        "text": "And that plane is just given by the formula z equals z0 plus a times x minus x0 plus b times y plus b."
+    },
+    {
+        "text": "If you look at what happens, this is the equation of a plane, z equals constant times x plus constant times y plus constant."
+    },
+    {
+        "text": "And if you look at what happens if I hold y constant and vary x, I recover the first line."
+    },
+    {
+        "text": "If I hold x constant and vary y, I get the second line."
+    },
+    {
+        "text": "Another way to do it, of course, would be to write actually parametric equations of these lines, get vectors along them and then take the cross-product to get the normal vector to the plane, and then get this equation for the plane using the normal vector."
+    },
+    {
+        "text": "That also works and it gives you the same formula."
+    },
+    {
+        "text": "If you are curious, exercise, do it again using parametrics and using cross-product to get the plane equation."
+    },
+    {
+        "text": "OK, so that is how we get the tangent plane."
+    },
+    {
+        "text": "And now, what this approximation formula here says is that, in fact, the graph of a function is close to the tangent plane."
+    }
+]

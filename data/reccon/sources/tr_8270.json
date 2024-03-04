@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , BCD Company , can I help you ?",
+        "emotion": "neutral",
+        "text": "Hello , BCD Company , can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , may I speak to Mrs Smith ?",
+        "emotion": "neutral",
+        "text": "Hello , may I speak to Mrs Smith ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "This is Mrs Smith , may I have your name ?",
+        "emotion": "neutral",
+        "text": "This is Mrs Smith , may I have your name ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "This is Sun , and I interviewed with you yesterday .",
+        "emotion": "neutral",
+        "text": "This is Sun , and I interviewed with you yesterday .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hello , Mr . Sun .",
+        "emotion": "neutral",
+        "text": "Hello , Mr . Sun .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I am calling to thank you for giving me the interview for the Sales Manager position yesterday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "thank you for giving me the interview for the Sales Manager position yesterday ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am calling to thank you for giving me the interview for the Sales Manager position yesterday .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are welcome , Mr . Sun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I am calling to thank you for giving me the interview for the Sales Manager position yesterday ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are welcome , Mr . Sun .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I really enjoyed meeting with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed meeting with you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really enjoyed meeting with you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You certainly made a good impression on me , as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I really enjoyed meeting with you .",
+            "You certainly made a good impression on me , as well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You certainly made a good impression on me , as well .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I am very interested in this position .",
+        "emotion": "neutral",
+        "text": "I am very interested in this position .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "We'll be making the decision by the end of this week and we'll contact you as soon as possible .",
+        "emotion": "neutral",
+        "text": "We'll be making the decision by the end of this week and we'll contact you as soon as possible .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , thank you for your time and consideration again .",
+        "emotion": "neutral",
+        "text": "Well , thank you for your time and consideration again .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You are welcome .",
+        "emotion": "neutral",
+        "text": "You are welcome .",
+        "id": 13
+    }
+]

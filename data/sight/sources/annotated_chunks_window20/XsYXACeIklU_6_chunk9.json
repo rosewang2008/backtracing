@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Overall, in this expedition, what the expected number of fish to be caught?"
+    },
+    {
+        "text": "One way to think about it is to try to use the total expectations theorem."
+    },
+    {
+        "text": "And think of expected number of fish, given this scenario, or expected number of fish, given this scenario."
+    },
+    {
+        "text": "That's a little more complicated than the way I'm going to do it."
+    },
+    {
+        "text": "The way I'm going to do is to think as follows-- Expected number of fish is the expected number of fish caught between times 0 and 2 plus expected number of fish caught after time 2."
+    },
+    {
+        "text": "So what's the expected number caught between time 0 and 2?"
+    },
+    {
+        "text": "This is lambda t. So lambda is 0.6 times 2."
+    },
+    {
+        "text": "This is the expected number of fish that are caught between times 0 and 2."
+    },
+    {
+        "text": "Now let's think about the expected number of fish caught afterwards."
+    },
+    {
+        "text": "How many fish are being caught afterwards?"
+    },
+    {
+        "text": "Well it depends on the scenario."
+    },
+    {
+        "text": "If we're in this scenario, we've gone home and we catch 0."
+    },
+    {
+        "text": "If we're in this scenario, then we continue fishing until we catch one."
+    },
+    {
+        "text": "So the expected number of fish to be caught after time 2 is going to be the probability of this scenario times 1."
+    },
+    {
+        "text": "And the probability of that scenario is the probability that they call it's 0 fish during the first 2 time steps times 1, which is the number of fish I'm going to catch if I continue."
+    },
+    {
+        "text": "The expected total fishing time we can calculate exactly the same way."
+    },
+    {
+        "text": "I'm jumping to the last one."
+    },
+    {
+        "text": "My total fishing time has a period of 2 time steps."
+    },
+    {
+        "text": "I'm going to fish for 2 time steps no matter what."
+    },
+    {
+        "text": "And then if I caught 0 fish, which happens with this probability, my expected time is going to be the expected time from here onwards, which is the expected value of this geometric random variable with parameter lambda."
+    }
+]

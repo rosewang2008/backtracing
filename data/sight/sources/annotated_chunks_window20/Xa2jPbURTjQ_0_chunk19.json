@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Where will we sort of like automatically show up with orthogonal vectors?"
+    },
+    {
+        "text": "They could be the eigenvectors of a symmetric matrix."
+    },
+    {
+        "text": "And that's where the most important ones come from."
+    },
+    {
+        "text": "Oh, I could tell you about wavelets, though."
+    },
+    {
+        "text": "Wavelets are more like this picture."
+    },
+    {
+        "text": "They're 1's and minus 1's."
+    },
+    {
+        "text": "Or the simplest wavelets are 1's and minus 1's."
+    },
+    {
+        "text": "Before I go on to the eigenvector business, can I mention the wavelets matrices?"
+    },
+    {
+        "text": "Yeah, these are really important, simple and important constructions."
+    },
+    {
+        "text": "So wavelets, let me draw a picture."
+    },
+    {
+        "text": "So I'm going to come up with four."
+    },
+    {
+        "text": "I'll do the 4 by 4 case."
+    },
+    {
+        "text": "And these are the orthogonal guys."
+    },
+    {
+        "text": "And then the next one is up and down and 0."
+    },
+    {
+        "text": "And the last one is 0 and up and down."
+    },
+    {
+        "text": "So that's four things, but let me show you the matrix."
+    },
+    {
+        "text": "So I'll call it W for wavelets."
+    },
+    {
+        "text": "So that guy I'm thinking of as 1, 1, 1, 1."
+    },
+    {
+        "text": "This guy I'm thinking of as 1, 1, minus 1, minus 1."
+    },
+    {
+        "text": "It's looking sort of Adhemard way, but there's a difference here."
+    }
+]

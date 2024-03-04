@@ -1,0 +1,32 @@
+[
+    {
+        "text": "Each A, A times each V is in the direction of the corresponding U."
+    },
+    {
+        "text": "So it's exactly the right basis for the four fundamental subspaces."
+    },
+    {
+        "text": "And of course, their dimensions are what we know."
+    },
+    {
+        "text": "The dimension of the row space is the rank r, and so is the dimension of the column space."
+    },
+    {
+        "text": "The dimension of the null space is n minus r, that's how many vectors we need, and m minus r basis vectors for the left null space, the null space of A transpose."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'm going to stop there."
+    },
+    {
+        "text": "I could develop further from the SVD, but we'll see it again in the very last lectures of the course."
+    },
+    {
+        "text": "There's the SVD."
+    },
+    {
+        "text": "Thanks."
+    }
+]

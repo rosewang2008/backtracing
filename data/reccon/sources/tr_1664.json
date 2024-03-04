@@ -1,0 +1,337 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You said you like classical music very much . Then who is your favorite opera star ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "You said you like classical music very much . Then who is your favorite opera star ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "There are three of them , the Three Tenors .",
+        "emotion": "happiness",
+        "explanation": "Sharing experience",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "You said you like classical music very much . Then who is your favorite opera star ?",
+            "There are three of them , the Three Tenors ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "There are three of them , the Three Tenors .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , you mean Pavarotti , Domingo and Carreras . Have you been to their live shows ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "There are three of them , the Three Tenors ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "Oh , you mean Pavarotti , Domingo and Carreras . Have you been to their live shows ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah , it's really a unique experience . It's a solo concert by Pavarotti . He put on the performance in the Forbidden City in Beijing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "You said you like classical music very much . Then who is your favorite opera star ?",
+            "There are three of them , the Three Tenors .",
+            "it's really a unique experience ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yeah , it's really a unique experience . It's a solo concert by Pavarotti . He put on the performance in the Forbidden City in Beijing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've heard of that one . It was also his swan song .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "it's really a unique experience ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've heard of that one . It was also his swan song .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Besides , speaking of classical music , we should never forget about the New Year's Concert .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "You said you like classical music very much . Then who is your favorite opera star ?",
+            "There are three of them , the Three Tenors .",
+            "it's really a unique experience .",
+            "New Year's Concert"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Besides , speaking of classical music , we should never forget about the New Year's Concert .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Of course not . People all over the world watch it on TV , or listen to it on the radio .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course not . People all over the world watch it on TV , or listen to it on the radio .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure . It's undoubtedly one of the biggest classical music events . Have you ever been to the live show ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Sure . It's undoubtedly one of the biggest classical music events . Have you ever been to the live show ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , I went to the New Year's Concert in 2005 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert",
+            "I went to the New Year's Concert in 2005 ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I went to the New Year's Concert in 2005 .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow , you are so lucky . I saw that one on TV . But it must be so different to be there in the concert hall .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Yes , I went to the New Year's Concert in 2005 ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , you are so lucky . I saw that one on TV . But it must be so different to be there in the concert hall .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's for sure . You know , it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert",
+            "I went to the New Year's Concert in 2005 .",
+            "it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's for sure . You know , it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Who was the conductor at that event ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Yes , I went to the New Year's Concert in 2005 .",
+            "it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Who was the conductor at that event ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Lorin Maazel . He did an amazing job . Moreover , he just celebrated his 75th birthday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9,
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert",
+            "I went to the New Year's Concert in 2005 .",
+            "it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever .",
+            "He did an amazing job ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Lorin Maazel . He did an amazing job . Moreover , he just celebrated his 75th birthday .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "So cool . I wish I can go to the live New Year's Concert someday in the future .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Yes , I went to the New Year's Concert in 2005 .",
+            "it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever .",
+            "Lorin Maazel . He did an amazing job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So cool . I wish I can go to the live New Year's Concert someday in the future .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "The right opportunity for you would come along soon . You know , music is transnational .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9,
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "New Year's Concert",
+            "I went to the New Year's Concert in 2005 .",
+            "it's really amazing to be in the best concert hall , listening to the performance by the best orchestra . I had the greatest time ever .",
+            "He did an amazing job ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "The right opportunity for you would come along soon . You know , music is transnational .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I believe in that . Well , the performance is about to begin . Let's be quiet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "The right opportunity for you would come along soon .",
+            "the performance is about to begin"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I believe in that . Well , the performance is about to begin . Let's be quiet .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

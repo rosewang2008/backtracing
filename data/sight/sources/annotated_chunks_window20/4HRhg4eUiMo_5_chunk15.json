@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We replaced p by 0.5."
+    },
+    {
+        "text": "And so that was our test statistic."
+    },
+    {
+        "text": "So when you're building a test, you want to first build a test statistic and then see what threshold you should be getting."
+    },
+    {
+        "text": "So now let's go back to our example where we have x1, xn."
+    },
+    {
+        "text": "They're iid Bernoulli p. And I want to test if p is 1 half versus p not equal to 1 half, which as I said is what you want to do if you want to test if a coin is fair."
+    },
+    {
+        "text": "And so here I'm going to build a test statistic."
+    },
+    {
+        "text": "And we concluded last time that what do we want for this statistic?"
+    },
+    {
+        "text": "We want it to have a distribution which under the null does not depend on the parameters, a distribution that I can actually compute quintiles of."
+    },
+    {
+        "text": "So what we did is we said, well, if I look at the central limit theorem tells me that square root of n xn bar minus p divided by."
+    },
+    {
+        "text": "So if I do central limit theorem plus Slutsky, for example, I'm going to have square root."
+    },
+    {
+        "text": "And we've had this discussion whether we want to use Slutsky or not here."
+    },
+    {
+        "text": "But let's assume we're taking Slutsky wherever we can."
+    },
+    {
+        "text": "So this thing tells me that by the central limit theorem as n goes to infinity, this thing converges in distribution to some n 0, 1."
+    },
+    {
+        "text": "Now as we said, this guy is not something we know."
+    },
+    {
+        "text": "But under the null, we actually know it."
+    },
+    {
+        "text": "And we can actually replace it by 1 half."
+    },
+    {
+        "text": "So this thing holds under h0."
+    },
+    {
+        "text": "When I write under h0, it means when this is the truth."
+    },
+    {
+        "text": "So now I have something that converges to something that has no dependence on anything I don't know."
+    },
+    {
+        "text": "And in particular, if you have any statistics textbook, which you don't because I didn't require one, you should be thankful because this thing costs $250."
+    }
+]

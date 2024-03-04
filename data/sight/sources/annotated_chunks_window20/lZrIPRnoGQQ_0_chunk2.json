@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Maybe I should."
+    },
+    {
+        "text": "So this is project 1."
+    },
+    {
+        "text": "So you pick numbers a, k, which is rand from rand, so uniformly on 0, 1, on 0, 0, 1."
+    },
+    {
+        "text": "And then my question is, what about convergence to the average is 1 half?"
+    },
+    {
+        "text": "And so this may be too simple an example, but could we see what happens for the convergence of the average as you either do replacements or don't do replacements?"
+    },
+    {
+        "text": "And then, in fact, I would like to see a figure that looks like those in his lecture."
+    },
+    {
+        "text": "He started it somewhere."
+    },
+    {
+        "text": "Start."
+    },
+    {
+        "text": "And then here's the finish."
+    },
+    {
+        "text": "But you remember that stochastic gradient descent was kind of pretty effective at the beginning."
+    },
+    {
+        "text": "Well, the beginning, those might be 100 iterations each, one epoch, one run through the full number."
+    },
+    {
+        "text": "But then when it got to here, got closer, it started oscillating."
+    },
+    {
+        "text": "You remember he identified the region of confusion around the thing."
+    },
+    {
+        "text": "Well, my suggestion is just I think those videos should be accessible to you on, are they on Stellar?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I'd love to see that behavior in some good examples of that behavior and some pictures to use."
+    },
+    {
+        "text": "So that would be one idea."
+    },
+    {
+        "text": "With and with."
+    },
+    {
+        "text": "Oh, yeah, that's also idea two."
+    },
+    {
+        "text": "Idea two is the good start and then the bad finish for stochastic gradient descent."
+    }
+]

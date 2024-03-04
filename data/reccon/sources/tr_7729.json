@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "All the food smells tasty today and makes my mouth water .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "food smells tasty"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "All the food smells tasty today and makes my mouth water .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Let's line up here . This line seems a little shorter .",
+        "emotion": "neutral",
+        "text": "Let's line up here . This line seems a little shorter .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's on the menu today ?",
+        "emotion": "neutral",
+        "text": "What's on the menu today ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fish , beef , pork , chicken , vegetables and beancurd . For staple food we have rice , steamed bread , stuffed buns and noodles .",
+        "emotion": "neutral",
+        "text": "Fish , beef , pork , chicken , vegetables and beancurd . For staple food we have rice , steamed bread , stuffed buns and noodles .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , we're lucky today , aren't we ?",
+        "emotion": "neutral",
+        "text": "Oh , we're lucky today , aren't we ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'd rather take stewed cabbage with beef .",
+        "emotion": "neutral",
+        "text": "I'd rather take stewed cabbage with beef .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think I'll take fried fish , because fish is one of my favorites .",
+        "emotion": "neutral",
+        "text": "I think I'll take fried fish , because fish is one of my favorites .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's good , we can share what we have . Here we are . You go ahead .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "fish is one of my favorites .",
+            "we can share"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's good , we can share what we have . Here we are . You go ahead .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "( They get everything ready ) Here is a free table . Let's sit down . Help yourself to some fish please . Isn't it delicious and appetizing ?",
+        "emotion": "neutral",
+        "text": "( They get everything ready ) Here is a free table . Let's sit down . Help yourself to some fish please . Isn't it delicious and appetizing ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm sorry I don't like it's a little too salty .",
+        "emotion": "neutral",
+        "text": "I'm sorry I don't like it's a little too salty .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I see . You people from south prefer sweet , don't you ?",
+        "emotion": "neutral",
+        "text": "I see . You people from south prefer sweet , don't you ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , I like the fish cooked in sweet and sour sauce best . Try some beef , please .",
+        "emotion": "neutral",
+        "text": "Yes , I like the fish cooked in sweet and sour sauce best . Try some beef , please .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Try some beef , please ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Your appetite is good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Your appetite is good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Your appetite is good .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm always feeling hungry .",
+        "emotion": "neutral",
+        "text": "I'm always feeling hungry .",
+        "id": 15
+    }
+]

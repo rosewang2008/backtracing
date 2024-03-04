@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a wonderful sight !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "a wonderful sight"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a wonderful sight !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . I've dreamed a thousand times that I could lie down here to relax .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Yes . I've dreamed a thousand times that I could lie down here to relax ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . I've dreamed a thousand times that I could lie down here to relax .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We are tired of jobs and competition . We need a quiet place .",
+        "emotion": "neutral",
+        "text": "We are tired of jobs and competition . We need a quiet place .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd like to stay here for all my life if possible .",
+        "emotion": "neutral",
+        "text": "I'd like to stay here for all my life if possible .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So would I . Look , it might be going to rain .",
+        "emotion": "neutral",
+        "text": "So would I . Look , it might be going to rain .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't think it will spoil our trip .",
+        "emotion": "neutral",
+        "text": "I don't think it will spoil our trip .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It will give us better feeling and atmosphere if it rains .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "It will give us better feeling and atmosphere if it rains ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It will give us better feeling and atmosphere if it rains .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let's kick off our shoes to walk on the green flag stoned roads .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Let's kick off our shoes to walk on the green flag stoned roads ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's kick off our shoes to walk on the green flag stoned roads .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's a good idea !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Let's kick off our shoes to walk on the green flag stoned roads ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's a good idea !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's a harder job."
+    },
+    {
+        "text": "Why am I making my life harder?"
+    },
+    {
+        "text": "Well, you'll see in a minute that it's going to actually turn out to be helpful to be working with a more powerful model in the way this construction is going to work."
+    },
+    {
+        "text": "Now, before I dive in and do the construction from GNFAs to regular expressions, I'm going to make a simplifying assumption about the GNFAs."
+    },
+    {
+        "text": "I'm going to put them in a special form that's going to make it easier to do the conversion."
+    },
+    {
+        "text": "And that simpler form is, first of all, I'm going to assume the GNFA has just a single accepting state."
+    },
+    {
+        "text": "And that accepting state is not allowed to be the start state."
+    },
+    {
+        "text": "So it has to have just a single accepting state."
+    },
+    {
+        "text": "I've already violated that convenient assumption in this GNFA because I have here two accepting states."
+    },
+    {
+        "text": "That's not what I want."
+    },
+    {
+        "text": "I want to have just one."
+    },
+    {
+        "text": "Well, the thing is, it's easy to obtain just one, just to modify the machine so that I have just one by adding a new accepting state, which is branched to from the former accepting states by empty transition."
+    },
+    {
+        "text": "So I can always jump from Q2 to Q4 at any time without even reading any input, just going along this empty transition."
+    },
+    {
+        "text": "And then I declassify the former accepting states as accepting."
+    },
+    {
+        "text": "And now I have here just a single accepting state."
+    },
+    {
+        "text": "And because it's going to be a new state that I added, it won't be the start state."
+    },
+    {
+        "text": "And I have accomplished that one aspect of my assumption about the form of the GNFA."
+    },
+    {
+        "text": "But there's another thing that I want to do too."
+    },
+    {
+        "text": "I want to assume, as you will see, which is going to be convenient in my construction, that we will have transition arrows going from every state to every other state."
+    },
+    {
+        "text": "In fact, I want transition arrows going from every state, even back to themselves."
+    }
+]

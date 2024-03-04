@@ -1,0 +1,94 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you feeling , John ?",
+        "emotion": "neutral",
+        "text": "How are you feeling , John ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , not too bad , but I've got to stay in bed .",
+        "emotion": "neutral",
+        "text": "Oh , not too bad , but I've got to stay in bed .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do more exercises after you are healthy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "not too bad"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do more exercises after you are healthy .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ok , I will . You have said that many times .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Do more exercises after you are healthy .",
+            "You have said that many times ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ok , I will . You have said that many times .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Are you hungry ? Do you want me to buy something for you to eat ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Ok , I will . You have said that many times ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you hungry ? Do you want me to buy something for you to eat ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , there ' s no need . Thank you all the same .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Are you hungry ? Do you want me to buy something for you to eat ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , there ' s no need . Thank you all the same .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

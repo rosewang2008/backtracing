@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Just to get some practice, let us do a problem that's not too difficult, but just to see how we use the various formulas that we have."
+    },
+    {
+        "text": "So Poisson was a mathematician, but Poisson also means fish in French."
+    },
+    {
+        "text": "So Poisson goes fishing."
+    },
+    {
+        "text": "And let's assume that fish are caught according to a Poisson process."
+    },
+    {
+        "text": "That's not too bad an assumption."
+    },
+    {
+        "text": "At any given point in time, you have a little probability that a fish would be caught."
+    },
+    {
+        "text": "And whether you catch one now is sort of independent about whether at some later time a fish will be caught or not."
+    },
+    {
+        "text": "So let's just make this assumption."
+    },
+    {
+        "text": "And suppose that the rules of the game are that you-- Fish are being called it the certain rate of 0.6 per hour."
+    },
+    {
+        "text": "You fish for 2 hours, no matter what."
+    },
+    {
+        "text": "And then there are two possibilities."
+    },
+    {
+        "text": "If I have caught a fish, I stop and go home."
+    },
+    {
+        "text": "So if some fish have been caught, so there's at least 1 arrival during this interval, I go home."
+    },
+    {
+        "text": "Or if nothing has being caught, I continue fishing until I catch something."
+    },
+    {
+        "text": "And then I go home."
+    },
+    {
+        "text": "So that's the description of what is going to happen."
+    },
+    {
+        "text": "And now let's starts asking questions of all sorts."
+    },
+    {
+        "text": "What is the probability that I'm going to be fishing for more than 2 hours?"
+    },
+    {
+        "text": "I will be fishing for more than 2 hours, if and only if no fish were caught during those 2 hours, in which case, I will have to continue."
+    },
+    {
+        "text": "Therefore, this is just this quantity."
+    }
+]

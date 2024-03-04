@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But it's the density of a Gaussian."
+    },
+    {
+        "text": "And this is what I meant when I said h of x is really just telling you with respect to which distribution, which measure you're taking the density."
+    },
+    {
+        "text": "And so this thing here is really telling you the density of my Gaussian with mean mu is equal to this with respect to a centered Gaussian is this guy, right?"
+    },
+    {
+        "text": "That's what it means."
+    },
+    {
+        "text": "If this thing ends up being a density, it just means that now you just have a new measure, which is this density."
+    },
+    {
+        "text": "So it's just saying that the density of the Gaussian with mean mu with respect to the Gaussian with mean 0 is just this thing here."
+    },
+    {
+        "text": "All right, so let's move on."
+    },
+    {
+        "text": "So here is that I said you can actually do all these computations and forget about the fact that x is continuous."
+    },
+    {
+        "text": "You can actually do it with PMFs and do it for x is discrete."
+    },
+    {
+        "text": "This actually also tells you if you can actually get the same form for your density, which is of the form exponential times the product of the interaction between theta and x is just taking this product, and then a function only of theta and a function only of x for the PMF."
+    },
+    {
+        "text": "It also works."
+    },
+    {
+        "text": "So I claim that the Bernoulli belongs to this family."
+    },
+    {
+        "text": "So the PMF of a Bernoulli, we say parameter p, is p to the x 1 minus p to the 1 minus x, right?"
+    },
+    {
+        "text": "Because we know, so that's only for x equals 0 or 1."
+    },
+    {
+        "text": "And the reason is because when x is equal to 0, this is 1 minus p. When x is equal to 1, this is p. We've seen that when we were looking at likelihoods for Bernoullis."
+    },
+    {
+        "text": "This is not clear this is going to look like this at all."
+    },
+    {
+        "text": "But let's do it."
+    },
+    {
+        "text": "So what does this thing look like?"
+    },
+    {
+        "text": "Well, the first thing I want to do is to make an exponential show up."
+    },
+    {
+        "text": "So what I'm going to write is I'm going to write p to the x as exponential x log p, right?"
+    }
+]

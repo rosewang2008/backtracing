@@ -1,0 +1,101 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "So can you fix it ?",
+        "emotion": "neutral",
+        "text": "So can you fix it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m sorry sir . This computer is not broken or damaged . It ' s simply just too old ! That ' s why your programs and applications are running slow . There really isn ' t much I can do .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There really isn ' t much I can do ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m sorry sir . This computer is not broken or damaged . It ' s simply just too old ! That ' s why your programs and applications are running slow . There really isn ' t much I can do .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do you mean ? I bought this computer just three years ago !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "It ' s simply just too old ! That ' s why your programs and applications are running slow .",
+            "I bought this computer just three years ago !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What do you mean ? I bought this computer just three years ago !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , but technology is ever changing and technology is becoming obsolete faster and faster !",
+        "emotion": "neutral",
+        "text": "Yes , but technology is ever changing and technology is becoming obsolete faster and faster !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK , I know where this is going . How much will it cost me to get a new computer ?",
+        "emotion": "neutral",
+        "text": "OK , I know where this is going . How much will it cost me to get a new computer ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , this desktop over here is our latest model . It has a four gigahertz processor with sixteen gigabytes in RAM and a hard disk with one terabyte . Of course , it includes a mouse , keyboard and desk speakers .",
+        "emotion": "neutral",
+        "text": "Well , this desktop over here is our latest model . It has a four gigahertz processor with sixteen gigabytes in RAM and a hard disk with one terabyte . Of course , it includes a mouse , keyboard and desk speakers .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I have no idea what you are talking about . I just want to know if it ' s good and if I will be able to play solitaire without the computer crashing or freezing all the time !",
+        "emotion": "neutral",
+        "text": "I have no idea what you are talking about . I just want to know if it ' s good and if I will be able to play solitaire without the computer crashing or freezing all the time !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "This PC is top of the line and I guarantee it will never freeze ! If it does , we ' ll give you your money back !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I just want to know if it ' s good and if I will be able to play solitaire without the computer crashing or freezing all the time !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "This PC is top of the line and I guarantee it will never freeze ! If it does , we ' ll give you your money back !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

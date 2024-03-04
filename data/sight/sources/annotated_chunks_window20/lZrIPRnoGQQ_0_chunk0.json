@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, here we go."
+    },
+    {
+        "text": "All set."
+    },
+    {
+        "text": "And two topics for today."
+    },
+    {
+        "text": "One is to go back to Professor Sra's lecture."
+    },
+    {
+        "text": "That was last Friday."
+    },
+    {
+        "text": "And he promised a theorem and proof."
+    },
+    {
+        "text": "And this morning, he sent it to me."
+    },
+    {
+        "text": "So it's the convergence."
+    },
+    {
+        "text": "It's proving the convergence of stochastic gradient descent."
+    },
+    {
+        "text": "And really, what's important, maybe, and useful is not so much the details of the proof, which I'm just learning, but the assumptions."
+    },
+    {
+        "text": "You know, what's the logic here?"
+    },
+    {
+        "text": "What do you have to assume about the gradient and about the algorithm to get the answer?"
+    },
+    {
+        "text": "But now, I actually look back at the video of his lecture."
+    },
+    {
+        "text": "And it was excellent."
+    },
+    {
+        "text": "And as I looked at it, there were a couple of things later in the lecture that I thought would make good projects."
+    },
+    {
+        "text": "So I don't know if anybody is still open to what to do on a project."
+    },
+    {
+        "text": "But here are my two ideas."
+    }
+]

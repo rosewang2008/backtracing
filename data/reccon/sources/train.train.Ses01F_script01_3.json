@@ -1,0 +1,770 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You're the only one who still loves his parents.",
+        "emotion": "neutral",
+        "text": "You're the only one who still loves his parents.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I know. It kind of went out of style, didn't it?",
+        "emotion": "neutral",
+        "text": "I know. It kind of went out of style, didn't it?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's not so bad; it's a good thing.",
+        "emotion": "neutral",
+        "text": "It's not so bad; it's a good thing.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "[BREATHING] You know, it's lovely here. The air is sweet.",
+        "emotion": "neutral",
+        "text": "[BREATHING] You know, it's lovely here. The air is sweet.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "You're not sorry you came.",
+        "emotion": "neutral",
+        "text": "You're not sorry you came.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "I'm not sorry, no. But I'm...I can't stay.",
+        "emotion": "neutral",
+        "text": "I'm not sorry, no. But I'm...I can't stay.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "For one thing, your mother much as told me to go.",
+        "emotion": "neutral",
+        "text": "For one thing, your mother much as told me to go.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well.",
+        "emotion": "neutral",
+        "text": "Well.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "And then, you. You've been kind of...",
+        "emotion": "neutral",
+        "text": "And then, you. You've been kind of...",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What?",
+        "emotion": "neutral",
+        "text": "What?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sort of embarrassed ever since I got here.",
+        "emotion": "neutral",
+        "text": "Sort of embarrassed ever since I got here.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well I was kind of planning of sneaking up on you over the course of a week or so. They just take it for granted that we're all set.",
+        "emotion": "neutral",
+        "text": "Well I was kind of planning of sneaking up on you over the course of a week or so. They just take it for granted that we're all set.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I knew they would.",
+        "emotion": "neutral",
+        "text": "I knew they would.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "Well sure, from your mother's point of view. Why else would I come?",
+        "emotion": "neutral",
+        "text": "Well sure, from your mother's point of view. Why else would I come?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I, umm. I guess, I guess that's kind of why I came.",
+        "emotion": "neutral",
+        "text": "I, umm. I guess, I guess that's kind of why I came.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "[BREATHING]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm not sorry, no."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "[BREATHING]",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "I love you. Annie, I love you.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love you. Annie, I love you.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "[LAUGHTER]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER]",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "I don't really have any imagination, that's all I know how to say.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I don't really have any imagination, that's all I know how to say.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "A",
+        "utterance": "[LAUGHTER]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER]",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "Am I embarrassing you? Are you - See, I didn't want to do it here with this yard, on this porch. I wanted it to be somewhere new, some place fresh for both of us.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Am I embarrassing you? Are you - See, I didn't want to do it here with this yard, on this porch. I wanted it to be somewhere new, some place fresh for both of us.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "No. No",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No. No",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Chris, I've been ready a long, long, time.",
+        "emotion": "neutral",
+        "text": "Chris, I've been ready a long, long, time.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "I almost got married two years ago.",
+        "emotion": "neutral",
+        "text": "I almost got married two years ago.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "You started to write me.",
+        "emotion": "neutral",
+        "text": "You started to write me.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "Every day since.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I've been ready a long, long, time",
+            "Every day since."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Every day since.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "B",
+        "utterance": "Why didn't you let me know?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I've been ready a long, long, time",
+            "Every day since."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why didn't you let me know?",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "Give me a...",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I've been ready a long, long, time",
+            "Every day since."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Give me a...",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "Give me a kiss.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17,
+            23,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you.",
+            "I've been ready a long, long, time",
+            "Every day since."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Give me a kiss.",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "beating around the bush.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17,
+            23,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you.",
+            "I've been ready a long, long, time",
+            "Every day since."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "beating around the bush.",
+        "id": 30
+    },
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "I will never forgive you. All I'd done was sit around wondering if I was crazy waiting so long, wondering if you were thinking about me.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17,
+            23,
+            26,
+            31
+        ],
+        "expanded emotion cause span": [
+            "I love you. Annie, I love you.",
+            "I've been ready a long, long, time",
+            "Every day since.",
+            "wondering if you were thinking about me."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I will never forgive you. All I'd done was sit around wondering if I was crazy waiting so long, wondering if you were thinking about me.",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "B",
+        "utterance": "Oh Annie, we are going to live now. I am going to make you so happy.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            32
+        ],
+        "expanded emotion cause span": [
+            "I am going to make you so happy."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh Annie, we are going to live now. I am going to make you so happy.",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "A",
+        "utterance": "Not like that you're not.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            32
+        ],
+        "expanded emotion cause span": [
+            "I am going to make you so happy."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Not like that you're not.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "I kissed you.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            34
+        ],
+        "expanded emotion cause span": [
+            "I kissed you."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I kissed you.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "A",
+        "utterance": "Like Larry's brother. Do it like you, Chris.",
+        "emotion": "neutral",
+        "text": "Like Larry's brother. Do it like you, Chris.",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "B",
+        "utterance": "Hey, let's drive some place. Huh? Let's get out of here.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            33,
+            36
+        ],
+        "expanded emotion cause span": [
+            "Not like that you're not.",
+            "Let's get out of here."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hey, let's drive some place. Huh? Let's get out of here.",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "B",
+        "utterance": "No it's nothing like that. It's-",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            36
+        ],
+        "expanded emotion cause span": [
+            "Let's get out of here."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No it's nothing like that. It's-",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "B",
+        "utterance": "Yeah. I suppose I have been. But it's going from me.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            36
+        ],
+        "expanded emotion cause span": [
+            "Let's get out of here."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah. I suppose I have been. But it's going from me.",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "B",
+        "utterance": "I don't even know how to start.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            36,
+            39
+        ],
+        "expanded emotion cause span": [
+            "Let's get out of here.",
+            "I don't even know how to start."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't even know how to start.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "B",
+        "utterance": "It's just all mixed up with so many other things, you know? You know overseas I was in command of a company?",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            39,
+            40,
+            40
+        ],
+        "expanded emotion cause span": [
+            "I don't even know how to start.",
+            "all mixed up with so many other things",
+            "overseas I was in command of a company"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's just all mixed up with so many other things, you know? You know overseas I was in command of a company?",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "A",
+        "utterance": "Yeah, sure.",
+        "emotion": "neutral",
+        "text": "Yeah, sure.",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "B",
+        "utterance": "Well I lost them.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            40,
+            42
+        ],
+        "expanded emotion cause span": [
+            "overseas I was in command of a company",
+            "I lost them."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well I lost them.",
+        "id": 42
+    },
+    {
+        "turn": 43,
+        "speaker": "A",
+        "utterance": "How many?",
+        "emotion": "neutral",
+        "text": "How many?",
+        "id": 43
+    },
+    {
+        "turn": 44,
+        "speaker": "B",
+        "utterance": "Pretty much all.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            42
+        ],
+        "expanded emotion cause span": [
+            "I lost them."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Pretty much all.",
+        "id": 44
+    },
+    {
+        "turn": 45,
+        "speaker": "A",
+        "utterance": "Aw, geez.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            42,
+            44
+        ],
+        "expanded emotion cause span": [
+            "I lost them.",
+            "Pretty much all."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aw, geez.",
+        "id": 45
+    },
+    {
+        "turn": 46,
+        "speaker": "B",
+        "utterance": "You can't just toss off a thing like that because they weren't just men. You know?",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            46
+        ],
+        "expanded emotion cause span": [
+            "You can't just toss off a thing like that"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You can't just toss off a thing like that because they weren't just men. You know?",
+        "id": 46
+    },
+    {
+        "turn": 47,
+        "speaker": "B",
+        "utterance": "Like for instance, there was this one time it had been raining for several days and this kid he just came up to me and he gave me his last pair of dry socks. He just put them in my pocket. That's a little thing, you know, but that's what kind of guys I had.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            46,
+            47
+        ],
+        "expanded emotion cause span": [
+            "You can't just toss off a thing like that",
+            "That's a little thing, you know, but that's what kind of guys I had."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Like for instance, there was this one time it had been raining for several days and this kid he just came up to me and he gave me his last pair of dry socks. He just put them in my pocket. That's a little thing, you know, but that's what kind of guys I had.",
+        "id": 47
+    },
+    {
+        "turn": 48,
+        "speaker": "B",
+        "utterance": "They didn't die, they killed themselves for each other. I mean that, exactly. Just a little more selfish and they would all be here today.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            48,
+            48
+        ],
+        "expanded emotion cause span": [
+            "They didn't die, they killed themselves for each other",
+            "they would all be here today."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They didn't die, they killed themselves for each other. I mean that, exactly. Just a little more selfish and they would all be here today.",
+        "id": 48
+    },
+    {
+        "turn": 49,
+        "speaker": "A",
+        "utterance": "Mmhmm.",
+        "emotion": "neutral",
+        "text": "Mmhmm.",
+        "id": 49
+    },
+    {
+        "turn": 50,
+        "speaker": "B",
+        "utterance": "To bring that on to the earth again, you know, is like some kind of monument and I thought I would just make a difference to them.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            50
+        ],
+        "expanded emotion cause span": [
+            "I thought I would just make a difference to them."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "To bring that on to the earth again, you know, is like some kind of monument and I thought I would just make a difference to them.",
+        "id": 50
+    },
+    {
+        "turn": 51,
+        "speaker": "B",
+        "utterance": "But then I came home and it was incredible, you know? The whole thing was just kind of this random bus accident. You know, I went back to the rat race again, I went to work.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            50,
+            51
+        ],
+        "expanded emotion cause span": [
+            "I thought I would just make a difference to them.",
+            "I went back to the rat race again, I went to work."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "But then I came home and it was incredible, you know? The whole thing was just kind of this random bus accident. You know, I went back to the rat race again, I went to work.",
+        "id": 51
+    },
+    {
+        "turn": 52,
+        "speaker": "B",
+        "utterance": "And I didn't want any of it. I guess that included you.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            51,
+            52
+        ],
+        "expanded emotion cause span": [
+            "I went back to the rat race again, I went to work.",
+            "And I didn't want any of it."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "And I didn't want any of it. I guess that included you.",
+        "id": 52
+    },
+    {
+        "turn": 53,
+        "speaker": "B",
+        "utterance": "I just want you to know Annie.",
+        "emotion": "neutral",
+        "text": "I just want you to know Annie.",
+        "id": 53
+    },
+    {
+        "turn": 54,
+        "speaker": "A",
+        "utterance": "What would I do with a fortune?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            53,
+            54
+        ],
+        "expanded emotion cause span": [
+            "I just want you to know Annie.",
+            "What would I do with a fortune?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What would I do with a fortune?",
+        "id": 54,
+        "source_sentences": [
+            52
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

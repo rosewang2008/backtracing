@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , is this the way to the Great Wall ?",
+        "emotion": "neutral",
+        "text": "Excuse me , is this the way to the Great Wall ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , it is really far from here . You ' re going in the wrong direction actually .",
+        "emotion": "neutral",
+        "text": "Oh , it is really far from here . You ' re going in the wrong direction actually .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I must have taken a wrong turn .",
+        "emotion": "neutral",
+        "text": "I must have taken a wrong turn .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It doesn ' t matter . Go back the way you came . After about five kilometers , you ' ll see a hotel on the side of the road . It ' s a big one . You can ' t miss it .",
+        "emotion": "neutral",
+        "text": "It doesn ' t matter . Go back the way you came . After about five kilometers , you ' ll see a hotel on the side of the road . It ' s a big one . You can ' t miss it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And then ?",
+        "emotion": "neutral",
+        "text": "And then ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Take the next right . Drive about one click further , and you ' ll see the entrance of the highway to the Great Wall .",
+        "emotion": "neutral",
+        "text": "Take the next right . Drive about one click further , and you ' ll see the entrance of the highway to the Great Wall .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I must have taken a wrong turn .",
+            "Take the next right ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks a lot .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ' re welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re welcome .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "By the way , how long does it take ?",
+        "emotion": "neutral",
+        "text": "By the way , how long does it take ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Without traffic , it takes about an hour .",
+        "emotion": "neutral",
+        "text": "Without traffic , it takes about an hour .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I heard the Great Wall closes early in the afternoon . Do you think I can make it before closing ?",
+        "emotion": "neutral",
+        "text": "I heard the Great Wall closes early in the afternoon . Do you think I can make it before closing ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , I think so . It doesn ' t close until 5 o ' clock . You still have plenty of time .",
+        "emotion": "neutral",
+        "text": "Yes , I think so . It doesn ' t close until 5 o ' clock . You still have plenty of time .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Great ! Thank you !",
+        "emotion": "happiness",
+        "explanation": "The speaker is grateful for the provided help.",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "You still have plenty of time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Thank you !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "My pleasure , and have a good time !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Thank you !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure , and have a good time !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

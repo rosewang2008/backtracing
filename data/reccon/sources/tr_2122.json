@@ -1,0 +1,309 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The dinner was really good . It knocked my socks off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The dinner was really good . It knocked my socks off ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The dinner was really good . It knocked my socks off .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That's very kind of you to say so . Let's try some after-dinner wines .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "The dinner was really good . It knocked my socks off .",
+            "That's very kind of you to say so . Let's try some after-dinner wines ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's very kind of you to say so . Let's try some after-dinner wines .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Great . Sweet wines are my favorite . They always make a great finish to a decisions meal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Let's try some after-dinner wines .",
+            "Sweet wines are my favorite . They always make a great finish to a decisions meal ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great . Sweet wines are my favorite . They always make a great finish to a decisions meal .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Do you prefer brandy or ports .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Sweet wines are my favorite . They always make a great finish to a decisions meal ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you prefer brandy or ports .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Port , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Let's try some after-dinner wines .",
+            "Sweet wines are my favorite . They always make a great finish to a decisions meal .",
+            "Do you prefer brandy or ports ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Port , please .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Excellent choice . I love its smooth flavor .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Port",
+            "Excellent choice . I love its smooth flavor ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Excellent choice . I love its smooth flavor .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "The port is quite exquisite . It must have spent years aging in barrels . Am I right ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Port",
+            "Excellent choice . I love its smooth flavor .",
+            "The port is quite exquisite . It must have spent years aging in barrels ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "The port is quite exquisite . It must have spent years aging in barrels . Am I right ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . You always have a good nose for wines .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The port is quite exquisite . It must have spent years aging in barrels ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . You always have a good nose for wines .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Next time we are about to dinner we should try some Canadian ice wine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "The port is quite exquisite . It must have spent years aging in barrels .",
+            "You always have a good nose for wines .",
+            "Next time we are about to dinner we should try some Canadian ice wine ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Next time we are about to dinner we should try some Canadian ice wine .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , what's that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Canadian ice wine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , what's that ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's made from naturally frozen grapes .",
+        "emotion": "happiness",
+        "explanation": "the speaker is glad that B is asking more about the wine he/she brought up",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Canadian ice wine .",
+            "Oh , what's that ?",
+            "It's made from naturally frozen grapes ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It's made from naturally frozen grapes .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Why not ? It sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Canadian ice wine .",
+            "It's made from naturally frozen grapes .",
+            "It sounds great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Why not ? It sounds great .",
+        "id": 12,
+        "source_sentences": [
+            8,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "OK , here's to your health .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Canadian ice wine .",
+            "It's made from naturally frozen grapes .",
+            "It sounds great ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK , here's to your health .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks . Cheers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Port",
+            "Excellent choice . I love its smooth flavor .",
+            "OK , here's to your health ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks . Cheers .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Cheers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Port",
+            "Excellent choice . I love its smooth flavor .",
+            "Thanks . Cheers ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Cheers .",
+        "id": 15
+    }
+]

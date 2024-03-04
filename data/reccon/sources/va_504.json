@@ -1,0 +1,94 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good afternoon , madam . Is there anything I can do for you ?",
+        "emotion": "neutral",
+        "text": "Good afternoon , madam . Is there anything I can do for you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I spent so much time sightseeing here . It is already so late now . I am afraid I can't catch the last bus back to downtown .",
+        "emotion": "neutral",
+        "text": "Yes , I spent so much time sightseeing here . It is already so late now . I am afraid I can't catch the last bus back to downtown .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Don't worry . I will try to get a taxi for you . You can take it to the bus station .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Don't worry . I will try to get a taxi for you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Don't worry . I will try to get a taxi for you . You can take it to the bus station .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I am very grateful to your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I will try to get a taxi for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am very grateful to your help .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Don't mention it . It is my duty .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Don't worry . I will try to get a taxi for you .",
+            "I am very grateful"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Don't mention it . It is my duty .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks again .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I will try to get a taxi for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks again .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

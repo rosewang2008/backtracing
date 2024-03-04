@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I have a 100 by 100 problem, and I've solved to find the eigenvalues."
+    },
+    {
+        "text": "And they're a pretty good approximation to the eigenvalues, to the, hopefully, like the lowest 100 eigenvalues."
+    },
+    {
+        "text": "I'd like to know that."
+    },
+    {
+        "text": "But I might not be sure that this idea would give me the lowest 100, the first 100 eigenvalues of the million, of the matrix of size a million."
+    },
+    {
+        "text": "I'm just taking a few minutes here to sort of wave hands about what Krylov, the Krylov idea would do."
+    },
+    {
+        "text": "And I probably won't mention Krylov again this semester."
+    },
+    {
+        "text": "So what it can do is look at this particular type of space, because we can get a basis for it quickly, just multiply again and again by A."
+    },
+    {
+        "text": "Then we can orthogonalize that basis."
+    },
+    {
+        "text": "That's Graham-Schmidt in some form."
+    },
+    {
+        "text": "We're always going back to Graham-Schmidt."
+    },
+    {
+        "text": "Then I have a 100 by 100."
+    },
+    {
+        "text": "I have a subspace of size 100."
+    },
+    {
+        "text": "I look at what the matrix does in that space."
+    },
+    {
+        "text": "And I could look for, I could find eigenvalues restricted to that space."
+    },
+    {
+        "text": "They wouldn't be the perfect eigenvalues, but they would be accurate."
+    },
+    {
+        "text": "OK, so I didn't know it would take one class time to talk about finding eigenvalues and singular values, but we did some important things."
+    },
+    {
+        "text": "We remembered that similarity is the thing to check, thing to preserve, because it doesn't change the eigenvalues."
+    },
+    {
+        "text": "And then for singular values, what was the thing?"
+    },
+    {
+        "text": "You could multiply left and right by different orthogonal matrices."
+    },
+    {
+        "text": "And somehow, maybe that doesn't have an established name, multiplying left and right by a Q1 and a Q2 transpose."
+    }
+]

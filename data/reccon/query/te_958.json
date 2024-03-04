@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Ok . I'll talk to you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "I'll give you a call later . We should hang out . It's good to be around people ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . I'll talk to you later .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

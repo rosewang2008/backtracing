@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, I get one for each data point."
+    },
+    {
+        "text": "When I sum them together I will get n. Very good."
+    },
+    {
+        "text": "So, n times b equals sum of yi."
+    },
+    {
+        "text": "Now, these quantities may look scary, but they are actually just numbers."
+    },
+    {
+        "text": "For example, for this one you look at all your data points."
+    },
+    {
+        "text": "For each of them you take the value of x and you just sum all these numbers together."
+    },
+    {
+        "text": "What you get, actually, is a linear system in a two-by-two linear system."
+    },
+    {
+        "text": "And so now we can solve this for a and b."
+    },
+    {
+        "text": "In practice, of course, first you plug in the numbers for xi and yi and then you solve the system that you get."
+    },
+    {
+        "text": "And we know how to solve two-by-two linear systems, I hope."
+    },
+    {
+        "text": "That is how we find the best fit line."
+    },
+    {
+        "text": "Now, why is that going to be the best one instead of the worst one?"
+    },
+    {
+        "text": "We just solved for a critical point."
+    },
+    {
+        "text": "That could actually be a maximum of this error function d. We will have the answer to that next time."
+    },
+    {
+        "text": "But trust me, if you really want to go for the second derivative test that we will do tomorrow and apply it in this case, it is quite hard to check."
+    },
+    {
+        "text": "But you can see it is actually a minimum."
+    },
+    {
+        "text": "I will just say we can show that it is a minimum."
+    },
+    {
+        "text": "Now, even for the linear case, it is the one that we are the most familiar with."
+    },
+    {
+        "text": "Least squares interpolation actually works in much more general settings."
+    },
+    {
+        "text": "Instead of fitting for the best line, if you think that there is a different kind of relation, then maybe you can fit in using a different kind of formula."
+    }
+]

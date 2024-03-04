@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I've got the transformation T, period."
+    },
+    {
+        "text": "That's taking eight-dimensional space to eight-dimensional space."
+    },
+    {
+        "text": "Now let's get matrices in there."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, so with respect to, with respect to a fir- a first basis, say, V1 up to V8, it has a matrix A. I'm just setting up letters here."
+    },
+    {
+        "text": "With respect to a second basis, say, I'll make it U1 up to- or W1, since I've used Ws, W1 up to W8, it has a matrix B."
+    },
+    {
+        "text": "And my question is, what's the connection between A and B?"
+    },
+    {
+        "text": "How is the matrix- the transformation T is settled."
+    },
+    {
+        "text": "We could say it's a rotation, for example."
+    },
+    {
+        "text": "So that would be one transformation of eight-dimensional space, just spin it a little."
+    },
+    {
+        "text": "Or project it."
+    },
+    {
+        "text": "Or, or, whatever, whatever linear transformation we've got."
+    },
+    {
+        "text": "Now we have to remember, so I- so first- my first step is to remind you how you create that matrix A."
+    },
+    {
+        "text": "Then my second step is, we would use the same method to create B, but because it came from the same transformation, there's got to be a relation between A and B."
+    },
+    {
+        "text": "What's the- what's the relation between A and B?"
+    },
+    {
+        "text": "And let me jump to the answer on that one."
+    },
+    {
+        "text": "That if I have- if I have the same transformation, and I'm compute- its matrix in one basis and then I compute it in another basis, those two matrices are similar."
+    },
+    {
+        "text": "So these two matrices are similar."
+    },
+    {
+        "text": "Now, do you remember what similar matrices meant?"
+    },
+    {
+        "text": "Similar."
+    }
+]

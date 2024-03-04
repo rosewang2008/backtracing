@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You remove the mean."
+    },
+    {
+        "text": "It becomes a mean 0 Gaussian."
+    },
+    {
+        "text": "And you remove the variance for it to become 1."
+    },
+    {
+        "text": "So when you have a Gaussian, remove the mean and divide by the standard deviation, it becomes a standard Gaussian, which this thing has n 0 1 distribution, which is the one you can read the quintiles of at the end of the book."
+    },
+    {
+        "text": "And that's exactly what we did."
+    },
+    {
+        "text": "OK, so now you have the probability that some standard Gaussian exceeds negative mu over sigma, which I can write in terms of the cumulative distribution function capital phi, like we did in the first lecture."
+    },
+    {
+        "text": "So if I do this cumulative distribution function, what is this probability in terms of phi?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 1."
+    },
+    {
+        "text": "Lids."
+    },
+    {
+        "text": "Well, that's what your name tag says."
+    },
+    {
+        "text": "1 minus?"
+    },
+    {
+        "text": "1 minus mu over sigma?"
+    },
+    {
+        "text": "What happened to phi in our?"
+    },
+    {
+        "text": "You think I defined this for fun?"
+    },
+    {
+        "text": "1 minus phi of mu over sigma, right?"
+    },
+    {
+        "text": "Because this is 1 minus the probability that it's less than this, and this is exactly the definition of the cumulative distribution function."
+    },
+    {
+        "text": "So in particular, this thing only depends on mu over sigma."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "So in particular, if I had 2 mu over 2 sigma, p would remain unchanged."
+    },
+    {
+        "text": "If I have 12 mu over 12 sigma, this thing would remain unchanged, which means that p does not change if I scale mu and sigma by the same factor."
+    }
+]

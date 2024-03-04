@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ahem ... uh , sir , I beg your pardon ... Uh , mister , are you waiting to buy a ticket for the movie ?",
+        "emotion": "neutral",
+        "text": "Ahem ... uh , sir , I beg your pardon ... Uh , mister , are you waiting to buy a ticket for the movie ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's it look like , lady ? This is the ticket line I'm standing in , isn't it ?",
+        "emotion": "neutral",
+        "text": "What's it look like , lady ? This is the ticket line I'm standing in , isn't it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , yes , it is , but ...",
+        "emotion": "neutral",
+        "text": "Well , yes , it is , but ...",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "So , what's your beef anyway , lady ?",
+        "emotion": "neutral",
+        "text": "So , what's your beef anyway , lady ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You just cut into line , in front of me and everyone else , that's what ! Go take your place back at the end of the line , like every - one else !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You just cut into line , in front of me and everyone else"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You just cut into line , in front of me and everyone else , that's what ! Go take your place back at the end of the line , like every - one else !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh sure , lady , and fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Go take your place back at the end of the line , like every - one else !",
+            "fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh sure , lady , and fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Just what gives you the right ... ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "You just cut into line , in front of me and everyone else",
+            "Go take your place back at the end of the line , like every - one else !",
+            "I'm staying right here , understand ? So be a nice lady and butt out !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Just what gives you the right ... ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Because I'm no sucker ; only suckers go to the end of the line . It's as simple as that , lady .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Because I'm no sucker ; only suckers go to the end of the line ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Because I'm no sucker ; only suckers go to the end of the line . It's as simple as that , lady .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , you're no gentleman , either .",
+        "emotion": "neutral",
+        "text": "Well , you're no gentleman , either .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Okay , lady , just to show what a gentleman I really am , I'll let you go in front of me . Now , just buy your ticket and shut your trap , will you , lady ?",
+        "emotion": "neutral",
+        "text": "Okay , lady , just to show what a gentleman I really am , I'll let you go in front of me . Now , just buy your ticket and shut your trap , will you , lady ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Whew ! I got the last one . This must be my lucky day !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Whew ! I got the last one ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Whew ! I got the last one . This must be my lucky day !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What was that you just said ? Last one ... ? Hey , they've closed the ticket window !",
+        "emotion": "neutral",
+        "text": "What was that you just said ? Last one ... ? Hey , they've closed the ticket window !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , I'm afraid I bought the last ticket , and to think , if you hadn't been such a gentleman . . .",
+        "emotion": "neutral",
+        "text": "Yes , I'm afraid I bought the last ticket , and to think , if you hadn't been such a gentleman . . .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket ! Come on , hand it over , lady !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I bought the last ticket ,",
+            "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket ! Come on , hand it over , lady !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Gentleman ! Hah ! Fat chance ! Hah ! Eat your heart out , sucker ! Hah !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5,
+            5,
+            6,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "You just cut into line , in front of me and everyone else",
+            "Go take your place back at the end of the line , like every - one else !",
+            "I'm staying right here , understand ? So be a nice lady and butt out !",
+            "I bought the last ticket ,",
+            "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Gentleman ! Hah ! Fat chance ! Hah ! Eat your heart out , sucker ! Hah !",
+        "id": 15
+    }
+]

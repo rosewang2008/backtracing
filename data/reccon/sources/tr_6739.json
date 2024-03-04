@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , this is Rich .",
+        "emotion": "neutral",
+        "text": "Hello , this is Rich .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Rich . Is Jim here ?",
+        "emotion": "neutral",
+        "text": "Hi , Rich . Is Jim here ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "He ' s not in at the moment . Can I take a message ?",
+        "emotion": "neutral",
+        "text": "He ' s not in at the moment . Can I take a message ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . This is Claire .",
+        "emotion": "neutral",
+        "text": "Sure . This is Claire .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Does have your telephone number ?",
+        "emotion": "neutral",
+        "text": "Does have your telephone number ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , it ' s 3725019281 .",
+        "emotion": "neutral",
+        "text": "No , it ' s 3725019281 .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "3725015281 ?",
+        "emotion": "neutral",
+        "text": "3725015281 ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , it ' s 3725019281 , it ' s a 9 , not a 5 .",
+        "emotion": "neutral",
+        "text": "No , it ' s 3725019281 , it ' s a 9 , not a 5 .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Right . I ' ll have him call you back .",
+        "emotion": "neutral",
+        "text": "Right . I ' ll have him call you back .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Can you tell him that it ' s urgent ?",
+        "emotion": "neutral",
+        "text": "Can you tell him that it ' s urgent ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sure can .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Can you tell him"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure can .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Sure can ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "No problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "explanation": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Sure can ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Goodbye .",
+        "emotion": "happiness",
+        "explanation": "F",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

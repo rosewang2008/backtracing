@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Great . The bed is exactly what I have been looking for !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The bed is exactly what I have been looking for !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Great . The bed is exactly what I have been looking for !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You have good taste . It's made of red wood .",
+        "emotion": "neutral",
+        "text": "You have good taste . It's made of red wood .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , I like red wood . How much do you charge for it ?",
+        "emotion": "neutral",
+        "text": "Oh , I like red wood . How much do you charge for it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "300 dollars .",
+        "emotion": "neutral",
+        "text": "300 dollars .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's sheer robbery !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "How much do you charge for it ?",
+            "300 dollars .",
+            "That's sheer robbery !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's sheer robbery !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Believe me , it's worth the price .",
+        "emotion": "neutral",
+        "text": "Believe me , it's worth the price .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's more than I can afford . Can I make an offer ?",
+        "emotion": "neutral",
+        "text": "It's more than I can afford . Can I make an offer ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "How much are you willing to pay ?",
+        "emotion": "neutral",
+        "text": "How much are you willing to pay ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Shall we make it 250 dollars ?",
+        "emotion": "neutral",
+        "text": "Shall we make it 250 dollars ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No . That price would hardly cover the cost .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Shall we make it 250 dollars ?",
+            "That price would hardly cover the cost ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No . That price would hardly cover the cost .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What about 260 dollars ?",
+        "emotion": "neutral",
+        "text": "What about 260 dollars ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "275 dollars is the lowest price I can offer .",
+        "emotion": "neutral",
+        "text": "275 dollars is the lowest price I can offer .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "It's a deal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "275 dollars is the lowest price I can offer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's a deal .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So a basis for the left null space of this matrix, I'm looking for combinations of rows that give the zero row, if I'm looking at the left null space."
+    },
+    {
+        "text": "For the null space, I'm looking at combinations of columns to get the zero column."
+    },
+    {
+        "text": "Now I'm looking at combinations of these three rows to get the zero row, and of course, there is my zero row, and here is my vector that produced it."
+    },
+    {
+        "text": "Minus one of that row and one of that row."
+    },
+    {
+        "text": "Obvious."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So in that example, and actually in all examples, we have seen how to produce a basis for the left null space."
+    },
+    {
+        "text": "I won't ask you that all the time."
+    },
+    {
+        "text": "Because it didn't come out immediately from R, we had to keep track of E for that left null space."
+    },
+    {
+        "text": "But at least it didn't require us to transpose the matrix and start all over again."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Those are the four subspaces."
+    },
+    {
+        "text": "Can I review them?"
+    },
+    {
+        "text": "The row space and the null space are in Rn."
+    },
+    {
+        "text": "Their dimensions add to n. The column space and the left null space are in Rm, and their dimensions add to m. Okay."
+    },
+    {
+        "text": "So let me close these last minutes by pushing you a little bit more to a new type of vector space."
+    },
+    {
+        "text": "All our vector spaces, all the ones that we took seriously, have been subspaces of some real three- or n-dimensional space."
+    },
+    {
+        "text": "Now I'm going to write down another vector space, a new vector space."
+    },
+    {
+        "text": "Say all three by three matrices."
+    },
+    {
+        "text": "My matrices are the vectors."
+    }
+]

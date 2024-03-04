@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And if you've already finished your project, well, get an A-plus by considering one of these."
+    },
+    {
+        "text": "So you remember, and this will remind you of the lecture, which is a good thing."
+    },
+    {
+        "text": "So do you remember that question one was whether in the stochastic part, after you've sampled one or some mini batch, but let's just say one of the loss functions coming from one sample, you remember the whole point is that if we do all zillion samples at every iteration, we're really, really slow."
+    },
+    {
+        "text": "So the stochastic idea is to randomly pick one or a mini batch of the samples and just reduce their loss, just deal with the loss, say the square loss, or later we'll see cross-entropy loss."
+    },
+    {
+        "text": "But whatever the cost is, just do a few or one."
+    },
+    {
+        "text": "And then the question was, after you've done that one, do you put it back in the pot and every time you sample over the whole collection, but that's expensive, or do you just make a list of random list of random order of all the samples and go through them, which is then without replacement, which is sort of semi-illegal."
+    },
+    {
+        "text": "That is, the logic in the randomization asks you to replace every time, but nobody does it."
+    },
+    {
+        "text": "It costs a lot, probably not worth it."
+    },
+    {
+        "text": "So the project would be, suppose you take 1,000, or say just 100, 100 random numbers."
+    },
+    {
+        "text": "Say you use MATLAB, just the command rand."
+    },
+    {
+        "text": "So you get numbers whose average is 1 by 2 from rand."
+    },
+    {
+        "text": "They're between 0 and 1."
+    },
+    {
+        "text": "So we know what the average is."
+    },
+    {
+        "text": "So let's compute it two ways."
+    },
+    {
+        "text": "One is by not replacing, and that's the interesting one."
+    },
+    {
+        "text": "So take 100 samples."
+    },
+    {
+        "text": "Well, I guess we know that after we've got through the full 100, we're going to get exactly the right answer."
+    },
+    {
+        "text": "But anyway, my question would be, how much difference do you see in the eventual approach?"
+    },
+    {
+        "text": "So the law of large numbers, I guess, would tell us we get an average of 1 half for these numbers with uniform distribution between 0 and 1."
+    },
+    {
+        "text": "Should I be writing anything here?"
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , that's a really nice outfit you have on .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "that's a really nice outfit you have on ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , that's a really nice outfit you have on .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . I wasn't sure if it looked okay or not .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "that's a really nice outfit you have on ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I wasn't sure if it looked okay or not .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , you look stunning . Your dress really goes well with your shoes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Oh , you look stunning . Your dress really goes well with your shoes ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , you look stunning . Your dress really goes well with your shoes .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm glad that you think so . I thought it might be a bit too revealing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Oh , you look stunning . Your dress really goes well with your shoes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad that you think so . I thought it might be a bit too revealing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No , not at all . It looks really classy on you . Where did you pick that up ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm glad that you think so .",
+            "It looks really classy on you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No , not at all . It looks really classy on you . Where did you pick that up ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I got it on sale down at the department store .",
+        "emotion": "neutral",
+        "text": "I got it on sale down at the department store .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "When did you go there ?",
+        "emotion": "neutral",
+        "text": "When did you go there ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I was just there a couple of days ago . You know , you should go down there too . They have a lot of stylish clothes on sale .",
+        "emotion": "neutral",
+        "text": "I was just there a couple of days ago . You know , you should go down there too . They have a lot of stylish clothes on sale .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I might just do that . What style of clothes do they have ?",
+        "emotion": "neutral",
+        "text": "I might just do that . What style of clothes do they have ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Anything you want . They have both casual and formal styles .",
+        "emotion": "neutral",
+        "text": "Anything you want . They have both casual and formal styles .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I was hoping to get a few new ties for my collection .",
+        "emotion": "neutral",
+        "text": "I was hoping to get a few new ties for my collection .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I was hoping to get a few new ties for my collection ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's a good idea .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

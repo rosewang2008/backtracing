@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The second one is the number of vertebrae involved in the operation."
+    },
+    {
+        "text": "And the third one is the start of the range, so where it is on the spine."
+    },
+    {
+        "text": "So the response variable here is, did it work or not?"
+    },
+    {
+        "text": "I mean, that's very simple."
+    },
+    {
+        "text": "And so here, it's nice, because the random component is the easiest one."
+    },
+    {
+        "text": "As I said, any random variable that takes only two outcomes must be a Bernoulli."
+    },
+    {
+        "text": "So that's nice."
+    },
+    {
+        "text": "There's no modeling going on here."
+    },
+    {
+        "text": "So you know that y given x is going to be Bernoulli, but of course, all your efforts are going to try to understand what the conditional mean of your Bernoulli, what the conditional probability of being 1 is going to be."
+    },
+    {
+        "text": "And so in particular, so I'm just here."
+    },
+    {
+        "text": "I'm spelling it out before we close those examples."
+    },
+    {
+        "text": "I cannot say that mu of x is x transpose beta for exactly this picture that I drew for you here."
+    },
+    {
+        "text": "There's just no way here."
+    },
+    {
+        "text": "The goal of doing this is certainly to be able to extrapolate for yet unseen children whether this is something that we should be doing, and maybe the range of x's is actually going to be slightly out."
+    },
+    {
+        "text": "And so OK, I don't want to say that I have a negative probability of outcome or a positive one, sorry, or a 1 that's lower than 1, so I need to make this transformation."
+    },
+    {
+        "text": "What I need to do is to transform mu, which is we know only a number, all we know is a number between 0 and 1, and we need to transform it in such a way that it maps the entire real line, or reciprocally to say that, or inversely I should say, that f of x transpose beta should be a number between 0 and 1."
+    },
+    {
+        "text": "I need to find a function that takes any real number and maps it into 0 and 1, and we'll see that again, but you have an army of functions that do that for you."
+    },
+    {
+        "text": "What are those functions?"
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    }
+]

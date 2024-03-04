@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Actually, the variance is also increasing."
+    },
+    {
+        "text": "The variance is 2d."
+    },
+    {
+        "text": "So this is one thing."
+    },
+    {
+        "text": "And so why do we care about this in basic statistics?"
+    },
+    {
+        "text": "It's not like we actually have statistics much about throwing darts at high dimensional boards."
+    },
+    {
+        "text": "So what's happening is that if I look at the sample variance, the average of the sum of squared centered by their mean, then I can actually expend this as the sum of the squares minus the average squared."
+    },
+    {
+        "text": "It's just the same trick that we have for the variance."
+    },
+    {
+        "text": "Second moment minus first moment squared."
+    },
+    {
+        "text": "And then I claim that Cochran's theorem, I will tell you in a second what Cochran's theorem tells me, is that this sample variance is actually, so if I had only this, so now, OK, look at those guys."
+    },
+    {
+        "text": "Those guys are Gaussian with mean mu and variance sigma squared."
+    },
+    {
+        "text": "Think for one second, mu being 0 and sigma squared being 1."
+    },
+    {
+        "text": "Now, this part would be a chi-square with n degrees of freedom divided by n. Now, I get another thing here, which is the square of something that looks like a Gaussian as well."
+    },
+    {
+        "text": "So it looks like I have something else here, which looks also like a chi-square."
+    },
+    {
+        "text": "Now, Cochran's theorem is essentially telling you that those things are independent."
+    },
+    {
+        "text": "And so that in a way, you can think of those guys as being here n degrees of freedom minus 1 degree of freedom."
+    },
+    {
+        "text": "Now, here, as I said, this is not mean 0 and variance 1."
+    },
+    {
+        "text": "The fact that it's not mean 0 is not a problem, because I can remove the mean here and remove the mean here."
+    },
+    {
+        "text": "And so this thing has the same distribution, regardless of what the actual mean is."
+    },
+    {
+        "text": "So without loss of generality, I can assume that mu is equal 0."
+    },
+    {
+        "text": "Now, the variance I'm going to have to pay, because if I multiply all these numbers by 10, then this Sn is going to be multiplied by 100."
+    }
+]

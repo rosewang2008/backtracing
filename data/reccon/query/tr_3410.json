@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You're welcome , honey . I hope we will celebrate our golden wedding anniversary in future .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It's so beautiful . You're so kind to me , A . Thank you !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome , honey . I hope we will celebrate our golden wedding anniversary in future .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

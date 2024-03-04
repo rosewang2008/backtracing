@@ -1,0 +1,62 @@
+[
+    {
+        "text": "No."
+    },
+    {
+        "text": "If it was n factorial, we would, with determinants it is n factorial."
+    },
+    {
+        "text": "I'll put in a bad mark against determinants, because that, that, okay, so what is it?"
+    },
+    {
+        "text": "It's n, well, this is the answer."
+    },
+    {
+        "text": "It's, it's, it's, it's this order, n cubed."
+    },
+    {
+        "text": "It's like I have n terms, right?"
+    },
+    {
+        "text": "I've got n terms in this sum, and the biggest one is n squared, so the, the worst it could be would be n cubed, but it's not as bad as, it's n cubed times, there's a, it's about one third of n cubed."
+    },
+    {
+        "text": "That's the, that's the magic, operation, okay."
+    },
+    {
+        "text": "Somehow that one third takes account of the fact that the, the numbers are getting smaller."
+    },
+    {
+        "text": "If they weren't getting smaller, we would have n terms times n squared would be exactly n cubed."
+    },
+    {
+        "text": "But our numbers are getting smaller."
+    },
+    {
+        "text": "Actually, do you remember where, where does one third come in this, I'll, I'll even allow a mention of calculus."
+    },
+    {
+        "text": "So calculus can be mentioned, integration can be mentioned now in the next minute and, and not again for weeks."
+    },
+    {
+        "text": "It's not that I don't like eighteen oh one, but eighteen oh six is better."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So, so what's, what's the calculus formula that that looks like?"
+    },
+    {
+        "text": "It looks like a sum is like, if we were in calculus, instead of summing stuff, we would integrate, so I would integrate x squared and I would get one third x cubed."
+    },
+    {
+        "text": "So, so if that was like an integral from one to n of x squared dx, it, the answer would be one third n cubed."
+    },
+    {
+        "text": "And it's correct for the sum also, because that's like the whole point of calculus."
+    },
+    {
+        "text": "The whole point of calculus is, oh, I don't want to tell you, I mean, you know the whole point of calculus."
+    }
+]

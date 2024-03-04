@@ -1,0 +1,207 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Merry Christmas , sweetie . How's your brother enjoying Taiwan ?",
+        "emotion": "neutral",
+        "text": "Merry Christmas , sweetie . How's your brother enjoying Taiwan ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ryan says he wants to stay . I think he's in love with some girl who designs fruit platters ...",
+        "emotion": "neutral",
+        "text": "Ryan says he wants to stay . I think he's in love with some girl who designs fruit platters ...",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No ! Christmas without him is bad enough . So , honey , do you have cold feet yet ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Christmas without him is bad enough"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No ! Christmas without him is bad enough . So , honey , do you have cold feet yet ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah , especially since Jack didn't take care of the plane reservations .",
+        "emotion": "neutral",
+        "text": "Yeah , especially since Jack didn't take care of the plane reservations .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You're not coming ?",
+        "emotion": "neutral",
+        "text": "You're not coming ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Not until the 31st . So can you change the church reservations ?",
+        "emotion": "neutral",
+        "text": "Not until the 31st . So can you change the church reservations ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm afraid not . The church is booked until the year 2001 .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid not . The church is booked"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm afraid not . The church is booked until the year 2001 .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Then where will we have the ceremony ? At home ?",
+        "emotion": "neutral",
+        "text": "Then where will we have the ceremony ? At home ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "We'll have to . We'll rehearse on the 1st and have the wedding on the 2nd .",
+        "emotion": "neutral",
+        "text": "We'll have to . We'll rehearse on the 1st and have the wedding on the 2nd .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm sorry , Mom .",
+        "emotion": "sadness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm afraid not . The church is booked"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry , Mom .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Don't worry , dear . I'm a great host . Now get some rest . Merry Christmas .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Don't worry , dear . I'm a great host .",
+            "Merry Christmas ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Don't worry , dear . I'm a great host . Now get some rest . Merry Christmas .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Merry Christmas , Mom . I love you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Don't worry ,",
+            "Merry Christmas .",
+            "Merry Christmas , Mom . I love you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Merry Christmas , Mom . I love you .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I love you , too . And forgive Jack . He's doing his best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11,
+            12,
+            13,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Don't worry , dear . I'm a great host .",
+            "Merry Christmas .",
+            "I love you .",
+            "I love you , too .",
+            "He's doing his best ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I love you , too . And forgive Jack . He's doing his best .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I know . Goodnight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Don't worry ,",
+            "Merry Christmas .",
+            "Merry Christmas , Mom . I love you .",
+            "I love you , too ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I know . Goodnight .",
+        "id": 14
+    }
+]

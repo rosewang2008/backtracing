@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You have data points x1, y1, x2, y2, and so on, xn, yn."
+    },
+    {
+        "text": "The question would be find the best fit line of the form y equals ax plus b that somehow approximates very well this data."
+    },
+    {
+        "text": "You can also use that, by the way, to predict various things."
+    },
+    {
+        "text": "For example, if you look at your new homework, actually the first problem asks you to predict how many iPods will be on this planet in ten years, looking at past sales and how they behave."
+    },
+    {
+        "text": "One thing, by the way, before you lose all the money you don't have yet, you cannot use that to predict the stock market."
+    },
+    {
+        "text": "Don't try to use that to make money."
+    },
+    {
+        "text": "It doesn't work."
+    },
+    {
+        "text": "One tricky thing here that I want to draw your attention to is what are the unknowns here?"
+    },
+    {
+        "text": "The natural answer would be to say the unknowns are x and y."
+    },
+    {
+        "text": "That is not actually the case."
+    },
+    {
+        "text": "We are not trying to solve for some x and y. I mean we have some values given to us."
+    },
+    {
+        "text": "And when we are looking for that line we don't really care about a particular value of x."
+    },
+    {
+        "text": "What we care about is actually these coefficients a and b that will tell us what the relation between x and y is."
+    },
+    {
+        "text": "In fact, we are trying to solve for a and b that will give us the nicest possible line for these points."
+    },
+    {
+        "text": "The unknowns in our equations will have to be a and b, not x and y."
+    },
+    {
+        "text": "The question really is find the best a and b."
+    },
+    {
+        "text": "And, of course, we have to decide what we mean by best."
+    },
+    {
+        "text": "Best will mean that we minimize some function of a and b that measures the total error that we are making when we are choosing this line compared to the experimental data."
+    },
+    {
+        "text": "Maybe, roughly speaking, it should measure how far these points are from the line."
+    },
+    {
+        "text": "But now there are various ways to do it."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. Now, oh gosh, so today is a sort of like practical day."
+    },
+    {
+        "text": "Can I, can we think together how expensive is elimination?"
+    },
+    {
+        "text": "How much, how many operations do we do?"
+    },
+    {
+        "text": "So I, so this is now a kind of new topic, which I didn't list as on the program, but here it came."
+    },
+    {
+        "text": "Here it comes."
+    },
+    {
+        "text": "How many operations on an n by n matrix A?"
+    },
+    {
+        "text": "I mean, it's a very practical question."
+    },
+    {
+        "text": "Can we, can we solve systems of order a thousand in a second or a minute or a week?"
+    },
+    {
+        "text": "Can we solve systems of order a million in a second or an hour or a week?"
+    },
+    {
+        "text": "I mean, what's the, if it's n by n, we, we often want to take n bigger."
+    },
+    {
+        "text": "I mean, we put in more information."
+    },
+    {
+        "text": "We make the, the whole thing is more accurate for the bigger matrix."
+    },
+    {
+        "text": "But it's more expensive, too, and the question is, how much more expensive?"
+    },
+    {
+        "text": "If I go, if I have, matrices of order a hundred."
+    },
+    {
+        "text": "Let's say a hundred by a hundred."
+    },
+    {
+        "text": "Let me, let me take n to be a hundred."
+    },
+    {
+        "text": "Say n equal a hundred."
+    },
+    {
+        "text": "How many steps are we doing?"
+    },
+    {
+        "text": "How many operations are we actually doing that we, that we're, or not we."
+    },
+    {
+        "text": "The, and let's suppose there aren't any zeros."
+    }
+]

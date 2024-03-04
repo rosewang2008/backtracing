@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Congratulations ! I heard that you are going to take a two-week training course in the headquarter .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Congratulations !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Congratulations ! I heard that you are going to take a two-week training course in the headquarter .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . I am very happy to have this opportunity to learn something new . You know information and knowledge in this field update very fast .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Congratulations !",
+            "happy to have this opportunity"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . I am very happy to have this opportunity to learn something new . You know information and knowledge in this field update very fast .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sure it is . This is a changing world . Does the training course cover the new law and regulation issued last month ? They are very useful for us .",
+        "emotion": "neutral",
+        "text": "Sure it is . This is a changing world . Does the training course cover the new law and regulation issued last month ? They are very useful for us .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , according to the agenda , there will be a seminar on these issues at the very beginning of the training course .",
+        "emotion": "neutral",
+        "text": "Yes , according to the agenda , there will be a seminar on these issues at the very beginning of the training course .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , good for you . I hope you can get what you want from the training .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Does the training course cover the new law and regulation",
+            "Yes ,",
+            "there will be a seminar on these issues",
+            "I hope you can get what you want from the training ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , good for you . I hope you can get what you want from the training .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I will do my best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "good for you . I hope you can get what you want from the training .",
+            "I will do my best ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I will do my best .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

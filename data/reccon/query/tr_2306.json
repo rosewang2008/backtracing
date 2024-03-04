@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Great . I will prepare some clothes and food for the climbing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "You can take a bird-eye view at the glorious picture when you arrive at the top of the mountain ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . I will prepare some clothes and food for the climbing .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

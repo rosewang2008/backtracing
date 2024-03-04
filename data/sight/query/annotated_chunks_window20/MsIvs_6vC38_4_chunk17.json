@@ -1,0 +1,18 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 4,
+        "timestamp": 1684708849693.0,
+        "annotatedSourceSentencesIndices": [
+            1,
+            2,
+            3,
+            4,
+            13
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "at 32:35 => Should not the first cost be 99*2 instead of 100^2 because there are 99 rows below first one. For pivoting each row below, you need to multiply the first row by some constant then subtract from the row you are pivoting. So, essentially are we not ending up having 2 operations per row for those 99 rows, hence, 99*2 instead of 100^2 ???"
+    }
+]

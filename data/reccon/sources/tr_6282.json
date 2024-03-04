@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , is this the Guyon Travel Agency ?",
+        "emotion": "neutral",
+        "text": "Excuse me , is this the Guyon Travel Agency ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , sir . What can I do for you ?",
+        "emotion": "neutral",
+        "text": "Yes , sir . What can I do for you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to travel to the ancient town in the south of China . Would you please tell me something about it ?",
+        "emotion": "neutral",
+        "text": "I want to travel to the ancient town in the south of China . Would you please tell me something about it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . There's network of canals . And there are white walls , black tiles , small bridges , flowing rivers , flagstones roads , blue sky and white clouds . Few places have preserved the past like this place . Walking on the ancient road makes us back to our sense .",
+        "emotion": "neutral",
+        "text": "Sure . There's network of canals . And there are white walls , black tiles , small bridges , flowing rivers , flagstones roads , blue sky and white clouds . Few places have preserved the past like this place . Walking on the ancient road makes us back to our sense .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wonderful . That's just what I expect , where is my first place if I go there ?",
+        "emotion": "neutral",
+        "text": "Wonderful . That's just what I expect , where is my first place if I go there ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Zhouzhuang .",
+        "emotion": "neutral",
+        "text": "Zhouzhuang .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How long does the tour take ?",
+        "emotion": "neutral",
+        "text": "How long does the tour take ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's about two days .",
+        "emotion": "neutral",
+        "text": "It's about two days .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "what's the cost ?",
+        "emotion": "neutral",
+        "text": "what's the cost ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's about 300 yuan .",
+        "emotion": "neutral",
+        "text": "It's about 300 yuan .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I know . Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I know ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know . Thank you very much .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's all right . May you have a good trip !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's all right . May you have a good trip !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "May you have a good trip !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "My pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Thank you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I don ' t know what I ' m going to do ! It ' s going to be impossible to make ends meet if I lose my job !",
+        "emotion": "neutral",
+        "text": "I don ' t know what I ' m going to do ! It ' s going to be impossible to make ends meet if I lose my job !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Don ' t worry . I don't think you ' re going to lose your job over one mistake .",
+        "emotion": "neutral",
+        "text": "Don ' t worry . I don't think you ' re going to lose your job over one mistake .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It was a rather big mistake . When you work as an investment adviser , one small mistake can cost the company millions .",
+        "emotion": "neutral",
+        "text": "It was a rather big mistake . When you work as an investment adviser , one small mistake can cost the company millions .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "But it wasn ' t just you who was involved , right ? You were only doing what your supervisor told you to do .",
+        "emotion": "neutral",
+        "text": "But it wasn ' t just you who was involved , right ? You were only doing what your supervisor told you to do .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That ' s true , but my supervisor is very dishonest . There ' s no reason he needs to tell our boss the truth . I ' m sure he will tell our boss that it was all my fault , and there ' s nothing I can do about that . My boss won ' t believe me if I tell him the truth .",
+        "emotion": "neutral",
+        "text": "That ' s true , but my supervisor is very dishonest . There ' s no reason he needs to tell our boss the truth . I ' m sure he will tell our boss that it was all my fault , and there ' s nothing I can do about that . My boss won ' t believe me if I tell him the truth .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Let ' s think realistically about what might happen . How much money do you have in your savings ?",
+        "emotion": "neutral",
+        "text": "Let ' s think realistically about what might happen . How much money do you have in your savings ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I have enough to live off of for about 3 months . But I really don't want to spend my life savings on just living ! I ' d rather invest my money somehow .",
+        "emotion": "neutral",
+        "text": "I have enough to live off of for about 3 months . But I really don't want to spend my life savings on just living ! I ' d rather invest my money somehow .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , you can't have everything . Let's just figure out what you will do if you lose your job . When is your contract up on your apartment ?",
+        "emotion": "neutral",
+        "text": "Well , you can't have everything . Let's just figure out what you will do if you lose your job . When is your contract up on your apartment ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Next month . So I can either move out then or renew my contract for another year .",
+        "emotion": "neutral",
+        "text": "Next month . So I can either move out then or renew my contract for another year .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , that ' s good . If you lose your job , you can just move in with me until you find another job . That will save you plenty of money .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Next month . So I can either move out then or renew my contract for another year .",
+            "If you lose your job , you can just move in with me until you find another job . That will save you plenty of money ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , that ' s good . If you lose your job , you can just move in with me until you find another job . That will save you plenty of money .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That ' s very generous of you . I guess that would work .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "If you lose your job , you can just move in with me until you find another job . That will save you plenty of money .",
+            "That ' s very generous of you . I guess that would work ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s very generous of you . I guess that would work .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "If you lose your job , you just have to go for a few months without buying all the junk you usually buy . If you live frugally , you ' ll save plenty of money .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "If you lose your job , you just have to go for a few months without buying all the junk you usually buy . If you live frugally , you ' ll save plenty of money ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "If you lose your job , you just have to go for a few months without buying all the junk you usually buy . If you live frugally , you ' ll save plenty of money .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I guess working with so much money has made me rather greedy . Maybe losing my job would be a good thing !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "If you lose your job , you can just move in with me until you find another job . That will save you plenty of money .",
+            "That ' s very generous of you . I guess that would work .",
+            "If you lose your job , you just have to go for a few months without buying all the junk you usually buy . If you live frugally , you ' ll save plenty of money ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I guess working with so much money has made me rather greedy . Maybe losing my job would be a good thing !",
+        "id": 13
+    }
+]

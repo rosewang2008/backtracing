@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/gpt_j_auto-regressive.csv
+Total: 100928
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/gpt_j_auto-regressive.csv
+>> Score key: auto-regressive
+Top 1 accuracy: 0.1375
+Top 1 min distance: 5.45625
+Top 3 accuracy: 0.2375
+Top 3 min distance: 3.425
+

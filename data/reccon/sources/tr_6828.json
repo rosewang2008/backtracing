@@ -1,0 +1,165 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh , my God ! What's this ?",
+        "emotion": "neutral",
+        "text": "Oh , my God ! What's this ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Look ! This window is open .",
+        "emotion": "neutral",
+        "text": "Look ! This window is open .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Did you open it before we left ?",
+        "emotion": "neutral",
+        "text": "Did you open it before we left ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Are you kidding ? It's winter . Why would I open it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Did you open it before we left ?",
+            "It's winter ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you kidding ? It's winter . Why would I open it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't know . Wait . Is this yours ?",
+        "emotion": "neutral",
+        "text": "I don't know . Wait . Is this yours ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No ! Oh , my God ! Someone has broken into the house .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Someone has broken into the house ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No ! Oh , my God ! Someone has broken into the house .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It looks that way . That's probably why the door wasn't locked when we came in .",
+        "emotion": "neutral",
+        "text": "It looks that way . That's probably why the door wasn't locked when we came in .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I locked it when I left though .",
+        "emotion": "neutral",
+        "text": "I locked it when I left though .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , but the robber broke in . Then , when he left , he left through the door . So it wasn't locked .",
+        "emotion": "neutral",
+        "text": "Yes , but the robber broke in . Then , when he left , he left through the door . So it wasn't locked .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I don't care about that , Allen ! What did he steal ? That's the question !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "the robber broke in . Then , when he left , he left through the door . So it wasn't locked ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't care about that , Allen ! What did he steal ? That's the question !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Look around .",
+        "emotion": "neutral",
+        "text": "Look around .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "The TV's still here .",
+        "emotion": "neutral",
+        "text": "The TV's still here .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "And your stereo too . So what did he steal ? We have to go look upstairs .",
+        "emotion": "neutral",
+        "text": "And your stereo too . So what did he steal ? We have to go look upstairs .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "But what if someone's still up there ?",
+        "emotion": "neutral",
+        "text": "But what if someone's still up there ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I don't think there will be . He left through the door , remember ?",
+        "emotion": "neutral",
+        "text": "I don't think there will be . He left through the door , remember ?",
+        "id": 16
+    }
+]

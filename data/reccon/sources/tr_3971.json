@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you believe me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Can you believe me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Sure .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Please count on my love .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Please count on my love ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Please count on my love .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I will .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Please count on my love ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "I will .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'll be yours through endless time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Please count on my love .",
+            "I'll be yours through endless time ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'll be yours through endless time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I see . And I'll always be devoted to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'll be yours through endless time .",
+            "I'll always be devoted to you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I see . And I'll always be devoted to you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you . I know I've nothing to offer you , but I'll never give you reason to cry .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Please count on my love .",
+            "I'll always be devoted to you .",
+            "I'll never give you reason to cry ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thank you . I know I've nothing to offer you , but I'll never give you reason to cry .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'll never hurt you ; I'll never lie .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll always be devoted to you .",
+            "I'll never give you reason to cry .",
+            "I'll never hurt you ; I'll never lie ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I'll never hurt you ; I'll never lie .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "My love will grow , like a river to flow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'll never hurt you ; I'll never lie .",
+            "My love will grow , like a river to flow ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My love will grow , like a river to flow .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It can't be dry , and can't die .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'll always be devoted to you .",
+            "My love will grow , like a river to flow ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It can't be dry , and can't die .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I don't know whether we are in a dream .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'll always be devoted to you .",
+            "I'll never hurt you ; I'll never lie .",
+            "My love will grow , like a river to flow .",
+            "I don't know whether we are in a dream ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I don't know whether we are in a dream .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Aha , Aha ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            3,
+            5,
+            6,
+            7,
+            9,
+            6,
+            8,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Please count on my love .",
+            "I'll be yours through endless time .",
+            "I'll always be devoted to you .",
+            "I'll never give you reason to cry .",
+            "My love will grow , like a river to flow .",
+            "I'll always be devoted to you .",
+            "I'll never hurt you ; I'll never lie .",
+            "My love will grow , like a river to flow .",
+            "I don't know whether we are in a dream ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Aha , Aha ...",
+        "id": 12
+    }
+]

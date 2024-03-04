@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 2,
+        "timestamp": 1684708398925.0,
+        "annotatedSourceSentencesIndices": [
+            19
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone explain why A=LU is better than EA=U?"
+    }
+]

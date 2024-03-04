@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What does he look like ? Can people tell ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're very happy that he's healthy and smart ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What does he look like ? Can people tell ?",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

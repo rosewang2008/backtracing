@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "explanation": "Speaker is invited by the listener for coffee",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "see you later ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "This is my house . Let me show you around it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "This is my house . Let me show you around it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is my house . Let me show you around it .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "How beautiful the detached house is !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "How beautiful the detached house is !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How beautiful the detached house is !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Follow me to the back-yard .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "How beautiful the detached house is !",
+            "the back-yard"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Follow me to the back-yard .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's marvelous ! The lawn looks like a green carpet , and the garden with so many lovely flowers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's marvelous ! The lawn looks like a green carpet , and the garden with so many lovely flowers ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's marvelous ! The lawn looks like a green carpet , and the garden with so many lovely flowers .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We had the grass cut and the flowers trimmed this morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's marvelous ! The lawn looks like a green carpet , and the garden with so many lovely flowers .",
+            "We had the grass cut and the flowers trimmed this morning ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "We had the grass cut and the flowers trimmed this morning .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No wonder it smells fragrant .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "No wonder it smells fragrant ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No wonder it smells fragrant .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Here is the swimming pool and we can swim later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "No wonder it smells fragrant .",
+            "Here is the swimming pool and we can swim later ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here is the swimming pool and we can swim later .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's fantastic !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Here is the swimming pool and we can swim later .",
+            "It's fantastic !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's fantastic !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

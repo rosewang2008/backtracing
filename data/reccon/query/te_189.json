@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Oh , well , would you look at that ! Polarizing filters .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "There are some right here !",
+            "would you look at that !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , well , would you look at that ! Polarizing filters .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "C U here , honey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20,
+            24
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream .",
+            "Kisssssssssss ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "C U here , honey .",
+        "id": 25,
+        "source_sentences": [
+            19,
+            23
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

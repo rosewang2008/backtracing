@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Who's that striking woman over there ?",
+        "emotion": "neutral",
+        "text": "Who's that striking woman over there ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hm ? Oh , that's Alice . She's totally mad . Don't get yourself in a room alone with her .",
+        "emotion": "neutral",
+        "text": "Hm ? Oh , that's Alice . She's totally mad . Don't get yourself in a room alone with her .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? Why not ? She looks great .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "She's totally mad . Don't get yourself in a room alone with her .",
+            "She looks great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Why not ? She looks great .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I know , but she's dangerous .",
+        "emotion": "neutral",
+        "text": "Yes , I know , but she's dangerous .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? Tell me more .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "she's dangerous ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Tell me more .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , I'm not one to gossip , as you know , but rumor has it that she sued her former boss for sexual harassment .",
+        "emotion": "neutral",
+        "text": "Well , I'm not one to gossip , as you know , but rumor has it that she sued her former boss for sexual harassment .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , crikey . So what happened ?",
+        "emotion": "neutral",
+        "text": "Wow , crikey . So what happened ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , this is just between ourselves , of course , but he was her lover and he wanted to leave her , so she got revenge . I heard him say she was a dangerous woman .",
+        "emotion": "neutral",
+        "text": "Well , this is just between ourselves , of course , but he was her lover and he wanted to leave her , so she got revenge . I heard him say she was a dangerous woman .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "she sued her former boss for sexual harassment .",
+            "he was her lover and he wanted to leave her , so she got revenge . I heard him say she was a dangerous woman ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , while we're on the subject , what happened to you and your secretary ?",
+        "emotion": "neutral",
+        "text": "Oh , while we're on the subject , what happened to you and your secretary ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I have no idea what you're talking about .",
+        "emotion": "neutral",
+        "text": "I have no idea what you're talking about .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , come on . Everybody knows .",
+        "emotion": "neutral",
+        "text": "Oh , come on . Everybody knows .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Could you excuse me a moment ? I have to make a phone call",
+        "emotion": "neutral",
+        "text": "Could you excuse me a moment ? I have to make a phone call",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , sure .",
+        "emotion": "neutral",
+        "text": "Oh , sure .",
+        "id": 14
+    }
+]

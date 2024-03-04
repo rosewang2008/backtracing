@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I want there to be all possible transition arrows should be present, with two exceptions."
+    },
+    {
+        "text": "For the start state, there should be only transition arrows exiting the start state."
+    },
+    {
+        "text": "And for the accepting state, there's just one now, there should be only transition arrows coming in to the start state."
+    },
+    {
+        "text": "So it's kind of what you would imagine as being reasonable."
+    },
+    {
+        "text": "For the other states which are not accepting or starting, there should be transition arrows leaving and coming from everywhere else."
+    },
+    {
+        "text": "But for the start states, just leaving, and for the accept state, just coming in."
+    },
+    {
+        "text": "And you can easily modify the machine to achieve that."
+    },
+    {
+        "text": "Let's just see how to do that in one example."
+    },
+    {
+        "text": "So notice that from Q3 to Q2, there is no transition right now."
+    },
+    {
+        "text": "And that's not good."
+    },
+    {
+        "text": "That's not what I want."
+    },
+    {
+        "text": "I want there to be a transition from Q3 to Q2."
+    },
+    {
+        "text": "Well, I'll just add that transition in."
+    },
+    {
+        "text": "But I'm going to label it with the empty language regular expression."
+    },
+    {
+        "text": "So that means, yeah, the transition is there, but you never can take it."
+    },
+    {
+        "text": "So it doesn't change the language that the machine is going to be recognizing, but it fulfills my assumption, my convenient assumption, that we have all of these transition arrows being present in the machine."
+    },
+    {
+        "text": "So anyway, I hope you will buy it."
+    },
+    {
+        "text": "It's not going to be, if you don't quite get this, don't worry."
+    },
+    {
+        "text": "It's not totally critical that you're following all of these little adjustments and modifications to the GNFA."
+    },
+    {
+        "text": "But it will be helpful to understand what GNFA themselves, how they work."
+    }
+]

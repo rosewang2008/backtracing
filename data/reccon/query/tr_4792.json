@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "sounds great . Do they serve noodles ? I am in the mood for some tasty noodles as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "we can try Yuanyang pot this time . You can choose the non-spicy soup base ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "sounds great . Do they serve noodles ? I am in the mood for some tasty noodles as well .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

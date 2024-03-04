@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So p can range between 0 and 1, that's for sure."
+    },
+    {
+        "text": "And what I'm going to try to test is whether p is less than 1 half or larger than 1 half."
+    },
+    {
+        "text": "So this is going to be, let's say, theta 0, and this guy here is theta 1."
+    },
+    {
+        "text": "Just trying to give you a picture of what those guys are."
+    },
+    {
+        "text": "So I have my y-axis."
+    },
+    {
+        "text": "Now I'm going to start drawing numbers, all these things, this function, this function, and this number are all numbers between 0 and 1."
+    },
+    {
+        "text": "So now I'm claiming that when I move from left to right, what is my probability of rejecting going to do?"
+    },
+    {
+        "text": "So what I'm going to plot is the probability under theta."
+    },
+    {
+        "text": "The first thing I want to plot is the probability under theta that psi is equal to 1."
+    },
+    {
+        "text": "And let's say psi, think of psi as being just this indicator that square root of n xn bar minus p over square root xn bar, 1 minus xn bar, is larger than some constant c for a properly chosen c. So what we choose is that c is in such a way that at 1 half, when we're testing for 1 half, what we wanted was this number to be equal to alpha, basically."
+    },
+    {
+        "text": "So we fix this alpha number so that this guy, so if I want alpha of psi of theta less than alpha, given in advance, so think of it as being equal to, say, 5%."
+    },
+    {
+        "text": "So I'm fixing this number, and I want this to be controlled for all theta and theta 0."
+    },
+    {
+        "text": "So if you're going to give me this budget, well, I'm actually going to make it equal where I can."
+    },
+    {
+        "text": "If you're telling me you can make it equal to alpha, we know that if I increase my type 1 error, I'm going to decrease my type 2 error."
+    },
+    {
+        "text": "If I start putting everyone in jail, or if I start letting everyone go free, that's what we're discussing last time."
+    },
+    {
+        "text": "So since we have this trade-off, and you're giving me a budget for one guy, I'm just going to max it out."
+    },
+    {
+        "text": "And where am I going to max it out?"
+    },
+    {
+        "text": "Exactly at 1 half at the boundary."
+    },
+    {
+        "text": "So this is going to be 5%."
+    },
+    {
+        "text": "So what I know is that since alpha of theta is less than alpha for all theta and theta 0, sorry, that's for theta 0, that's where alpha is defined."
+    }
+]

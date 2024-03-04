@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The bridegroom looks a bit nervous .",
+        "emotion": "neutral",
+        "text": "The bridegroom looks a bit nervous .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "On this occasion , most people do .",
+        "emotion": "neutral",
+        "text": "On this occasion , most people do .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , they are playing the wedding March . Here they come .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "they are playing the wedding March ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , they are playing the wedding March . Here they come .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "She is a beautiful bride .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "She is a beautiful bride ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She is a beautiful bride .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I am so happy for them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I am so happy for them ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am so happy for them .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Are you crying ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "She is a beautiful bride .",
+            "I am so happy for them ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Are you crying ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , I always cry at weddings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I am so happy for them ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , I always cry at weddings .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Harris and Anne are perfect for each other .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Harris and Anne are perfect for each other ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Harris and Anne are perfect for each other .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , they are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Harris and Anne are perfect for each other ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , they are .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You and Tom also make a great couple .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "You and Tom also make a great couple ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You and Tom also make a great couple .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "In fact , we are beginning to make preparations .",
+        "emotion": "neutral",
+        "text": "In fact , we are beginning to make preparations .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "For the wedding ?",
+        "emotion": "neutral",
+        "text": "For the wedding ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "No , no , for the engagement .",
+        "emotion": "neutral",
+        "text": "No , no , for the engagement .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Try to catch this bouquet then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "we are beginning to make preparations ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Try to catch this bouquet then .",
+        "id": 14,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So the origin of an arrival is either this stream or that stream."
+    },
+    {
+        "text": "And this is the probability that the origin of the arrival is that one."
+    },
+    {
+        "text": "Now if we look at 2 different arrivals, and we ask about their origins-- So let's think about the origin of this arrival and compare it with the origin that arrival."
+    },
+    {
+        "text": "The origin of this arrival is random."
+    },
+    {
+        "text": "It could be right be either this or that."
+    },
+    {
+        "text": "And this is the relevant probability."
+    },
+    {
+        "text": "The origin of that arrival is random."
+    },
+    {
+        "text": "It could be either here or is there, and again, with the same relevant probability."
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "The origin of this arrival, is it dependent or independent from the origin that arrival?"
+    },
+    {
+        "text": "And here's how the argument goes."
+    },
+    {
+        "text": "Separate times are independent."
+    },
+    {
+        "text": "Whatever has happened in the process during this set of times is independent from whatever happened in the process during that set of times."
+    },
+    {
+        "text": "Because different times have nothing to do with each other, the origin of this, of an arrival here, has nothing to do with the origin of an arrival there."
+    },
+    {
+        "text": "So the origins of different arrivals are also independent random variables."
+    },
+    {
+        "text": "So if I tell you that-- yeah."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So it as if that each time that you have an arrival in the merge process, it's as if you're flipping a coin to determine where did that arrival came from and these coins are independent of each other."
+    },
+    {
+        "text": "OK. OK. Now we're going to use this-- what we know about merged processes to solve the problem that would be harder to do, if you were not using ideas from Poisson processes."
+    },
+    {
+        "text": "So the formulation of the problem has nothing to do with the Poisson process."
+    }
+]

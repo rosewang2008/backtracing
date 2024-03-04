@@ -1,0 +1,183 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I think that the company retreat should be in the mountains this year .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the company retreat should be in the mountains this year ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think that the company retreat should be in the mountains this year .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What a great idea !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the company retreat should be in the mountains this year ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What a great idea !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "January would be a good month for a mountain retreat .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a great idea !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "January would be a good month for a mountain retreat .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like the mountain idea , but I am not so sure about the month of January .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like the mountain idea"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like the mountain idea , but I am not so sure about the month of January .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You know , now that I think about it , you might be right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like the mountain idea , but I am not so sure about the month of January ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know , now that I think about it , you might be right .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "April might be nice . It is far enough away to make the necessary arrangements .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "you might be right .",
+            "April might be nice ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "April might be nice . It is far enough away to make the necessary arrangements .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That is a good suggestion .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "April might be nice . It is far enough away to make the necessary arrangements ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That is a good suggestion .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "We could ask everyone what would be the best time for them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "That is a good suggestion ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We could ask everyone what would be the best time for them .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , that would let us know what would work best .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We could ask everyone what would be the best time for them .",
+            "Yeah , that would let us know what would work best ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , that would let us know what would work best .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'll put the survey online this afternoon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Yeah , that would let us know what would work best ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll put the survey online this afternoon .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

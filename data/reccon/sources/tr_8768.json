@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Barbara . Have you lost weight ?",
+        "emotion": "neutral",
+        "text": "Hi Barbara . Have you lost weight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi Julie . Yeah . I've been on a diet for a couple of months now .",
+        "emotion": "neutral",
+        "text": "Hi Julie . Yeah . I've been on a diet for a couple of months now .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Wow . You look great .",
+        "emotion": "neutral",
+        "text": "Wow . You look great .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thanks for noticing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Have you lost weight ?",
+            "You look great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for noticing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What type of diet were you on ?",
+        "emotion": "neutral",
+        "text": "What type of diet were you on ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I joined a health club and my trainer gave me tips on eating . With a combination of eating better and exercising , I managed to lose 15 pounds in 2 months .",
+        "emotion": "neutral",
+        "text": "I joined a health club and my trainer gave me tips on eating . With a combination of eating better and exercising , I managed to lose 15 pounds in 2 months .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's amazing . What tips did your trainer give you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I managed to lose 15 pounds"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's amazing . What tips did your trainer give you ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Mostly on how to exercise , but the best advice I got was changing my eating habits . Instead of eating 3 times a day , she told me to eat 5 times a day .",
+        "emotion": "neutral",
+        "text": "Mostly on how to exercise , but the best advice I got was changing my eating habits . Instead of eating 3 times a day , she told me to eat 5 times a day .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That doesn't make sense . If you eat more , than how do you lose weight ?",
+        "emotion": "neutral",
+        "text": "That doesn't make sense . If you eat more , than how do you lose weight ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Actually , I'm eating the same amount . I eat 5 smaller meals a day . Basically , it naturally speeds up the metabolism and helps to burn fat at a faster rate .",
+        "emotion": "neutral",
+        "text": "Actually , I'm eating the same amount . I eat 5 smaller meals a day . Basically , it naturally speeds up the metabolism and helps to burn fat at a faster rate .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That makes sense . I'm going to try that .",
+        "emotion": "neutral",
+        "text": "That makes sense . I'm going to try that .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You don't need to lose weight .",
+        "emotion": "neutral",
+        "text": "You don't need to lose weight .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I have a little gut I have been trying to get rid of .",
+        "emotion": "neutral",
+        "text": "I have a little gut I have been trying to get rid of .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Ah ... but remember to incorporate a little exercise into your diet .",
+        "emotion": "neutral",
+        "text": "Ah ... but remember to incorporate a little exercise into your diet .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks for the advice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "incorporate a little exercise into your diet ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for the advice .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Thanks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

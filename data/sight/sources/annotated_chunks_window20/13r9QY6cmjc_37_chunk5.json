@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The same x as in, as for A."
+    },
+    {
+        "text": "Now, let me see that also from this formula."
+    },
+    {
+        "text": "How can I see what A squared is looking like from this formula?"
+    },
+    {
+        "text": "So let me, that, that was one way to do it."
+    },
+    {
+        "text": "Let me do it by just taking A squared from that."
+    },
+    {
+        "text": "A squared is S lambda S inverse, that's A, times S lambda S inverse, that's A, which is?"
+    },
+    {
+        "text": "This is the beauty of eigenvalues, eigenvectors, having that S inverse and S is the identity, so I've got S lambda squared S inverse."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "You see what that's telling me?"
+    },
+    {
+        "text": "It's, it's telling me the same thing that I just learned here, but in the, in, in a matrix form."
+    },
+    {
+        "text": "It's telling me that the S is the same, the eigenvectors are the same, but the eigenvalues are squared, because this is, what's lambda squared, that's still diagonal, it's got little lambda one squared, lambda two squared, down to lambda n squared, on that diagonal, those are the eigenvalues, as we just learned, of A squared."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, somehow those eigenvalues and eigenvectors are really giving you a way to, to, to, to see what's going on inside a matrix."
+    },
+    {
+        "text": "Now, of course, I can continue that for, to the k-th power."
+    },
+    {
+        "text": "A to the k-th power."
+    },
+    {
+        "text": "If I multiply, if I have k of these together, do you see how S inverse S will keep cancelling?"
+    },
+    {
+        "text": "In the, in the inside, I'll have the S outside, at the far left, and lambda will be in there k times and S inverse."
+    },
+    {
+        "text": "So what's that telling me?"
+    },
+    {
+        "text": "That's telling me that the eigenvalues of A, of A to the k-th power are the k-th powers."
+    },
+    {
+        "text": "The eigenvalues of A cubed are the cubes of the eigenvalues of A, and the eigenvectors are the same."
+    }
+]

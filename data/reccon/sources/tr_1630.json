@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'd like to meet you again sometime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "I'd like to meet you again sometime .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That would be great . Actually , can I get your phone number , Ella ? That's assuming you don't mind if I call you sometime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be great . Actually , can I get your phone number , Ella ? That's assuming you don't mind if I call you sometime .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Anytime . You can reach me at 5558929 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Anytime . You can reach me at 5558929 .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Ok , got it . I will call you sometime next week .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok , got it . I will call you sometime next week .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Fine .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's time to go . Bye , Ella . Hope to see you soon",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to see the listener in the future",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'd like to meet you again sometime .",
+            "Hope to see you soon"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's time to go . Bye , Ella . Hope to see you soon",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Bye , Jason .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'd like to meet you again sometime ."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Bye , Jason .",
+        "id": 7
+    }
+]

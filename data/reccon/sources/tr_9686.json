@@ -1,0 +1,227 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why don't you watch where you're going ?",
+        "emotion": "neutral",
+        "text": "Why don't you watch where you're going ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Me ? You're the one who pulled out in front of me !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Why don't you watch where you're going ?",
+            "You're the one who pulled out in front of me !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me ? You're the one who pulled out in front of me !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "There was plenty of room for me to pull out . You didn't have to stay in the lane you were in .",
+        "emotion": "neutral",
+        "text": "There was plenty of room for me to pull out . You didn't have to stay in the lane you were in .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hey , listen . I had every right to stay in the lane I was in . You were supposed to wait until I passed to pull out . And anyhow , you didn't give me any time to change lanes . All of a sudden--BANG--there you are right in front of me .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "There was plenty of room for me to pull out . You didn't have to stay in the lane you were in .",
+            "I had every right to stay in the lane I was in . You were supposed to wait until I passed to pull out ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hey , listen . I had every right to stay in the lane I was in . You were supposed to wait until I passed to pull out . And anyhow , you didn't give me any time to change lanes . All of a sudden--BANG--there you are right in front of me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I think my arm is broken .",
+        "emotion": "neutral",
+        "text": "I think my arm is broken .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sorry about your arm , but it serves you right . You need to learn how to drive . You're lucky you didn't get killed . And I'm lucky to be alive too .",
+        "emotion": "neutral",
+        "text": "Sorry about your arm , but it serves you right . You need to learn how to drive . You're lucky you didn't get killed . And I'm lucky to be alive too .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Listen , let's just wait until the police get here . Then we can decide whose fault this accident was .",
+        "emotion": "neutral",
+        "text": "Listen , let's just wait until the police get here . Then we can decide whose fault this accident was .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Fine with me . I know the laws of the road . I'm not worried .",
+        "emotion": "neutral",
+        "text": "Fine with me . I know the laws of the road . I'm not worried .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I have a cell phone in my car . Now it's probably on the floor on the passenger side . Why don't you get it for me , and then I can call the police ?",
+        "emotion": "neutral",
+        "text": "I have a cell phone in my car . Now it's probably on the floor on the passenger side . Why don't you get it for me , and then I can call the police ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Alright .",
+        "emotion": "neutral",
+        "text": "Alright .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It doesn't work . It looks like it's broken . I need to get to a hospital . You should drive me there .",
+        "emotion": "neutral",
+        "text": "It doesn't work . It looks like it's broken . I need to get to a hospital . You should drive me there .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , yeah ? It's better if we make a police report first . Then you can go to the hospital .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "It looks like it's broken . I need to get to a hospital . You should drive me there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , yeah ? It's better if we make a police report first . Then you can go to the hospital .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Damn it ! I'm injured here . We could wait all day for the police .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "It's better if we make a police report first . Then you can go to the hospital .",
+            "I'm injured here . We could wait all day for the police ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Damn it ! I'm injured here . We could wait all day for the police .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well , you'll just have to wait . I'm not going to move my car until the police arrive . I'll go into one of those houses over there and use their phone . Don't worry . You'll get to the hospital in time .",
+        "emotion": "neutral",
+        "text": "Well , you'll just have to wait . I'm not going to move my car until the police arrive . I'll go into one of those houses over there and use their phone . Don't worry . You'll get to the hospital in time .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "It really hurts .",
+        "emotion": "neutral",
+        "text": "It really hurts .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yes , maybe it does . But if you're going to drive like you did just now , you will have to get used to a little physical pain . You know what I mean ?",
+        "emotion": "neutral",
+        "text": "Yes , maybe it does . But if you're going to drive like you did just now , you will have to get used to a little physical pain . You know what I mean ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "To hell with you . The accident was your fault .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "But if you're going to drive like you did just now , you will have to get used to a little physical pain .",
+            "The accident was your fault ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "To hell with you . The accident was your fault .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I'm afraid it wasn't . And when the police get here , you will also see that it wasn't . But enough of this bickering . I'm going to go find a phone . Don ' t move that arm while I'm gone . Alright ?",
+        "emotion": "neutral",
+        "text": "I'm afraid it wasn't . And when the police get here , you will also see that it wasn't . But enough of this bickering . I'm going to go find a phone . Don ' t move that arm while I'm gone . Alright ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "To hell with you .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "The accident was your fault .",
+            "I'm afraid it wasn't . And when the police get here , you will also see that it wasn't ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "To hell with you .",
+        "id": 19
+    }
+]

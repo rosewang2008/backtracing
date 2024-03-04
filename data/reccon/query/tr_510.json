@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "ok ! I ' ll bring one to you next time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "recommend one to me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "ok ! I ' ll bring one to you next time .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

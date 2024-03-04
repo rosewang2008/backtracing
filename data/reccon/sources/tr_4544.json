@@ -1,0 +1,111 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Bill . I saw you yesterday with a pretty girl .",
+        "emotion": "neutral",
+        "text": "Hi , Bill . I saw you yesterday with a pretty girl .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , she is my favorite girl . I've decided to go steady with her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "she is my favorite girl . I've decided to go steady with her ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , she is my favorite girl . I've decided to go steady with her .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you sure she is the right girl ?",
+        "emotion": "neutral",
+        "text": "Are you sure she is the right girl ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure . She is the ideal girl , the one I had dreamed of .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "she is my favorite girl . I've decided to go steady with her .",
+            "She is the ideal girl ,",
+            "I had dreamed of ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Sure . She is the ideal girl , the one I had dreamed of .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What type of girl is she ?",
+        "emotion": "neutral",
+        "text": "What type of girl is she ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "She is the mature , stable , feminine type . I hope one day I can marry her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "she is my favorite girl . I've decided to go steady with her .",
+            "She is the ideal girl ,",
+            "I had dreamed of .",
+            "She is the mature , stable , feminine type . I hope one day I can marry her ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "She is the mature , stable , feminine type . I hope one day I can marry her .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , that's great . You're serious this time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I hope one day I can marry her ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's great . You're serious this time .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

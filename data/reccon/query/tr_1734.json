@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sometimes , it ' s hard to know who belongs in each section of the museum !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "There you can see british leaders , entertainers , criminals , and royalty ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sometimes , it ' s hard to know who belongs in each section of the museum !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

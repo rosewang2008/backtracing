@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I don't know, I don't think there's a nice theory of convergence or rate of convergence, all the questions that this course is always asking."
+    },
+    {
+        "text": "But it's a very popular algorithm, k-means."
+    },
+    {
+        "text": "k would be to have k clusters."
+    },
+    {
+        "text": "So that's a, I'm not going to discuss the, I'd rather discuss some other ways to do this, to solve this problem, but that's one sort of hack that works quite well."
+    },
+    {
+        "text": "OK, so second approach is what's coming next, second solution method."
+    },
+    {
+        "text": "And it's called the spectral clustering."
+    },
+    {
+        "text": "That's the name of the method."
+    },
+    {
+        "text": "And before I write down what you do, what does the word spectral mean?"
+    },
+    {
+        "text": "You see spectral graph theory, spectral clustering."
+    },
+    {
+        "text": "And in other parts of mathematics, you see that word, you see spectral theorem."
+    },
+    {
+        "text": "I gave you the most, and I described it as the most important, perhaps, theorem in linear algebra, at least one of the top three."
+    },
+    {
+        "text": "So I'll write it over here, because it's not, it doesn't, this is a, it's the same word spectral."
+    },
+    {
+        "text": "Well, let me ask the question again."
+    },
+    {
+        "text": "What's that word spectral about?"
+    },
+    {
+        "text": "What does that mean?"
+    },
+    {
+        "text": "That means that if I have a matrix and I want to talk about its spectrum, what is the spectrum of the matrix?"
+    },
+    {
+        "text": "It is the eigenvalues."
+    },
+    {
+        "text": "So spectral theory, spectral clustering is using the eigenvalues of some matrix."
+    },
+    {
+        "text": "That's what that spectral is telling me."
+    },
+    {
+        "text": "So the spectral theorem, of course, is that for a symmetric matrix S, the eigenvalues are real and the eigenvectors are orthogonal."
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Rose , what are you busy with right now ?",
+        "emotion": "neutral",
+        "text": "Hi Rose , what are you busy with right now ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi Jack , I'm working on these documents . The manager wants them for half an hour .",
+        "emotion": "neutral",
+        "text": "Hi Jack , I'm working on these documents . The manager wants them for half an hour .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , Rose ,",
+        "emotion": "neutral",
+        "text": "Well , Rose ,",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is there something you need ?",
+        "emotion": "neutral",
+        "text": "Is there something you need ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Are your free this weekend ?",
+        "emotion": "neutral",
+        "text": "Are your free this weekend ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , I have nothing to do .",
+        "emotion": "neutral",
+        "text": "Yes , I have nothing to do .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Great , Is it convenient if i visit you this weekend ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Are your free this weekend ?",
+            "Yes , I have nothing to do ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great , Is it convenient if i visit you this weekend ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I beg your pardon ?",
+        "emotion": "neutral",
+        "text": "I beg your pardon ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'd like to call on you this weekend . I just want to a drop in for a chat .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'd like to call on you this weekend . I just want to a drop in for a chat ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'd like to call on you this weekend . I just want to a drop in for a chat .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Really ? well , ok , you're welcome .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'd like to call on you this weekend . I just want to a drop in for a chat ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? well , ok , you're welcome .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Is 5 PM . a good time for you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "you're welcome ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is 5 PM . a good time for you ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Hmm , how about seven ? I can treat you to dinner .",
+        "emotion": "neutral",
+        "text": "Hmm , how about seven ? I can treat you to dinner .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sure , that would be great . I'll bring the wine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I can treat you to dinner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , that would be great . I'll bring the wine .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "OK . Then I'll be expecting you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Sure , that would be great . I'll bring the wine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Then I'll be expecting you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'll be there on time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Sure , that would be great . I'll bring the wine ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'll be there on time .",
+        "id": 15
+    }
+]

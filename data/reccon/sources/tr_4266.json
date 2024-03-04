@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , American football is more exciting than I thought .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "American football is more exciting than I thought ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , American football is more exciting than I thought .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You ' re in America now , my British friend . We just call it football .",
+        "emotion": "neutral",
+        "text": "You ' re in America now , my British friend . We just call it football .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , right . So , I can ' t quite follow what ' s going on ... who ' s winning ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "American football is more exciting than I thought ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Oh , right . So , I can ' t quite follow what ' s going on ... who ' s winning ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The Giants are up by three points because of the field goal they kicked , but the Redskins have the ball and there pretty close to the end zone .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "The Giants are up by three points because of the field goal they kicked , but the Redskins have the ball and there pretty close to the end zone ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The Giants are up by three points because of the field goal they kicked , but the Redskins have the ball and there pretty close to the end zone .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow ! What a hit !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "American football is more exciting than I thought .",
+            "What a hit !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Wow ! What a hit !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , he tackled him so hard his helmet came off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "What a hit !",
+            "he tackled him so hard"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , he tackled him so hard his helmet came off .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Is he ok ?",
+        "emotion": "neutral",
+        "text": "Is he ok ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It looks like it , he ' s getting up .",
+        "emotion": "neutral",
+        "text": "It looks like it , he ' s getting up .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I guess he hit him too hard ; the referee just called a penalty on the home team .",
+        "emotion": "neutral",
+        "text": "I guess he hit him too hard ; the referee just called a penalty on the home team .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The Giants ?",
+        "emotion": "neutral",
+        "text": "The Giants ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yeah .",
+        "emotion": "neutral",
+        "text": "Yeah .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , here we go again .",
+        "emotion": "neutral",
+        "text": "Well , here we go again .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "What happened ? Why did everyone get so quiet ?",
+        "emotion": "neutral",
+        "text": "What happened ? Why did everyone get so quiet ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "The Redskin ' s quarterback just threw a touchdown pass for seven points . We ' re losing again .",
+        "emotion": "neutral",
+        "text": "The Redskin ' s quarterback just threw a touchdown pass for seven points . We ' re losing again .",
+        "id": 14
+    }
+]

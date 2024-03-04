@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 38,
+        "timestamp": 1684728490619.0,
+        "annotatedSourceSentencesIndices": [
+            10,
+            12,
+            16
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Just wondering...what keeps us from calling the eigenvector matrix E instead of S ?  Is E already used for something else ?"
+    }
+]

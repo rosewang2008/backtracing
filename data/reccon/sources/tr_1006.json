@@ -1,0 +1,121 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Leo . How come you look so terrible ? What ' s going ' on ?",
+        "emotion": "neutral",
+        "text": "Hey , Leo . How come you look so terrible ? What ' s going ' on ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You can say that again . Susan ' brother dropped in from out of town , so I offered to put him up for a few days . But he ' s driving me up a wall . This guy is bottomless pit .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "But he ' s driving me up a wall . This guy is bottomless pit ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You can say that again . Susan ' brother dropped in from out of town , so I offered to put him up for a few days . But he ' s driving me up a wall . This guy is bottomless pit .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How gross ! I can ' t handle people like that . Does he at least give you a hand around the house ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "But he ' s driving me up a wall . This guy is bottomless pit ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How gross ! I can ' t handle people like that . Does he at least give you a hand around the house ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He doesn ' t lift a finger ! I bend over backwards cleaning up all day and he sleeps in until noon .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "But he ' s driving me up a wall . This guy is bottomless pit .",
+            "He doesn ' t lift a finger ! I bend over backwards cleaning up all day and he sleeps in until noon ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "He doesn ' t lift a finger ! I bend over backwards cleaning up all day and he sleeps in until noon .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Man , what a freeloader . You better do something quick or he ' ll never hit the road . After all , he ' s got it made in the shade here .",
+        "emotion": "neutral",
+        "text": "Man , what a freeloader . You better do something quick or he ' ll never hit the road . After all , he ' s got it made in the shade here .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You think he might stay even longer ? !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You better do something quick or he ' ll never hit the road ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You think he might stay even longer ? !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Now , don ' t go losing your temper . If you tolerated all you can , just kick him out ... but do it with gloves . I know ! Tell him a white lie like you ' re getting the house fumigated !",
+        "emotion": "neutral",
+        "text": "Now , don ' t go losing your temper . If you tolerated all you can , just kick him out ... but do it with gloves . I know ! Tell him a white lie like you ' re getting the house fumigated !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That wouldn ' t be a lie !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "But he ' s driving me up a wall . This guy is bottomless pit .",
+            "He doesn ' t lift a finger ! I bend over backwards cleaning up all day and he sleeps in until noon ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That wouldn ' t be a lie !",
+        "id": 8
+    }
+]

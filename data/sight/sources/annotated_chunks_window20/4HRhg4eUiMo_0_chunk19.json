@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that means being either here or here."
+    },
+    {
+        "text": "So that's minus c and c. I want the sum of those two things to be equal to alpha."
+    },
+    {
+        "text": "So I want the sum of these areas to equal alpha."
+    },
+    {
+        "text": "So by symmetry, each of them should be equal to alpha over 2."
+    },
+    {
+        "text": "And so what I'm looking for is c such that the probability that my n0,1 exceeds c, which is just this area to the right now, equals alpha, which is equivalent to taking c, which is q equals alpha over 2."
+    },
+    {
+        "text": "And that's q alpha over 2 by definition of q alpha over 2."
+    },
+    {
+        "text": "That's just what q alpha over 2 is."
+    },
+    {
+        "text": "And that's what the tables at the back of the book give you."
+    },
+    {
+        "text": "Who has already seen a table for Gaussian probabilities?"
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "What it does is just a table."
+    },
+    {
+        "text": "I mean, it's pretty ancient, right?"
+    },
+    {
+        "text": "I mean, of course, you can actually ask Google to do it for you now."
+    },
+    {
+        "text": "It's basically standard issue."
+    },
+    {
+        "text": "But back in the day, they actually had to look at tables."
+    },
+    {
+        "text": "And since the values alphas were pretty standard, the values alpha that people were requesting were typically 1%, 5%, 10%."
+    },
+    {
+        "text": "All you could do is to compute these different values for different values of alpha."
+    },
+    {
+        "text": "That was it."
+    },
+    {
+        "text": "So that's really not much to give you."
+    },
+    {
+        "text": "So for the Gaussian, I can tell you that alpha is equal to, if alpha is equal to 5%, then q alpha over 2, q 2.5% is equal to 1.96%."
+    }
+]

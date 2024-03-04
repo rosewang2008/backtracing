@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that gives me the Frobenius norm squared."
+    },
+    {
+        "text": "So that tells us something important, which we can see in different ways."
+    },
+    {
+        "text": "So to solve this problem, we're going to need various facts."
+    },
+    {
+        "text": "Like the QA in the Frobenius norm is the same as A in the Frobenius norm."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "So here I'm multiplying every column by the matrix Q."
+    },
+    {
+        "text": "What happens to the length of the column when I multiply it by Q?"
+    },
+    {
+        "text": "Doesn't change."
+    },
+    {
+        "text": "So I could add up the lengths of the columns all squared."
+    },
+    {
+        "text": "Here I wrote it in terms of rows, but I could have reordered that and got it in terms of columns."
+    },
+    {
+        "text": "That's because the length of Q times any vector squared is the same as the vector squared."
+    },
+    {
+        "text": "And take these to be the columns of A."
+    },
+    {
+        "text": "So for column by column, the multiplication by Q doesn't change the length."
+    },
+    {
+        "text": "And then when I add up all the columns squared, I get the Frobenius norm squared."
+    },
+    {
+        "text": "And another way to say it, let's make the connection between this fact that Q didn't change the Frobenius norm and this fact that the Frobenius norm is expressed in terms of the sigmas."
+    },
+    {
+        "text": "So what does Q do to the sigmas?"
+    },
+    {
+        "text": "I want to see in another way the answer to why."
+    },
+    {
+        "text": "So if I have a matrix A with singular values, I multiply by Q, what happens to the singular values?"
+    },
+    {
+        "text": "Don't change."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So you see, if we have, as we often have, a matrix A and several right-hand sides, then we pay the price on A, the higher price on A, to get it split up into L and U, to do elimination on A, but then we can process every right-hand side at low cost."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So the, that's, we really have discussed the most fundamental algorithm of, of, for a system of equations."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So, I'm ready to allow row exchanges."
+    },
+    {
+        "text": "Ready to allow, now, what happens to this whole today's lecture if there are row exchanges?"
+    },
+    {
+        "text": "When would there be row exchanges?"
+    },
+    {
+        "text": "There are row, we need to do row exchanges if a zero shows up in the pivot position."
+    },
+    {
+        "text": "So I'm, I'm moving then into the final section of this chapter, which is about transposes."
+    },
+    {
+        "text": "Well, we've already seen some transposes."
+    },
+    {
+        "text": "And, so what's the, the title of this section is?"
+    },
+    {
+        "text": "Transposes and permutations."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So can I say now where does a permutation come in?"
+    },
+    {
+        "text": "Let me talk a little about permutations."
+    },
+    {
+        "text": "So that'll be up here, permutations."
+    },
+    {
+        "text": "So these are the matrices that I need to do row exchanges."
+    },
+    {
+        "text": "And I may have to do two row exchanges."
+    },
+    {
+        "text": "Is it, can you invent a matrix where I would have to do two row exchanges and then it would come out fine?"
+    },
+    {
+        "text": "Yeah, let's just, for the heck of it, so I'll put it here."
+    }
+]

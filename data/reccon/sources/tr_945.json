@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you hear about Joe ? She hasn't eaten for days .",
+        "emotion": "neutral",
+        "text": "Did you hear about Joe ? She hasn't eaten for days .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Why ? What's eating her ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "She hasn't eaten for days ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why ? What's eating her ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Love sick . You know who she's in love with ?",
+        "emotion": "neutral",
+        "text": "Love sick . You know who she's in love with ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I don't have the slightest idea .",
+        "emotion": "neutral",
+        "text": "I don't have the slightest idea .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Someone you're living with .",
+        "emotion": "neutral",
+        "text": "Someone you're living with .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What ? Not my Dad , I hope ! ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Someone you're living with .",
+            "What ? Not my Dad , I hope ! ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What ? Not my Dad , I hope ! ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Come on , Mary , it's your brother , Jack .",
+        "emotion": "neutral",
+        "text": "Come on , Mary , it's your brother , Jack .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No kidding ! Jack is such a log ! He's never dated a girl .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's your brother , Jack ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No kidding ! Jack is such a log ! He's never dated a girl .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "The problem with Joe is that she's too shy to tell him .",
+        "emotion": "neutral",
+        "text": "The problem with Joe is that she's too shy to tell him .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And the problem with Jack is that he seems to have no interest in girls . He's putting his heart into his stamp collection .",
+        "emotion": "neutral",
+        "text": "And the problem with Jack is that he seems to have no interest in girls . He's putting his heart into his stamp collection .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , if you want to help your friend , you should do something about it .",
+        "emotion": "neutral",
+        "text": "Well , if you want to help your friend , you should do something about it .",
+        "id": 11
+    }
+]

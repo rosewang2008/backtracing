@@ -1,0 +1,8 @@
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/minilm.csv
+Output fname: results/reccon/test/minilm.csv
+Accuracy top 1: 0.01
+Distance: 1.32
+Accuracy top 3: 0.209
+Distance: 0.855

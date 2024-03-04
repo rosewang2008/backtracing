@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It should be very clear from here."
+    },
+    {
+        "text": "Because if I actually have a model, I just want it to be plausible, right?"
+    },
+    {
+        "text": "I mean, what happens if I suddenly decide that my, so this is what's going to happen."
+    },
+    {
+        "text": "You're going to have only data to fit this model."
+    },
+    {
+        "text": "Let's say you actually forget about this thing here."
+    },
+    {
+        "text": "You can always do this, right?"
+    },
+    {
+        "text": "You can always say, I'm going to pretend my y's just happen to be the realizations of, say, Gaussians that happen to be 0 or 1 only."
+    },
+    {
+        "text": "You can always stuff that in some linear model, right?"
+    },
+    {
+        "text": "You will have some least squares estimator for beta."
+    },
+    {
+        "text": "But what's going to happen, and it's going to be fine."
+    },
+    {
+        "text": "For all the points that you see, it will definitely put some number that's actually between 0 and 1."
+    },
+    {
+        "text": "So this is what your picture is going to look like."
+    },
+    {
+        "text": "You're going to have a bunch of values for x."
+    },
+    {
+        "text": "This is your y."
+    },
+    {
+        "text": "And so these are the values of x that you will get."
+    },
+    {
+        "text": "And for y, you will see either 0 or 1, right?"
+    },
+    {
+        "text": "That's what your Bernoulli data set would look like with a one-dimensional x."
+    },
+    {
+        "text": "Now, if you do least squares on this, you will find this."
+    },
+    {
+        "text": "And for this guy, this line certainly takes values between 0 and 1."
+    },
+    {
+        "text": "But let's say now you get an x here."
+    }
+]

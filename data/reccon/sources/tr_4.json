@@ -1,0 +1,97 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hey John , nice skates . Are they new ?",
+        "emotion": "neutral",
+        "text": "Hey John , nice skates . Are they new ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Yeah , I just got them . I started playing ice hockey in a community league . So , I finally got myself new skates .",
+        "emotion": "neutral",
+        "text": "Yeah , I just got them . I started playing ice hockey in a community league . So , I finally got myself new skates .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "What position do you play ?",
+        "emotion": "neutral",
+        "text": "What position do you play ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "I ' m a defender . It ' s a lot of fun . You don ' t have to be able to skate as fast on defense .",
+        "emotion": "neutral",
+        "text": "I ' m a defender . It ' s a lot of fun . You don ' t have to be able to skate as fast on defense .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Yeah , you ' re a pretty big guy . I play goalie , myself .",
+        "emotion": "neutral",
+        "text": "Yeah , you ' re a pretty big guy . I play goalie , myself .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Oh , yeah ? Which team ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I play goalie , myself ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , yeah ? Which team ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "The Rockets .",
+        "emotion": "neutral",
+        "text": "The Rockets .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Really ? I think we play you guys next week . Well , I have to go to practice . See you later .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The Rockets ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I think we play you guys next week . Well , I have to go to practice . See you later .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "All right , see you later .",
+        "emotion": "neutral",
+        "text": "All right , see you later .",
+        "id": 9
+    }
+]

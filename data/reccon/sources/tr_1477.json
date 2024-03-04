@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , how are you doing ?",
+        "emotion": "neutral",
+        "text": "Hi , how are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm fine . How about yourself ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "how are you doing ?",
+            "I'm fine ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm fine . How about yourself ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm pretty good . Thanks for asking .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "How about yourself ?",
+            "I'm pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm pretty good . Thanks for asking .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No problem . So how have you been ?",
+        "emotion": "neutral",
+        "text": "No problem . So how have you been ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've been great . What about you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "how have you been ?",
+            "I've been great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I've been great . What about you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I've been good . I'm in school right now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "What about you ?",
+            "I've been good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I've been good . I'm in school right now .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What school do you go to ?",
+        "emotion": "neutral",
+        "text": "What school do you go to ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I go to PCC .",
+        "emotion": "neutral",
+        "text": "I go to PCC .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Do you like it there ?",
+        "emotion": "neutral",
+        "text": "Do you like it there ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's okay . It's a really big campus .",
+        "emotion": "neutral",
+        "text": "It's okay . It's a really big campus .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good luck with school .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Good luck with school ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Good luck with school .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Good luck with school ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

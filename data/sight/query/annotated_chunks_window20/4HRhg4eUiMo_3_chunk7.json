@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "4HRhg4eUiMo",
+        "query_id": 3,
+        "timestamp": 1684518521013.0,
+        "annotatedSourceSentencesIndices": [
+            8,
+            10
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "the power of the test shouldn't it be 95% ? 1-alpha ?"
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How is night life in Beijing ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is excited to try night life in Beijing",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "night life in Beijing"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How is night life in Beijing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Very interesting !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "night life in Beijing",
+            "Very interesting !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very interesting !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do you suggest then ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "night life in Beijing",
+            "Very interesting !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "What do you suggest then ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How about going to dance ? There is a very good nightclub nearby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "How about going to dance ? There is a very good nightclub nearby ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How about going to dance ? There is a very good nightclub nearby .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's a great idea . Let's go ... Oh , the dance hall looks very nice and the music is wonderful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "How about going to dance ? There is a very good nightclub nearby .",
+            "the dance hall looks very nice and the music is wonderful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a great idea . Let's go ... Oh , the dance hall looks very nice and the music is wonderful .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm glad you like it . The band is called \" Four and One \" . They are especially good at playing rock and roll .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "How about going to dance ? There is a very good nightclub nearby .",
+            "the dance hall looks very nice and the music is wonderful .",
+            "I'm glad you like it . The band is called \" Four and One \" . They are especially good at playing rock and roll ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I'm glad you like it . The band is called \" Four and One \" . They are especially good at playing rock and roll .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's great ! I love to dance to fast music .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm glad you like it . The band is called \" Four and One \" . They are especially good at playing rock and roll .",
+            "I love to dance to fast music ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's great ! I love to dance to fast music .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Then you must be interested in disco dancing , aren't you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I love to dance to fast music .",
+            "you must be interested in disco dancing"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Then you must be interested in disco dancing , aren't you ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , disco dancing is my favorite . It ' s great fun and good exercise as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you must be interested in disco dancing",
+            "disco dancing is my favorite . It ' s great fun and good exercise as well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , disco dancing is my favorite . It ' s great fun and good exercise as well .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK . Let's disco .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "disco dancing is my favorite . It ' s great fun and good exercise as well ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Let's disco .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Now the band is playing a slow dance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Let's disco ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now the band is playing a slow dance .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's a waltz . Would you like to try it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "That's a waltz ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's a waltz . Would you like to try it ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sorry , I think I'Il sit out the next dance .",
+        "emotion": "neutral",
+        "text": "Sorry , I think I'Il sit out the next dance .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "All right . Let me get you something to drink .",
+        "emotion": "neutral",
+        "text": "All right . Let me get you something to drink .",
+        "id": 14
+    }
+]

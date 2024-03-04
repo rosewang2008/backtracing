@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Tell me how to do it."
+    },
+    {
+        "text": "How do I find the, if I give you eight basis vectors and I give you the input signal and I ask for the coefficients, what do I do?"
+    },
+    {
+        "text": "What's the, what's the step?"
+    },
+    {
+        "text": "I want, I'm trying to solve this, I want to know the eight coefficients, so I'm changing from the standard basis, which is just the eight grayscale values, to the wavelet basis, where this same vector is represented by eight numbers."
+    },
+    {
+        "text": "It's got to take eight numbers to tell you a vector in R8, and those eight numbers are the coefficients of the basis."
+    },
+    {
+        "text": "Look, we've done this thing before."
+    },
+    {
+        "text": "What do we, here, there is the equation in vector notation."
+    },
+    {
+        "text": "We want to see it as a matrix."
+    },
+    {
+        "text": "This is a combination of columns of the wavelet matrix, right?"
+    },
+    {
+        "text": "This is p equals c1, c2, down to c8, and these guys are the columns."
+    },
+    {
+        "text": "I mean, this is the step that we constantly take in this course."
+    },
+    {
+        "text": "The first basis vector goes in the first column, the second basis vector goes in the second column, and so on."
+    },
+    {
+        "text": "The eight columns of this wavelet matrix are the eight basis vectors."
+    },
+    {
+        "text": "This is a wavelet matrix W. So, the step to change basis."
+    },
+    {
+        "text": "So now I'm finally coming to this change of basis."
+    },
+    {
+        "text": "So the change of basis, let me stay with this board, but, well, let me just go above it here."
+    },
+    {
+        "text": "So the standard basis we know, the wavelet basis we have here, and the transform is simply solve the equations p equal Wc."
+    },
+    {
+        "text": "So the coefficients are W inverse p, right?"
+    },
+    {
+        "text": "This shows a critical point."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It depends on what I actually observe."
+    },
+    {
+        "text": "So here, of course, I instantiated those two numbers, 3.45 and 0.77, as realizations of random variables."
+    },
+    {
+        "text": "But if you think of those as being the random numbers before I see my data, this was a random number."
+    },
+    {
+        "text": "And therefore, the area under the curve to the right of it is also a random area."
+    },
+    {
+        "text": "If this thing fluctuates, then the area under the curve fluctuates."
+    },
+    {
+        "text": "And that's what the p-value is."
+    },
+    {
+        "text": "That's what John Oliver talks about when he talks about p-hacking."
+    },
+    {
+        "text": "And so we talked about this in the first lecture."
+    },
+    {
+        "text": "So p-hacking is, how do I do?"
+    },
+    {
+        "text": "Oh, if I'm a scientist, do I want to see a small p-value or a large p-value?"
+    },
+    {
+        "text": "Small, right?"
+    },
+    {
+        "text": "Scientists want to see small p-values, because small p-values equals rejecting, which equals discovery, which equals publication, which equals promotion."
+    },
+    {
+        "text": "So that's what people want to see."
+    },
+    {
+        "text": "So people are tempted to see small p-values."
+    },
+    {
+        "text": "And what's called p-hacking is, well, find a way to cheat."
+    },
+    {
+        "text": "Maybe look at your data, formulate your hypothesis in such a way that you will actually have a smaller p-value than you should have."
+    },
+    {
+        "text": "So here, for example, there's one thing I did not insist on, because again, this is not a particular course in statistical thinking."
+    },
+    {
+        "text": "But one thing that we implicitly did was set those theta 0 and theta 1 ahead of time."
+    },
+    {
+        "text": "I fixed them, and I'm trying to test this."
+    },
+    {
+        "text": "This is to be contrasted with the following approach."
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hot in here , isn't it ?",
+        "emotion": "neutral",
+        "text": "Hot in here , isn't it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , really .",
+        "emotion": "neutral",
+        "text": "Yeah , really .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is it Ok if I sit here ?",
+        "emotion": "neutral",
+        "text": "Is it Ok if I sit here ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course . Suit yourself .",
+        "emotion": "neutral",
+        "text": "Of course . Suit yourself .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thanks . My name's Bill Peters , by the way .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Of course . Suit yourself ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . My name's Bill Peters , by the way .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hi , I'm Susan Jackson .",
+        "emotion": "neutral",
+        "text": "Hi , I'm Susan Jackson .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Nice to meet you . And what do you do , Susan ?",
+        "emotion": "neutral",
+        "text": "Nice to meet you . And what do you do , Susan ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'm a student at UCLA .",
+        "emotion": "neutral",
+        "text": "I'm a student at UCLA .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , are you ? And what are you studying ?",
+        "emotion": "neutral",
+        "text": "Oh , are you ? And what are you studying ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Medicine .",
+        "emotion": "neutral",
+        "text": "Medicine .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Medicine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , I want to be a doctor one of these days . What about you ?",
+        "emotion": "neutral",
+        "text": "Yes , I want to be a doctor one of these days . What about you ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I'm an engineer , I work for Boeing . Say , would you like a drink ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Yes , I want to be a doctor one of these days . What about you ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm an engineer , I work for Boeing . Say , would you like a drink ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Sure . Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'm an engineer , I work for Boeing . Say , would you like a drink ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Thanks .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

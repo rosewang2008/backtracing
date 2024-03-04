@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 1,
+        "timestamp": 1684723178257.0,
+        "annotatedSourceSentencesIndices": [
+            9,
+            10
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I dont undertand why the eigenvectors are [lamba_1 \u00a01] and [lamba_2 1] at 49:19...\nsince it is NOT true that ((1 - lamba) * (lamba)) + 1 is lamba^2 - lamba - 1 ... or it is? or what is happening?\u00a0"
+    }
+]

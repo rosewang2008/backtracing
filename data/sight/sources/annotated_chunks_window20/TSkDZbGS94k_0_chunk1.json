@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I mean, I know there's not going to be an answer which is less than 1, unless, well, someone doesn't understand the question."
+    },
+    {
+        "text": "But all the answers I should get are positive integers, 1, 2, 3, et cetera."
+    },
+    {
+        "text": "And there probably is an upper bound, but I don't know it on the top of my head."
+    },
+    {
+        "text": "So maybe I should say 100."
+    },
+    {
+        "text": "Maybe I should say 15."
+    },
+    {
+        "text": "Depends, right?"
+    },
+    {
+        "text": "And so I think the largest number I got for this was 6."
+    },
+    {
+        "text": "So here you can see you have pretty standard families, lots of 1's, 2's, and 3's."
+    },
+    {
+        "text": "So what statistical modeling is doing is to try to compress this information that I could actually describe in a very naive way."
+    },
+    {
+        "text": "So let's start with the basic usual statistical setup."
+    },
+    {
+        "text": "So I will start many of the boards that look like x1, xn, random variables."
+    },
+    {
+        "text": "And what I'm going to assume, as we said, typically is that those guys are iid, and they have some distribution."
+    },
+    {
+        "text": "So they all share the same distribution."
+    },
+    {
+        "text": "And the fact that they're iid is so that I can actually do statistics."
+    },
+    {
+        "text": "Statistics means looking at the global averaging thing so that I can actually get a sense of what the global behavior is for the population."
+    },
+    {
+        "text": "If I start assuming that those things are not identically distributed, they all live on their own, that my sequence of number is your number of siblings, the shoe size of this person, the depth of the Charles River, and I start measuring a bunch of stuff, there's nothing I'm going to actually get together."
+    },
+    {
+        "text": "I need to have something that's cohesive."
+    },
+    {
+        "text": "And so here, I collected some data that was cohesive."
+    },
+    {
+        "text": "And so the goal here, the first thing is to say, what is the distribution that I actually have here?"
+    },
+    {
+        "text": "So I could actually be very general."
+    }
+]

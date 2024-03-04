@@ -1,0 +1,189 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "alright , tell me what you think .",
+        "emotion": "neutral",
+        "text": "alright , tell me what you think .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "don't you think it ' s a bit bright ?",
+        "emotion": "neutral",
+        "text": "don't you think it ' s a bit bright ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "yeah , maybe you ' re right . How about this outfit ?",
+        "emotion": "neutral",
+        "text": "yeah , maybe you ' re right . How about this outfit ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "that dress looks lovely on you , but it ' s not very practical , is it ?",
+        "emotion": "neutral",
+        "text": "that dress looks lovely on you , but it ' s not very practical , is it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "no , I don't have an plans to go to a formal dance any time soon , but I love the way it looks . I just had to try it on ! What do you think about this ? It ' s casual , yet sophisticated .",
+        "emotion": "neutral",
+        "text": "no , I don't have an plans to go to a formal dance any time soon , but I love the way it looks . I just had to try it on ! What do you think about this ? It ' s casual , yet sophisticated .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I like the jeans , but you need something to go with the top . It ' s too plain on its own .",
+        "emotion": "neutral",
+        "text": "I like the jeans , but you need something to go with the top . It ' s too plain on its own .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "how about this scarf , these earrings , and an anklet ?",
+        "emotion": "neutral",
+        "text": "how about this scarf , these earrings , and an anklet ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "that might be going overboard a bit . How about just that scarf with a bracelet ?",
+        "emotion": "neutral",
+        "text": "that might be going overboard a bit . How about just that scarf with a bracelet ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "that ' s a good idea . You have a lot of good fashion sense .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like the jeans , but you need something to go with the top . It ' s too plain on its own .",
+            "how about this scarf , these earrings , and an anklet ?",
+            "that might be going overboard a bit . How about just that scarf with a bracelet ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "that ' s a good idea . You have a lot of good fashion sense .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "thanks . You ' d be ok on your own . There are loads of fashion victims out there , and you are not one of them . Have you tried it on yet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "that ' s a good idea . You have a lot of good fashion sense ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thanks . You ' d be ok on your own . There are loads of fashion victims out there , and you are not one of them . Have you tried it on yet ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "yep . Here it is . What do you think ?",
+        "emotion": "neutral",
+        "text": "yep . Here it is . What do you think ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "that looks great . Just one more thing---you need some high heels with those jeans . Do you want a pair with a plain pattern or ones with a leopard print on them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "What do you think ?",
+            "that looks great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "that looks great . Just one more thing---you need some high heels with those jeans . Do you want a pair with a plain pattern or ones with a leopard print on them ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "the leopard print sounds fabulous . Are they a name brand ?",
+        "emotion": "neutral",
+        "text": "the leopard print sounds fabulous . Are they a name brand ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "no , they ' re a Prada knock-off for 1/10 of the price of the real thing .",
+        "emotion": "neutral",
+        "text": "no , they ' re a Prada knock-off for 1/10 of the price of the real thing .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "that ' s even better than the real thing .",
+        "emotion": "neutral",
+        "text": "that ' s even better than the real thing .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "if I were you , I ' d buy that now while it ' s on sale . If you spend more than $ 100 , you get a $ 50 voucher for more clothes .",
+        "emotion": "neutral",
+        "text": "if I were you , I ' d buy that now while it ' s on sale . If you spend more than $ 100 , you get a $ 50 voucher for more clothes .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "it ' s too bad I did all that shopping yesterday !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "it ' s on sale . If you spend more than $ 100 , you get a $ 50 voucher for more clothes .",
+            "I did all that shopping yesterday !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "it ' s too bad I did all that shopping yesterday !",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

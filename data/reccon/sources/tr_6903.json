@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi there ! I am looking for a new car . I have this old Ford Pinto that I would like to trade in .",
+        "emotion": "neutral",
+        "text": "Hi there ! I am looking for a new car . I have this old Ford Pinto that I would like to trade in .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I see . You are in luck this month because all of our models are on sale ! it is a perfect time to buy a new car since it ' s the end of the year .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I am looking for a new car ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I see . You are in luck this month because all of our models are on sale ! it is a perfect time to buy a new car since it ' s the end of the year .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Perfect ! I like this one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "You are in luck this month because all of our models are on sale ! it is a perfect time to buy a new car since it ' s the end of the year ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Perfect ! I like this one .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That is the Ford Focus . A very light but powerful vehicle . It comes with dual side airbags , power steering and power windows , tinted windows and your choice of either automatic or manual transmission .",
+        "emotion": "neutral",
+        "text": "That is the Ford Focus . A very light but powerful vehicle . It comes with dual side airbags , power steering and power windows , tinted windows and your choice of either automatic or manual transmission .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sounds like a good car ! How many miles to the gallon ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "A very light but powerful vehicle . It comes with dual side airbags , power steering and power windows , tinted windows and your choice of either automatic or manual transmission ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds like a good car ! How many miles to the gallon ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It is a very fuel efficient vehicle giving you about 34 miles in the city and 40 on the highway .",
+        "emotion": "neutral",
+        "text": "It is a very fuel efficient vehicle giving you about 34 miles in the city and 40 on the highway .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That is really convenient . Especially now that fuel prices are so high ! What ' s under the hood ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "very fuel efficient vehicle giving you about 34 miles in the city and 40 on the highway ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That is really convenient . Especially now that fuel prices are so high ! What ' s under the hood ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "A very powerful 2 . 5- liter turbocharged engine , Trust me , this car is fast !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "What ' s under the hood ?",
+            "A very powerful 2 . 5- liter turbocharged engine , Trust me , this car is fast !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "A very powerful 2 . 5- liter turbocharged engine , Trust me , this car is fast !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Now for the most difficult question . What is the price tag for this lovely vehicle ?",
+        "emotion": "neutral",
+        "text": "Now for the most difficult question . What is the price tag for this lovely vehicle ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Very affordable sir . You can take it out of this lot today with 0 % down payment and no interest for the first year ! You can test drive it now and we can sign the papers when we get back .",
+        "emotion": "neutral",
+        "text": "Very affordable sir . You can take it out of this lot today with 0 % down payment and no interest for the first year ! You can test drive it now and we can sign the papers when we get back .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Great ! Let ' s do it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Very affordable sir . You can take it out of this lot today with 0 % down payment and no interest for the first year ! You can test drive it now and we can sign the papers when we get back ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! Let ' s do it !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

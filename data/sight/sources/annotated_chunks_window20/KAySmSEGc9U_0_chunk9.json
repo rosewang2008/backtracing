@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Here's my k minus 1 state, that machine that I'm going to be building for you."
+    },
+    {
+        "text": "It's actually going to look almost exactly the same."
+    },
+    {
+        "text": "I'm just going to remove one state from the bigger machine."
+    },
+    {
+        "text": "So I'm going to pick any state, which is not the start state or the accept state."
+    },
+    {
+        "text": "Here it is pictured here."
+    },
+    {
+        "text": "I mean, all of the states of the k-state machine are going to appear in the k minus 1 state machine, except for one state that I'm going to rip out."
+    },
+    {
+        "text": "That's the state x."
+    },
+    {
+        "text": "It's now here as a ghost."
+    },
+    {
+        "text": "It's been removed."
+    },
+    {
+        "text": "It's not there anymore."
+    },
+    {
+        "text": "But I'm just helping you to remember that it used to be there by showing a shadow."
+    },
+    {
+        "text": "But it's a I have taken my original machine that had k states and basically just ripped out a state."
+    },
+    {
+        "text": "And now I have one fewer state."
+    },
+    {
+        "text": "So the good news is that I now have a machine with k minus 1 states."
+    },
+    {
+        "text": "That's what I want."
+    },
+    {
+        "text": "But the bad news is that it doesn't do the same language anymore."
+    },
+    {
+        "text": "I broke the machine by rip."
+    },
+    {
+        "text": "If you're just going to rip out a state, who knows what the new machine is going to do?"
+    },
+    {
+        "text": "It's going to be probably not the same as what the original machine did."
+    },
+    {
+        "text": "So what I need to do then is repair the damage."
+    }
+]

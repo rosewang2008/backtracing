@@ -1,0 +1,62 @@
+[
+    {
+        "text": "They just have the regular expression, which is just a single symbol."
+    },
+    {
+        "text": "So all DFAs are automatically GNFAs."
+    },
+    {
+        "text": "So if I can convert GNFAs, I can certainly convert DFAs, because GNFAs include the DFAs."
+    },
+    {
+        "text": "I'm done."
+    },
+    {
+        "text": "It really was number C was the correct answer."
+    },
+    {
+        "text": "So good thing we're not counting correctness here."
+    },
+    {
+        "text": "So participation is good enough."
+    },
+    {
+        "text": "But I do think you need to think about what's going on and making sure that you're following along."
+    },
+    {
+        "text": "So anyway, that's a we'll carry on here, but it makes me a little concerned."
+    },
+    {
+        "text": "OK, so let us now move on."
+    },
+    {
+        "text": "So we're going to talk a little bit about non-regular languages."
+    },
+    {
+        "text": "So somebody's asking, don't we have to still make the DFAs into the special type?"
+    },
+    {
+        "text": "Yes, we do."
+    },
+    {
+        "text": "We have to make them to the special type."
+    },
+    {
+        "text": "But we already showed how to make GNFAs into the special type."
+    },
+    {
+        "text": "And DFA, that is going to apply to DFAs as well."
+    },
+    {
+        "text": "They'll become GNFAs."
+    },
+    {
+        "text": "You can add the extra start, add a new start state, add a new accept state, add in all the transitions, which you didn't have before with the empty language label."
+    },
+    {
+        "text": "And you'll have a GNFA from a DFA."
+    },
+    {
+        "text": "But that applies to GNFAs in general."
+    }
+]

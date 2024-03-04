@@ -1,0 +1,245 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , what's up ?",
+        "emotion": "neutral",
+        "text": "Hey , what's up ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , nothing .",
+        "emotion": "neutral",
+        "text": "Oh , nothing .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What were you writing ?",
+        "emotion": "neutral",
+        "text": "What were you writing ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "( Laugh ) All right . You caught me in the act . I finally worked up the nerve to ask Diana out . I was just writing a note to put on her desk .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I finally worked up the nerve to ask Diana out ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "( Laugh ) All right . You caught me in the act . I finally worked up the nerve to ask Diana out . I was just writing a note to put on her desk .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You mean you're going to ask her out in a note ? You big chicken !",
+        "emotion": "neutral",
+        "text": "You mean you're going to ask her out in a note ? You big chicken !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I admit it . I'm a wuss . I just can't do it in person .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I finally worked up the nerve to ask Diana out ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I admit it . I'm a wuss . I just can't do it in person .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But , you work with her everyday .",
+        "emotion": "neutral",
+        "text": "But , you work with her everyday .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's different . When I'm working , I'm in a different frame of mind . But , when I even think about asking her out , I get tongue-tied . At least in a note , I can get the words out without turning beet red .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "At least in a note , I can get the words out without turning beet red ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's different . When I'm working , I'm in a different frame of mind . But , when I even think about asking her out , I get tongue-tied . At least in a note , I can get the words out without turning beet red .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You've dated a lot . What's so different about Diana ?",
+        "emotion": "neutral",
+        "text": "You've dated a lot . What's so different about Diana ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , for one thing , she's gorgeous . She's so upbeat and sweet . Who doesn't like her ? Oh , I don't know . All I do know is that I think we have great chemistry together . But , what if I'm wrong . Maybe she's just been nice to me out of courtesy and doesn't think of me that way . Oh ... forget it . This was a bad idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            10
+        ],
+        "expanded emotion cause span": [
+            "she's gorgeous . She's so upbeat and sweet . Who doesn't like her ?",
+            "All I do know is that I think we have great chemistry together ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , for one thing , she's gorgeous . She's so upbeat and sweet . Who doesn't like her ? Oh , I don't know . All I do know is that I think we have great chemistry together . But , what if I'm wrong . Maybe she's just been nice to me out of courtesy and doesn't think of me that way . Oh ... forget it . This was a bad idea .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , I guess you don't want this note , then .",
+        "emotion": "neutral",
+        "text": "Well , I guess you don't want this note , then .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What note ?",
+        "emotion": "neutral",
+        "text": "What note ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I was looking for you to deliver this note from Diana . She wants to know if you want to go to the office party with her tomorrow night .",
+        "emotion": "neutral",
+        "text": "I was looking for you to deliver this note from Diana . She wants to know if you want to go to the office party with her tomorrow night .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "You're kidding ! I can't believe you've been standing this entire time and didn't say anything .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night .",
+            "I can't believe you've been standing this entire time and didn't say anything ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're kidding ! I can't believe you've been standing this entire time and didn't say anything .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Sorry . What can I say ? Now , do you want the note or what ?",
+        "emotion": "happiness",
+        "explanation": "Assuming A is happy for B and making B happy.",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night .",
+            "You're kidding !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sorry . What can I say ? Now , do you want the note or what ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yeah , I want the note .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I want the note .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Have a great time tomorrow night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            16
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night .",
+            "Yeah , I want the note ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Have a great time tomorrow night .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Thanks . I plan on it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            17
+        ],
+        "expanded emotion cause span": [
+            "She wants to know if you want to go to the office party with her tomorrow night .",
+            "Have a great time tomorrow night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I plan on it .",
+        "id": 18,
+        "source_sentences": [
+            12,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

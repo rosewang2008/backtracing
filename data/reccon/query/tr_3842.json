@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Goodbye , then . Thanks again for everything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            13
+        ],
+        "expanded emotion cause span": [
+            "how about I come and see you off ?",
+            "I ' ll miss you . I hope we can see each other again soon .",
+            "Thanks again for everything ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Goodbye , then . Thanks again for everything .",
+        "id": 13,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

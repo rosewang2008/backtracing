@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What happened ? Why didn't he win ?",
+        "emotion": "neutral",
+        "text": "What happened ? Why didn't he win ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Didn't you hear ? He was disqualified .",
+        "emotion": "neutral",
+        "text": "Didn't you hear ? He was disqualified .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How did that happen ? He's so talented ! I thought he had a great chance of winning a gold medal !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "He was disqualified ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How did that happen ? He's so talented ! I thought he had a great chance of winning a gold medal !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "If he didn't have any drug problems , he would have won .",
+        "emotion": "neutral",
+        "text": "If he didn't have any drug problems , he would have won .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What ? What kind of drugs was he using ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "If he didn't have any drug problems ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? What kind of drugs was he using ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He was taking steroids to make him stronger and faster .",
+        "emotion": "neutral",
+        "text": "He was taking steroids to make him stronger and faster .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I thought that all athletes were supposed to be regularly tested for drugs .",
+        "emotion": "disgust",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He was taking steroids to make him stronger and faster ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I thought that all athletes were supposed to be regularly tested for drugs .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "They are . The only reason they didn't disqualify him until after the race is because the results from the text only came back afterwards .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He was taking steroids to make him stronger and faster ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "They are . The only reason they didn't disqualify him until after the race is because the results from the text only came back afterwards .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's so disappointing . I don't know why top athletes would feel the need to take drugs .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He was taking steroids to make him stronger and faster .",
+            "I don't know why top athletes would feel the need to take drugs ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's so disappointing . I don't know why top athletes would feel the need to take drugs .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't think it's right , but I can understand why they might . Imagine how much pressure there would be to win for your country !",
+        "emotion": "disgust",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He was taking steroids to make him stronger and faster ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I don't think it's right , but I can understand why they might . Imagine how much pressure there would be to win for your country !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Regardless of how much pressure you're under , there's never a good reason to take drugs .",
+        "emotion": "neutral",
+        "text": "Regardless of how much pressure you're under , there's never a good reason to take drugs .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I agree . Hopefully with the new regulations , fewer athletes will try to cheat with drugs .",
+        "emotion": "neutral",
+        "text": "I agree . Hopefully with the new regulations , fewer athletes will try to cheat with drugs .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Let's hope so .",
+        "emotion": "neutral",
+        "text": "Let's hope so .",
+        "id": 13
+    }
+]

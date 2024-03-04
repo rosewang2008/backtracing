@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like flowers ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you like flowers ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Of course , I like flowers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I like flowers ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Of course , I like flowers .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's your favorite flower ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What's your favorite flower ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like peach blossom , because I like spring .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like peach blossom , because I like spring ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I like peach blossom , because I like spring .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Peach blossom is really beautiful .",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy to discuss on thier mutual love for flowers",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like peach blossom , because I like spring .",
+            "Peach blossom is really beautiful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Peach blossom is really beautiful .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . How about you ?",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy to discuss on thier mutual love for flowers",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like peach blossom , because I like spring ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes . How about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I like lotus .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like lotus ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I like lotus .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You have a perfect taste !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like lotus .",
+            "You have a perfect taste !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You have a perfect taste !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "But there aren't any lotus now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "I like flowers .",
+            "I like lotus .",
+            "You have a perfect taste !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "But there aren't any lotus now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes . It's snowing outside . Let's enjoy the plum blossoms .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "Let's enjoy the plum blossoms ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes . It's snowing outside . Let's enjoy the plum blossoms .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's not bad . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like flowers .",
+            "Let's enjoy the plum blossoms ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's not bad . Let's go .",
+        "id": 11,
+        "source_sentences": [
+            1,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , I ' ll try to do the same . So , I was wondering you wanna go out to dinner Friday night ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll try to more considerate and to keep the noise down ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I ' ll try to do the same . So , I was wondering you wanna go out to dinner Friday night ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

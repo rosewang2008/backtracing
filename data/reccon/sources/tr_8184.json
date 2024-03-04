@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , Yuri , tell me about it .",
+        "emotion": "neutral",
+        "text": "Well , Yuri , tell me about it .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm sorry I can't bring better news , sir . The site is a disaster .",
+        "emotion": "neutral",
+        "text": "I'm sorry I can't bring better news , sir . The site is a disaster .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That's what I was afraid of .",
+        "emotion": "neutral",
+        "text": "That's what I was afraid of .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It is not only the earthquake , sir . But the mudslides . Much of the north half of the site has been covered over by mud .",
+        "emotion": "neutral",
+        "text": "It is not only the earthquake , sir . But the mudslides . Much of the north half of the site has been covered over by mud .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Mud ? But Ivan told me there were no mudslides in that district . I thought all the mudslides were down in Chichitango .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "the mudslides . Much of the north half of the site has been covered over by mud .",
+            "Ivan told me there were no mudslides in that district . I thought all the mudslides were down in Chichitango ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Mud ? But Ivan told me there were no mudslides in that district . I thought all the mudslides were down in Chichitango .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's what we thought , sir . That's what the news reported . But there was one little mudslide in our district too . Right above our site .",
+        "emotion": "neutral",
+        "text": "That's what we thought , sir . That's what the news reported . But there was one little mudslide in our district too . Right above our site .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , that's terrible ! What bad luck ! I wish we had never come to this country . But , if it isn't the strikes and the revolutionaries , it's the earthquakes . Our operations here are finished !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "there was one little mudslide in our district too . Right above our site .",
+            "I wish we had never come to this country . But , if it isn't the strikes and the revolutionaries , it's the earthquakes . Our operations here are finished !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , that's terrible ! What bad luck ! I wish we had never come to this country . But , if it isn't the strikes and the revolutionaries , it's the earthquakes . Our operations here are finished !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'm sorry , sir .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I wish we had never come to this country . But , if it isn't the strikes and the revolutionaries , it's the earthquakes . Our operations here are finished !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry , sir .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's not your fault , Yuri . But tell me . When will Ivan be able to get out there ?",
+        "emotion": "neutral",
+        "text": "It's not your fault , Yuri . But tell me . When will Ivan be able to get out there ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , it took me about nine hours to get back here by car . If Ivan leaves tonight , I think he should be there by tomorrow lunch .",
+        "emotion": "neutral",
+        "text": "Well , it took me about nine hours to get back here by car . If Ivan leaves tonight , I think he should be there by tomorrow lunch .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good . I want an estimate of damages as soon as possible .",
+        "emotion": "neutral",
+        "text": "Good . I want an estimate of damages as soon as possible .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "But sir ...",
+        "emotion": "neutral",
+        "text": "But sir ...",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , Yuri ?",
+        "emotion": "neutral",
+        "text": "Yes , Yuri ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I wouldn't recommend sending Ivan now . Especially not at night . The roads aren't safe .",
+        "emotion": "neutral",
+        "text": "I wouldn't recommend sending Ivan now . Especially not at night . The roads aren't safe .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Has the earthquake damaged the bridges too ?",
+        "emotion": "neutral",
+        "text": "Has the earthquake damaged the bridges too ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No , sir . The bridges are fine . But I've heard rumors that the revolutionaries are coming down from the mountains . There has been fighting , sir .",
+        "emotion": "neutral",
+        "text": "No , sir . The bridges are fine . But I've heard rumors that the revolutionaries are coming down from the mountains . There has been fighting , sir .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Are you serious ? Fighting ? But I didn't hear anything on the news .",
+        "emotion": "neutral",
+        "text": "Are you serious ? Fighting ? But I didn't hear anything on the news .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "You know the government controls the press here , sir . They don't want it reported .",
+        "emotion": "neutral",
+        "text": "You know the government controls the press here , sir . They don't want it reported .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Oh , this is terrible , Yuri . Terrible ! So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped . No , I can't believe this mess !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , this is terrible , Yuri . Terrible ! So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped . No , I can't believe this mess !",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "I'm sorry , sir .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry , sir .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "You don't have to keep saying that , Yuri . It's not your fault . But me--I'm the one who should be sorry . It was me who suggested operations here in the first place ! Oh , what can we do ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            19,
+            21
+        ],
+        "expanded emotion cause span": [
+            "So we can't even assess the damages . How can we do business in this country ? Either we're buried under mud , or we're in danger of getting kidnapped .",
+            "I'm the one who should be sorry . It was me who suggested operations here in the first place ! Oh , what can we do ?"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You don't have to keep saying that , Yuri . It's not your fault . But me--I'm the one who should be sorry . It was me who suggested operations here in the first place ! Oh , what can we do ?",
+        "id": 21
+    }
+]

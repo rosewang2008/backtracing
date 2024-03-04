@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Great . It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "you can come over and have a look .",
+            "It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great . It's a lovely neighborhood . And it would be nice to be neighbors again . It would be just like the old days !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

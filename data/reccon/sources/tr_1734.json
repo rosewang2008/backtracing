@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "London is such a historical city ! There ' s history everywhere you look . There ' s nelson ' s column , built as a monument to one of the Britain ' s great admirals and his important victory . He won the battle of Trafalgar in 1805 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "London is such a historical city ! There ' s history everywhere you look ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "London is such a historical city ! There ' s history everywhere you look . There ' s nelson ' s column , built as a monument to one of the Britain ' s great admirals and his important victory . He won the battle of Trafalgar in 1805 .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m looking forward to seeing Westminster abbey , where many historical figures are buried , like Isaac Newton , the great mathematician and Winston Churchill , the great wartime leader .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' m looking forward to seeing Westminster abbey , where many historical figures are buried , like Isaac Newton , the great mathematician and Winston Churchill , the great wartime leader ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m looking forward to seeing Westminster abbey , where many historical figures are buried , like Isaac Newton , the great mathematician and Winston Churchill , the great wartime leader .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Nearby , on the banks of the thames , there ' s the statue of Boadicea . She fought the Romans when they invaded Britain .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Nearby , on the banks of the thames , there ' s the statue of Boadicea"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Nearby , on the banks of the thames , there ' s the statue of Boadicea . She fought the Romans when they invaded Britain .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Women have often played an important role in British history . Queen Elizabeth I built a navy strong enough to fight off the Spanish armada in 1588 . more recently , Margaret thatcher transformed british society in the 1980 ' s .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "She fought the Romans when they invaded Britain .",
+            "Women have often played an important role in British history . Queen Elizabeth I built a navy strong enough to fight off the Spanish armada in 1588 . more recently , Margaret thatcher transformed british society in the 1980 ' s ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Women have often played an important role in British history . Queen Elizabeth I built a navy strong enough to fight off the Spanish armada in 1588 . more recently , Margaret thatcher transformed british society in the 1980 ' s .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "She was a very controversial leader . Are we going to visit the famous tower of London later ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Are we going to visit the famous tower of London later ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She was a very controversial leader . Are we going to visit the famous tower of London later ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "There ' s a lot to see there . Perhaps we should go tomorrow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "There ' s a lot to see there . Perhaps we should go tomorrow ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "There ' s a lot to see there . Perhaps we should go tomorrow .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' m looking forward to seeing the famous castle and prison . Many historic figures were imprisoned there in the past . I really want to see the crown jewels too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I ' m looking forward to seeing the famous castle and prison . Many historic figures were imprisoned there in the past . I really want to see the crown jewels too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m looking forward to seeing the famous castle and prison . Many historic figures were imprisoned there in the past . I really want to see the crown jewels too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' Ve seen them before . They ' re quite incredible . If you want to see historical figures in London , there ' s one place you have to go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve seen them before . They ' re quite incredible ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' Ve seen them before . They ' re quite incredible . If you want to see historical figures in London , there ' s one place you have to go .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Where ' s that ? Oh , I know ! Madame Tussaud ' s the waxworks museum .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "If you want to see historical figures in London , there ' s one place you have to go ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Where ' s that ? Oh , I know ! Madame Tussaud ' s the waxworks museum .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "There you can see british leaders , entertainers , criminals , and royalty .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "If you want to see historical figures in London , there ' s one place you have to go .",
+            "There you can see british leaders , entertainers , criminals , and royalty ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "There you can see british leaders , entertainers , criminals , and royalty .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sometimes , it ' s hard to know who belongs in each section of the museum !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "There you can see british leaders , entertainers , criminals , and royalty ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sometimes , it ' s hard to know who belongs in each section of the museum !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Jill .",
+        "emotion": "neutral",
+        "text": "Hello , Jill .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Tom , You're back , come in please . How are you ?",
+        "emotion": "neutral",
+        "text": "Tom , You're back , come in please . How are you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Fine , only a little tired .",
+        "emotion": "neutral",
+        "text": "Fine , only a little tired .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You'll recover after a good night's sleep .",
+        "emotion": "neutral",
+        "text": "You'll recover after a good night's sleep .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you very much for looking after my house in my absence .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much for looking after my house in my absence ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you very much for looking after my house in my absence .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's all right . Would you have a cup of coffee ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much for looking after my house in my absence ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's all right . Would you have a cup of coffee ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , Please . It ' s very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Would you have a cup of coffee ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , Please . It ' s very kind of you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Don't mention it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Yes , Please . It ' s very kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "The rooms are very tidy and the flowers grew very well . You are very helpful . I want to thank you for everything you've done for me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "The rooms are very tidy and the flowers grew very well . You are very helpful . I want to thank you for everything you've done for me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The rooms are very tidy and the flowers grew very well . You are very helpful . I want to thank you for everything you've done for me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's my pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "The rooms are very tidy and the flowers grew very well . You are very helpful . I want to thank you for everything you've done for me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's my pleasure .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I bought you some books on literature , I don't know if you would like them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "The rooms are very tidy and the flowers grew very well . You are very helpful . I want to thank you for everything you've done for me .",
+            "It's my pleasure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I bought you some books on literature , I don't know if you would like them .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you . Thank you for the trouble you've taken .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I bought you some books on literature ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Thank you for the trouble you've taken .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Not at all .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thank you . Thank you for the trouble you've taken ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Not at all .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

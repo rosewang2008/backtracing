@@ -1,0 +1,221 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good game ?",
+        "emotion": "neutral",
+        "text": "Good game ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Not bad . But too hot for me today .",
+        "emotion": "neutral",
+        "text": "Not bad . But too hot for me today .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , I know . Kind of hard to concentrate , isn't it ?",
+        "emotion": "neutral",
+        "text": "Yes , I know . Kind of hard to concentrate , isn't it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Absolutely . Who were you playing with ?",
+        "emotion": "neutral",
+        "text": "Absolutely . Who were you playing with ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , just on my own . I just joined , so I don't really have any partners .",
+        "emotion": "neutral",
+        "text": "Oh , just on my own . I just joined , so I don't really have any partners .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? Oh , well , in that case we should play together some time . What's your handicap ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I don't really have any partners ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Oh , well , in that case we should play together some time . What's your handicap ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "16 . Yours ?",
+        "emotion": "neutral",
+        "text": "16 . Yours ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No kidding ! I'm 16 , too . We should definitely play together some time . My name's Bob .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "We should definitely play together some time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No kidding ! I'm 16 , too . We should definitely play together some time . My name's Bob .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Jane . Nice to meet you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "We should definitely play together some time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Jane . Nice to meet you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Me too . So , do you like the course ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me too . So , do you like the course ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , it's fine . However , I personally think the fairways between the greens are a bit too long , especially for such a hot climate . Don't they have carts ?",
+        "emotion": "neutral",
+        "text": "Yes , it's fine . However , I personally think the fairways between the greens are a bit too long , especially for such a hot climate . Don't they have carts ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , they used to , but they got rid of them because of environmental concerns .",
+        "emotion": "neutral",
+        "text": "Well , they used to , but they got rid of them because of environmental concerns .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , that's good . I guess the caddies were pleased .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "they got rid of them because of environmental concerns ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's good . I guess the caddies were pleased .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Actually , in my opinion , the carts were better because you don't have to tip them .",
+        "emotion": "neutral",
+        "text": "Actually , in my opinion , the carts were better because you don't have to tip them .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Yes , but look at it this way , getting rid of the carts probably gives more work to local people , which is a good thing , right ?",
+        "emotion": "neutral",
+        "text": "Yes , but look at it this way , getting rid of the carts probably gives more work to local people , which is a good thing , right ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Possibly , but I still miss them ! What bothers me is that the heat makes the caddies ' life quite hard . One member's caddy fainted last week !",
+        "emotion": "neutral",
+        "text": "Possibly , but I still miss them ! What bothers me is that the heat makes the caddies ' life quite hard . One member's caddy fainted last week !",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "How awful , poor guy .",
+        "emotion": "neutral",
+        "text": "How awful , poor guy .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Right . Luckily it was on the eighteen hole , quite near the clubhouse , so he didn't have far to carry him .",
+        "emotion": "neutral",
+        "text": "Right . Luckily it was on the eighteen hole , quite near the clubhouse , so he didn't have far to carry him .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Oh , my God , you're kidding me ! He carried him back ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "he didn't have far to carry him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , my God , you're kidding me ! He carried him back ?",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Yup .",
+        "emotion": "neutral",
+        "text": "Yup .",
+        "id": 20
+    }
+]

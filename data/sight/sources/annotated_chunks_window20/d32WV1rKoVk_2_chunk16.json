@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You would never form A transpose A. Oh, I didn't mention the other thing you would never, ever, ever do."
+    },
+    {
+        "text": "So let me just put it here."
+    },
+    {
+        "text": "This is like in disgrace to solve that equation."
+    },
+    {
+        "text": "It's like, OK, back to first grade, because that's not, that's very bad."
+    },
+    {
+        "text": "A determinant, first of all, it's extremely slow, extremely slow."
+    },
+    {
+        "text": "And the determinant is packing all this n squared pieces of information into n coefficients, and it's hopelessly ill-conditioned."
+    },
+    {
+        "text": "Yeah, you just, you lose information all the time."
+    },
+    {
+        "text": "So really, if this is going on camera, it better go on camera with an x, because don't do it."
+    },
+    {
+        "text": "OK. Yeah."
+    },
+    {
+        "text": "So where was I?"
+    },
+    {
+        "text": "Singular values."
+    },
+    {
+        "text": "So A transpose A."
+    },
+    {
+        "text": "So again, let's think about what you could do at the beginning before starting on QR for A transpose A, or for the matrix A."
+    },
+    {
+        "text": "What could you do with orthogonal matrices?"
+    },
+    {
+        "text": "So I guess, what did we say about symmetric matrices?"
+    },
+    {
+        "text": "So here's what I said about symmetric matrices."
+    },
+    {
+        "text": "If you give me a symmetric matrix, I can, in just a simple number of simple steps, make it tridiagonal."
+    },
+    {
+        "text": "I can't make it diagonal, because then I'd be finding the eigenvalues, and Abel, who was the first person to see that that was impossible, forbids it."
+    },
+    {
+        "text": "But so let me write down what I'm saying here."
+    },
+    {
+        "text": "If I have a symmetric matrix S, I can find a bunch of Q's and Q transposes, and I can put them all together into one big Q, and it's transposed."
+    }
+]

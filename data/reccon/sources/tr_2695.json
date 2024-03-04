@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "A funny thing happened to me the other day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "A funny thing happened to me the other day ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "A funny thing happened to me the other day .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , yes ?",
+        "emotion": "neutral",
+        "text": "Oh , yes ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I was just thinking about someone I went to school with , this boy I was quite friendly with in third grade . We used to hang out together - he lived next door - but then my parents moved and I changed schools and never saw him again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "A funny thing happened to me the other day ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I was just thinking about someone I went to school with , this boy I was quite friendly with in third grade . We used to hang out together - he lived next door - but then my parents moved and I changed schools and never saw him again .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Mmm .",
+        "emotion": "neutral",
+        "text": "Mmm .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , I was walking down Nan Jing Dong Lu ( Nan-Jing E . Rd . ) during my lunch break thinking about this boy-I have no idea why I was thinking about him .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "A funny thing happened to me the other day ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Well , I was walking down Nan Jing Dong Lu ( Nan-Jing E . Rd . ) during my lunch break thinking about this boy-I have no idea why I was thinking about him .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I have no idea why I was thinking about him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes . And suddenly I heard someone call my name . I turned around and there was this man looking at me . I didn't recognize him at all , but he obviously knew who I was .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7
+        ],
+        "expanded emotion cause span": [
+            "A funny thing happened to me the other day .",
+            "And suddenly I heard someone call my name . I turned around and there was this man looking at me . I didn't recognize him at all , but he obviously knew who I was ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes . And suddenly I heard someone call my name . I turned around and there was this man looking at me . I didn't recognize him at all , but he obviously knew who I was .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , yeah , that's embarrassing when that happens .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "suddenly I heard someone call my name . I turned around and there was this man looking at me . I didn't recognize him at all , but he obviously knew who I was ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , yeah , that's embarrassing when that happens .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You got it . Well , he walked up to me and said my name again and then I realized it was the boy I had been thinking about , the one from third grade !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "A funny thing happened to me the other day .",
+            "And suddenly I heard someone call my name . I turned around and there was this man looking at me . I didn't recognize him at all , but he obviously knew who I was .",
+            "he walked up to me and said my name again and then I realized it was the boy I had been thinking about , the one from third grade !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You got it . Well , he walked up to me and said my name again and then I realized it was the boy I had been thinking about , the one from third grade !",
+        "id": 9
+    }
+]

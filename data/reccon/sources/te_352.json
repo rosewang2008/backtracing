@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , look , there is a circus show over there .",
+        "emotion": "neutral",
+        "text": "Hey , look , there is a circus show over there .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm not in the mood .",
+        "emotion": "neutral",
+        "text": "I'm not in the mood .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's the circus .",
+        "emotion": "neutral",
+        "text": "It's the circus .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I don't want to sit there and watch them torturing the animals .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "circus .",
+            "I don't want to sit there and watch them torturing the animals ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't want to sit there and watch them torturing the animals .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , come on , they give them treat too . Oh , look , that little monkey is so cute .",
+        "emotion": "neutral",
+        "text": "Oh , come on , they give them treat too . Oh , look , that little monkey is so cute .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Cute ? Hope so .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "that little monkey is so cute ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Cute ? Hope so .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , it is coming to us , come on , Ben , get a banana to it .",
+        "emotion": "neutral",
+        "text": "Oh , it is coming to us , come on , Ben , get a banana to it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Me ? No way , keep him away from me , please .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Oh , it is coming to us , come on , Ben , get a banana to it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me ? No way , keep him away from me , please .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Why are you acting so strange today ?",
+        "emotion": "neutral",
+        "text": "Why are you acting so strange today ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I've said that I've got a problem with the circus . I'm not kidding .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I've got a problem with the circus ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've said that I've got a problem with the circus . I'm not kidding .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's weird !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I've said that I've got a problem with the circus . I'm not kidding ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's weird !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

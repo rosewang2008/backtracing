@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I've just, whatever is left is here."
+    },
+    {
+        "text": "Now what's left?"
+    },
+    {
+        "text": "If I divide this first row by two to pull out the two, then I have a one and a one half."
+    },
+    {
+        "text": "And if I divide the second row by three to pull out the three, then I have a one."
+    },
+    {
+        "text": "So that's the, if this is L U, this is maybe called L D for pivot U."
+    },
+    {
+        "text": "And now it's a little more balanced because we have ones on the diagonal here and here."
+    },
+    {
+        "text": "And the diagonal matrix in the middle."
+    },
+    {
+        "text": "So both of those, Matlab would produce either one."
+    },
+    {
+        "text": "I'll basically stay with L U."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Now I have to think about bigger than two by two."
+    },
+    {
+        "text": "Right now this was just like an easy exercise."
+    },
+    {
+        "text": "And to tell the truth, that this one with the minus sign and this one with the plus sign, I mean, that's the only difference."
+    },
+    {
+        "text": "But with three by three, there's a more significant difference."
+    },
+    {
+        "text": "Let me show you how that works."
+    },
+    {
+        "text": "Let me move up to a three by three, let's say, some matrix A."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And just imagine it's three by three."
+    },
+    {
+        "text": "I won't write numbers down for now."
+    },
+    {
+        "text": "So what's the first elimination step that I do, the first matrix I multiply it by, what letter will I use for that?"
+    }
+]

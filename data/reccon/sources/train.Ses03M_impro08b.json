@@ -1,0 +1,539 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hello?",
+        "emotion": "neutral",
+        "text": "Hello?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Oh God I finally got...you know how long I've been waiting on line? You put on hold for like five hours. Geez.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you know how long I've been waiting on line? You put on hold for like five hours."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh God I finally got...you know how long I've been waiting on line? You put on hold for like five hours. Geez.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "I'm sorry ma'am. What's the nature of your problem? But first can I get you to tell me your first and last name?",
+        "emotion": "neutral",
+        "text": "I'm sorry ma'am. What's the nature of your problem? But first can I get you to tell me your first and last name?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "I've already been through this five times with these people. I've been calling every single day.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "you know how long I've been waiting on line? You put on hold for like five hours.",
+            "I've already been through this five times with these people. I've been calling every single day."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I've already been through this five times with these people. I've been calling every single day.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "I know I just need to verify every time. I'm sorry.",
+        "emotion": "neutral",
+        "text": "I know I just need to verify every time. I'm sorry.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Olivia Brown.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "you know how long I've been waiting on line? You put on hold for like five hours.",
+            "I've already been through this five times with these people. I've been calling every single day."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Olivia Brown.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Alright Ms. Brown what's the nature of your problem?",
+        "emotion": "neutral",
+        "text": "Alright Ms. Brown what's the nature of your problem?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Well my phone isn't working and it hasn't been working for the last five days.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "my phone isn't working and it hasn't been working for the last five days."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well my phone isn't working and it hasn't been working for the last five days.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "Oh. I'm sorry. Um- Did you drop it in water?",
+        "emotion": "neutral",
+        "text": "Oh. I'm sorry. Um- Did you drop it in water?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "Yeah, yeah, yeah you better be sorry.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "you know how long I've been waiting on line? You put on hold for like five hours.",
+            "I've already been through this five times with these people. I've been calling every single day."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah, yeah, yeah you better be sorry.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No I did not drop my phone in water. I'm not five years old and just dropped my phone anywhere I see it. Okay this is my business.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you know how long I've been waiting on line? You put on hold for like five hours.",
+            "I've already been through this five times with these people. I've been calling every single day.",
+            "Did you drop it in water?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No I did not drop my phone in water. I'm not five years old and just dropped my phone anywhere I see it. Okay this is my business.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "Okay? And it [GARBAGE]. My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Okay? And it [GARBAGE]. My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "Um- well it's probably easy. Can you any more symptoms either you're not receiving calls----ok, you're not receiving calls, not getting calls.",
+        "emotion": "neutral",
+        "text": "Um- well it's probably easy. Can you any more symptoms either you're not receiving calls----ok, you're not receiving calls, not getting calls.",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "the symptoms- This [GARBAGE] a doctor's office. I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "the symptoms- This [GARBAGE] a doctor's office. I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Is the phone turned on?",
+        "emotion": "neutral",
+        "text": "Is the phone turned on?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "Yes the phone turns on. No I mean I'm using it not turning on the phone. Of course it turns on.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes the phone turns on. No I mean I'm using it not turning on the phone. Of course it turns on.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "Well, um- okay. Your sim card is in- didn't fall out-",
+        "emotion": "neutral",
+        "text": "Well, um- okay. Your sim card is in- didn't fall out-",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "No- I don't have a sim card because it's Verizon and you guys don't use sim cards.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No- I don't have a sim card because it's Verizon and you guys don't use sim cards.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "Alright. Um- Well that could be the problem. cause--",
+        "emotion": "neutral",
+        "text": "Alright. Um- Well that could be the problem. cause--",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "you might have an older phone where we would use sim cards but probably not.",
+        "emotion": "neutral",
+        "text": "you might have an older phone where we would use sim cards but probably not.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Okay no. Sir, this is the deal. My phone isn't working and I don't care what the problem is but it needs to work. That's why I'm paying you guys to fix it.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14,
+            19,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+            "Alright. Um- Well that could be the problem. cause--",
+            "you might have an older phone where we would use sim cards but probably not.",
+            "My phone isn't working"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Okay no. Sir, this is the deal. My phone isn't working and I don't care what the problem is but it needs to work. That's why I'm paying you guys to fix it.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Okay. How about this we'll send you a brand new camera phone with palm pilot-- and-",
+        "emotion": "neutral",
+        "text": "Okay. How about this we'll send you a brand new camera phone with palm pilot-- and-",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "I don't know even how to use that stuff it's too complicated. I just want my flip phone to work----that's all I need",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14,
+            21,
+            23
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+            "My phone isn't working",
+            "I don't know even how to use that stuff it's too complicated."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't know even how to use that stuff it's too complicated. I just want my flip phone to work----that's all I need",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "So we'll send it- And we'll give you, how about a free year's service?",
+        "emotion": "neutral",
+        "text": "So we'll send it- And we'll give you, how about a free year's service?",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "Look, I am on the road all the time. Do you understand how important? I'm a woman, a single mother by herself working...what?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12,
+            14,
+            21,
+            23
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+            "My phone isn't working",
+            "I don't know even how to use that stuff it's too complicated."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Look, I am on the road all the time. Do you understand how important? I'm a woman, a single mother by herself working...what?",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Tell them my name. My name is Brent Backersen.",
+        "emotion": "neutral",
+        "text": "Tell them my name. My name is Brent Backersen.",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Brent Backersen, I am writing this down, Brent Backersen. Alright.",
+        "emotion": "frustrated",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            12,
+            14,
+            21,
+            23
+        ],
+        "expanded emotion cause span": [
+            "My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now.",
+            "I'm not receiving calls...I can't receive- no, it's, it cuts me off--",
+            "My phone isn't working",
+            "I don't know even how to use that stuff it's too complicated."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Brent Backersen, I am writing this down, Brent Backersen. Alright.",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "Okay. Tell them my - my ID number is two one three five.",
+        "emotion": "neutral",
+        "text": "Okay. Tell them my - my ID number is two one three five.",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "B",
+        "utterance": "Tell them that. You can go in, get a brand new phone, they'll hook you up with service even give you a free three months--",
+        "emotion": "neutral",
+        "text": "Tell them that. You can go in, get a brand new phone, they'll hook you up with service even give you a free three months--",
+        "id": 29
+    },
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "I, I, I don't want a contract. Okay. I don't want any contracts.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            29,
+            30
+        ],
+        "expanded emotion cause span": [
+            "they'll hook you up with service even give you a free three months",
+            "Okay. I don't want any contracts."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I, I, I don't want a contract. Okay. I don't want any contracts.",
+        "id": 30,
+        "source_sentences": [
+            28
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 31,
+        "speaker": "B",
+        "utterance": "It will be free. No contract okay?",
+        "emotion": "neutral",
+        "text": "It will be free. No contract okay?",
+        "id": 31
+    },
+    {
+        "turn": 32,
+        "speaker": "A",
+        "utterance": "Really? No contract?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            29,
+            30
+        ],
+        "expanded emotion cause span": [
+            "they'll hook you up with service even give you a free three months",
+            "Okay. I don't want any contracts."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really? No contract?",
+        "id": 32
+    },
+    {
+        "turn": 33,
+        "speaker": "B",
+        "utterance": "Go in there, yeah, go in there. Tell them Brent Backersen sent you.",
+        "emotion": "neutral",
+        "text": "Go in there, yeah, go in there. Tell them Brent Backersen sent you.",
+        "id": 33
+    },
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "the top of the line camera phone, game boy, anything you want. For free. And palm pilot.",
+        "emotion": "neutral",
+        "text": "the top of the line camera phone, game boy, anything you want. For free. And palm pilot.",
+        "id": 34
+    },
+    {
+        "turn": 35,
+        "speaker": "B",
+        "utterance": "They might only have orange.",
+        "emotion": "neutral",
+        "text": "They might only have orange.",
+        "id": 35
+    },
+    {
+        "turn": 36,
+        "speaker": "B",
+        "utterance": "Okay. They can figure out pink for you. So go in there and just tell them that and they'll hook you up with other goodies, stuff like that free service, no contract, no nothing. Just for being a good customer",
+        "emotion": "neutral",
+        "text": "Okay. They can figure out pink for you. So go in there and just tell them that and they'll hook you up with other goodies, stuff like that free service, no contract, no nothing. Just for being a good customer",
+        "id": 36
+    },
+    {
+        "turn": 37,
+        "speaker": "B",
+        "utterance": "and battling through with us.",
+        "emotion": "neutral",
+        "text": "and battling through with us.",
+        "id": 37
+    },
+    {
+        "turn": 38,
+        "speaker": "A",
+        "utterance": "Alright. Well- I guess - I guess that's okay but,",
+        "emotion": "neutral",
+        "text": "Alright. Well- I guess - I guess that's okay but,",
+        "id": 38
+    },
+    {
+        "turn": 39,
+        "speaker": "B",
+        "utterance": "Yes. You just tell them Brent Backersen sent you.",
+        "emotion": "neutral",
+        "text": "Yes. You just tell them Brent Backersen sent you.",
+        "id": 39
+    },
+    {
+        "turn": 40,
+        "speaker": "A",
+        "utterance": "Okay.",
+        "emotion": "neutral",
+        "text": "Okay.",
+        "id": 40
+    },
+    {
+        "turn": 41,
+        "speaker": "B",
+        "utterance": "Alright? Great. Have a nice evening.",
+        "emotion": "neutral",
+        "text": "Alright? Great. Have a nice evening.",
+        "id": 41
+    },
+    {
+        "turn": 42,
+        "speaker": "A",
+        "utterance": "Alright Thanks.",
+        "emotion": "neutral",
+        "text": "Alright Thanks.",
+        "id": 42
+    }
+]

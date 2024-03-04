@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I went to Super Junior's concert last night . It was fantastic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I went to Super Junior's concert last night . It was fantastic ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "I went to Super Junior's concert last night . It was fantastic .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ? Their songs are very popular all round Asia now . I am also a big fan of theirs .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I am also a big fan of theirs ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Really ? Their songs are very popular all round Asia now . I am also a big fan of theirs .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , their new album just came out last week . It is number one on the billboard .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Really ? Their songs are very popular all round Asia now . I am also a big fan of theirs ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , their new album just came out last week . It is number one on the billboard .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I really love their dancing . They are all excellent dancers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I really love their dancing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really love their dancing . They are all excellent dancers .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "The lyrics of the new song are beautiful , too . Can you sing ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "The lyrics of the new song are beautiful ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The lyrics of the new song are beautiful , too . Can you sing ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . I think you can hear the song everywhere you go now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I really love their dancing .",
+            "The lyrics of the new song are beautiful ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure . I think you can hear the song everywhere you go now .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let's go buy their new album . Want to come with me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "The lyrics of the new song are beautiful ,",
+            "Let's go buy their new album ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Let's go buy their new album . Want to come with me ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Why not ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "The lyrics of the new song are beautiful ,",
+            "Let's go buy their new album ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why not ?",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I mean, there's giant politics in this question that really reduces to a, to a linear algebra problem what basis to choose."
+    },
+    {
+        "text": "I'll just mention the best known basis, which is, which JPEG uses, let me put that here, is the Fourier basis."
+    },
+    {
+        "text": "So when you, when you use the Fourier basis, that includes, this is the constant vector, the DC vector, if we're electrical engineers, the, the, the vector of all ones, so it would include one, one, one, one."
+    },
+    {
+        "text": "Often, eight by eight is a good choice."
+    },
+    {
+        "text": "Eight by eight is a, is a good choice."
+    },
+    {
+        "text": "So, what do I mean by this eight by eight?"
+    },
+    {
+        "text": "I mean that the big signal, which is five twelve by five twelve, gets broken down, and JPEG does this, into eight by eight blocks."
+    },
+    {
+        "text": "And we, sort of, this is too much to deal with at once."
+    },
+    {
+        "text": "So what JPEG does is take this eight by eight block, which is sixty-four coefficients, sixty-four, pixels, and changes the basis on the, on that piece."
+    },
+    {
+        "text": "And then, now, let's see, I was going to write down Fourier, so you remember Fourier is, is this vector of all ones, and then, the vector, oh, well, actually, I gave a lecture earlier about the Fourier matrix, these, this matrix whose columns are powers of a, of a, complex number w. I, I won't repeat that, because I'm not, I don't want to go into the details of the Fourier basis."
+    },
+    {
+        "text": "Just to tell you how compression works."
+    },
+    {
+        "text": "So what happens in JPEG?"
+    },
+    {
+        "text": "What happens to the video, to a, to each image of, of, of these lectures?"
+    },
+    {
+        "text": "The, it gets broken into eight by eight blocks."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Within each block, we have sixty-four coefficients, sixty-four basis vectors, sixty-four pixels, and we change basis in sixty-four dimensional space, using these Fourier vectors."
+    },
+    {
+        "text": "Just, no, that was a lossless step."
+    },
+    {
+        "text": "Let, let me, let me emphasize."
+    },
+    {
+        "text": "In comes the signal."
+    },
+    {
+        "text": "x."
+    }
+]

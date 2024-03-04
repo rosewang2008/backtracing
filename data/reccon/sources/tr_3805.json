@@ -1,0 +1,345 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you doing , Christopher ?",
+        "emotion": "neutral",
+        "text": "How are you doing , Christopher ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "To be honest , I'm really fed up with work at the moment . I need a break !",
+        "emotion": "neutral",
+        "text": "To be honest , I'm really fed up with work at the moment . I need a break !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you doing anything this weekend ?",
+        "emotion": "neutral",
+        "text": "Are you doing anything this weekend ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I have to work on Saturday all day ! I really hate my job !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I have to work on Saturday all day !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have to work on Saturday all day ! I really hate my job !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Are you available on Sunday ?",
+        "emotion": "neutral",
+        "text": "Are you available on Sunday ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , that's my only day off until Thursday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Are you available on Sunday ?",
+            "Yes , that's my only day off until Thursday ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , that's my only day off until Thursday .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Ok , well , my friends and I are planning on going to the beach on Sunday . We tend to leave around noon whenever we go anywhere , so you could still sleep in . Do you want to come with us ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Ok , well , my friends and I are planning on going to the beach on Sunday . We tend to leave around noon whenever we go anywhere , so you could still sleep in . Do you want to come with us ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That'd be fantastic ! Which beach are you going to ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "Do you want to come with us ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That'd be fantastic ! Which beach are you going to ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It's a quiet beach just about an hour outside of the city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "It's a quiet beach just about an hour outside of the city ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's a quiet beach just about an hour outside of the city .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What should I bring with me ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "Do you want to come with us ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What should I bring with me ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "We've got plenty of inflatables , but if you want to sit on a chair , you'll have to bring your own sunlounger .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "It's a quiet beach just about an hour outside of the city .",
+            "We've got plenty of inflatables ,"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "We've got plenty of inflatables , but if you want to sit on a chair , you'll have to bring your own sunlounger .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I can just use my beach towel . I love lazing around in the sun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I love lazing around in the sun ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I can just use my beach towel . I love lazing around in the sun .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Do you like surfing ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            13
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "like surfing ?"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Do you like surfing ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I've actually never tried . Do you have a surfboard ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Do you like surfing ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've actually never tried . Do you have a surfboard ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "We've got a few . I can teach you how to surf on Sunday . It'll be fun !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            15,
+            15
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "I can teach",
+            "It'll be fun !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "We've got a few . I can teach you how to surf on Sunday . It'll be fun !",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I can't wait ! It sounds like we're going to have a great time . How much money should I bring ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            15,
+            16,
+            16
+        ],
+        "expanded emotion cause span": [
+            "I can teach you",
+            "It'll be fun !",
+            "I can't wait !",
+            "we're going to have a great time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can't wait ! It sounds like we're going to have a great time . How much money should I bring ?",
+        "id": 16,
+        "source_sentences": [
+            14,
+            14,
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "You'll just need roughly $ 10 for food and gas money . My friend is driving , so we usually all chip in a few dollars for gas money .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7,
+            15,
+            15
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "I can teach",
+            "It'll be fun !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "You'll just need roughly $ 10 for food and gas money . My friend is driving , so we usually all chip in a few dollars for gas money .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Ok , where and when should I meet you ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            15,
+            15,
+            16,
+            16
+        ],
+        "expanded emotion cause span": [
+            "I can teach you",
+            "It'll be fun !",
+            "I can't wait !",
+            "we're going to have a great time ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Ok , where and when should I meet you ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "We'll pick you up at your place at noon . Be there or be square !",
+        "emotion": "happiness",
+        "explanation": "The speaker is in general excited to go to the beach.",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7,
+            15,
+            15
+        ],
+        "expanded emotion cause span": [
+            "my friends and I are planning on going to the beach",
+            "I can teach",
+            "It'll be fun !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "We'll pick you up at your place at noon . Be there or be square !",
+        "id": 19
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Sara , what are you reading ?",
+        "emotion": "neutral",
+        "text": "Hi , Sara , what are you reading ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , John , I am trying to find a carpenter .",
+        "emotion": "neutral",
+        "text": "Hi , John , I am trying to find a carpenter .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I want to build a deck in my back yard .",
+        "emotion": "neutral",
+        "text": "Well , I want to build a deck in my back yard .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What for ?",
+        "emotion": "neutral",
+        "text": "What for ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "So I can have a special place to hang out with friends , and also do some barbecuing on weekends .",
+        "emotion": "neutral",
+        "text": "So I can have a special place to hang out with friends , and also do some barbecuing on weekends .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That sounds cool . Do you mind if I recommend myself for the job ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I can have a special place to hang out with friends , and also do some barbecuing on weekends ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds cool . Do you mind if I recommend myself for the job ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ? Do you have a carpenter's license ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Do you mind if I recommend myself for the job ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ? Do you have a carpenter's license ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , of course . But I only freelance on weekends with my uncle .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Do you have a carpenter's license ?",
+            "Yes , of course ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , of course . But I only freelance on weekends with my uncle .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow ! That's cool . So , let me give you some details about the deck I want .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Do you have a carpenter's license ?",
+            "Yes , of course ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Wow ! That's cool . So , let me give you some details about the deck I want .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Please go ahead , I am listening .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Wow ! That's cool . So , let me give you some details about the deck I want ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Please go ahead , I am listening .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'd like my deck to be at the same level as the back door .",
+        "emotion": "neutral",
+        "text": "I'd like my deck to be at the same level as the back door .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Is your back door higher than the ground level ?",
+        "emotion": "neutral",
+        "text": "Is your back door higher than the ground level ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , the back door is about four or five steps higher than the ground .",
+        "emotion": "neutral",
+        "text": "Yes , the back door is about four or five steps higher than the ground .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Okay , then you need a deck with a guardrail .",
+        "emotion": "neutral",
+        "text": "Okay , then you need a deck with a guardrail .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I don't like things to be fancy .",
+        "emotion": "neutral",
+        "text": "I don't like things to be fancy .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Don't worry . I will build your deck with a simple but classic look .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I will build your deck with a simple but classic look ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Don't worry . I will build your deck with a simple but classic look .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Hmm , that's good . Can you use cedar or redwood to build it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "I will build your deck with a simple but classic look ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Hmm , that's good . Can you use cedar or redwood to build it ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Cedar is a good choice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18,
+            19
+        ],
+        "expanded emotion cause span": [
+            "Hmm , that's good . Can you use cedar or redwood to build it ?",
+            "Cedar is a good choice ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Cedar is a good choice .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Well , let's take the measurements right now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "Cedar is a good choice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , let's take the measurements right now .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

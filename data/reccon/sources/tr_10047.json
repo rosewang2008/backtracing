@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , thanks for calling 123 Tech Help , I ' m Todd . How can I help you ?",
+        "emotion": "neutral",
+        "text": "Hello , thanks for calling 123 Tech Help , I ' m Todd . How can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello ? Can you help me ? My computer ! Oh man ...",
+        "emotion": "fear",
+        "explanation": "broken computer; utterance 4",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Hello ? Can you help me ? My computer ! Oh man ...",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It ' s okay sir , calm down . What happened ?",
+        "emotion": "neutral",
+        "text": "It ' s okay sir , calm down . What happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I turned on my laptop and it broke ! I mean , the monitor went black !",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "it broke !",
+            "the monitor went black !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I turned on my laptop and it broke ! I mean , the monitor went black !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ok , sir , it sounds like you might have a virus .",
+        "emotion": "neutral",
+        "text": "Ok , sir , it sounds like you might have a virus .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don ' t feel sick , ... let me check ... Nope ! No fever , I ' m fine .",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "it broke !",
+            "the monitor went black !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I don ' t feel sick , ... let me check ... Nope ! No fever , I ' m fine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , your computer might have a virus , I mean , it has a bad program on it . Maybe that ' s why it crashed . I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans .",
+        "emotion": "neutral",
+        "text": "No , your computer might have a virus , I mean , it has a bad program on it . Maybe that ' s why it crashed . I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Phew ! . . . Wait a minute , CRASH ? ? ! ! Spyware ? Trojans ! What ? where ? when ? !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "your computer might have a virus",
+            "it crashed",
+            "unwanted spyware or Trojans ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Phew ! . . . Wait a minute , CRASH ? ? ! ! Spyware ? Trojans ! What ? where ? when ? !",
+        "id": 8,
+        "source_sentences": [
+            6,
+            6,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

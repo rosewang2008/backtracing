@@ -1,0 +1,135 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello ! So you are leaving today .",
+        "emotion": "neutral",
+        "text": "Hello ! So you are leaving today .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello . Thank you for seeing me off . You actually don't need to bother .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Thank you for seeing me off ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello . Thank you for seeing me off . You actually don't need to bother .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It is my pleasure to see you off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Thank you for seeing me off .",
+            "my pleasure"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is my pleasure to see you off .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thanks a lot . I hope to see you again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Thank you for seeing me off .",
+            "I hope to see you again ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Thanks a lot . I hope to see you again .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I hope so , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Thank you for seeing me off .",
+            "I hope to see you again .",
+            "I hope to see you again .",
+            "I hope so , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I hope so , too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks again for everything you have done for me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Thank you for seeing me off .",
+            "I hope to see you again .",
+            "Thanks again for everything you have done for me ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Thanks again for everything you have done for me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You're welcome . Have a nice trip !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Thanks again for everything you have done for me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're welcome . Have a nice trip !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

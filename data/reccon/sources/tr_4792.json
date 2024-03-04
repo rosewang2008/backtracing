@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'm so hungry . Shall we go eat now , Rick ?",
+        "emotion": "neutral",
+        "text": "I'm so hungry . Shall we go eat now , Rick ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "sure . Where do you want to go ? Are you in the mood for anything in particular ?",
+        "emotion": "neutral",
+        "text": "sure . Where do you want to go ? Are you in the mood for anything in particular ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "how about some dumplings ? I just can't get enough of them .",
+        "emotion": "neutral",
+        "text": "how about some dumplings ? I just can't get enough of them .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "dumplings again ? ! Oh , Amy , let's try something new !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "how about some dumplings ? I just can't get enough of them ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "dumplings again ? ! Oh , Amy , let's try something new !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "well , what do you have in mind ?",
+        "emotion": "neutral",
+        "text": "well , what do you have in mind ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "how about the Mongolian hot pot ?",
+        "emotion": "neutral",
+        "text": "how about the Mongolian hot pot ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "oh , it's too spicy for me . Don't you remember last time when I tasted the lamb ? It was so spicy my eyes teared up !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "how about the Mongolian hot pot ?",
+            "it's too spicy for me . Don't you remember last time when I tasted the lamb ? It was so spicy my eyes teared up !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "oh , it's too spicy for me . Don't you remember last time when I tasted the lamb ? It was so spicy my eyes teared up !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "maybe we can try Yuanyang pot this time . You can choose the non-spicy soup base .",
+        "emotion": "neutral",
+        "text": "maybe we can try Yuanyang pot this time . You can choose the non-spicy soup base .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "sounds great . Do they serve noodles ? I am in the mood for some tasty noodles as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "we can try Yuanyang pot this time . You can choose the non-spicy soup base ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "sounds great . Do they serve noodles ? I am in the mood for some tasty noodles as well .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "yes . The sliced noodles they offer are among the most authentic Shanti cuisines .",
+        "emotion": "neutral",
+        "text": "yes . The sliced noodles they offer are among the most authentic Shanti cuisines .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "great . Let's go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I am in the mood for some tasty noodles as well .",
+            "The sliced noodles they offer are among the most authentic Shanti cuisines ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "great . Let's go !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "wait a minute . Let me throw on a sweater .",
+        "emotion": "neutral",
+        "text": "wait a minute . Let me throw on a sweater .",
+        "id": 12
+    }
+]

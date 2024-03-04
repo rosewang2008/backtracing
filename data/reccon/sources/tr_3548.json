@@ -1,0 +1,103 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Then I must go-you have said it yourself .",
+        "emotion": "neutral",
+        "text": "Then I must go-you have said it yourself .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , you must stay ! I swear it , and the oath shall be kept .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Then I must go"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , you must stay ! I swear it , and the oath shall be kept .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I tell you I must go !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "No , you must stay ! I swear it , and the oath shall be kept ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I tell you I must go !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Where ?",
+        "emotion": "neutral",
+        "text": "Where ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I have spoken my mind , and can go anywhere now .",
+        "emotion": "neutral",
+        "text": "I have spoken my mind , and can go anywhere now .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ask you to pass through life at my side-to be my second self and best earthly companion .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Then I must go",
+            "can go anywhere now ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ask you to pass through life at my side-to be my second self and best earthly companion .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'll never again come to your side ; I am turn away now and can't return .",
+        "emotion": "anger",
+        "explanation": "The person wants to break up",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I'll never again come to your side ; I am turn away now and can't return .",
+        "id": 7
+    }
+]

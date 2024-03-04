@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh , Mary , come in , please . I'm so happy to see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy to see you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , Mary , come in , please . I'm so happy to see you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Happy birthday , George . Many happy returns of the day . Here's a present for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy to see you .",
+            "Happy birthday , George . Many happy returns of the day . Here's a present for you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Happy birthday , George . Many happy returns of the day . Here's a present for you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , thank you , Mary . You're so nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy to see you .",
+            "Happy birthday , George . Many happy returns of the day . Here's a present for you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh , thank you , Mary . You're so nice .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I hope you like it . Oh , have the other guys arrived ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "thank you , Mary . You're so nice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I hope you like it . Oh , have the other guys arrived ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "They're all waiting for you . Let's join them . I'm going to cut the cake soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I hope you like it .",
+            "I'm going to cut the cake soon ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They're all waiting for you . Let's join them . I'm going to cut the cake soon .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Let's go .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "They're all waiting for you . Let's join them . I'm going to cut the cake soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's go .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

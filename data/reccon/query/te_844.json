@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I don ' t think you do . If you did , I ' d have a car . See , you know how to take the reservation , you just don ' t know how to hold the reservation and that ' s really the most important part of the reservation , the holding . Anybody can just take them .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "unfortunately we ran out of cars .",
+            "you just don ' t know how to hold the reservation"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don ' t think you do . If you did , I ' d have a car . See , you know how to take the reservation , you just don ' t know how to hold the reservation and that ' s really the most important part of the reservation , the holding . Anybody can just take them .",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me . Is there any body here ?",
+        "emotion": "neutral",
+        "text": "Excuse me . Is there any body here ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I've finished up all my water . I would kill for a sip of water .",
+        "emotion": "neutral",
+        "text": "I've finished up all my water . I would kill for a sip of water .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , come on in .",
+        "emotion": "neutral",
+        "text": "Sure , come on in .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you very much . Are you here alone ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I've finished up all my water . I would kill for a sip of water .",
+            "Sure , come on in ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you very much . Are you here alone ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "My father and sister are out to photographing . What about you ?",
+        "emotion": "neutral",
+        "text": "My father and sister are out to photographing . What about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm a back-packer from America .",
+        "emotion": "neutral",
+        "text": "I'm a back-packer from America .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What is a back-packer ?",
+        "emotion": "neutral",
+        "text": "What is a back-packer ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It means a hiker who loves traveling around the world .",
+        "emotion": "neutral",
+        "text": "It means a hiker who loves traveling around the world .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Cool . You must have been to a lot of places .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "a hiker who loves traveling around the world .",
+            "Cool . You must have been to a lot of places ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Cool . You must have been to a lot of places .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , actually almost half of all the countries over the world . I love traveling places .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Cool . You must have been to a lot of places .",
+            "Yes , actually almost half of all the countries over the world . I love traveling places ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , actually almost half of all the countries over the world . I love traveling places .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "So cool . I want to be a back-packer when I grow up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "actually almost half of all the countries over the world ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So cool . I want to be a back-packer when I grow up .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You can do it . But do work hard on your English to make it easier .",
+        "emotion": "neutral",
+        "text": "You can do it . But do work hard on your English to make it easier .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'll try my best .",
+        "emotion": "neutral",
+        "text": "I'll try my best .",
+        "id": 14
+    }
+]

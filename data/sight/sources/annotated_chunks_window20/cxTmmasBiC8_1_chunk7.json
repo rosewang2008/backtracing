@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And don't forget what the real full statement is here, because there could be repeated real eigenvalues."
+    },
+    {
+        "text": "And what does the spectral theorem tell me?"
+    },
+    {
+        "text": "For symmetric matrices, if lambda equal 5 is repeated four times, if it's a four times solution of the equation that gives eigenvalues, then what's the conclusion?"
+    },
+    {
+        "text": "Then there are four independent orthogonal eigenvectors to go with it."
+    },
+    {
+        "text": "We can't say that about matrices, about all matrices, but we can say it about all symmetric matrices."
+    },
+    {
+        "text": "And in fact, those eigenvectors are orthogonal, so we're even saying more."
+    },
+    {
+        "text": "We can find four orthogonal eigenvectors that go with a multiplicity for eigenvalue."
+    },
+    {
+        "text": "OK, that's spectral theorem."
+    },
+    {
+        "text": "Spectral clustering starts with the graph Laplacian matrix."
+    },
+    {
+        "text": "Matrix."
+    },
+    {
+        "text": "May I remember what that matrix is?"
+    },
+    {
+        "text": "Because that's the key connection of linear algebra to graph theory, is the properties of this graph Laplacian matrix."
+    },
+    {
+        "text": "OK, so let me say L for Laplacian."
+    },
+    {
+        "text": "So that matrix, one way to describe it is as a transpose A, where A is the incidence matrix of the graph."
+    },
+    {
+        "text": "Or another way we'll see is the D, the degree matrix."
+    },
+    {
+        "text": "That's diagonal."
+    },
+    {
+        "text": "And I'll do an example just to remind you."
+    },
+    {
+        "text": "Minus the, I don't know what I'd call this one."
+    },
+    {
+        "text": "Shall I call it B for the moment?"
+    },
+    {
+        "text": "And what matrix is B?"
+    }
+]

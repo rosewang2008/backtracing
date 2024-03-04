@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Solutions to Ax equals zero."
+    },
+    {
+        "text": "So the null space of A is n R n. What's in the column space of A?"
+    },
+    {
+        "text": "Well, columns."
+    },
+    {
+        "text": "How many components do those columns have?"
+    },
+    {
+        "text": "m. So this column space is n R m. What about the column space of A transpose, which are just a disguised way of saying the rows of A?"
+    },
+    {
+        "text": "The rows of A in this three by six matrix have six components, n components."
+    },
+    {
+        "text": "The column space is n R n. And the null space of A transpose, I see that this fourth space is already getting second, you know, second class citizen treatment and it doesn't deserve it."
+    },
+    {
+        "text": "It's, it should be there, it is there, and shouldn't be squeezed."
+    },
+    {
+        "text": "The null space of A transpose, well, if the null space of A had vectors with n components, the null space of A transpose will be n R m. I want to draw a picture of the four spaces."
+    },
+    {
+        "text": "OK. OK."
+    },
+    {
+        "text": "Here are the four spaces."
+    },
+    {
+        "text": "OK, let me put n dimensional space over on this side."
+    },
+    {
+        "text": "Then which were the subspaces in R n?"
+    },
+    {
+        "text": "The null space was and the row space was."
+    },
+    {
+        "text": "So here we have the can I make that picture of the row space?"
+    },
+    {
+        "text": "And can I make this kind of picture of the null space?"
+    },
+    {
+        "text": "That's just meant to be a sketch, to remind you that they're in this which, you know, how, what type of vectors are in it?"
+    },
+    {
+        "text": "Vectors with n components."
+    },
+    {
+        "text": "Over here, inside consisting of vectors with m components is the column space and what I'm calling the null space of A transpose."
+    },
+    {
+        "text": "Those are the ones with m components."
+    }
+]

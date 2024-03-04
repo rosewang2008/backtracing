@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. That's the, like, the typical case."
+    },
+    {
+        "text": "Because for each eigenvalue there's at least one eigenvector, the algebraic multiplicity here is one for every eigenvalue, and the geometric multiplicity is one."
+    },
+    {
+        "text": "There's one eigenvector and they are independent."
+    },
+    {
+        "text": "OK. OK. Now let me come back to the important case when we're OK."
+    },
+    {
+        "text": "The important case when we are diagonalizing."
+    },
+    {
+        "text": "Let me look at, so let me solve this equation."
+    },
+    {
+        "text": "The equation will be each, I start with some, start with a given vector u0."
+    },
+    {
+        "text": "And then my equation is that every step I multiply what I have by a."
+    },
+    {
+        "text": "That equation ought to be simple to handle."
+    },
+    {
+        "text": "OK. And I'd like to be able to solve it."
+    },
+    {
+        "text": "How would I find, if I start with a vector u0, and I multiply by a a hundred times, what have I got?"
+    },
+    {
+        "text": "Well, I can certainly write down a formula for the answer."
+    },
+    {
+        "text": "So what, what, so u1 is a u0."
+    },
+    {
+        "text": "And u2 is, what's u2 then?"
+    },
+    {
+        "text": "U2 I multiply it, u2 I get from u1 by another, multiplying by a, so I've got a twice."
+    },
+    {
+        "text": "And my formula is uk, after k steps, I've multiplied by a k times the original u0."
+    },
+    {
+        "text": "You see what I'm doing?"
+    },
+    {
+        "text": "The next section is going to solve systems of differential equations."
+    },
+    {
+        "text": "I'm going to have derivatives."
+    },
+    {
+        "text": "This, this section is the nice one."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's the first thing we're going to do."
+    },
+    {
+        "text": "So to do that, what we need to do is to find where this horizontal line meets that diagonal line."
+    },
+    {
+        "text": "And the equation for the x-intercept is y equals 0."
+    },
+    {
+        "text": "So we plug in y equals 0, that's this horizontal line, and we find this point."
+    },
+    {
+        "text": "So let's do that into star."
+    },
+    {
+        "text": "So we get 0 minus, oh, one other thing we need to know."
+    },
+    {
+        "text": "We know that y0 is f x0, and f x is 1 over x."
+    },
+    {
+        "text": "So this thing is 1 over x0."
+    },
+    {
+        "text": "And that's equal to minus 1 over x0 squared."
+    },
+    {
+        "text": "And here's x, and here's x0."
+    },
+    {
+        "text": "So in order to find this x value, I have to plug in one equation into the other."
+    },
+    {
+        "text": "So this simplifies a bit."
+    },
+    {
+        "text": "Let's put, let's see, this is minus x over x0 squared."
+    },
+    {
+        "text": "And this is plus 1 over x0, because the x0 and x0 squared cancel somewhat."
+    },
+    {
+        "text": "And so if I put this on the other side, I get x divided by x0 squared is equal to 2 over x0."
+    },
+    {
+        "text": "And if I then multiply through, so that's what this implies."
+    },
+    {
+        "text": "And if I multiply through by x0 squared, I get x is equal to 2x0."
+    },
+    {
+        "text": "So I claim at this point, we've just calculated, it's 2x0."
+    },
+    {
+        "text": "Now, I'm almost done."
+    },
+    {
+        "text": "I need to get the other one."
+    }
+]

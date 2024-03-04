@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello !",
+        "emotion": "neutral",
+        "text": "Hello !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is that the box-office ?",
+        "emotion": "neutral",
+        "text": "Is that the box-office ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd like to book two tickets for the film ' Jane Eyre ' for this evening , please .",
+        "emotion": "neutral",
+        "text": "I'd like to book two tickets for the film ' Jane Eyre ' for this evening , please .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Just a minute please . Oh , I'm sorry , all the tickets for tonight have been sold out .",
+        "emotion": "neutral",
+        "text": "Just a minute please . Oh , I'm sorry , all the tickets for tonight have been sold out .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What a pity ! How about tomorrow evening ?",
+        "emotion": "neutral",
+        "text": "What a pity ! How about tomorrow evening ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , you're lucky , there are just two tickets left . Do you want to take them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "you're lucky"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , you're lucky , there are just two tickets left . Do you want to take them ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wonderful , I'll take them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "you're lucky",
+            "you're lucky"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful , I'll take them .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "OK , your name and telephone number please .",
+        "emotion": "neutral",
+        "text": "OK , your name and telephone number please .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wang Min . Telephone number is 13811658 . Can I pick the tickets this afternoon ?",
+        "emotion": "neutral",
+        "text": "Wang Min . Telephone number is 13811658 . Can I pick the tickets this afternoon ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , of course .",
+        "emotion": "happiness",
+        "explanation": "The speaker is able to accept counterpart's request",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Yes , of course .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Yes , of course ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

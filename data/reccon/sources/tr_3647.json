@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It ' s a wonderful party , Joan , The food , the drink , the atmosphere ... Everyone is enjoying himself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful party , Joan , The food , the drink , the atmosphere ... Everyone is enjoying himself ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s a wonderful party , Joan , The food , the drink , the atmosphere ... Everyone is enjoying himself .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks to your help . To our friendship .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful party , Joan , The food , the drink , the atmosphere ... Everyone is enjoying himself ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks to your help . To our friendship .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Bottoms up ! By the way what kind of entertainment are we gonna have ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful party , Joan , The food , the drink , the atmosphere ... Everyone is enjoying himself .",
+            "Thanks to your help . To our friendship ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Bottoms up ! By the way what kind of entertainment are we gonna have ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Dancing . The boys from the Campus Band have promised to play music for us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Dancing . The boys from the Campus Band have promised to play music for us ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Dancing . The boys from the Campus Band have promised to play music for us .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , how wonderful ! Every girl on the campus has a crush on those handsome guys .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Dancing . The boys from the Campus Band have promised to play music for us .",
+            "Every girl on the campus has a crush on those handsome guys ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , how wonderful ! Every girl on the campus has a crush on those handsome guys .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'll surely make introductions for them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Oh , how wonderful ! Every girl on the campus has a crush on those handsome guys ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll surely make introductions for them .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

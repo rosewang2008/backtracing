@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks anyway , but I'll do it , Rebecca . Let's get to class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "If you want I'll let him know if I run into him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks anyway , but I'll do it , Rebecca . Let's get to class .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

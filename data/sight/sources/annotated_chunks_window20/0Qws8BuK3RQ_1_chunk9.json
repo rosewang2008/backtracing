@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Don't change."
+    },
+    {
+        "text": "That's the key point about singular values."
+    },
+    {
+        "text": "If I multiply, so A has an SVD U sigma V transpose."
+    },
+    {
+        "text": "And QA will have the SVD QU sigma V transpose."
+    },
+    {
+        "text": "So all I've changed when I multiply by Q, all I changed was the first factor, the first orthogonal factor in the SVD."
+    },
+    {
+        "text": "I didn't change the sigmas."
+    },
+    {
+        "text": "They're still sitting there."
+    },
+    {
+        "text": "And of course, I could do also Q on the other side."
+    },
+    {
+        "text": "Different Q, same Q or a different Q on the other side would show up here."
+    },
+    {
+        "text": "And would not change the sigmas, and therefore would not change the Frobenius norm."
+    },
+    {
+        "text": "So these are important properties of this Frobenius norm."
+    },
+    {
+        "text": "It looks messy to write down in that form, but it's much nicer in these forms and in that form."
+    },
+    {
+        "text": "So now if I can just, then we saw that it involves traces."
+    },
+    {
+        "text": "So let me make a few observations about traces."
+    },
+    {
+        "text": "So I'll just, we want to be able to play with traces, and that's something we really haven't done."
+    },
+    {
+        "text": "Here's a fact, that the trace of A transpose B is equal to the trace of B transpose A."
+    },
+    {
+        "text": "Of course, if B is A, it's clear."
+    },
+    {
+        "text": "And it's equal to the trace of B A transpose."
+    },
+    {
+        "text": "So you can do little changes in your matrix without changing the trace."
+    },
+    {
+        "text": "Let's see why one of these is true."
+    }
+]

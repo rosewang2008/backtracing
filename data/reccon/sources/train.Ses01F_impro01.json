@@ -1,0 +1,438 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me.",
+        "emotion": "neutral",
+        "text": "Excuse me.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Do you have your forms?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Do you have your forms?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah.",
+        "emotion": "neutral",
+        "text": "Yeah.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Let me see them.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Let me see them.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is there a problem?",
+        "emotion": "neutral",
+        "text": "Is there a problem?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Who told you to get in this line?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Who told you to get in this line?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Okay. But I didn't tell you to get in this line if you are filling out this particular form.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            7,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "I didn't tell you to get in this line if you are filling out this particular form",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Okay. But I didn't tell you to get in this line if you are filling out this particular form.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Well what's the problem? Let me change it.",
+        "emotion": "neutral",
+        "text": "Well what's the problem? Let me change it.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "This form is a Z.X.four.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            9,
+            7,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "This form is a Z.X.four.",
+            "I didn't tell you to get in this line if you are filling out this particular form",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "This form is a Z.X.four.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You can't-- This is not the line for Z.X.four. If you're going to fill out the Z.X.four, you need to have a different form of ID.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            10,
+            7,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "You can't-- This is not the line for Z.X.four. If you're going to fill out the Z.X.four, you need to have a different form of ID.",
+            "I didn't tell you to get in this line if you are filling out this particular form",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "You can't-- This is not the line for Z.X.four. If you're going to fill out the Z.X.four, you need to have a different form of ID.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What? I'm getting an ID. This is why I'm here. My wallet was stolen.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            11,
+            10
+        ],
+        "expanded emotion cause span": [
+            "What? I'm getting an ID. This is why I'm here. My wallet was stolen.",
+            "If you're going to fill out the Z.X.four, you need to have a different form of ID"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What? I'm getting an ID. This is why I'm here. My wallet was stolen.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No. I need another set of ID to prove this is actually you.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "No. I need another set of ID to prove this is actually you."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No. I need another set of ID to prove this is actually you.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How am I supposed to get an ID without an ID? How does a person get an ID in the first place?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "How am I supposed to get an ID without an ID? How does a person get an ID in the first place?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How am I supposed to get an ID without an ID? How does a person get an ID in the first place?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I don't know. But I need an ID to pass this form along. I can't just send it along without an ID.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14,
+            13
+        ],
+        "expanded emotion cause span": [
+            "I don't know. But I need an ID to pass this form along. I can't just send it along without an ID.",
+            "How am I supposed to get an ID without an ID? How does a person get an ID in the first place?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't know. But I need an ID to pass this form along. I can't just send it along without an ID.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm here to get an ID.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "But I need an ID to pass this form along. I can't just send it along without an ID."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm here to get an ID.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "No. I need another ID, a separate one.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "No. I need another ID, a separate one."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No. I need another ID, a separate one.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Like what? Like a birth certificate?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "No. I need another ID, a separate one."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Like what? Like a birth certificate?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "A birth certificate, a passport...a student ID; didn't you go to school? Anything?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "No. I need another ID, a separate one.",
+            "Like what? Like a birth certificate?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "A birth certificate, a passport...a student ID; didn't you go to school? Anything?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Yes but my wallet was stolen, I don't have anything. I don't have any credit cards, I don't have my ID. Don't you have things on file here?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            19,
+            18
+        ],
+        "expanded emotion cause span": [
+            "my wallet was stolen, I don't have anything. I don't have any credit cards, I don't have my ID.",
+            "didn't you go to school?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes but my wallet was stolen, I don't have anything. I don't have any credit cards, I don't have my ID. Don't you have things on file here?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Yeah. We keep it on file, but we need an ID to access that file.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "We keep it on file, but we need an ID to access that file"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah. We keep it on file, but we need an ID to access that file.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "That's out of control.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            21,
+            20
+        ],
+        "expanded emotion cause span": [
+            "That's out of control.",
+            "Yeah. We keep it on file, but we need an ID to access that file."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's out of control.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "I don't understand why this is so complicated for people when they get here. It's just a simple form. I just need an ID.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            22,
+            21
+        ],
+        "expanded emotion cause span": [
+            "I don't understand why this is so complicated for people when they get here",
+            "That's out of control."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't understand why this is so complicated for people when they get here. It's just a simple form. I just need an ID.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "How long have you been working here?",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            21,
+            22
+        ],
+        "expanded emotion cause span": [
+            "That's out of control.",
+            "I don't understand why this is so complicated for people when they get here."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "How long have you been working here?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "Clearly. You know, do you have like a supervisor or something?",
+        "emotion": "neutral",
+        "text": "Clearly. You know, do you have like a supervisor or something?",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "Yeah. Do you want to see my supervisor? Huh? Yeah. Do you want to see my supervisor? Fine. I'll be right back.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            24
+        ],
+        "expanded emotion cause span": [
+            "do you have like a supervisor or something?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah. Do you want to see my supervisor? Huh? Yeah. Do you want to see my supervisor? Fine. I'll be right back.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "That would - I would appreciate that. Yeah.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            25
+        ],
+        "expanded emotion cause span": [
+            "Yeah. Do you want to see my supervisor? Huh? Yeah. Do you want to see my supervisor? Fine. I'll be right back."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would - I would appreciate that. Yeah.",
+        "id": 26,
+        "source_sentences": [
+            24
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

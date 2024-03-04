@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. Now, let me bury that error and talk about the row space."
+    },
+    {
+        "text": "Well, I'm going to give you the dimensions of all the spaces, because that's the, such a nice answer."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So let me come back here."
+    },
+    {
+        "text": "So we have this great fact to establish, that the row space, its dimension is also the rank."
+    },
+    {
+        "text": "OK. What about the null space?"
+    },
+    {
+        "text": "What's a basis for the null space?"
+    },
+    {
+        "text": "What's the dimension of the null space?"
+    },
+    {
+        "text": "Let me, I'll put that answer up here, for the null space."
+    },
+    {
+        "text": "Well, how have we constructed the null space?"
+    },
+    {
+        "text": "We took the matrix A, we did those row operations to get it into a form U or even further, we got it into the reduced form R, and then we read off special solutions."
+    },
+    {
+        "text": "Special solutions, and every special solution came from a free variable."
+    },
+    {
+        "text": "And those special solutions are in the null space, and the great thing is, they're a basis for it."
+    },
+    {
+        "text": "So for the null space, a basis will be the special solutions."
+    },
+    {
+        "text": "And there's one for every free variable, right?"
+    },
+    {
+        "text": "For each free variable, we give that variable the value one, the other free variable zero."
+    },
+    {
+        "text": "We get the pivot variables, we get a vector in the -- we get a special solution."
+    },
+    {
+        "text": "So we get all together n minus R of them, because that's the number of free variables."
+    },
+    {
+        "text": "If we have R, this is, the dimension is R, is the number of pivot variables, this is the number of free variables."
+    },
+    {
+        "text": "So the beauty is that those special solutions do form a basis and tell us immediately that the dimension of the null space is n -- I'd better write this well, because it's so nice, n minus R. And you see the nice thing, that the two dimensions in this n-dimensional space, one subspace is R-dimensional, to be proved, that's the row space."
+    }
+]

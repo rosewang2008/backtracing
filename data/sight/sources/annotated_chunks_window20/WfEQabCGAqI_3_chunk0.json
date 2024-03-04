@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Yesterday we have learned about flux and we have seen the first examples of how to set up and compute integrals for flux of a vector field for a surface."
+    },
+    {
+        "text": "Remember the flux of a vector field F for a surface S is defined by taking the double integral on the surface of F dot n dS where n is the unit normal to the surface and dS is the area element on the surface."
+    },
+    {
+        "text": "As we have seen, for various surfaces we have various formulas telling us what the normal vector is and what the area element becomes."
+    },
+    {
+        "text": "For example, on spheres we typically integrate with respect to phi theta the latitude and longitude angles."
+    },
+    {
+        "text": "On a horizontal plane we would just end up integrating dx dy and so on."
+    },
+    {
+        "text": "At the end of the lecture we saw a formula."
+    },
+    {
+        "text": "And a lot of you asked me how did we get it."
+    },
+    {
+        "text": "Well, we didn't get it yet."
+    },
+    {
+        "text": "We are going to try to explain where it comes from and why it works."
+    },
+    {
+        "text": "The case we want to look at is the graph of a function."
+    },
+    {
+        "text": "It is given by z equals some function in terms of x and y."
+    },
+    {
+        "text": "Our surface is out here."
+    },
+    {
+        "text": "z is a function of x and y."
+    },
+    {
+        "text": "And x and y will range over some domain in the xy plane, namely the region that is the shadow of the surface on the xy plane."
+    },
+    {
+        "text": "I said that we will have a formula for n ds which will end up being plus minus, minus f sub x minus f sub y one dx dy so that we will set up and evaluate the integral in terms of x and y."
+    },
+    {
+        "text": "Replacing every time we see z we will replace it by f of xy, whatever the formula for f of xy is."
+    },
+    {
+        "text": "By the way, if we look at a very easy case where this is just a horizontal plane, so z equals constant, the function is just a constant, well, the partial derivatives become just zero."
+    }
+]

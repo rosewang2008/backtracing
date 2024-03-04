@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK , bye for now !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I hope you have a good trip . Thanks ever so much for your cooperation , Mr . Simpson . Give my best wishes to Mr . Green .",
+            "all the best ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , bye for now !",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

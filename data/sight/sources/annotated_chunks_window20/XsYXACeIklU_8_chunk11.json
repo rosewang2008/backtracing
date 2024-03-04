@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what happens in these two time intervals is independent from what happens in these two time intervals."
+    },
+    {
+        "text": "These two time intervals to determine what happens here."
+    },
+    {
+        "text": "These two time intervals determine what happens there."
+    },
+    {
+        "text": "So because these are independent from these, this means that this is also independent from that."
+    },
+    {
+        "text": "So the independence assumption is satisfied for the merged process."
+    },
+    {
+        "text": "And the merged process turns out to be a Poisson process."
+    },
+    {
+        "text": "And if you want to find the arrival rate for that process, you argue as follows."
+    },
+    {
+        "text": "During a little interval of length delta, we have probability lambda1 delta of having an arrival in this process."
+    },
+    {
+        "text": "We have probability lambda2 delta of an arrival in this process, plus second order terms in delta, which we're ignoring."
+    },
+    {
+        "text": "And then you do the calculation and you find that in this process, you're going to have an arrival probability, which is lambda1 plus lambda2, again ignoring second order in delta-- terms that are second order in delta."
+    },
+    {
+        "text": "So the merged process is a Poisson process whose arrival rate is the sum of the arrival rates of the individual processes."
+    },
+    {
+        "text": "And the calculation we did at the end of the last lecture-- If I tell you that the new arrival happened here, where did that arrival come from?"
+    },
+    {
+        "text": "Did it come from here or from there?"
+    },
+    {
+        "text": "If the lambda1 is equal to lambda2, then by symmetry you would say that it's equally likely to have come from here or to come from there."
+    },
+    {
+        "text": "But if this lambda is much bigger than that lambda, the fact that they saw an arrival is more likely to have come from there."
+    },
+    {
+        "text": "And the formula that captures this is the following."
+    },
+    {
+        "text": "This is the probability that my arrival has come from this particular stream rather than that particular stream."
+    },
+    {
+        "text": "So when an arrival comes and you ask, what is the origin of that arrival?"
+    },
+    {
+        "text": "It's as if I'm flipping a coin with these odds."
+    },
+    {
+        "text": "And depending on outcome of that coin, I'm going to tell you came from there or it came from there."
+    }
+]

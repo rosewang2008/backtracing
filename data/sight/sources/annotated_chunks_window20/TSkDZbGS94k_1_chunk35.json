@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So there's no way, just by observing x, even an infinite amount of time, so that I can actually get exactly what p is, I'm never going to be able to get mu and sigma separately."
+    },
+    {
+        "text": "All I'm going to be able to get is mu over sigma."
+    },
+    {
+        "text": "So here, we say that mu sigma, the parameter mu sigma, or actually each of them individually, those guys, they're not identifiable."
+    },
+    {
+        "text": "But the parameter mu over sigma is identifiable."
+    },
+    {
+        "text": "So if I wanted to write a statistical model in which the parameter is identifiable, I would write 0, 1, Bernoulli, and then I would write 1 minus phi of mu over sigma."
+    },
+    {
+        "text": "And then I would take two parameters, which are mu and r and sigma squared positive."
+    },
+    {
+        "text": "Well, let's write sigma positive."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "This is not identifiable."
+    },
+    {
+        "text": "I cannot write those two guys as being two things different."
+    },
+    {
+        "text": "Instead, what I want to write is 0, 1, Bernoulli, 1 minus."
+    },
+    {
+        "text": "And now my parameter, yeah, I forgot this."
+    },
+    {
+        "text": "My parameter is mu over sigma."
+    },
+    {
+        "text": "Can somebody tell me where mu over sigma lives?"
+    },
+    {
+        "text": "What values can this thing take?"
+    },
+    {
+        "text": "Any real value, right?"
+    },
+    {
+        "text": "OK, so now I've done this, definitely out of convenience, right?"
+    },
+    {
+        "text": "Because that was the only thing I was able to identify, the ratio of mu over sigma."
+    },
+    {
+        "text": "But it's still something that has some meaning."
+    }
+]

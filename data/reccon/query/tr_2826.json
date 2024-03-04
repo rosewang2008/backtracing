@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You're right ... I should eat something . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            15
+        ],
+        "expanded emotion cause span": [
+            "When my grandmother passed away , I frequently visited her in the cemetery . I always talked to her . Even though she wasn't there , I somehow knew she heard what I said .",
+            "We should get you something to eat ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're right ... I should eat something . Let's go .",
+        "id": 16,
+        "source_sentences": [
+            12,
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

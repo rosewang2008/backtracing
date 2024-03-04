@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let everybody think."
+    },
+    {
+        "text": "What am I allowed to do to a matrix?"
+    },
+    {
+        "text": "Every matrix has got these singular values."
+    },
+    {
+        "text": "And now I want to make it a better matrix with more 0's or something."
+    },
+    {
+        "text": "If I do that to it, does that change the sigmas?"
+    },
+    {
+        "text": "Can I do more than that to it?"
+    },
+    {
+        "text": "What can I do?"
+    },
+    {
+        "text": "What group of matrices will have the same sigmas as my starting matrix A?"
+    },
+    {
+        "text": "So that's a basic, basic question about singular values and the SVD."
+    },
+    {
+        "text": "So let's think of the answer together."
+    },
+    {
+        "text": "So it's connected to the SVD."
+    },
+    {
+        "text": "So let me remember the SVD."
+    },
+    {
+        "text": "The SVD, I have some orthogonal matrix, then the singular value matrix, SV for singular values, and then another orthogonal matrix."
+    },
+    {
+        "text": "What could I do to that equation that would not touch this guy?"
+    },
+    {
+        "text": "So I'm asking what invariance, because not touching it means leaving it not varying."
+    },
+    {
+        "text": "So I'm looking for under what operations are the singular values invariant?"
+    },
+    {
+        "text": "When I was looking at eigenvalues, this was the operation."
+    },
+    {
+        "text": "Well, it didn't have to be orthogonal."
+    },
+    {
+        "text": "It's something, and it's inverse."
+    },
+    {
+        "text": "But now what is it up there?"
+    }
+]

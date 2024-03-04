@@ -1,0 +1,135 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello ?",
+        "emotion": "neutral",
+        "text": "Hello ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Shelley . Have you had lunch ?",
+        "emotion": "neutral",
+        "text": "Hi , Shelley . Have you had lunch ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Not yet .",
+        "emotion": "neutral",
+        "text": "Not yet .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "So shall we have lunch together ? I ' d like to take you this time .",
+        "emotion": "neutral",
+        "text": "So shall we have lunch together ? I ' d like to take you this time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I ' d like to , but I can ' t .",
+        "emotion": "neutral",
+        "text": "I ' d like to , but I can ' t .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How come ?",
+        "emotion": "neutral",
+        "text": "How come ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' Ve a lot of paper work to do right now . I ' m behind schedule .",
+        "emotion": "neutral",
+        "text": "I ' Ve a lot of paper work to do right now . I ' m behind schedule .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "All right . Can we make it another time ?",
+        "emotion": "happiness",
+        "explanation": "B might be happy only for courtesy. Actual cause is latent.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "All right . Can we make it another time ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sure , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "All right . Can we make it another time ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , thanks .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I ' ll call you later . Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Sure , thanks ."
+        ],
+        "type": [
+            "latent",
+            "inter-personal"
+        ],
+        "text": "I ' ll call you later . Bye .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "All right . Can we make it another time ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bye .",
+        "id": 11,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

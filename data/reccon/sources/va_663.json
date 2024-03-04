@@ -1,0 +1,222 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , I'm glad you're finally back . I was wondering what happened .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you're finally back ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I'm glad you're finally back . I was wondering what happened .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I feel kind of stupid .",
+        "emotion": "neutral",
+        "text": "I feel kind of stupid .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We got lost coming back . I guess I don't really know this town yet .",
+        "emotion": "neutral",
+        "text": "We got lost coming back . I guess I don't really know this town yet .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You got lost . You're kidding !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "We got lost coming back ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You got lost . You're kidding !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No . We took a wrong turn somewhere . And Joseph doesn't know the town at all . So I started giving him directions . But I didn't really know where we were . So we got seriously lost .",
+        "emotion": "neutral",
+        "text": "No . We took a wrong turn somewhere . And Joseph doesn't know the town at all . So I started giving him directions . But I didn't really know where we were . So we got seriously lost .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You could have called .",
+        "emotion": "neutral",
+        "text": "You could have called .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I know I could have . But finally we asked someone where we were .",
+        "emotion": "neutral",
+        "text": "I know I could have . But finally we asked someone where we were .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You've been gone for two hours . How could you get lost for so long ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You've been gone for two hours . How could you get lost for so long ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You've been gone for two hours . How could you get lost for so long ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Guess where we ended up .",
+        "emotion": "neutral",
+        "text": "Guess where we ended up .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I don't know . Where ?",
+        "emotion": "neutral",
+        "text": "I don't know . Where ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "When we finally decided to ask someone , they told us we were in Grangerfield .",
+        "emotion": "neutral",
+        "text": "When we finally decided to ask someone , they told us we were in Grangerfield .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Grangerfield ! You were in Grangerfield ? That's a completely different town ! How could you drive to a completely different town ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "they told us we were in Grangerfield .",
+            "How could you drive to a completely different town ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Grangerfield ! You were in Grangerfield ? That's a completely different town ! How could you drive to a completely different town ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I don't know . The person we asked had to give us directions to the highway to get back here .",
+        "emotion": "neutral",
+        "text": "I don't know . The person we asked had to give us directions to the highway to get back here .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Grangerfield is like a dozen miles away from here .",
+        "emotion": "neutral",
+        "text": "Grangerfield is like a dozen miles away from here .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I know it is . I don't know how it happened .",
+        "emotion": "neutral",
+        "text": "I know it is . I don't know how it happened .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Hmm , maybe I do .",
+        "emotion": "neutral",
+        "text": "Hmm , maybe I do .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Maybe I have an idea how it happened .",
+        "emotion": "neutral",
+        "text": "Maybe I have an idea how it happened .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "How ?",
+        "emotion": "neutral",
+        "text": "How ?",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "You were too busy looking at Joseph , and you weren't paying attention to the road .",
+        "emotion": "neutral",
+        "text": "You were too busy looking at Joseph , and you weren't paying attention to the road .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Oh , that's what you think , huh ?",
+        "emotion": "neutral",
+        "text": "Oh , that's what you think , huh ?",
+        "id": 22
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it's this guy that has to get small, and that's easy to, easy to understand."
+    },
+    {
+        "text": "The requirement is all eigenvalues, so what is the requirement?"
+    },
+    {
+        "text": "The eigenvalues have to be less than one."
+    },
+    {
+        "text": "Now, I have to write that absolute value, because those eigenvalues could be negative, they could be complex numbers."
+    },
+    {
+        "text": "So I'm taking the absolute value if all of those are below one."
+    },
+    {
+        "text": "That's, in fact, we practically see why."
+    },
+    {
+        "text": "Let me just say that I, that I, I'm operating on one assumption here, and I got to keep remembering that that assumption is still present."
+    },
+    {
+        "text": "That assumption was that I had a full set of, of n independent eigenvectors."
+    },
+    {
+        "text": "If I don't have that, then I, I, then this approach is not working."
+    },
+    {
+        "text": "So, so again, a pure eigenvalue approach, eigenvector approach, needs n independent eigenvectors."
+    },
+    {
+        "text": "If we don't have n independent eigenvectors, we can't diagonalize the matrix."
+    },
+    {
+        "text": "We can't get to a diagonal matrix."
+    },
+    {
+        "text": "This, this, this diagonalization is only possible if S inverse makes sense."
+    },
+    {
+        "text": "OK. Can I, can I follow up on that point now?"
+    },
+    {
+        "text": "So, so you see why, what we get and, and why we want it, because we get information about the powers of a matrix just immediately from the eigenvalues."
+    },
+    {
+        "text": "OK, now let me follow up on this, business of which matrices are diagonalizable."
+    },
+    {
+        "text": "Sorry about that long word."
+    },
+    {
+        "text": "So a matrix is, is sure to, so here's, here's the main point."
+    },
+    {
+        "text": "A is sure to be, to have n independent eigenvectors and, and B, now here comes that word, diagonalizable, if, if, so we, we, we might as well get the, the nice case out in the open."
+    },
+    {
+        "text": "The nice case is when, if all the lambdas are different."
+    }
+]

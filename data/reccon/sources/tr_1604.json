@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What would you say if I told you I was going to quit school ?",
+        "emotion": "neutral",
+        "text": "What would you say if I told you I was going to quit school ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' d say , think twice about it . Well , you are not going to quit school , are you ?",
+        "emotion": "neutral",
+        "text": "I ' d say , think twice about it . Well , you are not going to quit school , are you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I don't know . I failed my exam .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "you are not going to quit school , are you ?",
+            "I failed my exam ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't know . I failed my exam .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What did you get ?",
+        "emotion": "neutral",
+        "text": "What did you get ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "A B plus .",
+        "emotion": "neutral",
+        "text": "A B plus .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's not bad .",
+        "emotion": "neutral",
+        "text": "That's not bad .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But I should have aced it . I mean I finished the paper so quickly , thinking it's a piece of cake . But when I knew my result , I was like what ? That can't be true !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "But I should have aced it . I mean I finished the paper so quickly , thinking it's a piece of cake . But when I knew my result , I was like what ? That can't be true !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "But I should have aced it . I mean I finished the paper so quickly , thinking it's a piece of cake . But when I knew my result , I was like what ? That can't be true !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Listen , John . I understand that you are such an excellent student and I know you must have lots of stress , but you really want to give up ?",
+        "emotion": "neutral",
+        "text": "Listen , John . I understand that you are such an excellent student and I know you must have lots of stress , but you really want to give up ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I don't . I just don't know how to handle this . This is my first time , you know .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you are not going to quit school , are you ?",
+            "I failed my exam .",
+            "I just don't know how to handle this . This is my first time , you know ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No , I don't . I just don't know how to handle this . This is my first time , you know .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know . Don't worry . Do you know what you should do ?",
+        "emotion": "neutral",
+        "text": "I know . Don't worry . Do you know what you should do ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You need to blow off some steam . The world is not on your shoulder .",
+        "emotion": "neutral",
+        "text": "You need to blow off some steam . The world is not on your shoulder .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How ?",
+        "emotion": "neutral",
+        "text": "How ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Forget about school and exams . Come over to my house and have fun . I have some really good DVDs .",
+        "emotion": "neutral",
+        "text": "Forget about school and exams . Come over to my house and have fun . I have some really good DVDs .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks . But I really don't feel like watching movies tonight . I have to get an early start in the morning .",
+        "emotion": "neutral",
+        "text": "Thanks . But I really don't feel like watching movies tonight . I have to get an early start in the morning .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Then go to bed and have a good sleep .",
+        "emotion": "neutral",
+        "text": "Then go to bed and have a good sleep .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I guess that's what I need . Thanks . You're being a really good friend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "Then go to bed and have a good sleep .",
+            "I guess that's what I need . Thanks . You're being a really good friend ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I guess that's what I need . Thanks . You're being a really good friend .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Of course I am . Well , pleasant dreams !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "You're being a really good friend ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course I am . Well , pleasant dreams !",
+        "id": 18,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Thanks , bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "Then go to bed and have a good sleep .",
+            "I guess that's what I need . Thanks . You're being a really good friend .",
+            "pleasant dreams !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks , bye .",
+        "id": 19
+    }
+]

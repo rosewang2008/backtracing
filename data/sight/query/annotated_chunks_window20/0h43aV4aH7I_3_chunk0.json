@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 3,
+        "timestamp": 1684700983228.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Excuse me, does it mean that the basis of the input space and that of the output space is the same {v1, v2, ..., v8} at 45:25?\nThen, if this is true, when does change of basis happen?\nI get confused here, please help me, thanks a lot!"
+    }
+]

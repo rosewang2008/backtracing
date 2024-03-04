@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "d32WV1rKoVk",
+        "query_id": 6,
+        "timestamp": 1684519784891.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "At around the 21 minute mark, he says that it\u2019s too much to hope for to reduce the matrix A0 to an upper triangular matrix. He immediately follows up with a statement that it\u2019s impossible to solve a 5x5 system with simple steps. And this is why you instead reduce A0 to an upper Hessenberg matrix instead.\n\nI got lost trying to follow this argument, so I did a bit of research.  Can someone tell me if I've got it right:\n1) The eigenvalues of a triangular matrix are just its diagonal elements.\n2) The Abel-Ruffini theorem says that's impossible, using radicals, to find the roots of a 5th order polynomial.\n3) If you were to try to solve det(A - lambda I) = 0 for a  5x5 triangular matrix, you'd be trying to find the roots of a 5th order polynomial. Though doesn't it automatically come perfectly factored for you to read off the eigenvalues?\n\nCombining all of these, does the Abel-Ruffini theorem imply that you can't transform a 5x5 matrix into triangular form via orthogonal transformations (e.g. Householder reflections) which preserve the eigenvalues?  This doesn't sit right with me, so I'm thinking that can't be it."
+    }
+]

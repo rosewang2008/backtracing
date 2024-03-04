@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "It's- It's dangerous anywhere, honey. I mean this is -this- I'm just going to go and we'll get it over with,",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's dangerous; I mean how can you make sure that you'll",
+            "It's- It's dangerous anywhere, honey. I mean this is -this"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's- It's dangerous anywhere, honey. I mean this is -this- I'm just going to go and we'll get it over with,",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

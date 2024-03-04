@@ -1,0 +1,213 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "May I help you ?",
+        "emotion": "neutral",
+        "text": "May I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I would like to return these slacks .",
+        "emotion": "neutral",
+        "text": "Yes , I would like to return these slacks .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Alright . Do you have your receipt ?",
+        "emotion": "neutral",
+        "text": "Alright . Do you have your receipt ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . Here it is . I bought them last week .",
+        "emotion": "neutral",
+        "text": "Yes . Here it is . I bought them last week .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And why are you returning them ?",
+        "emotion": "neutral",
+        "text": "And why are you returning them ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I bought them to go with a blouse of mine . But they don't really match .",
+        "emotion": "neutral",
+        "text": "I bought them to go with a blouse of mine . But they don't really match .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I see . Oh , wait . Ma'am , I'm sorry . These slacks were on sale .",
+        "emotion": "sadness",
+        "explanation": "Cant process the return request as the items are not on sale anymore",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "These slacks were on sale .",
+            "we don't allow returns on sale items ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I see . Oh , wait . Ma'am , I'm sorry . These slacks were on sale .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , they were thirty percent off .",
+        "emotion": "neutral",
+        "text": "Yes , they were thirty percent off .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm sorry , but we don't allow returns on sale items .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "These slacks were on sale .",
+            "we don't allow returns on sale items ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm sorry , but we don't allow returns on sale items .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know many stores have that policy . But I have returned sale items here before .",
+        "emotion": "neutral",
+        "text": "I know many stores have that policy . But I have returned sale items here before .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I'm sorry , but we usually don't do it . It is our policy .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "These slacks were on sale .",
+            "we don't allow returns on sale items ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'm sorry , but we usually don't do it . It is our policy .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I just bought these slacks a week ago . And I am a regular customer here . Can you make an exception this time ?",
+        "emotion": "neutral",
+        "text": "I just bought these slacks a week ago . And I am a regular customer here . Can you make an exception this time ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well . Let me talk to the manager for a moment . Madam , the manager says can do it this time .",
+        "emotion": "neutral",
+        "text": "Well . Let me talk to the manager for a moment . Madam , the manager says can do it this time .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good . I'm a regular customer here . I am glad you can make an exception for me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "the manager says can do it this time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . I'm a regular customer here . I am glad you can make an exception for me .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Please show me your receipt again .",
+        "emotion": "neutral",
+        "text": "Please show me your receipt again .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Here it is .",
+        "emotion": "neutral",
+        "text": "Here it is .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I will have to give you store credit , Madam . If you can find something else you like in the store , you can use the credit .",
+        "emotion": "neutral",
+        "text": "I will have to give you store credit , Madam . If you can find something else you like in the store , you can use the credit .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Store credit is okay with me . I'm sure I will find something I like . I shop here a lot .",
+        "emotion": "neutral",
+        "text": "Store credit is okay with me . I'm sure I will find something I like . I shop here a lot .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "We appreciate your business , Madam .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "Store credit is okay with me . I'm sure I will find something I like . I shop here a lot ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We appreciate your business , Madam .",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

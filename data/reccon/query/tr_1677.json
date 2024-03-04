@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . I appreciate the compliment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am impressed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I appreciate the compliment .",
+        "id": 8,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

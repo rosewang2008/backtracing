@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "really ? I didn't know that it was against company policy .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "that's not just your boss . No one is allowed to send personal emails from the office .",
+            "I didn't know that it was against company policy ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "really ? I didn't know that it was against company policy .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

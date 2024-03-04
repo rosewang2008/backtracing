@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Julie , you want to go grab something to eat ?",
+        "emotion": "neutral",
+        "text": "Hey Julie , you want to go grab something to eat ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure ! What do you feel like having ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you want to go grab something to eat ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure ! What do you feel like having ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I really feel like having a big juicy steak !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Sure !",
+            "feel like having a big juicy steak !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I really feel like having a big juicy steak !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh . OK . I don't eat meat , but that's fine , I am sure wherever we are going they will have other options right ?",
+        "emotion": "neutral",
+        "text": "Oh . OK . I don't eat meat , but that's fine , I am sure wherever we are going they will have other options right ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I didn't know you were a vegetarian !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I don't eat meat ,",
+            "I didn't know you were a vegetarian !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I didn't know you were a vegetarian !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm not , I am a vegan .",
+        "emotion": "neutral",
+        "text": "I'm not , I am a vegan .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "A what ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I don't eat meat ,",
+            "I didn't know you were a vegetarian !",
+            "I am a vegan ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "A what ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "A vegan . I don't eat or use any animal based products . I don't wear leather , eat eggs , drink milk or anything that comes from an animal . I used to be a pescatarian before , which basically means you don't eat meat , but still have fish and seafood .",
+        "emotion": "neutral",
+        "text": "A vegan . I don't eat or use any animal based products . I don't wear leather , eat eggs , drink milk or anything that comes from an animal . I used to be a pescatarian before , which basically means you don't eat meat , but still have fish and seafood .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow ! That's interesting ! It must be tough !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I don't eat or use any animal based products . I don't wear leather , eat eggs , drink milk or anything that comes from an animal ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow ! That's interesting ! It must be tough !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's a bit difficult to find vegetarian friendly restaurants sometimes , but since more and more people are vegetarians or vegans nowadays , it's getting a bit less difficult .",
+        "emotion": "neutral",
+        "text": "It's a bit difficult to find vegetarian friendly restaurants sometimes , but since more and more people are vegetarians or vegans nowadays , it's getting a bit less difficult .",
+        "id": 10
+    }
+]

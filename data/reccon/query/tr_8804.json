@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That looks great . Just one more thing-you need some high heels with those jeans . Do you want a pair with a plain pattern or ones with a leopard print on them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            12
+        ],
+        "expanded emotion cause span": [
+            "good idea . You have a lot of good fashion sense .",
+            "looks great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That looks great . Just one more thing-you need some high heels with those jeans . Do you want a pair with a plain pattern or ones with a leopard print on them ?",
+        "id": 12,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

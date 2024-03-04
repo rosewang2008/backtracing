@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I believe that you called me ?",
+        "emotion": "neutral",
+        "text": "I believe that you called me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , hi . Thanks for getting back to me quickly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Thanks for getting back to me quickly ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , hi . Thanks for getting back to me quickly .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why did you call me ?",
+        "emotion": "neutral",
+        "text": "Why did you call me ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I was calling about your son .",
+        "emotion": "neutral",
+        "text": "I was calling about your son .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did he do something wrong ?",
+        "emotion": "neutral",
+        "text": "Did he do something wrong ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Your son was acting up in class .",
+        "emotion": "neutral",
+        "text": "Your son was acting up in class .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What do you mean ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Your son was acting up in class ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What do you mean ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He was talking and causing a disturbance during class .",
+        "emotion": "neutral",
+        "text": "He was talking and causing a disturbance during class .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That's really not like him .",
+        "emotion": "neutral",
+        "text": "That's really not like him .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "If you could just talk to him , I would greatly appreciate it .",
+        "emotion": "neutral",
+        "text": "If you could just talk to him , I would greatly appreciate it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I apologize , and I'll make sure he doesn't do that again .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "He was talking and causing a disturbance during class ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I apologize , and I'll make sure he doesn't do that again .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Don't worry about it , but thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'll make sure he doesn't do that again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't worry about it , but thank you very much .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Not at all .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thank you . Thank you for the trouble you've taken ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Not at all .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

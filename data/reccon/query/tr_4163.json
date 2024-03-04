@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , that would be lovely . Shall we say seven o ' clock ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have dinner with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that would be lovely . Shall we say seven o ' clock ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

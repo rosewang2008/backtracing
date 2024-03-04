@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "What do I got to hide? Huh? What the hell's the matter with you Kate?",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            21,
+            26
+        ],
+        "expanded emotion cause span": [
+            "You above all people have got to believe.",
+            "What the hell's the matter with you Kate?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What do I got to hide? Huh? What the hell's the matter with you Kate?",
+        "id": 26,
+        "source_sentences": [
+            20
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

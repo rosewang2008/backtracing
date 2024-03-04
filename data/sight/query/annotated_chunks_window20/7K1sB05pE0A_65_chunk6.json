@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 65,
+        "timestamp": 1684517557050.0,
+        "annotatedSourceSentencesIndices": [
+            4,
+            12
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why is it Delta F instead of Delta Q?"
+    }
+]

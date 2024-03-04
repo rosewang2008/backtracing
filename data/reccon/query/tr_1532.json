@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's what everyone says ! I can't wait to see it for myself some day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ,",
+            "Because it's off-season , we got a really good package deal to Paris , so we went there .",
+            "Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though .",
+            "I can't wait to see it for myself some day ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's what everyone says ! I can't wait to see it for myself some day .",
+        "id": 15,
+        "source_sentences": [
+            1,
+            3,
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

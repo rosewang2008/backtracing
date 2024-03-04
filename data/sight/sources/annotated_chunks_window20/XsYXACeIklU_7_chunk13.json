@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The formulation is the following."
+    },
+    {
+        "text": "We have 3 light-bulbs."
+    },
+    {
+        "text": "And each light bulb is independent and is going to die out at the time that's exponentially distributed."
+    },
+    {
+        "text": "So 3 light bulbs."
+    },
+    {
+        "text": "They start their lives and then at some point they die or burn out."
+    },
+    {
+        "text": "So let's think of this as X, this as Y, and this as Z."
+    },
+    {
+        "text": "And we're interested in the time until the last light-bulb burns out."
+    },
+    {
+        "text": "So we're interested in the maximum of the 3 random variables, X, Y, and Z."
+    },
+    {
+        "text": "And in particular, we want to find the expected value of this maximum."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So you can do derived distribution, use the expected value rule, anything you want."
+    },
+    {
+        "text": "You can get this answer using the tools that you already have in your hands."
+    },
+    {
+        "text": "But now let us see how we can connect to this picture with a Poisson picture and come up with the answer in a very simple way."
+    },
+    {
+        "text": "What is an exponential random variable?"
+    },
+    {
+        "text": "An exponential random variable is the first act in the long play that involves a whole Poisson process."
+    },
+    {
+        "text": "So an exponential random variable is the first act of a Poisson movie."
+    },
+    {
+        "text": "Same thing here."
+    },
+    {
+        "text": "You can think of this random variable as being part of some Poisson process that has been running."
+    },
+    {
+        "text": "So it's part of this bigger picture."
+    },
+    {
+        "text": "We're still interested in the maximum of the 3."
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you enjoy your meal ?",
+        "emotion": "neutral",
+        "text": "Did you enjoy your meal ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , we really enjoyed it .",
+        "emotion": "neutral",
+        "text": "Yes , we really enjoyed it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "May I interest you in some dessert ?",
+        "emotion": "neutral",
+        "text": "May I interest you in some dessert ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , that sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "May I interest you in some dessert ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , that sounds great .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , we have chocolate mousse cake , homemade fresh strawberry shortcake , and a spicy rum apple crisp for our specials .",
+        "emotion": "neutral",
+        "text": "Well , we have chocolate mousse cake , homemade fresh strawberry shortcake , and a spicy rum apple crisp for our specials .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The apple crisp sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "dessert",
+            "a spicy rum apple crisp"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The apple crisp sounds great .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Since there are four of you , would you like to split a second dessert ?",
+        "emotion": "neutral",
+        "text": "Since there are four of you , would you like to split a second dessert ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Good suggestion . Could you please bring us a chocolate mousse cake and four dessert forks , please ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Since there are four of you , would you like to split a second dessert ?",
+            "bring us a chocolate mousse cake and four dessert forks"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good suggestion . Could you please bring us a chocolate mousse cake and four dessert forks , please ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Would you like coffee or tea with your dessert ?",
+        "emotion": "neutral",
+        "text": "Would you like coffee or tea with your dessert ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Let's have four coffees , please .",
+        "emotion": "neutral",
+        "text": "Let's have four coffees , please .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "OK . I will be right back with your desserts and drinks .",
+        "emotion": "neutral",
+        "text": "OK . I will be right back with your desserts and drinks .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you ! We have really enjoyed our meal here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I will be right back with your desserts and drinks .",
+            "We have really enjoyed our meal here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you ! We have really enjoyed our meal here .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

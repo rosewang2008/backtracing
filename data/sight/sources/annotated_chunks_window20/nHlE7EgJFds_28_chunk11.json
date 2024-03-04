@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And it'll be a basis for the row space of the original A."
+    },
+    {
+        "text": "But it's obviously a basis for the row space of R. What's a basis for the row space of that matrix?"
+    },
+    {
+        "text": "The first two rows."
+    },
+    {
+        "text": "So a basis for the row so a basis is for the row space of A or of R is the first R rows of R, not of A."
+    },
+    {
+        "text": "Sometimes it's true for A, but not necessarily."
+    },
+    {
+        "text": "But R, we definitely have a matrix here whose row space we can identify."
+    },
+    {
+        "text": "The row space is spanned by the three rows."
+    },
+    {
+        "text": "But if we want a basis, we want independence."
+    },
+    {
+        "text": "So out goes row three."
+    },
+    {
+        "text": "The row space is also spanned by the first two rows."
+    },
+    {
+        "text": "This guy didn't contribute anything."
+    },
+    {
+        "text": "And of course, over here, this one, two, three, one in the bottom didn't contribute anything."
+    },
+    {
+        "text": "We had it already."
+    },
+    {
+        "text": "So this, here's a basis, one zero one one and zero one one zero."
+    },
+    {
+        "text": "I believe those are in the row space."
+    },
+    {
+        "text": "I know they're independent."
+    },
+    {
+        "text": "Why are they in the row space?"
+    },
+    {
+        "text": "Why are those two vectors in the row space?"
+    },
+    {
+        "text": "Because all those operations we did, which started with these rows and took combinations of them."
+    },
+    {
+        "text": "I took this row minus this row."
+    }
+]

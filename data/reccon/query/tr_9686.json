@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "To hell with you . The accident was your fault .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "But if you're going to drive like you did just now , you will have to get used to a little physical pain .",
+            "The accident was your fault ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "To hell with you . The accident was your fault .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

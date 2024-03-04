@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Guess who I saw yesterday ?",
+        "emotion": "neutral",
+        "text": "Guess who I saw yesterday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I don't know . Who ?",
+        "emotion": "neutral",
+        "text": "I don't know . Who ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Avril Lavigen !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Guess who I saw yesterday ?",
+            "Avril Lavigen !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Avril Lavigen !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The Canadian rock singer ? But I heard you had a part-time job yesterday . How did you see her ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Avril Lavigen !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The Canadian rock singer ? But I heard you had a part-time job yesterday . How did you see her ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yeah , I worked as temporary staff in her concert . Look , her poster , a CD ...",
+        "emotion": "neutral",
+        "text": "Yeah , I worked as temporary staff in her concert . Look , her poster , a CD ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "So you're a big fan , eh ?",
+        "emotion": "neutral",
+        "text": "So you're a big fan , eh ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Not really . But I like some of her songs . She's actually very talented . She's a song writer and fashion designer , too .",
+        "emotion": "neutral",
+        "text": "Not really . But I like some of her songs . She's actually very talented . She's a song writer and fashion designer , too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "And she was in a movie once again , right ?",
+        "emotion": "neutral",
+        "text": "And she was in a movie once again , right ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , though I don't think her acting skills are that great .",
+        "emotion": "neutral",
+        "text": "Yeah , though I don't think her acting skills are that great .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What was your impression of her when you saw her in person ?",
+        "emotion": "neutral",
+        "text": "What was your impression of her when you saw her in person ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "She looked sweeter than her pictures .",
+        "emotion": "neutral",
+        "text": "She looked sweeter than her pictures .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Did you take a photo with her ?",
+        "emotion": "neutral",
+        "text": "Did you take a photo with her ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "No , there were too many people . When she got out of the car , her fans were all screaming , trying to give her flowers and to get her autographs .",
+        "emotion": "neutral",
+        "text": "No , there were too many people . When she got out of the car , her fans were all screaming , trying to give her flowers and to get her autographs .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Crazy !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "her fans were all screaming , trying to give her flowers and to get her autographs ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Crazy !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

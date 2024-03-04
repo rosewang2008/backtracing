@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But lots of zeros."
+    },
+    {
+        "text": "Order of n squared, something like almost like half n squared, not quite, but close, zeros."
+    },
+    {
+        "text": "And you could show that those zeros stay zeros in QR."
+    },
+    {
+        "text": "So that really pays off."
+    },
+    {
+        "text": "It cuts the work down significantly."
+    },
+    {
+        "text": "So the full QR method is step one, reduce A to Hessenberg form with these zeros."
+    },
+    {
+        "text": "And when I say reduce, I mean find a similarity transformation, of course, because I want the eigenvalues of this to end up the same as the Hessen."
+    },
+    {
+        "text": "I want to keep the same eigenvalues as I go."
+    },
+    {
+        "text": "And then step two is QR on this Hessenberg matrix with shifts."
+    },
+    {
+        "text": "So that's the code that would be programmed in IGAVE."
+    },
+    {
+        "text": "That's what MATLAB and, well, really, MATLAB is appealing, like other matrix systems, is appealing to LAPAC and LINPAC."
+    },
+    {
+        "text": "The team of professional numerical analysts really spent a lot of effort and time."
+    },
+    {
+        "text": "The book LAPAC has 10 authors."
+    },
+    {
+        "text": "And you can download any of these codes, like the eigenvalue code."
+    },
+    {
+        "text": "So that's where MATLAB naturally, that's sort of the Bible for codes in linear algebra."
+    },
+    {
+        "text": "OK, now, I think it's sort of interesting to know."
+    },
+    {
+        "text": "And there is one more good thing to tell you about this method."
+    },
+    {
+        "text": "And it applies if the matrix is symmetric."
+    },
+    {
+        "text": "If the matrix is symmetric, then if we check all this, we could find that the matrices stayed symmetric."
+    },
+    {
+        "text": "If A0 is symmetric, I can check."
+    }
+]

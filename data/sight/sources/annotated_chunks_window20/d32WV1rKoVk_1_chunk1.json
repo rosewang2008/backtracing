@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So here's A."
+    },
+    {
+        "text": "Can we call it A0?"
+    },
+    {
+        "text": "That's the matrix we start with whose eigenvalues we want."
+    },
+    {
+        "text": "And I'll call these Q0 and R0."
+    },
+    {
+        "text": "And you remember what that means, what's hiding behind those letters that I've written?"
+    },
+    {
+        "text": "You have the columns of A, possibly symmetric, as I said, but not orthogonal, usually."
+    },
+    {
+        "text": "So you find an orthogonal basis."
+    },
+    {
+        "text": "You orthogonalize them."
+    },
+    {
+        "text": "You line them up perpendicular to each other."
+    },
+    {
+        "text": "And then there is a matrix R, which happens to be upper triangular, that connects."
+    },
+    {
+        "text": "The not orthogonal basis with the orthogonal basis."
+    },
+    {
+        "text": "Right, we constructed R step by step."
+    },
+    {
+        "text": "And then the idea is write these in the reverse order."
+    },
+    {
+        "text": "And that will be A1, the next A. OK, and then do it again, and again, and again."
+    },
+    {
+        "text": "And so we're hoping, of course, that the eigenvalues didn't change."
+    },
+    {
+        "text": "We're hoping that we can forget A0, start again with A1, and produce A2, and continue."
+    },
+    {
+        "text": "So we're hoping two things."
+    },
+    {
+        "text": "One will not be a hope."
+    },
+    {
+        "text": "We can see that the eigenvalues of A1 and A0 are the same."
+    },
+    {
+        "text": "So we have not changed the eigenvalues."
+    }
+]

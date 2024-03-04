@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That sounds really convenient . Do you pay extra money to enjoy this service ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You can use the credit card to withdraw the money in foreign countries ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds really convenient . Do you pay extra money to enjoy this service ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

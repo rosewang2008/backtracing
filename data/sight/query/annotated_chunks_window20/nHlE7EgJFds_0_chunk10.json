@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 0,
+        "timestamp": 1684702121808.0,
+        "annotatedSourceSentencesIndices": [
+            6,
+            7,
+            8
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "May I say that the vectors in R span the same space as vectors in A after row operation because you can do a reverse ROW operation and construct the same vectors in A from R? It can't be true for column space because after row operations you most likely can't reverse and reconstruct the original column vectors from R through COLUMN combinations."
+    }
+]

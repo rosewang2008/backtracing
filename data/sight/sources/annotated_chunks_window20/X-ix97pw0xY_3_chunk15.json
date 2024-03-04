@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, again, modeling."
+    },
+    {
+        "text": "So this was the random component."
+    },
+    {
+        "text": "This was the easy part."
+    },
+    {
+        "text": "Now I need to just pour in some domain knowledge about how do I think this function, this y, which is the rate of capture of preys."
+    },
+    {
+        "text": "I want to understand how this thing is actually changing."
+    },
+    {
+        "text": "What is the randomness of the thing around its mean?"
+    },
+    {
+        "text": "And something that comes from this textbook, the standard deviation of capture rate might be approximately proportional to the mean rate."
+    },
+    {
+        "text": "You need to find a distribution that actually has this property."
+    },
+    {
+        "text": "And it turns out that this happens for gamma distribution."
+    },
+    {
+        "text": "In gamma distributions, just like, say, for Poisson distribution, for Poisson, the variance and the mean are of the same order."
+    },
+    {
+        "text": "Here is the standard deviation that's of the same order as the mean for gammas."
+    },
+    {
+        "text": "And it's a positive distribution as well."
+    },
+    {
+        "text": "So here is a candidate."
+    },
+    {
+        "text": "Now, since we're sort of constrained to work under the exponential family of distributions, then you can just go through your list and just decide which one works best for you."
+    },
+    {
+        "text": "All right, third example."
+    },
+    {
+        "text": "So here we have binary response."
+    },
+    {
+        "text": "Here, essentially, the binary response variable indicates the presence or absence of post-covariative deforming for kyphosis on children."
+    },
+    {
+        "text": "And here, rather than having one covariate, which was before, in the first example, was time, in the second example was the density, here there's three covariates."
+    },
+    {
+        "text": "So you measure on children."
+    },
+    {
+        "text": "The first one is age of the child."
+    }
+]

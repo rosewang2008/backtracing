@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "An interesting meeting , isn't it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "interesting meeting"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "An interesting meeting , isn't it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , very . I thought the last speaker was especially good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "interesting meeting",
+            "Yes , very . I thought the last speaker was especially good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , very . I thought the last speaker was especially good .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Let me introduce myself , by the way . My name's Thomas Bradley .",
+        "emotion": "neutral",
+        "text": "Let me introduce myself , by the way . My name's Thomas Bradley .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How do you do ? I'm Ted Nugent .",
+        "emotion": "neutral",
+        "text": "How do you do ? I'm Ted Nugent .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sorry , what was your last name again ?",
+        "emotion": "neutral",
+        "text": "Sorry , what was your last name again ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's Nugent , N-U-G-E-N-T , but just call me Ted .",
+        "emotion": "neutral",
+        "text": "It's Nugent , N-U-G-E-N-T , but just call me Ted .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Ok , I'm Tom .",
+        "emotion": "neutral",
+        "text": "Ok , I'm Tom .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Glad to meet you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "meet you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Glad to meet you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "And what do you do , Ted ?",
+        "emotion": "neutral",
+        "text": "And what do you do , Ted ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Me ? I'm in the car business .",
+        "emotion": "neutral",
+        "text": "Me ? I'm in the car business .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Salesman ?",
+        "emotion": "neutral",
+        "text": "Salesman ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , that's right . And how about you ?",
+        "emotion": "neutral",
+        "text": "Yes , that's right . And how about you ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I work for American Airlines .",
+        "emotion": "neutral",
+        "text": "I work for American Airlines .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , really ? What do you do there exactly ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I work for American Airlines ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ? What do you do there exactly ?",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm in the Personnel Department .",
+        "emotion": "neutral",
+        "text": "I'm in the Personnel Department .",
+        "id": 15
+    }
+]

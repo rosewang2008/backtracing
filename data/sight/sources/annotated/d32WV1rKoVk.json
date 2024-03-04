@@ -1,0 +1,1595 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, why don't I start?"
+    },
+    {
+        "text": "So I was hoping that we would have the next online assignment ready, but Julia 6, the new version, is slowing us down."
+    },
+    {
+        "text": "And it'd probably be next time."
+    },
+    {
+        "text": "But my lectures, of course, are, well, what I want to say perhaps is this isn't intended to be a course in numerical linear algebra."
+    },
+    {
+        "text": "But I thought I couldn't let the whole semester go by without saying something about how to compute eigenvalues and singular values."
+    },
+    {
+        "text": "Of course, you're going to call I or SVD or the equivalent in Python or Julia."
+    },
+    {
+        "text": "But actually, the QR factorization that we spoke about, that we spoke entirely about last time is the key, unexpectedly, unexpectedly."
+    },
+    {
+        "text": "You have a matrix A whose eigenvalues you want."
+    },
+    {
+        "text": "So let's start with eigenvalues."
+    },
+    {
+        "text": "And it might be a symmetric matrix."
+    },
+    {
+        "text": "I'll stay with A rather than S because it doesn't have to be."
+    },
+    {
+        "text": "But you get special always."
+    },
+    {
+        "text": "You get something special if the matrix is symmetric."
+    },
+    {
+        "text": "OK, so this method of computing eigenvalues, to me at least, and I think to many people, came like out of the blue a while ago, but not that long ago."
+    },
+    {
+        "text": "And it worked very well."
+    },
+    {
+        "text": "So here's the idea."
+    },
+    {
+        "text": "It's called the QR method because you start by factoring your matrix into QR."
+    },
+    {
+        "text": "So here's A."
+    },
+    {
+        "text": "Can we call it A0?"
+    },
+    {
+        "text": "That's the matrix we start with whose eigenvalues we want."
+    },
+    {
+        "text": "And I'll call these Q0 and R0."
+    },
+    {
+        "text": "And you remember what that means, what's hiding behind those letters that I've written?"
+    },
+    {
+        "text": "You have the columns of A, possibly symmetric, as I said, but not orthogonal, usually."
+    },
+    {
+        "text": "So you find an orthogonal basis."
+    },
+    {
+        "text": "You orthogonalize them."
+    },
+    {
+        "text": "You line them up perpendicular to each other."
+    },
+    {
+        "text": "And then there is a matrix R, which happens to be upper triangular, that connects."
+    },
+    {
+        "text": "The not orthogonal basis with the orthogonal basis."
+    },
+    {
+        "text": "Right, we constructed R step by step."
+    },
+    {
+        "text": "And then the idea is write these in the reverse order."
+    },
+    {
+        "text": "And that will be A1, the next A. OK, and then do it again, and again, and again."
+    },
+    {
+        "text": "And so we're hoping, of course, that the eigenvalues didn't change."
+    },
+    {
+        "text": "We're hoping that we can forget A0, start again with A1, and produce A2, and continue."
+    },
+    {
+        "text": "So we're hoping two things."
+    },
+    {
+        "text": "One will not be a hope."
+    },
+    {
+        "text": "We can see that the eigenvalues of A1 and A0 are the same."
+    },
+    {
+        "text": "So we have not changed the eigenvalues."
+    },
+    {
+        "text": "How do we see that?"
+    },
+    {
+        "text": "If you had to show that two matrices had the same eigenvalues, would you compute all the eigenvalues and compare them?"
+    },
+    {
+        "text": "Certainly not."
+    },
+    {
+        "text": "What would you do?"
+    },
+    {
+        "text": "What's the best test, the usual test, the usual thing you would want to show?"
+    },
+    {
+        "text": "They're similar."
+    },
+    {
+        "text": "That's right."
+    },
+    {
+        "text": "So the claim would be that these two matrices are similar."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "So maybe we should show that."
+    },
+    {
+        "text": "So we want to write A1 in a different way."
+    },
+    {
+        "text": "So the claim is A1 is similar to A."
+    },
+    {
+        "text": "So we just have to figure out."
+    },
+    {
+        "text": "We have to get A1 to A0."
+    },
+    {
+        "text": "So here's A1."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So A1, I want to show that that's right."
+    },
+    {
+        "text": "So that's R0, Q0."
+    },
+    {
+        "text": "But what is Q0?"
+    },
+    {
+        "text": "From here, Q0 is what we is R. Q0 is, what do I want?"
+    },
+    {
+        "text": "I want to put R0 inverse over there."
+    },
+    {
+        "text": "So R0."
+    },
+    {
+        "text": "Now for Q0, I'm going to substitute."
+    },
+    {
+        "text": "So what is Q0?"
+    },
+    {
+        "text": "I multiply both sides of that equation by R0 inverse."
+    },
+    {
+        "text": "So Q0 is A0 is, sorry, I said A and wrote Q. A0 R0 inverse."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "For Q0, I've put in what it equals."
+    },
+    {
+        "text": "And that's done it."
+    },
+    {
+        "text": "That's exactly telling me that A1, which is this, equals this."
+    },
+    {
+        "text": "And that's a similarity transformation."
+    },
+    {
+        "text": "I have not changed the eigenvalues."
+    },
+    {
+        "text": "So that's OK."
+    },
+    {
+        "text": "The other thing, which is the, like you could say, the miracle in this thing, is that when I continue to do that for almost every matrix, the matrices begin to lose stuff off the diagonal, especially below the diagonal by the ordering that QR is done."
+    },
+    {
+        "text": "So you tend to start with a matrix A0."
+    },
+    {
+        "text": "You get a matrix A1, which is like a little smaller here."
+    },
+    {
+        "text": "This part being not especially smaller."
+    },
+    {
+        "text": "You do it again."
+    },
+    {
+        "text": "This is even smaller."
+    },
+    {
+        "text": "So I put even smaller A2, even smaller."
+    },
+    {
+        "text": "And you keep going."
+    },
+    {
+        "text": "And for most matrices, the result is that I don't know how many steps we want to think of taking, but we get quite small numbers here."
+    },
+    {
+        "text": "So once we get small numbers here, little epsilons, that's everybody's shorthand for small numbers, what would you expect to see on the diagonal?"
+    },
+    {
+        "text": "The eigenvalues."
+    },
+    {
+        "text": "Because this has the same eigenvalues as this, as this, as this."
+    },
+    {
+        "text": "And these little epsilons are not going to change the eigenvalues too much."
+    },
+    {
+        "text": "So these will be, on the diagonal, will be close to the eigenvalues."
+    },
+    {
+        "text": "And actually, what happens is this one comes first."
+    },
+    {
+        "text": "That one is quite accurate first."
+    },
+    {
+        "text": "I guess we should probably do a simple example to see this happen."
+    },
+    {
+        "text": "Actually, I do an example in the notes."
+    },
+    {
+        "text": "And let me say what happens."
+    },
+    {
+        "text": "So I do a 2 by 2 example, which has something like cos theta, sine theta."
+    },
+    {
+        "text": "I don't know what."
+    },
+    {
+        "text": "I've forgotten what I took."
+    },
+    {
+        "text": "And I don't have that page of notes here."
+    },
+    {
+        "text": "Something here."
+    },
+    {
+        "text": "Something here."
+    },
+    {
+        "text": "Something here as a 0."
+    },
+    {
+        "text": "And then a 1, after just one step, has sine cubed theta there."
+    },
+    {
+        "text": "And numbers there that are getting much closer to the eigenvalues."
+    },
+    {
+        "text": "Sorry that this isn't a full scale example."
+    },
+    {
+        "text": "But the point of the example is here, that this off-diagonal entry gets cubed."
+    },
+    {
+        "text": "And the next step will be its ninth power, and then the 27th power."
+    },
+    {
+        "text": "So it's really quickly going to 0."
+    },
+    {
+        "text": "And this happens."
+    },
+    {
+        "text": "So cubic convergence is a prize."
+    },
+    {
+        "text": "In numerical linear algebra."
+    },
+    {
+        "text": "So that happens."
+    },
+    {
+        "text": "So this arrived on the scene and quickly blew away all other methods that were being used to compute eigenvalues."
+    },
+    {
+        "text": "But numerical people, being what they are, they wanted to improve it."
+    },
+    {
+        "text": "Like, is there a way to make it faster?"
+    },
+    {
+        "text": "And turned out there is."
+    },
+    {
+        "text": "It turned out that the better way, basically the same idea, but just you're always looking for a simple change."
+    },
+    {
+        "text": "And the idea of introducing a shift was tried."
+    },
+    {
+        "text": "And turned out to work extremely well."
+    },
+    {
+        "text": "So that's the improvement."
+    },
+    {
+        "text": "So we take a1."
+    },
+    {
+        "text": "No, so how does the shift work?"
+    },
+    {
+        "text": "So instead of a0, have I got space here to do this?"
+    },
+    {
+        "text": "Instead of a0, I take a0 minus a shift."
+    },
+    {
+        "text": "So a shift is some multiple of the identity."
+    },
+    {
+        "text": "If I just move a matrix by a multiple of the identity, what happens to its eigenvectors?"
+    },
+    {
+        "text": "What happens to its eigenvalues?"
+    },
+    {
+        "text": "Something pretty simple, right?"
+    },
+    {
+        "text": "Because I'm just shifting by si."
+    },
+    {
+        "text": "What happens to its eigenvectors?"
+    },
+    {
+        "text": "They're the same."
+    },
+    {
+        "text": "And what happens to the eigenvalues?"
+    },
+    {
+        "text": "They change by s. If a0v equals lambda v, then when I multiply this by v, there will be an extra."
+    },
+    {
+        "text": "It'll be lambda minus s. Because the identity times the v is just v. So it just shifts all the eigenvalues by s. And you try to shift."
+    },
+    {
+        "text": "You look for a shift."
+    },
+    {
+        "text": "This would be great."
+    },
+    {
+        "text": "If you knew lambda n, a shift there, you would be looking for 0 then, if you shifted them all by that lambda."
+    },
+    {
+        "text": "And it turns out that would speed things up."
+    },
+    {
+        "text": "So you work instead with this matrix as now, again, I'm factoring in a q0, r0."
+    },
+    {
+        "text": "So that's the work of the method, is in doing Gram-Schmidt at every step."
+    },
+    {
+        "text": "And then there's a little work in reversing the order."
+    },
+    {
+        "text": "And then I want to undo the shift."
+    },
+    {
+        "text": "So I do that factorization."
+    },
+    {
+        "text": "Now, let's see."
+    },
+    {
+        "text": "You may have to help me to remember what I should do here."
+    },
+    {
+        "text": "So I factor those."
+    },
+    {
+        "text": "I reverse those."
+    },
+    {
+        "text": "And then I think I add back the shift."
+    },
+    {
+        "text": "And that's my A1."
+    },
+    {
+        "text": "So I took A0."
+    },
+    {
+        "text": "I shifted it."
+    },
+    {
+        "text": "I worked with it, qr, reversed the order, rq, added back the shift to get a matrix."
+    },
+    {
+        "text": "And what am I, of course, hoping about the matrix A1 and A0?"
+    },
+    {
+        "text": "I'm hoping they're still similar."
+    },
+    {
+        "text": "I'm hoping."
+    },
+    {
+        "text": "So I did a shift."
+    },
+    {
+        "text": "And I undid a shift."
+    },
+    {
+        "text": "But of course, after doing a qr, I have to check, are these really still similar?"
+    },
+    {
+        "text": "So let me just try to check that one again."
+    },
+    {
+        "text": "Maybe I'll just, it's sitting right there."
+    },
+    {
+        "text": "So let me do it again."
+    },
+    {
+        "text": "I'm hoping that something, you know, where did we change?"
+    },
+    {
+        "text": "Oh, yeah, here."
+    },
+    {
+        "text": "We showed that A1 was similar to A0."
+    },
+    {
+        "text": "And I'm hoping that's probably still true, even, you know, the shift didn't mess that up."
+    },
+    {
+        "text": "Let's just try."
+    },
+    {
+        "text": "So A0, that's r0, q0 plus si."
+    },
+    {
+        "text": "OK. And now what am I going to do?"
+    },
+    {
+        "text": "I'm going to, what did I do before?"
+    },
+    {
+        "text": "I figured out what q0 was from this."
+    },
+    {
+        "text": "You remember?"
+    },
+    {
+        "text": "So this is r0."
+    },
+    {
+        "text": "Now I have to put in q0."
+    },
+    {
+        "text": "But q0 is this thing inverse times this."
+    },
+    {
+        "text": "Is this going to work?"
+    },
+    {
+        "text": "I'm like hoping, but I don't think I wanted to get that."
+    },
+    {
+        "text": "No, it's not q0 there."
+    },
+    {
+        "text": "What do I put here?"
+    },
+    {
+        "text": "And if it doesn't work, we'll leave it as an exercise."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So yeah, because I didn't sort of start right somehow."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So but let me just push along to see what happens."
+    },
+    {
+        "text": "So I'm plugging in for q0 here."
+    },
+    {
+        "text": "I'm plugging in this matrix, so it shouldn't have inverted it, times r0 inverse."
+    },
+    {
+        "text": "Who knows?"
+    },
+    {
+        "text": "It might work."
+    },
+    {
+        "text": "Who knows?"
+    },
+    {
+        "text": "So that's the r0, q0."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "Is everybody with me?"
+    },
+    {
+        "text": "Sorry about this."
+    },
+    {
+        "text": "So r0 inverse."
+    },
+    {
+        "text": "And then I have to add Si."
+    },
+    {
+        "text": "So what have I done?"
+    },
+    {
+        "text": "I've just pushed on, believing that this would work."
+    },
+    {
+        "text": "Because it's the method that is constantly used."
+    },
+    {
+        "text": "Now do I have?"
+    },
+    {
+        "text": "What do I have there?"
+    },
+    {
+        "text": "Is it working?"
+    },
+    {
+        "text": "This is r0 A."
+    },
+    {
+        "text": "That was, of course, A0."
+    },
+    {
+        "text": "r0 A0 r0 inverse."
+    },
+    {
+        "text": "r0 A0 r0 inverse."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Minus S. What have I got there?"
+    },
+    {
+        "text": "From the r0 minus Si r0, what is that?"
+    },
+    {
+        "text": "That's minus Si."
+    },
+    {
+        "text": "Look, success."
+    },
+    {
+        "text": "The r0 cancels the r0 inverse."
+    },
+    {
+        "text": "So that term from that, that, that is minus Si."
+    },
+    {
+        "text": "Cancels plus Si."
+    },
+    {
+        "text": "I'm finished."
+    },
+    {
+        "text": "And lo and behold, we have the same similarity."
+    },
+    {
+        "text": "So we messed around by a multiple of the identity, and it actually makes the thing converge faster if we choose the shifts well."
+    },
+    {
+        "text": "But basically, the same idea is still working."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the QR method."
+    },
+    {
+        "text": "Well, that's the method we haven't shown and won't show."
+    },
+    {
+        "text": "Except for this half-completed example, I don't plan to prove that the lower triangular part begins to disappear, gets smaller and smaller and smaller, and then the eigenvalues pop up on the diagonal."
+    },
+    {
+        "text": "It's amazing."
+    },
+    {
+        "text": "Amazing."
+    },
+    {
+        "text": "OK. Now, is there any other improvement we can make?"
+    },
+    {
+        "text": "So that's the method."
+    },
+    {
+        "text": "And where is the work in using that method?"
+    },
+    {
+        "text": "Because that's what we always focus on."
+    },
+    {
+        "text": "Where are we spending computer time?"
+    },
+    {
+        "text": "Well, we're spending computer time in doing the factorization."
+    },
+    {
+        "text": "So it didn't cost anything to shift by the identity, but then we had to factor that into Q0, R0."
+    },
+    {
+        "text": "Then it didn't cost much to multiply them in the opposite order."
+    },
+    {
+        "text": "So the work was in QR."
+    },
+    {
+        "text": "So could we think of anything to improve that aspect?"
+    },
+    {
+        "text": "Could we think of anything there?"
+    },
+    {
+        "text": "And then we've got a really first-class method."
+    },
+    {
+        "text": "Well, if the matrix A, A0, the matrix we started with, had some zeros that allowed us to skip steps in doing the QR factorization."
+    },
+    {
+        "text": "So what am I going to say?"
+    },
+    {
+        "text": "I'm going to say if A or A0, our original matrix, has a bunch of zeros, let's say it's got a whole lot of zeros there."
+    },
+    {
+        "text": "Maybe it's, well, OK."
+    },
+    {
+        "text": "I overdid it here."
+    },
+    {
+        "text": "I know the eigenvalues right off."
+    },
+    {
+        "text": "But so the truth is I can't, saying that if that, it's not going to happen."
+    },
+    {
+        "text": "But we can get zeros with one extra diagonal."
+    },
+    {
+        "text": "That turns out, so here's the main diagonal."
+    },
+    {
+        "text": "Everybody's got his eye on the main diagonal."
+    },
+    {
+        "text": "And one diagonal, I can get a lot of zeros."
+    },
+    {
+        "text": "But I can't by simple computations."
+    },
+    {
+        "text": "And I'll show you how to get one."
+    },
+    {
+        "text": "But I can't get all those to be 0, because then I would have the eigenvalues right there."
+    },
+    {
+        "text": "And that, well, how do I know that I can't?"
+    },
+    {
+        "text": "In elimination, ordinary solving AX equal B, you really do get to an upper triangular form."
+    },
+    {
+        "text": "Some operator, some elimination steps, you plug away, and your matrix becomes upper triangular U."
+    },
+    {
+        "text": "And you're golden."
+    },
+    {
+        "text": "But that's too much to expect here."
+    },
+    {
+        "text": "In fact, we know we can't do it by simple steps."
+    },
+    {
+        "text": "Because if we could do it, if we could get to a U with a whole lower triangular part 0, we would have found the eigenvalues."
+    },
+    {
+        "text": "And we know that the eigenvalues solve an equation of nth degree."
+    },
+    {
+        "text": "And we know somebody proved centuries or more ago that you can't solve an nth degree equation by simple little steps."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "Do you know who that was?"
+    },
+    {
+        "text": "And you know that fact?"
+    },
+    {
+        "text": "And what degree does it apply to?"
+    },
+    {
+        "text": "So that's an important fact that you sort of pick up in math."
+    },
+    {
+        "text": "Yeah, what do you?"
+    },
+    {
+        "text": "Fifth degree, yeah."
+    },
+    {
+        "text": "So 5 by 5 and up would be, this is impossible."
+    },
+    {
+        "text": "Impossible."
+    },
+    {
+        "text": "There's no formula to find a simple formula for the lambdas."
+    },
+    {
+        "text": "And similarly for the sigmas, the singular values."
+    },
+    {
+        "text": "So the eigenvalues is definitely a level of difficulty beyond Ax equal b, the inverse matrix or something, the pivots."
+    },
+    {
+        "text": "All that you can do exactly if you do exact arithmetic."
+    },
+    {
+        "text": "We cannot find the lambdas exactly."
+    },
+    {
+        "text": "But we can get as close as we like by continuing with the QR method."
+    },
+    {
+        "text": "So yeah, in other words, we have to settle for, if we want to, at the beginning, improve our matrix before we start doing that stuff."
+    },
+    {
+        "text": "We can get it with one extra diagonal."
+    },
+    {
+        "text": "And do you know what kind of a matrix, whose name?"
+    },
+    {
+        "text": "And I don't know why."
+    },
+    {
+        "text": "Yeah, say it again."
+    },
+    {
+        "text": "Upper Hessenberg."
+    },
+    {
+        "text": "So upper is just like upper triangular."
+    },
+    {
+        "text": "It's up there."
+    },
+    {
+        "text": "But the key person's name is Hessenberg."
+    },
+    {
+        "text": "As I say, that's a Hessenberg matrix."
+    },
+    {
+        "text": "So Hessenberg matrix is a matrix with one triangular plus one more diagonal."
+    },
+    {
+        "text": "But lots of zeros."
+    },
+    {
+        "text": "Order of n squared, something like almost like half n squared, not quite, but close, zeros."
+    },
+    {
+        "text": "And you could show that those zeros stay zeros in QR."
+    },
+    {
+        "text": "So that really pays off."
+    },
+    {
+        "text": "It cuts the work down significantly."
+    },
+    {
+        "text": "So the full QR method is step one, reduce A to Hessenberg form with these zeros."
+    },
+    {
+        "text": "And when I say reduce, I mean find a similarity transformation, of course, because I want the eigenvalues of this to end up the same as the Hessen."
+    },
+    {
+        "text": "I want to keep the same eigenvalues as I go."
+    },
+    {
+        "text": "And then step two is QR on this Hessenberg matrix with shifts."
+    },
+    {
+        "text": "So that's the code that would be programmed in IGAVE."
+    },
+    {
+        "text": "That's what MATLAB and, well, really, MATLAB is appealing, like other matrix systems, is appealing to LAPAC and LINPAC."
+    },
+    {
+        "text": "The team of professional numerical analysts really spent a lot of effort and time."
+    },
+    {
+        "text": "The book LAPAC has 10 authors."
+    },
+    {
+        "text": "And you can download any of these codes, like the eigenvalue code."
+    },
+    {
+        "text": "So that's where MATLAB naturally, that's sort of the Bible for codes in linear algebra."
+    },
+    {
+        "text": "OK, now, I think it's sort of interesting to know."
+    },
+    {
+        "text": "And there is one more good thing to tell you about this method."
+    },
+    {
+        "text": "And it applies if the matrix is symmetric."
+    },
+    {
+        "text": "If the matrix is symmetric, then if we check all this, we could find that the matrices stayed symmetric."
+    },
+    {
+        "text": "If A0 is symmetric, I can check."
+    },
+    {
+        "text": "You could easily check through this, and you would discover that A1 is also symmetric."
+    },
+    {
+        "text": "It turns out you could rewrite this with a Q0 and a Q0 inverse on the other side."
+    },
+    {
+        "text": "But that Q0 inverse is the same as Q0 transpose, because it's an orthogonal matrix, and symmetry would fall out."
+    },
+    {
+        "text": "So if it's symmetric, and it's in Hessenberg form, and it stays symmetric at every step, what can you tell me about a symmetric Hessenberg matrix?"
+    },
+    {
+        "text": "It's only got, yeah, you just erase all these."
+    },
+    {
+        "text": "If there are zeros there, and if the matrix is symmetric, then we can safely predict that it will only have one diagonal above, one non-zero diagonal above the main diagonal."
+    },
+    {
+        "text": "In fact, it'll stay symmetric."
+    },
+    {
+        "text": "So now I should write symmetric Hessenberg matrix, n equals tri-diagonal matrix."
+    },
+    {
+        "text": "Yeah, three diagonals."
+    },
+    {
+        "text": "So now you really have reduced the time to do QR, because you've got a tri-diagonal matrix."
+    },
+    {
+        "text": "It'll stay tri-diagonal in all these steps."
+    },
+    {
+        "text": "So you're working with just 3n numbers."
+    },
+    {
+        "text": "Well, actually, 2n, because the diagonal above and the diagonal below are the same."
+    },
+    {
+        "text": "You're working with just 2n numbers instead of order n squared, and it just goes like a bomb."
+    },
+    {
+        "text": "So that's I for symmetric matrices."
+    },
+    {
+        "text": "And you see that it was all based, that really the heart of the algorithm was QR."
+    },
+    {
+        "text": "So that's my, it took half the class to report on the favorite way, the EIG way, to find eigenvalues."
+    },
+    {
+        "text": "Oh, I should say something about singular values."
+    },
+    {
+        "text": "So singular values, of course, the singular values of the matrix are the eigenvalues of A transpose A, square root of those eigenvalues."
+    },
+    {
+        "text": "But you wouldn't do it that way."
+    },
+    {
+        "text": "You would never form A transpose A. Oh, I didn't mention the other thing you would never, ever, ever do."
+    },
+    {
+        "text": "So let me just put it here."
+    },
+    {
+        "text": "This is like in disgrace to solve that equation."
+    },
+    {
+        "text": "It's like, OK, back to first grade, because that's not, that's very bad."
+    },
+    {
+        "text": "A determinant, first of all, it's extremely slow, extremely slow."
+    },
+    {
+        "text": "And the determinant is packing all this n squared pieces of information into n coefficients, and it's hopelessly ill-conditioned."
+    },
+    {
+        "text": "Yeah, you just, you lose information all the time."
+    },
+    {
+        "text": "So really, if this is going on camera, it better go on camera with an x, because don't do it."
+    },
+    {
+        "text": "OK. Yeah."
+    },
+    {
+        "text": "So where was I?"
+    },
+    {
+        "text": "Singular values."
+    },
+    {
+        "text": "So A transpose A."
+    },
+    {
+        "text": "So again, let's think about what you could do at the beginning before starting on QR for A transpose A, or for the matrix A."
+    },
+    {
+        "text": "What could you do with orthogonal matrices?"
+    },
+    {
+        "text": "So I guess, what did we say about symmetric matrices?"
+    },
+    {
+        "text": "So here's what I said about symmetric matrices."
+    },
+    {
+        "text": "If you give me a symmetric matrix, I can, in just a simple number of simple steps, make it tridiagonal."
+    },
+    {
+        "text": "I can't make it diagonal, because then I'd be finding the eigenvalues, and Abel, who was the first person to see that that was impossible, forbids it."
+    },
+    {
+        "text": "But so let me write down what I'm saying here."
+    },
+    {
+        "text": "If I have a symmetric matrix S, I can find a bunch of Q's and Q transposes, and I can put them all together into one big Q, and it's transposed."
+    },
+    {
+        "text": "And what do I know about the eigenvalues of that matrix?"
+    },
+    {
+        "text": "Q is orthogonal always."
+    },
+    {
+        "text": "So what can you tell me about the, this is the same as Q S Q inverse, and therefore, the eigenvalues are the same."
+    },
+    {
+        "text": "It's similar to S. And it becomes tridiagonal after I find a good Q."
+    },
+    {
+        "text": "Now, and therefore, same lambdas, tridiagonal with the same lambdas."
+    },
+    {
+        "text": "Now, what am I thinking about here?"
+    },
+    {
+        "text": "I'm thinking about, tell me the corresponding possibility about singular values."
+    },
+    {
+        "text": "I want to do something to my matrix."
+    },
+    {
+        "text": "Now, I'm always taking a general matrix A."
+    },
+    {
+        "text": "And I'm looking for its singular values."
+    },
+    {
+        "text": "And I'm looking to simplify it."
+    },
+    {
+        "text": "And what am I allowed to do?"
+    },
+    {
+        "text": "Yeah, I guess my question is, similarity transformations left the eigenvalues alone."
+    },
+    {
+        "text": "What can I do that leaves the singular values alone?"
+    },
+    {
+        "text": "That's a fundamental question, because it was so fundamental for eigenvalues."
+    },
+    {
+        "text": "By doing this, a matrix and its inverse, I got something similar."
+    },
+    {
+        "text": "And I checked even in this class that the eigenvalues, same lambdas."
+    },
+    {
+        "text": "Now I want a whole line that ends up with the same sigmas."
+    },
+    {
+        "text": "And I want you to tell me what I'm allowed to do to the matrix without changing the sigmas."
+    },
+    {
+        "text": "So maybe don't shout it out immediately."
+    },
+    {
+        "text": "Let everybody think."
+    },
+    {
+        "text": "What am I allowed to do to a matrix?"
+    },
+    {
+        "text": "Every matrix has got these singular values."
+    },
+    {
+        "text": "And now I want to make it a better matrix with more 0's or something."
+    },
+    {
+        "text": "If I do that to it, does that change the sigmas?"
+    },
+    {
+        "text": "Can I do more than that to it?"
+    },
+    {
+        "text": "What can I do?"
+    },
+    {
+        "text": "What group of matrices will have the same sigmas as my starting matrix A?"
+    },
+    {
+        "text": "So that's a basic, basic question about singular values and the SVD."
+    },
+    {
+        "text": "So let's think of the answer together."
+    },
+    {
+        "text": "So it's connected to the SVD."
+    },
+    {
+        "text": "So let me remember the SVD."
+    },
+    {
+        "text": "The SVD, I have some orthogonal matrix, then the singular value matrix, SV for singular values, and then another orthogonal matrix."
+    },
+    {
+        "text": "What could I do to that equation that would not touch this guy?"
+    },
+    {
+        "text": "So I'm asking what invariance, because not touching it means leaving it not varying."
+    },
+    {
+        "text": "So I'm looking for under what operations are the singular values invariant?"
+    },
+    {
+        "text": "When I was looking at eigenvalues, this was the operation."
+    },
+    {
+        "text": "Well, it didn't have to be orthogonal."
+    },
+    {
+        "text": "It's something, and it's inverse."
+    },
+    {
+        "text": "But now what is it up there?"
+    },
+    {
+        "text": "What could I do to that matrix A?"
+    },
+    {
+        "text": "Could I multiply by Q?"
+    },
+    {
+        "text": "Could I throw in a Q?"
+    },
+    {
+        "text": "Maybe not even on the other end."
+    },
+    {
+        "text": "If I throw in an orthogonal Q, do I change the singular values or do I not change them?"
+    },
+    {
+        "text": "Fundamental question."
+    },
+    {
+        "text": "The answer is no, I don't change them."
+    },
+    {
+        "text": "I'm allowed to do that, because here's an orthogonal matrix, a Q times U."
+    },
+    {
+        "text": "If both of those are orthogonal, then the product is."
+    },
+    {
+        "text": "Everybody knows that a product of two orthogonal matrix is still orthogonal."
+    },
+    {
+        "text": "Better know that."
+    },
+    {
+        "text": "Better know that."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So if I have an orthogonal matrix Q and an orthogonal matrix U, I claim that this is still orthogonal."
+    },
+    {
+        "text": "And how do I check it?"
+    },
+    {
+        "text": "Well, I use some test for orthogonality."
+    },
+    {
+        "text": "What would be the test you like to use?"
+    },
+    {
+        "text": "The inverse is the same as the transpose."
+    },
+    {
+        "text": "You like that test?"
+    },
+    {
+        "text": "So I'll invert it."
+    },
+    {
+        "text": "Q U inverse."
+    },
+    {
+        "text": "Of course, for any matrix, that's U inverse Q inverse."
+    },
+    {
+        "text": "But these were separately orthogonal, so that's U transpose Q transpose."
+    },
+    {
+        "text": "And that is the same as Q U transpose."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I use the orthogonality of U and the orthogonality of Q to conclude that the inverse is the transpose."
+    },
+    {
+        "text": "So the answer is yes, I could do that."
+    },
+    {
+        "text": "Now, with singular value, with eigenvalues, I had to multiply on the other side by Q inverse or Q transpose."
+    },
+    {
+        "text": "Do I have to do that now?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "What can I do on the right-hand side?"
+    },
+    {
+        "text": "I can multiply by."
+    },
+    {
+        "text": "I can leave it alone."
+    },
+    {
+        "text": "Then it has the same singular values because it's the same sigma in there."
+    },
+    {
+        "text": "If I have a orthogonal matrix times a diagonal times an orthogonal, that diagonal, positive diagonal, is going to be sigma."
+    },
+    {
+        "text": "So what can I do on this side?"
+    },
+    {
+        "text": "I could multiply by any orthogonal matrix on that side, too."
+    },
+    {
+        "text": "So let's call this guy Q1 and this guy Q2."
+    },
+    {
+        "text": "I still have an orthogonal matrix there, orthogonal matrix there, and the same sigma popped in the middle."
+    },
+    {
+        "text": "So that's what you're allowed to do."
+    },
+    {
+        "text": "That gives us more freedom."
+    },
+    {
+        "text": "Before, when we had to do similarity transformations with the same guy, we got it to be tridiagonal."
+    },
+    {
+        "text": "But now we're allowed to do more stuff."
+    },
+    {
+        "text": "We're allowed to use different orthogonal matrices on the left and right."
+    },
+    {
+        "text": "And we can reduce it even further from tridiagonal to bidiagonal."
+    },
+    {
+        "text": "So the first step is getting 0."
+    },
+    {
+        "text": "The step of getting 0s reduces it all the way to that with all 0s there."
+    },
+    {
+        "text": "So it's easier."
+    },
+    {
+        "text": "Then I work on this."
+    },
+    {
+        "text": "I work on using a QR type idea, some method like that."
+    },
+    {
+        "text": "So everybody's seeing that our algorithm has got two stages."
+    },
+    {
+        "text": "One is get a lot of 0s and get them in places that will stay 0 as part 2 of the algorithm gets going."
+    },
+    {
+        "text": "And then run part 2 of the algorithm."
+    },
+    {
+        "text": "You're staying with each step is very fast now because doing a QR factorization is fast."
+    },
+    {
+        "text": "Was there a question?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I would call this bidiagonal, of course."
+    },
+    {
+        "text": "And everybody recognizes that if I have a bidiagonal matrix, call it A or A0 or whatever."
+    },
+    {
+        "text": "Then what do you think about A transpose A?"
+    },
+    {
+        "text": "What would A transpose A?"
+    },
+    {
+        "text": "If that was A, what could you tell me about A transpose A?"
+    },
+    {
+        "text": "Could you multiply matrices, like knowing where the non-zeros are, like in your head, and get an idea of where?"
+    },
+    {
+        "text": "So if I have a bidiagonal matrix A, then sort of implicitly in the SVD, I'm looking at A transpose A."
+    },
+    {
+        "text": "And what would be true about A transpose A?"
+    },
+    {
+        "text": "It would be tridiagonal."
+    },
+    {
+        "text": "So what I've done here and what I've done there just match up."
+    },
+    {
+        "text": "If you don't want to change singular values, you can get all the way to here."
+    },
+    {
+        "text": "But then to find those singular values, that would involve A transpose A."
+    },
+    {
+        "text": "It would be symmetric and tridiagonal."
+    },
+    {
+        "text": "And then you'd be in that game."
+    },
+    {
+        "text": "So those are the basic facts of I and SVD."
+    },
+    {
+        "text": "For matrices of order up to 1,000, say."
+    },
+    {
+        "text": "I'm not enough of an expert to know where."
+    },
+    {
+        "text": "Maybe higher, because in perfect math, it's going to take infinitely many steps."
+    },
+    {
+        "text": "Or Abel would be very surprised."
+    },
+    {
+        "text": "He would see you solving for eigenvalues and then to re-equation by a whole lot of little steps and getting them exactly right."
+    },
+    {
+        "text": "That won't happen."
+    },
+    {
+        "text": "But you get them within epsilon in a number of steps that's like n cubed."
+    },
+    {
+        "text": "So that's pretty impressive."
+    },
+    {
+        "text": "The eigenvalue problem is being solved, in quotes, by a fast method that gets you a good answer within a tolerance in n cubed steps."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "So that's great as long as n isn't too big."
+    },
+    {
+        "text": "And then when n is too big, which of course happens, you have to think again."
+    },
+    {
+        "text": "So this method is a giant success up to large matrices."
+    },
+    {
+        "text": "But then you have to think again."
+    },
+    {
+        "text": "And what is involved in thinking again?"
+    },
+    {
+        "text": "Well, I guess more thinking."
+    },
+    {
+        "text": "So what do you do if the matrix is bigger?"
+    },
+    {
+        "text": "I guess that Krylov would say, use my method."
+    },
+    {
+        "text": "So Krylov would say, especially if your matrix is sparse."
+    },
+    {
+        "text": "Can we just remember what Krylov was?"
+    },
+    {
+        "text": "Krylov started with a vector b, multiplied it by a, multiplied that by a, and got up to, let's say, a to the 999b."
+    },
+    {
+        "text": "So now Krylov has got 1,000 dimensional space."
+    },
+    {
+        "text": "He's got a basis for it, 1,000 vectors that span 1,000 dimensional space."
+    },
+    {
+        "text": "And he'll look at the matrix A only on that space."
+    },
+    {
+        "text": "In other words, I won't go into detail about that."
+    },
+    {
+        "text": "He restricts the matrix to this 1,000 dimensional space."
+    },
+    {
+        "text": "And he hopes that it's captured."
+    },
+    {
+        "text": "We hope that the eigenvector is virtually in that space."
+    },
+    {
+        "text": "And actually, I wouldn't go up to, let me take a 9 out of that."
+    },
+    {
+        "text": "100 dimensional would probably catch the eigenvector."
+    },
+    {
+        "text": "So if the eigenvector is virtually in this space, then we can look at a matrix of order 100."
+    },
+    {
+        "text": "We can bring A down to just see its action on that space."
+    },
+    {
+        "text": "So I look at vectors V, which are some combination, C1b plus C2ab plus C3a squared b and C100 a to the 99th b, plus an error."
+    },
+    {
+        "text": "And I'm going to ignore that error."
+    },
+    {
+        "text": "Because I've gone up to dimension 100."
+    },
+    {
+        "text": "I probably say it's pretty safe to ignore that error."
+    },
+    {
+        "text": "And then in this space, just looking at the matrix A."
+    },
+    {
+        "text": "So wherever A to the 100th comes in, forget it."
+    },
+    {
+        "text": "Just think about the matrix A as multiplying vectors of this kind in this space."
+    },
+    {
+        "text": "Then I have a 100 by 100 eigenvalue problem."
+    },
+    {
+        "text": "And so the big matrix A is reduced to a matrix of size 100 by, do you see sort of what I'm saying, even though I'm not giving the details?"
+    },
+    {
+        "text": "Think of a matrix A of size a million."
+    },
+    {
+        "text": "And you apply it to Krylov vectors."
+    },
+    {
+        "text": "So I call them little k for a Krylov vector in this 100-dimensional space."
+    },
+    {
+        "text": "So they have a million minus 100, zero components, you could say, this k. This is in the Krylov space."
+    },
+    {
+        "text": "This is A, a million, k, 100."
+    },
+    {
+        "text": "It's a full, it's got a million components, but it's out of just 100-dimensional space."
+    },
+    {
+        "text": "So when I multiply by A, it'll be mostly in, mostly in, partly in the Krylov space, k 100, and a piece out of k 100."
+    },
+    {
+        "text": "And I just ignore that part of the matrix."
+    },
+    {
+        "text": "So I have a 100 by 100 problem, and I've solved to find the eigenvalues."
+    },
+    {
+        "text": "And they're a pretty good approximation to the eigenvalues, to the, hopefully, like the lowest 100 eigenvalues."
+    },
+    {
+        "text": "I'd like to know that."
+    },
+    {
+        "text": "But I might not be sure that this idea would give me the lowest 100, the first 100 eigenvalues of the million, of the matrix of size a million."
+    },
+    {
+        "text": "I'm just taking a few minutes here to sort of wave hands about what Krylov, the Krylov idea would do."
+    },
+    {
+        "text": "And I probably won't mention Krylov again this semester."
+    },
+    {
+        "text": "So what it can do is look at this particular type of space, because we can get a basis for it quickly, just multiply again and again by A."
+    },
+    {
+        "text": "Then we can orthogonalize that basis."
+    },
+    {
+        "text": "That's Graham-Schmidt in some form."
+    },
+    {
+        "text": "We're always going back to Graham-Schmidt."
+    },
+    {
+        "text": "Then I have a 100 by 100."
+    },
+    {
+        "text": "I have a subspace of size 100."
+    },
+    {
+        "text": "I look at what the matrix does in that space."
+    },
+    {
+        "text": "And I could look for, I could find eigenvalues restricted to that space."
+    },
+    {
+        "text": "They wouldn't be the perfect eigenvalues, but they would be accurate."
+    },
+    {
+        "text": "OK, so I didn't know it would take one class time to talk about finding eigenvalues and singular values, but we did some important things."
+    },
+    {
+        "text": "We remembered that similarity is the thing to check, thing to preserve, because it doesn't change the eigenvalues."
+    },
+    {
+        "text": "And then for singular values, what was the thing?"
+    },
+    {
+        "text": "You could multiply left and right by different orthogonal matrices."
+    },
+    {
+        "text": "And somehow, maybe that doesn't have an established name, multiplying left and right by a Q1 and a Q2 transpose."
+    },
+    {
+        "text": "Yeah, but the idea is clear."
+    },
+    {
+        "text": "And that doesn't change the singular values."
+    },
+    {
+        "text": "We're ready to move now into maybe our next step, which we don't spend a long time on."
+    },
+    {
+        "text": "We'll be like random sampling."
+    },
+    {
+        "text": "What if your matrix is just way too big?"
+    },
+    {
+        "text": "So that's a new, very new idea, very different idea in numerical linear algebra, is just to sample the matrix."
+    },
+    {
+        "text": "Could you believe that the answer is going to come out right just for a random sample?"
+    },
+    {
+        "text": "Well, the odds are in your favor."
+    },
+    {
+        "text": "OK, so that'll be Wednesday, and then we have lots of new, we'll move onward after that."
+    },
+    {
+        "text": "OK, see you Wednesday."
+    },
+    {
+        "text": "Thanks."
+    }
+]

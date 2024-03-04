@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I apologize for that . But the space is too small .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            7,
+            10
+        ],
+        "expanded emotion cause span": [
+            "You've just scratched my car .",
+            "a paint was scratched off .",
+            "I've just had it repainted .",
+            "I apologize for that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I apologize for that . But the space is too small .",
+        "id": 10,
+        "source_sentences": [
+            2,
+            2,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

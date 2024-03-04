@@ -1,0 +1,62 @@
+[
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Well, they're not really invertible either, right?"
+    },
+    {
+        "text": "So they're actually in stats textbooks, because remember, statisticians don't know how to integrate functions, but they know how to turn a function into a Gaussian integral, so we know it integrates to 1, and things like this."
+    },
+    {
+        "text": "Same thing here."
+    },
+    {
+        "text": "We don't know how to build functions that are invertible and map the entire real line to 0, 1, but there's all the cumulative distribution functions that do that for us."
+    },
+    {
+        "text": "So I can use any of those guys, and that's what I'm going to be doing, actually."
+    },
+    {
+        "text": "All right, so just to recap what I just said as we were speaking, so a normal linear model is not appropriate for those examples if only because the response variable is not necessarily Gaussian."
+    },
+    {
+        "text": "So and also because the linear model has to be, the mean has to be transformed before I can actually apply a linear model for all these plausible nonlinear models that I actually came up with."
+    },
+    {
+        "text": "So the family we're going to go for is the exponential family of distributions, and we're going to be able to show, so one of the nice part of this is to actually compute maximum likelihood estimators for those, right?"
+    },
+    {
+        "text": "In the linear model, maximum like, in the Gaussian linear model, maximum likelihood was as nice as it gets, right?"
+    },
+    {
+        "text": "This actually was the least squares estimator."
+    },
+    {
+        "text": "We had a closed form, x transpose x inverse x transpose y, and that was it."
+    },
+    {
+        "text": "We had to just take one derivative."
+    },
+    {
+        "text": "Here, we're going to have a generally concave likelihood."
+    },
+    {
+        "text": "We're not going to be able to actually solve this thing directly in closed form unless it's Gaussian, but we will have, we'll see actually how this is not just a black box optimization of a concave function."
+    },
+    {
+        "text": "We have a lot of properties of this concave function, and we will be able to show some iterative algorithms."
+    },
+    {
+        "text": "We'll basically see how, when you open the box of convex optimization, you will actually be able to see how things work and actually implement it using least squares."
+    },
+    {
+        "text": "So each iteration of this iterative algorithm will essentially be a least square, so that's actually quite huge."
+    },
+    {
+        "text": "It's also very demonstrative of statisticians being pretty ingenious so that they don't have to call in some statistical software, but just can repeatedly call their least squares oracle within a statistical software."
+    },
+    {
+        "text": "OK, so what is the exponential family?"
+    }
+]

@@ -1,0 +1,211 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I've got some great news for you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "great news"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've got some great news for you !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "did you get the position you wanted ?",
+        "emotion": "neutral",
+        "text": "did you get the position you wanted ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "yes , I'll be promoted to department manager .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "great news",
+            "I'll be promoted"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "yes , I'll be promoted to department manager .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm glad to hear that . Congratulations !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "great news",
+            "I'll be promoted"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad to hear that . Congratulations !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "thank you . Actually , I could not believe it at first . You know , there're so many outstanding people in our company . Many of them are qualified to fill that position .",
+        "emotion": "neutral",
+        "text": "thank you . Actually , I could not believe it at first . You know , there're so many outstanding people in our company . Many of them are qualified to fill that position .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "sure , but you really did great and outperformed the others . You deserved it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "great news",
+            "I'll be promoted",
+            "you really did great and outperformed",
+            "You deserved it !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "sure , but you really did great and outperformed the others . You deserved it !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "you really did great and outperformed",
+            "You deserved it !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thank you very much .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "you always have unique ideas and you're such a team leader .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            6,
+            6,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "great news",
+            "I'll be promoted",
+            "you really did great and outperformed",
+            "You deserved it !",
+            "you always have unique ideas",
+            "you're such a team leader ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "you always have unique ideas and you're such a team leader .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I appreciate it very much . You've been doing great . I expect to see you be promoted pretty soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            8,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "you really did great and outperformed",
+            "You deserved it !",
+            "you always have unique ideas",
+            "you're such a team leader .",
+            "You've been doing great . I expect to see you be promoted"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I appreciate it very much . You've been doing great . I expect to see you be promoted pretty soon .",
+        "id": 9,
+        "source_sentences": [
+            5,
+            5,
+            7,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "that's very nice of you to say so . I'll try my best . When will you start at the new position ?",
+        "emotion": "neutral",
+        "text": "that's very nice of you to say so . I'll try my best . When will you start at the new position ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "next week .",
+        "emotion": "neutral",
+        "text": "next week .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "so by then , you'll be in charge of the whole department .",
+        "emotion": "neutral",
+        "text": "so by then , you'll be in charge of the whole department .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "absolutely .",
+        "emotion": "neutral",
+        "text": "absolutely .",
+        "id": 13
+    }
+]

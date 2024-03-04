@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a great weekend that was !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a great weekend that was !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a great weekend that was !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My feelings exactly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a great weekend that was !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My feelings exactly .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I really enjoy the beach in the summer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I really enjoy the beach in the summer ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really enjoy the beach in the summer .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I couldn't agree with you more .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I really enjoy the beach in the summer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I couldn't agree with you more .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We should come here more often .",
+        "emotion": "happiness",
+        "explanation": "Assuming the phrase of suggestion  is not the actual cause of happiness emotion.",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I really enjoy the beach in the summer ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "We should come here more often .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You are absolutely right .",
+        "emotion": "happiness",
+        "explanation": "Assuming B is happy because A wants to come with them again.",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We should come here more often ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are absolutely right .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'd like to come back next weekend .",
+        "emotion": "happiness",
+        "explanation": "Assuming A is happy because they can come back on next weekend.",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'd like to come back next weekend ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'd like to come back next weekend .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's exactly the way I feel .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'd like to come back next weekend ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's exactly the way I feel .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I'll first do it in language."
+    },
+    {
+        "text": "And it's the following idea."
+    },
+    {
+        "text": "It's that if you take this orange line, which is called a secant line, and you think of the q, the point q is getting closer and closer to p, then the slope of that line will get closer and closer to the slope of the red line."
+    },
+    {
+        "text": "And if we draw it close enough, then that's going to be the correct line."
+    },
+    {
+        "text": "So that's really what I did, sort of in my brain, when I drew that first line."
+    },
+    {
+        "text": "And so that's the way I'm going to articulate it first now."
+    },
+    {
+        "text": "So the tangent line is equal to the limit of what's so-called secant lines, pq, as q tends to p. And here we're thinking of p as being fixed."
+    },
+    {
+        "text": "And q as varying."
+    },
+    {
+        "text": "Alright, so that's the, again this is still a geometric discussion."
+    },
+    {
+        "text": "But now we're going to be able to put symbols and formulas to this computation."
+    },
+    {
+        "text": "And we'll be able to work out formulas in any example."
+    },
+    {
+        "text": "So let's do that."
+    },
+    {
+        "text": "So first of all, I'm going to write out these points p and q again."
+    },
+    {
+        "text": "So maybe we'll put p here and q here."
+    },
+    {
+        "text": "And I'm thinking of this line through them."
+    },
+    {
+        "text": "I guess it was orange, so we'll leave it as orange."
+    },
+    {
+        "text": "And now I want to compute its slope."
+    },
+    {
+        "text": "And so this gradually, we'll do this in two steps."
+    },
+    {
+        "text": "And these steps will introduce us to the basic notations which are used throughout calculus, including multivariable calculus, across the board."
+    },
+    {
+        "text": "So the first notation that's used is, you imagine, here's the x-axis underneath, and here's the x0, the location directly below the point p. And we're traveling here a horizontal distance, which is denoted by delta x."
+    }
+]

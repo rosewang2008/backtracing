@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey ! The movie hasn't even started and they're almost gone !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Give me another pack ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Hey ! The movie hasn't even started and they're almost gone !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

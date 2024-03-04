@@ -1,0 +1,182 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Steve . When's the next time you're going to play golf ?",
+        "emotion": "neutral",
+        "text": "Hey Steve . When's the next time you're going to play golf ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm going out this Saturday .",
+        "emotion": "neutral",
+        "text": "I'm going out this Saturday .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you already have a foursome ?",
+        "emotion": "neutral",
+        "text": "Do you already have a foursome ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Unfortunately , we do . Let's plan for something together for Wednesday . We can go right after work .",
+        "emotion": "neutral",
+        "text": "Unfortunately , we do . Let's plan for something together for Wednesday . We can go right after work .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That sounds good . Where do you want to play ?",
+        "emotion": "neutral",
+        "text": "That sounds good . Where do you want to play ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "We won't have much time , so let's play somewhere close to work .",
+        "emotion": "neutral",
+        "text": "We won't have much time , so let's play somewhere close to work .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about Bellevue ? It's pretty close .",
+        "emotion": "neutral",
+        "text": "How about Bellevue ? It's pretty close .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "How much does it cost over there ?",
+        "emotion": "neutral",
+        "text": "How much does it cost over there ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Twilight rates are 21 dollars .",
+        "emotion": "neutral",
+        "text": "Twilight rates are 21 dollars .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's pretty good . Let's do it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Twilight rates are 21 dollars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's pretty good . Let's do it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Aright . I'll get a tee time for Wednesday at about 4",
+        "emotion": "neutral",
+        "text": "Aright . I'll get a tee time for Wednesday at about 4",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Make it 4",
+        "emotion": "neutral",
+        "text": "Make it 4",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Ok . I'll call you later when I get a tee time .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I'll call you later when I get a tee time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Ok . I'll call you later when I get a tee time .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Sounds good . I'll see you on Wednesday then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'll see you on Wednesday then ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sounds good . I'll see you on Wednesday then .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Aright . Have fun on Saturday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'll see you on Wednesday then ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aright . Have fun on Saturday .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Will do .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Have fun on Saturday ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Will do .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

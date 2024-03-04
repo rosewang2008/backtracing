@@ -1,0 +1,62 @@
+[
+    {
+        "text": "All right, then those parameters get names."
+    },
+    {
+        "text": "a is the shape parameter."
+    },
+    {
+        "text": "b is the scale parameter."
+    },
+    {
+        "text": "It doesn't really matter."
+    },
+    {
+        "text": "You have other things that are called the inverse gamma distribution, which has this form."
+    },
+    {
+        "text": "The difference is that the parameter alpha shows negatively there."
+    },
+    {
+        "text": "And then the inverse Gaussian distribution, just densities you can come up with."
+    },
+    {
+        "text": "And it just happened to fall in this family."
+    },
+    {
+        "text": "And there's other ones that you can actually put it there that we've seen before."
+    },
+    {
+        "text": "The chi square is actually part of this family."
+    },
+    {
+        "text": "The beta distribution is part of this family."
+    },
+    {
+        "text": "The binomial distribution is part of this family."
+    },
+    {
+        "text": "Well, that's easy because the Bernoulli was."
+    },
+    {
+        "text": "The negative binomial, which is some stopping time, the first time you hit a certain number of successes when you flip some Bernoulli coins."
+    },
+    {
+        "text": "So you can check for all of those."
+    },
+    {
+        "text": "And you will see that you can actually write them as part of the exponential family."
+    },
+    {
+        "text": "So the main goal of this slide is to convince you that this is actually a pretty broad range of distributions, because it basically includes everything we've seen, but not anything there."
+    },
+    {
+        "text": "Sorry, plus more."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Yeah?"
+    }
+]

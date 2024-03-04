@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Our trip to Italy ! I remember that day . We were going to visit the Trev fountain , and we got caught in the rain ...",
+            "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "... and you looked so adorable with your hair all wet . I had to take a picture of you standing there in that little alley , smiling and laughing in the rain ...",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

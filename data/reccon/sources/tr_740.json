@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "When can we expect you for dinner ? Can you come tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "When can we expect you for dinner ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "When can we expect you for dinner ? Can you come tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Not tonight . I promised to go to a concert with my sister .",
+        "emotion": "neutral",
+        "text": "Not tonight . I promised to go to a concert with my sister .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well ... How about Friday then ?",
+        "emotion": "neutral",
+        "text": "Well ... How about Friday then ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "When can we expect you for dinner ?",
+            "How about Friday",
+            "sounds fine ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That sounds fine .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good . Shall we say seven o'clock ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "sounds fine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . Shall we say seven o'clock ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'll be there . You're still a fabulous cook , aren't you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "When can we expect you for dinner ?",
+            "fabulous cook"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll be there . You're still a fabulous cook , aren't you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That'll be for you to decide . I've got a new dish that I want to try out on you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'll be there . You're still a fabulous cook",
+            "I've got a new dish that I want to try out on you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That'll be for you to decide . I've got a new dish that I want to try out on you .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'm ready . I'll look forward to it all Friday !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "fabulous cook",
+            "I've got a new dish that I want to try out on you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'm ready . I'll look forward to it all Friday !",
+        "id": 8
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , if I'm not living here anymore , then I won't have to listen to your rules .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "maybe that'll teach you to respect my rules ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , if I'm not living here anymore , then I won't have to listen to your rules .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

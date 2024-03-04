@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Come on , you must tell me everything about him .",
+        "emotion": "neutral",
+        "text": "Come on , you must tell me everything about him .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , he's very tall and handsome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , he's very tall and handsome .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hmm ...",
+        "emotion": "neutral",
+        "text": "Hmm ...",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He has big blue eyes and long blonde hair .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome .",
+            "big blue eyes and long blonde hair ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He has big blue eyes and long blonde hair .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , how long ?",
+        "emotion": "neutral",
+        "text": "Oh , how long ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Down to his shoulders . It's beautiful , like gold .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome .",
+            "big blue eyes and long blonde hair .",
+            "It's beautiful , like gold ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Down to his shoulders . It's beautiful , like gold .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK . OK . You'd better tell me what he does .",
+        "emotion": "neutral",
+        "text": "OK . OK . You'd better tell me what he does .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He's a very creative painter . His paintings sell well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome .",
+            "big blue eyes and long blonde hair .",
+            "It's beautiful , like gold .",
+            "He's a very creative painter . His paintings sell well ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He's a very creative painter . His paintings sell well .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "His paintings sell well ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "He's quite a patient teacher , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome .",
+            "big blue eyes and long blonde hair .",
+            "It's beautiful , like gold .",
+            "He's a very creative painter . His paintings sell well .",
+            "He's quite a patient teacher"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He's quite a patient teacher , too .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Fine .",
+        "emotion": "neutral",
+        "text": "Fine .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You're going to like him . Everybody says he's a nice guy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "tell me everything about him .",
+            "he's very tall and handsome .",
+            "big blue eyes and long blonde hair .",
+            "It's beautiful , like gold .",
+            "He's a very creative painter . His paintings sell well .",
+            "He's quite a patient teacher",
+            "Everybody says he's a nice guy ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You're going to like him . Everybody says he's a nice guy .",
+        "id": 12
+    }
+]

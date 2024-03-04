@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "OK ... well , then how much is one jin ?",
+        "emotion": "neutral",
+        "text": "OK ... well , then how much is one jin ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ginseng comes in 6 different grades . It runs from 5,000 to 30,000 NT a jin .",
+        "emotion": "neutral",
+        "text": "Ginseng comes in 6 different grades . It runs from 5,000 to 30,000 NT a jin .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "30,000 NT for ginseng ? ! Do I have to buy a whole jin ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "5,000 to 30,000 NT a jin .",
+            "Do I have to buy a whole jin ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "30,000 NT for ginseng ? ! Do I have to buy a whole jin ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You can get a liang if you want . A liang is one-sixteenth of a jin . That would be 330NT .",
+        "emotion": "neutral",
+        "text": "You can get a liang if you want . A liang is one-sixteenth of a jin . That would be 330NT .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Whew ! That sounds more like my price range . I'll take two liangs .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "A liang is one-sixteenth of a jin .",
+            "That sounds more like my price range ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Whew ! That sounds more like my price range . I'll take two liangs .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'll have my brother cut some for you .",
+        "emotion": "neutral",
+        "text": "I'll have my brother cut some for you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "This little red fruit looks good . What's it good for ?",
+        "emotion": "neutral",
+        "text": "This little red fruit looks good . What's it good for ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's a lucky fruit called hong zat ! People say that if you eat them , you will have your first son very soon !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "This little red fruit looks good .",
+            "That's a lucky fruit"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a lucky fruit called hong zat ! People say that if you eat them , you will have your first son very soon !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Uh ... , I'm not even married yet . How about this brown dried fruit ?",
+        "emotion": "neutral",
+        "text": "Uh ... , I'm not even married yet . How about this brown dried fruit ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Gui yuan are lucky , too ! If you eat them , you'll have a very sweet life !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Gui yuan are lucky ,",
+            "you'll have a very sweet life !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Gui yuan are lucky , too ! If you eat them , you'll have a very sweet life !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "And how about these little brown chips ?",
+        "emotion": "neutral",
+        "text": "And how about these little brown chips ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , that's deer horn . That helps you ... umm , how should I put it ?",
+        "emotion": "neutral",
+        "text": "Oh , that's deer horn . That helps you ... umm , how should I put it ?",
+        "id": 12
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Science ? What are you talking about ? Forget about your science , OK ? It's a picnic !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "we can also teach him something about science .",
+            "What are you talking about ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Science ? What are you talking about ? Forget about your science , OK ? It's a picnic !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

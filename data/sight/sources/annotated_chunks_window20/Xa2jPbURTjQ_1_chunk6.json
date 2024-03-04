@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I think it may be good for me to think of other examples or for us to think of other examples of orthogonal matrices."
+    },
+    {
+        "text": "So I'm using that word orthogonal matrix."
+    },
+    {
+        "text": "We should really be saying orthonormal."
+    },
+    {
+        "text": "And I'm really thinking mostly of square ones."
+    },
+    {
+        "text": "So in the square case, when Q transpose is Q inverse."
+    },
+    {
+        "text": "Of course, that fact makes it easy to solve all equations that have Q as a coefficient matrix, because you want the inverse and you just use the transpose."
+    },
+    {
+        "text": "OK, let's just take some minutes to think of examples of Qs, if they're so important there have to be interesting examples."
+    },
+    {
+        "text": "And that was a first one."
+    },
+    {
+        "text": "Now, there's one more 2 by 2 example that you should know."
+    },
+    {
+        "text": "Do you know what that would be?"
+    },
+    {
+        "text": "So this will be example 2."
+    },
+    {
+        "text": "And it's also going to be only 2 by 2 and real."
+    },
+    {
+        "text": "And what possibility have I got left here?"
+    },
+    {
+        "text": "I'll use the same first column, cos theta, sine theta, because that's more or less any unit vector in two dimensions."
+    },
+    {
+        "text": "This has got that form."
+    },
+    {
+        "text": "So what do you propose for the second column?"
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "Yeah, put the minus sign down here."
+    },
+    {
+        "text": "So you think, does that make any difference?"
+    },
+    {
+        "text": "So sine theta and minus cos theta."
+    }
+]

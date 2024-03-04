@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The music has started .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The music has started ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The music has started .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "How do you like this waltz ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The music has started ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How do you like this waltz ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's very nice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It's very nice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's very nice .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "May I ask you for a dance ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "May I ask you for a dance ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "May I ask you for a dance ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Certainly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "May I ask you for a dance ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Certainly .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You are doing the waltz wonderfully well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "You are doing the waltz wonderfully well ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You are doing the waltz wonderfully well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks . I'm glad you say so . Oh , the music has stopped .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "You are doing the waltz wonderfully well .",
+            "I'm glad you say so ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . I'm glad you say so . Oh , the music has stopped .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

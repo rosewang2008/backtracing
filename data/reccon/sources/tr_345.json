@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Monica , congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi , Monica , congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you , I just tried my best . I am very happy to know you like it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company .",
+            "I just tried my best . I am very happy to know you like it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you , I just tried my best . I am very happy to know you like it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You must have been prepared for a long time . Some statistics in this presentation are not easy to find , right ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company .",
+            "I just tried my best . I am very happy to know you like it ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You must have been prepared for a long time . Some statistics in this presentation are not easy to find , right ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , yes . Several colleagues from different departments helped me with that . They are very supportive . I consulted an economic expert last week . He was very kind to give valuable suggestions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "congratulations ! Your presentation at the meeting was very successful and everyone was impressed by your speech . And it was so persuasive and I bet our clients will be convinced to invest their money in this project . You really made a big contribution to our company .",
+            "I just tried my best . I am very happy to know you like it .",
+            "You must have been prepared for a long time . Some statistics in this presentation are not easy to find",
+            "Several colleagues from different departments helped me with that . They are very supportive . I consulted an economic expert last week . He was very kind to give valuable suggestions ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , yes . Several colleagues from different departments helped me with that . They are very supportive . I consulted an economic expert last week . He was very kind to give valuable suggestions .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Now , the effort pays off . You have accomplished something .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "the effort pays off . You have accomplished something ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Now , the effort pays off . You have accomplished something .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Come on , don ' t flatter me anymore . I took the job because I love being challenged . But I can ' t get this turned around without the support from you people .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "the effort pays off . You have accomplished something .",
+            "I took the job because I love being challenged . But I can ' t get this turned around without the support from you people ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Come on , don ' t flatter me anymore . I took the job because I love being challenged . But I can ' t get this turned around without the support from you people .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

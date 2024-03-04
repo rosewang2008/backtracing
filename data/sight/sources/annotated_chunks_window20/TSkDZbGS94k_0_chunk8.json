@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'm going to want to talk about generic models."
+    },
+    {
+        "text": "And then you're going to be able to plug in your favorite word, no Poisson, binomial, exponential, uniform, all these words that you've seen, you're going to be able to plug in there."
+    },
+    {
+        "text": "But we're just going to have some generic notation and some generic terminology for statistical models."
+    },
+    {
+        "text": "So here is the formal definition."
+    },
+    {
+        "text": "So I'm going to go through it with you."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so the definition is that of a statistical model."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so, sorry, that's a statistical experiment, I should say."
+    },
+    {
+        "text": "I'm sorry."
+    },
+    {
+        "text": "OK, so a statistical experiment is actually just a pair, E, and that's a set, and a family of distributions, P theta, where theta ranges in some set, capital theta."
+    },
+    {
+        "text": "OK, so I hope you're up to date with your Greek letters."
+    },
+    {
+        "text": "So it's a small theta, it's a capital theta."
+    },
+    {
+        "text": "I know I don't have the best handwriting, so if you don't see something, just ask me."
+    },
+    {
+        "text": "OK, and so this thing now, so each of this guy is a probability distribution."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So for example, this could be a Poisson with parameter theta, or a Bernoulli with parameter theta."
+    },
+    {
+        "text": "OK, or an exponential with parameter, I don't know, 1 over theta squared, if you want."
+    },
+    {
+        "text": "OK, but they're just indexed by theta."
+    },
+    {
+        "text": "For each theta, this completely describes the distribution."
+    }
+]

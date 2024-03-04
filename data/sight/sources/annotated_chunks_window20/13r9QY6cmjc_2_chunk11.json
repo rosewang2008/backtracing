@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's the multiplicity."
+    },
+    {
+        "text": "How many times is it the root of the polynomial?"
+    },
+    {
+        "text": "My polynomial is two minus lambda squared."
+    },
+    {
+        "text": "It's a double root."
+    },
+    {
+        "text": "So my algebraic multiplicity is two."
+    },
+    {
+        "text": "But the geometric multiplicity, which looks for vectors, looks for eigenvectors and which means the null space of this thing."
+    },
+    {
+        "text": "And the only eigenvector is one zero."
+    },
+    {
+        "text": "That's in the null space."
+    },
+    {
+        "text": "Zero one is not in the null space."
+    },
+    {
+        "text": "The null space is only one dimensional."
+    },
+    {
+        "text": "So there's a matrix, my, this A or the original A, that are not diagonalizable."
+    },
+    {
+        "text": "I can't, I can't find two independent eigenvectors, there's only one."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the case that I'm, that's a case that I, I'm not really handling."
+    },
+    {
+        "text": "For example, when I wrote down up here that the powers went to zero if the eigenvalues were below one, I didn't really handle that case of repeated eigenvalues because my reasoning was based on this formula."
+    },
+    {
+        "text": "And this formula is based on n independent eigenvectors."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So just to say that."
+    },
+    {
+        "text": "There are some matrices that we don't cover through diagonalization, but the great majority we do."
+    },
+    {
+        "text": "OK. And we're always OK if we have different distinct eigenvalues."
+    }
+]

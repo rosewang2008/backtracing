@@ -1,0 +1,329 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I help you ?",
+        "emotion": "neutral",
+        "text": "Can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I need to buy a computer for this semester . I was told it is cheaper to buy computers here .",
+        "emotion": "neutral",
+        "text": "Yes , I need to buy a computer for this semester . I was told it is cheaper to buy computers here .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , you heard right . You can get an excellent deal on a new computer here . We have great discounts for students .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I need to buy a computer",
+            "I was told it is cheaper to buy computers here ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , you heard right . You can get an excellent deal on a new computer here . We have great discounts for students .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I don't know much about computers . But I know I want a desktop computer with a lot of memory . And I need a printer .",
+        "emotion": "neutral",
+        "text": "I don't know much about computers . But I know I want a desktop computer with a lot of memory . And I need a printer .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , first let's consider your computer . Here , for example , is a system I highly recommend--the Power Macintosh G3 . It comes with 64 megabytes of total memory .",
+        "emotion": "neutral",
+        "text": "Well , first let's consider your computer . Here , for example , is a system I highly recommend--the Power Macintosh G3 . It comes with 64 megabytes of total memory .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Is that a lot ? Sixty-four ?",
+        "emotion": "neutral",
+        "text": "Is that a lot ? Sixty-four ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , it is . It should be enough for any student needs you might have . What department are you in ?",
+        "emotion": "neutral",
+        "text": "Yes , it is . It should be enough for any student needs you might have . What department are you in ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "History .",
+        "emotion": "neutral",
+        "text": "History .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , so you will mostly be using word processing , for writing papers . I recommend the Corel Word Perfect program for word processing . We can talk about software later . Let's talk about your",
+        "emotion": "neutral",
+        "text": "Well , so you will mostly be using word processing , for writing papers . I recommend the Corel Word Perfect program for word processing . We can talk about software later . Let's talk about your",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thirty percent ?",
+        "emotion": "neutral",
+        "text": "Thirty percent ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Wow . That's really good . And you think this is really a good system for a graduate student ?",
+        "emotion": "happiness",
+        "explanation": "Latent cause of happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Wow . That's really good . And you think this is really a good system for a graduate student ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes . It's an excellent system .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "That's really good .",
+            "It's an excellent system ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . It's an excellent system .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Hmm . Hey , wait . This has an Apple on it . Is this an Apple computer ?",
+        "emotion": "neutral",
+        "text": "Hmm . Hey , wait . This has an Apple on it . Is this an Apple computer ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Yes , it's a Macintosh . It's Apple . Macintosh and Apple are the same thing .",
+        "emotion": "neutral",
+        "text": "Yes , it's a Macintosh . It's Apple . Macintosh and Apple are the same thing .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I don't want Macintosh . I want PC .",
+        "emotion": "neutral",
+        "text": "I don't want Macintosh . I want PC .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I'm sorry , but our university computer center only sells Macintosh equipment .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "our university computer center only sells Macintosh equipment ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry , but our university computer center only sells Macintosh equipment .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "What ? Are you serious ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "our university computer center only sells Macintosh equipment ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Are you serious ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "But nobody uses Macintosh !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            17,
+            20
+        ],
+        "expanded emotion cause span": [
+            "our university computer center only sells Macintosh equipment .",
+            "nobody uses Macintosh !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But nobody uses Macintosh !",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "That's not true . Most of the students and professors in the university here use Macintosh . They find it is better for writing and word-processing , and that is what students mostly do . Ma",
+        "emotion": "neutral",
+        "text": "That's not true . Most of the students and professors in the university here use Macintosh . They find it is better for writing and word-processing , and that is what students mostly do . Ma",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Yes , I'm from Taiwan .",
+        "emotion": "neutral",
+        "text": "Yes , I'm from Taiwan .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Well , I know that in most Asian countries Apple is not very popular . But here in America , especially in universities and publishing companies , Apple is very commonly used .",
+        "emotion": "neutral",
+        "text": "Well , I know that in most Asian countries Apple is not very popular . But here in America , especially in universities and publishing companies , Apple is very commonly used .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "But I need a computer that can handle writing in Chinese .",
+        "emotion": "neutral",
+        "text": "But I need a computer that can handle writing in Chinese .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "There are several Chinese writing programs you can use with Macintosh . Chinese is no problem for Apple .",
+        "emotion": "neutral",
+        "text": "There are several Chinese writing programs you can use with Macintosh . Chinese is no problem for Apple .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Hmm . I think I should ask some of my friends for advice before I make a decision . I'm sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "I should ask some of my friends for advice before I make a decision . I'm sorry ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hmm . I think I should ask some of my friends for advice before I make a decision . I'm sorry .",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "No , don't be sorry . It's reasonable to ask your friends . But believe me , most of the students here in the university--Asian students included--most of them use Apple .",
+        "emotion": "neutral",
+        "text": "No , don't be sorry . It's reasonable to ask your friends . But believe me , most of the students here in the university--Asian students included--most of them use Apple .",
+        "id": 27
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "Well , thanks for your advice . I will probably come back later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            28
+        ],
+        "expanded emotion cause span": [
+            "thanks for your advice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , thanks for your advice . I will probably come back later .",
+        "id": 28
+    },
+    {
+        "turn": 29,
+        "speaker": "A",
+        "utterance": "You're very welcome . Here is my card , if you need any help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            28
+        ],
+        "expanded emotion cause span": [
+            "thanks for your advice . I will probably come back later ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're very welcome . Here is my card , if you need any help .",
+        "id": 29,
+        "source_sentences": [
+            27
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

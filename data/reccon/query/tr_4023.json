@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Aright . I'll talk to you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes . You want to check out my health club ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aright . I'll talk to you later .",
+        "id": 19,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

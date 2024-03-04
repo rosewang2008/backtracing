@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is going to be a proof."
+    },
+    {
+        "text": "So we want to show that D is not regular."
+    },
+    {
+        "text": "And we're going to give a, these things always go as a proof by contradiction."
+    },
+    {
+        "text": "So proof by contradiction, hopefully as a reminder to you, the way that works is you're going to assume the opposite of what you're trying to prove."
+    },
+    {
+        "text": "And then from that, something crazy is going to happen, something you know is obviously false or wrong."
+    },
+    {
+        "text": "And so therefore, your assumption, which is the opposite of what you're trying to prove, had to be wrong."
+    },
+    {
+        "text": "And so therefore, the thing you're trying to prove has to be right."
+    },
+    {
+        "text": "That's the essence of what's called proof by contradiction."
+    },
+    {
+        "text": "So first of all, we're going to assume to get our contradiction that D is regular, which is what we're trying to show is not the case."
+    },
+    {
+        "text": "Now, if D is regular, then we can apply the pumping limit up above here, which gives us that pumping length p, which says that any string longer than p can be pumped and you stay in the language."
+    },
+    {
+        "text": "That's what the pumping limit tells you."
+    },
+    {
+        "text": "So let's pick the string s, which is the string 0 to the p, 1 to the p. Here's sort of a picture of s off on the side here."
+    },
+    {
+        "text": "So a bunch of 0s followed by an equal number of 1s."
+    },
+    {
+        "text": "And that string is in D, because D is strings of that form."
+    },
+    {
+        "text": "And it's longer than p. Obviously, it's of length 2p."
+    },
+    {
+        "text": "So the pumping limit tells us there's a way to cut it up, satisfying those three conditions."
+    },
+    {
+        "text": "So how in the world could we possibly cut s up?"
+    },
+    {
+        "text": "Well, remember the three conditions, and especially condition 3 is going to come in handy here, say that you can cut s up into three pieces, x, y, and z, where the first two pieces lie in the first p symbols of s, at most p long."
+    },
+    {
+        "text": "So x and y together are not very big."
+    },
+    {
+        "text": "They don't extend beyond the first half of x and first half of s. And in particular, they're all 0s."
+    }
+]

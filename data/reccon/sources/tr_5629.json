@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello Mary . I haven ' t seen you for ages . Are you still seeing Paul ?",
+        "emotion": "neutral",
+        "text": "Hello Mary . I haven ' t seen you for ages . Are you still seeing Paul ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No . We broke up last month . I ' m taking a break from dating for a while .",
+        "emotion": "neutral",
+        "text": "No . We broke up last month . I ' m taking a break from dating for a while .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did you break up amicably ? Sometimes couples row a lot before splitting up .",
+        "emotion": "neutral",
+        "text": "Did you break up amicably ? Sometimes couples row a lot before splitting up .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We just decided to stop seeing each other . It was all very amicable . Are you still going out with mike ?",
+        "emotion": "neutral",
+        "text": "We just decided to stop seeing each other . It was all very amicable . Are you still going out with mike ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , I am . We ' re thinking about getting engaged . We ' Ve been dating for over a year now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We ' re thinking about getting engaged . We ' Ve been dating for over a year now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , I am . We ' re thinking about getting engaged . We ' Ve been dating for over a year now .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good for you ! Have you seen Kelly recently ? Is she still dating nick ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We ' re thinking about getting engaged . We ' Ve been dating for over a year now ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good for you ! Have you seen Kelly recently ? Is she still dating nick ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I havn't seen her for a while . She stopped seeing nick because he was cheating on her . He was seeing a girl form his office . One day , she saw them holding hands and ended the relationship immediately .",
+        "emotion": "neutral",
+        "text": "I havn't seen her for a while . She stopped seeing nick because he was cheating on her . He was seeing a girl form his office . One day , she saw them holding hands and ended the relationship immediately .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "She was right to do that . I heard the Neil and Tina getting married soon .",
+        "emotion": "neutral",
+        "text": "She was right to do that . I heard the Neil and Tina getting married soon .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? They ' Ve been together for a long time . When are they getting married ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "the Neil and Tina getting married"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? They ' Ve been together for a long time . When are they getting married ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I think it ' s 26th September . I ' ll check and make sure that Tina remembers to invite you to the hen night .",
+        "emotion": "neutral",
+        "text": "I think it ' s 26th September . I ' ll check and make sure that Tina remembers to invite you to the hen night .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thanks . Hey , look at that guy over there . I think he fancies you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I ' ll check and make sure that Tina remembers to invite you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . Hey , look at that guy over there . I think he fancies you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "He certainly looks interested , doesn ' t he ? Shall we invite him over to our table ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I think he fancies you .",
+            "He certainly looks interested ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He certainly looks interested , doesn ' t he ? Shall we invite him over to our table ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

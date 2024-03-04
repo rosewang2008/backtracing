@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Donna , you really shocked everyone at the party last night !",
+        "emotion": "happiness",
+        "explanation": "Donna performed amazing last night that made person A happy",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "you really shocked everyone at the party last night !"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Donna , you really shocked everyone at the party last night !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You mean with my performance ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Donna , you really shocked everyone at the party last night !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You mean with my performance ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes ! We have all assumed that you were the quiet , shy type .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "you really shocked everyone at the party last night !",
+            "performance"
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Yes ! We have all assumed that you were the quiet , shy type .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I guess everyone has a few secrets up their sleeve .",
+        "emotion": "neutral",
+        "text": "I guess everyone has a few secrets up their sleeve .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Where did you learn to sing like that ?",
+        "emotion": "neutral",
+        "text": "Where did you learn to sing like that ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I was part of a band in school .",
+        "emotion": "neutral",
+        "text": "I was part of a band in school .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You ? Wow . And why don't you ever dress like that at work ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I was part of a band in school ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ? Wow . And why don't you ever dress like that at work ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Come on ! This is work . Don't you think that would be a little weird ?",
+        "emotion": "neutral",
+        "text": "Come on ! This is work . Don't you think that would be a little weird ?",
+        "id": 8
+    }
+]

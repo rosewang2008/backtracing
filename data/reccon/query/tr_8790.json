@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No kidding ! We have only 5 bottles of beer .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "500 US dollars .",
+            "We have only 5 bottles of beer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No kidding ! We have only 5 bottles of beer .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

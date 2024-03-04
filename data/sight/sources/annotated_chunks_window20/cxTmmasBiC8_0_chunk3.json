@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So given the a's, this is a1 up to, say, ak, what is the best?"
+    },
+    {
+        "text": "Is the best x?"
+    },
+    {
+        "text": "Just to make that part right."
+    },
+    {
+        "text": "And the answer is, do you know geometrically what x should be here?"
+    },
+    {
+        "text": "x is the."
+    },
+    {
+        "text": "So if I have a bunch of points and I'm looking for the middle of those points, the point x, a good point x to say, OK, that's the middle."
+    },
+    {
+        "text": "It'll make the sum of the distances, I think, squared."
+    },
+    {
+        "text": "I hope I'm right about that."
+    },
+    {
+        "text": "A minimum."
+    },
+    {
+        "text": "What is x?"
+    },
+    {
+        "text": "It is the centroid."
+    },
+    {
+        "text": "Centroid is the word."
+    },
+    {
+        "text": "x is the centroid of the a's."
+    },
+    {
+        "text": "And what is the centroid?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "Oh, maybe I don't know if x and y were a good choice."
+    },
+    {
+        "text": "But let me see what."
+    },
+    {
+        "text": "I guess it's the average a."
+    },
+    {
+        "text": "It's the sum of the a's, of these a's."
+    },
+    {
+        "text": "Those are vectors, of course, divided by the number of a's."
+    }
+]

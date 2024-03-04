@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mary , it seems that your family and friends have been calling you recently , am I right ?",
+        "emotion": "neutral",
+        "text": "Mary , it seems that your family and friends have been calling you recently , am I right ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , they have been concerned about me finding a job .",
+        "emotion": "neutral",
+        "text": "Yes , they have been concerned about me finding a job .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do they say ?",
+        "emotion": "neutral",
+        "text": "What do they say ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "They want to recommend some jobs to me .",
+        "emotion": "neutral",
+        "text": "They want to recommend some jobs to me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? What jobs are they ?",
+        "emotion": "neutral",
+        "text": "Really ? What jobs are they ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "My father wants me to work as a trainee in his company .",
+        "emotion": "neutral",
+        "text": "My father wants me to work as a trainee in his company .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's great !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "They want to recommend",
+            "My father wants me to work as a trainee in his company ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's great !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "My aunt says her company is in need of an assistant now , and she wants me to give it a try .",
+        "emotion": "neutral",
+        "text": "My aunt says her company is in need of an assistant now , and she wants me to give it a try .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "This is a good opportunity .",
+        "emotion": "neutral",
+        "text": "This is a good opportunity .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "One of my friends tells me that his company is hiring in a large scale and he wants me to go for an interview .",
+        "emotion": "neutral",
+        "text": "One of my friends tells me that his company is hiring in a large scale and he wants me to go for an interview .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You can give it a try ! May be you will succeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "One of my friends tells me that his company is hiring in a large scale and he wants me to go for an interview .",
+            "ou will succeed ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You can give it a try ! May be you will succeed .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I know . Let me think it over .",
+        "emotion": "neutral",
+        "text": "I know . Let me think it over .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "If you have any good jobs , keep an eye for me !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "May be you will succeed .",
+            "If you have any good jobs , keep an eye for me !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "If you have any good jobs , keep an eye for me !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I will .",
+        "emotion": "happiness",
+        "explanation": "B is happy that A is asking for help",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "keep an eye for me !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I will .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

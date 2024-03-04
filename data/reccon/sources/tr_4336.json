@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you excited about your trip next month ?",
+        "emotion": "neutral",
+        "text": "Are you excited about your trip next month ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes and no . I can ' t wait to go to Europe , but at the same time I am terrified .",
+        "emotion": "neutral",
+        "text": "Yes and no . I can ' t wait to go to Europe , but at the same time I am terrified .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I have acrophobia . I have a chronic fear of flying .",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I have acrophobia . I have a chronic fear of flying ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I have acrophobia . I have a chronic fear of flying .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh really ? I have an uncle who is also terrified of flying . It ' s not that bad though , I mean , it is pretty scary to be in this big machine flying through the air at seven hundred miles per hour . I actually have arachnophobia .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I have acrophobia . I have a chronic fear of flying ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh really ? I have an uncle who is also terrified of flying . It ' s not that bad though , I mean , it is pretty scary to be in this big machine flying through the air at seven hundred miles per hour . I actually have arachnophobia .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You ' re scared of spiders ? I actually have two more phobias . Acrophobia and glossophobia .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I actually have arachnophobia ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re scared of spiders ? I actually have two more phobias . Acrophobia and glossophobia .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I guess that explains why you are afraid of flying , but public speaking is not that bad .",
+        "emotion": "neutral",
+        "text": "I guess that explains why you are afraid of flying , but public speaking is not that bad .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Are you kidding ? When I get on stage , my palms start to sweat , I get really nervous and I can hardly speak .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "public speaking is not that bad .",
+            "When I get on stage , my palms start to sweat , I get really nervous and I can hardly speak ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you kidding ? When I get on stage , my palms start to sweat , I get really nervous and I can hardly speak .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , I must confess I am a bit claustrophobic . I hate being in an elevator for more than 5 seconds .",
+        "emotion": "neutral",
+        "text": "Well , I must confess I am a bit claustrophobic . I hate being in an elevator for more than 5 seconds .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We are such weirdos right ?",
+        "emotion": "neutral",
+        "text": "We are such weirdos right ?",
+        "id": 10
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this is, that's the singular value decomposition."
+    },
+    {
+        "text": "In case our matrix is symmetric positive definite, in that case, I don't need two, u and a v, one orthogonal matrix will do for both sides."
+    },
+    {
+        "text": "But, so this would be no good in general, because usually the eigenvector matrix isn't orthogonal."
+    },
+    {
+        "text": "So this is not what I'm, that's not what I'm after."
+    },
+    {
+        "text": "I'm looking for orthogonal times diagonal times orthogonal."
+    },
+    {
+        "text": "And let me show you what that means and where it comes from."
+    },
+    {
+        "text": "OK. What does it mean?"
+    },
+    {
+        "text": "You remember the picture of any linear transformation."
+    },
+    {
+        "text": "This was, like, the most important figure in 1806."
+    },
+    {
+        "text": "And what am I looking for now?"
+    },
+    {
+        "text": "A typical vector in the row space, typical vector, let me call it v1, gets taken over to some vector in the column space, say u1."
+    },
+    {
+        "text": "So u1 is a v1."
+    },
+    {
+        "text": "OK. Now, another vector gets taken over here somewhere."
+    },
+    {
+        "text": "What am I looking for?"
+    },
+    {
+        "text": "In this SVD, this singular value decomposition, what I'm looking for is an orthogonal basis here that gets knocked over into an orthogonal basis over there."
+    },
+    {
+        "text": "See, that's pretty special, to have an orthogonal basis in the row space that goes over into an orthogonal basis, so this is like a right angle and this is a right angle, into an orthogonal basis in the column space."
+    },
+    {
+        "text": "So that's our goal, is to find -- you see how things are coming together."
+    },
+    {
+        "text": "First of all, can I find an orthogonal basis for this row space?"
+    },
+    {
+        "text": "Of course."
+    },
+    {
+        "text": "No big deal to find an orthogonal basis."
+    }
+]

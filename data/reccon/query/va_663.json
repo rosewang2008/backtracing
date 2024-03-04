@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Grangerfield ! You were in Grangerfield ? That's a completely different town ! How could you drive to a completely different town ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "they told us we were in Grangerfield .",
+            "How could you drive to a completely different town ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Grangerfield ! You were in Grangerfield ? That's a completely different town ! How could you drive to a completely different town ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You ' re going to set up your own law office , aren ' t you ?",
+        "emotion": "neutral",
+        "text": "You ' re going to set up your own law office , aren ' t you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . After so many years of hard work , I ' d rather I had an office of my own .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' d rather I had an office of my own ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . After so many years of hard work , I ' d rather I had an office of my own .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "If you need help , don ' t hesitate to ask me .",
+        "emotion": "happiness",
+        "explanation": "A is happy to offer help",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "If you need help , don ' t hesitate to ask me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "If you need help , don ' t hesitate to ask me .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I ' ll be very glad if you would help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "If you need help , don ' t hesitate to ask me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ' ll be very glad if you would help .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I ' d like to wish you every success in your new venture .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' ll be very glad if you would help ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ' d like to wish you every success in your new venture .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you . I wish I would .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' d like to wish you every success in your new venture ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I wish I would .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Good luck to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' ll be very glad if you would help .",
+            "I ' d like to wish you every success in your new venture ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Good luck to you .",
+        "id": 7
+    }
+]

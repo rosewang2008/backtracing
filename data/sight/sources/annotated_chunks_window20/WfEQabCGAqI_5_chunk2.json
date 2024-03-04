@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Here I have delta x, here I have delta y, and I am starting at some point xy."
+    },
+    {
+        "text": "Now, above that I will have a parallelogram on my surface."
+    },
+    {
+        "text": "I need to figure out this point here, the point where I start."
+    },
+    {
+        "text": "I know what it is."
+    },
+    {
+        "text": "It is just x, y, and z is f of x, y."
+    },
+    {
+        "text": "Now, what I want to find actually is what are these two vectors, let's call them u and v that correspond to moving a bit in the x direction or in the y direction."
+    },
+    {
+        "text": "And then u cross v will be, well, in terms of the magnitude of this guy will just be the little piece of surface area delta S. And, in terms of direction, it will be normal to the surface."
+    },
+    {
+        "text": "Actually, I will get just delta S times my normal vector."
+    },
+    {
+        "text": "Well, up to sign because depending on whether I do u cross v or v cross u, I might get the normal vector in the direction I want or in the direction I want."
+    },
+    {
+        "text": "But we will take care of that later."
+    },
+    {
+        "text": "Up to sign."
+    },
+    {
+        "text": "OK, so let's find u and v. Actually, in case you have trouble with that small picture, then I have a better one here."
+    },
+    {
+        "text": "Let's keep it just in case this one gets really too cluttered."
+    },
+    {
+        "text": "It really represents the same thing."
+    },
+    {
+        "text": "OK, so let's try to figure out these vectors u and v. So, the vector u starts at the point x, y, f of x, y."
+    },
+    {
+        "text": "And it goes to, where is its head?"
+    },
+    {
+        "text": "Well, I'll have moved x by delta x."
+    },
+    {
+        "text": "So, x plus delta x. y doesn't change."
+    },
+    {
+        "text": "And, of course, the z coordinate has to change."
+    },
+    {
+        "text": "It becomes f of x plus delta x and y."
+    }
+]

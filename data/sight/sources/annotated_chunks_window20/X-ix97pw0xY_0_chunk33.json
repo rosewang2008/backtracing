@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Is there any example of a distribution which comes up pretty often that's not in the next exponential family?"
+    },
+    {
+        "text": "Yeah, like uniform."
+    },
+    {
+        "text": "Oh, OK. Maybe a bit more complicated than that."
+    },
+    {
+        "text": "Anything that has a support that depends on the parameter is not going to fall."
+    },
+    {
+        "text": "It's not going to fit in there."
+    },
+    {
+        "text": "And you can actually convince yourself why anything that has the support that depends on the parameter is not going to be part of this guy."
+    },
+    {
+        "text": "It's kind of a hard thing to, if I ask you, prove that it's not, and you wouldn't prove this rule."
+    },
+    {
+        "text": "It's kind of a little difficult."
+    },
+    {
+        "text": "But the way you can convince yourself is that, remember, the only interaction between x and theta that I allowed was taking the product of those guys and then the exponential."
+    },
+    {
+        "text": "If you have something that depends on some parameter, let's say you're going to see something that looks like this."
+    },
+    {
+        "text": "For uniform, it looks like this."
+    },
+    {
+        "text": "Well, this is not of the form exponential x times theta."
+    },
+    {
+        "text": "There's an interaction between x and theta here, but it's actually certainly not of the form x exponential x times theta."
+    },
+    {
+        "text": "So this is definitely not going to be part of the exponential family."
+    },
+    {
+        "text": "And every time you start doing things like that, then it's just not going to happen."
+    },
+    {
+        "text": "Actually, to be fair, I'm not even sure that all these guys, when you allow them to have all their parameters free, are actually going to be part of this."
+    },
+    {
+        "text": "The beta probably is, but I'm not actually entirely convinced."
+    },
+    {
+        "text": "There's books on exponential families."
+    },
+    {
+        "text": "So let's go back."
+    },
+    {
+        "text": "So here, we've put a lot of effort understanding how big, how much wider than the Gaussian distribution can we think of for the conditional distribution of our response y given x."
+    }
+]

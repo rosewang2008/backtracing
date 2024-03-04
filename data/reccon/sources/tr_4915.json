@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Helen .",
+        "emotion": "neutral",
+        "text": "Hello , Helen .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Steven .",
+        "emotion": "neutral",
+        "text": "Hi , Steven .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How are you today ?",
+        "emotion": "neutral",
+        "text": "How are you today ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I ' m very well , Thank you . And you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "How are you today ?",
+            "I ' m very well ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m very well , Thank you . And you ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I ' m fine , thanks . How is Tony ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "And you ?",
+            "I ' m fine ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m fine , thanks . How is Tony ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He ' s fine , Thanks . How ' s Emma ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "How are you today ?",
+            "I ' m very well ,",
+            "He ' s fine ,"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He ' s fine , Thanks . How ' s Emma ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "She ' s very well , too , Helen . Goodbye , Helen . Nice to see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "And you ?",
+            "I ' m fine ,",
+            "She ' s very well ,",
+            "Nice to see you ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "She ' s very well , too , Helen . Goodbye , Helen . Nice to see you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Nice to see you , too , Steven . Goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Nice to see you .",
+            "Nice to see you , too ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Nice to see you , too , Steven . Goodbye .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

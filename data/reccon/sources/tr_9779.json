@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you hear who won the election ?",
+        "emotion": "neutral",
+        "text": "Did you hear who won the election ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I can ' t believe that Obama won .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Obama won ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I can ' t believe that Obama won .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I couldn ' t be happier to know that he ' s our new President .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Obama won .",
+            "he ' s our new President ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I couldn ' t be happier to know that he ' s our new President .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I know ! He just made history !",
+        "emotion": "neutral",
+        "text": "I know ! He just made history !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You voted for him , right ?",
+        "emotion": "neutral",
+        "text": "You voted for him , right ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I did . Did you ?",
+        "emotion": "neutral",
+        "text": "I did . Did you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I voted for him .",
+        "emotion": "neutral",
+        "text": "I voted for him .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I am so happy that he is our new President !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "he is our new President !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am so happy that he is our new President !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So am I .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "he is our new President !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So am I .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I hope that he brings change to America .",
+        "emotion": "neutral",
+        "text": "I hope that he brings change to America .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I have faith in him .",
+        "emotion": "neutral",
+        "text": "I have faith in him .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I have faith in our new President .",
+        "emotion": "neutral",
+        "text": "I have faith in our new President .",
+        "id": 12
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you have any shoes like these ?",
+        "emotion": "neutral",
+        "text": "Do you have any shoes like these ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What size ?",
+        "emotion": "neutral",
+        "text": "What size ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Size five .",
+        "emotion": "neutral",
+        "text": "Size five .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What colour ?",
+        "emotion": "neutral",
+        "text": "What colour ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Black .",
+        "emotion": "neutral",
+        "text": "Black .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' m sorry . We don't haven any .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "We don't haven any ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m sorry . We don't haven any .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But my sister bought this pair last month .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "We don't haven any .",
+            "But my sister bought this pair last month ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But my sister bought this pair last month .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Did she buy them here ?",
+        "emotion": "neutral",
+        "text": "Did she buy them here ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , she bought them in the U . S .",
+        "emotion": "neutral",
+        "text": "No , she bought them in the U . S .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We had some shoes like those a month ago , but we don't have any now .",
+        "emotion": "neutral",
+        "text": "We had some shoes like those a month ago , but we don't have any now .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Can you get a pair for me please ?",
+        "emotion": "neutral",
+        "text": "Can you get a pair for me please ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I ' m afraid that I can ' t . They were in fashion last year and the year before last . But they ' re not in fashion this year . These shoes are in fashion now .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "we don't have",
+            "Can you get a pair for me please ?",
+            "I can ' t ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I ' m afraid that I can ' t . They were in fashion last year and the year before last . But they ' re not in fashion this year . These shoes are in fashion now .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "They look very uncomfortable .",
+        "emotion": "neutral",
+        "text": "They look very uncomfortable .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "They are very uncomfortable . But women always wear uncomfortable shoes !",
+        "emotion": "neutral",
+        "text": "They are very uncomfortable . But women always wear uncomfortable shoes !",
+        "id": 14
+    }
+]

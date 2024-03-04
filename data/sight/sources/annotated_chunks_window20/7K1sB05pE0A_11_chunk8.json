@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We'll make the general calculation."
+    },
+    {
+        "text": "So the value of f at the top, when we move to the right by f of x, so I just read off from this, read off from here the formula."
+    },
+    {
+        "text": "The first thing I get here is 1 over x0 plus delta x."
+    },
+    {
+        "text": "That's the left-hand term."
+    },
+    {
+        "text": "Minus 1 over x0."
+    },
+    {
+        "text": "That's the right-hand term."
+    },
+    {
+        "text": "And then I have to divide that by delta x."
+    },
+    {
+        "text": "So here's our expression."
+    },
+    {
+        "text": "And by the way, this has a name."
+    },
+    {
+        "text": "This thing is called a difference quotient."
+    },
+    {
+        "text": "It's pretty complicated because there's always a difference in the numerator."
+    },
+    {
+        "text": "And in disguise, the denominator is a difference because it's the difference between the value on the right side and the value on the left side here."
+    },
+    {
+        "text": "So now we're going to simplify it by some algebra."
+    },
+    {
+        "text": "So let's just take a look."
+    },
+    {
+        "text": "So this is equal to, let's continue on the next level here, this is equal to 1 over delta x times, now all I'm going to do is put it over a common denominator."
+    },
+    {
+        "text": "So the common denominator is x0 plus delta x times x0."
+    },
+    {
+        "text": "And so in the numerator, for the first expression, I have x0."
+    },
+    {
+        "text": "And for the second expression, I have x0 plus delta x."
+    },
+    {
+        "text": "So this is the same thing as I had in the numerator before."
+    },
+    {
+        "text": "Factoring out this denominator."
+    }
+]

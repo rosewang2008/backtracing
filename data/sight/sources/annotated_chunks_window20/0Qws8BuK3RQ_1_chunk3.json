@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's like rather a big issue for 18.065."
+    },
+    {
+        "text": "But we'll see about that later."
+    },
+    {
+        "text": "OK. Now, Procrustes problem."
+    },
+    {
+        "text": "So Procrustes, and it's included in the notes, that name comes from a Greek myth."
+    },
+    {
+        "text": "Are you guys into Greek myths?"
+    },
+    {
+        "text": "So what was the story of Procrustes?"
+    },
+    {
+        "text": "He was at Procrustes who adjusted the length of his."
+    },
+    {
+        "text": "So he had a special bed, Procrustes' bed, certain length."
+    },
+    {
+        "text": "And then he had visitors coming."
+    },
+    {
+        "text": "And instead of adjusting the length of the bed to fit the visitor, Procrustes adjusted the length of the visitor to fit the bed."
+    },
+    {
+        "text": "So either stretched the visitor or chopped off part of the visitor."
+    },
+    {
+        "text": "So anyway, the Greeks liked this sort of thing."
+    },
+    {
+        "text": "So anyway, that's a Greek myth for 18.065."
+    },
+    {
+        "text": "So the whole idea of the Procrustes problem is to make something fit something else."
+    },
+    {
+        "text": "So the two things are, so suppose I'm just in three dimensions."
+    },
+    {
+        "text": "I have two vectors here."
+    },
+    {
+        "text": "So I have a basis for a two-dimensional space."
+    },
+    {
+        "text": "And over here, I have people, space scientists might have one computation of the positions of satellites."
+    },
+    {
+        "text": "Then, of course, they wouldn't be off by as much as this figure shows."
+    },
+    {
+        "text": "But then they have another computation using different coordinates."
+    }
+]

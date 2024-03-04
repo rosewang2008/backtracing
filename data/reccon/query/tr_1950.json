@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Miss , I'm very sorry for the delay , please enjoy this . Free a glass of wine for inconvenience . Again I'm terribly sorry to make you wait so long .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ordered my dish about a half an hour ago , but it hasn't arrived yet ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Miss , I'm very sorry for the delay , please enjoy this . Free a glass of wine for inconvenience . Again I'm terribly sorry to make you wait so long .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

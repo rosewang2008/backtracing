@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I am so happy that she's doing okay .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "enjoy having your daughter in my class .",
+            "She is a great addition to my class .",
+            "She is always behaving herself , and she's so smart .",
+            "she's doing okay ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am so happy that she's doing okay .",
+        "id": 11,
+        "source_sentences": [
+            5,
+            7,
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

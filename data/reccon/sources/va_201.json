@@ -1,0 +1,93 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning .",
+        "emotion": "neutral",
+        "text": "Good morning .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good morning . This is Mary . Can I speak to Anne please ?",
+        "emotion": "neutral",
+        "text": "Good morning . This is Mary . Can I speak to Anne please ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m sorry She isn ' t in at the momment . She will come back at half past nineCan I take a message for her ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "She isn ' t in at the momment ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m sorry She isn ' t in at the momment . She will come back at half past nineCan I take a message for her ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you . But I will call her later",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Can I take a message for her ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . But I will call her later",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK . Goodbye .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries.",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Thank you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Goodbye .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Goodbye .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries.",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Goodbye ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

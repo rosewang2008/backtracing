@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You are from Japan , aren't you ?",
+        "emotion": "neutral",
+        "text": "You are from Japan , aren't you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , yes !",
+        "emotion": "neutral",
+        "text": "Oh , yes !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I love Japan a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I love Japan"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love Japan a lot .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I am glad to hear that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I love Japan"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am glad to hear that .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Let's go to another place where my friend is working , let me pay here .",
+        "emotion": "neutral",
+        "text": "Let's go to another place where my friend is working , let me pay here .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you , I ' ll pay next then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I love Japan",
+            "let me pay"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , I ' ll pay next then .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , I must be going now ; it was nice talking with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "nice talking"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , I must be going now ; it was nice talking with you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Check , please .",
+        "emotion": "neutral",
+        "text": "Check , please .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "500 US dollars .",
+        "emotion": "neutral",
+        "text": "500 US dollars .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No kidding ! We have only 5 bottles of beer .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "500 US dollars .",
+            "We have only 5 bottles of beer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "No kidding ! We have only 5 bottles of beer .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You had champagne for the girl .",
+        "emotion": "neutral",
+        "text": "You had champagne for the girl .",
+        "id": 11
+    }
+]

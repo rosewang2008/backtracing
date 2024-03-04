@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How are you doing ?",
+        "emotion": "neutral",
+        "text": "How are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Everything ' s fine with me .",
+        "emotion": "neutral",
+        "text": "Everything ' s fine with me .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What can I do for you today ?",
+        "emotion": "neutral",
+        "text": "What can I do for you today ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is it possible for me to view the apartment today ?",
+        "emotion": "neutral",
+        "text": "Is it possible for me to view the apartment today ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Unfortunately , you will not be able to view it today .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "you will not be able to view it today"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Unfortunately , you will not be able to view it today .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why can ' t I view it today ?",
+        "emotion": "neutral",
+        "text": "Why can ' t I view it today ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You ' ll need to make an appointment to view the apartment .",
+        "emotion": "neutral",
+        "text": "You ' ll need to make an appointment to view the apartment .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I understand . May I make an appointment then ?",
+        "emotion": "neutral",
+        "text": "I understand . May I make an appointment then ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How does this Friday sound ?",
+        "emotion": "neutral",
+        "text": "How does this Friday sound ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Friday at 6 pm . would be perfect .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "How does this Friday sound ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Friday at 6 pm . would be perfect .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That will be fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Friday at 6 pm . would be perfect .",
+            "That will be fine ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That will be fine .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks for your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "That will be fine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for your help .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

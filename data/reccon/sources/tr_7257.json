@@ -1,0 +1,133 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I help you ?",
+        "emotion": "neutral",
+        "text": "Can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Could you show me the coat on the shelf ?",
+        "emotion": "neutral",
+        "text": "Could you show me the coat on the shelf ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sure . Please come this way .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to help",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Could you show me the coat on the shelf ?",
+            "Sure . Please come this way ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure . Please come this way .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "May I try it on ?",
+        "emotion": "neutral",
+        "text": "May I try it on ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Of course . Here is the fitting room .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to help",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "May I try it on ?",
+            "Of course . Here is the fitting room ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Of course . Here is the fitting room .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It doesn't fit quite right . It feels a little tight in the waist . Do you have this in a larger size ?",
+        "emotion": "neutral",
+        "text": "It doesn't fit quite right . It feels a little tight in the waist . Do you have this in a larger size ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , here it is .",
+        "emotion": "neutral",
+        "text": "Yes , here it is .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , how do I look in this one ?",
+        "emotion": "neutral",
+        "text": "Well , how do I look in this one ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You look really beautiful in it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You look really beautiful in it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You look really beautiful in it .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK . I'll take it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You look really beautiful in it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . I'll take it .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

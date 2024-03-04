@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , I was really struggling whether I should give you this nice little car . It was the last one they had and I really like it so much myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "That is so nice of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I was really struggling whether I should give you this nice little car . It was the last one they had and I really like it so much myself .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

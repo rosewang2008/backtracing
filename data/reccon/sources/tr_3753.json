@@ -1,0 +1,238 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Jack , where's your car ?",
+        "emotion": "neutral",
+        "text": "Hey , Jack , where's your car ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I got rid of that clunker . This is my new one .",
+        "emotion": "neutral",
+        "text": "I got rid of that clunker . This is my new one .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is that right ? This sure beats the old one ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I got rid of that clunker . This is my new one ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is that right ? This sure beats the old one ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hop in , I'll give you a ride .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I got rid of that clunker . This is my new one .",
+            "I'll give you a ride ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Hop in , I'll give you a ride .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ok . Boy , this looks expensive .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'll give you a ride .",
+            "this looks expensive ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ok . Boy , this looks expensive .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , it costed a bundle , alright ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "this looks expensive ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , it costed a bundle , alright ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , this thing can haul .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "this thing can haul ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , this thing can haul .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , this sucker is the fastest thing I've ever owned .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "this sucker is the fastest thing I've ever owned ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , this sucker is the fastest thing I've ever owned .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I believe it . Hoo , this car corners like it's on rails .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "this sucker is the fastest thing I've ever owned .",
+            "this car corners like it's on rails ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I believe it . Hoo , this car corners like it's on rails .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We are on the high way . Find the pound shade ..",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "this sucker is the fastest thing I've ever owned .",
+            "this car corners like it's on rails ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "We are on the high way . Find the pound shade ..",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Wow , this car can really burn rubber .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "this car can really burn rubber ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , this car can really burn rubber .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It's a great feeling .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "this car can really burn rubber ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's a great feeling .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You made a perfect choice , Jack .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "You made a perfect choice ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You made a perfect choice , Jack .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks , Daisy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "You made a perfect choice , Jack ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , Daisy .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

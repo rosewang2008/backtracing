@@ -1,0 +1,95 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Mr . James , what's the rush ?",
+        "emotion": "neutral",
+        "text": "Hi , Mr . James , what's the rush ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "The bank closes in 30 minutes and I need to cash a check .",
+        "emotion": "neutral",
+        "text": "The bank closes in 30 minutes and I need to cash a check .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I can lend you some money .",
+        "emotion": "neutral",
+        "text": "I can lend you some money .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thanks . But it's necessary for me to buy a TV set .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I can lend you some money ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . But it's necessary for me to buy a TV set .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Can I help in anyway ?",
+        "emotion": "neutral",
+        "text": "Can I help in anyway ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You can take me to the bank if you want to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can I help in anyway ?",
+            "take me to the bank if you want to ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You can take me to the bank if you want to .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . Let ' s go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can I help in anyway ?",
+            "take me to the bank if you want to ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure . Let ' s go .",
+        "id": 7
+    }
+]

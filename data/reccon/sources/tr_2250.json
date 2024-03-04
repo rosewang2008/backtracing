@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Who's that man over there talking to James ?",
+        "emotion": "neutral",
+        "text": "Who's that man over there talking to James ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Where ? Oh , that's Henry .",
+        "emotion": "neutral",
+        "text": "Where ? Oh , that's Henry .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "He's very handsome , isn't he ? What's he like ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "He's very handsome ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He's very handsome , isn't he ? What's he like ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He's very nice , actually , but rather eccentric .",
+        "emotion": "neutral",
+        "text": "He's very nice , actually , but rather eccentric .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? I love eccentric people .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "but rather eccentric ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I love eccentric people .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , but he may be too eccentric even for you .",
+        "emotion": "neutral",
+        "text": "Yes , but he may be too eccentric even for you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Why ? What do you mean by that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "he may be too eccentric even for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why ? What do you mean by that ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , haven't you heard ?",
+        "emotion": "neutral",
+        "text": "Well , haven't you heard ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Heard what ? No one ever tells me anything .",
+        "emotion": "neutral",
+        "text": "Heard what ? No one ever tells me anything .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , apparently , he's been having an affair with his secretary .",
+        "emotion": "neutral",
+        "text": "Well , apparently , he's been having an affair with his secretary .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Really ! How fascinating .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "he's been having an affair with his secretary ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ! How fascinating .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "According to Mary , he's divorcing his wife and there's a big fight going on about the children . I thought everyone knew .",
+        "emotion": "neutral",
+        "text": "According to Mary , he's divorcing his wife and there's a big fight going on about the children . I thought everyone knew .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well , what can I say ? I didn't know . Oh , I meant to tell you earlier , your blouse doesn't really match your skirt . Those colors don't really suit you either .",
+        "emotion": "neutral",
+        "text": "Well , what can I say ? I didn't know . Oh , I meant to tell you earlier , your blouse doesn't really match your skirt . Those colors don't really suit you either .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh . Thanks . Look , I must just go and say hello to someone . I'll be right back .",
+        "emotion": "neutral",
+        "text": "Oh . Thanks . Look , I must just go and say hello to someone . I'll be right back .",
+        "id": 14
+    }
+]

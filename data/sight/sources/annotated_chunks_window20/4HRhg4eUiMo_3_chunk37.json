@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I sum them, and that's a chi-squared with two degrees of freedom."
+    },
+    {
+        "text": "That's how you get it."
+    },
+    {
+        "text": "Now, I could define it using its probability density function."
+    },
+    {
+        "text": "After all, this is the sum of positive random variables."
+    },
+    {
+        "text": "It is a positive random variable."
+    },
+    {
+        "text": "It has a density on the positive real line."
+    },
+    {
+        "text": "And the PDF of chi-squared, PDF of chi-squared with d degrees of freedom is what?"
+    },
+    {
+        "text": "Well, it's fd of x is x to the d over 2 minus 1, e to the minus x over 2."
+    },
+    {
+        "text": "And then here, I have a gamma of d over 2, and the other one is, I think, 2 to the d over 2 minus 1."
+    },
+    {
+        "text": "No, 2 to the d over 2."
+    },
+    {
+        "text": "That's what it is."
+    },
+    {
+        "text": "That's the density."
+    },
+    {
+        "text": "If you are very good at probability, you can make the change of variable and write your Jacobian and do all this stuff and actually check that this is true."
+    },
+    {
+        "text": "I do not recommend doing that."
+    },
+    {
+        "text": "So this is the density, but it's better understood like that, at thinking of just something that you built from standard Gaussian."
+    },
+    {
+        "text": "So for example, an example of a chi-squared with two degrees of freedom is actually the following thing."
+    },
+    {
+        "text": "Let's assume I have a target like this."
+    },
+    {
+        "text": "And I don't aim very well, and I'm trying to hit the center."
+    },
+    {
+        "text": "And I'm going to have maybe a deviation, which is standard Gaussian left-right and standard Gaussian north-south."
+    },
+    {
+        "text": "So I'm throwing, and then I'm here."
+    }
+]

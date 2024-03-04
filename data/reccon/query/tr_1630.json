@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's time to go . Bye , Ella . Hope to see you soon",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to see the listener in the future",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'd like to meet you again sometime .",
+            "Hope to see you soon"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's time to go . Bye , Ella . Hope to see you soon",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

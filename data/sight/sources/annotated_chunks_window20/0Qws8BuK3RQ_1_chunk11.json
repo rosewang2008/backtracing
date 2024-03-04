@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Why is that true?"
+    },
+    {
+        "text": "Oh, well, how shall we see the truth of that fact?"
+    },
+    {
+        "text": "So these are really convenient facts that make a lot of people use the trace more often than we have in 18.065."
+    },
+    {
+        "text": "I'm not a big user of arguments based on trace, but these are identities that go a long way with many problems."
+    },
+    {
+        "text": "So let's see why that's true."
+    },
+    {
+        "text": "Anytime you think about trace, you've got two languages to use."
+    },
+    {
+        "text": "You can use the eigenvalues."
+    },
+    {
+        "text": "It's the sum of the eigenvalues."
+    },
+    {
+        "text": "Or you can use the diagonal entries, because it's the sum of the diagonal entries."
+    },
+    {
+        "text": "Let's use eigenvalues."
+    },
+    {
+        "text": "How are the eigenvalues of CD related to the eigenvalues of DC?"
+    },
+    {
+        "text": "They're the same."
+    },
+    {
+        "text": "If these matrices are rectangular, then there might be some extra 0 eigenvalues, because they would have different shapes."
+    },
+    {
+        "text": "But 0's are not going to affect the trace."
+    },
+    {
+        "text": "So this is the same non-zero eigenvalues."
+    },
+    {
+        "text": "And so on."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "OK. Let me just try to tell you the steps now to get the correct cue."
+    },
+    {
+        "text": "Or let me tell you the answer first."
+    },
+    {
+        "text": "And I'm realizing that all-important question four, does deep learning actually work?"
+    }
+]

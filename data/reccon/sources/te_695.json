@@ -1,0 +1,97 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you free tomorrow night ?",
+        "emotion": "neutral",
+        "text": "Are you free tomorrow night ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I am .",
+        "emotion": "neutral",
+        "text": "Yes , I am .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Shall we have dinner together ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Yes , I am ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Shall we have dinner together ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Do you have a special restaurant in mind ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Shall we have dinner together ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you have a special restaurant in mind ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , I do . I know a place that has excellent food .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Yes , I am ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , I do . I know a place that has excellent food .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK . I'll be happy to join you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Shall we have dinner together ?",
+            "I know a place that has excellent food .",
+            "I'll be happy to join you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "OK . I'll be happy to join you .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

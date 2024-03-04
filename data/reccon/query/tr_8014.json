@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Damn !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            22
+        ],
+        "expanded emotion cause span": [
+            "it won't work , old buddy . They'll see that I'm not you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Damn !",
+        "id": 23,
+        "source_sentences": [
+            21
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

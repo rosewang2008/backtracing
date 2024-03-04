@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Where to , miss ?",
+        "emotion": "neutral",
+        "text": "Where to , miss ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi ! Crenshaw and Hawthorne , at the Holiday Inn that is on that corner .",
+        "emotion": "neutral",
+        "text": "Hi ! Crenshaw and Hawthorne , at the Holiday Inn that is on that corner .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sure thing . So , where are you flying in from ?",
+        "emotion": "neutral",
+        "text": "Sure thing . So , where are you flying in from ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "From China .",
+        "emotion": "neutral",
+        "text": "From China .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? You don ' t look very Chinese to me , if you don ' t mind me saying so .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "From China .",
+            "You don ' t look very Chinese to me ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? You don ' t look very Chinese to me , if you don ' t mind me saying so .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It ' s fine . I am actually from Mexico . I was in China on a business trip , visiting some local companies that manufacture bathroom products .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You don ' t look very Chinese to me ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It ' s fine . I am actually from Mexico . I was in China on a business trip , visiting some local companies that manufacture bathroom products .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow sounds interesting ! Excuse me if I am being a bit nosy but , how old are you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "You don ' t look very Chinese to me ,",
+            "I am actually from Mexico . I was in China on a business trip , visiting some local companies that manufacture bathroom products ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Wow sounds interesting ! Excuse me if I am being a bit nosy but , how old are you ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Don ' t you know it ' s rude to ask a lady her age ?",
+        "emotion": "neutral",
+        "text": "Don ' t you know it ' s rude to ask a lady her age ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Don ' t get me wrong ! It ' s just that you seem so young and already doing business overseas !",
+        "emotion": "neutral",
+        "text": "Don ' t get me wrong ! It ' s just that you seem so young and already doing business overseas !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well thank you ! In that case , I am 26 years old , and what about yourself ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "It ' s just that you seem so young and already doing business overseas !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well thank you ! In that case , I am 26 years old , and what about yourself ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I am 40 years old and was born and raised here in the good old U . S of A , although I have some Colombian heritage .",
+        "emotion": "neutral",
+        "text": "I am 40 years old and was born and raised here in the good old U . S of A , although I have some Colombian heritage .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Really ? That ' s great ! Do you speak some Spanish ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I am 40 years old and was born and raised here in the good old U . S of A , although I have some Colombian heritage ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? That ' s great ! Do you speak some Spanish ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Uh ... yeah .. of course !",
+        "emotion": "neutral",
+        "text": "Uh ... yeah .. of course !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Que bien ! Sentences poems habeas en espanol !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Do you speak some Spanish ?",
+            "Uh ... yeah .. of course !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Que bien ! Sentences poems habeas en espanol !",
+        "id": 14
+    }
+]

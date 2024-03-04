@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But probably won't be, these clusters."
+    },
+    {
+        "text": "So you'll have to tell me what I mean by the best clusters."
+    },
+    {
+        "text": "If I've got the two points, x and y, I want the points, I want to separate all the points that cluster around x to the ones that cluster around y."
+    },
+    {
+        "text": "And then they're probably different from my original start."
+    },
+    {
+        "text": "So now I've got new."
+    },
+    {
+        "text": "Now I repeat step one."
+    },
+    {
+        "text": "But let's just think, how do I form the best clusters?"
+    },
+    {
+        "text": "Well, I take a point, and I have to decide, does it go with x, or does it go in the x cluster, or does it go in the cluster around y?"
+    },
+    {
+        "text": "So how do I decide that?"
+    },
+    {
+        "text": "Just whichever one it's closer to."
+    },
+    {
+        "text": "So each point goes with each node."
+    },
+    {
+        "text": "I could say each node goes with the closer of x and y."
+    },
+    {
+        "text": "So points that should have been that are closer to x, now we're going to put them in the cluster around x."
+    },
+    {
+        "text": "And does that solve the problem?"
+    },
+    {
+        "text": "No, because, well, it might, but it might not."
+    },
+    {
+        "text": "We have to come back to step one."
+    },
+    {
+        "text": "We've now changed the clusters."
+    },
+    {
+        "text": "They'll have different centroids."
+    },
+    {
+        "text": "So we repeat step one, find the centroids for the two new clusters."
+    },
+    {
+        "text": "Then we come to step two, find the ones that should go with the two centroids, and back and forth."
+    }
+]

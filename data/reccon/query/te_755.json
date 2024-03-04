@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And the host announced that he won it all !",
+        "emotion": "happiness",
+        "explanation": "10 with 9 makes the evidence stronger.",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "He really did a great job in the finale , especially in the PK round . He performed so well that the majority of the audience cast their votes for him .",
+            "And the host announced that he won it all !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And the host announced that he won it all !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

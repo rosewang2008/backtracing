@@ -1,0 +1,377 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "I don't care then.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I don't care then."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't care then.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No. Wrong number. [LAUGHTER]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "No. Wrong number. [LAUGHTER]"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "No. Wrong number. [LAUGHTER]",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "[LAUGHTER] That sent shivers up my spine.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I don't care then."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER] That sent shivers up my spine.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What shall we do if they suddenly walk in on us.[LAUGHTER]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What shall we do if they suddenly walk in on us.[LAUGHTER]",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We'll behave exquisitely.",
+        "emotion": "excited",
+        "text": "We'll behave exquisitely.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "With perfect poise.",
+        "emotion": "happy",
+        "text": "With perfect poise.",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think I shall do a curtsy.",
+        "emotion": "excited",
+        "text": "I think I shall do a curtsy.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's strange; things that ought to matter dreadfully, they just don't matter at all when one's happy. Do they?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "things that ought to matter dreadfully, they just don't matter at all when one's happy."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's strange; things that ought to matter dreadfully, they just don't matter at all when one's happy. Do they?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes. Meaning just that.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "things that ought to matter dreadfully, they just don't matter at all when one's happy.",
+            "Yes. Meaning just that."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes. Meaning just that.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well what does it all mean? That's what I ask myself in my quest for ultimate truth. Dear God, what does it all mean?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "things that ought to matter dreadfully, they just don't matter at all when one's happy."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Well what does it all mean? That's what I ask myself in my quest for ultimate truth. Dear God, what does it all mean?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Don't laugh at me. I'm being serious.",
+        "emotion": "happy",
+        "text": "Don't laugh at me. I'm being serious.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "Who's they?",
+        "emotion": "excited",
+        "text": "Who's they?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "Who knows?",
+        "emotion": "happy",
+        "text": "Who knows?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes. Yes with all of his might.",
+        "emotion": "excited",
+        "text": "Yes. Yes with all of his might.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Let's be superficial, and just pity those poor philosophers, huh? Let's blow trumpets and squeakers and enjoy the party for as long as we can, you know, like small, idiotic school children.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Let's blow trumpets and squeakers and enjoy the party for as long as we can"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's be superficial, and just pity those poor philosophers, huh? Let's blow trumpets and squeakers and enjoy the party for as long as we can, you know, like small, idiotic school children.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "[LAUGHTER]",
+        "emotion": "happy",
+        "text": "[LAUGHTER]",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "Oh Come and kiss me darling before your body rots and worms pop out of your eye sockets.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "Oh Come and kiss me darling"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh Come and kiss me darling before your body rots and worms pop out of your eye sockets.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "Oh Elliott, worms don't pop.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "kiss me darling before your body rots and worms pop out of your eye sockets"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh Elliott, worms don't pop.",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "Oh See, I don't care what you do, see. You can paint yourself green and run naked through the Place Vendome and run off with all of the men of the world. I shan't say a word, just as long as you love me best.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "Oh See, I don't care what you do, see."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh See, I don't care what you do, see. You can paint yourself green and run naked through the Place Vendome and run off with all of the men of the world. I shan't say a word, just as long as you love me best.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "A",
+        "utterance": "Aw. Thank you, darling. The same applies to you too, except that if you so much as look at another woman I'll kill you.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Aw. Thank you, darling."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Aw. Thank you, darling. The same applies to you too, except that if you so much as look at another woman I'll kill you.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Oh Charles, that was his name. He did wiggle so beautifully.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "if you so much as look at another woman I'll kill you.",
+            "Oh Charles, that was his name. He did wiggle so beautifully."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh Charles, that was his name. He did wiggle so beautifully.",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "That was a rouser, wasn't it?",
+        "emotion": "happy",
+        "text": "That was a rouser, wasn't it?",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "[LAUGHTER] I'll never forget his face. [LAUGHTER]",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER] I'll never forget his face. [LAUGHTER]",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "[LAUGHTER] We were very much younger then.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "[LAUGHTER] We were very much younger then.",
+        "id": 25,
+        "source_sentences": [
+            22
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "[LAUGHTER] And very much sillier.",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "The manager came in, he found us rolling about the floor, biting and scratching like panthers. [LAUGHTER] How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "[LAUGHTER] And very much sillier.",
+        "id": 26
+    }
+]

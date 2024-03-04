@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I like that joke , but I hope it's true .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The only thing I've ever done behind your back is zipping you up ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I like that joke , but I hope it's true .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

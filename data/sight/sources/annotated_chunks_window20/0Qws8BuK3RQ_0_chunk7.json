@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it's the trace."
+    },
+    {
+        "text": "Remember, the trace of a matrix M is the sum down the diagonal, M11, M22, down to MNN."
+    },
+    {
+        "text": "It's the diagonal sum."
+    },
+    {
+        "text": "And everybody with me here?"
+    },
+    {
+        "text": "So that term on the diagonal of A transpose A gives me all of that."
+    },
+    {
+        "text": "Or maybe I should be doing AA transpose."
+    },
+    {
+        "text": "And the point is, it doesn't matter."
+    },
+    {
+        "text": "Or the trace of AA transpose."
+    },
+    {
+        "text": "Those would both give the correct Frobenius norm squared."
+    },
+    {
+        "text": "So traces are going to come into this little problem."
+    },
+    {
+        "text": "Now, there's another formula for the Frobenius norm, even shorter, well, certainly shorter than this one, involving a sum of squares."
+    },
+    {
+        "text": "And what's that one?"
+    },
+    {
+        "text": "What's the other way to get this same answer?"
+    },
+    {
+        "text": "If I look at the SVD, look at singular values, I think that this is also equal to sigma 1, the sum square of all the singular values."
+    },
+    {
+        "text": "So it's three nice expressions for the Frobenius norm."
+    },
+    {
+        "text": "The nice ones involve A transpose A or AA transpose."
+    },
+    {
+        "text": "And of course, that connects to the singular values."
+    },
+    {
+        "text": "Because what's the connection between singular values and these guys, A transpose A or AA transpose?"
+    },
+    {
+        "text": "The singular values are the, or the singular values squared, are the eigenvalues of A transpose A."
+    },
+    {
+        "text": "And then when I add up the trace, I'm adding up the eigenvalues."
+    }
+]

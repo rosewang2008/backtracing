@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what I have is if I want to go from theta to x, what I'm going to first do is I'm going to take theta eta of theta."
+    },
+    {
+        "text": "So let's say eta 1 of theta to eta k of theta."
+    },
+    {
+        "text": "And then I'm going to actually take x becomes t1 of x all the way to tk of x."
+    },
+    {
+        "text": "And what I'm going to do is take the inner product."
+    },
+    {
+        "text": "So let's call this eta."
+    },
+    {
+        "text": "And let's call this t. And I'm going to take the inner product of eta and t, which is just the sum from j equal 1 to k of eta j of theta times tj of x."
+    },
+    {
+        "text": "So that's just a way to say I want this simple interaction."
+    },
+    {
+        "text": "But in higher dimension, the simplest way I can actually make those things happen is just by taking inner product."
+    },
+    {
+        "text": "And so now what it's telling me is that the distribution, I want the exponential times something that depends only on theta and something that depends only on x."
+    },
+    {
+        "text": "And so what it tells me is that when I'm going to take p of theta x, it's just going to be something which is exponential times the sum from j equal 1 to k of eta j theta tj of x."
+    },
+    {
+        "text": "And then I'm going to have a function that depends only."
+    },
+    {
+        "text": "So let me write it for now like c of theta."
+    },
+    {
+        "text": "And then a function that depends only on x."
+    },
+    {
+        "text": "Let me call it h of x."
+    },
+    {
+        "text": "And for convenience, there's no particular reason why I do that."
+    },
+    {
+        "text": "I'm taking this function c of theta, and I'm just actually pushing it in there."
+    },
+    {
+        "text": "So I can write c of theta as exponential minus log of 1 over c of theta."
+    },
+    {
+        "text": "And now I have exponential times exponential."
+    },
+    {
+        "text": "So I push it in, and this thing actually looks like exponential sum from j equal 1 to k of eta j theta tj of x minus log 1 over c of theta times h of x."
+    },
+    {
+        "text": "And this thing here, log 1 over c of theta, I call actually b of theta."
+    }
+]

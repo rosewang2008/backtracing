@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So 4 1's and 4 minus 1's."
+    },
+    {
+        "text": "OK, and now the next column."
+    },
+    {
+        "text": "2 1's, 2 minus 1's, and 0's."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "1, 1, minus 1, minus 1, and 0."
+    },
+    {
+        "text": "And the fourth will be 0's and 2 1's and 2 minus 1's."
+    },
+    {
+        "text": "We've got half a matrix now."
+    },
+    {
+        "text": "Now, if we just tell me the fifth, what do you think?"
+    },
+    {
+        "text": "What do I put in the fifth one?"
+    },
+    {
+        "text": "So again, it's going to squeeze down and rescale."
+    },
+    {
+        "text": "And what's the fifth column up here that's going to be 1's and minus 1's and 0's now?"
+    },
+    {
+        "text": "So it's not Adamard."
+    },
+    {
+        "text": "It's Haar."
+    },
+    {
+        "text": "And what shall I put?"
+    },
+    {
+        "text": "1, 1."
+    },
+    {
+        "text": "Shall I start with 1, 1?"
+    },
+    {
+        "text": "Oh, 1 minus?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "And then all 0's?"
+    },
+    {
+        "text": "Oh, yeah, thanks."
+    }
+]

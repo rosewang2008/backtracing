@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , that's a good place to spend a holiday . Last year I went there . It's really .",
+        "emotion": "happiness",
+        "explanation": "Assuming A is happy for B",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've heard that the environment there is very good .",
+            "Yes , that's a good place to spend a holiday . Last year I went there . It's really ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , that's a good place to spend a holiday . Last year I went there . It's really .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

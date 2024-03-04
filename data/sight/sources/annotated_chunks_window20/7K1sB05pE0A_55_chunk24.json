@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's how."
+    },
+    {
+        "text": "Very exciting, higher order terms."
+    },
+    {
+        "text": "So this is the only algebra that we need to do."
+    },
+    {
+        "text": "And now we just need to combine it together to get our result."
+    },
+    {
+        "text": "So now I'm going to just carry out the cancellations that we need."
+    },
+    {
+        "text": "So here we go."
+    },
+    {
+        "text": "We have delta f over delta x, which remember was 1 over delta x times this."
+    },
+    {
+        "text": "Which is this times, now this is x to the n, plus n x to the n-1 delta x, plus this junk term, minus x to the n. So that's what we have so far, based on our previous calculations."
+    },
+    {
+        "text": "Now I'm going to do the main cancellation, which is this."
+    },
+    {
+        "text": "So that's 1 over delta x times n x to the n-1 delta x."
+    },
+    {
+        "text": "Plus this term here."
+    },
+    {
+        "text": "And now I can divide in by delta x."
+    },
+    {
+        "text": "So I get n x to the n-1 plus, now it's O of delta x."
+    },
+    {
+        "text": "There's at least one factor of delta x, not two factors of delta x, because I have to cancel one of them."
+    },
+    {
+        "text": "And now I can just take the limit."
+    },
+    {
+        "text": "And the limit this term is going to be 0."
+    },
+    {
+        "text": "That's why I called it junk originally."
+    },
+    {
+        "text": "Because it disappears."
+    },
+    {
+        "text": "And in math, junk is something that goes away."
+    },
+    {
+        "text": "So this tends to, as delta x goes to 0, n x to the n-1."
+    }
+]

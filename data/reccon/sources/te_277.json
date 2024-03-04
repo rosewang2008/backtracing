@@ -1,0 +1,161 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , Amy , look at that number .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "that number ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , Amy , look at that number .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's so great about it ?",
+        "emotion": "neutral",
+        "text": "What's so great about it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do you mean ? It's a scrim .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "What's so great about it ?",
+            "It's a scrim ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What do you mean ? It's a scrim .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not to me , I wouldn't be caught dead in that .",
+        "emotion": "neutral",
+        "text": "Not to me , I wouldn't be caught dead in that .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I love that kind of stuff .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I love that kind of stuff ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love that kind of stuff .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , you seem to like those styles .",
+        "emotion": "neutral",
+        "text": "Yeah , you seem to like those styles .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure do . I get a kick out of looking punk .",
+        "emotion": "neutral",
+        "text": "Sure do . I get a kick out of looking punk .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "This one looks really expensive though .",
+        "emotion": "neutral",
+        "text": "This one looks really expensive though .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't care how much it costs . I'm rolling in it .",
+        "emotion": "neutral",
+        "text": "I don't care how much it costs . I'm rolling in it .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Lucky you ! I can't buy anything else . I'm flat broke .",
+        "emotion": "neutral",
+        "text": "Lucky you ! I can't buy anything else . I'm flat broke .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I got a replace my party outfit , I trashed it last week .",
+        "emotion": "neutral",
+        "text": "I got a replace my party outfit , I trashed it last week .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Why did you drag me into this ? I've spent a week salary .",
+        "emotion": "neutral",
+        "text": "Why did you drag me into this ? I've spent a week salary .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Are you on the level ? You're the one who called me , remember ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "Why did you drag me into this ?",
+            "You're the one who called me"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you on the level ? You're the one who called me , remember ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Just joking , Tonia . I've got some wonderful clothes . Let's go and have a close look at your outfit .",
+        "emotion": "neutral",
+        "text": "Just joking , Tonia . I've got some wonderful clothes . Let's go and have a close look at your outfit .",
+        "id": 14
+    }
+]

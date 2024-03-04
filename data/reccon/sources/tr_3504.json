@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Mr . Black , I'm calling to say goodbye .",
+        "emotion": "neutral",
+        "text": "Hello , Mr . Black , I'm calling to say goodbye .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You're leaving so soon ? I wish you stayed a little longer .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm calling to say goodbye .",
+            "You're leaving so soon"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're leaving so soon ? I wish you stayed a little longer .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I wish I could stay a little longer , but a lot of things to do back home .",
+        "emotion": "neutral",
+        "text": "I wish I could stay a little longer , but a lot of things to do back home .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Have you got the ticket ?",
+        "emotion": "neutral",
+        "text": "Have you got the ticket ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , I did .",
+        "emotion": "neutral",
+        "text": "Yes , I did .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What time are you going ?",
+        "emotion": "neutral",
+        "text": "What time are you going ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "At 11:00 o'clock .",
+        "emotion": "neutral",
+        "text": "At 11:00 o'clock .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'll pick you up by nine o'clock and take you straight to the airport .",
+        "emotion": "happiness",
+        "explanation": "happy because offering to see off a freind at the airport",
+        "expanded emotion cause evidence": [
+            "b",
+            8
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "I'll pick you up by nine o'clock and take you straight to the airport ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "I'll pick you up by nine o'clock and take you straight to the airport .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I'll go by myself , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll pick you up by nine o'clock and take you straight to the airport ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , I'll go by myself , thanks .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK , goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "OK , goodbye .",
+        "id": 10
+    }
+]

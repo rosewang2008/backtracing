@@ -1,0 +1,177 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me , i am a new student here . Could you tell me where the English Department is ?",
+        "emotion": "neutral",
+        "text": "Excuse me , i am a new student here . Could you tell me where the English Department is ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It is in that brand new , tall building over there . On the 9th floor .",
+        "emotion": "neutral",
+        "text": "It is in that brand new , tall building over there . On the 9th floor .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where is the school cafeteria ?",
+        "emotion": "neutral",
+        "text": "Where is the school cafeteria ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It is the basement of that red building in front of the tower with big bells .",
+        "emotion": "neutral",
+        "text": "It is the basement of that red building in front of the tower with big bells .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Where is the Computer Center ?",
+        "emotion": "neutral",
+        "text": "Where is the Computer Center ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The Computer Center is on the first floor of the library .",
+        "emotion": "neutral",
+        "text": "The Computer Center is on the first floor of the library .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Where is the library ?",
+        "emotion": "neutral",
+        "text": "Where is the library ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The library is next to the Adminstration Building . The Adminstration Building is over there near the school ' s main entrance . There are school maps for free in the lobby of the Admin .",
+        "emotion": "neutral",
+        "text": "The library is next to the Adminstration Building . The Adminstration Building is over there near the school ' s main entrance . There are school maps for free in the lobby of the Admin .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you . I will go get one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "There are school maps for free in the lobby of the Admin .",
+            "I will go get one ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . I will go get one .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sure . Glad to be of service . By the way , my name is Mike Sullivan . You will see me around a lot . I am running for President of the Student Government .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Glad to be of service ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure . Glad to be of service . By the way , my name is Mike Sullivan . You will see me around a lot . I am running for President of the Student Government .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , hi ! My name is Eve Markowski . I am glad to meet you . With your friendly smile and helpful attitude . I am sure you will win .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I am glad to meet you . With your friendly smile and helpful attitude ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , hi ! My name is Eve Markowski . I am glad to meet you . With your friendly smile and helpful attitude . I am sure you will win .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks you for the encouragement .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "With your friendly smile and helpful attitude . I am sure you will win ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks you for the encouragement .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You are welcome . I ' d better go . Goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks you for the encouragement ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are welcome . I ' d better go . Goodbye .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Have a good day . Bye-Bye !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "With your friendly smile and helpful attitude . I am sure you will win ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Have a good day . Bye-Bye !",
+        "id": 14,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And now, because the fundamental theorem is so important, and so useful, and so convenient, we just assume that it be true in this case as well."
+    },
+    {
+        "text": "So we insist that this is going to be minus cos x, evaluated at 0 and 2pi."
+    },
+    {
+        "text": "With the difference."
+    },
+    {
+        "text": "Now, when we carry out that difference, what we get here is minus cos 2pi minus minus cos 0."
+    },
+    {
+        "text": "Which is negative 1 minus negative 1, which is 0."
+    },
+    {
+        "text": "And the interpretation of this is the following."
+    },
+    {
+        "text": "Here's our double hump."
+    },
+    {
+        "text": "Here's pi and here's 2pi."
+    },
+    {
+        "text": "And all that's happening is that the geometric interpretation that we had before of the area under the curve has to be taken with a grain of salt."
+    },
+    {
+        "text": "In other words, I lied to you before when I said that the definite integral was the area under the curve."
+    },
+    {
+        "text": "It's not."
+    },
+    {
+        "text": "The definite integral is the area under the curve when it's above the curve."
+    },
+    {
+        "text": "And it counts negatively when it's below the curve."
+    },
+    {
+        "text": "So yesterday, my geometric interpretation was incomplete and really just a plain lie."
+    },
+    {
+        "text": "So the true geometric interpretation of the definite integral is plus the area above the x-axis minus the area below the x-axis."
+    },
+    {
+        "text": "As in the picture."
+    },
+    {
+        "text": "I'm just writing it down in words, but you should think of it visually also."
+    },
+    {
+        "text": "So that's the setup here."
+    },
+    {
+        "text": "And now we have the complete definition of integrals."
+    },
+    {
+        "text": "And I need to list for you a bunch of their properties and how we deal with integrals."
+    }
+]

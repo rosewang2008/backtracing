@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you had the temptation to plug in u is equal to x squared."
+    },
+    {
+        "text": "Now, of course, we know how to integrate this."
+    },
+    {
+        "text": "But let's just pretend we were stubborn and wanted to use substitution."
+    },
+    {
+        "text": "Then we have du is equal to 2x dx."
+    },
+    {
+        "text": "And now, if I try to make the correspondence, notice that the limits are u1 is negative 1 squared."
+    },
+    {
+        "text": "That's the bottom limit."
+    },
+    {
+        "text": "And u2 is the upper limit."
+    },
+    {
+        "text": "That's 1 squared."
+    },
+    {
+        "text": "That's also equal to 1."
+    },
+    {
+        "text": "Both limits are 1."
+    },
+    {
+        "text": "So this is going from 1 to 1."
+    },
+    {
+        "text": "And no matter what it is, we know it's going to be 0."
+    },
+    {
+        "text": "But we know this is not 0."
+    },
+    {
+        "text": "This is the integral of a positive quantity."
+    },
+    {
+        "text": "And it's the area under a curve."
+    },
+    {
+        "text": "It's going to be a positive area."
+    },
+    {
+        "text": "So this is a positive quantity."
+    },
+    {
+        "text": "It can't be 0."
+    },
+    {
+        "text": "If you actually plug it in, it looks equally strange."
+    },
+    {
+        "text": "You put in here this u, and then, so that would be for the u squared."
+    }
+]

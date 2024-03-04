@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So we're sort of free to do it."
+    },
+    {
+        "text": "Well, this is one case where you want to avoid it."
+    },
+    {
+        "text": "Just don't do it."
+    },
+    {
+        "text": "It is possible, actually, to make sense out of it."
+    },
+    {
+        "text": "But it's also possible to get yourself infinitely confused."
+    },
+    {
+        "text": "So just make sure that, now it's OK if u' is always negative, you're always going one way."
+    },
+    {
+        "text": "It's OK if u' is always positive, you're always going the other way."
+    },
+    {
+        "text": "But if you mix them up, you'll get yourself mixed up."
+    },
+    {
+        "text": "Let me give you an example."
+    },
+    {
+        "text": "The example will be maybe close to what we did last time, did when we first did substitution, I mean."
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "So the integral from 1 to 2, this time I'll put indefinite limits, of x squared plus, sorry, maybe I call this x cubed, x cubed plus 2, let's say, I don't know, to the 5th power, x squared dx."
+    },
+    {
+        "text": "So this is an example of an integral that we would have tried to handle by substitution before."
+    },
+    {
+        "text": "And the substitution we would have used is u equals x cubed plus 2."
+    },
+    {
+        "text": "And that's exactly what we're going to do here."
+    },
+    {
+        "text": "But we're just going to also take into account the limits."
+    },
+    {
+        "text": "The first step, as in any substitution or change of variables, is this."
+    },
+    {
+        "text": "And so we can fill in the things that we would have done previously, which is that this is the integral, and this is u to the 5th power."
+    },
+    {
+        "text": "And then, because this is 3x squared, we see that this is 3, sorry, let's write it the other way."
+    },
+    {
+        "text": "1 3rd du is equal to x squared dx."
+    }
+]

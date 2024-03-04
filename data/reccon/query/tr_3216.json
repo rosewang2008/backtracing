@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yeah , I already knew that . That could be a good thing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "he came here last year after 10 years in the military"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I already knew that . That could be a good thing .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

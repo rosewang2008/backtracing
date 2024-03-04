@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, now I'm going to say, well, delta s is going to be one over cosine alpha delta a."
+    },
+    {
+        "text": "And, I can rewrite that as length of n divided by n dot k times delta a."
+    },
+    {
+        "text": "Now, let's multiply that by the unit normal vector because what I'm multiplying by is not dS, but actually n dS."
+    },
+    {
+        "text": "So, n delta s will be, I'm just going to multiply by n. Well, let's think for a second."
+    },
+    {
+        "text": "What happens if I take the unit normal n, and I multiply it by the length of my other normal big N?"
+    },
+    {
+        "text": "Well, I get big N again, right?"
+    },
+    {
+        "text": "This is a normal vector of the same length as n, well, up to sine."
+    },
+    {
+        "text": "But, actually, maybe I should."
+    },
+    {
+        "text": "The only thing I don't know is whether this guy will be going in the same direction as big N or in the opposite direction."
+    },
+    {
+        "text": "Say that, for example, my capital N has length, I don't know, length three, for example."
+    },
+    {
+        "text": "The unit normal vector might be this guy, in which case, indeed, three times little n will be big N. Or, it might be this one, in which case, three times little n will be negative big N. But, up to sine, it's N. And then, I will have N over n dot k delta a."
+    },
+    {
+        "text": "And so, the final formula, the one that actually we care about in case you don't really like my explanations of how we get there, is that N dS is plus or minus N over N dot k dx dy."
+    },
+    {
+        "text": "That one is actually kind of useful, so let's box it."
+    },
+    {
+        "text": "Now, just in case you are wondering, of course, if you didn't want to project to x, y, you would have maybe preferred to project to, say, the plane of a blackboard, yz."
+    },
+    {
+        "text": "Well, you can do the same thing."
+    },
+    {
+        "text": "To express N dS in terms of dy dz, you do the same argument."
+    },
+    {
+        "text": "And simply, the only thing that changes is instead of using the vertical vector k, you use the normal vector i."
+    },
+    {
+        "text": "So, you would be doing N over N dot i dy dz, and same thing."
+    },
+    {
+        "text": "Just keep an open mind that this also works with other variables."
+    },
+    {
+        "text": "But anyway, so that's how you can basically project the vector surface area element onto the x, y plane in a way."
+    }
+]

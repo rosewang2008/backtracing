@@ -1,0 +1,64 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Can I help you ?",
+        "emotion": "neutral",
+        "text": "Can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "I hope so . I'm looking for some material for a paper I'm writing , and I'm not quite sure where to look .",
+        "emotion": "neutral",
+        "text": "I hope so . I'm looking for some material for a paper I'm writing , and I'm not quite sure where to look .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "I'll certainly try to help you . What topic is your paper on ?",
+        "emotion": "neutral",
+        "text": "I'll certainly try to help you . What topic is your paper on ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "My paper is on the influence of television on children .",
+        "emotion": "neutral",
+        "text": "My paper is on the influence of television on children .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "There are several possible sources you might use for that topic . I suggest you use the computer and the computer will give you a list of every scientific journal that talks about children and television .",
+        "emotion": "neutral",
+        "text": "There are several possible sources you might use for that topic . I suggest you use the computer and the computer will give you a list of every scientific journal that talks about children and television .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Thank you for you help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "There are several possible sources you might use for that topic . I suggest you use the computer and the computer will give you a list of every scientific journal that talks about children and television ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you for you help .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

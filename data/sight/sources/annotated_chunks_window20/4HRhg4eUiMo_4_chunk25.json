@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I draw my data."
+    },
+    {
+        "text": "So I draw."
+    },
+    {
+        "text": "I run this experiment, which is probably going to get me a publication in Nature."
+    },
+    {
+        "text": "I'm trying to test if a coin is fair."
+    },
+    {
+        "text": "And I draw my data, and I see that there's 13 out of 30 of my observations that are heads."
+    },
+    {
+        "text": "That means that from this data, it looks like p is less than 1 half."
+    },
+    {
+        "text": "So if I look at this data and then decide that my alternative is not p not equal to 1 half, but rather p less than 1 half, that's p-hacking."
+    },
+    {
+        "text": "I'm actually making my p-value strictly smaller by first looking at the data and then deciding what my alternative is going to be."
+    },
+    {
+        "text": "And that's cheating, because all the things we did were assuming that this 0.5 or d alternative was actually a fix."
+    },
+    {
+        "text": "Everything was deterministic."
+    },
+    {
+        "text": "The only randomness came from the data."
+    },
+    {
+        "text": "But if I start looking at the data and designing my experiment or my alternatives and null hypothesis based on the data, it's as if I started putting randomness all over the place."
+    },
+    {
+        "text": "And then I cannot control it, because I don't know how it just intermingles with each other."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So that was for the John Oliver moment."
+    },
+    {
+        "text": "So the p-value is nice."
+    },
+    {
+        "text": "So maybe I mentioned that before."
+    },
+    {
+        "text": "My wife works in market research."
+    },
+    {
+        "text": "And maybe every two years, she seems to run into a statistician in the hallway."
+    },
+    {
+        "text": "And she comes home and says, what is a p-value again?"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, I'm now entitled to use the word smaller."
+    },
+    {
+        "text": "I mean, well, one way to say is, OK, these are contained in those."
+    },
+    {
+        "text": "These are contained in those."
+    },
+    {
+        "text": "But more precisely, I could give the dimension of these spaces."
+    },
+    {
+        "text": "So I could, we can compute, let's compute it next time."
+    },
+    {
+        "text": "The dimension of all upper, of the subspace of upper triangular three by three matrices."
+    },
+    {
+        "text": "The dimension of symmetric three by three matrices."
+    },
+    {
+        "text": "The dimension of diagonal three by three matrices."
+    },
+    {
+        "text": "Well, to produce dimension, that means I'm supposed to produce a basis."
+    },
+    {
+        "text": "And then I just count how many I needed in the basis."
+    },
+    {
+        "text": "Let me give you the answer for this one."
+    },
+    {
+        "text": "What's the dimension?"
+    },
+    {
+        "text": "The dimension of this, say, this subspace, let me call it D, all diagonal matrices."
+    },
+    {
+        "text": "The dimension of this subspace is, as I write, you're working it out, three."
+    },
+    {
+        "text": "Because here's a matrix in this, it's a diagonal matrix."
+    },
+    {
+        "text": "Here's another one."
+    },
+    {
+        "text": "Here's another one."
+    },
+    {
+        "text": "Better make it diagonal, let me put a seven there."
+    },
+    {
+        "text": "That was not a very great choice, but it's three diagonal matrices, and I believe that they're a basis."
+    },
+    {
+        "text": "I believe that those three matrices are independent, and I believe that any diagonal matrix is a combination of those three."
+    }
+]

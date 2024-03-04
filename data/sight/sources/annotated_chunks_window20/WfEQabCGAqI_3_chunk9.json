@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And, everything else, the bounds of the double integral and the n ds, they all come from the surface that we are looking at."
+    },
+    {
+        "text": "OK, so basically, in all of this calculation, this is coming from f equals zk."
+    },
+    {
+        "text": "Everything else comes from the information paraboloid z equals x squared plus y squared above the disk."
+    },
+    {
+        "text": "OK, so in particular, if we wanted to now find the flux of any other vector field for the same paraboloid, well, all we have to do is just replace this guy by whatever the new vector field is."
+    },
+    {
+        "text": "We've learned how to set up flux integrals for this paraboloid."
+    },
+    {
+        "text": "Not that you should remember this one by heart."
+    },
+    {
+        "text": "I mean, there's many paraboloids in life and other surfaces, too, so it's better to remember the general method."
+    },
+    {
+        "text": "OK, any other questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's see more ways of tackling flux integrals."
+    },
+    {
+        "text": "But, just to reassure you, at this point, we've seen the most important ones."
+    },
+    {
+        "text": "You know, 90% of the problems that we'll be looking at, we can do with what we've seen so far last time and this time."
+    },
+    {
+        "text": "But, let's look a little bit at a more general situation."
+    },
+    {
+        "text": "Let's say that my surface is so complicated that I can't actually express z as a function of x and y."
+    },
+    {
+        "text": "But, let's say that actually I know how to parametrize it."
+    },
+    {
+        "text": "So, I have a parametric equation for my surface."
+    },
+    {
+        "text": "That means I can express x, y, z in terms of any two parameter variables that might be relevant for me."
+    },
+    {
+        "text": "So, if you want, this one here is the special case where you can parametrize things in terms of x and y as your two variables."
+    },
+    {
+        "text": "So, how would you do it in the fully general case?"
+    },
+    {
+        "text": "In a way, that will answer your question."
+    }
+]

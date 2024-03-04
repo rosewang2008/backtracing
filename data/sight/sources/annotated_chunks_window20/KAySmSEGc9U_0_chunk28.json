@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We're going to spend all of next lecture looking at context-free grammars."
+    },
+    {
+        "text": "And they're associated languages."
+    },
+    {
+        "text": "But let's just do kind of get a preview."
+    },
+    {
+        "text": "So a context-free grammar looks like this."
+    },
+    {
+        "text": "You have a bunch of these what we call substitution rules or rules sometimes, which just look like a symbol, arrow, a string of symbols."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "That's what a context-free grammar looks like at a high level."
+    },
+    {
+        "text": "Let's define some terms."
+    },
+    {
+        "text": "So a rule, as I just described, is going to be a symbol, which we're going to call a variable."
+    },
+    {
+        "text": "And that's going to have an arrow to a string of possibly other variables and symbols called terminals."
+    },
+    {
+        "text": "So a variable is a symbol that appears on the left-hand side of a rule."
+    },
+    {
+        "text": "Anything that appears on the left-hand side is going to be considered to be a variable."
+    },
+    {
+        "text": "So s and r are both variables."
+    },
+    {
+        "text": "Now, other symbols that appear in the grammar, which don't appear in the left-hand side, those are going to be called terminals."
+    },
+    {
+        "text": "So here, 0 and 1 are terminals."
+    },
+    {
+        "text": "Now, you may think that empty string should also be a terminal, but that's not a symbol."
+    },
+    {
+        "text": "Empty string is a string."
+    },
+    {
+        "text": "It's just a string of length 0."
+    },
+    {
+        "text": "So I'm not considering empty string to be a terminal."
+    },
+    {
+        "text": "And then there's going to be a special variable, which is going to be considered the starting variable, just like we had a starting state."
+    }
+]

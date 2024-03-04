@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And it seems really hard to be able to do that kind of a count when you only have 50 states."
+    },
+    {
+        "text": "So whatever number of states you have, it seems hard to count when you have a finite automaton."
+    },
+    {
+        "text": "So the intuition is, it's not regular, because a finite automaton can't count, which, in this case, you can convert that intuition into a real proof."
+    },
+    {
+        "text": "I would say it's not a real proof yet, but it can be made into a real proof."
+    },
+    {
+        "text": "But compare that case with another language, which I'll call C, which instead of looking at its input to see whether it has an equal number of 0's and 1's, I'm going to look at the input and look at the substrings of 0 1's and 1 0's, those two substrings, and count the number of occurrences of 0 1 as a substring and the number of occurrences of 1 0 as a substring."
+    },
+    {
+        "text": "Just to make sure you're understanding, let's look at two examples."
+    },
+    {
+        "text": "So the string 0 1 0 1 is not going to be in C, because if you count up the number of 0 1's and the number of 1 0's, not the same."
+    },
+    {
+        "text": "So I'm even going to help you here, if you can see that."
+    },
+    {
+        "text": "The number of 0 1's is 2, but there's only a single occurrence of 1 0."
+    },
+    {
+        "text": "So those two counts are different, and so that's why this input string is not in C. Compare that with the string 0 1 1 0."
+    },
+    {
+        "text": "Now, if you count up the number of 0 1 and 1 0 substrings, you're going to get the same value, because here we have a single 0 1 and a single 1 0."
+    },
+    {
+        "text": "And so now the two counts of those number of substrings are the same, and so that's why you're in C. Now my question is, is C a regular language?"
+    },
+    {
+        "text": "Well, it looks like it shouldn't be regular for the same reason that B isn't regular, because you have to count up two quantities and compare them."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So now, so if we, so that's our intuition, that you just can't do it with a finite automaton, because you have to do the same kind of counting that you would have had to do for language B."
+    },
+    {
+        "text": "But here, you would be wrong, because C, in fact, is regular."
+    },
+    {
+        "text": "It has a much simpler description than the one I gave over here at the beginning."
+    },
+    {
+        "text": "There's the very same language C can be described in a much, much simpler way."
+    },
+    {
+        "text": "I'm not going to tell you what it is."
+    },
+    {
+        "text": "You can mull that over."
+    }
+]

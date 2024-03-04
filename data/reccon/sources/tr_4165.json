@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you listening now , Fred ?",
+        "emotion": "neutral",
+        "text": "What are you listening now , Fred ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hey ! Man , put your earphone out . I said which song you are listening to .",
+        "emotion": "neutral",
+        "text": "Hey ! Man , put your earphone out . I said which song you are listening to .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Jay Chou's title song in his new album .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Jay Chou's title song in his new album ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Jay Chou's title song in his new album .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What's your comment on his new album ?",
+        "emotion": "happiness",
+        "explanation": "Latent reason behind happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What's your comment on his new album ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Gorgeous ! There is another song combining Chinese and western music styles . I am crazy for it , so I hear it over and again . And I plan to make it as the ringbone of my mobile .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "What's your comment on his new album ?",
+            "Gorgeous ! There is another song combining Chinese and western music styles . I am crazy for it , so I hear it over and again . And I plan to make it as the ringbone of my mobile ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Gorgeous ! There is another song combining Chinese and western music styles . I am crazy for it , so I hear it over and again . And I plan to make it as the ringbone of my mobile .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let me enjoy it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Let me enjoy it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let me enjoy it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I suppose this song can be the No . 1 on the top chart .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "What's your comment on his new album ?",
+            "Gorgeous ! There is another song combining Chinese and western music styles . I am crazy for it , so I hear it over and again . And I plan to make it as the ringbone of my mobile .",
+            "I suppose this song can be the No . 1 on the top chart ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I suppose this song can be the No . 1 on the top chart .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I cann't wait for buying his CD now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Let me enjoy it .",
+            "I cann't wait for buying his CD now ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I cann't wait for buying his CD now .",
+        "id": 9
+    }
+]

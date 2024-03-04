@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            22
+        ],
+        "expanded emotion cause span": [
+            "My pleasure , see you tomorrow evening ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "See you then .",
+        "id": 23,
+        "source_sentences": [
+            21
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

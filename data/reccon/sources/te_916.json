@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What ' s the Mountaineering Club doing this weekend ?",
+        "emotion": "neutral",
+        "text": "What ' s the Mountaineering Club doing this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "We are going to climb a cliff on the Colorado River .",
+        "emotion": "neutral",
+        "text": "We are going to climb a cliff on the Colorado River .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How hard is the climb ?",
+        "emotion": "neutral",
+        "text": "How hard is the climb ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It is a very difficult climb because there are not many places to put your hands and feet .",
+        "emotion": "neutral",
+        "text": "It is a very difficult climb because there are not many places to put your hands and feet .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What did you do last week ?",
+        "emotion": "neutral",
+        "text": "What did you do last week ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "We rappelled down the side of 300 - foot cliff . It was very exciting .",
+        "emotion": "neutral",
+        "text": "We rappelled down the side of 300 - foot cliff . It was very exciting .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow ! That sounds like a lot of fun . I ' m sorry I missed it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "We rappelled down the side of 300 - foot cliff . It was very exciting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow ! That sounds like a lot of fun . I ' m sorry I missed it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , you should come this weekend . I think you could do the climb .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Well , you should come this weekend . I think you could do the climb ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , you should come this weekend . I think you could do the climb .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , I will . See you then !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "you should come this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I will . See you then !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "O . K . See you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Yeah , I will . See you then !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "O . K . See you .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow ! I am really honored you went through all this trouble just for my sake . I really appreciate that . So , what time are we going ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I knew you were really looking forward to watching Star Wars on the opening day .",
+            "I am really honored you went through all this trouble just for my sake ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow ! I am really honored you went through all this trouble just for my sake . I really appreciate that . So , what time are we going ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

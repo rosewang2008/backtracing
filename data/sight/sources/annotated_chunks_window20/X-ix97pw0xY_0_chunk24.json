@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I'm going to first put everything into my exponential and expand this guy."
+    },
+    {
+        "text": "So the first term here is going to be minus x squared over 2 sigma squared."
+    },
+    {
+        "text": "The second term is going to be minus mu squared over 2 sigma squared."
+    },
+    {
+        "text": "And then the cross term is going to be plus x mu divided by sigma squared."
+    },
+    {
+        "text": "And then I'm going to put this guy here, so I have a minus log sigma root 2 pi."
+    },
+    {
+        "text": "OK, so this term here contains an interaction between x and the parameters."
+    },
+    {
+        "text": "This term here contains an interaction between x and the parameters."
+    },
+    {
+        "text": "So let me try to write them in a way that I want."
+    },
+    {
+        "text": "This guy only depends on the parameters."
+    },
+    {
+        "text": "This guy only depends on the parameter."
+    },
+    {
+        "text": "So I'm going to rearrange things."
+    },
+    {
+        "text": "And so I claim that this is of the form x squared."
+    },
+    {
+        "text": "Well, let's say, who's getting the minus?"
+    },
+    {
+        "text": "Eta, OK."
+    },
+    {
+        "text": "So it's x squared times minus 1 over 2 sigma squared plus x times mu over sigma squared."
+    },
+    {
+        "text": "So that's this term here."
+    },
+    {
+        "text": "That's this term here."
+    },
+    {
+        "text": "Now I need to get this guy here."
+    },
+    {
+        "text": "And that's minus."
+    },
+    {
+        "text": "So I'm going to write it like this, minus."
+    }
+]

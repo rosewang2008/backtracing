@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 5,
+        "timestamp": 1684511772657.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "18:09 why the range of r goes from 0 to 1? I think the definition of S in this problem needs further clarification. S should be a paraboloid of z = x^2 + y^2 between z=0 and z=1. It is a little confusing by justing saying \"above the unit disk\".  "
+    }
+]

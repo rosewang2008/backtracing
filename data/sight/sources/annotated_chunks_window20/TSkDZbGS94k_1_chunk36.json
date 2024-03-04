@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's the normalized mean."
+    },
+    {
+        "text": "It really tells me what the mean is compared to the standard deviation."
+    },
+    {
+        "text": "So in some models, in reality, in some real applications, this actually might have a good meaning for me."
+    },
+    {
+        "text": "It's just telling me how big the mean is compared to the standard fluctuations of this model."
+    },
+    {
+        "text": "But I won't be able to get more than that."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "All right, so now that we've set a parametric model, let's try to see what our goals are going to be."
+    },
+    {
+        "text": "OK, so now we have a sample and a statistical model."
+    },
+    {
+        "text": "And we want to estimate the parameter theta."
+    },
+    {
+        "text": "And I could say, well, you know what?"
+    },
+    {
+        "text": "I don't have time for this analysis."
+    },
+    {
+        "text": "Collecting data is going to take me a while."
+    },
+    {
+        "text": "And I'm going to say that mu over sigma is 4."
+    },
+    {
+        "text": "I'm just going to give it to you."
+    },
+    {
+        "text": "And maybe you will tell me, eh, not very good, right?"
+    },
+    {
+        "text": "So we need some measure of performance of a given parameter."
+    },
+    {
+        "text": "We need to be able to evaluate if eyeballing the problem is worse than actually collecting a large amount of data."
+    },
+    {
+        "text": "We need to know if, even if I come up with an estimator that actually sort of uses the data, does it make an efficient use of the data?"
+    },
+    {
+        "text": "Would I actually need 10 times more observations to achieve the same accuracy?"
+    },
+    {
+        "text": "So to be able to answer these questions, well, I need to define what accuracy means."
+    }
+]

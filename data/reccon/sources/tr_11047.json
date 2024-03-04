@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , can I help you ?",
+        "emotion": "neutral",
+        "text": "Hi , can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , thanks . I'm just looking .",
+        "emotion": "happiness",
+        "explanation": "Sharing pleasantries",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "No , thanks . I'm just looking .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "All right . If you need any help , just let me know . My name is Greg .",
+        "emotion": "neutral",
+        "text": "All right . If you need any help , just let me know . My name is Greg .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , I'll let you know if I need anything . Hm , this mattress is very firm . Jack will probably like it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "this mattress is very firm . Jack will probably like it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sure , I'll let you know if I need anything . Hm , this mattress is very firm . Jack will probably like it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did you find something you like ?",
+        "emotion": "neutral",
+        "text": "Did you find something you like ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , this mattress is very good . It's pretty firm . The mattress I ' m now sleeping on is saggy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "this mattress is very firm . Jack will probably like it .",
+            "Did you find something you like ?",
+            "Yes ,",
+            "mattress is very good . It's pretty firm ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes , this mattress is very good . It's pretty firm . The mattress I ' m now sleeping on is saggy .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are right . This is very good brand . It doesn't sag easily and we offer a lifetime warranty , so you don't have to worry about its quality .",
+        "emotion": "neutral",
+        "text": "You are right . This is very good brand . It doesn't sag easily and we offer a lifetime warranty , so you don't have to worry about its quality .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Does it come with a frame ?",
+        "emotion": "neutral",
+        "text": "Does it come with a frame ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Unfortunately , it doesn't . However we can give you a 10 % discount on the frame . We also offer a very good financing plan . There is no payment no interest until next June .",
+        "emotion": "neutral",
+        "text": "Unfortunately , it doesn't . However we can give you a 10 % discount on the frame . We also offer a very good financing plan . There is no payment no interest until next June .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's an attractive plan . I'll think about it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "we can give you a 10 % discount",
+            "We also offer a very good financing plan .",
+            "no payment no interest until next June ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's an attractive plan . I'll think about it .",
+        "id": 10,
+        "source_sentences": [
+            8,
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

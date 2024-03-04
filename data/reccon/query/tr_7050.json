@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Don't mention it , Larry . What are friends for anyway ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            25
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate your help on this ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it , Larry . What are friends for anyway ?",
+        "id": 26,
+        "source_sentences": [
+            24
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

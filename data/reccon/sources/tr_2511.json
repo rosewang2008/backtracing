@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi . Ed , what's up ?",
+        "emotion": "neutral",
+        "text": "Hi . Ed , what's up ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Nothing .",
+        "emotion": "neutral",
+        "text": "Nothing .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Doesn't look like it to me .",
+        "emotion": "neutral",
+        "text": "Doesn't look like it to me .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Just get out of my face !",
+        "emotion": "anger",
+        "explanation": "The cause for anger is latent.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Just get out of my face !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Woo , easy .",
+        "emotion": "neutral",
+        "text": "Woo , easy .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Leave me alone !",
+        "emotion": "anger",
+        "explanation": "The cause for anger is latent.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Leave me alone !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What are you so ticked off about ?",
+        "emotion": "neutral",
+        "text": "What are you so ticked off about ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I don't want to talk about it .",
+        "emotion": "neutral",
+        "text": "I don't want to talk about it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Maybe I could help .",
+        "emotion": "neutral",
+        "text": "Maybe I could help .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I blew the finally exam .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I blew the finally exam ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I blew the finally exam .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You've got be joking .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I blew the finally exam ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You've got be joking .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No , I'm not .",
+        "emotion": "neutral",
+        "text": "No , I'm not .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well , don't get bend on a ship about it .",
+        "emotion": "neutral",
+        "text": "Well , don't get bend on a ship about it .",
+        "id": 13
+    }
+]

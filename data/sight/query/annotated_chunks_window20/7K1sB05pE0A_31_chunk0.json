@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 31,
+        "timestamp": 1684516539061.0,
+        "annotatedSourceSentencesIndices": [
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "It seems that this course is a combination of what is usually separated into two courses typically named \"Calculus 1\" and \"Calculus 2\". Is that correct?"
+    }
+]

@@ -1,0 +1,227 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why are you so quiet ?",
+        "emotion": "neutral",
+        "text": "Why are you so quiet ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My girlfriend just broke up with me .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My girlfriend just broke up with me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My girlfriend just broke up with me .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You must feel terrible now .",
+        "emotion": "neutral",
+        "text": "You must feel terrible now .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My girlfriend just broke up with me ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I remember my first break up . It was the worst feeling in the world . I was crying everyday for three months . And slowly , it got better . I know you'll feel better too .",
+        "emotion": "neutral",
+        "text": "I remember my first break up . It was the worst feeling in the world . I was crying everyday for three months . And slowly , it got better . I know you'll feel better too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You've been through this too ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I remember my first break up . It was the worst feeling in the world . I was crying everyday for three months ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You've been through this too ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah . I remember it very clearly . The pain makes it easy to remember . I know you're really hurting right now , but you know many people experience break ups .",
+        "emotion": "neutral",
+        "text": "Yeah . I remember it very clearly . The pain makes it easy to remember . I know you're really hurting right now , but you know many people experience break ups .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But it hurts too much .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            8
+        ],
+        "expanded emotion cause span": [
+            "My girlfriend just broke up with me .",
+            "hurts too much ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "But it hurts too much .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I know it's painful , but it's only temporary . After the pain goes away , you'll find other girls .",
+        "emotion": "neutral",
+        "text": "I know it's painful , but it's only temporary . After the pain goes away , you'll find other girls .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What if I don't want to find another girl ?",
+        "emotion": "neutral",
+        "text": "What if I don't want to find another girl ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You'll change your mind . Look at everyone in the world . They all break up and move on . The faster you understand this , the quicker you will recover .",
+        "emotion": "neutral",
+        "text": "You'll change your mind . Look at everyone in the world . They all break up and move on . The faster you understand this , the quicker you will recover .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You're right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "it's only temporary . After the pain goes away , you'll find other girls .",
+            "You'll change your mind . Look at everyone in the world . They all break up and move on ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're right .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I also know you must still have strong feelings for her , but try to think of all the bad things . You know she didn't treat you that well . Is that the person you want to spend the rest of your life with ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "You're right ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I also know you must still have strong feelings for her , but try to think of all the bad things . You know she didn't treat you that well . Is that the person you want to spend the rest of your life with ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yeah . Thanks for the talk .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "it's only temporary . After the pain goes away , you'll find other girls .",
+            "You'll change your mind . Look at everyone in the world . They all break up and move on .",
+            "but try to think of all the bad things . You know she didn't treat you that well . Is that the person you want to spend the rest of your life with ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah . Thanks for the talk .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'll give you a call later . We should hang out . It's good to be around people .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "You're right .",
+            "Yeah . Thanks for the talk ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll give you a call later . We should hang out . It's good to be around people .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Ok . I'll talk to you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "I'll give you a call later . We should hang out . It's good to be around people ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . I'll talk to you later .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

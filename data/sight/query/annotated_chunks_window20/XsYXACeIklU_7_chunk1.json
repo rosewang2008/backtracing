@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 7,
+        "timestamp": 1684520381503.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "The bus inter-arrival time example is a bad/counteractive example. If buses are running at the rate of 4 per hour, You go at a random time for many days and your average waiting time should be  7.5 minutes. Why would the bus company foll people by saying we are running buses whose time is determined by poisson process and not a uniform/predetermined time?"
+    }
+]

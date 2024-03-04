@@ -1,0 +1,213 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , May . How about getting together for a movie tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "getting together for a movie"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , May . How about getting together for a movie tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . What's playing ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "getting together for a movie"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . What's playing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , Let me check the newspaper . What about The Terminal ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "getting together for a movie",
+            "How about getting together for a movie",
+            "Sure . What's playing ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Well , Let me check the newspaper . What about The Terminal ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Wow , it stars Catherine Zeta-Jones , my favorite actress .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "getting together for a movie",
+            "my favorite actress ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , it stars Catherine Zeta-Jones , my favorite actress .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , birds of a feather flock together . I like her too . She was in a lot of dramas .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like her too . She was in a lot of dramas ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , birds of a feather flock together . I like her too . She was in a lot of dramas .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "She is so beautiful and elegant . And she is famous for her fine acting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "She is so beautiful and elegant ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She is so beautiful and elegant . And she is famous for her fine acting .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What's more , she doesn't have scandals . And she likes to take part in the charitable activities .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "she doesn't have scandals .",
+            "she likes to take part in the charitable activities ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What's more , she doesn't have scandals . And she likes to take part in the charitable activities .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Who is the director ?",
+        "emotion": "neutral",
+        "text": "Who is the director ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Steven Spielberg . Another superstar .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Another superstar ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Steven Spielberg . Another superstar .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , a legend , also . I still remember , his movies , Jurassic Park and Schindler's List got him nine Oscar awards in 1994 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Another superstar .",
+            "a legend"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , a legend , also . I still remember , his movies , Jurassic Park and Schindler's List got him nine Oscar awards in 1994 .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Can you introduce the story of The Terminal briefly ?",
+        "emotion": "neutral",
+        "text": "Can you introduce the story of The Terminal briefly ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It tells a romantic and humorous love story .",
+        "emotion": "neutral",
+        "text": "It tells a romantic and humorous love story .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "This is really exciting movie . Lets go to this one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "This is really exciting movie ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is really exciting movie . Lets go to this one .",
+        "id": 13
+    }
+]

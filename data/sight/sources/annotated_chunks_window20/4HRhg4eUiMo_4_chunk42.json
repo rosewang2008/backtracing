@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it is the sum of their iid."
+    },
+    {
+        "text": "So it's the sum of independent Gaussians, but not standard."
+    },
+    {
+        "text": "So the first thing to make them standard is that I divide all of them by sigma-squared."
+    },
+    {
+        "text": "Now, this guy is of the form zi-squared, where zi is n0, 1."
+    },
+    {
+        "text": "So now this thing here has what distribution?"
+    },
+    {
+        "text": "Chi-squared n. And now sigma-squared over n times chi-squared n. So if I have sigma-squared divided by n times chi-squared, sorry, so n times n divided by sigma-squared."
+    },
+    {
+        "text": "So if I take this thing and I multiply it by n divided by sigma-squared, it means I remove this term."
+    },
+    {
+        "text": "And now I am left with a chi-squared with n degrees of freedom."
+    },
+    {
+        "text": "Now, the effect of centering with the sample mean here is only to lose 1 degree of freedom."
+    },
+    {
+        "text": "That's it."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if I want to do a test about variance, since this is supposedly a good estimator of variance, this could be my pivotal distribution."
+    },
+    {
+        "text": "This could play the role of a Gaussian."
+    },
+    {
+        "text": "If I want to know if my variance is equal to 1 or larger than 1, I could actually build a test based on this only statement and test if the variance is larger than 1 or not."
+    },
+    {
+        "text": "Now, this is not asymptotic because I started with the very assumption that my data was Gaussian itself."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, just a side remark, you can check that this chi-squared 2, 2 is an exponential with half degrees of freedom, which is certainly not clear from the fact that z1 squared plus z2 squared is a chi-squared with 2 degrees of freedom."
+    },
+    {
+        "text": "If I give you the sum of the square of two independent Gaussians, this is actually an exponential."
+    },
+    {
+        "text": "That's not super clear, right?"
+    },
+    {
+        "text": "But if you look at what was here, I don't know if you took notes, but let me rewrite it for you."
+    }
+]

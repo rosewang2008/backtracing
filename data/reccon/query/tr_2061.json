@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good idea . I'll go shopping in one of the department stores nearby . We'll go to the zoo and the park another time . After all , we can put that off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can visit the country"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good idea . I'll go shopping in one of the department stores nearby . We'll go to the zoo and the park another time . After all , we can put that off .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

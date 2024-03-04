@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , long time no see . How have you been ?",
+        "emotion": "neutral",
+        "text": "Hi , long time no see . How have you been ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , I've been fine , but I'm having some trouble with my son .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm having some trouble with my son ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , I've been fine , but I'm having some trouble with my son .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Tell me all about it .",
+        "emotion": "neutral",
+        "text": "Tell me all about it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , he's 14 and in the past few months , he's become quieter and a bit secretive . He locks himself in his room and I think he's running around with the wrong crowd .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm having some trouble with my son .",
+            "he's become quieter and a bit secretive . He locks himself in his room and I think he's running around with the wrong crowd ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh , he's 14 and in the past few months , he's become quieter and a bit secretive . He locks himself in his room and I think he's running around with the wrong crowd .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I see . What makes you think that ?",
+        "emotion": "neutral",
+        "text": "Oh , I see . What makes you think that ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , he's become friends with a couple of older boys who are in a band . And one night last weekend , he came home really late , way past his curfew .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm having some trouble with my son .",
+            "he's become quieter and a bit secretive . He locks himself in his room and I think he's running around with the wrong crowd .",
+            "one night last weekend , he came home really late , way past his curfew ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well , he's become friends with a couple of older boys who are in a band . And one night last weekend , he came home really late , way past his curfew .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? What happened ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "one night last weekend , he came home really late , way past his curfew ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What happened ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He told me that his friend's car broke down and they had to walk home .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm having some trouble with my son .",
+            "he's become quieter and a bit secretive . He locks himself in his room and I think he's running around with the wrong crowd .",
+            "one night last weekend , he came home really late , way past his curfew ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "He told me that his friend's car broke down and they had to walk home .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I see what you mean . I understand why you're concerned . Have you tried talking to your son about it ?",
+        "emotion": "neutral",
+        "text": "I see what you mean . I understand why you're concerned . Have you tried talking to your son about it ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I haven't yet . I just keep hoping it's just a phase he's going through .",
+        "emotion": "neutral",
+        "text": "I haven't yet . I just keep hoping it's just a phase he's going through .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You may be right , but it doesn't hurt to find out more about what's going on in his life .",
+        "emotion": "neutral",
+        "text": "You may be right , but it doesn't hurt to find out more about what's going on in his life .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You're right . I should talk to him . Sometimes , it's not easy being a parent . Thanks . It helps to get it off my chest . You're always so easy to talk to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks . It helps to get it off my chest . You're always so easy to talk to ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You're right . I should talk to him . Sometimes , it's not easy being a parent . Thanks . It helps to get it off my chest . You're always so easy to talk to .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I don't know about that , but my door is always open . Stop by anytime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Thanks . It helps to get it off my chest . You're always so easy to talk to ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't know about that , but my door is always open . Stop by anytime .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

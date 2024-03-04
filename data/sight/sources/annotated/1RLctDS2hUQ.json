@@ -1,0 +1,1541 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Today we're going to continue with integration."
+    },
+    {
+        "text": "And we get to do probably the most important thing of this entire course, which is appropriately named."
+    },
+    {
+        "text": "It's called the Fundamental Theorem of Calculus."
+    },
+    {
+        "text": "And we'll be abbreviating it FTC, and occasionally I'll put in a 1 here, because there will be two versions of it."
+    },
+    {
+        "text": "But this is the one that you'll be using the most in this class."
+    },
+    {
+        "text": "The Fundamental Theorem of Calculus says the following."
+    },
+    {
+        "text": "It says that if f' is equal to f, so f' of x is equal to f of x, is a capital F and a little f, then the integral from a to b of f of x is equal to f of b minus f of a."
+    },
+    {
+        "text": "That's it."
+    },
+    {
+        "text": "That's the whole theorem."
+    },
+    {
+        "text": "And you may recognize it."
+    },
+    {
+        "text": "Before we had the notation that f was the antiderivative."
+    },
+    {
+        "text": "That is, capital F was the integral of f of x."
+    },
+    {
+        "text": "We wrote it this way."
+    },
+    {
+        "text": "This is the indefinite integral."
+    },
+    {
+        "text": "And now we're putting in definite values."
+    },
+    {
+        "text": "And we have a connection between the two uses of the integral sign."
+    },
+    {
+        "text": "But with the definite values, we get real numbers out instead of a function."
+    },
+    {
+        "text": "Or a function up to a constant."
+    },
+    {
+        "text": "So this is it."
+    },
+    {
+        "text": "This is the formula."
+    },
+    {
+        "text": "And it's usually also written with another notation."
+    },
+    {
+        "text": "So I want to introduce that notation to you as well."
+    },
+    {
+        "text": "So there's a new notation here."
+    },
+    {
+        "text": "Which you'll find very convenient."
+    },
+    {
+        "text": "Because we don't always have to give a letter f to the functions involved."
+    },
+    {
+        "text": "So it's an abbreviation."
+    },
+    {
+        "text": "For right now, there'll be a lot of f's."
+    },
+    {
+        "text": "But anyway."
+    },
+    {
+        "text": "So here's the abbreviation."
+    },
+    {
+        "text": "Whenever I have a difference between a function at two values, I also can write this as f of x with an a down here and a b up there."
+    },
+    {
+        "text": "So that's the notation that we use."
+    },
+    {
+        "text": "And you can also, for emphasis, and this sometimes turns out to be important when there's more than one variable floating around in the problem, to specify that the variable is x."
+    },
+    {
+        "text": "So this is the same thing as x equals a and x equals b."
+    },
+    {
+        "text": "It indicates where you want to plug in, what you want to plug in."
+    },
+    {
+        "text": "And now you take the top value minus the bottom value."
+    },
+    {
+        "text": "So f of b minus f of a."
+    },
+    {
+        "text": "This is just a notation."
+    },
+    {
+        "text": "And in that notation, of course, the theorem can be written as with this set of symbols here, equally well."
+    },
+    {
+        "text": "So let's just give a couple of examples."
+    },
+    {
+        "text": "The first example is the one that we did last time very laboriously."
+    },
+    {
+        "text": "If you take the function F of x, which happens to be x cubed over 3, then if you differentiate it, you get, well, the factor of 3 cancels."
+    },
+    {
+        "text": "So you get x squared."
+    },
+    {
+        "text": "That's the derivative."
+    },
+    {
+        "text": "And so by the fundamental theorem, so this implies by the fundamental theorem that the integral from, say, a to b of x squared dx, that's the derivative here."
+    },
+    {
+        "text": "This is the function we're going to use as f of x here."
+    },
+    {
+        "text": "Is equal to this function here, f of b minus f of a."
+    },
+    {
+        "text": "That's here, this function here."
+    },
+    {
+        "text": "So that's f of b minus f of a."
+    },
+    {
+        "text": "And that's equal to b cubed over 3 minus a cubed over 3."
+    },
+    {
+        "text": "Now, in this new notation, we usually don't have all these letters."
+    },
+    {
+        "text": "All we write is the following."
+    },
+    {
+        "text": "We write the integral from a to b."
+    },
+    {
+        "text": "And I'm going to do the case of 0 to b, because that was the one that we actually did last time."
+    },
+    {
+        "text": "So I'm going to set a equals 0 here."
+    },
+    {
+        "text": "And then the problem we were faced last time was this."
+    },
+    {
+        "text": "And as I said, we did it very laboriously."
+    },
+    {
+        "text": "But now you can see that we can do it in 10 seconds, let's say."
+    },
+    {
+        "text": "Well, the antiderivative of this is x cubed over 3."
+    },
+    {
+        "text": "I'm going to evaluate it at 0 and at b and subtract."
+    },
+    {
+        "text": "So that's going to be b cubed over 3 minus 0 cubed over 3."
+    },
+    {
+        "text": "Which, of course, is b cubed over 3."
+    },
+    {
+        "text": "And that's the end."
+    },
+    {
+        "text": "That's the answer."
+    },
+    {
+        "text": "So this is a lot faster than yesterday."
+    },
+    {
+        "text": "I hope you'll agree."
+    },
+    {
+        "text": "And we can dispense with those elaborate computations."
+    },
+    {
+        "text": "Although there's a conceptual reason, a very important one, for understanding the procedure that we went through."
+    },
+    {
+        "text": "Because eventually you're going to be using integrals and these quick ways of doing things to solve problems like finding the volumes of pyramids."
+    },
+    {
+        "text": "In other words, we're going to reverse the process."
+    },
+    {
+        "text": "And so we need to understand the connection between the two."
+    },
+    {
+        "text": "I'm going to give a couple more examples."
+    },
+    {
+        "text": "And then we'll go on."
+    },
+    {
+        "text": "So the second example would be one that would be quite difficult to do by this Riemann sum technique that we described yesterday."
+    },
+    {
+        "text": "Although it is possible."
+    },
+    {
+        "text": "It uses much higher mathematics to do it."
+    },
+    {
+        "text": "And that is the area under one hump of the sine curve."
+    },
+    {
+        "text": "Sine x."
+    },
+    {
+        "text": "Let me just draw a picture of that."
+    },
+    {
+        "text": "The curve goes like this."
+    },
+    {
+        "text": "And we're talking about this area here."
+    },
+    {
+        "text": "It starts out at 0, it goes to pi."
+    },
+    {
+        "text": "That's one hump."
+    },
+    {
+        "text": "And so the answer is, it's the integral from 0 to pi of sin x, dx."
+    },
+    {
+        "text": "And so I need to take the antiderivative of that."
+    },
+    {
+        "text": "And that's minus cos x."
+    },
+    {
+        "text": "That's the thing whose derivative is sin x."
+    },
+    {
+        "text": "Evaluating it at 0 and pi."
+    },
+    {
+        "text": "Now, let's do this one carefully."
+    },
+    {
+        "text": "Because this is where I see a lot of arithmetic mistakes."
+    },
+    {
+        "text": "Even though this is the easy part of the problem."
+    },
+    {
+        "text": "It's hard to pay attention and plug in the right numbers."
+    },
+    {
+        "text": "And so let's just pay very close attention."
+    },
+    {
+        "text": "I'm plugging in pi."
+    },
+    {
+        "text": "That's minus cos pi."
+    },
+    {
+        "text": "That's the first term."
+    },
+    {
+        "text": "And then I'm subtracting the value at the bottom."
+    },
+    {
+        "text": "Which is minus cos 0."
+    },
+    {
+        "text": "There are already five opportunities for you to make a transcription error or an arithmetic mistake in what I just did."
+    },
+    {
+        "text": "And I've seen all five of them."
+    },
+    {
+        "text": "So the next one is that this is minus, minus 1."
+    },
+    {
+        "text": "Minus negative 1, if you like."
+    },
+    {
+        "text": "And then this is minus, and here's another negative 1."
+    },
+    {
+        "text": "So all together we have 2."
+    },
+    {
+        "text": "So that's it."
+    },
+    {
+        "text": "That's the area."
+    },
+    {
+        "text": "This area, which is hard to guess, this is area 2."
+    },
+    {
+        "text": "The third example is maybe superfluous, but I'm going to say it anyway."
+    },
+    {
+        "text": "We can take the integral, say, from 0 to 1 of x to the 100th power."
+    },
+    {
+        "text": "Any power now is within our power."
+    },
+    {
+        "text": "So let's do it here."
+    },
+    {
+        "text": "So here we have the antiderivative is x to the 101 divided by 101."
+    },
+    {
+        "text": "Evaluated at 0 and 1."
+    },
+    {
+        "text": "And that is just 1 over 101."
+    },
+    {
+        "text": "So that's the fundamental theorem."
+    },
+    {
+        "text": "Now, this, as I say, harnesses a lot of what we've already learned all about antiderivatives."
+    },
+    {
+        "text": "Now, I want to give you an intuitive interpretation."
+    },
+    {
+        "text": "So let's try that."
+    },
+    {
+        "text": "We'll talk about a proof of the fundamental theorem a little bit later."
+    },
+    {
+        "text": "It's not actually that hard."
+    },
+    {
+        "text": "But we'll give an intuitive reason, interpretation, if you like, of the fundamental theorem."
+    },
+    {
+        "text": "So this is going to be one which is not related to area, but rather to time and distance."
+    },
+    {
+        "text": "So we'll consider x of t is your position at time t. And then x' of t, which is the rate of change of x with respect to t, is going to be what we know as your speed."
+    },
+    {
+        "text": "And then what the theorem is telling us is the following."
+    },
+    {
+        "text": "It's telling us the integral from a to b of v of t dt, so reading the relationship, is equal to x of b minus x of a."
+    },
+    {
+        "text": "And so this is some kind of cumulative sum of your velocities."
+    },
+    {
+        "text": "So let's interpret the right-hand side first."
+    },
+    {
+        "text": "This is the distance traveled."
+    },
+    {
+        "text": "And it's also what you would read on your odometer."
+    },
+    {
+        "text": "From the beginning to the end of the trip."
+    },
+    {
+        "text": "That's what you would read on your odometer."
+    },
+    {
+        "text": "Whereas this is what you would read on your speedometer."
+    },
+    {
+        "text": "So this is the interpretation."
+    },
+    {
+        "text": "Now, I want to just go one step further into this interpretation to make the connection with the Riemann sums that we had yesterday."
+    },
+    {
+        "text": "Because those are very complicated to understand."
+    },
+    {
+        "text": "And I want you to understand them viscerally on several different levels."
+    },
+    {
+        "text": "Because that's how you'll understand integration better."
+    },
+    {
+        "text": "The first thing that I want to imagine, so we're going to do a thought experiment now, which is that you are extremely obsessive."
+    },
+    {
+        "text": "And you're driving your car from time a to time b."
+    },
+    {
+        "text": "Place q to place r, whatever."
+    },
+    {
+        "text": "And you check your speedometer every second."
+    },
+    {
+        "text": "So you've read your speedometer in the i-th second."
+    },
+    {
+        "text": "And you've read that you're going at this speed."
+    },
+    {
+        "text": "Now, how far do you go in that second?"
+    },
+    {
+        "text": "Well, the answer is, you go this speed times the time interval, which in this case we're imagining is 1 second."
+    },
+    {
+        "text": "So this is how far you went."
+    },
+    {
+        "text": "This is the time interval."
+    },
+    {
+        "text": "And this is the distance traveled in second number i, in the i-th second."
+    },
+    {
+        "text": "The distance traveled in the i-th second."
+    },
+    {
+        "text": "That's the total distance you traveled."
+    },
+    {
+        "text": "Now, what happens if you go the whole distance?"
+    },
+    {
+        "text": "Well, you travel the sum of all these distances."
+    },
+    {
+        "text": "So it's some massive sum where n is some ridiculous number of seconds."
+    },
+    {
+        "text": "3600 seconds or something like that, whatever it is."
+    },
+    {
+        "text": "And that's going to turn out to be very similar to what you would read on your odometer."
+    },
+    {
+        "text": "Because during that second, you didn't change velocity very much."
+    },
+    {
+        "text": "So the approximation, the speed at one time that you spotted it, is very similar to the speed during the whole second."
+    },
+    {
+        "text": "It doesn't change that much."
+    },
+    {
+        "text": "So this is a pretty good approximation to how far you traveled."
+    },
+    {
+        "text": "And so the sum is a very realistic approximation to the entire integral, which is denoted this way."
+    },
+    {
+        "text": "Which, by the fundamental theorem, is exactly how far you traveled."
+    },
+    {
+        "text": "So this is x sub b minus x sub a."
+    },
+    {
+        "text": "Exactly."
+    },
+    {
+        "text": "The other one is approximate."
+    },
+    {
+        "text": "Again, this is called a Riemann sum."
+    },
+    {
+        "text": "Alright, so that's the intro to the fundamental theorem."
+    },
+    {
+        "text": "And now what I need to do is extend it just a bit."
+    },
+    {
+        "text": "And the way I'm going to extend it is the following."
+    },
+    {
+        "text": "I'm going to do it on this example first."
+    },
+    {
+        "text": "And then we'll do it more formally."
+    },
+    {
+        "text": "So here's this example where we went someplace."
+    },
+    {
+        "text": "But now I just want to draw you an additional picture here."
+    },
+    {
+        "text": "Imagine I start here, and I go over to there, and then I come back."
+    },
+    {
+        "text": "And maybe even I do a round trip."
+    },
+    {
+        "text": "I come back to the same place."
+    },
+    {
+        "text": "Well, if I come back to the same place, then the position is unchanged from the beginning to the end."
+    },
+    {
+        "text": "In other words, the difference is 0."
+    },
+    {
+        "text": "And the velocity, technically rather than the speed, it's the speed to the right and the speed to the left maybe are the same."
+    },
+    {
+        "text": "But one of them is going in the positive direction, one of them is going in the negative direction, and they cancel each other."
+    },
+    {
+        "text": "So if you have this kind of situation, we want that to be reflected."
+    },
+    {
+        "text": "We like that interpretation."
+    },
+    {
+        "text": "And we want to preserve it even in the case when the function v is negative."
+    },
+    {
+        "text": "And so I'm going to now extend our notion of integration."
+    },
+    {
+        "text": "So we'll extend integration to the case f negative."
+    },
+    {
+        "text": "Or positive."
+    },
+    {
+        "text": "In other words, it could be any sign."
+    },
+    {
+        "text": "Actually, there's no change."
+    },
+    {
+        "text": "The formulas are all the same."
+    },
+    {
+        "text": "We just, if this v is going to be positive, we write in a positive number."
+    },
+    {
+        "text": "If it's going to be negative, we write in a negative number."
+    },
+    {
+        "text": "And we just leave it alone."
+    },
+    {
+        "text": "And the real, so here's, let me carry out an example."
+    },
+    {
+        "text": "And show you how it works."
+    },
+    {
+        "text": "I'll carry out the example on this blackboard up here of the sine function."
+    },
+    {
+        "text": "But we're going to try two humps."
+    },
+    {
+        "text": "We're going to try the first hump and the one that goes underneath there."
+    },
+    {
+        "text": "So our example here is going to be the integral from 0 to 2pi."
+    },
+    {
+        "text": "Of sin x dx."
+    },
+    {
+        "text": "And now, because the fundamental theorem is so important, and so useful, and so convenient, we just assume that it be true in this case as well."
+    },
+    {
+        "text": "So we insist that this is going to be minus cos x, evaluated at 0 and 2pi."
+    },
+    {
+        "text": "With the difference."
+    },
+    {
+        "text": "Now, when we carry out that difference, what we get here is minus cos 2pi minus minus cos 0."
+    },
+    {
+        "text": "Which is negative 1 minus negative 1, which is 0."
+    },
+    {
+        "text": "And the interpretation of this is the following."
+    },
+    {
+        "text": "Here's our double hump."
+    },
+    {
+        "text": "Here's pi and here's 2pi."
+    },
+    {
+        "text": "And all that's happening is that the geometric interpretation that we had before of the area under the curve has to be taken with a grain of salt."
+    },
+    {
+        "text": "In other words, I lied to you before when I said that the definite integral was the area under the curve."
+    },
+    {
+        "text": "It's not."
+    },
+    {
+        "text": "The definite integral is the area under the curve when it's above the curve."
+    },
+    {
+        "text": "And it counts negatively when it's below the curve."
+    },
+    {
+        "text": "So yesterday, my geometric interpretation was incomplete and really just a plain lie."
+    },
+    {
+        "text": "So the true geometric interpretation of the definite integral is plus the area above the x-axis minus the area below the x-axis."
+    },
+    {
+        "text": "As in the picture."
+    },
+    {
+        "text": "I'm just writing it down in words, but you should think of it visually also."
+    },
+    {
+        "text": "So that's the setup here."
+    },
+    {
+        "text": "And now we have the complete definition of integrals."
+    },
+    {
+        "text": "And I need to list for you a bunch of their properties and how we deal with integrals."
+    },
+    {
+        "text": "Are there any questions before we go on?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "STUDENT 1 Just wanted to talk about, wouldn't this be an absolute value of the velocity function to get the sense?"
+    },
+    {
+        "text": "PROFESSOR ERIC GRIMSON So the question was, wouldn't the absolute value of the velocity function be involved?"
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "That is, that's one question that you could ask."
+    },
+    {
+        "text": "One question you could ask is, what's the total distance traveled?"
+    },
+    {
+        "text": "And in that case, you would keep track of the absolute value of the velocity, as you said."
+    },
+    {
+        "text": "Whether it's positive or negative."
+    },
+    {
+        "text": "And then you get the total length of this curve here."
+    },
+    {
+        "text": "That's, however, not what the definite integral measures."
+    },
+    {
+        "text": "It measures the net distance traveled."
+    },
+    {
+        "text": "So it's another thing."
+    },
+    {
+        "text": "In other words, we can do that."
+    },
+    {
+        "text": "We now have the tools to do both."
+    },
+    {
+        "text": "We could also, so if you like, the total distance is equal to the integral of this, from a to b."
+    },
+    {
+        "text": "But the net distance is the one without the absolute value signs."
+    },
+    {
+        "text": "So that's correct."
+    },
+    {
+        "text": "Other questions?"
+    },
+    {
+        "text": "Alright, so now let's talk about properties of integrals."
+    },
+    {
+        "text": "Well, so the properties of integrals that I want to mention to you are these."
+    },
+    {
+        "text": "The first one is, doesn't bear too much comment."
+    },
+    {
+        "text": "If you take the cumulative integral of a sum, you're just going to get the sum of the separate integrals here."
+    },
+    {
+        "text": "And I won't say much about that."
+    },
+    {
+        "text": "That's because the integral is a sum."
+    },
+    {
+        "text": "Incidentally, you know, this strange symbol here, there's actually a reason for it historically."
+    },
+    {
+        "text": "If you go back to old books, you'll see that it actually looks a little bit more like an S. This capital sigma is a sum."
+    },
+    {
+        "text": "S for sum."
+    },
+    {
+        "text": "Because everybody in those days knew Latin and Greek."
+    },
+    {
+        "text": "And this one is also an S. But gradually it was such an important S that they made it bigger."
+    },
+    {
+        "text": "And then they stretched it out and made it a little thinner, because it didn't fit into one typesetting space."
+    },
+    {
+        "text": "And so just for typesetting reason, it got stretched and got a little bit skinny."
+    },
+    {
+        "text": "Anyway, so it's really an S. And in fact, in French, they call it sum."
+    },
+    {
+        "text": "Even though we call it integral."
+    },
+    {
+        "text": "So it's a sum."
+    },
+    {
+        "text": "So it's consistent with sums in this way."
+    },
+    {
+        "text": "And similarly, we can factor constants out of sums."
+    },
+    {
+        "text": "So if you have an integral like this, the constant factors out."
+    },
+    {
+        "text": "But definitely don't try to get a function out of this."
+    },
+    {
+        "text": "That won't happen."
+    },
+    {
+        "text": "In other words, c has to be a constant."
+    },
+    {
+        "text": "Doesn't depend on x."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "The third property."
+    },
+    {
+        "text": "What do I want to call the third property here?"
+    },
+    {
+        "text": "I have a sort of a preliminary property, yes."
+    },
+    {
+        "text": "Here."
+    },
+    {
+        "text": "Which is the following."
+    },
+    {
+        "text": "And I'll draw a picture of it."
+    },
+    {
+        "text": "Suppose you have three points along the line."
+    },
+    {
+        "text": "So then I'm going to draw a picture of that."
+    },
+    {
+        "text": "And I'm going to use the interpretation above the curve."
+    },
+    {
+        "text": "Even though that's not the whole thing."
+    },
+    {
+        "text": "So here's a, here's b, and here's c. And you can see that the area of this piece, of the first two pieces here, is, when added together, gives you the area of the whole."
+    },
+    {
+        "text": "And that's the rule that I'd like to tell you."
+    },
+    {
+        "text": "So if you integrate from a to b, and you add to that the integral from b to c, you'll get the integral from a to c. This is going to be just a little preliminary, because the rule is a little better than this."
+    },
+    {
+        "text": "But I will explain that in a minute."
+    },
+    {
+        "text": "The fourth rule is a very simple one."
+    },
+    {
+        "text": "Which is that the integral from a to a of f x dx is equal to 0."
+    },
+    {
+        "text": "That you can see very obviously, because there's no area, no horizontal movement there."
+    },
+    {
+        "text": "The rectangle is infinitely thin."
+    },
+    {
+        "text": "And there's nothing there."
+    },
+    {
+        "text": "So this is the case."
+    },
+    {
+        "text": "You can also interpret it as f of a minus f of a."
+    },
+    {
+        "text": "So that's also consistent with our interpretation, in terms of the fundamental theorem of calculus."
+    },
+    {
+        "text": "And it's perfectly reasonable that this is the case."
+    },
+    {
+        "text": "Now, the fifth property is a definition."
+    },
+    {
+        "text": "It's not really a property."
+    },
+    {
+        "text": "But it's very important."
+    },
+    {
+        "text": "The integral from a to b of f of x dx is equal to minus the integral from b to a of f of x dx."
+    },
+    {
+        "text": "Now, really, the right-hand side here is an undefined quantity so far."
+    },
+    {
+        "text": "We never said that you could ever do this where the a is less than the b."
+    },
+    {
+        "text": "Because this is working backwards here."
+    },
+    {
+        "text": "But we just have a convention that that's the definition."
+    },
+    {
+        "text": "Whenever we write down this number, it's the same as minus what that number is."
+    },
+    {
+        "text": "And the reason for all of these is, again, that we want them to be consistent with the fundamental theorem of calculus."
+    },
+    {
+        "text": "Which is the thing that makes all of this work."
+    },
+    {
+        "text": "So if you notice, the left-hand side here is f of b minus f of a, capital F. The antiderivative of little f. On the other hand, the other side is minus, and if we just ignore that we say these are letters, if we were a machine we didn't know which one was bigger than which."
+    },
+    {
+        "text": "We just plugged them in."
+    },
+    {
+        "text": "We would get here f of a minus f of b over here."
+    },
+    {
+        "text": "And to make these two things equal, what we want is to put that minus sign in."
+    },
+    {
+        "text": "Now it's consistent."
+    },
+    {
+        "text": "So again, these rules are set up so that everything is consistent."
+    },
+    {
+        "text": "And now I want to improve on Rule 3 here."
+    },
+    {
+        "text": "And point out to you, so let me just go back to Rule 3 for a second, that now that we can evaluate integrals regardless of the order, we don't have to have a less than b, b less than c in order to make sense out of this."
+    },
+    {
+        "text": "We actually have the possibility of considering integrals where the a's and the b's and the c's are in any order you want."
+    },
+    {
+        "text": "And in fact, with this definition, with this definition 5, 3 works no matter what the numbers are."
+    },
+    {
+        "text": "So this is much more convenient."
+    },
+    {
+        "text": "We don't, this is not necessary."
+    },
+    {
+        "text": "It just works using Convention 5."
+    },
+    {
+        "text": "OK, with 5."
+    },
+    {
+        "text": "Again, before I go on, let me emphasize, we really want to respect the sign of this velocity."
+    },
+    {
+        "text": "We really want the net change in the position."
+    },
+    {
+        "text": "And we don't want this absolute value here."
+    },
+    {
+        "text": "Because otherwise, all of our formulas are going to mess up."
+    },
+    {
+        "text": "We won't always be able to check."
+    },
+    {
+        "text": "Sometimes you have letters rather than actual numbers here, and you won't know whether a is bigger than b."
+    },
+    {
+        "text": "So you'll want to know that these formulas work and are consistent in all situations."
+    },
+    {
+        "text": "OK, I'm going to trade these again in order to preserve the ordering 1 through 5."
+    },
+    {
+        "text": "And now I have a sixth property that I want to talk about."
+    },
+    {
+        "text": "This one is called estimation."
+    },
+    {
+        "text": "And it says the following."
+    },
+    {
+        "text": "If f of x is less than or equal to g of x, then the integral from a to b of f of x dx is less than or equal to the integral from a to b of g of x dx."
+    },
+    {
+        "text": "Now, this one says that if I'm going more slowly than you, then you go farther than I do."
+    },
+    {
+        "text": "That's all it's saying."
+    },
+    {
+        "text": "For this one, you'd better have a is less than b."
+    },
+    {
+        "text": "You need it."
+    },
+    {
+        "text": "Because we flip the signs when we flip the order of a and b."
+    },
+    {
+        "text": "So this one, it's essential that the lower limit be smaller than the upper limit."
+    },
+    {
+        "text": "But let me just emphasize, because we're dealing with the generalities of this, actually if one of these is negative and the other one is negative, then it also works."
+    },
+    {
+        "text": "This one ends up being, if f is more negative than g, then this added up thing is more negative than that one."
+    },
+    {
+        "text": "Again, under the assumption that a is less than b."
+    },
+    {
+        "text": "So as I wrote it, it's in full generality."
+    },
+    {
+        "text": "All right, let's illustrate this one."
+    },
+    {
+        "text": "And then we have one more property to learn after that."
+    },
+    {
+        "text": "So let me give you an example of estimation."
+    },
+    {
+        "text": "The example is the same as one that I already gave you."
+    },
+    {
+        "text": "But this time, because we have the tool of integration, we can just follow our noses and it works."
+    },
+    {
+        "text": "I'll start with the inequality."
+    },
+    {
+        "text": "So I'm trying to illustrate estimation, so I want to start with an inequality which is what the hypothesis is here."
+    },
+    {
+        "text": "And I'm going to integrate the inequality to get this conclusion and see what conclusion it is."
+    },
+    {
+        "text": "The inequality that I want to take is that e to the x is greater than or equal to 1 for x greater than or equal to 0."
+    },
+    {
+        "text": "That's going to be our starting place."
+    },
+    {
+        "text": "And now I'm going to integrate it, that is, I'm going to use estimation to see what that gives."
+    },
+    {
+        "text": "Well, I'm going to integrate, say, from 0 to b. I can't integrate below 0 because it's only true above 0."
+    },
+    {
+        "text": "This is e to the x dx greater than or equal to the integral from 0 to b of 1 dx."
+    },
+    {
+        "text": "Let's work out what each of these is."
+    },
+    {
+        "text": "The first one, e to the x dx, is the antiderivative is e to the x evaluated at 0 and b."
+    },
+    {
+        "text": "So that's e to the b minus e to the 0, which is e to the b minus 1."
+    },
+    {
+        "text": "The other one, you're supposed to be able to get by the rectangle law."
+    },
+    {
+        "text": "This is one rectangle of base b and height 1."
+    },
+    {
+        "text": "So the answer is b."
+    },
+    {
+        "text": "Or you can do it by antiderivatives, but it's b."
+    },
+    {
+        "text": "That means that our inequality says, if I just combine these two things together, that e to the b minus 1 is greater than or equal to b."
+    },
+    {
+        "text": "And that's the same thing as e to the b is greater than or equal to 1 plus b."
+    },
+    {
+        "text": "Again, this only works for b greater than or equal to 0."
+    },
+    {
+        "text": "Notice that if b were negative, this would be a well-defined quantity."
+    },
+    {
+        "text": "But this estimation would be false."
+    },
+    {
+        "text": "We need that the b be bigger than 0 in order for this to make sense."
+    },
+    {
+        "text": "So this was used."
+    },
+    {
+        "text": "And that's a good thing, because this inequality is suspect."
+    },
+    {
+        "text": "Actually, it turns out to be true when b is negative."
+    },
+    {
+        "text": "We certainly didn't prove it."
+    },
+    {
+        "text": "I'm going to just repeat this process."
+    },
+    {
+        "text": "So let's repeat it."
+    },
+    {
+        "text": "Starting from the inequality, the conclusion."
+    },
+    {
+        "text": "Which is sitting right here."
+    },
+    {
+        "text": "But I'll write it in the form e to the x greater than or equal to 1 plus x, for x greater than or equal to 0."
+    },
+    {
+        "text": "And now if I integrate this one, I get the integral from 0 to b, e to the x dx is greater than or equal to the integral from 0 to b, 1 plus x dx."
+    },
+    {
+        "text": "And I remind you that we've already calculated this one."
+    },
+    {
+        "text": "This is e to the b-1."
+    },
+    {
+        "text": "And the other one is not hard to calculate."
+    },
+    {
+        "text": "The antiderivative is x plus x squared over 2."
+    },
+    {
+        "text": "We're evaluating that at 0 and b."
+    },
+    {
+        "text": "So that comes out to be b plus b squared over 2."
+    },
+    {
+        "text": "And so our conclusion is that the left side, which is e to the b-1, is greater than or equal to b plus b squared over 2, and this is for b greater than or equal to 0."
+    },
+    {
+        "text": "And that's the same thing as e to the b greater than or equal to 1 plus b plus b squared over 2."
+    },
+    {
+        "text": "This one actually is false for b negative."
+    },
+    {
+        "text": "So that's something that you have to be careful with the b positives here."
+    },
+    {
+        "text": "All right, so you can keep on going with this."
+    },
+    {
+        "text": "And you didn't have to think, and you'll produce a very interesting polynomial, which is a good approximation to e to the b."
+    },
+    {
+        "text": "All right, so that's it for the basic properties."
+    },
+    {
+        "text": "Now there's one tricky property that I need to tell you about."
+    },
+    {
+        "text": "It's not that tricky, but it's a little tricky."
+    },
+    {
+        "text": "And this is change of variables."
+    },
+    {
+        "text": "Change of variables in integration, we've actually already done."
+    },
+    {
+        "text": "We called that, the last time we talked about it, we called it substitution."
+    },
+    {
+        "text": "And the idea here, if you may remember, was that if you're faced with an integral like this, you can change it to, if you put in u is equal to u of x, and you have a du, which is equal to u' of x dx, then you can change the integral."
+    },
+    {
+        "text": "As follows, this is the same as g of u of x, u' of x dx."
+    },
+    {
+        "text": "This was the general procedure for substitution."
+    },
+    {
+        "text": "What's new today is that we're going to put in the limits."
+    },
+    {
+        "text": "If you have a limit here, u1, and a limit here, u2, you want to know what the relationship is between the limits here and the limits when you change variables to the new variables."
+    },
+    {
+        "text": "And it's the simplest possible thing."
+    },
+    {
+        "text": "Namely, the two limits over here are in the same relationship as u of x is to this symbol u here."
+    },
+    {
+        "text": "In other words, u1 is equal to u of x1."
+    },
+    {
+        "text": "And u2 is equal to u of x2."
+    },
+    {
+        "text": "That's what works."
+    },
+    {
+        "text": "Now, there's only one danger here, there's one subtlety."
+    },
+    {
+        "text": "Which is, this only works if u' does not change sign."
+    },
+    {
+        "text": "I've been worrying a little bit about going backwards and forwards, and I allowed myself to reverse and do all kinds of stuff with these integrals."
+    },
+    {
+        "text": "So we're sort of free to do it."
+    },
+    {
+        "text": "Well, this is one case where you want to avoid it."
+    },
+    {
+        "text": "Just don't do it."
+    },
+    {
+        "text": "It is possible, actually, to make sense out of it."
+    },
+    {
+        "text": "But it's also possible to get yourself infinitely confused."
+    },
+    {
+        "text": "So just make sure that, now it's OK if u' is always negative, you're always going one way."
+    },
+    {
+        "text": "It's OK if u' is always positive, you're always going the other way."
+    },
+    {
+        "text": "But if you mix them up, you'll get yourself mixed up."
+    },
+    {
+        "text": "Let me give you an example."
+    },
+    {
+        "text": "The example will be maybe close to what we did last time, did when we first did substitution, I mean."
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "So the integral from 1 to 2, this time I'll put indefinite limits, of x squared plus, sorry, maybe I call this x cubed, x cubed plus 2, let's say, I don't know, to the 5th power, x squared dx."
+    },
+    {
+        "text": "So this is an example of an integral that we would have tried to handle by substitution before."
+    },
+    {
+        "text": "And the substitution we would have used is u equals x cubed plus 2."
+    },
+    {
+        "text": "And that's exactly what we're going to do here."
+    },
+    {
+        "text": "But we're just going to also take into account the limits."
+    },
+    {
+        "text": "The first step, as in any substitution or change of variables, is this."
+    },
+    {
+        "text": "And so we can fill in the things that we would have done previously, which is that this is the integral, and this is u to the 5th power."
+    },
+    {
+        "text": "And then, because this is 3x squared, we see that this is 3, sorry, let's write it the other way."
+    },
+    {
+        "text": "1 3rd du is equal to x squared dx."
+    },
+    {
+        "text": "So that's what I'm going to plug in for this factor here."
+    },
+    {
+        "text": "So here's 1 3rd du, which replaces that."
+    },
+    {
+        "text": "But now there's the extra feature."
+    },
+    {
+        "text": "The extra feature is the limits."
+    },
+    {
+        "text": "So here, really in disguise, because now this is incredibly important, this is one of the reasons why we use this notation dx and du."
+    },
+    {
+        "text": "We want to remind ourselves which variable is involved in the integration."
+    },
+    {
+        "text": "And especially if you're the one naming the variables, you may get mixed up in this respect."
+    },
+    {
+        "text": "So you must know which variable is varying between 1 and 2."
+    },
+    {
+        "text": "And the answer is it's x is the one that's varying between 1 and 2."
+    },
+    {
+        "text": "So in disguise, even though I didn't write it, it was contained in this little symbol here."
+    },
+    {
+        "text": "This reminded us which variable."
+    },
+    {
+        "text": "You'll find this amazingly important when you get to multivariable calculus."
+    },
+    {
+        "text": "When there are many variables floating around."
+    },
+    {
+        "text": "So this is an incredibly important distinction to make."
+    },
+    {
+        "text": "So now over here, we have a limit."
+    },
+    {
+        "text": "But it's of course supposed to be with respect to u now."
+    },
+    {
+        "text": "So we need to calculate what those corresponding limits are."
+    },
+    {
+        "text": "And indeed, it's just, I plug in here u1 is going to be equal to what I plug in for x equals 1."
+    },
+    {
+        "text": "That's going to be 1 cubed plus 2, which is 3."
+    },
+    {
+        "text": "And then u2 is 2 cubed plus 2, which is equal to 10."
+    },
+    {
+        "text": "8 plus 2 is 10."
+    },
+    {
+        "text": "So this is the integral from 3 to 10 of u5 1 3rd du."
+    },
+    {
+        "text": "And now I can finish the problem."
+    },
+    {
+        "text": "This is 1 18th u6, from 3 to 10."
+    },
+    {
+        "text": "And this is where the most common mistake occurs in substitutions of this type."
+    },
+    {
+        "text": "Which is that if you ignore this, and you plug in these 1 and 2 here, you think, oh, I should just be putting it at 1 and 2."
+    },
+    {
+        "text": "But actually, it should be the u value that we're interested in, and the lower limit is u equals 3, and u equals 10 is the upper limit."
+    },
+    {
+        "text": "So those are suppressed here."
+    },
+    {
+        "text": "But those are the ones that we want."
+    },
+    {
+        "text": "And so here we go."
+    },
+    {
+        "text": "It's 1 18th times some ridiculous number, which I won't calculate, 10 to the 6th minus 3 to the 6th."
+    },
+    {
+        "text": "Yes, question."
+    },
+    {
+        "text": "STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 STUDENT 1 So if you want to do things where you're worrying about the sign change, the right strategy is what you suggested works, and in fact I'm going to do an example right now on this subject."
+    },
+    {
+        "text": "But the right strategy is to break it up into pieces where u' has one sign or the other."
+    },
+    {
+        "text": "Let me show you an example."
+    },
+    {
+        "text": "But where things go wrong."
+    },
+    {
+        "text": "And I'll tell you how to handle it, roughly."
+    },
+    {
+        "text": "So here's our warning."
+    },
+    {
+        "text": "Suppose you're integrating from minus 1 to 1 x squared dx."
+    },
+    {
+        "text": "Here's an example."
+    },
+    {
+        "text": "And you had the temptation to plug in u is equal to x squared."
+    },
+    {
+        "text": "Now, of course, we know how to integrate this."
+    },
+    {
+        "text": "But let's just pretend we were stubborn and wanted to use substitution."
+    },
+    {
+        "text": "Then we have du is equal to 2x dx."
+    },
+    {
+        "text": "And now, if I try to make the correspondence, notice that the limits are u1 is negative 1 squared."
+    },
+    {
+        "text": "That's the bottom limit."
+    },
+    {
+        "text": "And u2 is the upper limit."
+    },
+    {
+        "text": "That's 1 squared."
+    },
+    {
+        "text": "That's also equal to 1."
+    },
+    {
+        "text": "Both limits are 1."
+    },
+    {
+        "text": "So this is going from 1 to 1."
+    },
+    {
+        "text": "And no matter what it is, we know it's going to be 0."
+    },
+    {
+        "text": "But we know this is not 0."
+    },
+    {
+        "text": "This is the integral of a positive quantity."
+    },
+    {
+        "text": "And it's the area under a curve."
+    },
+    {
+        "text": "It's going to be a positive area."
+    },
+    {
+        "text": "So this is a positive quantity."
+    },
+    {
+        "text": "It can't be 0."
+    },
+    {
+        "text": "If you actually plug it in, it looks equally strange."
+    },
+    {
+        "text": "You put in here this u, and then, so that would be for the u squared."
+    },
+    {
+        "text": "And then to plug in for dx, you would write dx is equal to 1 over 2x du."
+    },
+    {
+        "text": "And then you might write that as this."
+    },
+    {
+        "text": "And so what I should put in here is this quantity here."
+    },
+    {
+        "text": "Which is a perfectly OK integral."
+    },
+    {
+        "text": "And it has a value, I mean, it's what it is."
+    },
+    {
+        "text": "It's 0."
+    },
+    {
+        "text": "So of course, this is not true."
+    },
+    {
+        "text": "And the reason is that u was equal to x squared."
+    },
+    {
+        "text": "And u' of x was equal to 2x."
+    },
+    {
+        "text": "Which was positive for x positive, and negative for x negative."
+    },
+    {
+        "text": "And this was the sign change which causes us trouble."
+    },
+    {
+        "text": "If we break it up into its two halves, then it'll be OK. And you'll be able to use this."
+    },
+    {
+        "text": "Now, there was a mistake."
+    },
+    {
+        "text": "And this was essentially what you were saying."
+    },
+    {
+        "text": "That is, it's possible to see this happening as you're doing it, if you're very careful."
+    },
+    {
+        "text": "There's a mistake in this process."
+    },
+    {
+        "text": "And the mistake is, in the transition, this is a mistake here."
+    },
+    {
+        "text": "Maybe I haven't used any red yet today."
+    },
+    {
+        "text": "So I get to use some red here."
+    },
+    {
+        "text": "Oh boy."
+    },
+    {
+        "text": "This is not true here."
+    },
+    {
+        "text": "This step here."
+    },
+    {
+        "text": "So why isn't it true?"
+    },
+    {
+        "text": "It's not true for the standard reason."
+    },
+    {
+        "text": "Which is that really, x is equal to plus or minus square root of u."
+    },
+    {
+        "text": "And if you stick to one side or the other, you'll have a coherent formula for it."
+    },
+    {
+        "text": "One of them will be the plus and one of them will be the minus."
+    },
+    {
+        "text": "And it will work out when you separate it into its pieces."
+    },
+    {
+        "text": "So you could do that."
+    },
+    {
+        "text": "But this is a can of worms."
+    },
+    {
+        "text": "So I avoid this."
+    },
+    {
+        "text": "And just do it in a place where the inverse is well-defined."
+    },
+    {
+        "text": "And where the function either moves steadily up or steadily down."
+    }
+]

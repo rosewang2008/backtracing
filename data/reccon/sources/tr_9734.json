@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you help me find a nice gift for my young niece ?",
+        "emotion": "neutral",
+        "text": "Can you help me find a nice gift for my young niece ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Barbie dolls are quite popular , you know .",
+        "emotion": "neutral",
+        "text": "Barbie dolls are quite popular , you know .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're right . Girls love Barbie . Show me a Barbie doll .",
+        "emotion": "neutral",
+        "text": "You're right . Girls love Barbie . Show me a Barbie doll .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Take a look at the newest Barbie -- Digital Barbie .",
+        "emotion": "neutral",
+        "text": "Take a look at the newest Barbie -- Digital Barbie .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "She's beautiful . What's the price for Digital Barbie ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "She's beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She's beautiful . What's the price for Digital Barbie ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Our regular price for Digital Barbie is $ 29 . 95 plus tax .",
+        "emotion": "neutral",
+        "text": "Our regular price for Digital Barbie is $ 29 . 95 plus tax .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Only $ 29 . 95 ? I'll buy it , of course .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Our regular price for Digital Barbie is $ 29 . 95 plus tax ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Only $ 29 . 95 ? I'll buy it , of course .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Another one sold . Do you see anything else you would like ?",
+        "emotion": "neutral",
+        "text": "Another one sold . Do you see anything else you would like ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you , but no . This will do it for now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Our regular price for Digital Barbie is $ 29 . 95 plus tax ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , but no . This will do it for now .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Tax brings your total to $ 32 . 42 . How would you like to pay ?",
+        "emotion": "neutral",
+        "text": "Tax brings your total to $ 32 . 42 . How would you like to pay ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Cash , please .",
+        "emotion": "neutral",
+        "text": "Cash , please .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here's your change . Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Another one sold ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Here's your change . Thank you .",
+        "id": 12
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Come on in . I am so glad you are here . We have been expecting you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you are here . We have been expecting you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Come on in . I am so glad you are here . We have been expecting you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Am I late for the party ? Looks everyone is already here . Hope I didn ' t miss something interesting .",
+        "emotion": "neutral",
+        "text": "Am I late for the party ? Looks everyone is already here . Hope I didn ' t miss something interesting .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , you are just on time . We haven ' t really started yet .",
+        "emotion": "neutral",
+        "text": "No , you are just on time . We haven ' t really started yet .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great , here are some flowers for you . I hope you like them . I was not sure if the color will suit your new apartment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Hope I didn ' t miss something interesting .",
+            "No , you are just on time . We haven ' t really started yet ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great , here are some flowers for you . I hope you like them . I was not sure if the color will suit your new apartment .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you , they ' re beautiful . You can hang your coat over there . Try this new couch , it is so comfortable . You will love it . Want something to drink , tea , coffee , juice or Cola ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "here are some flowers for you .",
+            "they ' re beautiful"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you , they ' re beautiful . You can hang your coat over there . Try this new couch , it is so comfortable . You will love it . Want something to drink , tea , coffee , juice or Cola ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Don ' t bother . I will help myself .",
+        "emotion": "neutral",
+        "text": "Don ' t bother . I will help myself .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Make yourself at home .",
+        "emotion": "neutral",
+        "text": "Make yourself at home .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It is such a nice place .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "such a nice place ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It is such a nice place .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , I don ' t mean to boast but all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "such a nice place .",
+            "all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I don ' t mean to boast but all the designs are done by myself and some colleagues are already trying to copy some of them for their new apartments . Look , they are making photos now of my designed kitchen .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

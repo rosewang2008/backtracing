@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You could easily check through this, and you would discover that A1 is also symmetric."
+    },
+    {
+        "text": "It turns out you could rewrite this with a Q0 and a Q0 inverse on the other side."
+    },
+    {
+        "text": "But that Q0 inverse is the same as Q0 transpose, because it's an orthogonal matrix, and symmetry would fall out."
+    },
+    {
+        "text": "So if it's symmetric, and it's in Hessenberg form, and it stays symmetric at every step, what can you tell me about a symmetric Hessenberg matrix?"
+    },
+    {
+        "text": "It's only got, yeah, you just erase all these."
+    },
+    {
+        "text": "If there are zeros there, and if the matrix is symmetric, then we can safely predict that it will only have one diagonal above, one non-zero diagonal above the main diagonal."
+    },
+    {
+        "text": "In fact, it'll stay symmetric."
+    },
+    {
+        "text": "So now I should write symmetric Hessenberg matrix, n equals tri-diagonal matrix."
+    },
+    {
+        "text": "Yeah, three diagonals."
+    },
+    {
+        "text": "So now you really have reduced the time to do QR, because you've got a tri-diagonal matrix."
+    },
+    {
+        "text": "It'll stay tri-diagonal in all these steps."
+    },
+    {
+        "text": "So you're working with just 3n numbers."
+    },
+    {
+        "text": "Well, actually, 2n, because the diagonal above and the diagonal below are the same."
+    },
+    {
+        "text": "You're working with just 2n numbers instead of order n squared, and it just goes like a bomb."
+    },
+    {
+        "text": "So that's I for symmetric matrices."
+    },
+    {
+        "text": "And you see that it was all based, that really the heart of the algorithm was QR."
+    },
+    {
+        "text": "So that's my, it took half the class to report on the favorite way, the EIG way, to find eigenvalues."
+    },
+    {
+        "text": "Oh, I should say something about singular values."
+    },
+    {
+        "text": "So singular values, of course, the singular values of the matrix are the eigenvalues of A transpose A, square root of those eigenvalues."
+    },
+    {
+        "text": "But you wouldn't do it that way."
+    }
+]

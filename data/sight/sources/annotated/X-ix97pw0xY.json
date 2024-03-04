@@ -1,0 +1,2651 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Chapter is a natural capstone chapter for this entire course."
+    },
+    {
+        "text": "We'll see some of the things we've seen during maximum likelihood and some of the things we've seen during linear regression, some of the things we've seen in terms of the basic modeling that we've had before."
+    },
+    {
+        "text": "We're not going to go back to much inference questions."
+    },
+    {
+        "text": "It's really going to be about modeling."
+    },
+    {
+        "text": "And in a way, generalized linear models, as the word says, are just a generalization of linear models."
+    },
+    {
+        "text": "And they're actually extremely useful."
+    },
+    {
+        "text": "They're often forgotten about, and people just jump onto machine learning and sophisticated techniques."
+    },
+    {
+        "text": "But those things do the job quite well."
+    },
+    {
+        "text": "So let's see in what sense they are a generalization of the linear model."
+    },
+    {
+        "text": "So remember, the linear model looked like this."
+    },
+    {
+        "text": "We said that y was equal to x transpose beta plus epsilon."
+    },
+    {
+        "text": "That was our linear regression model."
+    },
+    {
+        "text": "And another way to say this is that if I, let's assume that those were, say, Gaussian with mean 0 and identity covariance matrix, then another way to say this is that the conditional distribution of y given x is a Gaussian with mean x transpose beta and variance, well, we had a sigma square, which I will forget as usual, x transpose beta and then sigma square."
+    },
+    {
+        "text": "So here, we just assumed that, so what is regression?"
+    },
+    {
+        "text": "It's just saying I'm trying to explain y as a function of x given x. I'm assuming a distribution for the y."
+    },
+    {
+        "text": "And this x is just going to be here to help me model what the mean of this Gaussian is."
+    },
+    {
+        "text": "I mean, I could have something crazy."
+    },
+    {
+        "text": "I could have something that looks like y given x is n0 x transpose beta."
+    },
+    {
+        "text": "And then this guy could be some other thing, which looks like, I don't know, some x transpose gamma squared times, I don't know, x x transpose plus identity, some crazy thing that depends on x here."
+    },
+    {
+        "text": "And we deliberately assume that all the thing that depends on x shows up in the mean."
+    },
+    {
+        "text": "And so what I have here is that y given x is a Gaussian with a mean that depends on x and covariance matrix sigma square identity."
+    },
+    {
+        "text": "Now, the linear model assumed a very specific form for the mean."
+    },
+    {
+        "text": "It said, I want the mean to be equal to x transpose beta, which, remember, was the sum from, say, j equals 1 to p of beta j xj, where the xj's are the coordinates of x."
+    },
+    {
+        "text": "But I could do something also more complicated."
+    },
+    {
+        "text": "I could have something that looks like, instead, replace this by, I don't know, sum of beta j log of x to the j divided by x to the j squared, or something like this."
+    },
+    {
+        "text": "I could do this as well."
+    },
+    {
+        "text": "So there's two things that we've assumed."
+    },
+    {
+        "text": "The first one is that when I look at the conditional distribution of y given x, x affects only the mean."
+    },
+    {
+        "text": "I also assumed that it was Gaussian, and that it affects only the mean."
+    },
+    {
+        "text": "And the mean is affected in a very specific way, which is linear in x."
+    },
+    {
+        "text": "So this is essentially the things we're going to try to relax."
+    },
+    {
+        "text": "So the first thing that we assume, the fact that y was Gaussian and had only its mean that depended on x, is what's called the random component."
+    },
+    {
+        "text": "It just says that the response variables sort of make sense to assume that they're Gaussian."
+    },
+    {
+        "text": "And everything was essentially captured."
+    },
+    {
+        "text": "So there's this property of Gaussians that if you tell me if the variance is known, all you need to tell me to understand exactly what the distribution of a Gaussian is, all you need to tell me is its expected value."
+    },
+    {
+        "text": "So that's this mu of x."
+    },
+    {
+        "text": "And the second thing is that we had this link that says, well, I need to find a way to use my x's to explain this mu."
+    },
+    {
+        "text": "And the link was exactly mu of x was equal to x transpose beta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, we are talking about generalized linear models."
+    },
+    {
+        "text": "So this part here, where mu of x is of the form, the way I want my beta, my x, to show up is linear."
+    },
+    {
+        "text": "This will never be questioned."
+    },
+    {
+        "text": "In principle, I could add a third point, which is just question this part, the fact that mu of x is x transpose beta."
+    },
+    {
+        "text": "I could have some more complicated nonlinear function of x."
+    },
+    {
+        "text": "And I will never do that, because we're talking about generalized linear model."
+    },
+    {
+        "text": "The only thing with generalized are the random component, the conditional distribution of y given x, and the link that just says, well, once you actually tell me that the only thing I need to figure out is the mean, I'm just going to slap it exactly this x transpose beta thing without any transformation of x transpose beta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So those are the two things."
+    },
+    {
+        "text": "It will become clearer what I mean."
+    },
+    {
+        "text": "This sounds like a tautology, but let's just see how we could extend that."
+    },
+    {
+        "text": "So what we're going to do in generalized linear models, so when I talk about GLMs, the first thing I'm going to do with my x is turn it into some x transpose beta."
+    },
+    {
+        "text": "And that's just the L part."
+    },
+    {
+        "text": "This I'm not going to be able to change."
+    },
+    {
+        "text": "That's the way it works."
+    },
+    {
+        "text": "I'm not going to do anything nonlinear."
+    },
+    {
+        "text": "But the two things I'm going to change is this random component, which is that y, which used to be some Gaussian with mean mu of x variance sigma squared."
+    },
+    {
+        "text": "So y given x, sorry."
+    },
+    {
+        "text": "This is going to become y given x follows some distribution."
+    },
+    {
+        "text": "And I'm not going to allow any distribution."
+    },
+    {
+        "text": "I want something that comes from the exponential family."
+    },
+    {
+        "text": "Who knows what the exponential family of distribution is?"
+    },
+    {
+        "text": "This is not the same thing as the exponential distribution."
+    },
+    {
+        "text": "It's a family of distribution."
+    },
+    {
+        "text": "All right, so we'll see that."
+    },
+    {
+        "text": "What can that be?"
+    },
+    {
+        "text": "Oh, yeah, that's actually my."
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "You can mute your laptop."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'm in presentation mode."
+    },
+    {
+        "text": "That should not happen."
+    },
+    {
+        "text": "OK, so hopefully this is muted."
+    },
+    {
+        "text": "So essentially, this is going to be a family of distributions."
+    },
+    {
+        "text": "And what makes them exponential typically is that there's an exponential that shows up in the definition of the density."
+    },
+    {
+        "text": "We'll see that the Gaussian belongs to the exponential family."
+    },
+    {
+        "text": "But there are slightly less expected ones, because there's this crazy thing that a to the x is exponential x log a, which makes the exponential show up without being there."
+    },
+    {
+        "text": "So if there's an exponential of some power, it's going to show up."
+    },
+    {
+        "text": "But it's more than that."
+    },
+    {
+        "text": "So we'll actually come to this particular family of distribution."
+    },
+    {
+        "text": "Why this particular family?"
+    },
+    {
+        "text": "Because in a way, everything we've done for the linear model with Gaussian is going to extend fairly naturally to this family."
+    },
+    {
+        "text": "And it actually also, because it encompasses pretty much everything, all the distributions we've discussed before."
+    },
+    {
+        "text": "All right, so the second thing that I want to question, so before we just said, well, mu of x was directly equal to this thing."
+    },
+    {
+        "text": "Mu of x was directly x transpose beta."
+    },
+    {
+        "text": "So I knew I was going to have an x transpose beta."
+    },
+    {
+        "text": "And I said, well, I could do something with this x transpose beta before I used it to explain the expected value."
+    },
+    {
+        "text": "But I'm actually taking it like that."
+    },
+    {
+        "text": "Here we're going to say, let's extend this to some function is equal to this thing."
+    },
+    {
+        "text": "Now, admittedly, this is not the most natural way to think about it."
+    },
+    {
+        "text": "What you would probably feel more comfortable doing is write something like mu of x is a function."
+    },
+    {
+        "text": "Let's call it f of x transpose beta."
+    },
+    {
+        "text": "But here I just decide to call f g inverse."
+    },
+    {
+        "text": "OK, that's just my g inverse, yes."
+    },
+    {
+        "text": "Is this different than just transforming the x's?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I mean, what transformation do you want to put on your x's?"
+    },
+    {
+        "text": "Like, is this equivalent to just applying some function to each individual x component and then multiplying that beta to get the mean?"
+    },
+    {
+        "text": "Oh, no, certainly not, right?"
+    },
+    {
+        "text": "I mean, if I force you to work with x1 plus x2, you cannot work with any function of x1 plus any function of x2, right?"
+    },
+    {
+        "text": "So yeah, this is different."
+    },
+    {
+        "text": "So yeah, the transformation would be just the simple part of your linear regression problem, where you would take your x's, transform them, and then just apply another linear regression."
+    },
+    {
+        "text": "This is genuinely new."
+    },
+    {
+        "text": "Any other question?"
+    },
+    {
+        "text": "All right, so this function g, and the reason why I sort of have to stick to this slightly less natural way of defining it is because that's g that gets a name, not g inverse that gets a name."
+    },
+    {
+        "text": "And the name of g is the link function."
+    },
+    {
+        "text": "So if I want to give you a generalized linear model, I need to give you two ingredients."
+    },
+    {
+        "text": "The first one is the random component, which is the distribution of y given x."
+    },
+    {
+        "text": "And it can be anything in what's called the exponential family of distributions."
+    },
+    {
+        "text": "So for example, I could say y given x is Gaussian with mean ux sigma squared identity."
+    },
+    {
+        "text": "But I could also tell you y given x is gamma with shape parameter equal to alpha of x. I could do some weird things like this."
+    },
+    {
+        "text": "And the second thing is I need to give you a link function."
+    },
+    {
+        "text": "And the link function is going to become very clear how you pick a link function."
+    },
+    {
+        "text": "And the only reason that you actually pick a link function is because of compatibility."
+    },
+    {
+        "text": "This mu of x, I call it mu because mu of x is always the conditional expectation of y given x, always, which means that let's think of y as being a Bernoulli random variable."
+    },
+    {
+        "text": "Where does mu of x live?"
+    },
+    {
+        "text": "AUDIENCE 2."
+    },
+    {
+        "text": "0, 1."
+    },
+    {
+        "text": "0, 1, right?"
+    },
+    {
+        "text": "That's the expectation of a Bernoulli."
+    },
+    {
+        "text": "It's just the probability that my coin flip gives me 1."
+    },
+    {
+        "text": "So it's a number between 0 and 1."
+    },
+    {
+        "text": "But this guy right here, if my x's are anything, think of any body measurements, plus I take linear combinations with arbitrarily large coefficients, this thing can be any real number."
+    },
+    {
+        "text": "So the link function, what it's effectively going to do is make those two things compatible."
+    },
+    {
+        "text": "It's going to take my number, which, for example, is constrained to be between 0 and 1, and map it into the entire real line."
+    },
+    {
+        "text": "If I have mu, which is forced to be positive, for example, in an exponential distribution, the mean is positive, right?"
+    },
+    {
+        "text": "That's the, say, I don't know, inter-arrival time for Poisson process."
+    },
+    {
+        "text": "This thing is known to be positive for an exponential."
+    },
+    {
+        "text": "I need to map something that's exponential to the entire real line."
+    },
+    {
+        "text": "I need a function that takes something positive and then tickets everyone."
+    },
+    {
+        "text": "So we'll see, by the end of this chapter, you will have 100 ways of doing this."
+    },
+    {
+        "text": "But there are some more traditional ones than other."
+    },
+    {
+        "text": "So before we go any further, I gave you this example of a Bernoulli random variable."
+    },
+    {
+        "text": "Let's see a few examples that actually fit there."
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 1 Will it come up later if we already know why the mean distribution is increasing entirely?"
+    },
+    {
+        "text": "Why can't we do it?"
+    },
+    {
+        "text": "PHILIPPE RIGOLLET Well, actually, this will not come up later."
+    },
+    {
+        "text": "It should be very clear from here."
+    },
+    {
+        "text": "Because if I actually have a model, I just want it to be plausible, right?"
+    },
+    {
+        "text": "I mean, what happens if I suddenly decide that my, so this is what's going to happen."
+    },
+    {
+        "text": "You're going to have only data to fit this model."
+    },
+    {
+        "text": "Let's say you actually forget about this thing here."
+    },
+    {
+        "text": "You can always do this, right?"
+    },
+    {
+        "text": "You can always say, I'm going to pretend my y's just happen to be the realizations of, say, Gaussians that happen to be 0 or 1 only."
+    },
+    {
+        "text": "You can always stuff that in some linear model, right?"
+    },
+    {
+        "text": "You will have some least squares estimator for beta."
+    },
+    {
+        "text": "But what's going to happen, and it's going to be fine."
+    },
+    {
+        "text": "For all the points that you see, it will definitely put some number that's actually between 0 and 1."
+    },
+    {
+        "text": "So this is what your picture is going to look like."
+    },
+    {
+        "text": "You're going to have a bunch of values for x."
+    },
+    {
+        "text": "This is your y."
+    },
+    {
+        "text": "And so these are the values of x that you will get."
+    },
+    {
+        "text": "And for y, you will see either 0 or 1, right?"
+    },
+    {
+        "text": "That's what your Bernoulli data set would look like with a one-dimensional x."
+    },
+    {
+        "text": "Now, if you do least squares on this, you will find this."
+    },
+    {
+        "text": "And for this guy, this line certainly takes values between 0 and 1."
+    },
+    {
+        "text": "But let's say now you get an x here."
+    },
+    {
+        "text": "You're going to actually start pretending the probability that it spits out one conditionally in x is like 1.2, and that's going to be weird."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any other questions?"
+    },
+    {
+        "text": "All right, so let's start with some examples."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I mean, you got so used to them throughout this course."
+    },
+    {
+        "text": "So the first one is all these things are taken."
+    },
+    {
+        "text": "So there's a few books on generalizing your models, generalize additive models, and there's tons of applications that you can see."
+    },
+    {
+        "text": "Those are extremely versatile."
+    },
+    {
+        "text": "And as soon as you want to do modeling to explain some y given x, you sort of need to do that if you want to go beyond linear models."
+    },
+    {
+        "text": "So this was the disease occurring rate."
+    },
+    {
+        "text": "So you have a disease epidemic, and you want to basically model the expected number of new cases given at a certain time."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So you have time that progresses for each of your reservation."
+    },
+    {
+        "text": "Each of your relation is a timestamp, say, I don't know, 20th day."
+    },
+    {
+        "text": "And your response is the number of new cases."
+    },
+    {
+        "text": "And you're going to actually put your model directly on mu, right?"
+    },
+    {
+        "text": "When I looked at this, everything here was on mu itself, on the expected, right?"
+    },
+    {
+        "text": "Mu of x is always the expected, the conditional expectation of y given x."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So all I need to model is this expected value."
+    },
+    {
+        "text": "So this mu, I'm going to actually say, so I look at some parameters, and it says, well, it increases exponentially."
+    },
+    {
+        "text": "So I want to have some sort of exponential trend."
+    },
+    {
+        "text": "I can parameterize that in several ways."
+    },
+    {
+        "text": "And the two parameters I want to slap in is some sort of gamma, which is just the coefficient."
+    },
+    {
+        "text": "And then there's some rate delta that's in the exponential."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So if I tell you it's exponential, that's a nice family of functions you might want to think about."
+    },
+    {
+        "text": "OK, so here, mu of x, if I want to keep the notation x, is gamma exponential delta x, right?"
+    },
+    {
+        "text": "Except that here, my x are t1, t2, t3, et cetera."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And I want to find what the parameters gamma and delta are because I want to be able to maybe compare different epidemics and see if they have the same parameter or maybe just do some prediction based on the data that I have to extrapolate in the future."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So here, clearly, mu of x is not of the form x transpose beta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "That's not x transpose beta at all."
+    },
+    {
+        "text": "And it's actually not even a function of x transpose beta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "There's two parameters, gamma and delta, and it's not of the form."
+    },
+    {
+        "text": "So here, I have x, which is 1 and x."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I have two parameters."
+    },
+    {
+        "text": "So what I do here is that I say, well, first, let me transform mu in such a way that I can hope to see something that's linear."
+    },
+    {
+        "text": "So if I transform mu, I'm going to have log of mu, which is log of this thing."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So log of mu of x is equal to log of gamma plus log of exponential delta x, which is delta x. OK?"
+    },
+    {
+        "text": "And now, this thing is actually linear in x."
+    },
+    {
+        "text": "So I have that this guy is my first beta 1."
+    },
+    {
+        "text": "And so that's beta 1 times 1."
+    },
+    {
+        "text": "And this guy is beta 2 times, sorry, let's say beta 0 times 1."
+    },
+    {
+        "text": "And this guy is beta 1 times x. OK?"
+    },
+    {
+        "text": "So that looks like a linear model."
+    },
+    {
+        "text": "I just have to change my parameters."
+    },
+    {
+        "text": "My parameters, beta 1 becomes the log of gamma, and beta 2 becomes delta itself."
+    },
+    {
+        "text": "And the reason why we do this is because, well, the way we put those gamma and those delta was just so that we have some parametrization."
+    },
+    {
+        "text": "It just so happens that if we want this to be linear, we need to just change the parametrization itself."
+    },
+    {
+        "text": "This is going to have some effects."
+    },
+    {
+        "text": "We know that it's going to have some effect in the Fisher information."
+    },
+    {
+        "text": "It's going to have a bunch of effect to change those things."
+    },
+    {
+        "text": "But that's what needs to be done to have a generalized linear model."
+    },
+    {
+        "text": "Now, here, the function that I took to turn it into something that's linear is simple."
+    },
+    {
+        "text": "It came directly from some natural thing it would do here, which is taking the log."
+    },
+    {
+        "text": "And so the function g, the link that I take, is called the log link, very creatively."
+    },
+    {
+        "text": "And it's just the function that I apply to mu so that I see something that's linear and that looks like this."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So now, this only tells me how to deal with the link function."
+    },
+    {
+        "text": "But I still have to deal with 0.1."
+    },
+    {
+        "text": "And this, again, is just some modeling."
+    },
+    {
+        "text": "Given some data, some random data, what distribution do you choose to explain the randomness?"
+    },
+    {
+        "text": "And this, I mean, unless there's no choice, it's just a matter of practice."
+    },
+    {
+        "text": "I mean, why would it be Gaussian and not doubly exponential?"
+    },
+    {
+        "text": "There's matters of convenience that come into this."
+    },
+    {
+        "text": "And there's just matter of experience that come into this."
+    },
+    {
+        "text": "I remember when you chat with engineers, they have a very good notion of what the distribution should be."
+    },
+    {
+        "text": "They have Weibull distributions."
+    },
+    {
+        "text": "They do optics and things like this."
+    },
+    {
+        "text": "So there's some distributions that just come up."
+    },
+    {
+        "text": "But sometimes, you just have to work."
+    },
+    {
+        "text": "Now, here, what do we have?"
+    },
+    {
+        "text": "The thing we're trying to measure y, as we said, so mu is the conditional expectation of y given x."
+    },
+    {
+        "text": "But y is the number of new cases, right?"
+    },
+    {
+        "text": "Well, it's a number of."
+    },
+    {
+        "text": "And the first thing you should think of when you think about number of, if it were bounded above, you would think binomial, baby."
+    },
+    {
+        "text": "But here, it's just a number."
+    },
+    {
+        "text": "So you think Poisson."
+    },
+    {
+        "text": "That's how insurers think."
+    },
+    {
+        "text": "I have a number of claims per year."
+    },
+    {
+        "text": "This is a Poisson distribution."
+    },
+    {
+        "text": "And hopefully, they can model the conditional distribution of the number of claims given everything that they actually ask you in this survey that I hear you now fill in 15 minutes."
+    },
+    {
+        "text": "All right, so now you have this Poisson distribution."
+    },
+    {
+        "text": "And that's just a modeling assumption."
+    },
+    {
+        "text": "There's no particular reason why you should do this, except that that might be a good idea."
+    },
+    {
+        "text": "And the expected value of your Poisson has to be this mu i at time i."
+    },
+    {
+        "text": "Any question about this slide?"
+    },
+    {
+        "text": "So let's switch to another example."
+    },
+    {
+        "text": "Another example is the so-called prey capture rate."
+    },
+    {
+        "text": "So here, what you're interested in is the rate capture of prey's Yi for a given prey."
+    },
+    {
+        "text": "And you have Xi, which is your explanation."
+    },
+    {
+        "text": "And this is just the density of prey."
+    },
+    {
+        "text": "So you're trying to explain the rate of captures of preys given the density of the prey."
+    },
+    {
+        "text": "And so you need to find some sort of relationship between the two."
+    },
+    {
+        "text": "And here again, you talk to experts."
+    },
+    {
+        "text": "And what they tell you is that, well, it's going to be increasing."
+    },
+    {
+        "text": "Animals, like predators, are going to just eat more if there's more preys."
+    },
+    {
+        "text": "But at some point, they're just going to level off because they're just going to be completely full."
+    },
+    {
+        "text": "And they're going to stop capturing those preys."
+    },
+    {
+        "text": "And you're just going to have some phenomenon that looks like this."
+    },
+    {
+        "text": "So here is a curve that sort of makes sense."
+    },
+    {
+        "text": "As your capture rate goes from 0 to 1, you're increasing."
+    },
+    {
+        "text": "And then you see you have this concave function that says that at some point, it levels off."
+    },
+    {
+        "text": "So here, one way I could, I mean, there's again many ways I could just model a function that looks like this."
+    },
+    {
+        "text": "But a simple one that has only two parameters is this one, where mu i is just this function of Xi, where I have some parameter alpha here and some parameter h here."
+    },
+    {
+        "text": "So there's clearly, so this function, there's one that essentially tells you."
+    },
+    {
+        "text": "So this thing starts at 0 for sure."
+    },
+    {
+        "text": "And essentially, alpha tells you how sharp this thing is."
+    },
+    {
+        "text": "And h tells you at which point you end here."
+    },
+    {
+        "text": "It's not exactly what those values are equal to, but it tells you this."
+    },
+    {
+        "text": "So simple."
+    },
+    {
+        "text": "And well, no, OK, sorry."
+    },
+    {
+        "text": "That's actually alpha, which is the maximum capture rate."
+    },
+    {
+        "text": "And h represents the prey density at which the capture rate is."
+    },
+    {
+        "text": "So that's the half time."
+    },
+    {
+        "text": "So there's actual values for this."
+    },
+    {
+        "text": "So now I have this function."
+    },
+    {
+        "text": "It's certainly not a function."
+    },
+    {
+        "text": "I don't see it as a function of x."
+    },
+    {
+        "text": "So I need to find something that looks like a function of x. OK?"
+    },
+    {
+        "text": "So now here, there's no log."
+    },
+    {
+        "text": "There's no, well, I could actually take a log here."
+    },
+    {
+        "text": "But I would have log of x and log of x plus h. So that would be weird."
+    },
+    {
+        "text": "So what we propose to do here is to look, rather than looking at mu i, we look at 1 over mu i."
+    },
+    {
+        "text": "And so since your function was mu i, when you take 1 over mu i, you get h plus xi divided by alpha xi, which is h over alpha times 1 over xi plus 1 over alpha."
+    },
+    {
+        "text": "And now if I am willing to make this transformation of variables and say, actually, my x, whether it's the density of prey or the inverse density of prey, it really doesn't matter."
+    },
+    {
+        "text": "I can always make the transformation when the data comes."
+    },
+    {
+        "text": "Then I'm actually just going to think of this as being some linear function, beta 0 plus beta 1, which is this guy, times 1 over xi."
+    },
+    {
+        "text": "And now my new variable becomes 1 over xi."
+    },
+    {
+        "text": "And now it's linear."
+    },
+    {
+        "text": "And the transformation I had to take was this 1 over x, which is called the reciprocal link."
+    },
+    {
+        "text": "You can probably guess what the exponential link is going to be and things like this."
+    },
+    {
+        "text": "So we'll talk about other links that have slightly less obvious names."
+    },
+    {
+        "text": "Now, again, modeling."
+    },
+    {
+        "text": "So this was the random component."
+    },
+    {
+        "text": "This was the easy part."
+    },
+    {
+        "text": "Now I need to just pour in some domain knowledge about how do I think this function, this y, which is the rate of capture of preys."
+    },
+    {
+        "text": "I want to understand how this thing is actually changing."
+    },
+    {
+        "text": "What is the randomness of the thing around its mean?"
+    },
+    {
+        "text": "And something that comes from this textbook, the standard deviation of capture rate might be approximately proportional to the mean rate."
+    },
+    {
+        "text": "You need to find a distribution that actually has this property."
+    },
+    {
+        "text": "And it turns out that this happens for gamma distribution."
+    },
+    {
+        "text": "In gamma distributions, just like, say, for Poisson distribution, for Poisson, the variance and the mean are of the same order."
+    },
+    {
+        "text": "Here is the standard deviation that's of the same order as the mean for gammas."
+    },
+    {
+        "text": "And it's a positive distribution as well."
+    },
+    {
+        "text": "So here is a candidate."
+    },
+    {
+        "text": "Now, since we're sort of constrained to work under the exponential family of distributions, then you can just go through your list and just decide which one works best for you."
+    },
+    {
+        "text": "All right, third example."
+    },
+    {
+        "text": "So here we have binary response."
+    },
+    {
+        "text": "Here, essentially, the binary response variable indicates the presence or absence of post-covariative deforming for kyphosis on children."
+    },
+    {
+        "text": "And here, rather than having one covariate, which was before, in the first example, was time, in the second example was the density, here there's three covariates."
+    },
+    {
+        "text": "So you measure on children."
+    },
+    {
+        "text": "The first one is age of the child."
+    },
+    {
+        "text": "The second one is the number of vertebrae involved in the operation."
+    },
+    {
+        "text": "And the third one is the start of the range, so where it is on the spine."
+    },
+    {
+        "text": "So the response variable here is, did it work or not?"
+    },
+    {
+        "text": "I mean, that's very simple."
+    },
+    {
+        "text": "And so here, it's nice, because the random component is the easiest one."
+    },
+    {
+        "text": "As I said, any random variable that takes only two outcomes must be a Bernoulli."
+    },
+    {
+        "text": "So that's nice."
+    },
+    {
+        "text": "There's no modeling going on here."
+    },
+    {
+        "text": "So you know that y given x is going to be Bernoulli, but of course, all your efforts are going to try to understand what the conditional mean of your Bernoulli, what the conditional probability of being 1 is going to be."
+    },
+    {
+        "text": "And so in particular, so I'm just here."
+    },
+    {
+        "text": "I'm spelling it out before we close those examples."
+    },
+    {
+        "text": "I cannot say that mu of x is x transpose beta for exactly this picture that I drew for you here."
+    },
+    {
+        "text": "There's just no way here."
+    },
+    {
+        "text": "The goal of doing this is certainly to be able to extrapolate for yet unseen children whether this is something that we should be doing, and maybe the range of x's is actually going to be slightly out."
+    },
+    {
+        "text": "And so OK, I don't want to say that I have a negative probability of outcome or a positive one, sorry, or a 1 that's lower than 1, so I need to make this transformation."
+    },
+    {
+        "text": "What I need to do is to transform mu, which is we know only a number, all we know is a number between 0 and 1, and we need to transform it in such a way that it maps the entire real line, or reciprocally to say that, or inversely I should say, that f of x transpose beta should be a number between 0 and 1."
+    },
+    {
+        "text": "I need to find a function that takes any real number and maps it into 0 and 1, and we'll see that again, but you have an army of functions that do that for you."
+    },
+    {
+        "text": "What are those functions?"
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Trait function."
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Trait?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Trait, trait, trait."
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Oh."
+    },
+    {
+        "text": "Yeah, I want them to be invertible, right?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Longest trait."
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "I have an army of function."
+    },
+    {
+        "text": "I'm not asking for one soldier in this army."
+    },
+    {
+        "text": "I want the name of this army."
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "They're invertible."
+    },
+    {
+        "text": "PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Well, they're not really invertible either, right?"
+    },
+    {
+        "text": "So they're actually in stats textbooks, because remember, statisticians don't know how to integrate functions, but they know how to turn a function into a Gaussian integral, so we know it integrates to 1, and things like this."
+    },
+    {
+        "text": "Same thing here."
+    },
+    {
+        "text": "We don't know how to build functions that are invertible and map the entire real line to 0, 1, but there's all the cumulative distribution functions that do that for us."
+    },
+    {
+        "text": "So I can use any of those guys, and that's what I'm going to be doing, actually."
+    },
+    {
+        "text": "All right, so just to recap what I just said as we were speaking, so a normal linear model is not appropriate for those examples if only because the response variable is not necessarily Gaussian."
+    },
+    {
+        "text": "So and also because the linear model has to be, the mean has to be transformed before I can actually apply a linear model for all these plausible nonlinear models that I actually came up with."
+    },
+    {
+        "text": "So the family we're going to go for is the exponential family of distributions, and we're going to be able to show, so one of the nice part of this is to actually compute maximum likelihood estimators for those, right?"
+    },
+    {
+        "text": "In the linear model, maximum like, in the Gaussian linear model, maximum likelihood was as nice as it gets, right?"
+    },
+    {
+        "text": "This actually was the least squares estimator."
+    },
+    {
+        "text": "We had a closed form, x transpose x inverse x transpose y, and that was it."
+    },
+    {
+        "text": "We had to just take one derivative."
+    },
+    {
+        "text": "Here, we're going to have a generally concave likelihood."
+    },
+    {
+        "text": "We're not going to be able to actually solve this thing directly in closed form unless it's Gaussian, but we will have, we'll see actually how this is not just a black box optimization of a concave function."
+    },
+    {
+        "text": "We have a lot of properties of this concave function, and we will be able to show some iterative algorithms."
+    },
+    {
+        "text": "We'll basically see how, when you open the box of convex optimization, you will actually be able to see how things work and actually implement it using least squares."
+    },
+    {
+        "text": "So each iteration of this iterative algorithm will essentially be a least square, so that's actually quite huge."
+    },
+    {
+        "text": "It's also very demonstrative of statisticians being pretty ingenious so that they don't have to call in some statistical software, but just can repeatedly call their least squares oracle within a statistical software."
+    },
+    {
+        "text": "OK, so what is the exponential family?"
+    },
+    {
+        "text": "I promised you the exponential family."
+    },
+    {
+        "text": "Before we go into this, let me just tell you something about exponential families, and what's the only thing that differentiates an exponential family from all possible distributions?"
+    },
+    {
+        "text": "An exponential family has two parameters, and those are not really parameters, but there's the theta parameter of my distribution."
+    },
+    {
+        "text": "So it's going to be indexed by some parameter."
+    },
+    {
+        "text": "Here, I'm only talking about the distribution of, say, some random variable or some random vector."
+    },
+    {
+        "text": "So here, in this slide, you see that the parameter theta that indexes those distribution is k-dimensional, and the space of the x's that I'm looking at, so that should really be y."
+    },
+    {
+        "text": "So what I'm going to plug in here is the conditional distribution of y given x, and theta is going to depend on x."
+    },
+    {
+        "text": "But this really is the y."
+    },
+    {
+        "text": "That's the distribution of the response variable."
+    },
+    {
+        "text": "And so this is on q."
+    },
+    {
+        "text": "So I'm going to assume that y is q-dimensional."
+    },
+    {
+        "text": "Clearly, soon q is going to be equal to 1, but I can define those things generally."
+    },
+    {
+        "text": "So I have this."
+    },
+    {
+        "text": "I have to tell you what this looks like, and let's assume that this is a probability density function."
+    },
+    {
+        "text": "So this notation, the fact that I just put my theta in subscript, is just for me to remember that this is the variable that indicates the random variable, and this is just the parameter."
+    },
+    {
+        "text": "But I could just write it as a function of theta and x."
+    },
+    {
+        "text": "This is just going to be, if you were in multivariable calc, you would have two parameters, theta and x, and you would need to give me a function."
+    },
+    {
+        "text": "Now, think of x and theta as being one-dimensional at this point."
+    },
+    {
+        "text": "Think of all the functions that can be depending on theta and x."
+    },
+    {
+        "text": "There's many of them."
+    },
+    {
+        "text": "And in particular, there's many ways theta and x can interact."
+    },
+    {
+        "text": "What the exponential family does for you is that it restricts the way these things can actually interact with each other."
+    },
+    {
+        "text": "It's essentially saying the following."
+    },
+    {
+        "text": "It's saying this is going to be of the form exponential."
+    },
+    {
+        "text": "So this exponential is really not much, because I could put a log next to it."
+    },
+    {
+        "text": "But what I want is that the way theta and x interact has to be of the form theta times x in an exponential."
+    },
+    {
+        "text": "So that's one of the ways you can think of them interacting."
+    },
+    {
+        "text": "You just take the product of the two."
+    },
+    {
+        "text": "Now, clearly, this is not a very rich family."
+    },
+    {
+        "text": "So what I'm allowing myself is to just slap on some terms that depend only on theta and depend only on x."
+    },
+    {
+        "text": "So let's just call this thing f of x g of theta."
+    },
+    {
+        "text": "So here, I've restricted the way theta and x can interact."
+    },
+    {
+        "text": "So I have something that depends only on x, something that depends only on theta."
+    },
+    {
+        "text": "And here, I have this very specific interaction."
+    },
+    {
+        "text": "And that's all that exponential families are doing for you."
+    },
+    {
+        "text": "So if we go back to this slide, this is much more general."
+    },
+    {
+        "text": "If I want to go from theta and x in r to theta and x theta in r to theta in rk and x in rq, I cannot take the product of theta and x. I cannot even take the inner product between theta and x, because they're not even of compatible dimensions."
+    },
+    {
+        "text": "But what I can do is to first map my theta into something and map my x into something so that I actually end up having the same dimensions."
+    },
+    {
+        "text": "And then I can take the inner product."
+    },
+    {
+        "text": "That's the natural generalization of this simple product."
+    },
+    {
+        "text": "So what I have is if I want to go from theta to x, what I'm going to first do is I'm going to take theta eta of theta."
+    },
+    {
+        "text": "So let's say eta 1 of theta to eta k of theta."
+    },
+    {
+        "text": "And then I'm going to actually take x becomes t1 of x all the way to tk of x."
+    },
+    {
+        "text": "And what I'm going to do is take the inner product."
+    },
+    {
+        "text": "So let's call this eta."
+    },
+    {
+        "text": "And let's call this t. And I'm going to take the inner product of eta and t, which is just the sum from j equal 1 to k of eta j of theta times tj of x."
+    },
+    {
+        "text": "So that's just a way to say I want this simple interaction."
+    },
+    {
+        "text": "But in higher dimension, the simplest way I can actually make those things happen is just by taking inner product."
+    },
+    {
+        "text": "And so now what it's telling me is that the distribution, I want the exponential times something that depends only on theta and something that depends only on x."
+    },
+    {
+        "text": "And so what it tells me is that when I'm going to take p of theta x, it's just going to be something which is exponential times the sum from j equal 1 to k of eta j theta tj of x."
+    },
+    {
+        "text": "And then I'm going to have a function that depends only."
+    },
+    {
+        "text": "So let me write it for now like c of theta."
+    },
+    {
+        "text": "And then a function that depends only on x."
+    },
+    {
+        "text": "Let me call it h of x."
+    },
+    {
+        "text": "And for convenience, there's no particular reason why I do that."
+    },
+    {
+        "text": "I'm taking this function c of theta, and I'm just actually pushing it in there."
+    },
+    {
+        "text": "So I can write c of theta as exponential minus log of 1 over c of theta."
+    },
+    {
+        "text": "And now I have exponential times exponential."
+    },
+    {
+        "text": "So I push it in, and this thing actually looks like exponential sum from j equal 1 to k of eta j theta tj of x minus log 1 over c of theta times h of x."
+    },
+    {
+        "text": "And this thing here, log 1 over c of theta, I call actually b of theta."
+    },
+    {
+        "text": "Because c, I called it c, but I can actually directly call it this guy b, and I don't actually care about c itself."
+    },
+    {
+        "text": "Now, why don't I put back also h of x in there?"
+    },
+    {
+        "text": "Because h of x is really here to just, how to put it?"
+    },
+    {
+        "text": "h of x and b of theta don't play the same role."
+    },
+    {
+        "text": "b of theta, in many ways, is a normalizing constant."
+    },
+    {
+        "text": "I want this density to integrate to 1."
+    },
+    {
+        "text": "If I did not have this guy, I'm not guaranteed that this thing integrates to 1."
+    },
+    {
+        "text": "But by tweaking this function, b of theta or c of theta, their equivalent, I can actually ensure that this thing integrates to 1."
+    },
+    {
+        "text": "So b of theta is just a normalizing constant."
+    },
+    {
+        "text": "h of x is something that's going to be funny for us."
+    },
+    {
+        "text": "It's going to be something that allows us to be able to treat both discrete and continuous variables within the framework of exponential families."
+    },
+    {
+        "text": "So for those that are familiar with this, this is essentially saying that h of x is really just a change of measure."
+    },
+    {
+        "text": "When I actually look at the density of p of theta, this is with respect to some measure, the fact that I just multiply by a function of x just means that I'm not looking that this guy here, without h of theta, is not the density with respect to the original measure, but it's the density with respect to the distribution that has h as a density."
+    },
+    {
+        "text": "That's all I'm saying."
+    },
+    {
+        "text": "So I can first transform my x's and then take the density with respect to that."
+    },
+    {
+        "text": "If you don't want to think about densities or measures, you don't have to."
+    },
+    {
+        "text": "This is just the way."
+    },
+    {
+        "text": "This is just the definition."
+    },
+    {
+        "text": "Is there any question about this definition?"
+    },
+    {
+        "text": "So it looks complicated, but it's actually essentially the simplest way you could think about it."
+    },
+    {
+        "text": "You want to be able to have x and theta interact, and you just say, I want the interaction to be of the form exponential x times theta."
+    },
+    {
+        "text": "And if they're higher dimensions, I'm going to take the exponential of the function of x inner product for the function of theta."
+    },
+    {
+        "text": "So I claimed since the beginning that the Gaussian was such an example, so let's just do it."
+    },
+    {
+        "text": "Is the interaction between theta and x in a Gaussian of the form inner product?"
+    },
+    {
+        "text": "And the answer is yes."
+    },
+    {
+        "text": "Actually, whether I know or not what the variance is."
+    },
+    {
+        "text": "So let's start for the case where I actually do not know what the variance is."
+    },
+    {
+        "text": "So here I have x is n mu sigma squared."
+    },
+    {
+        "text": "This is all one dimensional."
+    },
+    {
+        "text": "And here I'm going to assume that my parameter is both mu and sigma squared."
+    },
+    {
+        "text": "So what I need to do is to have some function of mu, some function of sigma squared, and take the inner product of some function of x and some other function of x."
+    },
+    {
+        "text": "So I want to show that p theta of x is what?"
+    },
+    {
+        "text": "Well, it's 1 over square root sigma 2 pi exponential minus x minus mu squared over 2 sigma squared."
+    },
+    {
+        "text": "That's just my Gaussian density."
+    },
+    {
+        "text": "And I want to say that this thing here, so clearly the exponential shows up already."
+    },
+    {
+        "text": "I want to show that this is something that looks like eta 1 of mu sigma squared."
+    },
+    {
+        "text": "So I have only two of those guys, so I'm going to need only two etas."
+    },
+    {
+        "text": "So I want it to be eta 1 of mu and sigma times t1 of x plus eta 2 mu sigma squared times t2 of x."
+    },
+    {
+        "text": "So I want to have something like that that shows up, and the only things that are left, I want them to depend either only on theta or only on x."
+    },
+    {
+        "text": "So to find that out, we just need to expand."
+    },
+    {
+        "text": "So I'm going to first put everything into my exponential and expand this guy."
+    },
+    {
+        "text": "So the first term here is going to be minus x squared over 2 sigma squared."
+    },
+    {
+        "text": "The second term is going to be minus mu squared over 2 sigma squared."
+    },
+    {
+        "text": "And then the cross term is going to be plus x mu divided by sigma squared."
+    },
+    {
+        "text": "And then I'm going to put this guy here, so I have a minus log sigma root 2 pi."
+    },
+    {
+        "text": "OK, so this term here contains an interaction between x and the parameters."
+    },
+    {
+        "text": "This term here contains an interaction between x and the parameters."
+    },
+    {
+        "text": "So let me try to write them in a way that I want."
+    },
+    {
+        "text": "This guy only depends on the parameters."
+    },
+    {
+        "text": "This guy only depends on the parameter."
+    },
+    {
+        "text": "So I'm going to rearrange things."
+    },
+    {
+        "text": "And so I claim that this is of the form x squared."
+    },
+    {
+        "text": "Well, let's say, who's getting the minus?"
+    },
+    {
+        "text": "Eta, OK."
+    },
+    {
+        "text": "So it's x squared times minus 1 over 2 sigma squared plus x times mu over sigma squared."
+    },
+    {
+        "text": "So that's this term here."
+    },
+    {
+        "text": "That's this term here."
+    },
+    {
+        "text": "Now I need to get this guy here."
+    },
+    {
+        "text": "And that's minus."
+    },
+    {
+        "text": "So I'm going to write it like this, minus."
+    },
+    {
+        "text": "And now I have mu squared over 2 sigma squared plus log sigma square root 2 pi."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And now this thing is definitely of the form t1 of x times, did I call them the right way or not?"
+    },
+    {
+        "text": "Of course not."
+    },
+    {
+        "text": "OK, so that's going to be t2 of x times eta 2 of x, eta 2 of theta."
+    },
+    {
+        "text": "This guy is going to be t1 of x times eta 1 of theta."
+    },
+    {
+        "text": "So just a function of theta times a function of x, just a function of theta times a function of x."
+    },
+    {
+        "text": "And the way I combine this is just by summing them."
+    },
+    {
+        "text": "And this is going to be my b of theta."
+    },
+    {
+        "text": "What is h of x?"
+    },
+    {
+        "text": "1."
+    },
+    {
+        "text": "There's one thing I can actually play with."
+    },
+    {
+        "text": "And this is something you're going to have some free choices."
+    },
+    {
+        "text": "This is not actually completely determined here."
+    },
+    {
+        "text": "Is that, for example, when I write the log sigma square root 2 pi, this is just log of sigma plus log square root 2 pi."
+    },
+    {
+        "text": "So I have two choices here."
+    },
+    {
+        "text": "Either my b becomes this guy, or so either I have b of theta, which is mu squared over 2 sigma squared plus log sigma square root 2 pi, and h of x is equal to 1."
+    },
+    {
+        "text": "Or I have that b of theta is mu squared over 2 sigma squared plus log sigma, and h of x is equal to what?"
+    },
+    {
+        "text": "1."
+    },
+    {
+        "text": "Well, I can just push this guy out."
+    },
+    {
+        "text": "I can push it out of the exponential."
+    },
+    {
+        "text": "And so it's just square root of 2 pi, which is a function of x, technically."
+    },
+    {
+        "text": "I mean, it's a constant function of x, but it's a function of x."
+    },
+    {
+        "text": "So you can see that it's not completely clear how you're going to do the trade-off."
+    },
+    {
+        "text": "So the constant terms can go either in b or in h. But why bother with tracking down b and h when you can actually stuff everything into one and just call h 1 and call it a day?"
+    },
+    {
+        "text": "So you can just forget about h. It's 1, and think about the rest."
+    },
+    {
+        "text": "h won't matter, actually, for estimation purposes or anything like this."
+    },
+    {
+        "text": "All right, so that's basically everything that's written."
+    },
+    {
+        "text": "When sigma square is known, what's happening is that this guy here is no longer a function of theta, right?"
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "This is no longer a parameter."
+    },
+    {
+        "text": "When sigma square is known, then theta is equal to mu only."
+    },
+    {
+        "text": "There's no sigma square going on."
+    },
+    {
+        "text": "So everything that depends on sigma square can be thought as a constant, think 1."
+    },
+    {
+        "text": "So in particular, this term here does not belong in the interaction between x and theta."
+    },
+    {
+        "text": "It belongs to h, right?"
+    },
+    {
+        "text": "So if sigma is known, then this guy is only a function of h of x."
+    },
+    {
+        "text": "So h of x becomes exponential x squared minus x squared over 2 sigma squared, right?"
+    },
+    {
+        "text": "That's just a function of x."
+    },
+    {
+        "text": "Is that clear?"
+    },
+    {
+        "text": "So if you complete this computation, what you're going to get is that your new one parameter thing is that p theta p theta x is not equal to exponential x times mu over sigma squared minus, well, it's still the same thing, and then you have your h of x that comes out, x squared over 2 sigma squared."
+    },
+    {
+        "text": "So that's my h of x."
+    },
+    {
+        "text": "That's still my b of theta."
+    },
+    {
+        "text": "And this is my t1 of x, and this is my eta 1 of theta."
+    },
+    {
+        "text": "And remember, theta is just equal to mu in this case."
+    },
+    {
+        "text": "So if I ask you, prove that this distribution belonged to an exponential family, you just have to work it out."
+    },
+    {
+        "text": "Typically, it's expanding what's in the exponential and just write it in this term and identify all the components, right?"
+    },
+    {
+        "text": "So here, notice those guys don't even get an index anymore because there's just one of them."
+    },
+    {
+        "text": "So I wrote theta 1 and t1, but it's really just eta and t. Oh, sorry."
+    },
+    {
+        "text": "This guy also goes."
+    },
+    {
+        "text": "This is also a constant, right?"
+    },
+    {
+        "text": "So it can actually just put sigma divided by sigma squared over 2 pi."
+    },
+    {
+        "text": "So h of x is what, actually?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "It's the density of?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "It's centered."
+    },
+    {
+        "text": "It's not standard."
+    },
+    {
+        "text": "It's centered."
+    },
+    {
+        "text": "It has mean 0, but it has variance sigma squared, right?"
+    },
+    {
+        "text": "But it's the density of a Gaussian."
+    },
+    {
+        "text": "And this is what I meant when I said h of x is really just telling you with respect to which distribution, which measure you're taking the density."
+    },
+    {
+        "text": "And so this thing here is really telling you the density of my Gaussian with mean mu is equal to this with respect to a centered Gaussian is this guy, right?"
+    },
+    {
+        "text": "That's what it means."
+    },
+    {
+        "text": "If this thing ends up being a density, it just means that now you just have a new measure, which is this density."
+    },
+    {
+        "text": "So it's just saying that the density of the Gaussian with mean mu with respect to the Gaussian with mean 0 is just this thing here."
+    },
+    {
+        "text": "All right, so let's move on."
+    },
+    {
+        "text": "So here is that I said you can actually do all these computations and forget about the fact that x is continuous."
+    },
+    {
+        "text": "You can actually do it with PMFs and do it for x is discrete."
+    },
+    {
+        "text": "This actually also tells you if you can actually get the same form for your density, which is of the form exponential times the product of the interaction between theta and x is just taking this product, and then a function only of theta and a function only of x for the PMF."
+    },
+    {
+        "text": "It also works."
+    },
+    {
+        "text": "So I claim that the Bernoulli belongs to this family."
+    },
+    {
+        "text": "So the PMF of a Bernoulli, we say parameter p, is p to the x 1 minus p to the 1 minus x, right?"
+    },
+    {
+        "text": "Because we know, so that's only for x equals 0 or 1."
+    },
+    {
+        "text": "And the reason is because when x is equal to 0, this is 1 minus p. When x is equal to 1, this is p. We've seen that when we were looking at likelihoods for Bernoullis."
+    },
+    {
+        "text": "This is not clear this is going to look like this at all."
+    },
+    {
+        "text": "But let's do it."
+    },
+    {
+        "text": "So what does this thing look like?"
+    },
+    {
+        "text": "Well, the first thing I want to do is to make an exponential show up."
+    },
+    {
+        "text": "So what I'm going to write is I'm going to write p to the x as exponential x log p, right?"
+    },
+    {
+        "text": "And so I'm going to do that for the other one."
+    },
+    {
+        "text": "So this thing here, so I'm going to get exponential x log p plus 1 minus x log 1 minus p. So what I need to do is to collect my terms in x and my terms in whatever parameters I have."
+    },
+    {
+        "text": "So here, theta is equal to p. So if I do this, what I end up having is equal to exponential."
+    },
+    {
+        "text": "So the term in x is log p minus log 1 minus p. So that's x times log p over 1 minus p. And then the term that stays is just 1 times log 1 minus p. But I want to see this as a minus something, right?"
+    },
+    {
+        "text": "It was minus b of theta."
+    },
+    {
+        "text": "So I'm going to write it as minus."
+    },
+    {
+        "text": "Well, I can just keep the plus."
+    },
+    {
+        "text": "And I'm going to do."
+    },
+    {
+        "text": "And that's all."
+    },
+    {
+        "text": "Aha."
+    },
+    {
+        "text": "Well, this is of the form exponential, something that depends only on x, times something that depends only on theta, minus a function that depends only on theta."
+    },
+    {
+        "text": "And then h of x is equal to 1 again."
+    },
+    {
+        "text": "So let's see."
+    },
+    {
+        "text": "So I have t1 of x is equal to x."
+    },
+    {
+        "text": "That's this guy."
+    },
+    {
+        "text": "Eta 1 of theta is equal to log p 1 minus p. And b of theta is equal to log 1 over 1 minus p. And h of x is equal to 1."
+    },
+    {
+        "text": "You guys want to do Poisson, or you want to have it in homework?"
+    },
+    {
+        "text": "It's a dilemma, because that's an easy homework versus no homework at all."
+    },
+    {
+        "text": "That may be something more difficult."
+    },
+    {
+        "text": "OK, who wants to do it now?"
+    },
+    {
+        "text": "Who does not want to raise their hand now?"
+    },
+    {
+        "text": "Who wants to raise their hand now?"
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So let's move on."
+    },
+    {
+        "text": "I'll just do it."
+    },
+    {
+        "text": "Do you want to do the gammas instead in the homework?"
+    },
+    {
+        "text": "That's going to be fun."
+    },
+    {
+        "text": "I'm not even going to propose to do the gammas."
+    },
+    {
+        "text": "So this is the gamma distribution."
+    },
+    {
+        "text": "It's brilliantly called gamma, because it has the gamma function, just like the beta distribution was at the beta function in there."
+    },
+    {
+        "text": "They look very similar."
+    },
+    {
+        "text": "One is defined over r plus, the positive real line."
+    },
+    {
+        "text": "And remember, the beta was defined over the interval 0, 1."
+    },
+    {
+        "text": "And it's of the form x to some power times exponential minus x to some time something."
+    },
+    {
+        "text": "So there's a function, a polynomial in x, where the exponent depends on the parameter."
+    },
+    {
+        "text": "And then there's the exponential minus x times something depends on the parameters."
+    },
+    {
+        "text": "So this is going to also look like some function of x."
+    },
+    {
+        "text": "Sorry, like some exponential distribution."
+    },
+    {
+        "text": "Can somebody guess what is going to be t2 of x?"
+    },
+    {
+        "text": "Oh, those are the functions of x that show up in this product."
+    },
+    {
+        "text": "Remember when we have this, we just need to take some transformations of x, so it looks linear in those things and not in x itself."
+    },
+    {
+        "text": "Remember, we had x squared and x, for example, in the Gaussian case."
+    },
+    {
+        "text": "I don't know if it's still there."
+    },
+    {
+        "text": "Yeah, it's still there, right?"
+    },
+    {
+        "text": "t2 was x squared."
+    },
+    {
+        "text": "What do you think x is going to be?"
+    },
+    {
+        "text": "t2 of x."
+    },
+    {
+        "text": "So here's a hint."
+    },
+    {
+        "text": "t1 is going to be x. Yeah, Arjun, what is going to be t2?"
+    },
+    {
+        "text": "Yeah, you cannot."
+    },
+    {
+        "text": "This one is taken."
+    },
+    {
+        "text": "This one is taken."
+    },
+    {
+        "text": "I don't want to take it."
+    },
+    {
+        "text": "What?"
+    },
+    {
+        "text": "Log x, right?"
+    },
+    {
+        "text": "Because this x to the a minus 1, I'm going to write it as exponential a minus 1 log x."
+    },
+    {
+        "text": "So basically, eta 1 is going to be a minus 1."
+    },
+    {
+        "text": "Eta 2 is going to be minus 1 over b."
+    },
+    {
+        "text": "Well, actually, the opposite."
+    },
+    {
+        "text": "But this is actually not too complicated."
+    },
+    {
+        "text": "All right, then those parameters get names."
+    },
+    {
+        "text": "a is the shape parameter."
+    },
+    {
+        "text": "b is the scale parameter."
+    },
+    {
+        "text": "It doesn't really matter."
+    },
+    {
+        "text": "You have other things that are called the inverse gamma distribution, which has this form."
+    },
+    {
+        "text": "The difference is that the parameter alpha shows negatively there."
+    },
+    {
+        "text": "And then the inverse Gaussian distribution, just densities you can come up with."
+    },
+    {
+        "text": "And it just happened to fall in this family."
+    },
+    {
+        "text": "And there's other ones that you can actually put it there that we've seen before."
+    },
+    {
+        "text": "The chi square is actually part of this family."
+    },
+    {
+        "text": "The beta distribution is part of this family."
+    },
+    {
+        "text": "The binomial distribution is part of this family."
+    },
+    {
+        "text": "Well, that's easy because the Bernoulli was."
+    },
+    {
+        "text": "The negative binomial, which is some stopping time, the first time you hit a certain number of successes when you flip some Bernoulli coins."
+    },
+    {
+        "text": "So you can check for all of those."
+    },
+    {
+        "text": "And you will see that you can actually write them as part of the exponential family."
+    },
+    {
+        "text": "So the main goal of this slide is to convince you that this is actually a pretty broad range of distributions, because it basically includes everything we've seen, but not anything there."
+    },
+    {
+        "text": "Sorry, plus more."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "Is there any example of a distribution which comes up pretty often that's not in the next exponential family?"
+    },
+    {
+        "text": "Yeah, like uniform."
+    },
+    {
+        "text": "Oh, OK. Maybe a bit more complicated than that."
+    },
+    {
+        "text": "Anything that has a support that depends on the parameter is not going to fall."
+    },
+    {
+        "text": "It's not going to fit in there."
+    },
+    {
+        "text": "And you can actually convince yourself why anything that has the support that depends on the parameter is not going to be part of this guy."
+    },
+    {
+        "text": "It's kind of a hard thing to, if I ask you, prove that it's not, and you wouldn't prove this rule."
+    },
+    {
+        "text": "It's kind of a little difficult."
+    },
+    {
+        "text": "But the way you can convince yourself is that, remember, the only interaction between x and theta that I allowed was taking the product of those guys and then the exponential."
+    },
+    {
+        "text": "If you have something that depends on some parameter, let's say you're going to see something that looks like this."
+    },
+    {
+        "text": "For uniform, it looks like this."
+    },
+    {
+        "text": "Well, this is not of the form exponential x times theta."
+    },
+    {
+        "text": "There's an interaction between x and theta here, but it's actually certainly not of the form x exponential x times theta."
+    },
+    {
+        "text": "So this is definitely not going to be part of the exponential family."
+    },
+    {
+        "text": "And every time you start doing things like that, then it's just not going to happen."
+    },
+    {
+        "text": "Actually, to be fair, I'm not even sure that all these guys, when you allow them to have all their parameters free, are actually going to be part of this."
+    },
+    {
+        "text": "The beta probably is, but I'm not actually entirely convinced."
+    },
+    {
+        "text": "There's books on exponential families."
+    },
+    {
+        "text": "So let's go back."
+    },
+    {
+        "text": "So here, we've put a lot of effort understanding how big, how much wider than the Gaussian distribution can we think of for the conditional distribution of our response y given x."
+    },
+    {
+        "text": "So let's go back to the generalized linear models."
+    },
+    {
+        "text": "So the generalized linear model said, OK, the random component, y, has to be part of some exponential family distribution."
+    },
+    {
+        "text": "Check."
+    },
+    {
+        "text": "We know what this means."
+    },
+    {
+        "text": "So now I have to understand two things."
+    },
+    {
+        "text": "I have to understand what is the expectation, because that's actually what I model."
+    },
+    {
+        "text": "I take the expectation, the conditional expectation of y given x."
+    },
+    {
+        "text": "So I need to understand, given this guy, it would be nice if it had some simple rules that would tell me exactly what the expectation is, rather than having to do it over and over again."
+    },
+    {
+        "text": "If I told you, here's a Gaussian, compute the expectation."
+    },
+    {
+        "text": "Every time you had to use that, it would be slightly painful."
+    },
+    {
+        "text": "So hopefully, this thing being simple enough, we've actually selected a simple class that's simple enough."
+    },
+    {
+        "text": "So that we can have rules, whereas as soon as I give you those parameters, t1, t2, eta 1, eta 2, b, and h, you can actually have some simple rules to compute the mean and variance and all the things."
+    },
+    {
+        "text": "And so in particular, I'm interested in the mean."
+    },
+    {
+        "text": "And I'm going to have to actually say, well, this mean has to be mapped into the whole real line so I can actually talk about modeling this function of the mean as x transpose beta."
+    },
+    {
+        "text": "And we saw that for the Kefosis data set or whatever other data sets, you can actually do this using the log of the reciprocal."
+    },
+    {
+        "text": "Or for the, actually, we didn't do it for the Bernoulli."
+    },
+    {
+        "text": "We'll come to this."
+    },
+    {
+        "text": "This is the most important one, and that's called the logit or logistic link."
+    },
+    {
+        "text": "But before we go there, this was actually a very broad family."
+    },
+    {
+        "text": "When I wrote this thing on the bottom board, it's gone now."
+    },
+    {
+        "text": "But when I wrote it in the first place, the only thing that I wrote is I wanted x times theta."
+    },
+    {
+        "text": "Wouldn't it be nice if I have some distribution that was just x times theta, not some function of x times some function of theta?"
+    },
+    {
+        "text": "The functions seem to be here so that they actually make things a little."
+    },
+    {
+        "text": "So the functions were here so that I can actually put a lot of functions there."
+    },
+    {
+        "text": "But first of all, if I actually decide to reparameterize my problem, I can always assume, if I have one dimensional, I can always assume that eta 1 of theta becomes my new theta."
+    },
+    {
+        "text": "So this thing here, for example, I could say, well, this is actually the parameter of my Bernoulli."
+    },
+    {
+        "text": "Let me call this guy theta."
+    },
+    {
+        "text": "I could do that."
+    },
+    {
+        "text": "Then I could say, well, here I have x that shows up here."
+    },
+    {
+        "text": "And here, since I'm talking about the response, I cannot really make any transformation."
+    },
+    {
+        "text": "So here I'm going to actually talk about a specific family for which this guy is not x square or square root of x or log of x or anything I want."
+    },
+    {
+        "text": "I'm just going to actually look at distributions for which this is x."
+    },
+    {
+        "text": "These exponential families are called canonical exponential families."
+    },
+    {
+        "text": "So in the canonical exponential family, what I have is that I have my x times theta."
+    },
+    {
+        "text": "I'm going to allow myself some normalization factor phi."
+    },
+    {
+        "text": "And we'll see, for example, that it's very convenient when I talk about the Gaussian."
+    },
+    {
+        "text": "Because even if I know this guy, which I actually pull into my, oh, that's over here, right?"
+    },
+    {
+        "text": "I know sigma squared, but I don't want to change my parameter to be mu over sigma squared."
+    },
+    {
+        "text": "It's kind of painful."
+    },
+    {
+        "text": "So I just take mu, and I'm going to keep this guy as being this phi over there."
+    },
+    {
+        "text": "And it's called the dispersion parameter from a clear analogy with the Gaussian."
+    },
+    {
+        "text": "That's the variance, and that's measuring dispersion."
+    },
+    {
+        "text": "So here, what I want is I'm going to think throughout this class."
+    },
+    {
+        "text": "So phi may be known or not."
+    },
+    {
+        "text": "And when it's not known, this actually might turn into some exponential family, or it might not."
+    },
+    {
+        "text": "And the main reason is because this b of theta over phi is not necessarily a function of theta over phi."
+    },
+    {
+        "text": "If I actually have phi unknown, then y theta over phi has to be, this guy has to be my new parameter."
+    },
+    {
+        "text": "And b might not be a function of this new parameter."
+    },
+    {
+        "text": "So in a way, it may or may not, but this is not really a concern that we're going to have, because throughout this class, we're going to assume that phi is known."
+    },
+    {
+        "text": "Phi is going to be known all the time, which means that this is always an exponential family."
+    },
+    {
+        "text": "And it's just the simplest one you could think of."
+    },
+    {
+        "text": "One dimensional parameter, one dimensional response, and I just have the product is just y times, or we used to call it x."
+    },
+    {
+        "text": "Now I've switched to y."
+    },
+    {
+        "text": "But y times theta divided by phi."
+    },
+    {
+        "text": "Should I write this, or is this clear to everyone what this is?"
+    },
+    {
+        "text": "Let me write it somewhere so we actually keep track of it for the 10 minutes."
+    },
+    {
+        "text": "OK, so this is, we have, remember we had all the distributions."
+    },
+    {
+        "text": "And then here we had the exponential family."
+    },
+    {
+        "text": "And now we have the canonical exponential family."
+    },
+    {
+        "text": "It's actually much, much smaller."
+    },
+    {
+        "text": "Well, actually, it's probably sort of a good picture."
+    },
+    {
+        "text": "And what I have is that my density, or my PMF, is just exponential y times theta minus b of theta divided by phi."
+    },
+    {
+        "text": "And I have plus c of, oh, yeah, plus c of y phi, which means that this is really, if phi is known, h of y is just exponential c of y phi."
+    },
+    {
+        "text": "Actually, this is the reason why it's not necessarily a canonical family."
+    },
+    {
+        "text": "It might not be that this depends only on y."
+    },
+    {
+        "text": "It could depend on y and phi in some annoying way, and I may not be able to break it."
+    },
+    {
+        "text": "But if phi is known, this is just a function that depends on y."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "In particular, I hope you can convince yourself that this is just a subcase of everything we've seen before."
+    },
+    {
+        "text": "So for example, the Gaussian, when the variance is known, is indeed of this form."
+    },
+    {
+        "text": "So we still have it on the board."
+    },
+    {
+        "text": "So here's my y."
+    },
+    {
+        "text": "So let me write this as f theta of y."
+    },
+    {
+        "text": "So every x is replaced with y. Blah, blah, blah."
+    },
+    {
+        "text": "This is this guy."
+    },
+    {
+        "text": "And now what I have is that this is going to be my phi."
+    },
+    {
+        "text": "This is my parameter theta."
+    },
+    {
+        "text": "So I'm definitely of the form y times theta divided by phi."
+    },
+    {
+        "text": "And then here, I have a function b that depends only on theta over phi again."
+    },
+    {
+        "text": "So b of theta is mu squared divided by 2."
+    },
+    {
+        "text": "Then it's divided by sigma square."
+    },
+    {
+        "text": "And then I have this extra stuff, but I really don't care what it is for now."
+    },
+    {
+        "text": "It's just something that depends only on y and known stuff."
+    },
+    {
+        "text": "So it's just a function of y."
+    },
+    {
+        "text": "Just like my h, I stuff everything in there."
+    },
+    {
+        "text": "The b, though, this thing here, this is actually what's important."
+    },
+    {
+        "text": "Because in a canonical family, if you think about it, when you know phi, this is just y times theta scaled by a known constant."
+    },
+    {
+        "text": "Sorry, y times theta scaled by a known constant is the first term."
+    },
+    {
+        "text": "The second term is b of theta scaled by some known constant."
+    },
+    {
+        "text": "But b of theta is what's going to make the difference between Gaussian and Bernoulli's and gammas and betas."
+    },
+    {
+        "text": "This is all in this b of theta."
+    },
+    {
+        "text": "b of theta contains everything that's idiosyncratic to this particular distribution."
+    },
+    {
+        "text": "And so this is going to be important."
+    },
+    {
+        "text": "And we will see that b of theta is going to capture information about the mean, about the variance, about the likelihood, about everything."
+    },
+    {
+        "text": "Should I go through this computation?"
+    },
+    {
+        "text": "I mean, it's the same."
+    },
+    {
+        "text": "We've just done it."
+    },
+    {
+        "text": "So maybe it's probably better if you can redo it on your own."
+    },
+    {
+        "text": "So the canonical exponential family also has other distributions."
+    },
+    {
+        "text": "So there's the Gaussian, and there's the Poisson, and there's the Bernoulli."
+    },
+    {
+        "text": "But the other ones may not be part of this."
+    },
+    {
+        "text": "In particular, think about the gamma distribution."
+    },
+    {
+        "text": "We had this log x was one of those things that showed up."
+    },
+    {
+        "text": "I mean, I cannot get rid of this log x. I mean, that's part of it, except if a is equal to 1."
+    },
+    {
+        "text": "And I know it for sure."
+    },
+    {
+        "text": "So if a is equal to 1, then I'm going to have a minus 1, which is equal to 0."
+    },
+    {
+        "text": "So I'm going to have a minus 1 times log x, which is going to be just 0."
+    },
+    {
+        "text": "So log x is going to vanish from here."
+    },
+    {
+        "text": "If a is equal to 1, then this distribution is actually much nicer."
+    },
+    {
+        "text": "And it actually does not even deserve the name gamma."
+    },
+    {
+        "text": "What is it if a is equal to 1?"
+    },
+    {
+        "text": "It's an exponential, right?"
+    },
+    {
+        "text": "Gamma of 1 is equal to 1. x to the a minus 1 is equal to 1. b, so I have exponential x over b divided by b."
+    },
+    {
+        "text": "So 1 over b, call it lambda."
+    },
+    {
+        "text": "And this is just an exponential distribution."
+    },
+    {
+        "text": "And so every time you're going to see something, so all these guys that don't make it to this table, they could be part of those guys."
+    },
+    {
+        "text": "But they're just to have another name in this thing."
+    },
+    {
+        "text": "So you can compute the value of theta for different values."
+    },
+    {
+        "text": "So again, you still have some continuous or discrete ones."
+    },
+    {
+        "text": "This is my b of theta."
+    },
+    {
+        "text": "And I said this is actually really what captures my theta."
+    },
+    {
+        "text": "This b is actually called cumulant generating function."
+    },
+    {
+        "text": "I don't have time."
+    },
+    {
+        "text": "I could write five slides to explain to you."
+    },
+    {
+        "text": "But it would just only tell you why it's called cumulant generating function."
+    },
+    {
+        "text": "It's also known as the log of the moment generating function."
+    },
+    {
+        "text": "And the way it's called cumulant generating function is because if I start taking successive derivatives and evaluate them at 0, I get the successive cumulants of this distribution, which are some transformation of the moment."
+    },
+    {
+        "text": "What is the function b?"
+    },
+    {
+        "text": "The function b."
+    },
+    {
+        "text": "So this is just normalization."
+    },
+    {
+        "text": "So this is just to tell you I can compute this, but I really don't care."
+    },
+    {
+        "text": "And obviously, I don't care about stuff that's complicated."
+    },
+    {
+        "text": "This is actually cute."
+    },
+    {
+        "text": "And this is what computes everything."
+    },
+    {
+        "text": "And the rest is just some general description."
+    },
+    {
+        "text": "You don't need me to tell you that the range of y is 0 to infinity."
+    },
+    {
+        "text": "And that is essentially telling me this is going to give me some hints as to which link function I should be using."
+    },
+    {
+        "text": "Because the range of y tells me what the range of expectation of y is going to be."
+    },
+    {
+        "text": "Here it tells me that the range of y is between 0 and 1."
+    },
+    {
+        "text": "So what I want to show you is that this captures a variety of different ranges that you can have."
+    },
+    {
+        "text": "So I'm going to want to go into the likelihood."
+    },
+    {
+        "text": "And the likelihood I'm actually going to use to compute the expectations."
+    },
+    {
+        "text": "But since I actually don't have time to do this now, let's just go quickly through this and give you a spoiler alert to make sure that you all wake up on Thursday and really, really want to think about coming here immediately."
+    },
+    {
+        "text": "So the thing I'm going to want to do, as I said, is it would be nice if, at least for this canonical family, when I give you b, you would be able to say, oh, here is a simple computation of b that would actually give me the mean and the variance."
+    },
+    {
+        "text": "The mean and the variance are also known as moments."
+    },
+    {
+        "text": "b is called cumulant generating function."
+    },
+    {
+        "text": "So it sounds like moments being related to cumulants might have a path to finding those."
+    },
+    {
+        "text": "And it might involve taking derivatives of b, as we'll see."
+    },
+    {
+        "text": "The way we're going to prove this is by using this thing that we've used several times."
+    },
+    {
+        "text": "So this property we use when we're computing, remember, the Fisher information."
+    },
+    {
+        "text": "We had two formulas for the Fisher information."
+    },
+    {
+        "text": "One was the expectation of the second derivative of the likelihood."
+    },
+    {
+        "text": "And one was negative expectation of the square."
+    },
+    {
+        "text": "Sorry, expectation of the square."
+    },
+    {
+        "text": "And the other one was negative the expectation of the second derivative."
+    },
+    {
+        "text": "The log likelihood is concave."
+    },
+    {
+        "text": "So this number is negative."
+    },
+    {
+        "text": "This number is positive."
+    },
+    {
+        "text": "And the way we did this is by just permuting some derivative and integral here."
+    },
+    {
+        "text": "And we used the fact that something that looked like this, the log likelihood is log of f theta."
+    },
+    {
+        "text": "And when I take the derivative of this guy with respect to theta, then I have something that looks like the derivative divided by f theta."
+    },
+    {
+        "text": "And if I start taking the integral against f theta of this thing, so the expectation of this thing, those things would cancel."
+    },
+    {
+        "text": "And then I had just the integral of a derivative, which I would make a leap of faith and say that it's actually the derivative of the integral."
+    },
+    {
+        "text": "But this was equal to 1."
+    },
+    {
+        "text": "So this derivative was actually equal to 0."
+    },
+    {
+        "text": "And so that's how you got that the expectation of the derivative of the log likelihood is equal to 0."
+    },
+    {
+        "text": "And you do it once again, and you get this guy."
+    },
+    {
+        "text": "There's just some nice things that happen with taking the derivative of the log."
+    },
+    {
+        "text": "We've done that."
+    },
+    {
+        "text": "We'll do that again."
+    },
+    {
+        "text": "But once you do this, you can actually apply it."
+    },
+    {
+        "text": "And missing a parenthesis over there."
+    },
+    {
+        "text": "So when you write the log likelihood, it's just log of an exponential."
+    },
+    {
+        "text": "That's actually pretty nice."
+    },
+    {
+        "text": "Just like the least squares came naturally, the least squares criterion came naturally when we took the log likelihood of the Gaussians."
+    },
+    {
+        "text": "We're going to have the same thing that happens."
+    },
+    {
+        "text": "When I take the log of the density, the exponential is going to go away."
+    },
+    {
+        "text": "And then I'm going to use this formula."
+    },
+    {
+        "text": "But this formula is going to actually give me an equation directly."
+    },
+    {
+        "text": "Oh, that's where it was."
+    },
+    {
+        "text": "So that's the one that's missing it there."
+    },
+    {
+        "text": "So the expectation minus this thing is going to be equal to 0, which tells me that the expectation is just the derivative."
+    },
+    {
+        "text": "So it's still a function of theta, but it's just the derivative of b."
+    },
+    {
+        "text": "And the variance is just going to be the second derivative of b."
+    },
+    {
+        "text": "But remember, this was some sort of a scaling."
+    },
+    {
+        "text": "It's called the dispersion parameter."
+    },
+    {
+        "text": "So if I had a Gaussian, and the variance of the Gaussian did not depend on the sigma square, which I stuffed in this phi, that would be certainly weird."
+    },
+    {
+        "text": "And it cannot depend only on mu."
+    },
+    {
+        "text": "And so for the Gaussian, this is definitely going to be equal to 1."
+    },
+    {
+        "text": "And this is just going to be equal to my variance."
+    },
+    {
+        "text": "So this is just by taking the second derivative."
+    },
+    {
+        "text": "So basically, the take-home message is that this function b captures, by taking one derivative of the expectation and by taking two derivatives, captures the variance."
+    },
+    {
+        "text": "Another thing that's actually cool, and we'll come back to this and I want you to think about, is if this second derivative is the variance, what can I say about this thing?"
+    },
+    {
+        "text": "What do I know about a variance?"
+    },
+    {
+        "text": "Yeah, it's positive."
+    },
+    {
+        "text": "So I know that this is positive."
+    },
+    {
+        "text": "So what does that tell me?"
+    },
+    {
+        "text": "Positive?"
+    },
+    {
+        "text": "That's convex, right?"
+    },
+    {
+        "text": "A function that has positive second derivative is convex."
+    },
+    {
+        "text": "So we're going to use that as well."
+    },
+    {
+        "text": "So yeah, I'll see you on Thursday."
+    },
+    {
+        "text": "Have your homework."
+    }
+]

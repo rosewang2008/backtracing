@@ -1,0 +1,96 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What ' s the matter , Sally ? You look so unhappy .",
+        "emotion": "neutral",
+        "text": "What ' s the matter , Sally ? You look so unhappy .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I had a bad day yesterday .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I had a bad day yesterday ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I had a bad day yesterday .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What happened ?",
+        "emotion": "neutral",
+        "text": "What happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I went to the library and lost my bag .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I had a bad day yesterday .",
+            "I went to the library and lost my bag ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I went to the library and lost my bag .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Your bag ? Did you get it back ?",
+        "emotion": "neutral",
+        "text": "Your bag ? Did you get it back ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I went back for it . But it was already gone .",
+        "emotion": "neutral",
+        "text": "I went back for it . But it was already gone .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That ' s too bad . I ' m sorry to hear that .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I went to the library and lost my bag .",
+            "That ' s too bad . I ' m sorry to hear that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s too bad . I ' m sorry to hear that .",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

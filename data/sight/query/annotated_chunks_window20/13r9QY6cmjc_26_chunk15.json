@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 26,
+        "timestamp": 1684728060182.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In the computation of the Eigen values for A\u00b2, he used A = S\u028cS\u02c9\u00b9 to derive that \u028c\u00b2 represents its Eigen value matrix. However this can be true only if S is invertible for A\u00b2, which need not be always true.\n\nFor example, for the matrix below (say A), the Eigen values are 1, -1(refer previous lecture). This would imply that A\u00b2 has only one Eigen value of 1. This would imply that S has 2 columns which are same (if it has only one column then it is no longer square and hence inverse doesn't apply) and hence non invertible. This implies that this proof cannot be used for all the cases of the matrix A.\n\u00a0_\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 _\u00a0\n\u2502 0\u00a0 1 \u2502\n\u2502\u00a01 \u00a00 \u2502\n \u00af\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00af\nIs there something I'm missing here?"
+    }
+]

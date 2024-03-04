@@ -1,0 +1,62 @@
+[
+    {
+        "text": "A is similar- the two matrices are similar."
+    },
+    {
+        "text": "Similar."
+    },
+    {
+        "text": "And what do I mean by that?"
+    },
+    {
+        "text": "I mean that I take the matrix B and I can compute it from the matrix A using some similarity, some matrix M on one side and M inverse on the other."
+    },
+    {
+        "text": "And this M will be the change of basis matrix."
+    },
+    {
+        "text": "This part of the lecture is admittedly compressed."
+    },
+    {
+        "text": "What I wanted you to- it's really the conclusion that I want you to spot."
+    },
+    {
+        "text": "Now I have to go back and say, what does it mean for A to be the matrix of this transformation T?"
+    },
+    {
+        "text": "So I have to remind you what that meant."
+    },
+    {
+        "text": "That was in the last lecture."
+    },
+    {
+        "text": "Then this is the conclusion, that if I change to a different basis, we now know- see, if I change to a different basis, two things happen."
+    },
+    {
+        "text": "Every vector has new coordinates."
+    },
+    {
+        "text": "There, the rule is this one, between the old coordinates and the new ones."
+    },
+    {
+        "text": "Every matrix changes."
+    },
+    {
+        "text": "Every transformation has a new matrix."
+    },
+    {
+        "text": "And the new matrix is related this way."
+    },
+    {
+        "text": "The M could be the same as the W. The M there could be the W here."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So can I, in the remaining minutes, recapture my lecture, the end of my lecture that was just before Thanksgiving, about the matrix?"
+    },
+    {
+        "text": "OK. What's the matrix?"
+    }
+]

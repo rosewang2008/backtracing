@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But after class, to my sorrow, student tells me, wait a minute, that third vector three three eight is not independent."
+    },
+    {
+        "text": "And why did she say that?"
+    },
+    {
+        "text": "She didn't actually take the time, didn't have to, to find what combination of this one and this one gives three three eight."
+    },
+    {
+        "text": "She did something else."
+    },
+    {
+        "text": "In other words, she looked ahead because she said, wait a minute, if I look at that matrix, it's not invertible."
+    },
+    {
+        "text": "That third column can't be independent of the first two, because when I look at that matrix, it's got two identical rows."
+    },
+    {
+        "text": "I have a square matrix."
+    },
+    {
+        "text": "Its rows are obviously dependent."
+    },
+    {
+        "text": "And that makes the columns dependent."
+    },
+    {
+        "text": "So there's my error."
+    },
+    {
+        "text": "When I look at the matrix A that has those three columns, those three columns can't be independent because that matrix is not invertible because it's got two equal rows."
+    },
+    {
+        "text": "And today's lecture will reach the conclusion, the great conclusion, that connects the column space with the row space."
+    },
+    {
+        "text": "So those are the row space is now going to be another one of my fundamental subspaces."
+    },
+    {
+        "text": "The row space of this matrix or of this one, well, the row space of this one is okay."
+    },
+    {
+        "text": "But the row space of this one, I'm looking at the rows of the matrix, oh, anyway, I'll have two equal rows and the row space will be only two-dimensional."
+    },
+    {
+        "text": "The rank of the matrix with these columns will only be two, so only two of those columns can be independent too."
+    },
+    {
+        "text": "The rows tell me something about the columns, in other words."
+    },
+    {
+        "text": "Something that I should have noticed and I didn't."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So now let me pin down these four fundamental subspaces."
+    }
+]

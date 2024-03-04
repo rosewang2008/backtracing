@@ -1,0 +1,180 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Where is Pamela ?",
+        "emotion": "neutral",
+        "text": "Where is Pamela ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is she coming ?",
+        "emotion": "neutral",
+        "text": "Is she coming ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "She told me she'd be here .",
+        "emotion": "neutral",
+        "text": "She told me she'd be here .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "They are announcing your flight . You'd better board the plane .",
+        "emotion": "neutral",
+        "text": "They are announcing your flight . You'd better board the plane .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Are you rushing me ?",
+        "emotion": "neutral",
+        "text": "Are you rushing me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I am just reminding you about the time . You don't want to miss the plane , do you ?",
+        "emotion": "neutral",
+        "text": "I am just reminding you about the time . You don't want to miss the plane , do you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I know what I am doing . Don't worry . Can you do me a favor ?",
+        "emotion": "neutral",
+        "text": "I know what I am doing . Don't worry . Can you do me a favor ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Name it and I'll do it for you .",
+        "emotion": "neutral",
+        "text": "Name it and I'll do it for you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Take care of Pamela when I am away . She is a nice girl . I don't want her to get hurt or anything .",
+        "emotion": "neutral",
+        "text": "Take care of Pamela when I am away . She is a nice girl . I don't want her to get hurt or anything .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I've got it .",
+        "emotion": "neutral",
+        "text": "I've got it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you . Now I see that you are my true friend . Most of my so-called friends left me at the moment my company went bankrupt . You are the only one who has stood by me the whole time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I've got it .",
+            "you are my true friend .",
+            "You are the only one who has stood by me the whole time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . Now I see that you are my true friend . Most of my so-called friends left me at the moment my company went bankrupt . You are the only one who has stood by me the whole time .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I am just doing what I think I should do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "you are my true friend .",
+            "You are the only one who has stood by me the whole time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am just doing what I think I should do .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you for being a friend of mine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "I've got it .",
+            "you are my true friend .",
+            "You are the only one who has stood by me the whole time .",
+            "Thank you for being a friend"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thank you for being a friend of mine .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "This isn't like you ... Well , I hope you will have a nice flight and a successful start in business",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Thank you for being a friend of mine .",
+            "I hope you will have a nice flight and a successful start in business"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "This isn't like you ... Well , I hope you will have a nice flight and a successful start in business",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thank you . I have to leave now . If you see Pamela , tell her I'll write to her .",
+        "emotion": "neutral",
+        "text": "Thank you . I have to leave now . If you see Pamela , tell her I'll write to her .",
+        "id": 15
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Sometimes we're going to want to know if this parameter is larger or smaller than something or if it's equal to something or not equal to something."
+    },
+    {
+        "text": "And those things are also important, for example, if theta actually measures the true."
+    },
+    {
+        "text": "So theta is a true unknown parameter, true efficacy of a drug."
+    },
+    {
+        "text": "Let's say I want to know what the true efficacy of a drug is."
+    },
+    {
+        "text": "And what I'm going to want to know is maybe it's a score."
+    },
+    {
+        "text": "Maybe I'm going to want to know if theta is larger than 2."
+    },
+    {
+        "text": "Maybe I want to know if theta is the average number of siblings."
+    },
+    {
+        "text": "Is this true number larger than 2 or not?"
+    },
+    {
+        "text": "Maybe I'm interested in knowing if college students come from a sociological perspective."
+    },
+    {
+        "text": "I'm interested in knowing if college students come from a household with more than two children."
+    },
+    {
+        "text": "So those can be the questions that I may ask myself."
+    },
+    {
+        "text": "I'm going to want to know maybe if theta is going to be equal to 1 half or not."
+    },
+    {
+        "text": "So maybe for drug efficacy, is it completely standard?"
+    },
+    {
+        "text": "Maybe for elections, is the proportion of the population that is going to vote for this particular candidate equal to 0.5 or is it different from 0.5?"
+    },
+    {
+        "text": "And I can think of different things."
+    },
+    {
+        "text": "When I'm talking about the regression, I'm going to want to test if this coefficient is actually 0 or not."
+    },
+    {
+        "text": "Because if it's 0, it means that the variable that's in front of it actually goes out."
+    },
+    {
+        "text": "And so those are things we're testing."
+    },
+    {
+        "text": "Actually, having this very specific yes, no answer is going to give me a huge intuition or a huge understanding of what's going on in the phenomenon that I observe."
+    },
+    {
+        "text": "But actually, since the questions are so precise, I'm going to be much better at answering them rather than giving you an estimate for theta with some confidence around it."
+    }
+]

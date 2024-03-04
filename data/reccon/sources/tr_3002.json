@@ -1,0 +1,115 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Bob , put on your shoes , your feet are really smelly .",
+        "emotion": "neutral",
+        "text": "Bob , put on your shoes , your feet are really smelly .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No foot gives out scent .",
+        "emotion": "neutral",
+        "text": "No foot gives out scent .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "But don't forget you are in a cafe .",
+        "emotion": "neutral",
+        "text": "But don't forget you are in a cafe .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Never mind , the odour of my feet will quicken their eating speed .",
+        "emotion": "neutral",
+        "text": "Never mind , the odour of my feet will quicken their eating speed .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I simply can't bear your barbaric behavior .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "the odour of my feet will quicken their eating speed .",
+            "can't bear your barbaric behavior ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I simply can't bear your barbaric behavior .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Don ' t pretend you are a good God .",
+        "emotion": "neutral",
+        "text": "Don ' t pretend you are a good God .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You should feel shameful for your behavior .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Don ' t pretend you are a good God .",
+            "You should feel shameful for your behavior ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You should feel shameful for your behavior .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I've never experienced such a kind of feeling .",
+        "emotion": "neutral",
+        "text": "I've never experienced such a kind of feeling .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm really sick of you .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I've never experienced such a kind of feeling .",
+            "I'm really sick of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm really sick of you .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

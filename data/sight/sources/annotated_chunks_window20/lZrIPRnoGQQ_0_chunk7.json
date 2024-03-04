@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is where the chain rule gets sort of a little chainy, a little."
+    },
+    {
+        "text": "OK, then we know that df2, df1."
+    },
+    {
+        "text": "And again, that's now evaluated at F1 of x."
+    },
+    {
+        "text": "And then the final factor is df1, dx, evaluated at x."
+    },
+    {
+        "text": "That's somehow what we have to do."
+    },
+    {
+        "text": "And that's just for an ordinary one variable function."
+    },
+    {
+        "text": "And I have here a two variable function."
+    },
+    {
+        "text": "And deep learning has a million variable function."
+    },
+    {
+        "text": "So let's, I think we won't go to a million, but two we could manage."
+    },
+    {
+        "text": "So let's compute those."
+    },
+    {
+        "text": "Let's compute the function, first of all."
+    },
+    {
+        "text": "Compute F. So I'm given x equals, say, 2, and y equals, say, 3."
+    },
+    {
+        "text": "And I'm going to create a computational graph."
+    },
+    {
+        "text": "So this is to draw."
+    },
+    {
+        "text": "So I'm actually going to draw the computational graph to compute for F. And then it'll be a variation of that graph to find the derivatives."
+    },
+    {
+        "text": "So let's just start with the graph, first of all, for the function, because we're going to need that."
+    },
+    {
+        "text": "So again, it's x cubed plus."
+    },
+    {
+        "text": "So can I write that function again?"
+    },
+    {
+        "text": "x cubed times x plus 2y."
+    },
+    {
+        "text": "So I think we're going to, the first step will be to find x plus x cubed, that factor, which will be 8."
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you have anything to do after this ?",
+        "emotion": "neutral",
+        "text": "Do you have anything to do after this ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , I don't .",
+        "emotion": "neutral",
+        "text": "No , I don't .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Shall we drop in somewhere for a couple of drinks ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Do you have anything to do after this ?",
+            "No , I don't ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Shall we drop in somewhere for a couple of drinks ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds like a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "drop in somewhere for a couple of drinks ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a good idea .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I know a very interesting place .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "good idea ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I know a very interesting place .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , do you ? Good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I know a very interesting place ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , do you ? Good .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

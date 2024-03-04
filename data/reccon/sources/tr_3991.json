@@ -1,0 +1,182 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It's time to leave the office for the night . Firstly I log off my computer , then I set the electronic security system .",
+        "emotion": "neutral",
+        "text": "It's time to leave the office for the night . Firstly I log off my computer , then I set the electronic security system .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That's pretty advanced .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Firstly I log off my computer , then I set the electronic security system .",
+            "That's pretty advanced ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's pretty advanced .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Now I'll quickly send a short message to my wife and take the elevator down to the basement .",
+        "emotion": "neutral",
+        "text": "Now I'll quickly send a short message to my wife and take the elevator down to the basement .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Is that where you park ?",
+        "emotion": "neutral",
+        "text": "Is that where you park ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , the car park is under constant video surveillance , so my car is quite safe . Please get in .",
+        "emotion": "neutral",
+        "text": "Yes , the car park is under constant video surveillance , so my car is quite safe . Please get in .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you . Where is your key ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "my car is quite safe . Please get in ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Where is your key ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "There's no need , I have keyless entry , and the steering wheel recognizes my finger prints before starting the car . Now , we can look at the navigation system to find the best route home .",
+        "emotion": "neutral",
+        "text": "There's no need , I have keyless entry , and the steering wheel recognizes my finger prints before starting the car . Now , we can look at the navigation system to find the best route home .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's amazing , it even shows all the roads that are congested at the moment .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "we can look at the navigation system to find the best route home .",
+            "it even shows all the roads that are congested at the moment ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's amazing , it even shows all the roads that are congested at the moment .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Using GPS I can rely on this to direct me home . Now I just need to find my E-Card to automatically open the gate and we can drive out .",
+        "emotion": "neutral",
+        "text": "Using GPS I can rely on this to direct me home . Now I just need to find my E-Card to automatically open the gate and we can drive out .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Pretty soon cars will be driving themselves .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Pretty soon cars will be driving themselves ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Pretty soon cars will be driving themselves .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Maybe , but in the meantime why not help me find the remote control for my garage door ?",
+        "emotion": "neutral",
+        "text": "Maybe , but in the meantime why not help me find the remote control for my garage door ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here it is , and here we are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "help me find the remote control for my garage door ?",
+            "Here it is , and here we are ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here it is , and here we are .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "When I turn off my home alarm , the house will automatically tum on the lights and set the climate to a comfortable level .",
+        "emotion": "neutral",
+        "text": "When I turn off my home alarm , the house will automatically tum on the lights and set the climate to a comfortable level .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I have to get home , but I don't need all of this fancy technology , I think I'll just walk .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I don't need all of this fancy technology , I think I'll just walk ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have to get home , but I don't need all of this fancy technology , I think I'll just walk .",
+        "id": 14
+    }
+]

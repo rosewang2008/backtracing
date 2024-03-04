@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 5,
+        "timestamp": 1684723528088.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "So, the second component of u(k+1) is useless, right? The actual value is given by the first component."
+    }
+]

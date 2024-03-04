@@ -1,0 +1,157 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I think that you look very cute today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you look very cute"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think that you look very cute today .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is that right ? This is a brand new outfit .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "you look very cute today .",
+            "This is a brand new"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Is that right ? This is a brand new outfit .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What store did you get it from ?",
+        "emotion": "neutral",
+        "text": "What store did you get it from ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I went to Macy's and picked it out .",
+        "emotion": "neutral",
+        "text": "I went to Macy's and picked it out .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I love your outfit right now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "you look very cute",
+            "I love your outfit"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I love your outfit right now .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , I think you look nice today too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I love your outfit",
+            "you look nice today too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I think you look nice today too .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks . I found these new shoes earlier at the store .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you look nice today too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I found these new shoes earlier at the store .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I think that those are some really nice shoes . What kind are they ?",
+        "emotion": "neutral",
+        "text": "I think that those are some really nice shoes . What kind are they ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "These are Chucks .",
+        "emotion": "neutral",
+        "text": "These are Chucks .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Your shoes look really nice . How much did you get them for ?",
+        "emotion": "neutral",
+        "text": "Your shoes look really nice . How much did you get them for ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "They only cost me about forty dollars .",
+        "emotion": "neutral",
+        "text": "They only cost me about forty dollars .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm going to go get a pair for myself .",
+        "emotion": "neutral",
+        "text": "I'm going to go get a pair for myself .",
+        "id": 12
+    }
+]

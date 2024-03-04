@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Steven , would you like to go dance with us tonight ?",
+        "emotion": "neutral",
+        "text": "Steven , would you like to go dance with us tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "John , I am just not in the mood for this .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "not in the mood for this ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "John , I am just not in the mood for this .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You look so upset . What's going on ?",
+        "emotion": "neutral",
+        "text": "You look so upset . What's going on ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I lost the table tennis game yesterday .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I lost the table tennis game yesterday ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I lost the table tennis game yesterday .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , what a pity !",
+        "emotion": "neutral",
+        "text": "Oh , what a pity !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I just don ' t want to play table tennis any more .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I lost the table tennis game yesterday .",
+            "I just don ' t want to play table tennis any more ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I just don ' t want to play table tennis any more .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Is it that bad ? It ' s nothing more than a game .",
+        "emotion": "neutral",
+        "text": "Is it that bad ? It ' s nothing more than a game .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "My opponent bowled me with the very first ball . I was wondering if it's appropriate for me to play table tennis .",
+        "emotion": "sadness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I lost the table tennis game yesterday ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "My opponent bowled me with the very first ball . I was wondering if it's appropriate for me to play table tennis .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , come on ! Failure is the mother of success . Don ' t lose heart . I'm sure you'll succeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'm sure you'll succeed ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , come on ! Failure is the mother of success . Don ' t lose heart . I'm sure you'll succeed .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Perhaps you are right . But I still need some time to recover from the failure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I'm sure you'll succeed .",
+            "Perhaps you are right ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Perhaps you are right . But I still need some time to recover from the failure .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I understand .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'm sure you'll succeed ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I understand .",
+        "id": 11
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know , now that I think about it , I really don't have much more to say to you at all !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've already told my buddy , Mark , that I am going hunting with him in Alaska .",
+            "Says who ? I don't think that is necessarily the case ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You know , now that I think about it , I really don't have much more to say to you at all !",
+        "id": 7,
+        "source_sentences": [
+            1,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

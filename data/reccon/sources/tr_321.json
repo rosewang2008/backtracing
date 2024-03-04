@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "are you working overtime again ? Over the last two weeks , you have worked overtime every day without a break ! Your company is draining the life out of you !",
+        "emotion": "neutral",
+        "text": "are you working overtime again ? Over the last two weeks , you have worked overtime every day without a break ! Your company is draining the life out of you !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I know , but I don't have a choice , my boss has complete control over our work schedules . I haven't made it out of the office before 9 PM a single day this week .",
+        "emotion": "neutral",
+        "text": "I know , but I don't have a choice , my boss has complete control over our work schedules . I haven't made it out of the office before 9 PM a single day this week .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , I hope they're paying you the big bucks for all this work ...",
+        "emotion": "neutral",
+        "text": "Well , I hope they're paying you the big bucks for all this work ...",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , not exactly , I'm working for minimum wage . And they don't give extra pay for overtime . Overtime is our own time .",
+        "emotion": "neutral",
+        "text": "No , not exactly , I'm working for minimum wage . And they don't give extra pay for overtime . Overtime is our own time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What ? ! Isn't there a law against that , I think there is some legislation that requires employers to give their employees a fair rate of wages . You should know your rights ! If you are putting in so many hours , they should give you some kind of compensation .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "they don't give extra pay for overtime . Overtime is our own time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? ! Isn't there a law against that , I think there is some legislation that requires employers to give their employees a fair rate of wages . You should know your rights ! If you are putting in so many hours , they should give you some kind of compensation .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "They do give bonuses at the end of the year for the employees with highest productivity numbers , but frankly , it's not much of an incentive . They give us a bonus of ten dollars .",
+        "emotion": "neutral",
+        "text": "They do give bonuses at the end of the year for the employees with highest productivity numbers , but frankly , it's not much of an incentive . They give us a bonus of ten dollars .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's just wrong ! why don't you just quit ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "but frankly , it's not much of an incentive . They give us a bonus of ten dollars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's just wrong ! why don't you just quit ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I would , but I'm afraid I would't be able to find another job . I don't have very many job marketable skills , there aren't so many jobs that I'm qualified for .",
+        "emotion": "neutral",
+        "text": "I would , but I'm afraid I would't be able to find another job . I don't have very many job marketable skills , there aren't so many jobs that I'm qualified for .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "it sounds like any job will be better than the one you have now !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "but frankly , it's not much of an incentive . They give us a bonus of ten dollars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "it sounds like any job will be better than the one you have now !",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

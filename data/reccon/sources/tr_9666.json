@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh , hey , Keri ! You cook , right ! You're a pretty good cook .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You're a pretty good cook ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , hey , Keri ! You cook , right ! You're a pretty good cook .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm OK .",
+        "emotion": "neutral",
+        "text": "I'm OK .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I want to make an omelet , so actually this is really silly , I've never made one before . How do you make an omelet ?",
+        "emotion": "neutral",
+        "text": "I want to make an omelet , so actually this is really silly , I've never made one before . How do you make an omelet ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I can teach you how I make them , which is the same way my father and grandmother make them , which is a little special .",
+        "emotion": "neutral",
+        "text": "Well , I can teach you how I make them , which is the same way my father and grandmother make them , which is a little special .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK . Yeah ! Yeah !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I want to make an omelet",
+            "I've never made one before . How do you make an omelet ?",
+            "I can teach you how I make them , which is the same way my father and grandmother make them , which is a little special ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "OK . Yeah ! Yeah !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "First you take some eggs and crack them in a bowl , and whisk them up , quite , so they're quite high and fluffy , and in a hot pan , and you need a pan that's that's kind of small , that the sides go up at an angle . You put some oil and heat it up , so it's quite hot , and then you take your whipped up eggs , or whisked up eggs , and pour them into the pan , and as it's cooking , if you take a spatula , and push the bottom layer of the egg , to the side , to the sides , and then to the middle , so the uncooked egg gets to the bottom of the pan .",
+        "emotion": "neutral",
+        "text": "First you take some eggs and crack them in a bowl , and whisk them up , quite , so they're quite high and fluffy , and in a hot pan , and you need a pan that's that's kind of small , that the sides go up at an angle . You put some oil and heat it up , so it's quite hot , and then you take your whipped up eggs , or whisked up eggs , and pour them into the pan , and as it's cooking , if you take a spatula , and push the bottom layer of the egg , to the side , to the sides , and then to the middle , so the uncooked egg gets to the bottom of the pan .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , OK . Wow !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "First you take some eggs and crack them in a bowl , and whisk them up , quite , so they're quite high and fluffy , and in a hot pan , and you need a pan that's that's kind of small , that the sides go up at an angle . You put some oil and heat it up , so it's quite hot , and then you take your whipped up eggs , or whisked up eggs , and pour them into the pan , and as it's cooking , if you take a spatula , and push the bottom layer of the egg , to the side , to the sides , and then to the middle , so the uncooked egg gets to the bottom of the pan ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , OK . Wow !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK . And keep doing that until most of the egg is cooked so you should have a nice thick omelet and then flip it over , you'll only have to cook that side lightly . Put your fillings on the top and fold it over and let it sit just long enough to melt the cheese .",
+        "emotion": "neutral",
+        "text": "OK . And keep doing that until most of the egg is cooked so you should have a nice thick omelet and then flip it over , you'll only have to cook that side lightly . Put your fillings on the top and fold it over and let it sit just long enough to melt the cheese .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Wow . That sounds really good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "keep doing that until most of the egg is cooked so you should have a nice thick omelet and then flip it over , you'll only have to cook that side lightly . Put your fillings on the top and fold it over and let it sit just long enough to melt the cheese .",
+            "sounds really good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow . That sounds really good .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

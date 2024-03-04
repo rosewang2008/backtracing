@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I have an idea for Christmas this year .",
+        "emotion": "neutral",
+        "text": "I have an idea for Christmas this year .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What is it ?",
+        "emotion": "neutral",
+        "text": "What is it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Let's not exchange any gifts at all .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Let's not exchange any gifts at all ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's not exchange any gifts at all .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You big scrooge !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Let's not exchange any gifts at all ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You big scrooge !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hear me out . We can pool the money and give it to a family who could really use it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can pool the money and give it to a family who could really use it !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hear me out . We can pool the money and give it to a family who could really use it !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "But you may have some trouble convincing the kids .",
+        "emotion": "neutral",
+        "text": "But you may have some trouble convincing the kids .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Actual 1y , it was their idea first .",
+        "emotion": "neutral",
+        "text": "Actual 1y , it was their idea first .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Now we know that they realize the real meaning of Christmas .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can pool the money and give it to a family who could really use it !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now we know that they realize the real meaning of Christmas .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

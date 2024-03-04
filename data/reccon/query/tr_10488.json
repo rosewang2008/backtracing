@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Mine are the same way . It seems like they've been overcooked .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "vegetables are very soggy .",
+            "Mine are the same way .",
+            "they've been overcooked ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Mine are the same way . It seems like they've been overcooked .",
+        "id": 8,
+        "source_sentences": [
+            6,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

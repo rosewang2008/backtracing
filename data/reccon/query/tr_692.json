@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . It ' s easy and convenient to use a computer . But it takes a long time to really master it .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            6
+        ],
+        "expanded emotion cause span": [
+            "bought a new computer .",
+            "It ' s easy and convenient to use a computer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . It ' s easy and convenient to use a computer . But it takes a long time to really master it .",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

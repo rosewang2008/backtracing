@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning , sir . Can I see your boarding pass , please ?",
+        "emotion": "neutral",
+        "text": "Good morning , sir . Can I see your boarding pass , please ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Here you are .",
+        "emotion": "neutral",
+        "text": "Here you are .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Excuse me , sir . This is your passport .",
+        "emotion": "neutral",
+        "text": "Excuse me , sir . This is your passport .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? Ugh ... Is there any difference ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "This is your passport .",
+            "Is there any difference ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? Ugh ... Is there any difference ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . As a matter of fact , you can't board the plane without boarding pass .",
+        "emotion": "neutral",
+        "text": "Yes . As a matter of fact , you can't board the plane without boarding pass .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Gee . I must have left it in my hotel room .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "you can't board the plane"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Gee . I must have left it in my hotel room .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm sorry sir . I can't let you pass .",
+        "emotion": "neutral",
+        "text": "I'm sorry sir . I can't let you pass .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But when does the plane take off ?",
+        "emotion": "neutral",
+        "text": "But when does the plane take off ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ugh , in about thirty minutes , sir .",
+        "emotion": "neutral",
+        "text": "Ugh , in about thirty minutes , sir .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , my God ! What do I do now ? Bone head , bone head , bone head ( He smashes his head with his hand . ) .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I must have left it in my hotel room .",
+            "I can't let you pass .",
+            "when does the plane take off ?",
+            "in about thirty minutes ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh , my God ! What do I do now ? Bone head , bone head , bone head ( He smashes his head with his hand . ) .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Calm down , sir . You are creating a commotion .",
+        "emotion": "neutral",
+        "text": "Calm down , sir . You are creating a commotion .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "( The speaker in the airport says , ' Mr . Benjamin , we now have a boarding pass by the name of Benjamin at Lost and Found . ' ) Is that me ?",
+        "emotion": "neutral",
+        "text": "( The speaker in the airport says , ' Mr . Benjamin , we now have a boarding pass by the name of Benjamin at Lost and Found . ' ) Is that me ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Could be .",
+        "emotion": "neutral",
+        "text": "Could be .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , thank God . Thank you , I'll be right back .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "we now have a boarding pass by the name of Benjamin"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Oh , thank God . Thank you , I'll be right back .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "( Benjamin starts to run and then he seems to remember something and returns . ) Ugh , excuse me , where is the Lost and Found ?",
+        "emotion": "neutral",
+        "text": "( Benjamin starts to run and then he seems to remember something and returns . ) Ugh , excuse me , where is the Lost and Found ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "It's down in the lobby . Turn left at exit B .",
+        "emotion": "neutral",
+        "text": "It's down in the lobby . Turn left at exit B .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Thank you , thank you , thanks again .",
+        "emotion": "happiness",
+        "explanation": "Speaker gets answer to his query",
+        "expanded emotion cause evidence": [
+            12,
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "we now have a boarding pass by the name of Benjamin",
+            "where is the Lost and Found ?",
+            "It's down in the lobby ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you , thank you , thanks again .",
+        "id": 17
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "we really were lucky . We got the last available table for two---and we didn't even have a reservation ! Did you see the long lines behind us ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "we really were lucky . We got the last available table for two---and we didn't even have a reservation !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "we really were lucky . We got the last available table for two---and we didn't even have a reservation ! Did you see the long lines behind us ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "yeah , I'm glad that we didn't have to wait long . I'm starving !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "we really were lucky . We got the last available table for two---and we didn't even have a reservation !",
+            "I'm glad that we didn't have to wait long . I'm starving !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "yeah , I'm glad that we didn't have to wait long . I'm starving !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "let's take a look at the menu so we can order . Do you want to choose an appetizer for us to share ?",
+        "emotion": "neutral",
+        "text": "let's take a look at the menu so we can order . Do you want to choose an appetizer for us to share ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "what would you rather have , samosas or poppadoms ?",
+        "emotion": "neutral",
+        "text": "what would you rather have , samosas or poppadoms ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I heard that one of their specialities is the samosa .",
+        "emotion": "neutral",
+        "text": "I heard that one of their specialities is the samosa .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "well , let's get a plate of those then .",
+        "emotion": "neutral",
+        "text": "well , let's get a plate of those then .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "sounds good . What are you going to have for your main course ?",
+        "emotion": "neutral",
+        "text": "sounds good . What are you going to have for your main course ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I think I might have a dahl .",
+        "emotion": "neutral",
+        "text": "I think I might have a dahl .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "what's in a dahl ?",
+        "emotion": "neutral",
+        "text": "what's in a dahl ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "it's got chickpeas and vegetables in a spicy curry sauce with rice .",
+        "emotion": "neutral",
+        "text": "it's got chickpeas and vegetables in a spicy curry sauce with rice .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "that sounds nice . Do you want to share some kebabs as well ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Do you want to share some kebabs as well ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "that sounds nice . Do you want to share some kebabs as well ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "ok . How about some lamb kebabs ?",
+        "emotion": "neutral",
+        "text": "ok . How about some lamb kebabs ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "that's my favourite . Do you want to have some wine or beer ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "ok . How about some lamb kebabs ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that's my favourite . Do you want to have some wine or beer ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I think I'll have a beer .",
+        "emotion": "neutral",
+        "text": "I think I'll have a beer .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "ok , shall I flag down the waitress ?",
+        "emotion": "neutral",
+        "text": "ok , shall I flag down the waitress ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I wouldn't recommend it . I think we should wait until she comes round .",
+        "emotion": "neutral",
+        "text": "I wouldn't recommend it . I think we should wait until she comes round .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "you're right . That might seem a bit rude . It's a good thing I've got you with me !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I think we should wait until she comes round .",
+            "It's a good thing I've got you with me !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "you're right . That might seem a bit rude . It's a good thing I've got you with me !",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "what would you do without me ?",
+        "emotion": "neutral",
+        "text": "what would you do without me ?",
+        "id": 18
+    }
+]

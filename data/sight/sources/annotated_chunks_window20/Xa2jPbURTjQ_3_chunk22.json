@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Perfect."
+    },
+    {
+        "text": "1 minus 1, and then all 0's."
+    },
+    {
+        "text": "And then the next three columns will have the 1 minus 1 here, and the 1 minus 1 here, and the 1 minus 1 here."
+    },
+    {
+        "text": "And otherwise, all 0's."
+    },
+    {
+        "text": "So you see the pattern."
+    },
+    {
+        "text": "It's scaling at every step."
+    },
+    {
+        "text": "So that matrix has the advantage of being quite sparse."
+    },
+    {
+        "text": "This, in my mind, is a 4, 1's."
+    },
+    {
+        "text": "That's involved with taking the average."
+    },
+    {
+        "text": "Then this guy is like taking the differences, differences between those and those."
+    },
+    {
+        "text": "And then this is like taking the difference at a smaller scale, and that also at a smaller scale."
+    },
+    {
+        "text": "So that's what we keep doing."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So that's wavelets."
+    },
+    {
+        "text": "It looks so simple, right?"
+    },
+    {
+        "text": "But just a one-minute history of wavelets, so Haar invented this in like 1910."
+    },
+    {
+        "text": "I mean, along, forever."
+    },
+    {
+        "text": "But then you wanted wavelets that were a little better, and not just 1's and minus 1's and 0's."
+    },
+    {
+        "text": "And that took a lot of thinking."
+    }
+]

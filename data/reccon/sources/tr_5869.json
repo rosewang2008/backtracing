@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "have you bought a present for jim ' s birthday yet ?",
+        "emotion": "neutral",
+        "text": "have you bought a present for jim ' s birthday yet ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "no , I haven ' t . I can ' t think of anything to get him .",
+        "emotion": "neutral",
+        "text": "no , I haven ' t . I can ' t think of anything to get him .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m having the same problem . I want to get something really special . Jim always seem to know exactly what to get people as gifts .",
+        "emotion": "neutral",
+        "text": "I ' m having the same problem . I want to get something really special . Jim always seem to know exactly what to get people as gifts .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I know . He bought me that beautiful sweater for my birthday . It was exactly what I wanted . And it fit me perfectly !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Jim always seem to know exactly what to get people as gifts .",
+            "He bought me that beautiful sweater for my birthday . It was exactly what I wanted . And it fit me perfectly !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I know . He bought me that beautiful sweater for my birthday . It was exactly what I wanted . And it fit me perfectly !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "he bought me an iron .",
+        "emotion": "neutral",
+        "text": "he bought me an iron .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "that doesn ' t sound like a great present .",
+        "emotion": "neutral",
+        "text": "that doesn ' t sound like a great present .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "maybe not , but my iron was getting old . In fact , it stopped working the week after jim bought me the new one . It ' s as if he knew that my old iron would soon stop working !",
+        "emotion": "neutral",
+        "text": "maybe not , but my iron was getting old . In fact , it stopped working the week after jim bought me the new one . It ' s as if he knew that my old iron would soon stop working !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "let ' s think . He loves football , doesn ' t he ? I saw signed photographs of famous footballers in a shop near hear . Let ' s go and have a look . You know which team he supports , don ' t you ?",
+        "emotion": "neutral",
+        "text": "let ' s think . He loves football , doesn ' t he ? I saw signed photographs of famous footballers in a shop near hear . Let ' s go and have a look . You know which team he supports , don ' t you ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "yes , I do . Let ' s go . We should be able to find something suitable . We should get him something old ... something historic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You know which team he supports",
+            "yes , I do ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "yes , I do . Let ' s go . We should be able to find something suitable . We should get him something old ... something historic .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "it ' ll be an expensive present , but we can share the cost .",
+        "emotion": "neutral",
+        "text": "it ' ll be an expensive present , but we can share the cost .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I ' ll be happy to get him something special , even if it coasts a little extra .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I ' ll be happy to get him something special"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' ll be happy to get him something special , even if it coasts a little extra .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "yes . He always get us special gift . We should repay his kindness .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "yes . He always get us special gift . We should repay his kindness ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "yes . He always get us special gift . We should repay his kindness .",
+        "id": 12
+    }
+]

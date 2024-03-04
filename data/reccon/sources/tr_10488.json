@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey George , how is your chicken ?",
+        "emotion": "neutral",
+        "text": "Hey George , how is your chicken ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My chicken tastes all right , but it is pretty dry . How is your fish ?",
+        "emotion": "neutral",
+        "text": "My chicken tastes all right , but it is pretty dry . How is your fish ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "My fish is pretty dry too .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "fish is pretty dry"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My fish is pretty dry too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's almost as if this food has been sitting a little too long . It doesn't seem fresh .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "fish is pretty dry",
+            "It doesn't seem fresh ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's almost as if this food has been sitting a little too long . It doesn't seem fresh .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , it seems that way to me also .",
+        "emotion": "neutral",
+        "text": "Yes , it seems that way to me also .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How are your vegetables ?",
+        "emotion": "neutral",
+        "text": "How are your vegetables ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "My vegetables are very soggy .",
+        "emotion": "neutral",
+        "text": "My vegetables are very soggy .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Mine are the same way . It seems like they've been overcooked .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "vegetables are very soggy .",
+            "Mine are the same way .",
+            "they've been overcooked ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Mine are the same way . It seems like they've been overcooked .",
+        "id": 8,
+        "source_sentences": [
+            6,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't usually complain , but I think that we should mention this to the waiter .",
+        "emotion": "neutral",
+        "text": "I don't usually complain , but I think that we should mention this to the waiter .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I agree . Maybe they can bring us some better food .",
+        "emotion": "neutral",
+        "text": "I agree . Maybe they can bring us some better food .",
+        "id": 10
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wow , you ' Ve inspired me to do something !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic",
+            "That ' s not a big problem . There are many small schools for adults like you who can study to be certified .",
+            "you can easily get a student loan"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , you ' Ve inspired me to do something !",
+        "id": 6,
+        "source_sentences": [
+            0,
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

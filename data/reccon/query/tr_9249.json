@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "it ' s too bad I did all that shopping yesterday !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "it ' s on sale . If you spend more than $ 100 , you get a $ 50 voucher for more clothes .",
+            "I did all that shopping yesterday !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "it ' s too bad I did all that shopping yesterday !",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

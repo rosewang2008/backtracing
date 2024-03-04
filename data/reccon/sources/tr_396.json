@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you like your job here , Linda ?",
+        "emotion": "neutral",
+        "text": "How do you like your job here , Linda ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's interesting , I like being an editor .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's interesting , I like being an editor ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's interesting , I like being an editor .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like talking to writers , I get to meet a lot of interesting people .",
+        "emotion": "happiness",
+        "explanation": "happily sharing his experience",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I like talking to writers , I get to meet a lot of interesting people ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like talking to writers , I get to meet a lot of interesting people .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm happy to hear that , but publishing is more than just talking to writers . it involves a lot of work , patience and responsibility . Most of the work is boring .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's interesting , I like being an editor .",
+            "I like talking to writers , I get to meet a lot of interesting people ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm happy to hear that , but publishing is more than just talking to writers . it involves a lot of work , patience and responsibility . Most of the work is boring .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't feel bored at all . I'm getting along with my colleagues . I will enjoy working with them . People are great in this industry .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's interesting , I like being an editor .",
+            "I like talking to writers , I get to meet a lot of interesting people .",
+            "I don't feel bored at all . I'm getting along with my colleagues . I will enjoy working with them . People are great in this industry ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't feel bored at all . I'm getting along with my colleagues . I will enjoy working with them . People are great in this industry .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Do you have any complaints ?",
+        "emotion": "neutral",
+        "text": "Do you have any complaints ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , I have no complaints . I hear there are many opportunities to move up in this company . is that true ?",
+        "emotion": "neutral",
+        "text": "No , I have no complaints . I hear there are many opportunities to move up in this company . is that true ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , you have many opportunities to grow in this company as long as you do well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you have many opportunities to grow in this company as long as you do well ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , you have many opportunities to grow in this company as long as you do well .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's perfect . I will definitely do well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you have many opportunities to grow in this company as long as you do well ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's perfect . I will definitely do well .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

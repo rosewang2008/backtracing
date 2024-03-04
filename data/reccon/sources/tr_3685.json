@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Jenny , are you having fun here ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Jenny , are you having fun here ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , of course . This is really a nice party with wonderful people and lovely wines .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "This is really a nice party with wonderful people and lovely wines ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , of course . This is really a nice party with wonderful people and lovely wines .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m glad you ' re enjoying it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "This is really a nice party with wonderful people and lovely wines .",
+            "you ' re enjoying it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m glad you ' re enjoying it .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you for the invitation .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Thank you for the invitation ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you for the invitation .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It ' s my pleasure . Would you like another glass of champagne ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , of course . This is really a nice party with wonderful people and lovely wines .",
+            "Thank you for the invitation ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It ' s my pleasure . Would you like another glass of champagne ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , please . Thank you for everything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like another glass of champagne ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , please . Thank you for everything .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, this guy is my bias, right?"
+    },
+    {
+        "text": "So now let me expand the square."
+    },
+    {
+        "text": "So what I get is the expectation of the square of theta hat minus its expectation."
+    },
+    {
+        "text": "I should put some square bracket."
+    },
+    {
+        "text": "Plus 2 times the cross product."
+    },
+    {
+        "text": "So the cross product is what?"
+    },
+    {
+        "text": "Expectation of theta hat minus expectation of theta hat times expectation of theta hat minus theta."
+    },
+    {
+        "text": "And then I have the last square, expectation of theta hat minus theta squared."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So square, cross product, square."
+    },
+    {
+        "text": "Everybody with me?"
+    },
+    {
+        "text": "Now, this guy here, if you pay attention, this thing is the expectation of some random variable, so it's a deterministic number."
+    },
+    {
+        "text": "Theta is the true parameter."
+    },
+    {
+        "text": "It's a deterministic number."
+    },
+    {
+        "text": "So what I can do is pull out this entire thing out of the expectation like this."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "And compute the expectation only with respect to that part."
+    },
+    {
+        "text": "But what is the expectation of this thing?"
+    },
+    {
+        "text": "It's 0, right?"
+    },
+    {
+        "text": "The expectation of theta hat minus expectation of theta hat is 0."
+    }
+]

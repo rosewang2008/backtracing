@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Very good . Now , if you will accompany me , we can take your measurements and choose the patterns for your suit and shirts .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I need a new suit",
+            "Sure . I ' ll also take some silver cuff link and a pair of silk ties ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Very good . Now , if you will accompany me , we can take your measurements and choose the patterns for your suit and shirts .",
+        "id": 7,
+        "source_sentences": [
+            1,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

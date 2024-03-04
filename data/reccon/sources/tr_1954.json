@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "... Now that we have been over the gory details of our disastrous first quarter , Ed ! Give us some good news . How are things looking for us in terms sales this month ?",
+        "emotion": "neutral",
+        "text": "... Now that we have been over the gory details of our disastrous first quarter , Ed ! Give us some good news . How are things looking for us in terms sales this month ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Uh well ... would you like the bad news first or the really bad news ?",
+        "emotion": "neutral",
+        "text": "Uh well ... would you like the bad news first or the really bad news ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What ? Ed , don ' t tell me you only have bad news !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "would you like the bad news first or the really bad news ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Ed , don ' t tell me you only have bad news !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "emotion": "neutral",
+        "text": "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "For crying out loud ... How fast are we losing money ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "How fast are we losing money ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "For crying out loud ... How fast are we losing money ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "emotion": "neutral",
+        "text": "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "at this pace , we will be filing for Chapter eleven in less than three months ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "emotion": "neutral",
+        "text": "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+        "emotion": "neutral",
+        "text": "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "We ' re doomed !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "The factory has gone under and the owner apparently has fled the country ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We ' re doomed !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "There is some really good news though !",
+        "emotion": "neutral",
+        "text": "There is some really good news though !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Really ? What !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "There is some really good news though !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I got offered a new job !",
+        "emotion": "neutral",
+        "text": "I got offered a new job !",
+        "id": 14
+    }
+]

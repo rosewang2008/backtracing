@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So the pumping lemma depends on the fact that if M has p states and it runs for more than p steps, then it's going to enter some state twice."
+    },
+    {
+        "text": "So you may have seen that before."
+    },
+    {
+        "text": "It actually has a name, which some of you may have seen."
+    },
+    {
+        "text": "So let's see how to just get a poll here."
+    },
+    {
+        "text": "I hope not too many of you are going to pick C, as some of you are."
+    },
+    {
+        "text": "Oh, well."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "I think this one, most of you have seen this before."
+    },
+    {
+        "text": "This is, I think you pretty much all got it."
+    },
+    {
+        "text": "This is what's known as the pigeonhole principle."
+    },
+    {
+        "text": "So here, sharing the results."
+    },
+    {
+        "text": "Obviously, I was having a little fun with this."
+    },
+    {
+        "text": "And some of you are having fun back at me."
+    },
+    {
+        "text": "That's OK. OK, so let's continue on."
+    },
+    {
+        "text": "Let's see how to use the pumping lemma to prove a language is not regular."
+    },
+    {
+        "text": "So I put the pumping lemma up here just so you can remember the statement of it."
+    },
+    {
+        "text": "So let's take the language D, which is the language 0 to the k, 1 to the k for any k. So that's some number of 0's followed by an equal number of 1's."
+    },
+    {
+        "text": "We're going to prove that language is not regular by using the pumping lemma."
+    },
+    {
+        "text": "And this is going to be just an ironclad proof."
+    },
+    {
+        "text": "It's not going to say, well, I couldn't think of how to find it a finite automaton."
+    }
+]

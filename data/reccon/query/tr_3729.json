@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You're kidding . The story and acting were outstanding .",
+        "emotion": "surprise",
+        "explanation": "disagreement",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I can't say I agree ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're kidding . The story and acting were outstanding .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Kathy ! How are you ? It's been ages ! What are you doing these days ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Kathy ! How are you ? It's been ages !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Kathy ! How are you ? It's been ages ! What are you doing these days ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I just opened my own restaurant . I'm also head chef .",
+        "emotion": "neutral",
+        "text": "I just opened my own restaurant . I'm also head chef .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're kidding ! You've always hated cooking !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I just opened my own restaurant . I'm also head chef ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're kidding ! You've always hated cooking !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I used to hate cooking , but now I love it .",
+        "emotion": "neutral",
+        "text": "Well , I used to hate cooking , but now I love it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "When did you change your mind ?",
+        "emotion": "neutral",
+        "text": "When did you change your mind ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "After I tried French food . Before that , I used to cook really boring things for my family .",
+        "emotion": "neutral",
+        "text": "After I tried French food . Before that , I used to cook really boring things for my family .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I still can't believe it ! So , did you go to cooking school or something ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I just opened my own restaurant . I'm also head chef ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I still can't believe it ! So , did you go to cooking school or something ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah . I went to California to study .",
+        "emotion": "neutral",
+        "text": "Yeah . I went to California to study .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? How long did you stay there ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I went to California to study ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? How long did you stay there ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I was there between 88 and 90 .",
+        "emotion": "neutral",
+        "text": "I was there between 88 and 90 .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "And what did you do after that ?",
+        "emotion": "neutral",
+        "text": "And what did you do after that ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Then I came back here . I worked for about three years to get some experience .",
+        "emotion": "neutral",
+        "text": "Then I came back here . I worked for about three years to get some experience .",
+        "id": 12
+    }
+]

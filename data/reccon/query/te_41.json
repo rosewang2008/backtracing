@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Great . Then call me and let me know if she's free .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            14,
+            16
+        ],
+        "expanded emotion cause span": [
+            "There is a girl I know , Sara Ralston . She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+            "I hope she can do it . She is very responsible .",
+            "I'll go home and get Sara's number . I'll call her first myself ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . Then call me and let me know if she's free .",
+        "id": 17,
+        "source_sentences": [
+            11,
+            13,
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

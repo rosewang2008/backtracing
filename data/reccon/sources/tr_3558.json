@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you believe the headlines ?",
+        "emotion": "neutral",
+        "text": "Can you believe the headlines ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What are you reading ?",
+        "emotion": "neutral",
+        "text": "What are you reading ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ' m reading about Michael Milliken , the Bond King .",
+        "emotion": "neutral",
+        "text": "I ' m reading about Michael Milliken , the Bond King .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Didn ' t he sell worthless stocks to people or something ? He got arrested for that , didn ' t he ?",
+        "emotion": "neutral",
+        "text": "Didn ' t he sell worthless stocks to people or something ? He got arrested for that , didn ' t he ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "He got arrested all right .",
+        "emotion": "neutral",
+        "text": "He got arrested all right .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "If I remember , he got off with a light sentence . Something like three years in a minimum-security prison .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "he sell worthless stocks to people",
+            "If I remember , he got off with a light sentence ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "If I remember , he got off with a light sentence . Something like three years in a minimum-security prison .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yup , that ' s him . He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "he sell worthless stocks to people",
+            "If I remember , he got off with a light sentence .",
+            "He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yup , that ' s him . He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless .",
+        "id": 7,
+        "source_sentences": [
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I think the government fined him a small amount , and he kept the rest in his foreign bank accounts . He ' s still a millionaire .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "he sell worthless stocks to people",
+            "If I remember , he got off with a light sentence .",
+            "He made millions of dollars selling bonds to people and ended up with a pile of cash when they became useless .",
+            "I think the government fined him a small amount , and he kept the rest in his foreign bank accounts . He ' s still a millionaire ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I think the government fined him a small amount , and he kept the rest in his foreign bank accounts . He ' s still a millionaire .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s the kind of thing in America that gets me mad . Some guy pulls off a stock scheme and makes millions while spending the bare minimum sentence in jail .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Some guy pulls off a stock scheme and makes millions while spending the bare minimum sentence in jail ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That ' s the kind of thing in America that gets me mad . Some guy pulls off a stock scheme and makes millions while spending the bare minimum sentence in jail .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know . And some poor guy that robs a liquor store makes $ 500 at most and ends up in jail for five to ten years .",
+        "emotion": "neutral",
+        "text": "I know . And some poor guy that robs a liquor store makes $ 500 at most and ends up in jail for five to ten years .",
+        "id": 10
+    }
+]

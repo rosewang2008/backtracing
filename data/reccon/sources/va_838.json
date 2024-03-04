@@ -1,0 +1,133 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's wrong , officer ?",
+        "emotion": "neutral",
+        "text": "What's wrong , officer ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You do realize that you ran a red light , don't you ?",
+        "emotion": "neutral",
+        "text": "You do realize that you ran a red light , don't you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I did ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you ran a red light"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I did ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You didn't see the red light ?",
+        "emotion": "neutral",
+        "text": "You didn't see the red light ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm sorry for running it , but I really didn't know .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'm sorry for running it"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry for running it , but I really didn't know .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Didn't you learn that red means stop ?",
+        "emotion": "neutral",
+        "text": "Didn't you learn that red means stop ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I know that .",
+        "emotion": "neutral",
+        "text": "I know that .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Then tell me why you sped up on the yellow light .",
+        "emotion": "neutral",
+        "text": "Then tell me why you sped up on the yellow light .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm not sure .",
+        "emotion": "neutral",
+        "text": "I'm not sure .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'm giving you a ticket for this .",
+        "emotion": "neutral",
+        "text": "I'm giving you a ticket for this .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I'm sorry for the misunderstanding .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'm giving you a ticket for this .",
+            "I'm sorry for the misunderstanding ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm sorry for the misunderstanding .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Maybe you'll think about this before you decide to run another light .",
+        "emotion": "neutral",
+        "text": "Maybe you'll think about this before you decide to run another light .",
+        "id": 12
+    }
+]

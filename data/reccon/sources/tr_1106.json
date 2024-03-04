@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey . I'm a visitor from China . I love your music . It's the best I've ever heard . Will you please spare a little bit of time for me ?",
+        "emotion": "neutral",
+        "text": "Hey . I'm a visitor from China . I love your music . It's the best I've ever heard . Will you please spare a little bit of time for me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . Thank you for saying that . Actually , those songs were sung for the first time today . I wrote them in the past two months .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I love your music . It's the best I've ever heard ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . Thank you for saying that . Actually , those songs were sung for the first time today . I wrote them in the past two months .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , you wrote them all by yourself . That's amazing ! Are you a regular singer here ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I wrote them in the past two months .",
+            "you wrote them all by yourself ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , you wrote them all by yourself . That's amazing ! Are you a regular singer here ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You can say that . But my band and I also sing regularly in several other places , too .",
+        "emotion": "neutral",
+        "text": "You can say that . But my band and I also sing regularly in several other places , too .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Cool . Your guitar skills are very impressive . How did you learn to play like that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I wrote them in the past two months .",
+            "you wrote them all by yourself .",
+            "Your guitar skills are very impressive ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Cool . Your guitar skills are very impressive . How did you learn to play like that ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I picked up guitar at an early age , maybe around 8 years old . Afterward , I taught myself by listening to some records of top players .",
+        "emotion": "neutral",
+        "text": "I picked up guitar at an early age , maybe around 8 years old . Afterward , I taught myself by listening to some records of top players .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , that's unbelievable ! You play so well , but you've never been to a real teacher . You will definitely be famous in the near future .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I taught myself by listening to some records of top players .",
+            "You play so well , but you've never been to a real teacher ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , that's unbelievable ! You play so well , but you've never been to a real teacher . You will definitely be famous in the near future .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

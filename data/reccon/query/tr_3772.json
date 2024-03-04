@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This could become a very expensive trip to be beauty parlour !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Good idea . We should also pedicures and manicures ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "This could become a very expensive trip to be beauty parlour !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

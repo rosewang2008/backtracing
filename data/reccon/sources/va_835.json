@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What would you have ?",
+        "emotion": "neutral",
+        "text": "What would you have ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'll try Chinese wine .",
+        "emotion": "neutral",
+        "text": "I'll try Chinese wine .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What about this dry red ? It's good indeed , it never goes to the head .",
+        "emotion": "neutral",
+        "text": "What about this dry red ? It's good indeed , it never goes to the head .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK . Give me one , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It's good indeed ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Give me one , please .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Here it is .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Give me one ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Here it is .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's good indeed ,",
+            "Here it is ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm always at your service .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Give me one ,",
+            "I'm always at your service ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm always at your service .",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

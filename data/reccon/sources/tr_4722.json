@@ -1,0 +1,330 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a nice dress , Jean . You look marvelous !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "What a nice dress , Jean . You look marvelous !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What a nice dress , Jean . You look marvelous !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You , too . Where did you get your new hat ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "What a nice dress , Jean . You look marvelous !",
+            "You , too . Where did you get your new hat ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You , too . Where did you get your new hat ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "From the Crown's . Oh , what lovely earrings you have ! Are they diamond ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You , too . Where did you get your new hat ?",
+            "Oh , what lovely earrings you have ! Are they diamond ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "From the Crown's . Oh , what lovely earrings you have ! Are they diamond ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . It's a birthday present from my husband !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , what lovely earrings you have ! Are they diamond ?",
+            "Yes . It's a birthday present from my husband !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . It's a birthday present from my husband !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , you are lucky to have such a considerate husband . Mine hasn't brought me a single rose since we married .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "you are lucky to have such a considerate husband ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , you are lucky to have such a considerate husband . Mine hasn't brought me a single rose since we married .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He'll come out with surprises . Just wait and see . Look at that woman , with the white chiffon !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "you are lucky to have such a considerate husband .",
+            "Look at that woman , with the white chiffon !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "He'll come out with surprises . Just wait and see . Look at that woman , with the white chiffon !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "She's chic , isn't she ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "She's chic"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She's chic , isn't she ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . I like the dress . It must be the latest fashion . Look , the hem has lowered , and the waist narrowed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Yes . I like the dress . It must be the latest fashion . Look , the hem has lowered , and the waist narrowed ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . I like the dress . It must be the latest fashion . Look , the hem has lowered , and the waist narrowed .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It makes me feel rather shabby . That woman has a good taste in dressing , I would say .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "That woman has a good taste in dressing"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It makes me feel rather shabby . That woman has a good taste in dressing , I would say .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes . She dressed with an individual flair . I rather envy her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Yes . She dressed with an individual flair ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . She dressed with an individual flair . I rather envy her .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Most women follow fashion like sheep . They don't know any better than imitate .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Most women follow fashion like sheep . They don't know any better than imitate ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Most women follow fashion like sheep . They don't know any better than imitate .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I quite agree with you . See the woman there ? I dare say she hasn't got any eyes . How could she match the mauve gown with the green handbag ? And all that jewelry !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I dare say she hasn't got any eyes . How could she match the mauve gown with the green handbag ? And all that jewelry !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I quite agree with you . See the woman there ? I dare say she hasn't got any eyes . How could she match the mauve gown with the green handbag ? And all that jewelry !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "The gown is quite expensive , believe me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "How could she match the mauve gown with the green handbag"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The gown is quite expensive , believe me .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "So what ? It only makes her look cheap and vulgar .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            12,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I dare say she hasn't got any eyes . How could she match the mauve gown with the green handbag ? And all that jewelry !",
+            "The gown is quite expensive",
+            "It only makes her look cheap and vulgar ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "So what ? It only makes her look cheap and vulgar .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "You know those upstarts . They're all show-offs ! I think I'd better have a diet ; otherwise I'd look like a ballon soon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "They're all show-offs ! I think I'd better have a diet ; otherwise I'd look like a ballon soon ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You know those upstarts . They're all show-offs ! I think I'd better have a diet ; otherwise I'd look like a ballon soon .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "You're quite slim . In fact , if you were one of those starlets , the movie company would say you have a fabulous figure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "You're quite slim . In fact , if you were one of those starlets , the movie company would say you have a fabulous figure ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You're quite slim . In fact , if you were one of those starlets , the movie company would say you have a fabulous figure .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Thanks . I'm flattered .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "You're quite slim . In fact , if you were one of those starlets , the movie company would say you have a fabulous figure ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I'm flattered .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Oh , my shoes pinch me . Let's find a seat and sit a while .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "my shoes pinch me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , my shoes pinch me . Let's find a seat and sit a while .",
+        "id": 18
+    }
+]

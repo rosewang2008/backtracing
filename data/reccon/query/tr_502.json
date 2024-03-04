@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It was really an exciting moment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Congratulations !",
+            "You won the city marathon .",
+            "run to the finish line .",
+            "It was really an exciting moment ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It was really an exciting moment .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

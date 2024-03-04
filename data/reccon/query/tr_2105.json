@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That ' s a possibility . Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "People who play ultimate Frisbee have a positive attitude ; maybe you should join the ultimate Frisbee club ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s a possibility . Thanks !",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

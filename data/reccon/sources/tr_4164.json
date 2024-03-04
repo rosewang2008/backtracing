@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "And so , that concludes my outline for our marketing strategy next year . Thank you very much for your time .",
+        "emotion": "neutral",
+        "text": "And so , that concludes my outline for our marketing strategy next year . Thank you very much for your time .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hey , that was quite the presentation ! Honestly , I was completely blown away by your strategy outline . I've gotta say , Alex , you really wowed me today .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "that was quite the presentation ! Honestly , I was completely blown away by your strategy outline .",
+            "you really wowed me today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , that was quite the presentation ! Honestly , I was completely blown away by your strategy outline . I've gotta say , Alex , you really wowed me today .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Aw , come on , it was nothing . I'm just doing my job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "that was quite the presentation ! Honestly , I was completely blown away by your strategy outline .",
+            "you really wowed me today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aw , come on , it was nothing . I'm just doing my job .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , I think you deserve some recognition here ; I mean , if I look back on your previous presentations , this is a huge improvement .",
+        "emotion": "neutral",
+        "text": "No , I think you deserve some recognition here ; I mean , if I look back on your previous presentations , this is a huge improvement .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , Kristin did give me a hand with the slides . She ' s a real wiz on PowerPoint .",
+        "emotion": "neutral",
+        "text": "Well , Kristin did give me a hand with the slides . She ' s a real wiz on PowerPoint .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "And I saw that you took on board my feedback about pricing strategies . I really appreciate you taking the time to think though my suggestions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you took on board my feedback about pricing strategies . I really appreciate you taking the time to think though my suggestions ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "And I saw that you took on board my feedback about pricing strategies . I really appreciate you taking the time to think though my suggestions .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , well , that was some good advice . You made some really good points .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you took on board my feedback about pricing strategies . I really appreciate you taking the time to think though my suggestions ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , well , that was some good advice . You made some really good points .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , I just wanted to say well done . Really you did a great job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "that was some good advice . You made some really good points .",
+            "Really you did a great job ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Well , I just wanted to say well done . Really you did a great job .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

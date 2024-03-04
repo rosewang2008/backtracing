@@ -1,0 +1,231 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Lucy , you ' re back . How was your first day of school ?",
+        "emotion": "neutral",
+        "text": "Lucy , you ' re back . How was your first day of school ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was great . I had a really good time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "your first day of school ?",
+            "I had a really good time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It was great . I had a really good time .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What classes did you have ?",
+        "emotion": "neutral",
+        "text": "What classes did you have ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I had English from 9 o'clock to 11 o'clock , art from 12 o'clock to 2 o'clock , and math from 2 o'clock to 4 o'clock .",
+        "emotion": "neutral",
+        "text": "Well , I had English from 9 o'clock to 11 o'clock , art from 12 o'clock to 2 o'clock , and math from 2 o'clock to 4 o'clock .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What do you think about the teachers ?",
+        "emotion": "neutral",
+        "text": "What do you think about the teachers ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "To be honest , I liked all of them , except for the math teacher . Though he must be quite young , he seem like an old person . He ' s so boring !",
+        "emotion": "neutral",
+        "text": "To be honest , I liked all of them , except for the math teacher . Though he must be quite young , he seem like an old person . He ' s so boring !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That ' s too bad . How was your English teacher ?",
+        "emotion": "neutral",
+        "text": "That ' s too bad . How was your English teacher ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "She was great . In today ' s class , she gave us a lecture on how to be a good student . She told us not to arm for exams , and to pay more attention on communicating than memorizing .",
+        "emotion": "neutral",
+        "text": "She was great . In today ' s class , she gave us a lecture on how to be a good student . She told us not to arm for exams , and to pay more attention on communicating than memorizing .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Where is she from ?",
+        "emotion": "neutral",
+        "text": "Where is she from ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "She said that she ' s from a small town in the middle of America .",
+        "emotion": "neutral",
+        "text": "She said that she ' s from a small town in the middle of America .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Were you able to understand everything that she said ?",
+        "emotion": "neutral",
+        "text": "Were you able to understand everything that she said ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Not everything , but nearly . She speaks very clearly and doesn ' t use very complex words so that it is easy for us to understand her .",
+        "emotion": "neutral",
+        "text": "Not everything , but nearly . She speaks very clearly and doesn ' t use very complex words so that it is easy for us to understand her .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "She sounds like a good teacher . Do you think you ' ll pass her class ?",
+        "emotion": "neutral",
+        "text": "She sounds like a good teacher . Do you think you ' ll pass her class ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes ... with flying colors !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Do you think you ' ll pass her class ?",
+            "Yes ... with flying colors !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes ... with flying colors !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "What does that mean ?",
+        "emotion": "neutral",
+        "text": "What does that mean ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "It ' s a new phrase that she taught us today . It means that I will not only pass the class , but I will do extremely well !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Do you think you ' ll pass her class ?",
+            "Yes ... with flying colors !",
+            "but I will do extremely well !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It ' s a new phrase that she taught us today . It means that I will not only pass the class , but I will do extremely well !",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "If you like the class this much already , I ' m sure you will .",
+        "emotion": "neutral",
+        "text": "If you like the class this much already , I ' m sure you will .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I hope so .",
+        "emotion": "neutral",
+        "text": "I hope so .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "did she give you any homework ?",
+        "emotion": "neutral",
+        "text": "did she give you any homework ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "not today . She said she wanted us to relax tonight instead of doing homework ,",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "she wanted us to relax tonight instead of doing homework ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "not today . She said she wanted us to relax tonight instead of doing homework ,",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "no wonder you like the class so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "she wanted us to relax tonight instead of doing homework ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "no wonder you like the class so much .",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

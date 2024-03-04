@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Welcome , how may I help you today ?",
+        "emotion": "neutral",
+        "text": "Welcome , how may I help you today ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm ask for a pizza , please .",
+        "emotion": "neutral",
+        "text": "I'm ask for a pizza , please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Then you will be happy to hear that today all our pizzas are on sale . Two for one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "you will be happy to hear that today all our pizzas are on sale . Two for one ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Then you will be happy to hear that today all our pizzas are on sale . Two for one .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You're right , that is great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "you will be happy to hear that today all our pizzas are on sale . Two for one ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're right , that is great .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What size would you like ?",
+        "emotion": "neutral",
+        "text": "What size would you like ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Medium one will be perfect , thank you",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "you will be happy to hear that today all our pizzas are on sale . Two for one ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Medium one will be perfect , thank you",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Which kind do you want ?",
+        "emotion": "neutral",
+        "text": "Which kind do you want ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I like seafood on my pizza .",
+        "emotion": "neutral",
+        "text": "I like seafood on my pizza .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "We have two seafood pizzas . Tuna and crab .",
+        "emotion": "neutral",
+        "text": "We have two seafood pizzas . Tuna and crab .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Tuna sounds good today .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "We have two seafood pizzas . Tuna and crab .",
+            "Tuna sounds good today ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Tuna sounds good today .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Would that be for here or take away ?",
+        "emotion": "neutral",
+        "text": "Would that be for here or take away ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That would be to go .",
+        "emotion": "neutral",
+        "text": "That would be to go .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That'll be in a ten minutes . Please sit over there , and I'll call you over as sooner as it's ready .",
+        "emotion": "neutral",
+        "text": "That'll be in a ten minutes . Please sit over there , and I'll call you over as sooner as it's ready .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No problem .",
+        "emotion": "happiness",
+        "explanation": "completion of order taking",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "That'll be in a ten minutes . Please sit over there , and I'll call you over as sooner as it's ready ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

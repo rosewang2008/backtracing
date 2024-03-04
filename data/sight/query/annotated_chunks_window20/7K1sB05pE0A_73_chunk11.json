@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 73,
+        "timestamp": 1684517826734.0,
+        "annotatedSourceSentencesIndices": [
+            15,
+            17,
+            18
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "24:51 seriously? Basic LCM is a doubt in an MIT class?"
+    }
+]

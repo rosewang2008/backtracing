@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so you need to find some sort of relationship between the two."
+    },
+    {
+        "text": "And here again, you talk to experts."
+    },
+    {
+        "text": "And what they tell you is that, well, it's going to be increasing."
+    },
+    {
+        "text": "Animals, like predators, are going to just eat more if there's more preys."
+    },
+    {
+        "text": "But at some point, they're just going to level off because they're just going to be completely full."
+    },
+    {
+        "text": "And they're going to stop capturing those preys."
+    },
+    {
+        "text": "And you're just going to have some phenomenon that looks like this."
+    },
+    {
+        "text": "So here is a curve that sort of makes sense."
+    },
+    {
+        "text": "As your capture rate goes from 0 to 1, you're increasing."
+    },
+    {
+        "text": "And then you see you have this concave function that says that at some point, it levels off."
+    },
+    {
+        "text": "So here, one way I could, I mean, there's again many ways I could just model a function that looks like this."
+    },
+    {
+        "text": "But a simple one that has only two parameters is this one, where mu i is just this function of Xi, where I have some parameter alpha here and some parameter h here."
+    },
+    {
+        "text": "So there's clearly, so this function, there's one that essentially tells you."
+    },
+    {
+        "text": "So this thing starts at 0 for sure."
+    },
+    {
+        "text": "And essentially, alpha tells you how sharp this thing is."
+    },
+    {
+        "text": "And h tells you at which point you end here."
+    },
+    {
+        "text": "It's not exactly what those values are equal to, but it tells you this."
+    },
+    {
+        "text": "So simple."
+    },
+    {
+        "text": "And well, no, OK, sorry."
+    },
+    {
+        "text": "That's actually alpha, which is the maximum capture rate."
+    }
+]

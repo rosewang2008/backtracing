@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It would be this one, it would be the sum of these four, right?"
+    },
+    {
+        "text": "That very fast guy will be that one minus one, and the next one, and the next one, and the next one."
+    },
+    {
+        "text": "So this is the sum of those last four wavelets."
+    },
+    {
+        "text": "This one we've kept, and so on."
+    },
+    {
+        "text": "So, each, well, every, well, that's what a basis does."
+    },
+    {
+        "text": "Every vector in R8 is some combination of those, and for the linear algebra, we have, so the linear algebra is this step, find the coefficients."
+    },
+    {
+        "text": "That's, that's the step we want to take."
+    },
+    {
+        "text": "If I give you the basis, like this wavelet basis, and I give you the pixel, so here are the pixel values, p1, p2, down to p8."
+    },
+    {
+        "text": "What's, what's the job?"
+    },
+    {
+        "text": "What's the linear algebra here?"
+    },
+    {
+        "text": "So this is, these are the values, this is in the standard basis, right?"
+    },
+    {
+        "text": "Those are just the values at eight successive points."
+    },
+    {
+        "text": "I guess I'm dropping down to one dimension instead of eight by eight, I'm just going to take eight pixel values along that first top row."
+    },
+    {
+        "text": "So I, what do I want to do?"
+    },
+    {
+        "text": "In the standard basis, here are the pixel values."
+    },
+    {
+        "text": "I want to write that as a combination of c1 times this guy, plus c2 times this guy, plus c3, these are the coefficients, plus c4 times this one."
+    },
+    {
+        "text": "Do you see what I'm doing?"
+    },
+    {
+        "text": "I want to write this vector p as a combination of c1 times the first wavelet, plus c8 times the eighth wavelet."
+    },
+    {
+        "text": "That's the, that's the transform step."
+    },
+    {
+        "text": "That's the lossless step, that's the step from p, oh, I'm calling it p here and I called it x there, so let me, at the risk of moving and therefore making this jumpy, suppose the signal I'm now calling p, the set of pixel values and I'm looking for the coefficients."
+    }
+]

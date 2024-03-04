@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I think one of you, I forgot, asked yesterday, how would I do it in general?"
+    },
+    {
+        "text": "Is there a formula like m dx plus n dy?"
+    },
+    {
+        "text": "Well, that's going to be the formula."
+    },
+    {
+        "text": "And, you'll see it's a little bit too complicated."
+    },
+    {
+        "text": "So, the really useful ones are actually the special ones."
+    },
+    {
+        "text": "So, let's say that we are given a parametric description of a surface S. So, that means we can describe S by formulas saying x is some function of two parameter variables."
+    },
+    {
+        "text": "I'm going to call them u and v. I hope you don't mind."
+    },
+    {
+        "text": "You can call them t1 and t2."
+    },
+    {
+        "text": "You can call them whatever you want."
+    },
+    {
+        "text": "OK, so one of the basic properties of a surface is because I have only two independent directions to move on, I should be able to express x, y, and z in terms of two variables."
+    },
+    {
+        "text": "So, now let's say that I know how to do that."
+    },
+    {
+        "text": "Or, maybe I should instead think of it in terms of a position vector if that helps you."
+    },
+    {
+        "text": "The position vector, so that's just the vector with components x, y, z is given as a function of u and v. OK, so it works like a parametric curve, but with two parameters."
+    },
+    {
+        "text": "So, now, how will we actually set up a flux integral on such a surface?"
+    },
+    {
+        "text": "Well, because we are locating the flux in terms of u and v, we will end up with an integral du dv."
+    },
+    {
+        "text": "So, we need to figure out how to express n ds in terms of du and dv."
+    },
+    {
+        "text": "OK, so n ds should be something du dv."
+    },
+    {
+        "text": "How do we do that?"
+    },
+    {
+        "text": "Well, we can use the same method that we've actually used over here."
+    },
+    {
+        "text": "Because if you think for a second, here we used, of course, a rectangle in the x, y plane, and we lifted it to a parallelogram and so on."
+    }
+]

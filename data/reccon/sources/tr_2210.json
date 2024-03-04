@@ -1,0 +1,223 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are we going to do ? I can't get the car out of this ditch . I'm stuck !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I can't get the car out of this ditch . I'm stuck !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What are we going to do ? I can't get the car out of this ditch . I'm stuck !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm worried , Tom . I haven't seen any other cars for almost an hour .",
+        "emotion": "neutral",
+        "text": "I'm worried , Tom . I haven't seen any other cars for almost an hour .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I know . This is terrible . What can we do ? This snow doesn't stop falling !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I can't get the car out of this ditch . I'm stuck !",
+            "This snow doesn't stop falling !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I know . This is terrible . What can we do ? This snow doesn't stop falling !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I told you we should have stayed in town today . The weather report said 100 percent chance of snow . Why did you want to come up here ?",
+        "emotion": "neutral",
+        "text": "I told you we should have stayed in town today . The weather report said 100 percent chance of snow . Why did you want to come up here ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I wanted to show you the cabin . We only had another half-hour to go .",
+        "emotion": "neutral",
+        "text": "I wanted to show you the cabin . We only had another half-hour to go .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , now we're stuck . What can we do ?",
+        "emotion": "neutral",
+        "text": "Well , now we're stuck . What can we do ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I don't know .",
+        "emotion": "neutral",
+        "text": "I don't know .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I've heard that when this happens , it's important to save energy .",
+        "emotion": "neutral",
+        "text": "I've heard that when this happens , it's important to save energy .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What do you mean ?",
+        "emotion": "neutral",
+        "text": "What do you mean ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We're stranded here , Tom . We may be here a long time . We need to conserve the gas in the car . The car's energy is what will keep us warm .",
+        "emotion": "neutral",
+        "text": "We're stranded here , Tom . We may be here a long time . We need to conserve the gas in the car . The car's energy is what will keep us warm .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I have plenty of gas .",
+        "emotion": "neutral",
+        "text": "I have plenty of gas .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , but the gas and the battery both have to stay working . We can't just let the car run and run . If we do , it will die soon . Then we'll freeze .",
+        "emotion": "neutral",
+        "text": "Yes , but the gas and the battery both have to stay working . We can't just let the car run and run . If we do , it will die soon . Then we'll freeze .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "So what can we do ?",
+        "emotion": "neutral",
+        "text": "So what can we do ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Turn the lights off . Then , run the car and the heater only about fifteen minutes every hour . That will conserve the heat as long as possible .",
+        "emotion": "neutral",
+        "text": "Turn the lights off . Then , run the car and the heater only about fifteen minutes every hour . That will conserve the heat as long as possible .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Alright . That's a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "That will conserve the heat as long as possible ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Alright . That's a good idea .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I wish we hadn't come up here . Now we'll probably be here for days .",
+        "emotion": "neutral",
+        "text": "I wish we hadn't come up here . Now we'll probably be here for days .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Days ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "we'll probably be here for days ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Days ?",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Yes , it happens . That is what happens in big snowstorms . People get stranded for days .",
+        "emotion": "neutral",
+        "text": "Yes , it happens . That is what happens in big snowstorms . People get stranded for days .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Oh , my God ! It's good we have food .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "It's good we have food ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , my God ! It's good we have food .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Probably we'll survive . But turn the car off for about forty-five minutes . Then we'll turn it on again .",
+        "emotion": "neutral",
+        "text": "Probably we'll survive . But turn the car off for about forty-five minutes . Then we'll turn it on again .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Okay , I'll follow your advice .",
+        "emotion": "neutral",
+        "text": "Okay , I'll follow your advice .",
+        "id": 21
+    }
+]

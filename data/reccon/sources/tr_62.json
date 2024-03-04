@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you going to the party on Saturday ?",
+        "emotion": "neutral",
+        "text": "Are you going to the party on Saturday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I was thinking about it . Are you ?",
+        "emotion": "neutral",
+        "text": "I was thinking about it . Are you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , I heard it's going to be a lot of fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "party on Saturday ?",
+            "I heard it's going to be a lot of fun ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yeah , I heard it's going to be a lot of fun .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? Well , what time does it start ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "party on Saturday ?",
+            "I heard it's going to be a lot of fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Well , what time does it start ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It starts at 8",
+        "emotion": "neutral",
+        "text": "It starts at 8",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , who all is going to be there ?",
+        "emotion": "neutral",
+        "text": "Well , who all is going to be there ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Everyone from school .",
+        "emotion": "neutral",
+        "text": "Everyone from school .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "How do you know it's going to be so fun ?",
+        "emotion": "neutral",
+        "text": "How do you know it's going to be so fun ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "This party is going to have a DJ , food , and drinks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "This party is going to have a DJ , food , and drinks ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This party is going to have a DJ , food , and drinks .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow , that does sound like it's going to be fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "This party is going to have a DJ , food , and drinks .",
+            "that does sound like it's going to be fun ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , that does sound like it's going to be fun .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "So am I going to see you at the party ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "This party is going to have a DJ , food , and drinks .",
+            "that does sound like it's going to be fun ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "So am I going to see you at the party ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yeah , I will be there .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "This party is going to have a DJ , food , and drinks .",
+            "that does sound like it's going to be fun .",
+            "am I going to see you at the party ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , I will be there .",
+        "id": 12
+    }
+]

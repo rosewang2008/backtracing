@@ -1,0 +1,125 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Steven , why are you so depressed ?",
+        "emotion": "neutral",
+        "text": "Steven , why are you so depressed ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm feeling very sad . I just read the newspaper .",
+        "emotion": "neutral",
+        "text": "I'm feeling very sad . I just read the newspaper .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What's the news ?",
+        "emotion": "neutral",
+        "text": "What's the news ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "According to the newspaper , the town was razed by an earthquake and more than 10 thousand people died in the earthquake .",
+        "emotion": "neutral",
+        "text": "According to the newspaper , the town was razed by an earthquake and more than 10 thousand people died in the earthquake .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's horrible .",
+        "emotion": "neutral",
+        "text": "It's horrible .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , we have to do something to help the people in the stricken area .",
+        "emotion": "neutral",
+        "text": "Yeah , we have to do something to help the people in the stricken area .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes . How about donating some money ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "we have to do something to help the people in the stricken area ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . How about donating some money ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's a good idea . But where can we donate money ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "How about donating some money ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's a good idea . But where can we donate money ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Just find the answer through Internet .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "we have to do something to help the people in the stricken area ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Just find the answer through Internet .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , let's do it now .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "let's do it now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , let's do it now .",
+        "id": 10
+    }
+]

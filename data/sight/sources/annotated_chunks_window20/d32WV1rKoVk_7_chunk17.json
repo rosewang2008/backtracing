@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what do I know about the eigenvalues of that matrix?"
+    },
+    {
+        "text": "Q is orthogonal always."
+    },
+    {
+        "text": "So what can you tell me about the, this is the same as Q S Q inverse, and therefore, the eigenvalues are the same."
+    },
+    {
+        "text": "It's similar to S. And it becomes tridiagonal after I find a good Q."
+    },
+    {
+        "text": "Now, and therefore, same lambdas, tridiagonal with the same lambdas."
+    },
+    {
+        "text": "Now, what am I thinking about here?"
+    },
+    {
+        "text": "I'm thinking about, tell me the corresponding possibility about singular values."
+    },
+    {
+        "text": "I want to do something to my matrix."
+    },
+    {
+        "text": "Now, I'm always taking a general matrix A."
+    },
+    {
+        "text": "And I'm looking for its singular values."
+    },
+    {
+        "text": "And I'm looking to simplify it."
+    },
+    {
+        "text": "And what am I allowed to do?"
+    },
+    {
+        "text": "Yeah, I guess my question is, similarity transformations left the eigenvalues alone."
+    },
+    {
+        "text": "What can I do that leaves the singular values alone?"
+    },
+    {
+        "text": "That's a fundamental question, because it was so fundamental for eigenvalues."
+    },
+    {
+        "text": "By doing this, a matrix and its inverse, I got something similar."
+    },
+    {
+        "text": "And I checked even in this class that the eigenvalues, same lambdas."
+    },
+    {
+        "text": "Now I want a whole line that ends up with the same sigmas."
+    },
+    {
+        "text": "And I want you to tell me what I'm allowed to do to the matrix without changing the sigmas."
+    },
+    {
+        "text": "So maybe don't shout it out immediately."
+    }
+]

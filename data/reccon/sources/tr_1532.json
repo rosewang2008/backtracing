@@ -1,0 +1,256 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Welcome back ! How was your vacation ?",
+        "emotion": "happiness",
+        "explanation": "Happy to see friend after the vacation",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Welcome back ! How was your vacation ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was fantastic , but I'm glad to be back ! Being a tourist is really tiring !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It was fantastic ,"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "It was fantastic , but I'm glad to be back ! Being a tourist is really tiring !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where did you end up going ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Where did you end up going ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Because it's off-season , we got a really good package deal to Paris , so we went there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "we got a really good package deal to Paris"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Because it's off-season , we got a really good package deal to Paris , so we went there .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've always wanted to go to Paris . The Eiffel Tower is one of the most famous tourist attractions in the world ! Did you go to the top ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ,",
+            "Because it's off-season , we got a really good package deal to Paris , so we went there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've always wanted to go to Paris . The Eiffel Tower is one of the most famous tourist attractions in the world ! Did you go to the top ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That was the first thing we did . I have a few pictures . Do you want to see them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It was fantastic ,",
+            "go to the top",
+            "That was the first thing we did . I have a few pictures ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That was the first thing we did . I have a few pictures . Do you want to see them ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . What's this one a picture of ?",
+        "emotion": "neutral",
+        "text": "Sure . What's this one a picture of ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , that's a picture of me on our fourth day of travelling . I'm standing next to a famous foundation in the centre of the city .",
+        "emotion": "neutral",
+        "text": "Oh , that's a picture of me on our fourth day of travelling . I'm standing next to a famous foundation in the centre of the city .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You don't look very happy in that picture .",
+        "emotion": "neutral",
+        "text": "You don't look very happy in that picture .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No , by that time , I was sick of sightseeing . I had had enough of art galleries , cathedrals , fountains , statues , and palaces !",
+        "emotion": "neutral",
+        "text": "No , by that time , I was sick of sightseeing . I had had enough of art galleries , cathedrals , fountains , statues , and palaces !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "So what did you do ?",
+        "emotion": "neutral",
+        "text": "So what did you do ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "We spent that afternoon walking around a flea market . We had a few coffees , watched a movie , and went for a swim in the pool at the hotel .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            12
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It was fantastic ,",
+            "We spent that afternoon walking around a flea market . We had a few coffees , watched a movie , and went for a swim in the pool at the hotel ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "We spent that afternoon walking around a flea market . We had a few coffees , watched a movie , and went for a swim in the pool at the hotel .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "My travel agent always reminds me to plan a day of relaxing for every 3 days of sightseeing . Did you go to the Louvre ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ,",
+            "Because it's off-season , we got a really good package deal to Paris , so we went there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My travel agent always reminds me to plan a day of relaxing for every 3 days of sightseeing . Did you go to the Louvre ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            2,
+            14,
+            14
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It was fantastic ,",
+            "I was surprised by how small the Mona Lisa was though .",
+            "Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's what everyone says ! I can't wait to see it for myself some day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ,",
+            "Because it's off-season , we got a really good package deal to Paris , so we went there .",
+            "Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though .",
+            "I can't wait to see it for myself some day ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's what everyone says ! I can't wait to see it for myself some day .",
+        "id": 15,
+        "source_sentences": [
+            1,
+            3,
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Blake ! Are you still listening to Mozart ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Are you still listening to Mozart ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , Blake ! Are you still listening to Mozart ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Do you like it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "listening to Mozart"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . Do you like it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's great . and I ' Ve heard that listening to Mozart can make you more intelligent .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It's great . and I ' Ve heard that listening to Mozart can make you more intelligent ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's great . and I ' Ve heard that listening to Mozart can make you more intelligent .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? I've never heard that before . I just like it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve heard that listening to Mozart can make you more intelligent .",
+            "I've never heard that before ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? I've never heard that before . I just like it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Is classical music your favorite ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I've never heard that before . I just like it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is classical music your favorite ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . What about you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Is classical music your favorite ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . What about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I Like pop music best . Classical music is a bit too heavy for me . I can't get fully relaxed in it .",
+        "emotion": "neutral",
+        "text": "I Like pop music best . Classical music is a bit too heavy for me . I can't get fully relaxed in it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Pop music doesn't have any depth for me .",
+        "emotion": "neutral",
+        "text": "Pop music doesn't have any depth for me .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , that's why I can enjoy myself in it .",
+        "emotion": "neutral",
+        "text": "Yeah , that's why I can enjoy myself in it .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Did you always like pop music .",
+        "emotion": "neutral",
+        "text": "Did you always like pop music .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I think so , since I was in primary school . How long have you been interested in classical music .",
+        "emotion": "neutral",
+        "text": "I think so , since I was in primary school . How long have you been interested in classical music .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I didn't like it at all until I started to learn violin when I was eight . From then on . classical music has been an important part of my life .",
+        "emotion": "neutral",
+        "text": "I didn't like it at all until I started to learn violin when I was eight . From then on . classical music has been an important part of my life .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "oh , I didn't know you can play the violin . Do you still play .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I started to learn violin when I was eight ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "oh , I didn't know you can play the violin . Do you still play .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Sometimes , but these days I'm often too busy .",
+        "emotion": "neutral",
+        "text": "Sometimes , but these days I'm often too busy .",
+        "id": 14
+    }
+]

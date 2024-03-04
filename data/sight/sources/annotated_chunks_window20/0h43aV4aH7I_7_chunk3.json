@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, one basis vector that would be extremely nice to, one vector that would be extremely nice to include in the basis would be a vector of all ones."
+    },
+    {
+        "text": "That's not in our standard basis."
+    },
+    {
+        "text": "So our, so let me just write again."
+    },
+    {
+        "text": "The standard basis would, is, is our, is our one and all the rest zeros, zero, one, and all the rest zeros, everybody knows what the standard basis is."
+    },
+    {
+        "text": "Now, any other basis for our, so this is, for this very high-dimensional space, now I'm going to speak about a better basis, better basis, and let me just emphasize, one vector that would be extremely nice to have in that basis is the vector of all ones."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Let me just say again."
+    },
+    {
+        "text": "Because that vector of all ones, by itself, one vector is, is able to completely give the information on a solid image."
+    },
+    {
+        "text": "Of course, our image won't be solid, it'll have a mix of, of, solid and, and signal."
+    },
+    {
+        "text": "So that one vector, but that, having that one vector in the basis is, is, is going to save us a whole lot."
+    },
+    {
+        "text": "Now the question is, what other vectors should be in the basis?"
+    },
+    {
+        "text": "The, the extreme vector in the basis might be a vector of one minus one, one minus one, one minus one."
+    },
+    {
+        "text": "That would be a vector that shows, I mean, that's like a checkerboard vector, right?"
+    },
+    {
+        "text": "That's a vector that would, if, if we had, if, if the image was like a huge checkerboard of plus minus, plus minus, plus minus, that vector would carry the whole signal."
+    },
+    {
+        "text": "But much more common would be maybe to have half the image, darker and the other half lighter."
+    },
+    {
+        "text": "So another image, another vector that might be quite useful in here would be half ones and half minus ones."
+    },
+    {
+        "text": "I'm just trying to get across the idea of, that a basis could be, that first of all, we've got, the basis is at our disposal."
+    },
+    {
+        "text": "Like, we're free to choose that."
+    },
+    {
+        "text": "And it's a billion dollar decision what we choose."
+    },
+    {
+        "text": "So, and TV people would rather, would prefer one basis based on the way the, the signal is scanned, and movie people would prefer another."
+    }
+]

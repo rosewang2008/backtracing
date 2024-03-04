@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But I'm not, like, you know, each, each image in the sequence is pretty close to the one before."
+    },
+    {
+        "text": "So you have to use, like, prediction and correction."
+    },
+    {
+        "text": "I mean, you, my, the image of me one instant, one time step later, you would assume would be the same, and then plus a small correction."
+    },
+    {
+        "text": "And you would only code and digitize the correction, and compress the correction."
+    },
+    {
+        "text": "So the sequence of images that's highly correlated, and the problem in compression is always to use this correlation, this fact that in time or in space, things don't change instantly, they, they're very often smooth changes, and, you can predict one value from the previous value."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the, those are applications, which are pure linear algebra."
+    },
+    {
+        "text": "I could, maybe I'll, maybe you'll allow me to tell you the, and the book describes, the new basis that's, the competition for Fourier."
+    },
+    {
+        "text": "So the competition for Fourier is called wavelets, and I can describe what that basis is like, say, in the eight by eight case."
+    },
+    {
+        "text": "So that eight by eight wavelet basis is the vector of all ones, eight ones, then the vector of four ones and four minus ones, then the vector of two ones and two minus ones and four zeros, and also the vector of four zeros and two ones and two minus ones."
+    },
+    {
+        "text": "So now I'm up to four, and I need four more, right, for R8?"
+    },
+    {
+        "text": "So the next basis vector will be one minus one and six zeros, and then three more like that, with a one minus one there and there and there."
+    },
+    {
+        "text": "So those are eight vectors in eight-dimensional space."
+    },
+    {
+        "text": "Those are, those are called wavelets, and you, and it's a very simple wavelet choice."
+    },
+    {
+        "text": "It's a more sophisticated choice."
+    },
+    {
+        "text": "This is a little jumpy, to jump between one and minus one."
+    },
+    {
+        "text": "And actually, you can see now, suppose you compare the wavelet basis with the Fourier basis above."
+    },
+    {
+        "text": "How could I write this guy, which is in the Fourier basis, it's an eight, it's a vector in R8, how would I write that as a combination of the wavelet basis?"
+    },
+    {
+        "text": "Do you, have I told you enough about the wavelet basis that you can see?"
+    },
+    {
+        "text": "How does this very fast guy, what combination of the wavelet basis is that very fast guy?"
+    }
+]

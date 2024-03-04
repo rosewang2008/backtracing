@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's not fair . We had fun . Give me a second chance . Can we meet tomorrow night for drinks at the pub ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn't have good time ,",
+            "I don't really want to see you again .",
+            "it was you doing all the laughing at your own jokes .",
+            "That's not fair ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's not fair . We had fun . Give me a second chance . Can we meet tomorrow night for drinks at the pub ?",
+        "id": 6,
+        "source_sentences": [
+            2,
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

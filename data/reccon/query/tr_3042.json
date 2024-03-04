@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Do you have a garden ?",
+            "Your garden is really lovely ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So these rows are combinations of those rows, those rows are combinations of those rows, the two row spaces are the same, the bases are the same, and the natural basis is this guy."
+    },
+    {
+        "text": "Is that all right for the row space?"
+    },
+    {
+        "text": "The row space is sitting there in R, in its cleanest possible form."
+    },
+    {
+        "text": "OK. Now what about the fourth guy, the null space of A transpose?"
+    },
+    {
+        "text": "First of all, why do I call that the left null space?"
+    },
+    {
+        "text": "So let me save that and bring that down."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the fourth space is the null space of A transpose."
+    },
+    {
+        "text": "So it has in it vectors, let me call them y, so that A transpose y equals zero."
+    },
+    {
+        "text": "If A transpose y equals zero, then y is in the null space of A transpose, of course."
+    },
+    {
+        "text": "So this is a matrix times a column equaling zero."
+    },
+    {
+        "text": "And now, because I want y to sit on the left, and I want A instead of A transpose, I'll just transpose that equation."
+    },
+    {
+        "text": "Can I just transpose that?"
+    },
+    {
+        "text": "On the right, it makes the zero vector lie down."
+    },
+    {
+        "text": "And on the left, it's a product, A transpose times y."
+    },
+    {
+        "text": "If I take the transpose, then they come in opposite order, right?"
+    },
+    {
+        "text": "So it's y transpose times A transpose transpose, but nobody's going to leave it like that."
+    },
+    {
+        "text": "That's A transpose transpose is just A, of course."
+    },
+    {
+        "text": "When I transposed A transpose, I got back to A."
+    },
+    {
+        "text": "Now, do you see what I have now?"
+    }
+]

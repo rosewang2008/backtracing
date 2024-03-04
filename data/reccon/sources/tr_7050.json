@@ -1,0 +1,272 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I really appreciate your driving me around .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate your driving me around ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really appreciate your driving me around .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's no problem . I have time today , and I think it's important that you find a good place .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate your driving me around ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's no problem . I have time today , and I think it's important that you find a good place .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It would be hard for just me to do it . I don't know the city at all .",
+        "emotion": "neutral",
+        "text": "It would be hard for just me to do it . I don't know the city at all .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "So what do you see in there ?",
+        "emotion": "neutral",
+        "text": "So what do you see in there ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "This one sounds good . Efficiency with view of the lake . Utilities and parking included . Newly remodeled kitchen . $ 470 .",
+        "emotion": "neutral",
+        "text": "This one sounds good . Efficiency with view of the lake . Utilities and parking included . Newly remodeled kitchen . $ 470 .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Can you afford that much ?",
+        "emotion": "neutral",
+        "text": "Can you afford that much ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , I guess not . But that's what I want , isn't it ? An efficiency .",
+        "emotion": "neutral",
+        "text": "No , I guess not . But that's what I want , isn't it ? An efficiency .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , an efficiency is a small apartment . Usually one large room and a small bathroom . There is often a small kitchen too . So it's good for one person .",
+        "emotion": "neutral",
+        "text": "Yes , an efficiency is a small apartment . Usually one large room and a small bathroom . There is often a small kitchen too . So it's good for one person .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How about this one ? Downtown efficiency . Furnished ... What does furnished mean ?",
+        "emotion": "neutral",
+        "text": "How about this one ? Downtown efficiency . Furnished ... What does furnished mean ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That means the apartment has furniture in it .",
+        "emotion": "neutral",
+        "text": "That means the apartment has furniture in it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "That means the apartment has furniture in it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's good .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sometimes it's good , sometimes it's bad . You have to like the furniture .",
+        "emotion": "neutral",
+        "text": "Sometimes it's good , sometimes it's bad . You have to like the furniture .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Furnished . Parking included . $ 400 .",
+        "emotion": "neutral",
+        "text": "Furnished . Parking included . $ 400 .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It's still pretty expensive .",
+        "emotion": "neutral",
+        "text": "It's still pretty expensive .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Yes , but it's downtown . I would like to take look at this one .",
+        "emotion": "neutral",
+        "text": "Yes , but it's downtown . I would like to take look at this one .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Alright . What's the phone number ?",
+        "emotion": "neutral",
+        "text": "Alright . What's the phone number ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "256-7797 .",
+        "emotion": "neutral",
+        "text": "256-7797 .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Got it . What else do you see ?",
+        "emotion": "neutral",
+        "text": "Got it . What else do you see ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "This one . Two male grad students seeking roommate . Must be quiet . Comfortable downtown apartment . Does this mean I have to share a room with them ?",
+        "emotion": "neutral",
+        "text": "This one . Two male grad students seeking roommate . Must be quiet . Comfortable downtown apartment . Does this mean I have to share a room with them ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "No . It probably means they have a large apartment . Probably a living room , kitchen and three bedrooms . They need someone for the empty bedroom .",
+        "emotion": "neutral",
+        "text": "No . It probably means they have a large apartment . Probably a living room , kitchen and three bedrooms . They need someone for the empty bedroom .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "That sounds alright .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "They need someone for the empty bedroom ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds alright .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Yes , it might be an advantage for you . You are a foreigner , after all . If they're alright roommates , you could learn a lot from them .",
+        "emotion": "neutral",
+        "text": "Yes , it might be an advantage for you . You are a foreigner , after all . If they're alright roommates , you could learn a lot from them .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Here's the number , 256-4367 .",
+        "emotion": "neutral",
+        "text": "Here's the number , 256-4367 .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "Got it . Let ' s call these two and see if we can make appointments to see the apartments .",
+        "emotion": "neutral",
+        "text": "Got it . Let ' s call these two and see if we can make appointments to see the apartments .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "Sounds good to me . I really appreciate your help on this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "Let ' s call these two and see if we can make appointments to see the apartments .",
+            "Sounds good to me . I really appreciate your help on this ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sounds good to me . I really appreciate your help on this .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "Don't mention it , Larry . What are friends for anyway ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            25
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate your help on this ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it , Larry . What are friends for anyway ?",
+        "id": 26,
+        "source_sentences": [
+            24
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

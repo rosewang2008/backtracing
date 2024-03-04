@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But what we did in this experiment was something different."
+    },
+    {
+        "text": "We didn't pick a bus at random."
+    },
+    {
+        "text": "We picked a time at random."
+    },
+    {
+        "text": "And if the picture is, let's say, this way, I'm much more likely to pick this interval and therefore this interarrival time, rather than that interval."
+    },
+    {
+        "text": "Because, this interval corresponds to very few times."
+    },
+    {
+        "text": "So if I'm picking a time at random and, in some sense, let's say, uniform, so that all times are equally likely, I'm much more likely to fall inside a big interval rather than a small interval."
+    },
+    {
+        "text": "So a person who shows up at the bus stop at a random time."
+    },
+    {
+        "text": "They're selecting an interval in a biased way, with the bias favor of longer intervals."
+    },
+    {
+        "text": "And that's why what they observe is a random variable that has a larger expected value then the ordinary expected value."
+    },
+    {
+        "text": "So the subtlety here is to realize that we're talking between two different kinds of experiments."
+    },
+    {
+        "text": "Picking a bus number at random verses picking an interval at random with a bias in favor of longer intervals."
+    },
+    {
+        "text": "Lots of paradoxes that one can cook up using Poisson processes and random processes in general often have to do with the story of this kind."
+    },
+    {
+        "text": "The phenomenon that we had in this particular example also shows up in general, whenever you have other kinds of arrival processes."
+    },
+    {
+        "text": "So the Poisson process is the simplest arrival process there is, where the interarrival times are exponential random variables."
+    },
+    {
+        "text": "There's a larger class of models."
+    },
+    {
+        "text": "They're called renewal processes, in which, again, we have a sequence of successive arrivals, interarrival times are identically distributed and independent, but they may come from a general distribution."
+    },
+    {
+        "text": "So to make the same point of the previous example but in a much simpler setting, suppose that bus interarrival times are either 5 or 10 minutes apart."
+    },
+    {
+        "text": "So you get some intervals that are of length 5."
+    },
+    {
+        "text": "You get some that are of length 10."
+    },
+    {
+        "text": "And suppose that these are equally likely."
+    }
+]

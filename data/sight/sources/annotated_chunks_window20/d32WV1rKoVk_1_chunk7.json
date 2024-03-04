@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, let's see."
+    },
+    {
+        "text": "You may have to help me to remember what I should do here."
+    },
+    {
+        "text": "So I factor those."
+    },
+    {
+        "text": "I reverse those."
+    },
+    {
+        "text": "And then I think I add back the shift."
+    },
+    {
+        "text": "And that's my A1."
+    },
+    {
+        "text": "So I took A0."
+    },
+    {
+        "text": "I shifted it."
+    },
+    {
+        "text": "I worked with it, qr, reversed the order, rq, added back the shift to get a matrix."
+    },
+    {
+        "text": "And what am I, of course, hoping about the matrix A1 and A0?"
+    },
+    {
+        "text": "I'm hoping they're still similar."
+    },
+    {
+        "text": "I'm hoping."
+    },
+    {
+        "text": "So I did a shift."
+    },
+    {
+        "text": "And I undid a shift."
+    },
+    {
+        "text": "But of course, after doing a qr, I have to check, are these really still similar?"
+    },
+    {
+        "text": "So let me just try to check that one again."
+    },
+    {
+        "text": "Maybe I'll just, it's sitting right there."
+    },
+    {
+        "text": "So let me do it again."
+    },
+    {
+        "text": "I'm hoping that something, you know, where did we change?"
+    },
+    {
+        "text": "Oh, yeah, here."
+    }
+]

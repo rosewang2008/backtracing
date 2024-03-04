@@ -1,0 +1,1577 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "So again, welcome to 18.01."
+    },
+    {
+        "text": "We're getting started today with what we're calling Unit 1, highly imaginative topic, highly imaginative title."
+    },
+    {
+        "text": "And it's differentiation."
+    },
+    {
+        "text": "So let me first tell you briefly what's in store in the next couple of weeks."
+    },
+    {
+        "text": "The main topic today is what is a derivative."
+    },
+    {
+        "text": "And we're going to look at this from several different points of view."
+    },
+    {
+        "text": "And the first one is the geometric interpretation."
+    },
+    {
+        "text": "And that's what we'll spend most of today on."
+    },
+    {
+        "text": "And then we'll also talk about a physical interpretation of what a derivative is."
+    },
+    {
+        "text": "And then there's going to be something else, which I guess is maybe the reason why calculus is so fundamental and why we always start with it in most science and engineering schools, which is the importance of derivatives, of this, to all measurements."
+    },
+    {
+        "text": "So that means pretty much every place."
+    },
+    {
+        "text": "That means in science, in engineering, in economics, in political science, etc."
+    },
+    {
+        "text": "Polling, lots of commercial applications."
+    },
+    {
+        "text": "Just about everything."
+    },
+    {
+        "text": "Now, so that's what we'll be getting started with."
+    },
+    {
+        "text": "And then there's another thing that we're going to do in this unit."
+    },
+    {
+        "text": "Which is, we're going to explain how to differentiate anything."
+    },
+    {
+        "text": "So how to differentiate any function you know."
+    },
+    {
+        "text": "And that's kind of a tall order."
+    },
+    {
+        "text": "But let me just give you an example."
+    },
+    {
+        "text": "If you want to take the derivative, this we'll see today as the notation for the derivative of something, of some messy function like e to the x arctan of x, we'll work this out by the end of this unit."
+    },
+    {
+        "text": "So anything you can think of, anything you can write down, we can differentiate it."
+    },
+    {
+        "text": "So that's what we're going to do."
+    },
+    {
+        "text": "And today, as I said, we're going to spend most of our time on this geometric interpretation."
+    },
+    {
+        "text": "So let's begin with that."
+    },
+    {
+        "text": "So here we go with the geometric interpretation of derivatives."
+    },
+    {
+        "text": "And what we're going to do is just ask the geometric problem of finding the tangent line to some graph of some function at some point."
+    },
+    {
+        "text": "Which is, say, x0, y0."
+    },
+    {
+        "text": "So that's the problem that we're addressing here."
+    },
+    {
+        "text": "Guess I should probably turn this off."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So here's our problem."
+    },
+    {
+        "text": "And now let me show you the solution."
+    },
+    {
+        "text": "So, well, let's graph the function."
+    },
+    {
+        "text": "So let's say here's its graph."
+    },
+    {
+        "text": "And here's some point."
+    },
+    {
+        "text": "Maybe I should draw it just a bit lower so that I don't..."
+    },
+    {
+        "text": "So here's a point P. Maybe it's above the point x0."
+    },
+    {
+        "text": "x0, by the way, this was supposed to be an x0."
+    },
+    {
+        "text": "That was some fixed place on the x-axis."
+    },
+    {
+        "text": "And now, in order to perform this mighty feat, I will use another color of chalk."
+    },
+    {
+        "text": "How about red?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So here it is."
+    },
+    {
+        "text": "There's the tangent line."
+    },
+    {
+        "text": "Well, not quite straight."
+    },
+    {
+        "text": "Close enough."
+    },
+    {
+        "text": "I did it."
+    },
+    {
+        "text": "That's the end."
+    },
+    {
+        "text": "That's the geometric problem."
+    },
+    {
+        "text": "I achieved what I wanted to do."
+    },
+    {
+        "text": "And it's kind of an interesting question, which unfortunately I can't solve for you in this class."
+    },
+    {
+        "text": "Which is, how did I do that?"
+    },
+    {
+        "text": "That is, how physically did I manage to know what to do to draw this tangent line?"
+    },
+    {
+        "text": "But that's what geometric problems are like."
+    },
+    {
+        "text": "We visualize it, we can figure it out."
+    },
+    {
+        "text": "Somewhere in our brains it happens."
+    },
+    {
+        "text": "And the task that we have now is to figure out how to do it analytically."
+    },
+    {
+        "text": "To do it in a way that a machine could do just as well as I did."
+    },
+    {
+        "text": "In drawing this tangent line."
+    },
+    {
+        "text": "So what did we learn in high school about what a tangent line is?"
+    },
+    {
+        "text": "Well, a tangent line has an equation."
+    },
+    {
+        "text": "And any line through a point has the equation y minus y0 is equal to m, the slope, times x minus x0."
+    },
+    {
+        "text": "So here's the equation for that line."
+    },
+    {
+        "text": "And now there are two pieces of information that we're going to need to work out what the line is."
+    },
+    {
+        "text": "The first one is the point."
+    },
+    {
+        "text": "That's that point P there."
+    },
+    {
+        "text": "And to specify P, given x, we need to know the level of y, which is of course just f of x0."
+    },
+    {
+        "text": "Now, that's not a calculus problem, but anyway that's a very important part of the process."
+    },
+    {
+        "text": "So that's the first thing we need to know."
+    },
+    {
+        "text": "And the second thing we need to know is the slope."
+    },
+    {
+        "text": "And that's this number m. And in calculus, we have another name for it."
+    },
+    {
+        "text": "We call it f' of x0."
+    },
+    {
+        "text": "Namely, the derivative of f. So that's the calculus part."
+    },
+    {
+        "text": "That's the tricky part."
+    },
+    {
+        "text": "And that's the part that we have to discuss now."
+    },
+    {
+        "text": "So just to make that explicit here, I'm going to make a definition."
+    },
+    {
+        "text": "Which is that f' of x0, which is known as the derivative of f, at x0, is the slope of the tangent line to y equals f of x at the point, let's just call it P. So that's what it is."
+    },
+    {
+        "text": "But still I haven't made any progress in figuring out any better how I drew that line."
+    },
+    {
+        "text": "So I have to say something that's more concrete."
+    },
+    {
+        "text": "Because I want to be able to cook up what these numbers are."
+    },
+    {
+        "text": "I have to figure out what this number m is."
+    },
+    {
+        "text": "And one way of thinking about that, let me just try it, is, so I certainly am taking for granted the sort of non-calculus part."
+    },
+    {
+        "text": "That I know what a line through a point is."
+    },
+    {
+        "text": "So I know this equation."
+    },
+    {
+        "text": "But another possibility might be this line here."
+    },
+    {
+        "text": "How do I know, well, unfortunately I didn't draw it quite straight, but there it is."
+    },
+    {
+        "text": "How do I know that this orange line is not a tangent line, but this other line is a tangent line?"
+    },
+    {
+        "text": "Well, it's actually not so obvious."
+    },
+    {
+        "text": "But I'm going to describe it a little bit."
+    },
+    {
+        "text": "It's not really the fact, this thing crosses at some other place."
+    },
+    {
+        "text": "Which is this point q."
+    },
+    {
+        "text": "But it's not really the fact that the thing crosses at two places."
+    },
+    {
+        "text": "Because the line could be wiggly, the curve could be wiggly."
+    },
+    {
+        "text": "And it could cross back and forth a number of times."
+    },
+    {
+        "text": "That's not what distinguishes the tangent line."
+    },
+    {
+        "text": "So I'm going to have to somehow grasp this."
+    },
+    {
+        "text": "And I'll first do it in language."
+    },
+    {
+        "text": "And it's the following idea."
+    },
+    {
+        "text": "It's that if you take this orange line, which is called a secant line, and you think of the q, the point q is getting closer and closer to p, then the slope of that line will get closer and closer to the slope of the red line."
+    },
+    {
+        "text": "And if we draw it close enough, then that's going to be the correct line."
+    },
+    {
+        "text": "So that's really what I did, sort of in my brain, when I drew that first line."
+    },
+    {
+        "text": "And so that's the way I'm going to articulate it first now."
+    },
+    {
+        "text": "So the tangent line is equal to the limit of what's so-called secant lines, pq, as q tends to p. And here we're thinking of p as being fixed."
+    },
+    {
+        "text": "And q as varying."
+    },
+    {
+        "text": "Alright, so that's the, again this is still a geometric discussion."
+    },
+    {
+        "text": "But now we're going to be able to put symbols and formulas to this computation."
+    },
+    {
+        "text": "And we'll be able to work out formulas in any example."
+    },
+    {
+        "text": "So let's do that."
+    },
+    {
+        "text": "So first of all, I'm going to write out these points p and q again."
+    },
+    {
+        "text": "So maybe we'll put p here and q here."
+    },
+    {
+        "text": "And I'm thinking of this line through them."
+    },
+    {
+        "text": "I guess it was orange, so we'll leave it as orange."
+    },
+    {
+        "text": "And now I want to compute its slope."
+    },
+    {
+        "text": "And so this gradually, we'll do this in two steps."
+    },
+    {
+        "text": "And these steps will introduce us to the basic notations which are used throughout calculus, including multivariable calculus, across the board."
+    },
+    {
+        "text": "So the first notation that's used is, you imagine, here's the x-axis underneath, and here's the x0, the location directly below the point p. And we're traveling here a horizontal distance, which is denoted by delta x."
+    },
+    {
+        "text": "So that's delta x, so-called."
+    },
+    {
+        "text": "And we could also call it the change in x."
+    },
+    {
+        "text": "So that's one thing we want to measure in order to get the slope of this line p, q."
+    },
+    {
+        "text": "And the other thing is this height."
+    },
+    {
+        "text": "So that's this distance here, which we denote delta f, which is the change in f. And then the slope is just the ratio delta f over delta x."
+    },
+    {
+        "text": "So this is the slope of the secant."
+    },
+    {
+        "text": "And the process I just described over here with this limit applies not just to the whole line itself, but also in particular to its slope."
+    },
+    {
+        "text": "And the way we write that is the limit as delta x goes to 0."
+    },
+    {
+        "text": "And that's going to be our slope."
+    },
+    {
+        "text": "So this is the slope of the tangent line."
+    },
+    {
+        "text": "OK, now this is still a little general, and I want to work out a more usable form here."
+    },
+    {
+        "text": "I want to work out a better formula for this."
+    },
+    {
+        "text": "And in order to do that, I'm going to write delta f, the numerator, more explicitly here."
+    },
+    {
+        "text": "The change in f. So remember that the point p is the point x0, f of x0."
+    },
+    {
+        "text": "That's what we got from our formula for the point."
+    },
+    {
+        "text": "And in order to compute these distances, and in particular the vertical distance here, I'm going to have to get a formula for q as well."
+    },
+    {
+        "text": "So if this horizontal distance is delta x, then this location is x0 plus delta x."
+    },
+    {
+        "text": "And so the point above that point has a formula which is x0 plus delta x, f of, and this is a mouthful, x0 plus delta x."
+    },
+    {
+        "text": "So there's the formula for the point q."
+    },
+    {
+        "text": "Here's the formula for the point p. And now I can write a different formula for the derivative."
+    },
+    {
+        "text": "Which is the following."
+    },
+    {
+        "text": "So this f' of x0, which is the same as m, is going to be the limit as delta x goes to 0 of the change in f. Well, the change in f is the value of f at the upper point here, which is x0 plus delta x."
+    },
+    {
+        "text": "And minus its value at the lower point, p, which is f of x0, divided by delta x."
+    },
+    {
+        "text": "So this is the formula."
+    },
+    {
+        "text": "I'm going to put this in a little box, because this is by far the most important formula today, which we use to derive pretty much everything else."
+    },
+    {
+        "text": "And this is the way that we're going to be able to compute these numbers."
+    },
+    {
+        "text": "So let's do an example."
+    },
+    {
+        "text": "This example, so we'll call this example 1."
+    },
+    {
+        "text": "We'll take the function f of x, which is 1 over x."
+    },
+    {
+        "text": "That's sufficiently complicated to have an interesting answer."
+    },
+    {
+        "text": "And sufficiently straightforward that we can compute the derivative fairly quickly."
+    },
+    {
+        "text": "So what is it that we're going to do here?"
+    },
+    {
+        "text": "All we're going to do is we're going to plug in this formula here for that function."
+    },
+    {
+        "text": "That's all we're going to do."
+    },
+    {
+        "text": "And visually, what we're accomplishing is somehow to take the hyperbola, and take a point on the hyperbola, and figure out some tangent line."
+    },
+    {
+        "text": "That's what we're accomplishing when we do that."
+    },
+    {
+        "text": "So we're accomplishing this geometrically, but we'll be doing it algebraically."
+    },
+    {
+        "text": "So first, we consider this difference, delta f over delta x."
+    },
+    {
+        "text": "And write out its formula."
+    },
+    {
+        "text": "So I have to have a place, so I'm going to make it again above this point x0, which is a general point."
+    },
+    {
+        "text": "We'll make the general calculation."
+    },
+    {
+        "text": "So the value of f at the top, when we move to the right by f of x, so I just read off from this, read off from here the formula."
+    },
+    {
+        "text": "The first thing I get here is 1 over x0 plus delta x."
+    },
+    {
+        "text": "That's the left-hand term."
+    },
+    {
+        "text": "Minus 1 over x0."
+    },
+    {
+        "text": "That's the right-hand term."
+    },
+    {
+        "text": "And then I have to divide that by delta x."
+    },
+    {
+        "text": "So here's our expression."
+    },
+    {
+        "text": "And by the way, this has a name."
+    },
+    {
+        "text": "This thing is called a difference quotient."
+    },
+    {
+        "text": "It's pretty complicated because there's always a difference in the numerator."
+    },
+    {
+        "text": "And in disguise, the denominator is a difference because it's the difference between the value on the right side and the value on the left side here."
+    },
+    {
+        "text": "So now we're going to simplify it by some algebra."
+    },
+    {
+        "text": "So let's just take a look."
+    },
+    {
+        "text": "So this is equal to, let's continue on the next level here, this is equal to 1 over delta x times, now all I'm going to do is put it over a common denominator."
+    },
+    {
+        "text": "So the common denominator is x0 plus delta x times x0."
+    },
+    {
+        "text": "And so in the numerator, for the first expression, I have x0."
+    },
+    {
+        "text": "And for the second expression, I have x0 plus delta x."
+    },
+    {
+        "text": "So this is the same thing as I had in the numerator before."
+    },
+    {
+        "text": "Factoring out this denominator."
+    },
+    {
+        "text": "And here I put that numerator into this more amenable form."
+    },
+    {
+        "text": "And now there are two basic cancellations."
+    },
+    {
+        "text": "The first one is that x0 and x0 cancel."
+    },
+    {
+        "text": "So we have this."
+    },
+    {
+        "text": "And then the second step is that these two expressions cancel."
+    },
+    {
+        "text": "The numerator and denominator, now we have a cancellation that we can make use of."
+    },
+    {
+        "text": "So we'll write that under here."
+    },
+    {
+        "text": "And this is equals minus 1 over x0 plus delta x times x0."
+    },
+    {
+        "text": "And then the very last step is to take the limit as delta x tends to 0."
+    },
+    {
+        "text": "And now we can do it."
+    },
+    {
+        "text": "Before we couldn't do it."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Because the numerator and the denominator gave us 0 over 0."
+    },
+    {
+        "text": "But now that I've made this cancellation, I can pass to the limit."
+    },
+    {
+        "text": "And all that happens is I set this delta x equal to 0, and I get minus 1 over x0 squared."
+    },
+    {
+        "text": "So that's the answer."
+    },
+    {
+        "text": "So in other words, what I've shown, let me put it up here, is that f' x0 is minus 1 over x0 squared."
+    },
+    {
+        "text": "Now, let's look at the graph just a little bit to check this for plausibility."
+    },
+    {
+        "text": "What's happening here is, first of all, it's negative."
+    },
+    {
+        "text": "It's less than 0."
+    },
+    {
+        "text": "Which is a good thing."
+    },
+    {
+        "text": "You see that slope there is negative."
+    },
+    {
+        "text": "That's the simplest check that you could make."
+    },
+    {
+        "text": "And the second thing that I would just like to point out is that as x goes to infinity, that is, as we go farther to the right, it gets less and less steep."
+    },
+    {
+        "text": "So less."
+    },
+    {
+        "text": "And whoops, as x0 goes to infinity, not 0."
+    },
+    {
+        "text": "As x0 goes to infinity, less and less steep."
+    },
+    {
+        "text": "So that's also consistent here."
+    },
+    {
+        "text": "When x0 is very large, this is a smaller and smaller number in magnitude."
+    },
+    {
+        "text": "Although it's always negative."
+    },
+    {
+        "text": "It's always sloping down."
+    },
+    {
+        "text": "So I've managed to fill the boards, so maybe I should stop for a question or two."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 1."
+    },
+    {
+        "text": "Can you explain why it's 2, 2, and 0, and why it's 2, 1, 1, and 0?"
+    },
+    {
+        "text": "PROFESSOR CELESTE GRAYSON So the question is to explain again this limiting process."
+    },
+    {
+        "text": "So the formula here is, we have basically two numbers."
+    },
+    {
+        "text": "So in other words, why is it that this expression, when delta x tends to 0, is equal to minus 1 over x0 squared?"
+    },
+    {
+        "text": "Let me illustrate it by sticking in a number for x0 to make it more explicit."
+    },
+    {
+        "text": "So for instance, let me stick in here for x0 the number 3."
+    },
+    {
+        "text": "Then it's minus 1 over 3 plus delta x times 3."
+    },
+    {
+        "text": "That's the situation that we've got."
+    },
+    {
+        "text": "And now the question is, what happens as this number gets smaller and smaller and smaller and gets to be practically 0?"
+    },
+    {
+        "text": "Well, literally what we can do is just plug in 0 there."
+    },
+    {
+        "text": "Then you get 3 plus 0 times 3 in the denominator."
+    },
+    {
+        "text": "Minus 1 in the numerator."
+    },
+    {
+        "text": "So this tends to minus 1 over 9, over 3 squared."
+    },
+    {
+        "text": "And that's what I'm saying in general with this extra number here."
+    },
+    {
+        "text": "Other questions?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 2 How do you simplify from delta f over delta x?"
+    },
+    {
+        "text": "How do you simplify from your equation to 1 over delta x factor of?"
+    },
+    {
+        "text": "So the question is, what happened between this step and this step?"
+    },
+    {
+        "text": "Explain this step here."
+    },
+    {
+        "text": "So there were two parts to that."
+    },
+    {
+        "text": "The first is, this delta x which was sitting in the denominator, I factored all the way out front."
+    },
+    {
+        "text": "And so what's in the parentheses is supposed to be the same as what's in the numerator of this other expression."
+    },
+    {
+        "text": "And then, at the same time as doing that, I put that expression, which is the difference of two fractions, I expressed it with a common denominator."
+    },
+    {
+        "text": "So in the denominator here, you see the product of the denominators of the two fractions."
+    },
+    {
+        "text": "And then I just figured out what the numerator had to be."
+    },
+    {
+        "text": "Without really, yeah."
+    },
+    {
+        "text": "Other questions?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So now, so I claim that on the whole, calculus gets a bad rap."
+    },
+    {
+        "text": "That it's actually easier than most things."
+    },
+    {
+        "text": "But there's a perception that it's harder."
+    },
+    {
+        "text": "And so I really have a duty to give you the calculus made harder story here."
+    },
+    {
+        "text": "So we have to make things harder, because that's our job."
+    },
+    {
+        "text": "And this is actually what most people do in calculus."
+    },
+    {
+        "text": "And it's the reason why calculus has a bad reputation."
+    },
+    {
+        "text": "So the secret is that when people ask problems in calculus, they generally ask them in context."
+    },
+    {
+        "text": "And there are many, many other things going on."
+    },
+    {
+        "text": "And so the little piece of the problem, which is calculus, is actually fairly routine."
+    },
+    {
+        "text": "And has to be isolated and gotten through."
+    },
+    {
+        "text": "But all the rest of it relies on everything else you learned in mathematics up to this stage."
+    },
+    {
+        "text": "From grade school through high school."
+    },
+    {
+        "text": "So that's the complication."
+    },
+    {
+        "text": "So now we're going to do a little bit of calculus made hard."
+    },
+    {
+        "text": "By talking about a word problem."
+    },
+    {
+        "text": "Now, we only have one sort of word problem that we can pose."
+    },
+    {
+        "text": "Because all we've talked about is this geometry point of view."
+    },
+    {
+        "text": "So so far those are the only kinds of word problems we can pose."
+    },
+    {
+        "text": "So what we're going to do is just pose such a problem."
+    },
+    {
+        "text": "So find the areas of triangles enclosed by the axes and the tangent to y equals 1 over x."
+    },
+    {
+        "text": "So that's a geometry problem."
+    },
+    {
+        "text": "And let me draw a picture of it."
+    },
+    {
+        "text": "It's practically the same as the picture for example 1, of course."
+    },
+    {
+        "text": "So here's, we'll only consider the first quadrant."
+    },
+    {
+        "text": "Here's our shape."
+    },
+    {
+        "text": "It's the hyperbola."
+    },
+    {
+        "text": "And here's maybe one of our tangent lines, which is coming in like this."
+    },
+    {
+        "text": "And then we're trying to find this area here."
+    },
+    {
+        "text": "So there's our problem."
+    },
+    {
+        "text": "So why does it have to do with calculus?"
+    },
+    {
+        "text": "It has to do with calculus because there's a tangent line in it."
+    },
+    {
+        "text": "And so we're going to need to do some calculus to answer this question."
+    },
+    {
+        "text": "But as you'll see, the calculus is the easy part."
+    },
+    {
+        "text": "So let's get started with this problem."
+    },
+    {
+        "text": "First of all, I'm going to label a few things."
+    },
+    {
+        "text": "And one important thing to remember, of course, is that the curve is y equals 1 over x."
+    },
+    {
+        "text": "That's perfectly reasonable to do."
+    },
+    {
+        "text": "And also, we're going to calculate the areas of the triangles."
+    },
+    {
+        "text": "And you could ask yourself, in terms of what?"
+    },
+    {
+        "text": "Well, we're going to have to pick a point and give it a name."
+    },
+    {
+        "text": "And since we need a number, we're going to have to do more than geometry."
+    },
+    {
+        "text": "We're going to have to do some of this analysis, just as we've done before."
+    },
+    {
+        "text": "So I'm going to pick a point."
+    },
+    {
+        "text": "And consistent with the labeling we've done before, I'm going to call it x0, y0."
+    },
+    {
+        "text": "So that's almost half the battle."
+    },
+    {
+        "text": "Having notations, x and y for the variables, and x0 and y0 for the specific point."
+    },
+    {
+        "text": "Now, once you see that you have these labelings, I hope it's reasonable to do the following."
+    },
+    {
+        "text": "So first of all, this is the point x0."
+    },
+    {
+        "text": "And over here is the point y0."
+    },
+    {
+        "text": "That's something that we're used to in graphs."
+    },
+    {
+        "text": "And in order to figure out the area of this triangle, it's pretty clear that we should find the base."
+    },
+    {
+        "text": "Which is that we should find this location here."
+    },
+    {
+        "text": "And we should find the height."
+    },
+    {
+        "text": "So we need to find that value there."
+    },
+    {
+        "text": "So let's go ahead and do it."
+    },
+    {
+        "text": "So how are we going to do this?"
+    },
+    {
+        "text": "Well, so let's just take a look."
+    },
+    {
+        "text": "So what is it that we need to do?"
+    },
+    {
+        "text": "I claim that there's only one calculus step."
+    },
+    {
+        "text": "And I'm going to put a star here for this tangent line."
+    },
+    {
+        "text": "I have to understand what the tangent line is."
+    },
+    {
+        "text": "And once I figure out what the tangent line is, the rest of the problem is no longer calculus."
+    },
+    {
+        "text": "It's just that slope that we need."
+    },
+    {
+        "text": "So what's the formula for the tangent line?"
+    },
+    {
+        "text": "Put that over here."
+    },
+    {
+        "text": "It's going to be y minus y0 is equal to, and here's the magic number, we already calculated it."
+    },
+    {
+        "text": "It's in the box over there."
+    },
+    {
+        "text": "It's minus 1 over x0 squared."
+    },
+    {
+        "text": "x minus x0."
+    },
+    {
+        "text": "So this is the only bit of calculus in this problem."
+    },
+    {
+        "text": "But now we're not done."
+    },
+    {
+        "text": "We have to finish it."
+    },
+    {
+        "text": "We have to figure out all the rest of these quantities so we can figure out the area."
+    },
+    {
+        "text": "So how do we do that?"
+    },
+    {
+        "text": "Well, to find this point, this has a name."
+    },
+    {
+        "text": "We're going to find the so-called x-intercept."
+    },
+    {
+        "text": "That's the first thing we're going to do."
+    },
+    {
+        "text": "So to do that, what we need to do is to find where this horizontal line meets that diagonal line."
+    },
+    {
+        "text": "And the equation for the x-intercept is y equals 0."
+    },
+    {
+        "text": "So we plug in y equals 0, that's this horizontal line, and we find this point."
+    },
+    {
+        "text": "So let's do that into star."
+    },
+    {
+        "text": "So we get 0 minus, oh, one other thing we need to know."
+    },
+    {
+        "text": "We know that y0 is f x0, and f x is 1 over x."
+    },
+    {
+        "text": "So this thing is 1 over x0."
+    },
+    {
+        "text": "And that's equal to minus 1 over x0 squared."
+    },
+    {
+        "text": "And here's x, and here's x0."
+    },
+    {
+        "text": "So in order to find this x value, I have to plug in one equation into the other."
+    },
+    {
+        "text": "So this simplifies a bit."
+    },
+    {
+        "text": "Let's put, let's see, this is minus x over x0 squared."
+    },
+    {
+        "text": "And this is plus 1 over x0, because the x0 and x0 squared cancel somewhat."
+    },
+    {
+        "text": "And so if I put this on the other side, I get x divided by x0 squared is equal to 2 over x0."
+    },
+    {
+        "text": "And if I then multiply through, so that's what this implies."
+    },
+    {
+        "text": "And if I multiply through by x0 squared, I get x is equal to 2x0."
+    },
+    {
+        "text": "So I claim at this point, we've just calculated, it's 2x0."
+    },
+    {
+        "text": "Now, I'm almost done."
+    },
+    {
+        "text": "I need to get the other one."
+    },
+    {
+        "text": "I need to get this one up here."
+    },
+    {
+        "text": "Now, I'm going to use a very big shortcut to do that."
+    },
+    {
+        "text": "So the shortcut to the y-intercept is to use symmetry."
+    },
+    {
+        "text": "I claim I can stare at this, and I can look at that, and I know the formula for the y-intercept."
+    },
+    {
+        "text": "It's equal to 2y0."
+    },
+    {
+        "text": "That's what that one is."
+    },
+    {
+        "text": "So this one is 2y0."
+    },
+    {
+        "text": "And the reason I know this is the following."
+    },
+    {
+        "text": "So here's the symmetry of the situation, which is not completely direct."
+    },
+    {
+        "text": "It's a kind of mirror symmetry around the diagonal."
+    },
+    {
+        "text": "It involves the exchange of x, y with y, x."
+    },
+    {
+        "text": "So it's trading the roles of x and y."
+    },
+    {
+        "text": "So the symmetry that I'm using is that any formula I get that involves x's and y's, if I trade all the x's and replace them by y's, and trade all the y's and replace them by x's, then I'll have a correct formula on the other way."
+    },
+    {
+        "text": "So everywhere I see a y, I make it an x."
+    },
+    {
+        "text": "And everywhere I see an x, I make it a y."
+    },
+    {
+        "text": "The switch will take place."
+    },
+    {
+        "text": "So why is that?"
+    },
+    {
+        "text": "That's because the, that's just an accident of this equation."
+    },
+    {
+        "text": "That's because, so the symmetry explained is that the equation is y equals 1 over x."
+    },
+    {
+        "text": "But that's the same thing as xy equals 1, if I multiply through by x."
+    },
+    {
+        "text": "Which is the same thing as x equals 1 over y."
+    },
+    {
+        "text": "So here's where the x and the y get reversed."
+    },
+    {
+        "text": "Now, if you don't trust this explanation, you can also get the y-intercept by plugging x equals 0 into the equation star."
+    },
+    {
+        "text": "We plugged y equals 0 in, and we got the x value."
+    },
+    {
+        "text": "And you could do the same thing analogously the other way."
+    },
+    {
+        "text": "So I'm almost done with the geometry problem."
+    },
+    {
+        "text": "And let's finish it off now."
+    },
+    {
+        "text": "Well, let me hold off for one second before I finish it off."
+    },
+    {
+        "text": "What I'd like to say is just make one more tiny remark."
+    },
+    {
+        "text": "And this is the hardest part of calculus, in my opinion."
+    },
+    {
+        "text": "So the hardest part of calculus is that we call it one-variable calculus."
+    },
+    {
+        "text": "But we're perfectly happy to deal with four variables at a time."
+    },
+    {
+        "text": "Or five."
+    },
+    {
+        "text": "Or any number."
+    },
+    {
+        "text": "In this problem, I had an x, a y, an x0, and a y0."
+    },
+    {
+        "text": "That's already four different things."
+    },
+    {
+        "text": "They have various interrelationships between them."
+    },
+    {
+        "text": "So of course, the manipulations we do with them are algebraic."
+    },
+    {
+        "text": "And when we're doing the derivatives, we just consider what's known as one-variable calculus."
+    },
+    {
+        "text": "But really, there are millions of variables floating around, potentially."
+    },
+    {
+        "text": "So that's what makes things complicated."
+    },
+    {
+        "text": "And that's something that you have to get used to."
+    },
+    {
+        "text": "Now, there's something else which is more subtle in that I think many people who teach the subject, or use the subject, aren't aware because they've already entered into the language."
+    },
+    {
+        "text": "And they're so comfortable with it that they don't even notice this confusion."
+    },
+    {
+        "text": "There's something deliberately sloppy about the way we deal with these variables."
+    },
+    {
+        "text": "The reason is very simple."
+    },
+    {
+        "text": "There are already four variables here."
+    },
+    {
+        "text": "I don't want to create six names for variables, or eight names for variables."
+    },
+    {
+        "text": "But really, in this problem, there were about eight."
+    },
+    {
+        "text": "I just slipped them by you."
+    },
+    {
+        "text": "So why is that?"
+    },
+    {
+        "text": "Well, notice that the first time that I got a formula for y0 here, it was this point."
+    },
+    {
+        "text": "And so the formula for y0, which I plugged in right here, was from the equation of the curve, y0 equals 1 over x0."
+    },
+    {
+        "text": "The second time I did it, I did not use y equals 1 over x. I used this equation here."
+    },
+    {
+        "text": "So this is not y equals 1 over x."
+    },
+    {
+        "text": "That's the wrong thing to do."
+    },
+    {
+        "text": "That's an easy mistake to make if the formulas are all a blur to you, and you're not paying attention to where they are on the diagram."
+    },
+    {
+        "text": "You see, that y-intercept, that x-intercept calculation there, involved where this horizontal line met this diagonal line."
+    },
+    {
+        "text": "And y equals 0 represented this line here."
+    },
+    {
+        "text": "So the sloppiness is that y means two different things."
+    },
+    {
+        "text": "And we do this constantly because it's way, way more complicated not to do it."
+    },
+    {
+        "text": "It's much more convenient for us to allow ourselves the flexibility to change the role that this letter plays in the middle of the computation."
+    },
+    {
+        "text": "And similarly, later on, if I had done this by this more straightforward method for the y-intercept, I would have set x equal to 0."
+    },
+    {
+        "text": "That would have been this vertical line, which is x equals 0."
+    },
+    {
+        "text": "But I didn't change the letter x when I did that."
+    },
+    {
+        "text": "Because that would be a waste for us."
+    },
+    {
+        "text": "So this is one of the main confusions that happens."
+    },
+    {
+        "text": "If you can keep yourself straight, you're a lot better off."
+    },
+    {
+        "text": "And as I say, this is one of the complexities."
+    },
+    {
+        "text": "So now let's finish off the problem."
+    },
+    {
+        "text": "Let me finally get this area here."
+    },
+    {
+        "text": "So actually, I'll just finish it off right here."
+    },
+    {
+        "text": "So the area of the triangle is, well, it's the base times the height."
+    },
+    {
+        "text": "The base is 2x0, the height is 2y0, and a half of that."
+    },
+    {
+        "text": "So it's 1 by 2x0 times 2y0, which is 2x0y0, which is, lo and behold, 2."
+    },
+    {
+        "text": "So the amusing thing in this case is it actually didn't matter what x0 and y0 are."
+    },
+    {
+        "text": "We get the same answer every time."
+    },
+    {
+        "text": "That's just an accident of the function 1 over x."
+    },
+    {
+        "text": "Happens to be the function with that property."
+    },
+    {
+        "text": "So we still have more business today."
+    },
+    {
+        "text": "Serious business."
+    },
+    {
+        "text": "So let me continue."
+    },
+    {
+        "text": "So first of all, I want to give you a few more notations."
+    },
+    {
+        "text": "And these are just other ways that people refer, notations that people use to refer to derivatives."
+    },
+    {
+        "text": "And the first one is the following."
+    },
+    {
+        "text": "We already wrote y is equal to f x."
+    },
+    {
+        "text": "And so when we write delta y, that means the same thing as delta f. That's a typical notation."
+    },
+    {
+        "text": "And previously, we wrote f' for the derivative."
+    },
+    {
+        "text": "So this is Newton's notation for the derivative."
+    },
+    {
+        "text": "But there are other notations."
+    },
+    {
+        "text": "And one of them is df dx."
+    },
+    {
+        "text": "And another one is dy dx, meaning exactly the same thing."
+    },
+    {
+        "text": "And sometimes we let the function slip down below."
+    },
+    {
+        "text": "So that becomes d by dx of f, or d by dx of y."
+    },
+    {
+        "text": "So these are all notations that are used for the derivative, and these were initiated by Leibniz."
+    },
+    {
+        "text": "And these notations are used interchangeably, sometimes practically together."
+    },
+    {
+        "text": "They both turn out to be extremely useful."
+    },
+    {
+        "text": "This one omits, notice that this thing omits the underlying base point x0."
+    },
+    {
+        "text": "That's one of the nuisances."
+    },
+    {
+        "text": "It doesn't give you all the information."
+    },
+    {
+        "text": "But there are lots of situations like that where people leave out some of the important information."
+    },
+    {
+        "text": "You have to fill it in from context."
+    },
+    {
+        "text": "So that's another couple of notations."
+    },
+    {
+        "text": "So now I have one more calculation for you today."
+    },
+    {
+        "text": "I carried out this calculation of the derivative of the function 1 over x. I want to take care of some other powers."
+    },
+    {
+        "text": "So let's do that."
+    },
+    {
+        "text": "So Example 2 is going to be the function f x is x n. n equals 1, 2, 3."
+    },
+    {
+        "text": "One of these guys."
+    },
+    {
+        "text": "And now what we're trying to figure out is the derivative with respect to x of x n in our new notation."
+    },
+    {
+        "text": "What this is equal to."
+    },
+    {
+        "text": "So again, we're going to form this expression, delta f delta x, and we're going to make some algebraic simplification."
+    },
+    {
+        "text": "So what we plug in for delta f is x delta x to the n minus x to the n divided by delta x."
+    },
+    {
+        "text": "Now, before, let me just stick this in and I'm going to erase it."
+    },
+    {
+        "text": "Before, I wrote x0 here and x0 there."
+    },
+    {
+        "text": "But now I'm going to get rid of it."
+    },
+    {
+        "text": "Because in this particular calculation, it's a nuisance."
+    },
+    {
+        "text": "I don't have an x floating around, which means something different from the x0."
+    },
+    {
+        "text": "And I just don't want to have to keep on writing all those symbols."
+    },
+    {
+        "text": "It's a waste of blackboard energy."
+    },
+    {
+        "text": "There's a total amount of energy that I'm, you know, I've already filled up so many blackboards that it's just a limited amount of, plus I'm trying to conserve chalk."
+    },
+    {
+        "text": "OK, anyway, no 0's."
+    },
+    {
+        "text": "So think of x as fixed."
+    },
+    {
+        "text": "Again, in this case, delta x moves and x is fixed."
+    },
+    {
+        "text": "In this calculation."
+    },
+    {
+        "text": "Now, in order to simplify this, in order to understand algebraically what's going on, I need to understand what the nth power of a sum is."
+    },
+    {
+        "text": "And that's a famous formula."
+    },
+    {
+        "text": "We only need a little tiny bit of it."
+    },
+    {
+        "text": "Called the binomial theorem."
+    },
+    {
+        "text": "So the binomial theorem, which is in your text and explained in an exercise, says, in an appendix, sorry, says that if you take the sum of two guys and you take them to the nth power, that of course is x delta x multiplied by itself n times."
+    },
+    {
+        "text": "And so the first term is x n. That's when all of the n factors come in."
+    },
+    {
+        "text": "And then you could have this factor of delta x and all the rest x's."
+    },
+    {
+        "text": "So at least one term of the form x n-1 times delta x."
+    },
+    {
+        "text": "And how many times does that happen?"
+    },
+    {
+        "text": "Well, it happens when there's a factor from here, from the next factor, and so on and so on and so on."
+    },
+    {
+        "text": "There's a total of n possible times that that happens."
+    },
+    {
+        "text": "And now, the great thing is that with this alone, all the rest of the terms are junk."
+    },
+    {
+        "text": "That we won't have to worry about."
+    },
+    {
+        "text": "So to be more specific, the junk, there's a very careful notation for the junk."
+    },
+    {
+        "text": "The junk is what's called big O of delta x squared."
+    },
+    {
+        "text": "What that means is that these are terms of order, so with, delta x squared, delta x cubed, or higher."
+    },
+    {
+        "text": "That's how."
+    },
+    {
+        "text": "Very exciting, higher order terms."
+    },
+    {
+        "text": "So this is the only algebra that we need to do."
+    },
+    {
+        "text": "And now we just need to combine it together to get our result."
+    },
+    {
+        "text": "So now I'm going to just carry out the cancellations that we need."
+    },
+    {
+        "text": "So here we go."
+    },
+    {
+        "text": "We have delta f over delta x, which remember was 1 over delta x times this."
+    },
+    {
+        "text": "Which is this times, now this is x to the n, plus n x to the n-1 delta x, plus this junk term, minus x to the n. So that's what we have so far, based on our previous calculations."
+    },
+    {
+        "text": "Now I'm going to do the main cancellation, which is this."
+    },
+    {
+        "text": "So that's 1 over delta x times n x to the n-1 delta x."
+    },
+    {
+        "text": "Plus this term here."
+    },
+    {
+        "text": "And now I can divide in by delta x."
+    },
+    {
+        "text": "So I get n x to the n-1 plus, now it's O of delta x."
+    },
+    {
+        "text": "There's at least one factor of delta x, not two factors of delta x, because I have to cancel one of them."
+    },
+    {
+        "text": "And now I can just take the limit."
+    },
+    {
+        "text": "And the limit this term is going to be 0."
+    },
+    {
+        "text": "That's why I called it junk originally."
+    },
+    {
+        "text": "Because it disappears."
+    },
+    {
+        "text": "And in math, junk is something that goes away."
+    },
+    {
+        "text": "So this tends to, as delta x goes to 0, n x to the n-1."
+    },
+    {
+        "text": "And so what I've shown you is that d by dx of x to the n minus, sorry, n, is equal to n x to the n-1."
+    },
+    {
+        "text": "So now this is going to be super important to you, right on your problem set in every possible way."
+    },
+    {
+        "text": "And I want to tell you one thing, one way in which it's very important."
+    },
+    {
+        "text": "And one way that extends it immediately."
+    },
+    {
+        "text": "So this thing extends to polynomials."
+    },
+    {
+        "text": "We get quite a lot out of this one calculation."
+    },
+    {
+        "text": "Namely, if I take d by dx of something like x cubed plus 5x to the 10th power, that's going to be equal to 3x squared."
+    },
+    {
+        "text": "That's applying this rule to x cubed."
+    },
+    {
+        "text": "And then here I'll get 5 times 10."
+    },
+    {
+        "text": "So 50 x to the 9th."
+    },
+    {
+        "text": "So this is the type of thing that we get out of it."
+    },
+    {
+        "text": "And we're going to make more hay with that next time."
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "I turned myself off."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "STUDENT 1."
+    },
+    {
+        "text": "The binomial theorem only works when delta x goes to 0."
+    },
+    {
+        "text": "PROFESSOR ERIK DEMAINER The question was, the binomial theorem only works when delta x goes to 0."
+    },
+    {
+        "text": "No, the binomial theorem is a general formula which also specifies exactly what the junk is."
+    },
+    {
+        "text": "It's very much more detailed."
+    },
+    {
+        "text": "But we only needed this part."
+    },
+    {
+        "text": "We didn't care what all these crazy terms were."
+    },
+    {
+        "text": "It's junk for our purposes now, because we don't happen to need any more than those first two terms."
+    },
+    {
+        "text": "Yes, because the delta x goes to 0."
+    },
+    {
+        "text": "OK, see you next time."
+    }
+]

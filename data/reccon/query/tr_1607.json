@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18,
+            19
+        ],
+        "expanded emotion cause span": [
+            "You shouldn't worry about Mr . Drummond . He is a very good man to work for . He is not sexist at all . He appreciates people for their ideas . And he is willing to take suggestions from men or women .",
+            "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am very happy to hear that , Karen . It ' s good to know I'm working in such a company .",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

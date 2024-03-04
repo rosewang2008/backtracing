@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The third thing is what is a test?"
+    },
+    {
+        "text": "Well, psi, it's a statistic."
+    },
+    {
+        "text": "And it takes the data, and it maps it into 0 or 1."
+    },
+    {
+        "text": "And I didn't really mention it, but there's something such as called randomized tests, which is, well, if it cannot really make a decision, they might as well flip a coin."
+    },
+    {
+        "text": "That tends to be biased, but that's really, I mean, think about it in practice."
+    },
+    {
+        "text": "You probably don't want to make decisions based on flipping a coin."
+    },
+    {
+        "text": "And so what people typically do, this is happening typically at one specific value."
+    },
+    {
+        "text": "So rather than flipping a coin for this very specific value, what people typically do is they say, OK, I'm going to side with h0 because that's the most conservative choice I can make."
+    },
+    {
+        "text": "So in a way, they think of flipping this coin, but always falling on heads."
+    },
+    {
+        "text": "So associated to this test was something called, well, the rejection region."
+    },
+    {
+        "text": "And r psi, which is just the set of data, x1, xn, such that psi of x1, xn is equal to 1."
+    },
+    {
+        "text": "So that means we rejected 0 when the test is 1, and those are the set of data points that actually are going to lead me to reject the test."
+    },
+    {
+        "text": "OK. Then the things that were actually slightly a little more important and really peculiar to test, specific to test, were the type 1 and type 2 error."
+    },
+    {
+        "text": "So the type 1 error arises when, so type 1 error is when you reject whereas h0 is correct."
+    },
+    {
+        "text": "And the type 2 error is the opposite."
+    },
+    {
+        "text": "So it's failed to reject whereas h1 is correct."
+    },
+    {
+        "text": "h is correct."
+    },
+    {
+        "text": "So those are the two types of errors you can make, and we quantify their probability of type 1 error."
+    },
+    {
+        "text": "So alpha psi is the probability."
+    },
+    {
+        "text": "So that's the probability of type 1 error."
+    }
+]

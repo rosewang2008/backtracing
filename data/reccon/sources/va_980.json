@@ -1,0 +1,111 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mr . Bryant ? Hi , I'm Mike from Florence Incorporated . I'll glad you made it okay . How was your flight ?",
+        "emotion": "neutral",
+        "text": "Mr . Bryant ? Hi , I'm Mike from Florence Incorporated . I'll glad you made it okay . How was your flight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was pretty bumpy , also a bit long , all together about 5 hours .",
+        "emotion": "neutral",
+        "text": "It was pretty bumpy , also a bit long , all together about 5 hours .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That is a long flight . You had a layover too , is that right ? You must be tired .",
+        "emotion": "neutral",
+        "text": "That is a long flight . You had a layover too , is that right ? You must be tired .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Actually I feel quite rested . I was able to sleep on the plane .",
+        "emotion": "neutral",
+        "text": "Actually I feel quite rested . I was able to sleep on the plane .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good ! Here , let me help you with your bag . Is it your first time to Seattle ? I'd be happy to take you around this city and show you the sights tonight if you're up to it .",
+        "emotion": "happiness",
+        "explanation": "The person shows happiness to make the customer feel good. In other words, the person is happy to server his customers.",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Actually I feel quite rested . I was able to sleep on the plane .",
+            "happy to take you around this city and show you the sights tonight if you're up to it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good ! Here , let me help you with your bag . Is it your first time to Seattle ? I'd be happy to take you around this city and show you the sights tonight if you're up to it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That will be very nice . You're too kind .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "happy to take you around this city and show you the sights tonight if you're up to it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That will be very nice . You're too kind .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "That will be very nice . You're too kind ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sounds great . Thank you for your hospitality .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds great . Thank you for your hospitality .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

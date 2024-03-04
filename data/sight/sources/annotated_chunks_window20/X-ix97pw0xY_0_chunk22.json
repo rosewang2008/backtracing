@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Because c, I called it c, but I can actually directly call it this guy b, and I don't actually care about c itself."
+    },
+    {
+        "text": "Now, why don't I put back also h of x in there?"
+    },
+    {
+        "text": "Because h of x is really here to just, how to put it?"
+    },
+    {
+        "text": "h of x and b of theta don't play the same role."
+    },
+    {
+        "text": "b of theta, in many ways, is a normalizing constant."
+    },
+    {
+        "text": "I want this density to integrate to 1."
+    },
+    {
+        "text": "If I did not have this guy, I'm not guaranteed that this thing integrates to 1."
+    },
+    {
+        "text": "But by tweaking this function, b of theta or c of theta, their equivalent, I can actually ensure that this thing integrates to 1."
+    },
+    {
+        "text": "So b of theta is just a normalizing constant."
+    },
+    {
+        "text": "h of x is something that's going to be funny for us."
+    },
+    {
+        "text": "It's going to be something that allows us to be able to treat both discrete and continuous variables within the framework of exponential families."
+    },
+    {
+        "text": "So for those that are familiar with this, this is essentially saying that h of x is really just a change of measure."
+    },
+    {
+        "text": "When I actually look at the density of p of theta, this is with respect to some measure, the fact that I just multiply by a function of x just means that I'm not looking that this guy here, without h of theta, is not the density with respect to the original measure, but it's the density with respect to the distribution that has h as a density."
+    },
+    {
+        "text": "That's all I'm saying."
+    },
+    {
+        "text": "So I can first transform my x's and then take the density with respect to that."
+    },
+    {
+        "text": "If you don't want to think about densities or measures, you don't have to."
+    },
+    {
+        "text": "This is just the way."
+    },
+    {
+        "text": "This is just the definition."
+    },
+    {
+        "text": "Is there any question about this definition?"
+    },
+    {
+        "text": "So it looks complicated, but it's actually essentially the simplest way you could think about it."
+    }
+]

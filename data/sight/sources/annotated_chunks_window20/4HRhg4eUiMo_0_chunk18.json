@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Exactly, right?"
+    },
+    {
+        "text": "So we picked this 0.5 here, but this is for any p, right?"
+    },
+    {
+        "text": "But what is the only p I can get?"
+    },
+    {
+        "text": "So what I want is that this is true for all p in theta 0."
+    },
+    {
+        "text": "But the only p that's in theta 0 is actually p is equal to 0.5."
+    },
+    {
+        "text": "So yes, what you said was true, but it required to specify p to be equal to 0.5."
+    },
+    {
+        "text": "So this, in general, is not true."
+    },
+    {
+        "text": "But it happens to be true if p belongs to theta 0, which is strictly equivalent to p is equal to 0.5, right?"
+    },
+    {
+        "text": "Theta 0 is really just this one point, 0.5."
+    },
+    {
+        "text": "OK, so now this becomes true."
+    },
+    {
+        "text": "And so what I need to do is to find c such that this guy is equal to what?"
+    },
+    {
+        "text": "I mean, let's just follow, right?"
+    },
+    {
+        "text": "So I want this to be less than alpha."
+    },
+    {
+        "text": "But then we see that this was equal to this, which is equal to this."
+    },
+    {
+        "text": "So all I want is that this guy is less than alpha."
+    },
+    {
+        "text": "But we said we might as well just make it equal to alpha if you allow me to make it as big as I want, as long as it's less than alpha."
+    },
+    {
+        "text": "So this is a true statement."
+    },
+    {
+        "text": "But it's if under this condition, right?"
+    },
+    {
+        "text": "So I'm going to set it equal to alpha."
+    },
+    {
+        "text": "And then I'm going to try to solve for c. OK, so what I'm looking for is a c such that if I draw a standard Gaussian, so that's PDF of some n0,1, I want the probability that the absolute value of my Gaussian exceeding this guy."
+    }
+]

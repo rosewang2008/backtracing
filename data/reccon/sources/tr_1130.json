@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Jenny . You look like you are in a hurry to somewhere . Where are you going ?",
+        "emotion": "neutral",
+        "text": "Hi , Jenny . You look like you are in a hurry to somewhere . Where are you going ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I am going to the bank . I need to cash some checks .",
+        "emotion": "neutral",
+        "text": "I am going to the bank . I need to cash some checks .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That's great . We can go to the bank together .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We can go to the bank together ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's great . We can go to the bank together .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Why are you going there ?",
+        "emotion": "neutral",
+        "text": "Why are you going there ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I will go to Japan on business for 5 days next Tuesday . I want to exchange some Japanese yen .",
+        "emotion": "neutral",
+        "text": "I will go to Japan on business for 5 days next Tuesday . I want to exchange some Japanese yen .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I see . Will you bring a lot of money with you ?",
+        "emotion": "neutral",
+        "text": "I see . Will you bring a lot of money with you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Not really . I plan to bring some cash and withdraw money at the ATM in Japan .",
+        "emotion": "neutral",
+        "text": "Not really . I plan to bring some cash and withdraw money at the ATM in Japan .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you have the bank card in Japan ?",
+        "emotion": "neutral",
+        "text": "Do you have the bank card in Japan ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Nope . You can use the credit card to withdraw the money in foreign countries .",
+        "emotion": "neutral",
+        "text": "Nope . You can use the credit card to withdraw the money in foreign countries .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That sounds really convenient . Do you pay extra money to enjoy this service ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You can use the credit card to withdraw the money in foreign countries ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds really convenient . Do you pay extra money to enjoy this service ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No . It is free of charge .",
+        "emotion": "neutral",
+        "text": "No . It is free of charge .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Great ! I will apply for a credit card when I go to the bank later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Do you pay extra money to enjoy this service ?",
+            "It is free of charge ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great ! I will apply for a credit card when I go to the bank later .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I think we are running out of time . The bank is going to close soon .",
+        "emotion": "neutral",
+        "text": "I think we are running out of time . The bank is going to close soon .",
+        "id": 13
+    }
+]

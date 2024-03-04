@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 10,
+        "timestamp": 1684725950887.0,
+        "annotatedSourceSentencesIndices": [
+            1
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "so it seems like the professor emphasized the importance of the eigenvalue here, that's nice. but is the eigenvector of any importance? what's a good example of eigenvectors?"
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow ! What a beautiful scenic spot ! It's so open . And just breathe that fresh air , you can almost taste its freshness .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "beautiful scenic spot ! It's so open .",
+            "that fresh air , you can almost taste its freshness ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow ! What a beautiful scenic spot ! It's so open . And just breathe that fresh air , you can almost taste its freshness .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You can have a bird view of Guiling City from the top of the mountain .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "beautiful scenic spot ! It's so open .",
+            "that fresh air , you can almost taste its freshness .",
+            "bird view of Guiling City from the top of the mountain ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You can have a bird view of Guiling City from the top of the mountain .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Wonderful ! I'll often come here for mountain climbing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "bird view of Guiling City from the top of the mountain ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful ! I'll often come here for mountain climbing .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You should . Many Guiliners , especially the old and the young , will climb mountains here in the morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Wonderful ! I'll often come here for mountain climbing ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You should . Many Guiliners , especially the old and the young , will climb mountains here in the morning .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No wonder people say",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Many Guiliners , especially the old and the young , will climb mountains here in the morning ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No wonder people say",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Quick ! Pass me your binoculars . Look at that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too . This is lucky !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Quick ! Pass me your binoculars . Look at that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too . This is lucky !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I didn't know you liked bird-watching .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6
+        ],
+        "expanded emotion cause span": [
+            "that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too .",
+            "that bird ... I've never seen one of those before . It's indigenous to Guiling , and an endangered species too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I didn't know you liked bird-watching .",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I don't really . I just like wildlife , and you don't get to see too much of it in the city . This place is full of it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I just like wildlife , and you don't get to see too much of it in the city . This place is full of it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't really . I just like wildlife , and you don't get to see too much of it in the city . This place is full of it .",
+        "id": 8
+    }
+]

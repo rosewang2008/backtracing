@@ -1,0 +1,121 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you usually spend your leisure time ? I mean , do you have any special interests out of your job ?",
+        "emotion": "neutral",
+        "text": "How do you usually spend your leisure time ? I mean , do you have any special interests out of your job ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Of course . You see , almost everyone has some kind of hobby .",
+        "emotion": "neutral",
+        "text": "Of course . You see , almost everyone has some kind of hobby .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , you ' re quite right and what ' s your hobby ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Yeah , you ' re quite right and what ' s your hobby ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I like taking photos out of doors .",
+        "emotion": "neutral",
+        "text": "I like taking photos out of doors .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , photography , It ' s really a good hobby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like taking photos out of doors .",
+            "photography , It ' s really a good hobby ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , photography , It ' s really a good hobby .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , I usually develop and print all my own photos .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Oh , photography , It ' s really a good hobby .",
+            "I usually develop and print all my own photos ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I usually develop and print all my own photos .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You yourself have a photo studio ?",
+        "emotion": "neutral",
+        "text": "You yourself have a photo studio ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , simple as it is . It does work .",
+        "emotion": "happiness",
+        "explanation": "Assuming B is happy because A is interested in his hobby.",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Oh , photography , It ' s really a good hobby .",
+            "I usually develop and print all my own photos .",
+            "You yourself have a photo studio ?",
+            "It does work ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes , simple as it is . It does work .",
+        "id": 8
+    }
+]

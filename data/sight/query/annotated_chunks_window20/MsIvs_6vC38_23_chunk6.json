@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 23,
+        "timestamp": 1684720563078.0,
+        "annotatedSourceSentencesIndices": [
+            12
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "hmm is  there a complementary book we must follow? I'm puzzled as I don't think we've introduced the elementary matrices in previous lectures, or Upper/lower matrices. I feel this is not beginner friendly."
+    }
+]

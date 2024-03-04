@@ -1,0 +1,101 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me .",
+        "emotion": "neutral",
+        "text": "Excuse me .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , Miss , what can I do for you ?",
+        "emotion": "neutral",
+        "text": "Yes , Miss , what can I do for you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I ordered my dish about a half an hour ago , but it hasn't arrived yet .",
+        "emotion": "neutral",
+        "text": "I ordered my dish about a half an hour ago , but it hasn't arrived yet .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm sorry for that , I'm going to check with the chef right now . Miss , I just checked with the kitchen , and they said your order will be coming right up next . Oh , here comes .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ordered my dish about a half an hour ago , but it hasn't arrived yet ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry for that , I'm going to check with the chef right now . Miss , I just checked with the kitchen , and they said your order will be coming right up next . Oh , here comes .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "your order will be coming right up next . Oh , here comes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Miss , I'm very sorry for the delay , please enjoy this . Free a glass of wine for inconvenience . Again I'm terribly sorry to make you wait so long .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ordered my dish about a half an hour ago , but it hasn't arrived yet ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Miss , I'm very sorry for the delay , please enjoy this . Free a glass of wine for inconvenience . Again I'm terribly sorry to make you wait so long .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It doesn't matter .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ordered my dish about a half an hour ago , but it hasn't arrived yet .",
+            "Free a glass of wine for inconvenience ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "It doesn't matter .",
+        "id": 7
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a hot day !",
+        "emotion": "neutral",
+        "text": "What a hot day !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , summer is coming .",
+        "emotion": "neutral",
+        "text": "Yes , summer is coming .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where are you going this summer vacation ?",
+        "emotion": "neutral",
+        "text": "Where are you going this summer vacation ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'd like to go to Tianjin .",
+        "emotion": "neutral",
+        "text": "I'd like to go to Tianjin .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do you want to go to the beach there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'd like to go to Tianjin ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Do you want to go to the beach there ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , of course . And what's your plan ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go to the beach there ?",
+            "Yes , of course ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , of course . And what's your plan ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "The same to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Yes , of course . And what's your plan ?",
+            "The same to you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "The same to you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The same to you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's great .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

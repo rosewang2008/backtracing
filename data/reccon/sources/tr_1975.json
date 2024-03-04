@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , the view from the peak is so grand !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Wow , the view from the peak is so grand !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , the view from the peak is so grand !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Look , most of the maple leaves have turned red .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Wow , the view from the peak is so grand !",
+            "most of the maple leaves have turned red ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Look , most of the maple leaves have turned red .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did you ever see this kind of beautiful scene ?",
+        "emotion": "neutral",
+        "text": "Did you ever see this kind of beautiful scene ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course , my father used to take me to Kiang Shan or somewhere like that as a child .",
+        "emotion": "neutral",
+        "text": "Of course , my father used to take me to Kiang Shan or somewhere like that as a child .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "But my father did not . He didn't have much time .",
+        "emotion": "neutral",
+        "text": "But my father did not . He didn't have much time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Honey , I'm sorry . I promise you , this summer vacation , I will take you to Huang-Shan Mountains . It is more beautiful and magnificent .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I promise you , this summer vacation , I will take you to Huang-Shan Mountains . It is more beautiful and magnificent ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Honey , I'm sorry . I promise you , this summer vacation , I will take you to Huang-Shan Mountains . It is more beautiful and magnificent .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? It's a deal . Have you ever been there ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I promise you , this summer vacation , I will take you to Huang-Shan Mountains . It is more beautiful and magnificent ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? It's a deal . Have you ever been there ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , I went there five years ago . You were still a baby at that time .",
+        "emotion": "neutral",
+        "text": "Yes , I went there five years ago . You were still a baby at that time .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It really gets me interested . Is it higher than Kiang Shan ?",
+        "emotion": "neutral",
+        "text": "It really gets me interested . Is it higher than Kiang Shan ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Surely . You can enjoy the beauty of numerous streams and waterfalls . The sea of clouds has a fairy tale beauty .",
+        "emotion": "neutral",
+        "text": "Surely . You can enjoy the beauty of numerous streams and waterfalls . The sea of clouds has a fairy tale beauty .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Can I see the rainbow ?",
+        "emotion": "neutral",
+        "text": "Can I see the rainbow ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That depends . If you are lucky , you can see a vivid rainbow across over two peaks .",
+        "emotion": "neutral",
+        "text": "That depends . If you are lucky , you can see a vivid rainbow across over two peaks .",
+        "id": 12
+    }
+]

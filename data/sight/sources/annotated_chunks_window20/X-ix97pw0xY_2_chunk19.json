@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I promised you the exponential family."
+    },
+    {
+        "text": "Before we go into this, let me just tell you something about exponential families, and what's the only thing that differentiates an exponential family from all possible distributions?"
+    },
+    {
+        "text": "An exponential family has two parameters, and those are not really parameters, but there's the theta parameter of my distribution."
+    },
+    {
+        "text": "So it's going to be indexed by some parameter."
+    },
+    {
+        "text": "Here, I'm only talking about the distribution of, say, some random variable or some random vector."
+    },
+    {
+        "text": "So here, in this slide, you see that the parameter theta that indexes those distribution is k-dimensional, and the space of the x's that I'm looking at, so that should really be y."
+    },
+    {
+        "text": "So what I'm going to plug in here is the conditional distribution of y given x, and theta is going to depend on x."
+    },
+    {
+        "text": "But this really is the y."
+    },
+    {
+        "text": "That's the distribution of the response variable."
+    },
+    {
+        "text": "And so this is on q."
+    },
+    {
+        "text": "So I'm going to assume that y is q-dimensional."
+    },
+    {
+        "text": "Clearly, soon q is going to be equal to 1, but I can define those things generally."
+    },
+    {
+        "text": "So I have this."
+    },
+    {
+        "text": "I have to tell you what this looks like, and let's assume that this is a probability density function."
+    },
+    {
+        "text": "So this notation, the fact that I just put my theta in subscript, is just for me to remember that this is the variable that indicates the random variable, and this is just the parameter."
+    },
+    {
+        "text": "But I could just write it as a function of theta and x."
+    },
+    {
+        "text": "This is just going to be, if you were in multivariable calc, you would have two parameters, theta and x, and you would need to give me a function."
+    },
+    {
+        "text": "Now, think of x and theta as being one-dimensional at this point."
+    },
+    {
+        "text": "Think of all the functions that can be depending on theta and x."
+    },
+    {
+        "text": "There's many of them."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "XsYXACeIklU",
+        "query_id": 6,
+        "timestamp": 1684520305601.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Thank you very much \nI think that there is a missing factor (1-P(0,2)) in the response to the questions d and f. Is this true?"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The other subspace is n minus R-dimensional, that's the null space."
+    },
+    {
+        "text": "And the two dimensions, like, together, give n. The sum of R and n minus R is n. And that's just great."
+    },
+    {
+        "text": "It's really copying the fact that we have n variables, R of them are pivot variables and n minus R are free variables and n all together."
+    },
+    {
+        "text": "OK. And now what's the dimension of this poor misbegotten fourth subspace?"
+    },
+    {
+        "text": "It's got to be m minus R. The dimension of this left null space, left out practically, is m minus R. Well, that's really just saying that this, again, the sum of that plus that is m. And m is correct."
+    },
+    {
+        "text": "It's the number of columns in A transpose."
+    },
+    {
+        "text": "A transpose is just as good a matrix as A."
+    },
+    {
+        "text": "It just happens to be n by m. It happens to have m columns, so it will have m variables, when I go to Ax equals zero, and m of them and R of them will be pivot variables and m minus R will be free variables."
+    },
+    {
+        "text": "A transpose is as good a matrix as A."
+    },
+    {
+        "text": "It follows the same rule that this plus the dimension, this dimension plus this dimension adds up to the number of columns."
+    },
+    {
+        "text": "And over here, A transpose has m columns."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay, so I gave you the easy answer, the dimensions."
+    },
+    {
+        "text": "Now can I go back to check on a basis?"
+    },
+    {
+        "text": "We would like to think that, say, the row space."
+    },
+    {
+        "text": "Because we've got a basis for the column space."
+    },
+    {
+        "text": "The pivot columns give a basis for the column space."
+    },
+    {
+        "text": "Now I'm asking you to look at the row space."
+    },
+    {
+        "text": "And I you could say, okay, I can produce a basis for the row space by transposing my matrix, making those columns, then doing elimination, row reduction, and checking out the pivot columns in this transposed matrix."
+    },
+    {
+        "text": "But that means you had to do all that row reduction on A transpose."
+    }
+]

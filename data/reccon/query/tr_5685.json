@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here's your change . Thank you for shopping with us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'll take it .",
+            "Thank you for shopping with us ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here's your change . Thank you for shopping with us .",
+        "id": 12,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

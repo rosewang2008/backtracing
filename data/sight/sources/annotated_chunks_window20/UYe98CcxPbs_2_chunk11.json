@@ -1,0 +1,62 @@
+[
+    {
+        "text": "More about this tomorrow."
+    },
+    {
+        "text": "In fact, what I would like to tell you about now instead is a nice application of min-max problems that maybe you don't think of as a min-max problem."
+    },
+    {
+        "text": "But you will see, I mean, you don't think of it that way because probably your calculator can do it for you."
+    },
+    {
+        "text": "Or, if not, your computer can do it for you."
+    },
+    {
+        "text": "But it is actually something where the theory is based on minimization in two variables."
+    },
+    {
+        "text": "Very often in experimental sequences you have to do something called least squares interpolation."
+    },
+    {
+        "text": "And what is that about?"
+    },
+    {
+        "text": "Well, it is the idea that maybe you do some experiments and you record some data."
+    },
+    {
+        "text": "You have some data x and some data y."
+    },
+    {
+        "text": "And I don't know, maybe, for example, maybe you are measuring frogs and you are trying to measure how big the frog leg is compared to the eyes of a frog or whatever, or trying to measure something."
+    },
+    {
+        "text": "And if you are doing chemistry then it could be how much you put of some reactant and how much of the output product that you wanted to synthesize is going to be the same."
+    },
+    {
+        "text": "All sorts of things."
+    },
+    {
+        "text": "Make up your own example."
+    },
+    {
+        "text": "You measure, basically, for various values of x what the value of y ends up being."
+    },
+    {
+        "text": "And then you would like to claim, oh, well, these points are kind of aligned."
+    },
+    {
+        "text": "I mean, of course, to a mathematician they are not aligned, but to an experimental scientist that is evidence that there is a relation between the two."
+    },
+    {
+        "text": "And so you want to claim, and in your paper you will actually draw a nice little line that says, C, these two functions depend linearly on each other."
+    },
+    {
+        "text": "The question is how do we come up with that nice line that passes smack in the middle of the points?"
+    },
+    {
+        "text": "The question is, given experimental data, xiyi, so maybe I should actually be more precise."
+    },
+    {
+        "text": "You are given some experimental data."
+    }
+]

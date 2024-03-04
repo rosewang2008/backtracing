@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "500 feet ! I would never be able to do that .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "We jumped off a bridge and fell 500 feet"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "500 feet ! I would never be able to do that .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

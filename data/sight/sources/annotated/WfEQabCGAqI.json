@@ -1,0 +1,1226 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Yesterday we have learned about flux and we have seen the first examples of how to set up and compute integrals for flux of a vector field for a surface."
+    },
+    {
+        "text": "Remember the flux of a vector field F for a surface S is defined by taking the double integral on the surface of F dot n dS where n is the unit normal to the surface and dS is the area element on the surface."
+    },
+    {
+        "text": "As we have seen, for various surfaces we have various formulas telling us what the normal vector is and what the area element becomes."
+    },
+    {
+        "text": "For example, on spheres we typically integrate with respect to phi theta the latitude and longitude angles."
+    },
+    {
+        "text": "On a horizontal plane we would just end up integrating dx dy and so on."
+    },
+    {
+        "text": "At the end of the lecture we saw a formula."
+    },
+    {
+        "text": "And a lot of you asked me how did we get it."
+    },
+    {
+        "text": "Well, we didn't get it yet."
+    },
+    {
+        "text": "We are going to try to explain where it comes from and why it works."
+    },
+    {
+        "text": "The case we want to look at is the graph of a function."
+    },
+    {
+        "text": "It is given by z equals some function in terms of x and y."
+    },
+    {
+        "text": "Our surface is out here."
+    },
+    {
+        "text": "z is a function of x and y."
+    },
+    {
+        "text": "And x and y will range over some domain in the xy plane, namely the region that is the shadow of the surface on the xy plane."
+    },
+    {
+        "text": "I said that we will have a formula for n ds which will end up being plus minus, minus f sub x minus f sub y one dx dy so that we will set up and evaluate the integral in terms of x and y."
+    },
+    {
+        "text": "Replacing every time we see z we will replace it by f of xy, whatever the formula for f of xy is."
+    },
+    {
+        "text": "By the way, if we look at a very easy case where this is just a horizontal plane, so z equals constant, the function is just a constant, well, the partial derivatives become just zero."
+    },
+    {
+        "text": "You get zero, zero, one dx dy."
+    },
+    {
+        "text": "That is what you would expect for a horizontal plane just from common sense."
+    },
+    {
+        "text": "This is more interesting, of course, if a function is more interesting."
+    },
+    {
+        "text": "How do we get that?"
+    },
+    {
+        "text": "Where does this come from?"
+    },
+    {
+        "text": "We need to figure out for a small piece of our surface what will be n delta S if you want."
+    },
+    {
+        "text": "Let's say that we take a small rectangle in here corresponding to the sides delta x and delta y."
+    },
+    {
+        "text": "And we look at the piece of surface that is above that."
+    },
+    {
+        "text": "Well, the question we have now is what is the area of this little piece of surface and what is its normal vector?"
+    },
+    {
+        "text": "Observe this little piece up here."
+    },
+    {
+        "text": "If it is small enough it will look like a parallelogram."
+    },
+    {
+        "text": "It might be slightly curvy, but roughly it looks like a parallelogram in space."
+    },
+    {
+        "text": "And so we have seen how to find the area of a parallelogram in space using cross product."
+    },
+    {
+        "text": "If we can figure out what are the vectors for this side and that side, then taking the cross product will give us, and taking the magnitude of the cross product will give us the area."
+    },
+    {
+        "text": "Moreover, the cross product also gives us the normal direction."
+    },
+    {
+        "text": "In fact, the cross product gives us two in one."
+    },
+    {
+        "text": "It gives us the normal direction and the area element."
+    },
+    {
+        "text": "And that is why I said that we will have an easy formula for N dS while N and dS taken separately are more complicated because you would have to actually take the length of a direction of this guy."
+    },
+    {
+        "text": "Let's carry out this problem."
+    },
+    {
+        "text": "Let's say I am going to look at a small piece of the xy plane."
+    },
+    {
+        "text": "Here I have delta x, here I have delta y, and I am starting at some point xy."
+    },
+    {
+        "text": "Now, above that I will have a parallelogram on my surface."
+    },
+    {
+        "text": "I need to figure out this point here, the point where I start."
+    },
+    {
+        "text": "I know what it is."
+    },
+    {
+        "text": "It is just x, y, and z is f of x, y."
+    },
+    {
+        "text": "Now, what I want to find actually is what are these two vectors, let's call them u and v that correspond to moving a bit in the x direction or in the y direction."
+    },
+    {
+        "text": "And then u cross v will be, well, in terms of the magnitude of this guy will just be the little piece of surface area delta S. And, in terms of direction, it will be normal to the surface."
+    },
+    {
+        "text": "Actually, I will get just delta S times my normal vector."
+    },
+    {
+        "text": "Well, up to sign because depending on whether I do u cross v or v cross u, I might get the normal vector in the direction I want or in the direction I want."
+    },
+    {
+        "text": "But we will take care of that later."
+    },
+    {
+        "text": "Up to sign."
+    },
+    {
+        "text": "OK, so let's find u and v. Actually, in case you have trouble with that small picture, then I have a better one here."
+    },
+    {
+        "text": "Let's keep it just in case this one gets really too cluttered."
+    },
+    {
+        "text": "It really represents the same thing."
+    },
+    {
+        "text": "OK, so let's try to figure out these vectors u and v. So, the vector u starts at the point x, y, f of x, y."
+    },
+    {
+        "text": "And it goes to, where is its head?"
+    },
+    {
+        "text": "Well, I'll have moved x by delta x."
+    },
+    {
+        "text": "So, x plus delta x. y doesn't change."
+    },
+    {
+        "text": "And, of course, the z coordinate has to change."
+    },
+    {
+        "text": "It becomes f of x plus delta x and y."
+    },
+    {
+        "text": "Now, how does f change if I change x a little bit?"
+    },
+    {
+        "text": "Well, we've seen that it's given by the partial derivative f sub x."
+    },
+    {
+        "text": "So, this is approximately equal to f of x, y plus delta x times f sub x at the given point x, y. I'm not going to add it because notation is already long enough."
+    },
+    {
+        "text": "So, that means my vector u is, well, approximately, because I'm using this linear approximation, delta x, zero, and f sub x times delta x. OK, is that OK with everyone?"
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Now, what about v?"
+    },
+    {
+        "text": "Well, v works the same way."
+    },
+    {
+        "text": "OK, so I'm not going to do all the details."
+    },
+    {
+        "text": "When I move from here to here, well, x doesn't change, and y changes by delta y."
+    },
+    {
+        "text": "So, x component, nothing happens."
+    },
+    {
+        "text": "y component changes by delta y."
+    },
+    {
+        "text": "What about the z component?"
+    },
+    {
+        "text": "Well, f changes by f sub y times delta y."
+    },
+    {
+        "text": "That's how f changes if I increase y by delta y. OK, so I have my two sides."
+    },
+    {
+        "text": "Now, I can take the cross product."
+    },
+    {
+        "text": "Well, maybe I will first, sorry, factor something out."
+    },
+    {
+        "text": "See, I can rewrite this as one zero f sub x times delta x."
+    },
+    {
+        "text": "And, this one I will rewrite as zero one f sub y delta y."
+    },
+    {
+        "text": "And so, now the cross product, so n hat delta s up to sine is going to be u cross v. u cross v, well, so we'll have to do the cross product, and we'll have a delta x delta y coming out."
+    },
+    {
+        "text": "OK, I'm just saving myself the trouble of writing a lot of delta x and delta y's."
+    },
+    {
+        "text": "But, if you prefer, you can just do directly this cross product there."
+    },
+    {
+        "text": "OK, so let's compute this cross product."
+    },
+    {
+        "text": "Well, the i component is zero minus f sub x."
+    },
+    {
+        "text": "The y component is going to be, well, f sub y minus zero, but with a minus sign in front of everything, so negative f sub y."
+    },
+    {
+        "text": "And, the z component will be just one times delta x delta y. OK, does that make sense for, yes, very good."
+    },
+    {
+        "text": "And so, now, when we just take, we shrink this rectangle, we shrink delta x and delta y down, so that's how we get this formula for n ds equals negative fx negative fy one dx dy."
+    },
+    {
+        "text": "Well, plus minus because it's up to us to choose whether we want to take the normal vector pointing up or down."
+    },
+    {
+        "text": "So, see, if you take this convention, then the z component of n ds is positive."
+    },
+    {
+        "text": "So, that corresponds to normal vector pointing up."
+    },
+    {
+        "text": "If you take the opposite means, then the z component will be negative."
+    },
+    {
+        "text": "That means your normal vector points down."
+    },
+    {
+        "text": "OK, so this one is with n pointing up."
+    },
+    {
+        "text": "I mean, when I say up, of course, it's still perpendicular to the surface."
+    },
+    {
+        "text": "You know, if the surface really has a big slope, then it's not really going to go all that much up, but more up than down."
+    },
+    {
+        "text": "OK, so that's how we get that formula."
+    },
+    {
+        "text": "Any questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, so that's a really useful formula."
+    },
+    {
+        "text": "So, you don't really need to remember all the details of how we got it, but please remember that formula."
+    },
+    {
+        "text": "Let's do an example, actually."
+    },
+    {
+        "text": "So, let's say I want to find the flux of the vector field z times k. So, it's a vertical vector point of the paraboloid z equals x squared plus y squared that lives above the unit disk."
+    },
+    {
+        "text": "OK, so what does that mean?"
+    },
+    {
+        "text": "z equals x squared plus y squared, well, we've seen it many times."
+    },
+    {
+        "text": "OK, it's this paraboloid above the unit disk means I only care about, I don't care about this infinite surface."
+    },
+    {
+        "text": "I will actually stop when I hit a radius of one away from the z axis."
+    },
+    {
+        "text": "And, so now I have my vector field, which is going to point overall up because, in fact, I'm at z times k. So, the more z is positive, the more your vector field goes up."
+    },
+    {
+        "text": "Of course, if z were negative, then it would point down, but we live above."
+    },
+    {
+        "text": "So, actually, a quick opinion poll."
+    },
+    {
+        "text": "What do you think the flux should be?"
+    },
+    {
+        "text": "Should it be positive, zero, negative?"
+    },
+    {
+        "text": "We don't know."
+    },
+    {
+        "text": "OK, so I see some I don't know."
+    },
+    {
+        "text": "I see some negative, and I see some positive."
+    },
+    {
+        "text": "So, of course, I didn't tell you which way I'm orienting my paraboloid."
+    },
+    {
+        "text": "So, so far, both answers are correct."
+    },
+    {
+        "text": "The only one that's probably not correct is zero because no matter which way you choose to orient it, you should get something."
+    },
+    {
+        "text": "It's not looking like it will be zero."
+    },
+    {
+        "text": "So, let's say that I'm going to do it with a normal pointing upwards."
+    },
+    {
+        "text": "Second chance."
+    },
+    {
+        "text": "OK, I see some people changing back and forth between one and two."
+    },
+    {
+        "text": "OK, so let's draw a picture."
+    },
+    {
+        "text": "Which one is pointing upwards?"
+    },
+    {
+        "text": "Well, let's look at the bottom point, the normal vector pointing up."
+    },
+    {
+        "text": "Here, we know what it means."
+    },
+    {
+        "text": "It's this guy."
+    },
+    {
+        "text": "And so, if you continue to follow your normal vector, see, they're actually pointing up and into the paraboloid."
+    },
+    {
+        "text": "OK, and I claim that the answer should be positive because the vector field is crossing our paraboloid going upwards, going from the outside out and below to the inside and up side, so in the direction that we are counting positively."
+    },
+    {
+        "text": "Well, we'll see how it turns out when we do the calculation."
+    },
+    {
+        "text": "OK, so we have to compute the integral for flux."
+    },
+    {
+        "text": "The one integral of a surface of F dot n dS is going to be, OK, so what are we going to do?"
+    },
+    {
+        "text": "Well, F, we said, is 0, 0, z."
+    },
+    {
+        "text": "What is n dS?"
+    },
+    {
+        "text": "Well, let's use our brand new formula."
+    },
+    {
+        "text": "So, it says negative F sub x, negative F sub y, one dx dy."
+    },
+    {
+        "text": "What is little f in here?"
+    },
+    {
+        "text": "It's x squared plus y squared, OK?"
+    },
+    {
+        "text": "So, when we're using this formula, we need to know what little f stands for is whatever the formula is for z as a function of x and y."
+    },
+    {
+        "text": "So, we take x squared plus y squared, and we take the partial derivatives with minus signs."
+    },
+    {
+        "text": "We get negative 2x, negative 2y, and one dx dy."
+    },
+    {
+        "text": "Well, of course, here it didn't really matter because we're going to dot them with zero."
+    },
+    {
+        "text": "So, actually, even if we had made a mistake, we somehow wouldn't have had to pay the price, still."
+    },
+    {
+        "text": "OK, so we'll end up with double integral on S of z dx dy."
+    },
+    {
+        "text": "Now, what do we do with that?"
+    },
+    {
+        "text": "Well, we have too many things."
+    },
+    {
+        "text": "We need to get rid of z."
+    },
+    {
+        "text": "So, let's use z equals x squared plus y squared once more."
+    },
+    {
+        "text": "OK, so that becomes double integral of x squared plus y squared dx dy."
+    },
+    {
+        "text": "And here, see, we're using the fact that we're only looking at things that are on the surface."
+    },
+    {
+        "text": "It's not like in a triple integral, you could never do that because z, x, and y are independent."
+    },
+    {
+        "text": "Here, they're related by the equation of a surface."
+    },
+    {
+        "text": "Sorry if I sound like I'm ranting, but I know from experience this is where one of the most sticky and tricky points is, actually."
+    },
+    {
+        "text": "OK, so now, how will we actually integrate that?"
+    },
+    {
+        "text": "Well, now that we have just x and y, we should figure out what's the range for x and y?"
+    },
+    {
+        "text": "Well, the range for x and y is going to be the shadow of our region."
+    },
+    {
+        "text": "It's going to be this unit disk."
+    },
+    {
+        "text": "OK, so let me just do that for now."
+    },
+    {
+        "text": "And see here, this is finally where I've left the world of surface integrals to go back to a usual double integral."
+    },
+    {
+        "text": "And now, I have to set it up."
+    },
+    {
+        "text": "Well, I can do it this way with dx dy, but it looks like there's a smarter thing to do."
+    },
+    {
+        "text": "OK, I'm going to use, actually, polar coordinates."
+    },
+    {
+        "text": "So, in fact, I'm going to say this is a double integral of r squared times r dr d theta."
+    },
+    {
+        "text": "I'm on the unit disk, so r goes zero to one, theta goes zero to two pi."
+    },
+    {
+        "text": "And, if you do the calculation, you'll find that this is going to be pi over two."
+    },
+    {
+        "text": "OK, any questions about the example?"
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "OK, how do I get this negative 2x and negative 2y?"
+    },
+    {
+        "text": "So, I want to use my formula for n ds."
+    },
+    {
+        "text": "OK, my surface is given by the graph of a function."
+    },
+    {
+        "text": "It's the graph of a function x squared plus y squared."
+    },
+    {
+        "text": "So, I will use this formula that's up here."
+    },
+    {
+        "text": "I will take the function x squared plus y squared, and I will take its partial derivatives."
+    },
+    {
+        "text": "So, if I take the partial of f, so, f x squared plus y squared with respect to x, I get 2x."
+    },
+    {
+        "text": "So, I put negative 2x, and then same thing, negative 2y, one dx dy, yes?"
+    },
+    {
+        "text": "Which k hat?"
+    },
+    {
+        "text": "Oh, you mean the vector field?"
+    },
+    {
+        "text": "Well, so it's a different part of the story, OK?"
+    },
+    {
+        "text": "So, whenever you do a surface integral for flux, you have two parts of the story."
+    },
+    {
+        "text": "One is the vector field whose flux you're taking."
+    },
+    {
+        "text": "The other one is the surface for which you will be taking flux."
+    },
+    {
+        "text": "So, the vector field only comes as this f in the notation."
+    },
+    {
+        "text": "And, everything else, the bounds of the double integral and the n ds, they all come from the surface that we are looking at."
+    },
+    {
+        "text": "OK, so basically, in all of this calculation, this is coming from f equals zk."
+    },
+    {
+        "text": "Everything else comes from the information paraboloid z equals x squared plus y squared above the disk."
+    },
+    {
+        "text": "OK, so in particular, if we wanted to now find the flux of any other vector field for the same paraboloid, well, all we have to do is just replace this guy by whatever the new vector field is."
+    },
+    {
+        "text": "We've learned how to set up flux integrals for this paraboloid."
+    },
+    {
+        "text": "Not that you should remember this one by heart."
+    },
+    {
+        "text": "I mean, there's many paraboloids in life and other surfaces, too, so it's better to remember the general method."
+    },
+    {
+        "text": "OK, any other questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's see more ways of tackling flux integrals."
+    },
+    {
+        "text": "But, just to reassure you, at this point, we've seen the most important ones."
+    },
+    {
+        "text": "You know, 90% of the problems that we'll be looking at, we can do with what we've seen so far last time and this time."
+    },
+    {
+        "text": "But, let's look a little bit at a more general situation."
+    },
+    {
+        "text": "Let's say that my surface is so complicated that I can't actually express z as a function of x and y."
+    },
+    {
+        "text": "But, let's say that actually I know how to parametrize it."
+    },
+    {
+        "text": "So, I have a parametric equation for my surface."
+    },
+    {
+        "text": "That means I can express x, y, z in terms of any two parameter variables that might be relevant for me."
+    },
+    {
+        "text": "So, if you want, this one here is the special case where you can parametrize things in terms of x and y as your two variables."
+    },
+    {
+        "text": "So, how would you do it in the fully general case?"
+    },
+    {
+        "text": "In a way, that will answer your question."
+    },
+    {
+        "text": "I think one of you, I forgot, asked yesterday, how would I do it in general?"
+    },
+    {
+        "text": "Is there a formula like m dx plus n dy?"
+    },
+    {
+        "text": "Well, that's going to be the formula."
+    },
+    {
+        "text": "And, you'll see it's a little bit too complicated."
+    },
+    {
+        "text": "So, the really useful ones are actually the special ones."
+    },
+    {
+        "text": "So, let's say that we are given a parametric description of a surface S. So, that means we can describe S by formulas saying x is some function of two parameter variables."
+    },
+    {
+        "text": "I'm going to call them u and v. I hope you don't mind."
+    },
+    {
+        "text": "You can call them t1 and t2."
+    },
+    {
+        "text": "You can call them whatever you want."
+    },
+    {
+        "text": "OK, so one of the basic properties of a surface is because I have only two independent directions to move on, I should be able to express x, y, and z in terms of two variables."
+    },
+    {
+        "text": "So, now let's say that I know how to do that."
+    },
+    {
+        "text": "Or, maybe I should instead think of it in terms of a position vector if that helps you."
+    },
+    {
+        "text": "The position vector, so that's just the vector with components x, y, z is given as a function of u and v. OK, so it works like a parametric curve, but with two parameters."
+    },
+    {
+        "text": "So, now, how will we actually set up a flux integral on such a surface?"
+    },
+    {
+        "text": "Well, because we are locating the flux in terms of u and v, we will end up with an integral du dv."
+    },
+    {
+        "text": "So, we need to figure out how to express n ds in terms of du and dv."
+    },
+    {
+        "text": "OK, so n ds should be something du dv."
+    },
+    {
+        "text": "How do we do that?"
+    },
+    {
+        "text": "Well, we can use the same method that we've actually used over here."
+    },
+    {
+        "text": "Because if you think for a second, here we used, of course, a rectangle in the x, y plane, and we lifted it to a parallelogram and so on."
+    },
+    {
+        "text": "But, more generally, you can think, what happens if I change u by delta u, keeping v constant, or the other way around?"
+    },
+    {
+        "text": "You will get some sort of mesh grid on your surface, and you will look at a little parallelogram that's an elementary piece of that mesh and figure out what is its area and normal vector."
+    },
+    {
+        "text": "Well, that will again be given by the cross product of the two sides."
+    },
+    {
+        "text": "OK, so let's think a little bit about what happens when I move a little bit on my surface."
+    },
+    {
+        "text": "So, I'm taking a grid on my surface given by the u and v directions."
+    },
+    {
+        "text": "And, if I take a piece of that corresponding to small changes, delta u and delta v, what's going to be going on here?"
+    },
+    {
+        "text": "Well, I have to deal with two vectors, one corresponding to changing u, the other one corresponding to changing v. If I change u, how does my point change?"
+    },
+    {
+        "text": "Well, that's given by the derivative of this with respect to u. OK, so this vector here I will call, so the sides are given by, let me say, partial r over partial u times delta u."
+    },
+    {
+        "text": "And, if you prefer, maybe I should write it as partial x over partial u delta u partial y."
+    },
+    {
+        "text": "Well, it's just too boring to write, and so on."
+    },
+    {
+        "text": "OK, it means just, you know, if I change u a little bit, keep v constant, then how x changes is given by partial x over partial u times delta u."
+    },
+    {
+        "text": "Same thing with y, same thing with z."
+    },
+    {
+        "text": "And, I'm just using vector notation to do it this way."
+    },
+    {
+        "text": "That's the analog of when I said delta r for line integrals along a curve, vector delta r is the velocity vector dr over dt times delta t. OK, now if I look at the other side, OK, so, sorry, so let me start again."
+    },
+    {
+        "text": "I ran out of space."
+    },
+    {
+        "text": "One side is partial r partial u times delta u, and the other one would be partial r partial v times delta v because that's how the position of your point changes if you just change u or v and not the other one."
+    },
+    {
+        "text": "So, now, to find the surface element together with a normal vector, I would just take the cross product between these guys."
+    },
+    {
+        "text": "So, if you prefer, that's the cross product of partial r partial u with partial r partial v delta u delta v. And so, N dS is this cross product times du dv up to sine."
+    },
+    {
+        "text": "I mean, also here."
+    },
+    {
+        "text": "Depends on which choice I make for my normal vector, of course."
+    },
+    {
+        "text": "OK, now, if you, that, of course, is a slightly confusing equation to think of."
+    },
+    {
+        "text": "So, a good exercise, if you want to really understand what's going on, try this in two good examples to look at."
+    },
+    {
+        "text": "One good example to look at is the previous one."
+    },
+    {
+        "text": "What is it?"
+    },
+    {
+        "text": "It's when u and v are just x and y. OK, so the parametric equations are just x equals x, y equals y, and z is f of x, y."
+    },
+    {
+        "text": "You should end up with the same formula that we had over there."
+    },
+    {
+        "text": "And, you should see why because, see, both of them are given by a cross product."
+    },
+    {
+        "text": "The other case you can look at, just to convince yourselves that it's true, so we don't need to do that because we've seen the formula before."
+    },
+    {
+        "text": "But, in the case of a sphere, we've seen the formula for N and for dS separately."
+    },
+    {
+        "text": "So, we know what N dS are in terms of d phi d theta."
+    },
+    {
+        "text": "Well, you could parametrize a sphere in terms of phi and theta."
+    },
+    {
+        "text": "Namely, the formulas would be x equals a sine phi cosine theta, y equals a sine phi sine theta, z equals a cosine phi."
+    },
+    {
+        "text": "The formulas for spherical coordinates setting rho equals a."
+    },
+    {
+        "text": "So, that's a parametric equation for the sphere."
+    },
+    {
+        "text": "And then, if you try to use this formula here, you should end up with the same things we've already seen for N dS, just with a lot more pain to actually get there because your cross product is going to be a bit complicated."
+    },
+    {
+        "text": "But, we're seeing all of these formulas, they all fit together."
+    },
+    {
+        "text": "Somehow, it's always the same question, just we have different angles of attack on this general problem."
+    },
+    {
+        "text": "OK, questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's look at yet another last way of finding N dS."
+    },
+    {
+        "text": "And then, I promise we'll switch to something else because I can feel that you're getting a bit overwhelmed by all these formulas for N dS."
+    },
+    {
+        "text": "So, OK, so what happens very often is we don't actually know how to parametrize our surface."
+    },
+    {
+        "text": "Maybe we don't know how to solve for z as a function of x and y, but our surface is given by some equation."
+    },
+    {
+        "text": "And so, what that means is actually maybe what we know is not really these kinds of formulas, but maybe we know a normal vector."
+    },
+    {
+        "text": "And, I'm going to call this one capital N because I don't even need it to be a unit vector, you will see."
+    },
+    {
+        "text": "It can be a normal vector of the surface S. So, why would we ever know a normal vector?"
+    },
+    {
+        "text": "Well, for example, if our surface is a plane, say it's a slanted plane given by some equation, Ax plus By plus Cz equals D. Well, you know the normal vector."
+    },
+    {
+        "text": "It's A, B, C. Of course, you could solve for z and then go back to that case, which is why I said that that one is really useful."
+    },
+    {
+        "text": "But, you can also just stay with a normal vector."
+    },
+    {
+        "text": "Why else would you know a normal vector?"
+    },
+    {
+        "text": "Well, let's say that you know an equation that's of a form g of x, y, z equals zero."
+    },
+    {
+        "text": "Well, then you know that the gradient of g is perpendicular to the level surface."
+    },
+    {
+        "text": "OK, so let me just give you two examples."
+    },
+    {
+        "text": "If you have a plane, Ax plus By plus Cz equals D, then the normal vector would just be A, B, C. If you have a surface S given by an equation, g of x, y, z equals zero, then you can take the normal vector to be the gradient of g. We've seen that the gradient is perpendicular to the level surface."
+    },
+    {
+        "text": "Now, of course, we don't necessarily have to follow what's going to come because if we could solve for z then we might be better off doing what we did over there."
+    },
+    {
+        "text": "But, let's say that we want to do it this way."
+    },
+    {
+        "text": "So, then what can we do?"
+    },
+    {
+        "text": "Well, I'm going to give you a little bit of information about NDS."
+    },
+    {
+        "text": "So, OK, so let's start by thinking about a slanted plane."
+    },
+    {
+        "text": "OK, so let's say that my surface is just a slanted plane."
+    },
+    {
+        "text": "So, my normal vector would be maybe somewhere here."
+    },
+    {
+        "text": "And, let's say that I'm going to try, you know, I need, of course, some handle on how to set up my integral."
+    },
+    {
+        "text": "So, maybe I'm going to express this in terms of x and y. OK, so I have my coordinates, and I'll try to use x and y."
+    },
+    {
+        "text": "So, then I would like to relate delta s, ds, to the area in the xy plane."
+    },
+    {
+        "text": "So, that means, you know, I want maybe to look at the projection of this guy onto a horizontal plane."
+    },
+    {
+        "text": "Let's squish it horizontally."
+    },
+    {
+        "text": "So, then you have here another area."
+    },
+    {
+        "text": "OK, so the guy on the slanted plane, let's call that delta s, and let's call this guy down here delta a."
+    },
+    {
+        "text": "So, the question, and, you know, delta a would become ultimately maybe delta x, delta y, or something like that."
+    },
+    {
+        "text": "The question is, how do we find the conversion rate between these two areas?"
+    },
+    {
+        "text": "See, I mean, they're not the same."
+    },
+    {
+        "text": "Visually, I hope it's clear to you that if my plane is actually horizontal, then, of course, they're the same."
+    },
+    {
+        "text": "But, the more slanted it becomes, the more delta a becomes smaller than delta s, right?"
+    },
+    {
+        "text": "I mean, if you buy, you know, if you buy land, and it's on the side of a cliff, well, whether you look at it on a map, or whether you look at it on the actual cliff, the area is going to be very different."
+    },
+    {
+        "text": "I'm not sure if that's a wise thing to do if you want to build a house there, but I've been told you can get really cheap land."
+    },
+    {
+        "text": "OK, so anyway, OK, so delta s versus delta a depends on how slanted things are."
+    },
+    {
+        "text": "And, let's try to make that more precise by looking at the angle that our plane makes with the horizontal direction."
+    },
+    {
+        "text": "OK, so let's call this angle alpha, the angle that our plane makes with the horizontal direction."
+    },
+    {
+        "text": "See, it's all coming together now."
+    },
+    {
+        "text": "The first unit about cross products, normal vectors, and so on is actually useful now."
+    },
+    {
+        "text": "So, I claim that the surface element is related to the area in the plane by delta a equals delta s times the cosine of alpha."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, let's look at this small rectangle with one horizontal side and one slanted side."
+    },
+    {
+        "text": "Well, when you project, this side doesn't change."
+    },
+    {
+        "text": "But, this side gets shortened by a factor of cosine alpha."
+    },
+    {
+        "text": "Whatever this length was, this length here is that one times cosine alpha."
+    },
+    {
+        "text": "So, that's why the area gets shrunk by cosine alpha."
+    },
+    {
+        "text": "In one direction, nothing happens."
+    },
+    {
+        "text": "In the other direction, you squish by cosine alpha."
+    },
+    {
+        "text": "So, what that means is that, well, OK, so we'll have to deal with this."
+    },
+    {
+        "text": "And, of course, the one we'll care about actually is delta s expressed in terms of delta a."
+    },
+    {
+        "text": "But, what are we going to do with this cosine?"
+    },
+    {
+        "text": "It's not very convenient to have a cosine left in here."
+    },
+    {
+        "text": "So, remember, the angle between two planes, it's the same thing as the angle between the normal vectors."
+    },
+    {
+        "text": "So, if you want to see this angle alpha elsewhere, what you can do is you can just take the vertical direction."
+    },
+    {
+        "text": "Let's take k. Then, here we have our angle alpha again."
+    },
+    {
+        "text": "So, in particular, cosine of alpha, I can get, well, we know how to find the angle between two vectors."
+    },
+    {
+        "text": "So, if we have our normal vector n, we'll do n dot k, and we'll divide by length n length k. Well, length k is one."
+    },
+    {
+        "text": "That's one easy."
+    },
+    {
+        "text": "OK, so that's how we find the angle."
+    },
+    {
+        "text": "So, now I'm going to say, well, delta s is going to be one over cosine alpha delta a."
+    },
+    {
+        "text": "And, I can rewrite that as length of n divided by n dot k times delta a."
+    },
+    {
+        "text": "Now, let's multiply that by the unit normal vector because what I'm multiplying by is not dS, but actually n dS."
+    },
+    {
+        "text": "So, n delta s will be, I'm just going to multiply by n. Well, let's think for a second."
+    },
+    {
+        "text": "What happens if I take the unit normal n, and I multiply it by the length of my other normal big N?"
+    },
+    {
+        "text": "Well, I get big N again, right?"
+    },
+    {
+        "text": "This is a normal vector of the same length as n, well, up to sine."
+    },
+    {
+        "text": "But, actually, maybe I should."
+    },
+    {
+        "text": "The only thing I don't know is whether this guy will be going in the same direction as big N or in the opposite direction."
+    },
+    {
+        "text": "Say that, for example, my capital N has length, I don't know, length three, for example."
+    },
+    {
+        "text": "The unit normal vector might be this guy, in which case, indeed, three times little n will be big N. Or, it might be this one, in which case, three times little n will be negative big N. But, up to sine, it's N. And then, I will have N over n dot k delta a."
+    },
+    {
+        "text": "And so, the final formula, the one that actually we care about in case you don't really like my explanations of how we get there, is that N dS is plus or minus N over N dot k dx dy."
+    },
+    {
+        "text": "That one is actually kind of useful, so let's box it."
+    },
+    {
+        "text": "Now, just in case you are wondering, of course, if you didn't want to project to x, y, you would have maybe preferred to project to, say, the plane of a blackboard, yz."
+    },
+    {
+        "text": "Well, you can do the same thing."
+    },
+    {
+        "text": "To express N dS in terms of dy dz, you do the same argument."
+    },
+    {
+        "text": "And simply, the only thing that changes is instead of using the vertical vector k, you use the normal vector i."
+    },
+    {
+        "text": "So, you would be doing N over N dot i dy dz, and same thing."
+    },
+    {
+        "text": "Just keep an open mind that this also works with other variables."
+    },
+    {
+        "text": "But anyway, so that's how you can basically project the vector surface area element onto the x, y plane in a way."
+    },
+    {
+        "text": "OK, so let's look at the special case just to see how this fits with stuff we've seen before."
+    },
+    {
+        "text": "Let's do a special example where our surface is given by the equation z minus f of x, y equals zero."
+    },
+    {
+        "text": "OK, that's a strange way to write the equation z equals f of x, y that we saw before."
+    },
+    {
+        "text": "But now, it looks like, well, some function of x, y, z equals zero."
+    },
+    {
+        "text": "So, let's try to use this new method."
+    },
+    {
+        "text": "So, let's call this guy g of x, y, z."
+    },
+    {
+        "text": "Well, so now let's look at the normal vector."
+    },
+    {
+        "text": "The normal vector would be the gradient of g, we said."
+    },
+    {
+        "text": "What's the gradient of this function?"
+    },
+    {
+        "text": "So, gradient of g, well, partial g, partial x, that's just negative partial f, partial x. Gradient g, sorry, the y component, partial g, partial y is going to be negative f sub y."
+    },
+    {
+        "text": "And, g sub z is just one."
+    },
+    {
+        "text": "So now, if you take n over n dot k dx dy, well, it looks like that's going to be negative f sub x, negative f sub y, one divided by, well, what's n dot k?"
+    },
+    {
+        "text": "If you do that with k, you'll get just one."
+    },
+    {
+        "text": "So, I'm not going to write it, dx dy."
+    },
+    {
+        "text": "See, that's, again, our favorite formula."
+    },
+    {
+        "text": "So, this one is actually more general because you don't need to solve for z."
+    },
+    {
+        "text": "But, if you can solve for z, then it's the same as before."
+    },
+    {
+        "text": "OK, I think that's enough formulas for n dS."
+    },
+    {
+        "text": "So, after spending a lot of time telling you how to compute surface integrals, now I'm going to try to tell you how to avoid computing them."
+    },
+    {
+        "text": "And, that is called the divergence theorem."
+    },
+    {
+        "text": "And, we'll see the proof and everything and applications on Tuesday, but I want to at least state the theorem and see how it works in one example."
+    },
+    {
+        "text": "It's also known as the Gauss grain theorem, or just the Gauss theorem depending on who you talk to."
+    },
+    {
+        "text": "So, the grain here is the same grain as in Green's theorem, OK, because somehow that's a space version of Green's theorem."
+    },
+    {
+        "text": "So, what does it say?"
+    },
+    {
+        "text": "It says, so, this is the analog of grain for flux."
+    },
+    {
+        "text": "What it says is if S is a closed surface, OK, so remember, it's the same as with Green's theorem, we need to have something that's completely enclosed."
+    },
+    {
+        "text": "So, you have a surface, and there's somehow no gaps in it."
+    },
+    {
+        "text": "There's no boundary to it."
+    },
+    {
+        "text": "It's really completely enclosed."
+    },
+    {
+        "text": "So, I'm choosing a region in space that I will call D. And, I need to choose my orientation."
+    },
+    {
+        "text": "So, the orientation that will be chosen in this theorem is choosing the normal vector to point outwards."
+    },
+    {
+        "text": "OK, so, n needs to be outwards."
+    },
+    {
+        "text": "So, that's one part of the puzzle."
+    },
+    {
+        "text": "The other part is a vector field."
+    },
+    {
+        "text": "I need to have a vector field that is defined and differentiable everywhere in D. So, same restrictions as usual."
+    },
+    {
+        "text": "Then, I don't have, actually, to compute the flux integral."
+    },
+    {
+        "text": "The integral of F dot n dS of a closed surface S. I need to put a circle just to remind you it's got to be a closed surface."
+    },
+    {
+        "text": "That's just notation to remind us, closed surface."
+    },
+    {
+        "text": "I can replace that by the triple integral of the region inside of divergence of F dV."
+    },
+    {
+        "text": "Now, I need to tell you what's the divergence of a 3D vector field."
+    },
+    {
+        "text": "Well, you'll see it's not much of a difference."
+    },
+    {
+        "text": "In the 2D case, what you do is just, so, say that your vector field has components P, Q, and R. Then, you will take P sub x plus Q sub y plus R sub z. OK, so that's the definition."
+    },
+    {
+        "text": "It's pretty easy to remember."
+    },
+    {
+        "text": "You take the x component partial respect to x plus partial respect to y of the y component plus partial respect to z of the z component."
+    },
+    {
+        "text": "OK, so, for example, last time we saw that the flux of the vector field zk for a sphere of radius a was four-thirds pi a cubed by computing the surface integral."
+    },
+    {
+        "text": "Well, if we do it more efficiently now by Green's theorem, so we're going to use Green's theorem for this sphere."
+    },
+    {
+        "text": "Because we're doing the whole sphere, it's fine."
+    },
+    {
+        "text": "It's a closed surface."
+    },
+    {
+        "text": "We couldn't do it for, say, a hemisphere or something like that."
+    },
+    {
+        "text": "We need to, well, I mean, for the hemisphere, we'd need to add maybe the flat face at the bottom or something like that."
+    },
+    {
+        "text": "So, Green's theorem says that our flux integral can be actually replaced by the triple integral of a solid ball of radius a of the divergence of zk dv."
+    },
+    {
+        "text": "But now, what's the divergence of this field?"
+    },
+    {
+        "text": "Well, so you have zero, zero, z."
+    },
+    {
+        "text": "So, you get zero plus zero plus one."
+    },
+    {
+        "text": "It looks like it will be one."
+    },
+    {
+        "text": "So, if you do the triple integral of one dv, you will get just the volume of the region inside, which is four-thirds pi a cubed."
+    },
+    {
+        "text": "And, so it was no accident."
+    },
+    {
+        "text": "In fact, before that, we looked at also xi yj zk, and we found three times the volume."
+    },
+    {
+        "text": "That's because the divergence of that field was actually three."
+    },
+    {
+        "text": "So, very quickly, let me just say what this means physically."
+    },
+    {
+        "text": "Physically, see, this guy on the left is the total amount of stuff that goes out of the region per unit time."
+    },
+    {
+        "text": "So, I want to figure out how much stuff comes out of there."
+    },
+    {
+        "text": "What does the divergence mean?"
+    },
+    {
+        "text": "The divergence means, well, it measures how much the flow is expanding things."
+    },
+    {
+        "text": "It measures how much, I say probably when we understood 2D divergence, it measures the amount of sources or sinks that you have inside your fluid."
+    },
+    {
+        "text": "So, now it becomes common sense."
+    },
+    {
+        "text": "If you take a region of space, the total amount of water that flows out of it is the total amount of sources that you have in there minus the sinks."
+    },
+    {
+        "text": "In spite of this common sense explanation, we are going to see actually how to prove this, and we'll see how it works and the hypothesis."
+    }
+]

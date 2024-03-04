@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I am glad you are happy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better .",
+            "It's just what I want .",
+            "I am really pleased with it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am glad you are happy .",
+        "id": 7,
+        "source_sentences": [
+            1,
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

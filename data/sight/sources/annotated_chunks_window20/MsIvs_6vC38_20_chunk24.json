@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Zero one zero."
+    },
+    {
+        "text": "Okay, now a second row, say zero zero one and the third guy one zero zero."
+    },
+    {
+        "text": "So that is like a cycle."
+    },
+    {
+        "text": "That puts row two moves up to row one, row three moves up to row two, and row one moves down to row three."
+    },
+    {
+        "text": "And there's one more, which is, let's see, what's left?"
+    },
+    {
+        "text": "Is it zero zero one, okay."
+    },
+    {
+        "text": "One zero zero, okay."
+    },
+    {
+        "text": "Zero one zero, okay."
+    },
+    {
+        "text": "Great."
+    },
+    {
+        "text": "Six."
+    },
+    {
+        "text": "Six of them."
+    },
+    {
+        "text": "Six P. L. And they're sort of nice, because what happens if I like multiply two of them together?"
+    },
+    {
+        "text": "If I multiply two of these matrices together, what can you tell me about the answer?"
+    },
+    {
+        "text": "It's on the list."
+    },
+    {
+        "text": "If I do some row exchanges and then I do some more row exchanges, then all together I've done row exchanges."
+    },
+    {
+        "text": "So if I multiply, but I don't know."
+    },
+    {
+        "text": "And if I invert, then I'm just doing row exchanges to get back again, so the inverses are all there."
+    },
+    {
+        "text": "It's a little family of matrices that, like, they've got their own, if I multiply, I'm still inside this group, if I invert, I'm inside this group."
+    },
+    {
+        "text": "Actually, group is the right name for this."
+    },
+    {
+        "text": "It's a group of six matrices."
+    }
+]

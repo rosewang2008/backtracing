@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Try some beef , please ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

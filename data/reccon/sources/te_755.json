@@ -1,0 +1,197 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you watch the final last night ? My favorite singer won !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Did you watch the final last night ? My favorite singer won !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , I love him too . He not only sings well but also shows perseverance when he encounters difficulties in the contest .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !",
+            "Oh , I love him too . He not only sings well but also shows perseverance when he encounters difficulties in the contest ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I love him too . He not only sings well but also shows perseverance when he encounters difficulties in the contest .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , he got booted after his initial performance in the audition , but he did not give up . He then tried at another two auditions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !",
+            "Yeah , he got booted after his initial performance in the audition , but he did not give up . He then tried at another two auditions ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yeah , he got booted after his initial performance in the audition , but he did not give up . He then tried at another two auditions .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "He had barely survived the third audition and finally got a chance to advance in the contest . Fortunately , in the third audition , he has won popularity among the audience . And that's when I started to notice him .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !",
+            "Oh , I love him too . He not only sings well but also shows perseverance when he encounters difficulties in the contest .",
+            "He had barely survived the third audition and finally got a chance to advance in the contest . Fortunately , in the third audition , he has won popularity among the audience . And that's when I started to notice him ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "He had barely survived the third audition and finally got a chance to advance in the contest . Fortunately , in the third audition , he has won popularity among the audience . And that's when I started to notice him .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Me too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "He had barely survived the third audition and finally got a chance to advance in the contest . Fortunately , in the third audition , he has won popularity among the audience . And that's when I started to notice him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Before he made the top three , I was so nervous . I just fear that he might be knocked out .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Before he made the top three , I was so nervous . I just fear that he might be knocked out .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , there're so many excellent candidates out there . Who knows which one will make it to the final ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !",
+            "Oh , I love him too . He not only sings well but also shows perseverance when he encounters difficulties in the contest ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , there're so many excellent candidates out there . Who knows which one will make it to the final ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Absolutely . That's why when he entered the final , I was so excited .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            8
+        ],
+        "expanded emotion cause span": [
+            "My favorite singer won !",
+            "when he entered the final"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Absolutely . That's why when he entered the final , I was so excited .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "He really did a great job in the finale , especially in the PK round . He performed so well that the majority of the audience cast their votes for him .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "He really did a great job in the finale , especially in the PK round . He performed so well that the majority of the audience cast their votes for him ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He really did a great job in the finale , especially in the PK round . He performed so well that the majority of the audience cast their votes for him .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And the host announced that he won it all !",
+        "emotion": "happiness",
+        "explanation": "10 with 9 makes the evidence stronger.",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "He really did a great job in the finale , especially in the PK round . He performed so well that the majority of the audience cast their votes for him .",
+            "And the host announced that he won it all !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And the host announced that he won it all !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

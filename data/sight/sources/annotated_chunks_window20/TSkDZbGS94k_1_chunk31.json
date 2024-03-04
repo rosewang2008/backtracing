@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Is that clear?"
+    },
+    {
+        "text": "OK, so now you know how to answer the question, what is the statistical model?"
+    },
+    {
+        "text": "And again, within the scope of this class, you will not be asked to just come up with a model."
+    },
+    {
+        "text": "I will just tell you, Poisson would be a probably good idea here."
+    },
+    {
+        "text": "And then you would just have to trust me that, indeed, it would be a good idea."
+    },
+    {
+        "text": "All right, so what I started talking about about 20 minutes ago, so I was definitely ahead of myself, is the notion."
+    },
+    {
+        "text": "So that's when I was talking about well-specified."
+    },
+    {
+        "text": "Remember, well-specified says that the true distribution is one of the distribution in this parametric families of distribution."
+    },
+    {
+        "text": "The true distribution of my siblings is actually a Poisson with some parameters."
+    },
+    {
+        "text": "And all I need to figure out is what this parameter is."
+    },
+    {
+        "text": "When I started saying that, I said, well, but then that could be that there are several parameters that give me the same distribution, right?"
+    },
+    {
+        "text": "It could be the case that Poisson 5 and Poisson 17 are exactly the same distributions when I start putting those numbers in the formula which I rephrased."
+    },
+    {
+        "text": "So it could be the case that two different numbers would give me exactly the same probabilities."
+    },
+    {
+        "text": "And in this case, we see that the model is not identifiable."
+    },
+    {
+        "text": "I mean, the parameter is not identifiable."
+    },
+    {
+        "text": "I cannot identify the parameter, even if you actually gave me an infinite amount of data, which means that I could actually estimate exactly the PMF."
+    },
+    {
+        "text": "I might not be able to go back, because there would be several candidates."
+    },
+    {
+        "text": "And I would not be able to tell you which one it was in the first place."
+    },
+    {
+        "text": "So what we want is that this function, theta, maps to P theta is injective."
+    },
+    {
+        "text": "And that's really to be fancy."
+    }
+]

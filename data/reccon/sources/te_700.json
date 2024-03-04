@@ -1,0 +1,163 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why didn't you tell me you had a girlfriend ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Why didn't you tell me you had a girlfriend ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why didn't you tell me you had a girlfriend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sorry , I thought you knew .",
+        "emotion": "neutral",
+        "text": "Sorry , I thought you knew .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "But you should have told me you were in love with her .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "But you should have told me you were in love with her ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "But you should have told me you were in love with her .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Didn't I ?",
+        "emotion": "neutral",
+        "text": "Didn't I ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You know you didn't .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Didn't I ?",
+            "You know you didn't ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You know you didn't .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , I'm telling you now .",
+        "emotion": "neutral",
+        "text": "Well , I'm telling you now .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , but you might have told me before .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm telling you now .",
+            "you might have told me before ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , but you might have told me before .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I didn't think you'd be interested .",
+        "emotion": "neutral",
+        "text": "I didn't think you'd be interested .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You can't be serious . How dare you not tell me you were going to marry her ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I didn't think you'd be interested .",
+            "How dare you not tell me you were going to marry her ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You can't be serious . How dare you not tell me you were going to marry her ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sorry , I didn't think it mattered .",
+        "emotion": "neutral",
+        "text": "Sorry , I didn't think it mattered .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , you men ! You're all the same .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "How dare you not tell me you were going to marry her ?",
+            "I didn't think it mattered .",
+            "Oh , you men ! You're all the same ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , you men ! You're all the same .",
+        "id": 11
+    }
+]

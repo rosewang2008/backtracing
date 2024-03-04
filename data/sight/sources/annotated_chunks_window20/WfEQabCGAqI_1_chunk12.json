@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, now, if you, that, of course, is a slightly confusing equation to think of."
+    },
+    {
+        "text": "So, a good exercise, if you want to really understand what's going on, try this in two good examples to look at."
+    },
+    {
+        "text": "One good example to look at is the previous one."
+    },
+    {
+        "text": "What is it?"
+    },
+    {
+        "text": "It's when u and v are just x and y. OK, so the parametric equations are just x equals x, y equals y, and z is f of x, y."
+    },
+    {
+        "text": "You should end up with the same formula that we had over there."
+    },
+    {
+        "text": "And, you should see why because, see, both of them are given by a cross product."
+    },
+    {
+        "text": "The other case you can look at, just to convince yourselves that it's true, so we don't need to do that because we've seen the formula before."
+    },
+    {
+        "text": "But, in the case of a sphere, we've seen the formula for N and for dS separately."
+    },
+    {
+        "text": "So, we know what N dS are in terms of d phi d theta."
+    },
+    {
+        "text": "Well, you could parametrize a sphere in terms of phi and theta."
+    },
+    {
+        "text": "Namely, the formulas would be x equals a sine phi cosine theta, y equals a sine phi sine theta, z equals a cosine phi."
+    },
+    {
+        "text": "The formulas for spherical coordinates setting rho equals a."
+    },
+    {
+        "text": "So, that's a parametric equation for the sphere."
+    },
+    {
+        "text": "And then, if you try to use this formula here, you should end up with the same things we've already seen for N dS, just with a lot more pain to actually get there because your cross product is going to be a bit complicated."
+    },
+    {
+        "text": "But, we're seeing all of these formulas, they all fit together."
+    },
+    {
+        "text": "Somehow, it's always the same question, just we have different angles of attack on this general problem."
+    },
+    {
+        "text": "OK, questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's look at yet another last way of finding N dS."
+    }
+]

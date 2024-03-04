@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's a straightforward question with a, with a absolutely clean answer."
+    },
+    {
+        "text": "So let me, let me consider A squared."
+    },
+    {
+        "text": "So I look, I start with Ax equal lambda x."
+    },
+    {
+        "text": "And I'm headed for A squared."
+    },
+    {
+        "text": "So let me multiply both sides by A."
+    },
+    {
+        "text": "That's one way to get A squared on the left."
+    },
+    {
+        "text": "So if, I should write these ifs in here."
+    },
+    {
+        "text": "If Ax equals lambda x, then I multiply by A."
+    },
+    {
+        "text": "So I get A squared x equals, well, I'm multiplying by A, so that's lambda Ax."
+    },
+    {
+        "text": "That lambda was a number, so I just put it on the left."
+    },
+    {
+        "text": "And what do I, tell me how to make that look better."
+    },
+    {
+        "text": "What have I got here?"
+    },
+    {
+        "text": "For, if, if A has the eigenvalue lambda and eigenvector x, what's up with A squared?"
+    },
+    {
+        "text": "A squared x, I just multiply by A, but now for Ax, I'm going to substitute lambda x, so I've got lambda squared x."
+    },
+    {
+        "text": "So from that simple calculation, I, my conclusion is that the eigenvalues of A squared are lambda squared."
+    },
+    {
+        "text": "And the eigenvectors, I always think about both of those."
+    },
+    {
+        "text": "What can I say about the eigenvalues?"
+    },
+    {
+        "text": "They're squared."
+    },
+    {
+        "text": "What can I say about the eigenvectors?"
+    },
+    {
+        "text": "They're the same."
+    }
+]

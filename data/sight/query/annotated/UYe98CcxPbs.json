@@ -1,0 +1,117 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 0,
+        "timestamp": 1684480825133.0,
+        "annotatedSourceSentencesIndices": [
+            55,
+            57,
+            51,
+            52,
+            55
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "where can I find a complete derivation of the formula z=z0 + a(x-x0) + b(y-y0) using parametric equations as he suggested at 8:38? I tried to do what he said but no luck!"
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 2,
+        "timestamp": 1684480921899.0,
+        "annotatedSourceSentencesIndices": [
+            51,
+            52
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "08:10 how do you express the plan formed by two lines in general? "
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 3,
+        "timestamp": 1684510062486.0,
+        "annotatedSourceSentencesIndices": [
+            293
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "why is it the the deviation formula is squared? i know it must be equal to zero."
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 4,
+        "timestamp": 1684510080674.0,
+        "annotatedSourceSentencesIndices": [
+            293
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why do we do square deviation, but not ordinary one? I don`t understand the precondition for squares. If anyone can explain, do it, please."
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 5,
+        "timestamp": 1684510172054.0,
+        "annotatedSourceSentencesIndices": [
+            198
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "25:57\nWhy he wrote f(-1,0)?"
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 7,
+        "timestamp": 1684510713476.0,
+        "annotatedSourceSentencesIndices": [
+            51
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "For z = z0 + a(x-x0) + b(y-y0),\nwouldn't that mean:\n-1(z-z0) + a(x-x0) + b(y-y0) = 0\nso from lecture 4 the normal vector for any f(x,y) tangent plane is <-1, a, b> ?\nI'm missing something about the -1 I'm sure"
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 9,
+        "timestamp": 1684510838484.0,
+        "annotatedSourceSentencesIndices": [
+            284,
+            285
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "34:58 would using perpendicular distance (instead of vertical distance) make better sense? \n"
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 12,
+        "timestamp": 1684510931819.0,
+        "annotatedSourceSentencesIndices": [
+            43
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "6:34, how is that z=z0 + dz/dx(x-x0) a equation of straight line. y=mx+c is a eqaution of straight line in 2D space. and x = x0 + st is vector form of equaiton in higher dimension. how is  the above euqation realted to this? Thanks in advance"
+    },
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 1,
+        "timestamp": 1684191408602.0,
+        "annotatedSourceSentencesIndices": [
+            0
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Would any one please explain what did the professor mean between 13:13 and 13:44?"
+    }
+]

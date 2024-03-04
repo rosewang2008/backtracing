@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Phew ! . . . Wait a minute , CRASH ? ? ! ! Spyware ? Trojans ! What ? where ? when ? !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "your computer might have a virus",
+            "it crashed",
+            "unwanted spyware or Trojans ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Phew ! . . . Wait a minute , CRASH ? ? ! ! Spyware ? Trojans ! What ? where ? when ? !",
+        "id": 8,
+        "source_sentences": [
+            6,
+            6,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

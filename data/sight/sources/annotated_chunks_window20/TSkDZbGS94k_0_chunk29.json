@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so what is going to be my sample space?"
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "0 to theta."
+    },
+    {
+        "text": "And then what is my probability distribution, my family of parameters?"
+    },
+    {
+        "text": "So well, I can write it like this, right?"
+    },
+    {
+        "text": "Uniform theta, right?"
+    },
+    {
+        "text": "And theta, let's say, is positive."
+    },
+    {
+        "text": "Can somebody tell me what's wrong with what I wrote?"
+    },
+    {
+        "text": "Yeah, this makes no sense."
+    },
+    {
+        "text": "Tell me why."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "Yeah, this set depends on theta."
+    },
+    {
+        "text": "And why is that a problem?"
+    },
+    {
+        "text": "There's no theta."
+    },
+    {
+        "text": "Right now, there's the families of thetas."
+    },
+    {
+        "text": "Which one did you pick here?"
+    },
+    {
+        "text": "This is just something that's indexed by theta."
+    },
+    {
+        "text": "But I could have very well written it as just not being Greek for a second."
+    },
+    {
+        "text": "I could have just written this as t, right, rather than theta."
+    },
+    {
+        "text": "OK, that would be the same thing."
+    }
+]

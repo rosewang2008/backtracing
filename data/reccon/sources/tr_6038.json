@@ -1,0 +1,234 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+        "emotion": "happiness",
+        "explanation": "A is happy to share what they like",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I love breathing fresh air in the suburb places , while sitting in the morning sunshine ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I can't agree more , honey . We need to get away from work from time to time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+            "I can't agree more ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can't agree more , honey . We need to get away from work from time to time .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , just return to nature and feel the thrills of its beauty .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+            "I can't agree more ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , just return to nature and feel the thrills of its beauty .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We are nor alone here . So many other families !",
+        "emotion": "happiness",
+        "explanation": "B is happy to see other people also enjoy the same ambience",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+            "I can't agree more ,",
+            "We are nor alone here .",
+            "many other families !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "We are nor alone here . So many other families !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sure . The sunny days of spring are ideal for outdoor gatherings .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I love breathing fresh air in the suburb places , while sitting in the morning sunshine .",
+            "We are nor alone here .",
+            "many other families !",
+            "The sunny days of spring are ideal for outdoor gatherings ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Sure . The sunny days of spring are ideal for outdoor gatherings .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , let's go over there and put a blanket on the lawn .",
+        "emotion": "neutral",
+        "text": "Well , let's go over there and put a blanket on the lawn .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK , you go back to our car and fetch the picnic stuff .",
+        "emotion": "neutral",
+        "text": "OK , you go back to our car and fetch the picnic stuff .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , so heavy ! What have you put in here ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "so heavy !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , so heavy ! What have you put in here ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Nothing special . Food , drinks , and Daniel's kangaroo toys .",
+        "emotion": "neutral",
+        "text": "Nothing special . Food , drinks , and Daniel's kangaroo toys .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Toys ? Why do we need toys for a picnic ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "toys .",
+            "Why do we need toys"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Toys ? Why do we need toys for a picnic ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "He said he would like to be our tour director and he lined up many things to do .",
+        "emotion": "neutral",
+        "text": "He said he would like to be our tour director and he lined up many things to do .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sure , then . May it really be a day of enjoyment . Other than that , we can also teach him something about science .",
+        "emotion": "neutral",
+        "text": "Sure , then . May it really be a day of enjoyment . Other than that , we can also teach him something about science .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Science ? What are you talking about ? Forget about your science , OK ? It's a picnic !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "we can also teach him something about science .",
+            "What are you talking about ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Science ? What are you talking about ? Forget about your science , OK ? It's a picnic !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I mean we can inspire him for a deeper understanding of the natural world .",
+        "emotion": "neutral",
+        "text": "I mean we can inspire him for a deeper understanding of the natural world .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I can't agree on that . Just cut it out . Give him a break and don't spoil the day .",
+        "emotion": "neutral",
+        "text": "I can't agree on that . Just cut it out . Give him a break and don't spoil the day .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Well , OK . you are always right .",
+        "emotion": "neutral",
+        "text": "Well , OK . you are always right .",
+        "id": 16
+    }
+]

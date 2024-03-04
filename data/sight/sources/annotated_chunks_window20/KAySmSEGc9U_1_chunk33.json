@@ -1,0 +1,26 @@
+[
+    {
+        "text": "So we showed how to convert DFAs to regular expressions."
+    },
+    {
+        "text": "And the summary is that DFAs, NFAs, GNFAs even, and regular expressions are all equivalent in the class of languages they can describe."
+    },
+    {
+        "text": "The second thing we did was a method for proving languages not regular by using the pumping lemma or closure properties."
+    },
+    {
+        "text": "And lastly, we introduced context-free grammars."
+    },
+    {
+        "text": "And we're going to see more about those on Thursday."
+    },
+    {
+        "text": "So with that, I think we're out of time."
+    },
+    {
+        "text": "And I'll thank you for the notes of appreciation."
+    },
+    {
+        "text": "And I think we're going to end here and see you on Thursday, if not before."
+    }
+]

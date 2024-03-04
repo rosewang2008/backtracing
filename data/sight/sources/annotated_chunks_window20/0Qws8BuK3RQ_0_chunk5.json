@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I just want to get my notation to be consistent here."
+    },
+    {
+        "text": "OK. OK."
+    },
+    {
+        "text": "So I see that I'm starting with the y's and mapping them to x's."
+    },
+    {
+        "text": "So let me ask the question."
+    },
+    {
+        "text": "What orthogonal matrix Q multiplies the y's to come as close as possible to the x's?"
+    },
+    {
+        "text": "So over all orthogonal Q's, I want to minimize yq minus x in the Frobenius norm."
+    },
+    {
+        "text": "And I might as well square it."
+    },
+    {
+        "text": "So Frobenius, we're into the Frobenius norm."
+    },
+    {
+        "text": "Remember the matrix."
+    },
+    {
+        "text": "Matrix, this is a very convenient norm in data science to measure the size of a matrix."
+    },
+    {
+        "text": "And we have several possible formulas for it."
+    },
+    {
+        "text": "So let me call the matrix A."
+    },
+    {
+        "text": "And the Frobenius norm squared."
+    },
+    {
+        "text": "OK, so what's one expression in terms of the entries of the matrix, the numbers Aij in the matrix?"
+    },
+    {
+        "text": "The Frobenius norm just treats it like a long vector."
+    },
+    {
+        "text": "So it's A11 squared plus A12 squared, all the way along the first plus second row."
+    },
+    {
+        "text": "Just I'll say NN squared."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Sum of all the squares, just treating it like a long vector."
+    },
+    {
+        "text": "OK."
+    }
+]

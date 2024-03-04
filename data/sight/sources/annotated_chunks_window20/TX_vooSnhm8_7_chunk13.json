@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Correct?"
+    },
+    {
+        "text": "And square root of eighteen is divided by square root of two, so that leaves me square root of nine, which is three, but no, Professor Strang, you see the problem."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Why am I getting minus three three here, and here I'm getting three minus three?"
+    },
+    {
+        "text": "Phooey."
+    },
+    {
+        "text": "I don't know why."
+    },
+    {
+        "text": "It shouldn't have happened, but it did."
+    },
+    {
+        "text": "Now, okay, you could say, well, just, the eigenvector there could have, I could have had the minus sign here for that eigenvector, but I'm not happy about that."
+    },
+    {
+        "text": "Hm."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I realize there's a little catch here somewhere, and I may not see it until Wednesday, which then gives you a very important reason to come back on Wednesday, to catch that sign difference."
+    },
+    {
+        "text": "So what did I do illegally?"
+    },
+    {
+        "text": "I think I put the eigenvectors in that matrix V transpose."
+    },
+    {
+        "text": "Okay, I'm going to have to think, why did that come out, with the opposite sign?"
+    },
+    {
+        "text": "So you see, I mean, if I had a minus there, I would be all right, but I don't want that."
+    },
+    {
+        "text": "I want positive entries down the diagonal of sigma squared."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "It'll come to me, but I'm going to leave this example to finish."
+    }
+]

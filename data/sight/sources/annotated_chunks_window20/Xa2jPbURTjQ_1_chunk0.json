@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "So we're really moving along this review of the highlights of linear algebra."
+    },
+    {
+        "text": "And today it's matrices Q."
+    },
+    {
+        "text": "They get that name."
+    },
+    {
+        "text": "They have orthonormal columns."
+    },
+    {
+        "text": "So that's what one looks like."
+    },
+    {
+        "text": "And then the key fact, orthonormal columns translates directly into that simple fact that you just keep remembering."
+    },
+    {
+        "text": "Every time you see Q transpose Q, you've got the identity matrix."
+    },
+    {
+        "text": "Let's just see why."
+    },
+    {
+        "text": "So Q transpose would be, I'll take those columns and make them into rows."
+    },
+    {
+        "text": "And then I multiply by Q with the columns."
+    },
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "Well, hopefully I get the identity matrix."
+    },
+    {
+        "text": "OK, why?"
+    },
+    {
+        "text": "Because, oh, yeah, the normal part tells me that the length of each vector, that's the length squared Q transpose Q."
+    },
+    {
+        "text": "The length squared is 1."
+    },
+    {
+        "text": "So that gives me the 1 in the identity matrix all along the diagonal."
+    },
+    {
+        "text": "And then Q transpose times a different Q is 0."
+    }
+]

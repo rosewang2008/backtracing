@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "This PC is top of the line and I guarantee it will never freeze ! If it does , we ' ll give you your money back !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I just want to know if it ' s good and if I will be able to play solitaire without the computer crashing or freezing all the time !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "This PC is top of the line and I guarantee it will never freeze ! If it does , we ' ll give you your money back !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

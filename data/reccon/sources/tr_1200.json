@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello . Are you a friend of Helen's ?",
+        "emotion": "neutral",
+        "text": "Hello . Are you a friend of Helen's ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Actually , a friend of a friend .",
+        "emotion": "neutral",
+        "text": "Actually , a friend of a friend .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "My name is Phil . What's yours ?",
+        "emotion": "neutral",
+        "text": "My name is Phil . What's yours ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Alecia .",
+        "emotion": "neutral",
+        "text": "Alecia .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Have you tried these little ditties ? They are really good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "They are really good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Have you tried these little ditties ? They are really good .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks . They look delicious .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "They are really good .",
+            "They look delicious ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . They look delicious .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Can I get you some punch ? I was just going to go get myself some .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They are really good .",
+            "I was just going to go get myself some ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Can I get you some punch ? I was just going to go get myself some .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That would be great . I would love some .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Can I get you some punch ?",
+            "That would be great . I would love some ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That would be great . I would love some .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

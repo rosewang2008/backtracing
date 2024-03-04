@@ -1,0 +1,227 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mom , Happy mother's Day ! Here's my card .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Mom , Happy mother's Day ! Here's my card .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What a surprise ! Thanks . It ' s beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "What a surprise !",
+            "It ' s beautiful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What a surprise ! Thanks . It ' s beautiful .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thank you for your love and care over the years , I appreciate it , mom .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "It ' s beautiful .",
+            "Thank you for your love and care",
+            "I appreciate it ,"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thank you for your love and care over the years , I appreciate it , mom .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "This is the best card I ever received .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "What a surprise !",
+            "It ' s beautiful .",
+            "the best card I ever received ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "This is the best card I ever received .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Mom , what can I do for you today ?",
+        "emotion": "neutral",
+        "text": "Mom , what can I do for you today ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Nothing , son . I'm already very happy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "What a surprise !",
+            "It ' s beautiful .",
+            "the best card I ever received .",
+            "what can I do for you today ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Nothing , son . I'm already very happy .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about dinner tonight ? My treat .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm already very happy ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How about dinner tonight ? My treat .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Actually . I prefer we eat at home . We ' ll have more time to catch up that way .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "What a surprise !",
+            "It ' s beautiful .",
+            "the best card I ever received .",
+            "what can I do for you today ?",
+            "My treat ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Actually . I prefer we eat at home . We ' ll have more time to catch up that way .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'm sorry I haven't dropped in that much these past few years . Business kept me too busy , I apologize .",
+        "emotion": "neutral",
+        "text": "I'm sorry I haven't dropped in that much these past few years . Business kept me too busy , I apologize .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , don't mention it . I'm proud of you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            2,
+            4,
+            5,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Happy mother's Day !",
+            "What a surprise !",
+            "It ' s beautiful .",
+            "the best card I ever received .",
+            "what can I do for you today ?",
+            "I'm proud of you !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , don't mention it . I'm proud of you !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you , mom . I love you so much !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'm proud of you !",
+            "I love you"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you , mom . I love you so much !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

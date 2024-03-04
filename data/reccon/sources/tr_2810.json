@@ -1,0 +1,147 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Beautiful weather , isn ' t it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Beautiful weather"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Beautiful weather , isn ' t it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , it is . Are you here on business ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Beautiful weather"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , it is . Are you here on business ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , I ' m on a vacation to see the famous Three Gorges .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' m on a vacation to see the famous Three Gorges ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , I ' m on a vacation to see the famous Three Gorges .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I ' m going there for a tour , too . Is this your first trip to China ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' m going there for a tour"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m going there for a tour , too . Is this your first trip to China ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , it is .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' m on a vacation to see the famous Three Gorges .",
+            "first trip to China"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , it is .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why don ' t we go together ? I can show you around . I think you ' ll have a better time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Why don ' t we go together ? I can show you around . I think you ' ll have a better time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why don ' t we go together ? I can show you around . I think you ' ll have a better time .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I couldn ' t agree more .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Why don ' t we go together ? I can show you around . I think you ' ll have a better time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I couldn ' t agree more .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great , let ' s go !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Why don ' t we go together ? I can show you around . I think you ' ll have a better time .",
+            "I couldn ' t agree more ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great , let ' s go !",
+        "id": 8
+    }
+]

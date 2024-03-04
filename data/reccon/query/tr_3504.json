@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I'll go by myself , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll pick you up by nine o'clock and take you straight to the airport ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , I'll go by myself , thanks .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

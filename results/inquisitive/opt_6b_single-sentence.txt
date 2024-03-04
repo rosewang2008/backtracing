@@ -1,0 +1,11 @@
+Using CUDA? True
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/opt_6b_single-sentence.csv
+Output fname: results/inquisitive/test/opt_6b_single-sentence.csv
+Total: 25887
+Num errors: 0
+Num large context: 0
+Method: single-sentence, top_k: 1, accuracy: 0.66, distance: 2.69
+Method: single-sentence, top_k: 3, accuracy: 0.82, distance: 0.83
+

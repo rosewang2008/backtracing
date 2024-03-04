@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "If you like to help me do the dishes , I'll be more dreadful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's delicious !",
+            "It's a wonderful meal . Thank you ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "If you like to help me do the dishes , I'll be more dreadful .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

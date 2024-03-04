@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Freeze ! Police ! Put your hands over your head !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Freeze ! Police ! Put your hands over your head !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Freeze ! Police ! Put your hands over your head !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What did I do ? I haven't done anything .",
+        "emotion": "neutral",
+        "text": "What did I do ? I haven't done anything .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're under arrest for concealing illegal drugs .",
+        "emotion": "neutral",
+        "text": "You're under arrest for concealing illegal drugs .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What do you mean ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "You're under arrest for concealing illegal drugs ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What do you mean ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You are suspected of hiding illegal drugs . So we are taking you into custody .",
+        "emotion": "neutral",
+        "text": "You are suspected of hiding illegal drugs . So we are taking you into custody .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I didn't do anything .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You are suspected of hiding illegal drugs ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I didn't do anything .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "We've found some heroin at your house .",
+        "emotion": "neutral",
+        "text": "We've found some heroin at your house .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , I didn't . I'm innocent . Those aren't mine . Whatever you found is someone else's stuff . You can't prove anything . I wasn't there when you went in , and you can't prove it's my stuff .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "We've found some heroin at your house ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , I didn't . I'm innocent . Those aren't mine . Whatever you found is someone else's stuff . You can't prove anything . I wasn't there when you went in , and you can't prove it's my stuff .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That may be , but you're still under arrest . And you'd better stop talking .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "No , I didn't . I'm innocent . Those aren't mine . Whatever you found is someone else's stuff . You can't prove anything . I wasn't there when you went in , and you can't prove it's my stuff ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That may be , but you're still under arrest . And you'd better stop talking .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I don't need your help , jerk .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "That may be , but you're still under arrest . And you'd better stop talking ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I don't need your help , jerk .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Whatever you say .",
+        "emotion": "neutral",
+        "text": "Whatever you say .",
+        "id": 11
+    }
+]

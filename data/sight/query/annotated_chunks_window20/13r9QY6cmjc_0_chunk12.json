@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 0,
+        "timestamp": 1684723011392.0,
+        "annotatedSourceSentencesIndices": [
+            6
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "i'm still a little confused, what is u naught supposed to represent? Are those just the linear combination of the eigenvectors?"
+    }
+]

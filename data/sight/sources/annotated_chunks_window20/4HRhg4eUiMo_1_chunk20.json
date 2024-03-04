@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So those are just fixed numbers that are functions of the Gaussian."
+    },
+    {
+        "text": "All right, so everybody agrees?"
+    },
+    {
+        "text": "We've done that before for our confidence intervals."
+    },
+    {
+        "text": "And so now we know that if I actually plug in this guy to be q alpha over 2, then this limit is actually equal to alpha."
+    },
+    {
+        "text": "And so now I've actually constrained this."
+    },
+    {
+        "text": "So q alpha over 2 here is, for alpha equals 5%, as I said, is 1.96."
+    },
+    {
+        "text": "So in the example 1, the number that we found was 3.54, I think, or something like that, 3.55 for t. So if we scroll back very quickly, 3.45."
+    },
+    {
+        "text": "That was example 1."
+    },
+    {
+        "text": "Example 2, negative 0.77."
+    },
+    {
+        "text": "So if I look at t, n, in example 1, tn was just the absolute value of 3.45, which don't pull out your calculators, is equal to 3.45."
+    },
+    {
+        "text": "Example 2, absolute value of negative 0.77 was equal to 0.77."
+    },
+    {
+        "text": "And so all I need to check is, is this number larger or smaller than 1.96?"
+    },
+    {
+        "text": "That's what my test ends up being."
+    },
+    {
+        "text": "So in example 1, 3.45 being larger than 1.96, that means that I reject."
+    },
+    {
+        "text": "Fairness of my coins in example 2, 0.77 being smaller than 1.96, what do I do?"
+    },
+    {
+        "text": "I fail to reject."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So here's a question."
+    },
+    {
+        "text": "In example 1, for what level alpha would psi alpha, what is the?"
+    },
+    {
+        "text": "So here, what's going to happen if I start decreasing my level?"
+    }
+]

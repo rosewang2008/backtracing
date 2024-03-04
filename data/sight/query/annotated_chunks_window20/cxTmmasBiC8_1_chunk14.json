@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "cxTmmasBiC8",
+        "query_id": 1,
+        "timestamp": 1684480753122.0,
+        "annotatedSourceSentencesIndices": [
+            11
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "The first two eigenvalues are 0 and 2 which correspond to the eigenvectors (1,1,1,1), (0,0,-1,1). He says some of the components in this second eigenvectors are positive and some are negative which tells you which cluster each node is in. But he never carries it out and explain the 0 components? See wolfram-alpha https://tinyurl.com/y7vdkhua for decomposition."
+    }
+]

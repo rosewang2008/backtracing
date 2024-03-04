@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "There are lots of new teachers in our class this semester .",
+        "emotion": "neutral",
+        "text": "There are lots of new teachers in our class this semester .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , so what do you think about the teachers ?",
+        "emotion": "neutral",
+        "text": "Yeah , so what do you think about the teachers ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "To be honest , I like all of them , except for the math teacher . Though he must be quite young , he seems like an old person . He's so boring .",
+        "emotion": "neutral",
+        "text": "To be honest , I like all of them , except for the math teacher . Though he must be quite young , he seems like an old person . He's so boring .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think so too . I don't like him either . Well , who do you like best ?",
+        "emotion": "neutral",
+        "text": "I think so too . I don't like him either . Well , who do you like best ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It might be the English teacher . What about you ?",
+        "emotion": "neutral",
+        "text": "It might be the English teacher . What about you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Me , too . She speaks very clearly and doesn't use very complicated words so that it is easy for us to understand her .",
+        "emotion": "neutral",
+        "text": "Me , too . She speaks very clearly and doesn't use very complicated words so that it is easy for us to understand her .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "She is a pretty good teacher ! With her help I think I can make great progress in English .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "She is a pretty good teacher ! With her help I think I can make great progress in English ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "She is a pretty good teacher ! With her help I think I can make great progress in English .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "She is a pretty good teacher ! With her help I think I can make great progress in English .",
+            "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , I like her way of teaching . She told us not to cram for exams , and to pay more attention to communicating than memorizing .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think it's a good way to develop our language ability .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "it's a good way to develop our language ability ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it's a good way to develop our language ability .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Actually , our new math teacher is a good person . He just can't find an appropriate way to teach us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "our new math teacher is a good person ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Actually , our new math teacher is a good person . He just can't find an appropriate way to teach us .",
+        "id": 10
+    }
+]

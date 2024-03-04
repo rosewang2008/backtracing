@@ -1,0 +1,102 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Marketing manage office , can I help you ?",
+        "emotion": "neutral",
+        "text": "Marketing manage office , can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Mr Green , please .",
+        "emotion": "neutral",
+        "text": "Mr Green , please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sorry , he's out .",
+        "emotion": "sadness",
+        "explanation": "Cant help the customer",
+        "expanded emotion cause evidence": [
+            "b",
+            3
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "he's out ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Sorry , he's out .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What time you suspect back them ?",
+        "emotion": "neutral",
+        "text": "What time you suspect back them ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sorry , I am not sure , can I take a message ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I am not sure"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sorry , I am not sure , can I take a message ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , thanks . I'll call back later .",
+        "emotion": "neutral",
+        "text": "No , thanks . I'll call back later .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's fine . please call again later .",
+        "emotion": "neutral",
+        "text": "That's fine . please call again later .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Ok , thank you . Goodbye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "That's fine . please call again later ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok , thank you . Goodbye .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

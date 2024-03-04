@@ -1,0 +1,217 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How is everything going with your girlfriend ?",
+        "emotion": "neutral",
+        "text": "How is everything going with your girlfriend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Didn ' t I tell you ? It ' s over !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "everything going with your girlfriend ?",
+            "Didn ' t I tell you ? It ' s over !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Didn ' t I tell you ? It ' s over !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , I am sorry to hear that . I did ' t know that you had split up . What happened ?",
+        "emotion": "neutral",
+        "text": "Oh , I am sorry to hear that . I did ' t know that you had split up . What happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "everything going with your girlfriend ?",
+            "Didn ' t I tell you ? It ' s over !",
+            "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ! Did she tell you why she didn ' t show up ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ! Did she tell you why she didn ' t show up ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "No , but I ended up finding out later that night when I saw her with another man at a club near my home !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "everything going with your girlfriend ?",
+            "Didn ' t I tell you ? It ' s over !",
+            "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+            "later that night when I saw her with another man at a club near my home !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No , but I ended up finding out later that night when I saw her with another man at a club near my home !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What was she thinking ? Did you confront her about it when you saw her ?",
+        "emotion": "neutral",
+        "text": "What was she thinking ? Did you confront her about it when you saw her ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I wanted to , but I knew that if I spoke to her , I'd just blow up at her , so I decided to just go home . I called her later that night , but she didn't answer the phone .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "everything going with your girlfriend ?",
+            "Didn ' t I tell you ? It ' s over !",
+            "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+            "later that night when I saw her with another man at a club near my home !",
+            "I called her later that night , but she didn't answer the phone ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I wanted to , but I knew that if I spoke to her , I'd just blow up at her , so I decided to just go home . I called her later that night , but she didn't answer the phone .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I can ' t believe she would do that to you . It ' s so dishonest---and rude !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+            "later that night when I saw her with another man at a club near my home !",
+            "I called her later that night , but she didn't answer the phone .",
+            "It ' s so dishonest---and rude !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can ' t believe she would do that to you . It ' s so dishonest---and rude !",
+        "id": 9,
+        "source_sentences": [
+            3,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know . I still haven ' t heard from her . The good thing is that I ' m so angry with her that I don ' t feel sad about not having her around .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "everything going with your girlfriend ?",
+            "Didn ' t I tell you ? It ' s over !",
+            "It was a few things . The first thing that happened was that we were supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+            "later that night when I saw her with another man at a club near my home !",
+            "I called her later that night , but she didn't answer the phone .",
+            "It ' s so dishonest---and rude !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I know . I still haven ' t heard from her . The good thing is that I ' m so angry with her that I don ' t feel sad about not having her around .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I bet you she regrets what she ' s done . You were such a good catch ! She really lost out , didn ' t she ?",
+        "emotion": "neutral",
+        "text": "I bet you she regrets what she ' s done . You were such a good catch ! She really lost out , didn ' t she ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I guess so . It would be nice to know why she did this though .",
+        "emotion": "neutral",
+        "text": "I guess so . It would be nice to know why she did this though .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I know . It ' s always nice to have some closure , but I don ' t think you ' ll have a problem finding another girlfriend .",
+        "emotion": "neutral",
+        "text": "I know . It ' s always nice to have some closure , but I don ' t think you ' ll have a problem finding another girlfriend .",
+        "id": 13
+    }
+]

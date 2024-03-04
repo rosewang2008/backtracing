@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Our company's wei-ya is tomorrow night ! It's your first Chinese New Year in Taiwan--you must be excited !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Our company's wei-ya is tomorrow night ! It's your first Chinese New Year in Taiwan"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Our company's wei-ya is tomorrow night ! It's your first Chinese New Year in Taiwan--you must be excited !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Excited ? What's there to be excited about ? It's just another company dinner , right ?",
+        "emotion": "neutral",
+        "text": "Excited ? What's there to be excited about ? It's just another company dinner , right ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You have no idea ! There's a banquet with prizes , performances ... you name it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "There's a banquet with prizes , performances"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You have no idea ! There's a banquet with prizes , performances ... you name it !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? What kind of prizes ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "There's a banquet with prizes , performances"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What kind of prizes ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , I heard that last year Vivian from accounting won a new car !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "last year Vivian from accounting won a new car !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , I heard that last year Vivian from accounting won a new car !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "A new car ! You're kidding !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "last year Vivian from accounting won a new car !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "A new car ! You're kidding !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , really ! And she told me the secret to winning , wear red underwear !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "last year Vivian from accounting won a new car !",
+            "And she told me the secret to winning , wear red underwear !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "No , really ! And she told me the secret to winning , wear red underwear !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wear red underwear ? ! Does that really work ? Are you going to try it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "And she told me the secret to winning , wear red underwear !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wear red underwear ? ! Does that really work ? Are you going to try it ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Of course ! I'm not only going to wear red underwear , but I'm going to wear red socks and a red shirt , too !",
+        "emotion": "happiness",
+        "explanation": "listener is happy to try the secret to winning",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "And she told me the secret to winning , wear red underwear !",
+            "Of course ! I'm not only going to wear red underwear , but I'm going to wear red socks and a red shirt , too !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Of course ! I'm not only going to wear red underwear , but I'm going to wear red socks and a red shirt , too !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Gee , I don't think I own any red underwear , but I can buy some !",
+        "emotion": "neutral",
+        "text": "Gee , I don't think I own any red underwear , but I can buy some !",
+        "id": 10
+    }
+]

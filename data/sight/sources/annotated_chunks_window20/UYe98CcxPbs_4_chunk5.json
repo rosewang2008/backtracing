@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you can see that on this equation of a tangent plane, when both these coefficients are zero, that is when the equation becomes z equals constant, the horizontal plane."
+    },
+    {
+        "text": "Does that make sense?"
+    },
+    {
+        "text": "We will have a name for this kind of point because actually what we will see very soon is that these conditions are necessary but they are not sufficient."
+    },
+    {
+        "text": "There are actually other kinds of points where the partial derivatives are zero."
+    },
+    {
+        "text": "Let's give a name to this."
+    },
+    {
+        "text": "We say that x0, y0 is a critical point of F if the partial derivative with respect to x and the partial derivative with respect to y are both zero."
+    },
+    {
+        "text": "More generally, you would want all the partial derivatives, no matter how many variables you have, you want all the partials to be zero."
+    },
+    {
+        "text": "Let's see an example."
+    },
+    {
+        "text": "Let's say I give you the function f of x, y equals x squared minus 2xy plus py squared plus 2x minus 2y."
+    },
+    {
+        "text": "And let's try to figure out whether we can minimize or maximize this."
+    },
+    {
+        "text": "What we start doing immediately is taking the partial derivatives."
+    },
+    {
+        "text": "What is f sub x?"
+    },
+    {
+        "text": "It starts with 2x minus 2y plus zero plus two."
+    },
+    {
+        "text": "Remember that y is a constant so this differentiates to zero."
+    },
+    {
+        "text": "Now, if we do f sub y, that is going to be zero minus 2x plus 6y minus two."
+    },
+    {
+        "text": "And what we want to do is set these things equal to zero."
+    },
+    {
+        "text": "And we want to solve these two equations at the same time."
+    },
+    {
+        "text": "An important thing to remember, maybe I should have told you a couple of weeks ago already, if you have two equations to solve, well, it is very good to try to simplify them by adding them together or whatever."
+    },
+    {
+        "text": "But you must keep two equations."
+    },
+    {
+        "text": "If you have two equations, you should not end up with just one equation out of nowhere."
+    }
+]

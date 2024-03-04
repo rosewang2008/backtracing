@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The same."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "In other words, eigenvalues and eigenvectors give a great way to understand the powers of a matrix."
+    },
+    {
+        "text": "If I take the square of a matrix or the hundredth power of a matrix, the pivots are all over the place."
+    },
+    {
+        "text": "L U, if I multiply L U times L U times L U times L U a hundred times, I've got a hundred L U's."
+    },
+    {
+        "text": "I can't do anything with them."
+    },
+    {
+        "text": "But when I multiply S lambda S inverse by itself, when I look at the eigenvector picture a hundred times, I get a hundred or ninety-nine of these guys cancelling out inside, and I get A to the hundredth is S lambda to the hundredth S inverse."
+    },
+    {
+        "text": "I mean, eigenvalues tell you about powers of a matrix in a way that we had no, no way to approach previously."
+    },
+    {
+        "text": "For example, when does, when do the powers of a matrix go to zero?"
+    },
+    {
+        "text": "I would call that matrix stable, maybe."
+    },
+    {
+        "text": "So, so, so I could write down a, a theorem."
+    },
+    {
+        "text": "I'll, I'll write it as a theorem, just to use that word to emphasize that here I'm getting this great fact from this eigenvalue picture."
+    },
+    {
+        "text": "OK. A to the k approaches zero as k goes, as k gets bigger."
+    },
+    {
+        "text": "If what?"
+    },
+    {
+        "text": "What's the, how can I tell for a matrix A if its powers go to zero?"
+    },
+    {
+        "text": "What, what's somewhere inside that matrix is that information."
+    },
+    {
+        "text": "That information is not present in the pivots."
+    },
+    {
+        "text": "It's present in the eigenvalues."
+    },
+    {
+        "text": "What do I need for the, to know that if I take higher and higher powers of A that this matrix gets smaller and smaller?"
+    },
+    {
+        "text": "Well, S and S inverse are not moving."
+    }
+]

@@ -1,0 +1,179 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "this party rocks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "this party rocks !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "this party rocks !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "you said it . Good beer , good music , and on top of that , there are so many hot girls here !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "this party rocks !",
+            "Good beer , good music , and on top of that , there are so many hot girls here !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "you said it . Good beer , good music , and on top of that , there are so many hot girls here !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm with you on that . Check out that one over there . I think I'm in love !",
+        "emotion": "neutral",
+        "text": "I'm with you on that . Check out that one over there . I think I'm in love !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "well , she's alright , but not really my cup of tea . What about the blond with the red dress ?",
+        "emotion": "neutral",
+        "text": "well , she's alright , but not really my cup of tea . What about the blond with the red dress ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "oh , that's Janice . She's just new in town . You have a thing for blonds , eh ?",
+        "emotion": "neutral",
+        "text": "oh , that's Janice . She's just new in town . You have a thing for blonds , eh ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "yeah ! She could do anything she wants to me !",
+        "emotion": "neutral",
+        "text": "yeah ! She could do anything she wants to me !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I bet . Why not go over and talk to her ? She's really nice .",
+        "emotion": "neutral",
+        "text": "I bet . Why not go over and talk to her ? She's really nice .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I don't think so . I get so nervous talking to girls . I always put my foot in my mouth , scare her off , and end up looking like a real fool . Besides , she is way out of my league .",
+        "emotion": "neutral",
+        "text": "I don't think so . I get so nervous talking to girls . I always put my foot in my mouth , scare her off , and end up looking like a real fool . Besides , she is way out of my league .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "come on ! Man up ! You'll never know until you try .",
+        "emotion": "neutral",
+        "text": "come on ! Man up ! You'll never know until you try .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "okay okay , just let me have another cup of beers to get my head in the game .",
+        "emotion": "neutral",
+        "text": "okay okay , just let me have another cup of beers to get my head in the game .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "all right . But I think you ought to move soon .",
+        "emotion": "neutral",
+        "text": "all right . But I think you ought to move soon .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "why ?",
+        "emotion": "neutral",
+        "text": "why ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I can see five other guys eying her up .",
+        "emotion": "neutral",
+        "text": "I can see five other guys eying her up .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "okay , here I go !",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to talk to the girl",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            14
+        ],
+        "expanded emotion cause span": [
+            "the blond with the red dress ?",
+            "She could do anything she wants to me !",
+            "here I go !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "okay , here I go !",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "good luck !",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to see B getting the courage to make a move",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            14
+        ],
+        "expanded emotion cause span": [
+            "the blond with the red dress ?",
+            "She could do anything she wants to me !",
+            "here I go !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "good luck !",
+        "id": 15,
+        "source_sentences": [
+            3,
+            5,
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm glad you like it . I don't care for it . Why don't you finish my tiramisu so that I can try one of those fried bananas ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "it's absolutely delicious ! That is the best tiramisu I've ever had !",
+            "I'm glad you like it . I don't care for it . Why don't you finish my tiramisu so that I can try one of those fried bananas ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad you like it . I don't care for it . Why don't you finish my tiramisu so that I can try one of those fried bananas ?",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

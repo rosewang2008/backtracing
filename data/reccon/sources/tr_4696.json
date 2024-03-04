@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh !",
+        "emotion": "neutral",
+        "text": "Oh !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What fools we were !",
+        "emotion": "sadness",
+        "explanation": "B is sad over some incident that is not mentioned.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What fools we were !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "To think of it ! All my old silver ! It meant so much to me .",
+        "emotion": "neutral",
+        "text": "To think of it ! All my old silver ! It meant so much to me .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "And my new car . To think that he simply drove off with everything in my car . That's what hurts me most .",
+        "emotion": "neutral",
+        "text": "And my new car . To think that he simply drove off with everything in my car . That's what hurts me most .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What's so terrible too , is the fools we've made of ourselves .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            "b",
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "What's so terrible too , is the fools we've made of ourselves ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "What's so terrible too , is the fools we've made of ourselves .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I hardly dare call the police . They'll just laugh at us .",
+        "emotion": "neutral",
+        "text": "I hardly dare call the police . They'll just laugh at us .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'll never get over it . Oh , Harry , it was all so unnecessary . That man ! ! How could he do this to us after we'd put him up ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "he simply drove off with everything in my car . That's what hurts me most .",
+            "it was all so unnecessary .",
+            "How could he do this to us"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll never get over it . Oh , Harry , it was all so unnecessary . That man ! ! How could he do this to us after we'd put him up ?",
+        "id": 7,
+        "source_sentences": [
+            3,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "And his story didn't even hold together . I feel such an idiot .",
+        "emotion": "anger",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "he simply drove off with everything in my car . That's what hurts me most .",
+            "it was all so unnecessary .",
+            "How could he do this to us"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "And his story didn't even hold together . I feel such an idiot .",
+        "id": 8
+    }
+]

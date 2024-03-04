@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Joanna . You are looking very charming in the new dress .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "looking very charming"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello , Joanna . You are looking very charming in the new dress .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks . Does it suit me ?",
+        "emotion": "neutral",
+        "text": "Thanks . Does it suit me ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , it suits you very well . It certainly is unique . I don ' t think I ' Ve seen anything like it before .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "looking very charming",
+            "I don ' t think I ' Ve seen anything like it before ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , it suits you very well . It certainly is unique . I don ' t think I ' Ve seen anything like it before .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I know . That ' s why I bought it . I hate wearing the same styles like everybody else is wearing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Yes , it suits you very well . It certainly is unique . I don ' t think I ' Ve seen anything like it before ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I know . That ' s why I bought it . I hate wearing the same styles like everybody else is wearing .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And the necklace , it matches your dress marvelously .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "looking very charming",
+            "I don ' t think I ' Ve seen anything like it before .",
+            "it matches your dress marvelously ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "And the necklace , it matches your dress marvelously .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It ' s very nice of you to say so . I should say you are glamorous yourself , as a matter of fact .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Yes , it suits you very well . It certainly is unique . I don ' t think I ' Ve seen anything like it before .",
+            "it matches your dress marvelously ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It ' s very nice of you to say so . I should say you are glamorous yourself , as a matter of fact .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you for saying so .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "looking very charming",
+            "I don ' t think I ' Ve seen anything like it before .",
+            "it matches your dress marvelously .",
+            "you are glamorous"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you for saying so .",
+        "id": 7
+    }
+]

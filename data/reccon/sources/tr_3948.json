@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Here ' s a letter for you .",
+        "emotion": "neutral",
+        "text": "Here ' s a letter for you .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Let me see it .",
+        "emotion": "neutral",
+        "text": "Let me see it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Who ' s the letter from ?",
+        "emotion": "neutral",
+        "text": "Who ' s the letter from ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s a letter from UCLA about my acceptance .",
+        "emotion": "neutral",
+        "text": "It ' s a letter from UCLA about my acceptance .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Read it !",
+        "emotion": "neutral",
+        "text": "Read it !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "UCLA accepted me !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "UCLA accepted me !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "UCLA accepted me !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "UCLA accepted me !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' m not joking . I got accepted !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "UCLA accepted me !",
+            "I got accepted !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I ' m not joking . I got accepted !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I ' m so happy for you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "UCLA accepted me !",
+            "I got accepted !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ' m so happy for you !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "UCLA was my second choice , but I ' m happy knowing I ' Ve been accepted .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "UCLA was my second choice , but I ' m happy knowing I ' Ve been accepted ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "UCLA was my second choice , but I ' m happy knowing I ' Ve been accepted .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I am really proud of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "UCLA was my second choice , but I ' m happy knowing I ' Ve been accepted .",
+            "I am really proud of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am really proud of you .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You have no idea how proud I am of myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "UCLA accepted me !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "You have no idea how proud I am of myself .",
+        "id": 12
+    }
+]

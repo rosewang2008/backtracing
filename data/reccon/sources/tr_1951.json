@@ -1,0 +1,287 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you like this waltz ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "this waltz"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How do you like this waltz ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's very nice , I like it very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's very nice , I like it very much .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , then , may I invite you for the first dance ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , then , may I invite you for the first dance ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "My pleasure . But I'm afraid I'm not much of a dancer , and I suppose you dance often .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "may I invite you for the first dance ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "My pleasure . But I'm afraid I'm not much of a dancer , and I suppose you dance often .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Me ? Oh , no . In fact , I took up dancing quite recently .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I suppose you dance often .",
+            "I took up dancing quite recently ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me ? Oh , no . In fact , I took up dancing quite recently .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , really ? But you're doing the waltz wonderfully well .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I took up dancing quite recently .",
+            "But you're doing the waltz wonderfully well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , really ? But you're doing the waltz wonderfully well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm glad you say so , you dance beautifully too . It's lucky that I got a partner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "But you're doing the waltz wonderfully well .",
+            "you dance beautifully too . It's lucky that I got a partner ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I'm glad you say so , you dance beautifully too . It's lucky that I got a partner .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you for your compliments . It ' s just that you are a good leader . Do you like the fox-trot and tango ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "you dance beautifully too"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you for your compliments . It ' s just that you are a good leader . Do you like the fox-trot and tango ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . And what dances do you do best ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            8
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "It ' s just that you are a good leader . Do you like the fox-trot and tango ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes . And what dances do you do best ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Disco is my favorite . I like it better than any other dances because it can release one's pent-up feelings , and is a healthy exercise . But I don't do the rock and roll and the break dance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            10
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "Disco is my favorite . I like it better than any other dances because it can release one's pent-up feelings , and is a healthy exercise ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Disco is my favorite . I like it better than any other dances because it can release one's pent-up feelings , and is a healthy exercise . But I don't do the rock and roll and the break dance .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , well , the music has stopped . Thank you for the dance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            11
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "Thank you for the dance ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh , well , the music has stopped . Thank you for the dance .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "My pleasure . Let's go and have a drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3,
+            11
+        ],
+        "expanded emotion cause span": [
+            "this waltz",
+            "It's very nice , I like it very much .",
+            "first dance ?",
+            "Thank you for the dance ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "My pleasure . Let's go and have a drink .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Fine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "My pleasure . Let's go and have a drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

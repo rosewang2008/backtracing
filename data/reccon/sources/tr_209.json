@@ -1,0 +1,127 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you see the information on sales for last year ? The sales review was made at our last board meeting . There's a great news for our shareholders .",
+        "emotion": "neutral",
+        "text": "Did you see the information on sales for last year ? The sales review was made at our last board meeting . There's a great news for our shareholders .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , I went over the figures this morning . We're finally started making money again !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "We're finally started making money again !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah , I went over the figures this morning . We're finally started making money again !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We've never sold this much before , our growth this year has been phenomenal . We have captured 8 % of the market , up from last year by 120 % . Our strategy is working !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "We're finally started making money again !",
+            "We've never sold this much before , our growth this year has been phenomenal . We have captured 8 % of the market , up from last year by 120 % . Our strategy is working !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "We've never sold this much before , our growth this year has been phenomenal . We have captured 8 % of the market , up from last year by 120 % . Our strategy is working !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "not only our annual sales brake a record , but our month by month earnings exceeded our forecast as well . After a two-year slump , we finally back in the black .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "We're finally started making money again !",
+            "We've never sold this much before , our growth this year has been phenomenal . We have captured 8 % of the market , up from last year by 120 % . Our strategy is working !",
+            "our month by month earnings exceeded our forecast",
+            "we finally back in the black ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "not only our annual sales brake a record , but our month by month earnings exceeded our forecast as well . After a two-year slump , we finally back in the black .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "The company's performance has improved since Wallace became president . He's made our little business into a real lucrative operation . Products are selling like hotcakes .",
+        "emotion": "neutral",
+        "text": "The company's performance has improved since Wallace became president . He's made our little business into a real lucrative operation . Products are selling like hotcakes .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think our success is partly because of Wallace's contribution , and partly because of our new marketing strategy . Because of the new advertising campaign , we have become the top sellers in the field .",
+        "emotion": "neutral",
+        "text": "I think our success is partly because of Wallace's contribution , and partly because of our new marketing strategy . Because of the new advertising campaign , we have become the top sellers in the field .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let's hope this stroke of good luck lasts . I hope we are over our financial difficulties for good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope we are over our financial difficulties for good ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's hope this stroke of good luck lasts . I hope we are over our financial difficulties for good .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let's hope it is !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope we are over our financial difficulties for good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's hope it is !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

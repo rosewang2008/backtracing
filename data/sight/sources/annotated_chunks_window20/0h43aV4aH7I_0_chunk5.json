@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We change basis."
+    },
+    {
+        "text": "This is the basis change."
+    },
+    {
+        "text": "Change basis."
+    },
+    {
+        "text": "Choose a better basis."
+    },
+    {
+        "text": "So it produces, the, coefficients c. So sixty-four pixels come in, sixty-four coefficients come out."
+    },
+    {
+        "text": "Now comes the compression."
+    },
+    {
+        "text": "Now come, this was lossless."
+    },
+    {
+        "text": "It's just, we know that R64 has plenty of basis, and we've chosen one."
+    },
+    {
+        "text": "Now, in that basis, we write, we write the signal in that basis, and that's what my lecture, that's the math part of my lecture."
+    },
+    {
+        "text": "Now here's the application part."
+    },
+    {
+        "text": "The next part is going to be the compression step."
+    },
+    {
+        "text": "And that's lossy."
+    },
+    {
+        "text": "We're going to lose information."
+    },
+    {
+        "text": "And what, what will actually happen at that step?"
+    },
+    {
+        "text": "Well, one thing we could do is just throw away the small coefficients."
+    },
+    {
+        "text": "So that would be, that's called thresholding."
+    },
+    {
+        "text": "We set some threshold."
+    },
+    {
+        "text": "Every coefficient, every basis vector that's not in there more than the threshold value, and we set some threshold so that our eye can't see the difference, whether we throw away that, or can hardly see the difference, whether we throw away that little bit of that basis vector or keep it."
+    },
+    {
+        "text": "So this compression step produces a compressed set of coefficients."
+    },
+    {
+        "text": "Let me, I'll just keep going here."
+    }
+]

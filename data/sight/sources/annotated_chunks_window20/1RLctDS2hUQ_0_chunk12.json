@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, so the properties of integrals that I want to mention to you are these."
+    },
+    {
+        "text": "The first one is, doesn't bear too much comment."
+    },
+    {
+        "text": "If you take the cumulative integral of a sum, you're just going to get the sum of the separate integrals here."
+    },
+    {
+        "text": "And I won't say much about that."
+    },
+    {
+        "text": "That's because the integral is a sum."
+    },
+    {
+        "text": "Incidentally, you know, this strange symbol here, there's actually a reason for it historically."
+    },
+    {
+        "text": "If you go back to old books, you'll see that it actually looks a little bit more like an S. This capital sigma is a sum."
+    },
+    {
+        "text": "S for sum."
+    },
+    {
+        "text": "Because everybody in those days knew Latin and Greek."
+    },
+    {
+        "text": "And this one is also an S. But gradually it was such an important S that they made it bigger."
+    },
+    {
+        "text": "And then they stretched it out and made it a little thinner, because it didn't fit into one typesetting space."
+    },
+    {
+        "text": "And so just for typesetting reason, it got stretched and got a little bit skinny."
+    },
+    {
+        "text": "Anyway, so it's really an S. And in fact, in French, they call it sum."
+    },
+    {
+        "text": "Even though we call it integral."
+    },
+    {
+        "text": "So it's a sum."
+    },
+    {
+        "text": "So it's consistent with sums in this way."
+    },
+    {
+        "text": "And similarly, we can factor constants out of sums."
+    },
+    {
+        "text": "So if you have an integral like this, the constant factors out."
+    },
+    {
+        "text": "But definitely don't try to get a function out of this."
+    },
+    {
+        "text": "That won't happen."
+    }
+]

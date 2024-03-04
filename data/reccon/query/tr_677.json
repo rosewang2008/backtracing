@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Terrific ! B . A . , again and again-B . A .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "B . A . in economics"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Terrific ! B . A . , again and again-B . A .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

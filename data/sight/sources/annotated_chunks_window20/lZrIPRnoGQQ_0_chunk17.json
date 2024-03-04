@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's the thing still to do."
+    },
+    {
+        "text": "How does the backward system work?"
+    },
+    {
+        "text": "OK, I'll try my best."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So here's the big goal."
+    },
+    {
+        "text": "Back."
+    },
+    {
+        "text": "So reverse mode AD."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "And let me make myself a little note."
+    },
+    {
+        "text": "The little note is to give you another example where the order that you do the computations makes a big difference."
+    },
+    {
+        "text": "And that's not obvious that it will, right?"
+    },
+    {
+        "text": "There are many things in math that you could do in either order."
+    },
+    {
+        "text": "And it seems like logically, you've done the same thing."
+    },
+    {
+        "text": "So another and simpler example, which shows how one way could be way faster than another way, is when I'm multiplying two matrices, three matrices."
+    },
+    {
+        "text": "So I'm multiplying three matrices, A times B times C. And the question is, do I do BC first and then multiply by A?"
+    },
+    {
+        "text": "Or do I do AB first and then multiply that by C?"
+    },
+    {
+        "text": "And of course, I kept them in order, in the order ABC."
+    },
+    {
+        "text": "But the order of computations can be different."
+    },
+    {
+        "text": "You get the same."
+    },
+    {
+        "text": "You get the right answer both ways."
+    }
+]

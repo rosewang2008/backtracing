@@ -1,0 +1,205 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "guess what ? I've got great news !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I've got great news !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "guess what ? I've got great news !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "what is it ?",
+        "emotion": "neutral",
+        "text": "what is it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "well , you know how I've been working at the Economist as a proof-reader , right ?",
+        "emotion": "neutral",
+        "text": "well , you know how I've been working at the Economist as a proof-reader , right ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "yes .",
+        "emotion": "neutral",
+        "text": "yes .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "well , the editor-in-chief heard that I had experience as an editor at another magadize and asked me if I was interested in becoming an assistant editor for him .",
+        "emotion": "neutral",
+        "text": "well , the editor-in-chief heard that I had experience as an editor at another magadize and asked me if I was interested in becoming an assistant editor for him .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "really ? That's fantastic ! Will you get a chance to do any writing ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "the editor-in-chief heard that I had experience as an editor at another magadize and asked me if I was interested in becoming an assistant editor for him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "really ? That's fantastic ! Will you get a chance to do any writing ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "she said that the columnist for the literary criticism column would be going on pregnancy leave soon and that I could be in charge of the column until she came back .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "the editor-in-chief heard that I had experience as an editor at another magadize and asked me if I was interested in becoming an assistant editor for him .",
+            "I could be in charge of the column until she came back"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "she said that the columnist for the literary criticism column would be going on pregnancy leave soon and that I could be in charge of the column until she came back .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "wow ! That's really great news . How often does the magazine come out ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "the editor-in-chief heard that I had experience as an editor at another magadize and asked me if I was interested in becoming an assistant editor for him .",
+            "I could be in charge of the column until she came back"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "wow ! That's really great news . How often does the magazine come out ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "it's a monthly magazine , but my column will be shared with another columnist so my articles will be due fortnightly .",
+        "emotion": "neutral",
+        "text": "it's a monthly magazine , but my column will be shared with another columnist so my articles will be due fortnightly .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "are you looking forward to doing more editing work ?",
+        "emotion": "neutral",
+        "text": "are you looking forward to doing more editing work ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "yes , but I'm even more excited about getting my thoughts published again !",
+        "emotion": "neutral",
+        "text": "yes , but I'm even more excited about getting my thoughts published again !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "do you have any order forms here so that I can get a subscription to the magazine ?",
+        "emotion": "neutral",
+        "text": "do you have any order forms here so that I can get a subscription to the magazine ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I don't have any with me , but I think I could manage to bring a free copy home for you .",
+        "emotion": "neutral",
+        "text": "I don't have any with me , but I think I could manage to bring a free copy home for you .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'm really looking forward to reading your column .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I think I could manage to bring a free copy home for you .",
+            "I'm really looking forward to reading your column ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm really looking forward to reading your column .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "me , too . Do you want to go out to celebrate my good news ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I'm even more excited about getting my thoughts published again !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "me , too . Do you want to go out to celebrate my good news ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "sure , where would you like to go ?",
+        "emotion": "neutral",
+        "text": "sure , where would you like to go ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "perhaps we could go to the library festival that's going on at the local bookshop .",
+        "emotion": "neutral",
+        "text": "perhaps we could go to the library festival that's going on at the local bookshop .",
+        "id": 17
+    }
+]

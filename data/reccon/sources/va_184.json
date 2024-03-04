@@ -1,0 +1,182 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , ma ' am . Can I help you ?",
+        "emotion": "neutral",
+        "text": "Hello , ma ' am . Can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m looking for a sweater .",
+        "emotion": "neutral",
+        "text": "I ' m looking for a sweater .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What size are you looking for ?",
+        "emotion": "neutral",
+        "text": "What size are you looking for ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I ' m looking for size 10 but you don ' t have it .",
+        "emotion": "neutral",
+        "text": "Well , I ' m looking for size 10 but you don ' t have it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How about this one ? I think it looks terrific on you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it looks terrific"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How about this one ? I think it looks terrific on you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , I like the color . Can I try it on ?",
+        "emotion": "neutral",
+        "text": "Yes , I like the color . Can I try it on ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure . The fitting room is on your right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "it looks terrific",
+            "I like the color ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Sure . The fitting room is on your right .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It fits well . I like it a lot . What do you think ?",
+        "emotion": "neutral",
+        "text": "It fits well . I like it a lot . What do you think ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You look pretty in red .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "it looks terrific",
+            "I like the color .",
+            "It fits well . I like it a lot .",
+            "You look pretty"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You look pretty in red .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , it ' s my favorite . How much is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "You look pretty in red .",
+            "it ' s my favorite ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , it ' s my favorite . How much is it ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "$ 29 . 99 .",
+        "emotion": "neutral",
+        "text": "$ 29 . 99 .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Okay . I ' ll take it . Thank you very much for your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "You look pretty in red .",
+            "it ' s my favorite .",
+            "Thank you"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Okay . I ' ll take it . Thank you very much for your help .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You ' re welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I ' ll take it . Thank you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re welcome .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

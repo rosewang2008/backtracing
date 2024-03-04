@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 17,
+        "timestamp": 1684703913122.0,
+        "annotatedSourceSentencesIndices": [
+            4,
+            6
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "m is a number of rows, and the column space is in R^m?"
+    }
+]

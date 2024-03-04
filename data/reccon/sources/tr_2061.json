@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Rose , the weekend is coming . Let's discuss what we will do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "the weekend is coming"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Rose , the weekend is coming . Let's discuss what we will do .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What about going to the zoo on Saturday and to the park on Sunday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "the weekend is coming",
+            "going to the zoo on Saturday and to the park on Sunday"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What about going to the zoo on Saturday and to the park on Sunday ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Sounds good . But on Saturday there's a football final .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "What about going to the zoo on Saturday and to the park on Sunday ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds good . But on Saturday there's a football final .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Then , what shall we do on Sunday .",
+        "emotion": "neutral",
+        "text": "Then , what shall we do on Sunday .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Let me see . We can visit the country . We haven't done that for such a long time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            5
+        ],
+        "expanded emotion cause span": [
+            "What about going to the zoo on Saturday and to the park on Sunday ?",
+            "We can visit the country"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me see . We can visit the country . We haven't done that for such a long time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good idea . I'll go shopping in one of the department stores nearby . We'll go to the zoo and the park another time . After all , we can put that off .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can visit the country"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good idea . I'll go shopping in one of the department stores nearby . We'll go to the zoo and the park another time . After all , we can put that off .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can visit the country"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "OK .",
+        "id": 7
+    }
+]

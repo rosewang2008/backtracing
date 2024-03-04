@@ -1,0 +1,1634 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, here we go."
+    },
+    {
+        "text": "All set."
+    },
+    {
+        "text": "And two topics for today."
+    },
+    {
+        "text": "One is to go back to Professor Sra's lecture."
+    },
+    {
+        "text": "That was last Friday."
+    },
+    {
+        "text": "And he promised a theorem and proof."
+    },
+    {
+        "text": "And this morning, he sent it to me."
+    },
+    {
+        "text": "So it's the convergence."
+    },
+    {
+        "text": "It's proving the convergence of stochastic gradient descent."
+    },
+    {
+        "text": "And really, what's important, maybe, and useful is not so much the details of the proof, which I'm just learning, but the assumptions."
+    },
+    {
+        "text": "You know, what's the logic here?"
+    },
+    {
+        "text": "What do you have to assume about the gradient and about the algorithm to get the answer?"
+    },
+    {
+        "text": "But now, I actually look back at the video of his lecture."
+    },
+    {
+        "text": "And it was excellent."
+    },
+    {
+        "text": "And as I looked at it, there were a couple of things later in the lecture that I thought would make good projects."
+    },
+    {
+        "text": "So I don't know if anybody is still open to what to do on a project."
+    },
+    {
+        "text": "But here are my two ideas."
+    },
+    {
+        "text": "And if you've already finished your project, well, get an A-plus by considering one of these."
+    },
+    {
+        "text": "So you remember, and this will remind you of the lecture, which is a good thing."
+    },
+    {
+        "text": "So do you remember that question one was whether in the stochastic part, after you've sampled one or some mini batch, but let's just say one of the loss functions coming from one sample, you remember the whole point is that if we do all zillion samples at every iteration, we're really, really slow."
+    },
+    {
+        "text": "So the stochastic idea is to randomly pick one or a mini batch of the samples and just reduce their loss, just deal with the loss, say the square loss, or later we'll see cross-entropy loss."
+    },
+    {
+        "text": "But whatever the cost is, just do a few or one."
+    },
+    {
+        "text": "And then the question was, after you've done that one, do you put it back in the pot and every time you sample over the whole collection, but that's expensive, or do you just make a list of random list of random order of all the samples and go through them, which is then without replacement, which is sort of semi-illegal."
+    },
+    {
+        "text": "That is, the logic in the randomization asks you to replace every time, but nobody does it."
+    },
+    {
+        "text": "It costs a lot, probably not worth it."
+    },
+    {
+        "text": "So the project would be, suppose you take 1,000, or say just 100, 100 random numbers."
+    },
+    {
+        "text": "Say you use MATLAB, just the command rand."
+    },
+    {
+        "text": "So you get numbers whose average is 1 by 2 from rand."
+    },
+    {
+        "text": "They're between 0 and 1."
+    },
+    {
+        "text": "So we know what the average is."
+    },
+    {
+        "text": "So let's compute it two ways."
+    },
+    {
+        "text": "One is by not replacing, and that's the interesting one."
+    },
+    {
+        "text": "So take 100 samples."
+    },
+    {
+        "text": "Well, I guess we know that after we've got through the full 100, we're going to get exactly the right answer."
+    },
+    {
+        "text": "But anyway, my question would be, how much difference do you see in the eventual approach?"
+    },
+    {
+        "text": "So the law of large numbers, I guess, would tell us we get an average of 1 half for these numbers with uniform distribution between 0 and 1."
+    },
+    {
+        "text": "Should I be writing anything here?"
+    },
+    {
+        "text": "Maybe I should."
+    },
+    {
+        "text": "So this is project 1."
+    },
+    {
+        "text": "So you pick numbers a, k, which is rand from rand, so uniformly on 0, 1, on 0, 0, 1."
+    },
+    {
+        "text": "And then my question is, what about convergence to the average is 1 half?"
+    },
+    {
+        "text": "And so this may be too simple an example, but could we see what happens for the convergence of the average as you either do replacements or don't do replacements?"
+    },
+    {
+        "text": "And then, in fact, I would like to see a figure that looks like those in his lecture."
+    },
+    {
+        "text": "He started it somewhere."
+    },
+    {
+        "text": "Start."
+    },
+    {
+        "text": "And then here's the finish."
+    },
+    {
+        "text": "But you remember that stochastic gradient descent was kind of pretty effective at the beginning."
+    },
+    {
+        "text": "Well, the beginning, those might be 100 iterations each, one epoch, one run through the full number."
+    },
+    {
+        "text": "But then when it got to here, got closer, it started oscillating."
+    },
+    {
+        "text": "You remember he identified the region of confusion around the thing."
+    },
+    {
+        "text": "Well, my suggestion is just I think those videos should be accessible to you on, are they on Stellar?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I'd love to see that behavior in some good examples of that behavior and some pictures to use."
+    },
+    {
+        "text": "So that would be one idea."
+    },
+    {
+        "text": "With and with."
+    },
+    {
+        "text": "Oh, yeah, that's also idea two."
+    },
+    {
+        "text": "Idea two is the good start and then the bad finish for stochastic gradient descent."
+    },
+    {
+        "text": "And of course, the magic words in, even without this, the magic words in computations is early stopping."
+    },
+    {
+        "text": "We don't overfit."
+    },
+    {
+        "text": "So we wanted to stop early anyway."
+    },
+    {
+        "text": "And early stopping just is like a good idea for if that's what the approach to the x star that you're looking for."
+    },
+    {
+        "text": "This would be the place where the, this is where, that's x star where grad f at x star is 0."
+    },
+    {
+        "text": "That's the minimum point."
+    },
+    {
+        "text": "That's arg min."
+    },
+    {
+        "text": "Arg min."
+    },
+    {
+        "text": "Exactly what we're looking for."
+    },
+    {
+        "text": "And we don't find it very well, but we get close to it fast."
+    },
+    {
+        "text": "OK. Two ideas on projects."
+    },
+    {
+        "text": "So just, so maybe I'll go to the main topic of today, the topic I promised, the idea of back propagation."
+    },
+    {
+        "text": "To compute, this is all to compute grad f, the gradient, all the derivatives."
+    },
+    {
+        "text": "This is the df dx1 to df dxm, maybe I'll say, where I have m features for the sample."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's back propagation."
+    },
+    {
+        "text": "And that's the thing whose discovery or rediscovery put neural nets on the map."
+    },
+    {
+        "text": "That's the key calculation, of course, to find the gradient in the steepest descent algorithm."
+    },
+    {
+        "text": "Every step needs a gradient."
+    },
+    {
+        "text": "And if you can't compute it quickly, you're in bad shape."
+    },
+    {
+        "text": "But you can compute it quickly by this automatic differentiation in reverse mode, which is otherwise known."
+    },
+    {
+        "text": "I don't think the people, maybe Hinton was the first, was the leader in developing deep neural nets, deep learning."
+    },
+    {
+        "text": "And he realized, so I give him big credit for that, that back propagation would work and would give him fast gradients."
+    },
+    {
+        "text": "But it actually had been studied before under the name AD, automatic differentiation."
+    },
+    {
+        "text": "So may I just tell you that idea?"
+    },
+    {
+        "text": "Some of you may know it, may know about it, may know more than I, and might know a good website to see this description."
+    },
+    {
+        "text": "There'll be, of course, a section of the book, of the notes."
+    },
+    {
+        "text": "Already, you already have it."
+    },
+    {
+        "text": "This is section 7.2."
+    },
+    {
+        "text": "So this is the chapter on deep learning."
+    },
+    {
+        "text": "And the first section was about the structure of f of x."
+    },
+    {
+        "text": "And you remember the key point about the structure of f of x is that I start with x and apply some function f1 of x."
+    },
+    {
+        "text": "And to that, I apply some function f2 of x."
+    },
+    {
+        "text": "And to that, I apply some function of f3 of f2 of f1 of x."
+    },
+    {
+        "text": "And that's the thing whose derivative I need."
+    },
+    {
+        "text": "So I'll just take ordinary derivative."
+    },
+    {
+        "text": "Well, partial derivatives, really, because I better say partial derivatives."
+    },
+    {
+        "text": "So suppose x is a pair xy."
+    },
+    {
+        "text": "Example."
+    },
+    {
+        "text": "Let me show you by example."
+    },
+    {
+        "text": "So suppose f of x is, let me take a simple example, x cubed times x plus 2y."
+    },
+    {
+        "text": "So I want to think of that function the way anybody would, as being built as a product of two functions."
+    },
+    {
+        "text": "So there is a product rule to get into the derivative."
+    },
+    {
+        "text": "And then we need the derivatives of each piece."
+    },
+    {
+        "text": "So there's a power rule and a linear combination rule."
+    },
+    {
+        "text": "So it's got a few of the rules that we use."
+    },
+    {
+        "text": "And the point is to think about the computation of f of x and the computation of df dx and the computation of df dy."
+    },
+    {
+        "text": "Those are the derivatives that we need."
+    },
+    {
+        "text": "This is the function we need."
+    },
+    {
+        "text": "And how to do those computations quickly."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So and this is section 7.2, which benefited a lot from a blog."
+    },
+    {
+        "text": "I'm not a blog reader or a blog writer, but somehow I found this blog."
+    },
+    {
+        "text": "So let me put."
+    },
+    {
+        "text": "It's Christopher Olwa is his name."
+    },
+    {
+        "text": "And he really writes clear things."
+    },
+    {
+        "text": "So he contributes."
+    },
+    {
+        "text": "He works for one of the big companies and does the deeper research."
+    },
+    {
+        "text": "But he's also a really good expositor."
+    },
+    {
+        "text": "And the website that he now uses is called distill.something."
+    },
+    {
+        "text": "But I think maybe this blog was earlier before the start of distill."
+    },
+    {
+        "text": "But it might be loaded onto distil."
+    },
+    {
+        "text": "Anyway, that's where I got this simple description of backpropagation."
+    },
+    {
+        "text": "And let's just do calculus first of all."
+    },
+    {
+        "text": "If I just have a function of maybe even one variable, what's the derivative?"
+    },
+    {
+        "text": "What is df dx here?"
+    },
+    {
+        "text": "Just to remember what calculation we have to do."
+    },
+    {
+        "text": "So df dx, this is with n equal 1, one variable."
+    },
+    {
+        "text": "So I'll use ordinary derivative and not partial derivative."
+    },
+    {
+        "text": "But this is then what I, that's what really has to be done."
+    },
+    {
+        "text": "But just what's the derivative of that, of a chain of functions?"
+    },
+    {
+        "text": "Well, of course, the chain rule."
+    },
+    {
+        "text": "So what does the chain rule say?"
+    },
+    {
+        "text": "I differentiate F3."
+    },
+    {
+        "text": "I don't know, what do I put that it's differentiated with respect to?"
+    },
+    {
+        "text": "F3, df3, df2, is that what I should put?"
+    },
+    {
+        "text": "OK. And where do I evaluate that derivative?"
+    },
+    {
+        "text": "So yeah, I don't evaluate it at x, right?"
+    },
+    {
+        "text": "I'm differentiating with respect to F2."
+    },
+    {
+        "text": "So do I evaluate it at F2 of F1 of x?"
+    },
+    {
+        "text": "This is where the chain rule gets sort of a little chainy, a little."
+    },
+    {
+        "text": "OK, then we know that df2, df1."
+    },
+    {
+        "text": "And again, that's now evaluated at F1 of x."
+    },
+    {
+        "text": "And then the final factor is df1, dx, evaluated at x."
+    },
+    {
+        "text": "That's somehow what we have to do."
+    },
+    {
+        "text": "And that's just for an ordinary one variable function."
+    },
+    {
+        "text": "And I have here a two variable function."
+    },
+    {
+        "text": "And deep learning has a million variable function."
+    },
+    {
+        "text": "So let's, I think we won't go to a million, but two we could manage."
+    },
+    {
+        "text": "So let's compute those."
+    },
+    {
+        "text": "Let's compute the function, first of all."
+    },
+    {
+        "text": "Compute F. So I'm given x equals, say, 2, and y equals, say, 3."
+    },
+    {
+        "text": "And I'm going to create a computational graph."
+    },
+    {
+        "text": "So this is to draw."
+    },
+    {
+        "text": "So I'm actually going to draw the computational graph to compute for F. And then it'll be a variation of that graph to find the derivatives."
+    },
+    {
+        "text": "So let's just start with the graph, first of all, for the function, because we're going to need that."
+    },
+    {
+        "text": "So again, it's x cubed plus."
+    },
+    {
+        "text": "So can I write that function again?"
+    },
+    {
+        "text": "x cubed times x plus 2y."
+    },
+    {
+        "text": "So I think we're going to, the first step will be to find x plus x cubed, that factor, which will be 8."
+    },
+    {
+        "text": "And we have to find the other factor, x plus 2y."
+    },
+    {
+        "text": "So then I'm going to, that uses y and x."
+    },
+    {
+        "text": "So it's a directed graph going forward with this computation."
+    },
+    {
+        "text": "So x plus 2y equals whatever it is, 2 and 6."
+    },
+    {
+        "text": "Oh, 8 again, not brilliant."
+    },
+    {
+        "text": "What shall I change here?"
+    },
+    {
+        "text": "Make it 3y, 3y, just to get a different number here."
+    },
+    {
+        "text": "So now x is 2, y is 3."
+    },
+    {
+        "text": "I get 11."
+    },
+    {
+        "text": "That's a good number, 11."
+    },
+    {
+        "text": "OK, so far so good?"
+    },
+    {
+        "text": "And now the next step on this graph will be to, I have a product of those."
+    },
+    {
+        "text": "So that will go to the product."
+    },
+    {
+        "text": "Product F equals 8 times 11, 88."
+    },
+    {
+        "text": "OK, so we got the answer, 88."
+    },
+    {
+        "text": "Which math, normally I wouldn't take that much of a book to compute F. I would have said 2 cubed times 2 plus 3 times 3."
+    },
+    {
+        "text": "And I'd have simplified that to 8 times 11."
+    },
+    {
+        "text": "And I would have got 88."
+    },
+    {
+        "text": "So if we were just writing normally, that would do it."
+    },
+    {
+        "text": "But this is the picture of the computational graph."
+    },
+    {
+        "text": "OK, good, good, good."
+    },
+    {
+        "text": "Now it's the derivatives, two derivatives to find, dF dx and dF dy."
+    },
+    {
+        "text": "Suppose we go forward first."
+    },
+    {
+        "text": "My point is going to be, or the great point is that backward is better."
+    },
+    {
+        "text": "Reverse mode is better."
+    },
+    {
+        "text": "But we don't know what that means until we've gone forward."
+    },
+    {
+        "text": "So let me go forward."
+    },
+    {
+        "text": "So now I'm going to go forward."
+    },
+    {
+        "text": "Forward."
+    },
+    {
+        "text": "So what do we?"
+    },
+    {
+        "text": "Let's do dF dx, OK?"
+    },
+    {
+        "text": "Everybody's up for dF dx, the partial derivative with respect to x."
+    },
+    {
+        "text": "So here we have x equal 2 and y equal 3."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And then I've got to take the derivative of that step."
+    },
+    {
+        "text": "The first step was x to x cubed."
+    },
+    {
+        "text": "So I need the derivative."
+    },
+    {
+        "text": "The whole point of AD is that the computation, every computation of a derivative breaks down like this into very simple pieces."
+    },
+    {
+        "text": "And the derivatives of those simple pieces are also simple pieces."
+    },
+    {
+        "text": "So the whole point is to replace appropriately those intermediate steps with derivatives, so as to compute the x derivative."
+    },
+    {
+        "text": "So I have to use the fact that the derivative of x cubed with respect to x. Oh, I better do partial derivative."
+    },
+    {
+        "text": "Partial derivatives of x cubed with respect to x is 3x squared."
+    },
+    {
+        "text": "So now I'll put maybe a formula and then a number, so that gives 3 times 4, 12."
+    },
+    {
+        "text": "And the derivative of x cubed with respect to y gives 0."
+    },
+    {
+        "text": "Clearly, that's 0."
+    },
+    {
+        "text": "And then the derivative."
+    },
+    {
+        "text": "So I'm doing the x derivative."
+    },
+    {
+        "text": "So the derivative of y with respect to x is, you get to tell me, if I'm computing partial derivatives, is 0."
+    },
+    {
+        "text": "Is 0. y and x are independent."
+    },
+    {
+        "text": "And this is the reason, in my view, that the forward method is wasteful, because I'm going to have to do another whole graph for the y derivative."
+    },
+    {
+        "text": "In other words, tracking the x derivatives, a whole lot of stuff never got off the ground."
+    },
+    {
+        "text": "So we never should have looked at it."
+    },
+    {
+        "text": "So anyway."
+    },
+    {
+        "text": "But I do need, I have this x plus 3y."
+    },
+    {
+        "text": "Maybe, I don't know whether to erase that."
+    },
+    {
+        "text": "I think I will, just because I don't know what to do with it there."
+    },
+    {
+        "text": "So now let me take the ones that I really need."
+    },
+    {
+        "text": "So this is the derivative with respect to x of x plus 3y, which is 1."
+    },
+    {
+        "text": "And so that gives me the answer 1 for any x, actually."
+    },
+    {
+        "text": "And now what?"
+    },
+    {
+        "text": "Oh, yeah."
+    },
+    {
+        "text": "I'm really, I don't need these."
+    },
+    {
+        "text": "This is a waste of time, isn't it?"
+    },
+    {
+        "text": "Is it only x derivatives I want?"
+    },
+    {
+        "text": "Anyway, let's just keep going."
+    },
+    {
+        "text": "You can see this takes a little organization, and I'm not practiced with it."
+    },
+    {
+        "text": "So what am I going to do?"
+    },
+    {
+        "text": "I'm looking for the x derivative of, I've got to use a product rule now."
+    },
+    {
+        "text": "I found the x derivative of that factor was 12."
+    },
+    {
+        "text": "The x derivative of this factor is 1."
+    },
+    {
+        "text": "And now the x derivative of the product."
+    },
+    {
+        "text": "So now I'm going to do somehow a product rule."
+    },
+    {
+        "text": "The x derivative of this product."
+    },
+    {
+        "text": "I should have given these two terms a name."
+    },
+    {
+        "text": "Let me call that first term x cubed and the second term x plus 3y."
+    },
+    {
+        "text": "Call it s. So I'll call the two terms c and s. So I now need to get, so that's dc ds."
+    },
+    {
+        "text": "This is dc dx."
+    },
+    {
+        "text": "This is dc dx."
+    },
+    {
+        "text": "And this one is ds dx."
+    },
+    {
+        "text": "And dc dy, do I need to know that?"
+    },
+    {
+        "text": "I'm sorry."
+    },
+    {
+        "text": "This computational graph has thrown me."
+    },
+    {
+        "text": "But now I want to use the product rule."
+    },
+    {
+        "text": "And I'm taking x derivatives, right?"
+    },
+    {
+        "text": "So I should have computed c and s. Yes, I see I've got to need those in the product rule."
+    },
+    {
+        "text": "So I should have computed c as being 8 and s as being 5."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "2 plus 3 is 11."
+    },
+    {
+        "text": "Yeah, I needed the 8 and the 11."
+    },
+    {
+        "text": "Is that our?"
+    },
+    {
+        "text": "What's up?"
+    },
+    {
+        "text": "I've just been running along here without getting myself in the whole picture."
+    },
+    {
+        "text": "Yeah, 8 and 11 is right."
+    },
+    {
+        "text": "But now I'm looking for the derivatives, right?"
+    },
+    {
+        "text": "So I don't multiply those."
+    },
+    {
+        "text": "That's not the product rule."
+    },
+    {
+        "text": "So the product rule is what?"
+    },
+    {
+        "text": "s times, so this product rule, I have to do this combination of this is now the product rule for the derivative of c times s. So I want c ds dx plus s dc dx."
+    },
+    {
+        "text": "I think I'm on track now."
+    },
+    {
+        "text": "And now I want to put in numbers."
+    },
+    {
+        "text": "So c is 8. ds dx, have we computed ds dx?"
+    },
+    {
+        "text": "Yes, ds dx is 1."
+    },
+    {
+        "text": "And now s itself is computed as 11."
+    },
+    {
+        "text": "And dc dx, we compute it as 12."
+    },
+    {
+        "text": "I don't dare look."
+    },
+    {
+        "text": "Have I?"
+    },
+    {
+        "text": "Am I?"
+    },
+    {
+        "text": "I don't think I'm going to get."
+    },
+    {
+        "text": "Oh, no, I don't know the answer yet."
+    },
+    {
+        "text": "Sorry, I'm not trying to get 88, right?"
+    },
+    {
+        "text": "You guys are not helping."
+    },
+    {
+        "text": "You see, I'm in trouble."
+    },
+    {
+        "text": "But what I imagine here is that's 8 and that's 132."
+    },
+    {
+        "text": "So I'm getting 140."
+    },
+    {
+        "text": "Is there any possibility that that's the right answer for df dx?"
+    },
+    {
+        "text": "This is df dx I computed."
+    },
+    {
+        "text": "By watching me struggle here, you're seeing the idea."
+    },
+    {
+        "text": "Every step, I take the derivative of each step."
+    },
+    {
+        "text": "So it was a power step, x cubed."
+    },
+    {
+        "text": "So I had a 3x squared and a sum step."
+    },
+    {
+        "text": "So I had a 1."
+    },
+    {
+        "text": "Then the next step was a multiplication."
+    },
+    {
+        "text": "So I needed the product rule for that."
+    },
+    {
+        "text": "I have these separate numbers."
+    },
+    {
+        "text": "So I put them in."
+    },
+    {
+        "text": "And so the computational graph finished."
+    },
+    {
+        "text": "We only needed two levels."
+    },
+    {
+        "text": "And we got 8 and 132, 140."
+    },
+    {
+        "text": "But we didn't get df dy yet."
+    },
+    {
+        "text": "And for that, I'd need to redo this again."
+    },
+    {
+        "text": "And I don't want to do that."
+    },
+    {
+        "text": "I would rather do the reverse mode and do them both at once."
+    },
+    {
+        "text": "That's the point of the reverse mode."
+    },
+    {
+        "text": "It's very efficient."
+    },
+    {
+        "text": "It's very efficient, actually."
+    },
+    {
+        "text": "Computing the gradient after you've done the work for the function, computing first derivatives, you could compute n first derivatives with about four or five times the cost, not n times."
+    },
+    {
+        "text": "That's amazing to me."
+    },
+    {
+        "text": "That is amazing that I can compute the gradient very efficiently by the back prop."
+    },
+    {
+        "text": "So I have to show you the backwards way."
+    },
+    {
+        "text": "I'm just going to follow all the paths backwards so that I get both df dx and df dy."
+    },
+    {
+        "text": "You see the idea is to take the derivative of each step, each small step."
+    },
+    {
+        "text": "That's really what we do in calculus."
+    },
+    {
+        "text": "If you think about the start of a calculus course, what derivatives do we actually know?"
+    },
+    {
+        "text": "Do we actually use xf at x plus delta x minus f?"
+    },
+    {
+        "text": "What derivatives do we grind out?"
+    },
+    {
+        "text": "We do the derivatives of x to the n. Every calculus book starts with x squared and then finds the derivative of x to the n. Then you do sine x and cos x."
+    },
+    {
+        "text": "Then what others?"
+    },
+    {
+        "text": "Are there any more?"
+    },
+    {
+        "text": "Even e to the x, good, e to the x."
+    },
+    {
+        "text": "And it's the inverse function log."
+    },
+    {
+        "text": "In freshman calculus, you always write ln just to be out of date."
+    },
+    {
+        "text": "And now that may be the list, is it?"
+    },
+    {
+        "text": "And then the chain rule."
+    },
+    {
+        "text": "Are there others that you actually do a computation of?"
+    },
+    {
+        "text": "Actually, e to the x is defined by the property that its derivative is e to the x."
+    },
+    {
+        "text": "And then you discover what log x has to be."
+    },
+    {
+        "text": "And sine x, how do you do sine of x plus delta x?"
+    },
+    {
+        "text": "Well, minus sine of x, how do you find the hard way, once and for all way?"
+    },
+    {
+        "text": "You draw a little unit circle and mess with some angles."
+    },
+    {
+        "text": "And you discover that the derivative of the sine is the cosine."
+    },
+    {
+        "text": "That's if you've defined the sine as a ratio of sides in a right triangle."
+    },
+    {
+        "text": "Of course, you could define it as an infinite series."
+    },
+    {
+        "text": "And then you would be back to just using that."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So calculus does exactly what we're doing here."
+    },
+    {
+        "text": "Finds all derivatives by the chain rule applied to a few ones that it has worked out in detail."
+    },
+    {
+        "text": "But tangent of x, we would use the quotient rule."
+    },
+    {
+        "text": "Secant of x, we would use the quotient rule, 1 over cosine."
+    },
+    {
+        "text": "And the products, we use the product rule."
+    },
+    {
+        "text": "So really, calculus tends to seem fairly simple when you look back to see what actually you did."
+    },
+    {
+        "text": "And then integration, what is integral calculus about?"
+    },
+    {
+        "text": "More or less, guessing the answer."
+    },
+    {
+        "text": "You have to integrate f of x dx."
+    },
+    {
+        "text": "And so really, what you have to do is sort of think, OK, what had this derivative?"
+    },
+    {
+        "text": "What function had that derivative?"
+    },
+    {
+        "text": "And mess around and get it."
+    },
+    {
+        "text": "So really, it's a freshman course, I guess."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So where am I?"
+    },
+    {
+        "text": "Backward, right."
+    },
+    {
+        "text": "That's the thing still to do."
+    },
+    {
+        "text": "How does the backward system work?"
+    },
+    {
+        "text": "OK, I'll try my best."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So here's the big goal."
+    },
+    {
+        "text": "Back."
+    },
+    {
+        "text": "So reverse mode AD."
+    },
+    {
+        "text": "Right."
+    },
+    {
+        "text": "And let me make myself a little note."
+    },
+    {
+        "text": "The little note is to give you another example where the order that you do the computations makes a big difference."
+    },
+    {
+        "text": "And that's not obvious that it will, right?"
+    },
+    {
+        "text": "There are many things in math that you could do in either order."
+    },
+    {
+        "text": "And it seems like logically, you've done the same thing."
+    },
+    {
+        "text": "So another and simpler example, which shows how one way could be way faster than another way, is when I'm multiplying two matrices, three matrices."
+    },
+    {
+        "text": "So I'm multiplying three matrices, A times B times C. And the question is, do I do BC first and then multiply by A?"
+    },
+    {
+        "text": "Or do I do AB first and then multiply that by C?"
+    },
+    {
+        "text": "And of course, I kept them in order, in the order ABC."
+    },
+    {
+        "text": "But the order of computations can be different."
+    },
+    {
+        "text": "You get the same."
+    },
+    {
+        "text": "You get the right answer both ways."
+    },
+    {
+        "text": "But those can be completely, completely different."
+    },
+    {
+        "text": "One can be 1,000 times faster than the other."
+    },
+    {
+        "text": "So that's just to show."
+    },
+    {
+        "text": "Actually, it kind of connects to this."
+    },
+    {
+        "text": "And there is also another."
+    },
+    {
+        "text": "So I'll do that too."
+    },
+    {
+        "text": "And there's also this."
+    },
+    {
+        "text": "So this is example 2, where this is meant to be example 1."
+    },
+    {
+        "text": "And example 3 would be, leads to something called the adjoint method in differential equations or in optimization."
+    },
+    {
+        "text": "In computing optimum, in maximizing."
+    },
+    {
+        "text": "And that has the same, really, the underlying reason it gives a speed up is it makes the right choice in a product of three things."
+    },
+    {
+        "text": "So it'll be enough to do example 1 and example 2."
+    },
+    {
+        "text": "Let me go with example 1."
+    },
+    {
+        "text": "Our, this is now back propagation."
+    },
+    {
+        "text": "Finally, we got to it."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So how do I, well, I look at my notes."
+    },
+    {
+        "text": "This is how I do it."
+    },
+    {
+        "text": "So the notes, this is section 7.2, does these computational graphs."
+    },
+    {
+        "text": "And then here is reverse mode."
+    },
+    {
+        "text": "So it starts over here with, so I'm going to use the chain rule."
+    },
+    {
+        "text": "So df df is 1."
+    },
+    {
+        "text": "And then I go in backwards."
+    },
+    {
+        "text": "And I have to use, of course, I have to take the derivatives."
+    },
+    {
+        "text": "I have to use the right rule."
+    },
+    {
+        "text": "So I have to use the product rule."
+    },
+    {
+        "text": "And then soon I'll have to use these power rule and linear rule."
+    },
+    {
+        "text": "So of course, no change there."
+    },
+    {
+        "text": "The change is that by going backwards, oh, I don't know if I completed that sentence, that I could find 100 partial derivatives if the function depended on 100 variables in about 5 times the cost of one variable, 3 to 5 times the cost of 1."
+    },
+    {
+        "text": "So you would expect 100 chain rules would cost 100 times."
+    },
+    {
+        "text": "But you see, we're reusing the pieces in the chain and just having a larger."
+    },
+    {
+        "text": "Our chain is wider, but it's not longer and it's not repeated."
+    },
+    {
+        "text": "Anyway, so here I'm going to use whatever it is, df dc, and df ds."
+    },
+    {
+        "text": "And I'm remembering that."
+    },
+    {
+        "text": "So df dc is s, and df ds is c. That was because f started out as c times s. It was a product."
+    },
+    {
+        "text": "Then we've got to evaluate those."
+    },
+    {
+        "text": "I'll look again to see that I'm hopefully writing down some of the correct things."
+    },
+    {
+        "text": "So now what I've written down next is df dc is 5."
+    },
+    {
+        "text": "Or no, 5 on that example."
+    },
+    {
+        "text": "What is it here?"
+    },
+    {
+        "text": "df dc is c is x cubed."
+    },
+    {
+        "text": "So df dc, yeah, I want s. I'm looking for s here."
+    },
+    {
+        "text": "I'm looking for s. So I'm looking for s, and that's x plus 3y."
+    },
+    {
+        "text": "Am I doing this well?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "I want, in the end, to get the derivatives with respect to x and y, the whole gradient."
+    },
+    {
+        "text": "OK, I think we're started right."
+    },
+    {
+        "text": "The first derivatives is to write c and s. And then let me leave these boxes open just to get the picture."
+    },
+    {
+        "text": "Then I'm going to do, then I'll need dc dx, dc dy, ds dx, and ds dy."
+    },
+    {
+        "text": "I think that's right."
+    },
+    {
+        "text": "Here I had a product of c and s. So I needed two, I had two derivatives."
+    },
+    {
+        "text": "Here I have c and s each to differentiate."
+    },
+    {
+        "text": "So I have an x and a y derivative, x and a y derivative."
+    },
+    {
+        "text": "And now it's just a matter of putting in those numbers and following the chain backwards."
+    },
+    {
+        "text": "Maybe I'm not going to put those numbers in, because if I didn't reach 140, you wouldn't believe in back propagation."
+    },
+    {
+        "text": "And that would be like an unhappy outcome."
+    },
+    {
+        "text": "So I'll leave you to put them in, maybe."
+    },
+    {
+        "text": "Or the notes have a separate example that you can see."
+    },
+    {
+        "text": "But do you see the point?"
+    },
+    {
+        "text": "That I'm going to find all the, in the end, I'm going to find df dx and df dy from the chain, from one chain and not from a separate chain for x and a separate chain for y."
+    },
+    {
+        "text": "To me, that's the point of reverse mode."
+    },
+    {
+        "text": "It's a little bit of magic."
+    },
+    {
+        "text": "But you see the steps, the ingredient."
+    },
+    {
+        "text": "And some of you have seen this before and maybe know a better exposition."
+    },
+    {
+        "text": "I found this blog by Christopher Ola clear."
+    },
+    {
+        "text": "And these very simple things you'll see are clear in the notes."
+    },
+    {
+        "text": "But maybe another blog brings out other points to make here."
+    },
+    {
+        "text": "It's not obvious, maybe, that I could have 100 variables and do the calculation in four or five times the cost, four or five times being instead of 100."
+    },
+    {
+        "text": "But it's possible."
+    },
+    {
+        "text": "So could I close today with this one?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "How could those be different?"
+    },
+    {
+        "text": "You're computing the same numbers, the same aij, bjk, ckls, and doing this sums."
+    },
+    {
+        "text": "But it certainly is different."
+    },
+    {
+        "text": "So let's just do that."
+    },
+    {
+        "text": "OK, I'll do it here."
+    },
+    {
+        "text": "And then after my time, and I guess it'll be after Professor Rao on Friday and Monday, I'll come back to Professor Sra's short proof of the convergence of stochastic gradient descent."
+    },
+    {
+        "text": "The whole point is to show you what assumptions do you need."
+    },
+    {
+        "text": "You need some assumptions on the gradient, some assumptions on the step size."
+    },
+    {
+        "text": "And for a good proof, all the assumptions fit together, and dong, out comes the conclusion."
+    },
+    {
+        "text": "And the conclusion would be how fast it converges, stochastic gradient descent."
+    },
+    {
+        "text": "So there's some expected things, because it's stochastic."
+    },
+    {
+        "text": "We expect some assumptions about the mean and the variance to go into the proof."
+    },
+    {
+        "text": "So you'll see that, but maybe it's too much for today."
+    },
+    {
+        "text": "So for today, I'll just come back to that."
+    },
+    {
+        "text": "I might even put it on Stellar and just close with this."
+    },
+    {
+        "text": "So suppose A is m by n, B is n by p, and C is p by q."
+    },
+    {
+        "text": "How many steps does it take to find A times B times C, the product of those three matrices?"
+    },
+    {
+        "text": "Well, if I go this way, I have to multiply A. I have to do BC first, so BC costs."
+    },
+    {
+        "text": "How many operations to multiply that times that?"
+    },
+    {
+        "text": "npq."
+    },
+    {
+        "text": "Nice formula, npq."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Well, I could say that the answer is n by q, and every number in there was an inner product of a row and column of length p. So I have nq inner product, and each one costs p multiply add."
+    },
+    {
+        "text": "And then, so now I have BC, which will be now."
+    },
+    {
+        "text": "So now I have m by n. And then I have m by n, which is the A, times B by C, which is now n by q."
+    },
+    {
+        "text": "That's BC."
+    },
+    {
+        "text": "This is ABC."
+    },
+    {
+        "text": "So this one costs, what's the cost here?"
+    },
+    {
+        "text": "m by n, n by q."
+    },
+    {
+        "text": "By the same rule, it'll be mnq."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "That's the first way, A times BC."
+    },
+    {
+        "text": "Now, the second way is AB times C. And let me write in again, m by n, n by p, p by q."
+    },
+    {
+        "text": "So now I'm doing this first."
+    },
+    {
+        "text": "So AB costs."
+    },
+    {
+        "text": "Tell me again now, what's the rule for the cost of a matrix multiplication?"
+    },
+    {
+        "text": "Mnp, mnp."
+    },
+    {
+        "text": "And then I'm multiplying m by p. That's AB times p by q."
+    },
+    {
+        "text": "That's C. So I have mpq."
+    },
+    {
+        "text": "So I have that together with that, or that together with that."
+    },
+    {
+        "text": "That sum, those two, or these two."
+    },
+    {
+        "text": "And they're different."
+    },
+    {
+        "text": "And let's just recognize the most important example."
+    },
+    {
+        "text": "Suppose C is a column vector."
+    },
+    {
+        "text": "C for a column vector."
+    },
+    {
+        "text": "So q is 1."
+    },
+    {
+        "text": "There's only one column."
+    },
+    {
+        "text": "So if q is 1, this way did np."
+    },
+    {
+        "text": "Let's just specialize to that."
+    },
+    {
+        "text": "So specialize to C equal a column vector, which means that q is 1."
+    },
+    {
+        "text": "I only have one column."
+    },
+    {
+        "text": "So then A times BC is versus AB times C. So let's just figure that out when q is 1."
+    },
+    {
+        "text": "So npq is just np."
+    },
+    {
+        "text": "And mnq is just mn, where AB is mnp."
+    },
+    {
+        "text": "Oh, that's a bad one."
+    },
+    {
+        "text": "Disaster already."
+    },
+    {
+        "text": "Multiplying, those are potentially two big matrices."
+    },
+    {
+        "text": "Multiplying a column vector."
+    },
+    {
+        "text": "So here I've done a matrix multiplication."
+    },
+    {
+        "text": "I never should have done that."
+    },
+    {
+        "text": "This is a matrix vector."
+    },
+    {
+        "text": "It gives me a vector."
+    },
+    {
+        "text": "And then this is a matrix vector."
+    },
+    {
+        "text": "So I get nice numbers here."
+    },
+    {
+        "text": "But I get a terrible number for AB."
+    },
+    {
+        "text": "And then I multiply that by C. So that's mpq."
+    },
+    {
+        "text": "mpq."
+    },
+    {
+        "text": "So mp is factoring out."
+    },
+    {
+        "text": "So if I write it as n times m plus p versus this one is m that's factoring out times m. No."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "What's up here?"
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "What am I doing?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "Is it p that factors out from this one?"
+    },
+    {
+        "text": "OK. p times m plus n, I guess."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "Anyway, the difference is."
+    },
+    {
+        "text": "AUDIENCE 1."
+    },
+    {
+        "text": "I think it's mp times p plus q."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "Shall I go over it again or write?"
+    },
+    {
+        "text": "Let me do just this thinking again."
+    },
+    {
+        "text": "If q is 1, if I go this way, was that my final total when q was 1?"
+    },
+    {
+        "text": "And that's this."
+    },
+    {
+        "text": "That's no."
+    },
+    {
+        "text": "m factors out times n plus p. Whoops."
+    },
+    {
+        "text": "Let's just get that right."
+    },
+    {
+        "text": "This is."
+    },
+    {
+        "text": "Oh, no."
+    },
+    {
+        "text": "n factors out."
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "n factors out times n plus p. And this way was all these things."
+    },
+    {
+        "text": "Both the m and the p factor out."
+    },
+    {
+        "text": "Both the m and the p factor out."
+    },
+    {
+        "text": "Thanks."
+    },
+    {
+        "text": "Times n plus q. n plus q was 1."
+    },
+    {
+        "text": "The whole point is we've got this horrible multiplication of three big numbers."
+    },
+    {
+        "text": "And this only had two big numbers."
+    },
+    {
+        "text": "So this is orders of magnitude faster than that."
+    },
+    {
+        "text": "And of course, you would have done the calculation that way."
+    },
+    {
+        "text": "You would have multiplied the column vector by a matrix to get another column vector."
+    },
+    {
+        "text": "And you would have multiplied that by a matrix to get another column vector."
+    },
+    {
+        "text": "Where here, you crazily multiplied two big matrices together and then got a column vector."
+    },
+    {
+        "text": "So there's the bad move."
+    },
+    {
+        "text": "OK, thanks."
+    },
+    {
+        "text": "So we're past the time on this ABC."
+    },
+    {
+        "text": "It's just to show that on a very familiar calculation, you have to do it in the right order."
+    },
+    {
+        "text": "And back propagation is the right order for partial derivatives."
+    },
+    {
+        "text": "OK, thank you."
+    },
+    {
+        "text": "And so bring laptops Friday."
+    },
+    {
+        "text": "And look forward to Professor Rao."
+    },
+    {
+        "text": "Give him a good welcome."
+    }
+]

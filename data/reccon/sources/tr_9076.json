@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We have been here for about five days and I have to leave now .",
+        "emotion": "neutral",
+        "text": "We have been here for about five days and I have to leave now .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Ok ! You know you're always welcome here . Did you enjoy your stay ?",
+        "emotion": "neutral",
+        "text": "Ok ! You know you're always welcome here . Did you enjoy your stay ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , we have a very pleasant time . Thank you for being so nice for us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            3
+        ],
+        "expanded emotion cause span": [
+            "you're always welcome",
+            "we have a very pleasant time .",
+            "Thank you for being so nice"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , we have a very pleasant time . Thank you for being so nice for us .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's our pleasure . And is there anything else we can do for you before you leave here ?",
+        "emotion": "neutral",
+        "text": "It's our pleasure . And is there anything else we can do for you before you leave here ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No , thanks . You've done a lot for us . Thank you for everything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "you're always welcome",
+            "we have a very pleasant time .",
+            "Thank you for being so nice",
+            "You've done a lot for us ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "No , thanks . You've done a lot for us . Thank you for everything .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Don't mention it . Oh , This is a small gift for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You've done a lot for us . Thank you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . Oh , This is a small gift for you .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh ! Thank you ! It's very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "you're always welcome",
+            "we have a very pleasant time .",
+            "Thank you for being so nice",
+            "You've done a lot for us .",
+            "a small gift for you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh ! Thank you ! It's very kind of you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "We hope you could visit our company again .",
+        "emotion": "neutral",
+        "text": "We hope you could visit our company again .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "We're sure we will . And welcome to our corporation next year . We're expecting you .",
+        "emotion": "neutral",
+        "text": "We're sure we will . And welcome to our corporation next year . We're expecting you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Ok ! We'll definitely go to visit your company .",
+        "emotion": "neutral",
+        "text": "Ok ! We'll definitely go to visit your company .",
+        "id": 10
+    }
+]

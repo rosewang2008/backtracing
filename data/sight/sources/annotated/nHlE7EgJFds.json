@@ -1,0 +1,1340 @@
+[
+    {
+        "text": " Okay, here is lecture ten in linear algebra."
+    },
+    {
+        "text": "Two important things to do in this lecture."
+    },
+    {
+        "text": "One is to correct an error from lecture nine."
+    },
+    {
+        "text": "So the blackboard with that awful error is still with us."
+    },
+    {
+        "text": "And the second, the big thing to do is to tell you about the four subspaces that come with a matrix."
+    },
+    {
+        "text": "We've seen two subspaces, the column space and the null space, there's two to go."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "First of all, and this is a great way to recap and correct the previous lecture."
+    },
+    {
+        "text": "So you remember I was just doing R3."
+    },
+    {
+        "text": "I couldn't have taken a simpler example than R3."
+    },
+    {
+        "text": "And I wrote down the standard basis."
+    },
+    {
+        "text": "That's the standard basis."
+    },
+    {
+        "text": "The basis, the obvious basis for the whole three-dimensional space."
+    },
+    {
+        "text": "And then I wanted to make the point that there was nothing special, nothing about that basis that another basis couldn't have."
+    },
+    {
+        "text": "It could have linear independence, it could span a space, there's lots of other bases."
+    },
+    {
+        "text": "So I started with these vectors one one two and two two five, and those were independent."
+    },
+    {
+        "text": "And then I said three three seven wouldn't do, because three three seven is the sum of those."
+    },
+    {
+        "text": "So in my innocence, I put in three three eight."
+    },
+    {
+        "text": "I figured probably if three three seven is on the plane, is, which I know, it's in the plane with these two, then probably three three eight sticks a little bit out of the plane."
+    },
+    {
+        "text": "And it's independent and it gives a basis."
+    },
+    {
+        "text": "But after class, to my sorrow, student tells me, wait a minute, that third vector three three eight is not independent."
+    },
+    {
+        "text": "And why did she say that?"
+    },
+    {
+        "text": "She didn't actually take the time, didn't have to, to find what combination of this one and this one gives three three eight."
+    },
+    {
+        "text": "She did something else."
+    },
+    {
+        "text": "In other words, she looked ahead because she said, wait a minute, if I look at that matrix, it's not invertible."
+    },
+    {
+        "text": "That third column can't be independent of the first two, because when I look at that matrix, it's got two identical rows."
+    },
+    {
+        "text": "I have a square matrix."
+    },
+    {
+        "text": "Its rows are obviously dependent."
+    },
+    {
+        "text": "And that makes the columns dependent."
+    },
+    {
+        "text": "So there's my error."
+    },
+    {
+        "text": "When I look at the matrix A that has those three columns, those three columns can't be independent because that matrix is not invertible because it's got two equal rows."
+    },
+    {
+        "text": "And today's lecture will reach the conclusion, the great conclusion, that connects the column space with the row space."
+    },
+    {
+        "text": "So those are the row space is now going to be another one of my fundamental subspaces."
+    },
+    {
+        "text": "The row space of this matrix or of this one, well, the row space of this one is okay."
+    },
+    {
+        "text": "But the row space of this one, I'm looking at the rows of the matrix, oh, anyway, I'll have two equal rows and the row space will be only two-dimensional."
+    },
+    {
+        "text": "The rank of the matrix with these columns will only be two, so only two of those columns can be independent too."
+    },
+    {
+        "text": "The rows tell me something about the columns, in other words."
+    },
+    {
+        "text": "Something that I should have noticed and I didn't."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So now let me pin down these four fundamental subspaces."
+    },
+    {
+        "text": "So here are the four fundamental subspaces."
+    },
+    {
+        "text": "This is really the heart of this approach to linear algebra, to see these four subspaces, how they're related."
+    },
+    {
+        "text": "So what are they?"
+    },
+    {
+        "text": "The column space, C of A."
+    },
+    {
+        "text": "The null space, N of A."
+    },
+    {
+        "text": "And now comes the row space, something new."
+    },
+    {
+        "text": "The row space, what's in that?"
+    },
+    {
+        "text": "It's all combinations of the rows."
+    },
+    {
+        "text": "That's natural."
+    },
+    {
+        "text": "We want a space, so we have to take all combinations and we start with the rows."
+    },
+    {
+        "text": "So the rows span the row space."
+    },
+    {
+        "text": "Are the rows a basis for the row space?"
+    },
+    {
+        "text": "Maybe so, maybe no."
+    },
+    {
+        "text": "The rows are a basis for the row space when they're independent."
+    },
+    {
+        "text": "But if they're dependent, as in this example, my error from last time, they're not, those three rows are not a basis, the row space would only be two-dimensional, I only need two rows for a basis."
+    },
+    {
+        "text": "So the row space, now what's in it?"
+    },
+    {
+        "text": "It's all combinations of the rows of A."
+    },
+    {
+        "text": "All combinations of the rows of A."
+    },
+    {
+        "text": "But I don't like working with row vectors."
+    },
+    {
+        "text": "All my vectors have been column vectors."
+    },
+    {
+        "text": "I'd like to stay with column vectors."
+    },
+    {
+        "text": "How can I get to column vectors out of these rows?"
+    },
+    {
+        "text": "I transpose the matrix."
+    },
+    {
+        "text": "So if that's OK with you, I'm going to transpose the matrix, I'm going to say all combinations of the columns of A transpose."
+    },
+    {
+        "text": "And that allows me to use the convenient notation, the column space of A transpose."
+    },
+    {
+        "text": "Nothing, no mathematics went on there, we just got some vectors that were lying down to stand up."
+    },
+    {
+        "text": "But it means that we can use this column space of A transpose, that's telling me in a nice matrix notation what the row space is."
+    },
+    {
+        "text": "OK. And finally is another null space."
+    },
+    {
+        "text": "The fourth fundamental space will be the null space of A transpose."
+    },
+    {
+        "text": "The fourth guy is the null space of A transpose."
+    },
+    {
+        "text": "And of course, my notation is N of A transpose."
+    },
+    {
+        "text": "That's the null space of A transpose."
+    },
+    {
+        "text": "Now, we don't have a perfect name for this space as a, as a, connecting with A, but our usual name is the left null space, and I'll show you why in a moment."
+    },
+    {
+        "text": "So often I call this the, just to write that word, the left null space of A."
+    },
+    {
+        "text": "So just the way we have the row space of A and we switch it to the column space of A transpose, so we have this space of guys that I call the left null space of A, but the good notation is it's the null space of A transpose."
+    },
+    {
+        "text": "OK. Those are four spaces."
+    },
+    {
+        "text": "Where are those spaces?"
+    },
+    {
+        "text": "What big space are they in for when A is m by n?"
+    },
+    {
+        "text": "In that case, the null space of A, what's in the null space of A?"
+    },
+    {
+        "text": "Vectors with n components."
+    },
+    {
+        "text": "Solutions to Ax equals zero."
+    },
+    {
+        "text": "So the null space of A is n R n. What's in the column space of A?"
+    },
+    {
+        "text": "Well, columns."
+    },
+    {
+        "text": "How many components do those columns have?"
+    },
+    {
+        "text": "m. So this column space is n R m. What about the column space of A transpose, which are just a disguised way of saying the rows of A?"
+    },
+    {
+        "text": "The rows of A in this three by six matrix have six components, n components."
+    },
+    {
+        "text": "The column space is n R n. And the null space of A transpose, I see that this fourth space is already getting second, you know, second class citizen treatment and it doesn't deserve it."
+    },
+    {
+        "text": "It's, it should be there, it is there, and shouldn't be squeezed."
+    },
+    {
+        "text": "The null space of A transpose, well, if the null space of A had vectors with n components, the null space of A transpose will be n R m. I want to draw a picture of the four spaces."
+    },
+    {
+        "text": "OK. OK."
+    },
+    {
+        "text": "Here are the four spaces."
+    },
+    {
+        "text": "OK, let me put n dimensional space over on this side."
+    },
+    {
+        "text": "Then which were the subspaces in R n?"
+    },
+    {
+        "text": "The null space was and the row space was."
+    },
+    {
+        "text": "So here we have the can I make that picture of the row space?"
+    },
+    {
+        "text": "And can I make this kind of picture of the null space?"
+    },
+    {
+        "text": "That's just meant to be a sketch, to remind you that they're in this which, you know, how, what type of vectors are in it?"
+    },
+    {
+        "text": "Vectors with n components."
+    },
+    {
+        "text": "Over here, inside consisting of vectors with m components is the column space and what I'm calling the null space of A transpose."
+    },
+    {
+        "text": "Those are the ones with m components."
+    },
+    {
+        "text": "OK. To understand these spaces is our job now."
+    },
+    {
+        "text": "Because by understanding those spaces, we know everything about this half of linear algebra."
+    },
+    {
+        "text": "What do I mean by understanding those spaces?"
+    },
+    {
+        "text": "I would like to know a basis for those spaces."
+    },
+    {
+        "text": "For each one of those spaces, how would I create, construct a basis?"
+    },
+    {
+        "text": "What systematic way would produce a basis?"
+    },
+    {
+        "text": "And what's their dimension?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So for each of the four spaces, I have to answer those questions."
+    },
+    {
+        "text": "How do I produce a basis?"
+    },
+    {
+        "text": "And then, which has a somewhat long answer, and what's the dimension, which is just a number, so it has a real short answer?"
+    },
+    {
+        "text": "Can I give you the short answer first?"
+    },
+    {
+        "text": "I shouldn't do it, but here it is."
+    },
+    {
+        "text": "I can tell you the dimension of the column space."
+    },
+    {
+        "text": "Let me start with this guy."
+    },
+    {
+        "text": "What's its dimension?"
+    },
+    {
+        "text": "I have an m by n matrix."
+    },
+    {
+        "text": "The dimension of the column space is the rank, R. We actually got to that at the end of the last lecture, but only for an example."
+    },
+    {
+        "text": "So I really have to say, OK, what's going on there?"
+    },
+    {
+        "text": "I should produce a basis, and then I just look to see how many vectors I needed in that basis, and the answer will be R. Actually, I'll do that before I get on to the others."
+    },
+    {
+        "text": "What's a basis for the column space?"
+    },
+    {
+        "text": "We've done all the work of row reduction, identifying the pivot columns, the ones that have pivots, the ones that end up with pivots, but now I the pivot columns I'm interested in are columns of A, the original A."
+    },
+    {
+        "text": "And those pivot columns, there are R of them, the rank R counts those, those are a basis."
+    },
+    {
+        "text": "So if I answer this question for the column space, the answer will be a basis is the pivot columns, and the dimension is the rank R. And there are pivot columns and everything great."
+    },
+    {
+        "text": "OK, so that space we pretty well understand."
+    },
+    {
+        "text": "I probably have a little going back to see that, to prove that this is a right answer, but you know it's the right answer."
+    },
+    {
+        "text": "Now let me look at the row space."
+    },
+    {
+        "text": "OK. Shall I tell you the dimension of the row space?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "Before we do even an example, let me tell you the dimension of the row space."
+    },
+    {
+        "text": "Its dimension is also R. The row space and the column space have the same dimension."
+    },
+    {
+        "text": "That's a wonderful fact."
+    },
+    {
+        "text": "The dimension of the column space of A transpose, that's the row space, is R. That space is R-dimensional."
+    },
+    {
+        "text": "And so is this one."
+    },
+    {
+        "text": "OK. That's the, that's the sort of insight that got used in this example."
+    },
+    {
+        "text": "If those, if those, if those, are the three columns of a matrix, let me make them the three columns of a matrix by just erasing some brackets, OK, those are the three columns of a matrix, the rank of that matrix, if I look at the columns, it wasn't obvious to me anyway."
+    },
+    {
+        "text": "But if I look at the rows, it's, now it's obvious."
+    },
+    {
+        "text": "The row space of that matrix obviously is two-dimensional, because I can, I see a basis for the row space, this row and that row."
+    },
+    {
+        "text": "And of course, strictly speaking, I'm supposed to transpose those guys, make them stand up."
+    },
+    {
+        "text": "But the rank is two, and therefore the column space is two-dimensional by this wonderful fact that the row space and column space have the same dimension, and therefore there are only two pivot columns, not three, and, those, the three columns are dependent."
+    },
+    {
+        "text": "OK. Now, let me bury that error and talk about the row space."
+    },
+    {
+        "text": "Well, I'm going to give you the dimensions of all the spaces, because that's the, such a nice answer."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So let me come back here."
+    },
+    {
+        "text": "So we have this great fact to establish, that the row space, its dimension is also the rank."
+    },
+    {
+        "text": "OK. What about the null space?"
+    },
+    {
+        "text": "What's a basis for the null space?"
+    },
+    {
+        "text": "What's the dimension of the null space?"
+    },
+    {
+        "text": "Let me, I'll put that answer up here, for the null space."
+    },
+    {
+        "text": "Well, how have we constructed the null space?"
+    },
+    {
+        "text": "We took the matrix A, we did those row operations to get it into a form U or even further, we got it into the reduced form R, and then we read off special solutions."
+    },
+    {
+        "text": "Special solutions, and every special solution came from a free variable."
+    },
+    {
+        "text": "And those special solutions are in the null space, and the great thing is, they're a basis for it."
+    },
+    {
+        "text": "So for the null space, a basis will be the special solutions."
+    },
+    {
+        "text": "And there's one for every free variable, right?"
+    },
+    {
+        "text": "For each free variable, we give that variable the value one, the other free variable zero."
+    },
+    {
+        "text": "We get the pivot variables, we get a vector in the -- we get a special solution."
+    },
+    {
+        "text": "So we get all together n minus R of them, because that's the number of free variables."
+    },
+    {
+        "text": "If we have R, this is, the dimension is R, is the number of pivot variables, this is the number of free variables."
+    },
+    {
+        "text": "So the beauty is that those special solutions do form a basis and tell us immediately that the dimension of the null space is n -- I'd better write this well, because it's so nice, n minus R. And you see the nice thing, that the two dimensions in this n-dimensional space, one subspace is R-dimensional, to be proved, that's the row space."
+    },
+    {
+        "text": "The other subspace is n minus R-dimensional, that's the null space."
+    },
+    {
+        "text": "And the two dimensions, like, together, give n. The sum of R and n minus R is n. And that's just great."
+    },
+    {
+        "text": "It's really copying the fact that we have n variables, R of them are pivot variables and n minus R are free variables and n all together."
+    },
+    {
+        "text": "OK. And now what's the dimension of this poor misbegotten fourth subspace?"
+    },
+    {
+        "text": "It's got to be m minus R. The dimension of this left null space, left out practically, is m minus R. Well, that's really just saying that this, again, the sum of that plus that is m. And m is correct."
+    },
+    {
+        "text": "It's the number of columns in A transpose."
+    },
+    {
+        "text": "A transpose is just as good a matrix as A."
+    },
+    {
+        "text": "It just happens to be n by m. It happens to have m columns, so it will have m variables, when I go to Ax equals zero, and m of them and R of them will be pivot variables and m minus R will be free variables."
+    },
+    {
+        "text": "A transpose is as good a matrix as A."
+    },
+    {
+        "text": "It follows the same rule that this plus the dimension, this dimension plus this dimension adds up to the number of columns."
+    },
+    {
+        "text": "And over here, A transpose has m columns."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay, so I gave you the easy answer, the dimensions."
+    },
+    {
+        "text": "Now can I go back to check on a basis?"
+    },
+    {
+        "text": "We would like to think that, say, the row space."
+    },
+    {
+        "text": "Because we've got a basis for the column space."
+    },
+    {
+        "text": "The pivot columns give a basis for the column space."
+    },
+    {
+        "text": "Now I'm asking you to look at the row space."
+    },
+    {
+        "text": "And I you could say, okay, I can produce a basis for the row space by transposing my matrix, making those columns, then doing elimination, row reduction, and checking out the pivot columns in this transposed matrix."
+    },
+    {
+        "text": "But that means you had to do all that row reduction on A transpose."
+    },
+    {
+        "text": "It ought to be possible, if we take a matrix A, let me take the matrix, maybe we had this matrix in the last lecture, one one one, two one two, three two three, one one one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That, that matrix was so easy, we spotted its pivot columns, one and two, without actually doing row reduction."
+    },
+    {
+        "text": "But now let's do the job properly."
+    },
+    {
+        "text": "So I subtract this away from this to produce a zero."
+    },
+    {
+        "text": "So one two three one is fine."
+    },
+    {
+        "text": "Subtracting that away leaves me minus one minus one zero, right?"
+    },
+    {
+        "text": "And subtracting that from the last row, oh, well, that's easy."
+    },
+    {
+        "text": "Okay, I'm doing row reduction."
+    },
+    {
+        "text": "Now I've, the first column is all set."
+    },
+    {
+        "text": "The second column, I now see the pivot, and I can clean up, if I, actually, okay, why don't I make the pivot into a one?"
+    },
+    {
+        "text": "I'll multiply that row through by minus one, and then I have one one."
+    },
+    {
+        "text": "That was an elementary operation, I'm allowed."
+    },
+    {
+        "text": "Multiply a row by a number."
+    },
+    {
+        "text": "And now I'll do elimination."
+    },
+    {
+        "text": "Two of those away from that will knock this guy out and make this into a one."
+    },
+    {
+        "text": "So that's now a zero and that's a one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Done."
+    },
+    {
+        "text": "That's R. I'm seeing the identity matrix here, I'm seeing zeros below, and I'm seeing F there."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What about its row space?"
+    },
+    {
+        "text": "What happened to its row space?"
+    },
+    {
+        "text": "Well, what happened, let me first ask, just because this is, sometimes something does happen."
+    },
+    {
+        "text": "Its column space changed."
+    },
+    {
+        "text": "The column space of R is not the column space of A, right?"
+    },
+    {
+        "text": "Because one one one is certainly in the column space of A and certainly not in the column space of R. I did row operations."
+    },
+    {
+        "text": "Those row operations preserved the row space, so the row so the column spaces are different."
+    },
+    {
+        "text": "Different column spaces."
+    },
+    {
+        "text": "Different column spaces."
+    },
+    {
+        "text": "But I believe that they have the same row space."
+    },
+    {
+        "text": "Same row space."
+    },
+    {
+        "text": "I believe that the row space of that matrix and the row space of this matrix are identical."
+    },
+    {
+        "text": "They have exactly the same vectors in them."
+    },
+    {
+        "text": "Those vectors are vectors with four components, right?"
+    },
+    {
+        "text": "They're all combinations of those rows."
+    },
+    {
+        "text": "Or I believe you get the same thing by taking all combinations of these rows."
+    },
+    {
+        "text": "And if true, what's a basis?"
+    },
+    {
+        "text": "What's a basis for the row space of R?"
+    },
+    {
+        "text": "And it'll be a basis for the row space of the original A."
+    },
+    {
+        "text": "But it's obviously a basis for the row space of R. What's a basis for the row space of that matrix?"
+    },
+    {
+        "text": "The first two rows."
+    },
+    {
+        "text": "So a basis for the row so a basis is for the row space of A or of R is the first R rows of R, not of A."
+    },
+    {
+        "text": "Sometimes it's true for A, but not necessarily."
+    },
+    {
+        "text": "But R, we definitely have a matrix here whose row space we can identify."
+    },
+    {
+        "text": "The row space is spanned by the three rows."
+    },
+    {
+        "text": "But if we want a basis, we want independence."
+    },
+    {
+        "text": "So out goes row three."
+    },
+    {
+        "text": "The row space is also spanned by the first two rows."
+    },
+    {
+        "text": "This guy didn't contribute anything."
+    },
+    {
+        "text": "And of course, over here, this one, two, three, one in the bottom didn't contribute anything."
+    },
+    {
+        "text": "We had it already."
+    },
+    {
+        "text": "So this, here's a basis, one zero one one and zero one one zero."
+    },
+    {
+        "text": "I believe those are in the row space."
+    },
+    {
+        "text": "I know they're independent."
+    },
+    {
+        "text": "Why are they in the row space?"
+    },
+    {
+        "text": "Why are those two vectors in the row space?"
+    },
+    {
+        "text": "Because all those operations we did, which started with these rows and took combinations of them."
+    },
+    {
+        "text": "I took this row minus this row."
+    },
+    {
+        "text": "That gave me something that's still in the row space."
+    },
+    {
+        "text": "That's the point."
+    },
+    {
+        "text": "When I took a row minus a multiple of another row, I'm staying in the row space."
+    },
+    {
+        "text": "The row space is not changing."
+    },
+    {
+        "text": "My little basis for it is changing, and I've ended up with, sort of, the best basis."
+    },
+    {
+        "text": "If the columns of the identity matrix are the best basis for R3 or Rn, the rows of this matrix are the best basis for the row space."
+    },
+    {
+        "text": "Best in the sense of being as clean as I can make it."
+    },
+    {
+        "text": "Starting off with the identity and then finishing up with whatever has to be in there."
+    },
+    {
+        "text": "OK. Do you see, then, that the dimension is R?"
+    },
+    {
+        "text": "For sure."
+    },
+    {
+        "text": "Because we've got R pivots, R nonzero rows, we've got the right number of vectors, R. They're in the row space, they're independent, that's it."
+    },
+    {
+        "text": "They are a basis for the row space."
+    },
+    {
+        "text": "And we can even pin that down further."
+    },
+    {
+        "text": "How do I know that every row of A is a combination?"
+    },
+    {
+        "text": "How do I know they span the row space?"
+    },
+    {
+        "text": "Oh, well, somebody says I've got the right number of them, so they must, but that's true."
+    },
+    {
+        "text": "But let me just say, how do I know that this row is a combination of these?"
+    },
+    {
+        "text": "By just reversing the steps of row reduction."
+    },
+    {
+        "text": "If I just reverse the steps and go from A, from R back to A, then what do I, what am I doing?"
+    },
+    {
+        "text": "I'm starting with these rows, I'm taking combinations of them, after a couple of steps, undoing the subtractions that I did before, I'm back to these rows."
+    },
+    {
+        "text": "So these rows are combinations of those rows, those rows are combinations of those rows, the two row spaces are the same, the bases are the same, and the natural basis is this guy."
+    },
+    {
+        "text": "Is that all right for the row space?"
+    },
+    {
+        "text": "The row space is sitting there in R, in its cleanest possible form."
+    },
+    {
+        "text": "OK. Now what about the fourth guy, the null space of A transpose?"
+    },
+    {
+        "text": "First of all, why do I call that the left null space?"
+    },
+    {
+        "text": "So let me save that and bring that down."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the fourth space is the null space of A transpose."
+    },
+    {
+        "text": "So it has in it vectors, let me call them y, so that A transpose y equals zero."
+    },
+    {
+        "text": "If A transpose y equals zero, then y is in the null space of A transpose, of course."
+    },
+    {
+        "text": "So this is a matrix times a column equaling zero."
+    },
+    {
+        "text": "And now, because I want y to sit on the left, and I want A instead of A transpose, I'll just transpose that equation."
+    },
+    {
+        "text": "Can I just transpose that?"
+    },
+    {
+        "text": "On the right, it makes the zero vector lie down."
+    },
+    {
+        "text": "And on the left, it's a product, A transpose times y."
+    },
+    {
+        "text": "If I take the transpose, then they come in opposite order, right?"
+    },
+    {
+        "text": "So it's y transpose times A transpose transpose, but nobody's going to leave it like that."
+    },
+    {
+        "text": "That's A transpose transpose is just A, of course."
+    },
+    {
+        "text": "When I transposed A transpose, I got back to A."
+    },
+    {
+        "text": "Now, do you see what I have now?"
+    },
+    {
+        "text": "I have a row vector, y transpose, multiplying A and multiplying from the left."
+    },
+    {
+        "text": "That's why I call it the left null space."
+    },
+    {
+        "text": "But by making it, putting it on the left, I had to make it into a row instead of a column vector."
+    },
+    {
+        "text": "And so my convention is I usually don't do that, I usually stay with A transpose y equals zero."
+    },
+    {
+        "text": "OK. And you might ask, how do we get a basis, or I might ask, how do we get a basis for this fourth space, this left null space?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I'll do it the example."
+    },
+    {
+        "text": "As always, ah, not that one."
+    },
+    {
+        "text": "The left null space is not jumping out at me here."
+    },
+    {
+        "text": "I know which are the free variables, the special solutions, but those are special solutions to Ax equals zero, and now I'm looking at A transpose and I'm not seeing it here."
+    },
+    {
+        "text": "So, but somehow you feel that the work that you did, which simplified A to R, should have revealed the left null space too."
+    },
+    {
+        "text": "And it's slightly less immediate, but it's there."
+    },
+    {
+        "text": "So from A to R, I took some steps, and I guess I'm interested in what were those steps, or what were all of them together."
+    },
+    {
+        "text": "I don't want to -- I'm not interested in what particular ones they were."
+    },
+    {
+        "text": "I'm interested in what was the whole matrix that took me from A to R. How would you find that?"
+    },
+    {
+        "text": "Do you remember Gauss-Jordan, where you tack on the identity matrix?"
+    },
+    {
+        "text": "Let's do that again."
+    },
+    {
+        "text": "So I'll do it above here."
+    },
+    {
+        "text": "So this is now the idea of I take the matrix A, which is m by n. In Gauss-Jordan, when we saw him before, A was a square invertible matrix and we were finding its inverse."
+    },
+    {
+        "text": "Now the matrix isn't square, it's probably rectangular."
+    },
+    {
+        "text": "But I'll still tack on the identity matrix, and of course, since these have length m, it better be m by m. And now I'll do the reduced row echelon form of this matrix."
+    },
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "The reduced row echelon form starts with these columns, starts with the first columns, works like mad, and produces R. Of course, still the same size, m by n, and we did it before."
+    },
+    {
+        "text": "And then whatever it did to get R, something else is going to show up here."
+    },
+    {
+        "text": "Let me call it E, m by m. It's whatever you see that E is just going to contain a record of what we did."
+    },
+    {
+        "text": "We did whatever it took to get A to become R. And at the same time, we were doing it to the identity matrix."
+    },
+    {
+        "text": "So we started with the identity matrix, we buzzed along."
+    },
+    {
+        "text": "So we took some -- all this row reduction amounted to multiplying on the left by some matrix, some series of elementary matrices that all together gave us one matrix, and that matrix is E. So all this row reduction stuff amounted to multiplying by E. How do I know that?"
+    },
+    {
+        "text": "It certainly amounted to multiplying by something, and that something took I to E, so that something was E. So now look at the first part, E A is R. No big deal."
+    },
+    {
+        "text": "All I've said is that the row reduction steps that we all know well, taking A to R, are in a- in some matrix, and I can find out what that matrix is by just tacking I on and seeing what comes out."
+    },
+    {
+        "text": "What comes out is E. Let's just review the invertible square case."
+    },
+    {
+        "text": "What happened then?"
+    },
+    {
+        "text": "Because I was interested in it in chapter two also."
+    },
+    {
+        "text": "When A was square and invertible, I took A I, I did row elimination, what was the R that came out?"
+    },
+    {
+        "text": "It was I."
+    },
+    {
+        "text": "So in chapter two, in chapter two, R was I."
+    },
+    {
+        "text": "The row- the reduced row echelon form of a nice invertible square matrix is the identity."
+    },
+    {
+        "text": "So if R was I in that case, then E was A inverse, because E A is I."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "That's- that was good and easy."
+    },
+    {
+        "text": "Now what I'm saying is that there still is an E, it's not A inverse anymore, because A is a rectangular, it hasn't got an inverse."
+    },
+    {
+        "text": "But there is still some matrix E that connected this to this."
+    },
+    {
+        "text": "Oh, I should have figured out in advance what it was."
+    },
+    {
+        "text": "Shoot."
+    },
+    {
+        "text": "I didn't- I did those steps and sort of erased as I went, and, I should have done them to the identity, too."
+    },
+    {
+        "text": "Can I do that?"
+    },
+    {
+        "text": "Can I do that?"
+    },
+    {
+        "text": "I'll keep the identity matrix, like I'm supposed to do, and I'll do the same operations on it and see what I end up with."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I'm starting with the identity, which I'll write in light, light enough, but okay, what did I do?"
+    },
+    {
+        "text": "I subtracted that row from that one and that row from that one."
+    },
+    {
+        "text": "Okay, I'll do that to the identity."
+    },
+    {
+        "text": "So I subtract that first row from row two and row three."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Then I think I multiply, do you remember, I multiplied row two by minus one?"
+    },
+    {
+        "text": "Let me just do that."
+    },
+    {
+        "text": "Then what did I do?"
+    },
+    {
+        "text": "I subtracted two of row two away from row one."
+    },
+    {
+        "text": "I better do that."
+    },
+    {
+        "text": "Subtract two of this away from this."
+    },
+    {
+        "text": "That's minus one, two of these away leaves a plus two and zero."
+    },
+    {
+        "text": "I believe that's E. The way to check is to see, multiply that E by this A, just to see, did I do it right?"
+    },
+    {
+        "text": "So I believe E was minus one, two, zero, one minus one, zero, and minus one, zero, one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's my E, that's my A, and that's R. All right."
+    },
+    {
+        "text": "All I'm struggling to do is write the reason I wanted this blasted E was so that I could figure out the left null space."
+    },
+    {
+        "text": "Not only its dimension, which I know."
+    },
+    {
+        "text": "Actually, what is the dimension of the left null space?"
+    },
+    {
+        "text": "Here's my matrix."
+    },
+    {
+        "text": "What's the rank of the matrix?"
+    },
+    {
+        "text": "Two."
+    },
+    {
+        "text": "And the dimension of the left null space is supposed to be M minus R, three minus two, one."
+    },
+    {
+        "text": "I believe that the left null space is one-dimensional."
+    },
+    {
+        "text": "There is one combination of those three rows that produces the zero row."
+    },
+    {
+        "text": "There is a basis."
+    },
+    {
+        "text": "A basis for the left null space has only got one vector in it."
+    },
+    {
+        "text": "And what is that vector?"
+    },
+    {
+        "text": "It's here in the last row of E. But, ah, we could have seen it earlier."
+    },
+    {
+        "text": "What combination of those rows gives the zero row?"
+    },
+    {
+        "text": "Minus one of that, plus one of that."
+    },
+    {
+        "text": "So a basis for the left null space of this matrix, I'm looking for combinations of rows that give the zero row, if I'm looking at the left null space."
+    },
+    {
+        "text": "For the null space, I'm looking at combinations of columns to get the zero column."
+    },
+    {
+        "text": "Now I'm looking at combinations of these three rows to get the zero row, and of course, there is my zero row, and here is my vector that produced it."
+    },
+    {
+        "text": "Minus one of that row and one of that row."
+    },
+    {
+        "text": "Obvious."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So in that example, and actually in all examples, we have seen how to produce a basis for the left null space."
+    },
+    {
+        "text": "I won't ask you that all the time."
+    },
+    {
+        "text": "Because it didn't come out immediately from R, we had to keep track of E for that left null space."
+    },
+    {
+        "text": "But at least it didn't require us to transpose the matrix and start all over again."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Those are the four subspaces."
+    },
+    {
+        "text": "Can I review them?"
+    },
+    {
+        "text": "The row space and the null space are in Rn."
+    },
+    {
+        "text": "Their dimensions add to n. The column space and the left null space are in Rm, and their dimensions add to m. Okay."
+    },
+    {
+        "text": "So let me close these last minutes by pushing you a little bit more to a new type of vector space."
+    },
+    {
+        "text": "All our vector spaces, all the ones that we took seriously, have been subspaces of some real three- or n-dimensional space."
+    },
+    {
+        "text": "Now I'm going to write down another vector space, a new vector space."
+    },
+    {
+        "text": "Say all three by three matrices."
+    },
+    {
+        "text": "My matrices are the vectors."
+    },
+    {
+        "text": "Is that all right?"
+    },
+    {
+        "text": "I'm just naming them."
+    },
+    {
+        "text": "You can put quotes around vectors."
+    },
+    {
+        "text": "Every three by three matrix is one of my vectors."
+    },
+    {
+        "text": "Now how am I entitled to call those things vectors?"
+    },
+    {
+        "text": "I mean, they look very much like matrices."
+    },
+    {
+        "text": "But they're vectors in my vector space because they obey the rules."
+    },
+    {
+        "text": "All I'm supposed to be able to do with vectors is add them."
+    },
+    {
+        "text": "I can add matrices."
+    },
+    {
+        "text": "I'm supposed to be able to multiply them by scalar numbers, like seven."
+    },
+    {
+        "text": "Well, I can multiply a matrix by seven."
+    },
+    {
+        "text": "And I can take combinations of matrices."
+    },
+    {
+        "text": "I can take three of one matrix minus five of another matrix."
+    },
+    {
+        "text": "And those combinations, there's a zero matrix, the matrix that has all zeros in it."
+    },
+    {
+        "text": "If I add that to another matrix, it doesn't change it."
+    },
+    {
+        "text": "All the good stuff."
+    },
+    {
+        "text": "If I multiply a matrix by one, it doesn't change it."
+    },
+    {
+        "text": "All those eight rules for a vector space that we never wrote down, all easily satisfied."
+    },
+    {
+        "text": "So now we have a different --."
+    },
+    {
+        "text": "Now, of course, you can say you can multiply those matrices."
+    },
+    {
+        "text": "I don't care."
+    },
+    {
+        "text": "For the moment, I'm only thinking of these matrices as forming a vector space, so I am only doing A plus B and C times A. I'm not interested in A, B for now."
+    },
+    {
+        "text": "The fact that I can multiply is not relevant to a vector space."
+    },
+    {
+        "text": "OK, so I have three by three matrices."
+    },
+    {
+        "text": "And how about subspaces?"
+    },
+    {
+        "text": "What's, tell me a subspace of this matrix space."
+    },
+    {
+        "text": "Let me call this matrix space M. That's my matrix space, my space of all three by three matrices."
+    },
+    {
+        "text": "Tell me a subspace of it."
+    },
+    {
+        "text": "OK, what about the upper triangular matrices?"
+    },
+    {
+        "text": "So subspaces, subspaces of M. All upper triangular matrices."
+    },
+    {
+        "text": "Another subspace."
+    },
+    {
+        "text": "All symmetric matrices."
+    },
+    {
+        "text": "The intersection of two subspaces is supposed to be a subspace."
+    },
+    {
+        "text": "We gave a little effort to the proof of that fact."
+    },
+    {
+        "text": "If I look at the matrices that are in this subspace, they're symmetric, and they're also in this subspace, they're upper triangular."
+    },
+    {
+        "text": "What do they look like?"
+    },
+    {
+        "text": "Well, if they're symmetric, but they have zeros below the diagonal, they better have zeros above the diagonal."
+    },
+    {
+        "text": "So the intersection would be diagonal matrices."
+    },
+    {
+        "text": "That's another subspace, smaller than those."
+    },
+    {
+        "text": "How can I use the word smaller?"
+    },
+    {
+        "text": "Well, I'm now entitled to use the word smaller."
+    },
+    {
+        "text": "I mean, well, one way to say is, OK, these are contained in those."
+    },
+    {
+        "text": "These are contained in those."
+    },
+    {
+        "text": "But more precisely, I could give the dimension of these spaces."
+    },
+    {
+        "text": "So I could, we can compute, let's compute it next time."
+    },
+    {
+        "text": "The dimension of all upper, of the subspace of upper triangular three by three matrices."
+    },
+    {
+        "text": "The dimension of symmetric three by three matrices."
+    },
+    {
+        "text": "The dimension of diagonal three by three matrices."
+    },
+    {
+        "text": "Well, to produce dimension, that means I'm supposed to produce a basis."
+    },
+    {
+        "text": "And then I just count how many I needed in the basis."
+    },
+    {
+        "text": "Let me give you the answer for this one."
+    },
+    {
+        "text": "What's the dimension?"
+    },
+    {
+        "text": "The dimension of this, say, this subspace, let me call it D, all diagonal matrices."
+    },
+    {
+        "text": "The dimension of this subspace is, as I write, you're working it out, three."
+    },
+    {
+        "text": "Because here's a matrix in this, it's a diagonal matrix."
+    },
+    {
+        "text": "Here's another one."
+    },
+    {
+        "text": "Here's another one."
+    },
+    {
+        "text": "Better make it diagonal, let me put a seven there."
+    },
+    {
+        "text": "That was not a very great choice, but it's three diagonal matrices, and I believe that they're a basis."
+    },
+    {
+        "text": "I believe that those three matrices are independent, and I believe that any diagonal matrix is a combination of those three."
+    },
+    {
+        "text": "So they span the subspace of diagonal matrices."
+    },
+    {
+        "text": "Do you see that idea?"
+    },
+    {
+        "text": "It's like stretching the idea from Rn to Rn by n, three by three, but we can still add, we can still multiply by numbers, and we just ignore the fact that we can multiply two matrices together."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Thank you."
+    },
+    {
+        "text": "That's lecture ten."
+    }
+]

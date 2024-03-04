@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 23,
+        "timestamp": 1684727933448.0,
+        "annotatedSourceSentencesIndices": [
+            16
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I have a doubt in Difference equations part. He writes u_0 as a combination of eigen-vectors of A. Why should this be true?"
+    }
+]

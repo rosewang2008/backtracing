@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Are there any questions before we go on?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "STUDENT 1 Just wanted to talk about, wouldn't this be an absolute value of the velocity function to get the sense?"
+    },
+    {
+        "text": "PROFESSOR ERIC GRIMSON So the question was, wouldn't the absolute value of the velocity function be involved?"
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "That is, that's one question that you could ask."
+    },
+    {
+        "text": "One question you could ask is, what's the total distance traveled?"
+    },
+    {
+        "text": "And in that case, you would keep track of the absolute value of the velocity, as you said."
+    },
+    {
+        "text": "Whether it's positive or negative."
+    },
+    {
+        "text": "And then you get the total length of this curve here."
+    },
+    {
+        "text": "That's, however, not what the definite integral measures."
+    },
+    {
+        "text": "It measures the net distance traveled."
+    },
+    {
+        "text": "So it's another thing."
+    },
+    {
+        "text": "In other words, we can do that."
+    },
+    {
+        "text": "We now have the tools to do both."
+    },
+    {
+        "text": "We could also, so if you like, the total distance is equal to the integral of this, from a to b."
+    },
+    {
+        "text": "But the net distance is the one without the absolute value signs."
+    },
+    {
+        "text": "So that's correct."
+    },
+    {
+        "text": "Other questions?"
+    },
+    {
+        "text": "Alright, so now let's talk about properties of integrals."
+    }
+]

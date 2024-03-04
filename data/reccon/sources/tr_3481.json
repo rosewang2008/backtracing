@@ -1,0 +1,175 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The time has come to say goodbye .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The time has come to say goodbye ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The time has come to say goodbye .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "So soon . It seems as if you just got here .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "The time has come to say goodbye ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So soon . It seems as if you just got here .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I feel that way , too . But all good things must come to an end , as they say .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "The time has come to say goodbye .",
+            "But all good things must come to an end , as they say ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I feel that way , too . But all good things must come to an end , as they say .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It certainly has been a pleasure seeing you again and renewing old memories .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "seeing you again and renewing old memories ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It certainly has been a pleasure seeing you again and renewing old memories .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've had a great time and thank you for your spending so much time showing me around .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "seeing you again and renewing old memories .",
+            "I've had a great time and thank you for your spending so much time showing me around ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I've had a great time and thank you for your spending so much time showing me around .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It was fun for me , too . It gave me a chance to get away from my routine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I've had a great time and thank you for your spending so much time showing me around .",
+            "It was fun for me , too . It gave me a chance to get away from my routine ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It was fun for me , too . It gave me a chance to get away from my routine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You'll be out to see me next year , as you promised ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It was fun for me , too . It gave me a chance to get away from my routine .",
+            "You'll be out to see me next year , as you promised ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You'll be out to see me next year , as you promised ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , yes . I should be there some time next spring .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "You'll be out to see me next year , as you promised ?",
+            "I should be there some time next spring ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , yes . I should be there some time next spring .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll be expecting you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I should be there some time next spring ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll be expecting you then .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

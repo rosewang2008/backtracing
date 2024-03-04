@@ -1,0 +1,543 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I don't want you to go.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I don't want you to go."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I don't want you to go.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I know, I know. I don't want to go either baby. I love you know. And I'm going to miss you a lot.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know, I know. I don't want to go either baby. I love you know. And I'm going to miss you a lot.",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "I don't want to be a single mom.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't want to be a single mom.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "You won't be. I'll be back; I'll be back before you know it. All right, and",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "I don't want to be a single mom."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You won't be. I'll be back; I'll be back before you know it. All right, and",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "but",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "but",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "and",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "I don't want to be a single mom."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "and",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "It's dangerous; I mean how can you make sure that you'll",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's dangerous; I mean how can you make sure that you'll",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "It's- It's dangerous anywhere, honey. I mean this is -this- I'm just going to go and we'll get it over with,",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "It's dangerous; I mean how can you make sure that you'll",
+            "It's- It's dangerous anywhere, honey. I mean this is -this"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's- It's dangerous anywhere, honey. I mean this is -this- I'm just going to go and we'll get it over with,",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "I hope so.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I hope so.",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I hope so.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I hope so.",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "It's going to be really rough.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's going to be really rough.",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "B",
+        "utterance": "You gotta take care of our baby for me, alright?",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "You gotta take care of our baby for me, alright?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "I'll send you lots of pictures.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'll send you lots of pictures.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            15
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do.",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I've never been - I've never been away from you for two weeks let alone a year.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            15
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I've never been - I've never been away from you for two weeks let alone a year.",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Well, just promise me that you going to be safe.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Well, just promise me that you going to be safe.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "I mean can't they put you in like, you know kitchen work or something where you won't get",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I mean can't they put you in like, you know kitchen work or something where you won't get",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "It doesn't make any sense; I don't know why we have to be at war in the first place.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "It doesn't make any sense; I don't know why we have to be at war in the first place."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It doesn't make any sense; I don't know why we have to be at war in the first place.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "there's people that thought it was the right thing to do so now we have to- we have to do what we have to do for our country",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            20
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "there's people that thought it was the right thing to do so now we have to- we have to do what we have to do for our country"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "there's people that thought it was the right thing to do so now we have to- we have to do what we have to do for our country",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "and it'll work out you know, go there and do that. Yeah, I'll be back",
+        "emotion": "neutral",
+        "text": "and it'll work out you know, go there and do that. Yeah, I'll be back",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "A",
+        "utterance": "Will you write me letters, paper ones?",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Will you write me letters, paper ones?",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Our baby needs a dad; you can't leave. Okay, you can't disappear.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12,
+            23
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough.",
+            "you can't leave. Okay, you can't disappear."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Our baby needs a dad; you can't leave. Okay, you can't disappear.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "Our baby has a dad, alright. Daddy is going to be back soon.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Our baby has a dad, alright. Daddy is going to be back soon.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "B",
+        "utterance": "I want you to, you know, take lots of video; pictures and I can see you when I get back or while I'm there. I'm going to miss you.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            25
+        ],
+        "expanded emotion cause span": [
+            "I don't want to go either baby.",
+            "And I'm going to miss you a lot.",
+            "I'm going to miss you."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I want you to, you know, take lots of video; pictures and I can see you when I get back or while I'm there. I'm going to miss you.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "I'll miss you too.",
+        "emotion": "sad",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            8,
+            12,
+            26
+        ],
+        "expanded emotion cause span": [
+            "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard.",
+            "I don't want to be a single mom.",
+            "It's dangerous",
+            "It's going to be really rough.",
+            "I'll miss you too."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'll miss you too.",
+        "id": 26
+    }
+]

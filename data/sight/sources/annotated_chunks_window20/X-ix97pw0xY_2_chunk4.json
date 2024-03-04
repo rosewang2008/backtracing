@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But it's more than that."
+    },
+    {
+        "text": "So we'll actually come to this particular family of distribution."
+    },
+    {
+        "text": "Why this particular family?"
+    },
+    {
+        "text": "Because in a way, everything we've done for the linear model with Gaussian is going to extend fairly naturally to this family."
+    },
+    {
+        "text": "And it actually also, because it encompasses pretty much everything, all the distributions we've discussed before."
+    },
+    {
+        "text": "All right, so the second thing that I want to question, so before we just said, well, mu of x was directly equal to this thing."
+    },
+    {
+        "text": "Mu of x was directly x transpose beta."
+    },
+    {
+        "text": "So I knew I was going to have an x transpose beta."
+    },
+    {
+        "text": "And I said, well, I could do something with this x transpose beta before I used it to explain the expected value."
+    },
+    {
+        "text": "But I'm actually taking it like that."
+    },
+    {
+        "text": "Here we're going to say, let's extend this to some function is equal to this thing."
+    },
+    {
+        "text": "Now, admittedly, this is not the most natural way to think about it."
+    },
+    {
+        "text": "What you would probably feel more comfortable doing is write something like mu of x is a function."
+    },
+    {
+        "text": "Let's call it f of x transpose beta."
+    },
+    {
+        "text": "But here I just decide to call f g inverse."
+    },
+    {
+        "text": "OK, that's just my g inverse, yes."
+    },
+    {
+        "text": "Is this different than just transforming the x's?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "I mean, what transformation do you want to put on your x's?"
+    },
+    {
+        "text": "Like, is this equivalent to just applying some function to each individual x component and then multiplying that beta to get the mean?"
+    }
+]

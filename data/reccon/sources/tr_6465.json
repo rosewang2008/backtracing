@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "May I take your order now ?",
+        "emotion": "neutral",
+        "text": "May I take your order now ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , please . What's special today ? Any special recommendations ?",
+        "emotion": "neutral",
+        "text": "Yes , please . What's special today ? Any special recommendations ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Certainly . I would recommend ' Songshuguiyu ' .",
+        "emotion": "neutral",
+        "text": "Certainly . I would recommend ' Songshuguiyu ' .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The name sounds fascinating . What is it exactly ?",
+        "emotion": "neutral",
+        "text": "The name sounds fascinating . What is it exactly ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , it is sweet and sour fried Mandarin fish .",
+        "emotion": "neutral",
+        "text": "Well , it is sweet and sour fried Mandarin fish .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sorry , I'm not interested in vinegar .",
+        "emotion": "neutral",
+        "text": "Sorry , I'm not interested in vinegar .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Then , how about this one ?",
+        "emotion": "neutral",
+        "text": "Then , how about this one ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK . I'll have that .",
+        "emotion": "neutral",
+        "text": "OK . I'll have that .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Very good . Could I serve you anything else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "how about this one ?",
+            "I'll have that ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Very good . Could I serve you anything else ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . That's enough .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Could I serve you anything else ?",
+            "That's enough ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . That's enough .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "My pleasure . Just a little while , your order will be ready very soon . Please enjoy your lunch .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "how about this one ?",
+            "I'll have that .",
+            "Thank you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "My pleasure . Just a little while , your order will be ready very soon . Please enjoy your lunch .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Could I serve you anything else ?",
+            "That's enough .",
+            "your order will be ready very soon . Please enjoy your lunch ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks .",
+        "id": 12
+    }
+]

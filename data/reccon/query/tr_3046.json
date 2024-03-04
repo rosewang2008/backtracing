@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Exactly , now , tell me the time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "OK , great Daddy , after supper , I'll embark on it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Exactly , now , tell me the time .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

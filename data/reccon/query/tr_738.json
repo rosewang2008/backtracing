@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Perfect . I'll see you in front of the apartment at eleven thirty .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            17
+        ],
+        "expanded emotion cause span": [
+            "there's a live outdoor concert",
+            "Let's meet for lunch"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Perfect . I'll see you in front of the apartment at eleven thirty .",
+        "id": 18,
+        "source_sentences": [
+            12,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

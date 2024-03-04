@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 27,
+        "timestamp": 1684728093599.0,
+        "annotatedSourceSentencesIndices": [
+            13
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "45:50\nWhy does he add the constant c1?"
+    }
+]

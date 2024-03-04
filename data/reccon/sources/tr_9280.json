@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good afternoon , miss , can I help you ?",
+        "emotion": "neutral",
+        "text": "Good afternoon , miss , can I help you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I ' d like to buy this dress , please .",
+        "emotion": "neutral",
+        "text": "Yes , I ' d like to buy this dress , please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It ' s certainly a pretty dress . I can ring you up at the register over here .",
+        "emotion": "neutral",
+        "text": "It ' s certainly a pretty dress . I can ring you up at the register over here .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It ' s certainly a pretty dress . I can ring you up at the register over here ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Will you be paying by cash , check , or credit card ?",
+        "emotion": "neutral",
+        "text": "Will you be paying by cash , check , or credit card ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I want to use a credit card . Do you take Discover ?",
+        "emotion": "neutral",
+        "text": "I want to use a credit card . Do you take Discover ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sorry , no . We only take MasterCard or Visa .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Sorry , no . We only take MasterCard or Visa ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sorry , no . We only take MasterCard or Visa .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' ll put it on my Visa card , then .",
+        "emotion": "neutral",
+        "text": "I ' ll put it on my Visa card , then .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Very well , ma ' am . Oh , there seems to be a problem , it says it ' s rejected .",
+        "emotion": "neutral",
+        "text": "Very well , ma ' am . Oh , there seems to be a problem , it says it ' s rejected .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "There must be something wrong with the system . Try my MasterCard .",
+        "emotion": "neutral",
+        "text": "There must be something wrong with the system . Try my MasterCard .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Alright . Thank you . Yes , it seems to be working fine . Your total is $ 199 . 00 , sign here , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Yes , it seems to be working fine ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Alright . Thank you . Yes , it seems to be working fine . Your total is $ 199 . 00 , sign here , please .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Sure .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "buy this dress ,"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Sure .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Here you go , and here ' s your receipt . Have a nice day .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy for the sale",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "buy this dress ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Here you go , and here ' s your receipt . Have a nice day .",
+        "id": 13,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks . You have a good one , too .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy for buying the dress",
+        "expanded emotion cause evidence": [
+            2,
+            13
+        ],
+        "expanded emotion cause span": [
+            "buy this dress ,",
+            "Have a nice day ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thanks . You have a good one , too .",
+        "id": 14
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that was one of them."
+    },
+    {
+        "text": "That's a symmetric orthogonal matrix."
+    },
+    {
+        "text": "These matrices are really great to have."
+    },
+    {
+        "text": "You just, like in using linear algebra, you just get a collection of useful matrices that you can call on."
+    },
+    {
+        "text": "And these are definitely one family."
+    },
+    {
+        "text": "Well, it's obviously symmetric."
+    },
+    {
+        "text": "Shall we check that it's orthogonal?"
+    },
+    {
+        "text": "So to check that it's orthogonal, I just, so I'm going to check that H transpose H is the identity."
+    },
+    {
+        "text": "Can I just check that?"
+    },
+    {
+        "text": "Well, H transpose is the same as H, because it was symmetric."
+    },
+    {
+        "text": "So I'm going to square this guy."
+    },
+    {
+        "text": "This is really H times H. I'm squaring it."
+    },
+    {
+        "text": "And what do I get if I square?"
+    },
+    {
+        "text": "So I get, I hope I get the identity, but let's see it."
+    },
+    {
+        "text": "What do I get when I square this?"
+    },
+    {
+        "text": "Get little, multiply it out."
+    },
+    {
+        "text": "So I times I is I."
+    },
+    {
+        "text": "And then I get some number of Uu transposes."
+    },
+    {
+        "text": "How many do I get from that?"
+    },
+    {
+        "text": "So I'm squaring this thing, because H transpose H is the same as H times H. So I'm squaring it."
+    }
+]

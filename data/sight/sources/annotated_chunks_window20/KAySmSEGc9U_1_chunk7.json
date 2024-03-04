@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, remember, I'm assuming now my GNFAs are in the special form."
+    },
+    {
+        "text": "So you can't even have a GNFA with one state because it has to have a start state, and it has to have an accept state, and they have to not be the same."
+    },
+    {
+        "text": "So the smallest possible GNFA to worry about is a two-state GNFA."
+    },
+    {
+        "text": "Now, if we happen to have a two-state GNFA, it turns out to be very easy to find the equivalent regular expression."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Because that two-state GNFA can only look like this."
+    },
+    {
+        "text": "It can have a start state, can have an accept state, and it can only have a transition going from the start to the accept because no other transitions are allowed."
+    },
+    {
+        "text": "It only has outgoing from the start, only incoming to the accept."
+    },
+    {
+        "text": "And so there's only one transition, and it has a label with a regular expression r. So what do you think the equivalent regular expression is for this GNFA?"
+    },
+    {
+        "text": "It's just simply the one that's labeling that transition because that tells us when I can go from the start to the accept."
+    },
+    {
+        "text": "And there's nothing else the machine can do."
+    },
+    {
+        "text": "It just makes one step, which is to accept its input if it's described by that regular expression."
+    },
+    {
+        "text": "So therefore, the equivalent regular expression that we're looking for is simply label on that single transition."
+    },
+    {
+        "text": "OK, so two-state GNFAs are easy."
+    },
+    {
+        "text": "But what happens if you have more states?"
+    },
+    {
+        "text": "Then you're going to actually have to do some work."
+    },
+    {
+        "text": "So we call that the induction step."
+    },
+    {
+        "text": "That's when we have more than two states."
+    },
+    {
+        "text": "And the way the induction works is we're going to assume we already know how to do it for k minus 1 states."
+    },
+    {
+        "text": "And we're going to use that knowledge to show how to do it for k states."
+    }
+]

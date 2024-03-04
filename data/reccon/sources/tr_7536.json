@@ -1,0 +1,115 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ann , it's terrible !",
+        "emotion": "anger",
+        "explanation": "What is terrible is not mentioned.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Ann , it's terrible !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's up ?",
+        "emotion": "neutral",
+        "text": "What's up ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Look , this is a pimple !",
+        "emotion": "neutral",
+        "text": "Look , this is a pimple !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , I think it is .",
+        "emotion": "neutral",
+        "text": "Oh , I think it is .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How come ?",
+        "emotion": "neutral",
+        "text": "How come ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think it's because of your bad habits !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "it's because of your bad habits !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it's because of your bad habits !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I have no bad habit . I sleep eight hours a day , never eat spicy food , clean the face twice a day and so on . I have done a lot .",
+        "emotion": "neutral",
+        "text": "I have no bad habit . I sleep eight hours a day , never eat spicy food , clean the face twice a day and so on . I have done a lot .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I know you have done a lot , but you always sleep very late . Sleeping eight hours a day doesn't mean it is healthy . Sleeping after 12 is hurtful to our body , and I think this is your problem .",
+        "emotion": "neutral",
+        "text": "I know you have done a lot , but you always sleep very late . Sleeping eight hours a day doesn't mean it is healthy . Sleeping after 12 is hurtful to our body , and I think this is your problem .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I wasn't aware of that !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Sleeping after 12 is hurtful to our body , and I think this is your problem ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I wasn't aware of that !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You should do better later .",
+        "emotion": "neutral",
+        "text": "You should do better later .",
+        "id": 10
+    }
+]

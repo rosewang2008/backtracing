@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let's write down the Laplacian."
+    },
+    {
+        "text": "So if I use the degree minus b, that's easy."
+    },
+    {
+        "text": "The degrees were 3, 3, 2, and 2."
+    },
+    {
+        "text": "Now I have these minuses, and those were 0."
+    },
+    {
+        "text": "So that's a positive semidefinite matrix."
+    },
+    {
+        "text": "Is it a positive definite matrix?"
+    },
+    {
+        "text": "So let me ask, is it singular or is it not singular?"
+    },
+    {
+        "text": "Is there a vector in its null space or is there not a vector in its null space?"
+    },
+    {
+        "text": "Can you solve dx equals all 0s?"
+    },
+    {
+        "text": "And of course, you can."
+    },
+    {
+        "text": "Everybody sees that the vector of all 1s will be a solution to L. I'm sorry."
+    },
+    {
+        "text": "I should be saying L here."
+    },
+    {
+        "text": "Lx equals 0."
+    },
+    {
+        "text": "Lx equals 0 is for a whole line of a one dimensional and the null space of L has dimension 1."
+    },
+    {
+        "text": "It's got one basis vector, 1, 1, 1, 1."
+    },
+    {
+        "text": "And that will always happen with the graph setup that I've created."
+    },
+    {
+        "text": "So that's the first fact, that this positive semidefinite matrix L has lambda 1 equals 0, and the eigenvector is constants, C, C, C, C, the one dimensional eigenspace."
+    },
+    {
+        "text": "Or 1, 1, 1, 1 is a typical eigenvector."
+    },
+    {
+        "text": "OK. Now back to graph clustering."
+    },
+    {
+        "text": "The idea of graph clustering is to look at the Fiedler eigenvector."
+    }
+]

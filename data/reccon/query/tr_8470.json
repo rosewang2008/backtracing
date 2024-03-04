@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s great !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "My candidate is probably the most intelligent .",
+            "I also agree with all his policies ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s great !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So all models are wrong means that maybe it's not true that this Poisson distribution that I assume for the number of siblings for college students, maybe that's not perfectly correct."
+    },
+    {
+        "text": "Maybe there's a spike at three."
+    },
+    {
+        "text": "Maybe there's a spike at one, because maybe those are slightly more educated families."
+    },
+    {
+        "text": "They have less children."
+    },
+    {
+        "text": "Maybe this is actually not exactly perfect, but it's probably good enough for our purposes."
+    },
+    {
+        "text": "And when we make this assumption, we're actually assuming that the data really comes from a Poisson model."
+    },
+    {
+        "text": "There is a lot of research that goes on about misspecified models, and that tells you how well you're doing in the model that's the closest to the actual distribution."
+    },
+    {
+        "text": "So that's pretty much it."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "X is, so by data, it's always the way I denote one of the generic observations."
+    },
+    {
+        "text": "So my observations are x1, xn, and they're iid with distribution p, always."
+    },
+    {
+        "text": "So x is just one of those guys."
+    },
+    {
+        "text": "I don't want to write x5 or x4."
+    },
+    {
+        "text": "They're iid, so they all have the same distribution."
+    },
+    {
+        "text": "So OK. No, no, no."
+    },
+    {
+        "text": "They're all iid, so they all have the same p theta."
+    },
+    {
+        "text": "They'll have the same p, which means they'll have the same p theta."
+    },
+    {
+        "text": "So I can pick any one of them, so I just remove the index, just where it's there."
+    },
+    {
+        "text": "So when I write x, I just mean think of x1."
+    },
+    {
+        "text": "They're iid."
+    }
+]

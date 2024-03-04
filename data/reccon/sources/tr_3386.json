@@ -1,0 +1,208 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , I'm Lucas , I just moved in next door .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Hi , I'm Lucas , I just moved in next door .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , hi Lucas , come on in . I'm Barbara . Nice to meet you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , hi Lucas , come on in . I'm Barbara . Nice to meet you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Nice to meet you too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Nice to meet you too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Would you like something to drink ? I've got tea and some grape juice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Nice to meet you ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Would you like something to drink ? I've got tea and some grape juice .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thanks . Some tea would be nice . Chinese tea is great . I really like your tea set . Where did you get it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like something to drink ? I've got tea",
+            "I really like your tea set"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . Some tea would be nice . Chinese tea is great . I really like your tea set . Where did you get it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , there is a supermarket not far from here . But there is also a tea house around the corner , where you can get tea , taste tea and get a tea set as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I really like your tea set"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , there is a supermarket not far from here . But there is also a tea house around the corner , where you can get tea , taste tea and get a tea set as well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh yeah , I saw the tea house the other day . I think I might go and have a look sometime . It's a nice neighborhood here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Would you like something to drink ? I've got tea",
+            "I really like your tea set",
+            "It's a nice neighborhood here ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Oh yeah , I saw the tea house the other day . I think I might go and have a look sometime . It's a nice neighborhood here .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You are right about that . It's quiet and very convenient . You can get to the bus and the subway stations within ten minutes ' walk . There's a grocery store , a book store , a gym , and many restaurants along the street .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "It's a nice neighborhood here .",
+            "It's quiet and very convenient ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You are right about that . It's quiet and very convenient . You can get to the bus and the subway stations within ten minutes ' walk . There's a grocery store , a book store , a gym , and many restaurants along the street .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "There's a gym nearby ? That's exciting ! I really want to start to go to gym as soon as possible . I've been lazy this summer holiday and have put on some weight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "a gym",
+            "I really want to start to go to gym as soon as possible ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "There's a gym nearby ? That's exciting ! I really want to start to go to gym as soon as possible . I've been lazy this summer holiday and have put on some weight .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , if you want we can go together sometime . Actually I was thinking of going this afternoon , if you like , you can join me and I can show you the neighborhood along the way .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "That's exciting ! I really want to start to go to gym as soon as possible ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , if you want we can go together sometime . Actually I was thinking of going this afternoon , if you like , you can join me and I can show you the neighborhood along the way .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That would be wonderful . Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Well , if you want we can go together sometime . Actually I was thinking of going this afternoon , if you like , you can join me and I can show you the neighborhood along the way ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be wonderful . Thanks !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

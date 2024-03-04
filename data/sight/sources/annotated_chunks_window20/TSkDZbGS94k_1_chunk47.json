@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Every time I'm going to repeat the experiment, I'm going to get 4, 4, 4, 4."
+    },
+    {
+        "text": "Variance is 0."
+    },
+    {
+        "text": "But the bias is bad."
+    },
+    {
+        "text": "The bias is 4 minus theta."
+    },
+    {
+        "text": "And if theta is far from 4, that's not doing very well."
+    },
+    {
+        "text": "OK, so next week, we will talk about how estimators change if they have high variance or low variance, or high bias and low bias."
+    },
+    {
+        "text": "And we'll talk about confidence intervals as well."
+    },
+    {
+        "text": "All right."
+    }
+]

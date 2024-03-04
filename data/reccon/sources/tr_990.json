@@ -1,0 +1,121 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Mary . Nice day , isn't it ?",
+        "emotion": "neutral",
+        "text": "Hello , Mary . Nice day , isn't it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , what a wonderful day ! The sky has cleared up in the end .",
+        "emotion": "neutral",
+        "text": "Yes , what a wonderful day ! The sky has cleared up in the end .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I do feel like an outdoor exercise . After all , we haven't had such a beautiful day for a long time .",
+        "emotion": "neutral",
+        "text": "I do feel like an outdoor exercise . After all , we haven't had such a beautiful day for a long time .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "How about taking a walk in the park ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "what a wonderful day ! The sky has cleared up in the end ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How about taking a walk in the park ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK . It's delightful to have a walk in the park with the air so fresh .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's delightful to have a walk in the park with the air so fresh ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "OK . It's delightful to have a walk in the park with the air so fresh .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "( After they entering the park ) Great , it's so quiet here . We have the park to ourselves , only you and me .",
+        "emotion": "neutral",
+        "text": "( After they entering the park ) Great , it's so quiet here . We have the park to ourselves , only you and me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Are you kidding ? Don't you see many people over there ? Just on your right .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Great , it's so quiet here .",
+            "Don't you see many people over there ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you kidding ? Don't you see many people over there ? Just on your right .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , I see them . Beautiful weather should be shared by all the people .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Great , it's so quiet here .",
+            "Beautiful weather should be shared by all the people ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Oh , I see them . Beautiful weather should be shared by all the people .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ah , you changed so fast .",
+        "emotion": "neutral",
+        "text": "Ah , you changed so fast .",
+        "id": 9
+    }
+]

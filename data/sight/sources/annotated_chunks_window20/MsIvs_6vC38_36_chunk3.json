@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I just, so I'll put a big circle around that, because that's the answer, that's the best answer we can hope for."
+    },
+    {
+        "text": "That if you want to know the inverse of A transpose, and you know the inverse of A, then you just transpose that."
+    },
+    {
+        "text": "So in a, to put it another way, transposing and inversing, you can do in either order, for a single thing."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that, these are like basic facts that we can now use."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So now I put it to use."
+    },
+    {
+        "text": "I put it to use by thinking we're really completing the subject of elimination."
+    },
+    {
+        "text": "Actually, I, the thing about elimination is it's the right way to understand what the matrix has got."
+    },
+    {
+        "text": "This A equal LU is the most basic factorization of a matrix."
+    },
+    {
+        "text": "I always worry that you will think this course is just, is all elimination."
+    },
+    {
+        "text": "It's just row operations."
+    },
+    {
+        "text": "And please don't."
+    },
+    {
+        "text": "It's, it will be beyond that."
+    },
+    {
+        "text": "But it's the right, it's the right algebra to do first."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So now I'm coming near the end of it, but I want to get it in a decent form."
+    },
+    {
+        "text": "So my decent form is matrix form."
+    },
+    {
+        "text": "I have a matrix A."
+    },
+    {
+        "text": "Let's suppose it's a good matrix, I can do elimination, no row exchanges, so no row exchanges for now."
+    }
+]

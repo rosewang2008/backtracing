@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "Ok . See you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            21
+        ],
+        "expanded emotion cause span": [
+            "I'll see you on Saturday ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . See you later .",
+        "id": 22,
+        "source_sentences": [
+            20
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

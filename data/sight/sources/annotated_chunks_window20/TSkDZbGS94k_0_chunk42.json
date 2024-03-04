@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what it means is that this guy's, I have the average of the same number."
+    },
+    {
+        "text": "So this is actually the expectation of x1."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And it's true."
+    },
+    {
+        "text": "In the kiss example, this was p. And this is p. So probability of turning your head right."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So those two things are the same."
+    },
+    {
+        "text": "In particular, that means that xn bar and just x1 have the same bias."
+    },
+    {
+        "text": "So that should probably illustrate to you that bias is not something that really is telling you the entire picture."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I can take only one of my observations, Bernoulli 0, 1."
+    },
+    {
+        "text": "This thing will have the same bias as if I averaged 1,000 of them."
+    },
+    {
+        "text": "So the bias is really telling me where I am in the average, but it's really not telling me what fluctuations I'm getting."
+    },
+    {
+        "text": "And so if you want to start having fluctuations coming into the picture, we actually have to look at the risk or the quadratic risk of an estimator."
+    },
+    {
+        "text": "And so the quadratic risk is defined as the expectation of the squared distance between theta hat and theta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So let's look at this."
+    },
+    {
+        "text": "So the quadratic risk, sometimes it's denoted, people call it the L2 risk of theta hat, of course."
+    },
+    {
+        "text": "I'm sorry for maintaining such an ugly board."
+    },
+    {
+        "text": "I keep away this stuff."
+    }
+]

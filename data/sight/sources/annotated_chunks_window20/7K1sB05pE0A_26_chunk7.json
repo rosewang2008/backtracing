@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Which is the following."
+    },
+    {
+        "text": "So this f' of x0, which is the same as m, is going to be the limit as delta x goes to 0 of the change in f. Well, the change in f is the value of f at the upper point here, which is x0 plus delta x."
+    },
+    {
+        "text": "And minus its value at the lower point, p, which is f of x0, divided by delta x."
+    },
+    {
+        "text": "So this is the formula."
+    },
+    {
+        "text": "I'm going to put this in a little box, because this is by far the most important formula today, which we use to derive pretty much everything else."
+    },
+    {
+        "text": "And this is the way that we're going to be able to compute these numbers."
+    },
+    {
+        "text": "So let's do an example."
+    },
+    {
+        "text": "This example, so we'll call this example 1."
+    },
+    {
+        "text": "We'll take the function f of x, which is 1 over x."
+    },
+    {
+        "text": "That's sufficiently complicated to have an interesting answer."
+    },
+    {
+        "text": "And sufficiently straightforward that we can compute the derivative fairly quickly."
+    },
+    {
+        "text": "So what is it that we're going to do here?"
+    },
+    {
+        "text": "All we're going to do is we're going to plug in this formula here for that function."
+    },
+    {
+        "text": "That's all we're going to do."
+    },
+    {
+        "text": "And visually, what we're accomplishing is somehow to take the hyperbola, and take a point on the hyperbola, and figure out some tangent line."
+    },
+    {
+        "text": "That's what we're accomplishing when we do that."
+    },
+    {
+        "text": "So we're accomplishing this geometrically, but we'll be doing it algebraically."
+    },
+    {
+        "text": "So first, we consider this difference, delta f over delta x."
+    },
+    {
+        "text": "And write out its formula."
+    },
+    {
+        "text": "So I have to have a place, so I'm going to make it again above this point x0, which is a general point."
+    }
+]

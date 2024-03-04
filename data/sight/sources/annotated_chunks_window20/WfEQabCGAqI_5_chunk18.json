@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And, we'll see the proof and everything and applications on Tuesday, but I want to at least state the theorem and see how it works in one example."
+    },
+    {
+        "text": "It's also known as the Gauss grain theorem, or just the Gauss theorem depending on who you talk to."
+    },
+    {
+        "text": "So, the grain here is the same grain as in Green's theorem, OK, because somehow that's a space version of Green's theorem."
+    },
+    {
+        "text": "So, what does it say?"
+    },
+    {
+        "text": "It says, so, this is the analog of grain for flux."
+    },
+    {
+        "text": "What it says is if S is a closed surface, OK, so remember, it's the same as with Green's theorem, we need to have something that's completely enclosed."
+    },
+    {
+        "text": "So, you have a surface, and there's somehow no gaps in it."
+    },
+    {
+        "text": "There's no boundary to it."
+    },
+    {
+        "text": "It's really completely enclosed."
+    },
+    {
+        "text": "So, I'm choosing a region in space that I will call D. And, I need to choose my orientation."
+    },
+    {
+        "text": "So, the orientation that will be chosen in this theorem is choosing the normal vector to point outwards."
+    },
+    {
+        "text": "OK, so, n needs to be outwards."
+    },
+    {
+        "text": "So, that's one part of the puzzle."
+    },
+    {
+        "text": "The other part is a vector field."
+    },
+    {
+        "text": "I need to have a vector field that is defined and differentiable everywhere in D. So, same restrictions as usual."
+    },
+    {
+        "text": "Then, I don't have, actually, to compute the flux integral."
+    },
+    {
+        "text": "The integral of F dot n dS of a closed surface S. I need to put a circle just to remind you it's got to be a closed surface."
+    },
+    {
+        "text": "That's just notation to remind us, closed surface."
+    },
+    {
+        "text": "I can replace that by the triple integral of the region inside of divergence of F dV."
+    },
+    {
+        "text": "Now, I need to tell you what's the divergence of a 3D vector field."
+    }
+]

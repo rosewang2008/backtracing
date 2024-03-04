@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And that's what it does."
+    },
+    {
+        "text": "So now, we're all on one scale."
+    },
+    {
+        "text": "Now, if you actually, I see some of you nodding when I talk about p-hacking."
+    },
+    {
+        "text": "So that means you've seen p-values."
+    },
+    {
+        "text": "If you've seen more than 100 p-values in your life, you have an entire scale."
+    },
+    {
+        "text": "A good p-value is less than 10 to the minus 4."
+    },
+    {
+        "text": "That's the ultimate sweet spot."
+    },
+    {
+        "text": "Actually, statistical software spit out an output which says less than 10 to the minus 4."
+    },
+    {
+        "text": "But then, maybe you want a p-value."
+    },
+    {
+        "text": "If I tell you my p-value was 4.65, then I will say you've been doing some p-hacking until you found a number that was below 5%."
+    },
+    {
+        "text": "That's typically what people will do."
+    },
+    {
+        "text": "But if you're doing the test, if you're saying, I published my result."
+    },
+    {
+        "text": "My test at 5% said yes, that means that maybe your p-value was 4.99, or your p-value was 10 to the minus 4."
+    },
+    {
+        "text": "I will never know."
+    },
+    {
+        "text": "I will never know how much evidence you had against the null."
+    },
+    {
+        "text": "But if you tell me what the p-value is, I can make my own decision."
+    },
+    {
+        "text": "I don't have to tell me whether it's a yes."
+    },
+    {
+        "text": "No, you tell me it's 4.99."
+    },
+    {
+        "text": "I'm going to say, well, maybe yes, but I'm going to take it with a grain of salt."
+    },
+    {
+        "text": "And so that's why p-values are good numbers to have in mind."
+    }
+]

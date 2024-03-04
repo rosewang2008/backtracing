@@ -1,0 +1,246 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "That was a great dinner . I didn't know that you knew how yo cook .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "That was a great dinner ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That was a great dinner . I didn't know that you knew how yo cook .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm glad you liked it . Are you ready for dessert ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "That was a great dinner ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad you liked it . Are you ready for dessert ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I don't know . I'm pretty full . What are we having ?",
+        "emotion": "neutral",
+        "text": "I don't know . I'm pretty full . What are we having ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I made strawberry shortcake .",
+        "emotion": "neutral",
+        "text": "I made strawberry shortcake .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ooh , that's my favorite . Maybe I'll have a small slice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I made strawberry shortcake .",
+            "that's my favorite ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Ooh , that's my favorite . Maybe I'll have a small slice .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Great . Would you like coffee or tea with that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "that's my favorite .",
+            "I'll have a small slice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . Would you like coffee or tea with that ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'll have a cup of tea .",
+        "emotion": "neutral",
+        "text": "I'll have a cup of tea .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you take cream or sugar with your tea ?",
+        "emotion": "neutral",
+        "text": "Do you take cream or sugar with your tea ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Actually , could I have some milk with that ?",
+        "emotion": "neutral",
+        "text": "Actually , could I have some milk with that ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Definitely . Would you like skim or whole milk ?",
+        "emotion": "neutral",
+        "text": "Definitely . Would you like skim or whole milk ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Skim , please . That'd be very nice . Thanks ... oh no . Janna , I'm so sorry , but I've got to go .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I've got to go ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Skim , please . That'd be very nice . Thanks ... oh no . Janna , I'm so sorry , but I've got to go .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "What happened ?",
+        "emotion": "neutral",
+        "text": "What happened ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I just got a message from my sister saying that she's been in a car accident . I need to go pick her up .",
+        "emotion": "neutral",
+        "text": "I just got a message from my sister saying that she's been in a car accident . I need to go pick her up .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'll go with you . Where is she ?",
+        "emotion": "neutral",
+        "text": "I'll go with you . Where is she ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "She's on the M40 , near Reading .",
+        "emotion": "neutral",
+        "text": "She's on the M40 , near Reading .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Is she alright ?",
+        "emotion": "neutral",
+        "text": "Is she alright ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I don't know , she didn't say . I'm so sorry about this .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            11,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I've got to go .",
+            "I don't know , she didn't say ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I don't know , she didn't say . I'm so sorry about this .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Don't worry . Family comes first . Come on , let's go .",
+        "emotion": "neutral",
+        "text": "Don't worry . Family comes first . Come on , let's go .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Actually , I've only got a two-seater . I'll have to go on my own .",
+        "emotion": "neutral",
+        "text": "Actually , I've only got a two-seater . I'll have to go on my own .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Ok . Just call me if you need anything then .",
+        "emotion": "neutral",
+        "text": "Ok . Just call me if you need anything then .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "I will . Thanks a lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "call me if you need anything"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I will . Thanks a lot .",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

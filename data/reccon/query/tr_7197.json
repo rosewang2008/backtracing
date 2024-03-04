@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really don't think it's any of your business .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "you're trying to get off the phone so fast"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I really don't think it's any of your business .",
+        "id": 7,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

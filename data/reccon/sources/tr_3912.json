@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mr . Lin , what are you interested in ?",
+        "emotion": "neutral",
+        "text": "Mr . Lin , what are you interested in ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I enjoy camping .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I enjoy camping ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I enjoy camping .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? I'm not much of an outdoor person . What do you like about it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I enjoy camping ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I'm not much of an outdoor person . What do you like about it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I love the fresh air , the scenery the exercise , and the time to think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I love the fresh air , the scenery the exercise , and the time to think ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love the fresh air , the scenery the exercise , and the time to think .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do you hike or fish on your trips ?",
+        "emotion": "neutral",
+        "text": "Do you hike or fish on your trips ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , both . Last trip I fished a little and hiked five miles .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Do you hike or fish on your trips ?",
+            "Yes , both . Last trip I fished a little and hiked five miles ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , both . Last trip I fished a little and hiked five miles .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Did you catch anything ?",
+        "emotion": "neutral",
+        "text": "Did you catch anything ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , but I threw them back .",
+        "emotion": "neutral",
+        "text": "Yes , but I threw them back .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How about Joining our summer camp next week ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "How about Joining our summer camp next week ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How about Joining our summer camp next week ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Great ! I can't wait .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "How about Joining our summer camp next week ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! I can't wait .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

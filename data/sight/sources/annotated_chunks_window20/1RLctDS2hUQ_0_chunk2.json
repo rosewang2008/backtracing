@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And in that notation, of course, the theorem can be written as with this set of symbols here, equally well."
+    },
+    {
+        "text": "So let's just give a couple of examples."
+    },
+    {
+        "text": "The first example is the one that we did last time very laboriously."
+    },
+    {
+        "text": "If you take the function F of x, which happens to be x cubed over 3, then if you differentiate it, you get, well, the factor of 3 cancels."
+    },
+    {
+        "text": "So you get x squared."
+    },
+    {
+        "text": "That's the derivative."
+    },
+    {
+        "text": "And so by the fundamental theorem, so this implies by the fundamental theorem that the integral from, say, a to b of x squared dx, that's the derivative here."
+    },
+    {
+        "text": "This is the function we're going to use as f of x here."
+    },
+    {
+        "text": "Is equal to this function here, f of b minus f of a."
+    },
+    {
+        "text": "That's here, this function here."
+    },
+    {
+        "text": "So that's f of b minus f of a."
+    },
+    {
+        "text": "And that's equal to b cubed over 3 minus a cubed over 3."
+    },
+    {
+        "text": "Now, in this new notation, we usually don't have all these letters."
+    },
+    {
+        "text": "All we write is the following."
+    },
+    {
+        "text": "We write the integral from a to b."
+    },
+    {
+        "text": "And I'm going to do the case of 0 to b, because that was the one that we actually did last time."
+    },
+    {
+        "text": "So I'm going to set a equals 0 here."
+    },
+    {
+        "text": "And then the problem we were faced last time was this."
+    },
+    {
+        "text": "And as I said, we did it very laboriously."
+    },
+    {
+        "text": "But now you can see that we can do it in 10 seconds, let's say."
+    }
+]

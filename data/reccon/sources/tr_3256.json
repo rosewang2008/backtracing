@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What dances do you like ?",
+        "emotion": "neutral",
+        "text": "What dances do you like ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I love to dance the fast music .",
+        "emotion": "happiness",
+        "explanation": "sharing personal preferences",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I love to dance the fast music ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love to dance the fast music .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Then you must be interested in disco .",
+        "emotion": "neutral",
+        "text": "Then you must be interested in disco .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , it's my favorite .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I love to dance the fast music .",
+            "Then you must be interested in disco ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , it's my favorite .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , it's a disco . Let's dance .",
+        "emotion": "neutral",
+        "text": "Oh , it's a disco . Let's dance .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You're a good dancer .",
+        "emotion": "happiness",
+        "explanation": "complimenting the other person",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "You're a good dancer ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You're a good dancer .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you . Now they are playing a rumba . Would you have a try ?",
+        "emotion": "neutral",
+        "text": "Thank you . Now they are playing a rumba . Would you have a try ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sorry . I feel like sitting out the next dance .",
+        "emotion": "neutral",
+        "text": "Sorry . I feel like sitting out the next dance .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "OK . Let's get something to drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Let's get something to drink ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "OK . Let's get something to drink .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Let's get something to drink .",
+            "Let's get something to drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good idea .",
+        "id": 10,
+        "source_sentences": [
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

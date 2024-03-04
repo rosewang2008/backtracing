@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So the expected time is 1 over lambda."
+    },
+    {
+        "text": "And in our case this, is 1/0.6."
+    },
+    {
+        "text": "Finally, if I tell you that I have been fishing for 4 hours and nothing has been caught so far, how much do you expect this quantity to be?"
+    },
+    {
+        "text": "Here is the story that, again, that for the Poisson process used is as good as new."
+    },
+    {
+        "text": "The process does not have any memory."
+    },
+    {
+        "text": "Given what happens in the past doesn't matter for the future."
+    },
+    {
+        "text": "It's as if the process starts new at this point in time."
+    },
+    {
+        "text": "So this one is going to be, again, the same exponentially distributed random variable with the same parameter lambda."
+    },
+    {
+        "text": "So expected time until an arrival comes is an exponential distribut -- has an exponential distribution with parameter lambda, no matter what has happened in the past."
+    },
+    {
+        "text": "Starting from now and looking into the future, it's as if the process has just started."
+    },
+    {
+        "text": "So it's going to be 1 over lambda, which is 1/0.6."
+    },
+    {
+        "text": "OK. Now our next example is going to be a little more complicated or subtle."
+    },
+    {
+        "text": "But before we get to the example, let's refresh our memory about what we discussed last time about merging Poisson independent Poisson processes."
+    },
+    {
+        "text": "Instead of drawing the picture that way, another way we could draw it could be this."
+    },
+    {
+        "text": "We have a Poisson process with rate lambda1, and a Poisson process with rate lambda2."
+    },
+    {
+        "text": "They have, each one of these, have their arrivals."
+    },
+    {
+        "text": "And then we form the merged process."
+    },
+    {
+        "text": "And the merged process records an arrival whenever there's an arrival in either of the two processes."
+    },
+    {
+        "text": "This process in that process are assumed to be independent of each other."
+    },
+    {
+        "text": "Now different times in this process and that process are independent of each other."
+    }
+]

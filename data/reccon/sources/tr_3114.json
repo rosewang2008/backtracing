@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How did you spend the weekend ?",
+        "emotion": "neutral",
+        "text": "How did you spend the weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I went to a movie with my boyfriend .",
+        "emotion": "neutral",
+        "text": "I went to a movie with my boyfriend .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? How was it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I went to a movie with my boyfriend ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? How was it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It was great . The director took a lot of care while framing . They say be has good chance at winning the Oscar for best director . Also I like the actors , some really great new young actors .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It was great . The director took a lot of care while framing . They say be has good chance at winning the Oscar for best director . Also I like the actors , some really great new young actors ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It was great . The director took a lot of care while framing . They say be has good chance at winning the Oscar for best director . Also I like the actors , some really great new young actors .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , yeah ? What's it about ?",
+        "emotion": "neutral",
+        "text": "Oh , yeah ? What's it about ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , it's the classic love story between two people from conflicting backgrounds . But besides a beautiful story , the cinematography is great . There is some really dramatic footage . It's really quite a visual feast . And the soundtrack is moving .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Well , it's the classic love story between two people from conflicting backgrounds . But besides a beautiful story , the cinematography is great . There is some really dramatic footage . It's really quite a visual feast . And the soundtrack is moving ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , it's the classic love story between two people from conflicting backgrounds . But besides a beautiful story , the cinematography is great . There is some really dramatic footage . It's really quite a visual feast . And the soundtrack is moving .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sounds pretty good . Is it a tragedy ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Well , it's the classic love story between two people from conflicting backgrounds . But besides a beautiful story , the cinematography is great . There is some really dramatic footage . It's really quite a visual feast . And the soundtrack is moving .",
+            "Sounds pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sounds pretty good . Is it a tragedy ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "The ending is a bit of a surprise . I don't want to ruin it for you .",
+        "emotion": "neutral",
+        "text": "The ending is a bit of a surprise . I don't want to ruin it for you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , I like movies with surprise endings , although , sometimes they can be frustrating . Maybe I should invite my girlfriend to go next weekend .",
+        "emotion": "neutral",
+        "text": "Oh , I like movies with surprise endings , although , sometimes they can be frustrating . Maybe I should invite my girlfriend to go next weekend .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A will have a good experience watching the movie",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I should invite my girlfriend to go next weekend .",
+            "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

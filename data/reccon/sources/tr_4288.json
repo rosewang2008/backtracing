@@ -1,0 +1,115 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do I need a visa ?",
+        "emotion": "neutral",
+        "text": "Do I need a visa ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No , I shouldn ' t think so . But you must take your passport of course .",
+        "emotion": "neutral",
+        "text": "No , I shouldn ' t think so . But you must take your passport of course .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , I know . I must get my traveler ' s check and some foreign currency .",
+        "emotion": "neutral",
+        "text": "Yes , I know . I must get my traveler ' s check and some foreign currency .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , you need the traveler ' s check but you needn ' t get any foreign currency . You can have my US Dollars , I don ' t need them .",
+        "emotion": "neutral",
+        "text": "Yes , you need the traveler ' s check but you needn ' t get any foreign currency . You can have my US Dollars , I don ' t need them .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? That ' s very good of you , Helen . But I must get a new suitcase , my old one needs repairing .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "You can have my US Dollars"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? That ' s very good of you , Helen . But I must get a new suitcase , my old one needs repairing .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You needn ' t buy one . You can have mine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "That ' s very good of you , Helen"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You needn ' t buy one . You can have mine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That ' s very kind of you , Helen . I hope you don ' t mind my leaving you like this . I need a holiday . It won ' t be long .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "You can have my US Dollars",
+            "You needn ' t buy one . You can have mine ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s very kind of you , Helen . I hope you don ' t mind my leaving you like this . I need a holiday . It won ' t be long .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Don ' t be silly , John . I ' m going with you . It ' s necessary for me to have a holiday too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "That ' s very good of you , Helen",
+            "That ' s very kind of you , Helen .",
+            "I ' m going with you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Don ' t be silly , John . I ' m going with you . It ' s necessary for me to have a holiday too .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

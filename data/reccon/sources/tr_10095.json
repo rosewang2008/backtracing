@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Wow , the ferris wheel over there is so big . I'd like to take a ride on it .",
+        "emotion": "neutral",
+        "text": "Wow , the ferris wheel over there is so big . I'd like to take a ride on it .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It is called Energy Collector .",
+        "emotion": "neutral",
+        "text": "It is called Energy Collector .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Look at your right-hand . Is it the zone of the Lost Maya Kingdom ?",
+        "emotion": "neutral",
+        "text": "Look at your right-hand . Is it the zone of the Lost Maya Kingdom ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Maybe . Oh . I see the Jungle Flying Train . I once rode it . It was very exciting .",
+        "emotion": "neutral",
+        "text": "Maybe . Oh . I see the Jungle Flying Train . I once rode it . It was very exciting .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I want to have a try later .",
+        "emotion": "neutral",
+        "text": "I want to have a try later .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Me , too . Daniel , look at your left side . Can you see the Air Force Ants ?",
+        "emotion": "neutral",
+        "text": "Me , too . Daniel , look at your left side . Can you see the Air Force Ants ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , that's my favorite . It's like a superman shooting right up into the sky .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "that's my favorite ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , that's my favorite . It's like a superman shooting right up into the sky .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Good , you can make your dream come true here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "that's my favorite .",
+            "you can make your dream come true"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good , you can make your dream come true here .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Of course . After this , I want to show you to the Haunted House .",
+        "emotion": "neutral",
+        "text": "Of course . After this , I want to show you to the Haunted House .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "So you can prove you are a man .",
+        "emotion": "neutral",
+        "text": "So you can prove you are a man .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Bingo !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "So you can prove you are a man ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bingo !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It's just you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Bingo !",
+            "It's just you !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's just you !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Would you like to see our new shirts ?",
+        "emotion": "neutral",
+        "text": "Would you like to see our new shirts ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sorry , but I'm not really that interested in those things .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "not really that interested"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sorry , but I'm not really that interested in those things .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , they are very nice you know .",
+        "emotion": "neutral",
+        "text": "Well , they are very nice you know .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "neutral",
+        "text": "Really ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And not expensive either .",
+        "emotion": "neutral",
+        "text": "And not expensive either .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , I don't care about that .",
+        "emotion": "neutral",
+        "text": "Oh , I don't care about that .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Everybody is buying them .",
+        "emotion": "neutral",
+        "text": "Everybody is buying them .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Are they ?",
+        "emotion": "neutral",
+        "text": "Are they ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , they are very fashionable , you see .",
+        "emotion": "neutral",
+        "text": "Yes , they are very fashionable , you see .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I am afraid I am not interested in fashion .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I am afraid I am not interested"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I am afraid I am not interested in fashion .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I see .",
+        "emotion": "neutral",
+        "text": "I see .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "But thank you very much all the same .",
+        "emotion": "neutral",
+        "text": "But thank you very much all the same .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sorry I couldn't help you .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I am afraid I am not interested"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sorry I couldn't help you .",
+        "id": 13,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

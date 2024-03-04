@@ -1,0 +1,28 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A will have a good experience watching the movie",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I should invite my girlfriend to go next weekend .",
+            "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It would be a really good choice . The movie is very suitable for lovers to see together . I'm sure you won't regret it .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

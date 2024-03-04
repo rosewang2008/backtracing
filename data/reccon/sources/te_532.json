@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "that was a really good meal , Gordon .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "really good meal"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "that was a really good meal , Gordon .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It sure was . I couldn't eat another bite .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It sure was . I couldn't eat another bite ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It sure was . I couldn't eat another bite .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "well , it is getting pretty late . I think we should go home .",
+        "emotion": "neutral",
+        "text": "well , it is getting pretty late . I think we should go home .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "you're right . I have to get up early to go to work tomorrow .",
+        "emotion": "neutral",
+        "text": "you're right . I have to get up early to go to work tomorrow .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "let's see how much the bill is .",
+        "emotion": "neutral",
+        "text": "let's see how much the bill is .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "don't worry about it . Tonight is my treat .",
+        "emotion": "neutral",
+        "text": "don't worry about it . Tonight is my treat .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "what are you talking about ? We'll split the bill .",
+        "emotion": "neutral",
+        "text": "what are you talking about ? We'll split the bill .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "no , I insist . I kept telling you that I would treat you to dinner but I still haven't .",
+        "emotion": "neutral",
+        "text": "no , I insist . I kept telling you that I would treat you to dinner but I still haven't .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "no way , Gordon . I know that you are a little short on cash at the moment . There's no need for you to pay for the whole bill .",
+        "emotion": "neutral",
+        "text": "no way , Gordon . I know that you are a little short on cash at the moment . There's no need for you to pay for the whole bill .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "alright , if that's the way you are going to be , we'll split the bill .",
+        "emotion": "neutral",
+        "text": "alright , if that's the way you are going to be , we'll split the bill .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "that's better . This way we will both have money to take a cab home , otherwise , you would probably have to walk .",
+        "emotion": "neutral",
+        "text": "that's better . This way we will both have money to take a cab home , otherwise , you would probably have to walk .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "just promise you will let me treat you to dinner next week , ok ?",
+        "emotion": "neutral",
+        "text": "just promise you will let me treat you to dinner next week , ok ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "you've got a deal .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "promise you will let me treat you to dinner next week"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "you've got a deal .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "great . Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            13
+        ],
+        "expanded emotion cause span": [
+            "I kept telling you that I would treat you to dinner but I still haven't .",
+            "you've got a deal ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "great . Bye .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "promise you will let me treat you to dinner next week"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "bye .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

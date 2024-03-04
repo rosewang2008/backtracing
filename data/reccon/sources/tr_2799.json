@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Now , you are to board the plane . We ' re sorry that we haven't done much to help you when you stayed in China .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "we haven't done much to help you when you stayed in China ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Now , you are to board the plane . We ' re sorry that we haven't done much to help you when you stayed in China .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I appreciate what you have done for me . Everything I have seen here has left a deep impression on me . I really don't know how to express my thanks to you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I appreciate what you have done for me . Everything I have seen here has left a deep impression on me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I appreciate what you have done for me . Everything I have seen here has left a deep impression on me . I really don't know how to express my thanks to you .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We are ready to help you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I appreciate what you have done for me . Everything I have seen here has left a deep impression on me . I really don't know how to express my thanks to you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We are ready to help you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Will you be kind to say \" Thank you \" to Mr . Zhang and other friends for me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are ready to help you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Will you be kind to say \" Thank you \" to Mr . Zhang and other friends for me ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'd like to . I'm sure your visit will help to promote the friendship and understanding between both of us . Welcome to China again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Will you be kind to say \" Thank you \" to Mr . Zhang and other friends for me ?",
+            "I'm sure your visit will help to promote the friendship and understanding between both of us ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'd like to . I'm sure your visit will help to promote the friendship and understanding between both of us . Welcome to China again .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Of course , I will . Well , it's time for me to say goodbye . The plane will take off soon . Hope some day you will come to America for a visit .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I'd like to . I'm sure your visit will help to promote the friendship and understanding between both of us . Welcome to China again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course , I will . Well , it's time for me to say goodbye . The plane will take off soon . Hope some day you will come to America for a visit .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you . I will if I have chance . Goodbye and happy landing !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Hope some day you will come to America for a visit ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I will if I have chance . Goodbye and happy landing !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Goodbye !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Thank you . I will if I have chance . Goodbye and happy landing !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

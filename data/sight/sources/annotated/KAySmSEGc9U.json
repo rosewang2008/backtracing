@@ -1,0 +1,2006 @@
+[
+    {
+        "text": " Okay, folks."
+    },
+    {
+        "text": "Here we are again."
+    },
+    {
+        "text": "Welcome back for another episode of Theory of Computation."
+    },
+    {
+        "text": "This is lecture number three."
+    },
+    {
+        "text": "I am going to review what we've been doing."
+    },
+    {
+        "text": "We've been looking at finite automata and regular languages."
+    },
+    {
+        "text": "Those are the languages that the finite automata can recognize."
+    },
+    {
+        "text": "And we talked about non-determinism."
+    },
+    {
+        "text": "So we had non-deterministic finite automata and deterministic finite automata."
+    },
+    {
+        "text": "We showed that they're equivalent."
+    },
+    {
+        "text": "We looked at the closure properties over the regular operations, union, concatenation, and star, and showed that the regular languages, really the class of regular languages, is closed under those regular operations."
+    },
+    {
+        "text": "And we used the constructions that we developed in the proof of those closure properties to show that we can give a way to convert regular expressions to finite automata."
+    },
+    {
+        "text": "So that was partway toward our goal of showing that these regular expressions and finite automata are equivalent with respect to the class of languages they describe, namely the regular languages."
+    },
+    {
+        "text": "So regular expressions of finite automata are interchangeable from the perspective of what kinds of languages you can do with them."
+    },
+    {
+        "text": "So we're going to finish that off today."
+    },
+    {
+        "text": "So let's take a look at what our next topics we're going to be covering."
+    },
+    {
+        "text": "We're going to reverse the construction we gave last time, which allowed us to convert regular expressions to finite automata."
+    },
+    {
+        "text": "Now we're going to go backwards."
+    },
+    {
+        "text": "We're going to show how to convert finite automata back to regular expressions."
+    },
+    {
+        "text": "And those two constructions together show us that the regular expressions and finite automata can be interconverted from one another."
+    },
+    {
+        "text": "And they're therefore equivalent with respect to the kinds of things they can do in language recognition or generation."
+    },
+    {
+        "text": "Then we're going to prove that we're going to look at how you prove certain languages are not regular."
+    },
+    {
+        "text": "They're beyond the capabilities of finite automata."
+    },
+    {
+        "text": "And finally, at the end, we're going to introduce a new model of computation, which is more powerful than the finite automata and regular expressions, namely the context-free grammars."
+    },
+    {
+        "text": "Those can do other kinds of languages that the simpler finite automata regular expressions models can't do."
+    },
+    {
+        "text": "And I would also just like to note that a lot of what we're doing is a warm-up toward the more powerful models of computation that we're going to be looking at later, well, in a week or so, which are more general purpose computation."
+    },
+    {
+        "text": "But along the way, introducing these models of finite automata and context-free languages is interesting and helpful because many of those, a number of those models turn out to be useful in a number of applications, whether it's from linguistics to programming languages."
+    },
+    {
+        "text": "And a variety of different parts of computer science and other fields as well use those notions."
+    },
+    {
+        "text": "So they're useful notions beyond just in this course."
+    },
+    {
+        "text": "So I just want a couple of administrative things to touch on."
+    },
+    {
+        "text": "We are going to have additional check-ins today."
+    },
+    {
+        "text": "As I mentioned to you, we're going to start counting participation, not correctness, just participation in the live check-ins."
+    },
+    {
+        "text": "So with that, let us move on to today's material."
+    },
+    {
+        "text": "As I mentioned, we're going to be showing how to convert finite automata to regular expressions."
+    },
+    {
+        "text": "And that's going to complete our equivalence of finite automata and regular expressions."
+    },
+    {
+        "text": "So just to recap what we did last time, we showed that if you have a regular expression and it describes some language, then that language is regular."
+    },
+    {
+        "text": "So in other words, we have a way of, we gave a way of converting regular expressions to finite automata, as kind of shown in this diagram."
+    },
+    {
+        "text": "That's what we did last time."
+    },
+    {
+        "text": "Now we're going to go the other way."
+    },
+    {
+        "text": "We're going to show how to convert."
+    },
+    {
+        "text": "Oh, and just a reminder in case you're just getting yourself your memory to work, maybe it'll help you just to remember that we actually did an example of that conversion."
+    },
+    {
+        "text": "We looked at this regular expression A union AB star."
+    },
+    {
+        "text": "And we actually worked through the process of converting that."
+    },
+    {
+        "text": "Oops, I need to make myself smaller so you can see all that."
+    },
+    {
+        "text": "We went through the process of converting A union AB star as an example of that, of, I mean, OK, well, we went through the process of actually doing that conversion."
+    },
+    {
+        "text": "And now we're going to show how to do it the other way around."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So we're going to invert that and go backwards the other way."
+    },
+    {
+        "text": "So today's theorem is to show that if A is regular, namely, it's the language of some finite automaton, then you can convert it to a regular expression which will describe that same language."
+    },
+    {
+        "text": "So basically, we're going to give a conversion from finite automata to regular expressions."
+    },
+    {
+        "text": "But before we do that, we're going to have to introduce a new concept."
+    },
+    {
+        "text": "So we're not going to be able to dive right into that conversion."
+    },
+    {
+        "text": "We're going to have to introduce a new model first, which is going to facilitate that conversion."
+    },
+    {
+        "text": "And that new model is called, it's yet another kind of finite automaton, called a generalized nondeterministic finite automaton, or a generalized NFA, or just simply a GNFA."
+    },
+    {
+        "text": "So this is yet another variant of the finite automaton model."
+    },
+    {
+        "text": "And conceptually, it's very simple."
+    },
+    {
+        "text": "It's similar to the NFAs."
+    },
+    {
+        "text": "I'll give you, here's a picture of a GNFA named G, G1."
+    },
+    {
+        "text": "Very similar to the NFAs."
+    },
+    {
+        "text": "But if you look at it for a second, you'll see that the transitions have more complicated labels."
+    },
+    {
+        "text": "For the NFAs, we're only allowing just single symbols or the empty string to appear on the labels."
+    },
+    {
+        "text": "Now I'm actually allowing you to put full regular expressions on the labels for the automaton."
+    },
+    {
+        "text": "Now, we have to understand how a GNFA processes its input."
+    },
+    {
+        "text": "And the way it works is not complicated to understand."
+    },
+    {
+        "text": "When you're getting an input string, feeling when a GNFA is processing an input string, it starts at the start state, just like you would imagine."
+    },
+    {
+        "text": "But now, to go along a transition, instead of reading just a single symbol or the empty string, as in the case for the nondeterministic machine, it actually gets to read a whole string at one step, kind of at one byte."
+    },
+    {
+        "text": "It can read an entire string and go along that transition arrow, provided that chunk of the input that it read is in the regular expression that that transition has as its label."
+    },
+    {
+        "text": "So for example, you can go from Q1 to Q2 in one step in this GNFA by reading AABB off the input."
+    },
+    {
+        "text": "So it reads all of those four symbols all at once, just swoops them up, and then moves from Q1 to Q2 in one step."
+    },
+    {
+        "text": "And then when it's in Q2, it can read AAB and move to Q3."
+    },
+    {
+        "text": "And Q3 happens, there's nowhere to go."
+    },
+    {
+        "text": "So this is going to be a nondeterministic machine."
+    },
+    {
+        "text": "There might be several different ways of processing the input."
+    },
+    {
+        "text": "And if any one of them gets to an accepting state at the end of the input, we say the GNFA accepts."
+    },
+    {
+        "text": "So it's similar to nondeterministic to NFAs in the way the acceptance criterion works."
+    },
+    {
+        "text": "So you could do an example, but hopefully, the concept of how this works is reasonably, you can at least buy it, that it processes the input in chunks at a time."
+    },
+    {
+        "text": "And those chunks have to be described by the regular expressions on the transition arrows as it moves along those transitions."
+    },
+    {
+        "text": "So what we're going to do now is to convert not DFAs to regular expressions."
+    },
+    {
+        "text": "We're going to convert GNFAs to regular expression."
+    },
+    {
+        "text": "That's even harder because GNFAs allow you to do all sorts of other things besides just ordinary DFAs."
+    },
+    {
+        "text": "So that's a harder job."
+    },
+    {
+        "text": "Why am I making my life harder?"
+    },
+    {
+        "text": "Well, you'll see in a minute that it's going to actually turn out to be helpful to be working with a more powerful model in the way this construction is going to work."
+    },
+    {
+        "text": "Now, before I dive in and do the construction from GNFAs to regular expressions, I'm going to make a simplifying assumption about the GNFAs."
+    },
+    {
+        "text": "I'm going to put them in a special form that's going to make it easier to do the conversion."
+    },
+    {
+        "text": "And that simpler form is, first of all, I'm going to assume the GNFA has just a single accepting state."
+    },
+    {
+        "text": "And that accepting state is not allowed to be the start state."
+    },
+    {
+        "text": "So it has to have just a single accepting state."
+    },
+    {
+        "text": "I've already violated that convenient assumption in this GNFA because I have here two accepting states."
+    },
+    {
+        "text": "That's not what I want."
+    },
+    {
+        "text": "I want to have just one."
+    },
+    {
+        "text": "Well, the thing is, it's easy to obtain just one, just to modify the machine so that I have just one by adding a new accepting state, which is branched to from the former accepting states by empty transition."
+    },
+    {
+        "text": "So I can always jump from Q2 to Q4 at any time without even reading any input, just going along this empty transition."
+    },
+    {
+        "text": "And then I declassify the former accepting states as accepting."
+    },
+    {
+        "text": "And now I have here just a single accepting state."
+    },
+    {
+        "text": "And because it's going to be a new state that I added, it won't be the start state."
+    },
+    {
+        "text": "And I have accomplished that one aspect of my assumption about the form of the GNFA."
+    },
+    {
+        "text": "But there's another thing that I want to do too."
+    },
+    {
+        "text": "I want to assume, as you will see, which is going to be convenient in my construction, that we will have transition arrows going from every state to every other state."
+    },
+    {
+        "text": "In fact, I want transition arrows going from every state, even back to themselves."
+    },
+    {
+        "text": "I want there to be all possible transition arrows should be present, with two exceptions."
+    },
+    {
+        "text": "For the start state, there should be only transition arrows exiting the start state."
+    },
+    {
+        "text": "And for the accepting state, there's just one now, there should be only transition arrows coming in to the start state."
+    },
+    {
+        "text": "So it's kind of what you would imagine as being reasonable."
+    },
+    {
+        "text": "For the other states which are not accepting or starting, there should be transition arrows leaving and coming from everywhere else."
+    },
+    {
+        "text": "But for the start states, just leaving, and for the accept state, just coming in."
+    },
+    {
+        "text": "And you can easily modify the machine to achieve that."
+    },
+    {
+        "text": "Let's just see how to do that in one example."
+    },
+    {
+        "text": "So notice that from Q3 to Q2, there is no transition right now."
+    },
+    {
+        "text": "And that's not good."
+    },
+    {
+        "text": "That's not what I want."
+    },
+    {
+        "text": "I want there to be a transition from Q3 to Q2."
+    },
+    {
+        "text": "Well, I'll just add that transition in."
+    },
+    {
+        "text": "But I'm going to label it with the empty language regular expression."
+    },
+    {
+        "text": "So that means, yeah, the transition is there, but you never can take it."
+    },
+    {
+        "text": "So it doesn't change the language that the machine is going to be recognizing, but it fulfills my assumption, my convenient assumption, that we have all of these transition arrows being present in the machine."
+    },
+    {
+        "text": "So anyway, I hope you will buy it."
+    },
+    {
+        "text": "It's not going to be, if you don't quite get this, don't worry."
+    },
+    {
+        "text": "It's not totally critical that you're following all of these little adjustments and modifications to the GNFA."
+    },
+    {
+        "text": "But it will be helpful to understand what GNFA themselves, how they work."
+    },
+    {
+        "text": "So as I mentioned, we can easily modify GNFA to have the special form that we're assuming here."
+    },
+    {
+        "text": "All right, so now we're going to jump in and start doing the conversion."
+    },
+    {
+        "text": "So we're going to have a lemma, which is like a theorem that really is just a local interest here."
+    },
+    {
+        "text": "It's not a general interest theorem."
+    },
+    {
+        "text": "It's going to be relevant just to GNFA, which are really just defined to help us do this conversion."
+    },
+    {
+        "text": "They really don't have any other independent value."
+    },
+    {
+        "text": "So I want to show that every GNFA has an equivalent regular expression R. That's really my goal."
+    },
+    {
+        "text": "And the way we're going to prove that is by induction."
+    },
+    {
+        "text": "It's going to be by induction on the number of states of the GNFA."
+    },
+    {
+        "text": "Now, you really should be familiar with induction as one of the expectations for being in this course."
+    },
+    {
+        "text": "But in case you're a little shaky on it, don't worry."
+    },
+    {
+        "text": "I'm going to unpack it as a procedure."
+    },
+    {
+        "text": "It's really just recursion."
+    },
+    {
+        "text": "And a proof that uses induction is really just a proof that calls itself."
+    },
+    {
+        "text": "It's just a proof that it's a recursive proof."
+    },
+    {
+        "text": "That's all it is."
+    },
+    {
+        "text": "So if you're comfortable with recursion, you'll be comfortable with induction."
+    },
+    {
+        "text": "But anyway, I'm going to describe this as a procedure."
+    },
+    {
+        "text": "So if you're a little shaky on induction, don't worry."
+    },
+    {
+        "text": "So the basis is, so first, I'm going to handle the case where the GNFA has just two states."
+    },
+    {
+        "text": "Now, remember, I'm assuming now my GNFAs are in the special form."
+    },
+    {
+        "text": "So you can't even have a GNFA with one state because it has to have a start state, and it has to have an accept state, and they have to not be the same."
+    },
+    {
+        "text": "So the smallest possible GNFA to worry about is a two-state GNFA."
+    },
+    {
+        "text": "Now, if we happen to have a two-state GNFA, it turns out to be very easy to find the equivalent regular expression."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Because that two-state GNFA can only look like this."
+    },
+    {
+        "text": "It can have a start state, can have an accept state, and it can only have a transition going from the start to the accept because no other transitions are allowed."
+    },
+    {
+        "text": "It only has outgoing from the start, only incoming to the accept."
+    },
+    {
+        "text": "And so there's only one transition, and it has a label with a regular expression r. So what do you think the equivalent regular expression is for this GNFA?"
+    },
+    {
+        "text": "It's just simply the one that's labeling that transition because that tells us when I can go from the start to the accept."
+    },
+    {
+        "text": "And there's nothing else the machine can do."
+    },
+    {
+        "text": "It just makes one step, which is to accept its input if it's described by that regular expression."
+    },
+    {
+        "text": "So therefore, the equivalent regular expression that we're looking for is simply label on that single transition."
+    },
+    {
+        "text": "OK, so two-state GNFAs are easy."
+    },
+    {
+        "text": "But what happens if you have more states?"
+    },
+    {
+        "text": "Then you're going to actually have to do some work."
+    },
+    {
+        "text": "So we call that the induction step."
+    },
+    {
+        "text": "That's when we have more than two states."
+    },
+    {
+        "text": "And the way the induction works is we're going to assume we already know how to do it for k minus 1 states."
+    },
+    {
+        "text": "And we're going to use that knowledge to show how to do it for k states."
+    },
+    {
+        "text": "So in other words, we already know how to do it for two states."
+    },
+    {
+        "text": "I'm going to use that fact to show how to do it for three states, and then use the fact that I can do it for three states to show how to do it for four states, and so on and so on."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "And the idea for how to do that is actually pretty easy to grasp."
+    },
+    {
+        "text": "What we're going to do is if we have a k-state GNFA that we want to convert, we're going to change that k-state GNFA to a k minus 1-state GNFA, and then use our assumption that we already know how to do the k minus 1-state GNFA."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So in terms of a picture, I'm going to take a k-state to prove that I can always convert k-state GNFAs to regular expressions."
+    },
+    {
+        "text": "I'm going to show how to convert the k-state one into an equivalent k minus 1-state GNFA."
+    },
+    {
+        "text": "And then if you just like to think of it this procedurally, the k minus 1 gets converted to a k minus 2, gets converted to a k minus 3, and so on and so on, until I get down to 2, which then I know how to do directly."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So the whole name of the game here is figuring out how to convert a GNFA that has k states into another one that has one fewer state that does the same language."
+    },
+    {
+        "text": "OK, so you have to hold that in your head."
+    },
+    {
+        "text": "I mean, I wish I had more blackboard space here, but it's very limited here."
+    },
+    {
+        "text": "So you have to remember what we're going to be doing on the next slide, because that's going to finish the job for us."
+    },
+    {
+        "text": "As long as I can show in general how to convert a k-state GNFA to a GNFA that has one fewer state, but it still does the same language, I'm good."
+    },
+    {
+        "text": "Because then I can keep iterating that until I get down to 2."
+    },
+    {
+        "text": "All right, so this is the guts of the argument."
+    },
+    {
+        "text": "So I have my k-state machine."
+    },
+    {
+        "text": "Here's my start state."
+    },
+    {
+        "text": "Here's my accept state."
+    },
+    {
+        "text": "Here's my k minus 1 state, that machine that I'm going to be building for you."
+    },
+    {
+        "text": "It's actually going to look almost exactly the same."
+    },
+    {
+        "text": "I'm just going to remove one state from the bigger machine."
+    },
+    {
+        "text": "So I'm going to pick any state, which is not the start state or the accept state."
+    },
+    {
+        "text": "Here it is pictured here."
+    },
+    {
+        "text": "I mean, all of the states of the k-state machine are going to appear in the k minus 1 state machine, except for one state that I'm going to rip out."
+    },
+    {
+        "text": "That's the state x."
+    },
+    {
+        "text": "It's now here as a ghost."
+    },
+    {
+        "text": "It's been removed."
+    },
+    {
+        "text": "It's not there anymore."
+    },
+    {
+        "text": "But I'm just helping you to remember that it used to be there by showing a shadow."
+    },
+    {
+        "text": "But it's a I have taken my original machine that had k states and basically just ripped out a state."
+    },
+    {
+        "text": "And now I have one fewer state."
+    },
+    {
+        "text": "So the good news is that I now have a machine with k minus 1 states."
+    },
+    {
+        "text": "That's what I want."
+    },
+    {
+        "text": "But the bad news is that it doesn't do the same language anymore."
+    },
+    {
+        "text": "I broke the machine by rip."
+    },
+    {
+        "text": "If you're just going to rip out a state, who knows what the new machine is going to do?"
+    },
+    {
+        "text": "It's going to be probably not the same as what the original machine did."
+    },
+    {
+        "text": "So what I need to do then is repair the damage."
+    },
+    {
+        "text": "I've got to fix the damage that I caused by removing x."
+    },
+    {
+        "text": "And whatever role x was playing in the original machine, I've got to make sure that the new machine that I have, which doesn't have x anymore, can still do the same things that the original machine did."
+    },
+    {
+        "text": "And so the way I'm going to do that is look at all of the paths that could go through x and make sure that they're still present, even though I don't have x anymore."
+    },
+    {
+        "text": "And the way I'm going to do that is I'm going to consider a part of a path that might use x."
+    },
+    {
+        "text": "So let's pick two states, qi and qj, in the machine that had k states."
+    },
+    {
+        "text": "Let me just see here."
+    },
+    {
+        "text": "I don't know if this is."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So if we have, we'll pick two states, qi and qj, in the original machine."
+    },
+    {
+        "text": "Now, qi might have the possibility of going to state x."
+    },
+    {
+        "text": "And then x might have a self loop."
+    },
+    {
+        "text": "And then it might go to qj."
+    },
+    {
+        "text": "The new machine doesn't have x anymore."
+    },
+    {
+        "text": "So the way I'm going to fix that is by replacing the label that goes directly from i to j with a new label that adds in all of the things I lost when I removed x. OK, that's the whole idea here."
+    },
+    {
+        "text": "So here is qi to qj, but there's no x anymore."
+    },
+    {
+        "text": "How could I get from qi to qj?"
+    },
+    {
+        "text": "What were the inputs that could have brought us from qi to qj via x?"
+    },
+    {
+        "text": "Well, they would have been an input that read a string described by R1."
+    },
+    {
+        "text": "I might have self looped at x a few times."
+    },
+    {
+        "text": "So I might have read several strings that are described by R2."
+    },
+    {
+        "text": "And then I would have read a string that was described by R3."
+    },
+    {
+        "text": "And now I'm at qj."
+    },
+    {
+        "text": "OK, so the new label that I'm going to place over here is going to be the strings that I get from reading R1, reading a string that's described by R1, then multiple copies of a string, multiple strings that are possibly described by R2, which is the same as R2 star, and then a string that could be described by R3."
+    },
+    {
+        "text": "So that is a new addition to the transition that takes me from qi to qj."
+    },
+    {
+        "text": "Of course, I need to include the things that would have taken me from qi to qj in the first place."
+    },
+    {
+        "text": "So I'm also unioning in R4, which was the direct route from qi to qj that did not transit through x."
+    },
+    {
+        "text": "So by making that new regular expression on the qi to qj transition, I have compensated for the loss of x for paths that go from qi to x and then out to qj."
+    },
+    {
+        "text": "Now, what I need to do is to do that same thing for every pair qi and qj that are in the original machine."
+    },
+    {
+        "text": "And so if I do that for every possible pair, I'll be modifying all of the transitions in the new machine in a way that compensates for the loss of x."
+    },
+    {
+        "text": "And now the new machine has been repaired from the damage that I caused by removing x, and it does the same language."
+    },
+    {
+        "text": "It's the kind of thing you need to think a little bit about, I understand."
+    },
+    {
+        "text": "But at least hopefully, the spirit of what I just described to you comes through, that we're going to convert this machine with k states to one with k minus 1 states by removing a state and repairing the damage."
+    },
+    {
+        "text": "And now it does the same language, and then I can remove another state and do the same thing over and over again until I get down to two states."
+    },
+    {
+        "text": "So that's the idea."
+    },
+    {
+        "text": "And that really completes the proof."
+    },
+    {
+        "text": "That shows that I can convert every GNFA to a regular expression."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And that really is the end of the story for this."
+    },
+    {
+        "text": "And thus, I claim that DFAs now and regular expressions are equivalent."
+    },
+    {
+        "text": "So I'm going to give you a little check-in here on this, really just to see, high level, if you're following what's going on."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So just take a look."
+    },
+    {
+        "text": "So we just showed how to convert GNFAs to regular expression, but we really wanted to convert DFAs to regular expressions."
+    },
+    {
+        "text": "So how do we go from converting GNFAs to converting DFAs?"
+    },
+    {
+        "text": "It's not the same, obviously."
+    },
+    {
+        "text": "So how do we finish that?"
+    },
+    {
+        "text": "So there are three choices here."
+    },
+    {
+        "text": "First, we have to show how to convert DFAs to GNFAs, maybe, or show how to convert GNFAs to DFAs."
+    },
+    {
+        "text": "Or maybe we're already done."
+    },
+    {
+        "text": "So maybe I better launch that poll while you're reading that."
+    },
+    {
+        "text": "And there you go."
+    },
+    {
+        "text": "Hopefully, you can."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "Why don't I end this?"
+    },
+    {
+        "text": "It's a little worrisome, because I would say we have a plurality who got the right answer, but not a majority."
+    },
+    {
+        "text": "So let us share the results."
+    },
+    {
+        "text": "So I sense not all of you are with me, but you're going to have to either that or you're reading your email while we're talking."
+    },
+    {
+        "text": "I'm not sure."
+    },
+    {
+        "text": "But whatever it is, you need to think a little bit about what's going on here, because the reason why we are done is because DFAs are a kind of GNFAs."
+    },
+    {
+        "text": "They have a very simple kind of regular expression on each transition."
+    },
+    {
+        "text": "They just have the regular expression, which is just a single symbol."
+    },
+    {
+        "text": "So all DFAs are automatically GNFAs."
+    },
+    {
+        "text": "So if I can convert GNFAs, I can certainly convert DFAs, because GNFAs include the DFAs."
+    },
+    {
+        "text": "I'm done."
+    },
+    {
+        "text": "It really was number C was the correct answer."
+    },
+    {
+        "text": "So good thing we're not counting correctness here."
+    },
+    {
+        "text": "So participation is good enough."
+    },
+    {
+        "text": "But I do think you need to think about what's going on and making sure that you're following along."
+    },
+    {
+        "text": "So anyway, that's a we'll carry on here, but it makes me a little concerned."
+    },
+    {
+        "text": "OK, so let us now move on."
+    },
+    {
+        "text": "So we're going to talk a little bit about non-regular languages."
+    },
+    {
+        "text": "So somebody's asking, don't we have to still make the DFAs into the special type?"
+    },
+    {
+        "text": "Yes, we do."
+    },
+    {
+        "text": "We have to make them to the special type."
+    },
+    {
+        "text": "But we already showed how to make GNFAs into the special type."
+    },
+    {
+        "text": "And DFA, that is going to apply to DFAs as well."
+    },
+    {
+        "text": "They'll become GNFAs."
+    },
+    {
+        "text": "You can add the extra start, add a new start state, add a new accept state, add in all the transitions, which you didn't have before with the empty language label."
+    },
+    {
+        "text": "And you'll have a GNFA from a DFA."
+    },
+    {
+        "text": "But that applies to GNFAs in general."
+    },
+    {
+        "text": "So it's nothing special about DFAs there."
+    },
+    {
+        "text": "Anyway, I think you need to chew on that."
+    },
+    {
+        "text": "And hopefully, you'll be following going forward."
+    },
+    {
+        "text": "Anyway, let us look now at proving non-regularity."
+    },
+    {
+        "text": "So we're finished with our goal of showing that regular languages can either come from DFAs or from regular expressions."
+    },
+    {
+        "text": "Those are the same in terms of, from the perspective of our course, they're interchangeable."
+    },
+    {
+        "text": "So now, as we mentioned, there are going to be some languages which are not regular, which can't be done by DFAs."
+    },
+    {
+        "text": "They're actually, DFAs are actually pretty weak as a computational model."
+    },
+    {
+        "text": "And so there's all sorts of very simple things that they cannot do."
+    },
+    {
+        "text": "There are some fairly complicated things that they can do, surprisingly enough."
+    },
+    {
+        "text": "But anyway, there are some simple things they can't do."
+    },
+    {
+        "text": "And so we have to develop a method for showing that a language is not regular."
+    },
+    {
+        "text": "And that's going to be useful for your homework and, in general, for just understanding the power of DFAs."
+    },
+    {
+        "text": "So how do we show a language is not regular?"
+    },
+    {
+        "text": "So remember, if you want to show a language is regular, basically, what you need to do is give a DFA."
+    },
+    {
+        "text": "Or you can use the closure properties."
+    },
+    {
+        "text": "That's another way of showing a language is regular."
+    },
+    {
+        "text": "But underneath that, it's basically constructing DFAs."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "To show a language is not regular, you have to give a proof."
+    },
+    {
+        "text": "Generally, not a construction."
+    },
+    {
+        "text": "It's a proof that there is no DFA or that it's just going to be impossible to make a DFA."
+    },
+    {
+        "text": "And we have to develop a method."
+    },
+    {
+        "text": "What is that proof method?"
+    },
+    {
+        "text": "Now, there is a tempting, I've taught this course many times, and there's a kind of a tempting approach that many people have."
+    },
+    {
+        "text": "It's not only going to apply for finite automata, but for other things too."
+    },
+    {
+        "text": "And believe me, it's not only people in this class."
+    },
+    {
+        "text": "It's for people out there who are trying to think about computation in general, which is to say, well, I have some language of trying to figure out if it's regular or not."
+    },
+    {
+        "text": "And so I thought really hard how to make a DFA, and I couldn't find one."
+    },
+    {
+        "text": "Therefore, it's not regular."
+    },
+    {
+        "text": "That's not a proof."
+    },
+    {
+        "text": "Just because you couldn't find a DFA doesn't mean there is no DFA."
+    },
+    {
+        "text": "You need to prove that the language is not regular using some method."
+    },
+    {
+        "text": "So I'm going to give you an example where that kind of approach can lead you wrong."
+    },
+    {
+        "text": "And that is, I'll give two examples of languages where you might try to prove they're regular or not, and you could be in trouble if you just follow that kind of informal approach."
+    },
+    {
+        "text": "So if you take the language B, where these are straight, but let's assume our alphabet is 0's and 1's."
+    },
+    {
+        "text": "B is the language of all strings that have an equal number of 0's and 1's."
+    },
+    {
+        "text": "So you want to know, if I have 1,000 0's, I need to have 1,000 1's."
+    },
+    {
+        "text": "So basically, the way you test that, you'd have to count up the number of 0's, count up the number of 1's, and see if those two counts are the same."
+    },
+    {
+        "text": "And that's going to be really tough to make a DFA do, because how are you going to remember that really big number of 0's that the DFA might have 50 states, but you might need to count up to 100 or a million to figure out, to count up how many 0's you've seen."
+    },
+    {
+        "text": "And it seems really hard to be able to do that kind of a count when you only have 50 states."
+    },
+    {
+        "text": "So whatever number of states you have, it seems hard to count when you have a finite automaton."
+    },
+    {
+        "text": "So the intuition is, it's not regular, because a finite automaton can't count, which, in this case, you can convert that intuition into a real proof."
+    },
+    {
+        "text": "I would say it's not a real proof yet, but it can be made into a real proof."
+    },
+    {
+        "text": "But compare that case with another language, which I'll call C, which instead of looking at its input to see whether it has an equal number of 0's and 1's, I'm going to look at the input and look at the substrings of 0 1's and 1 0's, those two substrings, and count the number of occurrences of 0 1 as a substring and the number of occurrences of 1 0 as a substring."
+    },
+    {
+        "text": "Just to make sure you're understanding, let's look at two examples."
+    },
+    {
+        "text": "So the string 0 1 0 1 is not going to be in C, because if you count up the number of 0 1's and the number of 1 0's, not the same."
+    },
+    {
+        "text": "So I'm even going to help you here, if you can see that."
+    },
+    {
+        "text": "The number of 0 1's is 2, but there's only a single occurrence of 1 0."
+    },
+    {
+        "text": "So those two counts are different, and so that's why this input string is not in C. Compare that with the string 0 1 1 0."
+    },
+    {
+        "text": "Now, if you count up the number of 0 1 and 1 0 substrings, you're going to get the same value, because here we have a single 0 1 and a single 1 0."
+    },
+    {
+        "text": "And so now the two counts of those number of substrings are the same, and so that's why you're in C. Now my question is, is C a regular language?"
+    },
+    {
+        "text": "Well, it looks like it shouldn't be regular for the same reason that B isn't regular, because you have to count up two quantities and compare them."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So now, so if we, so that's our intuition, that you just can't do it with a finite automaton, because you have to do the same kind of counting that you would have had to do for language B."
+    },
+    {
+        "text": "But here, you would be wrong, because C, in fact, is regular."
+    },
+    {
+        "text": "It has a much simpler description than the one I gave over here at the beginning."
+    },
+    {
+        "text": "There's the very same language C can be described in a much, much simpler way."
+    },
+    {
+        "text": "I'm not going to tell you what it is."
+    },
+    {
+        "text": "You can mull that over."
+    },
+    {
+        "text": "You can try some examples to figure it out, but it has a much simpler description."
+    },
+    {
+        "text": "It's not a totally trivial description."
+    },
+    {
+        "text": "I mean, there is some content there, but it is the kind of thing that a finite automaton can do."
+    },
+    {
+        "text": "It wouldn't do the counting this way."
+    },
+    {
+        "text": "So the moral is, the punchline is, that sometimes the intuition works, but it can also be wrong."
+    },
+    {
+        "text": "And so the moral of the story is you need to give a proof when you're doing things like that."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So what we're going to do next in the second half of the lecture is to give a method for proving languages are not regular."
+    },
+    {
+        "text": "And again, you're going to need to use that on your homework, so I hope you get it."
+    },
+    {
+        "text": "But first of all, oh, did I never stop sharing that poll?"
+    },
+    {
+        "text": "Forgive me."
+    },
+    {
+        "text": "And so with that, I think we'll take our little requested break."
+    },
+    {
+        "text": "And for five minutes, and we'll be back in five minutes."
+    },
+    {
+        "text": "So break time."
+    },
+    {
+        "text": "All righty."
+    },
+    {
+        "text": "We are done here."
+    },
+    {
+        "text": "And proving languages not regular."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "The way we're going to prove languages are not regular is by introducing a method called the pumping lemma."
+    },
+    {
+        "text": "And the overarching plan at the pumping lemma, without getting into the specifics of it, is to show that that lemma says all regular languages have a certain property, which we will describe."
+    },
+    {
+        "text": "And so to show a language is not regular, you simply show the language doesn't have that property."
+    },
+    {
+        "text": "Because all regular languages have to have that property."
+    },
+    {
+        "text": "And so by showing a language fails to have the property, it could not be regular."
+    },
+    {
+        "text": "OK, that's the plan."
+    },
+    {
+        "text": "OK, now the property itself is a little complicated to describe, but not too bad."
+    },
+    {
+        "text": "I'll try to unpack it for you."
+    },
+    {
+        "text": "But first, let's look at the statement of the lemma, which says that whenever you have a regular language, let's call it A."
+    },
+    {
+        "text": "So for every regular language A, there's always a special value called the pump, a number, P we'll call it, called the pumping length."
+    },
+    {
+        "text": "It's a special number."
+    },
+    {
+        "text": "And that length tells you that whenever a string is in that language and it's longer than that length, then something special happens."
+    },
+    {
+        "text": "You can take that string, and you can modify it, and you still stay in the language."
+    },
+    {
+        "text": "So anything that's longer than that special length can be modified in a certain way, and you still stay in the language."
+    },
+    {
+        "text": "So let's look at the actual statement of the lemma."
+    },
+    {
+        "text": "So there is a number P such that if S is a string in the language and it's longer than P, or at least of length P, then you can take S, and you can cut it up into three pieces, x, y, and z."
+    },
+    {
+        "text": "So that's just breaking S into three pieces, where you can take that middle piece, repeat it as many times as you like, and you still stay in the language."
+    },
+    {
+        "text": "That's what the pumping lemma is saying."
+    },
+    {
+        "text": "And there's a bunch of other conditions here too."
+    },
+    {
+        "text": "But the spirit of the pumping lemma says whenever you have a regular language, there's some cutoff such that all strings longer than that cutoff can be what we call pumped."
+    },
+    {
+        "text": "You can take that string, you can find a section somewhere in the middle of that string, or somewhere you cut it up into three pieces, you take that center piece, and you can repeat it."
+    },
+    {
+        "text": "You can pump it up."
+    },
+    {
+        "text": "And by repeating that string and repeating that piece, the string gets longer and longer, but you still stay in the language."
+    },
+    {
+        "text": "That's the special property that all regular languages have."
+    },
+    {
+        "text": "So kind of in an informal way, and I'll try to help you get the feeling for this, formally it says that if you have a regular language, then every long string, so long is by informal way of saying bigger than this value p, every long string in the language can be pumped."
+    },
+    {
+        "text": "And this result still stays in the language."
+    },
+    {
+        "text": "And by pumped means I can cut the string into three pieces and repeat that middle piece as many times as I want."
+    },
+    {
+        "text": "That's what I mean by pumping a string."
+    },
+    {
+        "text": "So we'll do some examples in a second."
+    },
+    {
+        "text": "But first, we're going to see how to prove this."
+    },
+    {
+        "text": "And hopefully, that'll give you some feeling also for why it's true."
+    },
+    {
+        "text": "And actually, maybe before I actually jump into the proof, let's look at these three conditions here just to understand it a little bit more thoroughly."
+    },
+    {
+        "text": "So condition one kind of says what I just was telling you."
+    },
+    {
+        "text": "I can break s into three pieces, x, y, z, such that if I take xy to the iz, so that's repeating y as many times as I want."
+    },
+    {
+        "text": "So here's y to the i kind of defined, if that's helpful to you, just y, i copies of y."
+    },
+    {
+        "text": "So I can take xy to the iz, and I remain in the language for every value of i, even i equals 0, which means we're just removing y, which is sometimes actually a useful thing to do."
+    },
+    {
+        "text": "But let's not get ahead of ourselves."
+    },
+    {
+        "text": "So I'm guaranteed to be able to cut s up into x, y, z, so that the string xyyy is still in the language, or xyyyyy, it's still in the language."
+    },
+    {
+        "text": "That's going to be guaranteed for every regular language."
+    },
+    {
+        "text": "That's a feature that's going to be true."
+    },
+    {
+        "text": "And furthermore, and this is going to be turning out to be, it's not really kind of part of the core idea of the pumping lemma, but it actually turns out to be very helpful in applying the pumping lemma, you can always cut it up in such a way that the first two pieces are not longer than that value p. So it restricts on the ways you can cut the thing up."
+    },
+    {
+        "text": "And that actually turns out to be very helpful."
+    },
+    {
+        "text": "But let's first just look at the proof of this, giving kind of a little bit the high level picture."
+    },
+    {
+        "text": "So my job is to show if I have a string in my language, let's say it's a, think of it as a long string, really long."
+    },
+    {
+        "text": "So its length is more than p. But I think intuitively, it's just a very long string."
+    },
+    {
+        "text": "And I'm going to feed that string into the machine and watch what happens."
+    },
+    {
+        "text": "Something special happens when I feed the string and I look at how the machine proceeds on that string."
+    },
+    {
+        "text": "Because s is so long that as I wander around inside the machine, I have to end up coming back to the same place more than once."
+    },
+    {
+        "text": "It's like if you have a small park and you go for a long walk, you're going to end up coming back to where you've already seen."
+    },
+    {
+        "text": "You just can't keep on seeing new stuff when you have a more small area of space to explore."
+    },
+    {
+        "text": "So we're guaranteed that M is going to end up repeating some state when it's reading s, because s is so long."
+    },
+    {
+        "text": "So pictorially, if you imagine here this wiggly line is kind of describing the path that M follows when it's reading s, it ends up coming back to that state qj more than once."
+    },
+    {
+        "text": "So it comes back here, cycles around, comes back again before it ends up accepting."
+    },
+    {
+        "text": "We know it ends up accepting because we're assuming we have a string that's in the language."
+    },
+    {
+        "text": "So we picked s in the language."
+    },
+    {
+        "text": "So it has to be accepted by M. But the important thing is that it repeats a state."
+    },
+    {
+        "text": "Now, how does that tell me I can cut s up into those three pieces?"
+    },
+    {
+        "text": "Well, I'm going to get those three pieces here."
+    },
+    {
+        "text": "First of all, let's observe that here is as processing s. Here is that written right on top of the string, that state repetition occurring, qj more than once."
+    },
+    {
+        "text": "And now if I look inside the machine, the part of s that took me to qj I'm going to call x."
+    },
+    {
+        "text": "The part that took me from qj back to itself is I'm going to call y."
+    },
+    {
+        "text": "And the part that took qj to the accept state, I'm going to call z."
+    },
+    {
+        "text": "And I'm going to mark those off in s. And that gives me the way to cut s up into three pieces."
+    },
+    {
+        "text": "Now, if you're appreciating what's going on inside the machine, you will see why M will also accept the string x, y, y, z."
+    },
+    {
+        "text": "Because every time, once you're at qj, if you go around once, you come back to qj."
+    },
+    {
+        "text": "And then if you go again, you'll come back to qj."
+    },
+    {
+        "text": "And as many times as you keep seeing that y, you're just going to keep coming back to qj."
+    },
+    {
+        "text": "So it doesn't matter how many y's you have."
+    },
+    {
+        "text": "You're going to still, if you follow it by z, which is what you will do, you'll end up accepting the string."
+    },
+    {
+        "text": "And that's really the proof."
+    },
+    {
+        "text": "I mean, you have to do a little bit more here just to understand."
+    },
+    {
+        "text": "I should have mentioned why I want to forbid y being the empty string."
+    },
+    {
+        "text": "Because if y is the empty string, it's not interesting."
+    },
+    {
+        "text": "It doesn't change."
+    },
+    {
+        "text": "Repeating it doesn't actually change anything."
+    },
+    {
+        "text": "So I have to make sure it's not empty."
+    },
+    {
+        "text": "But anyway, that's kind of a detail here."
+    },
+    {
+        "text": "If you look at the string x, y, y, z, that's still going to be accepted."
+    },
+    {
+        "text": "So that's the proof of the pumping lemma."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So let's have a little check-in related to that."
+    },
+    {
+        "text": "This is not going to be, again, not super hard, but more just a curiosity."
+    },
+    {
+        "text": "So the pumping lemma depends on the fact that if M has p states and it runs for more than p steps, then it's going to enter some state twice."
+    },
+    {
+        "text": "So you may have seen that before."
+    },
+    {
+        "text": "It actually has a name, which some of you may have seen."
+    },
+    {
+        "text": "So let's see how to just get a poll here."
+    },
+    {
+        "text": "I hope not too many of you are going to pick C, as some of you are."
+    },
+    {
+        "text": "Oh, well."
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "I think this one, most of you have seen this before."
+    },
+    {
+        "text": "This is, I think you pretty much all got it."
+    },
+    {
+        "text": "This is what's known as the pigeonhole principle."
+    },
+    {
+        "text": "So here, sharing the results."
+    },
+    {
+        "text": "Obviously, I was having a little fun with this."
+    },
+    {
+        "text": "And some of you are having fun back at me."
+    },
+    {
+        "text": "That's OK. OK, so let's continue on."
+    },
+    {
+        "text": "Let's see how to use the pumping lemma to prove a language is not regular."
+    },
+    {
+        "text": "So I put the pumping lemma up here just so you can remember the statement of it."
+    },
+    {
+        "text": "So let's take the language D, which is the language 0 to the k, 1 to the k for any k. So that's some number of 0's followed by an equal number of 1's."
+    },
+    {
+        "text": "We're going to prove that language is not regular by using the pumping lemma."
+    },
+    {
+        "text": "And this is going to be just an ironclad proof."
+    },
+    {
+        "text": "It's not going to say, well, I couldn't think of how to find it a finite automaton."
+    },
+    {
+        "text": "This is going to be a proof."
+    },
+    {
+        "text": "So we want to show that D is not regular."
+    },
+    {
+        "text": "And we're going to give a, these things always go as a proof by contradiction."
+    },
+    {
+        "text": "So proof by contradiction, hopefully as a reminder to you, the way that works is you're going to assume the opposite of what you're trying to prove."
+    },
+    {
+        "text": "And then from that, something crazy is going to happen, something you know is obviously false or wrong."
+    },
+    {
+        "text": "And so therefore, your assumption, which is the opposite of what you're trying to prove, had to be wrong."
+    },
+    {
+        "text": "And so therefore, the thing you're trying to prove has to be right."
+    },
+    {
+        "text": "That's the essence of what's called proof by contradiction."
+    },
+    {
+        "text": "So first of all, we're going to assume to get our contradiction that D is regular, which is what we're trying to show is not the case."
+    },
+    {
+        "text": "Now, if D is regular, then we can apply the pumping limit up above here, which gives us that pumping length p, which says that any string longer than p can be pumped and you stay in the language."
+    },
+    {
+        "text": "That's what the pumping limit tells you."
+    },
+    {
+        "text": "So let's pick the string s, which is the string 0 to the p, 1 to the p. Here's sort of a picture of s off on the side here."
+    },
+    {
+        "text": "So a bunch of 0s followed by an equal number of 1s."
+    },
+    {
+        "text": "And that string is in D, because D is strings of that form."
+    },
+    {
+        "text": "And it's longer than p. Obviously, it's of length 2p."
+    },
+    {
+        "text": "So the pumping limit tells us there's a way to cut it up, satisfying those three conditions."
+    },
+    {
+        "text": "So how in the world could we possibly cut s up?"
+    },
+    {
+        "text": "Well, remember the three conditions, and especially condition 3 is going to come in handy here, say that you can cut s up into three pieces, x, y, and z, where the first two pieces lie in the first p symbols of s, at most p long."
+    },
+    {
+        "text": "So x and y together are not very big."
+    },
+    {
+        "text": "They don't extend beyond the first half of x and first half of s. And in particular, they're all 0s."
+    },
+    {
+        "text": "x and y are going to be all 0s."
+    },
+    {
+        "text": "z is going to perhaps have some 0s and will have the rest of the 1s."
+    },
+    {
+        "text": "We'll have the 1s."
+    },
+    {
+        "text": "Now, the pumping limit says that if you cut it up that way, you can repeat y as many times as you like, and you stay in the language."
+    },
+    {
+        "text": "But that's obviously false, because if you repeat y, which now has only 0s, you're going to have too many 0s."
+    },
+    {
+        "text": "And so the resulting string is no longer going to be of the form 0 to the k, 1 to the k. It's going to be lots of 0s followed by not so many 1s."
+    },
+    {
+        "text": "That's not in the language."
+    },
+    {
+        "text": "And that violates what the pumping limit tells you is supposed to happen."
+    },
+    {
+        "text": "And that's a contradiction."
+    },
+    {
+        "text": "So therefore, our assumption that D is regular is false."
+    },
+    {
+        "text": "And so we conclude that D is not regular."
+    },
+    {
+        "text": "So that's a fairly simple one."
+    },
+    {
+        "text": "I thought I would do another couple of examples, because you have this on your homework, and I thought it might be helpful."
+    },
+    {
+        "text": "So here's a second one, slightly harder, but not too much."
+    },
+    {
+        "text": "Let's take the language F, which looks like the strings ww."
+    },
+    {
+        "text": "These are strings that are two copies of the same string."
+    },
+    {
+        "text": "For any string that might be in sigma star, so for any string at all, I'm going to have two copies of that string."
+    },
+    {
+        "text": "And so F is those strings which are just two copies of the same string."
+    },
+    {
+        "text": "OK. We're going to show that F is not regular."
+    },
+    {
+        "text": "These things always go the same way."
+    },
+    {
+        "text": "It's the same pattern."
+    },
+    {
+        "text": "You prove by contradiction."
+    },
+    {
+        "text": "So you assume for contradiction that D, that's bad."
+    },
+    {
+        "text": "That was copied from my other slide."
+    },
+    {
+        "text": "That's wrong."
+    },
+    {
+        "text": "Let's see if I can actually make this work here."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Assume for contradiction that F is regular."
+    },
+    {
+        "text": "The pumping lemma gives F is above."
+    },
+    {
+        "text": "And so now we need to choose a string S that's in F to do the pumping and show that the pumping lemma is going to fail."
+    },
+    {
+        "text": "You're going to pump, and you're going to get something which is not in language, which shows that something has gone wrong."
+    },
+    {
+        "text": "But which S to choose?"
+    },
+    {
+        "text": "And sometimes, that's where the creativity in applying the pumping lemma comes in, because you have to figure out which is the right string you're going to pump on."
+    },
+    {
+        "text": "So you might try the string, well, 0 to the p, 0 to the p. That's certainly in F. It's two copies of the same string."
+    },
+    {
+        "text": "Here it is I've written."
+    },
+    {
+        "text": "Lots of 0's followed by the same number of 0's."
+    },
+    {
+        "text": "The problem is, if you use that string, it actually is a string that you can pump."
+    },
+    {
+        "text": "You can break that string up into three pieces."
+    },
+    {
+        "text": "And then if you let y be the string 0, 0, actually, you have to be a little careful."
+    },
+    {
+        "text": "The string just 0 doesn't work, because there's an evenness-oddness phenomenon going here."
+    },
+    {
+        "text": "So you might want to just think about that."
+    },
+    {
+        "text": "But if you let y be the string 0, 0, then if you have the string x, y, x, any number of y's, it's still just going to be a bunch of 0's."
+    },
+    {
+        "text": "And you're going to be able to see that that string is still in the language."
+    },
+    {
+        "text": "So you haven't learned anything."
+    },
+    {
+        "text": "If the pumping lemma works and you're satisfying the pumping lemma, you haven't learned anything."
+    },
+    {
+        "text": "So what you need to find is some other string."
+    },
+    {
+        "text": "That was a bad choice for s. Find a different string."
+    },
+    {
+        "text": "So here's a different choice."
+    },
+    {
+        "text": "0 to the p1, 0 to the p1."
+    },
+    {
+        "text": "So that's two copies of the same string."
+    },
+    {
+        "text": "And we're going to show it can't be pumped."
+    },
+    {
+        "text": "So here's a picture of that string here."
+    },
+    {
+        "text": "So 0's followed by 1, 0's followed by 1."
+    },
+    {
+        "text": "And now it's very similar to the first argument."
+    },
+    {
+        "text": "If you cut it into three pieces in such a way that it satisfies the conditions, the first two pieces are going to be residing only among the 0's."
+    },
+    {
+        "text": "And so therefore, when you repeat a y, you're no longer going to have two copies of the same string and so won't be in the language."
+    },
+    {
+        "text": "So therefore, you've got a contradiction and f is not regular."
+    },
+    {
+        "text": "So you have to play with the pumping lemma a little bit."
+    },
+    {
+        "text": "If you haven't seen that before, it's going to be, it takes a little getting used to."
+    },
+    {
+        "text": "But you have a few homework questions that need to be solved using the pumping lemma."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So now let's look at, lastly, there is another method that can come in, which is combining closure properties with the pumping lemma."
+    },
+    {
+        "text": "So closure properties sometimes help you."
+    },
+    {
+        "text": "So let's look at the language B, which is actually we saw earlier in the lecture, where we have an equal number of 0's and 1's."
+    },
+    {
+        "text": "Now, we could prove that directly using the pumping lemma as not being regular."
+    },
+    {
+        "text": "But it's actually even easier."
+    },
+    {
+        "text": "What we're going to prove that it is, we're going to prove that it's not regular in a different way."
+    },
+    {
+        "text": "First, we're going to assume for contradiction, as we often do, that it is regular."
+    },
+    {
+        "text": "And now we're going to use something, we're going to use some other knowledge."
+    },
+    {
+        "text": "We're not going to use the pumping lemma here because we're going to take advantage of an earlier case where we use the pumping lemma."
+    },
+    {
+        "text": "And so now we know that the string, the language 0 star 1 star is a regular language because it's described by a regular expression."
+    },
+    {
+        "text": "If you take the B, which is the equal numbers of 0's and 1's, and you intersect it with 0 star 1 star, that's going to be a regular language if B was regular using closure under intersection."
+    },
+    {
+        "text": "But this language B intersects 0 star 1 star is the language of equal numbers of 0's and 1's where the 0's come first."
+    },
+    {
+        "text": "And that's the language D that we showed two slides back that we already know can't be regular."
+    },
+    {
+        "text": "So that intersection cannot be regular, and so it violates the closure property."
+    },
+    {
+        "text": "And again, we get a contradiction."
+    },
+    {
+        "text": "So that's a different way of sometimes making a shortcut to prove a language is not regular."
+    },
+    {
+        "text": "So we have in our last 10 minutes or so, we're going to shift gears totally in an entirely different way and consider a new model of computation, which is more powerful, that can actually do things that we can't do with finite automata."
+    },
+    {
+        "text": "And these are called context-free grammars."
+    },
+    {
+        "text": "So this is really just a kind of an introduction."
+    },
+    {
+        "text": "We're going to spend all of next lecture looking at context-free grammars."
+    },
+    {
+        "text": "And they're associated languages."
+    },
+    {
+        "text": "But let's just do kind of get a preview."
+    },
+    {
+        "text": "So a context-free grammar looks like this."
+    },
+    {
+        "text": "You have a bunch of these what we call substitution rules or rules sometimes, which just look like a symbol, arrow, a string of symbols."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "That's what a context-free grammar looks like at a high level."
+    },
+    {
+        "text": "Let's define some terms."
+    },
+    {
+        "text": "So a rule, as I just described, is going to be a symbol, which we're going to call a variable."
+    },
+    {
+        "text": "And that's going to have an arrow to a string of possibly other variables and symbols called terminals."
+    },
+    {
+        "text": "So a variable is a symbol that appears on the left-hand side of a rule."
+    },
+    {
+        "text": "Anything that appears on the left-hand side is going to be considered to be a variable."
+    },
+    {
+        "text": "So s and r are both variables."
+    },
+    {
+        "text": "Now, other symbols that appear in the grammar, which don't appear in the left-hand side, those are going to be called terminals."
+    },
+    {
+        "text": "So here, 0 and 1 are terminals."
+    },
+    {
+        "text": "Now, you may think that empty string should also be a terminal, but that's not a symbol."
+    },
+    {
+        "text": "Empty string is a string."
+    },
+    {
+        "text": "It's just a string of length 0."
+    },
+    {
+        "text": "So I'm not considering empty string to be a terminal."
+    },
+    {
+        "text": "And then there's going to be a special variable, which is going to be considered the starting variable, just like we had a starting state."
+    },
+    {
+        "text": "And that's typically going to be written as the top left symbol."
+    },
+    {
+        "text": "So this symbol s here is going to be the starting symbol."
+    },
+    {
+        "text": "And grammars can be used to define languages and to gen, well, to generate strings and to define languages."
+    },
+    {
+        "text": "So first of all, let's see how a grammar using this as an illustration can generate strings."
+    },
+    {
+        "text": "Actually, just to emphasize this terminology here, in this particular example, we had three rules."
+    },
+    {
+        "text": "The two variables were r and s. The two terminals were 0 and 1."
+    },
+    {
+        "text": "And the start variable was this top left-hand symbol, as I mentioned, the s. So grammars generate strings."
+    },
+    {
+        "text": "The way they do is you follow a certain procedure, which is really pretty simple."
+    },
+    {
+        "text": "You write down, first of all, the start variable."
+    },
+    {
+        "text": "And I'll do an example in a second."
+    },
+    {
+        "text": "You write down the start variable."
+    },
+    {
+        "text": "And then you take a look at what you've written down."
+    },
+    {
+        "text": "And if it has any variables in it, you can apply one of the corresponding right-hand sides of a rule as a substitution for that variable."
+    },
+    {
+        "text": "And so, for example, if you have an s in the thing you've written down, you can substitute for that s a 0, s, 1."
+    },
+    {
+        "text": "Or you can substitute for that s an r. Or if you have an r, you can substitute for that s an empty string."
+    },
+    {
+        "text": "So you're just going to keep on doing that substitutions over and over again until there are no variables left."
+    },
+    {
+        "text": "So there's nothing left to substitute."
+    },
+    {
+        "text": "Only terminals remain."
+    },
+    {
+        "text": "At that point, you have generated a string in the language."
+    },
+    {
+        "text": "So the language, then, is the collection of all generated strings."
+    },
+    {
+        "text": "OK, let's do an example."
+    },
+    {
+        "text": "Here's an example of G1 generating some string."
+    },
+    {
+        "text": "So as I mentioned, first of all, you're going to write down the start variable."
+    },
+    {
+        "text": "And I'm just going to illustrate this in sort of two parallel tracks here."
+    },
+    {
+        "text": "On the left side, I'm going to show you the tree of substitutions."
+    },
+    {
+        "text": "And on the right side, I'm going to show you the resulting string that you get by applying those substitutions."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So over here, I'm going to substitute for s the string 0, s1."
+    },
+    {
+        "text": "So on the right-hand side, I just have 0, s1 because that's what I substituted for s. But you'll see it's going to look a little different in a second."
+    },
+    {
+        "text": "Here, again, I still have a variable."
+    },
+    {
+        "text": "So I'm going to substitute for s 0, s1."
+    },
+    {
+        "text": "Now I have the resulting string 0, 0, s1, 1 because I've substituted 0, s1 for the previous s. But the 0 and 1 stick around from before."
+    },
+    {
+        "text": "They don't go anywhere."
+    },
+    {
+        "text": "So I have at this point 0, 0, s1, 1."
+    },
+    {
+        "text": "Now I'm going to take a different choice."
+    },
+    {
+        "text": "I'm going to substitute for s. I could have gone either way."
+    },
+    {
+        "text": "There's sort of something almost like nondeterminism here because you have a choice."
+    },
+    {
+        "text": "I'm going to substitute for s. Instead of 0, s1, I'm going to substitute r because that's also legitimate in terms of the rules."
+    },
+    {
+        "text": "And so now I'm going to have 0, 0, r, 1, 1."
+    },
+    {
+        "text": "And now r, there's no choices here."
+    },
+    {
+        "text": "r can only be substituted for by an empty string."
+    },
+    {
+        "text": "So I get to r becomes just empty string."
+    },
+    {
+        "text": "And in terms of the string generated, empty string doesn't add anything."
+    },
+    {
+        "text": "It just really is nothing."
+    },
+    {
+        "text": "It's a nothing."
+    },
+    {
+        "text": "So I get the string 0, 0, 1, 1."
+    },
+    {
+        "text": "And this is a string just of terminal symbols."
+    },
+    {
+        "text": "And so that is a string in the language of the grammar G1."
+    },
+    {
+        "text": "If you think about it, G1's language is that language that we saw before, which I think we called D. 0 to the k, 1 to the k for k greater than or equal to 0."
+    },
+    {
+        "text": "So this is an example of a language that a context-free grammar can do, but a finite automaton cannot do."
+    },
+    {
+        "text": "So that is our little introduction to content."
+    },
+    {
+        "text": "Oops, there's one more check-in here."
+    },
+    {
+        "text": "Oh, yeah, so I'm asking you to actually look at, let me get myself out of this picture so you don't see me blocking things."
+    },
+    {
+        "text": "And we will do one last check-in."
+    },
+    {
+        "text": "Check-in, make sure you're staying around for the whole thing."
+    },
+    {
+        "text": "Now there could be several of these strings that are in the language."
+    },
+    {
+        "text": "You have to click them all."
+    },
+    {
+        "text": "All the ones that you have found that are in the language of this grammar that can be generated by grammar G2, you have to click those."
+    },
+    {
+        "text": "I'll give you a little bit more time on this one to see which ones G2 can generate."
+    },
+    {
+        "text": "I'll give you a hint."
+    },
+    {
+        "text": "There's more than one, but not all."
+    },
+    {
+        "text": "So I see you're making some progress here."
+    },
+    {
+        "text": "Interesting."
+    },
+    {
+        "text": "So please, we're going to wrap this up very quickly."
+    },
+    {
+        "text": "You can click, somebody's telling me you can unclick."
+    },
+    {
+        "text": "Thank you, good to know."
+    },
+    {
+        "text": "OK, so still things are coming in here."
+    },
+    {
+        "text": "So we're running toward the end of the hour here."
+    },
+    {
+        "text": "I don't want to go over."
+    },
+    {
+        "text": "So I'm going to end it in five seconds."
+    },
+    {
+        "text": "Click away."
+    },
+    {
+        "text": "And don't forget, we're not going to charge you if you get it wrong."
+    },
+    {
+        "text": "Sharing results, I don't know why it has an orange one there because there are several correct answers here."
+    },
+    {
+        "text": "So it's A, B, and D are correct."
+    },
+    {
+        "text": "You can get any of those."
+    },
+    {
+        "text": "It's really sort of two copies of the language we had before next to one another."
+    },
+    {
+        "text": "And so the only thing you cannot get is 1, 0, 1, 0."
+    },
+    {
+        "text": "So I encourage you to think about that."
+    },
+    {
+        "text": "And I will come to our last side of today, which is just a quick review."
+    },
+    {
+        "text": "I can put myself back."
+    },
+    {
+        "text": "So we showed how to convert DFAs to regular expressions."
+    },
+    {
+        "text": "And the summary is that DFAs, NFAs, GNFAs even, and regular expressions are all equivalent in the class of languages they can describe."
+    },
+    {
+        "text": "The second thing we did was a method for proving languages not regular by using the pumping lemma or closure properties."
+    },
+    {
+        "text": "And lastly, we introduced context-free grammars."
+    },
+    {
+        "text": "And we're going to see more about those on Thursday."
+    },
+    {
+        "text": "So with that, I think we're out of time."
+    },
+    {
+        "text": "And I'll thank you for the notes of appreciation."
+    },
+    {
+        "text": "And I think we're going to end here and see you on Thursday, if not before."
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Days ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "we'll probably be here for days ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Days ?",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

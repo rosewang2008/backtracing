@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "cxTmmasBiC8",
+        "query_id": 0,
+        "timestamp": 1684191388833.0,
+        "annotatedSourceSentencesIndices": [
+            16,
+            18
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "3:08 how do you take (a_i - x) if a_i and x are not adjacent nodes?"
+    }
+]

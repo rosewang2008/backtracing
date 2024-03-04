@@ -1,0 +1,68 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 3,
+        "timestamp": 1684511496045.0,
+        "annotatedSourceSentencesIndices": [
+            196,
+            197
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Do maths/science/engineering students take this class or some other multivariable calculus course like 18.024?"
+    },
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 5,
+        "timestamp": 1684511772657.0,
+        "annotatedSourceSentencesIndices": [
+            161
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "18:09 why the range of r goes from 0 to 1? I think the definition of S in this problem needs further clarification. S should be a paraboloid of z = x^2 + y^2 between z=0 and z=1. It is a little confusing by justing saying \"above the unit disk\".  "
+    },
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 7,
+        "timestamp": 1684511834173.0,
+        "annotatedSourceSentencesIndices": [
+            359,
+            361
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Isn't this theorem called after Ostrogradsky, since he is the first one to prove it?"
+    },
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 8,
+        "timestamp": 1684512043723.0,
+        "annotatedSourceSentencesIndices": [
+            226,
+            227,
+            264
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Wait, did he ever account for vector N not being a unit vector? He never required that the N vector represented the area of the delta slanted plane did he?"
+    },
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 1,
+        "timestamp": 1684192120438.0,
+        "annotatedSourceSentencesIndices": [
+            331,
+            331
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "I did not understand the last step replacing dA by dxdy. The proof contained slanted plane with an angle alpha to only one axis and not a general slant in both directions. Does this proof apply when we are considering a general slant to both x and y ? Will dA=dS Cos theta still be applicable?"
+    }
+]

@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Mike , what gives ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Hi , Mike , what gives ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Bill , this is my new car .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is my new car ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi , Bill , this is my new car .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Hey , great set of wheels .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "great set of wheels ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , great set of wheels .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You like it , huh ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "this is my new car .",
+            "great set of wheels ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You like it , huh ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Who wouldn't ? Wow , that's out of this world .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "great set of wheels .",
+            "that's out of this world ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Who wouldn't ? Wow , that's out of this world .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It is special , isn't it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "that's out of this world ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It is special , isn't it ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah , too cool . How much did they sold you for ?",
+        "emotion": "happiness",
+        "explanation": "the speaker and listener are happy due to the background context and the car",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "great set of wheels .",
+            "that's out of this world ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yeah , too cool . How much did they sold you for ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Lots . Looks like I'll have to moonlight for the next two years .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "this is my new car ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Lots . Looks like I'll have to moonlight for the next two years .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I can imagine .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "great set of wheels .",
+            "that's out of this world ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I can imagine .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Hey , let's go for a spin . You can try it out .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "let's go for a spin . You can try it out ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , let's go for a spin . You can try it out .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I'd love to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "let's go for a spin . You can try it out .",
+            "I'd love to"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'd love to .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Ok , let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "let's go for a spin . You can try it out ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Ok , let's go .",
+        "id": 12
+    }
+]

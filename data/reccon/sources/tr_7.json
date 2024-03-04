@@ -1,0 +1,187 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I hear you bought a new house in the northern suburbs .",
+        "emotion": "neutral",
+        "text": "I hear you bought a new house in the northern suburbs .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That ' s right , we bought it the same day we came on the market .",
+        "emotion": "neutral",
+        "text": "That ' s right , we bought it the same day we came on the market .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What kind of house is it ?",
+        "emotion": "neutral",
+        "text": "What kind of house is it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s a wonderful Spanish style .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "wonderful Spanish style ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s a wonderful Spanish style .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I love the roof tiles on Spanish style houses .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "wonderful Spanish style .",
+            "I love the roof tiles on Spanish style houses ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I love the roof tiles on Spanish style houses .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "And it ' s a bargaining . A house like this in river side costs double the price .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "wonderful Spanish style .",
+            "I love the roof tiles on Spanish style houses .",
+            "And it ' s a bargaining . A house like this in river side costs double the price ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "And it ' s a bargaining . A house like this in river side costs double the price .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Great , is it a two bedroom house ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "And it ' s a bargaining . A house like this in river side costs double the price ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great , is it a two bedroom house ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , it has three bedrooms and three beds , and has a living room with a twelve-foot ceiling . There ' s a two-car garage .",
+        "emotion": "neutral",
+        "text": "No , it has three bedrooms and three beds , and has a living room with a twelve-foot ceiling . There ' s a two-car garage .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s a nice area too . It ' ll be a good investment for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "three bedrooms and three beds , and has a living room with a twelve-foot ceiling . There ' s a two-car garage .",
+            "nice area too . It ' ll be a good investment for you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s a nice area too . It ' ll be a good investment for you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yeas , when will you buy a house ?",
+        "emotion": "neutral",
+        "text": "Yeas , when will you buy a house ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Not untill the end of this year , you know , just before my wedding .",
+        "emotion": "neutral",
+        "text": "Not untill the end of this year , you know , just before my wedding .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Right , congratulations .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "my wedding"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Right , congratulations .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "my wedding",
+            "congratulations"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you .",
+        "id": 13
+    }
+]

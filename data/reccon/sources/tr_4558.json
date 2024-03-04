@@ -1,0 +1,211 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hoo , I'm getting tired , Jeanine , been a long day .",
+        "emotion": "neutral",
+        "text": "Hoo , I'm getting tired , Jeanine , been a long day .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm not quitting yet . You know my favourite slogan , don't you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "I'm not quitting yet . You know my favourite slogan , don't you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yeah , I know . Shop till you drop .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm not quitting yet ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I know . Shop till you drop .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Right !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm not quitting yet ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Right !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm getting a little short on cash . Let's just window shop a little .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Shop till you drop ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I'm getting a little short on cash . Let's just window shop a little .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ok .",
+        "emotion": "neutral",
+        "text": "Ok .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Hey , Jeanine , get a load of that . It's beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "get a load of that . It's beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , Jeanine , get a load of that . It's beautiful .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Ahahah , and I thought you were tired .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "get a load of that . It's beautiful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ahahah , and I thought you were tired .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You know .. I have a weakness for long dresses .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "get a load of that . It's beautiful ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "You know .. I have a weakness for long dresses .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It sure looks special , looks expensive too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It sure looks special , looks expensive too ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It sure looks special , looks expensive too .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sure does . Hey , can I sponge a little cash of you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "It sure looks special , looks expensive too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure does . Hey , can I sponge a little cash of you ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Don't worry , Mary , I've got you covered .",
+        "emotion": "happiness",
+        "explanation": "Helping happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've got you covered ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Don't worry , Mary , I've got you covered .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thanks , Jeanine , you are a real pal . Let's go in .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've got you covered ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , Jeanine , you are a real pal . Let's go in .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning , May . Good girl , you are reading English books again .",
+        "emotion": "neutral",
+        "text": "Good morning , May . Good girl , you are reading English books again .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good morning . There is no reason to miss so beautiful a morning . Is that a new bird ?",
+        "emotion": "neutral",
+        "text": "Good morning . There is no reason to miss so beautiful a morning . Is that a new bird ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , yes , my daughter bought it yesterday . We call her Lulu .",
+        "emotion": "neutral",
+        "text": "Oh , yes , my daughter bought it yesterday . We call her Lulu .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It looks so cute . Is it a parrot ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It looks so cute ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It looks so cute . Is it a parrot ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . Just look at her colorful feathers . What else can it be ?",
+        "emotion": "neutral",
+        "text": "Yes . Just look at her colorful feathers . What else can it be ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I see . It's interesting that there is also a parrot in my English book . His mane is Polly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It looks so cute ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I see . It's interesting that there is also a parrot in my English book . His mane is Polly .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? A foreign parrot !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It's interesting that there is also a parrot in my English book . His mane is Polly ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? A foreign parrot !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He can speak English , too .",
+        "emotion": "neutral",
+        "text": "He can speak English , too .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Maybe you can teach Lulu some English words .",
+        "emotion": "neutral",
+        "text": "Maybe you can teach Lulu some English words .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Lulu . Lulu . Say hello . hello . Oh , she is so smart . Good bird .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            10
+        ],
+        "expanded emotion cause span": [
+            "It looks so cute .",
+            "Oh , she is so smart . Good bird ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Lulu . Lulu . Say hello . hello . Oh , she is so smart . Good bird .",
+        "id": 10
+    }
+]

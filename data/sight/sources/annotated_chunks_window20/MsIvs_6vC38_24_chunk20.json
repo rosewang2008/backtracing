@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Calculus is like sums except it's continuous."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And we're, and algebra is discrete."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So the answer is one third n cubed."
+    },
+    {
+        "text": "Now I'll just, let me, let me say one more thing about operations."
+    },
+    {
+        "text": "What about the right-hand side?"
+    },
+    {
+        "text": "This was what it cost on the left side."
+    },
+    {
+        "text": "Count."
+    },
+    {
+        "text": "This is on A."
+    },
+    {
+        "text": "Because this is A that we're working with."
+    },
+    {
+        "text": "But what's the cost on the extra column vector B that we're hanging around here?"
+    },
+    {
+        "text": "So B, B costs a lot less, obviously."
+    },
+    {
+        "text": "Because it's just one column."
+    },
+    {
+        "text": "We carry it through elimination and then actually we do back substitution."
+    },
+    {
+        "text": "Let me just tell you the answer there."
+    },
+    {
+        "text": "It's n squared."
+    },
+    {
+        "text": "So the cost for every right-hand side is n squared."
+    },
+    {
+        "text": "So let me, I'll just fit that in here."
+    },
+    {
+        "text": "For the right, for the cost of B, of B, turns out to be n squared."
+    }
+]

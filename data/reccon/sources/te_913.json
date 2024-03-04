@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Diane Grant ? I haven't seen you for ages !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Diane Grant ? I haven't seen you for ages !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Brian ! How have you been ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Brian ! How have you been ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Pretty good . Say , you've really changed !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages !",
+            "How have you been ?",
+            "Pretty good ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Pretty good . Say , you've really changed !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , well , I've lost some weight . And my hair is longer than before .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages !",
+            "I've lost some weight .",
+            "my hair is longer than before ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , well , I've lost some weight . And my hair is longer than before .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , you look great ! How are you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for ages !",
+            "you look great !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Well , you look great ! How are you ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm doing really well . I got married about three years ago . I have two kids now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "you look great !",
+            "I'm doing really well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm doing really well . I got married about three years ago . I have two kids now .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's terrific !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm doing really well . I got married about three years ago . I have two kids now ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's terrific !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

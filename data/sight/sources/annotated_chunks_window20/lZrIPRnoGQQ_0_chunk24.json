@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So specialize to C equal a column vector, which means that q is 1."
+    },
+    {
+        "text": "I only have one column."
+    },
+    {
+        "text": "So then A times BC is versus AB times C. So let's just figure that out when q is 1."
+    },
+    {
+        "text": "So npq is just np."
+    },
+    {
+        "text": "And mnq is just mn, where AB is mnp."
+    },
+    {
+        "text": "Oh, that's a bad one."
+    },
+    {
+        "text": "Disaster already."
+    },
+    {
+        "text": "Multiplying, those are potentially two big matrices."
+    },
+    {
+        "text": "Multiplying a column vector."
+    },
+    {
+        "text": "So here I've done a matrix multiplication."
+    },
+    {
+        "text": "I never should have done that."
+    },
+    {
+        "text": "This is a matrix vector."
+    },
+    {
+        "text": "It gives me a vector."
+    },
+    {
+        "text": "And then this is a matrix vector."
+    },
+    {
+        "text": "So I get nice numbers here."
+    },
+    {
+        "text": "But I get a terrible number for AB."
+    },
+    {
+        "text": "And then I multiply that by C. So that's mpq."
+    },
+    {
+        "text": "mpq."
+    },
+    {
+        "text": "So mp is factoring out."
+    },
+    {
+        "text": "So if I write it as n times m plus p versus this one is m that's factoring out times m. No."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so where is that?"
+    },
+    {
+        "text": "Well, it's perpendicular to that guy."
+    },
+    {
+        "text": "That's what I know, right?"
+    },
+    {
+        "text": "That was the point, that the two columns are perpendicular."
+    },
+    {
+        "text": "So it must go down this way, right?"
+    },
+    {
+        "text": "Sine theta, cos theta."
+    },
+    {
+        "text": "And it doesn't change length."
+    },
+    {
+        "text": "All these facts that we just learned are key."
+    },
+    {
+        "text": "So there's 0, 1, and it goes to this guy, which is whatever that second column is, sine theta minus cos theta."
+    },
+    {
+        "text": "And if you check that, actually, gosh, this is like plain geometry."
+    },
+    {
+        "text": "I believe, it's never occurred to me before, but I believe it, that this angle going down to there, that that goes straight through, and that the halfway one is that line."
+    },
+    {
+        "text": "Yeah, I think that picture has got it, and I think it's in the notes."
+    },
+    {
+        "text": "So that's a reflection matrix."
+    },
+    {
+        "text": "Well, that's a 2 by 2 reflection matrix."
+    },
+    {
+        "text": "Would you like to see some other matrices like this one, but larger?"
+    },
+    {
+        "text": "They're named after a guy named Householder."
+    },
+    {
+        "text": "So these are Householder reflections."
+    },
+    {
+        "text": "What am I doing here?"
+    },
+    {
+        "text": "I'm collecting together some orthogonal matrices that are useful and important."
+    },
+    {
+        "text": "And Householder found a whole bunch of them, and his algorithm is a much used part of numerical linear algebra."
+    }
+]

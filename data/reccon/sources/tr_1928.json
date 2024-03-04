@@ -1,0 +1,386 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you have a bf ?",
+        "emotion": "neutral",
+        "text": "Do you have a bf ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I had a bf before .",
+        "emotion": "neutral",
+        "text": "Yes , I had a bf before .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why you say bf before ?",
+        "emotion": "neutral",
+        "text": "Why you say bf before ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We parted from each other last month .",
+        "emotion": "neutral",
+        "text": "We parted from each other last month .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Have you got a new one ?",
+        "emotion": "neutral",
+        "text": "Have you got a new one ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Mmmm , no . How about you ?",
+        "emotion": "neutral",
+        "text": "Mmmm , no . How about you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I am single , I have no real of , only an E-gf , that is you .",
+        "emotion": "neutral",
+        "text": "I am single , I have no real of , only an E-gf , that is you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Haha , so you are my E-bf .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "only an E-gf , that is you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Haha , so you are my E-bf .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I like you . Do you agree to be my of ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I like you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like you . Do you agree to be my of ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Mmmm . .. OK , let's try to be .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like you . Do you agree to be my of ?",
+            "let's try to be ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Mmmm . .. OK , let's try to be .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Wow ! Blablablabla . . .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Mmmm . .. OK , let's try to be ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow ! Blablablabla . . .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Hey ! What is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like you . Do you agree to be my of ?",
+            "let's try to be ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Hey ! What is it ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I am flying like a bird .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Mmmm . .. OK , let's try to be ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am flying like a bird .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "LL",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like you . Do you agree to be my of ?",
+            "let's try to be ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "LL",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I am so happy . I want to drink a cup of champagne .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Mmmm . .. OK , let's try to be ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am so happy . I want to drink a cup of champagne .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I have no champagne right now . How about this ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like you . Do you agree to be my of ?",
+            "let's try to be ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I have no champagne right now . How about this ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "It's OK , so I send you this .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Mmmm . .. OK , let's try to be ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's OK , so I send you this .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Is it made of chocolate ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17
+        ],
+        "expanded emotion cause span": [
+            "so I send you this ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is it made of chocolate ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "It's my heart ; it's made of what you like .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "It's my heart ; it's made of what you like ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's my heart ; it's made of what you like .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Oh , I will have a sweet dream .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "It's my heart ; it's made of what you like ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , I will have a sweet dream .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Are you sleepy ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you sleepy ?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "A little bit . I have to go to sleep though I don't want to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20,
+            22
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream .",
+            "I have to go to sleep though I don't want to ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "A little bit . I have to go to sleep though I don't want to .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Yes , I do not want to see ur sleeping in the office .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , I do not want to see ur sleeping in the office .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "Thx . Bye for now . Kisssssssssss .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20,
+            23
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream .",
+            "I do not want to see ur sleeping in the office ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thx . Bye for now . Kisssssssssss .",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "C U here , honey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20,
+            24
+        ],
+        "expanded emotion cause span": [
+            "Oh , I will have a sweet dream .",
+            "Kisssssssssss ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "C U here , honey .",
+        "id": 25,
+        "source_sentences": [
+            19,
+            23
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

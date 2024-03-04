@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey daddy ! You look great today . I like your tie ! By the way , I was wondering can I ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You look great today . I like your tie !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey daddy ! You look great today . I like your tie ! By the way , I was wondering can I ...",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "NO !",
+        "emotion": "neutral",
+        "text": "NO !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I haven't even told you what it is yet !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "NO !",
+            "I haven't even told you what it is yet !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I haven't even told you what it is yet !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Okay , okay , what do you want ?",
+        "emotion": "neutral",
+        "text": "Okay , okay , what do you want ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do you think I could borrow the car ? I ' m going to a concert tonight .",
+        "emotion": "neutral",
+        "text": "Do you think I could borrow the car ? I ' m going to a concert tonight .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Um .. I don ' t think so . I need the car tonight to pick up your mother .",
+        "emotion": "neutral",
+        "text": "Um .. I don ' t think so . I need the car tonight to pick up your mother .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Egg ! I told you about it last week ! Smelly Toes is playing , and Eric asked if I would go with him !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I don ' t think so . I need the car tonight to pick up your mother .",
+            "I told you about it last week ! Smelly Toes is playing , and Eric asked if I would go with him !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Egg ! I told you about it last week ! Smelly Toes is playing , and Eric asked if I would go with him !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Who's this Eric guy ?",
+        "emotion": "neutral",
+        "text": "Who's this Eric guy ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Duh ! He's like the hottest and most popular guy at school ! Come on , dad ! Please !",
+        "emotion": "neutral",
+        "text": "Duh ! He's like the hottest and most popular guy at school ! Come on , dad ! Please !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No can do ... sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "No can do ... sorry ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No can do ... sorry .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Fine then ! Would you mind giving me 100 bucks ?",
+        "emotion": "neutral",
+        "text": "Fine then ! Would you mind giving me 100 bucks ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No way !",
+        "emotion": "neutral",
+        "text": "No way !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That ' s so unfair !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "No way !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s so unfair !",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

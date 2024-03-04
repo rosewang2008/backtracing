@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We don't know how to compute it."
+    },
+    {
+        "text": "I mean, it might be a very complicated random variable."
+    },
+    {
+        "text": "Maybe it's a weird binomial."
+    },
+    {
+        "text": "We could compute it, but it would be painful."
+    },
+    {
+        "text": "But what we know how to compute is its asymptotic value, which is because of the central limit theorem, convergence and distribution tells me that the probability of type 1 error is basically going towards the probability that some Gaussian is in some region."
+    },
+    {
+        "text": "And so we're going to compute not the level itself, but the asymptotic level."
+    },
+    {
+        "text": "So again, that's basically the limit as n goes to infinity of alpha psi of theta."
+    },
+    {
+        "text": "And then I'm going to make the max here."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So how am I going to compute this?"
+    },
+    {
+        "text": "Well, if I take a test that has rejection region of the form Tn, because it depends on the data, right?"
+    },
+    {
+        "text": "That's Tn of x1, xn, my observations, larger than some number c. OK?"
+    },
+    {
+        "text": "Of course, I can almost always write tests like that, except that sometimes there's going to be an absolute value, which essentially means I'm going away from some value."
+    },
+    {
+        "text": "Maybe actually I'm less than something, but I can always put a negative sign in front of everything."
+    },
+    {
+        "text": "So this is not without much of generality, right?"
+    },
+    {
+        "text": "So this includes something that looks like something is larger than the constant, right?"
+    },
+    {
+        "text": "So that means, which is equivalent to, well, let me write it as Tq."
+    },
+    {
+        "text": "OK, because then that means that, so that's Tn."
+    },
+    {
+        "text": "But this actually encompasses the fact that Qn is larger than c, or Qn is less than c, then minus c. So that includes this guy."
+    },
+    {
+        "text": "That also includes Qn less than c, because this is equivalent to Qn is larger than minus c. Minus Qn is, and so that's going to be my Tn."
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mmm . Nice and crunchy . And they leave a space uncovered for you to hold ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Mmm . Nice and crunchy . And they leave a space uncovered for you to hold ..."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Mmm . Nice and crunchy . And they leave a space uncovered for you to hold ...",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "They're so much fun to eat . You can suck all the coating off first ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "They're so much fun to eat . You can suck all the coating off first ..."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They're so much fun to eat . You can suck all the coating off first ...",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Or just stuff the whole thing in your mouth at once !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Or just stuff the whole thing in your mouth at once !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Or just stuff the whole thing in your mouth at once !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "But that way you're not savoring it .",
+        "emotion": "neutral",
+        "text": "But that way you're not savoring it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Whatever . Give me another pack .",
+        "emotion": "neutral",
+        "text": "Whatever . Give me another pack .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey ! The movie hasn't even started and they're almost gone !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Give me another pack ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Hey ! The movie hasn't even started and they're almost gone !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

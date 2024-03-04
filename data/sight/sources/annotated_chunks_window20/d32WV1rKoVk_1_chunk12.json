@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Everybody's got his eye on the main diagonal."
+    },
+    {
+        "text": "And one diagonal, I can get a lot of zeros."
+    },
+    {
+        "text": "But I can't by simple computations."
+    },
+    {
+        "text": "And I'll show you how to get one."
+    },
+    {
+        "text": "But I can't get all those to be 0, because then I would have the eigenvalues right there."
+    },
+    {
+        "text": "And that, well, how do I know that I can't?"
+    },
+    {
+        "text": "In elimination, ordinary solving AX equal B, you really do get to an upper triangular form."
+    },
+    {
+        "text": "Some operator, some elimination steps, you plug away, and your matrix becomes upper triangular U."
+    },
+    {
+        "text": "And you're golden."
+    },
+    {
+        "text": "But that's too much to expect here."
+    },
+    {
+        "text": "In fact, we know we can't do it by simple steps."
+    },
+    {
+        "text": "Because if we could do it, if we could get to a U with a whole lower triangular part 0, we would have found the eigenvalues."
+    },
+    {
+        "text": "And we know that the eigenvalues solve an equation of nth degree."
+    },
+    {
+        "text": "And we know somebody proved centuries or more ago that you can't solve an nth degree equation by simple little steps."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "Do you know who that was?"
+    },
+    {
+        "text": "And you know that fact?"
+    },
+    {
+        "text": "And what degree does it apply to?"
+    },
+    {
+        "text": "So that's an important fact that you sort of pick up in math."
+    },
+    {
+        "text": "Yeah, what do you?"
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you seen this ?",
+        "emotion": "neutral",
+        "text": "Have you seen this ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "They killed another hostage .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "They killed another hostage ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They killed another hostage .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , how awful . What a terrible thing to do .",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "They killed another hostage .",
+            "how awful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , how awful . What a terrible thing to do .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I agree completely . I just don't understand what's wrong with them . Don't they have any humanity ?",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "They killed another hostage .",
+            "how awful .",
+            "Don't they have any humanity ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I agree completely . I just don't understand what's wrong with them . Don't they have any humanity ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , maybe they've got a point . I mean , I suspect that they think the same about us .",
+        "emotion": "neutral",
+        "text": "Well , maybe they've got a point . I mean , I suspect that they think the same about us .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , but that doesn't make them right , does it ? Just because they think so ?",
+        "emotion": "neutral",
+        "text": "Yes , but that doesn't make them right , does it ? Just because they think so ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I guess not . My view is that we should give in to their demands , so that innocent people can stop getting killed .",
+        "emotion": "neutral",
+        "text": "I guess not . My view is that we should give in to their demands , so that innocent people can stop getting killed .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Come on , you can't be serious ! We should never give in to terrorist's demands , otherwise where would we be ?",
+        "emotion": "neutral",
+        "text": "Come on , you can't be serious ! We should never give in to terrorist's demands , otherwise where would we be ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , that's probably true , but I don't think we should be dogmatic about it . A colleague of mine was kidnapped once , so perhaps I have a different view of things .",
+        "emotion": "neutral",
+        "text": "Well , that's probably true , but I don't think we should be dogmatic about it . A colleague of mine was kidnapped once , so perhaps I have a different view of things .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Really ? What happened ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "A colleague of mine was kidnapped once"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What happened ?",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , it was in the Balkans during the war . He was only held for three days , and then they simply released him . It was a case of mistaken identity , and they just let him go when they found out he was no use to them . It was lucky they didn't kill him .",
+        "emotion": "neutral",
+        "text": "Well , it was in the Balkans during the war . He was only held for three days , and then they simply released him . It was a case of mistaken identity , and they just let him go when they found out he was no use to them . It was lucky they didn't kill him .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , sure .",
+        "emotion": "neutral",
+        "text": "Oh , sure .",
+        "id": 13
+    }
+]

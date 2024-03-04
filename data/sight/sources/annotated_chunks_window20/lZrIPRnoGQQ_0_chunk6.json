@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But I think maybe this blog was earlier before the start of distill."
+    },
+    {
+        "text": "But it might be loaded onto distil."
+    },
+    {
+        "text": "Anyway, that's where I got this simple description of backpropagation."
+    },
+    {
+        "text": "And let's just do calculus first of all."
+    },
+    {
+        "text": "If I just have a function of maybe even one variable, what's the derivative?"
+    },
+    {
+        "text": "What is df dx here?"
+    },
+    {
+        "text": "Just to remember what calculation we have to do."
+    },
+    {
+        "text": "So df dx, this is with n equal 1, one variable."
+    },
+    {
+        "text": "So I'll use ordinary derivative and not partial derivative."
+    },
+    {
+        "text": "But this is then what I, that's what really has to be done."
+    },
+    {
+        "text": "But just what's the derivative of that, of a chain of functions?"
+    },
+    {
+        "text": "Well, of course, the chain rule."
+    },
+    {
+        "text": "So what does the chain rule say?"
+    },
+    {
+        "text": "I differentiate F3."
+    },
+    {
+        "text": "I don't know, what do I put that it's differentiated with respect to?"
+    },
+    {
+        "text": "F3, df3, df2, is that what I should put?"
+    },
+    {
+        "text": "OK. And where do I evaluate that derivative?"
+    },
+    {
+        "text": "So yeah, I don't evaluate it at x, right?"
+    },
+    {
+        "text": "I'm differentiating with respect to F2."
+    },
+    {
+        "text": "So do I evaluate it at F2 of F1 of x?"
+    }
+]

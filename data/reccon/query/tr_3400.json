@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wonderful . Just e-mail me the time and date and I'll be there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We thought it would be fun to have a pool party at Jay's house .",
+            "Dress casually and bring your bathing suit !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful . Just e-mail me the time and date and I'll be there .",
+        "id": 10,
+        "source_sentences": [
+            4,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

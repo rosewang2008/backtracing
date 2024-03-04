@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Remember that those elimination matrices are easy to invert."
+    },
+    {
+        "text": "The inverse matrix for this one is one zero four one."
+    },
+    {
+        "text": "It's, it has the plus sign because it adds back what this removes."
+    },
+    {
+        "text": "OK. Do you want, so if we did the numbers right, we must, this should be correct."
+    },
+    {
+        "text": "OK. And, of course it is."
+    },
+    {
+        "text": "That says the first row is right, four times the first row plus the second row is eight seven."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "OK. That's simple."
+    },
+    {
+        "text": "Two by two."
+    },
+    {
+        "text": "But it already shows the form that we're headed for."
+    },
+    {
+        "text": "It shows, so what's the L stand for?"
+    },
+    {
+        "text": "Why the letter L?"
+    },
+    {
+        "text": "If U stood for upper triangular, then, of course, L stands for lower triangular."
+    },
+    {
+        "text": "And actually it has ones on the diagonal."
+    },
+    {
+        "text": "Where this thing has the pivots on the diagonal."
+    },
+    {
+        "text": "Oh, sometimes we may want to separate out the pivots."
+    },
+    {
+        "text": "So can I just mention that sometimes we could also write this as, we could have this one zero four one."
+    },
+    {
+        "text": "I'll just show you how I would divide out this matrix of pivots."
+    },
+    {
+        "text": "Two three."
+    },
+    {
+        "text": "There's a diagonal matrix."
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "me too . But I think I am going to bed now . my head is getting heavy . Have a nice day there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "just give me the dates and I'll make sure I'm free . You know after all these chatting online , it will be great to meet you in real life . I look forward to seeing you soon !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "me too . But I think I am going to bed now . my head is getting heavy . Have a nice day there !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

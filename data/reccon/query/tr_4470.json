@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "no wonder you like the class so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "she wanted us to relax tonight instead of doing homework ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "no wonder you like the class so much .",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

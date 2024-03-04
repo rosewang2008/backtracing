@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But let's first just look at the proof of this, giving kind of a little bit the high level picture."
+    },
+    {
+        "text": "So my job is to show if I have a string in my language, let's say it's a, think of it as a long string, really long."
+    },
+    {
+        "text": "So its length is more than p. But I think intuitively, it's just a very long string."
+    },
+    {
+        "text": "And I'm going to feed that string into the machine and watch what happens."
+    },
+    {
+        "text": "Something special happens when I feed the string and I look at how the machine proceeds on that string."
+    },
+    {
+        "text": "Because s is so long that as I wander around inside the machine, I have to end up coming back to the same place more than once."
+    },
+    {
+        "text": "It's like if you have a small park and you go for a long walk, you're going to end up coming back to where you've already seen."
+    },
+    {
+        "text": "You just can't keep on seeing new stuff when you have a more small area of space to explore."
+    },
+    {
+        "text": "So we're guaranteed that M is going to end up repeating some state when it's reading s, because s is so long."
+    },
+    {
+        "text": "So pictorially, if you imagine here this wiggly line is kind of describing the path that M follows when it's reading s, it ends up coming back to that state qj more than once."
+    },
+    {
+        "text": "So it comes back here, cycles around, comes back again before it ends up accepting."
+    },
+    {
+        "text": "We know it ends up accepting because we're assuming we have a string that's in the language."
+    },
+    {
+        "text": "So we picked s in the language."
+    },
+    {
+        "text": "So it has to be accepted by M. But the important thing is that it repeats a state."
+    },
+    {
+        "text": "Now, how does that tell me I can cut s up into those three pieces?"
+    },
+    {
+        "text": "Well, I'm going to get those three pieces here."
+    },
+    {
+        "text": "First of all, let's observe that here is as processing s. Here is that written right on top of the string, that state repetition occurring, qj more than once."
+    },
+    {
+        "text": "And now if I look inside the machine, the part of s that took me to qj I'm going to call x."
+    },
+    {
+        "text": "The part that took me from qj back to itself is I'm going to call y."
+    },
+    {
+        "text": "And the part that took qj to the accept state, I'm going to call z."
+    }
+]

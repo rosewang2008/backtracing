@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 36,
+        "timestamp": 1684728416886.0,
+        "annotatedSourceSentencesIndices": [
+            6,
+            7
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone direct me to a good proof for 19:36?"
+    }
+]

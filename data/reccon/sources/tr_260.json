@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Welcome to my birthday party , I am so happy you can come .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you can come ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Welcome to my birthday party , I am so happy you can come .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks for inviting me . Here is the gift for you . Happy birthday , Francis ! Many more happy and healthy years for you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Welcome to my birthday party , I am so happy you can come .",
+            "Thanks for inviting me . Here is the gift for you . Happy birthday , Francis ! Many more happy and healthy years for you !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks for inviting me . Here is the gift for you . Happy birthday , Francis ! Many more happy and healthy years for you !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thank you , shall I open it now ?",
+        "emotion": "neutral",
+        "text": "Thank you , shall I open it now ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , please do .",
+        "emotion": "neutral",
+        "text": "Yes , please do .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow , a remote car model and my favorite brand . I really like it . That is so nice of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "a remote car model and my favorite brand . I really like it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , a remote car model and my favorite brand . I really like it . That is so nice of you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , I was really struggling whether I should give you this nice little car . It was the last one they had and I really like it so much myself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "That is so nice of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I was really struggling whether I should give you this nice little car . It was the last one they had and I really like it so much myself .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Typical you , always wanting to keep the best things for yourself . The more I appreciate the gift now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "a remote car model and my favorite brand . I really like it .",
+            "The more I appreciate the gift now ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Typical you , always wanting to keep the best things for yourself . The more I appreciate the gift now .",
+        "id": 7
+    }
+]

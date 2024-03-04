@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And then, I promise we'll switch to something else because I can feel that you're getting a bit overwhelmed by all these formulas for N dS."
+    },
+    {
+        "text": "So, OK, so what happens very often is we don't actually know how to parametrize our surface."
+    },
+    {
+        "text": "Maybe we don't know how to solve for z as a function of x and y, but our surface is given by some equation."
+    },
+    {
+        "text": "And so, what that means is actually maybe what we know is not really these kinds of formulas, but maybe we know a normal vector."
+    },
+    {
+        "text": "And, I'm going to call this one capital N because I don't even need it to be a unit vector, you will see."
+    },
+    {
+        "text": "It can be a normal vector of the surface S. So, why would we ever know a normal vector?"
+    },
+    {
+        "text": "Well, for example, if our surface is a plane, say it's a slanted plane given by some equation, Ax plus By plus Cz equals D. Well, you know the normal vector."
+    },
+    {
+        "text": "It's A, B, C. Of course, you could solve for z and then go back to that case, which is why I said that that one is really useful."
+    },
+    {
+        "text": "But, you can also just stay with a normal vector."
+    },
+    {
+        "text": "Why else would you know a normal vector?"
+    },
+    {
+        "text": "Well, let's say that you know an equation that's of a form g of x, y, z equals zero."
+    },
+    {
+        "text": "Well, then you know that the gradient of g is perpendicular to the level surface."
+    },
+    {
+        "text": "OK, so let me just give you two examples."
+    },
+    {
+        "text": "If you have a plane, Ax plus By plus Cz equals D, then the normal vector would just be A, B, C. If you have a surface S given by an equation, g of x, y, z equals zero, then you can take the normal vector to be the gradient of g. We've seen that the gradient is perpendicular to the level surface."
+    },
+    {
+        "text": "Now, of course, we don't necessarily have to follow what's going to come because if we could solve for z then we might be better off doing what we did over there."
+    },
+    {
+        "text": "But, let's say that we want to do it this way."
+    },
+    {
+        "text": "So, then what can we do?"
+    },
+    {
+        "text": "Well, I'm going to give you a little bit of information about NDS."
+    },
+    {
+        "text": "So, OK, so let's start by thinking about a slanted plane."
+    },
+    {
+        "text": "OK, so let's say that my surface is just a slanted plane."
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I'm so glad that the Spring Festival is near at hand .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'm so glad that the Spring Festival is near at hand ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm so glad that the Spring Festival is near at hand .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Me too . I like the festival best of all .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm so glad that the Spring Festival is near at hand .",
+            "I like the festival best of all ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me too . I like the festival best of all .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Think of the big face down the eve , hmm .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Think of the big face down the eve ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Think of the big face down the eve , hmm .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "And special TV programs , fire crackers and the games to play .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Think of the big face down the eve ,",
+            "And special TV programs , fire crackers and the games to play ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And special TV programs , fire crackers and the games to play .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hey , do you know any mystery belief serve the festival ?",
+        "emotion": "neutral",
+        "text": "Hey , do you know any mystery belief serve the festival ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Such as ?",
+        "emotion": "neutral",
+        "text": "Such as ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You know why fire crackers are set off in festival .",
+        "emotion": "neutral",
+        "text": "You know why fire crackers are set off in festival .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Why ? To welcome the new year of course ?",
+        "emotion": "neutral",
+        "text": "Why ? To welcome the new year of course ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "And also to frighten away evil spirits .",
+        "emotion": "neutral",
+        "text": "And also to frighten away evil spirits .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "to frighten away evil spirits ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "And my parents say the whole year will be as good or as bad as new year day itself and bad or rude words on the day will bring a bad year .",
+        "emotion": "neutral",
+        "text": "And my parents say the whole year will be as good or as bad as new year day itself and bad or rude words on the day will bring a bad year .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , that's why my parents never scold me that day . They always try to avoid tears and quarrels .",
+        "emotion": "neutral",
+        "text": "Oh , that's why my parents never scold me that day . They always try to avoid tears and quarrels .",
+        "id": 12
+    }
+]

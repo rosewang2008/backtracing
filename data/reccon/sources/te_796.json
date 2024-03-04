@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Very glad to know something about you , then what are you going to do when you finish .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Very glad to know something about you"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Very glad to know something about you , then what are you going to do when you finish .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , I ' ll go to shanghai to practice there .",
+        "emotion": "neutral",
+        "text": "Oh , I ' ll go to shanghai to practice there .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s a good idea . It must be easy to find a job in shanghai .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Oh , I ' ll go to shanghai to practice there .",
+            "That ' s a good idea ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s a good idea . It must be easy to find a job in shanghai .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I think so , you know there is a great deal of opportunity for business there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , I ' ll go to shanghai to practice there .",
+            "That ' s a good idea .",
+            "there is a great deal of opportunity for business there ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I think so , you know there is a great deal of opportunity for business there .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And English is very useful in your job .",
+        "emotion": "neutral",
+        "text": "And English is very useful in your job .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think it will be very useful in many ways . Beside , shanghai is an important trade center , not only in China , but also in the world , English is useful in almost all walks of life .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Oh , I ' ll go to shanghai to practice there .",
+            "That ' s a good idea .",
+            "there is a great deal of opportunity for business there .",
+            "Beside , shanghai is an important trade center , not only in China , but also in the world ,"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I think it will be very useful in many ways . Beside , shanghai is an important trade center , not only in China , but also in the world , English is useful in almost all walks of life .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You will be a very promising one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "You will be a very promising one ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You will be a very promising one .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That ' s my wish .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "You will be a very promising one ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s my wish .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

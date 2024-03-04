@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I help you , sir ?",
+        "emotion": "neutral",
+        "text": "Can I help you , sir ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , please . I'm picking out some presents for my children and wife .",
+        "emotion": "neutral",
+        "text": "Yes , please . I'm picking out some presents for my children and wife .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What kind of presents do you want ?",
+        "emotion": "neutral",
+        "text": "What kind of presents do you want ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Actually , I don't know exactly . Do you have anything recommended ?",
+        "emotion": "neutral",
+        "text": "Actually , I don't know exactly . Do you have anything recommended ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK . How about some very cool sneakers for your children ? Anyway , it won't cost you much . It's only around $ 59 . 95 for each pair . It might be cheaper than that in America .",
+        "emotion": "neutral",
+        "text": "OK . How about some very cool sneakers for your children ? Anyway , it won't cost you much . It's only around $ 59 . 95 for each pair . It might be cheaper than that in America .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Hey , How did you know I came from America ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "It might be cheaper than that in America .",
+            "How did you know I came from America ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hey , How did you know I came from America ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Just a hunch , sir .",
+        "emotion": "neutral",
+        "text": "Just a hunch , sir .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "How much again ?",
+        "emotion": "neutral",
+        "text": "How much again ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "$ 59 . 95 .",
+        "emotion": "neutral",
+        "text": "$ 59 . 95 .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's really cheap for shoes like those . OK , I'll take 5 pairs .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "That's really cheap for shoes like those ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That's really cheap for shoes like those . OK , I'll take 5 pairs .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Sorry , sir .",
+        "emotion": "neutral",
+        "text": "Sorry , sir .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Why not ?",
+        "emotion": "neutral",
+        "text": "Why not ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Because in this duty-free shop , your total expenditure cannot be over $ 300 and you also have one more present to buy for your wife .",
+        "emotion": "neutral",
+        "text": "Because in this duty-free shop , your total expenditure cannot be over $ 300 and you also have one more present to buy for your wife .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , my God . I've totally forgotten about that . Anyway , I think she would like a bottle of perfume .",
+        "emotion": "neutral",
+        "text": "Oh , my God . I've totally forgotten about that . Anyway , I think she would like a bottle of perfume .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's good . And I can also recommend you a good one . It's the brand of DENY .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "I think she would like a bottle of perfume .",
+            "I can also recommend you a good one ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's good . And I can also recommend you a good one . It's the brand of DENY .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "DENY ? That's very expensive in America . It costs nearly $ 70 for only 50ml . DKNY ?",
+        "emotion": "neutral",
+        "text": "DENY ? That's very expensive in America . It costs nearly $ 70 for only 50ml . DKNY ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "It's $ 60 here .",
+        "emotion": "neutral",
+        "text": "It's $ 60 here .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "That's very unbelievable . Is it fake ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "It's $ 60 here .",
+            "That's very unbelievable . Is it fake ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's very unbelievable . Is it fake ?",
+        "id": 18,
+        "source_sentences": [
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Of course not , sir .",
+        "emotion": "neutral",
+        "text": "Of course not , sir .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "OK , I'll take one .",
+        "emotion": "neutral",
+        "text": "OK , I'll take one .",
+        "id": 20
+    }
+]

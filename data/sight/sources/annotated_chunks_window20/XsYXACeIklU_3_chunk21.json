@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the fact that this agent found the average to be something like 30 does not contradict the claims of the bus company that they're running Poisson buses with a rate of lambda equal to 4."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So maybe the company can this way-- they can defend themselves in court."
+    },
+    {
+        "text": "But there's something puzzling here."
+    },
+    {
+        "text": "How long is the interarrival time?"
+    },
+    {
+        "text": "Is it 15?"
+    },
+    {
+        "text": "Or is it 30?"
+    },
+    {
+        "text": "On the average."
+    },
+    {
+        "text": "The issue is what do we mean by a typical interarrival time."
+    },
+    {
+        "text": "When we say typical, we mean some kind of average."
+    },
+    {
+        "text": "But average over what?"
+    },
+    {
+        "text": "And here's two different ways of thinking about averages."
+    },
+    {
+        "text": "You number the buses."
+    },
+    {
+        "text": "And you have bus number 100."
+    },
+    {
+        "text": "You have bus number 101, bus number 102, bus number 110, and so on."
+    },
+    {
+        "text": "One way of thinking about averages is that you pick a bus number at random."
+    },
+    {
+        "text": "I pick, let's say, that bus, all buses being sort of equally likely to be picked."
+    },
+    {
+        "text": "And I measure this interarrival time."
+    },
+    {
+        "text": "So for a typical bus."
+    },
+    {
+        "text": "Then, starting from here until there, the expected time has to be 1 over lambda, for the Poisson process."
+    }
+]

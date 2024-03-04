@@ -1,0 +1,1007 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, now clustering for graphs."
+    },
+    {
+        "text": "So this is a topic."
+    },
+    {
+        "text": "This is one of the important things you can try to do with a graph."
+    },
+    {
+        "text": "So you have a large graph."
+    },
+    {
+        "text": "Let me kind of divide it into two clusters."
+    },
+    {
+        "text": "OK, so you get a giant graph."
+    },
+    {
+        "text": "And the job is to make some sense out of it."
+    },
+    {
+        "text": "And one possible step is to be able to subdivide it if, as I see here, there is a cut between two reasonably equal parts of the graph, reasonably same size."
+    },
+    {
+        "text": "And therefore, that graph could be studied in two pieces."
+    },
+    {
+        "text": "So the question is, how do you find such a cut by an algorithm?"
+    },
+    {
+        "text": "What's an algorithm that would find that cut?"
+    },
+    {
+        "text": "So that's the problem."
+    },
+    {
+        "text": "Let's say we're looking for two clusters."
+    },
+    {
+        "text": "We could look for more clusters."
+    },
+    {
+        "text": "But let's say we want to look for two clusters."
+    },
+    {
+        "text": "So what are we trying to do?"
+    },
+    {
+        "text": "We're trying to minimize."
+    },
+    {
+        "text": "So this is the problem, then."
+    },
+    {
+        "text": "So we look for find positions x and y, let's say, two which will be the centers, so to speak, of the."
+    },
+    {
+        "text": "And really, it's just these points."
+    },
+    {
+        "text": "Points."
+    },
+    {
+        "text": "So the data is the points and the edges, as always, the nodes and the edges."
+    },
+    {
+        "text": "So the problem is to find x and y so that to minimize."
+    },
+    {
+        "text": "So it's a distance of points ai from x."
+    },
+    {
+        "text": "Maybe I should emphasize we're in high dimensions."
+    },
+    {
+        "text": "Plus the distance of other points."
+    },
+    {
+        "text": "So the ai will be these points, these nodes."
+    },
+    {
+        "text": "And the bi will be these nodes plus the sum of bi minus y squared."
+    },
+    {
+        "text": "And you understand the rule here."
+    },
+    {
+        "text": "That together, the a's union the b's give me all nodes."
+    },
+    {
+        "text": "And I guess to be complete, the a's intersect the b's is empty."
+    },
+    {
+        "text": "Just what you expect."
+    },
+    {
+        "text": "I'm dividing the a's and the b's into two groups."
+    },
+    {
+        "text": "And I'm picking an x and a y sort of at the center of those groups."
+    },
+    {
+        "text": "So that is a minimum."
+    },
+    {
+        "text": "So I want to minimize."
+    },
+    {
+        "text": "And also, I probably want to impose some condition that the number of a's is reasonably close to the number of b's."
+    },
+    {
+        "text": "In other words, I don't want just that to be the a and all the rest to be the b's."
+    },
+    {
+        "text": "That would be not a satisfactory clustering."
+    },
+    {
+        "text": "I'm looking for clusters that are good sized clusters."
+    },
+    {
+        "text": "So minimize that."
+    },
+    {
+        "text": "So there are a lot of different algorithms to do it."
+    },
+    {
+        "text": "But some are more directly attacking this problem."
+    },
+    {
+        "text": "Others use matrices that we associate with the graph."
+    },
+    {
+        "text": "So let me tell you about two or three of those algorithms."
+    },
+    {
+        "text": "And if you've studied, had a course in graph theory, you may already have seen this problem."
+    },
+    {
+        "text": "First question would be, suppose I decide these are the a's and those are the b's, or some other decision."
+    },
+    {
+        "text": "Yeah, probably some other decision."
+    },
+    {
+        "text": "God, I want to solve the problem before I even start."
+    },
+    {
+        "text": "So some a's and some b's."
+    },
+    {
+        "text": "What would be the best choice of the x once you've decided on the a's?"
+    },
+    {
+        "text": "And what would be the best choice of the y once you've decided on the b's?"
+    },
+    {
+        "text": "So we can answer that question."
+    },
+    {
+        "text": "Just if we knew the two groups, we could see where they should be centered, where the first group centered at x, the second group centered at y."
+    },
+    {
+        "text": "And what does centering mean?"
+    },
+    {
+        "text": "So let's just say."
+    },
+    {
+        "text": "So I think what I'm saying here is, let me bring that down a little."
+    },
+    {
+        "text": "So given the a's, this is a1 up to, say, ak, what is the best?"
+    },
+    {
+        "text": "Is the best x?"
+    },
+    {
+        "text": "Just to make that part right."
+    },
+    {
+        "text": "And the answer is, do you know geometrically what x should be here?"
+    },
+    {
+        "text": "x is the."
+    },
+    {
+        "text": "So if I have a bunch of points and I'm looking for the middle of those points, the point x, a good point x to say, OK, that's the middle."
+    },
+    {
+        "text": "It'll make the sum of the distances, I think, squared."
+    },
+    {
+        "text": "I hope I'm right about that."
+    },
+    {
+        "text": "A minimum."
+    },
+    {
+        "text": "What is x?"
+    },
+    {
+        "text": "It is the centroid."
+    },
+    {
+        "text": "Centroid is the word."
+    },
+    {
+        "text": "x is the centroid of the a's."
+    },
+    {
+        "text": "And what is the centroid?"
+    },
+    {
+        "text": "Let's see."
+    },
+    {
+        "text": "Oh, maybe I don't know if x and y were a good choice."
+    },
+    {
+        "text": "But let me see what."
+    },
+    {
+        "text": "I guess it's the average a."
+    },
+    {
+        "text": "It's the sum of the a's, of these a's."
+    },
+    {
+        "text": "Those are vectors, of course, divided by the number of a's."
+    },
+    {
+        "text": "I think."
+    },
+    {
+        "text": "Actually, I was just quickly reviewing this morning."
+    },
+    {
+        "text": "So I'm not totally on top of this centroid."
+    },
+    {
+        "text": "What I'm going to talk, the algorithm that I'm going to talk about is the k, well, k means, it's always called."
+    },
+    {
+        "text": "And here, it will be the k will be 2."
+    },
+    {
+        "text": "I just have two partitioning into two sets, a's and b's."
+    },
+    {
+        "text": "So I just k is just 2."
+    },
+    {
+        "text": "OK, what's the algorithm?"
+    },
+    {
+        "text": "Well, if I've chosen a partition, the a's and the b's have separated them, then that tells me what the x and the y should be."
+    },
+    {
+        "text": "But now, what do I do next?"
+    },
+    {
+        "text": "So this is going to be a sort of an alternating partition."
+    },
+    {
+        "text": "Now, I take those two centroids."
+    },
+    {
+        "text": "So step one is, for a given a's and b's, find the centroids x and y."
+    },
+    {
+        "text": "And that's elementary."
+    },
+    {
+        "text": "Then the second step is, given the centroids x and y, given those positions, given x and y, they won't be centroids when you see what happens."
+    },
+    {
+        "text": "Given x and y, reform the best partition, best clusters."
+    },
+    {
+        "text": "OK, so step one, we had a guess at what the best clusters were."
+    },
+    {
+        "text": "And we found their centroids."
+    },
+    {
+        "text": "Now, we start with the centroids, and we form new clusters again."
+    },
+    {
+        "text": "And if these clusters are the same as the ones we started with, then the algorithm has converged."
+    },
+    {
+        "text": "But probably won't be, these clusters."
+    },
+    {
+        "text": "So you'll have to tell me what I mean by the best clusters."
+    },
+    {
+        "text": "If I've got the two points, x and y, I want the points, I want to separate all the points that cluster around x to the ones that cluster around y."
+    },
+    {
+        "text": "And then they're probably different from my original start."
+    },
+    {
+        "text": "So now I've got new."
+    },
+    {
+        "text": "Now I repeat step one."
+    },
+    {
+        "text": "But let's just think, how do I form the best clusters?"
+    },
+    {
+        "text": "Well, I take a point, and I have to decide, does it go with x, or does it go in the x cluster, or does it go in the cluster around y?"
+    },
+    {
+        "text": "So how do I decide that?"
+    },
+    {
+        "text": "Just whichever one it's closer to."
+    },
+    {
+        "text": "So each point goes with each node."
+    },
+    {
+        "text": "I could say each node goes with the closer of x and y."
+    },
+    {
+        "text": "So points that should have been that are closer to x, now we're going to put them in the cluster around x."
+    },
+    {
+        "text": "And does that solve the problem?"
+    },
+    {
+        "text": "No, because, well, it might, but it might not."
+    },
+    {
+        "text": "We have to come back to step one."
+    },
+    {
+        "text": "We've now changed the clusters."
+    },
+    {
+        "text": "They'll have different centroids."
+    },
+    {
+        "text": "So we repeat step one, find the centroids for the two new clusters."
+    },
+    {
+        "text": "Then we come to step two, find the ones that should go with the two centroids, and back and forth."
+    },
+    {
+        "text": "I don't know, I don't think there's a nice theory of convergence or rate of convergence, all the questions that this course is always asking."
+    },
+    {
+        "text": "But it's a very popular algorithm, k-means."
+    },
+    {
+        "text": "k would be to have k clusters."
+    },
+    {
+        "text": "So that's a, I'm not going to discuss the, I'd rather discuss some other ways to do this, to solve this problem, but that's one sort of hack that works quite well."
+    },
+    {
+        "text": "OK, so second approach is what's coming next, second solution method."
+    },
+    {
+        "text": "And it's called the spectral clustering."
+    },
+    {
+        "text": "That's the name of the method."
+    },
+    {
+        "text": "And before I write down what you do, what does the word spectral mean?"
+    },
+    {
+        "text": "You see spectral graph theory, spectral clustering."
+    },
+    {
+        "text": "And in other parts of mathematics, you see that word, you see spectral theorem."
+    },
+    {
+        "text": "I gave you the most, and I described it as the most important, perhaps, theorem in linear algebra, at least one of the top three."
+    },
+    {
+        "text": "So I'll write it over here, because it's not, it doesn't, this is a, it's the same word spectral."
+    },
+    {
+        "text": "Well, let me ask the question again."
+    },
+    {
+        "text": "What's that word spectral about?"
+    },
+    {
+        "text": "What does that mean?"
+    },
+    {
+        "text": "That means that if I have a matrix and I want to talk about its spectrum, what is the spectrum of the matrix?"
+    },
+    {
+        "text": "It is the eigenvalues."
+    },
+    {
+        "text": "So spectral theory, spectral clustering is using the eigenvalues of some matrix."
+    },
+    {
+        "text": "That's what that spectral is telling me."
+    },
+    {
+        "text": "So the spectral theorem, of course, is that for a symmetric matrix S, the eigenvalues are real and the eigenvectors are orthogonal."
+    },
+    {
+        "text": "And don't forget what the real full statement is here, because there could be repeated real eigenvalues."
+    },
+    {
+        "text": "And what does the spectral theorem tell me?"
+    },
+    {
+        "text": "For symmetric matrices, if lambda equal 5 is repeated four times, if it's a four times solution of the equation that gives eigenvalues, then what's the conclusion?"
+    },
+    {
+        "text": "Then there are four independent orthogonal eigenvectors to go with it."
+    },
+    {
+        "text": "We can't say that about matrices, about all matrices, but we can say it about all symmetric matrices."
+    },
+    {
+        "text": "And in fact, those eigenvectors are orthogonal, so we're even saying more."
+    },
+    {
+        "text": "We can find four orthogonal eigenvectors that go with a multiplicity for eigenvalue."
+    },
+    {
+        "text": "OK, that's spectral theorem."
+    },
+    {
+        "text": "Spectral clustering starts with the graph Laplacian matrix."
+    },
+    {
+        "text": "Matrix."
+    },
+    {
+        "text": "May I remember what that matrix is?"
+    },
+    {
+        "text": "Because that's the key connection of linear algebra to graph theory, is the properties of this graph Laplacian matrix."
+    },
+    {
+        "text": "OK, so let me say L for Laplacian."
+    },
+    {
+        "text": "So that matrix, one way to describe it is as a transpose A, where A is the incidence matrix of the graph."
+    },
+    {
+        "text": "Or another way we'll see is the D, the degree matrix."
+    },
+    {
+        "text": "That's diagonal."
+    },
+    {
+        "text": "And I'll do an example just to remind you."
+    },
+    {
+        "text": "Minus the, I don't know what I'd call this one."
+    },
+    {
+        "text": "Shall I call it B for the moment?"
+    },
+    {
+        "text": "And what matrix is B?"
+    },
+    {
+        "text": "That's the adjacency matrix."
+    },
+    {
+        "text": "Really, you should know these four matrices."
+    },
+    {
+        "text": "They're the key four matrices associated with any graph."
+    },
+    {
+        "text": "The incidence matrix, that's m by n edges and nodes."
+    },
+    {
+        "text": "Edges and nodes."
+    },
+    {
+        "text": "So it's rectangular, but I'm forming A transpose A here."
+    },
+    {
+        "text": "So I'm forming a symmetric positive semi-definite matrix."
+    },
+    {
+        "text": "So this Laplacian is symmetric positive semi-definite."
+    },
+    {
+        "text": "Yeah, let me just recall what all these matrices are for a simple graph."
+    },
+    {
+        "text": "OK, so I'll just draw a graph."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "OK, so the incidence matrix, there are 1, 2, 3, 4, 5 edges, so five rows."
+    },
+    {
+        "text": "There are four nodes, 1, 2, 3, and 4, so four columns."
+    },
+    {
+        "text": "And a typical row would be edge 1 going from node 1 to node 2, so it would have a minus 1 and a 1 there."
+    },
+    {
+        "text": "And let me take edge 2 going from 1 to node 3, so it would have a minus 1 and a 1 there."
+    },
+    {
+        "text": "So that's the incidence matrix A. OK, what's the degree matrix?"
+    },
+    {
+        "text": "That's simple."
+    },
+    {
+        "text": "The degree matrix, well, A transpose A, this is m by n. This is n by m, so it's n by n. OK, in this case, 4 by 4."
+    },
+    {
+        "text": "So the degree matrix will be 4 by 4, n by n. And it will tell us the degree of that, which means which we just count the edges."
+    },
+    {
+        "text": "So it's three edges going in, node 2, three edges going in."
+    },
+    {
+        "text": "Node 3 has just two edges, and node 4 has just two edges."
+    },
+    {
+        "text": "So that's the degree matrix."
+    },
+    {
+        "text": "And then the adjacency matrix that I've called B is also 4 by 4."
+    },
+    {
+        "text": "And what is it?"
+    },
+    {
+        "text": "It tells us which node is connected to which node."
+    },
+    {
+        "text": "So I don't allow nodes, edges, that connect a node to itself, so 0s on the diagonal."
+    },
+    {
+        "text": "So which nodes are connected to node 1?"
+    },
+    {
+        "text": "Well, all of 2 and 4 and 3 are connected to 1, so I have 1s there."
+    },
+    {
+        "text": "Node 2, all three nodes are connected to node 2."
+    },
+    {
+        "text": "So I'll have the second column and row will have all three 1s."
+    },
+    {
+        "text": "How about node 3?"
+    },
+    {
+        "text": "OK, only two edges are connected."
+    },
+    {
+        "text": "Only two nodes are connected to 3, 1 and 2, but not 4."
+    },
+    {
+        "text": "So 1 and 2 I have, but not 4."
+    },
+    {
+        "text": "So that's the adjacency matrix."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "Think so?"
+    },
+    {
+        "text": "This is the degree matrix."
+    },
+    {
+        "text": "This is the incidence matrix."
+    },
+    {
+        "text": "And that formula gives me the Laplacian."
+    },
+    {
+        "text": "Let's write down the Laplacian."
+    },
+    {
+        "text": "So if I use the degree minus b, that's easy."
+    },
+    {
+        "text": "The degrees were 3, 3, 2, and 2."
+    },
+    {
+        "text": "Now I have these minuses, and those were 0."
+    },
+    {
+        "text": "So that's a positive semidefinite matrix."
+    },
+    {
+        "text": "Is it a positive definite matrix?"
+    },
+    {
+        "text": "So let me ask, is it singular or is it not singular?"
+    },
+    {
+        "text": "Is there a vector in its null space or is there not a vector in its null space?"
+    },
+    {
+        "text": "Can you solve dx equals all 0s?"
+    },
+    {
+        "text": "And of course, you can."
+    },
+    {
+        "text": "Everybody sees that the vector of all 1s will be a solution to L. I'm sorry."
+    },
+    {
+        "text": "I should be saying L here."
+    },
+    {
+        "text": "Lx equals 0."
+    },
+    {
+        "text": "Lx equals 0 is for a whole line of a one dimensional and the null space of L has dimension 1."
+    },
+    {
+        "text": "It's got one basis vector, 1, 1, 1, 1."
+    },
+    {
+        "text": "And that will always happen with the graph setup that I've created."
+    },
+    {
+        "text": "So that's the first fact, that this positive semidefinite matrix L has lambda 1 equals 0, and the eigenvector is constants, C, C, C, C, the one dimensional eigenspace."
+    },
+    {
+        "text": "Or 1, 1, 1, 1 is a typical eigenvector."
+    },
+    {
+        "text": "OK. Now back to graph clustering."
+    },
+    {
+        "text": "The idea of graph clustering is to look at the Fiedler eigenvector."
+    },
+    {
+        "text": "This is called x2 is the next eigenvector, is the eigenvector for the smallest positive eigenvalue for lambda min excluding 0."
+    },
+    {
+        "text": "So the smallest eigenvalue of L, the smallest eigenvalue and its eigenvector, this is called the Fiedler vector, named after the Czech mathematician, a great man in linear algebra."
+    },
+    {
+        "text": "And he studied this vector, this situation."
+    },
+    {
+        "text": "So everybody who knows about the graph Laplacian is aware that its first eigenvalue is 0, and that the next eigenvalue is important."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "AUDIENCE 2 Is the graph Laplacian named the Laplacian because it has connections?"
+    },
+    {
+        "text": "GILBERT STRANGSKI-WEISBAUMGESEN To Laplace's equation, yes."
+    },
+    {
+        "text": "So yeah, that's a good question."
+    },
+    {
+        "text": "So why the word, the name Laplacian?"
+    },
+    {
+        "text": "So yeah, that's a good question."
+    },
+    {
+        "text": "So the familiar thing, so it connects to Laplace's finite difference equation, because we're talking about matrices here and not derivatives, not functions."
+    },
+    {
+        "text": "So why the word Laplacian?"
+    },
+    {
+        "text": "Well, so if I have a regular, if my graph is composed of a, so there is a graph with 25 nodes and 4 times 5, 20, about 40."
+    },
+    {
+        "text": "This probably has about 40 edges and 25 nodes."
+    },
+    {
+        "text": "And of course, I can construct its graph, all those four matrices for it."
+    },
+    {
+        "text": "Its incidence matrix, its degree matrix."
+    },
+    {
+        "text": "So the degree will be 4 at all these inside points."
+    },
+    {
+        "text": "The degree will be 3 at these boundary points."
+    },
+    {
+        "text": "The degree will be 2 at these corner points."
+    },
+    {
+        "text": "But what will the matrix L look like?"
+    },
+    {
+        "text": "So what is L?"
+    },
+    {
+        "text": "And that will tell you why it has this name Laplacian."
+    },
+    {
+        "text": "So the matrix L will have the degree 4, right, will be on the diagonal."
+    },
+    {
+        "text": "That's coming from D. The other, the minus 1's that come from B, the adjacency matrix will be associated with those nodes and otherwise all 0's."
+    },
+    {
+        "text": "So this is a typical row of L. This is a typical row of L centered at that node."
+    },
+    {
+        "text": "So maybe that's node number 5, 10, 13."
+    },
+    {
+        "text": "That's 13 out of 25 that would show you this."
+    },
+    {
+        "text": "And sorry, those are minus 1's."
+    },
+    {
+        "text": "Minus 1's."
+    },
+    {
+        "text": "So a 4 on the diagonal and 4 minus 1's."
+    },
+    {
+        "text": "That's the model problem for when the graph is a grid, square grid."
+    },
+    {
+        "text": "And you associate that with Laplace's equation."
+    },
+    {
+        "text": "So this is the reason that Laplace, why Laplace gets in it."
+    },
+    {
+        "text": "Because Laplace's equation, the differential equation, is second derivative with respect to x squared."
+    },
+    {
+        "text": "And the second derivative with respect to y squared is 0."
+    },
+    {
+        "text": "And what we have here is Lu equals 0."
+    },
+    {
+        "text": "It's the discrete Laplacian, the vector Laplacian, the graph Laplacian, where the second x derivative is replaced by minus 1, 2, minus 1."
+    },
+    {
+        "text": "And the second y derivative is replaced by minus 1, 2, minus 1, second differences in the x and the y directions."
+    },
+    {
+        "text": "So that's the explanation for Laplace."
+    },
+    {
+        "text": "It's the discrete Laplace, discrete, or the finite difference Laplace."
+    },
+    {
+        "text": "OK. Now, to finish, I have to tell you what clusters, how do you decide the clusters from L?"
+    },
+    {
+        "text": "How does L propose two clusters, the A's and the B's?"
+    },
+    {
+        "text": "And here's the answer."
+    },
+    {
+        "text": "They come from this eigenvector, the Fiedler eigenvector."
+    },
+    {
+        "text": "You look at that eigenvector."
+    },
+    {
+        "text": "It's got some positive and some negative components."
+    },
+    {
+        "text": "The components with positive numbers of this eigenvector, so the positive components of x, of this eigenvector."
+    },
+    {
+        "text": "And there are negative components of this eigenvector."
+    },
+    {
+        "text": "And those are the two clusters."
+    },
+    {
+        "text": "So the two clusters are decided by the eigenvector, by the signs, plus or minus signs, of the components."
+    },
+    {
+        "text": "The plus signs go in one, and the minus signs go in another."
+    },
+    {
+        "text": "And you have to experiment to see that that would succeed."
+    },
+    {
+        "text": "I don't know what it would do on this, actually, because that's hardly splits up into two."
+    },
+    {
+        "text": "I suppose maybe the split is along a line like that or something to get."
+    },
+    {
+        "text": "I don't know what clustering."
+    },
+    {
+        "text": "This is not a graph that is naturally clustered."
+    },
+    {
+        "text": "But you could still do k-means on it."
+    },
+    {
+        "text": "You could still do spectral clustering."
+    },
+    {
+        "text": "And you would find this eigenvector."
+    },
+    {
+        "text": "Now, what's the point about this eigenvector?"
+    },
+    {
+        "text": "I'll finish in one moment."
+    },
+    {
+        "text": "What do we know about that eigenvector as compared to that one?"
+    },
+    {
+        "text": "So here was an eigenvector all 1's."
+    },
+    {
+        "text": "Let me just make it all 1's."
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "In that picture, it's 25 1's."
+    },
+    {
+        "text": "Here's the next eigenvector up."
+    },
+    {
+        "text": "And what's the relation between those two eigenvectors of L?"
+    },
+    {
+        "text": "They are orthogonal."
+    },
+    {
+        "text": "These are eigenvectors of a symmetric matrix."
+    },
+    {
+        "text": "So they're orthogonal."
+    },
+    {
+        "text": "So that means to be orthogonal to this guy means that your components add to 0, right?"
+    },
+    {
+        "text": "A vector is orthogonal to all 1's."
+    },
+    {
+        "text": "That dot product is just add up the components."
+    },
+    {
+        "text": "So we have a bunch of positive components and a bunch of negative components."
+    },
+    {
+        "text": "They have the same sum because the dot product with that is 0."
+    },
+    {
+        "text": "And those two components, those two sets of components, are your two, tell you the two clusters in spectral clustering."
+    },
+    {
+        "text": "So it's a pretty nifty algorithm."
+    },
+    {
+        "text": "It does ask you to compute an eigenvector."
+    },
+    {
+        "text": "And that, of course, takes time."
+    },
+    {
+        "text": "And then there's a third, more direct algorithm to do this optimization problem."
+    },
+    {
+        "text": "Well, actually, there are many."
+    },
+    {
+        "text": "This is an important problem."
+    },
+    {
+        "text": "So there are many proposed algorithms."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "OK, I'm closing up."
+    },
+    {
+        "text": "Final question?"
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "AUDIENCE 1 Is it possible to do more than one eigenvector?"
+    },
+    {
+        "text": "GILBERT STRANGSBERRY Well, certainly for k-means."
+    },
+    {
+        "text": "Now, if I had to do three clusters with Fiedler, I would look at the first three eigenvectors."
+    },
+    {
+        "text": "And, well, the first one would be nothing."
+    },
+    {
+        "text": "And I would look at the next two."
+    },
+    {
+        "text": "And that would be pretty successful."
+    },
+    {
+        "text": "If I wanted six clusters, it probably would fall off in the quality of the clustering."
+    },
+    {
+        "text": "Yeah, but certainly I would look at the lowest six eigenvectors and get somewhere."
+    },
+    {
+        "text": "Yeah, right."
+    },
+    {
+        "text": "So OK, so that's a topic, an important topic, a sort of standard topic in applied graph theory."
+    },
+    {
+        "text": "OK, so see you Wednesday."
+    },
+    {
+        "text": "I'm hoping on Wednesday."
+    },
+    {
+        "text": "So Professor Edelman has told me a new and optimal way to look at the problem of back propagation."
+    },
+    {
+        "text": "You remember back propagation?"
+    },
+    {
+        "text": "If you remember the lecture on it, you don't want to remember the lecture on it."
+    },
+    {
+        "text": "It's a tricky, messy thing to explain."
+    },
+    {
+        "text": "But he says, if I explain it using Julia in linear algebra, it's clear."
+    },
+    {
+        "text": "So we'll give him a chance on Wednesday to show that revolutionary approach to the explanation of back propagation."
+    },
+    {
+        "text": "And I hope for, I told him he could have half an hour and projects would take some time."
+    },
+    {
+        "text": "I hope now we've had two with wild applause."
+    },
+    {
+        "text": "So I hope we get a couple more in our last class."
+    },
+    {
+        "text": "OK, see you Wednesday."
+    },
+    {
+        "text": "And if you bring, well, if you have projects ready, send them to me online and maybe a printout as well."
+    },
+    {
+        "text": "That would be terrific."
+    },
+    {
+        "text": "If you don't have them ready by the hour, they can go."
+    },
+    {
+        "text": "The envelope outside my office would receive them."
+    },
+    {
+        "text": "Good, so I'll see you Wednesday for the final class."
+    }
+]

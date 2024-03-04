@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So what are the eigenvalues?"
+    },
+    {
+        "text": "You can tell me right away what they are."
+    },
+    {
+        "text": "They're two and two, right."
+    },
+    {
+        "text": "It's a triangular matrix, so when I do this determinant, shall I do this determinant of A minus lambda I?"
+    },
+    {
+        "text": "I'll get this two minus lambda, one, zero, two minus lambda, right?"
+    },
+    {
+        "text": "I take that determinant, so I make those into vertical bars to mean determinant, and what's the determinant?"
+    },
+    {
+        "text": "Two minus lambda squared."
+    },
+    {
+        "text": "What are the roots?"
+    },
+    {
+        "text": "Lambda equal two twice."
+    },
+    {
+        "text": "So the eigenvalues are lambda equals two and two."
+    },
+    {
+        "text": "OK, fine."
+    },
+    {
+        "text": "Now the next step, find the eigenvectors."
+    },
+    {
+        "text": "So I look for eigenvectors and what do I find for this guy?"
+    },
+    {
+        "text": "Eigenvectors for this guy, when I subtract two minus the identity, so A minus two I has zeros here, and I'm looking for the null space."
+    },
+    {
+        "text": "What's, what are the eigenvectors?"
+    },
+    {
+        "text": "They're the, they're, they're the null space of A minus lambda I."
+    },
+    {
+        "text": "The null space is only one dimension."
+    },
+    {
+        "text": "This is a case where I don't have enough eigenvectors."
+    },
+    {
+        "text": "My algebraic multiplicity is two."
+    },
+    {
+        "text": "I, I would say when I see, when I count how often the eigenvalue is repeated, that's the algebraic multiplicity."
+    }
+]

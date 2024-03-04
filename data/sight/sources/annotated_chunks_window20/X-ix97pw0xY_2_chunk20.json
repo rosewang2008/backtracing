@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And in particular, there's many ways theta and x can interact."
+    },
+    {
+        "text": "What the exponential family does for you is that it restricts the way these things can actually interact with each other."
+    },
+    {
+        "text": "It's essentially saying the following."
+    },
+    {
+        "text": "It's saying this is going to be of the form exponential."
+    },
+    {
+        "text": "So this exponential is really not much, because I could put a log next to it."
+    },
+    {
+        "text": "But what I want is that the way theta and x interact has to be of the form theta times x in an exponential."
+    },
+    {
+        "text": "So that's one of the ways you can think of them interacting."
+    },
+    {
+        "text": "You just take the product of the two."
+    },
+    {
+        "text": "Now, clearly, this is not a very rich family."
+    },
+    {
+        "text": "So what I'm allowing myself is to just slap on some terms that depend only on theta and depend only on x."
+    },
+    {
+        "text": "So let's just call this thing f of x g of theta."
+    },
+    {
+        "text": "So here, I've restricted the way theta and x can interact."
+    },
+    {
+        "text": "So I have something that depends only on x, something that depends only on theta."
+    },
+    {
+        "text": "And here, I have this very specific interaction."
+    },
+    {
+        "text": "And that's all that exponential families are doing for you."
+    },
+    {
+        "text": "So if we go back to this slide, this is much more general."
+    },
+    {
+        "text": "If I want to go from theta and x in r to theta and x theta in r to theta in rk and x in rq, I cannot take the product of theta and x. I cannot even take the inner product between theta and x, because they're not even of compatible dimensions."
+    },
+    {
+        "text": "But what I can do is to first map my theta into something and map my x into something so that I actually end up having the same dimensions."
+    },
+    {
+        "text": "And then I can take the inner product."
+    },
+    {
+        "text": "That's the natural generalization of this simple product."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Q U inverse."
+    },
+    {
+        "text": "Of course, for any matrix, that's U inverse Q inverse."
+    },
+    {
+        "text": "But these were separately orthogonal, so that's U transpose Q transpose."
+    },
+    {
+        "text": "And that is the same as Q U transpose."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So I use the orthogonality of U and the orthogonality of Q to conclude that the inverse is the transpose."
+    },
+    {
+        "text": "So the answer is yes, I could do that."
+    },
+    {
+        "text": "Now, with singular value, with eigenvalues, I had to multiply on the other side by Q inverse or Q transpose."
+    },
+    {
+        "text": "Do I have to do that now?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "What can I do on the right-hand side?"
+    },
+    {
+        "text": "I can multiply by."
+    },
+    {
+        "text": "I can leave it alone."
+    },
+    {
+        "text": "Then it has the same singular values because it's the same sigma in there."
+    },
+    {
+        "text": "If I have a orthogonal matrix times a diagonal times an orthogonal, that diagonal, positive diagonal, is going to be sigma."
+    },
+    {
+        "text": "So what can I do on this side?"
+    },
+    {
+        "text": "I could multiply by any orthogonal matrix on that side, too."
+    },
+    {
+        "text": "So let's call this guy Q1 and this guy Q2."
+    },
+    {
+        "text": "I still have an orthogonal matrix there, orthogonal matrix there, and the same sigma popped in the middle."
+    },
+    {
+        "text": "So that's what you're allowed to do."
+    }
+]

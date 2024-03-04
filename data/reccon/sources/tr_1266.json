@@ -1,0 +1,258 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you free tonight ?",
+        "emotion": "neutral",
+        "text": "Are you free tonight ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I am . What's wrong ?",
+        "emotion": "neutral",
+        "text": "Yes , I am . What's wrong ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Would you please go to a dancing party with me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Are you free tonight ?",
+            "Yes , I am .",
+            "dancing party"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Would you please go to a dancing party with me ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK . No problem .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Would you please go to a dancing party with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . No problem .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "As a matter of fact , I haven't danced for a long time .",
+        "emotion": "neutral",
+        "text": "As a matter of fact , I haven't danced for a long time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "But it's said that you dance wonderfully well .",
+        "emotion": "neutral",
+        "text": "But it's said that you dance wonderfully well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks for flattering me . I think you dance a lot , right ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "But it's said that you dance wonderfully well .",
+            "Thanks for flattering me ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Thanks for flattering me . I think you dance a lot , right ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No . Just occasionally .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "Thanks for flattering me . I think you dance a lot"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No . Just occasionally .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What are your favourite dances ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            9
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "favourite dances"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "What are your favourite dances ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I love rumba and waltz .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            10
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "I love rumba and waltz ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I love rumba and waltz .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "How about samba ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            10
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "I love rumba and waltz ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "How about samba ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "To tell the truth , I don't like it . It's too fast .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "dancing party"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "To tell the truth , I don't like it . It's too fast .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Then I'll see you at six . Is that all right ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            13
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "I'll see you at six"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Then I'll see you at six . Is that all right ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "OK . See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "Is that all right ?",
+            "See you then ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "OK . See you then .",
+        "id": 14,
+        "source_sentences": [
+            2,
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            15
+        ],
+        "expanded emotion cause span": [
+            "dancing party",
+            "See you then ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "See you then .",
+        "id": 15
+    }
+]

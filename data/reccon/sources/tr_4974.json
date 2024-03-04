@@ -1,0 +1,279 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What should I get Uncle Teddy ?",
+        "emotion": "neutral",
+        "text": "What should I get Uncle Teddy ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You could get him a tie .",
+        "emotion": "neutral",
+        "text": "You could get him a tie .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Are you kidding ? That's the stupidest gift one can buy . I don't want to get a tie .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You could get him a tie .",
+            "That's the stupidest gift one can buy ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Are you kidding ? That's the stupidest gift one can buy . I don't want to get a tie .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Why not ?",
+        "emotion": "neutral",
+        "text": "Why not ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Everybody gets men ties for Christmas . It's too boring . Everybody buys either ties or sweaters . I want a more unique gift .",
+        "emotion": "neutral",
+        "text": "Everybody gets men ties for Christmas . It's too boring . Everybody buys either ties or sweaters . I want a more unique gift .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , you can buy him a pet iguana then .",
+        "emotion": "neutral",
+        "text": "Well , you can buy him a pet iguana then .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's a cool idea . At least it would be a surprise . But I'm afraid he wouldn't take care of it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you can buy him a pet iguana"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's a cool idea . At least it would be a surprise . But I'm afraid he wouldn't take care of it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "He would think you were crazy , Caroline .",
+        "emotion": "neutral",
+        "text": "He would think you were crazy , Caroline .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . An iguana is too strange for a gift , and a tie is too normal . So I have to find something halfway between .",
+        "emotion": "neutral",
+        "text": "Yes . An iguana is too strange for a gift , and a tie is too normal . So I have to find something halfway between .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How much do you want to spend ?",
+        "emotion": "neutral",
+        "text": "How much do you want to spend ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Well , he was very good to me . He helped me edit my essay for the scholarship contest . So I want to spend at least 75 dollars .",
+        "emotion": "neutral",
+        "text": "Well , he was very good to me . He helped me edit my essay for the scholarship contest . So I want to spend at least 75 dollars .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Alright , I have an idea . You know he carries that conservative-looking briefcase every day .",
+        "emotion": "neutral",
+        "text": "Alright , I have an idea . You know he carries that conservative-looking briefcase every day .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well , he isn't a lawyer , so I don't think he needs to have a briefcase like that .",
+        "emotion": "neutral",
+        "text": "Well , he isn't a lawyer , so I don't think he needs to have a briefcase like that .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "What should he have then ?",
+        "emotion": "neutral",
+        "text": "What should he have then ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I think he would appreciate having a very fine leather bag . But more like a workbag or shoulder bag . You know , not so hard and square like a briefcase .",
+        "emotion": "neutral",
+        "text": "I think he would appreciate having a very fine leather bag . But more like a workbag or shoulder bag . You know , not so hard and square like a briefcase .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I think that's a great idea . Men look great with that kind of bag . Where can we buy one ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I think he would appreciate having a very fine leather bag . But more like a workbag or shoulder bag . You know , not so hard and square like a briefcase ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I think that's a great idea . Men look great with that kind of bag . Where can we buy one ?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I don't think this mall has a leather goods store . So we have to go to State Street .",
+        "emotion": "neutral",
+        "text": "I don't think this mall has a leather goods store . So we have to go to State Street .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Alright . We can go later then .",
+        "emotion": "neutral",
+        "text": "Alright . We can go later then .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "We can buy something for Mom and Dad here , and then go buy Uncle Teddy's gift on State Street .",
+        "emotion": "neutral",
+        "text": "We can buy something for Mom and Dad here , and then go buy Uncle Teddy's gift on State Street .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Good plan . What should we get for Mom though ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "We can buy something for Mom and Dad here , and then go buy Uncle Teddy's gift on State Street ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good plan . What should we get for Mom though ?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "She said she wants one of those automatic foot massagers . I think they sell them at Sears .",
+        "emotion": "neutral",
+        "text": "She said she wants one of those automatic foot massagers . I think they sell them at Sears .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Alright . We can go check at Sears and see if they have them . And what about Dad ?",
+        "emotion": "neutral",
+        "text": "Alright . We can go check at Sears and see if they have them . And what about Dad ?",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "How about the iguana ?",
+        "emotion": "neutral",
+        "text": "How about the iguana ?",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "I think it would be a great joke . But I know we'd have to take the iguana back . And the pet store might not let us . So why don't we get him something else ? Some clothes maybe .",
+        "emotion": "neutral",
+        "text": "I think it would be a great joke . But I know we'd have to take the iguana back . And the pet store might not let us . So why don't we get him something else ? Some clothes maybe .",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "B",
+        "utterance": "A tie ?",
+        "emotion": "neutral",
+        "text": "A tie ?",
+        "id": 26
+    },
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Oh , shut up about ties ! Forget about ties , why not ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "A tie ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , shut up about ties ! Forget about ties , why not ?",
+        "id": 27,
+        "source_sentences": [
+            25
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 28,
+        "speaker": "B",
+        "utterance": "I was just kidding .",
+        "emotion": "neutral",
+        "text": "I was just kidding .",
+        "id": 28
+    }
+]

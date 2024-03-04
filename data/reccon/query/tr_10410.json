@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I can ' t believe it ! I have all my important personal documents stored in that computer . It ' s no laughing matter .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally .",
+            "I have all my important personal documents stored in that computer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can ' t believe it ! I have all my important personal documents stored in that computer . It ' s no laughing matter .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

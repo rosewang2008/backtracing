@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, I show it as if it was an old trick that you start mastering when you're 45 years old."
+    },
+    {
+        "text": "No, it's just how small is the number between 0 and 1."
+    },
+    {
+        "text": "That's really what you need to know."
+    },
+    {
+        "text": "Maybe on the log scale, if it's 10 to the minus 1, 10 to the minus 2, 10 to the minus 3, et cetera, that's probably the extent of the mastery here."
+    },
+    {
+        "text": "So this traditional standard paradigm that I showed is actually commonly referred to as the Neyman-Pearson paradigm."
+    },
+    {
+        "text": "So here it says Neyman-Pearson's theory."
+    },
+    {
+        "text": "So there's an entire theory that comes with it, but it's really a paradigm."
+    },
+    {
+        "text": "It's a way of thinking about hypothesis testing that says, well, if I'm not going to be able to optimize both my type 1 and type 2 error, I'm actually going to lock in my type 1 error below some level and just minimize the type 2 error under this constraint."
+    },
+    {
+        "text": "That's what the Neyman-Pearson paradigm is."
+    },
+    {
+        "text": "And it sort of makes sense for hypothesis testing problems."
+    },
+    {
+        "text": "If you were doing some other applications with multi-objective optimization, you would maybe come up with something different."
+    },
+    {
+        "text": "For example, machine learning is not performing typically under Neyman-Pearson paradigm."
+    },
+    {
+        "text": "So if you do spam filtering, you could say, well, I want to constrain the probability as much as I can of taking somebody's important emails and throwing them out as spam and, under this constraint, not send too much spam to that person."
+    },
+    {
+        "text": "That sort of makes sense for spams."
+    },
+    {
+        "text": "Now, if you're labeling cats versus dogs, it's probably not like you want to make sure that no more than 5% of the dogs are labeled cat."
+    },
+    {
+        "text": "Because it doesn't matter."
+    },
+    {
+        "text": "So what you typically do is you just sum up the two types of error you can make, and you minimize the sum without putting any more weight on one or the other."
+    },
+    {
+        "text": "So here's an example where doing a binary decision, one or two of the errors you can make, you don't have to actually be like that."
+    },
+    {
+        "text": "So this example here, I did not."
+    },
+    {
+        "text": "The trivial test, psi is equal to 0."
+    }
+]

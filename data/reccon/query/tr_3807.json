@@ -1,0 +1,31 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I'll come prepared .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            2,
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I would love to help you prepare for your presentation .",
+            "easily give you some time tomorrow night .",
+            "write down anything you might be having trouble with ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll come prepared .",
+        "id": 9,
+        "source_sentences": [
+            1,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

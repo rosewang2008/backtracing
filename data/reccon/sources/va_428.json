@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I am a student in Cambridge University . I read your ad , I want to know something more about your room , please ?",
+        "emotion": "neutral",
+        "text": "I am a student in Cambridge University . I read your ad , I want to know something more about your room , please ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's a big bedroom with a drawing room , facing a beautiful wood .",
+        "emotion": "neutral",
+        "text": "It's a big bedroom with a drawing room , facing a beautiful wood .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Is there a bathroom ?",
+        "emotion": "neutral",
+        "text": "Is there a bathroom ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , but there is one downstairs , which my daughter used some years ago .",
+        "emotion": "neutral",
+        "text": "No , but there is one downstairs , which my daughter used some years ago .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It sounds good . Could I go and see it myself ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's a big bedroom with a drawing room , facing a beautiful wood .",
+            "No , but there is one downstairs , which my daughter used some years ago ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It sounds good . Could I go and see it myself ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Certainly , you're welcome anytime .",
+        "emotion": "neutral",
+        "text": "Certainly , you're welcome anytime .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "See you later !",
+        "emotion": "neutral",
+        "text": "See you later !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "( after a while ) Good afternoon , Mrs . Smith . I called you just now .",
+        "emotion": "neutral",
+        "text": "( after a while ) Good afternoon , Mrs . Smith . I called you just now .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Welcome ! Come in , please !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I called you just now"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Welcome ! Come in , please !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "neutral",
+        "text": "Yes .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "This way please . Your room is upstairs ... Here it is .",
+        "emotion": "neutral",
+        "text": "This way please . Your room is upstairs ... Here it is .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Wonderful ! A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing . How nice !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wonderful ! A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing . How nice !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , if you want to wash something , there is a separate lavatory room outside .",
+        "emotion": "neutral",
+        "text": "Yes , if you want to wash something , there is a separate lavatory room outside .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Excellent ! I like it ! When can I move in ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "A modest , comfortable room . Ah , a beautiful window , through which I can see a beautiful scene , and hear the birds singing .",
+            "Yes , if you want to wash something , there is a separate lavatory room outside ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Excellent ! I like it ! When can I move in ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Anytime you like .",
+        "emotion": "neutral",
+        "text": "Anytime you like .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Anytime you like ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

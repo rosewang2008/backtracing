@@ -1,0 +1,152 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you know how to go to the Fragrant Hills in Beijing ? I heard that they are very famous in China .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Fragrant Hills in Beijing ? I heard that they are very famous in China ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you know how to go to the Fragrant Hills in Beijing ? I heard that they are very famous in China .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Especially in autumn , the red leaves of the maple trees make the whole mountain red .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Yes . Especially in autumn , the red leaves of the maple trees make the whole mountain red ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . Especially in autumn , the red leaves of the maple trees make the whole mountain red .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That must be very beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Yes . Especially in autumn , the red leaves of the maple trees make the whole mountain red .",
+            "That must be very beautiful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That must be very beautiful .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , it can make people feel as if they were in the land of fairies .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , it can make people feel as if they were in the land of fairies ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , it can make people feel as if they were in the land of fairies .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? Have you ever been there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , it can make people feel as if they were in the land of fairies ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Have you ever been there ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "A couple of times .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "A couple of times ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "A couple of times .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Can you go there with me ? I'd like someone who is familiar with that area to go with me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "A couple of times .",
+            "Can you go there with me ? I'd like someone who is familiar with that area to go with me ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Can you go there with me ? I'd like someone who is familiar with that area to go with me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure . I'd be very glad to be your tour guide .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Can you go there with me ? I'd like someone who is familiar with that area to go with me .",
+            "I'd be very glad to be your tour guide ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure . I'd be very glad to be your tour guide .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

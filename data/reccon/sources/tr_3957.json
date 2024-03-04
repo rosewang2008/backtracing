@@ -1,0 +1,282 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "what a nice uniform !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a nice uniform !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "what a nice uniform !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "thanks ; do you like it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a nice uniform !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thanks ; do you like it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "not really . I was being sarcastic . Does it come with the job ?",
+        "emotion": "neutral",
+        "text": "not really . I was being sarcastic . Does it come with the job ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "yes , everyone on the sales floor has to wear one . They're supposed to make us look more professional .",
+        "emotion": "neutral",
+        "text": "yes , everyone on the sales floor has to wear one . They're supposed to make us look more professional .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "they're not actually that bad . They could be worse . What do you think about it ?",
+        "emotion": "neutral",
+        "text": "they're not actually that bad . They could be worse . What do you think about it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I don't mind it , actually . I don't have to worry about what I'm going to wear every day .",
+        "emotion": "neutral",
+        "text": "I don't mind it , actually . I don't have to worry about what I'm going to wear every day .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "so are you enjoying your new job ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I don't have to worry about what I'm going to wear every day ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "so are you enjoying your new job ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "it's much better than my old one . My new boss is great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "it's much better than my old one . My new boss is great ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "it's much better than my old one . My new boss is great .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "how do you like working in sales ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "it's much better than my old one . My new boss is great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "how do you like working in sales ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I like the fact that I get to work with people . It makes the day go by much faster .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like the fact that I get to work with people ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like the fact that I get to work with people . It makes the day go by much faster .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "that's good . Have you met Jane yet ? She's the intern in the international travel department .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I like the fact that I get to work with people ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that's good . Have you met Jane yet ? She's the intern in the international travel department .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "yeah , I've met her . She's a genius saleswoman !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've met her . She's a genius saleswoman !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "yeah , I've met her . She's a genius saleswoman !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I know ! She could sell fridges to Eskimos !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I've met her . She's a genius saleswoman !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I know ! She could sell fridges to Eskimos !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "how do you know her ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "She could sell fridges to Eskimos !",
+            "how do you know her ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "how do you know her ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "she's my cousin .",
+        "emotion": "neutral",
+        "text": "she's my cousin .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "why didn't you tell me about that before ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "she's my cousin ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "why didn't you tell me about that before ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "I don't know . I didn't think it was that interesting .",
+        "emotion": "neutral",
+        "text": "I don't know . I didn't think it was that interesting .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "well , now that I know that , maybe we should all go out for dinner sometime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "maybe we should all go out for dinner sometime ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "well , now that I know that , maybe we should all go out for dinner sometime .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "that's a good idea . Let's discuss after work .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18
+        ],
+        "expanded emotion cause span": [
+            "maybe we should all go out for dinner sometime ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that's a good idea . Let's discuss after work .",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

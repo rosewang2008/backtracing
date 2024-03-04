@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Any questions?"
+    },
+    {
+        "text": "How do we minimize this function of a and b?"
+    },
+    {
+        "text": "Let's use our new knowledge."
+    },
+    {
+        "text": "Let's actually look for a critical point."
+    },
+    {
+        "text": "We want to solve for partial d over partial a equals zero and partial d over partial b equals zero."
+    },
+    {
+        "text": "That is how we look for critical points."
+    },
+    {
+        "text": "Let's take the derivative of a."
+    },
+    {
+        "text": "Well, the derivative of a sum is the sum of the derivatives."
+    },
+    {
+        "text": "And now we have to take the derivative of this quantity squared."
+    },
+    {
+        "text": "Remember how we take the derivative of a square."
+    },
+    {
+        "text": "We take twice this quantity times the derivative of what we are squaring."
+    },
+    {
+        "text": "We will get two times minus y i, sorry, y i minus a xi plus b times the derivative of this with respect to a."
+    },
+    {
+        "text": "What is the derivative of this with respect to a?"
+    },
+    {
+        "text": "Negative xi, exactly."
+    },
+    {
+        "text": "And so we will want this to be zero."
+    },
+    {
+        "text": "And partial d over partial b, we do the same thing but differentiating with respect to b instead of with respect to a."
+    },
+    {
+        "text": "Again, sum of squares twice y i minus a xi plus b times the derivative of this with respect to b is, I think, negative one."
+    },
+    {
+        "text": "That is the equations we have to solve."
+    },
+    {
+        "text": "Well, let's reorganize this a little bit."
+    },
+    {
+        "text": "The first equation, see, there are a's and there are b's in these equations."
+    }
+]

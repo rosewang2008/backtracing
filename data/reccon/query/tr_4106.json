@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What an attractive place ! How can I get there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "The scenery is so breathtaking .",
+            "There are thousands of hot springs and fountains .",
+            "Yes . The well-known Yellowstone Waterfall is formed when the Yellowstone Lake falls down into the Yellowstone Canyon .",
+            "an attractive place"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What an attractive place ! How can I get there ?",
+        "id": 9,
+        "source_sentences": [
+            3,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

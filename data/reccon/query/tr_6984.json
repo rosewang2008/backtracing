@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , they should have called you !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I didn't reconfirm in time and they gave away half of the seats ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , they should have called you !",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I could have something that looks like y given x is n0 x transpose beta."
+    },
+    {
+        "text": "And then this guy could be some other thing, which looks like, I don't know, some x transpose gamma squared times, I don't know, x x transpose plus identity, some crazy thing that depends on x here."
+    },
+    {
+        "text": "And we deliberately assume that all the thing that depends on x shows up in the mean."
+    },
+    {
+        "text": "And so what I have here is that y given x is a Gaussian with a mean that depends on x and covariance matrix sigma square identity."
+    },
+    {
+        "text": "Now, the linear model assumed a very specific form for the mean."
+    },
+    {
+        "text": "It said, I want the mean to be equal to x transpose beta, which, remember, was the sum from, say, j equals 1 to p of beta j xj, where the xj's are the coordinates of x."
+    },
+    {
+        "text": "But I could do something also more complicated."
+    },
+    {
+        "text": "I could have something that looks like, instead, replace this by, I don't know, sum of beta j log of x to the j divided by x to the j squared, or something like this."
+    },
+    {
+        "text": "I could do this as well."
+    },
+    {
+        "text": "So there's two things that we've assumed."
+    },
+    {
+        "text": "The first one is that when I look at the conditional distribution of y given x, x affects only the mean."
+    },
+    {
+        "text": "I also assumed that it was Gaussian, and that it affects only the mean."
+    },
+    {
+        "text": "And the mean is affected in a very specific way, which is linear in x."
+    },
+    {
+        "text": "So this is essentially the things we're going to try to relax."
+    },
+    {
+        "text": "So the first thing that we assume, the fact that y was Gaussian and had only its mean that depended on x, is what's called the random component."
+    },
+    {
+        "text": "It just says that the response variables sort of make sense to assume that they're Gaussian."
+    },
+    {
+        "text": "And everything was essentially captured."
+    },
+    {
+        "text": "So there's this property of Gaussians that if you tell me if the variance is known, all you need to tell me to understand exactly what the distribution of a Gaussian is, all you need to tell me is its expected value."
+    },
+    {
+        "text": "So that's this mu of x."
+    },
+    {
+        "text": "And the second thing is that we had this link that says, well, I need to find a way to use my x's to explain this mu."
+    }
+]

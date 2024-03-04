@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Betty , would you please read this letter of application I've just written ? I'd like to have your opinion .",
+        "emotion": "neutral",
+        "text": "Betty , would you please read this letter of application I've just written ? I'd like to have your opinion .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'd be glad to tell you what I think .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I'd like to have your opinion ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'd be glad to tell you what I think .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Good ! I'm interested in your advice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'd be glad to tell you what I think ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good ! I'm interested in your advice .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "If I were you , I would change the beginning . You should write about your education first because we like to judge a man by his abilities .",
+        "emotion": "neutral",
+        "text": "If I were you , I would change the beginning . You should write about your education first because we like to judge a man by his abilities .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good idea , Betty . What would you think about the second part ?",
+        "emotion": "happiness",
+        "explanation": "Assuming getting constructive feedback as a cause of happiness as long as the feedback is asked for.",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm interested in your advice .",
+            "If I were you , I would change the beginning . You should write about your education first because we like to judge a man by his abilities ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Good idea , Betty . What would you think about the second part ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think it's too short . You'd better say something about your work experience .",
+        "emotion": "neutral",
+        "text": "I think it's too short . You'd better say something about your work experience .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You're right , I'll change it . How about the last part ?",
+        "emotion": "neutral",
+        "text": "You're right , I'll change it . How about the last part ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Very good . But you should talk about your family , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "You're right , I'll change it . How about the last part ?",
+            "Very good ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Very good . But you should talk about your family , too .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I agree . I appreciate your helping me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Very good . But you should talk about your family , too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I agree . I appreciate your helping me .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

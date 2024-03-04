@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Joanne . What are you up to ?",
+        "emotion": "neutral",
+        "text": "Hey Joanne . What are you up to ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm just watching some television .",
+        "emotion": "neutral",
+        "text": "I'm just watching some television .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm so bored . I don't know what I'm going to do today and it is only ten in the morning .",
+        "emotion": "neutral",
+        "text": "I'm so bored . I don't know what I'm going to do today and it is only ten in the morning .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Me too . Do you think we are boring people ?",
+        "emotion": "neutral",
+        "text": "Me too . Do you think we are boring people ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I don't think we are boring . It's just that we don't have any hobbies .",
+        "emotion": "neutral",
+        "text": "I don't think we are boring . It's just that we don't have any hobbies .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's right . What do you think we should do as a hobby ?",
+        "emotion": "neutral",
+        "text": "That's right . What do you think we should do as a hobby ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That all depends on what you like to do . For example , I like to doodle on the notepad , so I'm thinking about doing some real drawings .",
+        "emotion": "neutral",
+        "text": "That all depends on what you like to do . For example , I like to doodle on the notepad , so I'm thinking about doing some real drawings .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I like to play the piano for fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I like to play the piano for fun ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I like to play the piano for fun .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah . That can be a good hobby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "play the piano for fun .",
+            "That can be a good hobby ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah . That can be a good hobby .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Hobbies are great . I'm going to make a list of all the things I like to do .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Hobbies are great . I'm going to make a list of all the things I like to do ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hobbies are great . I'm going to make a list of all the things I like to do .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's a great idea . I'm going to do the same .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Hobbies are great . I'm going to make a list of all the things I like to do .",
+            "I'm going to do the same ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a great idea . I'm going to do the same .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I don't know if you've ever looked at that matrix."
+    },
+    {
+        "text": "We're trying to collect together a few matrices that are worth knowing, are worth looking at."
+    },
+    {
+        "text": "OK, now what's happened here?"
+    },
+    {
+        "text": "You may say that was a trivial change, which it kind of was."
+    },
+    {
+        "text": "But it's a different matrix now."
+    },
+    {
+        "text": "It's not a rotation anymore."
+    },
+    {
+        "text": "That's not a rotation."
+    },
+    {
+        "text": "And yeah, somehow, now it's symmetric."
+    },
+    {
+        "text": "And yeah, its eigenvectors must be something or other."
+    },
+    {
+        "text": "We'll get to those."
+    },
+    {
+        "text": "But what does that matrix do?"
+    },
+    {
+        "text": "I don't know if you've seen it."
+    },
+    {
+        "text": "If you haven't, it doesn't jump out."
+    },
+    {
+        "text": "But it's an important case."
+    },
+    {
+        "text": "This is a reflection matrix."
+    },
+    {
+        "text": "Notice that it's determined it is minus 1."
+    },
+    {
+        "text": "You have minus cos squared theta minus sine squared theta."
+    },
+    {
+        "text": "It's determined it is minus 1."
+    },
+    {
+        "text": "There's some eigenvalue coming up that's got a minus."
+    },
+    {
+        "text": "Yeah."
+    }
+]

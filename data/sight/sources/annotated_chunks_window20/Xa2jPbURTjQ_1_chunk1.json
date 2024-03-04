@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's the ortho part."
+    },
+    {
+        "text": "So that gives me the 0s."
+    },
+    {
+        "text": "So that's a simple identity."
+    },
+    {
+        "text": "But it translates from a lot of words into a simple expression."
+    },
+    {
+        "text": "Now, does that mean that in the other order, Q Q transpose, is that the identity?"
+    },
+    {
+        "text": "So that's a question to think about."
+    },
+    {
+        "text": "Is Q Q transpose equal the identity?"
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "Sometimes yes, sometimes no."
+    },
+    {
+        "text": "Easy to tell which."
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "Yes, when Q is square."
+    },
+    {
+        "text": "The answer is yes."
+    },
+    {
+        "text": "If Q is a square matrix, a square matrix, this is saying that the square matrix Q has that inverse on its left."
+    },
+    {
+        "text": "But for square matrices, a left inverse, Q transpose, is also a right inverse."
+    },
+    {
+        "text": "And for a square matrix, if you have an inverse that works on one side, it will work on the other side."
+    },
+    {
+        "text": "So the answer is yes in that case."
+    },
+    {
+        "text": "And then in that case, that's the case when we call Q is, well, we really, I don't know what the right name would be."
+    },
+    {
+        "text": "But here's the name everybody uses, an orthogonal matrix."
+    },
+    {
+        "text": "And that's only in the square case, square."
+    }
+]

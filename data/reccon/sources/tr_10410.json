@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Sam , you ' Ve got to forgive me .",
+        "emotion": "neutral",
+        "text": "Sam , you ' Ve got to forgive me .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Forgive you for what ?",
+        "emotion": "neutral",
+        "text": "Forgive you for what ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I used your computer . And I ' m afraid I ' Ve erased your personal files accidentally .",
+        "emotion": "neutral",
+        "text": "I used your computer . And I ' m afraid I ' Ve erased your personal files accidentally .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No ! Are you kidding me ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No ! Are you kidding me ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I ' m afraid not . I apologize .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I ' m afraid not . I apologize .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I can ' t believe it ! I have all my important personal documents stored in that computer . It ' s no laughing matter .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally .",
+            "I have all my important personal documents stored in that computer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can ' t believe it ! I have all my important personal documents stored in that computer . It ' s no laughing matter .",
+        "id": 6,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I told you I ' m sorry . What can I do to make it up to you ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally .",
+            "I have all my important personal documents stored in that computer ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I told you I ' m sorry . What can I do to make it up to you ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , you should be sorry ! Don ' t ever use my computer again ! You can ' t do anything now , it ' s too late !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve erased your personal files accidentally .",
+            "I have all my important personal documents stored in that computer ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Well , you should be sorry ! Don ' t ever use my computer again ! You can ' t do anything now , it ' s too late !",
+        "id": 8
+    }
+]

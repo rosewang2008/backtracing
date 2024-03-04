@@ -1,0 +1,2846 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "It doesn't run Flash Player, so I had to run them on Chrome."
+    },
+    {
+        "text": "All right, so let's move on to our second chapter."
+    },
+    {
+        "text": "And hopefully, in this chapter, you will feel a little better if you felt like it was going a bit fast in the first chapter."
+    },
+    {
+        "text": "And the main reason why I actually went fast, especially in terms of confidence interval, some of you came and asked me, what do you mean by this is a confidence interval?"
+    },
+    {
+        "text": "What does it mean that it's not happening in there with probability 95%, et cetera?"
+    },
+    {
+        "text": "I just went really fast so that you could see why I didn't want to give you a first week doing probability only and without understanding what the statistical context for it was."
+    },
+    {
+        "text": "So hopefully, all these things that we've done in terms of probability, you actually know why we've been doing them."
+    },
+    {
+        "text": "And so we're basically going to go back to what we're doing, maybe start with some statistical setup."
+    },
+    {
+        "text": "But the goal of this lecture is really going to go back again to what we've seen from a purely statistical perspective."
+    },
+    {
+        "text": "So the first thing we're going to do is explain why we're doing statistical modeling."
+    },
+    {
+        "text": "So in practice, if you have data, if you observe a bunch of points, and here I gave you some numbers, for example."
+    },
+    {
+        "text": "So here's a partial data set with the number of siblings, including self, that were collected from college students a few years back."
+    },
+    {
+        "text": "So I was teaching a class like yours, and I actually asked students to go and fill out some Google form and tell me a bunch of things."
+    },
+    {
+        "text": "And one of the questions was, including yourself, how many siblings do you have?"
+    },
+    {
+        "text": "And so they gave me this list of numbers."
+    },
+    {
+        "text": "And there's many ways I can think of this list of numbers."
+    },
+    {
+        "text": "I could think of it as being just a discrete distribution on the set of numbers between 1."
+    },
+    {
+        "text": "I mean, I know there's not going to be an answer which is less than 1, unless, well, someone doesn't understand the question."
+    },
+    {
+        "text": "But all the answers I should get are positive integers, 1, 2, 3, et cetera."
+    },
+    {
+        "text": "And there probably is an upper bound, but I don't know it on the top of my head."
+    },
+    {
+        "text": "So maybe I should say 100."
+    },
+    {
+        "text": "Maybe I should say 15."
+    },
+    {
+        "text": "Depends, right?"
+    },
+    {
+        "text": "And so I think the largest number I got for this was 6."
+    },
+    {
+        "text": "So here you can see you have pretty standard families, lots of 1's, 2's, and 3's."
+    },
+    {
+        "text": "So what statistical modeling is doing is to try to compress this information that I could actually describe in a very naive way."
+    },
+    {
+        "text": "So let's start with the basic usual statistical setup."
+    },
+    {
+        "text": "So I will start many of the boards that look like x1, xn, random variables."
+    },
+    {
+        "text": "And what I'm going to assume, as we said, typically is that those guys are iid, and they have some distribution."
+    },
+    {
+        "text": "So they all share the same distribution."
+    },
+    {
+        "text": "And the fact that they're iid is so that I can actually do statistics."
+    },
+    {
+        "text": "Statistics means looking at the global averaging thing so that I can actually get a sense of what the global behavior is for the population."
+    },
+    {
+        "text": "If I start assuming that those things are not identically distributed, they all live on their own, that my sequence of number is your number of siblings, the shoe size of this person, the depth of the Charles River, and I start measuring a bunch of stuff, there's nothing I'm going to actually get together."
+    },
+    {
+        "text": "I need to have something that's cohesive."
+    },
+    {
+        "text": "And so here, I collected some data that was cohesive."
+    },
+    {
+        "text": "And so the goal here, the first thing is to say, what is the distribution that I actually have here?"
+    },
+    {
+        "text": "So I could actually be very general."
+    },
+    {
+        "text": "I could just say it's some distribution p. And let's say there are random variables, not random vectors."
+    },
+    {
+        "text": "I could collect entire vectors about students."
+    },
+    {
+        "text": "But let's say those are just random variables."
+    },
+    {
+        "text": "And so now I can start making assumptions on this distribution p. What can I say about a distribution?"
+    },
+    {
+        "text": "Well, maybe if those numbers are continuous, for example, I could assume they have a density, a probability density function."
+    },
+    {
+        "text": "That's already an assumption."
+    },
+    {
+        "text": "Maybe I could start to assume that their probability density function is smooth."
+    },
+    {
+        "text": "That's another assumption."
+    },
+    {
+        "text": "Maybe I could actually assume that it's piecewise constant."
+    },
+    {
+        "text": "That's even better."
+    },
+    {
+        "text": "And those things make my life simpler and simpler, because what I do by making the successive assumptions is reducing the degrees of freedom of the space in which I'm actually searching the distribution."
+    },
+    {
+        "text": "And so what we actually want is to have something which is small enough so we can actually have some averaging going on."
+    },
+    {
+        "text": "But we also want something which is big enough that it can actually express."
+    },
+    {
+        "text": "It has chances of actually containing a distribution that makes sense for us."
+    },
+    {
+        "text": "So let's start with the simplest possible example, which is when the xi's belong to 0, 1."
+    },
+    {
+        "text": "And as I said here, we don't have a choice."
+    },
+    {
+        "text": "The distribution of those guys has to be Bernoulli."
+    },
+    {
+        "text": "And since they're iid, they all share the same p. So that's definitely the simplest possible thing I could think of."
+    },
+    {
+        "text": "They're just Bernoulli p. And so all I would have to figure out in this case is p. And this is the simplest case."
+    },
+    {
+        "text": "And unsurprisingly, it has the simplest answer."
+    },
+    {
+        "text": "We will come back to this example when we study maximum likelihood estimators or method of moments estimators by the method of moments."
+    },
+    {
+        "text": "But at the end of the day, the things that we did, the things that we will do are always the naive estimator you would come up with is, what is the proportion of 1?"
+    },
+    {
+        "text": "And this will be, in pretty much all respects, the best estimator you can think of."
+    },
+    {
+        "text": "So then we're going to try to assess its performance."
+    },
+    {
+        "text": "And we saw how to do that in the first chapter as well."
+    },
+    {
+        "text": "So this problem here somehow is completely understood."
+    },
+    {
+        "text": "We'll come back to it."
+    },
+    {
+        "text": "But there's nothing fancy that's going to happen."
+    },
+    {
+        "text": "But now I could have some more complicated things."
+    },
+    {
+        "text": "So for example, in the example of the students now, my xi's belong to the sequence of integers 1, 2, 3, et cetera, which is also denoted by n, maybe without 0 if you want to put 0 in n, so the positive integers."
+    },
+    {
+        "text": "Or I could actually just maybe put some prior knowledge about how humans have time to have families."
+    },
+    {
+        "text": "But maybe some people thought of their college mates as being their brothers and sisters."
+    },
+    {
+        "text": "And one student would actually put 465 siblings, because we're all good friends."
+    },
+    {
+        "text": "Or maybe they actually think that all their Facebook contacts are actually their siblings."
+    },
+    {
+        "text": "And so you never know what's going to happen."
+    },
+    {
+        "text": "So maybe you want to account for this."
+    },
+    {
+        "text": "But maybe you know that people are reasonable."
+    },
+    {
+        "text": "And they will actually give you something like this."
+    },
+    {
+        "text": "Now, intuitively, maybe you would say, well, why would you bother doing this if you're not really sure about the 20?"
+    },
+    {
+        "text": "But I think that probably all of you intuitively guess that this is probably a good idea to start putting this kind of assumption rather than allowing for any number in the first place, because this eventually will be injected into the precision of our estimator."
+    },
+    {
+        "text": "If I allow anything, it's going to be more complicated for me to get an accurate estimator."
+    },
+    {
+        "text": "If I know that the numbers are either 1 or 2, then I'm actually going to be slightly more accurate as well."
+    },
+    {
+        "text": "Because I know that, for example, somebody put a 5, I can remove it."
+    },
+    {
+        "text": "Then it's not going to actually screw up with my estimator."
+    },
+    {
+        "text": "All right, so now let's say we actually agree that we have numbers."
+    },
+    {
+        "text": "And here I put seven numbers."
+    },
+    {
+        "text": "So I just said, well, now the numbers, let's assume that the numbers I'm going to get are going to be 1 all the way to, say, this number that I denote by larger than or equal to 7, which is a placeholder for any number larger than 7."
+    },
+    {
+        "text": "Because I know maybe I don't want to distinguish between people who have 9 or 25 siblings."
+    },
+    {
+        "text": "And so now, this is a distribution on seven possible values, discrete distributions."
+    },
+    {
+        "text": "And you know from your probability class that the way you describe this distribution is using the probability mass function, or PMF."
+    },
+    {
+        "text": "So that's how we describe a discrete distribution."
+    },
+    {
+        "text": "And the PMF is just a list of numbers."
+    },
+    {
+        "text": "So as I wrote here, you have a list of numbers."
+    },
+    {
+        "text": "And here you wrote the possible value that your random variable can take."
+    },
+    {
+        "text": "And here you write the probability that your random variable takes this value."
+    },
+    {
+        "text": "So the possible values being 1, 2, 3, all the way to larger than or equal to 7."
+    },
+    {
+        "text": "And then I'm trying to estimate those numbers."
+    },
+    {
+        "text": "If I give you those numbers, at least up to this compression of all numbers larger than or equal to 7, you have a full description of your distribution."
+    },
+    {
+        "text": "And that is the ultimate goal of statistics."
+    },
+    {
+        "text": "The ultimate goal of statistics is to say what distribution your data came from, because that's basically the best you're going to be able to."
+    },
+    {
+        "text": "Now admittedly, if I started looking at the fraction of 1's, and the fraction of 2's, and the fraction of 3's, et cetera, I would actually eventually get those numbers."
+    },
+    {
+        "text": "Just like looking at the fraction of 1's gave me a good estimate for p in the Bernoulli case, it would do the same in this case."
+    },
+    {
+        "text": "It's a pretty intuitive idea."
+    },
+    {
+        "text": "It's just the law of large numbers."
+    },
+    {
+        "text": "Everybody agrees with that?"
+    },
+    {
+        "text": "If I look at the proportion of 1's, the proportion of 2's, the proportion of 3's, that should actually give me something that gets closer and closer as my sample size increases to what I want."
+    },
+    {
+        "text": "But the problem is, if my sample size is not huge, here I have seven numbers to estimate."
+    },
+    {
+        "text": "And if I have 20 observations, the ratio is not really in my favor."
+    },
+    {
+        "text": "I mean, 20 observations to estimate seven parameters, some of them are going to be pretty off, typically the ones with the large values."
+    },
+    {
+        "text": "If I have only 20 students, look at the list of numbers."
+    },
+    {
+        "text": "I don't know how many numbers I have, but it probably is close to 20, maybe 15 or something."
+    },
+    {
+        "text": "And so if you look at this list, nobody has four or more siblings in this list."
+    },
+    {
+        "text": "There's no such person."
+    },
+    {
+        "text": "So that means that eventually, from this data set, my estimates, so those numbers I denote by, say, p1, p2, p3, et cetera, those estimates, p4 hat would be equal to what from this data?"
+    },
+    {
+        "text": "0, right?"
+    },
+    {
+        "text": "And p5 hat would be equal to 0, and p6 hat would be equal to 0, and p larger than or equal to 7 hat would be equal to 0."
+    },
+    {
+        "text": "That would be my estimates from this data set."
+    },
+    {
+        "text": "So maybe this is not."
+    },
+    {
+        "text": "Maybe I want to actually pull some information from the people who have less siblings to try to make a guess, which is probably slightly better for the larger values."
+    },
+    {
+        "text": "It's pretty clear that, in average, there's more than 0."
+    },
+    {
+        "text": "The proportion of the population of households that have four children or more is definitely more than 0."
+    },
+    {
+        "text": "So it means that my data set is not representative."
+    },
+    {
+        "text": "And what I'm going to try to do is to find a model that tries to use the data that I have for the smaller values that I can observe and just pull shit out for the other ones."
+    },
+    {
+        "text": "And so what we can do is to just reduce those parameters into something that's understood."
+    },
+    {
+        "text": "And this is part of the modeling that I talked about in the first place."
+    },
+    {
+        "text": "Now, how do you succinctly describe a number of something?"
+    },
+    {
+        "text": "Well, one thing that you do is the Poisson distribution."
+    },
+    {
+        "text": "Why the Poisson?"
+    },
+    {
+        "text": "I mean, there's many reasons."
+    },
+    {
+        "text": "I mean, again, that's part of statistical modeling."
+    },
+    {
+        "text": "But once you know that you have number of something that can be modeled by a Poisson, why not try a Poisson?"
+    },
+    {
+        "text": "You could just fit a Poisson."
+    },
+    {
+        "text": "And the Poisson is something that looks like this."
+    },
+    {
+        "text": "And I guess you've all seen it."
+    },
+    {
+        "text": "But if x follows a Poisson distribution with parameter lambda, then the probability that x is equal to little x is equal to lambda to the x over factorial x e to the minus lambda."
+    },
+    {
+        "text": "And if you did the sheet that I gave you on the first day, you can check that those numbers."
+    },
+    {
+        "text": "So this is, of course, for x equals 0, 1, et cetera."
+    },
+    {
+        "text": "So x is in natural integers."
+    },
+    {
+        "text": "And if you sum from x equals 0 to infinity, this thing, you get e to the lambda."
+    },
+    {
+        "text": "And so they cancel."
+    },
+    {
+        "text": "And you have a sum which is equal to 1."
+    },
+    {
+        "text": "So it's indeed a PMF."
+    },
+    {
+        "text": "But what's key about this PMF is that it never takes value 0."
+    },
+    {
+        "text": "This thing is always strictly positive."
+    },
+    {
+        "text": "So whatever value of lambda I find from this data will give me something that's certainly more interesting than just putting the value 0."
+    },
+    {
+        "text": "But more importantly, rather than having to estimate seven parameters, and as a consequence, you actually have to estimate 1, 2, 3, 4 of them, and it equals to 0, I have only one parameter to estimate, which is lambda."
+    },
+    {
+        "text": "The problem with doing this is that now lambda may not be just something as simple as computing the average number."
+    },
+    {
+        "text": "I mean, in this case, it will."
+    },
+    {
+        "text": "But in many instances, it's actually not clear that this parametrization with lambda that I chose, I'm going to be able to estimate lambda just by computing the average number that I see."
+    },
+    {
+        "text": "It will be the case."
+    },
+    {
+        "text": "But if it's not, remember this example of the exponential we did in the last lecture."
+    },
+    {
+        "text": "We could use the delta method and things like that to estimate this."
+    },
+    {
+        "text": "All right, so here's the modeling 101."
+    },
+    {
+        "text": "So the purpose of modeling is to restrict the space of possible distributions to a subspace that's actually plausible, but much simpler for me to estimate."
+    },
+    {
+        "text": "So we went from all distributions on seven parameters, which is a large space that's a lot of things, to something which is just one number to estimate."
+    },
+    {
+        "text": "This number is positive."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any questions about the purpose of doing this?"
+    },
+    {
+        "text": "OK, so we're going to have to do a little bit of formalism now."
+    },
+    {
+        "text": "And so if we want to talk, this is a specific class, so I'm not going to want to talk about the Poisson model specifically every single time."
+    },
+    {
+        "text": "I'm going to want to talk about generic models."
+    },
+    {
+        "text": "And then you're going to be able to plug in your favorite word, no Poisson, binomial, exponential, uniform, all these words that you've seen, you're going to be able to plug in there."
+    },
+    {
+        "text": "But we're just going to have some generic notation and some generic terminology for statistical models."
+    },
+    {
+        "text": "So here is the formal definition."
+    },
+    {
+        "text": "So I'm going to go through it with you."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so the definition is that of a statistical model."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so, sorry, that's a statistical experiment, I should say."
+    },
+    {
+        "text": "I'm sorry."
+    },
+    {
+        "text": "OK, so a statistical experiment is actually just a pair, E, and that's a set, and a family of distributions, P theta, where theta ranges in some set, capital theta."
+    },
+    {
+        "text": "OK, so I hope you're up to date with your Greek letters."
+    },
+    {
+        "text": "So it's a small theta, it's a capital theta."
+    },
+    {
+        "text": "I know I don't have the best handwriting, so if you don't see something, just ask me."
+    },
+    {
+        "text": "OK, and so this thing now, so each of this guy is a probability distribution."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So for example, this could be a Poisson with parameter theta, or a Bernoulli with parameter theta."
+    },
+    {
+        "text": "OK, or an exponential with parameter, I don't know, 1 over theta squared, if you want."
+    },
+    {
+        "text": "OK, but they're just indexed by theta."
+    },
+    {
+        "text": "For each theta, this completely describes the distribution."
+    },
+    {
+        "text": "It could be more complicated."
+    },
+    {
+        "text": "This theta could be a pair of mu sigma squared, and that could actually give you some n mu sigma squared."
+    },
+    {
+        "text": "OK, so anything where you can actually, rather than actually giving you a full distribution, I can compress it into a parameter."
+    },
+    {
+        "text": "But it could be worse."
+    },
+    {
+        "text": "It could be this guy here, right?"
+    },
+    {
+        "text": "Theta could be p1, p larger than or equal to 7, and my distribution could just be something that has pmf."
+    },
+    {
+        "text": "p1, p larger than 7."
+    },
+    {
+        "text": "That's another parameter."
+    },
+    {
+        "text": "This one is seven dimensional, this one is two dimensional, and all these guys are just one dimension."
+    },
+    {
+        "text": "All these guys are parameters."
+    },
+    {
+        "text": "Is that clear?"
+    },
+    {
+        "text": "What's important here is that once I give you theta, you know exactly all the probabilities associated to this random variable."
+    },
+    {
+        "text": "You know its distribution perfectly."
+    },
+    {
+        "text": "OK, so here, so this is the definition."
+    },
+    {
+        "text": "Is that clear for everyone?"
+    },
+    {
+        "text": "Is there a question about this distribution?"
+    },
+    {
+        "text": "About this definition, sorry?"
+    },
+    {
+        "text": "All right, so really, the key thing is the statistical model associated to a statistical experiment."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So let's just see some examples."
+    },
+    {
+        "text": "It's probably just better, because again, with formalism, it's never really clear."
+    },
+    {
+        "text": "Actually, that's the next slide."
+    },
+    {
+        "text": "OK, so there's two things we need to assume."
+    },
+    {
+        "text": "I mean, there's, OK, so the purpose of a statistical model is to, once I estimate the parameter, I actually know exactly what distribution I have."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So it means that I could potentially have several parameters that give me the same distribution that would still be fine, because I could estimate one guy, or I could estimate the other guy, and I would still recover the underlying distribution of my data."
+    },
+    {
+        "text": "The problem is that this creates really annoying theoretical problems, like things don't work, the algorithms won't work, the guarantees won't work."
+    },
+    {
+        "text": "And so what we typically assume is that the model is so-called well-specified."
+    },
+    {
+        "text": "All right, sorry, that's not well-specified."
+    },
+    {
+        "text": "I'm jumping ahead of myself."
+    },
+    {
+        "text": "OK, well-specified means that your data, the distribution of your data, is actually one of those guys."
+    },
+    {
+        "text": "OK, so some vocabulary."
+    },
+    {
+        "text": "So well-specified means that for my observations x, there exists a theta, in capital theta, such that x follows p sub theta."
+    },
+    {
+        "text": "I should put a double dot."
+    },
+    {
+        "text": "OK, so that's what well-specified means."
+    },
+    {
+        "text": "So that means that the distribution of your actual data is just one of those guys."
+    },
+    {
+        "text": "This is a bit stronger than assumption."
+    },
+    {
+        "text": "It's strong in the sense that, I don't know if you've heard of this sentence, which I don't know."
+    },
+    {
+        "text": "I can tell you who it's attributed to, but that probably means that this person did not work with it."
+    },
+    {
+        "text": "But it said that all models are wrong, but some of them are useful."
+    },
+    {
+        "text": "So all models are wrong means that maybe it's not true that this Poisson distribution that I assume for the number of siblings for college students, maybe that's not perfectly correct."
+    },
+    {
+        "text": "Maybe there's a spike at three."
+    },
+    {
+        "text": "Maybe there's a spike at one, because maybe those are slightly more educated families."
+    },
+    {
+        "text": "They have less children."
+    },
+    {
+        "text": "Maybe this is actually not exactly perfect, but it's probably good enough for our purposes."
+    },
+    {
+        "text": "And when we make this assumption, we're actually assuming that the data really comes from a Poisson model."
+    },
+    {
+        "text": "There is a lot of research that goes on about misspecified models, and that tells you how well you're doing in the model that's the closest to the actual distribution."
+    },
+    {
+        "text": "So that's pretty much it."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "X is, so by data, it's always the way I denote one of the generic observations."
+    },
+    {
+        "text": "So my observations are x1, xn, and they're iid with distribution p, always."
+    },
+    {
+        "text": "So x is just one of those guys."
+    },
+    {
+        "text": "I don't want to write x5 or x4."
+    },
+    {
+        "text": "They're iid, so they all have the same distribution."
+    },
+    {
+        "text": "So OK. No, no, no."
+    },
+    {
+        "text": "They're all iid, so they all have the same p theta."
+    },
+    {
+        "text": "They'll have the same p, which means they'll have the same p theta."
+    },
+    {
+        "text": "So I can pick any one of them, so I just remove the index, just where it's there."
+    },
+    {
+        "text": "So when I write x, I just mean think of x1."
+    },
+    {
+        "text": "They're iid."
+    },
+    {
+        "text": "I can pick whichever I want."
+    },
+    {
+        "text": "I'm not going to write x1."
+    },
+    {
+        "text": "It's going to be weird."
+    },
+    {
+        "text": "OK. Is that clear?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this particular theta is called the true parameter."
+    },
+    {
+        "text": "Sometimes, since we're going to want some variable theta, we might denote it by theta star as opposed to theta hat, which is always our estimator."
+    },
+    {
+        "text": "But I'll keep it to be theta for now."
+    },
+    {
+        "text": "And so the aim of the statistical experiment is to estimate theta so that once I actually plug in theta in the form of my distribution, for example, I could plug in theta here."
+    },
+    {
+        "text": "So theta here was actually lambda."
+    },
+    {
+        "text": "So once I estimate this guy, I would plug it in."
+    },
+    {
+        "text": "And I would know the probability that my random variable takes any value by just putting a lambda hat and lambda hat here."
+    },
+    {
+        "text": "So my goal is going to be to estimate this guy so that I can actually compute those distributions."
+    },
+    {
+        "text": "But actually, we'll see, for example, when we talk about regression, that this parameter actually has a meaning in many instances."
+    },
+    {
+        "text": "And so just knowing the parameter itself intuitively or, let's say, more so than just computing probabilities will actually tell us something about the process."
+    },
+    {
+        "text": "So for example, we're going to run linear regression."
+    },
+    {
+        "text": "And when we do linear regression, there's going to be some coefficients in the linear regression."
+    },
+    {
+        "text": "And the value of this coefficient is actually telling me what is the sensitivity of the response that I'm looking at to this particular input."
+    },
+    {
+        "text": "So just knowing if this number is large or if this number is small is actually going to be useful for us to just look at this guy."
+    },
+    {
+        "text": "So there's going to be some instances where it's going to be important."
+    },
+    {
+        "text": "Sometimes we're going to want to know if this parameter is larger or smaller than something or if it's equal to something or not equal to something."
+    },
+    {
+        "text": "And those things are also important, for example, if theta actually measures the true."
+    },
+    {
+        "text": "So theta is a true unknown parameter, true efficacy of a drug."
+    },
+    {
+        "text": "Let's say I want to know what the true efficacy of a drug is."
+    },
+    {
+        "text": "And what I'm going to want to know is maybe it's a score."
+    },
+    {
+        "text": "Maybe I'm going to want to know if theta is larger than 2."
+    },
+    {
+        "text": "Maybe I want to know if theta is the average number of siblings."
+    },
+    {
+        "text": "Is this true number larger than 2 or not?"
+    },
+    {
+        "text": "Maybe I'm interested in knowing if college students come from a sociological perspective."
+    },
+    {
+        "text": "I'm interested in knowing if college students come from a household with more than two children."
+    },
+    {
+        "text": "So those can be the questions that I may ask myself."
+    },
+    {
+        "text": "I'm going to want to know maybe if theta is going to be equal to 1 half or not."
+    },
+    {
+        "text": "So maybe for drug efficacy, is it completely standard?"
+    },
+    {
+        "text": "Maybe for elections, is the proportion of the population that is going to vote for this particular candidate equal to 0.5 or is it different from 0.5?"
+    },
+    {
+        "text": "And I can think of different things."
+    },
+    {
+        "text": "When I'm talking about the regression, I'm going to want to test if this coefficient is actually 0 or not."
+    },
+    {
+        "text": "Because if it's 0, it means that the variable that's in front of it actually goes out."
+    },
+    {
+        "text": "And so those are things we're testing."
+    },
+    {
+        "text": "Actually, having this very specific yes, no answer is going to give me a huge intuition or a huge understanding of what's going on in the phenomenon that I observe."
+    },
+    {
+        "text": "But actually, since the questions are so precise, I'm going to be much better at answering them rather than giving you an estimate for theta with some confidence around it."
+    },
+    {
+        "text": "It's sort of the same principle as trying to reduce."
+    },
+    {
+        "text": "What you're trying to do as a statistician is to inject as much knowledge about the question and about the problem that you can so that the data has to do a minimal job."
+    },
+    {
+        "text": "And henceforth, you actually need less data."
+    },
+    {
+        "text": "So for now on, we will always assume, and this is because this is an intro stats class, you will always assume that theta, the subset of parameters, is a subset of r to the d. That means that theta is a vector with, at most, a finite number of coordinates."
+    },
+    {
+        "text": "Why do I say this?"
+    },
+    {
+        "text": "Well, this is called a parametric model."
+    },
+    {
+        "text": "So it's called a parametric model, or sometimes parametric statistics."
+    },
+    {
+        "text": "Actually, we don't really talk about parametric statistics, but we talk a lot about nonparametric statistics or a nonparametric model."
+    },
+    {
+        "text": "Can somebody think of a model which is nonparametric?"
+    },
+    {
+        "text": "For example, in the siblings example, if I did not cap the number of siblings to 7, but I let this list go to infinity, I would have an infinite number of parameters to estimate."
+    },
+    {
+        "text": "Very likely, the last one would be 0, but still, I would have an infinite number of parameters to estimate."
+    },
+    {
+        "text": "So this would not be a parametric model if I just let this list of things to be estimated to be infinite."
+    },
+    {
+        "text": "But there's other classes that are actually infinite and cannot be represented by vectors."
+    },
+    {
+        "text": "For example, function."
+    },
+    {
+        "text": "If I tell you my model, pf is just the distribution of x's, the probability distributions that have density f. So what I know is that the density is non-negative and that it integrates to 1."
+    },
+    {
+        "text": "That's all I know about density."
+    },
+    {
+        "text": "Well, f is not something you're going to be able to describe with a finite number of values."
+    },
+    {
+        "text": "All possible functions, this is a huge set."
+    },
+    {
+        "text": "It's certainly not representable by 10 numbers."
+    },
+    {
+        "text": "And so nonparametric estimation is typically when you actually want to parameterize this by a large class of functions."
+    },
+    {
+        "text": "And so for example, histograms is the prime tool of nonparametric estimation."
+    },
+    {
+        "text": "Because when you fit a histogram to data, you're trying to estimate the density of your data, but you're not trying to represent it as a finite number of points, even though that's really, I mean, effectively, you have to represent it."
+    },
+    {
+        "text": "So you actually truncate somewhere and just say, those things are not going to matter."
+    },
+    {
+        "text": "But really, the key thing is that this is nonparametric where you have an infinite, potentially infinite number of parameters, whereas we're going to only talk about finites."
+    },
+    {
+        "text": "And actually, finite in most overwhelming majority of cases is going to be 1."
+    },
+    {
+        "text": "So theta is going to be a subset of R1."
+    },
+    {
+        "text": "We're going to be interested in estimating one parameter, just like the parameter of a poisson or the parameter of an exponential, the parameter of Bernoulli."
+    },
+    {
+        "text": "But for example, rarely we're going to be interested in estimating mu and sigma square for the normal."
+    },
+    {
+        "text": "So here are some statistical models."
+    },
+    {
+        "text": "So I'm going to go through them with you."
+    },
+    {
+        "text": "So we start, right, so if I tell you, I observe, I'm interested in understanding the, I'm still that shallow, and I'm interested in understanding the proportion of people who kiss by bending their head to the right."
+    },
+    {
+        "text": "And for that, I collected n observations and I'm interested in making some inference in this statistical model."
+    },
+    {
+        "text": "My question to you is, what is the statistical model?"
+    },
+    {
+        "text": "Well, if you want to write the statistical model, you're going to have to write this e. Oh, sorry, I never told you what e was."
+    },
+    {
+        "text": "OK, well, actually, just go to the examples and then you'll know what e is."
+    },
+    {
+        "text": "So you're going to have to write to me an e and a p theta."
+    },
+    {
+        "text": "OK, so let's start with the Bernoulli trials."
+    },
+    {
+        "text": "So this e here is called the sample space."
+    },
+    {
+        "text": "And in normal people's words, it just means the space or the set in which x, and back to your question, x is just a generic observation, lives."
+    },
+    {
+        "text": "OK, and hopefully, this is the smallest you can think of."
+    },
+    {
+        "text": "OK, so for example, for Bernoulli trials, I'm going to observe a sequence of 0's and 1's."
+    },
+    {
+        "text": "So my experiment is going to be, as written on the board, is going to be 1, 0, 1, and then the probability distributions are going to be, well, it's just going to be the Bernoulli distributions indexed by p. So rather than writing p sub p, I'm going to write it as Bernoulli p, because it's clear what I mean when I write that."
+    },
+    {
+        "text": "Is everybody happy?"
+    },
+    {
+        "text": "Actually, I need to tell you something more."
+    },
+    {
+        "text": "This is a family of distributions, so I need p. And maybe I don't want to have p that takes value 0 or 1."
+    },
+    {
+        "text": "I mean, it doesn't make sense."
+    },
+    {
+        "text": "I would probably not look at this problem if I anticipated that everybody would kiss to the right and everybody would kiss to the left."
+    },
+    {
+        "text": "So I'm going to assume that p is in 0, 1, but does not have 0 and 1."
+    },
+    {
+        "text": "So that's a statistical model for Bernoulli trials."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, now the next one, what do we have?"
+    },
+    {
+        "text": "Exponential."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so when I have exponential distributions, what is the support of the exponential distribution?"
+    },
+    {
+        "text": "What value is it going to take?"
+    },
+    {
+        "text": "0 to infinity, right?"
+    },
+    {
+        "text": "So what I have is that my first space is the value that my random variables can take."
+    },
+    {
+        "text": "So it's, well, actually, I can remove the 0 again."
+    },
+    {
+        "text": "0 to plus infinity."
+    },
+    {
+        "text": "And then the family of distributions that I have are exponential with parameter lambda."
+    },
+    {
+        "text": "And again, maybe you see me switching from p to lambda to theta to mu to sigma square."
+    },
+    {
+        "text": "Honestly, you can do whatever you want, but it's just that it's customary to have these particular Greek letters."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so the parameters of exponential are just positive numbers."
+    },
+    {
+        "text": "OK, and that's my exponential model."
+    },
+    {
+        "text": "What is the third one?"
+    },
+    {
+        "text": "Can somebody tell me?"
+    },
+    {
+        "text": "Poisson."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so Poisson."
+    },
+    {
+        "text": "Is Poisson random variable discrete or continuous?"
+    },
+    {
+        "text": "Go back to your probability."
+    },
+    {
+        "text": "All right, so the answer being the opposite of continuous."
+    },
+    {
+        "text": "Good job."
+    },
+    {
+        "text": "All right, so it's going to be, what values can a Poisson take?"
+    },
+    {
+        "text": "All the natural integers, right?"
+    },
+    {
+        "text": "So 0, 1, 2, 3, all the way to infinity."
+    },
+    {
+        "text": "We don't have any control of this, so I'm going to write this as n without 0."
+    },
+    {
+        "text": "I think in the slides, it's n star, maybe."
+    },
+    {
+        "text": "Actually, no, you can take value 0."
+    },
+    {
+        "text": "I'm sorry."
+    },
+    {
+        "text": "This actually takes value 0 quite a lot."
+    },
+    {
+        "text": "That's typically in many instances actually the mode."
+    },
+    {
+        "text": "So it's n, and then I'm going to write it as Poisson with parameter, well, here it's again lambda as a parameter."
+    },
+    {
+        "text": "And lambda can take any positive value."
+    },
+    {
+        "text": "And that's where you can actually see that the model that we had for the siblings, right?"
+    },
+    {
+        "text": "So let me actually just squeeze in the siblings model here."
+    },
+    {
+        "text": "All right, so that was the bad model that I had in the first place."
+    },
+    {
+        "text": "When I actually capped this, let's say we just capped it at 7."
+    },
+    {
+        "text": "Forget about large than or equal to 7."
+    },
+    {
+        "text": "We just assumed it was 7."
+    },
+    {
+        "text": "What was our sample space?"
+    },
+    {
+        "text": "We said 7."
+    },
+    {
+        "text": "So it's 1, 2, to 7, right?"
+    },
+    {
+        "text": "Those were the possible values that this thing would take."
+    },
+    {
+        "text": "And then what's my parameter space?"
+    },
+    {
+        "text": "So that's going to be a nightmare to write, but I'm going to write it."
+    },
+    {
+        "text": "So I'm going to write it as something like probability that x is equal to k is equal to p sub k. And that's going to be for p. OK, so that's for all k's, right?"
+    },
+    {
+        "text": "For k equal 1 to 7."
+    },
+    {
+        "text": "And here, the index is the set of parameters p1 to pk."
+    },
+    {
+        "text": "And I know a little more about those guys, right?"
+    },
+    {
+        "text": "They're going to be non-negative."
+    },
+    {
+        "text": "pj non-negative."
+    },
+    {
+        "text": "And I know that they sum to 1."
+    },
+    {
+        "text": "OK, so maybe writing this, you start seeing why we like those Poisson exponential and short notation, because I actually don't have to write the PMF of a Poisson."
+    },
+    {
+        "text": "I mean, a Poisson is really just this."
+    },
+    {
+        "text": "But I call it Poisson, so I don't have to rewrite this all the time."
+    },
+    {
+        "text": "And so here, I did not use a particular form."
+    },
+    {
+        "text": "So I just have this thing, and that's what it is."
+    },
+    {
+        "text": "The set of parameters is the set of positive numbers that send of, sorry, p1 to p7, pk, and sum to 7, right?"
+    },
+    {
+        "text": "And so this is just the list of numbers that are non-negative and sum up to 1."
+    },
+    {
+        "text": "So that's my parameter space."
+    },
+    {
+        "text": "OK, so here, that's my theta."
+    },
+    {
+        "text": "This whole thing here, this is my capital theta."
+    },
+    {
+        "text": "So that's just the set of parameters that theta is allowed to take."
+    },
+    {
+        "text": "OK, and finally, we're going to end with the star of all, and that's the normal distribution."
+    },
+    {
+        "text": "And in a normal distribution, you still have also some flexibility in terms of choices, because naturally, the normal distribution is parameterized by two parameters, mean and variance."
+    },
+    {
+        "text": "So what values can a Gaussian random variable take?"
+    },
+    {
+        "text": "An entire real line, right?"
+    },
+    {
+        "text": "And the set of parameters that it can take, so this is going to be n mu sigma squared, and mu is going to be positive, and sigma square is going to be in R, and sigma square is going to be positive."
+    },
+    {
+        "text": "OK, so again here, that's the way you're supposed to write it if you really want to identify what theta is."
+    },
+    {
+        "text": "Well, theta formally is the set of mu sigma squared such that in R times 0 infinity."
+    },
+    {
+        "text": "That's just to be formal, but this does the job just fine."
+    },
+    {
+        "text": "You don't have to be super formal."
+    },
+    {
+        "text": "OK, so that's not 3."
+    },
+    {
+        "text": "That's like 5."
+    },
+    {
+        "text": "Actually, I just want to write another one."
+    },
+    {
+        "text": "Let's call it 5-bit."
+    },
+    {
+        "text": "And 5-bit is just Gaussian with known variance."
+    },
+    {
+        "text": "And this arises a lot in labs when you have measurement error, when you actually receive your measurement device."
+    },
+    {
+        "text": "This thing has been tested by the manufacturer so much that it actually comes in on the side of the box."
+    },
+    {
+        "text": "It says that the standard deviation of your measurements is going to be 0.23."
+    },
+    {
+        "text": "OK, and actually, why do you do this is because they can brag about accuracy, right?"
+    },
+    {
+        "text": "I mean, that's how they sell you this particular device."
+    },
+    {
+        "text": "And so you actually know exactly what sigma square is."
+    },
+    {
+        "text": "So once you actually get your data in the lab, you actually only have to estimate mu because sigma comes on the label."
+    },
+    {
+        "text": "And so now, what is your statistical model?"
+    },
+    {
+        "text": "Well, the numbers you're going to be collecting still are positive in r. But now, the models that I have is n mu sigma squared."
+    },
+    {
+        "text": "But the parameter space is not mu in r and sigma positive."
+    },
+    {
+        "text": "It's just mu in r. And to be a little more emphatic about this, this is enough to describe it, right?"
+    },
+    {
+        "text": "Because if sigma is the sigma that was specified by the manufacturer, then this is the sigma you want."
+    },
+    {
+        "text": "But you can actually write sigma is equal to sigma square is equal to sigma square manufacturer, right?"
+    },
+    {
+        "text": "You can just fix it to be this particular value."
+    },
+    {
+        "text": "Or maybe you don't want to write an index that's manufacturer."
+    },
+    {
+        "text": "And so you just say, well, when I write sigma square, what I mean is the sigma square of the manufacturer."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2 Yeah, so you can just write sigma square and then you can write sigma square."
+    },
+    {
+        "text": "So you can just write sigma square and then you can write sigma square."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2 Yeah."
+    },
+    {
+        "text": "For a particular measuring device?"
+    },
+    {
+        "text": "You're in a lab and you have some measuring device, I don't know, something that measures tensile strength of something."
+    },
+    {
+        "text": "And it's just going to measure something."
+    },
+    {
+        "text": "And it will naturally make errors."
+    },
+    {
+        "text": "But it's been tested so much by the manufacturer that they actually, and calibrated by them, they know it's not going to be perfect."
+    },
+    {
+        "text": "But they knew exactly what error it's making because they've actually tried it on things for which they exactly knew what the tensile strength was."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3 This?"
+    },
+    {
+        "text": "This?"
+    },
+    {
+        "text": "Oh, like 5 prime?"
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And we can come up with other examples, right?"
+    },
+    {
+        "text": "So for example, here's another one."
+    },
+    {
+        "text": "OK, so the names don't really matter, right?"
+    },
+    {
+        "text": "I mean, I called it the siblings model, but you won't find the siblings model in a textbook, right?"
+    },
+    {
+        "text": "So I wouldn't worry too much."
+    },
+    {
+        "text": "But for example, let's say you have something, so let's call it 6."
+    },
+    {
+        "text": "You have, I don't know, truncated."
+    },
+    {
+        "text": "And that's the name I just came up with, but it's actually not exactly describing what I want."
+    },
+    {
+        "text": "But let's say I observe y, which is the indicator of x larger than, say, 5 when x follows some exponential with parameter lambda."
+    },
+    {
+        "text": "OK, this is what I get to observe."
+    },
+    {
+        "text": "I only observe if my waiting time was more than 5 minutes because I see somebody coming out of the candle station being really upset, and that's all I record."
+    },
+    {
+        "text": "And it's, ah, he's been waiting for more than 5 minutes."
+    },
+    {
+        "text": "And that's all I get to record."
+    },
+    {
+        "text": "OK, that happens a lot."
+    },
+    {
+        "text": "These are called censored data."
+    },
+    {
+        "text": "I should probably not call it truncated, but this should be censored."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "You see a lot of censored data when you ask for people how much they make."
+    },
+    {
+        "text": "They say, well, more than 5 figures."
+    },
+    {
+        "text": "And that's all they want to tell you."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so you see a lot of censored data in survival analysis."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "You're trying to understand how long your patients are going to live after some surgery."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And maybe you're not going to keep people alive, and you're not going to actually have them being touched in their family every day and ask them, is the guy still alive?"
+    },
+    {
+        "text": "And so what you can do is just to ask people maybe five years after your study and say, please come in."
+    },
+    {
+        "text": "And you will just happen to have some people who say, well, the person is deceased."
+    },
+    {
+        "text": "And you will only be able to know that the person deceased less than five years ago."
+    },
+    {
+        "text": "I mean, but you only see what happens after that."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so this truncated and censored data happens all the time just because you don't have the availability to do better than that."
+    },
+    {
+        "text": "So this could happen here."
+    },
+    {
+        "text": "So now what is my statistical experiment?"
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So here I should probably write this like that, because I just told you that my observations are going to be x."
+    },
+    {
+        "text": "So there's some unknown y. I will never get to see this y. I only get to see the x."
+    },
+    {
+        "text": "What is my statistical experiment?"
+    },
+    {
+        "text": "Please help me."
+    },
+    {
+        "text": "So is it the real line?"
+    },
+    {
+        "text": "My sample space, is it the real line?"
+    },
+    {
+        "text": "Sorry, do you know?"
+    },
+    {
+        "text": "Who does not know what this means?"
+    },
+    {
+        "text": "Sorry."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this is called an indicator."
+    },
+    {
+        "text": "So I write it as it's, if I wrote well, that would be 1 with a double bar."
+    },
+    {
+        "text": "You can also write i if you prefer, if you don't feel like writing 1 in double bars."
+    },
+    {
+        "text": "And it's 1 of, say, I'm going to write it like that."
+    },
+    {
+        "text": "1 of a is equal to 1 if a is true and 0 if a is false."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So that means that if y is larger than 5, this thing is 1."
+    },
+    {
+        "text": "And if y is not larger than 5, this thing is 0."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So that's called indicator."
+    },
+    {
+        "text": "Indicator function."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "It's very useful to just turn anything into a 0, 1."
+    },
+    {
+        "text": "So now that I'm here, what is my sample space?"
+    },
+    {
+        "text": "0, 1."
+    },
+    {
+        "text": "Whatever this thing I did not tell you was taking value was the thing you should have."
+    },
+    {
+        "text": "If I didn't tell you that's taking value 6 or 7, that would be your sample space."
+    },
+    {
+        "text": "OK, so it takes value 0, 1."
+    },
+    {
+        "text": "And then what is the probability here?"
+    },
+    {
+        "text": "What should I write here?"
+    },
+    {
+        "text": "What should you write without even thinking?"
+    },
+    {
+        "text": "Yeah, so let's assume there's two seconds before the end of the exam."
+    },
+    {
+        "text": "You're going to write vernally."
+    },
+    {
+        "text": "And that's where you're going to start checking if I'm going to give you extra time."
+    },
+    {
+        "text": "So you write vernally without thinking, because it's taking value 0, 1."
+    },
+    {
+        "text": "So you just write vernally."
+    },
+    {
+        "text": "But you still have to tell me what possible parameters this thing is taking, right?"
+    },
+    {
+        "text": "So I'm going to write it p, because I don't know."
+    },
+    {
+        "text": "And then p takes value."
+    },
+    {
+        "text": "OK, so sorry."
+    },
+    {
+        "text": "I could write it like that."
+    },
+    {
+        "text": "That would be perfectly valid."
+    },
+    {
+        "text": "But actually, no more."
+    },
+    {
+        "text": "It's not any p. The p is the probability that an exponential lambda is larger than 5."
+    },
+    {
+        "text": "And maybe I want to have lambda as a parameter."
+    },
+    {
+        "text": "OK, so what I need to actually compute is what is the probability that y is larger than 5 when y is this exponential lambda, which means that what I need to compute is the integral between 5 and infinity of 1 over lambda."
+    },
+    {
+        "text": "Huh?"
+    },
+    {
+        "text": "How did I define it in this class?"
+    },
+    {
+        "text": "I changed everything."
+    },
+    {
+        "text": "What?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 2."
+    },
+    {
+        "text": "Lambda e to the minus lambda x. PHILIPPE RIGOLLET."
+    },
+    {
+        "text": "Oh, yeah, right, right, right."
+    },
+    {
+        "text": "You're right."
+    },
+    {
+        "text": "Lambda e to the minus lambda x dx, right?"
+    },
+    {
+        "text": "So that's what I need to compute."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "So what is the value of this integral?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 3."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "5."
+    },
+    {
+        "text": "You take appropriate measures."
+    },
+    {
+        "text": "OK. And again, this is just a basic calculus, right?"
+    },
+    {
+        "text": "So when I'm going to integrate this guy, those guys are going to cancel."
+    },
+    {
+        "text": "I'm going to get 0 for infinity."
+    },
+    {
+        "text": "I'm going to get a 5 for this guy."
+    },
+    {
+        "text": "And well, I know it's going to be a positive number, so I'm not really going to bother with the sign, because I know that's what it should be."
+    },
+    {
+        "text": "So I get e to the minus 5 lambda."
+    },
+    {
+        "text": "And so that means that I can actually write this like that."
+    },
+    {
+        "text": "Now, parameterize this thing by lambda positive."
+    },
+    {
+        "text": "So what I did here is I changed the parameterization from p to lambda."
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "Well, because maybe if this, I know this is happening, maybe I'm actually interested in reporting lambda to MBTA, for example."
+    },
+    {
+        "text": "Maybe I'm actually trying to estimate 1 over lambda, so that I know what is the, well, lambda is actually the intensity of arrival of my Poisson process, right?"
+    },
+    {
+        "text": "If I have a Poisson process, that's where how my trains are coming in."
+    },
+    {
+        "text": "And so I'm interested in lambda, so I will parameterize things by lambda, so that the thing I get is lambda."
+    },
+    {
+        "text": "You can play with this, right?"
+    },
+    {
+        "text": "I mean, I could parameterize this by 1 over lambda or 1 over lambda here if I wanted."
+    },
+    {
+        "text": "But the context of your problem will tell you exactly how to parameterize this thing."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So what else do I want to tell you?"
+    },
+    {
+        "text": "OK, let's do a final one."
+    },
+    {
+        "text": "By the way, are you guys OK with Poisson exponential Bernoulli's, I don't know, binomial, normal, all these things?"
+    },
+    {
+        "text": "I'm not going to go back to it, but I'm going to use them heavily."
+    },
+    {
+        "text": "So just spend five minutes on Wikipedia if you forgot about what those things are."
+    },
+    {
+        "text": "Usually, you must have seen them in your probability class, so that should not be crazy name."
+    },
+    {
+        "text": "And again, I'm not expecting you."
+    },
+    {
+        "text": "I mean, I don't remember what the density of an exponential is, so it would be pretty unfair of me to actually ask you to remember what it is."
+    },
+    {
+        "text": "Even for the Gaussian, you're not expected to remember what it is."
+    },
+    {
+        "text": "But I want you to remember that if I add 5 to a Gaussian, then I have a Gaussian with mean mu plus 5."
+    },
+    {
+        "text": "If I multiply it by something, right?"
+    },
+    {
+        "text": "You need to know how to operate those things."
+    },
+    {
+        "text": "But knowing complicated densities is definitely not part of the game."
+    },
+    {
+        "text": "So let's do a final one."
+    },
+    {
+        "text": "I don't know what number I have now."
+    },
+    {
+        "text": "I'm going to just do uniform."
+    },
+    {
+        "text": "That's another one."
+    },
+    {
+        "text": "Everybody knows what uniform is?"
+    },
+    {
+        "text": "So uniform, right?"
+    },
+    {
+        "text": "So I'm going to have x, which my observations are going to be uniform on the interval 0 theta, right?"
+    },
+    {
+        "text": "So if I want to define a uniform distribution for a random variable, I have to tell you which interval or which set I want it to be uniform on."
+    },
+    {
+        "text": "And so here, I'm telling you it's the interval 0 theta."
+    },
+    {
+        "text": "And so what is going to be my sample space?"
+    },
+    {
+        "text": "I'm sorry?"
+    },
+    {
+        "text": "0 to theta."
+    },
+    {
+        "text": "And then what is my probability distribution, my family of parameters?"
+    },
+    {
+        "text": "So well, I can write it like this, right?"
+    },
+    {
+        "text": "Uniform theta, right?"
+    },
+    {
+        "text": "And theta, let's say, is positive."
+    },
+    {
+        "text": "Can somebody tell me what's wrong with what I wrote?"
+    },
+    {
+        "text": "Yeah, this makes no sense."
+    },
+    {
+        "text": "Tell me why."
+    },
+    {
+        "text": "Yeah?"
+    },
+    {
+        "text": "Yeah, this set depends on theta."
+    },
+    {
+        "text": "And why is that a problem?"
+    },
+    {
+        "text": "There's no theta."
+    },
+    {
+        "text": "Right now, there's the families of thetas."
+    },
+    {
+        "text": "Which one did you pick here?"
+    },
+    {
+        "text": "This is just something that's indexed by theta."
+    },
+    {
+        "text": "But I could have very well written it as just not being Greek for a second."
+    },
+    {
+        "text": "I could have just written this as t, right, rather than theta."
+    },
+    {
+        "text": "OK, that would be the same thing."
+    },
+    {
+        "text": "And then what the hell is theta?"
+    },
+    {
+        "text": "There's no such thing as theta."
+    },
+    {
+        "text": "We don't know what the parameter is."
+    },
+    {
+        "text": "The parameter should move with everyone."
+    },
+    {
+        "text": "And so that means that I actually am not allowed to pick this theta."
+    },
+    {
+        "text": "I'm actually, just for the reason that there's no parameter to put on the left side."
+    },
+    {
+        "text": "There should not be, right?"
+    },
+    {
+        "text": "So you just said, well, there's a problem because the parameter is on the left-hand side."
+    },
+    {
+        "text": "But there's not even a parameter."
+    },
+    {
+        "text": "I'm describing the family of possible parameters."
+    },
+    {
+        "text": "There's no one that you can actually plug it in."
+    },
+    {
+        "text": "So this should really be one."
+    },
+    {
+        "text": "And I'm going to go back to writing this as theta, because that's pretty thin."
+    },
+    {
+        "text": "Is that clear for everyone?"
+    },
+    {
+        "text": "I cannot just pick one and put it in there."
+    },
+    {
+        "text": "I just take the, before I run my experiment, I could potentially get numbers that are all the way up to 1, because I don't know what theta is going to be ahead of time."
+    },
+    {
+        "text": "Now, if somebody promised to me that theta was going to be less than 0.5, that would be, sorry, why do I put 1 here?"
+    },
+    {
+        "text": "I could put theta between 0 and 1."
+    },
+    {
+        "text": "But if somebody is going to promise me, for example, that theta is going to be less than 1, I could put 0, 1."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "Is that clear?"
+    },
+    {
+        "text": "OK, so now you know how to answer the question, what is the statistical model?"
+    },
+    {
+        "text": "And again, within the scope of this class, you will not be asked to just come up with a model."
+    },
+    {
+        "text": "I will just tell you, Poisson would be a probably good idea here."
+    },
+    {
+        "text": "And then you would just have to trust me that, indeed, it would be a good idea."
+    },
+    {
+        "text": "All right, so what I started talking about about 20 minutes ago, so I was definitely ahead of myself, is the notion."
+    },
+    {
+        "text": "So that's when I was talking about well-specified."
+    },
+    {
+        "text": "Remember, well-specified says that the true distribution is one of the distribution in this parametric families of distribution."
+    },
+    {
+        "text": "The true distribution of my siblings is actually a Poisson with some parameters."
+    },
+    {
+        "text": "And all I need to figure out is what this parameter is."
+    },
+    {
+        "text": "When I started saying that, I said, well, but then that could be that there are several parameters that give me the same distribution, right?"
+    },
+    {
+        "text": "It could be the case that Poisson 5 and Poisson 17 are exactly the same distributions when I start putting those numbers in the formula which I rephrased."
+    },
+    {
+        "text": "So it could be the case that two different numbers would give me exactly the same probabilities."
+    },
+    {
+        "text": "And in this case, we see that the model is not identifiable."
+    },
+    {
+        "text": "I mean, the parameter is not identifiable."
+    },
+    {
+        "text": "I cannot identify the parameter, even if you actually gave me an infinite amount of data, which means that I could actually estimate exactly the PMF."
+    },
+    {
+        "text": "I might not be able to go back, because there would be several candidates."
+    },
+    {
+        "text": "And I would not be able to tell you which one it was in the first place."
+    },
+    {
+        "text": "So what we want is that this function, theta, maps to P theta is injective."
+    },
+    {
+        "text": "And that's really to be fancy."
+    },
+    {
+        "text": "So what I really mean is that if theta is different from theta prime, then P of theta is different from P of theta prime."
+    },
+    {
+        "text": "Or if you prefer to think about the contrapositive of this, this is the same as saying that if P theta gives me the same distribution as theta prime, then that implies that theta must be equal to theta prime."
+    },
+    {
+        "text": "So in logic, those two things are equivalent."
+    },
+    {
+        "text": "So this means that we say that the parameter is identifiable or identified, doesn't really matter, in this model."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And this is something we're going to want."
+    },
+    {
+        "text": "So in all the examples that I gave you, those parameters are completely identified."
+    },
+    {
+        "text": "If I tell you, I mean, if those things are in probability books, it means that they were probably thought through."
+    },
+    {
+        "text": "So when I say exponential lambda, I'm really talking about one specific distribution."
+    },
+    {
+        "text": "And there's not another lambda that's going to give me exactly the same distribution."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So that was the case."
+    },
+    {
+        "text": "And you can check that."
+    },
+    {
+        "text": "But it's a little annoying."
+    },
+    {
+        "text": "So I probably would not do it."
+    },
+    {
+        "text": "But rather than doing this, let me just give you some examples where it would not be the case."
+    },
+    {
+        "text": "And here's an example."
+    },
+    {
+        "text": "If I take xi, so now I'm back to just using this indicator function, but now for a Gaussian."
+    },
+    {
+        "text": "So what I observe is x is the indicator that y is, what did we say, positive?"
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So this is a Bernoulli random variable, right?"
+    },
+    {
+        "text": "And it has some parameter p. But p now is going to depend, sorry, in here, y is n mu sigma squared."
+    },
+    {
+        "text": "So the p, the probability that this thing is positive, is actually, I don't think I put the 0."
+    },
+    {
+        "text": "Oh yeah, because I have mu."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this distribution, this p, the probability that it's positive, is just the probability that some Gaussian is positive."
+    },
+    {
+        "text": "And it will depend on mu and sigma, right?"
+    },
+    {
+        "text": "Because if I draw, if I have 0, and I draw my Gaussian around mu, then the probability of this Bernoulli being 1 is really the area under the curve here."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "And this thing, well, if mu is very large, it's going to become very large."
+    },
+    {
+        "text": "If mu is very small, it's going to become very small."
+    },
+    {
+        "text": "And if sigma changes, it's also going to affect it."
+    },
+    {
+        "text": "Is that clear to everyone?"
+    },
+    {
+        "text": "But we can actually compute this, right?"
+    },
+    {
+        "text": "So the parameter p that I'm looking for here as a function of mu and sigma is simply the probability that some y is non-negative, which is the probability that y minus mu divided by sigma is larger than minus mu divided by sigma."
+    },
+    {
+        "text": "By the way, when you studied probability, is that some operation you were used to making, removing the mean and dividing by the standard deviation?"
+    },
+    {
+        "text": "What is the effect of doing that on the Gaussian random variable?"
+    },
+    {
+        "text": "Yeah, so you normalize it, right?"
+    },
+    {
+        "text": "You standardize it."
+    },
+    {
+        "text": "You actually make it a standard Gaussian."
+    },
+    {
+        "text": "You remove the mean."
+    },
+    {
+        "text": "It becomes a mean 0 Gaussian."
+    },
+    {
+        "text": "And you remove the variance for it to become 1."
+    },
+    {
+        "text": "So when you have a Gaussian, remove the mean and divide by the standard deviation, it becomes a standard Gaussian, which this thing has n 0 1 distribution, which is the one you can read the quintiles of at the end of the book."
+    },
+    {
+        "text": "And that's exactly what we did."
+    },
+    {
+        "text": "OK, so now you have the probability that some standard Gaussian exceeds negative mu over sigma, which I can write in terms of the cumulative distribution function capital phi, like we did in the first lecture."
+    },
+    {
+        "text": "So if I do this cumulative distribution function, what is this probability in terms of phi?"
+    },
+    {
+        "text": "AUDIENCE MEMBER 1."
+    },
+    {
+        "text": "Lids."
+    },
+    {
+        "text": "Well, that's what your name tag says."
+    },
+    {
+        "text": "1 minus?"
+    },
+    {
+        "text": "1 minus mu over sigma?"
+    },
+    {
+        "text": "What happened to phi in our?"
+    },
+    {
+        "text": "You think I defined this for fun?"
+    },
+    {
+        "text": "1 minus phi of mu over sigma, right?"
+    },
+    {
+        "text": "Because this is 1 minus the probability that it's less than this, and this is exactly the definition of the cumulative distribution function."
+    },
+    {
+        "text": "So in particular, this thing only depends on mu over sigma."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "So in particular, if I had 2 mu over 2 sigma, p would remain unchanged."
+    },
+    {
+        "text": "If I have 12 mu over 12 sigma, this thing would remain unchanged, which means that p does not change if I scale mu and sigma by the same factor."
+    },
+    {
+        "text": "So there's no way, just by observing x, even an infinite amount of time, so that I can actually get exactly what p is, I'm never going to be able to get mu and sigma separately."
+    },
+    {
+        "text": "All I'm going to be able to get is mu over sigma."
+    },
+    {
+        "text": "So here, we say that mu sigma, the parameter mu sigma, or actually each of them individually, those guys, they're not identifiable."
+    },
+    {
+        "text": "But the parameter mu over sigma is identifiable."
+    },
+    {
+        "text": "So if I wanted to write a statistical model in which the parameter is identifiable, I would write 0, 1, Bernoulli, and then I would write 1 minus phi of mu over sigma."
+    },
+    {
+        "text": "And then I would take two parameters, which are mu and r and sigma squared positive."
+    },
+    {
+        "text": "Well, let's write sigma positive."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "This is not identifiable."
+    },
+    {
+        "text": "I cannot write those two guys as being two things different."
+    },
+    {
+        "text": "Instead, what I want to write is 0, 1, Bernoulli, 1 minus."
+    },
+    {
+        "text": "And now my parameter, yeah, I forgot this."
+    },
+    {
+        "text": "My parameter is mu over sigma."
+    },
+    {
+        "text": "Can somebody tell me where mu over sigma lives?"
+    },
+    {
+        "text": "What values can this thing take?"
+    },
+    {
+        "text": "Any real value, right?"
+    },
+    {
+        "text": "OK, so now I've done this, definitely out of convenience, right?"
+    },
+    {
+        "text": "Because that was the only thing I was able to identify, the ratio of mu over sigma."
+    },
+    {
+        "text": "But it's still something that has some meaning."
+    },
+    {
+        "text": "It's the normalized mean."
+    },
+    {
+        "text": "It really tells me what the mean is compared to the standard deviation."
+    },
+    {
+        "text": "So in some models, in reality, in some real applications, this actually might have a good meaning for me."
+    },
+    {
+        "text": "It's just telling me how big the mean is compared to the standard fluctuations of this model."
+    },
+    {
+        "text": "But I won't be able to get more than that."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "All right, so now that we've set a parametric model, let's try to see what our goals are going to be."
+    },
+    {
+        "text": "OK, so now we have a sample and a statistical model."
+    },
+    {
+        "text": "And we want to estimate the parameter theta."
+    },
+    {
+        "text": "And I could say, well, you know what?"
+    },
+    {
+        "text": "I don't have time for this analysis."
+    },
+    {
+        "text": "Collecting data is going to take me a while."
+    },
+    {
+        "text": "And I'm going to say that mu over sigma is 4."
+    },
+    {
+        "text": "I'm just going to give it to you."
+    },
+    {
+        "text": "And maybe you will tell me, eh, not very good, right?"
+    },
+    {
+        "text": "So we need some measure of performance of a given parameter."
+    },
+    {
+        "text": "We need to be able to evaluate if eyeballing the problem is worse than actually collecting a large amount of data."
+    },
+    {
+        "text": "We need to know if, even if I come up with an estimator that actually sort of uses the data, does it make an efficient use of the data?"
+    },
+    {
+        "text": "Would I actually need 10 times more observations to achieve the same accuracy?"
+    },
+    {
+        "text": "So to be able to answer these questions, well, I need to define what accuracy means."
+    },
+    {
+        "text": "And accuracy is something that sort of makes sense."
+    },
+    {
+        "text": "It says, well, I want theta hat to be close to theta."
+    },
+    {
+        "text": "But theta hat is a random variable, so I'm going to have to understand what it means for a random variable to be close to a deterministic number."
+    },
+    {
+        "text": "And so what is the parameter, an estimator, right?"
+    },
+    {
+        "text": "So I have an estimator."
+    },
+    {
+        "text": "And I said it's a random variable."
+    },
+    {
+        "text": "And the formal definition to an estimator is a measurable function of the data."
+    },
+    {
+        "text": "So when I write theta hat, and that will typically be my notation for an estimator, I should really write theta hat of x1, xn."
+    },
+    {
+        "text": "That's what an estimator is."
+    },
+    {
+        "text": "So if you want to know what an estimator is, this is a measurable function of data."
+    },
+    {
+        "text": "And it's actually also known as a statistic."
+    },
+    {
+        "text": "And if you're interested in, I see every day, I think, when I have a dinner with normal people, and they say I'm a statistician."
+    },
+    {
+        "text": "Oh, yeah, really?"
+    },
+    {
+        "text": "Like, yeah, baseball."
+    },
+    {
+        "text": "And they talk to me about batting averages."
+    },
+    {
+        "text": "That's not what I do."
+    },
+    {
+        "text": "But for them, that's what it is."
+    },
+    {
+        "text": "And that's because, in a way, that's what a statistic is."
+    },
+    {
+        "text": "A batting average is a statistic."
+    },
+    {
+        "text": "And so here are some examples."
+    },
+    {
+        "text": "You can take the average xn bar."
+    },
+    {
+        "text": "You can take the maximum of your observation."
+    },
+    {
+        "text": "That's a statistic."
+    },
+    {
+        "text": "You can take the first one."
+    },
+    {
+        "text": "You can take the first one plus log of 1 plus the absolute value of the last one."
+    },
+    {
+        "text": "You can do whatever you want."
+    },
+    {
+        "text": "That will be an estimator."
+    },
+    {
+        "text": "Some of them are clearly going to be bad."
+    },
+    {
+        "text": "But that's still a statistic."
+    },
+    {
+        "text": "And you can do this."
+    },
+    {
+        "text": "Now, when I say measurable, I always have, so graduate students sometimes ask me, like, yeah, how do I know if this estimator is measurable or not?"
+    },
+    {
+        "text": "And usually, my answer is, well, if I give you data, can you compute it?"
+    },
+    {
+        "text": "And they say, yeah."
+    },
+    {
+        "text": "I'm like, well, then it's measurable."
+    },
+    {
+        "text": "That's a very good rule to check if something is actually measurable."
+    },
+    {
+        "text": "When is this thing not measurable?"
+    },
+    {
+        "text": "It's when it's implicitly defined."
+    },
+    {
+        "text": "And in particular, the things that can give you problems are soup or inf."
+    },
+    {
+        "text": "Anybody knows what a soup or an inf is?"
+    },
+    {
+        "text": "It's like a max or a min, but that's not always attained."
+    },
+    {
+        "text": "So if I have x1, so if I look at the infimum of the function f of x for x on the real line, and f of x, sorry, let's say x on 1 infinity, and f of x is equal to 1 over x, then the infimum is the smallest value it can take, except that it does not really take it."
+    },
+    {
+        "text": "It's 0, because 1 over x is going to 0, but it's never really getting there."
+    },
+    {
+        "text": "So we just call the inf 0, but it's not the value that it ever takes."
+    },
+    {
+        "text": "And these things might actually be complicated to compute, and so that's when you actually have problems, when you're not really quite reaching the limit."
+    },
+    {
+        "text": "You won't have this problem in general, but just so you know that an estimator is not really anything, it has to actually be measurable."
+    },
+    {
+        "text": "So the first thing we want to know, I mentioned it, is an estimator is a statistic which does not depend on data, of course."
+    },
+    {
+        "text": "So if I give you the data, you have to be able to compute it, and that probably should not require not knowing an unknown parameter."
+    },
+    {
+        "text": "So an estimator is said to be consistent."
+    },
+    {
+        "text": "When I collect more and more data, this thing is getting closer and closer to the true parameter."
+    },
+    {
+        "text": "And we said that eyeballing and saying that it's going to be 4 is not really something that's probably going to be consistent, but I can have things that are consistent but that are converging to theta at different speeds."
+    },
+    {
+        "text": "And we know also that this is a random variable."
+    },
+    {
+        "text": "It converges to something, and there might be some different notions of conversions that kick in, and actually, they are."
+    },
+    {
+        "text": "And we say that it's weakly convergent if it converges in probability, and strongly convergent if it converges almost surely."
+    },
+    {
+        "text": "And this is just vocabulary."
+    },
+    {
+        "text": "It won't make a big difference."
+    },
+    {
+        "text": "So we will typically say it's consistent once you say any of the two."
+    },
+    {
+        "text": "So in parametric statistics, it's actually a little difficult to come up with, but in non-parametric ones, I could just say if I have yi, xi, yi, and I know that yi is f of xi plus some noise epsilon i, and I know that f belongs to some class of functions, let's say, Sybil-Liff class of smooth functions, massive."
+    },
+    {
+        "text": "And now I'm going to actually find the following estimator."
+    },
+    {
+        "text": "I'm going to take the average."
+    },
+    {
+        "text": "So I'm going to do least squares."
+    },
+    {
+        "text": "So I just check."
+    },
+    {
+        "text": "I'm trying to minimize the distance of each of my f of xi to my yi."
+    },
+    {
+        "text": "And now I want to find the smallest of them."
+    },
+    {
+        "text": "So if I look at the infimum here, then the question is, so that could be, well, that's not really an estimator for f, but it's an estimator for the smallest possible value."
+    },
+    {
+        "text": "And so for example, this is actually an estimator for the variance of sigma square."
+    },
+    {
+        "text": "This might not be attained, and this might not be measurable if f is massive."
+    },
+    {
+        "text": "So that's the inf of some class f of x."
+    },
+    {
+        "text": "So those are always things that are defined implicitly."
+    },
+    {
+        "text": "If it's an average, for example, it's completely measurable."
+    },
+    {
+        "text": "Any other questions?"
+    },
+    {
+        "text": "OK, so we know that the first thing we might want to check, and that's definitely something we want about an estimator, is that it's consistent, because all consistency tells us is that as I collect more and more data, my estimator is going to get closer and closer to the parameters."
+    },
+    {
+        "text": "There's other things we can look at."
+    },
+    {
+        "text": "For each possible value of n, now I have a finite number of observations, 25."
+    },
+    {
+        "text": "And I want to know something about my estimator."
+    },
+    {
+        "text": "The first thing I want to check is maybe if, in average, so this is a random variable."
+    },
+    {
+        "text": "Is this random variable, in average, going to be close to theta or not?"
+    },
+    {
+        "text": "And so the difference, how far I am from theta, is actually called the bias."
+    },
+    {
+        "text": "So the bias of an estimator is the expectation of theta hat minus the value that I hope it gets, which is theta."
+    },
+    {
+        "text": "If this thing is equal to 0, we say that theta hat is unbiased."
+    },
+    {
+        "text": "And unbiased estimators are things that people are looking for in general."
+    },
+    {
+        "text": "The problem is that there's lots of unbiased estimators, and so it might be misleading to look for unbiasedness when that's not really the only thing you should be looking for."
+    },
+    {
+        "text": "So what does it mean to be unbiased?"
+    },
+    {
+        "text": "Maybe for this particular round of data you collected, you're actually pretty far from the true estimator."
+    },
+    {
+        "text": "But one thing that actually, what it means is that if I redid this experiment over and over and over again, and I averaged all the values of my estimators that I got, then this would actually be the true parameter."
+    },
+    {
+        "text": "That's what it means."
+    },
+    {
+        "text": "If I were to repeat this experiment, in average I would actually get the right thing."
+    },
+    {
+        "text": "But you don't get to repeat an experiment."
+    },
+    {
+        "text": "Just a remark about estimators."
+    },
+    {
+        "text": "Look at this estimator, xn bar."
+    },
+    {
+        "text": "Think of the kiss example."
+    },
+    {
+        "text": "I'm looking at the average of my observations."
+    },
+    {
+        "text": "And I want to know what the expectation of this thing is."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Now, this guy is my linearity of the expectation."
+    },
+    {
+        "text": "Is this, right?"
+    },
+    {
+        "text": "But my data is identically distributed."
+    },
+    {
+        "text": "So in particular, all the xi's have the same expectation, right?"
+    },
+    {
+        "text": "Everybody agrees with this?"
+    },
+    {
+        "text": "When it's identically distributed, they all get the same expectation?"
+    },
+    {
+        "text": "So what it means is that this guy's here, they're all equal to the expectation of x1, right?"
+    },
+    {
+        "text": "So what it means is that this guy's, I have the average of the same number."
+    },
+    {
+        "text": "So this is actually the expectation of x1."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And it's true."
+    },
+    {
+        "text": "In the kiss example, this was p. And this is p. So probability of turning your head right."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So those two things are the same."
+    },
+    {
+        "text": "In particular, that means that xn bar and just x1 have the same bias."
+    },
+    {
+        "text": "So that should probably illustrate to you that bias is not something that really is telling you the entire picture."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I can take only one of my observations, Bernoulli 0, 1."
+    },
+    {
+        "text": "This thing will have the same bias as if I averaged 1,000 of them."
+    },
+    {
+        "text": "So the bias is really telling me where I am in the average, but it's really not telling me what fluctuations I'm getting."
+    },
+    {
+        "text": "And so if you want to start having fluctuations coming into the picture, we actually have to look at the risk or the quadratic risk of an estimator."
+    },
+    {
+        "text": "And so the quadratic risk is defined as the expectation of the squared distance between theta hat and theta."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So let's look at this."
+    },
+    {
+        "text": "So the quadratic risk, sometimes it's denoted, people call it the L2 risk of theta hat, of course."
+    },
+    {
+        "text": "I'm sorry for maintaining such an ugly board."
+    },
+    {
+        "text": "I keep away this stuff."
+    },
+    {
+        "text": "OK, so I look at the squared distance between theta hat and theta."
+    },
+    {
+        "text": "This is still the function of a random variable, so it's a random variable as well."
+    },
+    {
+        "text": "And I'm looking at the expectation of this guy."
+    },
+    {
+        "text": "That's the definition."
+    },
+    {
+        "text": "I claim that when this thing goes to 0, then my estimator is actually going to be consistent."
+    },
+    {
+        "text": "Everybody agrees with this?"
+    },
+    {
+        "text": "So if it goes to 0 as n goes to infinity, and here I don't need to tell you what kind of convergence I have, because this is just a number, right?"
+    },
+    {
+        "text": "It's an expectation."
+    },
+    {
+        "text": "So it's a regular, usual, calculus-style convergence."
+    },
+    {
+        "text": "Then that implies that theta hat is actually weakly consistent."
+    },
+    {
+        "text": "What did I use to tell you this?"
+    },
+    {
+        "text": "Yeah, this is the convergence in L2."
+    },
+    {
+        "text": "This actually is strictly equivalent."
+    },
+    {
+        "text": "This is by definition saying that theta hat converges in L2 to theta."
+    },
+    {
+        "text": "And we know that convergence in L2 implies convergence in probability to theta."
+    },
+    {
+        "text": "That was the picture."
+    },
+    {
+        "text": "We're going up."
+    },
+    {
+        "text": "And this is actually equivalent to weak consistency by definition of weak consistency."
+    },
+    {
+        "text": "So this is actually telling me a little more, because this guy here, they're both unbiased."
+    },
+    {
+        "text": "Xn bar is unbiased."
+    },
+    {
+        "text": "X1 is unbiased, but X1 is certainly not consistent, because the more data I collect, I'm not even doing anything with it."
+    },
+    {
+        "text": "I'm just taking the first data point you're giving to me."
+    },
+    {
+        "text": "So they're both unbiased, but this one is not consistent."
+    },
+    {
+        "text": "And this one we'll see is actually consistent."
+    },
+    {
+        "text": "Xn bar is consistent, and actually, we've seen that last time."
+    },
+    {
+        "text": "And that's because of the what guarantees the fact that the Xn bar is consistent?"
+    },
+    {
+        "text": "Law of large numbers, right?"
+    },
+    {
+        "text": "Actually, it's strongly consistent because of the strong law of large numbers."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So just in the last two minutes, I want to tell you a little bit about how this risk is linked to, I said quadratic risk is equal to bias squared plus variance."
+    },
+    {
+        "text": "Let's see what I mean by this."
+    },
+    {
+        "text": "So I'm going to forget about the absolute values."
+    },
+    {
+        "text": "I have a square."
+    },
+    {
+        "text": "I don't really need them."
+    },
+    {
+        "text": "If theta hat was unbiased, this thing would be the expectation of theta hat."
+    },
+    {
+        "text": "It might not be the case."
+    },
+    {
+        "text": "So let me see how I can actually see, put the bias in there."
+    },
+    {
+        "text": "Well, one way to do this is to see that this is equal to the expectation of theta hat minus expectation of theta hat plus expectation of theta hat minus theta squared."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "I just removed the same and added the same thing, so I didn't change anything."
+    },
+    {
+        "text": "Now, this guy is my bias, right?"
+    },
+    {
+        "text": "So now let me expand the square."
+    },
+    {
+        "text": "So what I get is the expectation of the square of theta hat minus its expectation."
+    },
+    {
+        "text": "I should put some square bracket."
+    },
+    {
+        "text": "Plus 2 times the cross product."
+    },
+    {
+        "text": "So the cross product is what?"
+    },
+    {
+        "text": "Expectation of theta hat minus expectation of theta hat times expectation of theta hat minus theta."
+    },
+    {
+        "text": "And then I have the last square, expectation of theta hat minus theta squared."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So square, cross product, square."
+    },
+    {
+        "text": "Everybody with me?"
+    },
+    {
+        "text": "Now, this guy here, if you pay attention, this thing is the expectation of some random variable, so it's a deterministic number."
+    },
+    {
+        "text": "Theta is the true parameter."
+    },
+    {
+        "text": "It's a deterministic number."
+    },
+    {
+        "text": "So what I can do is pull out this entire thing out of the expectation like this."
+    },
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "And compute the expectation only with respect to that part."
+    },
+    {
+        "text": "But what is the expectation of this thing?"
+    },
+    {
+        "text": "It's 0, right?"
+    },
+    {
+        "text": "The expectation of theta hat minus expectation of theta hat is 0."
+    },
+    {
+        "text": "So this entire thing is equal to 0."
+    },
+    {
+        "text": "So now when I actually collect back my quadratic terms, my two squared terms in this expansion, what I get is that the expectation of theta hat minus theta squared is equal to the expectation of theta hat minus expectation of theta hat squared plus the square of expectation of theta hat minus theta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So those are just the first and the last term of the previous equality."
+    },
+    {
+        "text": "Now, here I have the expectation of the square of the difference between a random variable and its expectation."
+    },
+    {
+        "text": "This is otherwise known as the variance, right?"
+    },
+    {
+        "text": "So this is actually equal to the variance of theta hat."
+    },
+    {
+        "text": "And this, well, this was the bias."
+    },
+    {
+        "text": "We already said this there."
+    },
+    {
+        "text": "So this whole thing is the bias squared."
+    },
+    {
+        "text": "And hence, the quadratic term is the sum of the variance and the squared bias."
+    },
+    {
+        "text": "Why squared bias?"
+    },
+    {
+        "text": "Well, because otherwise you would add dollars and dollars squared, right?"
+    },
+    {
+        "text": "So you need to add dollars squared and dollars squared so that this thing is actually homogeneous."
+    },
+    {
+        "text": "OK, so if x is in dollars, then the bias is in dollars, but the variance is in dollars squared."
+    },
+    {
+        "text": "And the square here forced you to put everything on the square scale."
+    },
+    {
+        "text": "So what's nice is that if the quadratic risk goes to 0, then since I have the sum of two positive terms, both of them have to go to 0."
+    },
+    {
+        "text": "That means that my variance is going to 0, very little fluctuations, and my bias is also going to 0, which means that I'm actually going to be on target once I reduce my fluctuations, because it's one thing to reduce the fluctuations."
+    },
+    {
+        "text": "But if I'm not on target, it's an issue, right?"
+    },
+    {
+        "text": "For example, the estimator 4, the value 4, has no variance."
+    },
+    {
+        "text": "Every time I'm going to repeat the experiment, I'm going to get 4, 4, 4, 4."
+    },
+    {
+        "text": "Variance is 0."
+    },
+    {
+        "text": "But the bias is bad."
+    },
+    {
+        "text": "The bias is 4 minus theta."
+    },
+    {
+        "text": "And if theta is far from 4, that's not doing very well."
+    },
+    {
+        "text": "OK, so next week, we will talk about how estimators change if they have high variance or low variance, or high bias and low bias."
+    },
+    {
+        "text": "And we'll talk about confidence intervals as well."
+    },
+    {
+        "text": "All right."
+    }
+]

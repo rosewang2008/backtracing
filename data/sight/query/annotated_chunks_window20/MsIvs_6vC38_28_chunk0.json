@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 28,
+        "timestamp": 1684720790293.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone tell me why can't we obtain the Lower triangular matrix L directly from the combined E which could just be derived from using gaussian elimination? Thanksss"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let me do that for that example."
+    },
+    {
+        "text": "This is really what you should know and be able to do for, the SVD."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Let me take that matrix."
+    },
+    {
+        "text": "So what's my first step?"
+    },
+    {
+        "text": "Compute A transpose A, because I want its eigenvectors."
+    },
+    {
+        "text": "Okay, so I have to compute A transpose A."
+    },
+    {
+        "text": "So A transpose is four four minus three three, and A is four four minus three three."
+    },
+    {
+        "text": "And I do that multiplication and I get sixteen, I get twenty-five, I get sixteen minus nine, is that seven?"
+    },
+    {
+        "text": "And it better come out symmetric and, oh, okay, and then it comes out twenty-five."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I want its eigenvectors and its eigenvalues."
+    },
+    {
+        "text": "Its eigenvectors will be the v's, its eigenvalues will be the squares of the sigmas."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What are the eigenvalues and eigenvectors of this guy?"
+    },
+    {
+        "text": "Have you seen that two by two example enough to recognize that the eigenvectors are, that one one is an eigenvector?"
+    },
+    {
+        "text": "So this is, here is A transpose A. I'm looking for its eigenvectors."
+    },
+    {
+        "text": "So its eigenvectors, I think, are one one and one minus one."
+    },
+    {
+        "text": "Because if I multiply that matrix by one one, what do I get?"
+    },
+    {
+        "text": "If I multiply that matrix by one one, I get thirty-two thirty-two."
+    }
+]

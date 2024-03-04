@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It ' s my pleasure having you here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Yes , I ' d love another glass . You ' re a wonderful host . Thank you for everything ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It ' s my pleasure having you here .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

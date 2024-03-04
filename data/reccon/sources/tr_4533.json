@@ -1,0 +1,145 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you doing ?",
+        "emotion": "neutral",
+        "text": "What are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What am I doing ? What am I doing ? Don ' t you know what day it is ?",
+        "emotion": "neutral",
+        "text": "What am I doing ? What am I doing ? Don ' t you know what day it is ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Mumm . no .",
+        "emotion": "neutral",
+        "text": "Mumm . no .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s only the day when the world ' s biggest sporting event is kicking off .",
+        "emotion": "neutral",
+        "text": "It ' s only the day when the world ' s biggest sporting event is kicking off .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What ?",
+        "emotion": "neutral",
+        "text": "What ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "The World Cup ! The first match is today ! It ' s Mexico vs . South Africa ! It ' s going to be a really good match ! Both teams have a very strong offense and have skilled players . I think that South Africa",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "It ' s going to be a really good match !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The World Cup ! The first match is today ! It ' s Mexico vs . South Africa ! It ' s going to be a really good match ! Both teams have a very strong offense and have skilled players . I think that South Africa",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I have no idea what you ' re talking about . The only sporting event we watch at home is the Super Bowl .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s going to be a really good match !",
+            "The only sporting event we watch at home is the Super Bowl ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I have no idea what you ' re talking about . The only sporting event we watch at home is the Super Bowl .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "This is bigger than the Super Bowl , man ! Teams from 32 countries compete against each other every four years and fight to win that trophy . They first start in a group stage with bigger groups , each g",
+        "emotion": "neutral",
+        "text": "This is bigger than the Super Bowl , man ! Teams from 32 countries compete against each other every four years and fight to win that trophy . They first start in a group stage with bigger groups , each g",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sounds interesting , but soccer doesn ' t really appeal to me .",
+        "emotion": "neutral",
+        "text": "Sounds interesting , but soccer doesn ' t really appeal to me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Are you kidding ? Over seven hundred million people watched the final match of the World Cup ! It ' s a very exciting and nerve wracking sport ! Each nation is cheering on their team , hoping they will bec",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "soccer doesn ' t really appeal to me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you kidding ? Over seven hundred million people watched the final match of the World Cup ! It ' s a very exciting and nerve wracking sport ! Each nation is cheering on their team , hoping they will bec",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "All I know about soccer is that you can ' t use your hands and that players are always falling down , trying to get a free kick or penalty kick . It seems like a sissy sport to me !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "It ' s a very exciting and nerve wracking sport !",
+            "It seems like a sissy sport to me !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "All I know about soccer is that you can ' t use your hands and that players are always falling down , trying to get a free kick or penalty kick . It seems like a sissy sport to me !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Whatever , I ' m going to go watch the opening match .",
+        "emotion": "neutral",
+        "text": "Whatever , I ' m going to go watch the opening match .",
+        "id": 12
+    }
+]

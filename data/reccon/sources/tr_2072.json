@@ -1,0 +1,278 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , how was your honeymoon ?",
+        "emotion": "neutral",
+        "text": "Well , how was your honeymoon ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was fantastic ! We had such a good time . The only problem was that because it was their high season , we spent hours queuing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ! We had such a good time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It was fantastic ! We had such a good time . The only problem was that because it was their high season , we spent hours queuing .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Peak periods always entail hours of queuing . At least you got a nice tan though !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ! We had such a good time . The only problem was that because it was their high season , we spent hours queuing .",
+            "At least you got a nice tan though !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Peak periods always entail hours of queuing . At least you got a nice tan though !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , Florida had great weather while we were there . You look tan , too . Did you go somewhere ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "It was fantastic ! We had such a good time .",
+            "Florida had great weather while we were there"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , Florida had great weather while we were there . You look tan , too . Did you go somewhere ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "My friends and I just got back from Bali .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "My friends and I just got back from Bali ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My friends and I just got back from Bali .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wow ! Bali Islands have some of the best beaches in the world , don't they ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "My friends and I just got back from Bali .",
+            "Bali Islands have some of the best beaches in the world"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow ! Bali Islands have some of the best beaches in the world , don't they ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , we were lucky . My friend's father owns a resort on one of the islands , so we were able to stay for free .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "My friends and I just got back from Bali .",
+            "My friend's father owns a resort on one of the islands , so we were able to stay for free ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , we were lucky . My friend's father owns a resort on one of the islands , so we were able to stay for free .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Did you go diving while you were there ?",
+        "emotion": "neutral",
+        "text": "Did you go diving while you were there ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I took a few diving classes , but I didn't really like it , so I did snorkeling instead !",
+        "emotion": "neutral",
+        "text": "I took a few diving classes , but I didn't really like it , so I did snorkeling instead !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Did you take any pictures in the ocean ?",
+        "emotion": "neutral",
+        "text": "Did you take any pictures in the ocean ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I've got quite a few pictures of all different kinds of fish . I'll show them to you next time I see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "ve got quite a few pictures of all different kinds of fish ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've got quite a few pictures of all different kinds of fish . I'll show them to you next time I see you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Have you started planning your christmas vacation yet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Have you started planning your christmas vacation yet ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Have you started planning your christmas vacation yet ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "We're planning on going skiing in Switzerland . Do you ski ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "We're planning on going skiing in Switzerland"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We're planning on going skiing in Switzerland . Do you ski ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No , but I do like snowboarding .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I do like snowboarding ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , but I do like snowboarding .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Would you like to go skiing with us for christmas ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Would you like to go skiing with us for christmas ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Would you like to go skiing with us for christmas ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I'll talk to my husband about it ; I'm sure he'll say yes ! He loves Switzerland !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "Would you like to go skiing with us for christmas ?",
+            "I'm sure he'll say yes ! He loves Switzerland !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'll talk to my husband about it ; I'm sure he'll say yes ! He loves Switzerland !",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "It is Europe's spotless land of lakes and mountains ! Let me know as soon as you can so we can get a discount .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            17
+        ],
+        "expanded emotion cause span": [
+            "Would you like to go skiing with us for christmas ?",
+            "It is Europe's spotless land of lakes and mountains !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It is Europe's spotless land of lakes and mountains ! Let me know as soon as you can so we can get a discount .",
+        "id": 17
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thanks a lot ! I will definitely do that . Is there anything else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's important that you sit with him and review his homework assignments and help him with math . I would also recommend he stay after school twice a week for tutoring sessions . It will really help a lot ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot ! I will definitely do that . Is there anything else ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

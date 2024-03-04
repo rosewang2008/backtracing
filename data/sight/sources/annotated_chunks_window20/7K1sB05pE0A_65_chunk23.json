@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, anyway, no 0's."
+    },
+    {
+        "text": "So think of x as fixed."
+    },
+    {
+        "text": "Again, in this case, delta x moves and x is fixed."
+    },
+    {
+        "text": "In this calculation."
+    },
+    {
+        "text": "Now, in order to simplify this, in order to understand algebraically what's going on, I need to understand what the nth power of a sum is."
+    },
+    {
+        "text": "And that's a famous formula."
+    },
+    {
+        "text": "We only need a little tiny bit of it."
+    },
+    {
+        "text": "Called the binomial theorem."
+    },
+    {
+        "text": "So the binomial theorem, which is in your text and explained in an exercise, says, in an appendix, sorry, says that if you take the sum of two guys and you take them to the nth power, that of course is x delta x multiplied by itself n times."
+    },
+    {
+        "text": "And so the first term is x n. That's when all of the n factors come in."
+    },
+    {
+        "text": "And then you could have this factor of delta x and all the rest x's."
+    },
+    {
+        "text": "So at least one term of the form x n-1 times delta x."
+    },
+    {
+        "text": "And how many times does that happen?"
+    },
+    {
+        "text": "Well, it happens when there's a factor from here, from the next factor, and so on and so on and so on."
+    },
+    {
+        "text": "There's a total of n possible times that that happens."
+    },
+    {
+        "text": "And now, the great thing is that with this alone, all the rest of the terms are junk."
+    },
+    {
+        "text": "That we won't have to worry about."
+    },
+    {
+        "text": "So to be more specific, the junk, there's a very careful notation for the junk."
+    },
+    {
+        "text": "The junk is what's called big O of delta x squared."
+    },
+    {
+        "text": "What that means is that these are terms of order, so with, delta x squared, delta x cubed, or higher."
+    }
+]

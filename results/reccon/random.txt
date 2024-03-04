@@ -1,0 +1,8 @@
+Query dirs: ['data/reccon/query/']
+Source dirs: ['data/reccon/sources/']
+Output fname: results/reccon/test/random.csv
+Output fname: results/reccon/test/random.csv
+Random baseline accuracy: 0.11
+Random baseline min distance: 3.7
+Random baseline accuracy top 3: 0.31
+Random baseline min distance top 3: 1.73

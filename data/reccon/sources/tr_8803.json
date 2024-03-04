@@ -1,0 +1,194 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why am I being arrested ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "being arrested"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why am I being arrested ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You have a warrant out for your arrest .",
+        "emotion": "neutral",
+        "text": "You have a warrant out for your arrest .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I don't have a warrant .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "You have a warrant out for your arrest .",
+            "I don't have a warrant ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't have a warrant .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "My computer shows that you have a bench warrant .",
+        "emotion": "neutral",
+        "text": "My computer shows that you have a bench warrant .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I don't know what a bench warrant is .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "My computer shows that you have a bench warrant .",
+            "I don't know what a bench warrant is ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don't know what a bench warrant is .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You apparently missed a court appearance .",
+        "emotion": "neutral",
+        "text": "You apparently missed a court appearance .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I was never told to go to court .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "You apparently missed a court appearance .",
+            "I was never told to go to court ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I was never told to go to court .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "There's nothing I can do about that .",
+        "emotion": "neutral",
+        "text": "There's nothing I can do about that .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "This isn't fair .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You have a warrant out for your arrest .",
+            "I don't have a warrant .",
+            "My computer shows that you have a bench warrant .",
+            "I don't know what a bench warrant is .",
+            "You apparently missed a court appearance .",
+            "I was never told to go to court .",
+            "isn't fair ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "This isn't fair .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's life .",
+        "emotion": "neutral",
+        "text": "That's life .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What about my rights ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "You have a warrant out for your arrest .",
+            "I don't have a warrant .",
+            "My computer shows that you have a bench warrant .",
+            "I don't know what a bench warrant is .",
+            "You apparently missed a court appearance .",
+            "I was never told to go to court .",
+            "isn't fair .",
+            "What about my rights ?"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "What about my rights ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Anything you say can and will be used against you in a court of law .",
+        "emotion": "neutral",
+        "text": "Anything you say can and will be used against you in a court of law .",
+        "id": 12
+    }
+]

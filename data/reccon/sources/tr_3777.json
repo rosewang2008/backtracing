@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Paul , what kind of music do you like to listen to ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Paul , what kind of music do you like to listen to ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "All kinds , but mostly Pop , rock and classical . Why ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Paul , what kind of music do you like to listen to ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All kinds , but mostly Pop , rock and classical . Why ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I have tickets to a show . Do you want to go with me ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "All kinds , but mostly Pop , rock and classical ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I have tickets to a show . Do you want to go with me ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "What kind of music is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I have tickets to a show . Do you want to go with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What kind of music is it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Pop . It's Maria Carey .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Pop . It's Maria Carey ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Pop . It's Maria Carey .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "When is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Pop . It's Maria Carey ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "When is it ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "At 8P M tomorrow night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "When is it ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "At 8P M tomorrow night .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , I'd like to go . Do you think we should have dinner first ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "At 8P M tomorrow night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I'd like to go . Do you think we should have dinner first ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , that's a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Yeah , I'd like to go . Do you think we should have dinner first ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , that's a good idea .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Let's eat at the restaurant across the street from my apartment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Yes , that's a good idea ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's eat at the restaurant across the street from my apartment .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , I think I know the place you mean . We ate there last month , right ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "Let's eat at the restaurant across the street from my apartment .",
+            "Oh , I think I know the place you mean . We ate there last month , right ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I think I know the place you mean . We ate there last month , right ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , that's right . You have a good memory .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I think I know the place you mean . We ate there last month , right ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , that's right . You have a good memory .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

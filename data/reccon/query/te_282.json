@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No problem .",
+        "emotion": "happiness",
+        "explanation": "completion of order taking",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "That'll be in a ten minutes . Please sit over there , and I'll call you over as sooner as it's ready ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

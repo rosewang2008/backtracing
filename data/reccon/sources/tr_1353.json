@@ -1,0 +1,183 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Jack , what are you doing ?",
+        "emotion": "neutral",
+        "text": "Jack , what are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I am reading .",
+        "emotion": "neutral",
+        "text": "I am reading .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I can see that . But why are you reading advertisements for houses for sale ? Are you buying a house ?",
+        "emotion": "neutral",
+        "text": "I can see that . But why are you reading advertisements for houses for sale ? Are you buying a house ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , not yet . But I like to see what is available .",
+        "emotion": "neutral",
+        "text": "No , not yet . But I like to see what is available .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Can I have a look as well ?",
+        "emotion": "happiness",
+        "explanation": "A is probably excited to take a look or is just courteous.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Can I have a look as well ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Of course , have a seat .",
+        "emotion": "happiness",
+        "explanation": "B is simply mirroring A's emotion.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Of course , have a seat .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , this one looks really good . And look at the garden . So beautiful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Oh , this one looks really good . And look at the garden . So beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , this one looks really good . And look at the garden . So beautiful .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , nice . But I prefer this wooden house with a garden fence and a sloping roof .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "So beautiful .",
+            "I prefer this wooden house with a garden fence and a sloping roof ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , nice . But I prefer this wooden house with a garden fence and a sloping roof .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , but my house has large windows and so gets lots of sun . And it has a small balcony at the top .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Oh , this one looks really good . And look at the garden . So beautiful .",
+            "my house has large windows and so gets lots of sun . And it has a small balcony at the top ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , but my house has large windows and so gets lots of sun . And it has a small balcony at the top .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , you can't compare a small balcony to this large veranda . This is perfect for having a barbecue in summer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "This is perfect for having a barbecue in summer ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , you can't compare a small balcony to this large veranda . This is perfect for having a barbecue in summer .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Talking about a barbecue , didn't you say you are organizing one next week ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "This is perfect for having a barbecue in summer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Talking about a barbecue , didn't you say you are organizing one next week ?",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , next Saturday . I hope you can make it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "This is perfect for having a barbecue in summer ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , next Saturday . I hope you can make it .",
+        "id": 12
+    }
+]

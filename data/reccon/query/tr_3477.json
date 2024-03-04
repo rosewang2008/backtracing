@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "There is a beautiful state park here .",
+            "so many people come out here to camp .",
+            "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , there is beautiful view . You can go fishing , camping and also enjoy this beautiful clean air .",
+        "id": 7,
+        "source_sentences": [
+            5,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

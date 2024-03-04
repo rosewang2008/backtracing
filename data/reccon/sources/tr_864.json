@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you got your invitation yet ?",
+        "emotion": "neutral",
+        "text": "Have you got your invitation yet ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My invitation ? No , I haven't . My invitation to what ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Have you got your invitation yet ?",
+            "My invitation ? No , I haven't . My invitation to what ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My invitation ? No , I haven't . My invitation to what ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The house warming party .",
+        "emotion": "neutral",
+        "text": "The house warming party .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Whose house warming party is it ?",
+        "emotion": "neutral",
+        "text": "Whose house warming party is it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Tom and Bill Smith . They are both working now you know ? And they've bought a new house .",
+        "emotion": "neutral",
+        "text": "Tom and Bill Smith . They are both working now you know ? And they've bought a new house .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , they have ? I didn't know . I haven't seen Tom lately .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "they've bought a new house ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , they have ? I didn't know . I haven't seen Tom lately .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's out in the suburbs .",
+        "emotion": "neutral",
+        "text": "It's out in the suburbs .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Have you seen the house ?",
+        "emotion": "neutral",
+        "text": "Have you seen the house ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , I have . I went out with them last weekend .",
+        "emotion": "neutral",
+        "text": "Yes , I have . I went out with them last weekend .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Is it nice ?",
+        "emotion": "neutral",
+        "text": "Is it nice ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , it is . There are three bedrooms , a living room , a dining room , and a big kitchen . There's also a garden .",
+        "emotion": "neutral",
+        "text": "Yes , it is . There are three bedrooms , a living room , a dining room , and a big kitchen . There's also a garden .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , that does sound nice . Have they moved in yet ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "There are three bedrooms , a living room , a dining room , and a big kitchen . There's also a garden ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , that does sound nice . Have they moved in yet ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "They are moving today . Tom's taken the day off . He's rented a truck , and they should have all their furniture in the house tonight .",
+        "emotion": "neutral",
+        "text": "They are moving today . Tom's taken the day off . He's rented a truck , and they should have all their furniture in the house tonight .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "When are they going to have the party ?",
+        "emotion": "neutral",
+        "text": "When are they going to have the party ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Next Saturday night . You should get your invitation today or tomorrow .",
+        "emotion": "neutral",
+        "text": "Next Saturday night . You should get your invitation today or tomorrow .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Wow , that would be something to look forward to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "You should get your invitation today or tomorrow ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , that would be something to look forward to .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

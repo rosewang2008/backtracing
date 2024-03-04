@@ -1,0 +1,72 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hi Bill , I saw your grandma yesterday .",
+        "emotion": "neutral",
+        "text": "Hi Bill , I saw your grandma yesterday .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Oh where was that ?",
+        "emotion": "neutral",
+        "text": "Oh where was that ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "I was running around the track at my college and there she was walking around the same track .",
+        "emotion": "neutral",
+        "text": "I was running around the track at my college and there she was walking around the same track .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "Grannie always tries to stay fit and healthy . She is always making us kids eat the proper foods .",
+        "emotion": "neutral",
+        "text": "Grannie always tries to stay fit and healthy . She is always making us kids eat the proper foods .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "Well , it pays off for her . How old is she anyway ?",
+        "emotion": "neutral",
+        "text": "Well , it pays off for her . How old is she anyway ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "She will be 86 next month .",
+        "emotion": "neutral",
+        "text": "She will be 86 next month .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "That is truly amazing !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "She will be 86 next month ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That is truly amazing !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

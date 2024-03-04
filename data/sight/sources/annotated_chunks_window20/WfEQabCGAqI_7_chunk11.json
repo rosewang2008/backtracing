@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But, more generally, you can think, what happens if I change u by delta u, keeping v constant, or the other way around?"
+    },
+    {
+        "text": "You will get some sort of mesh grid on your surface, and you will look at a little parallelogram that's an elementary piece of that mesh and figure out what is its area and normal vector."
+    },
+    {
+        "text": "Well, that will again be given by the cross product of the two sides."
+    },
+    {
+        "text": "OK, so let's think a little bit about what happens when I move a little bit on my surface."
+    },
+    {
+        "text": "So, I'm taking a grid on my surface given by the u and v directions."
+    },
+    {
+        "text": "And, if I take a piece of that corresponding to small changes, delta u and delta v, what's going to be going on here?"
+    },
+    {
+        "text": "Well, I have to deal with two vectors, one corresponding to changing u, the other one corresponding to changing v. If I change u, how does my point change?"
+    },
+    {
+        "text": "Well, that's given by the derivative of this with respect to u. OK, so this vector here I will call, so the sides are given by, let me say, partial r over partial u times delta u."
+    },
+    {
+        "text": "And, if you prefer, maybe I should write it as partial x over partial u delta u partial y."
+    },
+    {
+        "text": "Well, it's just too boring to write, and so on."
+    },
+    {
+        "text": "OK, it means just, you know, if I change u a little bit, keep v constant, then how x changes is given by partial x over partial u times delta u."
+    },
+    {
+        "text": "Same thing with y, same thing with z."
+    },
+    {
+        "text": "And, I'm just using vector notation to do it this way."
+    },
+    {
+        "text": "That's the analog of when I said delta r for line integrals along a curve, vector delta r is the velocity vector dr over dt times delta t. OK, now if I look at the other side, OK, so, sorry, so let me start again."
+    },
+    {
+        "text": "I ran out of space."
+    },
+    {
+        "text": "One side is partial r partial u times delta u, and the other one would be partial r partial v times delta v because that's how the position of your point changes if you just change u or v and not the other one."
+    },
+    {
+        "text": "So, now, to find the surface element together with a normal vector, I would just take the cross product between these guys."
+    },
+    {
+        "text": "So, if you prefer, that's the cross product of partial r partial u with partial r partial v delta u delta v. And so, N dS is this cross product times du dv up to sine."
+    },
+    {
+        "text": "I mean, also here."
+    },
+    {
+        "text": "Depends on which choice I make for my normal vector, of course."
+    }
+]

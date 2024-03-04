@@ -1,0 +1,179 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you doing there with your mobile phone ?",
+        "emotion": "happiness",
+        "explanation": "A is happy for some unkown reason",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "What are you doing there with your mobile phone ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm moblogging !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm moblogging !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm moblogging !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Moblogging ? what does that mean ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Moblogging ? what does that mean ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Moblogging ? what does that mean ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , moblogging is a combination of the word ' mobile ' and ' blogging ' . It's another form of blogging . Users can publish blog entries to the web from a mobile phone or other mobile devices .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm moblogging !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Oh , moblogging is a combination of the word ' mobile ' and ' blogging ' . It's another form of blogging . Users can publish blog entries to the web from a mobile phone or other mobile devices .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Sounds interesting ! That must be very convenient .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Sounds interesting ! That must be very convenient ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Sounds interesting ! That must be very convenient .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , you're right . I can blog wherever and whenever I'm on the move . It's especially good when I'm on a business trip and my laptop happens to be away from me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I'm moblogging !",
+            "I can blog wherever and whenever I'm on the move . It's especially good when I'm on a business trip and my laptop happens to be away from me ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , you're right . I can blog wherever and whenever I'm on the move . It's especially good when I'm on a business trip and my laptop happens to be away from me .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How can you do that ?",
+        "emotion": "neutral",
+        "text": "How can you do that ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , if I simply want to write a few words , I'll send it by email or edit it all from the cell phone browser .",
+        "emotion": "neutral",
+        "text": "Well , if I simply want to write a few words , I'll send it by email or edit it all from the cell phone browser .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What if you want to publish some photos ?",
+        "emotion": "neutral",
+        "text": "What if you want to publish some photos ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Then I'll shoot some pictures , re-size the images and upload them with text descriptions to my blog .",
+        "emotion": "neutral",
+        "text": "Then I'll shoot some pictures , re-size the images and upload them with text descriptions to my blog .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I see . Moblogging must have done a great favor for habitual bloggers like you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Moblogging must have done a great favor for habitual bloggers"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I see . Moblogging must have done a great favor for habitual bloggers like you .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You bet it !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Moblogging must have done a great favor for habitual bloggers"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You bet it !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

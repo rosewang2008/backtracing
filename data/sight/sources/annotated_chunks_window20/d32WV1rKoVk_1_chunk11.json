@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's the method."
+    },
+    {
+        "text": "And where is the work in using that method?"
+    },
+    {
+        "text": "Because that's what we always focus on."
+    },
+    {
+        "text": "Where are we spending computer time?"
+    },
+    {
+        "text": "Well, we're spending computer time in doing the factorization."
+    },
+    {
+        "text": "So it didn't cost anything to shift by the identity, but then we had to factor that into Q0, R0."
+    },
+    {
+        "text": "Then it didn't cost much to multiply them in the opposite order."
+    },
+    {
+        "text": "So the work was in QR."
+    },
+    {
+        "text": "So could we think of anything to improve that aspect?"
+    },
+    {
+        "text": "Could we think of anything there?"
+    },
+    {
+        "text": "And then we've got a really first-class method."
+    },
+    {
+        "text": "Well, if the matrix A, A0, the matrix we started with, had some zeros that allowed us to skip steps in doing the QR factorization."
+    },
+    {
+        "text": "So what am I going to say?"
+    },
+    {
+        "text": "I'm going to say if A or A0, our original matrix, has a bunch of zeros, let's say it's got a whole lot of zeros there."
+    },
+    {
+        "text": "Maybe it's, well, OK."
+    },
+    {
+        "text": "I overdid it here."
+    },
+    {
+        "text": "I know the eigenvalues right off."
+    },
+    {
+        "text": "But so the truth is I can't, saying that if that, it's not going to happen."
+    },
+    {
+        "text": "But we can get zeros with one extra diagonal."
+    },
+    {
+        "text": "That turns out, so here's the main diagonal."
+    }
+]

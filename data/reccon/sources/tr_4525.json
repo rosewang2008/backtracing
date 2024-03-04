@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ashley , what a great dinner party !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Ashley , what a great dinner party !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you , Joe . What would you like to drink with your meal ? I can offer you wine , mango juice , or water .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , Joe . What would you like to drink with your meal ? I can offer you wine , mango juice , or water .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Just water would be fine .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !",
+            "What would you like to drink with your meal ? I can offer you wine , mango juice , or water ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Just water would be fine .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Excellent choice . Can I dish you up some chicken ?",
+        "emotion": "happiness",
+        "explanation": "speaker and listener are happy about the great party",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Excellent choice . Can I dish you up some chicken ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes , the chicken looks wonderful !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !",
+            "Can I dish you up some chicken ?",
+            "the chicken looks wonderful !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes , the chicken looks wonderful !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How about some salad to go with your chicken ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !",
+            "Can I dish you up some chicken ?",
+            "the chicken looks wonderful !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "How about some salad to go with your chicken ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Sure , I love salad !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !",
+            "some salad to go with your chicken ?",
+            "I love salad !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Sure , I love salad !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Would you like to have rice with your chicken ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Would you like to have rice with your chicken ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes , I think that rice will go perfectly with my chicken !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            9
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !",
+            "rice will go perfectly with my chicken !"
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , I think that rice will go perfectly with my chicken !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good ! Julie , if you could pass this plate down to Joe , I think we are all set .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "what a great dinner party !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good ! Julie , if you could pass this plate down to Joe , I think we are all set .",
+        "id": 10,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

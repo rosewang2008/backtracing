@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good afternoon , Sam .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Good afternoon , Sam ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Good afternoon , Sam .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good afternoon , Tina .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Good afternoon , Tina ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Good afternoon , Tina .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What are you going to do tomorrow ?",
+        "emotion": "neutral",
+        "text": "What are you going to do tomorrow ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm not sure yet . And you ?",
+        "emotion": "neutral",
+        "text": "I'm not sure yet . And you ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I would like to go skating . Feel like going with me ?",
+        "emotion": "neutral",
+        "text": "I would like to go skating . Feel like going with me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Is skating interesting ?",
+        "emotion": "neutral",
+        "text": "Is skating interesting ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think so . Fresh air , white snow . It's so comfortable .",
+        "emotion": "neutral",
+        "text": "I think so . Fresh air , white snow . It's so comfortable .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But I can't skate well .",
+        "emotion": "neutral",
+        "text": "But I can't skate well .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It doesn't matter , I can teach you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I can teach you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It doesn't matter , I can teach you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I can teach you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's very kind of you .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

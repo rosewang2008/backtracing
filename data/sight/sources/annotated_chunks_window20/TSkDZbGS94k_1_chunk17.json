@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And again, maybe you see me switching from p to lambda to theta to mu to sigma square."
+    },
+    {
+        "text": "Honestly, you can do whatever you want, but it's just that it's customary to have these particular Greek letters."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And so the parameters of exponential are just positive numbers."
+    },
+    {
+        "text": "OK, and that's my exponential model."
+    },
+    {
+        "text": "What is the third one?"
+    },
+    {
+        "text": "Can somebody tell me?"
+    },
+    {
+        "text": "Poisson."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "OK, so Poisson."
+    },
+    {
+        "text": "Is Poisson random variable discrete or continuous?"
+    },
+    {
+        "text": "Go back to your probability."
+    },
+    {
+        "text": "All right, so the answer being the opposite of continuous."
+    },
+    {
+        "text": "Good job."
+    },
+    {
+        "text": "All right, so it's going to be, what values can a Poisson take?"
+    },
+    {
+        "text": "All the natural integers, right?"
+    },
+    {
+        "text": "So 0, 1, 2, 3, all the way to infinity."
+    },
+    {
+        "text": "We don't have any control of this, so I'm going to write this as n without 0."
+    },
+    {
+        "text": "I think in the slides, it's n star, maybe."
+    },
+    {
+        "text": "Actually, no, you can take value 0."
+    }
+]

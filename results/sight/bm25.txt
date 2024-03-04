@@ -1,0 +1,8 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/bm25.csv
+Output fname: results/sight/annotated/bm25.csv
+Accuracy top 1: 0.08
+Min distance top 1: 122.68
+Accuracy top 3: 0.15
+Min distance top 3: 50.69

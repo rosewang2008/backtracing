@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/opt_6b_causal-full.csv
+Total: 15838
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/opt_6b_causal-full.csv
+>> Score key: causal-full
+Top 1 accuracy: 0.02097902097902098
+Top 1 min distance: 7.1
+Top 3 accuracy: 0.055944055944055944
+Top 3 min distance: 1.9
+

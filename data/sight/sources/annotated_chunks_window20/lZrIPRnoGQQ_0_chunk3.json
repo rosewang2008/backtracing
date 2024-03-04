@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And of course, the magic words in, even without this, the magic words in computations is early stopping."
+    },
+    {
+        "text": "We don't overfit."
+    },
+    {
+        "text": "So we wanted to stop early anyway."
+    },
+    {
+        "text": "And early stopping just is like a good idea for if that's what the approach to the x star that you're looking for."
+    },
+    {
+        "text": "This would be the place where the, this is where, that's x star where grad f at x star is 0."
+    },
+    {
+        "text": "That's the minimum point."
+    },
+    {
+        "text": "That's arg min."
+    },
+    {
+        "text": "Arg min."
+    },
+    {
+        "text": "Exactly what we're looking for."
+    },
+    {
+        "text": "And we don't find it very well, but we get close to it fast."
+    },
+    {
+        "text": "OK. Two ideas on projects."
+    },
+    {
+        "text": "So just, so maybe I'll go to the main topic of today, the topic I promised, the idea of back propagation."
+    },
+    {
+        "text": "To compute, this is all to compute grad f, the gradient, all the derivatives."
+    },
+    {
+        "text": "This is the df dx1 to df dxm, maybe I'll say, where I have m features for the sample."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's back propagation."
+    },
+    {
+        "text": "And that's the thing whose discovery or rediscovery put neural nets on the map."
+    },
+    {
+        "text": "That's the key calculation, of course, to find the gradient in the steepest descent algorithm."
+    },
+    {
+        "text": "Every step needs a gradient."
+    },
+    {
+        "text": "And if you can't compute it quickly, you're in bad shape."
+    }
+]

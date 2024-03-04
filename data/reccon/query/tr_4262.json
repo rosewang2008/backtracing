@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "And I can concentrate on my study after the relaxation over the weekend .",
+            "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , it's a good habit to have a life-long hobby . Those who practise calligraphy and Qigong always live longer .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "We will come back to this example when we study maximum likelihood estimators or method of moments estimators by the method of moments."
+    },
+    {
+        "text": "But at the end of the day, the things that we did, the things that we will do are always the naive estimator you would come up with is, what is the proportion of 1?"
+    },
+    {
+        "text": "And this will be, in pretty much all respects, the best estimator you can think of."
+    },
+    {
+        "text": "So then we're going to try to assess its performance."
+    },
+    {
+        "text": "And we saw how to do that in the first chapter as well."
+    },
+    {
+        "text": "So this problem here somehow is completely understood."
+    },
+    {
+        "text": "We'll come back to it."
+    },
+    {
+        "text": "But there's nothing fancy that's going to happen."
+    },
+    {
+        "text": "But now I could have some more complicated things."
+    },
+    {
+        "text": "So for example, in the example of the students now, my xi's belong to the sequence of integers 1, 2, 3, et cetera, which is also denoted by n, maybe without 0 if you want to put 0 in n, so the positive integers."
+    },
+    {
+        "text": "Or I could actually just maybe put some prior knowledge about how humans have time to have families."
+    },
+    {
+        "text": "But maybe some people thought of their college mates as being their brothers and sisters."
+    },
+    {
+        "text": "And one student would actually put 465 siblings, because we're all good friends."
+    },
+    {
+        "text": "Or maybe they actually think that all their Facebook contacts are actually their siblings."
+    },
+    {
+        "text": "And so you never know what's going to happen."
+    },
+    {
+        "text": "So maybe you want to account for this."
+    },
+    {
+        "text": "But maybe you know that people are reasonable."
+    },
+    {
+        "text": "And they will actually give you something like this."
+    },
+    {
+        "text": "Now, intuitively, maybe you would say, well, why would you bother doing this if you're not really sure about the 20?"
+    },
+    {
+        "text": "But I think that probably all of you intuitively guess that this is probably a good idea to start putting this kind of assumption rather than allowing for any number in the first place, because this eventually will be injected into the precision of our estimator."
+    }
+]

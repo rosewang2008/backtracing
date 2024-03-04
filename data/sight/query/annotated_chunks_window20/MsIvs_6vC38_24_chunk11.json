@@ -1,0 +1,17 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 24,
+        "timestamp": 1684720668792.0,
+        "annotatedSourceSentencesIndices": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I'm a bit unsure as to why he doesn't like the 10 in the matrix E around 19:00? Are we assuming we already have A and U defined, and just need to find a matrix that relates them? Is it because the L parts, like the E parts (E21, E31, E32) can simply be stated, but to calculate the final L and E, final L can be stated (just like it's parts), where as E has to be calculated?"
+    }
+]

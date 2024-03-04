@@ -1,0 +1,62 @@
+[
+    {
+        "text": "100 dimensional would probably catch the eigenvector."
+    },
+    {
+        "text": "So if the eigenvector is virtually in this space, then we can look at a matrix of order 100."
+    },
+    {
+        "text": "We can bring A down to just see its action on that space."
+    },
+    {
+        "text": "So I look at vectors V, which are some combination, C1b plus C2ab plus C3a squared b and C100 a to the 99th b, plus an error."
+    },
+    {
+        "text": "And I'm going to ignore that error."
+    },
+    {
+        "text": "Because I've gone up to dimension 100."
+    },
+    {
+        "text": "I probably say it's pretty safe to ignore that error."
+    },
+    {
+        "text": "And then in this space, just looking at the matrix A."
+    },
+    {
+        "text": "So wherever A to the 100th comes in, forget it."
+    },
+    {
+        "text": "Just think about the matrix A as multiplying vectors of this kind in this space."
+    },
+    {
+        "text": "Then I have a 100 by 100 eigenvalue problem."
+    },
+    {
+        "text": "And so the big matrix A is reduced to a matrix of size 100 by, do you see sort of what I'm saying, even though I'm not giving the details?"
+    },
+    {
+        "text": "Think of a matrix A of size a million."
+    },
+    {
+        "text": "And you apply it to Krylov vectors."
+    },
+    {
+        "text": "So I call them little k for a Krylov vector in this 100-dimensional space."
+    },
+    {
+        "text": "So they have a million minus 100, zero components, you could say, this k. This is in the Krylov space."
+    },
+    {
+        "text": "This is A, a million, k, 100."
+    },
+    {
+        "text": "It's a full, it's got a million components, but it's out of just 100-dimensional space."
+    },
+    {
+        "text": "So when I multiply by A, it'll be mostly in, mostly in, partly in the Krylov space, k 100, and a piece out of k 100."
+    },
+    {
+        "text": "And I just ignore that part of the matrix."
+    }
+]

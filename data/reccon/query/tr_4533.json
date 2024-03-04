@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "All I know about soccer is that you can ' t use your hands and that players are always falling down , trying to get a free kick or penalty kick . It seems like a sissy sport to me !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "It ' s a very exciting and nerve wracking sport !",
+            "It seems like a sissy sport to me !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "All I know about soccer is that you can ' t use your hands and that players are always falling down , trying to get a free kick or penalty kick . It seems like a sissy sport to me !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

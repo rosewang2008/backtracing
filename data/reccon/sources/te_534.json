@@ -1,0 +1,195 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "This looks like a very nice house .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "This looks like a very nice house ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This looks like a very nice house .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You know , I fell in love with this house the first moment I laid eyes on it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I fell in love with this house the first moment I laid eyes on it ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You know , I fell in love with this house the first moment I laid eyes on it .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The style of the exterior is just what I ' Ve been looking for !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "The style of the exterior is just what I ' Ve been looking for !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The style of the exterior is just what I ' Ve been looking for !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The exterior is only half of the story . The interior is incredible .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I fell in love with this house the first moment I laid eyes on it .",
+            "The exterior is only half of the story . The interior is incredible ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "The exterior is only half of the story . The interior is incredible .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "This home is gorgeous on the inside !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "This home is gorgeous on the inside !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This home is gorgeous on the inside !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Everything that you see on the walls , floors , and windows is brand new .",
+        "emotion": "neutral",
+        "text": "Everything that you see on the walls , floors , and windows is brand new .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "The wall colors totally suit the style of this house .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "This home is gorgeous on the inside !",
+            "Everything that you see on the walls , floors , and windows is brand new .",
+            "The wall colors totally suit the style of this house ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "The wall colors totally suit the style of this house .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Straight ahead is the gourmet kitchen .",
+        "emotion": "neutral",
+        "text": "Straight ahead is the gourmet kitchen .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I love the bamboo flooring and granite countertops .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I love the bamboo flooring and granite countertops ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love the bamboo flooring and granite countertops .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The master suite is the best . Let ' s go look at that next .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I love the bamboo flooring and granite countertops .",
+            "The master suite is the best ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "The master suite is the best . Let ' s go look at that next .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "There is plenty of room for our king-sized bed , and I love the light in this room .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "There is plenty of room for our king-sized bed , and I love the light in this room ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "There is plenty of room for our king-sized bed , and I love the light in this room .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I know that you like this house , but let ' s take a look at the others before you make up your mind .",
+        "emotion": "neutral",
+        "text": "I know that you like this house , but let ' s take a look at the others before you make up your mind .",
+        "id": 12
+    }
+]

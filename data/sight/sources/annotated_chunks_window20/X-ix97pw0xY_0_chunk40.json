@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I said this is actually really what captures my theta."
+    },
+    {
+        "text": "This b is actually called cumulant generating function."
+    },
+    {
+        "text": "I don't have time."
+    },
+    {
+        "text": "I could write five slides to explain to you."
+    },
+    {
+        "text": "But it would just only tell you why it's called cumulant generating function."
+    },
+    {
+        "text": "It's also known as the log of the moment generating function."
+    },
+    {
+        "text": "And the way it's called cumulant generating function is because if I start taking successive derivatives and evaluate them at 0, I get the successive cumulants of this distribution, which are some transformation of the moment."
+    },
+    {
+        "text": "What is the function b?"
+    },
+    {
+        "text": "The function b."
+    },
+    {
+        "text": "So this is just normalization."
+    },
+    {
+        "text": "So this is just to tell you I can compute this, but I really don't care."
+    },
+    {
+        "text": "And obviously, I don't care about stuff that's complicated."
+    },
+    {
+        "text": "This is actually cute."
+    },
+    {
+        "text": "And this is what computes everything."
+    },
+    {
+        "text": "And the rest is just some general description."
+    },
+    {
+        "text": "You don't need me to tell you that the range of y is 0 to infinity."
+    },
+    {
+        "text": "And that is essentially telling me this is going to give me some hints as to which link function I should be using."
+    },
+    {
+        "text": "Because the range of y tells me what the range of expectation of y is going to be."
+    },
+    {
+        "text": "Here it tells me that the range of y is between 0 and 1."
+    },
+    {
+        "text": "So what I want to show you is that this captures a variety of different ranges that you can have."
+    }
+]

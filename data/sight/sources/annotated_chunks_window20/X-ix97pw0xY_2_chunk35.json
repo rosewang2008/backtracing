@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But when I wrote it in the first place, the only thing that I wrote is I wanted x times theta."
+    },
+    {
+        "text": "Wouldn't it be nice if I have some distribution that was just x times theta, not some function of x times some function of theta?"
+    },
+    {
+        "text": "The functions seem to be here so that they actually make things a little."
+    },
+    {
+        "text": "So the functions were here so that I can actually put a lot of functions there."
+    },
+    {
+        "text": "But first of all, if I actually decide to reparameterize my problem, I can always assume, if I have one dimensional, I can always assume that eta 1 of theta becomes my new theta."
+    },
+    {
+        "text": "So this thing here, for example, I could say, well, this is actually the parameter of my Bernoulli."
+    },
+    {
+        "text": "Let me call this guy theta."
+    },
+    {
+        "text": "I could do that."
+    },
+    {
+        "text": "Then I could say, well, here I have x that shows up here."
+    },
+    {
+        "text": "And here, since I'm talking about the response, I cannot really make any transformation."
+    },
+    {
+        "text": "So here I'm going to actually talk about a specific family for which this guy is not x square or square root of x or log of x or anything I want."
+    },
+    {
+        "text": "I'm just going to actually look at distributions for which this is x."
+    },
+    {
+        "text": "These exponential families are called canonical exponential families."
+    },
+    {
+        "text": "So in the canonical exponential family, what I have is that I have my x times theta."
+    },
+    {
+        "text": "I'm going to allow myself some normalization factor phi."
+    },
+    {
+        "text": "And we'll see, for example, that it's very convenient when I talk about the Gaussian."
+    },
+    {
+        "text": "Because even if I know this guy, which I actually pull into my, oh, that's over here, right?"
+    },
+    {
+        "text": "I know sigma squared, but I don't want to change my parameter to be mu over sigma squared."
+    },
+    {
+        "text": "It's kind of painful."
+    },
+    {
+        "text": "So I just take mu, and I'm going to keep this guy as being this phi over there."
+    }
+]

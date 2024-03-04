@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "OK, now clustering for graphs."
+    },
+    {
+        "text": "So this is a topic."
+    },
+    {
+        "text": "This is one of the important things you can try to do with a graph."
+    },
+    {
+        "text": "So you have a large graph."
+    },
+    {
+        "text": "Let me kind of divide it into two clusters."
+    },
+    {
+        "text": "OK, so you get a giant graph."
+    },
+    {
+        "text": "And the job is to make some sense out of it."
+    },
+    {
+        "text": "And one possible step is to be able to subdivide it if, as I see here, there is a cut between two reasonably equal parts of the graph, reasonably same size."
+    },
+    {
+        "text": "And therefore, that graph could be studied in two pieces."
+    },
+    {
+        "text": "So the question is, how do you find such a cut by an algorithm?"
+    },
+    {
+        "text": "What's an algorithm that would find that cut?"
+    },
+    {
+        "text": "So that's the problem."
+    },
+    {
+        "text": "Let's say we're looking for two clusters."
+    },
+    {
+        "text": "We could look for more clusters."
+    },
+    {
+        "text": "But let's say we want to look for two clusters."
+    },
+    {
+        "text": "So what are we trying to do?"
+    },
+    {
+        "text": "We're trying to minimize."
+    }
+]

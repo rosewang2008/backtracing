@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'm only having to choose the v's."
+    },
+    {
+        "text": "And what are these v's?"
+    },
+    {
+        "text": "And what are these sigmas?"
+    },
+    {
+        "text": "Do you know what the v's are?"
+    },
+    {
+        "text": "They're the eigenvectors."
+    },
+    {
+        "text": "See, this is a perfect eigenvector, eigenvalue, Q lambda Q transpose for the matrix A transpose A."
+    },
+    {
+        "text": "A itself is like nothing special."
+    },
+    {
+        "text": "But A transpose A will be special."
+    },
+    {
+        "text": "It'll be symmetric, positive, definite."
+    },
+    {
+        "text": "So this'll be its eigenvectors and this'll be its eigenvalues."
+    },
+    {
+        "text": "And the eigenvalues will be positive because this thing's positive definite."
+    },
+    {
+        "text": "Can I just now so this is my method."
+    },
+    {
+        "text": "This tells me what the v's are and how am I going to find the u's?"
+    },
+    {
+        "text": "Well, one way would be to look at A A transpose."
+    },
+    {
+        "text": "Put, multiply A by A transpose in the opposite order."
+    },
+    {
+        "text": "That will stick the v's in the middle, knock them out, and leave me with the u's."
+    },
+    {
+        "text": "So here's the overall picture, then."
+    },
+    {
+        "text": "The v's are the eigenvectors of A transpose A."
+    },
+    {
+        "text": "The u's are the eigenvectors of A A transpose, which are different."
+    },
+    {
+        "text": "And the sigmas are the square roots of these and the positive square roots, so we have positive sigmas."
+    }
+]

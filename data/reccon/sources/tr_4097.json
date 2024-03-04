@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I heard that Janet has got a new job . She ' s working for the united investment group . I heard that they pay very well .",
+        "emotion": "neutral",
+        "text": "I heard that Janet has got a new job . She ' s working for the united investment group . I heard that they pay very well .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I heard that too . She must be making a pocket . Well , good for her .",
+        "emotion": "neutral",
+        "text": "I heard that too . She must be making a pocket . Well , good for her .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Now , she ' ll be able to save up for that holiday in the united states .",
+        "emotion": "neutral",
+        "text": "Now , she ' ll be able to save up for that holiday in the united states .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , she will . At the moment , the exchange rate is very favorable , so she should try to go as soon as possible , while it ' s cheaper .",
+        "emotion": "neutral",
+        "text": "Yes , she will . At the moment , the exchange rate is very favorable , so she should try to go as soon as possible , while it ' s cheaper .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You ' re right . By the way , did you hear that Tom inherited some money recently ?",
+        "emotion": "neutral",
+        "text": "You ' re right . By the way , did you hear that Tom inherited some money recently ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Really ? I thought his parents had died several years ago .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Tom inherited some money recently ?",
+            "I thought his parents had died several years ago ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? I thought his parents had died several years ago .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "They did . He inherited the money from an uncle . I hope he doesn ' t lose a lot of it in taxed to the government .",
+        "emotion": "neutral",
+        "text": "They did . He inherited the money from an uncle . I hope he doesn ' t lose a lot of it in taxed to the government .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Dying can be very expensive nowadays ! What ' s he going to do with it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope he doesn ' t lose a lot of it in taxed to the government ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Dying can be very expensive nowadays ! What ' s he going to do with it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "He said that he would probably invest most of it . He ' s got a well-paid job , so he doesn ' t need the money to cover day-to day expenses . He just wants some extra money available for when he retires .",
+        "emotion": "neutral",
+        "text": "He said that he would probably invest most of it . He ' s got a well-paid job , so he doesn ' t need the money to cover day-to day expenses . He just wants some extra money available for when he retires .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I had some good financial news yesterday too .",
+        "emotion": "neutral",
+        "text": "I had some good financial news yesterday too .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Really ? Have you won a fortune in the lottery ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I had some good financial news yesterday too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Have you won a fortune in the lottery ?",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No , but I got a pay rise of 5 % and a bonus for all the hard work I ' Ve put in recently . I think it was very nice for my boss to show his appreciation in that way .",
+        "emotion": "neutral",
+        "text": "No , but I got a pay rise of 5 % and a bonus for all the hard work I ' Ve put in recently . I think it was very nice for my boss to show his appreciation in that way .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "It certainly was ! So , what are you going to do with your windfall ?",
+        "emotion": "neutral",
+        "text": "It certainly was ! So , what are you going to do with your windfall ?",
+        "id": 13
+    }
+]

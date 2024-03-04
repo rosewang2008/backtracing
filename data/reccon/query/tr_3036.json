@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm so jealous of you . I've never been anywhere in Europe . I've always dreamed of traveling around and seeing the sights .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "My first time . I've traveled around Europe a lot , but this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ..."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm so jealous of you . I've never been anywhere in Europe . I've always dreamed of traveling around and seeing the sights .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

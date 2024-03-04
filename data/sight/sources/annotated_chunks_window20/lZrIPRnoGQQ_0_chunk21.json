@@ -1,0 +1,62 @@
+[
+    {
+        "text": "To me, that's the point of reverse mode."
+    },
+    {
+        "text": "It's a little bit of magic."
+    },
+    {
+        "text": "But you see the steps, the ingredient."
+    },
+    {
+        "text": "And some of you have seen this before and maybe know a better exposition."
+    },
+    {
+        "text": "I found this blog by Christopher Ola clear."
+    },
+    {
+        "text": "And these very simple things you'll see are clear in the notes."
+    },
+    {
+        "text": "But maybe another blog brings out other points to make here."
+    },
+    {
+        "text": "It's not obvious, maybe, that I could have 100 variables and do the calculation in four or five times the cost, four or five times being instead of 100."
+    },
+    {
+        "text": "But it's possible."
+    },
+    {
+        "text": "So could I close today with this one?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "How could those be different?"
+    },
+    {
+        "text": "You're computing the same numbers, the same aij, bjk, ckls, and doing this sums."
+    },
+    {
+        "text": "But it certainly is different."
+    },
+    {
+        "text": "So let's just do that."
+    },
+    {
+        "text": "OK, I'll do it here."
+    },
+    {
+        "text": "And then after my time, and I guess it'll be after Professor Rao on Friday and Monday, I'll come back to Professor Sra's short proof of the convergence of stochastic gradient descent."
+    },
+    {
+        "text": "The whole point is to show you what assumptions do you need."
+    },
+    {
+        "text": "You need some assumptions on the gradient, some assumptions on the step size."
+    },
+    {
+        "text": "And for a good proof, all the assumptions fit together, and dong, out comes the conclusion."
+    }
+]

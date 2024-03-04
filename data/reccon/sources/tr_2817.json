@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's the bonus like at your company ?",
+        "emotion": "neutral",
+        "text": "What's the bonus like at your company ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , it's OK , I suppose . We get about the equivalent of six months ' salary .",
+        "emotion": "neutral",
+        "text": "Well , it's OK , I suppose . We get about the equivalent of six months ' salary .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Six months ' salary ? Are you serious ? That's incredible !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "We get about the equivalent of six months ' salary ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Six months ' salary ? Are you serious ? That's incredible !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Maybe . But you'd be amazed at how little's left after the credit companies have deducted their share from my account .",
+        "emotion": "neutral",
+        "text": "Maybe . But you'd be amazed at how little's left after the credit companies have deducted their share from my account .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hey , I know what that's like . I bought a BMW on my Visa card . Now the payments really hurt .",
+        "emotion": "neutral",
+        "text": "Hey , I know what that's like . I bought a BMW on my Visa card . Now the payments really hurt .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , you're lucky that you're still able to make your payments . I missed a credit payment last month . Now my bank account's overdrawn , and the company is threatening to take back my purchases .",
+        "emotion": "neutral",
+        "text": "Well , you're lucky that you're still able to make your payments . I missed a credit payment last month . Now my bank account's overdrawn , and the company is threatening to take back my purchases .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What did you buy ?",
+        "emotion": "neutral",
+        "text": "What did you buy ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "A new home health monitor .",
+        "emotion": "neutral",
+        "text": "A new home health monitor .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Health Monitor ? I read an article about that racket . They ' re overpriced to begin with ! Listen , if I were you , I'd let them take back their monitor and spend my money on something more practical .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "home health monitor ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Health Monitor ? I read an article about that racket . They ' re overpriced to begin with ! Listen , if I were you , I'd let them take back their monitor and spend my money on something more practical .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You're kidding !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "They ' re overpriced"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're kidding !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No joke !",
+        "emotion": "neutral",
+        "text": "No joke !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That's something else ! Maybe I'll return it to them .",
+        "emotion": "neutral",
+        "text": "That's something else ! Maybe I'll return it to them .",
+        "id": 12
+    }
+]

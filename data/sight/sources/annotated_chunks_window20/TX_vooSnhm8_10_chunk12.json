@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And the other eigenvector is just zero one, and when I multiply by that, I get eighteen."
+    },
+    {
+        "text": "So this is A A transpose, multiplying that gives me the thirty-two A A transpose, multiplying this guy gives me eighteen."
+    },
+    {
+        "text": "First of all, I got thirty-two and eighteen again."
+    },
+    {
+        "text": "Am I surprised?"
+    },
+    {
+        "text": "Yeah, it's clearly not an accident."
+    },
+    {
+        "text": "The eigenvalues of A A transpose were exactly the same as the eigenvalues of this one was A transpose A."
+    },
+    {
+        "text": "That's no surprise at all."
+    },
+    {
+        "text": "The eigenvalues of A B are same as the eigenvalues of B A."
+    },
+    {
+        "text": "The order, that's a very nice fact, that eigenvalues stay the same if I switch the order of multiplication."
+    },
+    {
+        "text": "So no surprise to see thirty-two and eighteen."
+    },
+    {
+        "text": "What I learned, first I checked that things were numerically correct, but now I've learned these eigenvectors, and actually they're about as nice as can be."
+    },
+    {
+        "text": "They're the best orthogonal matrix, just the identity."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So my claim is that it ought to all fit together."
+    },
+    {
+        "text": "That this numeri- this, these numbers should come out right."
+    },
+    {
+        "text": "The numbers should come out right because the, the, matrix multiplications use the properties that we want."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So we just check that."
+    },
+    {
+        "text": "Here's the identity, so not doing anything."
+    },
+    {
+        "text": "Square root of thirty-two is multiplying that row, so that's square root of thirty-two divided by square root of two means square root of sixteen, four."
+    }
+]

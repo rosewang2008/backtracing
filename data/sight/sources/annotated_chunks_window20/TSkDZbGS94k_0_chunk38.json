@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You can take the average xn bar."
+    },
+    {
+        "text": "You can take the maximum of your observation."
+    },
+    {
+        "text": "That's a statistic."
+    },
+    {
+        "text": "You can take the first one."
+    },
+    {
+        "text": "You can take the first one plus log of 1 plus the absolute value of the last one."
+    },
+    {
+        "text": "You can do whatever you want."
+    },
+    {
+        "text": "That will be an estimator."
+    },
+    {
+        "text": "Some of them are clearly going to be bad."
+    },
+    {
+        "text": "But that's still a statistic."
+    },
+    {
+        "text": "And you can do this."
+    },
+    {
+        "text": "Now, when I say measurable, I always have, so graduate students sometimes ask me, like, yeah, how do I know if this estimator is measurable or not?"
+    },
+    {
+        "text": "And usually, my answer is, well, if I give you data, can you compute it?"
+    },
+    {
+        "text": "And they say, yeah."
+    },
+    {
+        "text": "I'm like, well, then it's measurable."
+    },
+    {
+        "text": "That's a very good rule to check if something is actually measurable."
+    },
+    {
+        "text": "When is this thing not measurable?"
+    },
+    {
+        "text": "It's when it's implicitly defined."
+    },
+    {
+        "text": "And in particular, the things that can give you problems are soup or inf."
+    },
+    {
+        "text": "Anybody knows what a soup or an inf is?"
+    },
+    {
+        "text": "It's like a max or a min, but that's not always attained."
+    }
+]

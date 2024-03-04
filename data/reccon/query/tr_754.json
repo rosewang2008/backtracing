@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's exactly the way I feel .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "What a great weekend that was !",
+            "I really enjoy the beach in the summer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's exactly the way I feel .",
+        "id": 8,
+        "source_sentences": [
+            0,
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

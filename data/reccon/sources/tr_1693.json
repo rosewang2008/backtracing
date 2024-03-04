@@ -1,0 +1,210 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Will you be done doing my hair soon ?",
+        "emotion": "neutral",
+        "text": "Will you be done doing my hair soon ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Give me a little while longer .",
+        "emotion": "neutral",
+        "text": "Give me a little while longer .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How much time do you need ?",
+        "emotion": "neutral",
+        "text": "How much time do you need ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "There you go . How do you like it ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy to have finished his/her job",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "There you go ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "There you go . How do you like it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I think it looks gorgeous .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think it looks gorgeous .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You think it looks nice ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You think it looks nice ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I honestly think it looks great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I honestly think it looks great .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thanks . I'm glad that I did a good job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great .",
+            "I did a good job ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . I'm glad that I did a good job .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How much is it for my hair ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How much is it for my hair ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Just give me $ 55 .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great .",
+            "I did a good job ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Just give me $ 55 .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thanks for doing such a good job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great .",
+            "Thanks for doing such a good job ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Thanks for doing such a good job .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No problem , girl friend . I'll see you next time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I think it looks gorgeous .",
+            "I honestly think it looks great .",
+            "Thanks for doing such a good job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem , girl friend . I'll see you next time .",
+        "id": 12,
+        "source_sentences": [
+            4,
+            6,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

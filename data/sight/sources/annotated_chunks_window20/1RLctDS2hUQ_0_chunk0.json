@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Today we're going to continue with integration."
+    },
+    {
+        "text": "And we get to do probably the most important thing of this entire course, which is appropriately named."
+    },
+    {
+        "text": "It's called the Fundamental Theorem of Calculus."
+    },
+    {
+        "text": "And we'll be abbreviating it FTC, and occasionally I'll put in a 1 here, because there will be two versions of it."
+    },
+    {
+        "text": "But this is the one that you'll be using the most in this class."
+    },
+    {
+        "text": "The Fundamental Theorem of Calculus says the following."
+    },
+    {
+        "text": "It says that if f' is equal to f, so f' of x is equal to f of x, is a capital F and a little f, then the integral from a to b of f of x is equal to f of b minus f of a."
+    },
+    {
+        "text": "That's it."
+    },
+    {
+        "text": "That's the whole theorem."
+    },
+    {
+        "text": "And you may recognize it."
+    },
+    {
+        "text": "Before we had the notation that f was the antiderivative."
+    },
+    {
+        "text": "That is, capital F was the integral of f of x."
+    },
+    {
+        "text": "We wrote it this way."
+    },
+    {
+        "text": "This is the indefinite integral."
+    },
+    {
+        "text": "And now we're putting in definite values."
+    },
+    {
+        "text": "And we have a connection between the two uses of the integral sign."
+    },
+    {
+        "text": "But with the definite values, we get real numbers out instead of a function."
+    }
+]

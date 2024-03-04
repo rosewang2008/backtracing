@@ -1,0 +1,119 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "This Olympic park is so big !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "This Olympic park is so big !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This Olympic park is so big !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Now we are in the Olympic stadium , the center of this park .",
+        "emotion": "neutral",
+        "text": "Yes . Now we are in the Olympic stadium , the center of this park .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Splendid ! When is it gonna be finished ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "This Olympic park is so big !",
+            "we are in the Olympic stadium , the center of this park ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Splendid ! When is it gonna be finished ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The whole stadium is to be finished this June .",
+        "emotion": "neutral",
+        "text": "The whole stadium is to be finished this June .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How many seats are there in the stand ?",
+        "emotion": "neutral",
+        "text": "How many seats are there in the stand ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , there are 5000 seats in total .",
+        "emotion": "neutral",
+        "text": "Oh , there are 5000 seats in total .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I didn ' t know it would be so big !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "there are 5000 seats",
+            "I didn ' t know it would be so big !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I didn ' t know it would be so big !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It is ! Look there , those are the tracks . And the jumping pit is over there .",
+        "emotion": "neutral",
+        "text": "It is ! Look there , those are the tracks . And the jumping pit is over there .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ah ... I see . Hey , look the sign here , No climbing .",
+        "emotion": "neutral",
+        "text": "Ah ... I see . Hey , look the sign here , No climbing .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "We put many signs with English translations for foreign visitors .",
+        "emotion": "neutral",
+        "text": "We put many signs with English translations for foreign visitors .",
+        "id": 10
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I'm just doing it in the opposite order, A times A transpose, and what's the good part here?"
+    },
+    {
+        "text": "That in the middle, V transpose V is going to be the identity."
+    },
+    {
+        "text": "So this is just U sigma sigma transpose, that's some diagonal matrix with sigma squareds and U transpose."
+    },
+    {
+        "text": "So what am I seeing here?"
+    },
+    {
+        "text": "I'm seeing here, again, a symmetric positive definite or at least semi-definite matrix, and I'm seeing its eigenvectors and its eigenvalues."
+    },
+    {
+        "text": "So if I compute A A transpose, its eigenvectors will be the things that go into U."
+    },
+    {
+        "text": "Okay, so I need to compute A A transpose."
+    },
+    {
+        "text": "I guess I'm going to have to go -."
+    },
+    {
+        "text": "Let me, can I move that up just a little, maybe a little more, and do A A transpose."
+    },
+    {
+        "text": "So what's A?"
+    },
+    {
+        "text": "Four, four, minus three and three."
+    },
+    {
+        "text": "And what's A transpose?"
+    },
+    {
+        "text": "Four, four, minus three and three."
+    },
+    {
+        "text": "And when I do that multiplication, I get, what do I get?"
+    },
+    {
+        "text": "Sixteen and sixteen, thirty-two."
+    },
+    {
+        "text": "That one comes out zero."
+    },
+    {
+        "text": "Oh, so this is a lucky case, and that one comes out eighteen."
+    },
+    {
+        "text": "So this is, like, an accident, that A A transpose happens to come out diagonal, so we know easily its eigenvectors and eigenvalues."
+    },
+    {
+        "text": "So its eigenvectors are, what's the first eigenvector for this A A transpose matrix?"
+    },
+    {
+        "text": "It's just one zero, and when I do that multiplication, I get thirty-two times one zero."
+    }
+]

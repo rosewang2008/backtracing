@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's what I'm going to plug in for this factor here."
+    },
+    {
+        "text": "So here's 1 3rd du, which replaces that."
+    },
+    {
+        "text": "But now there's the extra feature."
+    },
+    {
+        "text": "The extra feature is the limits."
+    },
+    {
+        "text": "So here, really in disguise, because now this is incredibly important, this is one of the reasons why we use this notation dx and du."
+    },
+    {
+        "text": "We want to remind ourselves which variable is involved in the integration."
+    },
+    {
+        "text": "And especially if you're the one naming the variables, you may get mixed up in this respect."
+    },
+    {
+        "text": "So you must know which variable is varying between 1 and 2."
+    },
+    {
+        "text": "And the answer is it's x is the one that's varying between 1 and 2."
+    },
+    {
+        "text": "So in disguise, even though I didn't write it, it was contained in this little symbol here."
+    },
+    {
+        "text": "This reminded us which variable."
+    },
+    {
+        "text": "You'll find this amazingly important when you get to multivariable calculus."
+    },
+    {
+        "text": "When there are many variables floating around."
+    },
+    {
+        "text": "So this is an incredibly important distinction to make."
+    },
+    {
+        "text": "So now over here, we have a limit."
+    },
+    {
+        "text": "But it's of course supposed to be with respect to u now."
+    },
+    {
+        "text": "So we need to calculate what those corresponding limits are."
+    },
+    {
+        "text": "And indeed, it's just, I plug in here u1 is going to be equal to what I plug in for x equals 1."
+    },
+    {
+        "text": "That's going to be 1 cubed plus 2, which is 3."
+    },
+    {
+        "text": "And then u2 is 2 cubed plus 2, which is equal to 10."
+    }
+]

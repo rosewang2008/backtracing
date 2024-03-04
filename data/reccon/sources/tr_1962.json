@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Jenny . Are still working ?",
+        "emotion": "neutral",
+        "text": "Hi , Jenny . Are still working ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Nancy . Come in please . I'm just putting away on my books .",
+        "emotion": "neutral",
+        "text": "Hi , Nancy . Come in please . I'm just putting away on my books .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So , you are leaving , aren't you ?",
+        "emotion": "neutral",
+        "text": "So , you are leaving , aren't you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I ' m going to take a holiday tomorrow .",
+        "emotion": "neutral",
+        "text": "Yes , I ' m going to take a holiday tomorrow .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How nice ! I can see you are busying packing . I'm sorry to interrupt you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to take a holiday tomorrow ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How nice ! I can see you are busying packing . I'm sorry to interrupt you .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's all right . I'm almost finished . Do you need my help ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to take a holiday tomorrow .",
+            "How nice !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's all right . I'm almost finished . Do you need my help ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , could you please go over this for me ? And see if there is any mistake in it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Do you need my help ?",
+            "Yes , could you please go over this for me ? And see if there is any mistake in it ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , could you please go over this for me ? And see if there is any mistake in it ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh . All right I'll read it soon .",
+        "emotion": "neutral",
+        "text": "Oh . All right I'll read it soon .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Excuse me for taking your time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Do you need my help ?",
+            "Yes , could you please go over this for me ? And see if there is any mistake in it ?",
+            "I'll read it soon ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Excuse me for taking your time .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's nothing Nancy .",
+        "emotion": "neutral",
+        "text": "It's nothing Nancy .",
+        "id": 10
+    }
+]

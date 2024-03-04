@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "KAySmSEGc9U",
+        "query_id": 0,
+        "timestamp": 1684706671595.0,
+        "annotatedSourceSentencesIndices": [
+            18
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Doubt at Checkin 3.1 at 28:30 Shouldn't the answer be B as we showed in the last lecture how to convert NFAs to DFAs, just like that we have to show GNFAs to DFAs even if we assume the transitions to be a single symbol ?"
+    }
+]

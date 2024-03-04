@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you believe her ? She is not even a hundred pounds and she is going off on how she wants to go on a diet .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "She is not even a hundred pounds and she is going off on how she wants to go on a diet ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Can you believe her ? She is not even a hundred pounds and she is going off on how she wants to go on a diet .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Tell me about it . If I was as small as her , I wouldn't think about going on a diet .",
+        "emotion": "neutral",
+        "text": "Tell me about it . If I was as small as her , I wouldn't think about going on a diet .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Me too . But what are we going to do ? I have been on 4 different diets and I can't seem to lose weight .",
+        "emotion": "neutral",
+        "text": "Me too . But what are we going to do ? I have been on 4 different diets and I can't seem to lose weight .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That's because you don't exercise . If you were more active , you wouldn't have a dieting problem .",
+        "emotion": "neutral",
+        "text": "That's because you don't exercise . If you were more active , you wouldn't have a dieting problem .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What do you know ? You are over weight too .",
+        "emotion": "neutral",
+        "text": "What do you know ? You are over weight too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm not on a diet though .",
+        "emotion": "neutral",
+        "text": "I'm not on a diet though .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I know . But I don't have someone to diet with . If we help each other and motivate each other , then I think we can lose some weight .",
+        "emotion": "neutral",
+        "text": "I know . But I don't have someone to diet with . If we help each other and motivate each other , then I think we can lose some weight .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I like ice cream too much though .",
+        "emotion": "neutral",
+        "text": "I like ice cream too much though .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "C'mon . You'll feel better and look better and as a reward you can eat a little bit of ice cream here and there .",
+        "emotion": "neutral",
+        "text": "C'mon . You'll feel better and look better and as a reward you can eat a little bit of ice cream here and there .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It does sound appealing .",
+        "emotion": "neutral",
+        "text": "It does sound appealing .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It's a great idea . I can't believe I didn't think of this earlier . Going on a diet with a friend to back you up is a great way to succeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "great idea .",
+            "Going on a diet with a friend to back you up is a great way to succeed ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's a great idea . I can't believe I didn't think of this earlier . Going on a diet with a friend to back you up is a great way to succeed .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Okay . I'm in . Let's do it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "great idea .",
+            "Going on a diet with a friend to back you up is a great way to succeed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Okay . I'm in . Let's do it .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Great . I'll get our plan started right away .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "great idea .",
+            "Going on a diet with a friend to back you up is a great way to succeed .",
+            "I'm in . Let's do it ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great . I'll get our plan started right away .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Can we start tomorrow though ?",
+        "emotion": "neutral",
+        "text": "Can we start tomorrow though ?",
+        "id": 14
+    }
+]

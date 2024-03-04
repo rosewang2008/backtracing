@@ -1,0 +1,29 @@
+[
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Good point . I suppose that we all have our own individual styles .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy to hear about that A has her own personal style",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            19,
+            20
+        ],
+        "expanded emotion cause span": [
+            "That's my style when I'm not in the office .",
+            "Good point . I suppose that we all have our own individual styles ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good point . I suppose that we all have our own individual styles .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

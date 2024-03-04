@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Good , because my friend Wendy is getting married and I ' m organizing her party !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "If one of your friends was getting married I wouldn ' t mind you going to her bachelorette party !",
+            "my friend Wendy is getting married and I ' m organizing her party !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good , because my friend Wendy is getting married and I ' m organizing her party !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

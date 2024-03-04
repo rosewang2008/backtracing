@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Remember , real luck must be created ( by ) yourself , and then it cannot be given or taken away ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Now I'll have a lucky year !",
+            "real luck must be created ( by ) yourself , and then it cannot be given or taken away ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Remember , real luck must be created ( by ) yourself , and then it cannot be given or taken away ...",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

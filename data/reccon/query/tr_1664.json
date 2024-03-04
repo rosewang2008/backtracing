@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I believe in that . Well , the performance is about to begin . Let's be quiet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "The right opportunity for you would come along soon .",
+            "the performance is about to begin"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I believe in that . Well , the performance is about to begin . Let's be quiet .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

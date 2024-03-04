@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "thanks , that was nice of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "don't worry . Nothing bad will happen . I'll even buy your ticket for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thanks , that was nice of you .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

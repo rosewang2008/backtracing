@@ -1,0 +1,11 @@
+Using CUDA? True
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/opt_6b_causal-full.csv
+Output fname: results/inquisitive/test/opt_6b_causal-full.csv
+Total: 51774
+Num errors: 0
+Num large context: 0
+Method: causal-full, top_k: 1, accuracy: 0.64, distance: 3.21
+Method: causal-full, top_k: 3, accuracy: 0.76, distance: 1.06
+

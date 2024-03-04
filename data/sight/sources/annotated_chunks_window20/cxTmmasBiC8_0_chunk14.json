@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I'll finish in one moment."
+    },
+    {
+        "text": "What do we know about that eigenvector as compared to that one?"
+    },
+    {
+        "text": "So here was an eigenvector all 1's."
+    },
+    {
+        "text": "Let me just make it all 1's."
+    },
+    {
+        "text": "1, 1, 1, 1."
+    },
+    {
+        "text": "In that picture, it's 25 1's."
+    },
+    {
+        "text": "Here's the next eigenvector up."
+    },
+    {
+        "text": "And what's the relation between those two eigenvectors of L?"
+    },
+    {
+        "text": "They are orthogonal."
+    },
+    {
+        "text": "These are eigenvectors of a symmetric matrix."
+    },
+    {
+        "text": "So they're orthogonal."
+    },
+    {
+        "text": "So that means to be orthogonal to this guy means that your components add to 0, right?"
+    },
+    {
+        "text": "A vector is orthogonal to all 1's."
+    },
+    {
+        "text": "That dot product is just add up the components."
+    },
+    {
+        "text": "So we have a bunch of positive components and a bunch of negative components."
+    },
+    {
+        "text": "They have the same sum because the dot product with that is 0."
+    },
+    {
+        "text": "And those two components, those two sets of components, are your two, tell you the two clusters in spectral clustering."
+    },
+    {
+        "text": "So it's a pretty nifty algorithm."
+    },
+    {
+        "text": "It does ask you to compute an eigenvector."
+    },
+    {
+        "text": "And that, of course, takes time."
+    }
+]

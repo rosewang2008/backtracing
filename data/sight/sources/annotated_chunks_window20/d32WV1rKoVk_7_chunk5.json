@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And numbers there that are getting much closer to the eigenvalues."
+    },
+    {
+        "text": "Sorry that this isn't a full scale example."
+    },
+    {
+        "text": "But the point of the example is here, that this off-diagonal entry gets cubed."
+    },
+    {
+        "text": "And the next step will be its ninth power, and then the 27th power."
+    },
+    {
+        "text": "So it's really quickly going to 0."
+    },
+    {
+        "text": "And this happens."
+    },
+    {
+        "text": "So cubic convergence is a prize."
+    },
+    {
+        "text": "In numerical linear algebra."
+    },
+    {
+        "text": "So that happens."
+    },
+    {
+        "text": "So this arrived on the scene and quickly blew away all other methods that were being used to compute eigenvalues."
+    },
+    {
+        "text": "But numerical people, being what they are, they wanted to improve it."
+    },
+    {
+        "text": "Like, is there a way to make it faster?"
+    },
+    {
+        "text": "And turned out there is."
+    },
+    {
+        "text": "It turned out that the better way, basically the same idea, but just you're always looking for a simple change."
+    },
+    {
+        "text": "And the idea of introducing a shift was tried."
+    },
+    {
+        "text": "And turned out to work extremely well."
+    },
+    {
+        "text": "So that's the improvement."
+    },
+    {
+        "text": "So we take a1."
+    },
+    {
+        "text": "No, so how does the shift work?"
+    },
+    {
+        "text": "So instead of a0, have I got space here to do this?"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "OK , I'll meet you there .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have lunch with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , I'll meet you there .",
+        "id": 16,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,420 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ahh. It sent shivers up my spine.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It sent shivers up my spine."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Ahh. It sent shivers up my spine.",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What shall we do if they suddenly walk in on us?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "b",
+            "It sent shivers up my spine.",
+            "if they suddenly walk in on us?"
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What shall we do if they suddenly walk in on us?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Behave exquisitely.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It sent shivers up my spine."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Behave exquisitely.",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "With the most perfect poise.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "b",
+            "It sent shivers up my spine.",
+            "if they suddenly walk in on us?"
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "With the most perfect poise.",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Certainly I shall probably do a court curtsy.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It sent shivers up my spine."
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Certainly I shall probably do a court curtsy.",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Things that ought to matter dreadfully don't matter at all when one's happy, do they?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "b",
+            "It sent shivers up my spine.",
+            "if they suddenly walk in on us?"
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Things that ought to matter dreadfully don't matter at all when one's happy, do they?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Don't say that, my darling.",
+        "emotion": "neutral",
+        "text": "Don't say that, my darling.",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "It's true the whole business is very poor joke.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "It's true the whole business is very poor joke.",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Don't laugh at me. I'm serious.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            "b",
+            9
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Don't laugh at me. I'm serious."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Don't laugh at me. I'm serious.",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "Who's they?",
+        "emotion": "neutral",
+        "text": "Who's they?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh, how long will it last, this ludicrous, over-bearing love of ours?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "how long will it last, this ludicrous"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh, how long will it last, this ludicrous, over-bearing love of ours?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well who knows?",
+        "emotion": "neutral",
+        "text": "Well who knows?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "What happens if one of us dies? Does the one that's left still laugh?",
+        "emotion": "neutral",
+        "text": "What happens if one of us dies? Does the one that's left still laugh?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "A",
+        "utterance": "Thank you, dear. The same applies to you except that if I catch you so much as looking at another woman, I'll kill you.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "The same applies to you except that if I catch you so much as looking at another woman"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you, dear. The same applies to you except that if I catch you so much as looking at another woman, I'll kill you.",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "B",
+        "utterance": "Do you remember that awful scene in Venice?",
+        "emotion": "neutral",
+        "text": "Do you remember that awful scene in Venice?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "A",
+        "utterance": "Which particular one?",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Do you remember that awful scene in Venice?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Which particular one?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "B",
+        "utterance": "The one where you bought that little painted wooden snake and put it on my bed.",
+        "emotion": "neutral",
+        "text": "The one where you bought that little painted wooden snake and put it on my bed.",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "A",
+        "utterance": "Oh, Charles. That was his name. Charles he did wriggle so beautifully.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            15,
+            17,
+            18
+        ],
+        "expanded emotion cause span": [
+            "Do you remember that awful scene in Venice?",
+            "The one where you bought that little painted wooden snake and put it on my bed.",
+            "Charles he did wriggle so beautifully."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, Charles. That was his name. Charles he did wriggle so beautifully.",
+        "id": 18,
+        "source_sentences": [
+            14,
+            16
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 19,
+        "speaker": "B",
+        "utterance": "Horrible thing. I hated it.",
+        "emotion": "neutral",
+        "text": "Horrible thing. I hated it.",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "A",
+        "utterance": "Yes, I know you did. You threw him out of the window into the Grand Canal. I don't think I'll ever forgive you for that.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "You threw him out of the window into the Grand Canal."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes, I know you did. You threw him out of the window into the Grand Canal. I don't think I'll ever forgive you for that.",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "B",
+        "utterance": "How long did that row last?",
+        "emotion": "neutral",
+        "text": "How long did that row last?",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "The worst one was in Cannes when your curling irons burnt holes in my dressing gown.",
+        "emotion": "neutral",
+        "text": "The worst one was in Cannes when your curling irons burnt holes in my dressing gown.",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "It burnt my comb too and all the towels in the bathroom.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23
+        ],
+        "expanded emotion cause span": [
+            "It burnt my comb too and all the towels in the bathroom."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It burnt my comb too and all the towels in the bathroom.",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "A",
+        "utterance": "Then the manager came in and found us rolling about on the floor biting and scratching like panthers.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24
+        ],
+        "expanded emotion cause span": [
+            "It burnt my comb too and all the towels in the bathroom.",
+            "Then the manager came in and found us rolling about on the floor biting and scratching like panthers."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Then the manager came in and found us rolling about on the floor biting and scratching like panthers.",
+        "id": 24
+    },
+    {
+        "turn": 25,
+        "speaker": "A",
+        "utterance": "How ridiculous. How utterly, utterly ridiculous.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "It burnt my comb too and all the towels in the bathroom.",
+            "Then the manager came in and found us rolling about on the floor biting and scratching like panthers.",
+            "How ridiculous. How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "How ridiculous. How utterly, utterly ridiculous.",
+        "id": 25
+    },
+    {
+        "turn": 26,
+        "speaker": "A",
+        "utterance": "And very much sillier.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            23,
+            24,
+            25
+        ],
+        "expanded emotion cause span": [
+            "It burnt my comb too and all the towels in the bathroom.",
+            "Then the manager came in and found us rolling about on the floor biting and scratching like panthers.",
+            "How ridiculous. How utterly, utterly ridiculous."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "And very much sillier.",
+        "id": 26
+    }
+]

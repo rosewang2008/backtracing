@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 11,
+        "timestamp": 1684515253951.0,
+        "annotatedSourceSentencesIndices": [
+            9,
+            10
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I am confused with the Binomial part, especially about how to get the nX\u02c6n-1\u25b3x from formula X\u02c6n+ nX\u02c6n-1\u25b3x+ Junk?"
+    }
+]

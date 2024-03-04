@@ -1,0 +1,62 @@
+[
+    {
+        "text": "They think the buses are taking too long."
+    },
+    {
+        "text": "So you are asked to investigate."
+    },
+    {
+        "text": "Is the company-- Does it operate according to its promises or not."
+    },
+    {
+        "text": "So you send an undercover agent to go and check the interarrival times of the buses."
+    },
+    {
+        "text": "Are they 15 minutes?"
+    },
+    {
+        "text": "Or are they longer?"
+    },
+    {
+        "text": "So you put your dark glasses and you show up at the bus stop at some random time."
+    },
+    {
+        "text": "And you go and ask the guy in the falafel truck, how long has it been since the last arrival?"
+    },
+    {
+        "text": "So of course that guy works for the FBI, right?"
+    },
+    {
+        "text": "So they tell you, well, it's been, let's say, 12 minutes since the last bus arrival."
+    },
+    {
+        "text": "And then you say, \"Oh, 12 minutes."
+    },
+    {
+        "text": "Average time is 15."
+    },
+    {
+        "text": "So a bus should be coming any time now.\""
+    },
+    {
+        "text": "Is that correct?"
+    },
+    {
+        "text": "No, you wouldn't think that way."
+    },
+    {
+        "text": "It's a Poisson process."
+    },
+    {
+        "text": "It doesn't matter how long it has been since the last bus arrival."
+    },
+    {
+        "text": "So you don't go through that fallacy."
+    },
+    {
+        "text": "Instead of predicting how long it's going to be, you just sit down there and wait and measure the time."
+    },
+    {
+        "text": "And you find that this is, let's say, 11 minutes."
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You really look familiar .",
+        "emotion": "neutral",
+        "text": "You really look familiar .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ? My name is Gretchen Hammer . What is your name ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "You really look familiar ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? My name is Gretchen Hammer . What is your name ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "My name is Phillip Hammer . I think we are related . Who is your dad ?",
+        "emotion": "neutral",
+        "text": "My name is Phillip Hammer . I think we are related . Who is your dad ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Jacob Hammer . He is originally from Holland .",
+        "emotion": "neutral",
+        "text": "Jacob Hammer . He is originally from Holland .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's my uncle . You're my cousin ! Hi cousin !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I think we are related . Who is your dad ?",
+            "Jacob Hammer . He is originally from Holland .",
+            "That's my uncle . You're my cousin !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's my uncle . You're my cousin ! Hi cousin !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's really a small world , isn't it ! The Hammer family isn't very big .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "That's my uncle . You're my cousin !",
+            "The Hammer family isn't very big ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's really a small world , isn't it ! The Hammer family isn't very big .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It really is . Do you have time to eat dinner and catch up ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You're my cousin ! Hi cousin !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "It really is . Do you have time to eat dinner and catch up ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I always make time for family .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "You're my cousin ! Hi cousin !",
+            "eat dinner and catch up ?",
+            "family"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I always make time for family .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

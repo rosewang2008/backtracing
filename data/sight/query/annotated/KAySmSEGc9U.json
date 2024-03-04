@@ -1,0 +1,31 @@
+[
+    {
+        "file_id": "KAySmSEGc9U",
+        "query_id": 0,
+        "timestamp": 1684706671595.0,
+        "annotatedSourceSentencesIndices": [
+            258,
+            261,
+            262,
+            264
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Doubt at Checkin 3.1 at 28:30 Shouldn't the answer be B as we showed in the last lecture how to convert NFAs to DFAs, just like that we have to show GNFAs to DFAs even if we assume the transitions to be a single symbol ?"
+    },
+    {
+        "file_id": "KAySmSEGc9U",
+        "query_id": 1,
+        "timestamp": 1684706796695.0,
+        "annotatedSourceSentencesIndices": [
+            461,
+            462,
+            490
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "anyone mind explaining why, when we're trying to prove D  is not regular by contradiction, we can't take 010101 as a string, where the first 01 is x, the second 01 is y and the last 01 is z. We take the y and repeat it as much as needed and we still stay in the language.\nwhy is that not possible? is it because 01 is same as 01010101...."
+    }
+]

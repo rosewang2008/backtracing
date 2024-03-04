@@ -1,0 +1,104 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why didn't you text me last night ?",
+        "emotion": "neutral",
+        "text": "Why didn't you text me last night ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What ? I sent you three or four messages !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Why didn't you text me last night ?",
+            "I sent you three or four messages !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What ? I sent you three or four messages !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I didn't get any of them . I was waiting for you to text me the address of where the party was and I never got your message .",
+        "emotion": "neutral",
+        "text": "I didn't get any of them . I was waiting for you to text me the address of where the party was and I never got your message .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Why didn't you just call ? I hate sending SMS messages .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Why didn't you just call ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why didn't you just call ? I hate sending SMS messages .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , because I didn't have any credit on my phone . I used it all up this month .",
+        "emotion": "neutral",
+        "text": "Well , because I didn't have any credit on my phone . I used it all up this month .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I thought you had an unlimited SMS plan ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn't have any credit on my phone .",
+            "I thought you had an unlimited SMS plan ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I thought you had an unlimited SMS plan ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I do , but if I don't have any credit in my phone , it won't let me call or send messages .",
+        "emotion": "neutral",
+        "text": "I do , but if I don't have any credit in my phone , it won't let me call or send messages .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No wonder you didn't get my texts !",
+        "emotion": "neutral",
+        "text": "No wonder you didn't get my texts !",
+        "id": 8
+    }
+]

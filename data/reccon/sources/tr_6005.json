@@ -1,0 +1,212 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Mr . Green . This is Lin Tong . How are you ?",
+        "emotion": "neutral",
+        "text": "Hello , Mr . Green . This is Lin Tong . How are you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Mr . Lin . I am leaving tomorrow and I am just packing .",
+        "emotion": "neutral",
+        "text": "Hi , Mr . Lin . I am leaving tomorrow and I am just packing .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , sorry to interrupt you . But I am calling to say goodbye to you . I am awfully sorry to tell you that I am afraid I could not see you off at the airport tomorrow , because I will have to attend a very important meeting .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am afraid I could not see you off"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , sorry to interrupt you . But I am calling to say goodbye to you . I am awfully sorry to tell you that I am afraid I could not see you off at the airport tomorrow , because I will have to attend a very important meeting .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It doesn't matter , Mr . Lin . I can understand . I know you are always very busy . Work must come first .",
+        "emotion": "neutral",
+        "text": "It doesn't matter , Mr . Lin . I can understand . I know you are always very busy . Work must come first .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thanks a lot . You have been here for almost three weeks . How time flies !",
+        "emotion": "neutral",
+        "text": "Thanks a lot . You have been here for almost three weeks . How time flies !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . And I would like to convey my thanks to you for your help during my stay here in Nanjing .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "thanks to you for your help"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . And I would like to convey my thanks to you for your help during my stay here in Nanjing .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It is our pleasure . It has been a great pleasure to work with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "thanks to you for your help",
+            "a great pleasure to work with you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It is our pleasure . It has been a great pleasure to work with you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Me too . I am looking forward to cooperating with you again .",
+        "emotion": "neutral",
+        "text": "Me too . I am looking forward to cooperating with you again .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? Great ! We will . Well , what's your flight number ? When are you leaving tomorrow ?",
+        "emotion": "neutral",
+        "text": "Really ? Great ! We will . Well , what's your flight number ? When are you leaving tomorrow ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's Flight No . 104 , Northey Airlines , which leaves at ten O'dock tomorrow evening .",
+        "emotion": "neutral",
+        "text": "It's Flight No . 104 , Northey Airlines , which leaves at ten O'dock tomorrow evening .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "OK , I will send someone to see you off .",
+        "emotion": "neutral",
+        "text": "OK , I will send someone to see you off .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "That is so thoughtful of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I will send someone to see you off ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That is so thoughtful of you .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "My pleasure . Take care and have a nice trip .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "That is so thoughtful of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure . Take care and have a nice trip .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks a lot . My wife and I will be welcoming and looking forward to your visit .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            13
+        ],
+        "expanded emotion cause span": [
+            "I will send someone to see you off .",
+            "Take care and have a nice trip ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks a lot . My wife and I will be welcoming and looking forward to your visit .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Let's call it a deal . Hope to see you again soon . Keep in touch then . Byebye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "My wife and I will be welcoming and looking forward to your visit ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's call it a deal . Hope to see you again soon . Keep in touch then . Byebye .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Goodbye . Thanks again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Hope to see you again soon . Keep in touch then"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Goodbye . Thanks again .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

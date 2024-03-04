@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you like to do in your spare time ?",
+        "emotion": "neutral",
+        "text": "What do you like to do in your spare time ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I like taking photos .",
+        "emotion": "neutral",
+        "text": "I like taking photos .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I like taking photos ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , look at the photos I took .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Yes , look at the photos I took ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , look at the photos I took .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "They are beautiful . You did a good job .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "They are beautiful . You did a good job ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "They are beautiful . You did a good job .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Thank you for saying so .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "They are beautiful . You did a good job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you for saying so .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "As a matter of fact , you are really a terrific photographer .",
+        "emotion": "happiness",
+        "explanation": "Appreciation",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "They are beautiful . You did a good job .",
+            "you are really a terrific photographer ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "As a matter of fact , you are really a terrific photographer .",
+        "id": 7
+    }
+]

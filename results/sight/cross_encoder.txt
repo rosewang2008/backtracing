@@ -1,0 +1,8 @@
+Query dirs: ['data/sight/query/annotated']
+Source dirs: ['data/sight/sources/annotated']
+Output fname: results/sight/annotated/cross_encoder.csv
+Output fname: results/sight/annotated/cross_encoder.csv
+Accuracy top 1: 0.22
+Min distance top 1: 96.55
+Accuracy top 3: 0.39
+Min distance top 3: 33.83

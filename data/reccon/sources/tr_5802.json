@@ -1,0 +1,177 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What a busy week !",
+        "emotion": "neutral",
+        "text": "What a busy week !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ! I've never seen so much work .",
+        "emotion": "neutral",
+        "text": "Really ! I've never seen so much work .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Right . How are you going to spend your weekend ?",
+        "emotion": "neutral",
+        "text": "Right . How are you going to spend your weekend ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I don't know . I have no idea .",
+        "emotion": "neutral",
+        "text": "I don't know . I have no idea .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you like to play some tennis with me before going home ?",
+        "emotion": "neutral",
+        "text": "Would you like to play some tennis with me before going home ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm not good at sports , I have never played tennis , and I know I would be terrible .",
+        "emotion": "neutral",
+        "text": "I'm not good at sports , I have never played tennis , and I know I would be terrible .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You should try it . It ' s a great game . Come on , let me help you . I'm a good player , and a good teacher , too . What do you say ?",
+        "emotion": "neutral",
+        "text": "You should try it . It ' s a great game . Come on , let me help you . I'm a good player , and a good teacher , too . What do you say ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "OK , but don't say I didn't warn you .",
+        "emotion": "neutral",
+        "text": "OK , but don't say I didn't warn you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That was a pretty good shot , Mary .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "That was a pretty good shot"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That was a pretty good shot , Mary .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thanks . This is fun !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "That was a pretty good shot",
+            "This is fun !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks . This is fun !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Let me help you with your serve .",
+        "emotion": "neutral",
+        "text": "Let me help you with your serve .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No one has ever tried to show me how to play a sport before . Maybe I should learn to do something .",
+        "emotion": "neutral",
+        "text": "No one has ever tried to show me how to play a sport before . Maybe I should learn to do something .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Of course , you can . All you need is a little help and a lot of practice .",
+        "emotion": "neutral",
+        "text": "Of course , you can . All you need is a little help and a lot of practice .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Do you really think I can be a good player ?",
+        "emotion": "neutral",
+        "text": "Do you really think I can be a good player ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Well , maybe not a Michael Zhang , but better than the average . Person would you like to play again Wednesday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "better than the average ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , maybe not a Michael Zhang , but better than the average . Person would you like to play again Wednesday ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yes . This has been fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15,
+            16
+        ],
+        "expanded emotion cause span": [
+            "would you like to play again Wednesday ?",
+            "This has been fun ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . This has been fun .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

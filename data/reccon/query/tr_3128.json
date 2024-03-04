@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK . Let's go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            11
+        ],
+        "expanded emotion cause span": [
+            "their great love .",
+            "Good idea ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Let's go .",
+        "id": 12,
+        "source_sentences": [
+            4,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

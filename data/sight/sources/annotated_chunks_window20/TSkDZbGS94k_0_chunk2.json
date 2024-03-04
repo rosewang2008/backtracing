@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I could just say it's some distribution p. And let's say there are random variables, not random vectors."
+    },
+    {
+        "text": "I could collect entire vectors about students."
+    },
+    {
+        "text": "But let's say those are just random variables."
+    },
+    {
+        "text": "And so now I can start making assumptions on this distribution p. What can I say about a distribution?"
+    },
+    {
+        "text": "Well, maybe if those numbers are continuous, for example, I could assume they have a density, a probability density function."
+    },
+    {
+        "text": "That's already an assumption."
+    },
+    {
+        "text": "Maybe I could start to assume that their probability density function is smooth."
+    },
+    {
+        "text": "That's another assumption."
+    },
+    {
+        "text": "Maybe I could actually assume that it's piecewise constant."
+    },
+    {
+        "text": "That's even better."
+    },
+    {
+        "text": "And those things make my life simpler and simpler, because what I do by making the successive assumptions is reducing the degrees of freedom of the space in which I'm actually searching the distribution."
+    },
+    {
+        "text": "And so what we actually want is to have something which is small enough so we can actually have some averaging going on."
+    },
+    {
+        "text": "But we also want something which is big enough that it can actually express."
+    },
+    {
+        "text": "It has chances of actually containing a distribution that makes sense for us."
+    },
+    {
+        "text": "So let's start with the simplest possible example, which is when the xi's belong to 0, 1."
+    },
+    {
+        "text": "And as I said here, we don't have a choice."
+    },
+    {
+        "text": "The distribution of those guys has to be Bernoulli."
+    },
+    {
+        "text": "And since they're iid, they all share the same p. So that's definitely the simplest possible thing I could think of."
+    },
+    {
+        "text": "They're just Bernoulli p. And so all I would have to figure out in this case is p. And this is the simplest case."
+    },
+    {
+        "text": "And unsurprisingly, it has the simplest answer."
+    }
+]

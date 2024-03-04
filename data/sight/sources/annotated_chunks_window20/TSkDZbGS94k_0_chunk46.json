@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So this entire thing is equal to 0."
+    },
+    {
+        "text": "So now when I actually collect back my quadratic terms, my two squared terms in this expansion, what I get is that the expectation of theta hat minus theta squared is equal to the expectation of theta hat minus expectation of theta hat squared plus the square of expectation of theta hat minus theta."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "So those are just the first and the last term of the previous equality."
+    },
+    {
+        "text": "Now, here I have the expectation of the square of the difference between a random variable and its expectation."
+    },
+    {
+        "text": "This is otherwise known as the variance, right?"
+    },
+    {
+        "text": "So this is actually equal to the variance of theta hat."
+    },
+    {
+        "text": "And this, well, this was the bias."
+    },
+    {
+        "text": "We already said this there."
+    },
+    {
+        "text": "So this whole thing is the bias squared."
+    },
+    {
+        "text": "And hence, the quadratic term is the sum of the variance and the squared bias."
+    },
+    {
+        "text": "Why squared bias?"
+    },
+    {
+        "text": "Well, because otherwise you would add dollars and dollars squared, right?"
+    },
+    {
+        "text": "So you need to add dollars squared and dollars squared so that this thing is actually homogeneous."
+    },
+    {
+        "text": "OK, so if x is in dollars, then the bias is in dollars, but the variance is in dollars squared."
+    },
+    {
+        "text": "And the square here forced you to put everything on the square scale."
+    },
+    {
+        "text": "So what's nice is that if the quadratic risk goes to 0, then since I have the sum of two positive terms, both of them have to go to 0."
+    },
+    {
+        "text": "That means that my variance is going to 0, very little fluctuations, and my bias is also going to 0, which means that I'm actually going to be on target once I reduce my fluctuations, because it's one thing to reduce the fluctuations."
+    },
+    {
+        "text": "But if I'm not on target, it's an issue, right?"
+    },
+    {
+        "text": "For example, the estimator 4, the value 4, has no variance."
+    }
+]

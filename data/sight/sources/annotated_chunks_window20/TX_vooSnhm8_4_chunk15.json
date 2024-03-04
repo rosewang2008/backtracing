@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What's the column space?"
+    },
+    {
+        "text": "The columns are all multiples of four eight, three six, one two."
+    },
+    {
+        "text": "The column space, then, goes in, like, this direction."
+    },
+    {
+        "text": "So the column space, when I look at those columns, the column space, it was only one dimensional, because the rank is one."
+    },
+    {
+        "text": "It's multiples of four eight."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "And what's the null space of A transpose?"
+    },
+    {
+        "text": "It's the perpendicular guy."
+    },
+    {
+        "text": "There's the, so this was the null space of A, and this is the null space of A transpose."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What I want to say here is that the, that choosing these orthogonal bases for the row space and the column space is, like, no problem."
+    },
+    {
+        "text": "They're only one dimensional."
+    },
+    {
+        "text": "So what should v be?"
+    },
+    {
+        "text": "v should be v1, but, yeah, v1, rather."
+    },
+    {
+        "text": "v1 is supposed to be a unit vector."
+    },
+    {
+        "text": "There's only one v1 to choose here, only one dimension in the row space."
+    },
+    {
+        "text": "I just want to make it a unit vector."
+    },
+    {
+        "text": "So v1 will be, it'll be this vector, but made into a unit vector, so four, point eight, point six."
+    },
+    {
+        "text": "Four fifths, three fifths."
+    }
+]

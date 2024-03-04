@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I am going to just look at the coefficients of a and b."
+    },
+    {
+        "text": "If you have good eyes, you can see probably that these are actually linear equations in a and b."
+    },
+    {
+        "text": "There is a lot of clutter with all these x's and y's all over the place."
+    },
+    {
+        "text": "Let's actually try to expand things and make that more apparent."
+    },
+    {
+        "text": "The first thing I will do is I will actually get rid of these factors of two that are just not very important."
+    },
+    {
+        "text": "I can simplify things by two."
+    },
+    {
+        "text": "And next I am going to look at the coefficient of a. I will get basically a times xi squared."
+    },
+    {
+        "text": "Well, let me just do it and it should be clear."
+    },
+    {
+        "text": "I claim when we simplify this we get a times xi squared plus xi times b minus xi yi."
+    },
+    {
+        "text": "And we set this equal to zero."
+    },
+    {
+        "text": "Do you agree that this is what we get when we expand that product?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, let's do the other one."
+    },
+    {
+        "text": "We just multiply by minus one."
+    },
+    {
+        "text": "We take the opposite of that."
+    },
+    {
+        "text": "It will be axi plus b. I will write that as xia plus b minus yi."
+    },
+    {
+        "text": "And let me just reorganize that by actually putting all the a's together."
+    },
+    {
+        "text": "That means actually I will have sum of all the xi squared times xi times b minus sum of xi yi equals zero."
+    },
+    {
+        "text": "If I rewrite this it becomes sum of xi squared times a plus sum of the xi's times b minus, let me move the other guys to the other side, equals sum of xi yi."
+    },
+    {
+        "text": "And that one becomes sum of xi times a plus how many b's do I get from this one?"
+    }
+]

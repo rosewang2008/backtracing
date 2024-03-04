@@ -1,0 +1,119 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Tom , you look thoughtful and unhappy recently . What's wrong with you ?",
+        "emotion": "neutral",
+        "text": "Tom , you look thoughtful and unhappy recently . What's wrong with you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Lily broke up with me last week . In fact , she dumped me .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Lily broke up with me last week . In fact , she dumped me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Lily broke up with me last week . In fact , she dumped me .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why ? I mean , why did she part company with you after seven years together ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Lily broke up with me last week . In fact , she dumped me .",
+            "after seven years together ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Why ? I mean , why did she part company with you after seven years together ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "She said it was because we had very different ideas about life .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Lily broke up with me last week . In fact , she dumped me ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "She said it was because we had very different ideas about life .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do you believe her excuse ?",
+        "emotion": "neutral",
+        "text": "Do you believe her excuse ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Of course not . I knew she had fallen in love with another guy . It is difficult to see her move on so quickly .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I knew she had fallen in love with another guy . It is difficult to see her move on so quickly ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Of course not . I knew she had fallen in love with another guy . It is difficult to see her move on so quickly .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Come on , buddy , cheer up . Why not do some sports with me ? Violent exercise might help to shake you out of your disappointment in love .",
+        "emotion": "neutral",
+        "text": "Come on , buddy , cheer up . Why not do some sports with me ? Violent exercise might help to shake you out of your disappointment in love .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you , Steven . You are really a good friend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Come on , buddy , cheer up . Why not do some sports with me ? Violent exercise might help to shake you out of your disappointment in love ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , Steven . You are really a good friend .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

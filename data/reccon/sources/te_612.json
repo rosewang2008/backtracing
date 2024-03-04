@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Whew ! I had to wait for almost an hour to get to the front of the line .",
+        "emotion": "neutral",
+        "text": "Whew ! I had to wait for almost an hour to get to the front of the line .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You have much patience .",
+        "emotion": "neutral",
+        "text": "You have much patience .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Wow ! Your calligraphy is very beautiful . It was worth the wait !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Your calligraphy is very beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow ! Your calligraphy is very beautiful . It was worth the wait !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you . Today I'm writing a kind of poem called a Chinese couplet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Your calligraphy is very beautiful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Today I'm writing a kind of poem called a Chinese couplet .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What does it say ?",
+        "emotion": "neutral",
+        "text": "What does it say ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This is an especially famous one . It says \" May the passing days bring you health and longevity . May this season of renewal find you basked in riches . \"",
+        "emotion": "neutral",
+        "text": "This is an especially famous one . It says \" May the passing days bring you health and longevity . May this season of renewal find you basked in riches . \"",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's very nice . Is it for sale ?",
+        "emotion": "neutral",
+        "text": "That's very nice . Is it for sale ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No . I never sell my artwork .",
+        "emotion": "neutral",
+        "text": "No . I never sell my artwork .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? Then what do you do with it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I never sell my artwork ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Then what do you do with it ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I give it away . Here , this one is for you .",
+        "emotion": "neutral",
+        "text": "I give it away . Here , this one is for you .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Wow ! Really ? Are you sure ? Now I'll have a lucky year !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I give it away . Here , this one is for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow ! Really ? Are you sure ? Now I'll have a lucky year !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Remember , real luck must be created ( by ) yourself , and then it cannot be given or taken away ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Now I'll have a lucky year !",
+            "real luck must be created ( by ) yourself , and then it cannot be given or taken away ..."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Remember , real luck must be created ( by ) yourself , and then it cannot be given or taken away ...",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

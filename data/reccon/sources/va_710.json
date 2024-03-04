@@ -1,0 +1,122 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Thank god you are open ! I have an emergency !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "Thank god you are open !"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Thank god you are open ! I have an emergency !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , Mr . Henderson what can I do for you ?",
+        "emotion": "neutral",
+        "text": "Hello , Mr . Henderson what can I do for you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I need this dress and this suit dry cleaned ASAP !",
+        "emotion": "neutral",
+        "text": "I need this dress and this suit dry cleaned ASAP !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "OK , I can have it ready by the end of the week .",
+        "emotion": "neutral",
+        "text": "OK , I can have it ready by the end of the week .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No , you don ' t understand , I need this tomorrow morning ! I accidentally spilled beer all over my wife ' s dress and we have a wedding to attend tomorrow ! She ' s gonna kill me !",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "She ' s gonna kill me !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , you don ' t understand , I need this tomorrow morning ! I accidentally spilled beer all over my wife ' s dress and we have a wedding to attend tomorrow ! She ' s gonna kill me !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK , I can have it ready tomorrow afternoon , but this suit is also very stained . I can ' t guarantee we can remove it completely .",
+        "emotion": "neutral",
+        "text": "OK , I can have it ready tomorrow afternoon , but this suit is also very stained . I can ' t guarantee we can remove it completely .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Fine ! Can you also iron and starch this shirt ?",
+        "emotion": "neutral",
+        "text": "Fine ! Can you also iron and starch this shirt ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Certainly .",
+        "emotion": "happiness",
+        "explanation": "The speaker is happy to fulfil the need of the customer",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Certainly .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Great ! This is our secret ! If you see my wife , say nothing to her about this !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I can have it ready tomorrow afternoon ,",
+            "Certainly ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great ! This is our secret ! If you see my wife , say nothing to her about this !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Well, actually, it's probably sort of a good picture."
+    },
+    {
+        "text": "And what I have is that my density, or my PMF, is just exponential y times theta minus b of theta divided by phi."
+    },
+    {
+        "text": "And I have plus c of, oh, yeah, plus c of y phi, which means that this is really, if phi is known, h of y is just exponential c of y phi."
+    },
+    {
+        "text": "Actually, this is the reason why it's not necessarily a canonical family."
+    },
+    {
+        "text": "It might not be that this depends only on y."
+    },
+    {
+        "text": "It could depend on y and phi in some annoying way, and I may not be able to break it."
+    },
+    {
+        "text": "But if phi is known, this is just a function that depends on y."
+    },
+    {
+        "text": "Agreed?"
+    },
+    {
+        "text": "In particular, I hope you can convince yourself that this is just a subcase of everything we've seen before."
+    },
+    {
+        "text": "So for example, the Gaussian, when the variance is known, is indeed of this form."
+    },
+    {
+        "text": "So we still have it on the board."
+    },
+    {
+        "text": "So here's my y."
+    },
+    {
+        "text": "So let me write this as f theta of y."
+    },
+    {
+        "text": "So every x is replaced with y. Blah, blah, blah."
+    },
+    {
+        "text": "This is this guy."
+    },
+    {
+        "text": "And now what I have is that this is going to be my phi."
+    },
+    {
+        "text": "This is my parameter theta."
+    },
+    {
+        "text": "So I'm definitely of the form y times theta divided by phi."
+    },
+    {
+        "text": "And then here, I have a function b that depends only on theta over phi again."
+    },
+    {
+        "text": "So b of theta is mu squared divided by 2."
+    }
+]

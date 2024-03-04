@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Let me actually illustrate that for you."
+    },
+    {
+        "text": "I don't know if you are familiar with Moore's law."
+    },
+    {
+        "text": "It is something that is supposed to tell you how quickly, basically, computer chips become smarter, faster and faster over time."
+    },
+    {
+        "text": "It is a law that says things about the number of transistors that you can fit onto a computer chip."
+    },
+    {
+        "text": "Here I have some data about the number of transistors on a standard PC processor as a function of time."
+    },
+    {
+        "text": "And, well, if you try to do the best line fit, you will see quickly that it doesn't seem to follow a linear trend."
+    },
+    {
+        "text": "On the other hand, if you plot the diagram in a log scale, the log of the number of transistors as a function of time, then you get a much better line."
+    },
+    {
+        "text": "And so, in fact, that means that you had an exponential relation between the number of transistors and time."
+    },
+    {
+        "text": "And so, actually, that is what Moore's law says."
+    },
+    {
+        "text": "It says that the number of transistors on a chip doubles, depending on the version, every 18 months or every two years."
+    },
+    {
+        "text": "They keep changing the statement."
+    },
+    {
+        "text": "How do we find that best exponential fit?"
+    },
+    {
+        "text": "Well, an exponential fit would be something of the form y equals a constant times exponential of a times x."
+    },
+    {
+        "text": "That is what we want to look at."
+    },
+    {
+        "text": "Well, we could try to minimize a square error like we did earlier, but that doesn't work well at all."
+    },
+    {
+        "text": "The equations that you get are very complicated."
+    },
+    {
+        "text": "You cannot solve them."
+    },
+    {
+        "text": "But remember what I showed you on this log plot."
+    },
+    {
+        "text": "If you plot the log of y as a function of x, then suddenly it becomes a linear relation."
+    },
+    {
+        "text": "Observe this is the same as ln of x equals ln of c plus ax."
+    }
+]

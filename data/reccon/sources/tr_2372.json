@@ -1,0 +1,113 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Tom . I'm really glad to meet you here .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "meet you here ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello , Tom . I'm really glad to meet you here .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm glad too . Steven , I want to tell you that I'm going to divorce my wife .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm really glad to meet you here .",
+            "I'm glad too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad too . Steven , I want to tell you that I'm going to divorce my wife .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm so surprised , B . Why did you decide to end your marriage suddenly ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I want to tell you that I'm going to divorce my wife .",
+            "end your marriage suddenly ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm so surprised , B . Why did you decide to end your marriage suddenly ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We don't get along well with each other and fight a lot .",
+        "emotion": "neutral",
+        "text": "We don't get along well with each other and fight a lot .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I didn't know that . I thought that you were happy together .",
+        "emotion": "neutral",
+        "text": "I didn't know that . I thought that you were happy together .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That isn't true . Actually , we have been separated for six months .",
+        "emotion": "neutral",
+        "text": "That isn't true . Actually , we have been separated for six months .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I can't believe it . But if you both determine to divorce , I hope you will have an amicable split .",
+        "emotion": "neutral",
+        "text": "I can't believe it . But if you both determine to divorce , I hope you will have an amicable split .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you , Steven . I accept your advice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope you will have an amicable split ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you , Steven . I accept your advice .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

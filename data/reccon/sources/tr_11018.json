@@ -1,0 +1,240 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Ah ! No ! Damn it !",
+        "emotion": "anger",
+        "explanation": "the speaker is annoyed after losing her work in a blackout",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Ah ! No ! Damn it !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's a blackout . Now I can't see Seinfeld .",
+        "emotion": "neutral",
+        "text": "It's a blackout . Now I can't see Seinfeld .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So what ? I just lost one hour's worth of work .",
+        "emotion": "neutral",
+        "text": "So what ? I just lost one hour's worth of work .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? How could you do that ? Don't you save every couple minutes ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I just lost one hour's worth of work .",
+            "Don't you save every couple minutes ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? How could you do that ? Don't you save every couple minutes ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No , I didn't save this time . Damn it ! And I'm sick of writing this paper . Now I have to write it all over again too .",
+        "emotion": "neutral",
+        "text": "No , I didn't save this time . Damn it ! And I'm sick of writing this paper . Now I have to write it all over again too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I've had that problem too many times . So I learned to save . When I'm writing something , I save every three sentences or so . I don't want to lose anything .",
+        "emotion": "neutral",
+        "text": "I've had that problem too many times . So I learned to save . When I'm writing something , I save every three sentences or so . I don't want to lose anything .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I hate computers . Sometimes I think they cause more trouble than they're worth .",
+        "emotion": "neutral",
+        "text": "I hate computers . Sometimes I think they cause more trouble than they're worth .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What are we going to do now ?",
+        "emotion": "neutral",
+        "text": "What are we going to do now ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't know . I feel like going out .",
+        "emotion": "neutral",
+        "text": "I don't know . I feel like going out .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I wonder how much of the city is down .",
+        "emotion": "neutral",
+        "text": "I wonder how much of the city is down .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It doesn't matter . I still can go out and buy a beer .",
+        "emotion": "neutral",
+        "text": "It doesn't matter . I still can go out and buy a beer .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Maybe . But if there's a blackout , probably the pubs are closed . And besides , I know you have a political science exam tomorrow . I thought you had a lot of reading to do .",
+        "emotion": "neutral",
+        "text": "Maybe . But if there's a blackout , probably the pubs are closed . And besides , I know you have a political science exam tomorrow . I thought you had a lot of reading to do .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Yes , that's true . Damn ! I just lost half my paper , and now I can't even do my homework . This is a bad time for this to happen .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Damn ! I just lost half my paper , and now I can't even do my homework ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , that's true . Damn ! I just lost half my paper , and now I can't even do my homework . This is a bad time for this to happen .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I have a flashlight in my closet . If you want to use that to read , you can .",
+        "emotion": "neutral",
+        "text": "I have a flashlight in my closet . If you want to use that to read , you can .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks . I think I will try . Where are you going ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I have a flashlight in my closet . If you want to use that to read , you can ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I think I will try . Where are you going ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I like your idea of getting a beer . I think I'll go out myself .",
+        "emotion": "neutral",
+        "text": "I like your idea of getting a beer . I think I'll go out myself .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Maybe we can trade . Why don't you stay here and read for my exam , and I'll go drink beer ?",
+        "emotion": "neutral",
+        "text": "Maybe we can trade . Why don't you stay here and read for my exam , and I'll go drink beer ?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "No , it just won't work . If I read for your exam , you won't know the answers tomorrow . I will .",
+        "emotion": "neutral",
+        "text": "No , it just won't work . If I read for your exam , you won't know the answers tomorrow . I will .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "So ? You can go to the class for me . Just write my name on the exam book and take the exam . Why not ?",
+        "emotion": "neutral",
+        "text": "So ? You can go to the class for me . Just write my name on the exam book and take the exam . Why not ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "How many students are in the class ?",
+        "emotion": "neutral",
+        "text": "How many students are in the class ?",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "About fourteen .",
+        "emotion": "neutral",
+        "text": "About fourteen .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "So it won't work , old buddy . They'll see that I'm not you . Sorry .",
+        "emotion": "neutral",
+        "text": "So it won't work , old buddy . They'll see that I'm not you . Sorry .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Damn !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            22
+        ],
+        "expanded emotion cause span": [
+            "it won't work , old buddy . They'll see that I'm not you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Damn !",
+        "id": 23,
+        "source_sentences": [
+            21
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

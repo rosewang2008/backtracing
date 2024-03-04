@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "My friend Emily recently lost 18 pounds .",
+        "emotion": "neutral",
+        "text": "My friend Emily recently lost 18 pounds .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Emily recently lost 18 pounds ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The point is that she has been persuading me to lose weight too .",
+        "emotion": "neutral",
+        "text": "The point is that she has been persuading me to lose weight too .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , it's a good thing for you .",
+        "emotion": "neutral",
+        "text": "Well , it's a good thing for you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Good ? Yes , it's good for her but not for me . You see , she tells me that I'll feel better about myself if I slim down . She keeps giving me newspaper clippings about the latest miracle diet and insists that I join a health club , as she has .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's a good thing for you .",
+            "it's good for her but not for me ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good ? Yes , it's good for her but not for me . You see , she tells me that I'll feel better about myself if I slim down . She keeps giving me newspaper clippings about the latest miracle diet and insists that I join a health club , as she has .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "So you don't think you are fat and need to lose weight ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "it's good for her but not for me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "So you don't think you are fat and need to lose weight ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I just can't bear it that Emily made me feel like a baby who always pigs out on junk food .",
+        "emotion": "neutral",
+        "text": "I just can't bear it that Emily made me feel like a baby who always pigs out on junk food .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "junk food is not good for your health . Too much of it will make you fat .",
+        "emotion": "neutral",
+        "text": "junk food is not good for your health . Too much of it will make you fat .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "But junk food is so easy . It requires no silverware or plates , no rigid mealtimes , no pleases and thank yous .",
+        "emotion": "neutral",
+        "text": "But junk food is so easy . It requires no silverware or plates , no rigid mealtimes , no pleases and thank yous .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Ok , but junk food has many disadvantages . As junk food contains high amount of oil and fat , you'll feel sleepy , but not be able to concentrate when you have a lot of it .",
+        "emotion": "neutral",
+        "text": "Ok , but junk food has many disadvantages . As junk food contains high amount of oil and fat , you'll feel sleepy , but not be able to concentrate when you have a lot of it .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , but life without chips , ice cream and coca cola is boring .",
+        "emotion": "neutral",
+        "text": "Yes , but life without chips , ice cream and coca cola is boring .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let me see . You could exercise more to keep fit .",
+        "emotion": "neutral",
+        "text": "Let me see . You could exercise more to keep fit .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Well , that sounds better than giving it up .",
+        "emotion": "neutral",
+        "text": "Well , that sounds better than giving it up .",
+        "id": 13
+    }
+]

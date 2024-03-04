@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Of course it does . Everybody has his own hobby .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "That's really interesting .",
+            "I like collecting matchbox"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Of course it does . Everybody has his own hobby .",
+        "id": 8,
+        "source_sentences": [
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

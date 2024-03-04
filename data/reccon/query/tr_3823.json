@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Don't mention it . That's what friends are for !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "That's very generous of you . Thanks for the offer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . That's what friends are for !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

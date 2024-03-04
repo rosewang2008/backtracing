@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Fine ! Get the stupid thirty dollar crayon !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "You spend as much or more money on your razors , after shave , cologne and gel ! Not to mention how much you spend on clothes and ...",
+            "Get the stupid thirty dollar crayon !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Fine ! Get the stupid thirty dollar crayon !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

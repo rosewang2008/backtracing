@@ -1,0 +1,164 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What are you doing this Saturday ?",
+        "emotion": "neutral",
+        "text": "What are you doing this Saturday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Not much .",
+        "emotion": "neutral",
+        "text": "Not much .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you want to go see a movie ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go see a movie ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you want to go see a movie ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go see a movie ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What's playing at the Century Fox ?",
+        "emotion": "neutral",
+        "text": "What's playing at the Century Fox ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Candlelight in the Window",
+        "emotion": "neutral",
+        "text": "Candlelight in the Window",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Should we go see it ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go see a movie ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Should we go see it ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I'd rather not . I don't like horror movies .",
+        "emotion": "neutral",
+        "text": "I'd rather not . I don't like horror movies .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How about ' Run of the Mill ? '",
+        "emotion": "happiness",
+        "explanation": "speaker is happy on going for a movie",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you want to go see a movie ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "How about ' Run of the Mill ? '",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No . I heard that's really boring .",
+        "emotion": "neutral",
+        "text": "No . I heard that's really boring .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Why don't we go to a concert instead ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "go to a concert"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Why don't we go to a concert instead ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Great idea !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "go to a concert",
+            "Great idea !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Great idea !",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

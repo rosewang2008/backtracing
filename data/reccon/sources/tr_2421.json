@@ -1,0 +1,183 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Come and sit down . Would you like a drink ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Would you like a drink ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Come and sit down . Would you like a drink ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , yes please ! I'd love a gin and tonic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Would you like a drink ?",
+            "I'd love a gin and tonic ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , yes please ! I'd love a gin and tonic .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Do you like olives ? Or would you prefer crisps ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Would you like a drink ?"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Do you like olives ? Or would you prefer crisps ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , just olives please . What music is this ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Do you like olives ? Or would you prefer crisps ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , just olives please . What music is this ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Do you like it ? It's Irish music .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's Irish music ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you like it ? It's Irish music .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It's great ! Where did you get the CD ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's Irish music ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's great ! Where did you get the CD ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Arm - I think it was in the CD shop in the Mall . Have you been there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's Irish music ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Arm - I think it was in the CD shop in the Mall . Have you been there ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . I buy a lot of stuff from there . It's a good shop , isn't it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            8
+        ],
+        "expanded emotion cause span": [
+            "It's Irish music .",
+            "It's a good shop ,"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . I buy a lot of stuff from there . It's a good shop , isn't it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . Hey , I've got some photos of our holiday in Ireland . Would you like to see them ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I've got some photos of our holiday in Ireland ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . Hey , I've got some photos of our holiday in Ireland . Would you like to see them ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Why not ? I'd love to !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I've got some photos of our holiday in Ireland . Would you like to see them ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why not ? I'd love to !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

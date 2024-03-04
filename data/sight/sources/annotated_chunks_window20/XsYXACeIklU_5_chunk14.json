@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The other arrivals are not going to affect our answers."
+    },
+    {
+        "text": "It's just, conceptually speaking, we can think of the exponential random variable as being embedded in a bigger Poisson picture."
+    },
+    {
+        "text": "So we have 3 Poisson process that are running in parallel."
+    },
+    {
+        "text": "Let us split the expected time until the last burnout into pieces, which is time until the first burnout, time from the first until the second, and time from the second until the third."
+    },
+    {
+        "text": "And find the expected values of each one of these pieces."
+    },
+    {
+        "text": "What can we say about the expected value of this?"
+    },
+    {
+        "text": "This is the first arrival out of all of these 3 Poisson processes."
+    },
+    {
+        "text": "It's the first event that happens when you look at all of these processes simultaneously."
+    },
+    {
+        "text": "So 3 Poisson processes running in parallel."
+    },
+    {
+        "text": "We're interested in the time until one of them, any one of them, gets in arrival."
+    },
+    {
+        "text": "Rephrase."
+    },
+    {
+        "text": "We merged the 3 Poisson processes, and we ask for the time until we observe an arrival in the merged process."
+    },
+    {
+        "text": "When 1 of the 3 gets an arrival for the first time, the merged process gets its first arrival."
+    },
+    {
+        "text": "So what's the expected value of this time until the first burnout?"
+    },
+    {
+        "text": "It's going to be the expected value of a Poisson random variable."
+    },
+    {
+        "text": "So the first burnout is going to have an expected value, which is-- OK."
+    },
+    {
+        "text": "It's a Poisson process."
+    },
+    {
+        "text": "The merged process of the 3 has a collective arrival rate, which is 3 times lambda."
+    },
+    {
+        "text": "So this is the parameter over the exponential distribution that describes the time until the first arrival in the merged process."
+    },
+    {
+        "text": "And the expected value of this random variable is 1 over that."
+    }
+]

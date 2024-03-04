@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I need to find a new place to live .",
+        "emotion": "neutral",
+        "text": "I need to find a new place to live .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah ? Why ? Don ' t you like living with me ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I need to find a new place to live ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah ? Why ? Don ' t you like living with me ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , it ' s not you . I just want my own place .",
+        "emotion": "neutral",
+        "text": "Oh , it ' s not you . I just want my own place .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , check the newspaper .",
+        "emotion": "neutral",
+        "text": "Well , check the newspaper .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Jeez ... I didn ' t realize a single bedroom apartment went for so much these days .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "a single bedroom apartment went for so much these days ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Jeez ... I didn ' t realize a single bedroom apartment went for so much these days .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , prices have really gone up the past couple of years .",
+        "emotion": "neutral",
+        "text": "Yeah , prices have really gone up the past couple of years .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , here ' s one . It ' s looks like its in this neighborhood , $ 600 a month . That ' s not to bad .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s looks like its in this neighborhood , $ 600 a month"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , here ' s one . It ' s looks like its in this neighborhood , $ 600 a month . That ' s not to bad .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "No , it ' s pretty good . Why not give the landlord a call ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s looks like its in this neighborhood , $ 600 a month"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No , it ' s pretty good . Why not give the landlord a call ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Hello . I ' m calling about the one bedroom in Lincoln Park . Could I take a look at it ? Yes . Tonight at six is fine . Thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s looks like its in this neighborhood , $ 600 a month"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Hello . I ' m calling about the one bedroom in Lincoln Park . Could I take a look at it ? Yes . Tonight at six is fine . Thanks .",
+        "id": 9
+    }
+]

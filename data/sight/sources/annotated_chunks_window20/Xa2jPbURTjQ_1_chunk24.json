@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You will just be amazed by how simple this matrix is."
+    },
+    {
+        "text": "It's just that matrix."
+    },
+    {
+        "text": "It's called a permutation matrix."
+    },
+    {
+        "text": "Those are the four Fourier discrete."
+    },
+    {
+        "text": "Let me put the word discrete up here, transform."
+    },
+    {
+        "text": "So I really meant to put discrete Fourier transform."
+    },
+    {
+        "text": "The eigenvectors of that matrix, first of all, they are orthogonal."
+    },
+    {
+        "text": "And then second and more important, they're tremendously useful."
+    },
+    {
+        "text": "They're the heart of signal processing."
+    },
+    {
+        "text": "In signal processing, they just take the discrete Fourier transform of a vector before they even look at it."
+    },
+    {
+        "text": "I mean, that's the way to see it, is split it into its frequencies."
+    },
+    {
+        "text": "And that's what the eigenvectors of this will do."
+    },
+    {
+        "text": "So we're going to see the discrete Fourier transform."
+    },
+    {
+        "text": "But my point here is to know that they're orthogonal just comes out of this fact that the eigenvectors are orthogonal for any Q."
+    },
+    {
+        "text": "And that is certainly a Q."
+    },
+    {
+        "text": "Everybody can see that those columns are orthogonal."
+    },
+    {
+        "text": "The columns of a permutation matrix, right?"
+    },
+    {
+        "text": "You've taken the columns of the identity, which are totally orthogonal, and you just put them in a different order."
+    },
+    {
+        "text": "So a permutation matrix is a reordering of the identity matrix."
+    },
+    {
+        "text": "It's got to be a Q."
+    }
+]

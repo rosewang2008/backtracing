@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 18,
+        "timestamp": 1684720220360.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "26:10\n\nI have a question about the cost of elimination.\nAx=b\n\nFor an nxn matrix A\nFor the 1st pivot, instead of 100^2, shouldn\u2019t it cost 100*99?\n2nd pivot, instead of 99^2, shouldn\u2019t it cost 99*98?\n3rd pivot, instead of 98^2, shouldn\u2019t it cost 98*87?\n\nSo, instead of n^2+(n-1)^2+(n-2)^2+...., shouldn\u2019t it be n(n-1)+(n-1)(n-2)+(n-2)(n-3)+.... instead?\n\n\nAlso, how did he get n^2 for the matrix b?"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So if I have x1, so if I look at the infimum of the function f of x for x on the real line, and f of x, sorry, let's say x on 1 infinity, and f of x is equal to 1 over x, then the infimum is the smallest value it can take, except that it does not really take it."
+    },
+    {
+        "text": "It's 0, because 1 over x is going to 0, but it's never really getting there."
+    },
+    {
+        "text": "So we just call the inf 0, but it's not the value that it ever takes."
+    },
+    {
+        "text": "And these things might actually be complicated to compute, and so that's when you actually have problems, when you're not really quite reaching the limit."
+    },
+    {
+        "text": "You won't have this problem in general, but just so you know that an estimator is not really anything, it has to actually be measurable."
+    },
+    {
+        "text": "So the first thing we want to know, I mentioned it, is an estimator is a statistic which does not depend on data, of course."
+    },
+    {
+        "text": "So if I give you the data, you have to be able to compute it, and that probably should not require not knowing an unknown parameter."
+    },
+    {
+        "text": "So an estimator is said to be consistent."
+    },
+    {
+        "text": "When I collect more and more data, this thing is getting closer and closer to the true parameter."
+    },
+    {
+        "text": "And we said that eyeballing and saying that it's going to be 4 is not really something that's probably going to be consistent, but I can have things that are consistent but that are converging to theta at different speeds."
+    },
+    {
+        "text": "And we know also that this is a random variable."
+    },
+    {
+        "text": "It converges to something, and there might be some different notions of conversions that kick in, and actually, they are."
+    },
+    {
+        "text": "And we say that it's weakly convergent if it converges in probability, and strongly convergent if it converges almost surely."
+    },
+    {
+        "text": "And this is just vocabulary."
+    },
+    {
+        "text": "It won't make a big difference."
+    },
+    {
+        "text": "So we will typically say it's consistent once you say any of the two."
+    },
+    {
+        "text": "So in parametric statistics, it's actually a little difficult to come up with, but in non-parametric ones, I could just say if I have yi, xi, yi, and I know that yi is f of xi plus some noise epsilon i, and I know that f belongs to some class of functions, let's say, Sybil-Liff class of smooth functions, massive."
+    },
+    {
+        "text": "And now I'm going to actually find the following estimator."
+    },
+    {
+        "text": "I'm going to take the average."
+    },
+    {
+        "text": "So I'm going to do least squares."
+    }
+]

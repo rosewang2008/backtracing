@@ -1,0 +1,62 @@
+[
+    {
+        "text": "I've got to fix the damage that I caused by removing x."
+    },
+    {
+        "text": "And whatever role x was playing in the original machine, I've got to make sure that the new machine that I have, which doesn't have x anymore, can still do the same things that the original machine did."
+    },
+    {
+        "text": "And so the way I'm going to do that is look at all of the paths that could go through x and make sure that they're still present, even though I don't have x anymore."
+    },
+    {
+        "text": "And the way I'm going to do that is I'm going to consider a part of a path that might use x."
+    },
+    {
+        "text": "So let's pick two states, qi and qj, in the machine that had k states."
+    },
+    {
+        "text": "Let me just see here."
+    },
+    {
+        "text": "I don't know if this is."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So if we have, we'll pick two states, qi and qj, in the original machine."
+    },
+    {
+        "text": "Now, qi might have the possibility of going to state x."
+    },
+    {
+        "text": "And then x might have a self loop."
+    },
+    {
+        "text": "And then it might go to qj."
+    },
+    {
+        "text": "The new machine doesn't have x anymore."
+    },
+    {
+        "text": "So the way I'm going to fix that is by replacing the label that goes directly from i to j with a new label that adds in all of the things I lost when I removed x. OK, that's the whole idea here."
+    },
+    {
+        "text": "So here is qi to qj, but there's no x anymore."
+    },
+    {
+        "text": "How could I get from qi to qj?"
+    },
+    {
+        "text": "What were the inputs that could have brought us from qi to qj via x?"
+    },
+    {
+        "text": "Well, they would have been an input that read a string described by R1."
+    },
+    {
+        "text": "I might have self looped at x a few times."
+    },
+    {
+        "text": "So I might have read several strings that are described by R2."
+    }
+]

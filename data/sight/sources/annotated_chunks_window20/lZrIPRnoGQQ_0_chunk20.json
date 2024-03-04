@@ -1,0 +1,62 @@
+[
+    {
+        "text": "df dc is c is x cubed."
+    },
+    {
+        "text": "So df dc, yeah, I want s. I'm looking for s here."
+    },
+    {
+        "text": "I'm looking for s. So I'm looking for s, and that's x plus 3y."
+    },
+    {
+        "text": "Am I doing this well?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "I want, in the end, to get the derivatives with respect to x and y, the whole gradient."
+    },
+    {
+        "text": "OK, I think we're started right."
+    },
+    {
+        "text": "The first derivatives is to write c and s. And then let me leave these boxes open just to get the picture."
+    },
+    {
+        "text": "Then I'm going to do, then I'll need dc dx, dc dy, ds dx, and ds dy."
+    },
+    {
+        "text": "I think that's right."
+    },
+    {
+        "text": "Here I had a product of c and s. So I needed two, I had two derivatives."
+    },
+    {
+        "text": "Here I have c and s each to differentiate."
+    },
+    {
+        "text": "So I have an x and a y derivative, x and a y derivative."
+    },
+    {
+        "text": "And now it's just a matter of putting in those numbers and following the chain backwards."
+    },
+    {
+        "text": "Maybe I'm not going to put those numbers in, because if I didn't reach 140, you wouldn't believe in back propagation."
+    },
+    {
+        "text": "And that would be like an unhappy outcome."
+    },
+    {
+        "text": "So I'll leave you to put them in, maybe."
+    },
+    {
+        "text": "Or the notes have a separate example that you can see."
+    },
+    {
+        "text": "But do you see the point?"
+    },
+    {
+        "text": "That I'm going to find all the, in the end, I'm going to find df dx and df dy from the chain, from one chain and not from a separate chain for x and a separate chain for y."
+    }
+]

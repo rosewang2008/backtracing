@@ -1,0 +1,257 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I like the Honda Accord you showed me before . I think it's more practical for my needs .",
+        "emotion": "neutral",
+        "text": "I like the Honda Accord you showed me before . I think it's more practical for my needs .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Alright , sir . You are making a good choice . Honda has made a lot of design improvements in the new Accord .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I like the Honda Accord you showed me before .",
+            "You are making a good choice . Honda has made a lot of design improvements in the new Accord ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Alright , sir . You are making a good choice . Honda has made a lot of design improvements in the new Accord .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What does it come with standard ?",
+        "emotion": "neutral",
+        "text": "What does it come with standard ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "On all our new cars , the standards includeair conditioning , anti-lock brakes , air bags , and an AM / FM stereo with a CD player . But on the Accord , there is another standard item as well . The Accord com",
+        "emotion": "neutral",
+        "text": "On all our new cars , the standards includeair conditioning , anti-lock brakes , air bags , and an AM / FM stereo with a CD player . But on the Accord , there is another standard item as well . The Accord com",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Cruise control ? I don't like that .",
+        "emotion": "neutral",
+        "text": "Cruise control ? I don't like that .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why not , sir ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Cruise control ? I don't like that ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why not , sir ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think it's dangerous . What if I can't turn it off ?",
+        "emotion": "neutral",
+        "text": "I think it's dangerous . What if I can't turn it off ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Well , sir , I know some of our customers are concerned about cruise control . But Honda has never had a single cruise control malfunction that led to an accident .",
+        "emotion": "neutral",
+        "text": "Well , sir , I know some of our customers are concerned about cruise control . But Honda has never had a single cruise control malfunction that led to an accident .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I wish it didn't have cruise control . My wife doesn't like it either .",
+        "emotion": "neutral",
+        "text": "I wish it didn't have cruise control . My wife doesn't like it either .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You know , sir , you don't have to use it . You can turn it on or off . If you don't want to use it , you just never turn it on .",
+        "emotion": "neutral",
+        "text": "You know , sir , you don't have to use it . You can turn it on or off . If you don't want to use it , you just never turn it on .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I suppose . And what about the sunroof ? Is that standard ?",
+        "emotion": "neutral",
+        "text": "I suppose . And what about the sunroof ? Is that standard ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "No , the sunroof is optional , sir .",
+        "emotion": "neutral",
+        "text": "No , the sunroof is optional , sir .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I see . Another important question is the time I can get this car . I need a new car rather soon .",
+        "emotion": "neutral",
+        "text": "I see . Another important question is the time I can get this car . I need a new car rather soon .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Well , I can say that the new models will be here in August . If you order one now , we will have it for you in August .",
+        "emotion": "neutral",
+        "text": "Well , I can say that the new models will be here in August . If you order one now , we will have it for you in August .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "That's good enough , I think . What colors does the new Accord come in ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "I need a new car rather soon .",
+            "If you order one now , we will have it for you in August ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That's good enough , I think . What colors does the new Accord come in ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "We have this new model in red , white , black , or silver . These are the standard colors . Of course you could specially order from various other colors too .",
+        "emotion": "neutral",
+        "text": "We have this new model in red , white , black , or silver . These are the standard colors . Of course you could specially order from various other colors too .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "My brother has last year's Accord . And his car is a kind of soft purple color mixed with silver . I really like that color . I wonder if I can get that color on my Accord .",
+        "emotion": "neutral",
+        "text": "My brother has last year's Accord . And his car is a kind of soft purple color mixed with silver . I really like that color . I wonder if I can get that color on my Accord .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "I know the color you mean . Is this it , sir ?",
+        "emotion": "neutral",
+        "text": "I know the color you mean . Is this it , sir ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Yes , I think that's it . Can I get that on the Accord ?",
+        "emotion": "neutral",
+        "text": "Yes , I think that's it . Can I get that on the Accord ?",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Yes , you can . That color is very popular with Honda buyers . So we've kept it available .",
+        "emotion": "neutral",
+        "text": "Yes , you can . That color is very popular with Honda buyers . So we've kept it available .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Well , I think I want to order the new Accord then . It looks like an excellent car .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            17,
+            20,
+            21
+        ],
+        "expanded emotion cause span": [
+            "soft purple color mixed with silver . I really like that color . I wonder if I can get that color on my Accord .",
+            "we've kept it available .",
+            "It looks like an excellent car ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , I think I want to order the new Accord then . It looks like an excellent car .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            21,
+            22
+        ],
+        "expanded emotion cause span": [
+            "I think I want to order the new Accord then . It looks like an excellent car .",
+            "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You have made a good choice , sir . I drive an Accord myself . They are very solidly built machines , very reliable .",
+        "id": 22,
+        "source_sentences": [
+            20
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "Yes , I know . I think Honda is the most reliable car on the road . I would never change to anything else . The Honda I have now almost never has service problems . It runs smooth as silk .",
+        "emotion": "neutral",
+        "text": "Yes , I know . I think Honda is the most reliable car on the road . I would never change to anything else . The Honda I have now almost never has service problems . It runs smooth as silk .",
+        "id": 23
+    },
+    {
+        "turn": 24,
+        "speaker": "B",
+        "utterance": "Alright , sir . I will get the paperwork ready for you . Just a moment .",
+        "emotion": "neutral",
+        "text": "Alright , sir . I will get the paperwork ready for you . Just a moment .",
+        "id": 24
+    }
+]

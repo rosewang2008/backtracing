@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Your knowledge of English is really surprising .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your knowledge of English is really surprising ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Your knowledge of English is really surprising .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , it's nothing to speak of .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your knowledge of English is really surprising ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , it's nothing to speak of .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , seriously . I am impressed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am impressed ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , seriously . I am impressed .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Thank you . I appreciate the compliment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am impressed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I appreciate the compliment .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Your knowledge of English is really surprising .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your knowledge of English is really surprising ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Your knowledge of English is really surprising .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , it's nothing to speak of .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Your knowledge of English is really surprising ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , it's nothing to speak of .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , seriously . I am impressed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am impressed ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No , seriously . I am impressed .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . I appreciate the compliment .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I am impressed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I appreciate the compliment .",
+        "id": 8,
+        "source_sentences": [
+            2
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

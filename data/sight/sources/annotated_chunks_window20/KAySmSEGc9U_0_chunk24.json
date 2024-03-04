@@ -1,0 +1,62 @@
+[
+    {
+        "text": "x and y are going to be all 0s."
+    },
+    {
+        "text": "z is going to perhaps have some 0s and will have the rest of the 1s."
+    },
+    {
+        "text": "We'll have the 1s."
+    },
+    {
+        "text": "Now, the pumping limit says that if you cut it up that way, you can repeat y as many times as you like, and you stay in the language."
+    },
+    {
+        "text": "But that's obviously false, because if you repeat y, which now has only 0s, you're going to have too many 0s."
+    },
+    {
+        "text": "And so the resulting string is no longer going to be of the form 0 to the k, 1 to the k. It's going to be lots of 0s followed by not so many 1s."
+    },
+    {
+        "text": "That's not in the language."
+    },
+    {
+        "text": "And that violates what the pumping limit tells you is supposed to happen."
+    },
+    {
+        "text": "And that's a contradiction."
+    },
+    {
+        "text": "So therefore, our assumption that D is regular is false."
+    },
+    {
+        "text": "And so we conclude that D is not regular."
+    },
+    {
+        "text": "So that's a fairly simple one."
+    },
+    {
+        "text": "I thought I would do another couple of examples, because you have this on your homework, and I thought it might be helpful."
+    },
+    {
+        "text": "So here's a second one, slightly harder, but not too much."
+    },
+    {
+        "text": "Let's take the language F, which looks like the strings ww."
+    },
+    {
+        "text": "These are strings that are two copies of the same string."
+    },
+    {
+        "text": "For any string that might be in sigma star, so for any string at all, I'm going to have two copies of that string."
+    },
+    {
+        "text": "And so F is those strings which are just two copies of the same string."
+    },
+    {
+        "text": "OK. We're going to show that F is not regular."
+    },
+    {
+        "text": "These things always go the same way."
+    }
+]

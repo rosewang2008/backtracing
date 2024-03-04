@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "do you remember where you were for the terrorist attacks on 9-11 ?",
+        "emotion": "neutral",
+        "text": "do you remember where you were for the terrorist attacks on 9-11 ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "yes , I was in my apartment in Beijing . Where were you ?",
+        "emotion": "neutral",
+        "text": "yes , I was in my apartment in Beijing . Where were you ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I was at home with my parents in New York City .",
+        "emotion": "neutral",
+        "text": "I was at home with my parents in New York City .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "really ? Did you see the hijacked planes crash into and destroy the twin towers ?",
+        "emotion": "neutral",
+        "text": "really ? Did you see the hijacked planes crash into and destroy the twin towers ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I didn't see the crash itself , but I did see the smoke and everything afterwards from my parents ' apartment building .",
+        "emotion": "neutral",
+        "text": "I didn't see the crash itself , but I did see the smoke and everything afterwards from my parents ' apartment building .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "that must have been horrible . Did you go out at all that day to see what was going on ?",
+        "emotion": "neutral",
+        "text": "that must have been horrible . Did you go out at all that day to see what was going on ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "no , we decided to stay in our apartment . With all the buses out of service and the underground trains at a halt , many people had no choice but to walk home . It was utter chaos .",
+        "emotion": "neutral",
+        "text": "no , we decided to stay in our apartment . With all the buses out of service and the underground trains at a halt , many people had no choice but to walk home . It was utter chaos .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "did you know anyone who worked in the World Trade Center ?",
+        "emotion": "neutral",
+        "text": "did you know anyone who worked in the World Trade Center ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "yes , my uncle's firm had an office in one of the towers .",
+        "emotion": "neutral",
+        "text": "yes , my uncle's firm had an office in one of the towers .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "did he survive ?",
+        "emotion": "neutral",
+        "text": "did he survive ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "unfortunately , he wasn't able to evacuate in time . He ended up dying in the tower .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "unfortunately , he wasn't able to evacuate in time . He ended up dying in the tower ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "unfortunately , he wasn't able to evacuate in time . He ended up dying in the tower .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm sorry . That must have really been a nightmarish day for you and your family .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "He ended up dying in the tower .",
+            "a nightmarish day for you and your family ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm sorry . That must have really been a nightmarish day for you and your family .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "it was . The hijackers didn't have any respect for human life not even their own .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "hijackers didn't have any respect for human life not even their own ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "it was . The hijackers didn't have any respect for human life not even their own .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "terrorist acts are deliberate and deadly and can affect every walk of life .",
+        "emotion": "neutral",
+        "text": "terrorist acts are deliberate and deadly and can affect every walk of life .",
+        "id": 14
+    }
+]

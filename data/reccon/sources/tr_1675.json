@@ -1,0 +1,200 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I want to say ...",
+        "emotion": "neutral",
+        "text": "I want to say ...",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Say it ! What is it ?",
+        "emotion": "neutral",
+        "text": "Say it ! What is it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That I can't go on any longer without you .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I can't go on any longer without you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "That I can't go on any longer without you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You know you shouldn't say that at a time like this .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I can't go on any longer without you .",
+            "you shouldn't say that at a time like this ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You know you shouldn't say that at a time like this .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Nancy , I made up my mind you were the only woman for me at the first sight .",
+        "emotion": "neutral",
+        "text": "Nancy , I made up my mind you were the only woman for me at the first sight .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Too sudden ! I'm not ready for it .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I can't go on any longer without you .",
+            "you shouldn't say that at a time like this .",
+            "you were the only woman for me at the first sight .",
+            "Too sudden !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Too sudden ! I'm not ready for it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Forgive me for startling you with the impetuosity of my sentiments .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm not ready for it .",
+            "Forgive me for startling you"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Forgive me for startling you with the impetuosity of my sentiments .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Stop it . No more of that talk .",
+        "emotion": "neutral",
+        "text": "Stop it . No more of that talk .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I really love you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I really love you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really love you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No , I shall faint .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5,
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I can't go on any longer without you .",
+            "you shouldn't say that at a time like this .",
+            "you were the only woman for me at the first sight .",
+            "Too sudden !",
+            "I really love you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , I shall faint .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "And I hope so . This is what you were meant for . Say you love me , say yes , say yes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I shall faint .",
+            "This is what you were meant for ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And I hope so . This is what you were meant for . Say you love me , say yes , say yes .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "This is what you were meant for . Say you love me , say yes , say yes ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Daniel , how's it going ?",
+        "emotion": "neutral",
+        "text": "Hey , Daniel , how's it going ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hey , Daddy , today I had really a fantastic history class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "today I had really a fantastic history class ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey , Daddy , today I had really a fantastic history class .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Wow , it's so strange for you to say things like that . What had happened ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "today I had really a fantastic history class .",
+            "it's so strange for you to say things like that ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , it's so strange for you to say things like that . What had happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "We've learnt the story of Zheg He Sailing to West Ocean . He is a real great navigator .",
+        "emotion": "neutral",
+        "text": "We've learnt the story of Zheg He Sailing to West Ocean . He is a real great navigator .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did your teacher tell you the route he took ?",
+        "emotion": "neutral",
+        "text": "Did your teacher tell you the route he took ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah , he , with his fleet , came across the Indian Ocean , and arrived at the east coast of Africa .",
+        "emotion": "neutral",
+        "text": "Yeah , he , with his fleet , came across the Indian Ocean , and arrived at the east coast of Africa .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Great , do you still remember when he started his voyage ?",
+        "emotion": "neutral",
+        "text": "Great , do you still remember when he started his voyage ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Of course , that is from 1405 to 1433 , which is in Ming dynasty .",
+        "emotion": "neutral",
+        "text": "Of course , that is from 1405 to 1433 , which is in Ming dynasty .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Good , by the way , do you finish reading the book Robinson Crusoe I've bought for you ?",
+        "emotion": "neutral",
+        "text": "Good , by the way , do you finish reading the book Robinson Crusoe I've bought for you ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Not yet , you know I have a lot of homework to do .",
+        "emotion": "neutral",
+        "text": "Not yet , you know I have a lot of homework to do .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You should speed up , because the story of Robinson can give you a better understanding about what you learned today .",
+        "emotion": "neutral",
+        "text": "You should speed up , because the story of Robinson can give you a better understanding about what you learned today .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK , great Daddy , after supper , I'll embark on it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "the story of Robinson can give you a better understanding about what you learned today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , great Daddy , after supper , I'll embark on it .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That's my boy ! Wait , Daniel , when is Pirates of the Caribbean on ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "OK , great Daddy , after supper , I'll embark on it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's my boy ! Wait , Daniel , when is Pirates of the Caribbean on ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Is it about Captain Jack Sparrow , who wants to find the treasure on the sea ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "the story of Robinson can give you a better understanding about what you learned today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is it about Captain Jack Sparrow , who wants to find the treasure on the sea ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Exactly , now , tell me the time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "OK , great Daddy , after supper , I'll embark on it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Exactly , now , tell me the time .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I won't tell you , unless you promise to let me watch it with you .",
+        "emotion": "neutral",
+        "text": "I won't tell you , unless you promise to let me watch it with you .",
+        "id": 16
+    }
+]

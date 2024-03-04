@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What ! I resent that !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "We are going to have to let you go .",
+            "you are a terrible employee !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ! I resent that !",
+        "id": 9,
+        "source_sentences": [
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

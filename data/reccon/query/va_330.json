@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Wow !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It's got a built-in video camera so you can see the person you're talking to . It also takes stills and I can use the E-mail mode to send digital pictures straight to my friend's phone !",
+            "I can plug it into a folding keyboard to type in message mode . l can even surf the net .",
+            "Yes . With the 600 - second digital memory , l can record my voice and send it using voice message mode ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow !",
+        "id": 8,
+        "source_sentences": [
+            2,
+            4,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

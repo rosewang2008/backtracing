@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Who does not want to raise their hand now?"
+    },
+    {
+        "text": "Who wants to raise their hand now?"
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "So let's move on."
+    },
+    {
+        "text": "I'll just do it."
+    },
+    {
+        "text": "Do you want to do the gammas instead in the homework?"
+    },
+    {
+        "text": "That's going to be fun."
+    },
+    {
+        "text": "I'm not even going to propose to do the gammas."
+    },
+    {
+        "text": "So this is the gamma distribution."
+    },
+    {
+        "text": "It's brilliantly called gamma, because it has the gamma function, just like the beta distribution was at the beta function in there."
+    },
+    {
+        "text": "They look very similar."
+    },
+    {
+        "text": "One is defined over r plus, the positive real line."
+    },
+    {
+        "text": "And remember, the beta was defined over the interval 0, 1."
+    },
+    {
+        "text": "And it's of the form x to some power times exponential minus x to some time something."
+    },
+    {
+        "text": "So there's a function, a polynomial in x, where the exponent depends on the parameter."
+    },
+    {
+        "text": "And then there's the exponential minus x times something depends on the parameters."
+    },
+    {
+        "text": "So this is going to also look like some function of x."
+    },
+    {
+        "text": "Sorry, like some exponential distribution."
+    },
+    {
+        "text": "Can somebody guess what is going to be t2 of x?"
+    },
+    {
+        "text": "Oh, those are the functions of x that show up in this product."
+    }
+]

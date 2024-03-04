@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That does sound a lot of fun .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Usually it's the older kids going around playing Halloween , like punching the pumpkins left outside people's doors or - - someone's tree ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That does sound a lot of fun .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

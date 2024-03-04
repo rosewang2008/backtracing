@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I'll just take one basis."
+    },
+    {
+        "text": "So now I'm going to- this part is going to go onto this board here."
+    },
+    {
+        "text": "What is the matrix?"
+    },
+    {
+        "text": "What is A?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Using a basis v1 up to v8."
+    },
+    {
+        "text": "OK. What's the point?"
+    },
+    {
+        "text": "The point is, if I know what the transformation does to those eight basis vectors, I know it completely."
+    },
+    {
+        "text": "I know T, I know everything about T, I know T completely from knowing what T does to v1, what T does to v2, what T does to v8."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "It's because T is a linear transformation."
+    },
+    {
+        "text": "So that if I know what these outputs are, so these are the inputs, v1 up to v8, these are the outputs from the transformation, like every one rotated, every one projected, whatever transformation I've done, then why is it that I know everything?"
+    },
+    {
+        "text": "How does linearity work?"
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "This is because every x is some combination of these basis vectors, right?"
+    },
+    {
+        "text": "c1 v1, c2 v2, c8 v8."
+    },
+    {
+        "text": "That's the whole point of a basis, that every vector is a combination of the basis vectors in exactly one way."
+    },
+    {
+        "text": "And then, what is T of x?"
+    },
+    {
+        "text": "The point is, I claim that we know T of x completely for every x, because every x is a combination of those, and now we use the linear transformation part to say that the output from x has to be c1 times the output from v1 plus c2 times the output from v2 and so on, up through c8 times the output from v8."
+    },
+    {
+        "text": "So this is like just saying, OK, we know everything when we know what T does to each basis vector."
+    }
+]

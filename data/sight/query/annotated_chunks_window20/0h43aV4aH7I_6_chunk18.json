@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 6,
+        "timestamp": 1684701411849.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Is it just me? Is that a mistake? He writes x=Wc at 37:11, where x represents vector in the old basis, and c the vector in the new basis, and W the columns of new basis vectors. Should it be c=Wx instead?"
+    }
+]

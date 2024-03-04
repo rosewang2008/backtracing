@@ -1,0 +1,141 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , is Marie Ward there , please ?",
+        "emotion": "neutral",
+        "text": "Hello , is Marie Ward there , please ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'll see if she is in .",
+        "emotion": "neutral",
+        "text": "I'll see if she is in .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Ok .",
+        "emotion": "neutral",
+        "text": "Ok .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm afraid she's out .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1,
+            4
+        ],
+        "expanded emotion cause span": [
+            "is Marie Ward there",
+            "she's out ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm afraid she's out .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Can you give her a message , please ?",
+        "emotion": "neutral",
+        "text": "Can you give her a message , please ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , of course .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Can you give her a message"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , of course .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Please tell her to give Colin a call when she gets back . She has my number .",
+        "emotion": "neutral",
+        "text": "Please tell her to give Colin a call when she gets back . She has my number .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Can you give her a message",
+            "Please tell her to give Colin a call when she gets back ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you for your help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Can you give her a message",
+            "Please tell her to give Colin a call when she gets back .",
+            "Sure ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you for your help .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It's my pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Thank you for your help ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's my pleasure .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

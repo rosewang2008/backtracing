@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How's your new car ?",
+        "emotion": "happiness",
+        "explanation": "happy becuase asking someone about his/her new car",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "How's your new car ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Perfect ! Couldn't be better .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Perfect ! Couldn't be better .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You made a good choice , then ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You made a good choice , then ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's just what I want .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better .",
+            "It's just what I want ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "It's just what I want .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "No regrets .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It's just what I want ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No regrets .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I am really pleased with it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better .",
+            "It's just what I want .",
+            "I am really pleased with it ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I am really pleased with it .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I am glad you are happy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better .",
+            "It's just what I want .",
+            "I am really pleased with it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am glad you are happy .",
+        "id": 7,
+        "source_sentences": [
+            1,
+            3,
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's super .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Perfect ! Couldn't be better ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "It's super .",
+        "id": 8
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hi , Lucy !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Lucy !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi , Lucy !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Hi . It ' s a wonderful wedding , isn't it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful wedding"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi . It ' s a wonderful wedding , isn't it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "Yes , It's very great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "wonderful wedding"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , It's very great .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "Mary's father is a rich man , isn't he ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful wedding"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Mary's father is a rich man , isn't he ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "You are right , Mary's father is responsible for the entire wedding-arrangement , costs , etc . I think he must spend much money .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "wonderful wedding"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are right , Mary's father is responsible for the entire wedding-arrangement , costs , etc . I think he must spend much money .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "Will Mary and her husband be ready to leave for their honeymoon ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful wedding"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Will Mary and her husband be ready to leave for their honeymoon ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Yes . Look ! Mary is going to throw the bride bouquet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "wonderful wedding",
+            "Mary is going to throw the bride bouquet ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . Look ! Mary is going to throw the bride bouquet .",
+        "id": 7,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Oh , I'll try to catch it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s a wonderful wedding",
+            "Mary is going to throw the bride bouquet ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Oh , I'll try to catch it .",
+        "id": 8
+    }
+]

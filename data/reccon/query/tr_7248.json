@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "But I think Eddy is going too far !",
+        "emotion": "disgust",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "He's dancing with Jack !",
+            "Eddy is going too far !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But I think Eddy is going too far !",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

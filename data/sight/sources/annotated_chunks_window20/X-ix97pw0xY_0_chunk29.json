@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so I'm going to do that for the other one."
+    },
+    {
+        "text": "So this thing here, so I'm going to get exponential x log p plus 1 minus x log 1 minus p. So what I need to do is to collect my terms in x and my terms in whatever parameters I have."
+    },
+    {
+        "text": "So here, theta is equal to p. So if I do this, what I end up having is equal to exponential."
+    },
+    {
+        "text": "So the term in x is log p minus log 1 minus p. So that's x times log p over 1 minus p. And then the term that stays is just 1 times log 1 minus p. But I want to see this as a minus something, right?"
+    },
+    {
+        "text": "It was minus b of theta."
+    },
+    {
+        "text": "So I'm going to write it as minus."
+    },
+    {
+        "text": "Well, I can just keep the plus."
+    },
+    {
+        "text": "And I'm going to do."
+    },
+    {
+        "text": "And that's all."
+    },
+    {
+        "text": "Aha."
+    },
+    {
+        "text": "Well, this is of the form exponential, something that depends only on x, times something that depends only on theta, minus a function that depends only on theta."
+    },
+    {
+        "text": "And then h of x is equal to 1 again."
+    },
+    {
+        "text": "So let's see."
+    },
+    {
+        "text": "So I have t1 of x is equal to x."
+    },
+    {
+        "text": "That's this guy."
+    },
+    {
+        "text": "Eta 1 of theta is equal to log p 1 minus p. And b of theta is equal to log 1 over 1 minus p. And h of x is equal to 1."
+    },
+    {
+        "text": "You guys want to do Poisson, or you want to have it in homework?"
+    },
+    {
+        "text": "It's a dilemma, because that's an easy homework versus no homework at all."
+    },
+    {
+        "text": "That may be something more difficult."
+    },
+    {
+        "text": "OK, who wants to do it now?"
+    }
+]

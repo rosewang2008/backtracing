@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ask you to pass through life at my side-to be my second self and best earthly companion .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Then I must go",
+            "can go anywhere now ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ask you to pass through life at my side-to be my second self and best earthly companion .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

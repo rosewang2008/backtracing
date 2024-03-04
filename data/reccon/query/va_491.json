@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thanks . I found these new shoes earlier at the store .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you look nice today too ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I found these new shoes earlier at the store .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

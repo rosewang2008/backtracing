@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Listen , Karen , I need your help . I don't know anyone here yet .",
+        "emotion": "neutral",
+        "text": "Listen , Karen , I need your help . I don't know anyone here yet .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm glad to help you . What's wrong ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm glad to help you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm glad to help you . What's wrong ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "My mother-in-law just went into the hospital in L . A . Hank and I will be flying there tonight .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "My mother-in-law just went into the hospital in L . A"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My mother-in-law just went into the hospital in L . A . Hank and I will be flying there tonight .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm sorry to hear it . What's wrong with her ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "My mother-in-law just went into the hospital in L . A"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm sorry to hear it . What's wrong with her ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Doctors aren't sure yet . But the real problem is Suzy . She has a bad cold , and we don't want to take her with us . But we don't know who can stay with her .",
+        "emotion": "neutral",
+        "text": "Doctors aren't sure yet . But the real problem is Suzy . She has a bad cold , and we don't want to take her with us . But we don't know who can stay with her .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You need a babysitter .",
+        "emotion": "neutral",
+        "text": "You need a babysitter .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , I'd ask Jill , the girl I've had before , but I need someone overnight . Maybe even for two nights .",
+        "emotion": "neutral",
+        "text": "Yes , I'd ask Jill , the girl I've had before , but I need someone overnight . Maybe even for two nights .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I could have Suzy stay at my place .",
+        "emotion": "neutral",
+        "text": "I could have Suzy stay at my place .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I don't want to do that to you , Karen .",
+        "emotion": "neutral",
+        "text": "I don't want to do that to you , Karen .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Why not ?",
+        "emotion": "neutral",
+        "text": "Why not ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Your own kids would get Suzy's cold . I think it would be better to have a good babysitter here . But I don't know who to ask . I need someone more mature than Jill . It might even be for two or three days .",
+        "emotion": "neutral",
+        "text": "Your own kids would get Suzy's cold . I think it would be better to have a good babysitter here . But I don't know who to ask . I need someone more mature than Jill . It might even be for two or three days .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I know who we can ask . There is a girl I know , Sara Ralston . She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+        "emotion": "neutral",
+        "text": "I know who we can ask . There is a girl I know , Sara Ralston . She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I'd like to talk with her . This is short notice , I know . But Hank and I are leaving tonight .",
+        "emotion": "neutral",
+        "text": "I'd like to talk with her . This is short notice , I know . But Hank and I are leaving tonight .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'll get you her number . I hope she can do it . She is very responsible .",
+        "emotion": "neutral",
+        "text": "I'll get you her number . I hope she can do it . She is very responsible .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "I'm glad you know someone . I knew you would be the best person to ask about this . I don't want to insult Jill or her mother . I think Jill maybe could do it . But I'd rather have someone a little older .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "need a babysitter",
+            "I know who we can ask . There is a girl I know , Sara Ralston . She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+            "She is very responsible ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm glad you know someone . I knew you would be the best person to ask about this . I don't want to insult Jill or her mother . I think Jill maybe could do it . But I'd rather have someone a little older .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I'll go home and get Sara's number . I'll call her first myself .",
+        "emotion": "neutral",
+        "text": "I'll go home and get Sara's number . I'll call her first myself .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Great . Then call me and let me know if she's free .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            12,
+            14
+        ],
+        "expanded emotion cause span": [
+            "need a babysitter",
+            "I know who we can ask . There is a girl I know , Sara Ralston . She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+            "She is very responsible ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great . Then call me and let me know if she's free .",
+        "id": 17,
+        "source_sentences": [
+            5,
+            11,
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

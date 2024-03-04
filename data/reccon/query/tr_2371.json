@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "How do you feel about playing bridge ?",
+            "shall I call Janet and ask her and Tom to come over , and I'll go to the store and buy some stuff ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 10,
+        "source_sentences": [
+            6,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

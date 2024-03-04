@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Fabulous ! We should look at engagement rings then ! Now that ' s a whole other section .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to pop the question !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fabulous ! We should look at engagement rings then ! Now that ' s a whole other section .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

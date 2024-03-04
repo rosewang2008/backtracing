@@ -1,0 +1,197 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I can't stand the stupid guy any longer . It's unbelievable .",
+        "emotion": "anger",
+        "explanation": "Something intolerable and unexpected happened to person A causing his anger",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It's unbelievable ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "I can't stand the stupid guy any longer . It's unbelievable .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , my dear lady , take it easy . You should forgive a green hand like him .",
+        "emotion": "neutral",
+        "text": "Oh , my dear lady , take it easy . You should forgive a green hand like him .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "He does everything so mindlessly that he is going to drive me crazy .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "He does everything so mindlessly that he is going to drive me crazy ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "He does everything so mindlessly that he is going to drive me crazy .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I suggest you talk with him and teach him how to deal with the problems .",
+        "emotion": "neutral",
+        "text": "I suggest you talk with him and teach him how to deal with the problems .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've told him how to do that several times , but he's never listened to me .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "He does everything so mindlessly that he is going to drive me crazy .",
+            "I've told him how to do that several times , but he's never listened to me ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I've told him how to do that several times , but he's never listened to me .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Maybe you should communicate with him just like a friend , not a boss .",
+        "emotion": "neutral",
+        "text": "Maybe you should communicate with him just like a friend , not a boss .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Oh , I always have difficulty in getting along with the staff .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I always have difficulty in getting along with the staff ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , I always have difficulty in getting along with the staff .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Just take them for your good friends and have a talk with them as we do . Make sure you won't lose your temper !",
+        "emotion": "neutral",
+        "text": "Just take them for your good friends and have a talk with them as we do . Make sure you won't lose your temper !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh , so bad . I'm afraid I'll change the image of myself .",
+        "emotion": "neutral",
+        "text": "Oh , so bad . I'm afraid I'll change the image of myself .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No , it's unnecessary . Just respect the staff and their own opinions .",
+        "emotion": "neutral",
+        "text": "No , it's unnecessary . Just respect the staff and their own opinions .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "But sometimes they offer some useless proposals , it's awfully useless .",
+        "emotion": "neutral",
+        "text": "But sometimes they offer some useless proposals , it's awfully useless .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , no one is perfect .",
+        "emotion": "neutral",
+        "text": "Oh , no one is perfect .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That's right . I should speak to them in a polite way .",
+        "emotion": "neutral",
+        "text": "That's right . I should speak to them in a polite way .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "We have the equal partnership in team .",
+        "emotion": "neutral",
+        "text": "We have the equal partnership in team .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks very much and you're very eloquent .",
+        "emotion": "happiness",
+        "explanation": "Appreciation",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "We have the equal partnership in team ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks very much and you're very eloquent .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Thanks for saying that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "you're very eloquent ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for saying that .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

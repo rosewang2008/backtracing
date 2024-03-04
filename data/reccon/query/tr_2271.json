@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "They're neat . Now Let's take that path into the woods and see what we can see ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            9
+        ],
+        "expanded emotion cause span": [
+            "look ! There are some wild ducks over there in the reeds .",
+            "They're neat ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They're neat . Now Let's take that path into the woods and see what we can see ...",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

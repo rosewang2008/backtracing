@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "You're quite insufferable, I expect it's because you're drunk.",
+        "emotion": "angry",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "I suppose you two had a riotous time, huh? No restrain at all, very enjoyable, he never had much any how."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're quite insufferable, I expect it's because you're drunk.",
+        "id": 21,
+        "source_sentences": [
+            19
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

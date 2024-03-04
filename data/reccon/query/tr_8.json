@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "A",
+        "utterance": "That sounds like a good idea . I'll have to try that .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "We basically sat her down and told her how we felt about her constant criticizing , and how we welcomed her advice but hoped she'd let us do our things . She understood , and now everything is a lot more peaceful ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a good idea . I'll have to try that .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

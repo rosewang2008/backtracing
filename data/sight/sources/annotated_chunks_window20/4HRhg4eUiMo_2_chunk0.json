@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "Talking about tests, and to be fair, we spend most of our time talking about new jargon that we're using."
+    },
+    {
+        "text": "But the main goal is to take a binary decision, yes and no."
+    },
+    {
+        "text": "So just so that we're clear and we make sure that we all speak the same language, let me just remind you what the key words are for tests."
+    },
+    {
+        "text": "So the first thing is that we split theta in theta 0 and theta 1."
+    },
+    {
+        "text": "Both are included in theta, and they're disjoint."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So I have my set of possible parameters."
+    },
+    {
+        "text": "And then I have theta 0 is here, theta 1 is here, and there might be something that I leave out."
+    },
+    {
+        "text": "And so what we're doing is we have two hypotheses."
+    },
+    {
+        "text": "So here's our hypothesis testing problem."
+    },
+    {
+        "text": "And it's h0 theta belongs to theta 0 versus h1 theta belongs to theta 1."
+    },
+    {
+        "text": "This guy was called the null, and this guy was called the alternative."
+    },
+    {
+        "text": "And why we give them special names is because we saw that they have an asymmetric role."
+    },
+    {
+        "text": "The null represents the status quo, and data is here to bring evidence against this guy."
+    },
+    {
+        "text": "And we can really never conclude that h0 is true because all we could conclude is that h1 is not true or may not be true."
+    },
+    {
+        "text": "So that was the first thing."
+    },
+    {
+        "text": "The second thing was the hypothesis."
+    }
+]

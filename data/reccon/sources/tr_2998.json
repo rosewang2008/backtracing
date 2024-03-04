@@ -1,0 +1,137 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Mary , can you cut that out ?",
+        "emotion": "neutral",
+        "text": "Hey , Mary , can you cut that out ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Cut what out I ' m not doing anything .",
+        "emotion": "neutral",
+        "text": "Cut what out I ' m not doing anything .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "The tapping of your pen on your desk . It ' s driving me crazy .",
+        "emotion": "neutral",
+        "text": "The tapping of your pen on your desk . It ' s driving me crazy .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fine ! By the way would you mind not slurping your coffee every time you have a cup !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "The tapping of your pen on your desk . It ' s driving me crazy .",
+            "slurping your coffee every time you have a cup !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Fine ! By the way would you mind not slurping your coffee every time you have a cup !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I don ' t slurp my coffee . And plus , how can you hear it when you ' re shouting into your phone all the time ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "would you mind not slurping your coffee every time you have a cup !",
+            "you ' re shouting into your phone all the time"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don ' t slurp my coffee . And plus , how can you hear it when you ' re shouting into your phone all the time ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You ' Ve got to be kidding me ! You ' re complaining about me talking on the phone when you go out for a cigarette break ten times a day to shoot the breeze ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "The tapping of your pen on your desk . It ' s driving me crazy .",
+            "slurping your coffee every time you have a cup !",
+            "how can you hear it when you ' re shouting into your phone all the time ?",
+            "You ' re complaining about me talking on the phone"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "You ' Ve got to be kidding me ! You ' re complaining about me talking on the phone when you go out for a cigarette break ten times a day to shoot the breeze ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Look , we have a lot of accumulated anger from working in these conditions , and it ' s probably okay to let off steam once in a while . But , it ' s probably not a good idea to keep it up I ' m willing to forgive and forget and if you are .",
+        "emotion": "neutral",
+        "text": "Look , we have a lot of accumulated anger from working in these conditions , and it ' s probably okay to let off steam once in a while . But , it ' s probably not a good idea to keep it up I ' m willing to forgive and forget and if you are .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Fine . Let's call a truce . I'll try to more considerate and to keep the noise down .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it ' s probably not a good idea to keep it up I ' m willing to forgive and forget and if you are ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Fine . Let's call a truce . I'll try to more considerate and to keep the noise down .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah , I ' ll try to do the same . So , I was wondering you wanna go out to dinner Friday night ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll try to more considerate and to keep the noise down ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah , I ' ll try to do the same . So , I was wondering you wanna go out to dinner Friday night ?",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

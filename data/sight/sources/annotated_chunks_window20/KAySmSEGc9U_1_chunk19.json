@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And by repeating that string and repeating that piece, the string gets longer and longer, but you still stay in the language."
+    },
+    {
+        "text": "That's the special property that all regular languages have."
+    },
+    {
+        "text": "So kind of in an informal way, and I'll try to help you get the feeling for this, formally it says that if you have a regular language, then every long string, so long is by informal way of saying bigger than this value p, every long string in the language can be pumped."
+    },
+    {
+        "text": "And this result still stays in the language."
+    },
+    {
+        "text": "And by pumped means I can cut the string into three pieces and repeat that middle piece as many times as I want."
+    },
+    {
+        "text": "That's what I mean by pumping a string."
+    },
+    {
+        "text": "So we'll do some examples in a second."
+    },
+    {
+        "text": "But first, we're going to see how to prove this."
+    },
+    {
+        "text": "And hopefully, that'll give you some feeling also for why it's true."
+    },
+    {
+        "text": "And actually, maybe before I actually jump into the proof, let's look at these three conditions here just to understand it a little bit more thoroughly."
+    },
+    {
+        "text": "So condition one kind of says what I just was telling you."
+    },
+    {
+        "text": "I can break s into three pieces, x, y, z, such that if I take xy to the iz, so that's repeating y as many times as I want."
+    },
+    {
+        "text": "So here's y to the i kind of defined, if that's helpful to you, just y, i copies of y."
+    },
+    {
+        "text": "So I can take xy to the iz, and I remain in the language for every value of i, even i equals 0, which means we're just removing y, which is sometimes actually a useful thing to do."
+    },
+    {
+        "text": "But let's not get ahead of ourselves."
+    },
+    {
+        "text": "So I'm guaranteed to be able to cut s up into x, y, z, so that the string xyyy is still in the language, or xyyyyy, it's still in the language."
+    },
+    {
+        "text": "That's going to be guaranteed for every regular language."
+    },
+    {
+        "text": "That's a feature that's going to be true."
+    },
+    {
+        "text": "And furthermore, and this is going to be turning out to be, it's not really kind of part of the core idea of the pumping lemma, but it actually turns out to be very helpful in applying the pumping lemma, you can always cut it up in such a way that the first two pieces are not longer than that value p. So it restricts on the ways you can cut the thing up."
+    },
+    {
+        "text": "And that actually turns out to be very helpful."
+    }
+]

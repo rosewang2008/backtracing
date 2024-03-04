@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Is there a problem , officer ?",
+        "emotion": "neutral",
+        "text": "Is there a problem , officer ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I stopped you for driving through a red light .",
+        "emotion": "neutral",
+        "text": "I stopped you for driving through a red light .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did I really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "stopped you for driving through a red light ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Did I really ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "You didn't know ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Did I really ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You didn't know ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I had no idea that I ran it .",
+        "emotion": "neutral",
+        "text": "I had no idea that I ran it .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Don't you know that yellow means slow down ?",
+        "emotion": "neutral",
+        "text": "Don't you know that yellow means slow down ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , madam .",
+        "emotion": "neutral",
+        "text": "Yes , madam .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Why'd you speed up instead ?",
+        "emotion": "neutral",
+        "text": "Why'd you speed up instead ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I really have no excuse , madam .",
+        "emotion": "neutral",
+        "text": "I really have no excuse , madam .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I'll have to write you a ticket .",
+        "emotion": "neutral",
+        "text": "I'll have to write you a ticket .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I understand , and I am very sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "write you a ticket ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I understand , and I am very sorry .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here's your ticket .",
+        "emotion": "neutral",
+        "text": "Here's your ticket .",
+        "id": 12
+    }
+]

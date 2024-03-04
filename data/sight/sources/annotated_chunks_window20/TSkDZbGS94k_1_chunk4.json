@@ -1,0 +1,62 @@
+[
+    {
+        "text": "If I allow anything, it's going to be more complicated for me to get an accurate estimator."
+    },
+    {
+        "text": "If I know that the numbers are either 1 or 2, then I'm actually going to be slightly more accurate as well."
+    },
+    {
+        "text": "Because I know that, for example, somebody put a 5, I can remove it."
+    },
+    {
+        "text": "Then it's not going to actually screw up with my estimator."
+    },
+    {
+        "text": "All right, so now let's say we actually agree that we have numbers."
+    },
+    {
+        "text": "And here I put seven numbers."
+    },
+    {
+        "text": "So I just said, well, now the numbers, let's assume that the numbers I'm going to get are going to be 1 all the way to, say, this number that I denote by larger than or equal to 7, which is a placeholder for any number larger than 7."
+    },
+    {
+        "text": "Because I know maybe I don't want to distinguish between people who have 9 or 25 siblings."
+    },
+    {
+        "text": "And so now, this is a distribution on seven possible values, discrete distributions."
+    },
+    {
+        "text": "And you know from your probability class that the way you describe this distribution is using the probability mass function, or PMF."
+    },
+    {
+        "text": "So that's how we describe a discrete distribution."
+    },
+    {
+        "text": "And the PMF is just a list of numbers."
+    },
+    {
+        "text": "So as I wrote here, you have a list of numbers."
+    },
+    {
+        "text": "And here you wrote the possible value that your random variable can take."
+    },
+    {
+        "text": "And here you write the probability that your random variable takes this value."
+    },
+    {
+        "text": "So the possible values being 1, 2, 3, all the way to larger than or equal to 7."
+    },
+    {
+        "text": "And then I'm trying to estimate those numbers."
+    },
+    {
+        "text": "If I give you those numbers, at least up to this compression of all numbers larger than or equal to 7, you have a full description of your distribution."
+    },
+    {
+        "text": "And that is the ultimate goal of statistics."
+    },
+    {
+        "text": "The ultimate goal of statistics is to say what distribution your data came from, because that's basically the best you're going to be able to."
+    }
+]

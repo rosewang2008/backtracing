@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can we talk ?",
+        "emotion": "neutral",
+        "text": "Can we talk ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , honey , we ' re talking now , aren ' t we ?",
+        "emotion": "neutral",
+        "text": "Sure , honey , we ' re talking now , aren ' t we ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You know what I mean .",
+        "emotion": "neutral",
+        "text": "You know what I mean .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah . I know .",
+        "emotion": "neutral",
+        "text": "Yeah . I know .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I want to know where this relationship is going . I ' m in love with you and I need to know ...",
+        "emotion": "neutral",
+        "text": "I want to know where this relationship is going . I ' m in love with you and I need to know ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You know , I think you ' re awesome .",
+        "emotion": "neutral",
+        "text": "You know , I think you ' re awesome .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' m awesome . Well , I guess that ' s my answer , isn ' t it .",
+        "emotion": "neutral",
+        "text": "I ' m awesome . Well , I guess that ' s my answer , isn ' t it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Honey ...",
+        "emotion": "neutral",
+        "text": "Honey ...",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Look , if you don ' t love me , it ' s not a thing , alright , we ' Ve had our laughs , but I don ' t appreciate ... maybe it ' s just time we ...",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "if you don ' t love me , it ' s not a thing , alright , we ' Ve had our laughs , but I don ' t appreciate ... maybe it ' s just time we ..."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Look , if you don ' t love me , it ' s not a thing , alright , we ' Ve had our laughs , but I don ' t appreciate ... maybe it ' s just time we ...",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Baby , I love you so much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Baby , I love you so much ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Baby , I love you so much .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "You do ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Baby , I love you so much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You do ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I love you . And I think you ' re awesome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I love you . And I think you ' re awesome ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love you . And I think you ' re awesome .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Oh , I love you too !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I love you . And I think you ' re awesome ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , I love you too !",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Come on . Put the gun down .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Oh , I love you too !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Come on . Put the gun down .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Oh baby , I ' m so sorry .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "Oh , I love you too !"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Oh baby , I ' m so sorry .",
+        "id": 15
+    }
+]

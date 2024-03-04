@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So those are the four eigenvectors of that permutation."
+    },
+    {
+        "text": "And those are orthogonal."
+    },
+    {
+        "text": "Could I just check that?"
+    },
+    {
+        "text": "How do you know that this first column and the second?"
+    },
+    {
+        "text": "Well, I should really say zeroth column and first column if I'm talking frequencies."
+    },
+    {
+        "text": "Do you see that that's orthogonal to that?"
+    },
+    {
+        "text": "Well, y is 1 plus i plus i squared plus i cubed equals 0."
+    },
+    {
+        "text": "That's the dot product."
+    },
+    {
+        "text": "This is column 1 dot column 2."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "You're right."
+    },
+    {
+        "text": "This happens to come out 0."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "Yes, that will come out 0."
+    },
+    {
+        "text": "That'll come out 0."
+    },
+    {
+        "text": "But somebody mentioned that this isn't right."
+    },
+    {
+        "text": "It's true that that came out 0."
+    },
+    {
+        "text": "But when I have imaginary numbers anywhere around, this isn't the correct dot product to test orthogonal."
+    },
+    {
+        "text": "If I have complex vectors, if I have complex numbers, complex vectors, I should test column 1 conjugate dotted with column 2."
+    },
+    {
+        "text": "Column i conjugate."
+    }
+]

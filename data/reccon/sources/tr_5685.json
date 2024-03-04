@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you help me pick out a gift for my niece ?",
+        "emotion": "neutral",
+        "text": "Can you help me pick out a gift for my niece ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Most normal little girls go wild over Barbie dolls .",
+        "emotion": "neutral",
+        "text": "Most normal little girls go wild over Barbie dolls .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That sounds good . Let me see one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "little girls go wild over Barbie dolls ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good . Let me see one .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Here's the latest model -- Digital Barbie .",
+        "emotion": "neutral",
+        "text": "Here's the latest model -- Digital Barbie .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , she's nice . How much is she ?",
+        "emotion": "neutral",
+        "text": "Oh , she's nice . How much is she ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why , she's only $ 29 . 95 .",
+        "emotion": "neutral",
+        "text": "Why , she's only $ 29 . 95 .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , that's reasonable . I'll take it .",
+        "emotion": "neutral",
+        "text": "Well , that's reasonable . I'll take it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Excellent . Would you like anything else ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'll take it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Excellent . Would you like anything else ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Well , that's reasonable . I'll take it .",
+            "Would you like anything else ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No , thank you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The total will be $ 32 . 42 . Will that be cash ?",
+        "emotion": "neutral",
+        "text": "The total will be $ 32 . 42 . Will that be cash ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh , cash will be fine .",
+        "emotion": "neutral",
+        "text": "Oh , cash will be fine .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here's your change . Thank you for shopping with us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            12
+        ],
+        "expanded emotion cause span": [
+            "I'll take it .",
+            "Thank you for shopping with us ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Here's your change . Thank you for shopping with us .",
+        "id": 12,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

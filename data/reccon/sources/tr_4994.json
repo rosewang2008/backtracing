@@ -1,0 +1,195 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "how was your day ?",
+        "emotion": "neutral",
+        "text": "how was your day ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "let ' s start with you . How was yours ?",
+        "emotion": "neutral",
+        "text": "let ' s start with you . How was yours ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "it was really busy . I had to work straight through my lunch break .",
+        "emotion": "neutral",
+        "text": "it was really busy . I had to work straight through my lunch break .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "did you get to leave early then ?",
+        "emotion": "neutral",
+        "text": "did you get to leave early then ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "my boss told me that I could either go home early or take a long lunch break another day , so I decided to wait and take a long lunch break another time .",
+        "emotion": "neutral",
+        "text": "my boss told me that I could either go home early or take a long lunch break another day , so I decided to wait and take a long lunch break another time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "it was nice of your boss to give you an option . My boss would never do that .",
+        "emotion": "neutral",
+        "text": "it was nice of your boss to give you an option . My boss would never do that .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "let ' s get back to you . How was your day ?",
+        "emotion": "neutral",
+        "text": "let ' s get back to you . How was your day ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "it was horrible ! It was just one thing after another .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "it was horrible ! It was just one thing after another ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "it was horrible ! It was just one thing after another .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "you look pretty upset . Are you ok ?",
+        "emotion": "neutral",
+        "text": "you look pretty upset . Are you ok ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I ' m fine . But I have bad news .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I have bad news ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I ' m fine . But I have bad news .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "what ' s that ?",
+        "emotion": "neutral",
+        "text": "what ' s that ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I got sacked today .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I got sacked today ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I got sacked today .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "you ' re kidding ! How did that happen ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I got sacked today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "you ' re kidding ! How did that happen ?",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "well , I was late to work today . It was the third time I was late this week .",
+        "emotion": "neutral",
+        "text": "well , I was late to work today . It was the third time I was late this week .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "how late were you ?",
+        "emotion": "neutral",
+        "text": "how late were you ?",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "only about 5 minutes .",
+        "emotion": "neutral",
+        "text": "only about 5 minutes .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "you got fired for being a few minutes late ?",
+        "emotion": "neutral",
+        "text": "you got fired for being a few minutes late ?",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "my boss is really picky about that . He never arrives late , usually works over-time , and always gets his work done on time .",
+        "emotion": "neutral",
+        "text": "my boss is really picky about that . He never arrives late , usually works over-time , and always gets his work done on time .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "oh well . You never really liked your boss anyway , did you ?",
+        "emotion": "neutral",
+        "text": "oh well . You never really liked your boss anyway , did you ?",
+        "id": 19
+    }
+]

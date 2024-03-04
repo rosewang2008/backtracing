@@ -1,0 +1,62 @@
+[
+    {
+        "text": "My little comment about symmetric positive definite was the one case where it's A q equal q sigma, where v and u are the same q."
+    },
+    {
+        "text": "But mostly, I'm going to take a matrix like, oh, let me take a matrix like four four minus three three."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "There's a two by two matrix."
+    },
+    {
+        "text": "It's invertible, so it has rank two."
+    },
+    {
+        "text": "So I'm going to look for two vectors, v1 and v2, in the row space, and u- so I'm going to look for v1 v2 in the row space, which of course is R2."
+    },
+    {
+        "text": "And I'm going to look for u1 u2 in the column space, which of course is also R2."
+    },
+    {
+        "text": "And I'm going to look for numbers sigma 1 and sigma 2, so that it all comes out right."
+    },
+    {
+        "text": "So these guys are orthonormal."
+    },
+    {
+        "text": "These guys are orthonormal, and these are the scaling factors."
+    },
+    {
+        "text": "So I'll do that example as soon as I get the matrix picture straight."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Do you see that this expresses what I want?"
+    },
+    {
+        "text": "Can I just say two words about null spaces?"
+    },
+    {
+        "text": "If we have -- if there's some null space, then we've got- we want to stick in a basis for those, for that."
+    },
+    {
+        "text": "So here comes a basis for the null space, v R plus one down to vn."
+    },
+    {
+        "text": "So if we only had an R-dimensional row space and the other n minus R dimensions were in the null space, okay, we'll take an orthogonal- orthonormal basis there, no problem."
+    },
+    {
+        "text": "And then we'll just get zeros."
+    },
+    {
+        "text": "So actually, those zeros will come out from the- on the diagonal matrix."
+    },
+    {
+        "text": "So I'll complete that to, to, orthonormal basis for the whole space, Rn."
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "That's Okay ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What sports do you like to play ?",
+        "emotion": "neutral",
+        "text": "What sports do you like to play ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I like baseball and basketball .",
+        "emotion": "neutral",
+        "text": "I like baseball and basketball .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How about football ?",
+        "emotion": "neutral",
+        "text": "How about football ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "In my country football is brand new , so I never learned the game when I was younger .",
+        "emotion": "neutral",
+        "text": "In my country football is brand new , so I never learned the game when I was younger .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "It's a very popular game in America .",
+        "emotion": "neutral",
+        "text": "It's a very popular game in America .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yeah . I heard a lot about it . Is it really that fun ?",
+        "emotion": "neutral",
+        "text": "Yeah . I heard a lot about it . Is it really that fun ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "For me , it's one of those games that are fun to both watch and play .",
+        "emotion": "neutral",
+        "text": "For me , it's one of those games that are fun to both watch and play .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Are you a football player ?",
+        "emotion": "neutral",
+        "text": "Are you a football player ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I just for fun with my friends . We play two hand touch or flag football . We're too old to play tackle football .",
+        "emotion": "neutral",
+        "text": "No , I just for fun with my friends . We play two hand touch or flag football . We're too old to play tackle football .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "What is two hand touch and flag football ?",
+        "emotion": "neutral",
+        "text": "What is two hand touch and flag football ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Instead of tackling somebody , you just have to touch them with two hands , or if it is flag football , grab the flag that the ball carrier is wearing .",
+        "emotion": "neutral",
+        "text": "Instead of tackling somebody , you just have to touch them with two hands , or if it is flag football , grab the flag that the ball carrier is wearing .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I see . It's safer then right ?",
+        "emotion": "neutral",
+        "text": "I see . It's safer then right ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Exactly . We play every Saturdays on the field by the tennis courts . If you want to learn and play a little , you're welcome to join us .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "fun to both watch and play .",
+            "I just for fun with my friends .",
+            "It's safer then right ?",
+            "We play every Saturdays on the field by the tennis courts ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Exactly . We play every Saturdays on the field by the tennis courts . If you want to learn and play a little , you're welcome to join us .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I'll give it a try . Give me a call and let's go down together .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "fun to both watch and play .",
+            "It's safer then right ?",
+            "If you want to learn and play a little , you're welcome to join us ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "I'll give it a try . Give me a call and let's go down together .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok . I'll call you Saturday morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I'll give it a try . Give me a call and let's go down together ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . I'll call you Saturday morning .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            12,
+            13
+        ],
+        "expanded emotion cause span": [
+            "fun to both watch and play .",
+            "It's safer then right ?",
+            "If you want to learn and play a little , you're welcome to join us ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great .",
+        "id": 16
+    }
+]

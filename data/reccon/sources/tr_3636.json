@@ -1,0 +1,262 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Is this Zhang Lin's home ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Is this Zhang Lin's home ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Oh , it's you , Linda . I haven't seen you for a long time . Well , come in and sit down . How about something to drink ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for a long time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . Oh , it's you , Linda . I haven't seen you for a long time . Well , come in and sit down . How about something to drink ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , please . I'm a little thirsty , actually .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for a long time . Well , come in and sit down . How about something to drink ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , please . I'm a little thirsty , actually .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Would you like tea or coffee ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for a long time ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Would you like tea or coffee ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Coffee , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I'm a little thirsty",
+            "Would you like tea or coffee ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Coffee , please .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Here you are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for a long time ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Here you are .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Would you like to talk over a drink ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Here you are .",
+            "Would you like to talk over a drink ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Would you like to talk over a drink ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That sounds good . How are you doing , Linda ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Would you like to talk over a drink ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds good . How are you doing , Linda ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Just fine . Are you busy now ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "That sounds good . How are you doing , Linda ?",
+            "Just fine ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Just fine . Are you busy now ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No . I'm just killing time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I haven't seen you for a long time .",
+            "Just fine ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "No . I'm just killing time .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Shall we visit our math teacher tomorrow ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "Shall we visit our math teacher tomorrow ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Shall we visit our math teacher tomorrow ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes . I haven't been in his house for several weeks . When shall we start ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Shall we visit our math teacher tomorrow ?",
+            "Yes . I haven't been in his house for several weeks ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . I haven't been in his house for several weeks . When shall we start ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How about eight o'clock tomorrow morning ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Shall we visit our math teacher tomorrow ?",
+            "Yes . I haven't been in his house for several weeks ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "How about eight o'clock tomorrow morning ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "All right . See you tomorrow .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Shall we visit our math teacher tomorrow ?",
+            "Yes . I haven't been in his house for several weeks ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "All right . See you tomorrow .",
+        "id": 14
+    }
+]

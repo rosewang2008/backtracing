@@ -1,0 +1,62 @@
+[
+    {
+        "text": "What am I going to put here?"
+    },
+    {
+        "text": "Another H4."
+    },
+    {
+        "text": "And up here, another H4."
+    },
+    {
+        "text": "And finally here, minus H4."
+    },
+    {
+        "text": "Minus H4, and I think I've got orthogonal columns again."
+    },
+    {
+        "text": "Because the columns within these, dot products with themselves, give 0 and 0."
+    },
+    {
+        "text": "The dot products from these columns and these columns obviously have the minus."
+    },
+    {
+        "text": "And the dot products in here are 0 from that and 0 from that."
+    },
+    {
+        "text": "Yeah, it works."
+    },
+    {
+        "text": "And we could keep going to 16 and 32 and 64."
+    },
+    {
+        "text": "But then up comes a question."
+    },
+    {
+        "text": "What about H12?"
+    },
+    {
+        "text": "Is there a 1's and minus 1's matrix of size 12, 12 by 12?"
+    },
+    {
+        "text": "It doesn't come directly from our little pattern, which is doubling size every time."
+    },
+    {
+        "text": "But you could still hope."
+    },
+    {
+        "text": "And it works."
+    },
+    {
+        "text": "I don't know what it is, but there's a matrix of 1's and minus 1's, 12 orthogonal columns."
+    },
+    {
+        "text": "So the answer is yes."
+    },
+    {
+        "text": "OK, so we make an 18.065 conjecture."
+    },
+    {
+        "text": "Every matrix size, well, not every matrix size, because 3 by 3 is not going to work."
+    }
+]

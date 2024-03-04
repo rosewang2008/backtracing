@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, how does f change if I change x a little bit?"
+    },
+    {
+        "text": "Well, we've seen that it's given by the partial derivative f sub x."
+    },
+    {
+        "text": "So, this is approximately equal to f of x, y plus delta x times f sub x at the given point x, y. I'm not going to add it because notation is already long enough."
+    },
+    {
+        "text": "So, that means my vector u is, well, approximately, because I'm using this linear approximation, delta x, zero, and f sub x times delta x. OK, is that OK with everyone?"
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Now, what about v?"
+    },
+    {
+        "text": "Well, v works the same way."
+    },
+    {
+        "text": "OK, so I'm not going to do all the details."
+    },
+    {
+        "text": "When I move from here to here, well, x doesn't change, and y changes by delta y."
+    },
+    {
+        "text": "So, x component, nothing happens."
+    },
+    {
+        "text": "y component changes by delta y."
+    },
+    {
+        "text": "What about the z component?"
+    },
+    {
+        "text": "Well, f changes by f sub y times delta y."
+    },
+    {
+        "text": "That's how f changes if I increase y by delta y. OK, so I have my two sides."
+    },
+    {
+        "text": "Now, I can take the cross product."
+    },
+    {
+        "text": "Well, maybe I will first, sorry, factor something out."
+    },
+    {
+        "text": "See, I can rewrite this as one zero f sub x times delta x."
+    },
+    {
+        "text": "And, this one I will rewrite as zero one f sub y delta y."
+    },
+    {
+        "text": "And so, now the cross product, so n hat delta s up to sine is going to be u cross v. u cross v, well, so we'll have to do the cross product, and we'll have a delta x delta y coming out."
+    },
+    {
+        "text": "OK, I'm just saving myself the trouble of writing a lot of delta x and delta y's."
+    }
+]

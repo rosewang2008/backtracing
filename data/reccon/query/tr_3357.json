@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That ' s a great idea . We can really enjoy ourselves without worrying about the kids .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Relaxing on the beach with a nice cool drink .",
+            "we could try that restaurant that was recommended in the guidebook . Then we could go to a club . We haven ' t been to one for ages .",
+            "We can really enjoy ourselves without worrying about the kids ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s a great idea . We can really enjoy ourselves without worrying about the kids .",
+        "id": 6,
+        "source_sentences": [
+            0,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

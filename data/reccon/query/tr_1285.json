@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I am glad to hear that . I'm really pleased with it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The car has very sleek lines . I love it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am glad to hear that . I'm really pleased with it .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

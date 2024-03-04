@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Ted , I saw this ad in the paper . You should take a look .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "saw this ad in the paper"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey Ted , I saw this ad in the paper . You should take a look .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What is it ?",
+        "emotion": "neutral",
+        "text": "What is it ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It ' s for a job . It looks perfect for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It looks perfect for you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s for a job . It looks perfect for you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Let ' s see ... ' Wanted , manager for up-and-coming firm . Must have good organizational skills . Experience a plus . Please contact Betty Sue . ' Oh , I don ' t know ...",
+        "emotion": "neutral",
+        "text": "Let ' s see ... ' Wanted , manager for up-and-coming firm . Must have good organizational skills . Experience a plus . Please contact Betty Sue . ' Oh , I don ' t know ...",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Come on , what have you got to lose ?",
+        "emotion": "neutral",
+        "text": "Come on , what have you got to lose ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What about my resume ?",
+        "emotion": "neutral",
+        "text": "What about my resume ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Here , I'll help you type one up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "It looks perfect for you ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Here , I'll help you type one up .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thanks , Mary . You ' re a real pal . I'll call now to set up an interview .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'll help you type one up ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , Mary . You ' re a real pal . I'll call now to set up an interview .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

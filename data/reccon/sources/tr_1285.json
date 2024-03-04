@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How is your new car ?",
+        "emotion": "neutral",
+        "text": "How is your new car ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Perfect . Couldn't be better .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Perfect . Couldn't be better ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Perfect . Couldn't be better .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Why do you say so ? Can I see your new car ?",
+        "emotion": "neutral",
+        "text": "Why do you say so ? Can I see your new car ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Of course you can . ( Lead Carl to his garage . )",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Perfect . Couldn't be better .",
+            "Can I see your new car ?"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Of course you can . ( Lead Carl to his garage . )",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Wow , this new car is dynamite ! It is a shiny , beautiful car .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Wow , this new car is dynamite ! It is a shiny , beautiful car ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Wow , this new car is dynamite ! It is a shiny , beautiful car .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "My car is simply a daisy . It drives smoothly .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Wow , this new car is dynamite ! It is a shiny , beautiful car .",
+            "My car is simply a daisy . It drives smoothly ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "My car is simply a daisy . It drives smoothly .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "The car has very sleek lines . I love it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Wow , this new car is dynamite ! It is a shiny , beautiful car .",
+            "The car has very sleek lines . I love it ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "The car has very sleek lines . I love it .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I am glad to hear that . I'm really pleased with it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "The car has very sleek lines . I love it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am glad to hear that . I'm really pleased with it .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You made a good choice .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "You made a good choice ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You made a good choice .",
+        "id": 9
+    }
+]

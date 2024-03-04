@@ -1,0 +1,109 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It ' s very kind of you to invite me to dinner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It ' s very kind of you"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s very kind of you to invite me to dinner .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Please sit down and make yourself at home . Please don ' t stand on ceremony .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It ' s very kind of you"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Please sit down and make yourself at home . Please don ' t stand on ceremony .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "This dish is really delicious .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "This dish is really delicious ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This dish is really delicious .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I ' m glad that you like it . This is only the first time that I made it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "This dish is really delicious ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I ' m glad that you like it . This is only the first time that I made it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "You ' re great . Could you say it in Chinese ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "This is only the first time that I made it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re great . Could you say it in Chinese ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure , we call it doubt .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "You ' re great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , we call it doubt .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

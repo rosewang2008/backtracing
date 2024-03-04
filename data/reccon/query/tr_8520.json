@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "But my sister bought this pair last month .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "We don't haven any .",
+            "But my sister bought this pair last month ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "But my sister bought this pair last month .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

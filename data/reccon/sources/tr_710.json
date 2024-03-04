@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Mark . What are you doing ?",
+        "emotion": "neutral",
+        "text": "Hey Mark . What are you doing ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Just watching some TV .",
+        "emotion": "neutral",
+        "text": "Just watching some TV .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Anything interesting on ?",
+        "emotion": "neutral",
+        "text": "Anything interesting on ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Not really . Just watching the sports highlight on ESPN .",
+        "emotion": "neutral",
+        "text": "Not really . Just watching the sports highlight on ESPN .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So I take it you're pretty bored too .",
+        "emotion": "neutral",
+        "text": "So I take it you're pretty bored too .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Just killing time until I find something to do . What are you going to do ?",
+        "emotion": "neutral",
+        "text": "Just killing time until I find something to do . What are you going to do ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It's Saturday and we are sitting at home doing nothing . What's wrong with us ?",
+        "emotion": "neutral",
+        "text": "It's Saturday and we are sitting at home doing nothing . What's wrong with us ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You wanna shoot some hoops ?",
+        "emotion": "neutral",
+        "text": "You wanna shoot some hoops ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I already tried to call up some of the guys , but they are all busy .",
+        "emotion": "neutral",
+        "text": "I already tried to call up some of the guys , but they are all busy .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Where's your girlfriend ? I thought you were going out with her today .",
+        "emotion": "neutral",
+        "text": "Where's your girlfriend ? I thought you were going out with her today .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "She's out shopping with her friends .",
+        "emotion": "neutral",
+        "text": "She's out shopping with her friends .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let's go to Starbucks and think of something to do then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Let's go to Starbucks"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's go to Starbucks and think of something to do then .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Aright . Do you have any cigarettes ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Let's go to Starbucks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aright . Do you have any cigarettes ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I only have a couple left . Why don't you pick some up on the way .",
+        "emotion": "neutral",
+        "text": "I only have a couple left . Why don't you pick some up on the way .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Ok . See you there in about 30 minutes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Let's go to Starbucks"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Ok . See you there in about 30 minutes .",
+        "id": 15,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Aright . See you there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Let's go to Starbucks"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Aright . See you there .",
+        "id": 16
+    }
+]

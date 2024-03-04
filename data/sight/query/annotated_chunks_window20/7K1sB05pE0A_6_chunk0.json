@@ -1,0 +1,19 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 6,
+        "timestamp": 1684514906495.0,
+        "annotatedSourceSentencesIndices": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why aren't they giving a meaningful description of what a derivative is in plain English? E.g. The derivative of a function is the function that evaluates to the rate of change for a given input."
+    }
+]

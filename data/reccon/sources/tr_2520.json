@@ -1,0 +1,207 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Matt . I just got a job at a consulting firm .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I just got a job at a consulting firm ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey Matt . I just got a job at a consulting firm .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Congratulations . That's great !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I just got a job at a consulting firm .",
+            "I just got a job at a consulting firm ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations . That's great !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm so happy . I don't have to worry about finding a job and interviewing anymore .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I just got a job at a consulting firm .",
+            "I don't have to worry about finding a job and interviewing anymore ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm so happy . I don't have to worry about finding a job and interviewing anymore .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "When do you start ?",
+        "emotion": "neutral",
+        "text": "When do you start ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I start next Monday .",
+        "emotion": "neutral",
+        "text": "I start next Monday .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You're going to have to put in a lot of hours you know .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy . I don't have to worry about finding a job and interviewing anymore ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're going to have to put in a lot of hours you know .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I know . I'm a little nervous , but it's pretty exciting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "it's pretty exciting ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I know . I'm a little nervous , but it's pretty exciting .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I bet . You must be stoked .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I'm so happy . I don't have to worry about finding a job and interviewing anymore .",
+            "I know . I'm a little nervous , but it's pretty exciting ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I bet . You must be stoked .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah . I'm going to celebrate tonight . Wanna hang out ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'm going to celebrate tonight . Wanna hang out ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yeah . I'm going to celebrate tonight . Wanna hang out ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sure . It's on you right ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Yeah . I'm going to celebrate tonight . Wanna hang out ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . It's on you right ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Of course . How about Toby ? Should we call him ?",
+        "emotion": "neutral",
+        "text": "Of course . How about Toby ? Should we call him ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I don't know . He's a little depressed . He's having a hard time finding a job right now .",
+        "emotion": "neutral",
+        "text": "I don't know . He's a little depressed . He's having a hard time finding a job right now .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I should still tell him . In the least , I can refer him to my company . It might help .",
+        "emotion": "neutral",
+        "text": "I should still tell him . In the least , I can refer him to my company . It might help .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That sounds like a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I can refer him to my company . It might help ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a good idea .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

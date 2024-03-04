@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You see the idea is to take the derivative of each step, each small step."
+    },
+    {
+        "text": "That's really what we do in calculus."
+    },
+    {
+        "text": "If you think about the start of a calculus course, what derivatives do we actually know?"
+    },
+    {
+        "text": "Do we actually use xf at x plus delta x minus f?"
+    },
+    {
+        "text": "What derivatives do we grind out?"
+    },
+    {
+        "text": "We do the derivatives of x to the n. Every calculus book starts with x squared and then finds the derivative of x to the n. Then you do sine x and cos x."
+    },
+    {
+        "text": "Then what others?"
+    },
+    {
+        "text": "Are there any more?"
+    },
+    {
+        "text": "Even e to the x, good, e to the x."
+    },
+    {
+        "text": "And it's the inverse function log."
+    },
+    {
+        "text": "In freshman calculus, you always write ln just to be out of date."
+    },
+    {
+        "text": "And now that may be the list, is it?"
+    },
+    {
+        "text": "And then the chain rule."
+    },
+    {
+        "text": "Are there others that you actually do a computation of?"
+    },
+    {
+        "text": "Actually, e to the x is defined by the property that its derivative is e to the x."
+    },
+    {
+        "text": "And then you discover what log x has to be."
+    },
+    {
+        "text": "And sine x, how do you do sine of x plus delta x?"
+    },
+    {
+        "text": "Well, minus sine of x, how do you find the hard way, once and for all way?"
+    },
+    {
+        "text": "You draw a little unit circle and mess with some angles."
+    },
+    {
+        "text": "And you discover that the derivative of the sine is the cosine."
+    }
+]

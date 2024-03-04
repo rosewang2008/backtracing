@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 74,
+        "timestamp": 1684517837500.0,
+        "annotatedSourceSentencesIndices": [
+            7
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I have a question. Why does he let the limit be delta x to zero? Can it be done with the limit being delta y to zero?"
+    }
+]

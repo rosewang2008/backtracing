@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's if you've defined the sine as a ratio of sides in a right triangle."
+    },
+    {
+        "text": "Of course, you could define it as an infinite series."
+    },
+    {
+        "text": "And then you would be back to just using that."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So calculus does exactly what we're doing here."
+    },
+    {
+        "text": "Finds all derivatives by the chain rule applied to a few ones that it has worked out in detail."
+    },
+    {
+        "text": "But tangent of x, we would use the quotient rule."
+    },
+    {
+        "text": "Secant of x, we would use the quotient rule, 1 over cosine."
+    },
+    {
+        "text": "And the products, we use the product rule."
+    },
+    {
+        "text": "So really, calculus tends to seem fairly simple when you look back to see what actually you did."
+    },
+    {
+        "text": "And then integration, what is integral calculus about?"
+    },
+    {
+        "text": "More or less, guessing the answer."
+    },
+    {
+        "text": "You have to integrate f of x dx."
+    },
+    {
+        "text": "And so really, what you have to do is sort of think, OK, what had this derivative?"
+    },
+    {
+        "text": "What function had that derivative?"
+    },
+    {
+        "text": "And mess around and get it."
+    },
+    {
+        "text": "So really, it's a freshman course, I guess."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So where am I?"
+    },
+    {
+        "text": "Backward, right."
+    }
+]

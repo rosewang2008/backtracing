@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What ? Why didn ' t you tell me before ? What are you doing here ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I ' m a spy for the Indian government ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? Why didn ' t you tell me before ? What are you doing here ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

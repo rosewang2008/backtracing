@@ -1,0 +1,227 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , could you arrange a dinner for us ?",
+        "emotion": "neutral",
+        "text": "Hello , could you arrange a dinner for us ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , what time ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "could you arrange a dinner for us ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , what time ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Eight o'clock tomorrow evening .",
+        "emotion": "neutral",
+        "text": "Eight o'clock tomorrow evening .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "For how many people ?",
+        "emotion": "neutral",
+        "text": "For how many people ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Ten .",
+        "emotion": "neutral",
+        "text": "Ten .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Western food or Chinese food ?",
+        "emotion": "neutral",
+        "text": "Western food or Chinese food ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Chinese food .",
+        "emotion": "neutral",
+        "text": "Chinese food .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Do you want an expensive meal ?",
+        "emotion": "neutral",
+        "text": "Do you want an expensive meal ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , not too lavish .",
+        "emotion": "neutral",
+        "text": "No , not too lavish .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "How much would you like to spend for each person ?",
+        "emotion": "neutral",
+        "text": "How much would you like to spend for each person ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What is the usual thing here ?",
+        "emotion": "neutral",
+        "text": "What is the usual thing here ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Forty to eighty RIB Yuan a plate .",
+        "emotion": "neutral",
+        "text": "Forty to eighty RIB Yuan a plate .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Let's say sixty Yuan then .",
+        "emotion": "neutral",
+        "text": "Let's say sixty Yuan then .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "OK . Is there anything special you'd like to have on the menu ?",
+        "emotion": "neutral",
+        "text": "OK . Is there anything special you'd like to have on the menu ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "We'd like to have typical Chinese food .",
+        "emotion": "neutral",
+        "text": "We'd like to have typical Chinese food .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Anything you'd rather not have ?",
+        "emotion": "neutral",
+        "text": "Anything you'd rather not have ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "No snakes , please .",
+        "emotion": "neutral",
+        "text": "No snakes , please .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "How about drinks ?",
+        "emotion": "neutral",
+        "text": "How about drinks ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Mao Tai and Qingdao Beer .",
+        "emotion": "neutral",
+        "text": "Mao Tai and Qingdao Beer .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Well . Dinner for ten at sixty Yuan a plate , drink's extra , at 8 o'clock tomorrow evening . Is that all right ?",
+        "emotion": "neutral",
+        "text": "Well . Dinner for ten at sixty Yuan a plate , drink's extra , at 8 o'clock tomorrow evening . Is that all right ?",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Right , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            20
+        ],
+        "expanded emotion cause span": [
+            "Dinner for ten at sixty Yuan a plate , drink's extra , at 8 o'clock tomorrow evening . Is that all right ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Right , thanks .",
+        "id": 21
+    },
+    {
+        "turn": 22,
+        "speaker": "B",
+        "utterance": "My pleasure , see you tomorrow evening .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            21
+        ],
+        "expanded emotion cause span": [
+            "Right , thanks ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure , see you tomorrow evening .",
+        "id": 22
+    },
+    {
+        "turn": 23,
+        "speaker": "A",
+        "utterance": "See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            22
+        ],
+        "expanded emotion cause span": [
+            "My pleasure , see you tomorrow evening ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "See you then .",
+        "id": 23,
+        "source_sentences": [
+            21
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

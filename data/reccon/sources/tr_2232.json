@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Jane , I was wondering if you you had any plans for saturday afternoon .",
+        "emotion": "neutral",
+        "text": "Jane , I was wondering if you you had any plans for saturday afternoon .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "A friend and I are planing to go out , why ? what's up ?",
+        "emotion": "neutral",
+        "text": "A friend and I are planing to go out , why ? what's up ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "There is a special exhibition of french sculptures at the museum , I was hoping you ' d like to come with me .",
+        "emotion": "neutral",
+        "text": "There is a special exhibition of french sculptures at the museum , I was hoping you ' d like to come with me .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I am afraid I can't I am going to be out all day .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "There is a special exhibition of french sculptures at the museum , I was hoping you ' d like to come with me .",
+            "I can't I am going to be out all day ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am afraid I can't I am going to be out all day .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What about sunday ?",
+        "emotion": "neutral",
+        "text": "What about sunday ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I wish I could , but it's my mums birthday .",
+        "emotion": "neutral",
+        "text": "I wish I could , but it's my mums birthday .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Maybe next week .",
+        "emotion": "neutral",
+        "text": "Maybe next week .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Much as I ' d like to , I am afraid i wont be free next week , I have a lot of work .",
+        "emotion": "neutral",
+        "text": "Much as I ' d like to , I am afraid i wont be free next week , I have a lot of work .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sorry to hear that , I was really looking forward to spending some more time with you , I really enjoyed our last chat .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3,
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "There is a special exhibition of french sculptures at the museum , I was hoping you ' d like to come with me .",
+            "I can't I am going to be out all day .",
+            "I wish I could , but it's my mums birthday .",
+            "Much as I ' d like to , I am afraid i wont be free next week , I have a lot of work .",
+            "Sorry to hear that , I was really looking forward to spending some more time with you , I really enjoyed our last chat ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Sorry to hear that , I was really looking forward to spending some more time with you , I really enjoyed our last chat .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I am really sorry too , maybe I can give you a call sometime .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "Sorry to hear that , I was really looking forward to spending some more time with you , I really enjoyed our last chat .",
+            "I am really sorry too"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I am really sorry too , maybe I can give you a call sometime .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

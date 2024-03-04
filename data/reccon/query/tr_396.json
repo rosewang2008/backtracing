@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's perfect . I will definitely do well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you have many opportunities to grow in this company as long as you do well ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's perfect . I will definitely do well .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

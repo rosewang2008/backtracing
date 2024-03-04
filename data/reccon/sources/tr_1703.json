@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Tom . How do you find the dinner of yesterday ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "How do you find the dinner of yesterday ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello , Tom . How do you find the dinner of yesterday ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Very good . That may be the most delicious food I have ever eaten .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "That may be the most delicious food I have ever eaten ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Very good . That may be the most delicious food I have ever eaten .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "It's nice of you to say so .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Very good . That may be the most delicious food I have ever eaten ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's nice of you to say so .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I really appreciate you for having invited me .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate you for having invited me ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really appreciate you for having invited me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Don't mention it . You know , we ' re old friends .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate you for having invited me ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . You know , we ' re old friends .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Anyway , I owe you one . Are you free tonight ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate you for having invited me ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Anyway , I owe you one . Are you free tonight ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes . Why ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Anyway , I owe you one . Are you free tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . Why ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I want to invite you to enjoy the food I cook .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I really appreciate you for having invited me .",
+            "I want to invite you to enjoy the food I cook ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I want to invite you to enjoy the food I cook .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "That ' s great . I'd love to .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I want to invite you to enjoy the food I cook .",
+            "I'd love to ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s great . I'd love to .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

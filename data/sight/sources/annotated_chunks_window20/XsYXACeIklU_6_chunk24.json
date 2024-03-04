@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Is that compatible?"
+    },
+    {
+        "text": "Family size is 4 on the average, but typical people live, on the average, in families of size 6."
+    },
+    {
+        "text": "Well yes."
+    },
+    {
+        "text": "There's no contradiction here."
+    },
+    {
+        "text": "We're talking about two different experiments."
+    },
+    {
+        "text": "In one experiment, I pick a family at random, and I tell you the average family is 4."
+    },
+    {
+        "text": "In another experiment, I pick a person at random and I tell you that this person, on the average, will be in their family of size 6."
+    },
+    {
+        "text": "And what is the catch here?"
+    },
+    {
+        "text": "That if I pick a person at random, large families are more likely to be picked."
+    },
+    {
+        "text": "So there's a bias in favor of large families."
+    },
+    {
+        "text": "Or if you want to survey, let's say, are trains crowded in your city?"
+    },
+    {
+        "text": "Or are buses crowded?"
+    },
+    {
+        "text": "One choice is to pick a bus at random and inspect how crowded it is."
+    },
+    {
+        "text": "Another choice is to pick a typical person and ask them, \"Did you ride the bus today?"
+    },
+    {
+        "text": "Was it's crowded?\""
+    },
+    {
+        "text": "Well suppose that in this city there's one bus that's extremely crowded and all the other buses are completely empty."
+    },
+    {
+        "text": "If you ask a person."
+    },
+    {
+        "text": "\"Was your bus crowded?\""
+    },
+    {
+        "text": "They will tell you, \"Yes, my bus was crowded.\""
+    },
+    {
+        "text": "There's no witness from the empty buses to testify in their favor."
+    }
+]

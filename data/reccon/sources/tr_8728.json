@@ -1,0 +1,155 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "it ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "it ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "it ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "we ' re glad that you ' re here . Would you like a tour of the house ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "we ' re glad that you ' re here ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "we ' re glad that you ' re here . Would you like a tour of the house ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "that ' d be great , but could I have a cup of tea first ?",
+        "emotion": "neutral",
+        "text": "that ' d be great , but could I have a cup of tea first ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "sure , I ' ll just go put the kettle on . Why don ' t you have a seat on the sofa and I ' ll go take care of things in the kitchen .",
+        "emotion": "neutral",
+        "text": "sure , I ' ll just go put the kettle on . Why don ' t you have a seat on the sofa and I ' ll go take care of things in the kitchen .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "that would be lovely , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "sure , I ' ll just go put the kettle on ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that would be lovely , thanks .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "do you take milk or sugar with your tea ?",
+        "emotion": "neutral",
+        "text": "do you take milk or sugar with your tea ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' ll take a little milk , but no sugar , please . Make sure you let the tea steep a few minutes before you take the tea bag out of the cup .",
+        "emotion": "neutral",
+        "text": "I ' ll take a little milk , but no sugar , please . Make sure you let the tea steep a few minutes before you take the tea bag out of the cup .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "ok . What do you think about our living room ?",
+        "emotion": "neutral",
+        "text": "ok . What do you think about our living room ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "well , I do like the mantelpiece and the coffee table , but I don ' t really care for curtains . Did you get them at a yard sale ? They look ancient .",
+        "emotion": "neutral",
+        "text": "well , I do like the mantelpiece and the coffee table , but I don ' t really care for curtains . Did you get them at a yard sale ? They look ancient .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "my parents gave them to us as a house warming gift .",
+        "emotion": "neutral",
+        "text": "my parents gave them to us as a house warming gift .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "oh dear . Well , I suppose they will do for now . do you ever dust in here ? It seems a bit dusty in here .",
+        "emotion": "neutral",
+        "text": "oh dear . Well , I suppose they will do for now . do you ever dust in here ? It seems a bit dusty in here .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "your daughter usually does the dusting , and I do the vacuuming .",
+        "emotion": "neutral",
+        "text": "your daughter usually does the dusting , and I do the vacuuming .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I see . Well , I can help with the chores while I ' m here . You two could probably use my help .",
+        "emotion": "neutral",
+        "text": "I see . Well , I can help with the chores while I ' m here . You two could probably use my help .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "that ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I can help with the chores while I ' m here ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "that ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You're most welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Thank you for your hospitality . I hope I didn't cause you too much trouble during my stay ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're most welcome .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

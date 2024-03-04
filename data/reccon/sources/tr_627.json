@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you going anywhere for your vacation ?",
+        "emotion": "neutral",
+        "text": "Are you going anywhere for your vacation ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , we're making plans for a tour .",
+        "emotion": "neutral",
+        "text": "Yes , we're making plans for a tour .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That'll be lovely . Where are you going ?",
+        "emotion": "neutral",
+        "text": "That'll be lovely . Where are you going ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well start out from Long Island this Friday . We've planned a four day drive to Salt Lake City , where we'll join my brother and his family on his fortieth birthday .",
+        "emotion": "neutral",
+        "text": "Well start out from Long Island this Friday . We've planned a four day drive to Salt Lake City , where we'll join my brother and his family on his fortieth birthday .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , you've got to prepare a lot of food and enough sleeping bags then .",
+        "emotion": "neutral",
+        "text": "Well , you've got to prepare a lot of food and enough sleeping bags then .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh , we'll spend the nights in hotels and enjoy local food as we pass by . How does it sound , David ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "we'll spend the nights in hotels and enjoy local food as we pass by ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , we'll spend the nights in hotels and enjoy local food as we pass by . How does it sound , David ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "It sounds good . You can do a lot of sightseeing , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "we'll spend the nights in hotels and enjoy local food as we pass by .",
+            "You can do a lot of sightseeing , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It sounds good . You can do a lot of sightseeing , too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , we'll take our time . And we'll go to Five-lake Strict and the Wall Street .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "we'll spend the nights in hotels and enjoy local food as we pass by .",
+            "You can do a lot of sightseeing , too .",
+            "And we'll go to Five-lake Strict and the Wall Street ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes , we'll take our time . And we'll go to Five-lake Strict and the Wall Street .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So , you're going to have a really nice vacation .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you're going to have a really nice vacation ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "So , you're going to have a really nice vacation .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You can say that again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "you're going to have a really nice vacation ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can say that again .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

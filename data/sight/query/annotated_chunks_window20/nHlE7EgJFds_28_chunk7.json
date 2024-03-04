@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 28,
+        "timestamp": 1684705683645.0,
+        "annotatedSourceSentencesIndices": [
+            19
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "suppose I'm in 3D if nullspace is a plane can we not simply write nullspace as an equation of that plane and every x,y,z be the possible values that give b of zeroes similarly if column space is plane and vice versa for row space and null space of A^t?\np.s I do understand we can't write any of four subspace as a line in 3D because there is no equation of a line in 3D it's just the equation of the plane"
+    }
+]

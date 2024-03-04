@@ -1,0 +1,62 @@
+[
+    {
+        "text": " OK, this is linear algebra lecture four, and the first thing I have to do is something that was on the list for last time, but here it is now."
+    },
+    {
+        "text": "What's the inverse of a product?"
+    },
+    {
+        "text": "If I multiply two matrices together and I know their inverses, how do I get the inverse of A times B?"
+    },
+    {
+        "text": "So I know what inverses mean for a single matrix A and for a matrix B."
+    },
+    {
+        "text": "What matrix do I multiply by to get the identity if I have A here?"
+    },
+    {
+        "text": "OK, that'll be simple but so basic."
+    },
+    {
+        "text": "Then I'm going to use that to -."
+    },
+    {
+        "text": "I will have a product of matrices, and the product that we'll meet will be these elimination matrices, and the net result of today's lecture is the Bayes formula for elimination."
+    },
+    {
+        "text": "So the net result of today's lecture is this great way to look at Gaussian elimination."
+    },
+    {
+        "text": "We know that we get from A to U by elimination."
+    },
+    {
+        "text": "We know the steps, but now we get the right way to look at it, A equal LU."
+    },
+    {
+        "text": "So that's the high point for today."
+    },
+    {
+        "text": "OK. Can I take the easy part, the first step first?"
+    },
+    {
+        "text": "So suppose A is invertible, and of course, it's going to be a big question, when is the matrix invertible, but let's say A is invertible and B is invertible, then what matrix gives me the inverse of AB?"
+    },
+    {
+        "text": "So that's the direct question."
+    },
+    {
+        "text": "What's the inverse of AB?"
+    },
+    {
+        "text": "Do I multiply those separate inverses?"
+    },
+    {
+        "text": "Yes."
+    },
+    {
+        "text": "I multiply the two matrices A inverse and B inverse, but what order do I multiply?"
+    },
+    {
+        "text": "In reverse order."
+    }
+]

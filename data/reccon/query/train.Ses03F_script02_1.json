@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 30,
+        "speaker": "B",
+        "utterance": "We just weren't in a good spot, all right? This is a much better spot. I have a good instinct for these things. Look, is that-",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            28,
+            29
+        ],
+        "expanded emotion cause span": [
+            "I got sand in my panties. We got into an argument about nothing. You got a sore throat and we never saw the grunions.",
+            "we've never seen the grunions. We're not going to see them."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We just weren't in a good spot, all right? This is a much better spot. I have a good instinct for these things. Look, is that-",
+        "id": 30,
+        "source_sentences": [
+            27,
+            28
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

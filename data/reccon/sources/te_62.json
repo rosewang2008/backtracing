@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Could I have some fish ?",
+        "emotion": "neutral",
+        "text": "Could I have some fish ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Certainly . And what vegetables would you like ?",
+        "emotion": "happiness",
+        "explanation": "Person B is happy to fulfil the need of Person A.",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Could I have some fish ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Certainly . And what vegetables would you like ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , spinach , I think .",
+        "emotion": "neutral",
+        "text": "Oh , spinach , I think .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Fine , And what about something to drink ?",
+        "emotion": "neutral",
+        "text": "Fine , And what about something to drink ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Just a beer , please .",
+        "emotion": "neutral",
+        "text": "Just a beer , please .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Good . Thank you . sir .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Could I have some fish ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good . Thank you . sir .",
+        "id": 6,
+        "source_sentences": [
+            0
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Would you like to have some more beer ?",
+        "emotion": "neutral",
+        "text": "Would you like to have some more beer ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "No , thanks . I ' Ve had enough . I'll have my bill , please .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve had enough"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "No , thanks . I ' Ve had enough . I'll have my bill , please .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "Of course . Please wait a moment . I'll go and get it .",
+        "emotion": "neutral",
+        "text": "Of course . Please wait a moment . I'll go and get it .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "I ' Ve had enough",
+            "I'll go and get it"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you .",
+        "id": 10
+    }
+]

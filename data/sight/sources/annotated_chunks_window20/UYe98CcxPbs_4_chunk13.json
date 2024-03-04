@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And some of them are, I mean a lot of them are valid to give you different answers."
+    },
+    {
+        "text": "You have to decide what it is that you prefer."
+    },
+    {
+        "text": "For example, you could measure the distance to the line by projecting perpendicularly."
+    },
+    {
+        "text": "Or, you could measure instead the difference between, for a given value of x, the difference between the experimental value of y and the predicted one."
+    },
+    {
+        "text": "And that is often more relevant because these guys are actually maybe expressed in different units."
+    },
+    {
+        "text": "They are not the same type of quantity."
+    },
+    {
+        "text": "You cannot actually combine them arbitrarily."
+    },
+    {
+        "text": "Anyway, the convention is usually we measure distance in this way."
+    },
+    {
+        "text": "Next, you could try to minimize the largest distance."
+    },
+    {
+        "text": "Say we look at where is the largest error and we make that the smallest possible."
+    },
+    {
+        "text": "The drawback of doing that is experimentally very often you have one data point that is not good because maybe you fell asleep in front of the experiment."
+    },
+    {
+        "text": "And so you did not measure the right thing."
+    },
+    {
+        "text": "You tend to want to not give too much importance to some data point that is far away from the others."
+    },
+    {
+        "text": "Maybe instead you want to measure the average distance."
+    },
+    {
+        "text": "Or maybe you want to actually give more weight to things that are further away."
+    },
+    {
+        "text": "And then you do not want to do the distance but the square of the distance."
+    },
+    {
+        "text": "There are various possible answers."
+    },
+    {
+        "text": "But one of them gives us a particularly nice formula for a and b."
+    },
+    {
+        "text": "And so that is why it is the universally used one."
+    },
+    {
+        "text": "Here it says least squares."
+    }
+]

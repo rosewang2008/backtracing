@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you know who ' s just got married ? Old McDonald .",
+        "emotion": "neutral",
+        "text": "Do you know who ' s just got married ? Old McDonald .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Never ! He ' s over 80 , isn ' t he ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Do you know who ' s just got married ? Old McDonald .",
+            "He ' s over 80"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Never ! He ' s over 80 , isn ' t he ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "He ' s nearly 90 .",
+        "emotion": "neutral",
+        "text": "He ' s nearly 90 .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Good gracious ! Are you sure ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "He ' s nearly 90 ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good gracious ! Are you sure ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I am . What ' s more , his wife is 84 .",
+        "emotion": "neutral",
+        "text": "I am . What ' s more , his wife is 84 .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Is she really ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "his wife is 84 ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is she really ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , she is . And guess what , he is her sixth husband .",
+        "emotion": "neutral",
+        "text": "Yes , she is . And guess what , he is her sixth husband .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? Quite a woman , isn ' t she ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "he is her sixth husband ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Quite a woman , isn ' t she ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

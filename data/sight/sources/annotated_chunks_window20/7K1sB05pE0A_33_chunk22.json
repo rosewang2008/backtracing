@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But there are lots of situations like that where people leave out some of the important information."
+    },
+    {
+        "text": "You have to fill it in from context."
+    },
+    {
+        "text": "So that's another couple of notations."
+    },
+    {
+        "text": "So now I have one more calculation for you today."
+    },
+    {
+        "text": "I carried out this calculation of the derivative of the function 1 over x. I want to take care of some other powers."
+    },
+    {
+        "text": "So let's do that."
+    },
+    {
+        "text": "So Example 2 is going to be the function f x is x n. n equals 1, 2, 3."
+    },
+    {
+        "text": "One of these guys."
+    },
+    {
+        "text": "And now what we're trying to figure out is the derivative with respect to x of x n in our new notation."
+    },
+    {
+        "text": "What this is equal to."
+    },
+    {
+        "text": "So again, we're going to form this expression, delta f delta x, and we're going to make some algebraic simplification."
+    },
+    {
+        "text": "So what we plug in for delta f is x delta x to the n minus x to the n divided by delta x."
+    },
+    {
+        "text": "Now, before, let me just stick this in and I'm going to erase it."
+    },
+    {
+        "text": "Before, I wrote x0 here and x0 there."
+    },
+    {
+        "text": "But now I'm going to get rid of it."
+    },
+    {
+        "text": "Because in this particular calculation, it's a nuisance."
+    },
+    {
+        "text": "I don't have an x floating around, which means something different from the x0."
+    },
+    {
+        "text": "And I just don't want to have to keep on writing all those symbols."
+    },
+    {
+        "text": "It's a waste of blackboard energy."
+    },
+    {
+        "text": "There's a total amount of energy that I'm, you know, I've already filled up so many blackboards that it's just a limited amount of, plus I'm trying to conserve chalk."
+    }
+]

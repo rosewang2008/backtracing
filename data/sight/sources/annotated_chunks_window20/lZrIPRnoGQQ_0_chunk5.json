@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So suppose f of x is, let me take a simple example, x cubed times x plus 2y."
+    },
+    {
+        "text": "So I want to think of that function the way anybody would, as being built as a product of two functions."
+    },
+    {
+        "text": "So there is a product rule to get into the derivative."
+    },
+    {
+        "text": "And then we need the derivatives of each piece."
+    },
+    {
+        "text": "So there's a power rule and a linear combination rule."
+    },
+    {
+        "text": "So it's got a few of the rules that we use."
+    },
+    {
+        "text": "And the point is to think about the computation of f of x and the computation of df dx and the computation of df dy."
+    },
+    {
+        "text": "Those are the derivatives that we need."
+    },
+    {
+        "text": "This is the function we need."
+    },
+    {
+        "text": "And how to do those computations quickly."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So and this is section 7.2, which benefited a lot from a blog."
+    },
+    {
+        "text": "I'm not a blog reader or a blog writer, but somehow I found this blog."
+    },
+    {
+        "text": "So let me put."
+    },
+    {
+        "text": "It's Christopher Olwa is his name."
+    },
+    {
+        "text": "And he really writes clear things."
+    },
+    {
+        "text": "So he contributes."
+    },
+    {
+        "text": "He works for one of the big companies and does the deeper research."
+    },
+    {
+        "text": "But he's also a really good expositor."
+    },
+    {
+        "text": "And the website that he now uses is called distill.something."
+    }
+]

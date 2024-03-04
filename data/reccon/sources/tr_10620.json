@@ -1,0 +1,186 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can I get you something to drink ?",
+        "emotion": "neutral",
+        "text": "Can I get you something to drink ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure , but I don't drink much . So I don't know what to order .",
+        "emotion": "neutral",
+        "text": "Sure , but I don't drink much . So I don't know what to order .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "So how about an aperitif ?",
+        "emotion": "neutral",
+        "text": "So how about an aperitif ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It sounds good . I'd like to start with a Compare .",
+        "emotion": "neutral",
+        "text": "It sounds good . I'd like to start with a Compare .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Stirred or shaken ?",
+        "emotion": "neutral",
+        "text": "Stirred or shaken ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Stirred will be fine .",
+        "emotion": "neutral",
+        "text": "Stirred will be fine .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Here you are .",
+        "emotion": "neutral",
+        "text": "Here you are .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thanks . Does the bar have a signature drink ?",
+        "emotion": "happiness",
+        "explanation": "Speaker is happy with the drinks order",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Here you are ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . Does the bar have a signature drink ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Sure . All of our mixed drinks are excellent . You can also try a delicious non-alcoholic cocktail .",
+        "emotion": "neutral",
+        "text": "Sure . All of our mixed drinks are excellent . You can also try a delicious non-alcoholic cocktail .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Can you recommend one ?",
+        "emotion": "neutral",
+        "text": "Can you recommend one ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Try a Stinger . It has lime juice and grenadine over ice .",
+        "emotion": "neutral",
+        "text": "Try a Stinger . It has lime juice and grenadine over ice .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It sounds interesting . I'll take one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Try a Stinger . It has lime juice and grenadine over ice .",
+            "It sounds interesting ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It sounds interesting . I'll take one .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Here we go .",
+        "emotion": "neutral",
+        "text": "Here we go .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "It tastes great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It tastes great ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It tastes great .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Enjoy yourself .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It tastes great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Enjoy yourself .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Yeah .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "It tastes great .",
+            "Enjoy yourself ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah .",
+        "id": 16
+    }
+]

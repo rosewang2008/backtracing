@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 15,
+        "timestamp": 1684515294082.0,
+        "annotatedSourceSentencesIndices": [
+            6
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Lecture 1 of calculus he uses Limit, but he doesn't define it anywhere ... was that done in a previous course? otherwise I believe the course is incomplete..."
+    }
+]

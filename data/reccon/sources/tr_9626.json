@@ -1,0 +1,161 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , I'm back ! Hmm ... your hair is pretty damaged , and you've got split ends .",
+        "emotion": "neutral",
+        "text": "Hi , I'm back ! Hmm ... your hair is pretty damaged , and you've got split ends .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ? What can I do ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "your hair is pretty damaged",
+            "you've got split ends ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? What can I do ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , the trim should fix the split ends , but you might need a deep conditioning treatment .",
+        "emotion": "neutral",
+        "text": "Well , the trim should fix the split ends , but you might need a deep conditioning treatment .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Umm , OK . Whatever you think will help .",
+        "emotion": "neutral",
+        "text": "Umm , OK . Whatever you think will help .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm also going to add some layers to frame your face .",
+        "emotion": "neutral",
+        "text": "I'm also going to add some layers to frame your face .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Can you use the thinning shears on top , too ? My hair is really thick .",
+        "emotion": "neutral",
+        "text": "Can you use the thinning shears on top , too ? My hair is really thick .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No problem !",
+        "emotion": "happiness",
+        "explanation": "A is happy as B asks for help",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can you use the thinning shears"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No problem !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Hi , I'm back ! Hmm ... your hair is pretty damaged , and you've got split ends .",
+        "emotion": "neutral",
+        "text": "Hi , I'm back ! Hmm ... your hair is pretty damaged , and you've got split ends .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Really ? What can I do ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "your hair is pretty damaged",
+            "you've got split ends ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Really ? What can I do ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Well , the trim should fix the split ends , but you might need a deep conditioning treatment .",
+        "emotion": "neutral",
+        "text": "Well , the trim should fix the split ends , but you might need a deep conditioning treatment .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Umm , OK . Whatever you think will help .",
+        "emotion": "neutral",
+        "text": "Umm , OK . Whatever you think will help .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I'm also going to add some layers to frame your face .",
+        "emotion": "neutral",
+        "text": "I'm also going to add some layers to frame your face .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Can you use the thinning shears on top , too ? My hair is really thick .",
+        "emotion": "neutral",
+        "text": "Can you use the thinning shears on top , too ? My hair is really thick .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "No problem !",
+        "emotion": "happiness",
+        "explanation": "A is happy as B asks for help",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can you use the thinning shears"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "No problem !",
+        "id": 14
+    }
+]

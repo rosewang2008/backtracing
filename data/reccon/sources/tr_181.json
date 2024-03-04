@@ -1,0 +1,134 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , I am a regular member of this club .",
+        "emotion": "neutral",
+        "text": "Well , I am a regular member of this club .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Do you have to pay to join ?",
+        "emotion": "neutral",
+        "text": "Do you have to pay to join ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes , membership fees vary depending on the club but usually they run into tens of thousands of dollars .",
+        "emotion": "neutral",
+        "text": "Yes , membership fees vary depending on the club but usually they run into tens of thousands of dollars .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Wow , that much ? Don't they have any public courses ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "usually they run into tens of thousands of dollars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , that much ? Don't they have any public courses ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Very few , unfortunately .",
+        "emotion": "neutral",
+        "text": "Very few , unfortunately .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "How was your game today ?",
+        "emotion": "neutral",
+        "text": "How was your game today ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Extremely good . I shot a 78 , including 5 birdies !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Extremely good . I shot a 78 , including 5 birdies !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Extremely good . I shot a 78 , including 5 birdies !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Congratulations ! What's your normal handicap ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Extremely good . I shot a 78 , including 5 birdies !",
+            "Extremely good . I shot a 78 , including 5 birdies !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Congratulations ! What's your normal handicap ?",
+        "id": 8,
+        "source_sentences": [
+            6,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Ten . How did your game go ?",
+        "emotion": "neutral",
+        "text": "Ten . How did your game go ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "My drives were terrible today . I kept slicing the ball into the roughs and sand traps .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "My drives were terrible today . I kept slicing the ball into the roughs and sand traps ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My drives were terrible today . I kept slicing the ball into the roughs and sand traps .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Maybe you can correct it by going to a driving range before you play again .",
+        "emotion": "neutral",
+        "text": "Maybe you can correct it by going to a driving range before you play again .",
+        "id": 11
+    }
+]

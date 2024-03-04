@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "0h43aV4aH7I",
+        "query_id": 2,
+        "timestamp": 1684700837277.0,
+        "annotatedSourceSentencesIndices": [
+            7,
+            8
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I'm fairly certain x includes 255 in the domain. [4:15]\nCan anyone confirm or clarify? \n(should be x is less than or equal to 255, rather than strictly less than)"
+    }
+]

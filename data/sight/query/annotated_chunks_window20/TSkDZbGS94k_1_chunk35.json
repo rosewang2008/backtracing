@@ -1,0 +1,15 @@
+[
+    {
+        "file_id": "TSkDZbGS94k",
+        "query_id": 1,
+        "timestamp": 1684520806354.0,
+        "annotatedSourceSentencesIndices": [
+            2,
+            3
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why are the parameters of one of the normal distributions he describes identifiable and the others aren't?"
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I really should be on my way .",
+        "emotion": "neutral",
+        "text": "I really should be on my way .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , not yet . At least have one for the road .",
+        "emotion": "neutral",
+        "text": "Oh , not yet . At least have one for the road .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , thanks all the same .",
+        "emotion": "neutral",
+        "text": "No , thanks all the same .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I am sorry you have to leave so early .",
+        "emotion": "neutral",
+        "text": "Well , I am sorry you have to leave so early .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you very much . I really had a good time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I really had a good time ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thank you very much . I really had a good time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , thank you for coming .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I really had a good time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , thank you for coming .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "So see you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I really had a good time .",
+            "thank you for coming ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "So see you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I really had a good time .",
+            "thank you for coming ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Bye .",
+        "id": 8
+    }
+]

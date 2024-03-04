@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "7K1sB05pE0A",
+        "query_id": 67,
+        "timestamp": 1684517591721.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "I didn't quite understand how (x+\u2206x).....(x+\u2206x) got us the term nx^n-1\u2206x. Won't \u2206x be multiplied n-1 times instead of n?"
+    }
+]

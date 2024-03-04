@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Would you like to come by and play bridge ?",
+        "emotion": "neutral",
+        "text": "Would you like to come by and play bridge ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , let's see . Why don't we go dancing for a change ? We haven't done that for a long time .",
+        "emotion": "neutral",
+        "text": "Well , let's see . Why don't we go dancing for a change ? We haven't done that for a long time .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , to tell the truth , I don't really feel like it tonight . I had a pretty hard day and I'm sort of tired .",
+        "emotion": "neutral",
+        "text": "Well , to tell the truth , I don't really feel like it tonight . I had a pretty hard day and I'm sort of tired .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hmm . Well , in that case , we could go to the movies .",
+        "emotion": "neutral",
+        "text": "Hmm . Well , in that case , we could go to the movies .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , we always go to the movies . Can ' t we do something different ?",
+        "emotion": "neutral",
+        "text": "Oh , we always go to the movies . Can ' t we do something different ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , do you have any suggestions ?",
+        "emotion": "neutral",
+        "text": "Well , do you have any suggestions ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let's see . How do you feel about playing bridge ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "How do you feel about playing bridge ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let's see . How do you feel about playing bridge ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It's OK with me , but we don't have any beer and things .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "How do you feel about playing bridge ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It's OK with me , but we don't have any beer and things .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , shall I call Janet and ask her and Tom to come over , and I'll go to the store and buy some stuff .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "How do you feel about playing bridge ?",
+            "It's OK with me ,",
+            "shall I call Janet and ask her and Tom to come over , and I'll go to the store and buy some stuff ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , shall I call Janet and ask her and Tom to come over , and I'll go to the store and buy some stuff .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "OK .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            9
+        ],
+        "expanded emotion cause span": [
+            "How do you feel about playing bridge ?",
+            "shall I call Janet and ask her and Tom to come over , and I'll go to the store and buy some stuff ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK .",
+        "id": 10,
+        "source_sentences": [
+            6,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Hello , Janet . It ' s me ... Oh , fine . Just fine . Say , Janet , I was wondering if you and Tom were doing anything tonight ... No ? Well . would you like to come by our place and play a few hands of bridge ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "would you like to come by our place and play a few hands of bridge ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hello , Janet . It ' s me ... Oh , fine . Just fine . Say , Janet , I was wondering if you and Tom were doing anything tonight ... No ? Well . would you like to come by our place and play a few hands of bridge ?",
+        "id": 11
+    }
+]

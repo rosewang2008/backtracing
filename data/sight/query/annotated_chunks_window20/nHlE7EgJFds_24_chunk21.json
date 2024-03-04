@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 24,
+        "timestamp": 1684704215642.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "25:06 So performing row eliminations doesn't change the row space but changes the column space?\n\nSo to get the basis for the column space, would you have to do column elimination for matrix [A]? Or could you take the transpose, do row elimination, and just use that row basis for [A] transpose as the column basis for [A]?"
+    }
+]

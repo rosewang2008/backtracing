@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/opt_6b_single-sentence.csv
+Total: 111643
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/opt_6b_single-sentence.csv
+>> Score key: single-sentence
+Top 1 accuracy: 0.3
+Top 1 min distance: 5.16875
+Top 3 accuracy: 0.425
+Top 3 min distance: 2.28125
+

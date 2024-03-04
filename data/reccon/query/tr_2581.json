@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Just bring along whatever it is that you and Jake would like to drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Would you like some help with the food ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Just bring along whatever it is that you and Jake would like to drink .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

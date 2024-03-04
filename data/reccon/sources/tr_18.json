@@ -1,0 +1,80 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Hi , my name is Lean , and I'm from Russia .",
+        "emotion": "neutral",
+        "text": "Hi , my name is Lean , and I'm from Russia .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "Nice to meet you , Lean . My name is Alike . I'm from Japan .",
+        "emotion": "neutral",
+        "text": "Nice to meet you , Lean . My name is Alike . I'm from Japan .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "To me English is a difficult language .",
+        "emotion": "neutral",
+        "text": "To me English is a difficult language .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "A second language is always difficult .",
+        "emotion": "neutral",
+        "text": "A second language is always difficult .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "True , but English is harder than most . It's a crazy language .",
+        "emotion": "neutral",
+        "text": "True , but English is harder than most . It's a crazy language .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "A crazy language ? Why do you say that ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It's a crazy language ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "A crazy language ? Why do you say that ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "One letter can have several pronunciations and one word can have several meanings .",
+        "emotion": "neutral",
+        "text": "One letter can have several pronunciations and one word can have several meanings .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "No wonder you say English is a crazy language .",
+        "emotion": "neutral",
+        "text": "No wonder you say English is a crazy language .",
+        "id": 8
+    }
+]

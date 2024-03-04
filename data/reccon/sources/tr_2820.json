@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I have just had my new paper published .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have just had my new paper published ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have just had my new paper published .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "You have done excellent work .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "I have just had my new paper published .",
+            "I have just had my new paper published ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You have done excellent work .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm going to Britain .",
+        "emotion": "neutral",
+        "text": "I'm going to Britain .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? How did you get the chance ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'm going to Britain ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? How did you get the chance ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I have been accepted by Oxford University on PhD .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I have been accepted by Oxford University on PhD ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have been accepted by Oxford University on PhD .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "My warmest congratulations on your entering the Oxford University .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I have been accepted by Oxford University on PhD .",
+            "I have been accepted by Oxford University on PhD ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My warmest congratulations on your entering the Oxford University .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really appreciate your kind words .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "My warmest congratulations on your entering the Oxford University .",
+            "I really appreciate your kind words ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I really appreciate your kind words .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

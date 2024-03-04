@@ -1,0 +1,62 @@
+[
+    {
+        "text": "r0 A0 r0 inverse."
+    },
+    {
+        "text": "Good."
+    },
+    {
+        "text": "Minus S. What have I got there?"
+    },
+    {
+        "text": "From the r0 minus Si r0, what is that?"
+    },
+    {
+        "text": "That's minus Si."
+    },
+    {
+        "text": "Look, success."
+    },
+    {
+        "text": "The r0 cancels the r0 inverse."
+    },
+    {
+        "text": "So that term from that, that, that is minus Si."
+    },
+    {
+        "text": "Cancels plus Si."
+    },
+    {
+        "text": "I'm finished."
+    },
+    {
+        "text": "And lo and behold, we have the same similarity."
+    },
+    {
+        "text": "So we messed around by a multiple of the identity, and it actually makes the thing converge faster if we choose the shifts well."
+    },
+    {
+        "text": "But basically, the same idea is still working."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the QR method."
+    },
+    {
+        "text": "Well, that's the method we haven't shown and won't show."
+    },
+    {
+        "text": "Except for this half-completed example, I don't plan to prove that the lower triangular part begins to disappear, gets smaller and smaller and smaller, and then the eigenvalues pop up on the diagonal."
+    },
+    {
+        "text": "It's amazing."
+    },
+    {
+        "text": "Amazing."
+    },
+    {
+        "text": "OK. Now, is there any other improvement we can make?"
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Francis .",
+        "emotion": "neutral",
+        "text": "Hi , Francis .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , Mike . How are you doing ?",
+        "emotion": "neutral",
+        "text": "Oh , Mike . How are you doing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Not bad . It seems you are super yogurt lover . You have so many in your cart .",
+        "emotion": "neutral",
+        "text": "Not bad . It seems you are super yogurt lover . You have so many in your cart .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , I prefer yogurt to all the other drinks . Have you ever tried a kind of yogurt with old milk in it ? It tastes great and very healthy too .",
+        "emotion": "neutral",
+        "text": "Well , I prefer yogurt to all the other drinks . Have you ever tried a kind of yogurt with old milk in it ? It tastes great and very healthy too .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I haven ' t noticed that before . Maybe I will try next time .",
+        "emotion": "neutral",
+        "text": "Oh , I haven ' t noticed that before . Maybe I will try next time .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Why don ' t you go ahead of me ? I have more items than you .",
+        "emotion": "happiness",
+        "explanation": "the speaker is happy that A is willing to try his yogurt suggestion",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Have you ever tried a kind of yogurt with old milk in it ? It tastes great and very healthy too .",
+            "Maybe I will try next time ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Why don ' t you go ahead of me ? I have more items than you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Thank you . In fact , I am in a hurry . My wife is waiting for me at the parking lot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Why don ' t you go ahead of me ?",
+            "I am in a hurry . My wife is waiting for me at the parking lot ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . In fact , I am in a hurry . My wife is waiting for me at the parking lot .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You ' re welcome . It was good seeing you again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Thank you . In fact , I am in a hurry . My wife is waiting for me at the parking lot ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re welcome . It was good seeing you again .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Me too . Have a great day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "You ' re welcome . It was good seeing you again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Me too . Have a great day .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

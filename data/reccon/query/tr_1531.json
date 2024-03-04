@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It ' s very nice of you to say so . I should say you are glamorous yourself , as a matter of fact .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Yes , it suits you very well . It certainly is unique . I don ' t think I ' Ve seen anything like it before .",
+            "it matches your dress marvelously ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "It ' s very nice of you to say so . I should say you are glamorous yourself , as a matter of fact .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

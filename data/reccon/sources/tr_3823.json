@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Are you alright , Ethan ? You don't seem to be as cheerful as you normally are .",
+        "emotion": "neutral",
+        "text": "Are you alright , Ethan ? You don't seem to be as cheerful as you normally are .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "To be honest , Ava , I've just had a really bad day .",
+        "emotion": "neutral",
+        "text": "To be honest , Ava , I've just had a really bad day .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What happened ?",
+        "emotion": "neutral",
+        "text": "What happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "First , I slept through my alarm and ended up two hours late to work .",
+        "emotion": "neutral",
+        "text": "First , I slept through my alarm and ended up two hours late to work .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What did your boss say ?",
+        "emotion": "neutral",
+        "text": "What did your boss say ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "He told me that if I showed up late one more time , he'd fire me . He's so mean !",
+        "emotion": "neutral",
+        "text": "He told me that if I showed up late one more time , he'd fire me . He's so mean !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's horrible . Was that the first time you'd shown up late to work ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "He told me that if I showed up late one more time , he'd fire me . He's so mean !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's horrible . Was that the first time you'd shown up late to work ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That was my second time . The first time , I was in a car accident .",
+        "emotion": "neutral",
+        "text": "That was my second time . The first time , I was in a car accident .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Is your boss Chinese ?",
+        "emotion": "neutral",
+        "text": "Is your boss Chinese ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "No , he's from Australia . Before I met him , I thought Australians were supposed to be relaxed and easy-going . I had no idea he'd be so fussy about things .",
+        "emotion": "neutral",
+        "text": "No , he's from Australia . Before I met him , I thought Australians were supposed to be relaxed and easy-going . I had no idea he'd be so fussy about things .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "What are you going to do ?",
+        "emotion": "neutral",
+        "text": "What are you going to do ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I think I'm going to look for another job . I need to find a boss that is a bit more sensitive and optimistic than my current boss .",
+        "emotion": "neutral",
+        "text": "I think I'm going to look for another job . I need to find a boss that is a bit more sensitive and optimistic than my current boss .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "That sounds like a sensible plan . Do you want me to help you with your job search ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I think I'm going to look for another job ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like a sensible plan . Do you want me to help you with your job search ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That's very generous of you . Thanks for the offer .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "Do you want me to help you with your job search ?",
+            "That's very generous of you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's very generous of you . Thanks for the offer .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Don't mention it . That's what friends are for !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "That's very generous of you . Thanks for the offer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . That's what friends are for !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

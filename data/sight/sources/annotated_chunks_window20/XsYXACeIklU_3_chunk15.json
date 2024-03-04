@@ -1,0 +1,62 @@
+[
+    {
+        "text": "When you have an exponential random variable with parameter lambda, the expected value of that random variable is 1 over lambda."
+    },
+    {
+        "text": "Here we're talking about the first arrival time in a process with rate 3 lambda."
+    },
+    {
+        "text": "The expected time until the first arrival is 1 over (3 lambda)."
+    },
+    {
+        "text": "Alright."
+    },
+    {
+        "text": "So at this time, this bulb, this arrival happened, this bulb has been burned."
+    },
+    {
+        "text": "So we don't care about that bulb anymore."
+    },
+    {
+        "text": "We start at this time, and we look forward."
+    },
+    {
+        "text": "This bulb has been burned."
+    },
+    {
+        "text": "So let's just look forward from now on."
+    },
+    {
+        "text": "What have we got?"
+    },
+    {
+        "text": "We have two bulbs that are burning."
+    },
+    {
+        "text": "We have a Poisson process that's the bigger picture of what could happen to that light bulb, if we were to keep replacing it."
+    },
+    {
+        "text": "Another Poisson process."
+    },
+    {
+        "text": "These two processes are, again, independent."
+    },
+    {
+        "text": "From this time until that time, how long does it take?"
+    },
+    {
+        "text": "It's the time until either this process records an arrival or that process records and arrival."
+    },
+    {
+        "text": "That's the same as the time that the merged process of these two records an arrival."
+    },
+    {
+        "text": "So we're talking about the expected time until the first arrival in a merged process."
+    },
+    {
+        "text": "The merged process is Poisson."
+    },
+    {
+        "text": "It's Poisson with rate 2 lambda."
+    }
+]

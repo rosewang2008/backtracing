@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Yes , but I still don't have many friends here yet .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "your English is so good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , but I still don't have many friends here yet .",
+        "id": 14,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

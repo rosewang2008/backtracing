@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let me have a look . Oh , no . They are Chinese poems which describe this happy scene .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "There are many Chinese characters on its body , too .",
+            "Oh , no . They are Chinese poems which describe this happy scene ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me have a look . Oh , no . They are Chinese poems which describe this happy scene .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

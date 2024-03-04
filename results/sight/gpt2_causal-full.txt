@@ -1,0 +1,11 @@
+File: results/sight/annotated_chunks_window20/gpt2_causal-full.csv
+Total: 201856
+Num errors: 0
+Num large context: 0
+File: results/sight/annotated_chunks_window20/gpt2_causal-full.csv
+>> Score key: causal-full
+Top 1 accuracy: 0.13125
+Top 1 min distance: 7.4
+Top 3 accuracy: 0.20625
+Top 3 min distance: 2.8
+

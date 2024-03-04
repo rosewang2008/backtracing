@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Now, of course, here I was very lucky."
+    },
+    {
+        "text": "In general, I could not expect things to simplify that much."
+    },
+    {
+        "text": "In fact, I cheated."
+    },
+    {
+        "text": "I started from that."
+    },
+    {
+        "text": "I expanded."
+    },
+    {
+        "text": "And then that is how I got my example."
+    },
+    {
+        "text": "The general method will be a bit different, but you will see it will actually also involve completing squares."
+    },
+    {
+        "text": "Just there is more to it than what we have seen."
+    },
+    {
+        "text": "We will come back to this tomorrow."
+    },
+    {
+        "text": "How do I know that this equals?"
+    },
+    {
+        "text": "y is what negative one?"
+    },
+    {
+        "text": "How do I know that that whole function is greater or equal to negative one?"
+    },
+    {
+        "text": "Well, I wrote f of x, y as something squared plus 2y2 minus one."
+    },
+    {
+        "text": "This squared is always a positive number, non-negative."
+    },
+    {
+        "text": "It is a square."
+    },
+    {
+        "text": "The square of something is always non-negative."
+    },
+    {
+        "text": "Similarly, y2 is also always non-negative."
+    },
+    {
+        "text": "If you add something that is at least zero plus something that is at least zero and you subtract one, you get always at least minus one."
+    },
+    {
+        "text": "And, in fact, the only way that you can get minus one is if both of these guys are zero at the same time."
+    },
+    {
+        "text": "That is how I get my minimum."
+    }
+]

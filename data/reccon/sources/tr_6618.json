@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What's in the box ?",
+        "emotion": "neutral",
+        "text": "What's in the box ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sandy , I think we made a mistake ...",
+        "emotion": "neutral",
+        "text": "Sandy , I think we made a mistake ...",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What do you mean ?",
+        "emotion": "neutral",
+        "text": "What do you mean ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It's a cute little teddy bear !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "a cute little teddy bear !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It's a cute little teddy bear !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How sweet ! Maybe he was just a shy guy who had a crush on you !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            4,
+            5,
+            5
+        ],
+        "expanded emotion cause span": [
+            "How sweet !",
+            "a cute little teddy bear !",
+            "a shy guy",
+            "a crush on you !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "How sweet ! Maybe he was just a shy guy who had a crush on you !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "And look what we did to him ! Hey ... he left me his business card .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "he was just a shy guy who had a crush on you !",
+            "what we did to him !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "And look what we did to him ! Hey ... he left me his business card .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow ! Call him tonight ! You guys will really have an interesting love story to tell everyone !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            4,
+            5,
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "How sweet !",
+            "a cute little teddy bear !",
+            "a shy guy",
+            "a crush on you !",
+            "he left me his business card .",
+            "interesting love story"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Wow ! Call him tonight ! You guys will really have an interesting love story to tell everyone !",
+        "id": 7
+    }
+]

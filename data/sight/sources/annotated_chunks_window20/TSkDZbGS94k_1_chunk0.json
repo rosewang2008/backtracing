@@ -1,0 +1,62 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or to view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "It doesn't run Flash Player, so I had to run them on Chrome."
+    },
+    {
+        "text": "All right, so let's move on to our second chapter."
+    },
+    {
+        "text": "And hopefully, in this chapter, you will feel a little better if you felt like it was going a bit fast in the first chapter."
+    },
+    {
+        "text": "And the main reason why I actually went fast, especially in terms of confidence interval, some of you came and asked me, what do you mean by this is a confidence interval?"
+    },
+    {
+        "text": "What does it mean that it's not happening in there with probability 95%, et cetera?"
+    },
+    {
+        "text": "I just went really fast so that you could see why I didn't want to give you a first week doing probability only and without understanding what the statistical context for it was."
+    },
+    {
+        "text": "So hopefully, all these things that we've done in terms of probability, you actually know why we've been doing them."
+    },
+    {
+        "text": "And so we're basically going to go back to what we're doing, maybe start with some statistical setup."
+    },
+    {
+        "text": "But the goal of this lecture is really going to go back again to what we've seen from a purely statistical perspective."
+    },
+    {
+        "text": "So the first thing we're going to do is explain why we're doing statistical modeling."
+    },
+    {
+        "text": "So in practice, if you have data, if you observe a bunch of points, and here I gave you some numbers, for example."
+    },
+    {
+        "text": "So here's a partial data set with the number of siblings, including self, that were collected from college students a few years back."
+    },
+    {
+        "text": "So I was teaching a class like yours, and I actually asked students to go and fill out some Google form and tell me a bunch of things."
+    },
+    {
+        "text": "And one of the questions was, including yourself, how many siblings do you have?"
+    },
+    {
+        "text": "And so they gave me this list of numbers."
+    },
+    {
+        "text": "And there's many ways I can think of this list of numbers."
+    },
+    {
+        "text": "I could think of it as being just a discrete distribution on the set of numbers between 1."
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Well , compared with my wife , I'm just a beginner .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "It sounds like you're a clothing expert ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , compared with my wife , I'm just a beginner .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

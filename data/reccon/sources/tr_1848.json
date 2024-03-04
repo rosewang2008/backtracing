@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Say , Anna , what are you doing tonight ? Would you like to go out ?",
+        "emotion": "happiness",
+        "explanation": "Asking friend to go out tonight.",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go out"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Say , Anna , what are you doing tonight ? Would you like to go out ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh , sorry , I can't . I'm going to work late tonight . I have to finish this report .",
+        "emotion": "neutral",
+        "text": "Oh , sorry , I can't . I'm going to work late tonight . I have to finish this report .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , how about tomorrow night ? Are you doing anything then ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go out"
+        ],
+        "type": [
+            "latent",
+            "self-contagion"
+        ],
+        "text": "Well , how about tomorrow night ? Are you doing anything then ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , I'm not . What are you planning to do ?",
+        "emotion": "neutral",
+        "text": "No , I'm not . What are you planning to do ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm going to see a musical . Would you like to come ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            5
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "go out",
+            "I'm going to see a musical ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm going to see a musical . Would you like to come ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure , I'd love to ! But let me pay for the tickets this time . It's my turn .",
+        "emotion": "neutral",
+        "text": "Sure , I'd love to ! But let me pay for the tickets this time . It's my turn .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "All right ! Thanks !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Sure , I'd love to !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "All right ! Thanks !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

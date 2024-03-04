@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let's hope it is !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I hope we are over our financial difficulties for good ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's hope it is !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

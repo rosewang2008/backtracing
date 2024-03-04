@@ -1,0 +1,119 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Lester , you are really fantastic at automobile repair .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Lester , you are really fantastic at automobile repair .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thanks , June . But I think I need to be certified as a mechanic before I ' m allowed to repair cars for a living .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks , June . But I think I need to be certified as a mechanic before I ' m allowed to repair cars for a living .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s not a big problem . There are many small schools for adults like you who can study to be certified .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "That ' s not a big problem . There are many small schools for adults like you who can study to be certified .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I guess I never thought of that before .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic",
+            "That ' s not a big problem . There are many small schools for adults like you who can study to be certified ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I guess I never thought of that before .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "And you can easily get a student loan from a vocational school , or from the government .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic"
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "And you can easily get a student loan from a vocational school , or from the government .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Wow , you ' Ve inspired me to do something !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "you are really fantastic",
+            "That ' s not a big problem . There are many small schools for adults like you who can study to be certified .",
+            "you can easily get a student loan"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , you ' Ve inspired me to do something !",
+        "id": 6,
+        "source_sentences": [
+            0,
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

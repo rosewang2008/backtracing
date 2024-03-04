@@ -1,0 +1,1523 @@
+[
+    {
+        "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+        "text": "Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+        "text": "To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+        "text": "JOHN TSITSIKLIS: Today we're going to finish our discussion of the Poisson process."
+    },
+    {
+        "text": "We're going to see a few of its properties, do a few interesting problems, some more interesting than others."
+    },
+    {
+        "text": "So go through a few examples and then we're going to talk about some quite strange things that happen with the Poisson process."
+    },
+    {
+        "text": "So the first thing is to remember what the Poisson processes is."
+    },
+    {
+        "text": "It's a model, let's say, of arrivals of customers that are, in some sense, quote unquote, completely random, that is a customer can arrive at any point in time."
+    },
+    {
+        "text": "All points in time are equally likely."
+    },
+    {
+        "text": "And different points in time are sort of independent of other points in time."
+    },
+    {
+        "text": "So the fact that I got an arrival now doesn't tell me anything about whether there's going to be an arrival at some other time."
+    },
+    {
+        "text": "In some sense, it's a continuous time version of the Bernoulli process."
+    },
+    {
+        "text": "So the best way to think about the Poisson process is that we divide time into extremely tiny slots."
+    },
+    {
+        "text": "And in each time slot, there's an independent possibility of having an arrival."
+    },
+    {
+        "text": "Different time slots are independent of each other."
+    },
+    {
+        "text": "On the other hand, when the slot is tiny, the probability for obtaining an arrival during that tiny slot is itself going to be tiny."
+    },
+    {
+        "text": "So we capture these properties into a formal definition what the Poisson process is."
+    },
+    {
+        "text": "We have a probability mass function for the number of arrivals, k, during an interval of a given length."
+    },
+    {
+        "text": "So this is the sort of basic description of the distribution of the number of arrivals."
+    },
+    {
+        "text": "So tau is fixed."
+    },
+    {
+        "text": "And k is the parameter."
+    },
+    {
+        "text": "So when we add over all k's, the sum of these probabilities has to be equal to 1."
+    },
+    {
+        "text": "There's a time homogeneity assumption, which is hidden in this, namely, the only thing that matters is the duration of the time interval, not where the time interval sits on the real axis."
+    },
+    {
+        "text": "Then we have an independence assumption."
+    },
+    {
+        "text": "Intervals that are disjoint are statistically independent from each other."
+    },
+    {
+        "text": "So any information you give me about arrivals during this time interval doesn't change my beliefs about what's going to happen during another time interval."
+    },
+    {
+        "text": "So this is a generalization of the idea that we had in Bernoulli processes that different time slots are independent of each other."
+    },
+    {
+        "text": "And then to specify this function, the distribution of the number of arrivals, we sort of go in stages."
+    },
+    {
+        "text": "We first specify this function for the case where the time interval is very small."
+    },
+    {
+        "text": "And I'm telling you what those probabilities will be."
+    },
+    {
+        "text": "And based on these then, we do some calculations and to find the formula for the distribution of the number of arrivals for intervals of a general duration."
+    },
+    {
+        "text": "So for a small duration, delta, the probability of obtaining 1 arrival is lambda delta."
+    },
+    {
+        "text": "The remaining probability is assigned to the event that we get to no arrivals during that interval."
+    },
+    {
+        "text": "The probability of obtaining more than 1 arrival in a tiny interval is essentially 0."
+    },
+    {
+        "text": "And when we say essentially, it's means modular, terms that of order delta squared."
+    },
+    {
+        "text": "And when delta is very small, anything which is delta squared can be ignored."
+    },
+    {
+        "text": "So up to delta squared terms, that's what happened during a little interval."
+    },
+    {
+        "text": "Now if we know the probability distribution for the number of arrivals in a little interval."
+    },
+    {
+        "text": "We can use this to get the distribution for the number of arrivals over several intervals."
+    },
+    {
+        "text": "How do we do that?"
+    },
+    {
+        "text": "The big interval is composed of many little intervals."
+    },
+    {
+        "text": "Each little interval is independent from any other little interval, so is it is as if we have a sequence of Bernoulli trials."
+    },
+    {
+        "text": "Each Bernoulli trial is associated with a little interval and has a small probability of obtaining a success or an arrival during that mini-slot."
+    },
+    {
+        "text": "On the other hand, when delta is small, and you take a big interval and chop it up, you get a large number of little intervals."
+    },
+    {
+        "text": "So what we essentially have here is a Bernoulli process, in which is the number of trials is huge but the probability of success during any given trial is tiny."
+    },
+    {
+        "text": "The average number of trials ends up being proportional to the length of the interval."
+    },
+    {
+        "text": "If you have twice as large an interval, it's as if you're having twice as many over these mini-trials, so the expected number of arrivals will increase proportionately."
+    },
+    {
+        "text": "There's also this parameter lambda, which we interpret as expected number of arrivals per unit time."
+    },
+    {
+        "text": "And it comes in those probabilities here."
+    },
+    {
+        "text": "When you double lambda, this means that a little interval is twice as likely to get an arrival."
+    },
+    {
+        "text": "So you would expect to get twice as many arrivals as well."
+    },
+    {
+        "text": "That's why the expected number of arrivals during an interval of length tau also scales proportional to this parameter lambda."
+    },
+    {
+        "text": "Somewhat unexpectedly, it turns out that the variance of the number of arrivals is also the same as the mean."
+    },
+    {
+        "text": "This is a peculiarity that happens in the Poisson process."
+    },
+    {
+        "text": "So this is one way of thinking about Poisson process, in terms of little intervals, each one of which has a tiny probability of success."
+    },
+    {
+        "text": "And we think of the distribution associated with that process as being described by this particular PMF."
+    },
+    {
+        "text": "So this is the PMF for the number of arrivals during an interval of a fixed duration, tau."
+    },
+    {
+        "text": "It's a PMF that extends all over the entire range of non-negative integers."
+    },
+    {
+        "text": "So the number of arrivals you can get during an interval for certain length can be anything."
+    },
+    {
+        "text": "You can get as many arrivals as you want."
+    },
+    {
+        "text": "Of course the probability of getting a zillion arrivals is going to be tiny."
+    },
+    {
+        "text": "But in principle, this is possible."
+    },
+    {
+        "text": "And that's because an interval, even if it's a fixed length, consists of an infinite number of mini-slots in some sense."
+    },
+    {
+        "text": "You can divide, chop it up, into as many mini-slots as you want."
+    },
+    {
+        "text": "So in principle, it's possible that every mini-slot gets an arrival."
+    },
+    {
+        "text": "In principle, it's possible to get an arbitrarily large number of arrivals."
+    },
+    {
+        "text": "So this particular formula here is not very intuitive when you look at it."
+    },
+    {
+        "text": "But it's a legitimate PMF."
+    },
+    {
+        "text": "And it's called the Poisson PMF."
+    },
+    {
+        "text": "It's the PMF that describes the number of arrivals."
+    },
+    {
+        "text": "So that's one way of thinking about the Poisson process, where the basic object of interest would be this PMF and you try to work with it."
+    },
+    {
+        "text": "There's another way of thinking about what happens in the Poisson process."
+    },
+    {
+        "text": "And this has to do with letting things evolve in time."
+    },
+    {
+        "text": "You start at time 0."
+    },
+    {
+        "text": "There's going to be a time at which the first arrival occurs, and call that time T1."
+    },
+    {
+        "text": "This time turns out to have an exponential distribution with parameter lambda."
+    },
+    {
+        "text": "Once you get an arrival, it's as if the process starts fresh."
+    },
+    {
+        "text": "The best way to understand why this is the case is by thinking in terms of the analogy with the Bernoulli process."
+    },
+    {
+        "text": "If you believe that statement for the Bernoulli process, since this is a limiting case, it should also be true."
+    },
+    {
+        "text": "So starting from this time, we're going to wait a random amount of time until we get the second arrival This random amount of time, let's call it T2."
+    },
+    {
+        "text": "This time, T2 is also going to have an exponential distribution with the same parameter, lambda."
+    },
+    {
+        "text": "And these two are going to be independent of each other."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So the Poisson process has all the same memorylessness properties that the Bernoulli process has."
+    },
+    {
+        "text": "What's another way of thinking of this property?"
+    },
+    {
+        "text": "So think of a process where you have a light bulb."
+    },
+    {
+        "text": "The time at the light bulb burns out, you can model it by an exponential random variable."
+    },
+    {
+        "text": "And suppose that they tell you that so far, we're are sitting at some time, T. And I tell you that the light bulb has not yet burned out."
+    },
+    {
+        "text": "What does this tell you about the future of the light bulb?"
+    },
+    {
+        "text": "Is the fact that they didn't burn out, so far, is it good news or is it bad news?"
+    },
+    {
+        "text": "Would you rather keep this light bulb that has worked for t times steps and is still OK?"
+    },
+    {
+        "text": "Or would you rather use a new light bulb that starts new at that point in time?"
+    },
+    {
+        "text": "Because of the memorylessness property, the past of that light bulb doesn't matter."
+    },
+    {
+        "text": "So the future of this light bulb is statistically the same as the future of a new light bulb."
+    },
+    {
+        "text": "For both of them, the time until they burn out is going to be described an exponential distribution."
+    },
+    {
+        "text": "So one way that people described the situation is to say that used is exactly as good as a new."
+    },
+    {
+        "text": "So a used on is no worse than a new one."
+    },
+    {
+        "text": "A used one is no better than a new one."
+    },
+    {
+        "text": "So a used light bulb that hasn't yet burnt out is exactly as good as a new light bulb."
+    },
+    {
+        "text": "So that's another way of thinking about the memorylessness that we have in the Poisson process."
+    },
+    {
+        "text": "Back to this picture."
+    },
+    {
+        "text": "The time until the second arrival is the sum of two independent exponential random variables."
+    },
+    {
+        "text": "So, in principle, you can use the convolution formula to find the distribution of T1 plus T2, and that would be what we call Y2, the time until the second arrival."
+    },
+    {
+        "text": "But there's also a direct way of obtaining to the distribution of Y2, and this is the calculation that we did last time on the blackboard."
+    },
+    {
+        "text": "And actually, we did it more generally."
+    },
+    {
+        "text": "We found the time until the case arrival occurs."
+    },
+    {
+        "text": "It has a closed form formula, which is called the Erlang distribution with k degrees of freedom."
+    },
+    {
+        "text": "So let's see what's going on here."
+    },
+    {
+        "text": "It's a distribution Of what kind?"
+    },
+    {
+        "text": "It's a continuous distribution."
+    },
+    {
+        "text": "It's a probability density function."
+    },
+    {
+        "text": "This is because the time is a continuous random variable."
+    },
+    {
+        "text": "Time is continuous."
+    },
+    {
+        "text": "Arrivals can happen at any time."
+    },
+    {
+        "text": "So we're talking about the PDF."
+    },
+    {
+        "text": "This k is just the parameter of the distribution."
+    },
+    {
+        "text": "We're talking about the k-th arrival, so k is a fixed number."
+    },
+    {
+        "text": "Lambda is another parameter of the distribution, which is the arrival rate So it's a PDF over the Y's, whereas lambda and k are parameters of the distribution."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this was what we knew from last time."
+    },
+    {
+        "text": "Just to get some practice, let us do a problem that's not too difficult, but just to see how we use the various formulas that we have."
+    },
+    {
+        "text": "So Poisson was a mathematician, but Poisson also means fish in French."
+    },
+    {
+        "text": "So Poisson goes fishing."
+    },
+    {
+        "text": "And let's assume that fish are caught according to a Poisson process."
+    },
+    {
+        "text": "That's not too bad an assumption."
+    },
+    {
+        "text": "At any given point in time, you have a little probability that a fish would be caught."
+    },
+    {
+        "text": "And whether you catch one now is sort of independent about whether at some later time a fish will be caught or not."
+    },
+    {
+        "text": "So let's just make this assumption."
+    },
+    {
+        "text": "And suppose that the rules of the game are that you-- Fish are being called it the certain rate of 0.6 per hour."
+    },
+    {
+        "text": "You fish for 2 hours, no matter what."
+    },
+    {
+        "text": "And then there are two possibilities."
+    },
+    {
+        "text": "If I have caught a fish, I stop and go home."
+    },
+    {
+        "text": "So if some fish have been caught, so there's at least 1 arrival during this interval, I go home."
+    },
+    {
+        "text": "Or if nothing has being caught, I continue fishing until I catch something."
+    },
+    {
+        "text": "And then I go home."
+    },
+    {
+        "text": "So that's the description of what is going to happen."
+    },
+    {
+        "text": "And now let's starts asking questions of all sorts."
+    },
+    {
+        "text": "What is the probability that I'm going to be fishing for more than 2 hours?"
+    },
+    {
+        "text": "I will be fishing for more than 2 hours, if and only if no fish were caught during those 2 hours, in which case, I will have to continue."
+    },
+    {
+        "text": "Therefore, this is just this quantity."
+    },
+    {
+        "text": "The probability of catching 2 fish in-- of catching 0 fish in the next 2 hours, and according to the formula that we have, this is going to be e to the minus lambda times how much time we have."
+    },
+    {
+        "text": "There's another way of thinking about this."
+    },
+    {
+        "text": "The probability that I fish for more than 2 hours is the probability that the first catch happens after time 2, which would be the integral from 2 to infinity of the density of the first arrival time."
+    },
+    {
+        "text": "And that density is an exponential."
+    },
+    {
+        "text": "So you do the integral of an exponential, and, of course, you would get the same answer."
+    },
+    {
+        "text": "OK. That's easy."
+    },
+    {
+        "text": "So what's the probability of fishing for more than 2 but less than 5 hours?"
+    },
+    {
+        "text": "What does it take for this to happen?"
+    },
+    {
+        "text": "For this to happen, we need to catch 0 fish from time 0 to 2 and catch the first fish sometime between 2 and 5."
+    },
+    {
+        "text": "So if you-- one way of thinking about what's happening here might be to say that there's a Poisson process that keeps going on forever."
+    },
+    {
+        "text": "But as soon as I catch the first fish, instead of continuing fishing and obtaining those other fish I just go home right now."
+    },
+    {
+        "text": "Now the fact that I go home before time 5 means that, if I were to stay until time 5, I would have caught at least 1 fish."
+    },
+    {
+        "text": "I might have caught more than 1."
+    },
+    {
+        "text": "So the event of interest here is that the first catch happens between times 2 and 5."
+    },
+    {
+        "text": "So one way of calculating this quantity would be-- Its the probability that the first catch happens between times 2 and 5."
+    },
+    {
+        "text": "Another way to deal with it is to say, this is the probability that I caught 0 fish in the first 2 hours and then the probability that I catch at least 1 fish during the next 3 hours."
+    },
+    {
+        "text": "This."
+    },
+    {
+        "text": "What is this?"
+    },
+    {
+        "text": "The probability of 0 fish in the next 3 hours is the probability of 0 fish during this time."
+    },
+    {
+        "text": "1 minus this is the probability of catching at least 1 fish, of having at least 1 arrival, between times 2 and 5."
+    },
+    {
+        "text": "If there's at least 1 arrival between times 2 and 5, then I would have gone home by time 5."
+    },
+    {
+        "text": "So both of these, if you plug-in numbers and all that, of course, are going to give you the same answer."
+    },
+    {
+        "text": "Now next, what's the probability that I catch at least 2 fish?"
+    },
+    {
+        "text": "In which scenario are we?"
+    },
+    {
+        "text": "Under this scenario, I go home when I catch my first fish."
+    },
+    {
+        "text": "So in order to catch at least 2 fish, it must be in this case."
+    },
+    {
+        "text": "So this is the same as the event that I catch at least 2 fish during the first 2 time steps."
+    },
+    {
+        "text": "So it's going to be the probability from 2 to infinity, the probability that I catch 2 fish, or that I catch 3 fish, or I catch more than that."
+    },
+    {
+        "text": "So it's this quantity."
+    },
+    {
+        "text": "k is the number of fish that I catch."
+    },
+    {
+        "text": "At least 2, so k goes from 2 to infinity."
+    },
+    {
+        "text": "These are the probabilities of catching a number k of fish during this interval."
+    },
+    {
+        "text": "And if you want a simpler form without an infinite sum, this would be 1 minus the probability of catching 0 fish, minus the probability of catching 1 fish, during a time interval of length 2."
+    },
+    {
+        "text": "Another way to think of it."
+    },
+    {
+        "text": "I'm going to catch 2 fish, at least 2 fish, if and only if the second fish caught in this process happens before time 2."
+    },
+    {
+        "text": "So that's another way of thinking about the same event."
+    },
+    {
+        "text": "So it's going to be the probability that the random variable Y2, the arrival time over the second fish, is less than or equal to 2."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "The next one is a little trickier."
+    },
+    {
+        "text": "Here we need to do a little bit of divide and conquer."
+    },
+    {
+        "text": "Overall, in this expedition, what the expected number of fish to be caught?"
+    },
+    {
+        "text": "One way to think about it is to try to use the total expectations theorem."
+    },
+    {
+        "text": "And think of expected number of fish, given this scenario, or expected number of fish, given this scenario."
+    },
+    {
+        "text": "That's a little more complicated than the way I'm going to do it."
+    },
+    {
+        "text": "The way I'm going to do is to think as follows-- Expected number of fish is the expected number of fish caught between times 0 and 2 plus expected number of fish caught after time 2."
+    },
+    {
+        "text": "So what's the expected number caught between time 0 and 2?"
+    },
+    {
+        "text": "This is lambda t. So lambda is 0.6 times 2."
+    },
+    {
+        "text": "This is the expected number of fish that are caught between times 0 and 2."
+    },
+    {
+        "text": "Now let's think about the expected number of fish caught afterwards."
+    },
+    {
+        "text": "How many fish are being caught afterwards?"
+    },
+    {
+        "text": "Well it depends on the scenario."
+    },
+    {
+        "text": "If we're in this scenario, we've gone home and we catch 0."
+    },
+    {
+        "text": "If we're in this scenario, then we continue fishing until we catch one."
+    },
+    {
+        "text": "So the expected number of fish to be caught after time 2 is going to be the probability of this scenario times 1."
+    },
+    {
+        "text": "And the probability of that scenario is the probability that they call it's 0 fish during the first 2 time steps times 1, which is the number of fish I'm going to catch if I continue."
+    },
+    {
+        "text": "The expected total fishing time we can calculate exactly the same way."
+    },
+    {
+        "text": "I'm jumping to the last one."
+    },
+    {
+        "text": "My total fishing time has a period of 2 time steps."
+    },
+    {
+        "text": "I'm going to fish for 2 time steps no matter what."
+    },
+    {
+        "text": "And then if I caught 0 fish, which happens with this probability, my expected time is going to be the expected time from here onwards, which is the expected value of this geometric random variable with parameter lambda."
+    },
+    {
+        "text": "So the expected time is 1 over lambda."
+    },
+    {
+        "text": "And in our case this, is 1/0.6."
+    },
+    {
+        "text": "Finally, if I tell you that I have been fishing for 4 hours and nothing has been caught so far, how much do you expect this quantity to be?"
+    },
+    {
+        "text": "Here is the story that, again, that for the Poisson process used is as good as new."
+    },
+    {
+        "text": "The process does not have any memory."
+    },
+    {
+        "text": "Given what happens in the past doesn't matter for the future."
+    },
+    {
+        "text": "It's as if the process starts new at this point in time."
+    },
+    {
+        "text": "So this one is going to be, again, the same exponentially distributed random variable with the same parameter lambda."
+    },
+    {
+        "text": "So expected time until an arrival comes is an exponential distribut -- has an exponential distribution with parameter lambda, no matter what has happened in the past."
+    },
+    {
+        "text": "Starting from now and looking into the future, it's as if the process has just started."
+    },
+    {
+        "text": "So it's going to be 1 over lambda, which is 1/0.6."
+    },
+    {
+        "text": "OK. Now our next example is going to be a little more complicated or subtle."
+    },
+    {
+        "text": "But before we get to the example, let's refresh our memory about what we discussed last time about merging Poisson independent Poisson processes."
+    },
+    {
+        "text": "Instead of drawing the picture that way, another way we could draw it could be this."
+    },
+    {
+        "text": "We have a Poisson process with rate lambda1, and a Poisson process with rate lambda2."
+    },
+    {
+        "text": "They have, each one of these, have their arrivals."
+    },
+    {
+        "text": "And then we form the merged process."
+    },
+    {
+        "text": "And the merged process records an arrival whenever there's an arrival in either of the two processes."
+    },
+    {
+        "text": "This process in that process are assumed to be independent of each other."
+    },
+    {
+        "text": "Now different times in this process and that process are independent of each other."
+    },
+    {
+        "text": "So what happens in these two time intervals is independent from what happens in these two time intervals."
+    },
+    {
+        "text": "These two time intervals to determine what happens here."
+    },
+    {
+        "text": "These two time intervals determine what happens there."
+    },
+    {
+        "text": "So because these are independent from these, this means that this is also independent from that."
+    },
+    {
+        "text": "So the independence assumption is satisfied for the merged process."
+    },
+    {
+        "text": "And the merged process turns out to be a Poisson process."
+    },
+    {
+        "text": "And if you want to find the arrival rate for that process, you argue as follows."
+    },
+    {
+        "text": "During a little interval of length delta, we have probability lambda1 delta of having an arrival in this process."
+    },
+    {
+        "text": "We have probability lambda2 delta of an arrival in this process, plus second order terms in delta, which we're ignoring."
+    },
+    {
+        "text": "And then you do the calculation and you find that in this process, you're going to have an arrival probability, which is lambda1 plus lambda2, again ignoring second order in delta-- terms that are second order in delta."
+    },
+    {
+        "text": "So the merged process is a Poisson process whose arrival rate is the sum of the arrival rates of the individual processes."
+    },
+    {
+        "text": "And the calculation we did at the end of the last lecture-- If I tell you that the new arrival happened here, where did that arrival come from?"
+    },
+    {
+        "text": "Did it come from here or from there?"
+    },
+    {
+        "text": "If the lambda1 is equal to lambda2, then by symmetry you would say that it's equally likely to have come from here or to come from there."
+    },
+    {
+        "text": "But if this lambda is much bigger than that lambda, the fact that they saw an arrival is more likely to have come from there."
+    },
+    {
+        "text": "And the formula that captures this is the following."
+    },
+    {
+        "text": "This is the probability that my arrival has come from this particular stream rather than that particular stream."
+    },
+    {
+        "text": "So when an arrival comes and you ask, what is the origin of that arrival?"
+    },
+    {
+        "text": "It's as if I'm flipping a coin with these odds."
+    },
+    {
+        "text": "And depending on outcome of that coin, I'm going to tell you came from there or it came from there."
+    },
+    {
+        "text": "So the origin of an arrival is either this stream or that stream."
+    },
+    {
+        "text": "And this is the probability that the origin of the arrival is that one."
+    },
+    {
+        "text": "Now if we look at 2 different arrivals, and we ask about their origins-- So let's think about the origin of this arrival and compare it with the origin that arrival."
+    },
+    {
+        "text": "The origin of this arrival is random."
+    },
+    {
+        "text": "It could be right be either this or that."
+    },
+    {
+        "text": "And this is the relevant probability."
+    },
+    {
+        "text": "The origin of that arrival is random."
+    },
+    {
+        "text": "It could be either here or is there, and again, with the same relevant probability."
+    },
+    {
+        "text": "Question."
+    },
+    {
+        "text": "The origin of this arrival, is it dependent or independent from the origin that arrival?"
+    },
+    {
+        "text": "And here's how the argument goes."
+    },
+    {
+        "text": "Separate times are independent."
+    },
+    {
+        "text": "Whatever has happened in the process during this set of times is independent from whatever happened in the process during that set of times."
+    },
+    {
+        "text": "Because different times have nothing to do with each other, the origin of this, of an arrival here, has nothing to do with the origin of an arrival there."
+    },
+    {
+        "text": "So the origins of different arrivals are also independent random variables."
+    },
+    {
+        "text": "So if I tell you that-- yeah."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So it as if that each time that you have an arrival in the merge process, it's as if you're flipping a coin to determine where did that arrival came from and these coins are independent of each other."
+    },
+    {
+        "text": "OK. OK. Now we're going to use this-- what we know about merged processes to solve the problem that would be harder to do, if you were not using ideas from Poisson processes."
+    },
+    {
+        "text": "So the formulation of the problem has nothing to do with the Poisson process."
+    },
+    {
+        "text": "The formulation is the following."
+    },
+    {
+        "text": "We have 3 light-bulbs."
+    },
+    {
+        "text": "And each light bulb is independent and is going to die out at the time that's exponentially distributed."
+    },
+    {
+        "text": "So 3 light bulbs."
+    },
+    {
+        "text": "They start their lives and then at some point they die or burn out."
+    },
+    {
+        "text": "So let's think of this as X, this as Y, and this as Z."
+    },
+    {
+        "text": "And we're interested in the time until the last light-bulb burns out."
+    },
+    {
+        "text": "So we're interested in the maximum of the 3 random variables, X, Y, and Z."
+    },
+    {
+        "text": "And in particular, we want to find the expected value of this maximum."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So you can do derived distribution, use the expected value rule, anything you want."
+    },
+    {
+        "text": "You can get this answer using the tools that you already have in your hands."
+    },
+    {
+        "text": "But now let us see how we can connect to this picture with a Poisson picture and come up with the answer in a very simple way."
+    },
+    {
+        "text": "What is an exponential random variable?"
+    },
+    {
+        "text": "An exponential random variable is the first act in the long play that involves a whole Poisson process."
+    },
+    {
+        "text": "So an exponential random variable is the first act of a Poisson movie."
+    },
+    {
+        "text": "Same thing here."
+    },
+    {
+        "text": "You can think of this random variable as being part of some Poisson process that has been running."
+    },
+    {
+        "text": "So it's part of this bigger picture."
+    },
+    {
+        "text": "We're still interested in the maximum of the 3."
+    },
+    {
+        "text": "The other arrivals are not going to affect our answers."
+    },
+    {
+        "text": "It's just, conceptually speaking, we can think of the exponential random variable as being embedded in a bigger Poisson picture."
+    },
+    {
+        "text": "So we have 3 Poisson process that are running in parallel."
+    },
+    {
+        "text": "Let us split the expected time until the last burnout into pieces, which is time until the first burnout, time from the first until the second, and time from the second until the third."
+    },
+    {
+        "text": "And find the expected values of each one of these pieces."
+    },
+    {
+        "text": "What can we say about the expected value of this?"
+    },
+    {
+        "text": "This is the first arrival out of all of these 3 Poisson processes."
+    },
+    {
+        "text": "It's the first event that happens when you look at all of these processes simultaneously."
+    },
+    {
+        "text": "So 3 Poisson processes running in parallel."
+    },
+    {
+        "text": "We're interested in the time until one of them, any one of them, gets in arrival."
+    },
+    {
+        "text": "Rephrase."
+    },
+    {
+        "text": "We merged the 3 Poisson processes, and we ask for the time until we observe an arrival in the merged process."
+    },
+    {
+        "text": "When 1 of the 3 gets an arrival for the first time, the merged process gets its first arrival."
+    },
+    {
+        "text": "So what's the expected value of this time until the first burnout?"
+    },
+    {
+        "text": "It's going to be the expected value of a Poisson random variable."
+    },
+    {
+        "text": "So the first burnout is going to have an expected value, which is-- OK."
+    },
+    {
+        "text": "It's a Poisson process."
+    },
+    {
+        "text": "The merged process of the 3 has a collective arrival rate, which is 3 times lambda."
+    },
+    {
+        "text": "So this is the parameter over the exponential distribution that describes the time until the first arrival in the merged process."
+    },
+    {
+        "text": "And the expected value of this random variable is 1 over that."
+    },
+    {
+        "text": "When you have an exponential random variable with parameter lambda, the expected value of that random variable is 1 over lambda."
+    },
+    {
+        "text": "Here we're talking about the first arrival time in a process with rate 3 lambda."
+    },
+    {
+        "text": "The expected time until the first arrival is 1 over (3 lambda)."
+    },
+    {
+        "text": "Alright."
+    },
+    {
+        "text": "So at this time, this bulb, this arrival happened, this bulb has been burned."
+    },
+    {
+        "text": "So we don't care about that bulb anymore."
+    },
+    {
+        "text": "We start at this time, and we look forward."
+    },
+    {
+        "text": "This bulb has been burned."
+    },
+    {
+        "text": "So let's just look forward from now on."
+    },
+    {
+        "text": "What have we got?"
+    },
+    {
+        "text": "We have two bulbs that are burning."
+    },
+    {
+        "text": "We have a Poisson process that's the bigger picture of what could happen to that light bulb, if we were to keep replacing it."
+    },
+    {
+        "text": "Another Poisson process."
+    },
+    {
+        "text": "These two processes are, again, independent."
+    },
+    {
+        "text": "From this time until that time, how long does it take?"
+    },
+    {
+        "text": "It's the time until either this process records an arrival or that process records and arrival."
+    },
+    {
+        "text": "That's the same as the time that the merged process of these two records an arrival."
+    },
+    {
+        "text": "So we're talking about the expected time until the first arrival in a merged process."
+    },
+    {
+        "text": "The merged process is Poisson."
+    },
+    {
+        "text": "It's Poisson with rate 2 lambda."
+    },
+    {
+        "text": "So that extra time is going to take-- the expected value is going to be 1 over the (rate of that Poisson process)."
+    },
+    {
+        "text": "So 1 over (2 lambda) is the expected value of this random variable."
+    },
+    {
+        "text": "So at this point, this bulb now is also burned."
+    },
+    {
+        "text": "So we start looking from this time on."
+    },
+    {
+        "text": "That part of the picture disappears."
+    },
+    {
+        "text": "Starting from this time, what's the expected value until that remaining light-bulb burns out?"
+    },
+    {
+        "text": "Well, as we said before, in a Poisson process or with exponential random variables, we have memorylessness."
+    },
+    {
+        "text": "A used bulb is as good as a new one."
+    },
+    {
+        "text": "So it's as if we're starting from scratch here."
+    },
+    {
+        "text": "So this is going to be an exponential random variable with parameter lambda."
+    },
+    {
+        "text": "And the expected value of it is going to be 1 over lambda."
+    },
+    {
+        "text": "So the beauty of approaching this problem in this particular way is, of course, that we manage to do everything without any calculus at all, without striking an integral, without trying to calculate expectations in any form."
+    },
+    {
+        "text": "Most of the non-trivial problems that you encounter in the Poisson world basically involve tricks of these kind."
+    },
+    {
+        "text": "You have a question and you try to rephrase it, trying to think in terms of what might happen in the Poisson setting, use memorylessness, use merging, et cetera, et cetera."
+    },
+    {
+        "text": "Now we talked about merging."
+    },
+    {
+        "text": "It turns out that the splitting of Poisson processes also works in a nice way."
+    },
+    {
+        "text": "The story here is exactly the same as for the Bernoulli process."
+    },
+    {
+        "text": "So I'm having a Poisson process."
+    },
+    {
+        "text": "And each time, with some rate lambda, and each time that an arrival comes, I'm going to send it to that stream and the record an arrival here with some probability P. And I'm going to send it to the other stream with some probability 1 minus P. So either of this will happen or that will happen, depending on the outcome of the coin flip that I do."
+    },
+    {
+        "text": "Each time that then arrival occurs, I flip a coin and I decide whether to record it here or there."
+    },
+    {
+        "text": "This is called splitting a Poisson process into two pieces."
+    },
+    {
+        "text": "What kind of process do we get here?"
+    },
+    {
+        "text": "If you look at the little interval for length delta, what's the probability that this little interval gets an arrival?"
+    },
+    {
+        "text": "It's the probability that this one gets an arrival, which is lambda delta times the probability that after I get an arrival my coin flip came out to be that way, so that it sends me there."
+    },
+    {
+        "text": "So this means that this little interval is going to have probability lambda delta P. Or maybe more suggestively, I should write it as lambda P times delta."
+    },
+    {
+        "text": "So every little interval has a probability of an arrival proportional to delta."
+    },
+    {
+        "text": "The proportionality factor is lambda P. So lambda P is the rate of that process."
+    },
+    {
+        "text": "And then you go through the mental exercise that you went through for the Bernoulli process to argue that a different intervals here are independent and so on."
+    },
+    {
+        "text": "And that completes checking that this process is going to be a Poisson process."
+    },
+    {
+        "text": "So when you split a Poisson process by doing independent coin flips each time that something happens, the processes that you get is again a Poisson process, but of course with a reduced rate."
+    },
+    {
+        "text": "So instead of the word splitting, sometimes people also use the words thinning-out."
+    },
+    {
+        "text": "That is, out of the arrivals that came, you keep a few but throw away a few."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So now the last topic over this lecture is a quite curious phenomenon that goes under the name of random incidents."
+    },
+    {
+        "text": "So here's the story."
+    },
+    {
+        "text": "Buses have been running on Mass Ave. from time immemorial."
+    },
+    {
+        "text": "And the bus company that runs the buses claims that they come as a Poisson process with some rate, let's say, of 4 buses per hour."
+    },
+    {
+        "text": "So that the expected time between bus arrivals is going to be 15 minutes."
+    },
+    {
+        "text": "OK. Alright."
+    },
+    {
+        "text": "So people have been complaining that they have been showing up there."
+    },
+    {
+        "text": "They think the buses are taking too long."
+    },
+    {
+        "text": "So you are asked to investigate."
+    },
+    {
+        "text": "Is the company-- Does it operate according to its promises or not."
+    },
+    {
+        "text": "So you send an undercover agent to go and check the interarrival times of the buses."
+    },
+    {
+        "text": "Are they 15 minutes?"
+    },
+    {
+        "text": "Or are they longer?"
+    },
+    {
+        "text": "So you put your dark glasses and you show up at the bus stop at some random time."
+    },
+    {
+        "text": "And you go and ask the guy in the falafel truck, how long has it been since the last arrival?"
+    },
+    {
+        "text": "So of course that guy works for the FBI, right?"
+    },
+    {
+        "text": "So they tell you, well, it's been, let's say, 12 minutes since the last bus arrival."
+    },
+    {
+        "text": "And then you say, \"Oh, 12 minutes."
+    },
+    {
+        "text": "Average time is 15."
+    },
+    {
+        "text": "So a bus should be coming any time now.\""
+    },
+    {
+        "text": "Is that correct?"
+    },
+    {
+        "text": "No, you wouldn't think that way."
+    },
+    {
+        "text": "It's a Poisson process."
+    },
+    {
+        "text": "It doesn't matter how long it has been since the last bus arrival."
+    },
+    {
+        "text": "So you don't go through that fallacy."
+    },
+    {
+        "text": "Instead of predicting how long it's going to be, you just sit down there and wait and measure the time."
+    },
+    {
+        "text": "And you find that this is, let's say, 11 minutes."
+    },
+    {
+        "text": "And you go to your boss and report, \"Well, it took-- I went there and the time from the previous bus to the next one was 23 minutes."
+    },
+    {
+        "text": "It's more than the 15 that they said.\""
+    },
+    {
+        "text": "So go and do that again."
+    },
+    {
+        "text": "You go day after day."
+    },
+    {
+        "text": "You keep these statistics of the length of this interval."
+    },
+    {
+        "text": "And you tell your boss it's a lot more than 15."
+    },
+    {
+        "text": "It tends to be more like 30 or so."
+    },
+    {
+        "text": "So the bus company is cheating us."
+    },
+    {
+        "text": "Does the bus company really run Poisson buses at the rate that they have promised?"
+    },
+    {
+        "text": "Well let's analyze the situation here and figure out what the length of this interval should be, on the average."
+    },
+    {
+        "text": "The naive argument is that this interval is an interarrival time."
+    },
+    {
+        "text": "And interarrival times, on the average, are 15 minutes, if the company runs indeed Poisson processes with these interarrival times."
+    },
+    {
+        "text": "But actually the situation is a little more subtle because this is not a typical interarrival interval."
+    },
+    {
+        "text": "This interarrival interval consists of two pieces."
+    },
+    {
+        "text": "Let's call them T1 and T1 prime."
+    },
+    {
+        "text": "What can you tell me about those two random variables?"
+    },
+    {
+        "text": "What kind of random variable is T1?"
+    },
+    {
+        "text": "Starting from this time, with the Poisson process, the past doesn't matter."
+    },
+    {
+        "text": "It's the time until an arrival happens."
+    },
+    {
+        "text": "So T1 is going to be an exponential random variable with parameter lambda."
+    },
+    {
+        "text": "So in particular, the expected value of T1 is going to be 15 by itself."
+    },
+    {
+        "text": "How about the random variable T1 prime."
+    },
+    {
+        "text": "What kind of random variable is it?"
+    },
+    {
+        "text": "This is like the first arrival in a Poisson process that runs backwards in time."
+    },
+    {
+        "text": "What kind of process is a Poisson process running backwards in time?"
+    },
+    {
+        "text": "Let's think of coin flips."
+    },
+    {
+        "text": "Suppose you have a movie of coin flips."
+    },
+    {
+        "text": "And for some accident, that fascinating movie, you happen to watch it backwards."
+    },
+    {
+        "text": "Will it look any different statistically?"
+    },
+    {
+        "text": "No."
+    },
+    {
+        "text": "It's going to be just the sequence of random coin flips."
+    },
+    {
+        "text": "So a Bernoulli process that's runs in reverse time is statistically identical to a Bernoulli process in forward time."
+    },
+    {
+        "text": "The Poisson process is a limit of the Bernoulli."
+    },
+    {
+        "text": "So, same story with the Poisson process."
+    },
+    {
+        "text": "If you run it backwards in time it looks the same."
+    },
+    {
+        "text": "So looking backwards in time, this is a Poisson process."
+    },
+    {
+        "text": "And T1 prime is the time until the first arrival in this backward process."
+    },
+    {
+        "text": "So T1 prime is also going to be an exponential random variable with the same parameter, lambda."
+    },
+    {
+        "text": "And the expected value of T1 prime is 15."
+    },
+    {
+        "text": "Conclusion is that the expected length of this interval is going to be 30 minutes."
+    },
+    {
+        "text": "And the fact that this agent found the average to be something like 30 does not contradict the claims of the bus company that they're running Poisson buses with a rate of lambda equal to 4."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So maybe the company can this way-- they can defend themselves in court."
+    },
+    {
+        "text": "But there's something puzzling here."
+    },
+    {
+        "text": "How long is the interarrival time?"
+    },
+    {
+        "text": "Is it 15?"
+    },
+    {
+        "text": "Or is it 30?"
+    },
+    {
+        "text": "On the average."
+    },
+    {
+        "text": "The issue is what do we mean by a typical interarrival time."
+    },
+    {
+        "text": "When we say typical, we mean some kind of average."
+    },
+    {
+        "text": "But average over what?"
+    },
+    {
+        "text": "And here's two different ways of thinking about averages."
+    },
+    {
+        "text": "You number the buses."
+    },
+    {
+        "text": "And you have bus number 100."
+    },
+    {
+        "text": "You have bus number 101, bus number 102, bus number 110, and so on."
+    },
+    {
+        "text": "One way of thinking about averages is that you pick a bus number at random."
+    },
+    {
+        "text": "I pick, let's say, that bus, all buses being sort of equally likely to be picked."
+    },
+    {
+        "text": "And I measure this interarrival time."
+    },
+    {
+        "text": "So for a typical bus."
+    },
+    {
+        "text": "Then, starting from here until there, the expected time has to be 1 over lambda, for the Poisson process."
+    },
+    {
+        "text": "But what we did in this experiment was something different."
+    },
+    {
+        "text": "We didn't pick a bus at random."
+    },
+    {
+        "text": "We picked a time at random."
+    },
+    {
+        "text": "And if the picture is, let's say, this way, I'm much more likely to pick this interval and therefore this interarrival time, rather than that interval."
+    },
+    {
+        "text": "Because, this interval corresponds to very few times."
+    },
+    {
+        "text": "So if I'm picking a time at random and, in some sense, let's say, uniform, so that all times are equally likely, I'm much more likely to fall inside a big interval rather than a small interval."
+    },
+    {
+        "text": "So a person who shows up at the bus stop at a random time."
+    },
+    {
+        "text": "They're selecting an interval in a biased way, with the bias favor of longer intervals."
+    },
+    {
+        "text": "And that's why what they observe is a random variable that has a larger expected value then the ordinary expected value."
+    },
+    {
+        "text": "So the subtlety here is to realize that we're talking between two different kinds of experiments."
+    },
+    {
+        "text": "Picking a bus number at random verses picking an interval at random with a bias in favor of longer intervals."
+    },
+    {
+        "text": "Lots of paradoxes that one can cook up using Poisson processes and random processes in general often have to do with the story of this kind."
+    },
+    {
+        "text": "The phenomenon that we had in this particular example also shows up in general, whenever you have other kinds of arrival processes."
+    },
+    {
+        "text": "So the Poisson process is the simplest arrival process there is, where the interarrival times are exponential random variables."
+    },
+    {
+        "text": "There's a larger class of models."
+    },
+    {
+        "text": "They're called renewal processes, in which, again, we have a sequence of successive arrivals, interarrival times are identically distributed and independent, but they may come from a general distribution."
+    },
+    {
+        "text": "So to make the same point of the previous example but in a much simpler setting, suppose that bus interarrival times are either 5 or 10 minutes apart."
+    },
+    {
+        "text": "So you get some intervals that are of length 5."
+    },
+    {
+        "text": "You get some that are of length 10."
+    },
+    {
+        "text": "And suppose that these are equally likely."
+    },
+    {
+        "text": "So we have -- not exactly -- In the long run, we have as many 5 minute intervals as we have 10 minute intervals."
+    },
+    {
+        "text": "So the average interarrival time is 7 and 1/2."
+    },
+    {
+        "text": "But if a person shows up at a random time, what are they going to see?"
+    },
+    {
+        "text": "Do we have as many 5s as 10s?"
+    },
+    {
+        "text": "But every 10 covers twice as much space."
+    },
+    {
+        "text": "So if I show up at a random time, I have probability 2/3 falling inside an interval of duration 10."
+    },
+    {
+        "text": "And I have one 1/3 probability of falling inside an interval of duration 5."
+    },
+    {
+        "text": "That's because, out of the whole real line, 2/3 of it is covered by intervals of length 10, just because they're longer."
+    },
+    {
+        "text": "1/3 is covered by the smaller intervals."
+    },
+    {
+        "text": "Now if I fall inside an interval of length 10 and I measure the length of the interval that I fell into, that's going to be 10."
+    },
+    {
+        "text": "But if I fall inside an interval of length 5 and I measure how long it is, I'm going to get a 5."
+    },
+    {
+        "text": "And that, of course, is going to be different than 7.5."
+    },
+    {
+        "text": "OK. And which number should be bigger?"
+    },
+    {
+        "text": "It's the second number that's bigger because this one is biased in favor of the longer intervals."
+    },
+    {
+        "text": "So that's, again, another illustration of the different results that you get when you have this random incidence phenomenon."
+    },
+    {
+        "text": "So the bottom line, again, is that if you talk about a typical interarrival time, one must be very precise in specifying what we mean typical."
+    },
+    {
+        "text": "So typical means sort of random."
+    },
+    {
+        "text": "But to use the word random, you must specify very precisely what is the random experiment that you are using."
+    },
+    {
+        "text": "And if you're not careful, you can get into apparent puzzles, such as the following."
+    },
+    {
+        "text": "Suppose somebody tells you the average family size is 4, but the average person lives in a family of size 6."
+    },
+    {
+        "text": "Is that compatible?"
+    },
+    {
+        "text": "Family size is 4 on the average, but typical people live, on the average, in families of size 6."
+    },
+    {
+        "text": "Well yes."
+    },
+    {
+        "text": "There's no contradiction here."
+    },
+    {
+        "text": "We're talking about two different experiments."
+    },
+    {
+        "text": "In one experiment, I pick a family at random, and I tell you the average family is 4."
+    },
+    {
+        "text": "In another experiment, I pick a person at random and I tell you that this person, on the average, will be in their family of size 6."
+    },
+    {
+        "text": "And what is the catch here?"
+    },
+    {
+        "text": "That if I pick a person at random, large families are more likely to be picked."
+    },
+    {
+        "text": "So there's a bias in favor of large families."
+    },
+    {
+        "text": "Or if you want to survey, let's say, are trains crowded in your city?"
+    },
+    {
+        "text": "Or are buses crowded?"
+    },
+    {
+        "text": "One choice is to pick a bus at random and inspect how crowded it is."
+    },
+    {
+        "text": "Another choice is to pick a typical person and ask them, \"Did you ride the bus today?"
+    },
+    {
+        "text": "Was it's crowded?\""
+    },
+    {
+        "text": "Well suppose that in this city there's one bus that's extremely crowded and all the other buses are completely empty."
+    },
+    {
+        "text": "If you ask a person."
+    },
+    {
+        "text": "\"Was your bus crowded?\""
+    },
+    {
+        "text": "They will tell you, \"Yes, my bus was crowded.\""
+    },
+    {
+        "text": "There's no witness from the empty buses to testify in their favor."
+    },
+    {
+        "text": "So by sampling people instead of sampling buses, you're going to get different result."
+    },
+    {
+        "text": "And in the process industry, if your job is to inspect and check cookies, you will be faced with a big dilemma."
+    },
+    {
+        "text": "Do you want to find out how many chocolate chips there are on a typical cookie?"
+    },
+    {
+        "text": "Are you going to interview cookies or are you going to interview chocolate chips and ask them how many other chips where there on your cookie?"
+    },
+    {
+        "text": "And you're going to get different answers in these cases."
+    },
+    {
+        "text": "So moral is, one has to be very precise on how you formulate the sampling procedure that you have."
+    },
+    {
+        "text": "And you'll get different answers."
+    }
+]

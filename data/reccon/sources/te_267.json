@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "It ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "It ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "We ' re glad that you ' re here . Would you like a tour of the house ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "It ' s so great to be here ! I ' m so excited to help you and my daughter with your new home !",
+            "you ' re here ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "We ' re glad that you ' re here . Would you like a tour of the house ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' d be great , but could I have a cup of tea first ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "We ' re glad that you ' re here . Would you like a tour of the house ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' d be great , but could I have a cup of tea first ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , I ' ll just go put the kettle on . Why don ' t you have a seat on the sofa and I ' ll go take care of things in the kitchen .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "That ' d be great"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , I ' ll just go put the kettle on . Why don ' t you have a seat on the sofa and I ' ll go take care of things in the kitchen .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That would be lovely , thanks .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Sure , I ' ll just go put the kettle on . Why don ' t you have a seat on the sofa"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That would be lovely , thanks .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Do you take milk or sugar with your tea ?",
+        "emotion": "neutral",
+        "text": "Do you take milk or sugar with your tea ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' ll take a little milk , but no sugar , please . Make sure you let the tea steep a few minutes before you take the tea bag out of the cup .",
+        "emotion": "neutral",
+        "text": "I ' ll take a little milk , but no sugar , please . Make sure you let the tea steep a few minutes before you take the tea bag out of the cup .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Ok . What do you think about our living room ?",
+        "emotion": "neutral",
+        "text": "Ok . What do you think about our living room ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , I do like the mantelpiece and the coffee table , but I don ' t really care for curtains . Did you get them at a yard sale ? They look ancient .",
+        "emotion": "neutral",
+        "text": "Well , I do like the mantelpiece and the coffee table , but I don ' t really care for curtains . Did you get them at a yard sale ? They look ancient .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "My parents gave them to us as a house warming gift .",
+        "emotion": "neutral",
+        "text": "My parents gave them to us as a house warming gift .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Oh dear . Well , I suppose they will do for now . do you ever dust in here ? It seems a bit dusty in here .",
+        "emotion": "neutral",
+        "text": "Oh dear . Well , I suppose they will do for now . do you ever dust in here ? It seems a bit dusty in here .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Your daughter usually does the dusting , and I do the vacuuming .",
+        "emotion": "neutral",
+        "text": "Your daughter usually does the dusting , and I do the vacuuming .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I see . Well , I can help with the chores while I ' m here . You two could probably use my help .",
+        "emotion": "neutral",
+        "text": "I see . Well , I can help with the chores while I ' m here . You two could probably use my help .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "That ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "I can help with the chores while I ' m here ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That ' s very nice of you to offer . Here ' s your tea . Be careful , it ' s still quite hot .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

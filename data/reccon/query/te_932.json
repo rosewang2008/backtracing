@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thanks very much . I ' m sure it will sell well . I can ' t wait to read it . Here ' s my card . Thank you for you time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I ' ll make sure you get an advance copy",
+            "I can ' t wait to read it .",
+            "Thank you for you time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks very much . I ' m sure it will sell well . I can ' t wait to read it . Here ' s my card . Thank you for you time .",
+        "id": 11,
+        "source_sentences": [
+            9,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

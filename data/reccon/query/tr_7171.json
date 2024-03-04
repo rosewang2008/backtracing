@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Whatever . Just turn right here . . . The freeway will be packed at this hour . . . let ' s take a side street . Go on ! Get out of our way ! Move , move !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Are you nuts ! I ' m not going to run a red light !",
+            "Get out of our way !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Whatever . Just turn right here . . . The freeway will be packed at this hour . . . let ' s take a side street . Go on ! Get out of our way ! Move , move !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

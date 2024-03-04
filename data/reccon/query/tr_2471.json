@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "Yes . Look ! Mary is going to throw the bride bouquet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            7
+        ],
+        "expanded emotion cause span": [
+            "wonderful wedding",
+            "Mary is going to throw the bride bouquet ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes . Look ! Mary is going to throw the bride bouquet .",
+        "id": 7,
+        "source_sentences": [
+            1
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

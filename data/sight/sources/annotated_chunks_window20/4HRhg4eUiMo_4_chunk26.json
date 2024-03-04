@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And for her, a p-value is just the number is in an Excel spreadsheet."
+    },
+    {
+        "text": "And actually, small equals good and large equals bad."
+    },
+    {
+        "text": "And that's all she needs to know at this point."
+    },
+    {
+        "text": "Actually, they do the job for her."
+    },
+    {
+        "text": "Small is green."
+    },
+    {
+        "text": "Large is red."
+    },
+    {
+        "text": "And so for her, a p-value is just green or red."
+    },
+    {
+        "text": "But so what she's really implicitly doing with this color code is just applying the golden rule."
+    },
+    {
+        "text": "What the statisticians do for her in the Excel spreadsheet is that they take the numbers for the p-values that are less than some fixed level."
+    },
+    {
+        "text": "So depending on the field in which she works, so she works for pharmaceutical companies, so the p-values are typically compared."
+    },
+    {
+        "text": "The tests are usually performed at level 1% rather than 5%."
+    },
+    {
+        "text": "So 5% is maybe your gold standard if you're doing sociology or trying to, I don't know, release a new blueberry flavor for your toothpaste, like something that's not going to change the life of people."
+    },
+    {
+        "text": "Maybe you're going to run at 5%."
+    },
+    {
+        "text": "It's OK to make a mistake."
+    },
+    {
+        "text": "People are just going to feel gross, but that's about it."
+    },
+    {
+        "text": "Whereas here, if you have this p-value which is less than 1%, it might be more important for some drug discovery, for example."
+    },
+    {
+        "text": "And so let's say you run at 1%."
+    },
+    {
+        "text": "And so what they do in this Excel spreadsheet is that all the numbers that are below 1% show up in green, and all the numbers that are above 1% show up in red."
+    },
+    {
+        "text": "And that's it."
+    },
+    {
+        "text": "That's just applying the golden rule."
+    }
+]

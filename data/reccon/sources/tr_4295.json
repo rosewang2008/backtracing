@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We'd like a half-day package .",
+        "emotion": "happiness",
+        "explanation": "A is excited about ordering something that is desired.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "We'd like a half-day package .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "We offer many different sea water treatments .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "We'd like a half-day package ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We offer many different sea water treatments .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "How many can we choose ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "We offer many different sea water treatments ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How many can we choose ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "The aquamedic pool is included . You can choose three .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            1
+        ],
+        "expanded emotion cause span": [
+            "We'd like a half-day package .",
+            "We'd like a half-day package ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "The aquamedic pool is included . You can choose three .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We'll do the seaweed wrap , the jet bath , and the foot massage .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "The aquamedic pool is included . You can choose three ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "We'll do the seaweed wrap , the jet bath , and the foot massage .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "OK . Here are your robes . You can go shower first .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We'll do the seaweed wrap , the jet bath , and the foot massage ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Here are your robes . You can go shower first .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 12,
+        "timestamp": 1684710326625.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "My doubt is what were we trying to prove while calculating the cost of operation during elimination. And how EA is costlier than LU?"
+    }
+]

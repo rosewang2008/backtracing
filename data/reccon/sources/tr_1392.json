@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Amy , you look very happy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "you look very happy ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi Amy , you look very happy .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I'm very pleased . I've just got two tickets to see the Olympic opening ceremony .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I've just got two tickets to see the Olympic opening ceremony ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , I'm very pleased . I've just got two tickets to see the Olympic opening ceremony .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Wow . You must be very excited .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I've just got two tickets to see the Olympic opening ceremony .",
+            "You must be very excited ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow . You must be very excited .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I certainly am . I would have been very disappointed if I hadn ' t got them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I've just got two tickets to see the Olympic opening ceremony ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I certainly am . I would have been very disappointed if I hadn ' t got them .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Shall we go to a restaurant to celebrate ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "You must be very excited .",
+            "I certainly am ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Shall we go to a restaurant to celebrate ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What a good idea . I'm quite hungry .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "go to a restaurant to celebrate ?",
+            "I'm quite hungry ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What a good idea . I'm quite hungry .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Me too . I feel very thirsty as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "go to a restaurant to celebrate ?",
+            "What a good idea . I'm quite hungry .",
+            "Me too . I feel very thirsty as well ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Me too . I feel very thirsty as well .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let ' s go then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "go to a restaurant to celebrate ?",
+            "I'm quite hungry .",
+            "Me too . I feel very thirsty as well ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Let ' s go then .",
+        "id": 8
+    }
+]

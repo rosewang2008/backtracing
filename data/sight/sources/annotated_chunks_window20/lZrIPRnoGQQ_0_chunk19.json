@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So it starts over here with, so I'm going to use the chain rule."
+    },
+    {
+        "text": "So df df is 1."
+    },
+    {
+        "text": "And then I go in backwards."
+    },
+    {
+        "text": "And I have to use, of course, I have to take the derivatives."
+    },
+    {
+        "text": "I have to use the right rule."
+    },
+    {
+        "text": "So I have to use the product rule."
+    },
+    {
+        "text": "And then soon I'll have to use these power rule and linear rule."
+    },
+    {
+        "text": "So of course, no change there."
+    },
+    {
+        "text": "The change is that by going backwards, oh, I don't know if I completed that sentence, that I could find 100 partial derivatives if the function depended on 100 variables in about 5 times the cost of one variable, 3 to 5 times the cost of 1."
+    },
+    {
+        "text": "So you would expect 100 chain rules would cost 100 times."
+    },
+    {
+        "text": "But you see, we're reusing the pieces in the chain and just having a larger."
+    },
+    {
+        "text": "Our chain is wider, but it's not longer and it's not repeated."
+    },
+    {
+        "text": "Anyway, so here I'm going to use whatever it is, df dc, and df ds."
+    },
+    {
+        "text": "And I'm remembering that."
+    },
+    {
+        "text": "So df dc is s, and df ds is c. That was because f started out as c times s. It was a product."
+    },
+    {
+        "text": "Then we've got to evaluate those."
+    },
+    {
+        "text": "I'll look again to see that I'm hopefully writing down some of the correct things."
+    },
+    {
+        "text": "So now what I've written down next is df dc is 5."
+    },
+    {
+        "text": "Or no, 5 on that example."
+    },
+    {
+        "text": "What is it here?"
+    }
+]

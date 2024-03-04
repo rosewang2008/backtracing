@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So, in fact, I'm going to say this is a double integral of r squared times r dr d theta."
+    },
+    {
+        "text": "I'm on the unit disk, so r goes zero to one, theta goes zero to two pi."
+    },
+    {
+        "text": "And, if you do the calculation, you'll find that this is going to be pi over two."
+    },
+    {
+        "text": "OK, any questions about the example?"
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "OK, how do I get this negative 2x and negative 2y?"
+    },
+    {
+        "text": "So, I want to use my formula for n ds."
+    },
+    {
+        "text": "OK, my surface is given by the graph of a function."
+    },
+    {
+        "text": "It's the graph of a function x squared plus y squared."
+    },
+    {
+        "text": "So, I will use this formula that's up here."
+    },
+    {
+        "text": "I will take the function x squared plus y squared, and I will take its partial derivatives."
+    },
+    {
+        "text": "So, if I take the partial of f, so, f x squared plus y squared with respect to x, I get 2x."
+    },
+    {
+        "text": "So, I put negative 2x, and then same thing, negative 2y, one dx dy, yes?"
+    },
+    {
+        "text": "Which k hat?"
+    },
+    {
+        "text": "Oh, you mean the vector field?"
+    },
+    {
+        "text": "Well, so it's a different part of the story, OK?"
+    },
+    {
+        "text": "So, whenever you do a surface integral for flux, you have two parts of the story."
+    },
+    {
+        "text": "One is the vector field whose flux you're taking."
+    },
+    {
+        "text": "The other one is the surface for which you will be taking flux."
+    },
+    {
+        "text": "So, the vector field only comes as this f in the notation."
+    }
+]

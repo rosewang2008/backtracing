@@ -1,0 +1,66 @@
+[
+    {
+        "file_id": "Xa2jPbURTjQ",
+        "query_id": 0,
+        "timestamp": 1684512668939.0,
+        "annotatedSourceSentencesIndices": [
+            427,
+            428
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "can anyone explain how the 5th column of w8 came out to be?"
+    },
+    {
+        "file_id": "Xa2jPbURTjQ",
+        "query_id": 1,
+        "timestamp": 1684512757144.0,
+        "annotatedSourceSentencesIndices": [
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Question\n23:40 - so you have H2 and to build H4 you did H2(H2)\nTo get H8 you did H2(H4) but do H4(H2) = H8 as well?\nBecause I was thinking if you put H4(H4) you would end up with 16 terms and that should be the same as making H4(H2(H2)) since, well, H2(H2) = H4..."
+    },
+    {
+        "file_id": "Xa2jPbURTjQ",
+        "query_id": 3,
+        "timestamp": 1684512777130.0,
+        "annotatedSourceSentencesIndices": [
+            221
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "In 17.03, Why UU transpose is symmetric?"
+    },
+    {
+        "file_id": "Xa2jPbURTjQ",
+        "query_id": 5,
+        "timestamp": 1684192613269.0,
+        "annotatedSourceSentencesIndices": [
+            81,
+            82,
+            93,
+            79,
+            81,
+            82,
+            93
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "for a square matrix with orthogonal columns will ||Qx||^2 = || x ||^2 hold or the columns have to be orthonormal for this equality to hold ??? a bit confused please help"
+    }
+]

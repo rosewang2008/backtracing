@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Do you like swimming ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "swimming"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Do you like swimming ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes . Swimming is one of my most favorite sports , indoors or out-doors .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Swimming is one of my most favorite sports , indoors or out-doors ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . Swimming is one of my most favorite sports , indoors or out-doors .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Me too . Swimming is a very good exercise for health . It combines water , bath , sunbath , and air bath together . It promotes the growth and haleness of muscles , bone , viscera and nerve systems .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Swimming is one of my most favorite sports , indoors or out-doors .",
+            "Me too . Swimming is a very good exercise for health . It combines water , bath , sunbath , and air bath together . It promotes the growth and haleness of muscles , bone , viscera and nerve systems ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me too . Swimming is a very good exercise for health . It combines water , bath , sunbath , and air bath together . It promotes the growth and haleness of muscles , bone , viscera and nerve systems .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I have never thought that swimming can bring us so many benefits . I only know that swimming in great waves and deep running water can train people's spirits , and enable people to be fearless of the hardships , dangers and difficulties and become brave and staunch .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "Swimming is one of my most favorite sports , indoors or out-doors .",
+            "Me too . Swimming is a very good exercise for health . It combines water , bath , sunbath , and air bath together . It promotes the growth and haleness of muscles , bone , viscera and nerve systems .",
+            "I have never thought that swimming can bring us so many benefits . I only know that swimming in great waves and deep running water can train people's spirits , and enable people to be fearless of the hardships , dangers and difficulties and become brave and staunch ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I have never thought that swimming can bring us so many benefits . I only know that swimming in great waves and deep running water can train people's spirits , and enable people to be fearless of the hardships , dangers and difficulties and become brave and staunch .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Have you ever swum in a river or a lake ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I have never thought that swimming can bring us so many benefits .",
+            "swum in a river or a lake ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Have you ever swum in a river or a lake ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , but not always . However , I won't let it go if I have a chance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "swum in a river or a lake ?",
+            "Yes , but not always . However , I won't let it go if I have a chance ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , but not always . However , I won't let it go if I have a chance .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

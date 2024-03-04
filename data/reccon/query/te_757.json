@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Have a good day . Bye-Bye !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "With your friendly smile and helpful attitude . I am sure you will win ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Have a good day . Bye-Bye !",
+        "id": 14,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

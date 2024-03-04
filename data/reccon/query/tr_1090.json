@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "ok .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Let's go and have a drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "ok .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

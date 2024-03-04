@@ -1,0 +1,171 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "David , I ' m going to China .",
+        "emotion": "neutral",
+        "text": "David , I ' m going to China .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Really ? How do you get the chance ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to China .",
+            "How do you get the chance ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Really ? How do you get the chance ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You know . I took part in the Chinese contest . I was the best and they gave me this reward . I don ' t have to pay for my trip .",
+        "emotion": "neutral",
+        "text": "You know . I took part in the Chinese contest . I was the best and they gave me this reward . I don ' t have to pay for my trip .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Congratulations . How lucky you are !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to China .",
+            "I was the best and they gave me this reward . I don ' t have to pay for my trip .",
+            "How lucky you are !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Congratulations . How lucky you are !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Thank you . I ' m leaving tomorrow morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Congratulations . How lucky you are !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . I ' m leaving tomorrow morning .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' m sure you ' ll enjoy the trip . China is such a beautiful country .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to China .",
+            "I was the best and they gave me this reward . I don ' t have to pay for my trip .",
+            "How lucky you are !",
+            "you ' ll enjoy the trip . China is such a beautiful country ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I ' m sure you ' ll enjoy the trip . China is such a beautiful country .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I ' m sure I will .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "you ' ll enjoy the trip",
+            "I ' m sure I will ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m sure I will .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Have a nice journey , Lily .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I ' m going to China .",
+            "I was the best and they gave me this reward . I don ' t have to pay for my trip .",
+            "How lucky you are !",
+            "you ' ll enjoy the trip . China is such a beautiful country ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Have a nice journey , Lily .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Thank you , David .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "you ' ll enjoy the trip",
+            "I ' m sure I will .",
+            "Have a nice journey"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Thank you , David .",
+        "id": 9
+    }
+]

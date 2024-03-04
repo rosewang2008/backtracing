@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You ? Wow . And why don't you ever dress like that at work ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I was part of a band in school ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ? Wow . And why don't you ever dress like that at work ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

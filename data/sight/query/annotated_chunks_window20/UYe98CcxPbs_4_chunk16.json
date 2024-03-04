@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 4,
+        "timestamp": 1684510080674.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Why do we do square deviation, but not ordinary one? I don`t understand the precondition for squares. If anyone can explain, do it, please."
+    }
+]

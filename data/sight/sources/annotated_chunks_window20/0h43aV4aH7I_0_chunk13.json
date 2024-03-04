@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Fastest thing would be, OK, stay with a standard basis, stay with eight pixel values."
+    },
+    {
+        "text": "But that was poor from compression point of view, right?"
+    },
+    {
+        "text": "Those eight pixel values, if I just took those eight numbers, I can't throw some of those away."
+    },
+    {
+        "text": "If I throw away ninety percent, if I compressed ten to one, and throw away ninety percent of my pixel values, well, my picture's just gone dark."
+    },
+    {
+        "text": "Whereas the basis that was good, the wavelet basis or the Fourier basis, if I throw away c5, c6, c7 and c8, all I'm throwing away is little blips that are probably there in very small amounts."
+    },
+    {
+        "text": "So the second property that we need is good compression."
+    },
+    {
+        "text": "So, so first it, it has to be fast, and secondly, it has to be a few basis factors should come close to the signal."
+    },
+    {
+        "text": "So, so a few, few is enough."
+    },
+    {
+        "text": "Can I write it that way?"
+    },
+    {
+        "text": "A few basis factors are enough to reproduce the image, just exactly as on the video of these 18.06 lectures."
+    },
+    {
+        "text": "I don't know what the compression rate is."
+    },
+    {
+        "text": "I'll ask, David, who, who does the compression, and, by the way, I'll try to get the lectures, that are relevant for the quiz, up onto the web, in time."
+    },
+    {
+        "text": "So I'll send him a message today."
+    },
+    {
+        "text": "So, at the point, so he's using the Fourier basis, because the JPEG, so JPEG 2000, which will be the next standard for image compression, will include wavelets."
+    },
+    {
+        "text": "So, I mean, you're, you're actually getting a kind of up to date, picture of where this big world of signal and image processing is."
+    },
+    {
+        "text": "That Fourier is what everybody knew, and what people automatically used, and the new, new one is wavelets, where this is the simplest set of wavelets, and this isn't the one that the FBI uses, by the way."
+    },
+    {
+        "text": "The FBI uses a more, a more, a smoother wavelet."
+    },
+    {
+        "text": "Instead of jumping from one to minus one, it's a smooth, cutoff."
+    },
+    {
+        "text": "And, that's what we'll be in, in JPEG 2000."
+    },
+    {
+        "text": "OK, so that's that application."
+    }
+]

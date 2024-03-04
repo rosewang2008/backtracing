@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This guy is 1, minus 1, 0, 0."
+    },
+    {
+        "text": "So the wavelets rescale."
+    },
+    {
+        "text": "That's the difference between Adhemard and wavelets."
+    },
+    {
+        "text": "Wavelets are self-scaling."
+    },
+    {
+        "text": "And what's the last guy here?"
+    },
+    {
+        "text": "What's the fourth column from that fourth wavelet?"
+    },
+    {
+        "text": "0, 0, 1, minus 1."
+    },
+    {
+        "text": "So Haar came up with that."
+    },
+    {
+        "text": "This is the Haar wavelet, which was many years before the word wavelets was invented."
+    },
+    {
+        "text": "He came up with this construction, the Haar matrix, the Haar functions."
+    },
+    {
+        "text": "So they're very simple functions, but that makes them usable, the fact that they're so simple."
+    },
+    {
+        "text": "Now, I don't know if you want to see the pattern in 8 by 8, but let me start the 8 by 8 so you'll know what wavelets are about."
+    },
+    {
+        "text": "You'll know what these Haar wavelets are about anyway."
+    },
+    {
+        "text": "They're the ones that were kind of easy to visualize."
+    },
+    {
+        "text": "So if that's W4, let's just take a minute."
+    },
+    {
+        "text": "It won't take long for W8."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So the first column is going to be 8 1's."
+    },
+    {
+        "text": "And what's the next column going to be?"
+    },
+    {
+        "text": "4 1's and 4 minus 1's, like so."
+    }
+]

@@ -1,0 +1,328 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 0,
+        "timestamp": 1684723011392.0,
+        "annotatedSourceSentencesIndices": [
+            246,
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "i'm still a little confused, what is u naught supposed to represent? Are those just the linear combination of the eigenvectors?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 1,
+        "timestamp": 1684723178257.0,
+        "annotatedSourceSentencesIndices": [
+            289,
+            290
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I dont undertand why the eigenvectors are [lamba_1 \u00a01] and [lamba_2 1] at 49:19...\nsince it is NOT true that ((1 - lamba) * (lamba)) + 1 is lamba^2 - lamba - 1 ... or it is? or what is happening?\u00a0"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 2,
+        "timestamp": 1684723273690.0,
+        "annotatedSourceSentencesIndices": [
+            105,
+            106
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I don't understand 11:25 why A square can be written in the way on the blackboard. I think A^2 should be (S Lambda S^-1)^T   (S Lambda S^-1), the result differs from the one on the blackboard. Could someone explain this?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 5,
+        "timestamp": 1684723528088.0,
+        "annotatedSourceSentencesIndices": [
+            351,
+            352,
+            357,
+            358,
+            361
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "So, the second component of u(k+1) is useless, right? The actual value is given by the first component."
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 6,
+        "timestamp": 1684723821969.0,
+        "annotatedSourceSentencesIndices": [
+            429,
+            433
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Excuse me, why doesn't the calculation of F_100 at \"46:08\"  time the eigenvector X_1? Am i missing something?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 7,
+        "timestamp": 1684725468449.0,
+        "annotatedSourceSentencesIndices": [
+            213
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "-0.618       1\n    1        -1.618\nThe Null Space of the given matrix should be the zero vector because the RREF will become:\n1      0\n0      1\nWhich means the Null Space(and hence the Eigenvector) is the zero vector for the first Eigenvalue?\nCorrect me if I'm wrong?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 9,
+        "timestamp": 1684725523482.0,
+        "annotatedSourceSentencesIndices": [
+            346
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "for anyone wondering how he turned the fibonaci sequence to a matrix @ 37:00 you are not alone , check this video out  https://www.youtube.com/watch?v=iVNoIwY0UV8"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 10,
+        "timestamp": 1684725950887.0,
+        "annotatedSourceSentencesIndices": [
+            1,
+            485
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "so it seems like the professor emphasized the importance of the eigenvalue here, that's nice. but is the eigenvector of any importance? what's a good example of eigenvectors?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 11,
+        "timestamp": 1684726006688.0,
+        "annotatedSourceSentencesIndices": [
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why u_0 can be written as a linear combination of eigenvector of A? 29:55"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 13,
+        "timestamp": 1684726031554.0,
+        "annotatedSourceSentencesIndices": [
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Did we ever prove that if the set of eigenvalues are distinct, the set of eigenvectors are linearly independent? I ask because at ~ 32:00 taking u_o = c1*x1 + c2*x2 + ... + cn*xn requires the eigenvectors to form a basis for an n-dimensional vector space (i.e. span the column space of an invertible matrix). It feels right but I have no solid background for how to think about it"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 14,
+        "timestamp": 1684726883847.0,
+        "annotatedSourceSentencesIndices": [
+            313,
+            361
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "why are we representing mu(k) vector as the combination of eigen vectors in the problem of Fibonacci sequence?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 15,
+        "timestamp": 1684726895777.0,
+        "annotatedSourceSentencesIndices": [
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In u naught = c1x1 + c2x2 .... Cnxn what are X's the vectors of?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 17,
+        "timestamp": 1684727650779.0,
+        "annotatedSourceSentencesIndices": [
+            485
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Notes for future ref.)\n(7:16) there are _some_ matrices that do _NOT_ have n-independent eigenvectors, but _most_ of the matrices we deal with do have n-independent eigenvectors.\n(17:14) If all evalues are different, there _must_ be n-indep evectors. But if there are same evalues, it's possible _no_ n-indep evectors. (Identity matrix is an example of having the same evalues but still having n-indep evectors)\n* Also, the position of Lambda and S should be changed(32:36). You'll see why by just thinking matrix multiplication, and it can also be viewed by knowing A^100=S*Lambda^100*S^-1 and u_0=S*c.\n Thus, it should be S*Lambda^100*c, and this also can be thought of as 'transformation' between the two different bases - one of the two is the set of the egenvectors of A.\n* Also, (43:34) How prof. Strang could calculate that?? Actually that number _1.618033988749894..._ is called the 'golden ratio'.\n* (8:15) Note that A and Lambda are 'similar'. (And, S and S_-1(S inverse) transforms the coordinates.. you know what I mean.. both A and Lambda can be though of as some \"transformation\" based on different basis.. and S(or S_-1) transforms the coord between those two world.)"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 18,
+        "timestamp": 1684727704997.0,
+        "annotatedSourceSentencesIndices": [
+            358
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "39:03 where the A (1,1,1,0) comes from? help....."
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 21,
+        "timestamp": 1684727831398.0,
+        "annotatedSourceSentencesIndices": [
+            255
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can't you also use the determinant to figure out that A\u1d4f \u2192 0 as K \u2192 \u221e ? i.e. if det A < 1 then A\u1d4f \u2192 0"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 22,
+        "timestamp": 1684727876048.0,
+        "annotatedSourceSentencesIndices": [
+            302
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Is there an error at 32:30? Shouldn't S be multiplied before (lamda matrix)^100?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 23,
+        "timestamp": 1684727933448.0,
+        "annotatedSourceSentencesIndices": [
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "I have a doubt in Difference equations part. He writes u_0 as a combination of eigen-vectors of A. Why should this be true?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 25,
+        "timestamp": 1684727944948.0,
+        "annotatedSourceSentencesIndices": [
+            276
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "https://www.youtube.com/watch?v=13r9QY6cmjc#t=29m29s how does one know that u0 can be expressed in terms of eigenvectors, i.e. how do we know what u0 is in the span of eigenvectors?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 26,
+        "timestamp": 1684728060182.0,
+        "annotatedSourceSentencesIndices": [
+            105,
+            106
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In the computation of the Eigen values for A\u00b2, he used A = S\u028cS\u02c9\u00b9 to derive that \u028c\u00b2 represents its Eigen value matrix. However this can be true only if S is invertible for A\u00b2, which need not be always true.\n\nFor example, for the matrix below (say A), the Eigen values are 1, -1(refer previous lecture). This would imply that A\u00b2 has only one Eigen value of 1. This would imply that S has 2 columns which are same (if it has only one column then it is no longer square and hence inverse doesn't apply) and hence non invertible. This implies that this proof cannot be used for all the cases of the matrix A.\n\u00a0_\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 _\u00a0\n\u2502 0\u00a0 1 \u2502\n\u2502\u00a01 \u00a00 \u2502\n \u00af\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00af\nIs there something I'm missing here?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 27,
+        "timestamp": 1684728093599.0,
+        "annotatedSourceSentencesIndices": [
+            433
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "45:50\nWhy does he add the constant c1?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 30,
+        "timestamp": 1684728116666.0,
+        "annotatedSourceSentencesIndices": [
+            485
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Why the skew-symmetric matrix have zero or imaginary eigenvalue?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 31,
+        "timestamp": 1684728216400.0,
+        "annotatedSourceSentencesIndices": [
+            458
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Could someone explain why vector, lambda and 1 is a solution to the nullspace at 48:43? First component, (1-lambda)*lambda+1 is not 0 or different from lambda^2 - lambda -1."
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 32,
+        "timestamp": 1684728378616.0,
+        "annotatedSourceSentencesIndices": [
+            413
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "@ 44:00 why summation of both eigen values are 1?? have i missed any concept behind this?? : ("
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 36,
+        "timestamp": 1684728416886.0,
+        "annotatedSourceSentencesIndices": [
+            166,
+            167
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can anyone direct me to a good proof for 19:36?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 37,
+        "timestamp": 1684728431252.0,
+        "annotatedSourceSentencesIndices": [
+            433
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "But how do you find c1?"
+    },
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 38,
+        "timestamp": 1684728490619.0,
+        "annotatedSourceSentencesIndices": [
+            10,
+            12,
+            16
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Just wondering...what keeps us from calling the eigenvector matrix E instead of S ?  Is E already used for something else ?"
+    }
+]

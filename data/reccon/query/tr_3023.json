@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "thank you . I can't imagine getting much done today . I'm just too exhausted !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "I can ask the boss about giving you the day off today ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "thank you . I can't imagine getting much done today . I'm just too exhausted !",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

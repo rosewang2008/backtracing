@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Well , let's take the measurements right now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            19
+        ],
+        "expanded emotion cause span": [
+            "Cedar is a good choice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , let's take the measurements right now .",
+        "id": 20,
+        "source_sentences": [
+            18
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

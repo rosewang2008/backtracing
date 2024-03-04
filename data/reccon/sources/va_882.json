@@ -1,0 +1,161 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi . I'm looking for a gift for my niece .",
+        "emotion": "neutral",
+        "text": "Hi . I'm looking for a gift for my niece .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Well , little girls seem to love Barbie dolls .",
+        "emotion": "neutral",
+        "text": "Well , little girls seem to love Barbie dolls .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That's perfect . I want to see one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I'm looking for a gift for my niece .",
+            "little girls seem to love Barbie dolls .",
+            "That's perfect"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "That's perfect . I want to see one .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Here you are -- she's called Digital Barbie .",
+        "emotion": "neutral",
+        "text": "Here you are -- she's called Digital Barbie .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , I like Digital Barbie ! How much does she cost ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I like Digital Barbie !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , I like Digital Barbie ! How much does she cost ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "This Barbie is only $ 29 . 95 .",
+        "emotion": "neutral",
+        "text": "This Barbie is only $ 29 . 95 .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That's perfect . Let me have her .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "This Barbie is only $ 29 . 95 .",
+            "That's perfect ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's perfect . Let me have her .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Very good . Is there anything else you would like ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Let me have her ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Very good . Is there anything else you would like ?",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , that'll do it for now .",
+        "emotion": "neutral",
+        "text": "No , that'll do it for now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Including tax , your total will be $ 32 . 42 . Cash or charge ?",
+        "emotion": "neutral",
+        "text": "Including tax , your total will be $ 32 . 42 . Cash or charge ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Let me give you cash , please .",
+        "emotion": "neutral",
+        "text": "Let me give you cash , please .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Here's your change and receipt . Thank you .",
+        "emotion": "happiness",
+        "explanation": "Speaker is happy for the sale",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            11
+        ],
+        "expanded emotion cause span": [
+            "This Barbie is only $ 29 . 95 .",
+            "That's perfect .",
+            "Let me give you cash ,"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Here's your change and receipt . Thank you .",
+        "id": 12
+    }
+]

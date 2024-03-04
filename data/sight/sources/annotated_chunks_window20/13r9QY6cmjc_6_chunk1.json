@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what do I get?"
+    },
+    {
+        "text": "A times the first column gives me the first column of the answer, but what is it?"
+    },
+    {
+        "text": "That's an eigenvector."
+    },
+    {
+        "text": "A times x1 is equal to the lambda times the x1."
+    },
+    {
+        "text": "And that lambda's we'll call lambda one, of course."
+    },
+    {
+        "text": "So that's the first column, A x1 is the same as lambda one x1."
+    },
+    {
+        "text": "A x2 is lambda two x2, so on, along to, in the nth column, we now have lambda n xn."
+    },
+    {
+        "text": "Looking good, but the next step is even better."
+    },
+    {
+        "text": "So for the next step, I want to separate out those eigenvalues, those multiplying numbers, from the x's."
+    },
+    {
+        "text": "So then I'll have just what I want."
+    },
+    {
+        "text": "OK, so how, how am I going to separate out?"
+    },
+    {
+        "text": "So that, that number lambda one is multiplying the first column."
+    },
+    {
+        "text": "So if I want to factor it out of the first column, I better put, here is going to be x1, and that's going to multiply this matrix lambda one in the first entry in all zeros."
+    },
+    {
+        "text": "You see that that, that's going to come out right for the first column?"
+    },
+    {
+        "text": "Because we remember how, how we're going back to that original punchline, that if I want a number to multiply x1, then I can do it by putting x1 in that column, in the first column, and putting that number there."
+    },
+    {
+        "text": "What am I going to have here?"
+    },
+    {
+        "text": "I'm going to have lambda one, I'm going to have x1, x2, xn."
+    },
+    {
+        "text": "These are going to be my columns again."
+    },
+    {
+        "text": "I'm getting s back again."
+    },
+    {
+        "text": "I'm getting s back again, but now what's it multiplied by?"
+    }
+]

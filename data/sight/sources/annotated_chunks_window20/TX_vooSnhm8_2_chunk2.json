@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Graham-Schmidt tells me how to do it."
+    },
+    {
+        "text": "Start with any old basis and use- grind through Graham-Schmidt, out comes an orthogonal basis."
+    },
+    {
+        "text": "But then, if I just take any old orthogonal basis, then when I multiply by A, there's no reason why it should be orthogonal over here."
+    },
+    {
+        "text": "So I'm looking for this special setup where A takes these basis vectors into orthogonal vectors over there."
+    },
+    {
+        "text": "Now, you might have noticed that the null space I didn't include."
+    },
+    {
+        "text": "Why don't I stick that in?"
+    },
+    {
+        "text": "You remember our usual figure had a little null space and a little null space."
+    },
+    {
+        "text": "And, those are no problems."
+    },
+    {
+        "text": "Those are- null spaces are going to show up as zeros on the diagonal of sigma, so that's not what we're- that doesn't present any difficulty."
+    },
+    {
+        "text": "Our difficulty is to find the- so do you see what this will mean?"
+    },
+    {
+        "text": "This will mean that A times this- these v's, v1, v2, up to- what's the dimension of this row space?"
+    },
+    {
+        "text": "vr."
+    },
+    {
+        "text": "Sorry, that v a little smaller."
+    },
+    {
+        "text": "Up to vr."
+    },
+    {
+        "text": "So that's A v1 is going to be the first column, so let me- here's what I'm- here's what I'm achieving."
+    },
+    {
+        "text": "Oh, I would like- I'm not only going to make these orthogonal, but why not make them orthonormal?"
+    },
+    {
+        "text": "Make them unit vectors."
+    },
+    {
+        "text": "So this- maybe the unit vector is here, is the u1, and this might be a multiple of it."
+    },
+    {
+        "text": "So really what's happening is A v1 is some multiple of u1, right?"
+    },
+    {
+        "text": "I'm going to- these guys will be unit vectors, and they'll go over into multiples of unit vectors, and the multiple I'm not going to call lambda anymore, I'm calling it sigma."
+    }
+]

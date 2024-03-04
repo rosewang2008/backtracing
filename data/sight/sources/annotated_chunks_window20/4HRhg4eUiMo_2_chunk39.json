@@ -1,0 +1,62 @@
+[
+    {
+        "text": "f2 looks like this."
+    },
+    {
+        "text": "So the tails becomes heavier and heavier as d increases."
+    },
+    {
+        "text": "And then at start to 3, it starts to have a different shape."
+    },
+    {
+        "text": "It starts from 0, and it looks like this."
+    },
+    {
+        "text": "And then as d increases, it's basically as if you were to push this thing to the right."
+    },
+    {
+        "text": "It's just like, pfft."
+    },
+    {
+        "text": "It's just falling like a big ball."
+    },
+    {
+        "text": "Everybody sees what's going on?"
+    },
+    {
+        "text": "So there's just this fat thing that's just going there."
+    },
+    {
+        "text": "What is the expected value of a k squared?"
+    },
+    {
+        "text": "So it's the expected value of the sum of Gaussian random variables squared."
+    },
+    {
+        "text": "I don't know why I said that."
+    },
+    {
+        "text": "AUDIENCE 2 It's the sum of their second norm, right?"
+    },
+    {
+        "text": "Which is?"
+    },
+    {
+        "text": "Those are n0, 1."
+    },
+    {
+        "text": "It's like, oh, I see, 1."
+    },
+    {
+        "text": "Yeah."
+    },
+    {
+        "text": "So n times 1, or d times 1."
+    },
+    {
+        "text": "Yeah, which is d. So one thing you can check quickly is that the expected value of a k squared is d. And so you see, that's why the mass is shifting to the right as d increases."
+    },
+    {
+        "text": "It's just going there."
+    }
+]

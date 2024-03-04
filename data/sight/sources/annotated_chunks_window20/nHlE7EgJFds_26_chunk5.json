@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK. To understand these spaces is our job now."
+    },
+    {
+        "text": "Because by understanding those spaces, we know everything about this half of linear algebra."
+    },
+    {
+        "text": "What do I mean by understanding those spaces?"
+    },
+    {
+        "text": "I would like to know a basis for those spaces."
+    },
+    {
+        "text": "For each one of those spaces, how would I create, construct a basis?"
+    },
+    {
+        "text": "What systematic way would produce a basis?"
+    },
+    {
+        "text": "And what's their dimension?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So for each of the four spaces, I have to answer those questions."
+    },
+    {
+        "text": "How do I produce a basis?"
+    },
+    {
+        "text": "And then, which has a somewhat long answer, and what's the dimension, which is just a number, so it has a real short answer?"
+    },
+    {
+        "text": "Can I give you the short answer first?"
+    },
+    {
+        "text": "I shouldn't do it, but here it is."
+    },
+    {
+        "text": "I can tell you the dimension of the column space."
+    },
+    {
+        "text": "Let me start with this guy."
+    },
+    {
+        "text": "What's its dimension?"
+    },
+    {
+        "text": "I have an m by n matrix."
+    },
+    {
+        "text": "The dimension of the column space is the rank, R. We actually got to that at the end of the last lecture, but only for an example."
+    },
+    {
+        "text": "So I really have to say, OK, what's going on there?"
+    },
+    {
+        "text": "I should produce a basis, and then I just look to see how many vectors I needed in that basis, and the answer will be R. Actually, I'll do that before I get on to the others."
+    }
+]

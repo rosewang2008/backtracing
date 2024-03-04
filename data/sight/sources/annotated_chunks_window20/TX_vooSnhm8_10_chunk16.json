@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And what will be u1?"
+    },
+    {
+        "text": "u1 will be the unit vector there, so I want to turn four eight or one two into a unit vector, so u1 will be, let's see, if it's one two, then what multiple of one two do I want?"
+    },
+    {
+        "text": "That has length square root of five, so I have to divide by square root of five."
+    },
+    {
+        "text": "Let me complete the singular value decomposition for this matrix."
+    },
+    {
+        "text": "So this matrix, four three eight six, is, so I know what u1, here's A, and I want to get u, the basis in the column space, and it has to start with this guy."
+    },
+    {
+        "text": "One over square root of five, two over square root of five."
+    },
+    {
+        "text": "Then I want the sigma."
+    },
+    {
+        "text": "OK. What are we expecting now for sigma?"
+    },
+    {
+        "text": "Where is, this is only a rank one matrix, we're only expecting a sigma one, which I have to find, but zero's here."
+    },
+    {
+        "text": "OK, so what's sigma one?"
+    },
+    {
+        "text": "We should see it, it should be the, where did these sigmas come from?"
+    },
+    {
+        "text": "They came from A transpose A, so I, can I do that little calculation over here?"
+    },
+    {
+        "text": "A transpose A is four three, four three eight six times four three eight six."
+    },
+    {
+        "text": "This had better, this is a rank one matrix, this is going to be, the whole thing will have rank one, that's sixteen and sixty four is eighty, twelve and forty eight is sixty, twelve and forty eight is sixty, nine and thirty six is forty five."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "It's a rank one matrix."
+    },
+    {
+        "text": "Of course."
+    },
+    {
+        "text": "Every row is a multiple of four three."
+    },
+    {
+        "text": "And what's the eigen, what are the eigenvalues of that matrix?"
+    },
+    {
+        "text": "So this is like, the calculation is like practicing now."
+    }
+]

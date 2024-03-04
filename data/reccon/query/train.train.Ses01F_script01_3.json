@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 54,
+        "speaker": "A",
+        "utterance": "What would I do with a fortune?",
+        "emotion": "happy",
+        "expanded emotion cause evidence": [
+            53,
+            54
+        ],
+        "expanded emotion cause span": [
+            "I just want you to know Annie.",
+            "What would I do with a fortune?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What would I do with a fortune?",
+        "id": 54,
+        "source_sentences": [
+            52
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

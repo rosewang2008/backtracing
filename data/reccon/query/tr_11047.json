@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "That's an attractive plan . I'll think about it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "we can give you a 10 % discount",
+            "We also offer a very good financing plan .",
+            "no payment no interest until next June ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's an attractive plan . I'll think about it .",
+        "id": 10,
+        "source_sentences": [
+            8,
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

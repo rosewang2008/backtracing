@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This is the matrix with nice properties."
+    },
+    {
+        "text": "So let's see what will it be."
+    },
+    {
+        "text": "So if I took the transpose, then, I would have A transpose A will be what?"
+    },
+    {
+        "text": "What do I have?"
+    },
+    {
+        "text": "If I transpose that, I have v sigma transpose u transpose, that's, that's the A transpose."
+    },
+    {
+        "text": "Now the A."
+    },
+    {
+        "text": "And what have I got?"
+    },
+    {
+        "text": "Looks like worse, because it's got six things now together, but it's going to collapse into something good."
+    },
+    {
+        "text": "What does u transpose u collapse into?"
+    },
+    {
+        "text": "I."
+    },
+    {
+        "text": "The identity."
+    },
+    {
+        "text": "So that's the key point."
+    },
+    {
+        "text": "This is the identity and we don't have u anymore."
+    },
+    {
+        "text": "And sigma transpose times sigma, those are diagonal matrices."
+    },
+    {
+        "text": "So their product is just going to have sigma squareds on the diagonal."
+    },
+    {
+        "text": "So do you see what we've got here?"
+    },
+    {
+        "text": "This is v times this easy matrix, sigma one squared, sigma two squared, times v transpose."
+    },
+    {
+        "text": "This is the A transpose A."
+    },
+    {
+        "text": "This is, let me copy down, A transpose A is that."
+    },
+    {
+        "text": "U's are out of the picture now."
+    }
+]

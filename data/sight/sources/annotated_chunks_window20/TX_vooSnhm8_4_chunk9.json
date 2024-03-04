@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So which is thirty-two of one one."
+    },
+    {
+        "text": "So there's the first eigenvector."
+    },
+    {
+        "text": "And there's the eigenvalue for A transpose A, so I'm going to take its square root in the, for sigma."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "What's the eigenvector that goes, eigenvalue that goes with this one?"
+    },
+    {
+        "text": "If I do that multiplication, what do I get?"
+    },
+    {
+        "text": "I get some multiple of one minus one."
+    },
+    {
+        "text": "And what is that multiple?"
+    },
+    {
+        "text": "Looks like eighteen."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So those are the two eigenvectors."
+    },
+    {
+        "text": "But, oh, just a moment, I didn't normalize them."
+    },
+    {
+        "text": "To, to make everything absolutely right, I ought to normalize these eigenvectors, divide by their length, square root of two."
+    },
+    {
+        "text": "So all these guys should be true unit vectors, and, of course, that normalization didn't change the thirty-two and the eighteen."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "So I'm happy with the Vs, here are the Vs, so now let me put together the, the, the pieces here."
+    },
+    {
+        "text": "Here's my A."
+    },
+    {
+        "text": "Here's my A."
+    },
+    {
+        "text": "Let me, let me write down A again."
+    },
+    {
+        "text": "This should, if, if life is right, we should get U, which I don't yet know, U I don't yet know, sigma, I do now know."
+    }
+]

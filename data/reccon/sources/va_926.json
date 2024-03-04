@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How slowly you drive !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "How slowly you drive !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "How slowly you drive !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I'm sorry . Something is wrong with my taxi .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "How slowly you drive !",
+            "Something is wrong with my taxi ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm sorry . Something is wrong with my taxi .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Where does it go wrong ?",
+        "emotion": "neutral",
+        "text": "Where does it go wrong ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Let me stop my car for check . Oh , my god . I got a flat tyre .",
+        "emotion": "neutral",
+        "text": "Let me stop my car for check . Oh , my god . I got a flat tyre .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Can it keep going ?",
+        "emotion": "neutral",
+        "text": "Can it keep going ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sorry . You'd better get off for taking another taxi .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "Can it keep going ?",
+            "You'd better get off for taking another taxi ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sorry . You'd better get off for taking another taxi .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

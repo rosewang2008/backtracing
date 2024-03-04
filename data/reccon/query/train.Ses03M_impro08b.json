@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 30,
+        "speaker": "A",
+        "utterance": "I, I, I don't want a contract. Okay. I don't want any contracts.",
+        "emotion": "frustrated",
+        "expanded emotion cause evidence": [
+            29,
+            30
+        ],
+        "expanded emotion cause span": [
+            "they'll hook you up with service even give you a free three months",
+            "Okay. I don't want any contracts."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I, I, I don't want a contract. Okay. I don't want any contracts.",
+        "id": 30,
+        "source_sentences": [
+            28
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

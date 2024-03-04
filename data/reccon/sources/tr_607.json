@@ -1,0 +1,99 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Excuse me ? Is this where I register ? I ' d like to sign up for my courses for next semester .",
+        "emotion": "neutral",
+        "text": "Excuse me ? Is this where I register ? I ' d like to sign up for my courses for next semester .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , of course . I need your student ID please .",
+        "emotion": "neutral",
+        "text": "Yes , of course . I need your student ID please .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Here you are .",
+        "emotion": "neutral",
+        "text": "Here you are .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Okay , Susan . It says here that you are a business major and you are in your second year . Is this information correct ?",
+        "emotion": "neutral",
+        "text": "Okay , Susan . It says here that you are a business major and you are in your second year . Is this information correct ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . I do want to take some additional credits this year to get a minor in psychology .",
+        "emotion": "neutral",
+        "text": "Yes . I do want to take some additional credits this year to get a minor in psychology .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . That ' s not a problem . Do you have the list of courses you want to taketh semester ?",
+        "emotion": "neutral",
+        "text": "Sure . That ' s not a problem . Do you have the list of courses you want to taketh semester ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yeah . Here ' s my list . I ' m not sure if the class schedule will allow me to take all of them though .",
+        "emotion": "neutral",
+        "text": "Yeah . Here ' s my list . I ' m not sure if the class schedule will allow me to take all of them though .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , that ' s perfect . What about the subjects for your minor ?",
+        "emotion": "neutral",
+        "text": "Yeah , that ' s perfect . What about the subjects for your minor ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh yeah ! Almost forgot ! I need to take fundamental linguistics , consumer psychology and neuroanatomy .",
+        "emotion": "neutral",
+        "text": "Oh yeah ! Almost forgot ! I need to take fundamental linguistics , consumer psychology and neuroanatomy .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wow , you are going to be busy this semester ! Okay , here you go . You are registered now . you ' ll have to make your first tuition payment before classes start .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "I need to take fundamental linguistics , consumer psychology and neuroanatomy .",
+            "you are going to be busy this semester !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Wow , you are going to be busy this semester ! Okay , here you go . You are registered now . you ' ll have to make your first tuition payment before classes start .",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

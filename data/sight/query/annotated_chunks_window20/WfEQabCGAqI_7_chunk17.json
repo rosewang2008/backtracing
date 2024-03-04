@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 7,
+        "timestamp": 1684511834173.0,
+        "annotatedSourceSentencesIndices": [
+            19
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Isn't this theorem called after Ostrogradsky, since he is the first one to prove it?"
+    }
+]

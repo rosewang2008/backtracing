@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hurry up , get in .",
+        "emotion": "neutral",
+        "text": "Hurry up , get in .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m in , let ' s go !",
+        "emotion": "neutral",
+        "text": "I ' m in , let ' s go !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "OK , make a left here . . . no wait , I meant make a right . Come on , speed up !",
+        "emotion": "neutral",
+        "text": "OK , make a left here . . . no wait , I meant make a right . Come on , speed up !",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Geez ! What ' s the rush ?",
+        "emotion": "neutral",
+        "text": "Geez ! What ' s the rush ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Don ' t worry about it , just drive . Oh , no , the light is about to change . . . step on it !",
+        "emotion": "neutral",
+        "text": "Don ' t worry about it , just drive . Oh , no , the light is about to change . . . step on it !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Are you nuts ! I ' m not going to run a red light !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "step on it !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Are you nuts ! I ' m not going to run a red light !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Whatever . Just turn right here . . . The freeway will be packed at this hour . . . let ' s take a side street . Go on ! Get out of our way ! Move , move !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Are you nuts ! I ' m not going to run a red light !",
+            "Get out of our way !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Whatever . Just turn right here . . . The freeway will be packed at this hour . . . let ' s take a side street . Go on ! Get out of our way ! Move , move !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What ' s your problem ! Geez . Having a fit is not going to help !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "What ' s your problem !",
+            "Having a fit is not going to help !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What ' s your problem ! Geez . Having a fit is not going to help !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Here , I know a short cut ... just go down here , and we ' ll cut though Ashburn Heights . Let ' s go , let ' s go ! Watch out for that lady !",
+        "emotion": "neutral",
+        "text": "Here , I know a short cut ... just go down here , and we ' ll cut though Ashburn Heights . Let ' s go , let ' s go ! Watch out for that lady !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I ' m going as fast as I can !",
+        "emotion": "neutral",
+        "text": "I ' m going as fast as I can !",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes ! We made it . 5 fifty-eight , just before the library closes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "We made it .",
+            "before the library closes ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes ! We made it . 5 fifty-eight , just before the library closes .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You ' re such a geek !",
+        "emotion": "neutral",
+        "text": "You ' re such a geek !",
+        "id": 12
+    }
+]

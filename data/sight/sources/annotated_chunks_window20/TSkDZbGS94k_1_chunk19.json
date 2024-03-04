@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And I know a little more about those guys, right?"
+    },
+    {
+        "text": "They're going to be non-negative."
+    },
+    {
+        "text": "pj non-negative."
+    },
+    {
+        "text": "And I know that they sum to 1."
+    },
+    {
+        "text": "OK, so maybe writing this, you start seeing why we like those Poisson exponential and short notation, because I actually don't have to write the PMF of a Poisson."
+    },
+    {
+        "text": "I mean, a Poisson is really just this."
+    },
+    {
+        "text": "But I call it Poisson, so I don't have to rewrite this all the time."
+    },
+    {
+        "text": "And so here, I did not use a particular form."
+    },
+    {
+        "text": "So I just have this thing, and that's what it is."
+    },
+    {
+        "text": "The set of parameters is the set of positive numbers that send of, sorry, p1 to p7, pk, and sum to 7, right?"
+    },
+    {
+        "text": "And so this is just the list of numbers that are non-negative and sum up to 1."
+    },
+    {
+        "text": "So that's my parameter space."
+    },
+    {
+        "text": "OK, so here, that's my theta."
+    },
+    {
+        "text": "This whole thing here, this is my capital theta."
+    },
+    {
+        "text": "So that's just the set of parameters that theta is allowed to take."
+    },
+    {
+        "text": "OK, and finally, we're going to end with the star of all, and that's the normal distribution."
+    },
+    {
+        "text": "And in a normal distribution, you still have also some flexibility in terms of choices, because naturally, the normal distribution is parameterized by two parameters, mean and variance."
+    },
+    {
+        "text": "So what values can a Gaussian random variable take?"
+    },
+    {
+        "text": "An entire real line, right?"
+    },
+    {
+        "text": "And the set of parameters that it can take, so this is going to be n mu sigma squared, and mu is going to be positive, and sigma square is going to be in R, and sigma square is going to be positive."
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "ORG ! It must be so late where you are . What time is it ?",
+        "emotion": "neutral",
+        "text": "ORG ! It must be so late where you are . What time is it ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "just after 2 am .",
+        "emotion": "neutral",
+        "text": "just after 2 am .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "what's wrong ? Can't sleep ?",
+        "emotion": "neutral",
+        "text": "what's wrong ? Can't sleep ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "nope , actually I was waiting for you . I have something big to tell you .",
+        "emotion": "neutral",
+        "text": "nope , actually I was waiting for you . I have something big to tell you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "really ? What is it ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I was waiting for you . I have something big to tell you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "really ? What is it ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I have an offer to work for a company in your city today ?",
+        "emotion": "neutral",
+        "text": "I have an offer to work for a company in your city today ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I can't believe it ! Is it real ? You're moving here ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I have an offer to work for a company in your city today ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I can't believe it ! Is it real ? You're moving here ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I haven't accepted the position yet and with the upcoming holiday I think it's the perfect chance to visit the city and take a good look at the company before deciding . If you have time I think we c",
+        "emotion": "neutral",
+        "text": "I haven't accepted the position yet and with the upcoming holiday I think it's the perfect chance to visit the city and take a good look at the company before deciding . If you have time I think we c",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "just give me the dates and I'll make sure I'm free . You know after all these chatting online , it will be great to meet you in real life . I look forward to seeing you soon !",
+        "emotion": "neutral",
+        "text": "just give me the dates and I'll make sure I'm free . You know after all these chatting online , it will be great to meet you in real life . I look forward to seeing you soon !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "me too . But I think I am going to bed now . my head is getting heavy . Have a nice day there !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "just give me the dates and I'll make sure I'm free . You know after all these chatting online , it will be great to meet you in real life . I look forward to seeing you soon !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "me too . But I think I am going to bed now . my head is getting heavy . Have a nice day there !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "thanks . This is so exciting . Sleep tight and sweet dreams !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11
+        ],
+        "expanded emotion cause span": [
+            "just give me the dates and I'll make sure I'm free . You know after all these chatting online , it will be great to meet you in real life . I look forward to seeing you soon !",
+            "This is so exciting ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "thanks . This is so exciting . Sleep tight and sweet dreams !",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "talk to you later .",
+        "emotion": "neutral",
+        "text": "talk to you later .",
+        "id": 12
+    }
+]

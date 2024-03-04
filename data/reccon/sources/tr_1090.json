@@ -1,0 +1,177 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "The band is pretty good . How do you like the music ?",
+        "emotion": "neutral",
+        "text": "The band is pretty good . How do you like the music ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "it's very nice . I haven't heard live music in a while . This is fun .",
+        "emotion": "neutral",
+        "text": "it's very nice . I haven't heard live music in a while . This is fun .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "well , then , may I invite you for the next dance ?",
+        "emotion": "neutral",
+        "text": "well , then , may I invite you for the next dance ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "of course . But I'm afraid I'm not much of a dancer ...",
+        "emotion": "neutral",
+        "text": "of course . But I'm afraid I'm not much of a dancer ...",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "don't worry . I'm not much of a dancer myself .",
+        "emotion": "neutral",
+        "text": "don't worry . I'm not much of a dancer myself .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "you're dancing so well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "you're dancing so well ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "you're dancing so well .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "you dance beautifully too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "you're dancing so well .",
+            "you dance beautifully too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "you dance beautifully too .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "when did you learn to dance ?",
+        "emotion": "neutral",
+        "text": "when did you learn to dance ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "in college . But I don't dance very often . What's your favourite dance ?",
+        "emotion": "neutral",
+        "text": "in college . But I don't dance very often . What's your favourite dance ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "it's hard to say . It depends . But I love the waltz .",
+        "emotion": "neutral",
+        "text": "it's hard to say . It depends . But I love the waltz .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "how about tango ?",
+        "emotion": "neutral",
+        "text": "how about tango ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "oh , I like it . It's such a beautiful dance , but I can't do it well . What about you ?",
+        "emotion": "neutral",
+        "text": "oh , I like it . It's such a beautiful dance , but I can't do it well . What about you ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Tango is my favorite . Anything but hip-hop or the foxtrot .",
+        "emotion": "neutral",
+        "text": "Tango is my favorite . Anything but hip-hop or the foxtrot .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "thank you for the dance .",
+        "emotion": "neutral",
+        "text": "thank you for the dance .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "my pleasure . Let's go and have a drink .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14,
+            15
+        ],
+        "expanded emotion cause span": [
+            "thank you for the dance .",
+            "my pleasure ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "my pleasure . Let's go and have a drink .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "ok .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            15
+        ],
+        "expanded emotion cause span": [
+            "Let's go and have a drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "ok .",
+        "id": 16,
+        "source_sentences": [
+            14
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

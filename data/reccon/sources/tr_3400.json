@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey , Robert , what are you doing this weekend ?",
+        "emotion": "neutral",
+        "text": "Hey , Robert , what are you doing this weekend ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I didn't have any big plans .",
+        "emotion": "neutral",
+        "text": "I didn't have any big plans .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "We are putting together a birthday party for Mary .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are putting together a birthday party for Mary ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We are putting together a birthday party for Mary .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds like fun . Where will it be ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are putting together a birthday party for Mary ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds like fun . Where will it be ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "We thought it would be fun to have a pool party at Jay's house .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are putting together a birthday party for Mary ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "We thought it would be fun to have a pool party at Jay's house .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Oh good ! Can I bring anything ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We thought it would be fun to have a pool party at Jay's house ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh good ! Can I bring anything ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "We will be providing hot dogs , hamburgers , and cake , but people can bring side dishes .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are putting together a birthday party for Mary ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "We will be providing hot dogs , hamburgers , and cake , but people can bring side dishes .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I am assuming that the dress is casual .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We thought it would be fun to have a pool party at Jay's house ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I am assuming that the dress is casual .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Dress casually and bring your bathing suit !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "We are putting together a birthday party for Mary ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Dress casually and bring your bathing suit !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Wonderful . Just e-mail me the time and date and I'll be there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We thought it would be fun to have a pool party at Jay's house .",
+            "Dress casually and bring your bathing suit !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wonderful . Just e-mail me the time and date and I'll be there .",
+        "id": 10,
+        "source_sentences": [
+            4,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

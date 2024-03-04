@@ -1,0 +1,175 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Well , how did you enjoy your seaside trip ?",
+        "emotion": "neutral",
+        "text": "Well , how did you enjoy your seaside trip ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was funny .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "your seaside trip",
+            "funny ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It was funny .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Tell me about it , will you ?",
+        "emotion": "neutral",
+        "text": "Tell me about it , will you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well , we drove through the valley on our way there in the morning . It was a magnificent sight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "drove through the valley on our way there in the morning . It was a magnificent sight ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Well , we drove through the valley on our way there in the morning . It was a magnificent sight .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Did you stop at the big waterfall for pictures ?",
+        "emotion": "neutral",
+        "text": "Did you stop at the big waterfall for pictures ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure , we wouldn't miss it for anything . After that , we took a short cut to the park . There was very little traffic , so we got there in less than an hour .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "stop at the big waterfall for pictures ?",
+            "Sure , we wouldn't miss it for anything . After that , we took a short cut to the park . There was very little traffic , so we got there in less than an hour ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sure , we wouldn't miss it for anything . After that , we took a short cut to the park . There was very little traffic , so we got there in less than an hour .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You were lucky then . What did you do after that ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "There was very little traffic , so we got there in less than an hour .",
+            "You were lucky"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You were lucky then . What did you do after that ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "We went for a swim in the sea . That was the best part of the day . Just look at my nice tan .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "We went for a swim in the sea .",
+            "my nice tan ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We went for a swim in the sea . That was the best part of the day . Just look at my nice tan .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "So you must have had a busy and enjoyable day yesterday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "We went for a swim in the sea .",
+            "my nice tan .",
+            "So you must have had a busy and enjoyable day yesterday ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "So you must have had a busy and enjoyable day yesterday .",
+        "id": 9,
+        "source_sentences": [
+            7,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yes , you're right . And I was so tired that I fell asleep on the way back . My arms are still stiff from the swim yesterday .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5,
+            6,
+            8,
+            8
+        ],
+        "expanded emotion cause span": [
+            "drove through the valley on our way there in the morning . It was a magnificent sight .",
+            "stop at the big waterfall for pictures ?",
+            "Sure , we wouldn't miss it for anything . After that , we took a short cut to the park . There was very little traffic , so we got there in less than an hour .",
+            "We went for a swim in the sea .",
+            "my nice tan ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yes , you're right . And I was so tired that I fell asleep on the way back . My arms are still stiff from the swim yesterday .",
+        "id": 10
+    }
+]

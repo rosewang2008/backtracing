@@ -1,0 +1,181 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you ever been to Japan ? I'm going in the fall .",
+        "emotion": "neutral",
+        "text": "Have you ever been to Japan ? I'm going in the fall .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , I've been there twice .",
+        "emotion": "neutral",
+        "text": "Yeah , I've been there twice .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? Tell me about it . What's it like ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I've been there twice ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Tell me about it . What's it like ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , it's fantastic .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , it's fantastic ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , it's fantastic .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Where did you go ?",
+        "emotion": "neutral",
+        "text": "Where did you go ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "On my first trip I went to Tokyo , and on my second trip I visited Kyoto .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , it's fantastic ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "On my first trip I went to Tokyo , and on my second trip I visited Kyoto .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "What did you think of Tokyo ?",
+        "emotion": "neutral",
+        "text": "What did you think of Tokyo ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Very big and exciting , but very crowded , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Very big and exciting ,"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Very big and exciting , but very crowded , too .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yeah . I've seen pictures of the crowds !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Very big and exciting ,"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yeah . I've seen pictures of the crowds !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "And the restaurant are excellent ... but they're kind of expensive .",
+        "emotion": "neutral",
+        "text": "And the restaurant are excellent ... but they're kind of expensive .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "And how about Kyoto ?",
+        "emotion": "neutral",
+        "text": "And how about Kyoto ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Kyoto is lovely . It's full of beautiful old temples and gardens . It ' s a very historic city .",
+        "emotion": "neutral",
+        "text": "Kyoto is lovely . It's full of beautiful old temples and gardens . It ' s a very historic city .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How was the weather ?",
+        "emotion": "neutral",
+        "text": "How was the weather ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I was in Tokyo in August , and it was really hot and humid . I went to Kyoto in October . It was hot and sunny , but there was no humidity .",
+        "emotion": "neutral",
+        "text": "I was in Tokyo in August , and it was really hot and humid . I went to Kyoto in October . It was hot and sunny , but there was no humidity .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Sounds perfect . I can't wait !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It was hot and sunny , but there was no humidity ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds perfect . I can't wait !",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

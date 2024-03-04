@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Sure . As many as you want .",
+        "emotion": "happiness",
+        "explanation": "A is happy as B wants to get a service from them",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "May I have two"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure . As many as you want .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

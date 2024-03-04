@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Can I just do that?"
+    },
+    {
+        "text": "I claim any x, any vector x, I want to look at the length of Qx."
+    },
+    {
+        "text": "And I claim that it has the same length as x."
+    },
+    {
+        "text": "Actually, that's the reason in computations that orthogonal matrix are so much loved, because no overflow can happen with orthogonal matrices."
+    },
+    {
+        "text": "Lengths don't change."
+    },
+    {
+        "text": "I can multiply by any number of orthogonal matrices, and the lengths don't change."
+    },
+    {
+        "text": "Can we just see why that's true?"
+    },
+    {
+        "text": "How would you show?"
+    },
+    {
+        "text": "So what do we have to go on?"
+    },
+    {
+        "text": "What we have to go on is Q transpose Q equal I."
+    },
+    {
+        "text": "Whatever we're going to prove, it's got to come out of that, because that's all we know."
+    },
+    {
+        "text": "So how do I use that to get that one?"
+    },
+    {
+        "text": "Well, we haven't said a whole lot about lengths, but you'll see it all now."
+    },
+    {
+        "text": "It'll be easier to prove that the squares are the same."
+    },
+    {
+        "text": "So what's the matrix expression for the length squared?"
+    },
+    {
+        "text": "What's the right-hand side of that equation?"
+    },
+    {
+        "text": "X transpose x, right?"
+    },
+    {
+        "text": "X transpose x gives me the sum of the squares."
+    },
+    {
+        "text": "Pythagoras says that's the length squared."
+    },
+    {
+        "text": "So that right-hand side is x transpose x."
+    }
+]

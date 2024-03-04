@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I would like to watch the Oscars on Tv tonight . How about you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "watch the Oscars on Tv tonight ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I would like to watch the Oscars on Tv tonight . How about you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I'd love to . It ' s interesting to see who is considered the best in their field and which film are thought to be particularly good .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "watch the Oscars on Tv tonight . How about you ?",
+            "I'd love to . It ' s interesting to see"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , I'd love to . It ' s interesting to see who is considered the best in their field and which film are thought to be particularly good .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I like watching it for the fashion . I like to see what the ladies are wearing . Of course , the men nearly always just wear the traditional tuxedo .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3
+        ],
+        "expanded emotion cause span": [
+            "watch the Oscars on Tv tonight .",
+            "I like watching it for the fashion ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I like watching it for the fashion . I like to see what the ladies are wearing . Of course , the men nearly always just wear the traditional tuxedo .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sometimes the men wear flamboyant colours . Which films do you think will win awards this year ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            1,
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "watch the Oscars on Tv tonight . How about you ?",
+            "I'd love to . It ' s interesting to see",
+            "watch the Oscars on Tv tonight .",
+            "I like watching it for the fashion .",
+            "Sometimes the men wear flamboyant colours ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Sometimes the men wear flamboyant colours . Which films do you think will win awards this year ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I'm really not sure . Usually just one or two films look set to sweep the awards ceremony , but this year there are several contenders .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "watch the Oscars on Tv tonight .",
+            "I like watching it for the fashion .",
+            "this year there are several contenders ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I'm really not sure . Usually just one or two films look set to sweep the awards ceremony , but this year there are several contenders .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You ' re right . This year should be much more exciting than usual . What ' s you favourite award category ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "this year there are several contenders .",
+            "This year should be much more exciting"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You ' re right . This year should be much more exciting than usual . What ' s you favourite award category ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You might think this strange , but I like the category for \" best foreign language film \" .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I like the category for \" best foreign language film \" ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "You might think this strange , but I like the category for \" best foreign language film \" .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It ' s nice to see foreign language films making a little impact on Hollywood . I like the \" best actor and actress \" .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "It ' s nice to see foreign language films making a little impact on Hollywood . I like the \" best actor and actress \" ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It ' s nice to see foreign language films making a little impact on Hollywood . I like the \" best actor and actress \" .",
+        "id": 8
+    }
+]

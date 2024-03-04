@@ -1,0 +1,124 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Jason !",
+        "emotion": "neutral",
+        "text": "Hi , Jason !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi , Linda . I have two concert complimentary tickets . Will you go with me tonight ?",
+        "emotion": "neutral",
+        "text": "Hi , Linda . I have two concert complimentary tickets . Will you go with me tonight ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "With the greatest pleasure ! Where is the concert held this evening ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I have two concert complimentary tickets . Will you go with me tonight ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "With the greatest pleasure ! Where is the concert held this evening ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It will be held at the Central Music Hall .",
+        "emotion": "neutral",
+        "text": "It will be held at the Central Music Hall .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What is on the program ?",
+        "emotion": "neutral",
+        "text": "What is on the program ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "It ' s a piano solo . I'm fond of piano , you know .",
+        "emotion": "neutral",
+        "text": "It ' s a piano solo . I'm fond of piano , you know .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Hah ! OK . Let ' s go together !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s a piano solo . I'm fond of piano",
+            "Let ' s go together !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Hah ! OK . Let ' s go together !",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Let ' s meet at the park at 6:00 .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s a piano solo . I'm fond of piano",
+            "Let ' s go together !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Let ' s meet at the park at 6:00 .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "See you then .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "It ' s a piano solo . I'm fond of piano",
+            "Let ' s go together !"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "See you then .",
+        "id": 9
+    }
+]

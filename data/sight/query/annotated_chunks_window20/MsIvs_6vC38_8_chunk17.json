@@ -1,0 +1,17 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 8,
+        "timestamp": 1684710001490.0,
+        "annotatedSourceSentencesIndices": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "33\uff1a06 why it's 100^2?"
+    }
+]

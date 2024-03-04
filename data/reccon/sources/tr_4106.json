@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Can you recommend a resort to me ?",
+        "emotion": "neutral",
+        "text": "Can you recommend a resort to me ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What about the Yellowstone National Park ?",
+        "emotion": "neutral",
+        "text": "What about the Yellowstone National Park ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Have you ever been there ?",
+        "emotion": "neutral",
+        "text": "Have you ever been there ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes . The scenery is so breathtaking .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "The scenery is so breathtaking ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes . The scenery is so breathtaking .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What is especially impressive ?",
+        "emotion": "neutral",
+        "text": "What is especially impressive ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "There are thousands of hot springs and fountains . The park is known for them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "The scenery is so breathtaking .",
+            "There are thousands of hot springs and fountains ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "There are thousands of hot springs and fountains . The park is known for them .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Is there a waterfall ?",
+        "emotion": "neutral",
+        "text": "Is there a waterfall ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes . The well-known Yellowstone Waterfall is formed when the Yellowstone Lake falls down into the Yellowstone Canyon .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            6
+        ],
+        "expanded emotion cause span": [
+            "The scenery is so breathtaking .",
+            "There are thousands of hot springs and fountains ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes . The well-known Yellowstone Waterfall is formed when the Yellowstone Lake falls down into the Yellowstone Canyon .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What an attractive place ! How can I get there ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "The scenery is so breathtaking .",
+            "There are thousands of hot springs and fountains .",
+            "Yes . The well-known Yellowstone Waterfall is formed when the Yellowstone Lake falls down into the Yellowstone Canyon .",
+            "an attractive place"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "What an attractive place ! How can I get there ?",
+        "id": 9,
+        "source_sentences": [
+            3,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "You can take No . 2 bus .",
+        "emotion": "neutral",
+        "text": "You can take No . 2 bus .",
+        "id": 10
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Wow , it's surprising . So what do I get ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Congratulations ! You are the lucky customer of our anniversary celebration ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Wow , it's surprising . So what do I get ?",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

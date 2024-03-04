@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Sure , welcome anytime",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "Great ! So I'll know who to call if I ever need a lawyer ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sure , welcome anytime",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

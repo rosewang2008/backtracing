@@ -1,0 +1,8 @@
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/cross_encoder.csv
+Output fname: results/inquisitive/test/cross_encoder.csv
+Accuracy top 1: 0.66
+Min distance top 1: 2.45
+Accuracy top 3: 0.85
+Min distance top 3: 0.57

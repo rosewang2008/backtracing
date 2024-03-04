@@ -1,0 +1,62 @@
+[
+    {
+        "text": "That's minus one, two of these away leaves a plus two and zero."
+    },
+    {
+        "text": "I believe that's E. The way to check is to see, multiply that E by this A, just to see, did I do it right?"
+    },
+    {
+        "text": "So I believe E was minus one, two, zero, one minus one, zero, and minus one, zero, one."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "That's my E, that's my A, and that's R. All right."
+    },
+    {
+        "text": "All I'm struggling to do is write the reason I wanted this blasted E was so that I could figure out the left null space."
+    },
+    {
+        "text": "Not only its dimension, which I know."
+    },
+    {
+        "text": "Actually, what is the dimension of the left null space?"
+    },
+    {
+        "text": "Here's my matrix."
+    },
+    {
+        "text": "What's the rank of the matrix?"
+    },
+    {
+        "text": "Two."
+    },
+    {
+        "text": "And the dimension of the left null space is supposed to be M minus R, three minus two, one."
+    },
+    {
+        "text": "I believe that the left null space is one-dimensional."
+    },
+    {
+        "text": "There is one combination of those three rows that produces the zero row."
+    },
+    {
+        "text": "There is a basis."
+    },
+    {
+        "text": "A basis for the left null space has only got one vector in it."
+    },
+    {
+        "text": "And what is that vector?"
+    },
+    {
+        "text": "It's here in the last row of E. But, ah, we could have seen it earlier."
+    },
+    {
+        "text": "What combination of those rows gives the zero row?"
+    },
+    {
+        "text": "Minus one of that, plus one of that."
+    }
+]

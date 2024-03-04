@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But, if you prefer, you can just do directly this cross product there."
+    },
+    {
+        "text": "OK, so let's compute this cross product."
+    },
+    {
+        "text": "Well, the i component is zero minus f sub x."
+    },
+    {
+        "text": "The y component is going to be, well, f sub y minus zero, but with a minus sign in front of everything, so negative f sub y."
+    },
+    {
+        "text": "And, the z component will be just one times delta x delta y. OK, does that make sense for, yes, very good."
+    },
+    {
+        "text": "And so, now, when we just take, we shrink this rectangle, we shrink delta x and delta y down, so that's how we get this formula for n ds equals negative fx negative fy one dx dy."
+    },
+    {
+        "text": "Well, plus minus because it's up to us to choose whether we want to take the normal vector pointing up or down."
+    },
+    {
+        "text": "So, see, if you take this convention, then the z component of n ds is positive."
+    },
+    {
+        "text": "So, that corresponds to normal vector pointing up."
+    },
+    {
+        "text": "If you take the opposite means, then the z component will be negative."
+    },
+    {
+        "text": "That means your normal vector points down."
+    },
+    {
+        "text": "OK, so this one is with n pointing up."
+    },
+    {
+        "text": "I mean, when I say up, of course, it's still perpendicular to the surface."
+    },
+    {
+        "text": "You know, if the surface really has a big slope, then it's not really going to go all that much up, but more up than down."
+    },
+    {
+        "text": "OK, so that's how we get that formula."
+    },
+    {
+        "text": "Any questions?"
+    },
+    {
+        "text": "No?"
+    },
+    {
+        "text": "OK, so that's a really useful formula."
+    },
+    {
+        "text": "So, you don't really need to remember all the details of how we got it, but please remember that formula."
+    },
+    {
+        "text": "Let's do an example, actually."
+    }
+]

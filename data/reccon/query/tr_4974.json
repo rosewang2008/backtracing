@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 27,
+        "speaker": "A",
+        "utterance": "Oh , shut up about ties ! Forget about ties , why not ?",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            26
+        ],
+        "expanded emotion cause span": [
+            "A tie ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , shut up about ties ! Forget about ties , why not ?",
+        "id": 27,
+        "source_sentences": [
+            25
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

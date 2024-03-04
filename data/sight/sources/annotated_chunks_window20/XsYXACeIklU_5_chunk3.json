@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Of course the probability of getting a zillion arrivals is going to be tiny."
+    },
+    {
+        "text": "But in principle, this is possible."
+    },
+    {
+        "text": "And that's because an interval, even if it's a fixed length, consists of an infinite number of mini-slots in some sense."
+    },
+    {
+        "text": "You can divide, chop it up, into as many mini-slots as you want."
+    },
+    {
+        "text": "So in principle, it's possible that every mini-slot gets an arrival."
+    },
+    {
+        "text": "In principle, it's possible to get an arbitrarily large number of arrivals."
+    },
+    {
+        "text": "So this particular formula here is not very intuitive when you look at it."
+    },
+    {
+        "text": "But it's a legitimate PMF."
+    },
+    {
+        "text": "And it's called the Poisson PMF."
+    },
+    {
+        "text": "It's the PMF that describes the number of arrivals."
+    },
+    {
+        "text": "So that's one way of thinking about the Poisson process, where the basic object of interest would be this PMF and you try to work with it."
+    },
+    {
+        "text": "There's another way of thinking about what happens in the Poisson process."
+    },
+    {
+        "text": "And this has to do with letting things evolve in time."
+    },
+    {
+        "text": "You start at time 0."
+    },
+    {
+        "text": "There's going to be a time at which the first arrival occurs, and call that time T1."
+    },
+    {
+        "text": "This time turns out to have an exponential distribution with parameter lambda."
+    },
+    {
+        "text": "Once you get an arrival, it's as if the process starts fresh."
+    },
+    {
+        "text": "The best way to understand why this is the case is by thinking in terms of the analogy with the Bernoulli process."
+    },
+    {
+        "text": "If you believe that statement for the Bernoulli process, since this is a limiting case, it should also be true."
+    },
+    {
+        "text": "So starting from this time, we're going to wait a random amount of time until we get the second arrival This random amount of time, let's call it T2."
+    }
+]

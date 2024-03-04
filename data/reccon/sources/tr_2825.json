@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Okay , show me your card hand . Here's mine . I have three Kings and a pair of Aces .",
+        "emotion": "neutral",
+        "text": "Okay , show me your card hand . Here's mine . I have three Kings and a pair of Aces .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "How did you get that ? No need to show you my hand , I lose . This is not as much fun as the music concert we just saw .",
+        "emotion": "neutral",
+        "text": "How did you get that ? No need to show you my hand , I lose . This is not as much fun as the music concert we just saw .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thanks again for buying the tickets . That was the most exciting live concert I've ever seen . That silver electric guitar was really cool .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "That was the most exciting live concert I've ever seen . That silver electric guitar was really cool ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Thanks again for buying the tickets . That was the most exciting live concert I've ever seen . That silver electric guitar was really cool .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "They're quite popular now . Wasn't her voice good ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "That was the most exciting live concert I've ever seen . That silver electric guitar was really cool .",
+            "They're quite popular now . Wasn't her voice good ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "They're quite popular now . Wasn't her voice good ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That , My Heart Will Go On . It warms my heart . you know , JanetJackson , Shanna Twain and Celine Dion are so very different .",
+        "emotion": "neutral",
+        "text": "That , My Heart Will Go On . It warms my heart . you know , JanetJackson , Shanna Twain and Celine Dion are so very different .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Janet Jackson is more pop music . Shania sings country music . Celine just seems to hit all the right notes .",
+        "emotion": "neutral",
+        "text": "Janet Jackson is more pop music . Shania sings country music . Celine just seems to hit all the right notes .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Have you heard Maria Carey ?",
+        "emotion": "neutral",
+        "text": "Have you heard Maria Carey ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , l have two of her Cds , l'II lend them to you if you like .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Maria Carey"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , l have two of her Cds , l'II lend them to you if you like .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Excellent . You can borrow my Janet Jackson's CD . It's her new one .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Yes , l have two of her Cds , l'II lend them to you if you like ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Excellent . You can borrow my Janet Jackson's CD . It's her new one .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I hope you have a good stereo .",
+        "emotion": "neutral",
+        "text": "I hope you have a good stereo .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Why ?",
+        "emotion": "neutral",
+        "text": "Why ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Because you have to hear it really loud to get the full concert effect .",
+        "emotion": "neutral",
+        "text": "Because you have to hear it really loud to get the full concert effect .",
+        "id": 12
+    }
+]

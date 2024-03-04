@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Please come in , Steven .",
+        "emotion": "neutral",
+        "text": "Please come in , Steven .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "All right , Mr . Green .",
+        "emotion": "neutral",
+        "text": "All right , Mr . Green .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Have a seat over there . How are things going out in the office ?",
+        "emotion": "neutral",
+        "text": "Have a seat over there . How are things going out in the office ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Pretty well . Everyone is working hard .",
+        "emotion": "neutral",
+        "text": "Pretty well . Everyone is working hard .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "But , our business has been going down sharply the couple of months and we have to reduce some staff .",
+        "emotion": "neutral",
+        "text": "But , our business has been going down sharply the couple of months and we have to reduce some staff .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You mean I'm among the people who have to go ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "we have to reduce some staff .",
+            "You mean I'm among the people who have to go ?"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You mean I'm among the people who have to go ?",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm afraid so .",
+        "emotion": "neutral",
+        "text": "I'm afraid so .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Did I do something wrong ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "You mean I'm among the people who have to go ?",
+            "I'm afraid so ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Did I do something wrong ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You're the sales manager , but our sales didn't go up .",
+        "emotion": "neutral",
+        "text": "You're the sales manager , but our sales didn't go up .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "But you know I've been working very hard . And I have a family to support .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            10
+        ],
+        "expanded emotion cause span": [
+            "You mean I'm among the people who have to go ?",
+            "I'm afraid so .",
+            "I have a family to support ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "But you know I've been working very hard . And I have a family to support .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I feel sorry , but that's the decision of the directorate .",
+        "emotion": "neutral",
+        "text": "I feel sorry , but that's the decision of the directorate .",
+        "id": 11
+    }
+]

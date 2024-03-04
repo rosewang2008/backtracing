@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Thank you . Hopefully I won't have to call about him again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            11
+        ],
+        "expanded emotion cause span": [
+            "That won't happen again ,",
+            "sorry ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Hopefully I won't have to call about him again .",
+        "id": 12,
+        "source_sentences": [
+            10,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

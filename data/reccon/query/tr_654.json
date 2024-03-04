@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Now we know that they realize the real meaning of Christmas .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "We can pool the money and give it to a family who could really use it !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Now we know that they realize the real meaning of Christmas .",
+        "id": 8,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

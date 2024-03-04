@@ -1,0 +1,30 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Why not ? It sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Canadian ice wine .",
+            "It's made from naturally frozen grapes .",
+            "It sounds great ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Why not ? It sounds great .",
+        "id": 12,
+        "source_sentences": [
+            8,
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

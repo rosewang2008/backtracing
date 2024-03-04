@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so I look at the squared distance between theta hat and theta."
+    },
+    {
+        "text": "This is still the function of a random variable, so it's a random variable as well."
+    },
+    {
+        "text": "And I'm looking at the expectation of this guy."
+    },
+    {
+        "text": "That's the definition."
+    },
+    {
+        "text": "I claim that when this thing goes to 0, then my estimator is actually going to be consistent."
+    },
+    {
+        "text": "Everybody agrees with this?"
+    },
+    {
+        "text": "So if it goes to 0 as n goes to infinity, and here I don't need to tell you what kind of convergence I have, because this is just a number, right?"
+    },
+    {
+        "text": "It's an expectation."
+    },
+    {
+        "text": "So it's a regular, usual, calculus-style convergence."
+    },
+    {
+        "text": "Then that implies that theta hat is actually weakly consistent."
+    },
+    {
+        "text": "What did I use to tell you this?"
+    },
+    {
+        "text": "Yeah, this is the convergence in L2."
+    },
+    {
+        "text": "This actually is strictly equivalent."
+    },
+    {
+        "text": "This is by definition saying that theta hat converges in L2 to theta."
+    },
+    {
+        "text": "And we know that convergence in L2 implies convergence in probability to theta."
+    },
+    {
+        "text": "That was the picture."
+    },
+    {
+        "text": "We're going up."
+    },
+    {
+        "text": "And this is actually equivalent to weak consistency by definition of weak consistency."
+    },
+    {
+        "text": "So this is actually telling me a little more, because this guy here, they're both unbiased."
+    },
+    {
+        "text": "Xn bar is unbiased."
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "turn": 1,
+        "speaker": "B",
+        "utterance": "Say , Jim , how about going for a few beers after dinner ?",
+        "emotion": "neutral",
+        "text": "Say , Jim , how about going for a few beers after dinner ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "A",
+        "utterance": "You know that is tempting but is really not good for our fitness .",
+        "emotion": "neutral",
+        "text": "You know that is tempting but is really not good for our fitness .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "B",
+        "utterance": "What do you mean ? It will help us to relax .",
+        "emotion": "neutral",
+        "text": "What do you mean ? It will help us to relax .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "A",
+        "utterance": "Do you really think so ? I don't . It will just make us fat and act silly . Remember last time ?",
+        "emotion": "neutral",
+        "text": "Do you really think so ? I don't . It will just make us fat and act silly . Remember last time ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "B",
+        "utterance": "I guess you are right . But what shall we do ? I don't feel like sitting at home .",
+        "emotion": "neutral",
+        "text": "I guess you are right . But what shall we do ? I don't feel like sitting at home .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "A",
+        "utterance": "I suggest a walk over to the gym where we can play singsong and meet some of our friends .",
+        "emotion": "neutral",
+        "text": "I suggest a walk over to the gym where we can play singsong and meet some of our friends .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "B",
+        "utterance": "That's a good idea . I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I suggest a walk over to the gym where we can play singsong and meet some of our friends .",
+            "I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's a good idea . I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "A",
+        "utterance": "Sounds great to me ! If they are willing , we could ask them to go dancing with us . That is excellent exercise and fun , too .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them .",
+            "That is excellent exercise and fun , too ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Sounds great to me ! If they are willing , we could ask them to go dancing with us . That is excellent exercise and fun , too .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "B",
+        "utterance": "Good . Let ' s go now .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I suggest a walk over to the gym where we can play singsong and meet some of our friends .",
+            "I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them .",
+            "That is excellent exercise and fun , too ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Good . Let ' s go now .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "A",
+        "utterance": "All right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them .",
+            "That is excellent exercise and fun , too ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "All right .",
+        "id": 10
+    }
+]

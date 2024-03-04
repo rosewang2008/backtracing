@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you hear what happened to Mike in Accounts ?",
+        "emotion": "neutral",
+        "text": "Did you hear what happened to Mike in Accounts ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "No . What ?",
+        "emotion": "neutral",
+        "text": "No . What ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "He got arrested on Friday night and spent the night in jail .",
+        "emotion": "neutral",
+        "text": "He got arrested on Friday night and spent the night in jail .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No . Really , what happened ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "He got arrested on Friday night and spent the night in jail ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "No . Really , what happened ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Well , it was all a big mistake , actually . He got home on Friday night really late , and apparently he'd been out drinking with some clients , so he was really drunk .",
+        "emotion": "neutral",
+        "text": "Well , it was all a big mistake , actually . He got home on Friday night really late , and apparently he'd been out drinking with some clients , so he was really drunk .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Was he out with the guys from the bank ?",
+        "emotion": "neutral",
+        "text": "Was he out with the guys from the bank ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , I think so .",
+        "emotion": "neutral",
+        "text": "Yes , I think so .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , yeah , they always get really drunk .",
+        "emotion": "neutral",
+        "text": "Oh , yeah , they always get really drunk .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , anyway , he'd somehow lost his wallet and his house keys , so he couldn't get in . He lives alone , you know .",
+        "emotion": "neutral",
+        "text": "Well , anyway , he'd somehow lost his wallet and his house keys , so he couldn't get in . He lives alone , you know .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , really . I thought he lived with his wife .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "He lives alone , you know ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really . I thought he lived with his wife .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "No , she left him last year .",
+        "emotion": "neutral",
+        "text": "No , she left him last year .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Oh , really ? Do you know why ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "she left him last year ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , really ? Do you know why ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Hang on , let me finish telling you what happened . Where was I ?",
+        "emotion": "neutral",
+        "text": "Hang on , let me finish telling you what happened . Where was I ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "He lost his wallet and keys .",
+        "emotion": "neutral",
+        "text": "He lost his wallet and keys .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Oh yes , well , he tried to climb in through the bathroom window , but apparently he slipped and broke the glass with his foot . The neighbors heard him and thought a robbery was in progress , so they called the police .",
+        "emotion": "neutral",
+        "text": "Oh yes , well , he tried to climb in through the bathroom window , but apparently he slipped and broke the glass with his foot . The neighbors heard him and thought a robbery was in progress , so they called the police .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "Oh , no .",
+        "emotion": "neutral",
+        "text": "Oh , no .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Yes . So when the cops arrived , they didn't believe his story",
+        "emotion": "neutral",
+        "text": "Yes . So when the cops arrived , they didn't believe his story",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "So then what happened ?",
+        "emotion": "neutral",
+        "text": "So then what happened ?",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Well , when he sobered up , he called someone from work to come and bail him out .",
+        "emotion": "neutral",
+        "text": "Well , when he sobered up , he called someone from work to come and bail him out .",
+        "id": 19
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Well , that's a bit of a tricky situation .",
+        "emotion": "neutral",
+        "text": "Well , that's a bit of a tricky situation .",
+        "id": 20
+    },
+    {
+        "turn": 21,
+        "speaker": "A",
+        "utterance": "Yes , I know .",
+        "emotion": "neutral",
+        "text": "Yes , I know .",
+        "id": 21
+    }
+]

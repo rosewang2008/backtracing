@@ -1,0 +1,244 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Steve . Is that you ?",
+        "emotion": "surprise",
+        "explanation": "Person A is surprised to see Person B suddenly.",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Is that you ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Steve . Is that you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah . What's going on ?",
+        "emotion": "neutral",
+        "text": "Yeah . What's going on ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Not much . What a surprise to see you here .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "What a surprise to see you here ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not much . What a surprise to see you here .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yeah . It's been a couple of months since I saw you .",
+        "emotion": "neutral",
+        "text": "Yeah . It's been a couple of months since I saw you .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What have you been up to ?",
+        "emotion": "neutral",
+        "text": "What have you been up to ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I just started working out .",
+        "emotion": "neutral",
+        "text": "I just started working out .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Really ? Where do you work out at ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I just started working out ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? Where do you work out at ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I joined the Samsung Health Club last month .",
+        "emotion": "neutral",
+        "text": "I joined the Samsung Health Club last month .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "What do you mostly do during your workout ?",
+        "emotion": "neutral",
+        "text": "What do you mostly do during your workout ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I concentrate mostly on my legs , chest , arms and stomach .",
+        "emotion": "neutral",
+        "text": "I concentrate mostly on my legs , chest , arms and stomach .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I should start exercising more .",
+        "emotion": "neutral",
+        "text": "I should start exercising more .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It's hard work while exercising , but it is a great feeling when I get done .",
+        "emotion": "neutral",
+        "text": "It's hard work while exercising , but it is a great feeling when I get done .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I have a running machine at home . I used to use it , but I already got sick of it .",
+        "emotion": "neutral",
+        "text": "I have a running machine at home . I used to use it , but I already got sick of it .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Exercising at home is hard . The environment is not suited for exercising .",
+        "emotion": "neutral",
+        "text": "Exercising at home is hard . The environment is not suited for exercising .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "If I want to exercise , I will need to join a gym .",
+        "emotion": "neutral",
+        "text": "If I want to exercise , I will need to join a gym .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "I have a couple of guest passes . You want to check out my health club ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I have a couple of guest passes . You want to check out my health club ?",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "That's a good idea . Let's go over the weekend .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes . You want to check out my health club ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's a good idea . Let's go over the weekend .",
+        "id": 17
+    },
+    {
+        "turn": 18,
+        "speaker": "B",
+        "utterance": "Great . I'll call you Saturday morning .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes . You want to check out my health club ?",
+            "That's a good idea . Let's go over the weekend ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great . I'll call you Saturday morning .",
+        "id": 18
+    },
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Aright . I'll talk to you later .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes . You want to check out my health club ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Aright . I'll talk to you later .",
+        "id": 19,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 20,
+        "speaker": "B",
+        "utterance": "Ok . Bye .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16,
+            17
+        ],
+        "expanded emotion cause span": [
+            "I have a couple of guest passes . You want to check out my health club ?",
+            "That's a good idea . Let's go over the weekend ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Ok . Bye .",
+        "id": 20
+    }
+]

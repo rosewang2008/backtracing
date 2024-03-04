@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "Thanks . I'm flattered .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            16
+        ],
+        "expanded emotion cause span": [
+            "You're quite slim . In fact , if you were one of those starlets , the movie company would say you have a fabulous figure ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . I'm flattered .",
+        "id": 17,
+        "source_sentences": [
+            15
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

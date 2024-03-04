@@ -1,0 +1,62 @@
+[
+    {
+        "text": "The second term is practically nothing, right?"
+    },
+    {
+        "text": "The point six, or minus point six to the hundredth power, is an extremely small, extremely small number."
+    },
+    {
+        "text": "So this is, this, this, there are only two terms, because we're two by two."
+    },
+    {
+        "text": "This number is, this piece of it is there, but it's, it's disappearing."
+    },
+    {
+        "text": "Where this piece is there and it's growing and controlling everything."
+    },
+    {
+        "text": "So, so really the, we're doing, like, problems that are evolving."
+    },
+    {
+        "text": "We're doing dynamics."
+    },
+    {
+        "text": "Instead of Ax equal b, that's a static problem."
+    },
+    {
+        "text": "We're now, we're doing dynamics."
+    },
+    {
+        "text": "A, a squared, a cubed, things are evolving in time, and the eigenvalues are the crucial, numbers."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I guess to complete this, I better write down the eigenvectors."
+    },
+    {
+        "text": "So we should complete the, the whole process by finding the eigenvectors."
+    },
+    {
+        "text": "OK. Well, I have to, up in the corner, then I have to look at A minus lambda I."
+    },
+    {
+        "text": "So A minus lambda I is this one minus lambda, one, one, and minus lambda."
+    },
+    {
+        "text": "And now, can we spot an eigenvector out of that?"
+    },
+    {
+        "text": "That's, for these two lambdas, this matrix is singular."
+    },
+    {
+        "text": "I guess the eigenvector, two by two ought to be easy."
+    },
+    {
+        "text": "So if I know that this matrix is singular, then it seems to me the eigenvector has to be lambda and one, because that multiplication will give me the zero."
+    },
+    {
+        "text": "And this multiplication gives me, better give me also zero."
+    }
+]

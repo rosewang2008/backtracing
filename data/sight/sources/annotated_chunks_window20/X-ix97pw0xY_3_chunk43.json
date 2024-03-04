@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's the one that's missing it there."
+    },
+    {
+        "text": "So the expectation minus this thing is going to be equal to 0, which tells me that the expectation is just the derivative."
+    },
+    {
+        "text": "So it's still a function of theta, but it's just the derivative of b."
+    },
+    {
+        "text": "And the variance is just going to be the second derivative of b."
+    },
+    {
+        "text": "But remember, this was some sort of a scaling."
+    },
+    {
+        "text": "It's called the dispersion parameter."
+    },
+    {
+        "text": "So if I had a Gaussian, and the variance of the Gaussian did not depend on the sigma square, which I stuffed in this phi, that would be certainly weird."
+    },
+    {
+        "text": "And it cannot depend only on mu."
+    },
+    {
+        "text": "And so for the Gaussian, this is definitely going to be equal to 1."
+    },
+    {
+        "text": "And this is just going to be equal to my variance."
+    },
+    {
+        "text": "So this is just by taking the second derivative."
+    },
+    {
+        "text": "So basically, the take-home message is that this function b captures, by taking one derivative of the expectation and by taking two derivatives, captures the variance."
+    },
+    {
+        "text": "Another thing that's actually cool, and we'll come back to this and I want you to think about, is if this second derivative is the variance, what can I say about this thing?"
+    },
+    {
+        "text": "What do I know about a variance?"
+    },
+    {
+        "text": "Yeah, it's positive."
+    },
+    {
+        "text": "So I know that this is positive."
+    },
+    {
+        "text": "So what does that tell me?"
+    },
+    {
+        "text": "Positive?"
+    },
+    {
+        "text": "That's convex, right?"
+    },
+    {
+        "text": "A function that has positive second derivative is convex."
+    }
+]

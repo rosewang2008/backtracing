@@ -1,0 +1,236 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Lucas , how was your trip to Paris ?",
+        "emotion": "happiness",
+        "explanation": "the speaker is excited to hear about B's trip to Paris",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "your trip to Paris"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hey Lucas , how was your trip to Paris ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It was wonderful , but I was so tired .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "your trip to Paris",
+            "It was wonderful"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It was wonderful , but I was so tired .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did you go to the top of the Eiffel Tower .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "your trip to Paris",
+            "It was wonderful",
+            "top of the Eiffel Tower"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Did you go to the top of the Eiffel Tower .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , that was the first thing we did . We went all the way to the top . There were visitorsfrom all over the world taking photos there .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            4
+        ],
+        "expanded emotion cause span": [
+            "top of the Eiffel Tower",
+            "Yes , that was the first thing we did . We went all the way to the top ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yes , that was the first thing we did . We went all the way to the top . There were visitorsfrom all over the world taking photos there .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What else did you see ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "What else did you see ?"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "What else did you see ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You must have had a great time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say .",
+            "You must have had a great time ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You must have had a great time .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yes , at the beginning we were all excited and had lots of fun . However , on the third day of travelling in the city , I felt sick I think I had something bad to eat but it passed by the evening .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say .",
+            "Yes , at the beginning we were all excited and had lots of fun ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "Yes , at the beginning we were all excited and had lots of fun . However , on the third day of travelling in the city , I felt sick I think I had something bad to eat but it passed by the evening .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Yes . you need to be careful with what you eat when you're abroad . sometimes new food might disagree with you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            8
+        ],
+        "expanded emotion cause span": [
+            "Art galleries , cathedrals , statues , fountains , palaces , bistros , there's really too much to say .",
+            "Yes , at the beginning we were all excited and had lots of fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . you need to be careful with what you eat when you're abroad . sometimes new food might disagree with you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "On the fourth day , we went to taste the French cuisine . That was really fantastic . And no stomach problems .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "we went to taste the French cuisine . That was really fantastic . And no stomach problems ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "On the fourth day , we went to taste the French cuisine . That was really fantastic . And no stomach problems .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That is great . Everyone says French food is wonderful .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "we went to taste the French cuisine . That was really fantastic . And no stomach problems .",
+            "Everyone says French food is wonderful ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That is great . Everyone says French food is wonderful .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You'll have to try for yourself some day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "we went to taste the French cuisine . That was really fantastic . And no stomach problems .",
+            "Everyone says French food is wonderful ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "You'll have to try for yourself some day .",
+        "id": 12
+    }
+]

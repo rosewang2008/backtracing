@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Yes , that's right . You have a good memory .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11
+        ],
+        "expanded emotion cause span": [
+            "I think I know the place you mean . We ate there last month , right ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes , that's right . You have a good memory .",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

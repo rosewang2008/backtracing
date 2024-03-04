@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And so to illustrate that, let's look at other weird distributions that we could get in place of the standard Gaussian."
+    },
+    {
+        "text": "And we're not going to see many, but we'll see one."
+    },
+    {
+        "text": "And it's not called the chi-squared distribution."
+    },
+    {
+        "text": "It's actually called the student's distribution, but it involves the chi-squared distribution as a building block."
+    },
+    {
+        "text": "So I don't know if my phonetics are not really right there, so I try to say, well, it's chi-squared."
+    },
+    {
+        "text": "Maybe it's chi-squared in Canada."
+    },
+    {
+        "text": "Who knows?"
+    },
+    {
+        "text": "So for a positive integer, so there's only one parameter."
+    },
+    {
+        "text": "So for the Gaussian, you have two parameters, which are mu and sigma squared."
+    },
+    {
+        "text": "Those are real numbers."
+    },
+    {
+        "text": "Sigma squared is positive."
+    },
+    {
+        "text": "Here, I have one integer parameter."
+    },
+    {
+        "text": "Then the distribution, the chi-squared distribution with d degrees of freedom."
+    },
+    {
+        "text": "So the parameter is called a degree of freedom, just like mu is called the expected value, and sigma squared is called the variance."
+    },
+    {
+        "text": "So it's called degrees of freedom."
+    },
+    {
+        "text": "You don't have to really understand why."
+    },
+    {
+        "text": "So that's the law that you would get."
+    },
+    {
+        "text": "That's the random variable you would get if you were to sum d squares of independent standard Gaussians."
+    },
+    {
+        "text": "So I take the square of an independent random Gaussian."
+    },
+    {
+        "text": "I take another one."
+    }
+]

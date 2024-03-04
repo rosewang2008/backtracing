@@ -1,0 +1,32 @@
+[
+    {
+        "text": "OK, write that output as a combination of the v's."
+    },
+    {
+        "text": "It's already done."
+    },
+    {
+        "text": "It's just lambda two times the second v. So we need, in the second column, we have lambda two times the second v. Well, you see what's coming."
+    },
+    {
+        "text": "That in that basis, in the eigenvector basis, the matrix is diagonal."
+    },
+    {
+        "text": "So that's the perfect basis."
+    },
+    {
+        "text": "That's the basis we'd love to have for image processing, but to find the eigenvectors of our pixel matrix would be too expensive."
+    },
+    {
+        "text": "So we do something cheaper and close, which is to choose a good basis like, like wavelengths."
+    },
+    {
+        "text": "OK, thanks."
+    },
+    {
+        "text": "So quiz review on Wednesday, all day."
+    },
+    {
+        "text": "Thanks."
+    }
+]

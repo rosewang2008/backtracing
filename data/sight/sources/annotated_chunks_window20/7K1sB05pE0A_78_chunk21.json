@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Serious business."
+    },
+    {
+        "text": "So let me continue."
+    },
+    {
+        "text": "So first of all, I want to give you a few more notations."
+    },
+    {
+        "text": "And these are just other ways that people refer, notations that people use to refer to derivatives."
+    },
+    {
+        "text": "And the first one is the following."
+    },
+    {
+        "text": "We already wrote y is equal to f x."
+    },
+    {
+        "text": "And so when we write delta y, that means the same thing as delta f. That's a typical notation."
+    },
+    {
+        "text": "And previously, we wrote f' for the derivative."
+    },
+    {
+        "text": "So this is Newton's notation for the derivative."
+    },
+    {
+        "text": "But there are other notations."
+    },
+    {
+        "text": "And one of them is df dx."
+    },
+    {
+        "text": "And another one is dy dx, meaning exactly the same thing."
+    },
+    {
+        "text": "And sometimes we let the function slip down below."
+    },
+    {
+        "text": "So that becomes d by dx of f, or d by dx of y."
+    },
+    {
+        "text": "So these are all notations that are used for the derivative, and these were initiated by Leibniz."
+    },
+    {
+        "text": "And these notations are used interchangeably, sometimes practically together."
+    },
+    {
+        "text": "They both turn out to be extremely useful."
+    },
+    {
+        "text": "This one omits, notice that this thing omits the underlying base point x0."
+    },
+    {
+        "text": "That's one of the nuisances."
+    },
+    {
+        "text": "It doesn't give you all the information."
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning . I ' m from the new york book review . Could I ask you some question about your latest book ?",
+        "emotion": "neutral",
+        "text": "Good morning . I ' m from the new york book review . Could I ask you some question about your latest book ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sure . Take a seat ... what would you like to know ?",
+        "emotion": "neutral",
+        "text": "Sure . Take a seat ... what would you like to know ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "First , I ' Ve heard that your latest book is based on a true story .",
+        "emotion": "neutral",
+        "text": "First , I ' Ve heard that your latest book is based on a true story .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That ' s correct . It ' s a murder mystery based on actual murders that book place in florida several years ago . The main character-the police invesigator-is based on the man who investigated the case .",
+        "emotion": "neutral",
+        "text": "That ' s correct . It ' s a murder mystery based on actual murders that book place in florida several years ago . The main character-the police invesigator-is based on the man who investigated the case .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How do you research your books ?",
+        "emotion": "neutral",
+        "text": "How do you research your books ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I always visit the places that I use as setting for stories . Readers like things to be as factually correct as possible-even in fiction ! I usually base my characters on people I have met . Most charact",
+        "emotion": "neutral",
+        "text": "I always visit the places that I use as setting for stories . Readers like things to be as factually correct as possible-even in fiction ! I usually base my characters on people I have met . Most charact",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I really like your books . I ' Ve just finished this one . I read it from cover to cover in a single day . Congratulation on making the bestseller list yet again !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really like your books ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I really like your books . I ' Ve just finished this one . I read it from cover to cover in a single day . Congratulation on making the bestseller list yet again !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you . Let met sign it for you ... there you go .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really like your books ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Let met sign it for you ... there you go .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh ! Thank you very much . I heard that you are currently writing a collection of short stories . What are the stories about ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Let met sign it for you ... there you go ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh ! Thank you very much . I heard that you are currently writing a collection of short stories . What are the stories about ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "There ' s a real mix of stories in the book . I haven ' t finished all of them yet , though . Many of them are short detective stories , but there are also horror stories and sci-fi ones . If you give me your",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "I really like your books ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "There ' s a real mix of stories in the book . I haven ' t finished all of them yet , though . Many of them are short detective stories , but there are also horror stories and sci-fi ones . If you give me your",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thanks very much . I ' m sure it will sell well . I can ' t wait to read it . Here ' s my card . Thank you for you time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "If you give me your",
+            "I can ' t wait to read it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thanks very much . I ' m sure it will sell well . I can ' t wait to read it . Here ' s my card . Thank you for you time .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

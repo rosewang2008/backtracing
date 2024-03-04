@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And you didn't have to think, and you'll produce a very interesting polynomial, which is a good approximation to e to the b."
+    },
+    {
+        "text": "All right, so that's it for the basic properties."
+    },
+    {
+        "text": "Now there's one tricky property that I need to tell you about."
+    },
+    {
+        "text": "It's not that tricky, but it's a little tricky."
+    },
+    {
+        "text": "And this is change of variables."
+    },
+    {
+        "text": "Change of variables in integration, we've actually already done."
+    },
+    {
+        "text": "We called that, the last time we talked about it, we called it substitution."
+    },
+    {
+        "text": "And the idea here, if you may remember, was that if you're faced with an integral like this, you can change it to, if you put in u is equal to u of x, and you have a du, which is equal to u' of x dx, then you can change the integral."
+    },
+    {
+        "text": "As follows, this is the same as g of u of x, u' of x dx."
+    },
+    {
+        "text": "This was the general procedure for substitution."
+    },
+    {
+        "text": "What's new today is that we're going to put in the limits."
+    },
+    {
+        "text": "If you have a limit here, u1, and a limit here, u2, you want to know what the relationship is between the limits here and the limits when you change variables to the new variables."
+    },
+    {
+        "text": "And it's the simplest possible thing."
+    },
+    {
+        "text": "Namely, the two limits over here are in the same relationship as u of x is to this symbol u here."
+    },
+    {
+        "text": "In other words, u1 is equal to u of x1."
+    },
+    {
+        "text": "And u2 is equal to u of x2."
+    },
+    {
+        "text": "That's what works."
+    },
+    {
+        "text": "Now, there's only one danger here, there's one subtlety."
+    },
+    {
+        "text": "Which is, this only works if u' does not change sign."
+    },
+    {
+        "text": "I've been worrying a little bit about going backwards and forwards, and I allowed myself to reverse and do all kinds of stuff with these integrals."
+    }
+]

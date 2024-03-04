@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It could be more complicated."
+    },
+    {
+        "text": "This theta could be a pair of mu sigma squared, and that could actually give you some n mu sigma squared."
+    },
+    {
+        "text": "OK, so anything where you can actually, rather than actually giving you a full distribution, I can compress it into a parameter."
+    },
+    {
+        "text": "But it could be worse."
+    },
+    {
+        "text": "It could be this guy here, right?"
+    },
+    {
+        "text": "Theta could be p1, p larger than or equal to 7, and my distribution could just be something that has pmf."
+    },
+    {
+        "text": "p1, p larger than 7."
+    },
+    {
+        "text": "That's another parameter."
+    },
+    {
+        "text": "This one is seven dimensional, this one is two dimensional, and all these guys are just one dimension."
+    },
+    {
+        "text": "All these guys are parameters."
+    },
+    {
+        "text": "Is that clear?"
+    },
+    {
+        "text": "What's important here is that once I give you theta, you know exactly all the probabilities associated to this random variable."
+    },
+    {
+        "text": "You know its distribution perfectly."
+    },
+    {
+        "text": "OK, so here, so this is the definition."
+    },
+    {
+        "text": "Is that clear for everyone?"
+    },
+    {
+        "text": "Is there a question about this distribution?"
+    },
+    {
+        "text": "About this definition, sorry?"
+    },
+    {
+        "text": "All right, so really, the key thing is the statistical model associated to a statistical experiment."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So let's just see some examples."
+    }
+]

@@ -1,0 +1,169 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning , Mr . Huang . It's a pleasure to meet you again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It's a pleasure to meet you again ."
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Good morning , Mr . Huang . It's a pleasure to meet you again .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Pleased to see you . Welcome to our company . I hope you have a good day .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It's a pleasure to meet you again .",
+            "Pleased to see you ."
+        ],
+        "type": [
+            "latent",
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Pleased to see you . Welcome to our company . I hope you have a good day .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thank you . Can I meet my colleagues ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b",
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "b",
+            "It's a pleasure to meet you again .",
+            "Pleased to see you . Welcome to our company ."
+        ],
+        "type": [
+            "latent",
+            "hybrid"
+        ],
+        "text": "Thank you . Can I meet my colleagues ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Sure , come with me . Hello , Michael , this is Steven . He will be part of your team .",
+        "emotion": "neutral",
+        "text": "Sure , come with me . Hello , Michael , this is Steven . He will be part of your team .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Hi , Steven , welcome to join us !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "welcome to join us !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Hi , Steven , welcome to join us !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I ' Ve been looking forward to meeting you . I am new to the working world and would appreciate your guidance .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "welcome",
+            "I ' Ve been looking forward to meeting you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' Ve been looking forward to meeting you . I am new to the working world and would appreciate your guidance .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That ' s right . Just call me if you need anything .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "welcome",
+            "I ' Ve been looking forward to meeting you ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That ' s right . Just call me if you need anything .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That's great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Just call me if you need anything ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's great .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , as the other guys are still not in , I ' ll introduce you to them later .",
+        "emotion": "neutral",
+        "text": "Well , as the other guys are still not in , I ' ll introduce you to them later .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "All right .",
+        "emotion": "neutral",
+        "text": "All right .",
+        "id": 10
+    }
+]

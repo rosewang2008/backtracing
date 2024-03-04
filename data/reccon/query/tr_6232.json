@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 29,
+        "speaker": "A",
+        "utterance": "You're very welcome . Here is my card , if you need any help .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            28
+        ],
+        "expanded emotion cause span": [
+            "thanks for your advice . I will probably come back later ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You're very welcome . Here is my card , if you need any help .",
+        "id": 29,
+        "source_sentences": [
+            27
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So that's the number- the stretching number."
+    },
+    {
+        "text": "And similarly, A v2 is sigma 2 u2."
+    },
+    {
+        "text": "This is what- this is my goal."
+    },
+    {
+        "text": "And now I want to express that goal in matrix language."
+    },
+    {
+        "text": "That's the usual step."
+    },
+    {
+        "text": "Think of what you want and then express it as a matrix multiplication."
+    },
+    {
+        "text": "So A v1 is sigma 1 u1."
+    },
+    {
+        "text": "Actually, here we go."
+    },
+    {
+        "text": "Let me pull out these u1, u2 to ur, and then a matrix with the sigmas."
+    },
+    {
+        "text": "It's- everything now is going to be in this- in that, in that, little part of the blackboard."
+    },
+    {
+        "text": "Do you see that this equation says what I'm trying to do with my figure?"
+    },
+    {
+        "text": "A times the first basis vector should be sigma 1 times the other basis- the other first basis vector."
+    },
+    {
+        "text": "These are the basis vectors in the row space, these are the basis vectors in the column space, and these are the multiplying factors."
+    },
+    {
+        "text": "So A v2 is sigma 2 times u2, A vr is sigma r times ur."
+    },
+    {
+        "text": "And then we've got a whole lot of zeros and maybe some zeros at the end, but this is- that's the heart of it."
+    },
+    {
+        "text": "And now if I express that in- as matrices, because you knew that was coming, that's what I have."
+    },
+    {
+        "text": "So this is my goal."
+    },
+    {
+        "text": "To find an orthogonal basis in the rows- orthonormal, even, basis in the row space, and an orthonormal basis in the column space, so that I'm sort of diagonalized the matrix."
+    },
+    {
+        "text": "The matrix A is like getting converted to this diagonal matrix sigma."
+    },
+    {
+        "text": "And you notice that usually I have to do- I have to allow myself two different bases."
+    }
+]

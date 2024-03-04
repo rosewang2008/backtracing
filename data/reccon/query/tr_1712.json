@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Great idea . I ' m looking forward to it . See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "How about next time we meet at my place ? And I ' ll treat you to Chinese food . I know how much you like it . We can order in and watch video too . Anything you like , I promise ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Great idea . I ' m looking forward to it . See you then .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I can ' t believe she would do that to you . It ' s so dishonest---and rude !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            6,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "supposed to go out for a romantic dinner for our one year anniversary , but she stood me up !",
+            "later that night when I saw her with another man at a club near my home !",
+            "I called her later that night , but she didn't answer the phone .",
+            "It ' s so dishonest---and rude !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I can ' t believe she would do that to you . It ' s so dishonest---and rude !",
+        "id": 9,
+        "source_sentences": [
+            3,
+            5,
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

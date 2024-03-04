@@ -1,0 +1,133 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "You got a letter in the mail .",
+        "emotion": "neutral",
+        "text": "You got a letter in the mail .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Give it to me .",
+        "emotion": "neutral",
+        "text": "Give it to me .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What is it ?",
+        "emotion": "neutral",
+        "text": "What is it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It ' s from NYU .",
+        "emotion": "neutral",
+        "text": "It ' s from NYU .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What does it say ?",
+        "emotion": "neutral",
+        "text": "What does it say ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I didn ' t get accepted .",
+        "emotion": "neutral",
+        "text": "I didn ' t get accepted .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You can ' t be serious !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn ' t get accepted ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can ' t be serious !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I ' m serious .",
+        "emotion": "neutral",
+        "text": "I ' m serious .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Are you all right ?",
+        "emotion": "neutral",
+        "text": "Are you all right ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "NYU was my first choice .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I didn ' t get accepted ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "NYU was my first choice .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I ' m sorry that you didn ' t get in .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            6,
+            11
+        ],
+        "expanded emotion cause span": [
+            "I didn ' t get accepted .",
+            "I ' m sorry that you didn ' t get in ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I ' m sorry that you didn ' t get in .",
+        "id": 11,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I ' ll just have to wait for UCLA .",
+        "emotion": "neutral",
+        "text": "I ' ll just have to wait for UCLA .",
+        "id": 12
+    }
+]

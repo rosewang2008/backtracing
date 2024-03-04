@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "MsIvs_6vC38",
+        "query_id": 9,
+        "timestamp": 1684710020923.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can someone explain why the computatinal expense is roughly 100^2 for the first step? I thought it would be roughly proportional to n = 100"
+    }
+]

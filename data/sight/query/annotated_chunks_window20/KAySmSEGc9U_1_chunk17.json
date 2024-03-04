@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "KAySmSEGc9U",
+        "query_id": 1,
+        "timestamp": 1684706796695.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "anyone mind explaining why, when we're trying to prove D  is not regular by contradiction, we can't take 010101 as a string, where the first 01 is x, the second 01 is y and the last 01 is z. We take the y and repeat it as much as needed and we still stay in the language.\nwhy is that not possible? is it because 01 is same as 01010101...."
+    }
+]

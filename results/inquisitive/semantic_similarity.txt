@@ -1,0 +1,8 @@
+Query dirs: ['data/inquisitive/query/test']
+Source dirs: ['data/inquisitive/sources/test']
+Output fname: results/inquisitive/test/semantic_similarity.csv
+Output fname: results/inquisitive/test/semantic_similarity.csv
+Accuracy top 1: 0.48
+Min distance top 1: 4.11
+Accuracy top 3: 0.71
+Min distance top 3: 1.16

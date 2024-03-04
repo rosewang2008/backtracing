@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'll surely make introductions for them .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Oh , how wonderful ! Every girl on the campus has a crush on those handsome guys ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'll surely make introductions for them .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

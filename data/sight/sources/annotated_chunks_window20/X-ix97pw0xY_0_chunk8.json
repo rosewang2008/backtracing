@@ -1,0 +1,62 @@
+[
+    {
+        "text": "You're going to actually start pretending the probability that it spits out one conditionally in x is like 1.2, and that's going to be weird."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Any other questions?"
+    },
+    {
+        "text": "All right, so let's start with some examples."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "I mean, you got so used to them throughout this course."
+    },
+    {
+        "text": "So the first one is all these things are taken."
+    },
+    {
+        "text": "So there's a few books on generalizing your models, generalize additive models, and there's tons of applications that you can see."
+    },
+    {
+        "text": "Those are extremely versatile."
+    },
+    {
+        "text": "And as soon as you want to do modeling to explain some y given x, you sort of need to do that if you want to go beyond linear models."
+    },
+    {
+        "text": "So this was the disease occurring rate."
+    },
+    {
+        "text": "So you have a disease epidemic, and you want to basically model the expected number of new cases given at a certain time."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So you have time that progresses for each of your reservation."
+    },
+    {
+        "text": "Each of your relation is a timestamp, say, I don't know, 20th day."
+    },
+    {
+        "text": "And your response is the number of new cases."
+    },
+    {
+        "text": "And you're going to actually put your model directly on mu, right?"
+    },
+    {
+        "text": "When I looked at this, everything here was on mu itself, on the expected, right?"
+    },
+    {
+        "text": "Mu of x is always the expected, the conditional expectation of y given x."
+    },
+    {
+        "text": "Right?"
+    }
+]

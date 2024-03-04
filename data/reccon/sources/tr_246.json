@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Oh dear , Miss , you are soaked ! Wow , it's really raining heavily outside .",
+        "emotion": "neutral",
+        "text": "Oh dear , Miss , you are soaked ! Wow , it's really raining heavily outside .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , it sure is . I had to run here from work ! I need to rush as I'm on my lunch break .",
+        "emotion": "neutral",
+        "text": "Yes , it sure is . I had to run here from work ! I need to rush as I'm on my lunch break .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well please , why don't you go ahead of me in line ? I'm in no hurry .",
+        "emotion": "neutral",
+        "text": "Well please , why don't you go ahead of me in line ? I'm in no hurry .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh , that's so nice of you ! Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "why don't you go ahead of me in line"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , that's so nice of you ! Thank you very much .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "My pleasure Miss . Actually , could you recommend what to eat here ? I've never been here before .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Oh , that's so nice of you ! Thank you very much ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure Miss . Actually , could you recommend what to eat here ? I've never been here before .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Sure . Well , the avocado sandwich is delicious , and it's the healthiest thing on the menu . Personally , I think the beef salad is the tastiest choice . I usually get that . Also , the milkshakes are the best milkshakes in town !",
+        "emotion": "neutral",
+        "text": "Sure . Well , the avocado sandwich is delicious , and it's the healthiest thing on the menu . Personally , I think the beef salad is the tastiest choice . I usually get that . Also , the milkshakes are the best milkshakes in town !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , thanks for the suggestions .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "the avocado sandwich is delicious , and it's the healthiest thing on the menu . Personally , I think the beef salad is the tastiest choice . I usually get that . Also , the milkshakes are the best milkshakes in town !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , thanks for the suggestions .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , don't mention it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "thanks for the suggestions"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , don't mention it .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

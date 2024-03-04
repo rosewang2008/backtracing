@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Absolutely unbelievable ! You people should be ashamed of yourselves .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "I need to charge you $ 2 to remove this error from your file ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Absolutely unbelievable ! You people should be ashamed of yourselves .",
+        "id": 9,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,173 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good morning , Mr . Jones !",
+        "emotion": "happiness",
+        "explanation": "Speaker is providing cordial greetings.",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Good morning , Mr . Jones !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good morning , Miss Bell !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Good morning"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good morning , Miss Bell !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Nice to see you again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Nice to see you again ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Nice to see you again .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Nice to see you too . It's been a long time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "Nice to see you again ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Nice to see you too . It's been a long time .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How is everything ?",
+        "emotion": "neutral",
+        "text": "How is everything ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Just fine , and you ?",
+        "emotion": "neutral",
+        "text": "Just fine , and you ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Quite well , thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "and you ?",
+            "Quite well"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Quite well , thank you .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Did you drive yourself to the airport ?",
+        "emotion": "neutral",
+        "text": "Did you drive yourself to the airport ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "No , I was driven by my husband .",
+        "emotion": "neutral",
+        "text": "No , I was driven by my husband .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Did someone meet you at the airport here ?",
+        "emotion": "neutral",
+        "text": "Did someone meet you at the airport here ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yes , thanks .",
+        "emotion": "happiness",
+        "explanation": "Speaker is thankful.",
+        "expanded emotion cause evidence": [
+            11,
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "thanks .",
+            "b"
+        ],
+        "type": [
+            "latent",
+            "no-context"
+        ],
+        "text": "Yes , thanks .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Is this where we'll be holding the meeting ?",
+        "emotion": "neutral",
+        "text": "Is this where we'll be holding the meeting ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "No , the meeting will be held on the fourth floor .",
+        "emotion": "neutral",
+        "text": "No , the meeting will be held on the fourth floor .",
+        "id": 13
+    }
+]

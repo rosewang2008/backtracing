@@ -1,0 +1,1232 @@
+[
+    {
+        "text": " Okay."
+    },
+    {
+        "text": "So coming near the end of the course, this lecture will be a mixture of the linear algebra that comes with a change of basis."
+    },
+    {
+        "text": "And a change of basis from one basis to another basis is something you really do in applications."
+    },
+    {
+        "text": "And I would like to talk about those applications."
+    },
+    {
+        "text": "I got a little bit involved with compression, compressing a signal, compressing an image, and that's exactly change of basis."
+    },
+    {
+        "text": "And then the main theme in this chapter is the connection between a linear transformation, which doesn't have to have coordinates, and the matrix that tells us that transformation with respect to coordinates."
+    },
+    {
+        "text": "So the matrix is the coordinate-based description of the linear transformation."
+    },
+    {
+        "text": "Let me start out with the nice part, which is some, just to tell you something about image compression."
+    },
+    {
+        "text": "Those of you, well, everybody's going to meet compression, because you know that the amount of data that we're getting, well, these lectures are compressed."
+    },
+    {
+        "text": "So that actually, probably you see my motion as jerky, shall I use that word?"
+    },
+    {
+        "text": "Have you looked on the web?"
+    },
+    {
+        "text": "I should like to find a better word."
+    },
+    {
+        "text": "Compressed, let's see."
+    },
+    {
+        "text": "So my, the, the, the complete signal is, of course, in those video cameras and in the videotape, but that goes to the bottom of building nine, and out of that comes a jumpy motion, because it uses a standard system for compressing images."
+    },
+    {
+        "text": "And, you'll notice that the stuff that sits on the board comes very clearly, but it's my motion that, that, that needs a whole lot of bits, right?"
+    },
+    {
+        "text": "So, and if I were to run up and back, up there and back, that would need too many bits and they'd, I'd be compressed even more."
+    },
+    {
+        "text": "So, what does compression mean?"
+    },
+    {
+        "text": "Can I, let me just think of a still image."
+    },
+    {
+        "text": "And, and of course, satellites, oh, there's, and, and computations of the climate, computations of combustion, the, computers and sensors of all kinds are just giving us overwhelming amounts of data."
+    },
+    {
+        "text": "The web is, too."
+    },
+    {
+        "text": "Now, some compression can be done with no loss."
+    },
+    {
+        "text": "Lossless compression is possible just using, sort of, the fact that, there's, there are redundancies."
+    },
+    {
+        "text": "But I'm talking here about lossy compression."
+    },
+    {
+        "text": "So I'm talking about, here's an image."
+    },
+    {
+        "text": "And what does an image consist of?"
+    },
+    {
+        "text": "It consists of a lot of little pixels, right?"
+    },
+    {
+        "text": "Maybe five hundred and twelve by five hundred and twelve."
+    },
+    {
+        "text": "Two to the ninth by two to the ninth pixels, and each, so this is pixel number one one, so that's a pixel, and if we're in black and white, the typical pixel would tell us a grayscale from zero to two fifty five."
+    },
+    {
+        "text": "So a pixel is usually a, a value of a, a, one of the x i, so this would be the i-th pixel, it, it's usually a real number on a scale from zero to two fifty five."
+    },
+    {
+        "text": "In other words, two to the eighth possibilities."
+    },
+    {
+        "text": "So usually, that's the, that's the standard, so, so that, that's eight, eight bits."
+    },
+    {
+        "text": "But then we have that for every, every pixel, so we have five hundred and twelve squared pixels."
+    },
+    {
+        "text": "We're, we're really operating, x is a vector in Rn, but what is n?"
+    },
+    {
+        "text": "n is five hundred and twelve squared."
+    },
+    {
+        "text": "That's, that's our problem right there."
+    },
+    {
+        "text": "We're, a pixel is a vector that gives us the information about the image, I'm sorry, the image that comes through is a vector of, of that length, that, that's the information we have about the image."
+    },
+    {
+        "text": "If it's a color image, we would have three times that length, because we'd have, we'd need three coordinates to get color."
+    },
+    {
+        "text": "So it would be three times five hundred and twelve squared."
+    },
+    {
+        "text": "It's an enormous amount of information, and we couldn't send out the image for these lectures without compressing it."
+    },
+    {
+        "text": "We, we, it, it would be, it would overload the system."
+    },
+    {
+        "text": "So it has to be compressed."
+    },
+    {
+        "text": "The standard compression, and still used in, in the, with these lectures, is, called JPEG."
+    },
+    {
+        "text": "I think that stands for a Joint Photographic Experts Group."
+    },
+    {
+        "text": "They established a system of compression."
+    },
+    {
+        "text": "And I just want to tell you what it's about."
+    },
+    {
+        "text": "It's a change of basis."
+    },
+    {
+        "text": "What, what's, what basis do we have?"
+    },
+    {
+        "text": "The, the current basis we have is, you could say, the standard basis is every pixel give a value."
+    },
+    {
+        "text": "So that's like, we have a vector x, which is five hundred and twelve squared long, and in the i-th position, we get a number like one twenty one or something, the next, the pixel next to it might be one twenty four, maybe where, maybe where the, where my tie, begins to end."
+    },
+    {
+        "text": "So if it was mostly blue shirt, this would be a slight difference in shading, but pretty close."
+    },
+    {
+        "text": "Then the tie would be a different color."
+    },
+    {
+        "text": "So, so we might have quite a few pixels for the blue shirt and a whole lot more for the blackboard that are very close."
+    },
+    {
+        "text": "And that's what, are very correlated."
+    },
+    {
+        "text": "And that's what gives us the possibility of compression."
+    },
+    {
+        "text": "For example, before the lecture starts, if we had a blank blackboard, then there's an image, but it would make no sense to take that image and tell you what it is pixel by pixel."
+    },
+    {
+        "text": "I mean, there's a case in which all pixel values, all gray levels are the same, or practically the same, depending on the erasing of the board, but extremely close."
+    },
+    {
+        "text": "And so that's an image where the standard basis is lousy."
+    },
+    {
+        "text": "That's, that's the basic fact."
+    },
+    {
+        "text": "That, that the standard basis which gives the value of every pixel makes no use of the fact that we're getting a whole lot of pixels whose gray levels, the neighboring pixels tend to have the same gray level as the, as their, as their neighbors."
+    },
+    {
+        "text": "So to take, how do we take advantage of that fact?"
+    },
+    {
+        "text": "Well, one basis vector that would be extremely nice to, one vector that would be extremely nice to include in the basis would be a vector of all ones."
+    },
+    {
+        "text": "That's not in our standard basis."
+    },
+    {
+        "text": "So our, so let me just write again."
+    },
+    {
+        "text": "The standard basis would, is, is our, is our one and all the rest zeros, zero, one, and all the rest zeros, everybody knows what the standard basis is."
+    },
+    {
+        "text": "Now, any other basis for our, so this is, for this very high-dimensional space, now I'm going to speak about a better basis, better basis, and let me just emphasize, one vector that would be extremely nice to have in that basis is the vector of all ones."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "Let me just say again."
+    },
+    {
+        "text": "Because that vector of all ones, by itself, one vector is, is able to completely give the information on a solid image."
+    },
+    {
+        "text": "Of course, our image won't be solid, it'll have a mix of, of, solid and, and signal."
+    },
+    {
+        "text": "So that one vector, but that, having that one vector in the basis is, is, is going to save us a whole lot."
+    },
+    {
+        "text": "Now the question is, what other vectors should be in the basis?"
+    },
+    {
+        "text": "The, the extreme vector in the basis might be a vector of one minus one, one minus one, one minus one."
+    },
+    {
+        "text": "That would be a vector that shows, I mean, that's like a checkerboard vector, right?"
+    },
+    {
+        "text": "That's a vector that would, if, if we had, if, if the image was like a huge checkerboard of plus minus, plus minus, plus minus, that vector would carry the whole signal."
+    },
+    {
+        "text": "But much more common would be maybe to have half the image, darker and the other half lighter."
+    },
+    {
+        "text": "So another image, another vector that might be quite useful in here would be half ones and half minus ones."
+    },
+    {
+        "text": "I'm just trying to get across the idea of, that a basis could be, that first of all, we've got, the basis is at our disposal."
+    },
+    {
+        "text": "Like, we're free to choose that."
+    },
+    {
+        "text": "And it's a billion dollar decision what we choose."
+    },
+    {
+        "text": "So, and TV people would rather, would prefer one basis based on the way the, the signal is scanned, and movie people would prefer another."
+    },
+    {
+        "text": "I mean, there's giant politics in this question that really reduces to a, to a linear algebra problem what basis to choose."
+    },
+    {
+        "text": "I'll just mention the best known basis, which is, which JPEG uses, let me put that here, is the Fourier basis."
+    },
+    {
+        "text": "So when you, when you use the Fourier basis, that includes, this is the constant vector, the DC vector, if we're electrical engineers, the, the, the vector of all ones, so it would include one, one, one, one."
+    },
+    {
+        "text": "Often, eight by eight is a good choice."
+    },
+    {
+        "text": "Eight by eight is a, is a good choice."
+    },
+    {
+        "text": "So, what do I mean by this eight by eight?"
+    },
+    {
+        "text": "I mean that the big signal, which is five twelve by five twelve, gets broken down, and JPEG does this, into eight by eight blocks."
+    },
+    {
+        "text": "And we, sort of, this is too much to deal with at once."
+    },
+    {
+        "text": "So what JPEG does is take this eight by eight block, which is sixty-four coefficients, sixty-four, pixels, and changes the basis on the, on that piece."
+    },
+    {
+        "text": "And then, now, let's see, I was going to write down Fourier, so you remember Fourier is, is this vector of all ones, and then, the vector, oh, well, actually, I gave a lecture earlier about the Fourier matrix, these, this matrix whose columns are powers of a, of a, complex number w. I, I won't repeat that, because I'm not, I don't want to go into the details of the Fourier basis."
+    },
+    {
+        "text": "Just to tell you how compression works."
+    },
+    {
+        "text": "So what happens in JPEG?"
+    },
+    {
+        "text": "What happens to the video, to a, to each image of, of, of these lectures?"
+    },
+    {
+        "text": "The, it gets broken into eight by eight blocks."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Within each block, we have sixty-four coefficients, sixty-four basis vectors, sixty-four pixels, and we change basis in sixty-four dimensional space, using these Fourier vectors."
+    },
+    {
+        "text": "Just, no, that was a lossless step."
+    },
+    {
+        "text": "Let, let me, let me emphasize."
+    },
+    {
+        "text": "In comes the signal."
+    },
+    {
+        "text": "x."
+    },
+    {
+        "text": "We change basis."
+    },
+    {
+        "text": "This is the basis change."
+    },
+    {
+        "text": "Change basis."
+    },
+    {
+        "text": "Choose a better basis."
+    },
+    {
+        "text": "So it produces, the, coefficients c. So sixty-four pixels come in, sixty-four coefficients come out."
+    },
+    {
+        "text": "Now comes the compression."
+    },
+    {
+        "text": "Now come, this was lossless."
+    },
+    {
+        "text": "It's just, we know that R64 has plenty of basis, and we've chosen one."
+    },
+    {
+        "text": "Now, in that basis, we write, we write the signal in that basis, and that's what my lecture, that's the math part of my lecture."
+    },
+    {
+        "text": "Now here's the application part."
+    },
+    {
+        "text": "The next part is going to be the compression step."
+    },
+    {
+        "text": "And that's lossy."
+    },
+    {
+        "text": "We're going to lose information."
+    },
+    {
+        "text": "And what, what will actually happen at that step?"
+    },
+    {
+        "text": "Well, one thing we could do is just throw away the small coefficients."
+    },
+    {
+        "text": "So that would be, that's called thresholding."
+    },
+    {
+        "text": "We set some threshold."
+    },
+    {
+        "text": "Every coefficient, every basis vector that's not in there more than the threshold value, and we set some threshold so that our eye can't see the difference, whether we throw away that, or can hardly see the difference, whether we throw away that little bit of that basis vector or keep it."
+    },
+    {
+        "text": "So this compression step produces a compressed set of coefficients."
+    },
+    {
+        "text": "Let me, I'll just keep going here."
+    },
+    {
+        "text": "So, so it keeps going."
+    },
+    {
+        "text": "This compression step produces some coefficients c hat."
+    },
+    {
+        "text": "And with lots of, with many zeros."
+    },
+    {
+        "text": "So that's where the compression came."
+    },
+    {
+        "text": "Probably there's enough of this vector of all ones, we very seldom throw that away."
+    },
+    {
+        "text": "Usually its coefficient will be large."
+    },
+    {
+        "text": "But the coefficient of something like this, that quickly alternating vector, there's probably very little of that in any smooth signal."
+    },
+    {
+        "text": "I mean, that's high frequent- this is, this is low frequency, zero frequency."
+    },
+    {
+        "text": "This stuff is the highest frequency we could have, and there's a, if the noise, the, the jitter is producing that sort of output, but a smooth lecture like this one is, has very little of that highest frequency."
+    },
+    {
+        "text": "Very little noise in this lecture."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, so we throw away whatever there is, and we, we're left with just a few coefficients, and then we reconstruct a signal using those coefficients."
+    },
+    {
+        "text": "We take the, those coefficients times their basis vectors, but this sum doesn't have sixty-four terms anymore."
+    },
+    {
+        "text": "Probably it has about two or three terms."
+    },
+    {
+        "text": "So that, if we say it has three terms."
+    },
+    {
+        "text": "From sixty-four down to three, that's compression of twenty-one to one."
+    },
+    {
+        "text": "That's the kind of compression you're looking for."
+    },
+    {
+        "text": "And everybody is looking for that sort of compression."
+    },
+    {
+        "text": "Let's see, I guess I met the problem with the FBI and fingerprints."
+    },
+    {
+        "text": "So there's a whole lot of still images."
+    },
+    {
+        "text": "You know, you, with your thumb, you make these inky marks, which, go somewhere."
+    },
+    {
+        "text": "You used to go to Washington and get stored in a big file."
+    },
+    {
+        "text": "So Washington had a file of thirty million murderers, cheaters on quizzes, other stuff, and, and actually, there was no way to retrieve them in time."
+    },
+    {
+        "text": "Like, so, so suppose you're at the police station, they say, OK, this person may have done this, check with Washington, have they got his or her fingerprints on file."
+    },
+    {
+        "text": "Well, Washington won't know the answer within a week, if it's got filing cabinets full of fingerprints."
+    },
+    {
+        "text": "So of course the natural step is digitize them."
+    },
+    {
+        "text": "So all fingerprints are now digitized, so now it's at least electronic, but still there's too much information in each, each one."
+    },
+    {
+        "text": "I mean, you can't search through that many, uh, fingerprints if you, if, if the digital image is five twelve squared by five twelve squared, if it's that many pixels."
+    },
+    {
+        "text": "So you get compressed."
+    },
+    {
+        "text": "So the FBI had to decide what basis to choose for compression of fingerprints, and then they built a big new facility in West Virginia and that's where fingerprints now are sent."
+    },
+    {
+        "text": "So if you, I think if you get your fingerprints done now at the police station, if it's an up-to-date police station, it's, it happens digitally and the signal is sent digitally, and then in West Virginia it's compressed and indexed."
+    },
+    {
+        "text": "And then, if they want to find you, they can do it within minutes, instead of within a week."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So this compression is, comes up for signals, for images."
+    },
+    {
+        "text": "For video, which is like these lectures, uh, there's another aspect."
+    },
+    {
+        "text": "You could treat the video as one still image after another one, and compress each one and then run them and make a video."
+    },
+    {
+        "text": "But that misses, well, you can see why that's not optimal."
+    },
+    {
+        "text": "In video, so for in a video thing, you have a sequence of images, so video is really a sequence of images, but what about one image to the next image?"
+    },
+    {
+        "text": "They're extremely correlated."
+    },
+    {
+        "text": "I mean, that, I'm getting an image every split second, and although I'm moving slightly, that's what's producing the, jumpy motion on the video."
+    },
+    {
+        "text": "But I'm not, like, you know, each, each image in the sequence is pretty close to the one before."
+    },
+    {
+        "text": "So you have to use, like, prediction and correction."
+    },
+    {
+        "text": "I mean, you, my, the image of me one instant, one time step later, you would assume would be the same, and then plus a small correction."
+    },
+    {
+        "text": "And you would only code and digitize the correction, and compress the correction."
+    },
+    {
+        "text": "So the sequence of images that's highly correlated, and the problem in compression is always to use this correlation, this fact that in time or in space, things don't change instantly, they, they're very often smooth changes, and, you can predict one value from the previous value."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So that's the, those are applications, which are pure linear algebra."
+    },
+    {
+        "text": "I could, maybe I'll, maybe you'll allow me to tell you the, and the book describes, the new basis that's, the competition for Fourier."
+    },
+    {
+        "text": "So the competition for Fourier is called wavelets, and I can describe what that basis is like, say, in the eight by eight case."
+    },
+    {
+        "text": "So that eight by eight wavelet basis is the vector of all ones, eight ones, then the vector of four ones and four minus ones, then the vector of two ones and two minus ones and four zeros, and also the vector of four zeros and two ones and two minus ones."
+    },
+    {
+        "text": "So now I'm up to four, and I need four more, right, for R8?"
+    },
+    {
+        "text": "So the next basis vector will be one minus one and six zeros, and then three more like that, with a one minus one there and there and there."
+    },
+    {
+        "text": "So those are eight vectors in eight-dimensional space."
+    },
+    {
+        "text": "Those are, those are called wavelets, and you, and it's a very simple wavelet choice."
+    },
+    {
+        "text": "It's a more sophisticated choice."
+    },
+    {
+        "text": "This is a little jumpy, to jump between one and minus one."
+    },
+    {
+        "text": "And actually, you can see now, suppose you compare the wavelet basis with the Fourier basis above."
+    },
+    {
+        "text": "How could I write this guy, which is in the Fourier basis, it's an eight, it's a vector in R8, how would I write that as a combination of the wavelet basis?"
+    },
+    {
+        "text": "Do you, have I told you enough about the wavelet basis that you can see?"
+    },
+    {
+        "text": "How does this very fast guy, what combination of the wavelet basis is that very fast guy?"
+    },
+    {
+        "text": "It would be this one, it would be the sum of these four, right?"
+    },
+    {
+        "text": "That very fast guy will be that one minus one, and the next one, and the next one, and the next one."
+    },
+    {
+        "text": "So this is the sum of those last four wavelets."
+    },
+    {
+        "text": "This one we've kept, and so on."
+    },
+    {
+        "text": "So, each, well, every, well, that's what a basis does."
+    },
+    {
+        "text": "Every vector in R8 is some combination of those, and for the linear algebra, we have, so the linear algebra is this step, find the coefficients."
+    },
+    {
+        "text": "That's, that's the step we want to take."
+    },
+    {
+        "text": "If I give you the basis, like this wavelet basis, and I give you the pixel, so here are the pixel values, p1, p2, down to p8."
+    },
+    {
+        "text": "What's, what's the job?"
+    },
+    {
+        "text": "What's the linear algebra here?"
+    },
+    {
+        "text": "So this is, these are the values, this is in the standard basis, right?"
+    },
+    {
+        "text": "Those are just the values at eight successive points."
+    },
+    {
+        "text": "I guess I'm dropping down to one dimension instead of eight by eight, I'm just going to take eight pixel values along that first top row."
+    },
+    {
+        "text": "So I, what do I want to do?"
+    },
+    {
+        "text": "In the standard basis, here are the pixel values."
+    },
+    {
+        "text": "I want to write that as a combination of c1 times this guy, plus c2 times this guy, plus c3, these are the coefficients, plus c4 times this one."
+    },
+    {
+        "text": "Do you see what I'm doing?"
+    },
+    {
+        "text": "I want to write this vector p as a combination of c1 times the first wavelet, plus c8 times the eighth wavelet."
+    },
+    {
+        "text": "That's the, that's the transform step."
+    },
+    {
+        "text": "That's the lossless step, that's the step from p, oh, I'm calling it p here and I called it x there, so let me, at the risk of moving and therefore making this jumpy, suppose the signal I'm now calling p, the set of pixel values and I'm looking for the coefficients."
+    },
+    {
+        "text": "Okay."
+    },
+    {
+        "text": "Tell me how to do it."
+    },
+    {
+        "text": "How do I find the, if I give you eight basis vectors and I give you the input signal and I ask for the coefficients, what do I do?"
+    },
+    {
+        "text": "What's the, what's the step?"
+    },
+    {
+        "text": "I want, I'm trying to solve this, I want to know the eight coefficients, so I'm changing from the standard basis, which is just the eight grayscale values, to the wavelet basis, where this same vector is represented by eight numbers."
+    },
+    {
+        "text": "It's got to take eight numbers to tell you a vector in R8, and those eight numbers are the coefficients of the basis."
+    },
+    {
+        "text": "Look, we've done this thing before."
+    },
+    {
+        "text": "What do we, here, there is the equation in vector notation."
+    },
+    {
+        "text": "We want to see it as a matrix."
+    },
+    {
+        "text": "This is a combination of columns of the wavelet matrix, right?"
+    },
+    {
+        "text": "This is p equals c1, c2, down to c8, and these guys are the columns."
+    },
+    {
+        "text": "I mean, this is the step that we constantly take in this course."
+    },
+    {
+        "text": "The first basis vector goes in the first column, the second basis vector goes in the second column, and so on."
+    },
+    {
+        "text": "The eight columns of this wavelet matrix are the eight basis vectors."
+    },
+    {
+        "text": "This is a wavelet matrix W. So, the step to change basis."
+    },
+    {
+        "text": "So now I'm finally coming to this change of basis."
+    },
+    {
+        "text": "So the change of basis, let me stay with this board, but, well, let me just go above it here."
+    },
+    {
+        "text": "So the standard basis we know, the wavelet basis we have here, and the transform is simply solve the equations p equal Wc."
+    },
+    {
+        "text": "So the coefficients are W inverse p, right?"
+    },
+    {
+        "text": "This shows a critical point."
+    },
+    {
+        "text": "A good basis has a nice, fast inverse."
+    },
+    {
+        "text": "So good means, good basis means what?"
+    },
+    {
+        "text": "So this is like the billion dollar competition, and it's not over yet."
+    },
+    {
+        "text": "People are going to come up with better bases than these."
+    },
+    {
+        "text": "So a good basis will be, first good thing would be fast."
+    },
+    {
+        "text": "I have to be able to multiply by W fast and multiply by W, by its inverse fast."
+    },
+    {
+        "text": "That's, if a basis doesn't allow you to do that fast, then it's going to take so much time that you can't afford it."
+    },
+    {
+        "text": "So these bases, the Fourier basis, everybody said, OK, I know how to deal quickly with the Fourier basis, because we have something called the fast Fourier transform."
+    },
+    {
+        "text": "So there's a FFT that came in my earlier lecture and comes in the last chapter of the book."
+    },
+    {
+        "text": "So change of basis is done, if for the Fourier basis, is done fast by the FFT and there's a fast wavelet transform."
+    },
+    {
+        "text": "I can change, for this wavelet example, this matrix is easy to invert."
+    },
+    {
+        "text": "It's just somebody had a smart idea in choosing that wavelet basis and inverting it, it has a nice inverse."
+    },
+    {
+        "text": "Actually, you can see why it has a nice inverse."
+    },
+    {
+        "text": "Do you see any property of these eight basis vectors?"
+    },
+    {
+        "text": "Well, I've only written five of them, but if you see that property for those five, you'll see it for the three remaining."
+    },
+    {
+        "text": "What, if I give you those eight vectors and ask, what's a nice property?"
+    },
+    {
+        "text": "Well, you would say, first, they're all ones and minus ones and zeros, so every multiplication is very fast using just, in binary."
+    },
+    {
+        "text": "But what's the other great property of those vectors?"
+    },
+    {
+        "text": "Anybody see it?"
+    },
+    {
+        "text": "So, of course, when I think about a basis, one nice property, I don't have to have it, but I'm happy if it's there, is that they're orthogonal."
+    },
+    {
+        "text": "If the basis vectors are orthogonal, then I'm in good shape."
+    },
+    {
+        "text": "And these are, do you see, take the dot product of that with that, you get four plus ones and four minus ones, you get zero."
+    },
+    {
+        "text": "Take the dot product of that with that, you get two plus ones and two minus ones."
+    },
+    {
+        "text": "Or the dot product of that with that, two plus ones and two minus ones."
+    },
+    {
+        "text": "You can easily check that that's an orthogonal basis."
+    },
+    {
+        "text": "It's not orthonormal."
+    },
+    {
+        "text": "I could, to fix it up, I should divide by the length to make them unit vectors."
+    },
+    {
+        "text": "Let's suppose I do that."
+    },
+    {
+        "text": "So somewhere in here I've got to account for the fact that this has length square root of eight, that has length square root of four, that has length square root of two."
+    },
+    {
+        "text": "But that's just a constant factor that's easy to --."
+    },
+    {
+        "text": "So suppose we've done that."
+    },
+    {
+        "text": "Then tell me what's W inverse."
+    },
+    {
+        "text": "That's what chapter four, section four point four was about."
+    },
+    {
+        "text": "If we have orthonormal columns, what- then the inverse is the same as the transpose."
+    },
+    {
+        "text": "So if we have a fast way to multiply by W, which we do, the inverse is going to look just the same and we'll have a fast way to do W inverse."
+    },
+    {
+        "text": "So that's, the wavelet basis passes this requirement for fast."
+    },
+    {
+        "text": "We can use it fast."
+    },
+    {
+        "text": "But there's a second requirement, is it any good?"
+    },
+    {
+        "text": "Because the very fastest thing we could do would be not to change basis at all."
+    },
+    {
+        "text": "Right?"
+    },
+    {
+        "text": "Fastest thing would be, OK, stay with a standard basis, stay with eight pixel values."
+    },
+    {
+        "text": "But that was poor from compression point of view, right?"
+    },
+    {
+        "text": "Those eight pixel values, if I just took those eight numbers, I can't throw some of those away."
+    },
+    {
+        "text": "If I throw away ninety percent, if I compressed ten to one, and throw away ninety percent of my pixel values, well, my picture's just gone dark."
+    },
+    {
+        "text": "Whereas the basis that was good, the wavelet basis or the Fourier basis, if I throw away c5, c6, c7 and c8, all I'm throwing away is little blips that are probably there in very small amounts."
+    },
+    {
+        "text": "So the second property that we need is good compression."
+    },
+    {
+        "text": "So, so first it, it has to be fast, and secondly, it has to be a few basis factors should come close to the signal."
+    },
+    {
+        "text": "So, so a few, few is enough."
+    },
+    {
+        "text": "Can I write it that way?"
+    },
+    {
+        "text": "A few basis factors are enough to reproduce the image, just exactly as on the video of these 18.06 lectures."
+    },
+    {
+        "text": "I don't know what the compression rate is."
+    },
+    {
+        "text": "I'll ask, David, who, who does the compression, and, by the way, I'll try to get the lectures, that are relevant for the quiz, up onto the web, in time."
+    },
+    {
+        "text": "So I'll send him a message today."
+    },
+    {
+        "text": "So, at the point, so he's using the Fourier basis, because the JPEG, so JPEG 2000, which will be the next standard for image compression, will include wavelets."
+    },
+    {
+        "text": "So, I mean, you're, you're actually getting a kind of up to date, picture of where this big world of signal and image processing is."
+    },
+    {
+        "text": "That Fourier is what everybody knew, and what people automatically used, and the new, new one is wavelets, where this is the simplest set of wavelets, and this isn't the one that the FBI uses, by the way."
+    },
+    {
+        "text": "The FBI uses a more, a more, a smoother wavelet."
+    },
+    {
+        "text": "Instead of jumping from one to minus one, it's a smooth, cutoff."
+    },
+    {
+        "text": "And, that's what we'll be in, in JPEG 2000."
+    },
+    {
+        "text": "OK, so that's that application."
+    },
+    {
+        "text": "Now let me come to my, the, the math, the linear algebra part of the lecture."
+    },
+    {
+        "text": "Well, we've actually seen a change of basis."
+    },
+    {
+        "text": "So let, let me just review that change of basis idea, and then the, and then the transformation to a matrix."
+    },
+    {
+        "text": "OK, so, so this, I hope you see that these applications are really big."
+    },
+    {
+        "text": "Now I have to talk a little about change of basis and little about that, the, the matrix."
+    },
+    {
+        "text": "OK. OK. OK."
+    },
+    {
+        "text": "So change of basis."
+    },
+    {
+        "text": "Basically, forgive that pun, OK, I have, I have, I have my vector in one basis, and I want to change to a different one."
+    },
+    {
+        "text": "Actually, you saw it for the wavelet case."
+    },
+    {
+        "text": "So I need the, the, let the matrix W, the columns of W, be the new basis vectors."
+    },
+    {
+        "text": "Then the change of basis involves, just as it did there, W inverse."
+    },
+    {
+        "text": "So we have the vector, vector, say, x in the old basis, and we, that converts to a vector, let's say, c in the new basis, and the relation is exactly what we had there, that x is Wc."
+    },
+    {
+        "text": "That's the, that's the, that's the, that's the step we have to take."
+    },
+    {
+        "text": "There's a matrix W that gives us a change of basis."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "I, I, what I want to do is think about mat- transformations and matrices."
+    },
+    {
+        "text": "So here's, here's the question, that, that, to complete this lecture."
+    },
+    {
+        "text": "Suppose I have a linear transformation T. So it's, it's a, it's a, we, we would think of it as an A, as a n by n matrix."
+    },
+    {
+        "text": "And it's computed with respect to a certain basis."
+    },
+    {
+        "text": "So T, so, no, I'm sorry."
+    },
+    {
+        "text": "I've got the transformation T, period."
+    },
+    {
+        "text": "That's taking eight-dimensional space to eight-dimensional space."
+    },
+    {
+        "text": "Now let's get matrices in there."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So, so with respect to, with respect to a fir- a first basis, say, V1 up to V8, it has a matrix A. I'm just setting up letters here."
+    },
+    {
+        "text": "With respect to a second basis, say, I'll make it U1 up to- or W1, since I've used Ws, W1 up to W8, it has a matrix B."
+    },
+    {
+        "text": "And my question is, what's the connection between A and B?"
+    },
+    {
+        "text": "How is the matrix- the transformation T is settled."
+    },
+    {
+        "text": "We could say it's a rotation, for example."
+    },
+    {
+        "text": "So that would be one transformation of eight-dimensional space, just spin it a little."
+    },
+    {
+        "text": "Or project it."
+    },
+    {
+        "text": "Or, or, whatever, whatever linear transformation we've got."
+    },
+    {
+        "text": "Now we have to remember, so I- so first- my first step is to remind you how you create that matrix A."
+    },
+    {
+        "text": "Then my second step is, we would use the same method to create B, but because it came from the same transformation, there's got to be a relation between A and B."
+    },
+    {
+        "text": "What's the- what's the relation between A and B?"
+    },
+    {
+        "text": "And let me jump to the answer on that one."
+    },
+    {
+        "text": "That if I have- if I have the same transformation, and I'm compute- its matrix in one basis and then I compute it in another basis, those two matrices are similar."
+    },
+    {
+        "text": "So these two matrices are similar."
+    },
+    {
+        "text": "Now, do you remember what similar matrices meant?"
+    },
+    {
+        "text": "Similar."
+    },
+    {
+        "text": "A is similar- the two matrices are similar."
+    },
+    {
+        "text": "Similar."
+    },
+    {
+        "text": "And what do I mean by that?"
+    },
+    {
+        "text": "I mean that I take the matrix B and I can compute it from the matrix A using some similarity, some matrix M on one side and M inverse on the other."
+    },
+    {
+        "text": "And this M will be the change of basis matrix."
+    },
+    {
+        "text": "This part of the lecture is admittedly compressed."
+    },
+    {
+        "text": "What I wanted you to- it's really the conclusion that I want you to spot."
+    },
+    {
+        "text": "Now I have to go back and say, what does it mean for A to be the matrix of this transformation T?"
+    },
+    {
+        "text": "So I have to remind you what that meant."
+    },
+    {
+        "text": "That was in the last lecture."
+    },
+    {
+        "text": "Then this is the conclusion, that if I change to a different basis, we now know- see, if I change to a different basis, two things happen."
+    },
+    {
+        "text": "Every vector has new coordinates."
+    },
+    {
+        "text": "There, the rule is this one, between the old coordinates and the new ones."
+    },
+    {
+        "text": "Every matrix changes."
+    },
+    {
+        "text": "Every transformation has a new matrix."
+    },
+    {
+        "text": "And the new matrix is related this way."
+    },
+    {
+        "text": "The M could be the same as the W. The M there could be the W here."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So can I, in the remaining minutes, recapture my lecture, the end of my lecture that was just before Thanksgiving, about the matrix?"
+    },
+    {
+        "text": "OK. What's the matrix?"
+    },
+    {
+        "text": "And I'll just take one basis."
+    },
+    {
+        "text": "So now I'm going to- this part is going to go onto this board here."
+    },
+    {
+        "text": "What is the matrix?"
+    },
+    {
+        "text": "What is A?"
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "Using a basis v1 up to v8."
+    },
+    {
+        "text": "OK. What's the point?"
+    },
+    {
+        "text": "The point is, if I know what the transformation does to those eight basis vectors, I know it completely."
+    },
+    {
+        "text": "I know T, I know everything about T, I know T completely from knowing what T does to v1, what T does to v2, what T does to v8."
+    },
+    {
+        "text": "Why is that?"
+    },
+    {
+        "text": "It's because T is a linear transformation."
+    },
+    {
+        "text": "So that if I know what these outputs are, so these are the inputs, v1 up to v8, these are the outputs from the transformation, like every one rotated, every one projected, whatever transformation I've done, then why is it that I know everything?"
+    },
+    {
+        "text": "How does linearity work?"
+    },
+    {
+        "text": "Why?"
+    },
+    {
+        "text": "This is because every x is some combination of these basis vectors, right?"
+    },
+    {
+        "text": "c1 v1, c2 v2, c8 v8."
+    },
+    {
+        "text": "That's the whole point of a basis, that every vector is a combination of the basis vectors in exactly one way."
+    },
+    {
+        "text": "And then, what is T of x?"
+    },
+    {
+        "text": "The point is, I claim that we know T of x completely for every x, because every x is a combination of those, and now we use the linear transformation part to say that the output from x has to be c1 times the output from v1 plus c2 times the output from v2 and so on, up through c8 times the output from v8."
+    },
+    {
+        "text": "So this is like just saying, OK, we know everything when we know what T does to each basis vector."
+    },
+    {
+        "text": "OK."
+    },
+    {
+        "text": "So those are the eight things we need."
+    },
+    {
+        "text": "Now, but we need these answers in this basis."
+    },
+    {
+        "text": "So T- so this first output is some combination of the eight basis vectors."
+    },
+    {
+        "text": "So write T times the first- acting on the first input, in other words, write the first output as a combination of the basis vectors."
+    },
+    {
+        "text": "Say a11 v1 plus a21 v2 and so on, a81 v8."
+    },
+    {
+        "text": "Write T of v2 as some combination, a12 of v1, a22 of v2 and so on."
+    },
+    {
+        "text": "I'm creating the matrix A, column by column."
+    },
+    {
+        "text": "Those numbers go in the first column, these numbers go in the second column."
+    },
+    {
+        "text": "The matrix A that this is our matrix that represents T in this basis is these numbers."
+    },
+    {
+        "text": "a11 down to a18, a21 down to a28 and so on."
+    },
+    {
+        "text": "OK. That's the recipe."
+    },
+    {
+        "text": "In other words, if I give you a transformation and a basis, that's what I have to give you."
+    },
+    {
+        "text": "The inputs are the basis and to tell you what the transformation is."
+    },
+    {
+        "text": "And then you tell me, you compute T for each basis, expand that result in the basis, and that gives you the sixty-four numbers that go into the matrix A."
+    },
+    {
+        "text": "Let me suppose, let's close with the best example of all."
+    },
+    {
+        "text": "Suppose v1 to v8, this basis, is the eigenvectors."
+    },
+    {
+        "text": "Suppose we have an eigenvector basis."
+    },
+    {
+        "text": "So that T of vi is just, is in the same direction as vi."
+    },
+    {
+        "text": "Now my question is, what is A?"
+    },
+    {
+        "text": "Can you carry through the steps?"
+    },
+    {
+        "text": "Let's, let's do them together, because we can do it in one minute."
+    },
+    {
+        "text": "So we've chosen this perfect basis."
+    },
+    {
+        "text": "And actually, with signal image processing, they might look for the eigenvectors, but that would take more calculation time than just saying, OK, we'll use the wavelet basis, or OK, we'll use the Fourier basis."
+    },
+    {
+        "text": "But the very best basis is the eigenvector basis."
+    },
+    {
+        "text": "OK, what's the matrix?"
+    },
+    {
+        "text": "So, what's the first column of the matrix?"
+    },
+    {
+        "text": "How do I get the first column?"
+    },
+    {
+        "text": "I take the first basis vector v1."
+    },
+    {
+        "text": "I op- I look to see what does the transformation do to it."
+    },
+    {
+        "text": "The output is lambda one v1."
+    },
+    {
+        "text": "I express that output as a combination, so the first input is v1."
+    },
+    {
+        "text": "Its output is lambda one v1."
+    },
+    {
+        "text": "Now write lambda one v1 as a combination of the basis vectors."
+    },
+    {
+        "text": "Well, it's already done."
+    },
+    {
+        "text": "It's just lambda one times the first basis vector and zero times the others."
+    },
+    {
+        "text": "So this first column will have lambda one and zeros."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "Second input is v2."
+    },
+    {
+        "text": "Output is lambda two v2."
+    },
+    {
+        "text": "OK, write that output as a combination of the v's."
+    },
+    {
+        "text": "It's already done."
+    },
+    {
+        "text": "It's just lambda two times the second v. So we need, in the second column, we have lambda two times the second v. Well, you see what's coming."
+    },
+    {
+        "text": "That in that basis, in the eigenvector basis, the matrix is diagonal."
+    },
+    {
+        "text": "So that's the perfect basis."
+    },
+    {
+        "text": "That's the basis we'd love to have for image processing, but to find the eigenvectors of our pixel matrix would be too expensive."
+    },
+    {
+        "text": "So we do something cheaper and close, which is to choose a good basis like, like wavelengths."
+    },
+    {
+        "text": "OK, thanks."
+    },
+    {
+        "text": "So quiz review on Wednesday, all day."
+    },
+    {
+        "text": "Thanks."
+    }
+]

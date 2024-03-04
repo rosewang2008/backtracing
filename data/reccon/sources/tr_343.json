@@ -1,0 +1,215 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi Mark .",
+        "emotion": "neutral",
+        "text": "Hi Mark .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hi .",
+        "emotion": "neutral",
+        "text": "Hi .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What are you planning to do today ?",
+        "emotion": "neutral",
+        "text": "What are you planning to do today ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I'm not sure yet .",
+        "emotion": "neutral",
+        "text": "I'm not sure yet .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Would you like to have lunch with me ?",
+        "emotion": "happiness",
+        "explanation": "Speaker is excited to have lunch with a friend",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Would you like to have lunch with me ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . When ?",
+        "emotion": "happiness",
+        "explanation": "Speaker is getting invited",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have lunch with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yes . When ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Is 11:30 AM OK ?",
+        "emotion": "neutral",
+        "text": "Is 11:30 AM OK ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Sorry , I didn't hear you . Can you say that again please ?",
+        "emotion": "neutral",
+        "text": "Sorry , I didn't hear you . Can you say that again please ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I said , 11:30 AM .",
+        "emotion": "neutral",
+        "text": "I said , 11:30 AM .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Oh , I'm busy then . Can we meet a little later ?",
+        "emotion": "neutral",
+        "text": "Oh , I'm busy then . Can we meet a little later ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "OK , how about 12:30 PM ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "OK , how about 12:30 PM ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "OK . Where ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have lunch with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK . Where ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "How about Bill's Seafood Restaurant ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "How about Bill's Seafood Restaurant ?",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Oh , Where is that ?",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have lunch with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , Where is that ?",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "It's on 7th Street .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "It's on 7th Street .",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "OK , I'll meet you there .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Would you like to have lunch with me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "OK , I'll meet you there .",
+        "id": 16,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

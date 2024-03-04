@@ -1,0 +1,151 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Have you seen that house ?",
+        "emotion": "happiness",
+        "explanation": "Loves the house as mentioned in utterance 3",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Have you seen that house ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , it looks interesting .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "it looks interesting ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Yes , it looks interesting .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "You're right . I love it very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "it looks interesting .",
+            "I love it very much ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "You're right . I love it very much .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It must be old .",
+        "emotion": "neutral",
+        "text": "It must be old .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "At least more than 100 years old .",
+        "emotion": "neutral",
+        "text": "At least more than 100 years old .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Let's enter it !",
+        "emotion": "neutral",
+        "text": "Let's enter it !",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I can't open the door .",
+        "emotion": "neutral",
+        "text": "I can't open the door .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "It must be locked .",
+        "emotion": "neutral",
+        "text": "It must be locked .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Let me ask the old woman in that reception office .",
+        "emotion": "neutral",
+        "text": "Let me ask the old woman in that reception office .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "She can't answer you .",
+        "emotion": "neutral",
+        "text": "She can't answer you .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "She must be deaf .",
+        "emotion": "neutral",
+        "text": "She must be deaf .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It must be a haunted house . Are you frightened ?",
+        "emotion": "neutral",
+        "text": "It must be a haunted house . Are you frightened ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Frightened ? You must be joking .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "Are you frightened ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Frightened ? You must be joking .",
+        "id": 13,
+        "source_sentences": [
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

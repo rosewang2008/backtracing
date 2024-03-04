@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "I love Chinese food .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "I love Chinese food ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love Chinese food .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "What's your favorite dish or dishes ?",
+        "emotion": "neutral",
+        "text": "What's your favorite dish or dishes ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Well , I always order fried spring rolls when I go to Chinatown .",
+        "emotion": "neutral",
+        "text": "Well , I always order fried spring rolls when I go to Chinatown .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "But a Chinese person would never order that .",
+        "emotion": "neutral",
+        "text": "But a Chinese person would never order that .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Really ? But they're delicious !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "a Chinese person would never order that ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? But they're delicious !",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Alex , you don't know what to order . Let's go to a Chinese restaurant together next time .",
+        "emotion": "neutral",
+        "text": "Alex , you don't know what to order . Let's go to a Chinese restaurant together next time .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Let's go to a Chinese restaurant together next time ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds great .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Get ready for the best meal of your life !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "That sounds great ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Get ready for the best meal of your life !",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

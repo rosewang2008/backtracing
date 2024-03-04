@@ -1,0 +1,16 @@
+[
+    {
+        "file_id": "X-ix97pw0xY",
+        "query_id": 3,
+        "timestamp": 1684511272691.0,
+        "annotatedSourceSentencesIndices": [
+            2,
+            3,
+            4
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "It is mentioned that \"phi is known positive value\" (Lecture 23: 16.28 min). I am wondering,  if exponential dist. comes under canonical exponential family (or not), where theta = lambda, b(theta) = ln(theta) and phi = -1?"
+    }
+]

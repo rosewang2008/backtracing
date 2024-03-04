@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            9
+        ],
+        "expanded emotion cause span": [
+            "Let's get something to drink .",
+            "Let's get something to drink ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good idea .",
+        "id": 10,
+        "source_sentences": [
+            8,
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

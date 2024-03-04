@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Let's go .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "They're all waiting for you . Let's join them . I'm going to cut the cake soon ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Let's go .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

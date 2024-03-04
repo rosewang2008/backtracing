@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 38,
+        "speaker": "A",
+        "utterance": "Oh, It burnt my comb and all the towels in the bathroom.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            37,
+            38
+        ],
+        "expanded emotion cause span": [
+            "worst one was in Cannes when your curling iron burnt a hole in my new dressing gown?",
+            "It burnt my comb and all the towels in the bathroom."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh, It burnt my comb and all the towels in the bathroom.",
+        "id": 38,
+        "source_sentences": [
+            36
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

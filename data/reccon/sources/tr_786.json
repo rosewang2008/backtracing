@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "How do you like skiing , Pat ?",
+        "emotion": "neutral",
+        "text": "How do you like skiing , Pat ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I love it . All my life I wanted to learn to ski . Finally I took lessons last year .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "All my life I wanted to learn to ski . Finally I took lessons last year ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I love it . All my life I wanted to learn to ski . Finally I took lessons last year .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I suppose skiing is easy for you .",
+        "emotion": "neutral",
+        "text": "I suppose skiing is easy for you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "No , quite the opposite . I thought I'd never stop falling down . Then all of a sudden I started skiing much better .",
+        "emotion": "neutral",
+        "text": "No , quite the opposite . I thought I'd never stop falling down . Then all of a sudden I started skiing much better .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I see . Do you ski often ?",
+        "emotion": "neutral",
+        "text": "I see . Do you ski often ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Every chance I get . On weekends I ski all day long . Sometimes I even ski at night .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Every chance I get . On weekends I ski all day long . Sometimes I even ski at night ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Every chance I get . On weekends I ski all day long . Sometimes I even ski at night .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "That sounds great .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Sometimes I even ski at night ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds great .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , yes . The ski slopes are well lit . It's really nice to ski at night . Why don't you learn to ski ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "The ski slopes are well lit . It's really nice to ski at night ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Oh , yes . The ski slopes are well lit . It's really nice to ski at night . Why don't you learn to ski ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Not on your life ! I know I'd break my leg",
+        "emotion": "fear",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I know I'd break my leg"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Not on your life ! I know I'd break my leg",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Don't be so frightened . It's just a skill .",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "The ski slopes are well lit . It's really nice to ski at night ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Don't be so frightened . It's just a skill .",
+        "id": 10
+    }
+]

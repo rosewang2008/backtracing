@@ -1,0 +1,62 @@
+[
+    {
+        "text": "So I had a 1."
+    },
+    {
+        "text": "Then the next step was a multiplication."
+    },
+    {
+        "text": "So I needed the product rule for that."
+    },
+    {
+        "text": "I have these separate numbers."
+    },
+    {
+        "text": "So I put them in."
+    },
+    {
+        "text": "And so the computational graph finished."
+    },
+    {
+        "text": "We only needed two levels."
+    },
+    {
+        "text": "And we got 8 and 132, 140."
+    },
+    {
+        "text": "But we didn't get df dy yet."
+    },
+    {
+        "text": "And for that, I'd need to redo this again."
+    },
+    {
+        "text": "And I don't want to do that."
+    },
+    {
+        "text": "I would rather do the reverse mode and do them both at once."
+    },
+    {
+        "text": "That's the point of the reverse mode."
+    },
+    {
+        "text": "It's very efficient."
+    },
+    {
+        "text": "It's very efficient, actually."
+    },
+    {
+        "text": "Computing the gradient after you've done the work for the function, computing first derivatives, you could compute n first derivatives with about four or five times the cost, not n times."
+    },
+    {
+        "text": "That's amazing to me."
+    },
+    {
+        "text": "That is amazing that I can compute the gradient very efficiently by the back prop."
+    },
+    {
+        "text": "So I have to show you the backwards way."
+    },
+    {
+        "text": "I'm just going to follow all the paths backwards so that I get both df dx and df dy."
+    }
+]

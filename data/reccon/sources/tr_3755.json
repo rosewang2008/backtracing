@@ -1,0 +1,130 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello , Ellen .",
+        "emotion": "neutral",
+        "text": "Hello , Ellen .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , Helen , have you heard the news ? There ' s been a horrible accident .",
+        "emotion": "neutral",
+        "text": "Hello , Helen , have you heard the news ? There ' s been a horrible accident .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , no ! What happened ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "There ' s been a horrible accident ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh , no ! What happened ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Hilda Harris husband , Henry had an accident on his way home from work .",
+        "emotion": "neutral",
+        "text": "Hilda Harris husband , Henry had an accident on his way home from work .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "How awful ! Was he hurt ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Henry had an accident on his way home from work ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How awful ! Was he hurt ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes . He was taken to the hospital in an ambulance .",
+        "emotion": "neutral",
+        "text": "Yes . He was taken to the hospital in an ambulance .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How did it happen ?",
+        "emotion": "neutral",
+        "text": "How did it happen ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "His car was hit by an express train . It happened at the crossing just behind his house .",
+        "emotion": "neutral",
+        "text": "His car was hit by an express train . It happened at the crossing just behind his house .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "How horrible !",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "His car was hit by an express train ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "How horrible !",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "He ' s having an operation in the hospital now . Poor Hilda ! You can imagine how unhappy she is .",
+        "emotion": "neutral",
+        "text": "He ' s having an operation in the hospital now . Poor Hilda ! You can imagine how unhappy she is .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I hope he ' ll be all right .",
+        "emotion": "neutral",
+        "text": "I hope he ' ll be all right .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "I hope so , too .",
+        "emotion": "neutral",
+        "text": "I hope so , too .",
+        "id": 12
+    }
+]

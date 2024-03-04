@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Is there anything I can do for you ?",
+        "emotion": "neutral",
+        "text": "Is there anything I can do for you ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Would you please show me that mural ?",
+        "emotion": "neutral",
+        "text": "Would you please show me that mural ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Certainly . Here you are .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "please show me that mural ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Certainly . Here you are .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "It looks so beautiful . How much is it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "It looks so beautiful ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "It looks so beautiful . How much is it ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Four hundred yuan .",
+        "emotion": "neutral",
+        "text": "Four hundred yuan .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That's a bit more than I wanted to pay . Can you cut the price down a bit ?",
+        "emotion": "neutral",
+        "text": "That's a bit more than I wanted to pay . Can you cut the price down a bit ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I'm sorry . Ours is a fixed price shop and I can assure you this is the best price you can get for a mural like this .",
+        "emotion": "neutral",
+        "text": "I'm sorry . Ours is a fixed price shop and I can assure you this is the best price you can get for a mural like this .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Maybe you are right . OK , I'll take it .",
+        "emotion": "neutral",
+        "text": "Maybe you are right . OK , I'll take it .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Well , I'll have it wrapped for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "I'll take it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Well , I'll have it wrapped for you .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Thank you . Here is four hundred yuan .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I'll have it wrapped for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Here is four hundred yuan .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thank you . Please come again .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "Here is four hundred yuan ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you . Please come again .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Michelle . Good to see you . Are you at lunch ?",
+        "emotion": "neutral",
+        "text": "Hey Michelle . Good to see you . Are you at lunch ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Oh hi Jim . No I just got back . I thought you were on vacation now .",
+        "emotion": "neutral",
+        "text": "Oh hi Jim . No I just got back . I thought you were on vacation now .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "No , I wish I was ! I just got back from Spain actually .",
+        "emotion": "neutral",
+        "text": "No , I wish I was ! I just got back from Spain actually .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Oh wonderful ! Have you been there before or was it your first time ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "I just got back from Spain actually ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Oh wonderful ! Have you been there before or was it your first time ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "My first time . I've traveled around Europe a lot , but this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ...",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ..."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My first time . I've traveled around Europe a lot , but this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ...",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm so jealous of you . I've never been anywhere in Europe . I've always dreamed of traveling around and seeing the sights .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "My first time . I've traveled around Europe a lot , but this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ..."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm so jealous of you . I've never been anywhere in Europe . I've always dreamed of traveling around and seeing the sights .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Well , I really recommend Spain . You really should go . Anyway , it's been great to catch up , but I must be going , this is my floor . Speak again soon I hope .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "this was my first time to Spain . It was amazing , and the weather was just beautiful ! No rain , and just sun , sun , sun ..."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Well , I really recommend Spain . You really should go . Anyway , it's been great to catch up , but I must be going , this is my floor . Speak again soon I hope .",
+        "id": 7
+    }
+]

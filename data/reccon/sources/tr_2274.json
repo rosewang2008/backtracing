@@ -1,0 +1,169 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hey Jack . What's going on ?",
+        "emotion": "neutral",
+        "text": "Hey Jack . What's going on ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hey Matt . I'm going to ask Martha to marry me ?",
+        "emotion": "neutral",
+        "text": "Hey Matt . I'm going to ask Martha to marry me ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Really ? When did you decide this ?",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "I'm going to ask Martha to marry me ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? When did you decide this ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I always knew she was the one , but I decided to pop the big question about 2 weeks ago . I'm just debating on how to do it .",
+        "emotion": "neutral",
+        "text": "I always knew she was the one , but I decided to pop the big question about 2 weeks ago . I'm just debating on how to do it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That's exciting , man .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4,
+            5
+        ],
+        "expanded emotion cause span": [
+            "I decided to pop the big question about 2 weeks ago .",
+            "That's exciting"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That's exciting , man .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "So how did you propose ?",
+        "emotion": "neutral",
+        "text": "So how did you propose ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You shouldn't use my example . It wasn't special . I kind of wish I made it more special but it's too late now .",
+        "emotion": "neutral",
+        "text": "You shouldn't use my example . It wasn't special . I kind of wish I made it more special but it's too late now .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "What do you think I should do ?",
+        "emotion": "neutral",
+        "text": "What do you think I should do ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "There are a lot of options . You can surprise her over dinner , or ask her in a public area , or if you have the balls , ask her father in front of her .",
+        "emotion": "neutral",
+        "text": "There are a lot of options . You can surprise her over dinner , or ask her in a public area , or if you have the balls , ask her father in front of her .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I never thought about that .",
+        "emotion": "neutral",
+        "text": "I never thought about that .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Thought about what ?",
+        "emotion": "neutral",
+        "text": "Thought about what ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Asking her father in front of her . How do you think she will react ?",
+        "emotion": "neutral",
+        "text": "Asking her father in front of her . How do you think she will react ?",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "I don't know . You should know how she's going to react . She is your girlfriend .",
+        "emotion": "neutral",
+        "text": "I don't know . You should know how she's going to react . She is your girlfriend .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "I think that's the idea I was looking for . Thanks , man .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9,
+            14
+        ],
+        "expanded emotion cause span": [
+            "ask her father in front of her .",
+            "that's the idea I was looking for ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that's the idea I was looking for . Thanks , man .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Don't mention it . Good luck . You're going to need it .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "I think that's the idea I was looking for . Thanks , man ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Don't mention it . Good luck . You're going to need it .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "All right?"
+    },
+    {
+        "text": "So just take a look."
+    },
+    {
+        "text": "So we just showed how to convert GNFAs to regular expression, but we really wanted to convert DFAs to regular expressions."
+    },
+    {
+        "text": "So how do we go from converting GNFAs to converting DFAs?"
+    },
+    {
+        "text": "It's not the same, obviously."
+    },
+    {
+        "text": "So how do we finish that?"
+    },
+    {
+        "text": "So there are three choices here."
+    },
+    {
+        "text": "First, we have to show how to convert DFAs to GNFAs, maybe, or show how to convert GNFAs to DFAs."
+    },
+    {
+        "text": "Or maybe we're already done."
+    },
+    {
+        "text": "So maybe I better launch that poll while you're reading that."
+    },
+    {
+        "text": "And there you go."
+    },
+    {
+        "text": "Hopefully, you can."
+    },
+    {
+        "text": "All right."
+    },
+    {
+        "text": "Why don't I end this?"
+    },
+    {
+        "text": "It's a little worrisome, because I would say we have a plurality who got the right answer, but not a majority."
+    },
+    {
+        "text": "So let us share the results."
+    },
+    {
+        "text": "So I sense not all of you are with me, but you're going to have to either that or you're reading your email while we're talking."
+    },
+    {
+        "text": "I'm not sure."
+    },
+    {
+        "text": "But whatever it is, you need to think a little bit about what's going on here, because the reason why we are done is because DFAs are a kind of GNFAs."
+    },
+    {
+        "text": "They have a very simple kind of regular expression on each transition."
+    }
+]

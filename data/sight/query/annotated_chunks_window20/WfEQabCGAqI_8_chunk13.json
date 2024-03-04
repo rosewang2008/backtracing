@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "WfEQabCGAqI",
+        "query_id": 8,
+        "timestamp": 1684512043723.0,
+        "annotatedSourceSentencesIndices": [
+            4
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Wait, did he ever account for vector N not being a unit vector? He never required that the N vector represented the area of the delta slanted plane did he?"
+    }
+]

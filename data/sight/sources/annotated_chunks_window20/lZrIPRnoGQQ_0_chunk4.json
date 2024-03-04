@@ -1,0 +1,62 @@
+[
+    {
+        "text": "But you can compute it quickly by this automatic differentiation in reverse mode, which is otherwise known."
+    },
+    {
+        "text": "I don't think the people, maybe Hinton was the first, was the leader in developing deep neural nets, deep learning."
+    },
+    {
+        "text": "And he realized, so I give him big credit for that, that back propagation would work and would give him fast gradients."
+    },
+    {
+        "text": "But it actually had been studied before under the name AD, automatic differentiation."
+    },
+    {
+        "text": "So may I just tell you that idea?"
+    },
+    {
+        "text": "Some of you may know it, may know about it, may know more than I, and might know a good website to see this description."
+    },
+    {
+        "text": "There'll be, of course, a section of the book, of the notes."
+    },
+    {
+        "text": "Already, you already have it."
+    },
+    {
+        "text": "This is section 7.2."
+    },
+    {
+        "text": "So this is the chapter on deep learning."
+    },
+    {
+        "text": "And the first section was about the structure of f of x."
+    },
+    {
+        "text": "And you remember the key point about the structure of f of x is that I start with x and apply some function f1 of x."
+    },
+    {
+        "text": "And to that, I apply some function f2 of x."
+    },
+    {
+        "text": "And to that, I apply some function of f3 of f2 of f1 of x."
+    },
+    {
+        "text": "And that's the thing whose derivative I need."
+    },
+    {
+        "text": "So I'll just take ordinary derivative."
+    },
+    {
+        "text": "Well, partial derivatives, really, because I better say partial derivatives."
+    },
+    {
+        "text": "So suppose x is a pair xy."
+    },
+    {
+        "text": "Example."
+    },
+    {
+        "text": "Let me show you by example."
+    }
+]

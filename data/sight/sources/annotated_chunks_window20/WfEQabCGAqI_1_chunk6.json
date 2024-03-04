@@ -1,0 +1,62 @@
+[
+    {
+        "text": "OK, so let's draw a picture."
+    },
+    {
+        "text": "Which one is pointing upwards?"
+    },
+    {
+        "text": "Well, let's look at the bottom point, the normal vector pointing up."
+    },
+    {
+        "text": "Here, we know what it means."
+    },
+    {
+        "text": "It's this guy."
+    },
+    {
+        "text": "And so, if you continue to follow your normal vector, see, they're actually pointing up and into the paraboloid."
+    },
+    {
+        "text": "OK, and I claim that the answer should be positive because the vector field is crossing our paraboloid going upwards, going from the outside out and below to the inside and up side, so in the direction that we are counting positively."
+    },
+    {
+        "text": "Well, we'll see how it turns out when we do the calculation."
+    },
+    {
+        "text": "OK, so we have to compute the integral for flux."
+    },
+    {
+        "text": "The one integral of a surface of F dot n dS is going to be, OK, so what are we going to do?"
+    },
+    {
+        "text": "Well, F, we said, is 0, 0, z."
+    },
+    {
+        "text": "What is n dS?"
+    },
+    {
+        "text": "Well, let's use our brand new formula."
+    },
+    {
+        "text": "So, it says negative F sub x, negative F sub y, one dx dy."
+    },
+    {
+        "text": "What is little f in here?"
+    },
+    {
+        "text": "It's x squared plus y squared, OK?"
+    },
+    {
+        "text": "So, when we're using this formula, we need to know what little f stands for is whatever the formula is for z as a function of x and y."
+    },
+    {
+        "text": "So, we take x squared plus y squared, and we take the partial derivatives with minus signs."
+    },
+    {
+        "text": "We get negative 2x, negative 2y, and one dx dy."
+    },
+    {
+        "text": "Well, of course, here it didn't really matter because we're going to dot them with zero."
+    }
+]

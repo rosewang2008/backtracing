@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "Thanks for the advice . I'll talk to my fiance about it tonight .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            14
+        ],
+        "expanded emotion cause span": [
+            "It'll be very romantic , I think . You'll have loads of fun ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks for the advice . I'll talk to my fiance about it tonight .",
+        "id": 15,
+        "source_sentences": [
+            13
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

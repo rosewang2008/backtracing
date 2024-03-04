@@ -1,0 +1,165 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Here ' s your hot dog and beer . What happened ? Did I miss anything ?",
+        "emotion": "neutral",
+        "text": "Here ' s your hot dog and beer . What happened ? Did I miss anything ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yeah , Cal Ripen just hit a home run .",
+        "emotion": "neutral",
+        "text": "Yeah , Cal Ripen just hit a home run .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "What ' s the score ?",
+        "emotion": "neutral",
+        "text": "What ' s the score ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Well it was 3 to 4 , but Ripen ' s home run made it 5 to 4 since another player was on first base .",
+        "emotion": "neutral",
+        "text": "Well it was 3 to 4 , but Ripen ' s home run made it 5 to 4 since another player was on first base .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "So Baltimore is winning ?",
+        "emotion": "neutral",
+        "text": "So Baltimore is winning ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Right .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "Baltimore is winning ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Right .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "This is a really great place to watch a baseball game .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "really great place to watch a baseball game ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "This is a really great place to watch a baseball game .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Yeah , there isn ' t a bad seat in the place .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "really great place to watch a baseball game .",
+            "Yeah , there isn ' t a bad seat in the place ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Yeah , there isn ' t a bad seat in the place .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "The fans are great here , too . Not like in Philadelphia .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "The fans are great here"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The fans are great here , too . Not like in Philadelphia .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "It was a great idea to spend a day watching a game .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "really great place to watch a baseball game .",
+            "Yeah , there isn ' t a bad seat in the place .",
+            "The fans are great here",
+            "great idea to spend a day watching a game ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "It was a great idea to spend a day watching a game .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yeah , it reminds you why they say baseball is America ' s favorite pastime .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "really great place to watch a baseball game .",
+            "Yeah , there isn ' t a bad seat in the place .",
+            "The fans are great here",
+            "great idea to spend a day watching a game ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Yeah , it reminds you why they say baseball is America ' s favorite pastime .",
+        "id": 11
+    }
+]

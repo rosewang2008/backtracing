@@ -1,0 +1,14 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 21,
+        "timestamp": 1684727831398.0,
+        "annotatedSourceSentencesIndices": [
+            15
+        ],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Can't you also use the determinant to figure out that A\u1d4f \u2192 0 as K \u2192 \u221e ? i.e. if det A < 1 then A\u1d4f \u2192 0"
+    }
+]

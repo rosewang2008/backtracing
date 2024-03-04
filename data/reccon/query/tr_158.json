@@ -1,0 +1,24 @@
+[
+    {
+        "turn": 31,
+        "speaker": "A",
+        "utterance": "You can ask me any question at any time .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            30
+        ],
+        "expanded emotion cause span": [
+            "I have a lot to learn from you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You can ask me any question at any time .",
+        "id": 31,
+        "source_sentences": [
+            29
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , Mary , I have decided to look for a job as a salesman .",
+        "emotion": "neutral",
+        "text": "Hi , Mary , I have decided to look for a job as a salesman .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Good ! Have you got the recruitment information on marketing ?",
+        "emotion": "neutral",
+        "text": "Good ! Have you got the recruitment information on marketing ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes . I have found some through different channels .",
+        "emotion": "neutral",
+        "text": "Yes . I have found some through different channels .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? That's great ! Tell me .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Have you got the recruitment information on marketing ?",
+            "Yes ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Really ? That's great ! Tell me .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "OK . The first piece of job information I got was from the Internet , and it is about selling medicines .",
+        "emotion": "neutral",
+        "text": "OK . The first piece of job information I got was from the Internet , and it is about selling medicines .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "What do you think of this job ?",
+        "emotion": "neutral",
+        "text": "What do you think of this job ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I am not familiar with the medicine industry , and I don't think it fits me well .",
+        "emotion": "neutral",
+        "text": "I am not familiar with the medicine industry , and I don't think it fits me well .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Then how about the others ?",
+        "emotion": "neutral",
+        "text": "Then how about the others ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Another is about electronic commerce , and its products are mainly large machinery equipments .",
+        "emotion": "neutral",
+        "text": "Another is about electronic commerce , and its products are mainly large machinery equipments .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I have heard about electronic commerce , and many people say it has good prospects for development .",
+        "emotion": "neutral",
+        "text": "I have heard about electronic commerce , and many people say it has good prospects for development .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "I also feel it's nice . I want to give it a try .",
+        "emotion": "neutral",
+        "text": "I also feel it's nice . I want to give it a try .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Come on ! I believe you will succeed .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I believe you will succeed ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Come on ! I believe you will succeed .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Thanks . You can also seek job information on the Internet .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            12
+        ],
+        "expanded emotion cause span": [
+            "I believe you will succeed ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks . You can also seek job information on the Internet .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Good idea . I will think it over .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13,
+            14
+        ],
+        "expanded emotion cause span": [
+            "You can also seek job information on the Internet .",
+            "Good idea ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good idea . I will think it over .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

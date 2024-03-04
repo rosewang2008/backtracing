@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Node 3 has just two edges, and node 4 has just two edges."
+    },
+    {
+        "text": "So that's the degree matrix."
+    },
+    {
+        "text": "And then the adjacency matrix that I've called B is also 4 by 4."
+    },
+    {
+        "text": "And what is it?"
+    },
+    {
+        "text": "It tells us which node is connected to which node."
+    },
+    {
+        "text": "So I don't allow nodes, edges, that connect a node to itself, so 0s on the diagonal."
+    },
+    {
+        "text": "So which nodes are connected to node 1?"
+    },
+    {
+        "text": "Well, all of 2 and 4 and 3 are connected to 1, so I have 1s there."
+    },
+    {
+        "text": "Node 2, all three nodes are connected to node 2."
+    },
+    {
+        "text": "So I'll have the second column and row will have all three 1s."
+    },
+    {
+        "text": "How about node 3?"
+    },
+    {
+        "text": "OK, only two edges are connected."
+    },
+    {
+        "text": "Only two nodes are connected to 3, 1 and 2, but not 4."
+    },
+    {
+        "text": "So 1 and 2 I have, but not 4."
+    },
+    {
+        "text": "So that's the adjacency matrix."
+    },
+    {
+        "text": "Is that right?"
+    },
+    {
+        "text": "Think so?"
+    },
+    {
+        "text": "This is the degree matrix."
+    },
+    {
+        "text": "This is the incidence matrix."
+    },
+    {
+        "text": "And that formula gives me the Laplacian."
+    }
+]

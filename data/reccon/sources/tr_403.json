@@ -1,0 +1,129 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "What do you do when you are angry ?",
+        "emotion": "neutral",
+        "text": "What do you do when you are angry ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I usually calm down first and think about the reason that caused my anger .",
+        "emotion": "neutral",
+        "text": "I usually calm down first and think about the reason that caused my anger .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "That ' s smart . What do you usually do to relieve your anger ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "I usually calm down first and think about the reason that caused my anger .",
+            "That ' s smart ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That ' s smart . What do you usually do to relieve your anger ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Something like listening to music is a good idea .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "Something like listening to music is a good idea ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Something like listening to music is a good idea .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Oh , what kind of music do you listen to ?",
+        "emotion": "neutral",
+        "text": "Oh , what kind of music do you listen to ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Classic . Something that could calm your mind .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "Classic . Something that could calm your mind ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Classic . Something that could calm your mind .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I think that might work for me as well .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Something that could calm your mind .",
+            "I think that might work for me as well ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I think that might work for me as well .",
+        "id": 7,
+        "source_sentences": [
+            5
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Working out is another good way to relieve anger .",
+        "emotion": "neutral",
+        "text": "Working out is another good way to relieve anger .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Like what ?",
+        "emotion": "neutral",
+        "text": "Like what ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Jogging , yoga , or even just taking a walk .",
+        "emotion": "neutral",
+        "text": "Jogging , yoga , or even just taking a walk .",
+        "id": 10
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "nHlE7EgJFds",
+        "query_id": 13,
+        "timestamp": 1684703194452.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "In the 3X4 matrix example, shouldn't the dim Null(A transpose) be 4-2= 2 instead of 3-2=1?"
+    }
+]

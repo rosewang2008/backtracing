@@ -1,0 +1,62 @@
+[
+    {
+        "text": "It's probably just better, because again, with formalism, it's never really clear."
+    },
+    {
+        "text": "Actually, that's the next slide."
+    },
+    {
+        "text": "OK, so there's two things we need to assume."
+    },
+    {
+        "text": "I mean, there's, OK, so the purpose of a statistical model is to, once I estimate the parameter, I actually know exactly what distribution I have."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "So it means that I could potentially have several parameters that give me the same distribution that would still be fine, because I could estimate one guy, or I could estimate the other guy, and I would still recover the underlying distribution of my data."
+    },
+    {
+        "text": "The problem is that this creates really annoying theoretical problems, like things don't work, the algorithms won't work, the guarantees won't work."
+    },
+    {
+        "text": "And so what we typically assume is that the model is so-called well-specified."
+    },
+    {
+        "text": "All right, sorry, that's not well-specified."
+    },
+    {
+        "text": "I'm jumping ahead of myself."
+    },
+    {
+        "text": "OK, well-specified means that your data, the distribution of your data, is actually one of those guys."
+    },
+    {
+        "text": "OK, so some vocabulary."
+    },
+    {
+        "text": "So well-specified means that for my observations x, there exists a theta, in capital theta, such that x follows p sub theta."
+    },
+    {
+        "text": "I should put a double dot."
+    },
+    {
+        "text": "OK, so that's what well-specified means."
+    },
+    {
+        "text": "So that means that the distribution of your actual data is just one of those guys."
+    },
+    {
+        "text": "This is a bit stronger than assumption."
+    },
+    {
+        "text": "It's strong in the sense that, I don't know if you've heard of this sentence, which I don't know."
+    },
+    {
+        "text": "I can tell you who it's attributed to, but that probably means that this person did not work with it."
+    },
+    {
+        "text": "But it said that all models are wrong, but some of them are useful."
+    }
+]

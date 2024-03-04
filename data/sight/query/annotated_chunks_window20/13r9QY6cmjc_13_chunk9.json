@@ -1,0 +1,12 @@
+[
+    {
+        "file_id": "13r9QY6cmjc",
+        "query_id": 13,
+        "timestamp": 1684726031554.0,
+        "annotatedSourceSentencesIndices": [],
+        "names": [
+            "annotator2"
+        ],
+        "text": "Did we ever prove that if the set of eigenvalues are distinct, the set of eigenvectors are linearly independent? I ask because at ~ 32:00 taking u_o = c1*x1 + c2*x2 + ... + cn*xn requires the eigenvectors to form a basis for an n-dimensional vector space (i.e. span the column space of an invertible matrix). It feels right but I have no solid background for how to think about it"
+    }
+]

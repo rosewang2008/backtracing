@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Welcome to our university ' s fifties anniversary , Sir . Please have a seat .",
+        "emotion": "happiness",
+        "explanation": "Greetings",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "university ' s fifties anniversary"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Welcome to our university ' s fifties anniversary , Sir . Please have a seat .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Thank you . Wow , your school has so many honors . Congratulations !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Welcome to our university ' s fifties anniversary , Sir . Please have a seat .",
+            "Wow , your school has so many honors . Congratulations !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Thank you . Wow , your school has so many honors . Congratulations !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Thank you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "Wow , your school has so many honors . Congratulations !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Excuse me . I wonder see Dean Mr . Lee first . I was wondering if could you tell me where his office is ?",
+        "emotion": "neutral",
+        "text": "Excuse me . I wonder see Dean Mr . Lee first . I was wondering if could you tell me where his office is ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Certainly . Mr . Lee ' s office building at the south end of the campus , just beside the library .",
+        "emotion": "neutral",
+        "text": "Certainly . Mr . Lee ' s office building at the south end of the campus , just beside the library .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Excuse me ?",
+        "emotion": "neutral",
+        "text": "Excuse me ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Let me show you the way . Please follow me .",
+        "emotion": "happiness",
+        "explanation": "speaker is happy to help",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Let me show you the way ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Let me show you the way . Please follow me .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Thank you very much . It ' s very kind of you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Let me show you the way ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thank you very much . It ' s very kind of you .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "My pleasure .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "Thank you very much . It ' s very kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "My pleasure .",
+        "id": 9,
+        "source_sentences": [
+            7
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "This is it ?",
+        "emotion": "neutral",
+        "text": "This is it ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "It ' s up on the second floor . You have to use the stairs . The elevator isn ' t working .",
+        "emotion": "neutral",
+        "text": "It ' s up on the second floor . You have to use the stairs . The elevator isn ' t working .",
+        "id": 11
+    }
+]

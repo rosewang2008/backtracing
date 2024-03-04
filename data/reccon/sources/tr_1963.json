@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Why do you look so gloomy ? What are you looking for ?",
+        "emotion": "neutral",
+        "text": "Why do you look so gloomy ? What are you looking for ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "My dissertation . I put it somewhere last night and I can't find it now .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My dissertation . I put it somewhere last night and I can't find it now ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "My dissertation . I put it somewhere last night and I can't find it now .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Did you finish typing it yesterday ?",
+        "emotion": "neutral",
+        "text": "Did you finish typing it yesterday ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I kept on typing it until midnight , but it is lost .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My dissertation . I put it somewhere last night and I can't find it now ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , I kept on typing it until midnight , but it is lost .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Don't worry about it . It must be somewhere in your room . Let's see where you put it . Have you searched your drawers and the desk ?",
+        "emotion": "neutral",
+        "text": "Don't worry about it . It must be somewhere in your room . Let's see where you put it . Have you searched your drawers and the desk ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Yes , but there is nothing inside the drawers or on the desk .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My dissertation . I put it somewhere last night and I can't find it now ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "Yes , but there is nothing inside the drawers or on the desk .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "How about the shelf ?",
+        "emotion": "neutral",
+        "text": "How about the shelf ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "I've searched everywhere . Where on earth did I put it ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "My dissertation . I put it somewhere last night and I can't find it now ."
+        ],
+        "type": [
+            "self-contagion"
+        ],
+        "text": "I've searched everywhere . Where on earth did I put it ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Don't get upset over it . At least you have another week to go .",
+        "emotion": "neutral",
+        "text": "Don't get upset over it . At least you have another week to go .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I have been working on it for a whole month and it's too late to write another . Just think of all my hard work that goes for nothing . How could I do such a thing ?",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            2,
+            10
+        ],
+        "expanded emotion cause span": [
+            "My dissertation . I put it somewhere last night and I can't find it now .",
+            "Just think of all my hard work that goes for nothing ."
+        ],
+        "type": [
+            "no-context",
+            "self-contagion"
+        ],
+        "text": "I have been working on it for a whole month and it's too late to write another . Just think of all my hard work that goes for nothing . How could I do such a thing ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Cheer up ! What I meant was that you can find it sometime during a week . There is no need to write a new one . Oh , what's this ? Is this your dissertation ?",
+        "emotion": "neutral",
+        "text": "Cheer up ! What I meant was that you can find it sometime during a week . There is no need to write a new one . Oh , what's this ? Is this your dissertation ?",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Let me see . Yes , that's it . Where did you find it ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Oh , what's this ? Is this your dissertation ?",
+            "Yes , that's it ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Let me see . Yes , that's it . Where did you find it ?",
+        "id": 12,
+        "source_sentences": [
+            10
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "You ' Ve put it among these journals .",
+        "emotion": "neutral",
+        "text": "You ' Ve put it among these journals .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "My poor memory . Thank you very much .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            11,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Oh , what's this ? Is this your dissertation ?",
+            "Yes , that's it ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "My poor memory . Thank you very much .",
+        "id": 14
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 19,
+        "speaker": "A",
+        "utterance": "Me , too ! Do you want to come over and watch the next game at my place ? I'm planning on having a few people over to watch it together .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            18,
+            19
+        ],
+        "expanded emotion cause span": [
+            "I really love watching football games",
+            "Me , too !"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Me , too ! Do you want to come over and watch the next game at my place ? I'm planning on having a few people over to watch it together .",
+        "id": 19,
+        "source_sentences": [
+            17
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

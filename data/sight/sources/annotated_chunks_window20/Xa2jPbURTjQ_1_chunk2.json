@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Q is an orthogonal matrix."
+    },
+    {
+        "text": "Right, right."
+    },
+    {
+        "text": "Do you want to just see an example of how that works?"
+    },
+    {
+        "text": "And it will not."
+    },
+    {
+        "text": "So if Q is rectangular, let me do a rectangular Q and a square Q."
+    },
+    {
+        "text": "So I think there must be a board up there somewhere."
+    },
+    {
+        "text": "Here."
+    },
+    {
+        "text": "OK, square."
+    },
+    {
+        "text": "All right, good to see some orthogonal matrices, because my message is that they're really important in all kinds of applications."
+    },
+    {
+        "text": "Let's start two by two."
+    },
+    {
+        "text": "I can think of two different ways to get an orthogonal matrix that's a two by two matrix."
+    },
+    {
+        "text": "And one of them you will know immediately, cos theta, sine theta."
+    },
+    {
+        "text": "So that's a unit vector."
+    },
+    {
+        "text": "It's normalized."
+    },
+    {
+        "text": "Cos squared plus sine squared is 1."
+    },
+    {
+        "text": "And this guy has to be orthogonal to it."
+    },
+    {
+        "text": "So I'll make that minus sine theta and cos theta."
+    },
+    {
+        "text": "OK. Those are both length 1."
+    },
+    {
+        "text": "They're orthogonal."
+    },
+    {
+        "text": "Then this is my Q."
+    }
+]

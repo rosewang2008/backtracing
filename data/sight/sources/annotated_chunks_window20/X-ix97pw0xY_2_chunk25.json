@@ -1,0 +1,62 @@
+[
+    {
+        "text": "And now I have mu squared over 2 sigma squared plus log sigma square root 2 pi."
+    },
+    {
+        "text": "OK?"
+    },
+    {
+        "text": "And now this thing is definitely of the form t1 of x times, did I call them the right way or not?"
+    },
+    {
+        "text": "Of course not."
+    },
+    {
+        "text": "OK, so that's going to be t2 of x times eta 2 of x, eta 2 of theta."
+    },
+    {
+        "text": "This guy is going to be t1 of x times eta 1 of theta."
+    },
+    {
+        "text": "So just a function of theta times a function of x, just a function of theta times a function of x."
+    },
+    {
+        "text": "And the way I combine this is just by summing them."
+    },
+    {
+        "text": "And this is going to be my b of theta."
+    },
+    {
+        "text": "What is h of x?"
+    },
+    {
+        "text": "1."
+    },
+    {
+        "text": "There's one thing I can actually play with."
+    },
+    {
+        "text": "And this is something you're going to have some free choices."
+    },
+    {
+        "text": "This is not actually completely determined here."
+    },
+    {
+        "text": "Is that, for example, when I write the log sigma square root 2 pi, this is just log of sigma plus log square root 2 pi."
+    },
+    {
+        "text": "So I have two choices here."
+    },
+    {
+        "text": "Either my b becomes this guy, or so either I have b of theta, which is mu squared over 2 sigma squared plus log sigma square root 2 pi, and h of x is equal to 1."
+    },
+    {
+        "text": "Or I have that b of theta is mu squared over 2 sigma squared plus log sigma, and h of x is equal to what?"
+    },
+    {
+        "text": "1."
+    },
+    {
+        "text": "Well, I can just push this guy out."
+    }
+]

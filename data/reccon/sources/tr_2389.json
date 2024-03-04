@@ -1,0 +1,176 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Did you enjoy that new movie ?",
+        "emotion": "neutral",
+        "text": "Did you enjoy that new movie ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "That movie's just a lot of noise , same as Simon .",
+        "emotion": "neutral",
+        "text": "That movie's just a lot of noise , same as Simon .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Oh , what happened , Carole ?",
+        "emotion": "neutral",
+        "text": "Oh , what happened , Carole ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I had to go by myself , he couldn't make it .",
+        "emotion": "neutral",
+        "text": "I had to go by myself , he couldn't make it .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What ? I met him just before I took off from Kitty's , he said he was coming .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "I had to go by myself , he couldn't make it ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "What ? I met him just before I took off from Kitty's , he said he was coming .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Kitty's ? He sure gets around , doesn't he ?",
+        "emotion": "neutral",
+        "text": "Kitty's ? He sure gets around , doesn't he ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Looks like it . So how did he handle it to ?",
+        "emotion": "neutral",
+        "text": "Looks like it . So how did he handle it to ?",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "His excuse was familiar . He said his car died again .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8
+        ],
+        "expanded emotion cause span": [
+            "He said his car died again ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "His excuse was familiar . He said his car died again .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I think that's a bunch of nonsense . It seemed ok to me .",
+        "emotion": "neutral",
+        "text": "I think that's a bunch of nonsense . It seemed ok to me .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "I know . Last week he gave me a lie about being too busy .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10
+        ],
+        "expanded emotion cause span": [
+            "He said his car died again .",
+            "I think that's a bunch of nonsense .",
+            "Last week he gave me a lie about being too busy ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "I know . Last week he gave me a lie about being too busy .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Doesn't sound promising .",
+        "emotion": "neutral",
+        "text": "Doesn't sound promising .",
+        "id": 11
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "Well , I think it's the time to pull the plug .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            8,
+            9,
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "He said his car died again .",
+            "I think that's a bunch of nonsense .",
+            "Last week he gave me a lie about being too busy .",
+            "Well , I think it's the time to pull the plug ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Well , I think it's the time to pull the plug .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "If you want I'll let him know if I run into him .",
+        "emotion": "neutral",
+        "text": "If you want I'll let him know if I run into him .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "Thanks anyway , but I'll do it , Rebecca . Let's get to class .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            13
+        ],
+        "expanded emotion cause span": [
+            "If you want I'll let him know if I run into him ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Thanks anyway , but I'll do it , Rebecca . Let's get to class .",
+        "id": 14,
+        "source_sentences": [
+            12
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

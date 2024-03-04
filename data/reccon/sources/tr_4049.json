@@ -1,0 +1,193 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Mr . Lee , I was wondering if you and your wife had plans for next Friday night ?",
+        "emotion": "neutral",
+        "text": "Mr . Lee , I was wondering if you and your wife had plans for next Friday night ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Yes , I think we might be free . What did you have in mind ?",
+        "emotion": "neutral",
+        "text": "Yes , I think we might be free . What did you have in mind ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I've mailed a formal written invitation to your home inviting you to a dinner party at my home .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            3
+        ],
+        "expanded emotion cause span": [
+            "Yes ,",
+            "I think we might be free .",
+            "inviting you to a dinner party"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I've mailed a formal written invitation to your home inviting you to a dinner party at my home .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "That sounds great . Is it casual ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "inviting you to a dinner party"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That sounds great . Is it casual ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Actually , we thought it would be fun to have a formal sit-down dinner for the holidays .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            3,
+            5
+        ],
+        "expanded emotion cause span": [
+            "Yes ,",
+            "I think we might be free .",
+            "inviting you to a dinner party",
+            "it would be fun"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Actually , we thought it would be fun to have a formal sit-down dinner for the holidays .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That sounds good . It will give my wife a chance to dress up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "inviting you to a dinner party",
+            "it would be fun",
+            "It will give my wife a chance to dress up ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "That sounds good . It will give my wife a chance to dress up .",
+        "id": 6,
+        "source_sentences": [
+            2,
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Yes , we've invited four other couples , so it should be a good mix of people .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2,
+            2,
+            3,
+            5,
+            7
+        ],
+        "expanded emotion cause span": [
+            "Yes ,",
+            "I think we might be free .",
+            "inviting you to a dinner party",
+            "it would be fun",
+            "a good mix of people ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yes , we've invited four other couples , so it should be a good mix of people .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "That sounds wonderful . Will there be anyone there that I know ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6,
+            7
+        ],
+        "expanded emotion cause span": [
+            "inviting you to a dinner party",
+            "it would be fun",
+            "It will give my wife a chance to dress up .",
+            "a good mix of people ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "That sounds wonderful . Will there be anyone there that I know ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Oh yes , everyone we are inviting is from our company .",
+        "emotion": "neutral",
+        "text": "Oh yes , everyone we are inviting is from our company .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Great ! I'll look forward to it . We'll make sure and check the mail for our invitation .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "inviting you to a dinner party",
+            "it would be fun",
+            "It will give my wife a chance to dress up .",
+            "a good mix of people .",
+            "Will there be anyone there that I know ?",
+            "everyone we are inviting is from our company ."
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Great ! I'll look forward to it . We'll make sure and check the mail for our invitation .",
+        "id": 10
+    }
+]

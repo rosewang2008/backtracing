@@ -1,0 +1,33 @@
+[
+    {
+        "turn": 34,
+        "speaker": "B",
+        "utterance": "That's awesome. [LAUGHTER] Marriage.",
+        "emotion": "excited",
+        "expanded emotion cause evidence": [
+            24,
+            25,
+            24,
+            32
+        ],
+        "expanded emotion cause span": [
+            "Oh, yeah. Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "Yeah. It was great.",
+            "Everyone--yeah. And people--friends of ours were in the audience, I didn't know about, like family members.",
+            "like I think I want to get married--I want to have two weddings. One here, then one in Europe."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "That's awesome. [LAUGHTER] Marriage.",
+        "id": 34,
+        "source_sentences": [
+            23,
+            24,
+            23,
+            31
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

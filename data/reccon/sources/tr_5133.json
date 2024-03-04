@@ -1,0 +1,97 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Good evening ! I don't believe we've met before . May I introduce myself ? My name is Jack .",
+        "emotion": "neutral",
+        "text": "Good evening ! I don't believe we've met before . May I introduce myself ? My name is Jack .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "It's a pleasure to meet you . My name is Lucy .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            2
+        ],
+        "expanded emotion cause span": [
+            "Good evening !",
+            "It's a pleasure to meet you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "It's a pleasure to meet you . My name is Lucy .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm very happy to meet you . You're from the United States , aren't you ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            2
+        ],
+        "expanded emotion cause span": [
+            "It's a pleasure to meet you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I'm very happy to meet you . You're from the United States , aren't you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , I'm from Salt Lake City .",
+        "emotion": "neutral",
+        "text": "Yes , I'm from Salt Lake City .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "I've been to Salt Lake City a few times . I really like your city .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "I really like your city ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I've been to Salt Lake City a few times . I really like your city .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I'm glad to hear that . I think it's the nicest city in the United States .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            5,
+            6
+        ],
+        "expanded emotion cause span": [
+            "I really like your city .",
+            "I'm glad to hear that . I think it's the nicest city in the United States ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I'm glad to hear that . I think it's the nicest city in the United States .",
+        "id": 6,
+        "source_sentences": [
+            4
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

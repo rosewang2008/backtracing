@@ -1,0 +1,139 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hello !",
+        "emotion": "neutral",
+        "text": "Hello !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Hello , Is that Stefan ?",
+        "emotion": "neutral",
+        "text": "Hello , Is that Stefan ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I'm sorry , but I'm afraid you've dialed the wrong number . There is no Stefan here .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            3
+        ],
+        "expanded emotion cause span": [
+            "you've dialed the wrong number ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I'm sorry , but I'm afraid you've dialed the wrong number . There is no Stefan here .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Really ? Are you sure ? I called before and he was there .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "he was there ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "Really ? Are you sure ? I called before and he was there .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Yes . I'm sure . You have the wrong number . I have used this number for more than 20 years .",
+        "emotion": "neutral",
+        "text": "Yes . I'm sure . You have the wrong number . I have used this number for more than 20 years .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "That can't be true . I remember the number clearly . Is your number 1199886 ?",
+        "emotion": "neutral",
+        "text": "That can't be true . I remember the number clearly . Is your number 1199886 ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "No , it isn't . It's 1199866 . It seems that you have misdialed .",
+        "emotion": "neutral",
+        "text": "No , it isn't . It's 1199866 . It seems that you have misdialed .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Oh , I'm sorry I bothered you . I'm really sorry .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            8
+        ],
+        "expanded emotion cause span": [
+            "you have misdialed .",
+            "I bothered you ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Oh , I'm sorry I bothered you . I'm really sorry .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "It doesn't matter . It happens to everyone .",
+        "emotion": "neutral",
+        "text": "It doesn't matter . It happens to everyone .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Sorry again for bothering you .",
+        "emotion": "sadness",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            10
+        ],
+        "expanded emotion cause span": [
+            "you have misdialed .",
+            "I bothered you .",
+            "Sorry again for bothering you ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Sorry again for bothering you .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "That's all right .",
+        "emotion": "neutral",
+        "text": "That's all right .",
+        "id": 11
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "file_id": "UYe98CcxPbs",
+        "query_id": 0,
+        "timestamp": 1684480825133.0,
+        "annotatedSourceSentencesIndices": [
+            11,
+            12,
+            15,
+            17
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "where can I find a complete derivation of the formula z=z0 + a(x-x0) + b(y-y0) using parametric equations as he suggested at 8:38? I tried to do what he said but no luck!"
+    }
+]

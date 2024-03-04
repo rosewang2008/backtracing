@@ -1,0 +1,87 @@
+[
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 1,
+        "timestamp": 1684512167597.0,
+        "annotatedSourceSentencesIndices": [
+            261,
+            262,
+            263,
+            264,
+            265,
+            266
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "@ 26:04 I have to admit, that took me a second to figure it out. \nProf Strang didn't actually have anything wrong, he just couldn't see while in the middle of it why that was the case. He actually had it at 26:44 but let it slip through his hands.\nFor that you have to go back to when he was computing matrix \"V\".  The evec associated with eval of 18 was [1;-1] but it also can be written as [-1;1]\n\nHe chose the [1;-1] which had the effect once we made it to the final calculation of U * Diag^2 * V^t that it SWAPPED THE COLUMNS of A\nHis original A was [4,4;-3,3] and the calc'd one was [4,4;3,-3]\nHad he chosen the 'other version' of the evec associated with Lambda = 18 when figuring out \"V\", he would have gotten back the same \"A\" he started with instead of the column-swapped version.\nBut what could go wrong? :-)"
+    },
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 2,
+        "timestamp": 1684512339083.0,
+        "annotatedSourceSentencesIndices": [
+            381
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Professor Strang mentions that U and V form bases for the four fundamental subspaces of A, but it's not clear to me how C(A) = C(Ur) and C(A') = C (Vr'). I know that U and V were determined by the eigenvectors of AA' and A'A, respectively, but how are these related to the column and row spaces of A?"
+    },
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 7,
+        "timestamp": 1684512390426.0,
+        "annotatedSourceSentencesIndices": [
+            207
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "at 20:35, why use the positive square roots instead of negative ones?"
+    },
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 8,
+        "timestamp": 1684512455481.0,
+        "annotatedSourceSentencesIndices": [
+            87
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Hi, can anyone explain why 10:20 sigma_1 and sigma_2 greater than 0? Thanks!"
+    },
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 10,
+        "timestamp": 1684512534435.0,
+        "annotatedSourceSentencesIndices": [
+            265,
+            266,
+            267
+        ],
+        "names": [
+            "annotator1"
+        ],
+        "text": "Regarding the problem at 26:28\nIt would be solved if the matrix U was [1 0; 0 -1]. (Replace the 1 at the bottom right of the 2x2 identity with -1).\nThis can be found by following the argument that Prof Strang makes in this video: https://youtu.be/rYz83XPxiZo?t=1177 (Skip to 19:37).  \nThe problem is that here the eigenvectors of U that we found are [1, 0]' and [0, 1]', but they should be [1, 0]' and [0, -1]'.\nThe negative in the 2nd eigenvector allows the scaling term (sigma) to be strictly positive.  \n\nLet S = Sigma (for ease of typing).\nI think the main problem is that the general form A = U*S*V' does not mathematically enforce that S should be a strictly positive matrix.\nSo even though A'A and AA' will output the squares of the eigenvalues, simply choosing the positive roots is not enough.\nWe would need to choose the right sign for the eigenvector that corresponds to the positive root. E.g. [1,0] and [-1,0] can both have the same eigenvalue, so we have to decide which to use.\nHence, we need to check the cases and manually negate the vectors in U or V so that S can be positive.\nHowever, if we follow what Prof Strang does in the video whose URL ive included in the earlier part of this comment, then this is accounted for by the computation."
+    },
+    {
+        "file_id": "TX_vooSnhm8",
+        "query_id": 4,
+        "timestamp": 1684192467807.0,
+        "annotatedSourceSentencesIndices": [
+            179,
+            188,
+            179,
+            180,
+            188,
+            193
+        ],
+        "names": [
+            "annotator1",
+            "annotator2"
+        ],
+        "text": "how did we get 32 and 18 as squares of sigma1 and sigma2 ?"
+    }
+]

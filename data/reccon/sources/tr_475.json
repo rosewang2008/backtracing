@@ -1,0 +1,116 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Let's get together this weekend , is that all right ?",
+        "emotion": "neutral",
+        "text": "Let's get together this weekend , is that all right ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Sounds good , when ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Let's get together this weekend"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Sounds good , when ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "When is it convenient for you ?",
+        "emotion": "neutral",
+        "text": "When is it convenient for you ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Any time is fine .",
+        "emotion": "neutral",
+        "text": "Any time is fine .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "Could you and your wife be ready at nine o'clock ?",
+        "emotion": "neutral",
+        "text": "Could you and your wife be ready at nine o'clock ?",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Please wait for us even if we're a little late .",
+        "emotion": "neutral",
+        "text": "Please wait for us even if we're a little late .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "Never mind . I'll be waiting for you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "Never mind . I'll be waiting for you .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "See you then .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "Never mind . I'll be waiting for you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "See you then .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "OK . Bye !",
+        "emotion": "happiness",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            "b"
+        ],
+        "expanded emotion cause span": [
+            "b"
+        ],
+        "type": [
+            "latent"
+        ],
+        "text": "OK . Bye !",
+        "id": 9
+    }
+]

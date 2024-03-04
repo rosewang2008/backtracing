@@ -1,0 +1,178 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "you're rather energetic today . What's going on ?",
+        "emotion": "neutral",
+        "text": "you're rather energetic today . What's going on ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "nothing really . I think I've had a few too many coffees .",
+        "emotion": "neutral",
+        "text": "nothing really . I think I've had a few too many coffees .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "free coffee is one of the perks at this place , isn't it ?",
+        "emotion": "neutral",
+        "text": "free coffee is one of the perks at this place , isn't it ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "it's the only perk of this job ! How's your day going ?",
+        "emotion": "neutral",
+        "text": "it's the only perk of this job ! How's your day going ?",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "not that well . I've got that Monday morning feeling today .",
+        "emotion": "neutral",
+        "text": "not that well . I've got that Monday morning feeling today .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "why is that ?",
+        "emotion": "neutral",
+        "text": "why is that ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "my boss has been breathing down my neck all day . I can't wait for the weekend !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "my boss has been breathing down my neck all day ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "my boss has been breathing down my neck all day . I can't wait for the weekend !",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "your boss is a real salve-driver , isn't he ?",
+        "emotion": "neutral",
+        "text": "your boss is a real salve-driver , isn't he ?",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "you can say that again ! He won't even let us check our personal email at work !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            7,
+            8,
+            9
+        ],
+        "expanded emotion cause span": [
+            "my boss has been breathing down my neck all day .",
+            "your boss is a real salve-driver ,",
+            "He won't even let us check our personal email at work !"
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "you can say that again ! He won't even let us check our personal email at work !",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "that's not just your boss . No one is allowed to send personal emails from the office .",
+        "emotion": "neutral",
+        "text": "that's not just your boss . No one is allowed to send personal emails from the office .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "really ? I didn't know that it was against company policy .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "that's not just your boss . No one is allowed to send personal emails from the office .",
+            "I didn't know that it was against company policy ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "really ? I didn't know that it was against company policy .",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "maybe your boss isn't so horrible after all !",
+        "emotion": "neutral",
+        "text": "maybe your boss isn't so horrible after all !",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "no , he is . Some bosses will bend the rules a bit sometimes , but not my boss . He always follows the rules to a T .",
+        "emotion": "neutral",
+        "text": "no , he is . Some bosses will bend the rules a bit sometimes , but not my boss . He always follows the rules to a T .",
+        "id": 13
+    },
+    {
+        "turn": 14,
+        "speaker": "B",
+        "utterance": "try not to let it bother you too much .",
+        "emotion": "neutral",
+        "text": "try not to let it bother you too much .",
+        "id": 14
+    },
+    {
+        "turn": 15,
+        "speaker": "A",
+        "utterance": "thanks . I better get back to my work before my boss yells at me again !",
+        "emotion": "neutral",
+        "text": "thanks . I better get back to my work before my boss yells at me again !",
+        "id": 15
+    },
+    {
+        "turn": 16,
+        "speaker": "B",
+        "utterance": "ok , I'll see you in a bit .",
+        "emotion": "neutral",
+        "text": "ok , I'll see you in a bit .",
+        "id": 16
+    },
+    {
+        "turn": 17,
+        "speaker": "A",
+        "utterance": "alright . See you later !",
+        "emotion": "neutral",
+        "text": "alright . See you later !",
+        "id": 17
+    }
+]

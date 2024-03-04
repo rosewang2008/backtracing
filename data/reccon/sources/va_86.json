@@ -1,0 +1,123 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "We have been over this a hundred times ! We are not getting a pet !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "We have been over this a hundred times !"
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "We have been over this a hundred times ! We are not getting a pet !",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Why not ? Come on ! Just a cute little puppy or a kitty !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "We are not getting a pet !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Why not ? Come on ! Just a cute little puppy or a kitty !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Who is going to look after a dog or a cat ?",
+        "emotion": "neutral",
+        "text": "Who is going to look after a dog or a cat ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "I will ! I ' ll feed it , bathe it and walk it every day ! We can get a Labrador or a German Shepard !",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "We are not getting a pet !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "I will ! I ' ll feed it , bathe it and walk it every day ! We can get a Labrador or a German Shepard !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "What if we want to take a vacation ? Who will we leave it with ? Plus , our apartment is too small for that breed of dog .",
+        "emotion": "neutral",
+        "text": "What if we want to take a vacation ? Who will we leave it with ? Plus , our apartment is too small for that breed of dog .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "Ok . How about we get a cat or a ferret ?",
+        "emotion": "neutral",
+        "text": "Ok . How about we get a cat or a ferret ?",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "We ' re planning on having children soon , I don ' t think those animals are a good idea with a baby in the house .",
+        "emotion": "neutral",
+        "text": "We ' re planning on having children soon , I don ' t think those animals are a good idea with a baby in the house .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Fine ! Let ' s get a bird then ! We can keep it in its cage and teach it to talk ! A parrot would be awesome !",
+        "emotion": "neutral",
+        "text": "Fine ! Let ' s get a bird then ! We can keep it in its cage and teach it to talk ! A parrot would be awesome !",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "I ' ll tell you what , I can get you some hamsters and we ' ll take it from there .",
+        "emotion": "neutral",
+        "text": "I ' ll tell you what , I can get you some hamsters and we ' ll take it from there .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Yay !",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "I can get you some hamsters and we ' ll take it from there ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Yay !",
+        "id": 10,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

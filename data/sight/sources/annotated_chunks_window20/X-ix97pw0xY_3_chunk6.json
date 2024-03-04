@@ -1,0 +1,62 @@
+[
+    {
+        "text": "0, 1, right?"
+    },
+    {
+        "text": "That's the expectation of a Bernoulli."
+    },
+    {
+        "text": "It's just the probability that my coin flip gives me 1."
+    },
+    {
+        "text": "So it's a number between 0 and 1."
+    },
+    {
+        "text": "But this guy right here, if my x's are anything, think of any body measurements, plus I take linear combinations with arbitrarily large coefficients, this thing can be any real number."
+    },
+    {
+        "text": "So the link function, what it's effectively going to do is make those two things compatible."
+    },
+    {
+        "text": "It's going to take my number, which, for example, is constrained to be between 0 and 1, and map it into the entire real line."
+    },
+    {
+        "text": "If I have mu, which is forced to be positive, for example, in an exponential distribution, the mean is positive, right?"
+    },
+    {
+        "text": "That's the, say, I don't know, inter-arrival time for Poisson process."
+    },
+    {
+        "text": "This thing is known to be positive for an exponential."
+    },
+    {
+        "text": "I need to map something that's exponential to the entire real line."
+    },
+    {
+        "text": "I need a function that takes something positive and then tickets everyone."
+    },
+    {
+        "text": "So we'll see, by the end of this chapter, you will have 100 ways of doing this."
+    },
+    {
+        "text": "But there are some more traditional ones than other."
+    },
+    {
+        "text": "So before we go any further, I gave you this example of a Bernoulli random variable."
+    },
+    {
+        "text": "Let's see a few examples that actually fit there."
+    },
+    {
+        "text": "Yes?"
+    },
+    {
+        "text": "AUDIENCE 1 Will it come up later if we already know why the mean distribution is increasing entirely?"
+    },
+    {
+        "text": "Why can't we do it?"
+    },
+    {
+        "text": "PHILIPPE RIGOLLET Well, actually, this will not come up later."
+    }
+]

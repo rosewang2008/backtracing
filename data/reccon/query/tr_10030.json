@@ -1,0 +1,25 @@
+[
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "You mean I have the job ?",
+        "emotion": "surprise",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            9
+        ],
+        "expanded emotion cause span": [
+            "Can you start next week ?"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You mean I have the job ?",
+        "id": 12,
+        "source_sentences": [
+            8
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

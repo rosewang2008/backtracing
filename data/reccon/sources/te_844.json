@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Hi , I made a reservation for a mid-size vehicle . The name is Jimmy Fox .",
+        "emotion": "neutral",
+        "text": "Hi , I made a reservation for a mid-size vehicle . The name is Jimmy Fox .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "I ' m sorry , we have no mid-size available at the moment .",
+        "emotion": "neutral",
+        "text": "I ' m sorry , we have no mid-size available at the moment .",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I don ' t understand , I made a reservation , do you have my reservation ?",
+        "emotion": "neutral",
+        "text": "I don ' t understand , I made a reservation , do you have my reservation ?",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Yes , we do , unfortunately we ran out of cars .",
+        "emotion": "neutral",
+        "text": "Yes , we do , unfortunately we ran out of cars .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "But the reservation keeps the car here . That ' s why you have the reservation .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4
+        ],
+        "expanded emotion cause span": [
+            "unfortunately we ran out of cars ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "But the reservation keeps the car here . That ' s why you have the reservation .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I know why we have reservations .",
+        "emotion": "neutral",
+        "text": "I know why we have reservations .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "I don ' t think you do . If you did , I ' d have a car . See , you know how to take the reservation , you just don ' t know how to hold the reservation and that ' s really the most important part of the reservation , the holding . Anybody can just take them .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "unfortunately we ran out of cars .",
+            "you just don ' t know how to hold the reservation"
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "I don ' t think you do . If you did , I ' d have a car . See , you know how to take the reservation , you just don ' t know how to hold the reservation and that ' s really the most important part of the reservation , the holding . Anybody can just take them .",
+        "id": 7,
+        "source_sentences": [
+            3
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "But we do have a compact or an SUV if you ' d like .",
+        "emotion": "neutral",
+        "text": "But we do have a compact or an SUV if you ' d like .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "Fine . I ' ll take the compact .",
+        "emotion": "anger",
+        "flag": "F",
+        "expanded emotion cause evidence": [
+            4,
+            7
+        ],
+        "expanded emotion cause span": [
+            "unfortunately we ran out of cars .",
+            "you just don ' t know how to hold the reservation"
+        ],
+        "type": [
+            "hybrid"
+        ],
+        "text": "Fine . I ' ll take the compact .",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "Alright . We have a blue Ford Focus for you , Mr . Fox . Would you like insurance ?",
+        "emotion": "neutral",
+        "text": "Alright . We have a blue Ford Focus for you , Mr . Fox . Would you like insurance ?",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Yeah , you better give me the insurance , because I am gonna beat the hell out of this car .",
+        "emotion": "anger",
+        "expanded emotion cause evidence": [
+            4,
+            7,
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "unfortunately we ran out of cars .",
+            "you just don ' t know how to hold the reservation",
+            "Would you like insurance ?",
+            "I am gonna beat the hell out of this car ."
+        ],
+        "type": [
+            "no-context",
+            "hybrid"
+        ],
+        "text": "Yeah , you better give me the insurance , because I am gonna beat the hell out of this car .",
+        "id": 11
+    }
+]

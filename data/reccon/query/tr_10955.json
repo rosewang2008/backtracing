@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "Bottom is up .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            12
+        ],
+        "expanded emotion cause span": [
+            "Would you like some more ?",
+            "our friendship and health !"
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Bottom is up .",
+        "id": 13,
+        "source_sentences": [
+            9,
+            11
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

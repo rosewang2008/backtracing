@@ -1,0 +1,27 @@
+[
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "You are welcome .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            1,
+            7
+        ],
+        "expanded emotion cause span": [
+            "I am a new comer in our office .",
+            "It's very kind of you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are welcome .",
+        "id": 8,
+        "source_sentences": [
+            0,
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

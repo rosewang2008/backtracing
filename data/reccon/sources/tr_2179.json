@@ -1,0 +1,107 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Listen to this . Mary got married .",
+        "emotion": "neutral",
+        "text": "Listen to this . Mary got married .",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is she really ? I can ' t believe it !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Mary got married ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Is she really ? I can ' t believe it !",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "Yes . Yesterday .",
+        "emotion": "neutral",
+        "text": "Yes . Yesterday .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Good gracious . That ' s incredible !",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            1
+        ],
+        "expanded emotion cause span": [
+            "Mary got married ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Good gracious . That ' s incredible !",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "She married Jerrod .",
+        "emotion": "neutral",
+        "text": "She married Jerrod .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "You ' re kidding .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            5
+        ],
+        "expanded emotion cause span": [
+            "She married Jerrod ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You ' re kidding .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "She ' s going to live in Paris .",
+        "emotion": "neutral",
+        "text": "She ' s going to live in Paris .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Really ? I ' m surprised .",
+        "emotion": "surprise",
+        "expanded emotion cause evidence": [
+            7
+        ],
+        "expanded emotion cause span": [
+            "She ' s going to live in Paris ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "Really ? I ' m surprised .",
+        "id": 8,
+        "source_sentences": [
+            6
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    }
+]

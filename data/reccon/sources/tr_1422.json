@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 1,
+        "speaker": "A",
+        "utterance": "Belinda , I ' m going to a party tonight . What shall I wear ?",
+        "emotion": "neutral",
+        "text": "Belinda , I ' m going to a party tonight . What shall I wear ?",
+        "id": 1
+    },
+    {
+        "turn": 2,
+        "speaker": "B",
+        "utterance": "Is it formal or informal ?",
+        "emotion": "neutral",
+        "text": "Is it formal or informal ?",
+        "id": 2
+    },
+    {
+        "turn": 3,
+        "speaker": "A",
+        "utterance": "I guess it ' s formal .",
+        "emotion": "neutral",
+        "text": "I guess it ' s formal .",
+        "id": 3
+    },
+    {
+        "turn": 4,
+        "speaker": "B",
+        "utterance": "Then , you should dress well .",
+        "emotion": "neutral",
+        "text": "Then , you should dress well .",
+        "id": 4
+    },
+    {
+        "turn": 5,
+        "speaker": "A",
+        "utterance": "That ' s right .",
+        "emotion": "neutral",
+        "text": "That ' s right .",
+        "id": 5
+    },
+    {
+        "turn": 6,
+        "speaker": "B",
+        "utterance": "I think a white shirt with a blue tie looks nice on you .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "looks nice on you ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "I think a white shirt with a blue tie looks nice on you .",
+        "id": 6
+    },
+    {
+        "turn": 7,
+        "speaker": "A",
+        "utterance": "You are smart .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            6
+        ],
+        "expanded emotion cause span": [
+            "looks nice on you ."
+        ],
+        "type": [
+            "inter-personal"
+        ],
+        "text": "You are smart .",
+        "id": 7
+    },
+    {
+        "turn": 8,
+        "speaker": "B",
+        "utterance": "Of course , the sports shoes don ' t go with the formal occasions .",
+        "emotion": "neutral",
+        "text": "Of course , the sports shoes don ' t go with the formal occasions .",
+        "id": 8
+    },
+    {
+        "turn": 9,
+        "speaker": "A",
+        "utterance": "You are right . What kind of shoes should I wear ?",
+        "emotion": "neutral",
+        "text": "You are right . What kind of shoes should I wear ?",
+        "id": 9
+    },
+    {
+        "turn": 10,
+        "speaker": "B",
+        "utterance": "The brown leather shoes go well with your trousers .",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10
+        ],
+        "expanded emotion cause span": [
+            "leather shoes go well with your trousers ."
+        ],
+        "type": [
+            "no-context"
+        ],
+        "text": "The brown leather shoes go well with your trousers .",
+        "id": 10
+    },
+    {
+        "turn": 11,
+        "speaker": "A",
+        "utterance": "Good idea . Oh , by the way , would you please pick me up after the party , honey ?",
+        "emotion": "happiness",
+        "expanded emotion cause evidence": [
+            10,
+            11
+        ],
+        "expanded emotion cause span": [
+            "leather shoes go well with your trousers .",
+            "Good idea ."
+        ],
+        "type": [
+            "no-context",
+            "inter-personal"
+        ],
+        "text": "Good idea . Oh , by the way , would you please pick me up after the party , honey ?",
+        "id": 11,
+        "source_sentences": [
+            9
+        ],
+        "has_target": true,
+        "annotator": "ground_truth"
+    },
+    {
+        "turn": 12,
+        "speaker": "B",
+        "utterance": "It ' ll be too late ; you ' d better take a taxi .",
+        "emotion": "neutral",
+        "text": "It ' ll be too late ; you ' d better take a taxi .",
+        "id": 12
+    },
+    {
+        "turn": 13,
+        "speaker": "A",
+        "utterance": "OK .",
+        "emotion": "neutral",
+        "text": "OK .",
+        "id": 13
+    }
+]

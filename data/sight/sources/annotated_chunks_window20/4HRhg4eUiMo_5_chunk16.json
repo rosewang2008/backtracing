@@ -1,0 +1,62 @@
+[
+    {
+        "text": "This thing's actually, if you look at the back, you actually have a table for a standard Gaussian."
+    },
+    {
+        "text": "I could have anything else here."
+    },
+    {
+        "text": "I could have an exponential distribution."
+    },
+    {
+        "text": "I could have a, I don't know, a, well, we'll see the chi-square distribution in a minute."
+    },
+    {
+        "text": "Any distribution from which you can actually see a table that somebody actually computed this thing for which you can actually draw the PDF and start computing whatever probability you want on them, then this is what you want to see at the right-hand side."
+    },
+    {
+        "text": "This is any distribution."
+    },
+    {
+        "text": "It's called pivotal."
+    },
+    {
+        "text": "I think we've mentioned that before."
+    },
+    {
+        "text": "Pivotal means it does not depend on anything that you don't know."
+    },
+    {
+        "text": "And maybe it's easy to compute those things."
+    },
+    {
+        "text": "Probably, typically, you need a computer to simulate them for you because computing probabilities for Gaussians is not an easy thing."
+    },
+    {
+        "text": "We don't know how to solve those integrals exactly."
+    },
+    {
+        "text": "We have to do it numerically."
+    },
+    {
+        "text": "OK, so now I want to do this test."
+    },
+    {
+        "text": "My test statistic will be declared to be what?"
+    },
+    {
+        "text": "Well, I'm going to reject if what is larger than some number?"
+    },
+    {
+        "text": "The absolute value of this guy."
+    },
+    {
+        "text": "So my test statistic is going to be square root of n minus 0.5 divided by square root of xn bar 1 minus xn bar."
+    },
+    {
+        "text": "That's my test statistic, absolute value of this guy, because I want to reject either when this guy is too large or when this guy is too small."
+    },
+    {
+        "text": "I don't know ahead whether I'm going to see p larger than 1 half or less than 1 half."
+    }
+]
