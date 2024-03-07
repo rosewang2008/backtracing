@@ -1,6 +1,6 @@
 # Backtracing: Retrieving the Cause of the Query
 
-[Paper - TODO](), [Video - TODO]() 
+[Paper](https://arxiv.org/pdf/2403.03956.pdf), [Video](https://youtu.be/hjkFp4q9urA?si=-eioSFi-W89oJM8R) 
 
 **Authors:** Rose E. Wang, Pawan Wirawarn, Omar Khattab, Noah Goodman, Dorottya Demszky
 
