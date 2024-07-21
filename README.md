@@ -1,6 +1,12 @@
 # Backtracing: Retrieving the Cause of the Query
 
-[Paper](https://arxiv.org/pdf/2403.03956.pdf), [Video](https://youtu.be/hjkFp4q9urA?si=-eioSFi-W89oJM8R) 
+<p align="center" style="font-size: 1.5em;">
+    <a href="https://arxiv.org/pdf/2403.03956.pdf">Paper</a> •
+    <a href="https://huggingface.co/datasets/rose-e-wang/backtracing">HuggingFace</a> •
+    <a href="https://youtu.be/hjkFp4q9urA?si=-eioSFi-W89oJM8R">Video</a> •
+    <a href="#citation">Citation</a>
+</p>
+
 
 **Authors:** Rose E. Wang, Pawan Wirawarn, Omar Khattab, Noah Goodman, Dorottya Demszky
 
